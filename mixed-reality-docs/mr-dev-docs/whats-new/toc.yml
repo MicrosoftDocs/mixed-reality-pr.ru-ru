@@ -1,0 +1,21 @@
+# - name: Learn about Azure Services 
+- name: Приготовьтесь к выпуску нового решения Microsoft Edge
+  href: new-microsoft-edge.md
+- name: Программы и мероприятия
+  items:
+    - name: Серия докладов по смешанной реальности
+      href: sf-academy-events.md
+    - name: Mixed Reality Dev Days
+      items:
+        - name: Mixed Reality Dev Days
+          href: mr-dev-days.md
+        - name: Записи выступлений
+          href: mr-dev-days-sessions.md
+- name: Заметки о текущем выпуске Смешанной реальности
+  href: release-notes-may-2020.md
+- name: Ресурсы сообщества
+  href: ../discover/community.md
+- name: Участие в разработке этой документации
+  href: contributing.md
+- name: Развертывание HoloLens в большом масштабе
+  href: 'https://docs.microsoft.com/hololens/'
