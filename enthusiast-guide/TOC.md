@@ -43,8 +43,7 @@
 ### [WebVR](webvr-questions.md)
 ### [Другие вопросы](other-questions.md)
 
-## Приложение
+## Ресурсы
 ### [Отправка сведений об ошибках и отзывов](filing-feedback.md)
 ### [Обзор программного обеспечения смешанной реальности и история выпусков](mixed-reality-software.md)
-### [Как работают контроллеры движений](motion-controllers.md)
 ### [Как работает отслеживание Inside-out](tracking-system.md)
