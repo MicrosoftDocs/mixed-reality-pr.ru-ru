@@ -8,12 +8,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, гарнитура, установка, начало работы
 appliesto:
 - Windows 10
-ms.openlocfilehash: 46b40a09c88013515911026cbd03a6fc6d19e1ca
-ms.sourcegitcommit: 2cdc2e38990fff24972d98f9e74f0dabacbffa7d
+ms.openlocfilehash: 16c06e14566671e44b1424447b02493ba1ff1a83
+ms.sourcegitcommit: d8f39c0b95d9e61d645d64f27baabc7a1c300dc1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "92153502"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "92292974"
 ---
 # <a name="plug-in-your-headset"></a>Подключение гарнитуры
 
@@ -32,13 +32,14 @@ ms.locfileid: "92153502"
 Если вы не приобрели гарнитуру Samsung ХМД Одиссэй, HP REVERB или HP REVERB G2 (которая имеет интегрированные АКГные Наушники и интегрированный микрофон с двумя массивами), вам потребуется подключить наушники (предпочтительно с встроенным микрофоном), который можно подключить к звуковой розетке 3,5 мм вашей гарнитуры.
 
 ## <a name="common-issues"></a>Распространенные проблемы
+
 * Вы подключены к кабелю HDMI перед подключением кабеля USB 3,0.  Убедитесь, что вы подключаете кабель USB 3,0 **перед** подключением кабеля HDMI.
 * Вы подключили адаптер Bluetooth рядом с USB-кабелем ХМД.  При использовании адаптера **Bluetooth не следует подключать USB** -кабель гарнитуры рядом с этим адаптером, так как результирующие радиопомехи могут негативно повлиять на производительность Bluetooth.
 * Вы подключаете кабель HDMI к порту ИГПУ HDMI вместо порта ДГПУ HDMI (для компьютеров с обоими). Некоторые настольные компьютеры имеют как встроенный графический процессор (ИГПУ), так и дискретный графический процессор (ДГПУ), и часто порты ИГПУ будут отключены. Если на вашем компьютере есть ДГПУ, гарнитура должна быть подключена к ДГПУ.  
-* Если у компьютера нет порта HDMI, может потребоваться адаптер. [Полный список рекомендуемых адаптеров](recommended-adapters-for-windows-mixed-reality-capable-pcs.md)см. здесь. 
+* Если у компьютера нет порта HDMI, может потребоваться адаптер. [Полный список рекомендуемых адаптеров](recommended-adapters-for-windows-mixed-reality-capable-pcs.md)см. здесь.
 * Вы подключаете гарнитуру к устройству Surface. Ознакомьтесь [с использованием Surface с Windows Mixed Reality](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md#windows-mixed-reality-and-surface).
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 * [Устранение неполадок подключения гарнитуры](headset-connectivity.md)
 * [Установка Windows Mixed Reality](install-windows-mixed-reality.md)
