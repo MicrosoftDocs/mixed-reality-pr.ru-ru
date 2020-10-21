@@ -14,7 +14,6 @@
 ### [Установка Windows Mixed Reality](install-windows-mixed-reality.md)
 ### [Настройка Windows Mixed Reality](set-up-windows-mixed-reality.md)
 ### [Вопросы и ответы по настройке Windows Mixed Reality](wmr-setup-faq.md)
-### [Вопросы здоровья, безопасности и комфорта при использовании иммерсивной гарнитуры](wmr-health-safety-comfort.md)
 
 ## Использование Windows Mixed Reality
 ### [Знакомство со смешанной реальностью](learn-mixed-reality.md)
@@ -28,6 +27,7 @@
 ### [Вопросы и ответы по использованию Windows Mixed Reality](using-wmr-faq.md)
 
 ## Часто задаваемые вопросы об устранении неполадок
+### [Отправка сведений об ошибках и отзывов](filing-feedback.md)
 ### [Общие вопросы и ответы](troubleshooting-windows-mixed-reality.md)
 ### [Ошибки установки](installation_errors.md)
 ### [Установка](set-up-questions.md)
@@ -44,6 +44,6 @@
 ### [Другие вопросы](other-questions.md)
 
 ## Ресурсы
-### [Отправка сведений об ошибках и отзывов](filing-feedback.md)
+### [Вопросы здоровья, безопасности и комфорта при использовании иммерсивной гарнитуры](wmr-health-safety-comfort.md)
 ### [Обзор программного обеспечения смешанной реальности и история выпусков](mixed-reality-software.md)
 ### [Как работает отслеживание Inside-out](tracking-system.md)
