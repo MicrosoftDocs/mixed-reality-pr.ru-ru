@@ -7,12 +7,12 @@ ms.date: 08/03/2020
 ms.topic: article
 keywords: Портал устройств Windows, HoloLens
 ms.localizationpriority: high
-ms.openlocfilehash: 398b9ee312c8d49e3468980e5e2c1be556c17162
-ms.sourcegitcommit: 252b52f7541a6e15aa33322286855af8a3924fc1
+ms.openlocfilehash: 98030e55736d423d1fb84d2b965f6ed40246d8f4
+ms.sourcegitcommit: 9c88703a832fb8ca8476e808499d06239ea5d2cd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91862992"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "92011465"
 ---
 # <a name="using-the-windows-device-portal"></a>Использование портала устройств Windows
 
@@ -374,3 +374,20 @@ ms.locfileid: "91862992"
 ## <a name="device-portal-rest-apis"></a>Интерфейсы REST API для портала устройств
 
 Весь портал устройств построен на [интерфейсах REST API](device-portal-api-reference.md), которые можно при желании использовать для получения доступа к данным и программного управления устройством.
+
+## <a name="troubleshooting"></a>Устранение неполадок
+
+### <a name="how-to-fix-the-its-lonely-here-message"></a>Исправление ошибки, из-за которой появляется сообщение "Здесь ничего нет"
+
+> [!NOTE]
+> Переход с HoloLens 2 на HoloLens (1-го поколения) может привести к отображению пустых страниц, если сначала использовалась версия HoloLens 2, а не HoloLens 1-го поколения.
+
+![Сообщение "Здесь ничего нет" на странице портала устройств](images/using-windows-portal-img-19.png)
+
+1. В меню слева сверху выберите **Сбросить макет**.
+
+![Выбор элемента "Сбросить макет" в меню портала устройств](images/using-windows-portal-img-20.png)
+
+2. Щелкните **Сбросить макет** под заголовком **Reset workspace** (Сброс рабочей области). Страница портала автоматически обновится, и на ней отобразится содержимое.
+
+![Выбор элемента "Сбросить макет" на странице сброса настроек рабочей области](images/using-windows-portal-img-21.png)

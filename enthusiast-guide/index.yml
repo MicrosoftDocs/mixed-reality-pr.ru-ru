@@ -1,0 +1,49 @@
+### YamlMime:Hub
+title: 'Windows Mixed Reality: документация по виртуальной реальности'
+summary: Сведения о том, как максимально эффективно использовать Windows Mixed Reality, для продвинутых и опытных пользователей.
+brand: windows
+metadata:
+  title: 'Windows Mixed Reality: документация по виртуальной реальности'
+  description: Сведения о том, как максимально эффективно использовать Windows Mixed Reality, для продвинутых и опытных пользователей.
+  services: guidance
+  ms.service: guidance
+  ms.topic: hub-page
+  ms.prod: mixed-reality
+  ms.technology: enthusiast-guide
+  author: mattwojo
+  ms.author: mattwoj
+  ms.openlocfilehash: b791970df40711c298501b2db09cff8ec342de8a
+  ms.sourcegitcommit: 5eb27475f8616c9d4f95b4b386a5bd0d22f41125
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 10/19/2020
+  ms.locfileid: "92174389"
+highlightedContent:
+  items:
+  - title: Перед покупкой
+    itemType: learn
+    url: windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md
+  - title: Начало работы
+    itemType: get-started
+    url: before-you-start.md
+  - title: Знакомство со смешанной реальностью
+    itemType: how-to-guide
+    url: learn-mixed-reality.md
+  - title: Windows Mixed Reality Academy
+    itemType: video
+    url: https://developer.microsoft.com/en-us/windows/mixed-reality/academy
+additionalContent:
+  sections:
+  - title: Дополнительные ресурсы
+    summary: Здесь вы найдете ссылки на статьи по устранению неполадок, документацию по разработке и форумы.
+    items:
+    - title: Диагностика
+      summary: Устранение различных неполадок с Windows Mixed Reality.
+      url: installation_errors.md
+    - title: Отзывы
+      summary: Изучите статьи о Windows Mixed Reality — от возможностей отправки отзывов до принципов работы подсистем.
+      url: filing-feedback.md
+    - title: Документация по разработке
+      summary: Документация по разработке и проектированию
+      url: https://developer.microsoft.com/windows/mixed-reality
+  footer: Обнаружили ошибку на нашем сайте? [Поделитесь своим мнением!](https://forums.hololens.com/categories/using-windows-mixed-reality)
