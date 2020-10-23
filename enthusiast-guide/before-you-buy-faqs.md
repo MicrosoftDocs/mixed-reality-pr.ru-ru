@@ -8,12 +8,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, предварительная продажа, исследование, покупка, перед покупкой
 appliesto:
 - Windows 10
-ms.openlocfilehash: de697bc7002ab342241acc2bdc989a3e1e397632
-ms.sourcegitcommit: d8f39c0b95d9e61d645d64f27baabc7a1c300dc1
+ms.openlocfilehash: b665d0d84f511ae5e6383c5d4b5aadea400b2033
+ms.sourcegitcommit: 55a6a0b481238e7a2e3278a51583b6bda0eb259a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "92293032"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92434617"
 ---
 # <a name="frequently-asked-questions"></a>Часто задаваемые вопросы
 
@@ -31,15 +31,11 @@ ms.locfileid: "92293032"
 
 ### <a name="which-manufacturers-are-selling-windows-mixed-reality-devices"></a>Какие производители продают устройства Windows Mixed Reality?
 
-**Быстрый ответ:** Гарнитуры и контроллеры движения в настоящее время доступны от держателей, ASUS, Samsung и HP. См. раздел <https://www.microsoft.com/en-us/mixed-reality/windows-mixed-reality?icid=ARVRcat_Feature1_WMRIntro>.
+**Быстрый ответ:** Гарнитуры и контроллеры движения в настоящее время доступны в HP. См. раздел <https://www.microsoft.com/en-us/mixed-reality/windows-mixed-reality?icid=ARVRcat_Feature1_WMRIntro>
 
 ### <a name="where-can-i-buy-standalone-motion-controllers"></a>Где можно купить автономные контроллеры движения?
 
 **Быстрый ответ:** К сожалению, в настоящее время мы не осведомлены о розничных продавцах, продающих автономные контроллеры движения.
-
-### <a name="what-is-the-price-point"></a>Что такое ценовая точка?
-
-**Быстрый ответ:** Цены на гарнитуру и контроллеры зависят от производителя и розничной торговли. См <https://www.microsoft.com/en-us/mixed-reality/windows-mixed-reality?icid=ARVRcat_Feature1_WMRIntro> . статью для устройств смешанной реальности в настоящее время для продажи от корпорации Майкрософт.
 
 ### <a name="what-is-the-difference-between-a-windows-mixed-reality-pc-and-a-windows-mixed-reality-ultra-pc"></a>В чем разница между компьютерами с Windows Mixed Reality и компьютером Windows Mixed Reality?
 
@@ -47,7 +43,7 @@ ms.locfileid: "92293032"
 
 ### <a name="why-is-this-called-windows-mixed-reality-when-the-devices-look-like-they-provide-a-virtual-reality-experience"></a>Почему это называется Windows "Mixed Reality", когда устройства выглядят так, как они обеспечивают работу "Virtual Reality"?
 
-**Быстрый ответ:** Смешанная реальность относится к полному спектру пространственных вычислений, от дополнений и голограмм к Virtual Reality. Платформа Microsoft Mixed Reality поддерживает как виртуальную реальность, так и дополненную реальность. В настоящее время поддерживаются два типа устройств с аналогичной технологией в таких спектрах: HoloLens (AR) и Windows Mixed Reality (VR) с контроллерами движения.
+**Быстрый ответ:** Смешанная реальность относится к полному спектру пространственных вычислений, от дополнений и голограмм к Virtual Reality. Платформа Windows Mixed Reality поддерживает устройства в виртуальной реальности (VR) и дополненной реальности (AR). В настоящее время поддерживаются два типа устройств с аналогичной технологией в таких спектрах: HoloLens (AR) и Windows Mixed Reality (VR) с контроллерами движения.
 
 Дополнительные сведения о смешанной реальности см. здесь: <https://docs.microsoft.com/windows/mixed-reality/mixed-reality>
 
@@ -61,7 +57,7 @@ ms.locfileid: "92293032"
 
 **Быстрый ответ:** Нет, цифровые камеры на гарнитурах Windows Mixed Reality используются только для позиционированного отслеживания. Гарнитуры Windows Mixed Reality — это перекрыто, то есть они предназначены для Virtual Reality и не предоставляют представления о реальной или дополненной реальности. 
 
-### <a name="what-is-inside-out-tracking-how-is-it-different-than-outside-in-tracking-or-lighthouse-tracking"></a>Что такое отслеживание в посередине? Чем она отличается от отслеживаний за пределами или отслеживанием Лигхсаусе?
+### <a name="what-is-inside-out-tracking-how-is-it-different-than-outside-in-tracking-or-lighthouse-tracking"></a>Что такое отслеживание в посередине? Чем она отличается от отслеживаний за пределами или отслеживанием лигхсаусе?
 
 * **Внутреннее отслеживание** В Windows Mixed Reality используется внутреннее отслеживание. Встроенные камеры отслеживания встроены в гарнитуру и отслеживают изменения в среде, чтобы определить положение головных телефонов относительно среды по мере движения.
 
@@ -71,7 +67,7 @@ ms.locfileid: "92293032"
 
 ### <a name="can-inside-out-tracking-of-motion-controllers-impact-my-game-play-due-to-camera-fov"></a>Может ли внутреннее отслеживание контроллеров Motion повлиять на игру игры из-за фов камеры?
 
- Как и гарнитуры, контроллеры движения Windows Mixed Reality не нуждаются в настройке внешних датчиков отслеживания. Вместо этого контроллеры прописываются датчиками в самой гарнитуре. Если пользователь перемещает контроллеры из поля зрения гарнитуры, в большинстве случаев Windows будет по прежнему вычислять позиции контроллера и предоставлять их приложению. Когда контроллер потеряет Визуальное отслеживание на достаточно длинном уровне, позиции контроллера будут отбрасываться на позиции приблизительной точности. На этом этапе система будет блокировать контроллер для пользователя, отслеживая положение пользователя по мере его перемещения, сохраняя при этом ориентацию на уровне true, используя внутренние датчики ориентации. Многие приложения, использующие контроллеры для указания и активации элементов пользовательского интерфейса, могут нормально работать при приближенной точности, не выполняя при этом пользователя даже. Лучший способ сделать это — попробовать. Попробуйте посетить магазин Майкрософт рядом с вами и ознакомьтесь с ним! В то же время вот видеоролик с примерами впечатляющих материалов, которые работают с контроллерами движения в различных состояниях отслеживания:
+ Как и гарнитуры, контроллеры движения Windows Mixed Reality не нуждаются в настройке внешних датчиков отслеживания. Вместо этого контроллеры прописываются датчиками в самой гарнитуре. Если пользователь перемещает контроллеры из поля зрения гарнитуры, в большинстве случаев Windows будет по прежнему вычислять позиции контроллера и предоставлять их приложению. Когда контроллер потеряет Визуальное отслеживание на достаточно длинном уровне, позиции контроллера будут отбрасываться на позиции приблизительной точности. На этом этапе система будет блокировать контроллер для пользователя, отслеживая положение пользователя по мере его перемещения, сохраняя при этом ориентацию на уровне true, используя внутренние датчики ориентации. Многие приложения, использующие контроллеры для указания и активации элементов пользовательского интерфейса, могут нормально работать при приближенной точности, не выполняя при этом пользователя даже. Лучший способ сделать это — попробовать.
 
 ### <a name="how-is-windows-mixed-reality-different-from-samsung-gear-vr"></a>Чем Windows Mixed Reality отличается от Samsung шестеренка VR?
 
@@ -103,7 +99,7 @@ ms.locfileid: "92293032"
 <td> До 90Hz </td>
 <td> 100 ° </td>
 <td> разъем 3,5 мм </td>
-<td> None </td>
+<td> Отсутствуют </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://www.acer.com/ac/en/US/content/windows-mixed-reality-home">Асер</a> </td>
@@ -129,7 +125,7 @@ ms.locfileid: "92293032"
 <td> До 90Hz </td>
 <td> 95 ° </td>
 <td> разъем 3,5 мм </td>
-<td> None </td>
+<td> Отсутствуют </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://www.asus.com/us/Headset/ASUS-Windows-Mixed-Reality-Headset-HC102/">АДАПТЕР</a> </td>
@@ -142,7 +138,7 @@ ms.locfileid: "92293032"
 <td> До 90Hz </td>
 <td> 105 ° </td>
 <td> разъем 3,5 мм </td>
-<td> None </td>
+<td> Отсутствуют </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://www.dell.com/en-us/shop/accessories/apd/536-bbbr?~ck=mn">Оборудования</a> </td>
@@ -155,7 +151,7 @@ ms.locfileid: "92293032"
 <td> До 90Hz </td>
 <td> 105 ° </td>
 <td> разъем 3,5 мм </td>
-<td> None </td>
+<td> Отсутствуют </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="http://pr.fujitsu.com/jp/news/2017/10/17.html">Fujitsu</a> </td>
@@ -181,7 +177,7 @@ ms.locfileid: "92293032"
 <td> До 90Hz </td>
 <td> 105 ° </td>
 <td> разъем 3,5 мм </td>
-<td> None </td>
+<td> Отсутствуют </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://store.hp.com/us/en/pdp/hp-windows-mixed-reality-headset-vr1000-100">КОМПАНИИ</a> </td>
@@ -194,7 +190,7 @@ ms.locfileid: "92293032"
 <td> До 90Hz </td>
 <td> 105 ° </td>
 <td> разъем 3,5 мм </td>
-<td> None </td>
+<td> Отсутствуют </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/virtual-and-augmented-reality/lenovo-explorer/Lenovo-Explorer/p/G10NREAG0A2">Адаптер</a> </td>
@@ -207,7 +203,7 @@ ms.locfileid: "92293032"
 <td> До 90Hz </td>
 <td> 105 ° </td>
 <td> разъем 3,5 мм </td>
-<td> None </td>
+<td> Отсутствуют </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://www.medion.com/be/shop/monitoren-medion-erazer-mr-x1000-vr-headset-controllers-30023616a1.html">медион</a> </td>
@@ -220,7 +216,7 @@ ms.locfileid: "92293032"
 <td> До 90Hz </td>
 <td> 110 ° </td>
 <td> Интегрированная </td>
-<td> None </td>
+<td> Отсутствуют </td>
 <td style="text-align: center;">Машин</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://www.samsung.com/us/computing/hmd/windows-mixed-reality/xe800zaa-hc1us-xe800zaa-hc1us/?redir=windows%20mixed%20reality">Samsung</a> </td>
@@ -246,7 +242,7 @@ ms.locfileid: "92293032"
 <td> До 90Hz </td>
 <td> 105 ° </td>
 <td> разъем 3,5 мм </td>
-<td> None </td>
+<td> Отсутствуют </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="http://3glasses.com/goods.action?gid=30">3Glasses</a> </td>
@@ -307,7 +303,7 @@ ms.locfileid: "92293032"
 
 ### <a name="does-the-windows-mixed-reality-platform-support-rift-and-vive-hardware"></a>Поддерживает ли платформа Windows Mixed Reality оборудование Рифт и Naopak?
 
-**Быстрый ответ:** Windows Mixed Reality будет работать только с утвержденными гарнитурами и контроллерами Windows Mixed Reality. См. раздел <https://www.microsoft.com/en-us/store/b/virtualreality>.
+**Быстрый ответ:** Windows Mixed Reality будет работать только с утвержденными гарнитурами и контроллерами Windows Mixed Reality. См. раздел <https://www.microsoft.com/en-us/store/b/virtualreality>
 
 ## <a name="motion-controllers"></a>Контроллеры движения
 
@@ -315,7 +311,7 @@ ms.locfileid: "92293032"
 
 **Быстрый ответ:** Контроллеры движения Windows Mixed Reality используют Bluetooth. В зависимости от гарнитуры контроллеры движения соотносятся к радиостанции Bluetooth на гарнитуре (если она оснащена) или к радиостанции Bluetooth на компьютере.
 
-* Некоторые гарнитуры Windows Mixed Reality, включая головной элемент ОЖО 500, Samsung Одиссэй + и HP REVERB, встроенные радиомодули Bluetooth для использования с контроллерами движения. Контроллеры Motion, поступающие с этими гарнитурами, предварительно связаны с гарнитурой фабрики и не используют отдельный радиомодуль Bluetooth для ПК.
+* Некоторые гарнитуры Windows Mixed Reality, включая головной элемент ОЖО 500, Samsung Одиссэй +, HP Reverb и HP REVERB G2, встроенные радиомодули Bluetooth для использования с контроллерами движения. Контроллеры Motion, поступающие с этими гарнитурами, предварительно связаны с гарнитурой фабрики и не используют отдельный радиомодуль Bluetooth для ПК.
 * Другие гарнитуры Windows Mixed Reality необходимо связать с радиостанции Bluetooth на компьютере.
 
 ### <a name="are-windows-mixed-reality-motion-controllers-cross-compatible-between-windows-mixed-reality-headsets"></a>Являются ли контроллеры движения Windows Mixed Reality совместимыми между гарнитурами Windows Mixed Reality?
@@ -336,11 +332,11 @@ ms.locfileid: "92293032"
 
 ### <a name="will-windows-mixed-reality-work-with-my-oculus-touch-controllers-or-htc-vive-headsets--controllers"></a>Будет ли Windows Mixed Reality работать с моим Окулус сенсорными контроллерами или с Naopakами и головными гарнитурами или контроллерами HTC.
 
-**Быстрый ответ:** Нет, Windows Mixed Reality будет работать только с утвержденными гарнитурами и контроллерами. См. раздел <https://www.microsoft.com/en-us/store/collections/VRandMixedrealityheadsets>.
+**Быстрый ответ:** Нет, Windows Mixed Reality будет работать только с утвержденными гарнитурами и контроллерами. См. раздел <https://www.microsoft.com/en-us/store/collections/VRandMixedrealityheadsets>
 
 ### <a name="will-windows-mixed-reality-work-with-my-steamvr-knuckle-controllers"></a>Будет ли Windows Mixed Reality работать с моим контроллером Стеамвр Кнуккле?
 
-**Быстрый ответ:** Нет, Windows Mixed Reality будет работать только с утвержденными гарнитурами и контроллерами. См. раздел <https://www.microsoft.com/en-us/store/collections/VRandMixedrealityheadsets>.
+**Быстрый ответ:** Нет, Windows Mixed Reality будет работать только с утвержденными гарнитурами и контроллерами. См. раздел <https://www.microsoft.com/en-us/store/collections/VRandMixedrealityheadsets>
 
 ### <a name="will-windows-mixed-reality-support-my-xbox-one-controller-with-the-wireless-xbox-adapter"></a>Будет ли Windows Mixed Reality поддерживать мой контроллер Xbox One с беспроводным адаптером Xbox?
 

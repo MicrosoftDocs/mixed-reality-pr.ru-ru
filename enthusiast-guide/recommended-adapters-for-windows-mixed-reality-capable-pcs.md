@@ -8,12 +8,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, адаптер, аппаратный ключ, HDMI, USB, Дисплайпорт
 appliesto:
 - Windows 10
-ms.openlocfilehash: bcdc25c0f6e678666a713d01aaa4fb15da31e90c
-ms.sourcegitcommit: 5eb27475f8616c9d4f95b4b386a5bd0d22f41125
+ms.openlocfilehash: ea0cd3c87fecda310ec72ba50d8f5982d1782b31
+ms.sourcegitcommit: 55a6a0b481238e7a2e3278a51583b6bda0eb259a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92174406"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92434590"
 ---
 # <a name="recommended-adapters"></a>Рекомендуемые адаптеры
 > [!NOTE]
@@ -78,7 +78,7 @@ ms.locfileid: "92174406"
     <td style="text-align: center;  vertical-align: middle; border: 1px solid black">✔️</td><td style="text-align: center;  vertical-align: middle; border: 1px solid black"> -</td>
     <td style="text-align: center;  vertical-align: middle; border: 1px solid black"> -</td><td style="text-align: center;  vertical-align: middle; border: 1px solid black"> -</td>
     <td style="text-align: center;  vertical-align: middle; border: 1px solid black">✔️</td><td style="text-align: center;  vertical-align: middle; border: 1px solid black"> -</td>
-    <td style="border: 1px solid black">None</td>
+    <td style="border: 1px solid black">Отсутствуют</td>
   </tr>
   <tr style="border: 1px solid black">
     <td style="text-align: center;  vertical-align: middle; border: 1px solid black">✔️</td>
@@ -165,7 +165,7 @@ ms.locfileid: "92174406"
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black">✔️</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
-    <td style="border: 1px solid black;">None</td>
+    <td style="border: 1px solid black;">Отсутствуют</td>
 </tr>
   <tr style="border: 1px solid black;">
     <td style="text-align: center; vertical-align: middle; border: 1px solid black">✔️</td>
@@ -185,7 +185,7 @@ ms.locfileid: "92174406"
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black">✔️</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
-    <td style="border: 1px solid black;">None</td>
+    <td style="border: 1px solid black;">Отсутствуют</td>
   </tr>
   <tr style="border: 1px solid black;">
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
@@ -263,7 +263,7 @@ ms.locfileid: "92174406"
 
 Если ваша гарнитура была выпущена после 2018, адаптеры не нужны и не будут подключены к гарнитуре.
 
-Устройствам, поставляемым в 2017 или более ранней версии, требуется адаптер для контроллеров. Если ваш компьютер не включает Bluetooth для связывания [контроллеров движения Windows Mixed Reality](controllers-in-wmr.md), можно использовать такой адаптер, как ПОДКЛЮЧАЕМЫЙ USB-адаптер Bluetooth 4,0 с низким энергопотреблением.
+Устройствам, поставляемым в 2017 или более ранней версии, требуется адаптер для контроллеров. Если ваш компьютер не включает Bluetooth для связывания [контроллеров движения Windows Mixed Reality](controllers-in-wmr.md#Pair-motion-controllers), можно использовать такой адаптер, как ПОДКЛЮЧАЕМЫЙ USB-адаптер Bluetooth 4,0 с низким энергопотреблением.
 
 > [!NOTE]
 > Корпорация Майкрософт не дает, не проверяет и не гарантирует возможности, надежность и качество работы любого адаптера. Для устранения вопросов, проблем с любыми адаптерами следует обратиться к продавцу или изготовителю адаптера.
@@ -278,6 +278,6 @@ ms.locfileid: "92174406"
 * Концентратор USB 3,0 должен быть оснащен внешним (имеется адаптер питания, обеспечивающий дополнительное питание).
 * Высокоскоростной концентратор USB 3,0 с адаптером питания 48W хорошо работает с гарнитурами Windows Mixed Reality и большинством компьютеров.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 * [Устранение неполадок подключения гарнитуры](headset-connectivity.md)
 * [Минимальные рекомендации по совместимости Windows Mixed Reality с оборудованием ПК](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md)

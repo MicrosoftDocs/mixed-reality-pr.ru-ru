@@ -3,12 +3,12 @@ title: Как работает отслеживание Inside-out
 description: Сведения о внутренней системе отслеживания на основе камеры, используемой в гарнитурах Windows Mixed Reality.
 ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, внутренняя, внутренняя, отслеживаемая, Камера
-ms.openlocfilehash: a91b5fba399e9bb328fd579811a64aee03b49efd
-ms.sourcegitcommit: 5eb27475f8616c9d4f95b4b386a5bd0d22f41125
+ms.openlocfilehash: eda1b323915788f72ae6f4a2efcf51850734eac9
+ms.sourcegitcommit: 55a6a0b481238e7a2e3278a51583b6bda0eb259a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92174333"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92434599"
 ---
 # <a name="inside-out-tracking"></a>Внутреннее отслеживание
 
@@ -70,8 +70,8 @@ ms.locfileid: "92174333"
 
 Система отслеживания хранит некоторые данные среды, чтобы они могли отозвать реальное физическое расположение таких объектов, как границы безопасности. Эти сведения, включая границы безопасности, можно удалить в любое время. Если эта информация будет удалена, система больше не будет распознавать ваше пространство или иметь возможность отзывать ваши границы безопасности. Если вы хотите использовать границы безопасности после очистки данных среды, потребуется настроить их снова. См. раздел о [настройке границы](set-up-windows-mixed-reality.md#set-up-your-room-boundary) для настройки новой границы. Чтобы удалить все эти данные, откройте параметры, перейдите в "Mixed Reality" и выберите раздел "среда" в боковом меню слева. Нажмите кнопку с надписью "очистить данные среды", чтобы удалить все окружения и данные отслеживания.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 * [Устранение неполадок системы отслеживания](tracking.md)
-* [Как работают контроллеры движений](controller-in-wmr.md)
+* [Контроллеры движения](controller-in-wmr.md)
 * [Ваш дом с Windows Mixed Reality](your-mixed-reality-home.md)
 * [Использование игр и приложений в Windows Mixed Reality](using-games-and-apps-in-windows-mixed-reality.md)
