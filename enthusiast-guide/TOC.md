@@ -16,14 +16,14 @@
 ### [Вопросы и ответы по настройке Windows Mixed Reality](wmr-setup-faq.md)
 
 ## Использование Windows Mixed Reality
-### [Знакомство со смешанной реальностью](learn-mixed-reality.md)
-### [Ваш дом с Windows Mixed Reality](your-mixed-reality-home.md)
+### [Опыт обучения опыт в смешанной реальности](learn-mixed-reality.md)
+### [Ваш дом в смешанной реальности](your-mixed-reality-home.md)
 ### [Контроллеры в Windows Mixed Reality](controllers-in-wmr.md)
 ### [Использование речевого ввода](using-speech-in-wmr.md)
-### [Игры, 360-градусные видео и приложения](using-games-and-apps-in-windows-mixed-reality.md)
-### [SteamVR](using-steamvr-with-windows-mixed-reality.md)
-### [Использование Microsoft Edge](using-microsoft-edge.md)  
-### [WebVR](webvr.md)
+### [Использование игр, 360-градусных видео и приложений](using-games-and-apps-in-windows-mixed-reality.md)
+### [Использование SteamVR](using-steamvr-with-windows-mixed-reality.md)
+### [Использование Microsoft Edge](using-microsoft-edge.md)
+### [Что такое WebVR](webvr.md)
 ### [Вопросы и ответы по использованию Windows Mixed Reality](using-wmr-faq.md)
 
 ## Часто задаваемые вопросы об устранении неполадок
