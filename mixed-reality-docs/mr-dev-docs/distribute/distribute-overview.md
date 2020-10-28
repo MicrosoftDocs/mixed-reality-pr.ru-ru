@@ -13,6 +13,6 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/27/2020
 ms.locfileid: "92638521"
 ---
-# <a name="distribution-overview"></a><span data-ttu-id="1ae19-104">Общие сведения о распределении</span><span class="sxs-lookup"><span data-stu-id="1ae19-104">Distribution overview</span></span>
+# <a name="distribution-overview"></a><span data-ttu-id="8ab7a-104">Общие сведения о распределении</span><span class="sxs-lookup"><span data-stu-id="8ab7a-104">Distribution overview</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="1ae19-105">См. также</span><span class="sxs-lookup"><span data-stu-id="1ae19-105">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8ab7a-105">См. также</span><span class="sxs-lookup"><span data-stu-id="8ab7a-105">See also</span></span>

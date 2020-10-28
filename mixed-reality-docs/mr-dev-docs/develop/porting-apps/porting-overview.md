@@ -13,6 +13,6 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/27/2020
 ms.locfileid: "92638501"
 ---
-# <a name="porting-overview"></a><span data-ttu-id="93208-104">Общие сведения о переносе</span><span class="sxs-lookup"><span data-stu-id="93208-104">Porting overview</span></span>
+# <a name="porting-overview"></a><span data-ttu-id="8b083-104">Общие сведения о переносе</span><span class="sxs-lookup"><span data-stu-id="8b083-104">Porting overview</span></span>
 
-<span data-ttu-id="93208-105">[//Тодо: требуется изображение заголовка]</span><span class="sxs-lookup"><span data-stu-id="93208-105">[//TODO: Need header image]</span></span>
+<span data-ttu-id="8b083-105">[//Тодо: требуется изображение заголовка]</span><span class="sxs-lookup"><span data-stu-id="8b083-105">[//TODO: Need header image]</span></span>
