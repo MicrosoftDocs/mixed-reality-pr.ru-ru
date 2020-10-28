@@ -1,0 +1,19 @@
+# - name: Overview 
+- name: Средства запуска трехмерных приложений
+  items:
+    - name: Руководство по проектированию
+      href: 3d-app-launcher-design-guidance.md
+    - name: Создание трехмерных моделей для использования в домашних условиях
+      href: creating-3d-models-for-use-in-the-windows-mixed-reality-home.md
+    - name: Реализация средств запуска трехмерных приложений
+      items:
+        - name: Приложения UWP
+          href: implementing-3d-app-launchers.md
+        - name: приложения Win32;
+          href: implementing-3d-app-launchers-win32.md
+    - name: Поддержка размещения трехмерных моделей в доме со смешанной реальностью
+      href: enable-placement-of-3d-models-in-the-home.md
+- name: Покупки из приложений
+  href: in-app-purchases.md
+- name: Отправка приложения в Microsoft Store
+  href: submitting-an-app-to-the-microsoft-store.md
