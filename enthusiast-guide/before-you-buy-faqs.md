@@ -8,12 +8,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, предварительная продажа, исследование, покупка, перед покупкой
 appliesto:
 - Windows 10
-ms.openlocfilehash: b665d0d84f511ae5e6383c5d4b5aadea400b2033
-ms.sourcegitcommit: 55a6a0b481238e7a2e3278a51583b6bda0eb259a
+ms.openlocfilehash: a38b6ed8625fbb419ad24f2e27acec881d7b85a7
+ms.sourcegitcommit: ea7d806c9aa88d1295493a25f47e58bb72a4000a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92434617"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "92907446"
 ---
 # <a name="frequently-asked-questions"></a>Часто задаваемые вопросы
 
@@ -21,17 +21,17 @@ ms.locfileid: "92434617"
 
 ### <a name="where-can-i-buy-a-windows-mixed-reality-ready-pc-or-headset"></a>Где можно купить готовый ПК или гарнитуру Windows Mixed Reality?
 
-**Быстрый ответ:** Вы можете приобрести готовый компьютер или гарнитуру Windows Mixed Reality на утвержденном местном продавце или в сети из различных розничных продавцов, включая Microsoft Store. Найдите готовый ПК или гарнитуру Windows Mixed Reality в Интернете: <https://www.microsoft.com/en-us/mixed-reality/windows-mixed-reality?icid=ARVRcat_Feature1_WMRIntro>
+**Быстрый ответ:** Вы можете приобрести готовый компьютер или гарнитуру Windows Mixed Reality на утвержденном местном продавце или в сети из различных розничных продавцов, включая Microsoft Store. Найдите готовый ПК или гарнитуру Windows Mixed Reality в Интернете: <https://www.microsoft.com/mixed-reality/windows-mixed-reality?rtc=1>
 
 ### <a name="where-can-i-try-windows-mixed-reality"></a>Где можно попробовать Windows Mixed Reality?
 
-**Быстрый ответ:** Вы можете испытать Windows Mixed Reality в [Microsoft реактора](https://developer.microsoft.com/reactor/?WT.mc_id=docs-faq-ayyonet) NEAR.  
-* Найдите свой локальный реактора Майкрософт: <https://www.microsoft.com/en-us/store/locations/all-locations>
+**Быстрый ответ:** Вы можете испытать Windows Mixed Reality в [Microsoft реактора](https://developer.microsoft.com/reactor/?WT.mc_id=docs-faq-ayyonet) NEAR.
+
 * Поиск событий Microsoft реактора в Meetup.com: <https://www.meetup.com/pro/microsoft-reactor>
 
 ### <a name="which-manufacturers-are-selling-windows-mixed-reality-devices"></a>Какие производители продают устройства Windows Mixed Reality?
 
-**Быстрый ответ:** Гарнитуры и контроллеры движения в настоящее время доступны в HP. См. раздел <https://www.microsoft.com/en-us/mixed-reality/windows-mixed-reality?icid=ARVRcat_Feature1_WMRIntro>
+**Быстрый ответ:** Гарнитуры и контроллеры движения в настоящее время доступны в HP. См. раздел <https://www.microsoft.com/mixed-reality/windows-mixed-reality?rtc=1>.
 
 ### <a name="where-can-i-buy-standalone-motion-controllers"></a>Где можно купить автономные контроллеры движения?
 
@@ -51,7 +51,7 @@ ms.locfileid: "92434617"
 
 **Быстрый ответ:** Головные гарнитуры Windows Mixed Reality имеют внутреннее отслеживание (отслеживание камер в гарнитуре) и установку Plug-and-Play с Windows 10.
 
-**Дополнительные сведения**. Windows Mixed Reality предлагает несколько функций, в том числе простую установку (отсутствие необходимости в внешних датчиках для мониторинга вашего и ваших контроллеров), выбор гарнитур для соответствия вашим комфортам и ценам, гарнитуры, имеющие конкурентные решения, и, наконец, уникальный пользовательский интерфейс, в котором используются тысячи приложений из Microsoft Store.
+**Дополнительные сведения** . Windows Mixed Reality предлагает несколько функций, в том числе простую установку (отсутствие необходимости в внешних датчиках для мониторинга вашего и ваших контроллеров), выбор гарнитур для соответствия вашим комфортам и ценам, гарнитуры, имеющие конкурентные решения, и, наконец, уникальный пользовательский интерфейс, в котором используются тысячи приложений из Microsoft Store.
 
 ### <a name="does-mixed-reality-mean-that-inside-out-cameras-are-passthrough-can-you-experience-augmented-reality-in-addition-to-virtual-reality"></a>Смешанная реальность означает, что внутренние камеры являются транзитными? Можно ли расширить реальность в дополнение к Virtual Reality?
 
@@ -99,7 +99,7 @@ ms.locfileid: "92434617"
 <td> До 90Hz </td>
 <td> 100 ° </td>
 <td> разъем 3,5 мм </td>
-<td> Отсутствуют </td>
+<td> Нет </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://www.acer.com/ac/en/US/content/windows-mixed-reality-home">Асер</a> </td>
@@ -125,7 +125,7 @@ ms.locfileid: "92434617"
 <td> До 90Hz </td>
 <td> 95 ° </td>
 <td> разъем 3,5 мм </td>
-<td> Отсутствуют </td>
+<td> Нет </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://www.asus.com/us/Headset/ASUS-Windows-Mixed-Reality-Headset-HC102/">АДАПТЕР</a> </td>
@@ -138,7 +138,7 @@ ms.locfileid: "92434617"
 <td> До 90Hz </td>
 <td> 105 ° </td>
 <td> разъем 3,5 мм </td>
-<td> Отсутствуют </td>
+<td> Нет </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://www.dell.com/en-us/shop/accessories/apd/536-bbbr?~ck=mn">Оборудования</a> </td>
@@ -151,7 +151,7 @@ ms.locfileid: "92434617"
 <td> До 90Hz </td>
 <td> 105 ° </td>
 <td> разъем 3,5 мм </td>
-<td> Отсутствуют </td>
+<td> Нет </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="http://pr.fujitsu.com/jp/news/2017/10/17.html">Fujitsu</a> </td>
@@ -177,7 +177,7 @@ ms.locfileid: "92434617"
 <td> До 90Hz </td>
 <td> 105 ° </td>
 <td> разъем 3,5 мм </td>
-<td> Отсутствуют </td>
+<td> Нет </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://store.hp.com/us/en/pdp/hp-windows-mixed-reality-headset-vr1000-100">КОМПАНИИ</a> </td>
@@ -190,7 +190,7 @@ ms.locfileid: "92434617"
 <td> До 90Hz </td>
 <td> 105 ° </td>
 <td> разъем 3,5 мм </td>
-<td> Отсутствуют </td>
+<td> Нет </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/virtual-and-augmented-reality/lenovo-explorer/Lenovo-Explorer/p/G10NREAG0A2">Адаптер</a> </td>
@@ -203,7 +203,7 @@ ms.locfileid: "92434617"
 <td> До 90Hz </td>
 <td> 105 ° </td>
 <td> разъем 3,5 мм </td>
-<td> Отсутствуют </td>
+<td> Нет </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://www.medion.com/be/shop/monitoren-medion-erazer-mr-x1000-vr-headset-controllers-30023616a1.html">медион</a> </td>
@@ -216,7 +216,7 @@ ms.locfileid: "92434617"
 <td> До 90Hz </td>
 <td> 110 ° </td>
 <td> Интегрированная </td>
-<td> Отсутствуют </td>
+<td> Нет </td>
 <td style="text-align: center;">Машин</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://www.samsung.com/us/computing/hmd/windows-mixed-reality/xe800zaa-hc1us-xe800zaa-hc1us/?redir=windows%20mixed%20reality">Samsung</a> </td>
@@ -242,7 +242,7 @@ ms.locfileid: "92434617"
 <td> До 90Hz </td>
 <td> 105 ° </td>
 <td> разъем 3,5 мм </td>
-<td> Отсутствуют </td>
+<td> Нет </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="http://3glasses.com/goods.action?gid=30">3Glasses</a> </td>
@@ -257,7 +257,7 @@ ms.locfileid: "92434617"
 
 ### <a name="do-the-mixed-reality-headsets-have-ipd-adjustment"></a>Есть ли у гарнитур смешанной реальности корректировка IPD?
 
-**Быстрый ответ:** В зависимости от гарнитуры, некоторые гарнитуры смешанной реальности применяют механические настройки IPD. Другие гарнитуры — корректировка программного обеспечения IPD, повышающая искажение изображений и точность глубины на основе IPD. Пользователи могут задать свои пользовательские параметры IPD с помощью **параметров > Смешанная реальность > отображение гарнитуры > калибровка**.
+**Быстрый ответ:** В зависимости от гарнитуры, некоторые гарнитуры смешанной реальности применяют механические настройки IPD. Другие гарнитуры — корректировка программного обеспечения IPD, повышающая искажение изображений и точность глубины на основе IPD. Пользователи могут задать свои пользовательские параметры IPD с помощью **параметров > Смешанная реальность > отображение гарнитуры > калибровка** .
 
 ### <a name="do-the-mixed-reality-headsets-have-eye-relief-adjustment"></a>Настроили ли у гарнитур смешанной реальности корректировки глаз?
 
@@ -303,7 +303,7 @@ ms.locfileid: "92434617"
 
 ### <a name="does-the-windows-mixed-reality-platform-support-rift-and-vive-hardware"></a>Поддерживает ли платформа Windows Mixed Reality оборудование Рифт и Naopak?
 
-**Быстрый ответ:** Windows Mixed Reality будет работать только с утвержденными гарнитурами и контроллерами Windows Mixed Reality. См. раздел <https://www.microsoft.com/en-us/store/b/virtualreality>
+**Быстрый ответ:** Windows Mixed Reality будет работать только с утвержденными гарнитурами и контроллерами Windows Mixed Reality. См. раздел <https://www.microsoft.com/en-us/store/b/virtualreality>.
 
 ## <a name="motion-controllers"></a>Контроллеры движения
 
@@ -332,11 +332,11 @@ ms.locfileid: "92434617"
 
 ### <a name="will-windows-mixed-reality-work-with-my-oculus-touch-controllers-or-htc-vive-headsets--controllers"></a>Будет ли Windows Mixed Reality работать с моим Окулус сенсорными контроллерами или с Naopakами и головными гарнитурами или контроллерами HTC.
 
-**Быстрый ответ:** Нет, Windows Mixed Reality будет работать только с утвержденными гарнитурами и контроллерами. См. раздел <https://www.microsoft.com/en-us/store/collections/VRandMixedrealityheadsets>
+**Быстрый ответ:** Нет, Windows Mixed Reality будет работать только с утвержденными гарнитурами и контроллерами. См. раздел <https://www.microsoft.com/en-us/store/collections/VRandMixedrealityheadsets>.
 
 ### <a name="will-windows-mixed-reality-work-with-my-steamvr-knuckle-controllers"></a>Будет ли Windows Mixed Reality работать с моим контроллером Стеамвр Кнуккле?
 
-**Быстрый ответ:** Нет, Windows Mixed Reality будет работать только с утвержденными гарнитурами и контроллерами. См. раздел <https://www.microsoft.com/en-us/store/collections/VRandMixedrealityheadsets>
+**Быстрый ответ:** Нет, Windows Mixed Reality будет работать только с утвержденными гарнитурами и контроллерами. См. раздел <https://www.microsoft.com/en-us/store/collections/VRandMixedrealityheadsets>.
 
 ### <a name="will-windows-mixed-reality-support-my-xbox-one-controller-with-the-wireless-xbox-adapter"></a>Будет ли Windows Mixed Reality поддерживать мой контроллер Xbox One с беспроводным адаптером Xbox?
 
