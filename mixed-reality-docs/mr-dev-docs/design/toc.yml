@@ -1,0 +1,152 @@
+- name: Начните проектировать и создавать прототипы
+  href: design.md
+- name: Сведения о руководстве по проектированию
+  href: about-this-design-guidance.md
+- name: Основные понятия
+  items:
+    - name: Обзор
+      href: core-concepts-landingpage.md
+    - name: Модель приложения
+      href: app-model.md
+    - name: Представления приложения
+      href: app-views.md
+    - name: Комфорт
+      href: comfort.md
+    - name: Системы координат
+      href: coordinate-systems.md
+    - name: Отслеживание взгляда
+      href: eye-tracking.md
+    - name: Голографический кадр
+      href: holographic-frame.md
+    - name: Визуализация при сканировании комнаты
+      href: room-scan-visualization.md
+    - name: Интерпретация сцены
+      href: scene-understanding.md
+    - name: Пространственные привязки
+      href: spatial-anchors.md
+    - name: Звук
+      href: spatial-sound.md
+    - name: пространственное сопоставление
+      href: spatial-mapping.md
+    - name: Системный жест
+      href: system-gesture.md
+    - name: Типы приложений смешанной реальности
+      href: types-of-mixed-reality-apps.md
+    - name: Проектирование содержимого для голографического дисплея
+      href: designing-content-for-holographic-display.md
+- name: Модели взаимодействия
+  items:
+    - name: Инстинктивное взаимодействие
+      href: interaction-fundamentals.md
+    - name: Модель "Руки и контроллеры движений"
+      items:
+        - name: Непосредственное манипулирование с помощью рук
+          href: direct-manipulation.md
+        - name: Руки и контроллеры движений
+          href: hands-and-tools.md
+        - name: Контроллеры движений
+          href: motion-controllers.md
+        - name: Указание и фиксация с помощью рук
+          href: point-and-commit.md
+    - name: Бесконтактная модель
+      items:
+        - name: Бесконтактная
+          href: hands-free.md
+        - name: Голосовой ввод
+          href: voice-input.md
+        - name: Взгляд и остановка
+          items:
+            - name: Взгляд и остановка
+              href: gaze-and-dwell.md
+            - name: Определение направления взгляда и остановка
+              href: gaze-and-dwell-eyes.md
+            - name: Направление головы и остановка
+              href: gaze-and-dwell-head.md
+    - name: Взгляд и фиксация
+      items:
+        - name: Взгляд и фиксация
+          href: gaze-and-commit.md
+        - name: Определение направления взгляда и фиксация
+          href: gaze-and-commit-eyes.md
+        - name: Направление головы и фиксация
+          href: gaze-and-commit-head.md
+    - name: Взаимодействие на основе взгляда
+      href: eye-gaze-interaction.md
+- name: Элементы пользовательского интерфейса
+  items:
+    - name: Обзор
+      href: app-patterns-landingpage.md
+    - name: Основные элементы
+      items:
+        - name: 'Цвет, свет и материалы'
+          href: color-light-and-materials.md
+        - name: Масштабирование
+          href: scale.md
+        - name: Шрифтовое оформление
+          href: typography.md
+        - name: Звук
+          items:
+            - name: Звук
+              href: spatial-sound-design.md
+            - name: "Пример использования\_— Holotour"
+              href: case-study-spatial-sound-design-for-holotour.md
+            - name: "Пример использования\_— Roboraid"
+              href: case-study-using-spatial-sound-in-roboraid.md
+    - name: Элементы управления и режимы поведения
+      items:
+        - name: Курсоры
+          href: cursors.md
+        - name: Телекинез
+          href: point-and-commit.md
+        - name: Кнопка
+          href: button.md
+        - name: Активный объект
+          href: interactable-object.md
+        - name: Ограничивающая рамка и панель приложения
+          href: app-bar-and-bounding-box.md
+        - name: Управление
+          href: direct-manipulation.md
+        - name: Меню руки
+          href: hand-menu.md
+        - name: Быстрое меню
+          href: near-menu.md
+        - name: Коллекция объектов
+          href: object-collection.md
+        - name: Голосовой ввод
+          href: voice-input.md
+        - name: Клавиатура
+          href: keyboard.md
+        - name: Подсказка
+          href: tooltip.md
+        - name: Планшет
+          href: slate.md
+        - name: Ползунок
+          href: slider.md
+        - name: Шейдер
+          href: shader.md
+        - name: Диалог
+          href: dialog-ui.md
+        - name: Обучающая рука
+          href: hand-coach.md
+        - name: Виртуальная сетка
+          href: spatial-mesh-ux.md
+        - name: Биллбординг и закрепление элемента в пространстве
+          href: billboarding-and-tag-along.md
+        - name: Индикация хода выполнения
+          href: progress.md
+        - name: Притяжение к поверхности
+          href: surface-magnetism.md
+- name: Ресурсы
+  items:
+    - name: Дополнительные сведения о Unity
+      href: 'https://learn.unity.com/'
+    - name: Набор средств для смешанной реальности
+      href: 'https://github.com/Microsoft/MixedRealityToolkit-Unity'
+    - name: Лаборатории проектирования смешанной реальности
+      href: 'https://github.com/microsoft/MixedRealityDesignLabs_Unity'
+    - name: Microsoft Maquette
+      href: 'https://www.maquette.ms/'
+    - name: Процесс создания ресурсов
+      href: asset-creation-process.md
+    - name: Разработка собственных иммерсивных сред
+      href: add-custom-home-environments.md
