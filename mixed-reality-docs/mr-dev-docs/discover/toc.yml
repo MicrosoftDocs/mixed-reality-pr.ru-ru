@@ -1,0 +1,28 @@
+- name: Приступая к работе со смешанной реальностью
+  href: get-started-with-mr.md
+- name: Что такое смешанная реальность?
+  href: mixed-reality.md
+- name: Что такое голограмма?
+  href: hologram.md
+- name: Расширение процесса проектирования
+  href: case-study-expanding-the-design-process-for-mixed-reality.md
+- name: Оборудование HoloLens
+  items:
+    - name: "Сведения об оборудовании HoloLens\_2"
+      href: 'https://docs.microsoft.com/hololens/hololens2-hardware'
+    - name: Сведения об оборудовании HoloLens (1-го поколения)
+      href: 'https://docs.microsoft.com/hololens/hololens1-hardware'
+- name: Иммерсивные гарнитуры
+  items:
+    - name: Сведения об оборудовании иммерсивных гарнитур
+      href: immersive-headset-hardware-details.md
+    - name: Навигация по дому с технологией Windows Mixed Reality
+      href: navigating-the-windows-mixed-reality-home.md
+    - name: Руководство для энтузиастов виртуальной реальности
+      href: 'https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/'
+    - name: Развлечения на основе местоположения
+      href: location-based-experiences.md
+- name: Ресурсы сообщества
+  href: community.md
+- name: Аксессуары к оборудованию
+  href: hardware-accessories.md

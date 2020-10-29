@@ -1,0 +1,12 @@
+- name: Добро пожаловать в смешанную реальность
+  href: index.yml
+- name: Обнаружить
+  href: discover/toc.yml
+- name: Конструирование
+  href: design/toc.yml
+- name: Разработка
+  href: develop/toc.yml
+- name: Распространение
+  href: distribute/toc.yml
+- name: Новые возможности
+  href: whats-new/toc.yml
