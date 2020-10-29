@@ -1,0 +1,106 @@
+---
+title: Приложение для проверки компьютеров Windows Mixed Reality
+description: Как найти и использовать приложение "Проверка компьютеров Windows Mixed Reality" для проверки совместимости компьютера перед покупкой гарнитуры Windows Mixed Reality.
+author: hferrone
+ms.author: v-hferrone
+ms.date: 09/16/2020
+ms.topic: article
+keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, совместимый, совместимость, ПК, требования к системе
+appliesto:
+- Windows 10
+ms.openlocfilehash: 5cf84768984691c253a557f6576685e89fb61078
+ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "91691777"
+---
+# <a name="windows-mixed-reality-pc-check-app"></a><span data-ttu-id="db8d6-104">Приложение для проверки компьютеров Windows Mixed Reality</span><span class="sxs-lookup"><span data-stu-id="db8d6-104">Windows Mixed Reality PC Check app</span></span>
+
+<span data-ttu-id="db8d6-105">Приложение " **[Проверка компьютеров Windows Mixed Reality](windows-mixed-reality-pc-check-app.md)** " — это лучший способ убедиться, что компьютер готов к запуску Windows Mixed Reality.</span><span class="sxs-lookup"><span data-stu-id="db8d6-105">The **[Windows Mixed Reality PC Check](windows-mixed-reality-pc-check-app.md)** app is the best way to make sure your PC is ready to run Windows Mixed Reality.</span></span> 
+
+<a href="https://www.microsoft.com/store/productid/9NZVL19N7CNC"><img alt="Download Windows Mixed Reality PC Check app" src="images/WMR-PC-Check-app.png"/></a>
+
+<span data-ttu-id="db8d6-106">После запуска приложения вы получите одно из следующих сообщений:</span><span class="sxs-lookup"><span data-stu-id="db8d6-106">After running the app, you'll get one of the following messages:</span></span>
+* <span data-ttu-id="db8d6-107">**Все готово.**</span><span class="sxs-lookup"><span data-stu-id="db8d6-107">**You're good to go.**</span></span> <span data-ttu-id="db8d6-108">Ваш ПК занимается выполнением Windows Mixed Reality.</span><span class="sxs-lookup"><span data-stu-id="db8d6-108">Your PC has what it takes to run Windows Mixed Reality.</span></span>
+* <span data-ttu-id="db8d6-109">**Вы почти находитесь.**</span><span class="sxs-lookup"><span data-stu-id="db8d6-109">**You’re nearly there.**</span></span> <span data-ttu-id="db8d6-110">Этот компьютер может работать под управлением Windows Mixed Reality, но некоторые функции могут быть ограничены.</span><span class="sxs-lookup"><span data-stu-id="db8d6-110">This PC may be able to run Windows Mixed Reality, but some features might be limited.</span></span>
+* <span data-ttu-id="db8d6-111">**Не удается запустить смешанную реальность.**</span><span class="sxs-lookup"><span data-stu-id="db8d6-111">**Can't run mixed reality.**</span></span> <span data-ttu-id="db8d6-112">Этот компьютер не соответствует минимальным требованиям, необходимым для запуска Windows Mixed Reality.</span><span class="sxs-lookup"><span data-stu-id="db8d6-112">This PC doesn't meet the minimum requirements needed to run Windows Mixed Reality.</span></span>
+
+<span data-ttu-id="db8d6-113">Затем вы получите анализ вашего компьютера в соответствии с требуемым оборудованием, драйверами и операционной системой.</span><span class="sxs-lookup"><span data-stu-id="db8d6-113">You will then get an analysis of your PC against the required hardware, drivers, and operating system.</span></span>
+<span data-ttu-id="db8d6-114">![Снимок экрана: проверка компьютера Windows Mixed Reality](images/screenshot-mr-pc-check.jpg)</span><span class="sxs-lookup"><span data-stu-id="db8d6-114">![Screenshot of Windows Mixed Reality PC Check](images/screenshot-mr-pc-check.jpg)</span></span> 
+
+<table>
+<tr>
+<th><span data-ttu-id="db8d6-115">Значок</span><span class="sxs-lookup"><span data-stu-id="db8d6-115">Icon</span></span></th><th><span data-ttu-id="db8d6-116">Что это означает</span><span class="sxs-lookup"><span data-stu-id="db8d6-116">What it means</span></span></th>
+</tr><tr>
+<td> <img alt="Succeeded" width="30" height="30" src="images/glyph-succeeded.png" /></td><td style="vertical-align: middle"><span data-ttu-id="db8d6-117">Ваш компьютер передает требуемый элемент.</span><span class="sxs-lookup"><span data-stu-id="db8d6-117">Your PC passes the required item.</span></span></td>
+</tr><tr>
+<td> <img alt="Warning" width="30" height="30" src="images/glyph-warning.png" /></td><td style="vertical-align: middle"><span data-ttu-id="db8d6-118">Возможны проблемы с вашим компьютером для данного требования.</span><span class="sxs-lookup"><span data-stu-id="db8d6-118">There may be issues with your PC for the given requirement.</span></span> <span data-ttu-id="db8d6-119">При возникновении проблем может потребоваться устранение неполадок или обновление компьютера.</span><span class="sxs-lookup"><span data-stu-id="db8d6-119">If you encounter issues, you may need to troubleshoot or upgrade your PC.</span></span></td>
+</tr><tr>
+<td> <img alt="Error" width="30" height="30" src="images/glyph-error.png" /></td><td style="vertical-align: middle"><span data-ttu-id="db8d6-120">Ваш компьютер не соответствует требованиям для указанного элемента.</span><span class="sxs-lookup"><span data-stu-id="db8d6-120">Your PC does not meet the requirements for the specified item.</span></span></td>
+</tr>
+</table>
+
+## <a name="get-help-with-windows-mixed-reality-pc-check-results"></a><span data-ttu-id="db8d6-121">Получение справки по результатам проверки компьютеров Windows Mixed Reality</span><span class="sxs-lookup"><span data-stu-id="db8d6-121">Get help with Windows Mixed Reality PC Check results</span></span>
+
+<span data-ttu-id="db8d6-122">При настройке Windows Mixed Reality или запуске приложения для проверки компьютеров Windows Mixed Reality на компьютере вы получите отчет о готовности компьютера к его запуску.</span><span class="sxs-lookup"><span data-stu-id="db8d6-122">When you set up Windows Mixed Reality or run the Windows Mixed Reality PC Check app on your computer, you'll get a report on whether your PC is ready to run it.</span></span> <span data-ttu-id="db8d6-123">Ниже приведены некоторые сведения о том, что можно увидеть.</span><span class="sxs-lookup"><span data-stu-id="db8d6-123">Here are some details on what you might see.</span></span> 
+
+### <a name="youre-good-to-go"></a>![Все готово](images/glyph-succeeded.png)
+
+<span data-ttu-id="db8d6-125">Хорошие новости — ваш компьютер может работать под управлением Windows Mixed Reality.</span><span class="sxs-lookup"><span data-stu-id="db8d6-125">Good news—your PC can run Windows Mixed Reality.</span></span> <span data-ttu-id="db8d6-126">Но следует помнить, что между оборудованием и конфигурацией компьютера по-прежнему есть различия, поэтому опыт работы в смешанной реальности может не совпадать на каждом ПК.</span><span class="sxs-lookup"><span data-stu-id="db8d6-126">But keep in mind that there's still variation among computer hardware and configuration, so the mixed reality experience might not be the same on every PC.</span></span> 
+
+>[!NOTE]
+><span data-ttu-id="db8d6-127">Если появится сообщение "Эта конфигурация оборудования может работать с Windows Mixed Reality, но еще не тестировалась", при запуске Windows Mixed Reality для длительных сеансов может возникнуть ряд проблем с производительностью.</span><span class="sxs-lookup"><span data-stu-id="db8d6-127">If you see a message that says, "This hardware configuration might work with Windows Mixed Reality, but it hasn't been tested yet," you could run into some performance issues when running Windows Mixed Reality for long sessions.</span></span>
+
+
+### <a name="youre-nearly-there"></a>![Вы почти находитесь](images/glyph-warning.png)
+
+<span data-ttu-id="db8d6-129">Ваш компьютер должен иметь возможность работать под управлением Windows Mixed Reality, но может не обеспечивать наилучших возможностей.</span><span class="sxs-lookup"><span data-stu-id="db8d6-129">Your PC should be able to run Windows Mixed Reality, but might not provide the best possible experience.</span></span> <span data-ttu-id="db8d6-130">Графика может отставать, некоторые приложения и игры могут работать плохо, и некоторые могут вообще не выполняться.</span><span class="sxs-lookup"><span data-stu-id="db8d6-130">Graphics might lag, some apps and games might not perform well, and some might not run at all.</span></span> 
+
+<span data-ttu-id="db8d6-131">Ниже приведены сообщения, которые вы можете увидеть, и что делать с ними:</span><span class="sxs-lookup"><span data-stu-id="db8d6-131">Here are the messages you might see, and what to do about them:</span></span>
+
+#### <a name="this-pc-has-an-integrated-graphics-card-with-single-channel-ram"></a><span data-ttu-id="db8d6-132">На этом компьютере имеется Интегрированная графическая карта с одним каналом ОЗУ.</span><span class="sxs-lookup"><span data-stu-id="db8d6-132">This PC has an integrated graphics card with single-channel RAM.</span></span>
+
+<span data-ttu-id="db8d6-133">Интегрированные графические карты предоставляют лучшие возможности Windows Mixed Reality на компьютерах с двухканальной ПАМЯТЬю.</span><span class="sxs-lookup"><span data-stu-id="db8d6-133">Integrated graphics cards will provide the best Windows Mixed Reality experience on PCs with dual-channel RAM.</span></span> <span data-ttu-id="db8d6-134">При возникновении проблем с производительностью попробуйте выполнить одно из следующих действий.</span><span class="sxs-lookup"><span data-stu-id="db8d6-134">If you run into performance problems, try one of the following:</span></span>
+
+* <span data-ttu-id="db8d6-135">Установите [совместимую дискретную графическую карту](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md).</span><span class="sxs-lookup"><span data-stu-id="db8d6-135">Install a [compatible discrete graphics card](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md).</span></span>
+* <span data-ttu-id="db8d6-136">Установите дополнительный ОЗУ, чтобы создать двухканальный ОЗУ.</span><span class="sxs-lookup"><span data-stu-id="db8d6-136">Install an additional RAM stick to create dual-channel RAM.</span></span> 
+* <span data-ttu-id="db8d6-137">Переключитесь на [совместимый компьютер](https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices).</span><span class="sxs-lookup"><span data-stu-id="db8d6-137">Switch to a [compatible PC](https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices).</span></span>
+
+#### <a name="this-pc-has-a-hybrid-graphics-configuration-with-an-incompatible-pcie-link"></a><span data-ttu-id="db8d6-138">На этом компьютере имеется Конфигурация гибридной графики с несовместимой связью PCIe.</span><span class="sxs-lookup"><span data-stu-id="db8d6-138">This PC has a hybrid graphics configuration with an incompatible PCIe link.</span></span>
+
+<span data-ttu-id="db8d6-139">PCIe означает, что *устройство Interconnect для периферийных компонентов Express* .</span><span class="sxs-lookup"><span data-stu-id="db8d6-139">PCIe stands for *Peripheral Component Interconnect Express* .</span></span> <span data-ttu-id="db8d6-140">Это подключение, используемое ПК для связи с графической картой.</span><span class="sxs-lookup"><span data-stu-id="db8d6-140">This is the connection that a PC uses to communicate with a graphics card.</span></span> <span data-ttu-id="db8d6-141">Конфигурация может работать, но при возникновении проблем необходимо переключиться на [совместимый компьютер](https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices).</span><span class="sxs-lookup"><span data-stu-id="db8d6-141">Your configuration might work, but if you run into problems, you'll need to switch to a [compatible PC](https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices).</span></span>
+
+#### <a name="this-pcs-graphics-driver-might-not-work-well-with-windows-mixed-reality"></a><span data-ttu-id="db8d6-142">Графический драйвер этого компьютера может не работать с Windows Mixed Reality.</span><span class="sxs-lookup"><span data-stu-id="db8d6-142">This PC's graphics driver might not work well with Windows Mixed Reality.</span></span>
+
+<span data-ttu-id="db8d6-143">Если возникли проблемы, попробуйте скачать новый графический драйвер с помощью Центр обновления Windows ( **Параметры запуска > > обновить & безопасность > проверить наличие обновлений** ) — или обратитесь к изготовителю ПК или к веб-сайту производителя видеоплаты.</span><span class="sxs-lookup"><span data-stu-id="db8d6-143">If you run into problems, try downloading a new graphics driver using Windows Update ( **Start > Settings > Update & security > Check for updates** )—or go to your PC manufacturer or graphics card manufacturer's website.</span></span> 
+
+<span data-ttu-id="db8d6-144">Если это не сработает, необходимо добавить [совместимую графическую карту](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md) или переключиться на [совместимый компьютер](https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices).</span><span class="sxs-lookup"><span data-stu-id="db8d6-144">If that doesn't work, you'll need to add a [compatible graphics card](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md) or switch to a [compatible PC](https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices).</span></span>
+
+#### <a name="this-pcs-processor-might-not-work-well-with-windows-mixed-reality"></a><span data-ttu-id="db8d6-145">Процессор этого компьютера может не работать с Windows Mixed Reality.</span><span class="sxs-lookup"><span data-stu-id="db8d6-145">This PC's processor might not work well with Windows Mixed Reality.</span></span>
+
+<span data-ttu-id="db8d6-146">Процессор этого компьютера может не работать с Windows Mixed Reality, так как у него недостаточно ядер.</span><span class="sxs-lookup"><span data-stu-id="db8d6-146">This PC's processor might not work well with Windows Mixed Reality, because it doesn't have enough cores.</span></span> <span data-ttu-id="db8d6-147">Если Windows Mixed Reality работает неправильно, замените процессор [совместимым](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md) или переключитесь на [совместимый компьютер](https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices).</span><span class="sxs-lookup"><span data-stu-id="db8d6-147">If Windows Mixed Reality doesn't run well, replace the processor with a [compatible one](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md) or switch to a [compatible PC](https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices).</span></span>
+
+#### <a name="this-pc-might-not-have-a-compatible-usb-configuration"></a><span data-ttu-id="db8d6-148">У этого компьютера может не быть совместимой конфигурации USB.</span><span class="sxs-lookup"><span data-stu-id="db8d6-148">This PC might not have a compatible USB configuration.</span></span>
+
+<span data-ttu-id="db8d6-149">Если возникают проблемы с Windows Mixed Reality, попробуйте выполнить следующие действия.</span><span class="sxs-lookup"><span data-stu-id="db8d6-149">If you run into problems running Windows Mixed Reality, try the following:</span></span>
+* <span data-ttu-id="db8d6-150">Подключите гарнитуру к другому USB-порту, если он доступен.</span><span class="sxs-lookup"><span data-stu-id="db8d6-150">Plug your headset into a different USB port, if available.</span></span>
+* <span data-ttu-id="db8d6-151">Если это не поможет, удалите текущий USB-драйвер компьютера, а затем переустановите драйвер Microsoft:</span><span class="sxs-lookup"><span data-stu-id="db8d6-151">If that doesn't work, uninstall your PC's current USB driver, and then reinstall a Microsoft driver:</span></span>
+1. <span data-ttu-id="db8d6-152">Нажмите кнопку **Пуск** и в поле поиска введите **"Диспетчер устройств"** .</span><span class="sxs-lookup"><span data-stu-id="db8d6-152">Select **Start** , and then type **"device manager"** in the Search box.</span></span>
+1. <span data-ttu-id="db8d6-153">Выберите **Device Manager** из результатов.</span><span class="sxs-lookup"><span data-stu-id="db8d6-153">Select **Device Manager** from the results.</span></span>
+1. <span data-ttu-id="db8d6-154">Разверните категорию для контроллеров универсальной последовательной шины, просмотрите список устройств и удалите несовместимые драйверы.</span><span class="sxs-lookup"><span data-stu-id="db8d6-154">Expand the category for Universal Serial Bus controllers, look at the devices listed, and uninstall any incompatible drivers.</span></span> 
+ * <span data-ttu-id="db8d6-155">Если список содержит элемент "расширяемый контроллер узла", в конце имени которого отсутствует "Microsoft", этот драйвер не совместим с Windows Mixed Reality.</span><span class="sxs-lookup"><span data-stu-id="db8d6-155">If the list includes an “eXtensible Host Controller” item that does not have “Microsoft” at the end of the device name, that driver isn't compatible with Windows Mixed Reality.</span></span> <span data-ttu-id="db8d6-156">Его необходимо удалить.</span><span class="sxs-lookup"><span data-stu-id="db8d6-156">You’ll need to uninstall it.</span></span> <span data-ttu-id="db8d6-157">Чтобы удалить драйвер, щелкните правой кнопкой мыши устройство в списке и выберите **удалить устройство** .</span><span class="sxs-lookup"><span data-stu-id="db8d6-157">To uninstall a driver, right-click the device in the list and select **Uninstall device** .</span></span> <span data-ttu-id="db8d6-158">Установите флажок **удалить программное обеспечение драйвера для этого устройства** , а затем выберите **Удалить** .</span><span class="sxs-lookup"><span data-stu-id="db8d6-158">Select the **Delete the driver software for this device** check box, then select **Uninstall** .</span></span>
+ * <span data-ttu-id="db8d6-159">Если список содержит элемент "расширяемый контроллер узла", включающий в себя "Етрон", этот USB-контроллер не совместим с Windows Mixed Reality.</span><span class="sxs-lookup"><span data-stu-id="db8d6-159">If the list includes an "eXtensible Host Controller" item that includes "Etron" in the name, that USB controller isn't compatible with Windows Mixed Reality.</span></span> <span data-ttu-id="db8d6-160">Вам потребуется использовать другой USB-порт на компьютере или приобрести другой USB-контроллер узла 3,0.</span><span class="sxs-lookup"><span data-stu-id="db8d6-160">You'll need to use a different USB port on the PC or purchase a different USB 3.0 host controller.</span></span>
+1. <span data-ttu-id="db8d6-161">Перезагрузите компьютер.</span><span class="sxs-lookup"><span data-stu-id="db8d6-161">Restart your PC.</span></span> 
+1. <span data-ttu-id="db8d6-162">Вернитесь к Device Manager и еще раз нахождение расширяемого элемента контроллера узла.</span><span class="sxs-lookup"><span data-stu-id="db8d6-162">Return to Device Manager and locate the eXtensible Host Controller item again.</span></span> <span data-ttu-id="db8d6-163">Если теперь в конце имени устройства отображается «Microsoft», то все готово.</span><span class="sxs-lookup"><span data-stu-id="db8d6-163">If you now see “Microsoft” at the end of the device name, you’re good to go.</span></span> <span data-ttu-id="db8d6-164">В противном случае повторите действия по удалению, чтобы удалить все дополнительные версии драйвера, не относящиеся к корпорации Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="db8d6-164">If not, repeat the uninstall steps to remove any additional non-Microsoft versions of the driver.</span></span>
+* <span data-ttu-id="db8d6-165">Если это не поможет, добавьте USB-карту PCIe на компьютер.</span><span class="sxs-lookup"><span data-stu-id="db8d6-165">If that still doesn't work, add a PCIe USB card to your PC.</span></span>
+
+#### <a name="this-pc-doesnt-have-bluetooth-40-for-controllers"></a><span data-ttu-id="db8d6-166">На этом компьютере нет Bluetooth 4,0 для контроллеров.</span><span class="sxs-lookup"><span data-stu-id="db8d6-166">This PC doesn't have Bluetooth 4.0 for controllers.</span></span>
+
+#### <a name="this-pc-doesnt-have-a-self-powered-usb-port"></a><span data-ttu-id="db8d6-167">На этом компьютере нет USB-порта с самостоятельным питанием.</span><span class="sxs-lookup"><span data-stu-id="db8d6-167">This PC doesn't have a self-powered USB port.</span></span>
+
+#### <a name="this-pc-should-work-but-youll-have-the-best-experience-with-a-high-performance-intel-processor"></a><span data-ttu-id="db8d6-168">Этот компьютер должен работать, но у вас будет оптимальный опыт работы с высокопроизводительным процессором Intel®.</span><span class="sxs-lookup"><span data-stu-id="db8d6-168">This PC should work, but you'll have the best experience with a high-performance Intel® processor.</span></span>
+
+### <a name="cant-run-mixed-reality"></a>![Не удается запустить смешанную реальность](images/glyph-error.png)
+
+ [<span data-ttu-id="db8d6-170">Получение справки по результатам проверки компьютеров Windows Mixed Reality</span><span class="sxs-lookup"><span data-stu-id="db8d6-170">Get help with Windows Mixed Reality PC Check results</span></span>](https://support.microsoft.com/en-us/help/4045777/windows-10-get-help-with-pc-compatibility-in-windows-mixed-reality)
