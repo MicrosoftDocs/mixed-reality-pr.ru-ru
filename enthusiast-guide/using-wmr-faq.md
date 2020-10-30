@@ -1,5 +1,5 @@
 ---
-title: Вопросы и ответы по Windows Mixed Reality
+title: Вопросы и ответы по использованию Windows Mixed Reality
 description: Получите ответы на часто задаваемые вопросы при работе с Windows Mixed Reality.
 author: hferrone
 ms.author: v-hferrone
@@ -8,14 +8,14 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, обратная связь, центр обратной связи, ошибки
 appliesto:
 - Windows 10
-ms.openlocfilehash: 62b6b61f74abfd77ba61563639ff719576551f07
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: cf02ccfc92d80ee1d1a8f6ca3d4ab55650f4a62c
+ms.sourcegitcommit: feceb21018ce1d966188a34bd1faeddfdc1b9544
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91692376"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044438"
 ---
-# <a name="using-windows-mixed-reality-faq"></a>Вопросы и ответы по Windows Mixed Reality
+# <a name="using-windows-mixed-reality-faq"></a>Вопросы и ответы по использованию Windows Mixed Reality
 
 Если вам нужна помощь с использованием иммерсивного головного телефона Windows Mixed Reality, ознакомьтесь с этими разделами для получения общих сведений и устранения неполадок.
 
@@ -61,7 +61,7 @@ Windows Mixed Reality предназначена для воспроизведе
     * Готово — все контроллеры установлены.
     * Отслеживание потерянных — портал смешанной реальности не может найти контроллеры. Держите их перед гарнитурой и перезапустите их, нажав кнопку **Windows** в течение 4 секунд, а затем снова в течение 2 секунд.
     * Низкий заряд батареи — Замените аккумуляторы контроллера.
-* При использовании Wi-Fi Подключите компьютер к сети Wi-Fi 5GHz, чтобы снизить беспроводные помехи. 
+* При использовании Wi-Fi Подключите компьютер к сети 5GHz Wi-Fi, чтобы снизить беспроводные помехи. 
 * Для новых гарнитур, напрямую подключенных к контроллерам, нажмите кнопку **"...".** на **портале Mixed Reality** и выберите **Настройка контроллеров** . Вы перейдете в приложение гарнитуры, чтобы связать контроллеры с гарнитурой.  
 * Для более старых гарнитур, которые не имеют встроенных Bluetooth для прямого связывания контроллеров:  
     * Выберите параметры > устройства > Bluetooth & другие устройства на компьютере и убедитесь, что контроллеры перечислены как парные.Если это не так, необходимо связать их. 
@@ -95,7 +95,7 @@ Windows Mixed Reality предназначена для воспроизведе
 
 ## <a name="i-got-a-message-that-said-to-plug-in-and-charge-my-pc-why"></a>Я получил сообщение о том, что мы подключимся к своему компьютеру. Почему?
 
-Если вы используете портативный компьютер, Windows Mixed Reality лучше работает, когда ПК полностью заряжен и подключен к сети. 
+Если вы используете портативный компьютер, Windows Mixed Reality лучше работает, когда ПК полностью заряжен и подключен к сети.
 
 ## <a name="how-do-i-uninstall-windows-mixed-reality"></a>Разделы справки удалить Windows Mixed Reality?
 
@@ -106,11 +106,11 @@ Windows Mixed Reality предназначена для воспроизведе
 > [!NOTE]
 > Если появится сообщение "не удалось завершить удаление Windows Mixed Reality", это означает, что некоторые файлы, включая сведения о вашей среде, по-прежнему могут находиться на вашем компьютере. Это может вызвать проблемы, если позже вы решите переустановить Windows Mixed Reality.
 > 
-> Сведения о том, как вручную удалить оставшиеся сведения о Windows Mixed Reality с компьютера, см. в **[этой статье](troubleshooting-windows-mixed-reality.md#how-to-uninstall-windows-mixed-reality)** . 
+> Сведения о том, как вручную удалить оставшиеся сведения о Windows Mixed Reality с компьютера, см. в **[этой статье](installation_errors.md)** .
 
-## <a name="my-wi-fi-slows-down-when-im-using-windows-mixed-reality"></a>При использовании Windows Mixed Reality замедляется работа Wi-Fi
+## <a name="my-wi-fi-slows-down-when-im-using-windows-mixed-reality"></a>При использовании Windows Mixed Reality Wi-Fi замедляет работу
 
-Если вы используете подключение Wi-Fi с частотой 2,4 ГГц, контроллеры движения могут замедлить работу Wi-Fi. Выполните одно из указанных ниже действий.
+Если вы используете Wi-Fi подключение с частотой 2,4 ГГц, контроллеры Motion могут замедлить работу Wi-Fi. Выполните одно из указанных ниже действий.
 
 <!-- TODO: Use Windows Mixed Reality PC hardware guidelines interlink -->
 * Переключитесь на подключение Wi-Fi 5GHz, если оно доступно. [Подробнее](https://support.microsoft.com/help/4000461)

@@ -1,24 +1,25 @@
 ---
 title: Другие вопросы
-description: Расширенная устранение неполадок Windows Mixed Reality, которая выходит за рамки стандартной документации по поддержке пользователей.
+description: Дополнительные советы по устранению неполадок в Windows Mixed Reality, которые выходят за пределы стандартной документации по поддержке пользователей.
 ms.author: v-hferrone
 ms.date: 09/15/2020
 ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, устранение неполадок, ошибки, Справка, поддержка, удаление Windows Mixed Reality, Поддерживаемые языки
 appliesto:
 - Windows 10
-ms.openlocfilehash: a8a035a4d113a0a53f41079709660f65bfa278a0
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: aa61148a115ae295c1dc64b575a2fae7b0111470
+ms.sourcegitcommit: feceb21018ce1d966188a34bd1faeddfdc1b9544
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91692472"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044455"
 ---
 # <a name="other-questions"></a>Другие вопросы
 
 ## <a name="my-graphics-driver-isnt-supported-im-getting-graphics-driver-failure-errors"></a>Драйвер графики не поддерживается (я получаю ошибки, возникающие при работе драйвера графики).
 
 Выполните поиск и выполните команду DXDiag:
+
 1.  Если результатом является "базовый модуль подготовки отчетов", графический драйвер не устанавливается. Чтобы устранить эту проблему, выполните следующие действия:
     * Перейдите в **Device Manager > действие > проверить изменения оборудования** .
     * Для обновления драйвера используйте Центр обновления Windows.
@@ -57,9 +58,9 @@ Samsung владеет и публикует обновления встроен
 ## <a name="my-desktop-app-only-shows-a-black-screen"></a>В моем классическом приложении отображается черный экран.
 Если на компьютере установлен гибридный графический процессор NVIDIA, то эта неполадка может быть вызвана тем, что устройство Nvidia работает runtimebroker.exe на дискретном GPU, а не на интегрированном. Чтобы устранить эту проблему, выполните следующие действия в разделе "[разделы справки создать параметры Optimus для новой программы".](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/~/how-do-i-customize-optimus-profiles-and-settings%3F) чтобы добавить C:\windows\system32\runtimebroker.exe и принудительно запустить его на процессоре с интегрированной графикой. 
 
-## <a name="my-wi-fi-slows-down-when-im-using-windows-mixed-reality"></a>При использовании Windows Mixed Reality работа Wi-Fi замедляется.
+## <a name="my-wi-fi-slows-down-when-im-using-windows-mixed-reality"></a>При использовании Windows Mixed Reality Wi-Fi замедляет работу.
 
-Если вы используете подключение Wi-Fi с частотой 2,4 ГГц, контроллеры движения могут замедлить работу Wi-Fi. Выполните одно из указанных ниже действий.
+Если вы используете Wi-Fi подключение с частотой 2,4 ГГц, контроллеры Motion могут замедлить работу Wi-Fi. Выполните одно из указанных ниже действий.
 * Переключитесь на подключение Wi-Fi 5GHz, если оно доступно. [Подробнее](https://support.microsoft.com/en-us/help/4000461).
 * Используйте отдельный адаптер Bluetooth для подключения контроллеров Motion к компьютеру. См. [Рекомендуемые адаптеры](https://support.microsoft.com/en-us/help/4039260/windows-10-mixed-reality-pc-hardware-guidelines).
 
@@ -119,16 +120,16 @@ Windows Mixed Reality также доступна на следующих язы
 2. В поле **поиска** введите "regedit" и нажмите кнопку "Да".
 3. Удалите следующие значения реестра:
    <ul>
-    <li><b>HKEY_CURRENT_USER \софтваре\микрософт\виндовс\куррентверсион\холографик</b>, а затем удалите "фирструнсукцеедед".</li> 
-    <li><b>HKEY_CURRENT_USER \софтваре\микрософт\виндовс\куррентверсион\холографик\спичандаудио</b>, а затем удалите "префердесктопспеакер" и "PreferDesktopMic".</li> 
-    <li><b>HKEY_CURRENT_USER \софтваре\микрософт\ Speech_OneCore &gt; Сеттингс\холографик</b>, а затем удалите "дисаблеспичинпут". Примечание. элементы реестра в HHKEY_CURRENT_USER должны быть удалены для каждой учетной записи пользователя на компьютере, где используется Windows Mixed Reality.</li> 
-    <li><b>HKEY_LOCAL_MACHINE \софтваре\микрософт\виндовс\куррентверсион\перцептионсимулатионекстенсионс</b>, а затем удалите "DeviceID" и "Mode".</li> 
-    <li><b>HKEY_CURRENT_USER \софтваре\микрософт\виндовс\куррентверсион\холографик</b>, а затем удалите "ондевицелеарнингкомплетед".</li> 
+    <li><b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Holographic</b>, а затем удалите "фирструнсукцеедед".</li> 
+    <li><b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Holographic\SpeechAndAudio</b>, а затем удалите "префердесктопспеакер" и "префердесктопмик".</li> 
+    <li><b>HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore&gt; Сеттингс\холографик</b>, а затем удалите "дисаблеспичинпут". Примечание. элементы реестра в HHKEY_CURRENT_USER должны быть удалены для каждой учетной записи пользователя на компьютере, где используется Windows Mixed Reality.</li> 
+    <li><b>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\PerceptionSimulationExtensions</b>, а затем удалите "DeviceID" и "Mode".</li> 
+    <li><b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Holographic</b>, а затем удалите "ондевицелеарнингкомплетед".</li> 
    </ul>
 4. Удалите следующие разделы реестра: <ul>
-   <li> <b>HKEY_CURRENT_USER \Софтваре\микрософт\виндовс\куррентверсион\холоси</b></li> 
-   <li> <b>HKEY_LOCAL_MACHINE \Софтваре\микрософт\виндовс\куррентверсион\холоси</b></li> 
-   <li> <b>HKEY_CURRENT_USER \Софтваре\микрософт\ Speech_OneCore \Сеттингс\холографикпреференцес</b></li><br/></ul>
+   <li> <b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\HoloSI</b></li> 
+   <li> <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\HoloSI</b></li> 
+   <li> <b>HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Settings\HolographicPreferences</b></li><br/></ul>
 5. Закройте редактор реестра.
 6. Перейдите в **К:\усерс\усер наме\аппдата\локал\паккажес\ Microsoft.Windows.HolographicFirstRun_cw5n1h2txyewy \локалстате** и удалите "RoomBounds.json". Повторите эти действия для каждого пользователя, который использовал Windows Mixed Reality.
 7. Откройте командную строку администратора и перейдите по адресу **к:\програмдата\виндовшолографикдевицес\спатиалсторе\хололенссенсорс** . Удалите содержимое папки «Хеадтраккинг Data» (но не саму папку).
