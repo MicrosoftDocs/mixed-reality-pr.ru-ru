@@ -13,12 +13,12 @@ metadata:
   author: hferrone
   ms.author: v-haferr
   ms.date: 07/23/2020
-  ms.openlocfilehash: e968b311ca93ccf3f197fbc4a6d2abec7284a686
-  ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+  ms.openlocfilehash: 7d5ba4ded77079858ef36c62a4c90e2fdd5794f5
+  ms.sourcegitcommit: 4cb579ac0413fc2dfad5da6506437246f6653926
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 10/03/2020
-  ms.locfileid: "91674838"
+  ms.lasthandoff: 10/30/2020
+  ms.locfileid: "93036280"
 highlightedContent:
   items:
   - title: Что такое смешанная реальность?
@@ -42,9 +42,9 @@ highlightedContent:
   - title: Любители виртуальной реальности
     itemType: how-to-guide
     url: https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/
-  - title: Опробовать приложение-пример
-    itemType: sample
-    url: develop/unity/samples.md
+  - title: Модули Learn по Смешанной реальности
+    itemType: learn
+    url: develop/mr-learning-overview.md
 productDirectory:
   title: Углубленное изучение смешанной реальности
   summary: У нас есть специализированные курируемые схемы развития основных навыков работы со смешанной реальностью для проектировщиков, разработчиков и ИТ-специалистов.
