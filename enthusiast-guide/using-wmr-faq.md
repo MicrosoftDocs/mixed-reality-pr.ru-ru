@@ -8,12 +8,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, обратная связь, центр обратной связи, ошибки
 appliesto:
 - Windows 10
-ms.openlocfilehash: cf02ccfc92d80ee1d1a8f6ca3d4ab55650f4a62c
-ms.sourcegitcommit: feceb21018ce1d966188a34bd1faeddfdc1b9544
+ms.openlocfilehash: 9c31f772baa434a4c14157ae91c97454f1910a3c
+ms.sourcegitcommit: 2da7e181e4e23eed31b59f0332c3ba8b3f594cd0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044438"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93131828"
 ---
 # <a name="using-windows-mixed-reality-faq"></a>Вопросы и ответы по использованию Windows Mixed Reality
 
@@ -40,7 +40,7 @@ Windows Mixed Reality предназначена для воспроизведе
 
 ## <a name="speech-commands-arent-working"></a>Речевые команды не работают
 
-Чтобы использовать голосовые команды, в качестве речевого и языкового параметров компьютера необходимо задать [поддерживаемый регион и язык Windows Mixed Reality](wmr-setup-faq.md#what-languages-are-supported-in-windows-mixed-reality). Чтобы проверить регион и язык Windows, выберите **параметры > время & язык > регион & язык** . Чтобы проверить язык распознавания речи, выберите **параметры > время & язык > речи** .
+Чтобы использовать голосовые команды, в качестве речевого и языкового параметров компьютера необходимо задать [поддерживаемый регион и язык Windows Mixed Reality](other-questions.md#what-languages-are-supported-in-windows-mixed-reality). Чтобы проверить регион и язык Windows, выберите **параметры > время & язык > регион & язык** . Чтобы проверить язык распознавания речи, выберите **параметры > время & язык > речи** .
 
 Если у вашей гарнитуры нет встроенного микрофона, подключите наушники с микрофоном к гарнитуре или к компьютеру. Чтобы микрофон ввода с микрофона автоматически подключился к гарнитуре при непосредственном подключении к ним наушников, выберите **параметры > Смешанная реальность > аудио и речь** и убедитесь, что **при износе гарнитуры включен параметр "микрофон гарнитуры** ".
 

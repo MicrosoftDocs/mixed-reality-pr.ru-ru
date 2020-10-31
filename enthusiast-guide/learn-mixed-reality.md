@@ -8,12 +8,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, руководство, начало работы
 appliesto:
 - Windows 10
-ms.openlocfilehash: 94b23785861ad70630a14d26668164fdf699fcce
-ms.sourcegitcommit: d8f39c0b95d9e61d645d64f27baabc7a1c300dc1
+ms.openlocfilehash: be85b88f356532df736d69f8319ca6a7337ae824
+ms.sourcegitcommit: 2da7e181e4e23eed31b59f0332c3ba8b3f594cd0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "92292987"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132068"
 ---
 # <a name="learn-mixed-reality"></a>Знакомство со смешанной реальностью
 
@@ -45,7 +45,7 @@ ms.locfileid: "92292987"
 
 ## <a name="use-voice-commands-and-cortana-inside-of-the-windows-mixed-reality-home"></a>Использование голосов и Кортаны внутри домашней страницы Windows Mixed Reality
 
-[Сведения о голосовых командах, которые можно использовать на домашней странице Windows Mixed Reality](https://support.microsoft.com/en-us/help/4041322/windows-10-speech-in-windows-mixed-reality)
+[Сведения о голосовых командах, которые можно использовать на домашней странице Windows Mixed Reality](https://support.microsoft.com/help/4041322/windows-10-speech-in-windows-mixed-reality)
 
 ## <a name="show-a-preview-of-what-im-seeing-in-my-headset-on-my-desktops-screen"></a>Предварительный просмотр того, что отображается в моей гарнитуре на экране рабочего стола
 
@@ -54,5 +54,5 @@ ms.locfileid: "92292987"
 ## <a name="see-also"></a>См. также раздел
 
 * [Устранение неполадок установки](installation_errors.md)
-* [Устранение неполадок установки](set-up-questions.md)
+* [Устранение неполадок установки](wmr-setup-faq.md)
 * [Домашняя страница смешанной реальности](your-mixed-reality-home.md)
