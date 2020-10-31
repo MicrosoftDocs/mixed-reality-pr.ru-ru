@@ -3,41 +3,41 @@ title: Использование Вебвр с Windows Mixed Reality
 description: Описание Вебвр и способов его использования с Microsoft ребром на гарнитурах Windows Mixed Reality.
 ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, Вебвр, ребро, Microsoft ребро, просмотр веб-страниц
-ms.openlocfilehash: e57ad060a1a539e90631d1b9f1808d1e8466e669
-ms.sourcegitcommit: 5eb27475f8616c9d4f95b4b386a5bd0d22f41125
+ms.openlocfilehash: 8e8d7b5feefe5b1eccad0684808b40b63e9bbbca
+ms.sourcegitcommit: 2da7e181e4e23eed31b59f0332c3ba8b3f594cd0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92174344"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93131858"
 ---
 # <a name="using-webvr-with-windows-mixed-reality"></a>Использование Вебвр с Windows Mixed Reality
 
->[!IMPORTANT] 
+>[!IMPORTANT]
 >Большинство современных веб-браузеров имеют устаревшую поддержку Вебвр в пользу Вебкср, новый стандарт для создания впечатляющих веб-интерфейсов для головных телефонов VR. Установите [Новый Microsoft ребр](using-microsoft-edge.md) для поддержки вебкср.
 
-## <a name="what-is-webvr"></a>Что такое WebVR?
+## <a name="what-is-webvr"></a>Что такое WebVR
 
 [Вебвр](https://webvr.info) — это открытая спецификация, которая делает возможным запуск в БРАУЗЕРЕ среды VR. Если веб-сайт реализует поддержку Вебвр и предоставляет трехмерное содержимое, он может отображать иммерсивное содержимое на гарнитуре с согласия пользователя.
 
-## <a name="what-is-the-difference-between-webvr-and-browsing-the-web-in-vr"></a>В чем разница между Вебвр и просмотром веб-страниц в режиме VR?
+## <a name="what-is-the-difference-between-webvr-and-browsing-the-web-in-vr"></a>В чем разница между Вебвр и просмотром веб-страниц в режиме VR
 
 Вебвр — это технология, позволяющая автору веб-сайта добавлять функции VR на страницу. API Вебвр используется страницей для отображения трехмерного содержимого (например, видео в 360 градусов, 3D-модели или трехмерной игры) до полной гарнитуры. **Пример:** Просмотр видео 360 в [CNN.com/VR](http://cnn.com/vr). Если страница поддерживает Вебвр, она добавляет кнопку или другой элемент пользовательского интерфейса, который можно щелкнуть для входа в VR.
 
 Просмотр веб-страниц в VR означает использование браузера Microsoft ребра, когда вы людьми гарнитуру, как 2D-приложение в Клиффхаусе.
 
-## <a name="do-all-websites-support-webvr"></a>Все ли веб-сайты поддерживают Вебвр?
+## <a name="do-all-websites-support-webvr"></a>Все веб-сайты поддерживают Вебвр
 
 Нет. Авторы веб-сайтов должны использовать Вебвр. Кроме того, они могут создавать сайты, оптимизированные для конкретных браузеров, головных телефонов и контроллеров. Например, некоторое содержимое Вебвр оптимизировано только для устройств с мобильными устройствами VR. Кроме того, помните, что веб-сайты должны явно создавать и предоставлять содержимое Вебвр. Количество сайтов с содержимым, совместимым с Вебвр, постоянно увеличивается каждый день.
 
-## <a name="can-i-use-my-viveoculus-etc-to-view-webvr-content-in-microsoft-edge"></a>Можно ли использовать Naopak/Окулус и т. д. для просмотра содержимого Вебвр в Microsoft ребро?
+## <a name="can-i-use-my-viveoculus-etc-to-view-webvr-content-in-microsoft-edge"></a>Можно ли использовать Naopak/Окулус и т. д. для просмотра содержимого Вебвр в Microsoft ребро
 
 Нет. Для использования Вебвр в пограничных условиях необходимо использовать гарнитуру Windows Mixed Reality. Однако вы можете получить доступ к содержимому Вебвр в другом браузере. см. полный список совместимых устройств и браузеров по адресу: [вебвр. Rocks](http://webvr.rocks/).
 
-## <a name="where-can-i-find-the-webvr-developer-documentation"></a>Где найти документацию для разработчиков Вебвр?
+## <a name="where-can-i-find-the-webvr-developer-documentation"></a>Где найти документацию для разработчиков Вебвр
 
 Документация для разработчиков находится здесь: [Документация для разработчиков вебвр](https://docs.microsoft.com/microsoft-edge/webvr/).
 
-## <a name="ive-found-a-website-with-webvr-that-doesnt-work-in-windows-mixed-reality-what-do-i-do"></a>Я нашел веб-сайт с Вебвр, который не работает в Windows Mixed Reality. Что делать?
+## <a name="ive-found-a-website-with-webvr-that-doesnt-work-in-windows-mixed-reality-what-do-i-do"></a>Я нашел веб-сайт с Вебвр, который не работает в Windows Mixed Reality. Чем я занимаюсь
 
 Вы можете сообщить о неработающих веб-узлах непосредственно команде браузера Microsoft ребра в средстве [записи проблем](https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/)или с помощью Twitter, используя [#EdgeBug хэш-тег](https://blogs.windows.com/msedgedev/2016/08/11/edgebug-twitter/).
 
@@ -45,13 +45,14 @@ ms.locfileid: "92174344"
 
 Microsoft ребро — проблемы с веб-сайтом >
 
-## <a name="what-is-a-good-page-to-test-if-webvr-is-working"></a>Что такое хорошая страница для проверки, если Вебвр работает?
+## <a name="what-is-a-good-page-to-test-if-webvr-is-working"></a>Что такое хорошая страница для проверки, если работает Вебвр
 
 См. [примеры webvr.info](http://webvr.info/samples/XX-vr-controllers.html).
 
-## <a name="how-do-i-set-up-webvr"></a>Разделы справки настроить Вебвр?
+## <a name="how-do-i-set-up-webvr"></a>Разделы справки Настройка Вебвр
 
 Для работы с Вебвр содержимым на гарнитуре Windows Mixed Reality (с помощью оборудования или симуляции) необходимо:
+
 1. Убедитесь, что гарнитура подключена.
 2. Запустите Microsoft ребро на рабочем столе или в смешанной реальности.
 3. Перейдите на страницу с включенной Вебвр.
@@ -59,7 +60,6 @@ Microsoft ребро — проблемы с веб-сайтом >
    ![Образ VR Гогглес](images/75px-enter-vr.png)
 5. При первом входе в систему в определенном домене браузер запросит согласие на использование иммерсивного представления, а затем нажмите кнопку Да: ![Пользовательский интерфейс согласия, отображаемый при первой попытке входа в VR в определенном домене](images/1053px-Webvr-consent-ui.png)
 6. Гарнитура должна начинать отображать содержимое Вебвр.
-
 
 ## <a name="see-also"></a>См. также раздел
 

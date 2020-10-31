@@ -3,12 +3,12 @@ title: Домашняя страница смешанной реальности
 description: Как перемещаться и телепортируйтесь в домашней папке Windows Mixed Reality, запускать приложения и игры, персонализировать домашнюю страницу и изменять параметры визуального, звукового и голосового ввода.
 ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, Домашняя страница, навигация, обход приложений, игры
-ms.openlocfilehash: 177a9db67f304c163356a814b5c4d2e54ba4867d
-ms.sourcegitcommit: 55a6a0b481238e7a2e3278a51583b6bda0eb259a
+ms.openlocfilehash: ce4774f4a8f752d5e508d8daa66c050b2a6f28ca
+ms.sourcegitcommit: 2da7e181e4e23eed31b59f0332c3ba8b3f594cd0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92434623"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132118"
 ---
 # <a name="your-windows-mixed-reality-home"></a>Ваш дом с Windows Mixed Reality
 
@@ -73,7 +73,7 @@ Windows Mixed Reality является первой пространственн
 
 ## <a name="turn-off-the-boundary"></a>Отключить границу
 
-Перейдите на портал смешанной реальности и откройте меню в левом верхнем углу экрана. Выберите **запустить настроить > граница комнаты**. Установите переключатель в положение Выкл. Если граница отключена, вы должны остаться на рабочем столе.
+Перейдите на портал смешанной реальности и откройте меню в левом верхнем углу экрана. Выберите **запустить настроить > граница комнаты** . Установите переключатель в положение Выкл. Если граница отключена, вы должны остаться на рабочем столе.
 
 ## <a name="spatial-sound-in-the-windows-mixed-reality-home"></a>Пространственный звук на домашней странице Windows Mixed Reality
 
@@ -82,9 +82,9 @@ Windows Mixed Reality является первой пространственн
 > [!NOTE]
 > Эта функция отключена на компьютерах с интегрированной графикой из-за нагрузки на GPU.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
-* [Устранение неполадок домашней страницы Windows Mixed Reality](set-up-questions.md#my-controllers-arent-showing-in-my-windows-mixed-reality-home)
+* [Устранение неполадок домашней страницы Windows Mixed Reality](wmr-setup-faq.md#my-motion-controllers-arent-working)
 * [Использование игр и приложений в Windows Mixed Reality](using-games-and-apps-in-windows-mixed-reality.md)
 * [Как работает отслеживание Inside-out](tracking-system.md)
 * [Как работают контроллеры движений](controllers-in-wmr.md)
