@@ -2,6 +2,8 @@
   href: development.md
 - name: Oблачныe службы Azure
   href: mixed-reality-cloud-services.md
+- name: Общие сведения об обучении смешанной реальности
+  href: mr-learning-overview.md
 - name: Установка инструментов
   href: install-the-tools.md
 - name: Перенос приложений
