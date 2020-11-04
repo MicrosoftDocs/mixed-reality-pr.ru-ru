@@ -7,12 +7,12 @@ ms.date: 08/04/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unity, смешанная реальность, разработка, приступая к работе, новый проект, перенос, возможность, камера, имитация, эмуляция, документация
-ms.openlocfilehash: ed6e3482194b17ec3b6dfa2abe309f3519c64662
-ms.sourcegitcommit: 9ab467e36d7d9fad51b0e93a56038a6421a7b09d
+ms.openlocfilehash: 006814c17d7e2e7c343f28b83de845674c079a95
+ms.sourcegitcommit: 4bb5544a0c74ac4e9766bab3401c9b30ee170a71
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91980315"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92638571"
 ---
 # <a name="unity-development-overview"></a>Обзор разработки в Unity
 
@@ -21,7 +21,7 @@ ms.locfileid: "91980315"
 Самым быстрым средством создания [приложения смешанной реальности](../../design/app-views.md) в[Unity](https://unity.com) является набор Mixed Reality Toolkit. Если вы еще не работали с Unity, мы рекомендуем вам предварительно изучить [руководства](https://unity3d.com/learn/tutorials) для начинающих на платформе Unity Learn. Также посетите комплексный портал [Asset Store](https://www.assetstore.unity3d.com/) и [форумы по смешанной реальности Unity](https://forum.unity3d.com/forums/hololens.102/), чтобы воспользоваться опытом онлайн-сообщества, создающего приложения смешанной реальности. Никогда не угадаешь, какие великолепные ресурсы или решения можно найти в Интернете. Когда вы будете готовы начать работу с MRTK, перейдите к этапам разработки ниже.
 
 > [!IMPORTANT]
-> Ознакомьтесь с нашими **[руководствами по переносу](../porting-apps/porting-guides.md)** , если вы хотите перенести существующий проект Unity в HoloLens 2. Мы предоставляем руководства для проектов, которые используют HTK, MRTK v1, SteamVR или которые были разработаны для иммерсивных гарнитур, таких как Oculus Rift и HTC Vive.
+> Ознакомьтесь с нашими **[руководствами по переносу](../porting-apps/porting-overview.md)** , если вы хотите перенести существующий проект Unity в HoloLens 2. Мы предоставляем руководства для проектов, которые используют HTK, MRTK версии 1 или SteamVR и которые были разработаны для иммерсивных гарнитур, таких как Reverb G2, Oculus Rift и HTC Vive.
 
 ## <a name="development-checkpoints"></a>Этапы разработки
 

@@ -7,12 +7,12 @@ ms.date: 08/04/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, потоковая передача, удаленное взаимодействие, смешанная реальность, разработка, начало работы, функции, новый проект, эмулятор, документация, руководства, функции, голограммы, разработка игр
-ms.openlocfilehash: 3b5dc5d0ce1510405960c6effd653acc9c2588b2
-ms.sourcegitcommit: 9ab467e36d7d9fad51b0e93a56038a6421a7b09d
+ms.openlocfilehash: 25842fb8083b7757e73e7dbe7551b6bde9d8d95e
+ms.sourcegitcommit: 4bb5544a0c74ac4e9766bab3401c9b30ee170a71
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91980345"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92638591"
 ---
 # <a name="unreal-development-overview"></a>Обзор разработки в Unreal
 
@@ -27,6 +27,9 @@ ms.locfileid: "91980345"
 * начальная поддержка пространственных привязок Azure.
 
 Если же вы новичок в разработке с использованием Unreal, советуем сначала изучить наши материалы: ознакомьтесь с <a href="https://docs.unrealengine.com/GettingStarted/index.html" target="_blank">серией руководств</a> по Unreal, чтобы войти в курс дела, и воспользуйтесь материалами и поддержкой, которые вы найдете на площадке <a href="https://www.unrealengine.com/marketplace/store" target="_blank">Unreal Marketplace</a> и на <a href="https://forums.unrealengine.com/development-discussion/vr-ar-development" target="_blank">форумах</a> по смешанной реальности. Эти ресурсы послужат вам путевкой в сообщество разработчиков и специалистов по решению задач на сегодняшнем рынке смешанной реальности.
+
+> [!IMPORTANT]
+> Ознакомьтесь с нашими **[руководствами по переносу](../porting-apps/porting-overview.md)** , если у вас есть существующий проект Unreal, который вы хотите перенести на HoloLens 2 или иммерсивные гарнитуры виртуальной реальности, например Reverb G2.
 
 ## <a name="development-checkpoints"></a>Этапы разработки
 
