@@ -6,12 +6,12 @@ ms.author: shentan
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Windows Mixed Reality, стиль, Дизайн
-ms.openlocfilehash: a9a02d681986df3d73c7990fc975e659e5326981
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: 7d35da2d86d8d3b7f444974d87e5aa10e58ed2c8
+ms.sourcegitcommit: 9a489e8a3bf90b20f1b61606eea42c859c833424
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91691568"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "94340662"
 ---
 # <a name="scale"></a>Масштабирование
 
@@ -80,7 +80,19 @@ ms.locfileid: "91691568"
 
 ---
 
-## <a name="see-also"></a>См. также раздел
+## <a name="next-discovery-checkpoint"></a>Следующая контрольная точка обнаружения
+
+Если вы пойдете из [пути обнаружения](../discover/get-started-with-mr.md) , то вы находитесь в конце начального опыта в смешанной реальности. Вы можете либо узнать, какие отраслевые партнеры выполняют смешанную реальность в реальном мире: 
+
+> [!div class="nextstepaction"]
+> [Узнайте, как партнеры по отрасли используют смешанную реальность](../discover/get-started-with-mr.md#see-how-industry-partners-are-using-mixed-reality)
+
+Или перейдите к пути проектирования:
+
+> [!div class="nextstepaction"]
+> [Начните разработку](../design/design.md)
+
+## <a name="see-also"></a>См. также
 * [Цвет, свет и материалы](../color,-light-and-materials.md)
 * [Оформление текста](typography.md)
 * [Проектирование пространственного звука](spatial-sound-design.md)
