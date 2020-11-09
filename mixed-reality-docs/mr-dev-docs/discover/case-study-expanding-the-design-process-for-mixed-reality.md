@@ -6,12 +6,12 @@ ms.author: daescu
 ms.date: 04/08/2018
 ms.topic: article
 keywords: Windows Mixed Reality, проектирование, процесс, пример внедрения
-ms.openlocfilehash: ee6bf2ad9f76e25c678458ca00505a95b406bfc6
-ms.sourcegitcommit: d8f39c0b95d9e61d645d64f27baabc7a1c300dc1
+ms.openlocfilehash: f08115879d09d0be7ef8cae12ea0a4c15991a576
+ms.sourcegitcommit: 83c9373fe5b2e07cdab921b6cab3fdd418307003
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "92293184"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "94386250"
 ---
 # <a name="thinking-differently-for-mixed-reality"></a>Размышления по-разному для смешанной реальности
 Когда корпорация Майкрософт запустила HoloLens (1-й выпуск) для аудитории незавершенных разработчиков в 2016, группа уже составила партнерскую Studios внутри и за пределами корпорации Майкрософт, чтобы создать интерфейс для запуска устройства. Эти команды учились, открывая новые возможности и сталкиваясь с проблемами в новой области проектирования смешанной реальности.
@@ -128,6 +128,13 @@ ms.locfileid: "92293184"
 * Карандаши
 * Резки
 
-## <a name="see-also"></a>См. также раздел
+## <a name="next-discovery-checkpoint"></a>Следующая контрольная точка обнаружения
+
+Если вы подготовились к [пути обнаружения](get-started-with-mr.md) , то вы в состоянии изучить основы смешанной реальности. Здесь можно перейти к следующей базовой теме: 
+
+> [!div class="nextstepaction"]
+> [Комфорт пользователя](../design/comfort.md)
+
+## <a name="see-also"></a>См. также
 * [Пример использования. мой первый год в группе проектирования HoloLens](../out-of-scope/case-study-my-first-year-on-the-hololens-design-team.md)
 * [Пример использования: подготовка к работе в Афтернов, создание прототипов, разработка](https://developer.microsoft.com/windows/mixed-reality/case_study_-_afternow's_process_-_envisioning,_prototyping,_building)
