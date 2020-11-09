@@ -27,9 +27,9 @@
 ### [Вопросы и ответы по использованию Windows Mixed Reality](using-wmr-faq.md)
 
 ## Устранение неполадок и часто задаваемые вопросы
+### [Общий обзор часто задаваемых вопросов](troubleshooting-windows-mixed-reality.md)
 ### [Отправка сведений об ошибках и отзывов](filing-feedback.md)
 ### [Коды ошибок](error-codes.md)
-### [Общие вопросы и ответы](troubleshooting-windows-mixed-reality.md)
 ### [Ошибки установки](installation_errors.md)
 ### [границы,](boundary-questions.md)
 ### [Подключение гарнитуры](headset-connectivity.md)
