@@ -7,12 +7,12 @@ ms.date: 08/24/2019
 ms.topic: article
 ms.localizationpriority: high
 keywords: Смешанная реальность, обнаружение, распространение, указательный, целевая страница, проектирование, разработка, руководства, примеры приложений, основы, примеры, ресурсы, практические руководства по HoloLens, проекты с открытым кодом, основные понятия, взаимодействие
-ms.openlocfilehash: 7333163a01496f41c4cb3cd98f54012e5c58a8d4
-ms.sourcegitcommit: d8f39c0b95d9e61d645d64f27baabc7a1c300dc1
+ms.openlocfilehash: 2ee127b05a8ad88e49eda6d088f84e895aeaf511
+ms.sourcegitcommit: 4e618948e1e2e0baf4bb3e8b67513fa7716aa815
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "92293128"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "94361735"
 ---
 # <a name="start-designing-and-prototyping"></a>Начните проектировать и создавать прототипы
 
@@ -88,17 +88,17 @@ ms.locfileid: "92293128"
         Узнайте, как создавать интерактивные интерфейсы с помощью Unity. Научитесь этому, выполнив процесс с начала и до конца.
     :::column-end:::    
     :::column:::    
-        [![Mixed Reality Toolkit (MRTK)](images/Final_mrtk-small_logo.png)](https://github.com/Microsoft/MixedRealityToolkit-Unity)<br>
+        [![Mixed Reality Toolkit (MRTK)](images/74-12.png)](https://github.com/Microsoft/MixedRealityToolkit-Unity)<br>
         **[Mixed Reality Toolkit (MRTK)](https://github.com/Microsoft/MixedRealityToolkit-Unity)**<br>  
         Благодаря пространственному взаимодействию и стандартным блокам пользовательского интерфейса, вы можете быстро начать проектирование и разработку смешанной реальности с помощью Unity.   
     :::column-end:::
     :::column:::    
-        [![Лаборатории проектирования смешанной реальности](images/Final_mrdl_logo.png)](https://github.com/Microsoft/MRDL_Unity_PeriodicTable)<br>
+        [![Лаборатории проектирования смешанной реальности](images/74-13.png)](https://github.com/Microsoft/MRDL_Unity_PeriodicTable)<br>
         **[Лаборатории проектирования смешанной реальности](https://github.com/Microsoft/MRDL_Unity_PeriodicTable)**<br>  
         Получите примеры приложений, демонстрирующие использование стандартных блоков МРТК для создания привлекательных интерфейсов смешанной реальности.
     :::column-end:::        
     :::column:::    
-        [![Microsoft Maquette](images/Final_maquette_logo.png)](https://www.maquette.ms/)<br>
+        [![Microsoft Maquette](images/74-14.png)](https://www.maquette.ms/)<br>
         **[Microsoft Maquette](https://www.maquette.ms/)**<br>  
         Разработка для виртуальной реальности. Microsoft Maquette делает создание пространственных прототипов более простым, быстрым и иммерсивным. 
     :::column-end:::    
@@ -112,22 +112,22 @@ ms.locfileid: "92293128"
 
 :::row:::
     :::column:::
-       [![Изучение основ](images/icon-lightbulb.png)](../discover/get-started-with-mr.md#understand-the-basics)<br>
+       [![Изучение основ](images/74-15.png)](../discover/get-started-with-mr.md#understand-the-basics)<br>
         **[Изучение основ](../discover/get-started-with-mr.md#understand-the-basics)**<br>
         Получите более полное представление о том, что определяет смешанную реальность и как она используется.
     :::column-end:::
     :::column:::
-        [![Посетите мероприятие](images/icon-calendar.jpg)](../whats-new/sf-academy-events.md)<br>
+        [![Посетите мероприятие](images/74-16.png)](../whats-new/sf-academy-events.md)<br>
          **[Посетите мероприятие](../whats-new/sf-academy-events.md)**<br>
         Ознакомьтесь с оборудованием и получите практическое руководство по созданию первого приложения HoloLens 2.
     :::column-end:::
     :::column:::
-        [![Установка инструментов](images/icon-design.png)](../develop/install-the-tools.md)<br>
+        [![Установка инструментов](images/74-17.png)](../develop/install-the-tools.md)<br>
          **[Установка инструментов](../develop/install-the-tools.md)**<br>
         Используйте контрольный список установки, чтобы получить инструменты, необходимые для создания приложений для HoloLens и смешанной реальности.
     :::column-end:::
     :::column:::
-        [![Приступите к разработке](images/icon-developer.png)](../develop/development.md)<br>
+        [![Приступите к разработке](images/74-18.png)](../develop/development.md)<br>
         **[Приступите к разработке](../develop/development.md)**<br>
         Выберите путь разработки в зависимости от своего уровня навыков, стиля работы или платформы.
     :::column-end:::
