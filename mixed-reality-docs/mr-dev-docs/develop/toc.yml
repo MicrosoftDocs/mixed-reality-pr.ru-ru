@@ -22,7 +22,7 @@
       href: unity/unity-development-overview.md
     - name: Начало работы
       items:
-        - name: Приступая к работе с набором средств для смешанной реальности версии 2
+        - name: Начало работы с MRTK
           href: unity/mrtk-getting-started.md
         - name: Настройка проекта Unity для Windows Mixed Reality
           href: unity/configure-unity-project.md
@@ -170,7 +170,7 @@
               href: unity/tutorials/mr-azure-301.md
     - name: Основные компоненты
       items:
-        - name: Общие сведения об MRTK. Как использовать Mixed Reality Toolkit в Unity для реализации простых взаимодействий
+        - name: "101. MRTK\_— создание основных видов взаимодействия с помощью набора средств для смешанной реальности в Unity"
           href: unity/mrtk-101.md
         - name: Камера в Unity
           href: unity/camera-in-unity.md
@@ -208,7 +208,7 @@
           href: unity/using-the-windows-namespace-with-unity-apps-for-hololens.md
         - name: Собственные объекты смешанной реальности в Unity
           href: unity/unity-xrdevice-advanced.md
-        - name: Использование Vuforial с Unity
+        - name: Использование Vuforia с Unity
           href: unity/vuforia-development-overview.md
     - name: Иммерсивная виртуальная реальность
       items:

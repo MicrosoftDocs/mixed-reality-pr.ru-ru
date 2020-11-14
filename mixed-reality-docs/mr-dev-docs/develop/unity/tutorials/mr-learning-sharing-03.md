@@ -1,125 +1,125 @@
 ---
 title: Руководства по многопользовательским возможностям, часть 3. Подключение нескольких пользователей
-description: В рамках этого курса вы узнаете, как реализовать многопользовательские возможности в приложении HoloLens 2.
+description: В рамках этого курса вы узнаете, как подключить нескольких пользователей в приложении HoloLens 2.
 author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
 keywords: mixed reality, unity, tutorial, hololens
 ms.localizationpriority: high
-ms.openlocfilehash: cffcc326fadcc9cdbf406adde093e055aef83706
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: 5ebb3ffd66422a5e38bc62ada0f040e00f52671d
+ms.sourcegitcommit: 63c228af55379810ab2ee4f09f20eded1bb76229
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91701701"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93353472"
 ---
-# <a name="3-connecting-multiple-users"></a><span data-ttu-id="a7602-105">3. Подключение нескольких пользователей</span><span class="sxs-lookup"><span data-stu-id="a7602-105">3. Connecting multiple users</span></span>
+# <a name="3-connecting-multiple-users"></a><span data-ttu-id="c7f85-105">3. Подключение нескольких пользователей</span><span class="sxs-lookup"><span data-stu-id="c7f85-105">3. Connecting multiple users</span></span>
 
-<span data-ttu-id="a7602-106">Из этого учебника вы узнаете, как подключить несколько пользователей для организации совместного взаимодействия в реальном времени.</span><span class="sxs-lookup"><span data-stu-id="a7602-106">In this tutorial, you will learn how to connect multiple users as part of a live shared experience.</span></span> <span data-ttu-id="a7602-107">По завершении работы с этим руководством вы сможете запустить приложение на нескольких устройствах, и каждый пользователь сможет увидеть, как аватар других пользователей перемещается в реальном времени.</span><span class="sxs-lookup"><span data-stu-id="a7602-107">By the end of the tutorial, you will be able to run the app on multiple devices and have each user see the avatar of other users move in real-time.</span></span>
+<span data-ttu-id="c7f85-106">Из этого учебника вы узнаете, как подключить несколько пользователей для организации совместного взаимодействия в реальном времени.</span><span class="sxs-lookup"><span data-stu-id="c7f85-106">In this tutorial, you will learn how to connect multiple users as part of a live shared experience.</span></span> <span data-ttu-id="c7f85-107">По завершении работы с этим руководством вы сможете запустить приложение на нескольких устройствах, и каждый пользователь сможет увидеть, как аватар других пользователей перемещается в реальном времени.</span><span class="sxs-lookup"><span data-stu-id="c7f85-107">By the end of the tutorial, you will be able to run the app on multiple devices and have each user see the avatar of other users move in real-time.</span></span>
 
-## <a name="objectives"></a><span data-ttu-id="a7602-108">Задачи</span><span class="sxs-lookup"><span data-stu-id="a7602-108">Objectives</span></span>
+## <a name="objectives"></a><span data-ttu-id="c7f85-108">Задачи</span><span class="sxs-lookup"><span data-stu-id="c7f85-108">Objectives</span></span>
 
-* <span data-ttu-id="a7602-109">Подключение нескольких пользователей к общему взаимодействию</span><span class="sxs-lookup"><span data-stu-id="a7602-109">Learn how to connect multiple users in a shared experience</span></span>
+* <span data-ttu-id="c7f85-109">Подключение нескольких пользователей к общему взаимодействию</span><span class="sxs-lookup"><span data-stu-id="c7f85-109">Learn how to connect multiple users in a shared experience</span></span>
 
-## <a name="preparing-the-scene"></a><span data-ttu-id="a7602-110">Подготовка сцены</span><span class="sxs-lookup"><span data-stu-id="a7602-110">Preparing the scene</span></span>
+## <a name="preparing-the-scene"></a><span data-ttu-id="c7f85-110">Подготовка сцены</span><span class="sxs-lookup"><span data-stu-id="c7f85-110">Preparing the scene</span></span>
 
-<span data-ttu-id="a7602-111">В рамках этого раздела вы подготовите сцену, добавив в нее несколько заготовок для руководства.</span><span class="sxs-lookup"><span data-stu-id="a7602-111">In this section, you will prepare the scene by adding some of the tutorial prefabs.</span></span>
+<span data-ttu-id="c7f85-111">В рамках этого раздела вы подготовите сцену, добавив в нее несколько заготовок для руководства.</span><span class="sxs-lookup"><span data-stu-id="c7f85-111">In this section, you will prepare the scene by adding some of the tutorial prefabs.</span></span>
 
-<span data-ttu-id="a7602-112">В окне Project (Проект) перейдите к папке **Assets** > **MRTK.Tutorials.MultiUserCapabilities** > **Prefabs** (Активы > MRTK.Tutorials.MultiUserCapabilities > Заготовки), а затем щелкните и перетащите следующие заготовки в окно Hierarchy (Иерархия), чтобы добавить их в сцену:</span><span class="sxs-lookup"><span data-stu-id="a7602-112">In the Project window, navigate to the **Assets** > **MRTK.Tutorials.MultiUserCapabilities** > **Prefabs** folder, then click-and-drag the following prefabs into the Hierarchy window to add them to your scene:</span></span>
+<span data-ttu-id="c7f85-112">В окне Project (Проект) перейдите к папке **Assets** > **MRTK.Tutorials.MultiUserCapabilities** > **Prefabs** (Активы > MRTK.Tutorials.MultiUserCapabilities > Заготовки), а затем щелкните и перетащите следующие заготовки в окно Hierarchy (Иерархия), чтобы добавить их в сцену:</span><span class="sxs-lookup"><span data-stu-id="c7f85-112">In the Project window, navigate to the **Assets** > **MRTK.Tutorials.MultiUserCapabilities** > **Prefabs** folder, then click-and-drag the following prefabs into the Hierarchy window to add them to your scene:</span></span>
 
-* <span data-ttu-id="a7602-113">заготовка **NetworkLobby** ;</span><span class="sxs-lookup"><span data-stu-id="a7602-113">**NetworkLobby** prefab</span></span>
-* <span data-ttu-id="a7602-114">заготовка **SharedPlayground** .</span><span class="sxs-lookup"><span data-stu-id="a7602-114">**SharedPlayground** prefab</span></span>
+* <span data-ttu-id="c7f85-113">заготовка **NetworkLobby** ;</span><span class="sxs-lookup"><span data-stu-id="c7f85-113">**NetworkLobby** prefab</span></span>
+* <span data-ttu-id="c7f85-114">заготовка **SharedPlayground**.</span><span class="sxs-lookup"><span data-stu-id="c7f85-114">**SharedPlayground** prefab</span></span>
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-03-section1-step1-1.png)
+![Unity с добавленными заготовками NetworkLobby и SharedPlayground](images/mr-learning-sharing/sharing-03-section1-step1-1.png)
 
-<span data-ttu-id="a7602-116">В окне Project (Проект) перейдите к папке **Assets** > **MRTK.Tutorials.AzureSpatialAnchors** > **Prefabs** (Активы > MRTK.Tutorials.AzureSpatialAnchors > Заготовки), а затем щелкните и перетащите следующие заготовки в окно Hierarchy (Иерархия), чтобы добавить их в сцену:</span><span class="sxs-lookup"><span data-stu-id="a7602-116">In the Project window, navigate to the **Assets** > **MRTK.Tutorials.AzureSpatialAnchors** > **Prefabs** folder, then click-and-drag the following prefab into the Hierarchy window to add it to your scene:</span></span>
+<span data-ttu-id="c7f85-116">В окне Project (Проект) перейдите к папке **Assets** > **MRTK.Tutorials.AzureSpatialAnchors** > **Prefabs** (Активы > MRTK.Tutorials.AzureSpatialAnchors > Заготовки), а затем щелкните и перетащите следующие заготовки в окно Hierarchy (Иерархия), чтобы добавить их в сцену:</span><span class="sxs-lookup"><span data-stu-id="c7f85-116">In the Project window, navigate to the **Assets** > **MRTK.Tutorials.AzureSpatialAnchors** > **Prefabs** folder, then click-and-drag the following prefab into the Hierarchy window to add it to your scene:</span></span>
 
-* <span data-ttu-id="a7602-117">заготовка **DebugWindow** .</span><span class="sxs-lookup"><span data-stu-id="a7602-117">**DebugWindow** prefab</span></span>
+* <span data-ttu-id="c7f85-117">заготовка **DebugWindow**.</span><span class="sxs-lookup"><span data-stu-id="c7f85-117">**DebugWindow** prefab</span></span>
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-03-section1-step1-2.png)
+![Unity с выбранной добавленной заготовкой DebugWindow](images/mr-learning-sharing/sharing-03-section1-step1-2.png)
 
-## <a name="creating-the-user-prefab"></a><span data-ttu-id="a7602-119">Создание заготовки пользователя</span><span class="sxs-lookup"><span data-stu-id="a7602-119">Creating the user prefab</span></span>
+## <a name="creating-the-user-prefab"></a><span data-ttu-id="c7f85-119">Создание заготовки пользователя</span><span class="sxs-lookup"><span data-stu-id="c7f85-119">Creating the user prefab</span></span>
 
-<span data-ttu-id="a7602-120">В рамках этого раздела вы создадите заготовку, которая будет использоваться для представления пользователей в общем интерфейсе.</span><span class="sxs-lookup"><span data-stu-id="a7602-120">In this section, you will create a prefab that will be used to represent the users in the shared experience.</span></span>
+<span data-ttu-id="c7f85-120">В рамках этого раздела вы создадите заготовку, которая будет использоваться для представления пользователей в общем интерфейсе.</span><span class="sxs-lookup"><span data-stu-id="c7f85-120">In this section, you will create a prefab that will be used to represent the users in the shared experience.</span></span>
 
-### <a name="1-create-and-configure-the-user"></a><span data-ttu-id="a7602-121">1. Создание и настройка пользователя</span><span class="sxs-lookup"><span data-stu-id="a7602-121">1. Create and configure the user</span></span>
+### <a name="1-create-and-configure-the-user"></a><span data-ttu-id="c7f85-121">1. Создание и настройка пользователя</span><span class="sxs-lookup"><span data-stu-id="c7f85-121">1. Create and configure the user</span></span>
 
-<span data-ttu-id="a7602-122">Щелкните правой кнопкой мыши пустое место в окне "Иерархия" и выберите **Create Empty** (Создать пустой), чтобы добавить пустой объект в сцену. Присвойте объекту имя **PhotonUser** и настройте его, как описано ниже.</span><span class="sxs-lookup"><span data-stu-id="a7602-122">In the Hierarchy window, right-click on an empty area and select **Create Empty** to add an empty object to your scene, name the object **PhotonUser** , and configure it as follows:</span></span>
+<span data-ttu-id="c7f85-122">Щелкните правой кнопкой мыши пустое место в окне "Иерархия" и выберите **Create Empty** (Создать пустой), чтобы добавить пустой объект в сцену. Присвойте объекту имя **PhotonUser** и настройте его, как описано ниже.</span><span class="sxs-lookup"><span data-stu-id="c7f85-122">In the Hierarchy window, right-click on an empty area and select **Create Empty** to add an empty object to your scene, name the object **PhotonUser** , and configure it as follows:</span></span>
 
-* <span data-ttu-id="a7602-123">Убедитесь, что для свойства **Позиция** в области "Преобразование" установлены такие значения: X = 0, Y = 0, Z = 0.</span><span class="sxs-lookup"><span data-stu-id="a7602-123">Ensure the Transform **Position** is set to X = 0, Y = 0, Z = 0:</span></span>
+* <span data-ttu-id="c7f85-123">Убедитесь, что для свойства **Позиция** в области "Преобразование" установлены такие значения: X = 0, Y = 0, Z = 0.</span><span class="sxs-lookup"><span data-stu-id="c7f85-123">Ensure the Transform **Position** is set to X = 0, Y = 0, Z = 0:</span></span>
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-03-section2-step1-1.png)
+![Unity с выбранным созданным объектом PhotonUser](images/mr-learning-sharing/sharing-03-section2-step1-1.png)
 
-<span data-ttu-id="a7602-125">В окне Hierarchy (Иерархия) выберите **PhotonUser** , перейдите в окно Inspector (Инспектор) и нажмите кнопку **Add component** (Добавить компонент), чтобы добавить в объект PhotonUser компонент **Photon User (Script)** (Пользователь Photon — скрипт).</span><span class="sxs-lookup"><span data-stu-id="a7602-125">In the Hierarchy window, select the **PhotonUser** object, then in the Inspector window, use the **Add Component** button to add the **Photon User (Script)** component to the PhotonUser object:</span></span>
+<span data-ttu-id="c7f85-125">В окне Hierarchy (Иерархия) выберите **PhotonUser** , перейдите в окно Inspector (Инспектор) и нажмите кнопку **Add component** (Добавить компонент), чтобы добавить в объект PhotonUser компонент **Photon User (Script)** (Пользователь Photon — скрипт).</span><span class="sxs-lookup"><span data-stu-id="c7f85-125">In the Hierarchy window, select the **PhotonUser** object, then in the Inspector window, use the **Add Component** button to add the **Photon User (Script)** component to the PhotonUser object:</span></span>
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-03-section2-step1-2.png)
+![Unity с добавленным компонентом PhotonUser](images/mr-learning-sharing/sharing-03-section2-step1-2.png)
 
-<span data-ttu-id="a7602-127">В окне "Инспектор" нажмите кнопку **Добавить компонент** , чтобы добавить в объект PhotonUser компонент **Generic Net Sync (Script)** (Generic Net Sync — скрипт) и настроить его, как описано ниже.</span><span class="sxs-lookup"><span data-stu-id="a7602-127">In the Inspector window, use the **Add Component** button to add the **Generic Net Sync (Script)** component to the PhotonUser object and configure it as follows:</span></span>
+<span data-ttu-id="c7f85-127">В окне "Инспектор" нажмите кнопку **Добавить компонент** , чтобы добавить в объект PhotonUser компонент **Generic Net Sync (Script)** (Generic Net Sync — скрипт) и настроить его, как описано ниже.</span><span class="sxs-lookup"><span data-stu-id="c7f85-127">In the Inspector window, use the **Add Component** button to add the **Generic Net Sync (Script)** component to the PhotonUser object and configure it as follows:</span></span>
 
-* <span data-ttu-id="a7602-128">Установите флажок **Is User** (Пользователь).</span><span class="sxs-lookup"><span data-stu-id="a7602-128">Check the **Is User** checkbox</span></span>
+* <span data-ttu-id="c7f85-128">Установите флажок **Is User** (Пользователь).</span><span class="sxs-lookup"><span data-stu-id="c7f85-128">Check the **Is User** checkbox</span></span>
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-03-section2-step1-3.png)
+![Unity с добавленным и настроенным компонентом Generic Net Sync](images/mr-learning-sharing/sharing-03-section2-step1-3.png)
 
-<span data-ttu-id="a7602-130">В окне "Инспектор" нажмите кнопку **Добавить компонент** , чтобы добавить в объект PhotonUser компонент **Photon View (Script)** (Photon View — скрипт) и настроить его, как описано ниже.</span><span class="sxs-lookup"><span data-stu-id="a7602-130">In the Inspector window, use the **Add Component** button to add the **Photon View (Script)** component to the PhotonUser object and configure it as follows:</span></span>
+<span data-ttu-id="c7f85-130">В окне "Инспектор" нажмите кнопку **Добавить компонент** , чтобы добавить в объект PhotonUser компонент **Photon View (Script)** (Photon View — скрипт) и настроить его, как описано ниже.</span><span class="sxs-lookup"><span data-stu-id="c7f85-130">In the Inspector window, use the **Add Component** button to add the **Photon View (Script)** component to the PhotonUser object and configure it as follows:</span></span>
 
-* <span data-ttu-id="a7602-131">В поле **Observed Components** (Наблюдаемые компоненты) укажите компонент **Generic Net Sync (Script)** (Generic Net Sync — скрипт).</span><span class="sxs-lookup"><span data-stu-id="a7602-131">To the **Observed Components** field, assign the **Generic Net Sync (Script)** component</span></span>
+* <span data-ttu-id="c7f85-131">В поле **Observed Components** (Наблюдаемые компоненты) укажите компонент **Generic Net Sync (Script)** (Generic Net Sync — скрипт).</span><span class="sxs-lookup"><span data-stu-id="c7f85-131">To the **Observed Components** field, assign the **Generic Net Sync (Script)** component</span></span>
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-03-section2-step1-4.png)
+![Unity с добавленным и настроенным компонентом Photon View](images/mr-learning-sharing/sharing-03-section2-step1-4.png)
 
-### <a name="2-create-the-avatar"></a><span data-ttu-id="a7602-133">2. Создание аватара</span><span class="sxs-lookup"><span data-stu-id="a7602-133">2. Create the avatar</span></span>
+### <a name="2-create-the-avatar"></a><span data-ttu-id="c7f85-133">2. Создание аватара</span><span class="sxs-lookup"><span data-stu-id="c7f85-133">2. Create the avatar</span></span>
 
-<span data-ttu-id="a7602-134">В окне Project (Проект) перейдите к папке **Assets** > **MRTK** > **SDK** > **StandardAssets**  > **Materials** (Активы > MRTK > Пакет SDK > Стандартные активы > Материалы), чтобы найти материалы MRTK.</span><span class="sxs-lookup"><span data-stu-id="a7602-134">In the Project window, navigate to the **Assets** > **MRTK** > **SDK** > **StandardAssets** > **Materials** folder to locate the MRTK materials.</span></span>
+<span data-ttu-id="c7f85-134">В окне Project (Проект) перейдите к папке **Assets** > **MRTK** > **SDK** > **StandardAssets**  > **Materials** (Активы > MRTK > Пакет SDK > Стандартные активы > Материалы), чтобы найти материалы MRTK.</span><span class="sxs-lookup"><span data-stu-id="c7f85-134">In the Project window, navigate to the **Assets** > **MRTK** > **SDK** > **StandardAssets** > **Materials** folder to locate the MRTK materials.</span></span>
 
-<span data-ttu-id="a7602-135">Затем щелкните правой кнопкой мыши объект **PhotonUser** в окне Hierarchy (Иерархия) и последовательно выберите **3D Object** > **Sphere** (Трехмерный объект > Сфера), чтобы создать сферический объект в качестве дочернего для объекта PhotonUser и настроить его следующим образом:</span><span class="sxs-lookup"><span data-stu-id="a7602-135">Then, in the Hierarchy window, right-click on the **PhotonUser** object and select **3D Object** > **Sphere** to create a sphere object as a child of the PhotonUser object and configure it as follows:</span></span>
+<span data-ttu-id="c7f85-135">Затем щелкните правой кнопкой мыши объект **PhotonUser** в окне Hierarchy (Иерархия) и последовательно выберите **3D Object** > **Sphere** (Трехмерный объект > Сфера), чтобы создать сферический объект в качестве дочернего для объекта PhotonUser и настроить его следующим образом:</span><span class="sxs-lookup"><span data-stu-id="c7f85-135">Then, in the Hierarchy window, right-click on the **PhotonUser** object and select **3D Object** > **Sphere** to create a sphere object as a child of the PhotonUser object and configure it as follows:</span></span>
 
-* <span data-ttu-id="a7602-136">Убедитесь, что для свойства **Позиция** в области "Преобразование" установлены такие значения: X = 0, Y = 0, Z = 0.</span><span class="sxs-lookup"><span data-stu-id="a7602-136">Ensure the Transform **Position** is set to X = 0, Y = 0, Z = 0</span></span>
-* <span data-ttu-id="a7602-137">Измените для преобразования свойство **Масштаб** до нормального размера, например X = 0,15, Y = 0,15 и Z = 0,15.</span><span class="sxs-lookup"><span data-stu-id="a7602-137">Change the Transform **Scale** to a suitable size, for example, X = 0.15, Y = 0.15, Z = 0.15</span></span>
-* <span data-ttu-id="a7602-138">Перейдите к полю MeshRenderer > Materials (Материалы) > **Element 0** (Элемент 0) и укажите материал **MRTK_Standard_White** .</span><span class="sxs-lookup"><span data-stu-id="a7602-138">To the MeshRenderer > Materials > **Element 0** field, assign the **MRTK_Standard_White** material</span></span>
+* <span data-ttu-id="c7f85-136">Убедитесь, что для свойства **Позиция** в области "Преобразование" установлены такие значения: X = 0, Y = 0, Z = 0.</span><span class="sxs-lookup"><span data-stu-id="c7f85-136">Ensure the Transform **Position** is set to X = 0, Y = 0, Z = 0</span></span>
+* <span data-ttu-id="c7f85-137">Измените для преобразования свойство **Масштаб** до нормального размера, например X = 0,15, Y = 0,15 и Z = 0,15.</span><span class="sxs-lookup"><span data-stu-id="c7f85-137">Change the Transform **Scale** to a suitable size, for example, X = 0.15, Y = 0.15, Z = 0.15</span></span>
+* <span data-ttu-id="c7f85-138">Перейдите к полю MeshRenderer > Materials (Материалы) > **Element 0** (Элемент 0) и укажите материал **MRTK_Standard_White**.</span><span class="sxs-lookup"><span data-stu-id="c7f85-138">To the MeshRenderer > Materials > **Element 0** field, assign the **MRTK_Standard_White** material</span></span>
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-03-section2-step2-1.png)
+![Unity с созданной и настроенной сферой аватара](images/mr-learning-sharing/sharing-03-section2-step2-1.png)
 
-### <a name="3-create-the-prefab"></a><span data-ttu-id="a7602-140">3. Создание заготовки</span><span class="sxs-lookup"><span data-stu-id="a7602-140">3. Create the prefab</span></span>
+### <a name="3-create-the-prefab"></a><span data-ttu-id="c7f85-140">3. Создание заготовки</span><span class="sxs-lookup"><span data-stu-id="c7f85-140">3. Create the prefab</span></span>
 
-<span data-ttu-id="a7602-141">В окне "Проект" перейдите к папке **Assets** (Активы) > **MRTK.Tutorials.MultiUserCapabilities** > **Resources** (Ресурсы).</span><span class="sxs-lookup"><span data-stu-id="a7602-141">In the Project window, navigate to the **Assets** > **MRTK.Tutorials.MultiUserCapabilities** > **Resources** folder:</span></span>
+<span data-ttu-id="c7f85-141">В окне "Проект" перейдите к папке **Assets** (Активы) > **MRTK.Tutorials.MultiUserCapabilities** > **Resources** (Ресурсы).</span><span class="sxs-lookup"><span data-stu-id="c7f85-141">In the Project window, navigate to the **Assets** > **MRTK.Tutorials.MultiUserCapabilities** > **Resources** folder:</span></span>
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-03-section2-step3-1.png)
+![Окно проекта Unity с выбранной папкой Resource](images/mr-learning-sharing/sharing-03-section2-step3-1.png)
 
-<span data-ttu-id="a7602-143">Сохраняя выделение папки Resources (Ресурсы), **щелкните и перетащите** объект **PhotonUser** из окна "Иерархия" в папку **Resources** (Ресурсы), чтобы сделать заготовку из объекта PhotonUser.</span><span class="sxs-lookup"><span data-stu-id="a7602-143">With the Resources folder still selected, **click-and-drag** the **PhotonUser** object from the Hierarchy window into the **Resources** folder to make the PhotonUser object a prefab:</span></span>
+<span data-ttu-id="c7f85-143">Сохраняя выделение папки Resources (Ресурсы), **щелкните и перетащите** объект **PhotonUser** из окна "Иерархия" в папку **Resources** (Ресурсы), чтобы сделать заготовку из объекта PhotonUser.</span><span class="sxs-lookup"><span data-stu-id="c7f85-143">With the Resources folder still selected, **click-and-drag** the **PhotonUser** object from the Hierarchy window into the **Resources** folder to make the PhotonUser object a prefab:</span></span>
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-03-section2-step3-2.png)
+![Unity с выбранной созданной заготовкой PhotonUser](images/mr-learning-sharing/sharing-03-section2-step3-2.png)
 
-<span data-ttu-id="a7602-145">Щелкните правой кнопкой мыши объект **PhotonUser** в окне "Иерархия" и выберите **Удалить** , чтобы удалить его из сцены.</span><span class="sxs-lookup"><span data-stu-id="a7602-145">In the Hierarchy window, right-click on the **PhotonUser** object and select **Delete** to remove it from the scene:</span></span>
+<span data-ttu-id="c7f85-145">Щелкните правой кнопкой мыши объект **PhotonUser** в окне "Иерархия" и выберите **Удалить** , чтобы удалить его из сцены.</span><span class="sxs-lookup"><span data-stu-id="c7f85-145">In the Hierarchy window, right-click on the **PhotonUser** object and select **Delete** to remove it from the scene:</span></span>
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-03-section2-step3-3.png)
+![Unity с созданным объектом заготовки PhotonUser, удаленным из сцены](images/mr-learning-sharing/sharing-03-section2-step3-3.png)
 
-## <a name="configuring-pun-to-instantiate-the-user-prefab"></a><span data-ttu-id="a7602-147">Настройка PUN для создания заготовки пользователя</span><span class="sxs-lookup"><span data-stu-id="a7602-147">Configuring PUN to instantiate the user prefab</span></span>
+## <a name="configuring-pun-to-instantiate-the-user-prefab"></a><span data-ttu-id="c7f85-147">Настройка PUN для создания заготовки пользователя</span><span class="sxs-lookup"><span data-stu-id="c7f85-147">Configuring PUN to instantiate the user prefab</span></span>
 
-<span data-ttu-id="a7602-148">В рамках этого раздела вы настроите проект для использования заготовки PhotonUser, созданной в предыдущем разделе.</span><span class="sxs-lookup"><span data-stu-id="a7602-148">In this section, you will configure the project to use the PhotonUser prefab you created in the previous section.</span></span>
+<span data-ttu-id="c7f85-148">В рамках этого раздела вы настроите проект для использования заготовки PhotonUser, созданной в предыдущем разделе.</span><span class="sxs-lookup"><span data-stu-id="c7f85-148">In this section, you will configure the project to use the PhotonUser prefab you created in the previous section.</span></span>
 
-<span data-ttu-id="a7602-149">В окне "Проект" перейдите к папке **Assets** (Активы) > **MRTK.Tutorials.MultiUserCapabilities** > **Resources** (Ресурсы).</span><span class="sxs-lookup"><span data-stu-id="a7602-149">In the Project window, navigate to the **Assets** > **MRTK.Tutorials.MultiUserCapabilities** > **Resources** folder.</span></span>
+<span data-ttu-id="c7f85-149">В окне "Проект" перейдите к папке **Assets** (Активы) > **MRTK.Tutorials.MultiUserCapabilities** > **Resources** (Ресурсы).</span><span class="sxs-lookup"><span data-stu-id="c7f85-149">In the Project window, navigate to the **Assets** > **MRTK.Tutorials.MultiUserCapabilities** > **Resources** folder.</span></span>
 
-<span data-ttu-id="a7602-150">В окне "Иерархия" разверните объект **NetworkLobby** и выберите дочерний объект **NetworkRoom** . Затем в окне "Инспектор" найдите компонент **Photon Room (Script)** (Photon Room — скрипт) и настройте его, как описано ниже.</span><span class="sxs-lookup"><span data-stu-id="a7602-150">In the Hierarchy window, expand the **NetworkLobby** object and select the **NetworkRoom** child object, then in the Inspector window, locate the **Photon Room (Script)** component and configure it as follows:</span></span>
+<span data-ttu-id="c7f85-150">В окне "Иерархия" разверните объект **NetworkLobby** и выберите дочерний объект **NetworkRoom**. Затем в окне "Инспектор" найдите компонент **Photon Room (Script)** (Photon Room — скрипт) и настройте его, как описано ниже.</span><span class="sxs-lookup"><span data-stu-id="c7f85-150">In the Hierarchy window, expand the **NetworkLobby** object and select the **NetworkRoom** child object, then in the Inspector window, locate the **Photon Room (Script)** component and configure it as follows:</span></span>
 
-* <span data-ttu-id="a7602-151">В поле **Photon User Prefab** (Заготовка пользователя Photon) укажите заготовку **PhotonUser** из папки Resources (Ресурсы).</span><span class="sxs-lookup"><span data-stu-id="a7602-151">To the **Photon User Prefab** field, assign the **PhotonUser** prefab from the Resources folder</span></span>
+* <span data-ttu-id="c7f85-151">В поле **Photon User Prefab** (Заготовка пользователя Photon) укажите заготовку **PhotonUser** из папки Resources (Ресурсы).</span><span class="sxs-lookup"><span data-stu-id="c7f85-151">To the **Photon User Prefab** field, assign the **PhotonUser** prefab from the Resources folder</span></span>
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-03-section3-step1-1.png)
+![Unity с частично настроенным компонентом Photon Room](images/mr-learning-sharing/sharing-03-section3-step1-1.png)
 
-## <a name="trying-the-experience-with-multiple-users"></a><span data-ttu-id="a7602-153">Взаимодействие с несколькими пользователями</span><span class="sxs-lookup"><span data-stu-id="a7602-153">Trying the experience with multiple users</span></span>
+## <a name="trying-the-experience-with-multiple-users"></a><span data-ttu-id="c7f85-153">Взаимодействие с несколькими пользователями</span><span class="sxs-lookup"><span data-stu-id="c7f85-153">Trying the experience with multiple users</span></span>
 
-<span data-ttu-id="a7602-154">Если вы теперь создадите и развернете проект Unity в HoloLens, а затем вернетесь в Unity и во время выполнения приложения на устройстве HoloLens перейдете в игровой режим, вы увидите, как с движением вашей головы (HoloLens) перемещается аватар пользователя HoloLens.</span><span class="sxs-lookup"><span data-stu-id="a7602-154">If you now build and deploy the Unity project to your HoloLens, then, back in Unity, enter Game mode while the app is running on your HoloLens, you will see the HoloLens user avatar move when you move your head (HoloLens) around:</span></span>
+<span data-ttu-id="c7f85-154">Если вы теперь создадите и развернете проект Unity в HoloLens, а затем вернетесь в Unity и во время выполнения приложения на устройстве HoloLens перейдете в игровой режим, вы увидите, как с движением вашей головы (HoloLens) перемещается аватар пользователя HoloLens.</span><span class="sxs-lookup"><span data-stu-id="c7f85-154">If you now build and deploy the Unity project to your HoloLens, then, back in Unity, enter Game mode while the app is running on your HoloLens, you will see the HoloLens user avatar move when you move your head (HoloLens) around:</span></span>
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-03-section4-step1-1.gif)
+![Анимация, показывающая Unity с сетевыми пользователями](images/mr-learning-sharing/sharing-03-section4-step1-1.gif)
 
 > [!TIP]
-> <span data-ttu-id="a7602-156">Сведения о том, как правильно скомпилировать проект Unity и развернуть его в HoloLens 2, см. в разделе [Создание приложения для HoloLens 2](mr-learning-base-02.md#building-your-application-to-your-hololens-2).</span><span class="sxs-lookup"><span data-stu-id="a7602-156">For a reminder on how to build and deploy your Unity project to HoloLens 2, you can refer to the [Building your app to your HoloLens 2](mr-learning-base-02.md#building-your-application-to-your-hololens-2) instructions.</span></span>
+> <span data-ttu-id="c7f85-156">Сведения о том, как правильно скомпилировать проект Unity и развернуть его в HoloLens 2, см. в разделе [Создание приложения для HoloLens 2](mr-learning-base-02.md#building-your-application-to-your-hololens-2).</span><span class="sxs-lookup"><span data-stu-id="c7f85-156">For a reminder on how to build and deploy your Unity project to HoloLens 2, you can refer to the [Building your app to your HoloLens 2](mr-learning-base-02.md#building-your-application-to-your-hololens-2) instructions.</span></span>
 
 > [!CAUTION]
-> <span data-ttu-id="a7602-157">Этому приложению требуется подключение к Photon, поэтому не забудьте проверить подключение компьютера или устройства к Интернету.</span><span class="sxs-lookup"><span data-stu-id="a7602-157">The app needs to connect to Photon, so make sure your computer/device is connected to the internet.</span></span>
+> <span data-ttu-id="c7f85-157">Этому приложению требуется подключение к Photon, поэтому не забудьте проверить подключение компьютера или устройства к Интернету.</span><span class="sxs-lookup"><span data-stu-id="c7f85-157">The app needs to connect to Photon, so make sure your computer/device is connected to the internet.</span></span>
 
-## <a name="congratulations"></a><span data-ttu-id="a7602-158">Поздравляем!</span><span class="sxs-lookup"><span data-stu-id="a7602-158">Congratulations</span></span>
+## <a name="congratulations"></a><span data-ttu-id="c7f85-158">Поздравляем!</span><span class="sxs-lookup"><span data-stu-id="c7f85-158">Congratulations</span></span>
 
-<span data-ttu-id="a7602-159">Вы успешно настроили проект. Теперь несколько пользователей могут подключаться к одному интерфейсу и просматривать перемещения друг друга.</span><span class="sxs-lookup"><span data-stu-id="a7602-159">You have successfully configured your project to allow multiple users to connect to the same experience and see each other's movements.</span></span> <span data-ttu-id="a7602-160">В следующем учебнике вы реализуете функциональность, чтобы предоставить общий доступ к перемещению объектов на нескольких устройствах.</span><span class="sxs-lookup"><span data-stu-id="a7602-160">In the next tutorial, you will implement functionality so that the movements of objects are also shared across multiple devices.</span></span>
+<span data-ttu-id="c7f85-159">Вы успешно настроили проект. Теперь несколько пользователей могут подключаться к одному интерфейсу и просматривать перемещения друг друга.</span><span class="sxs-lookup"><span data-stu-id="c7f85-159">You have successfully configured your project to allow multiple users to connect to the same experience and see each other's movements.</span></span> <span data-ttu-id="c7f85-160">В следующем учебнике вы реализуете функциональность, чтобы предоставить общий доступ к перемещению объектов на нескольких устройствах.</span><span class="sxs-lookup"><span data-stu-id="c7f85-160">In the next tutorial, you will implement functionality so that the movements of objects are also shared across multiple devices.</span></span>
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="a7602-161">Следующее руководство: 4. Предоставление общего доступа к сведениям о перемещении объекта нескольким пользователям</span><span class="sxs-lookup"><span data-stu-id="a7602-161">Next Tutorial: 4. Sharing object movements with multiple users</span></span>](mr-learning-sharing-04.md)
+> [<span data-ttu-id="c7f85-161">Следующее руководство: 4. Предоставление общего доступа к сведениям о перемещении объекта нескольким пользователям</span><span class="sxs-lookup"><span data-stu-id="c7f85-161">Next Tutorial: 4. Sharing object movements with multiple users</span></span>](mr-learning-sharing-04.md)
