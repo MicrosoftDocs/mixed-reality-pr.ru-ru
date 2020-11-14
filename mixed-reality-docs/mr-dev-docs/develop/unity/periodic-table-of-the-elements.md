@@ -6,21 +6,26 @@ ms.author: dongpark
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Windows Mixed Reality, проектирование, пример приложения, элементы управления
-ms.openlocfilehash: 2f7120aaf92a6e3d7b6ace301aae7392b67fa00b
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: 82ffa19b27c1d2687b67df659cb3bb50544748fc
+ms.sourcegitcommit: 8a80613f025b05a83393845d4af4da26a7d3ea9c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91694644"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94573268"
 ---
 # <a name="periodic-table-of-the-elements"></a>Периодическая таблица элементов
 
 >[!NOTE]
 >В этой статье рассматривается исследовательская выборка, созданная в [лабораторных занятиях по смешанной реальности](https://github.com/Microsoft/MRDesignLabs_Unity), где мы предоставляем наши знания и предложения по разработке приложений для смешанной реальности. Наши статьи и код, относящиеся к проектированию, будут развиваться по мере внесения новых обнаружений.
 
-[Периодическая таблица элементов](https://github.com/Microsoft/MRDesignLabs_Unity_PeriodicTable) — это пример приложения с открытым исходным кодом от лабораторных занятий корпорации Майкрософт по проектированию смешанной реальности. С помощью этого проекта можно научиться размещать массив объектов в трехмерном пространстве с различными типами поверхностей, используя **[коллекцию объектов](../../design/object-collection.md)** . Также Узнайте, как создавать взаимодействующие объекты, реагирующие на стандартные входные данные HoloLens. Вы можете использовать компоненты этого проекта, чтобы создать собственный интерфейс приложения смешанной реальности.
+[Периодическая таблица элементов](https://github.com/Microsoft/MRDesignLabs_Unity_PeriodicTable) — это пример приложения с открытым исходным кодом от лабораторных занятий корпорации Майкрософт по проектированию смешанной реальности. С помощью этого проекта можно научиться размещать массив объектов в трехмерном пространстве с различными типами поверхностей, используя **[коллекцию объектов](../../design/object-collection.md)**. Также Узнайте, как создавать взаимодействующие объекты, реагирующие на стандартные входные данные HoloLens. Вы можете использовать компоненты этого проекта, чтобы создать собственный интерфейс приложения смешанной реальности.
 
 ![Таблица периодов приложения элементов](images/640px-periodictable-hero.jpg)
+
+## <a name="demo-video"></a>Демонстрационное видео 
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4IkCF]
+
+Записано с помощью HoloLens 2 с записью смешанной реальности
 
 ## <a name="about-the-app"></a>Сведения о приложении
 
@@ -39,7 +44,7 @@ ms.locfileid: "91694644"
 
 В подробном представлении я хотел визуализировать информацию каждого элемента с помощью элегантноного текста в трехмерном пространстве. В центральной области отображается анимированная трехмерная модель электронов, которую можно просмотреть с разных углов.
 
-![Взаимодействие](images/640px-periodictable-interaction.jpg)
+![Тип взаимодействия](images/640px-periodictable-interaction.jpg)
 
 ![Прототипы](images/640px-periodictable-prototypes.jpg)<br>
 *Прототипы взаимодействия*
@@ -60,52 +65,31 @@ ms.locfileid: "91694644"
 
 ![Коллекция объектов](images/640px-periodictable-collections.jpg)
 
-### <a name="fitbox"></a>фитбокс
-
-По умолчанию голограммы помещаются в место, где пользователь облаками на момент запуска приложения. Это иногда приводит к нежелательным результатам, например к голограммам, размещаемым позади стены или в середине таблицы. Фитбокс позволяет пользователю использовать взгляд, чтобы определить место, куда будет помещена голограмма. Он создается с помощью простой текстуры изображения PNG, которую можно легко настроить с помощью собственных изображений или трехмерных объектов.
-
-![фитбокс](../../design/images/450px-periodictable-fitbox.jpg)
-
 ## <a name="technical-details"></a>Технические сведения
 
 Вы можете найти сценарии и Prefabs для периодической таблицы приложения Elements в лаборатории по [проектированию смешанной реальности в GitHub](https://github.com/Microsoft/MRDesignLabs_Unity_PeriodicTable).
 
-## <a name="application-examples"></a>Примеры приложений
+## <a name="porting-story-for-hololens-2"></a>Перенос истории для HoloLens 2
 
-Ниже приведены некоторые идеи, которые можно создать с помощью компонентов в этом проекте.
+Ознакомьтесь со статьей о том, как периодическая таблица в приложении Elements была обновлена с использованием взаимодействий инстинктуал HoloLens 2.
 
-### <a name="stock-data-visualization-app"></a>Приложение для визуализации данных с акциями
+[Periodic Table of the Elements 2.0](https://medium.com/@dongyoonpark/bringing-the-periodic-table-of-the-elements-app-to-hololens-2-with-mrtk-v2-a6e3d8362158)
 
-С помощью тех же элементов управления и модели взаимодействия, что и в периодической таблице примера Elements, можно создать приложение, которое визуализирует данные по финансовым рынкам. В этом примере используется элемент управления "Коллекция объектов" для размещения данных о акции в сферической форме. Вы можете представить подробное представление, где дополнительные сведения о каждой акции могут быть отображены интересным образом.
 
-![Пример приложения: Финансы (1 из 3)](images/640px-periodictable-applicationexamples-finance1.jpg)
 
-![Пример приложения: Финансы (2 из 3)](images/640px-periodictable-applicationexamples-finance2.jpg)
-
-![Пример приложения: Финансы (3 из 3)](images/640px-periodictable-applicationexamples-finance3.jpg)<br>
-*Пример того, как коллекция объектов, используемая в периодической таблице примера приложения Elements, может использоваться в финансовом приложении*
-
-### <a name="sports-app"></a>Спортивное приложение
-
-Это пример визуализации спортивных данных с помощью коллекции объектов и других компонентов из периодической таблицы примера приложения Elements.
-
-![Пример приложения: Спорт (1 из 3)](images/640px-periodictable-applicationexamples-sports0.jpg)
-
-![Пример приложения: Спорт (2 из 3)](images/640px-periodictable-applicationexamples-sports1.jpg)
-
-![Пример приложения: Спорт (3 из 3)](images/640px-periodictable-applicationexamples-sports3.jpg)<br>
-*Пример того, как коллекция объектов, используемая в периодической таблице примера элементов аппкаулд, должна использоваться в спортивном приложении.*
 
 ## <a name="about-the-author"></a>Об авторе
 
 <table style="border-collapse:collapse" padding-left="0px">
 <tr>
 <td style="border-style: none" width="60px"><img alt="Picture of Dong Yoon Park" width="60" height="60" src="images/dongyoonpark.jpg"></td>
-<td style="border-style: none"><b>Донг Йоон</b><br>Конструктор UX @Microsoft</td>
+<td style="border-style: none"><b>Дон Юн Парк</b> (Dong Yoon Park)<br>Разработчик средств взаимодействия с пользователем @Microsoft</td>
 </tr>
 </table>
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
-* [Активный объект](../../design/interactable-object.md)
-* [Коллекция объектов](../../design/object-collection.md)
+* [MRTK Examples Hub](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_ExampleHub.html) - [(скачайте из Microsoft Store в HoloLens 2)](https://www.microsoft.com/en-us/p/mrtk-examples-hub/9mv8c39l2sj4)
+* [Surfaces](sampleapp-surfaces.md) - [(скачайте из Microsoft Store в HoloLens 2)](https://www.microsoft.com/en-us/p/surfaces/9nvkpv3sk3x0)
+* [Periodic Table of the Elements 2.0](https://medium.com/@dongyoonpark/bringing-the-periodic-table-of-the-elements-app-to-hololens-2-with-mrtk-v2-a6e3d8362158)
+* [Galaxy Explorer 2.0](galaxy-explorer-update.md)

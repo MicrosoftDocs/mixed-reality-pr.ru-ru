@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 10/15/2020
 ms.topic: overview
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR,
-ms.openlocfilehash: def16b5bff13fec13ce0ebb503ec88dfca22e0b8
-ms.sourcegitcommit: d8f39c0b95d9e61d645d64f27baabc7a1c300dc1
+ms.openlocfilehash: c2a00b88992fde3e599020d930ef950222e87099
+ms.sourcegitcommit: 8a80613f025b05a83393845d4af4da26a7d3ea9c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "92293063"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94573218"
 ---
 # <a name="start-your-vr-journey"></a>Начало работы с технологией виртуальной реальности
 
@@ -41,7 +41,7 @@ ms.locfileid: "92293063"
 
 |  Контрольная точка  |  Результат  |
 | --- | --- |
-| [Настройка Windows Mixed Reality](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md) | Познакомьтесь с контроллерами, границами комнаты, речевым входом и Microsoft ребром на новом устройстве VR. |
+| [Настройка Windows Mixed Reality](set-up-windows-mixed-reality.md) | Познакомьтесь с контроллерами, границами комнаты, речевым входом и Microsoft ребром на новом устройстве VR. |
 | [Вопросы и ответы по настройке Windows Mixed Reality](wmr-setup-faq.md) | Получение ответов и устранение неполадок с известными проблемами при настройке Windows Mixed Reality |
 | [Требования к работоспособности, безопасности и комфорту](wmr-health-safety-comfort.md) | Рекомендации для поддержания безопасности при использовании Windows Mixed Reality перед использованием гарнитуры  |
 
@@ -51,14 +51,14 @@ ms.locfileid: "92293063"
 
 <br>
 
-|  Контрольная точка  |  Компонент  |
+|  Контрольная точка  |  Функция  |
 | --- | --- |
 | [Знакомство со смешанной реальностью](learn-mixed-reality.md) | Узнайте, как использовать мышь, голоса, контроллеров, входные данные клавиатуры и мыши. |
 | [Переход на домашнюю страницу Windows Mixed Reality](your-mixed-reality-home.md) | Изучите виртуальную среду домашней страницы Windows Mixed Reality  |
 | [Использование контроллеров](controllers-in-wmr.md) | Установка, понимание и использование контроллеров движения |
 | [Использование речевого ввода](using-speech-in-wmr.md) | Ознакомьтесь с различными голосовыми командами, которые могут взаимодействовать с трехмерными объектами, панелью приложений, меню "Пуск" и Кортане. |
 | [Игры, видео 360 и приложения](using-games-and-apps-in-windows-mixed-reality.md) | Начало работы с первой увлекательной игрой, планшетами для 2D-магазинов, приложениями для настольных компьютеров и Вебвр |
-| [Использование Стеамвр](using-steamvr-with-windows-mixed-reality.md) | Подключение устройства и воспроизведение Стеамвр игр и изучение программы предварительной оценки Windows |
+| [Использование SteamVR](using-steamvr-with-windows-mixed-reality.md) | Подключение устройства и воспроизведение Стеамвр игр и изучение программы предварительной оценки Windows |
 | [Использование Microsoft Edge](using-microsoft-edge.md) | Установите последнюю версию Microsoft ребра на иммерсивное устройство. |
 | [Использование Вебвр](webvr.md) | Получение программы установки для работы с VR в среде браузера |
 

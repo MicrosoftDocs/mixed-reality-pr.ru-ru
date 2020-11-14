@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Windows Mixed Reality, HoloLens, голограммы, проектирование, взаимодействие
-ms.openlocfilehash: c26cbbaa011c9e7ec92ea45dfd9491dbd178a025
-ms.sourcegitcommit: 83c9373fe5b2e07cdab921b6cab3fdd418307003
+ms.openlocfilehash: f902639e66246c9184750ebc58dbad1c04b2bb5a
+ms.sourcegitcommit: cc27d31f0cebaf9fc4221a3300a9e3d73230b367
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2020
-ms.locfileid: "94386240"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "94631472"
 ---
 # <a name="what-is-a-hologram"></a>Что такое голограмма?
 
@@ -126,13 +126,10 @@ HoloLens позволяет создавать **голограммы** , объ
 
 ---
 
-## <a name="next-discovery-checkpoint"></a>Следующая контрольная точка обнаружения
+## <a name="next-discovery-checkpoint"></a>Следующий этап
 
-Если вы подготовились к [пути обнаружения](get-started-with-mr.md) , то вы в состоянии изучить основы смешанной реальности. Здесь можно перейти к следующей базовой теме: 
+Если вы следуете изложенному нами [плану обучения](get-started-with-mr.md), сейчас вы находитесь в середине своего пути знакомства с основами смешанной реальности. Отсюда вы можете перейти к следующей основной теме: 
 
 > [!div class="nextstepaction"]
 > [Расширение процесса разработки](case-study-expanding-the-design-process-for-mixed-reality.md)
 
-## <a name="see-also"></a>См. также
-* [Пространственный звук](../design/spatial-sound.md)
-* [Цвет, свет и материалы](../color,-light-and-materials.md)

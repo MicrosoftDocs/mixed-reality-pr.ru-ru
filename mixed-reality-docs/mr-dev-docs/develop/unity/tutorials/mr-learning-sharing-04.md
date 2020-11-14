@@ -1,18 +1,18 @@
 ---
 title: Руководства по многопользовательским возможностям, часть 4. Предоставление общего доступа к сведениям о перемещении объекта нескольким пользователям
-description: В рамках этого курса вы узнаете, как реализовать многопользовательские возможности в приложении HoloLens 2.
+description: В рамках этого курса вы узнаете, как предоставить доступ к движениям объектов нескольким пользователям в приложении HoloLens 2.
 author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
 keywords: mixed reality, unity, tutorial, hololens
 ms.localizationpriority: high
-ms.openlocfilehash: b080522e25d933aeb979c3d9a851beaaac4da57f
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: 4a8d98bbabd3061e8fb9f4262e202dac680d584b
+ms.sourcegitcommit: 63c228af55379810ab2ee4f09f20eded1bb76229
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91701684"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93353422"
 ---
 # <a name="4-sharing-object-movements-with-multiple-users"></a>4. Предоставление общего доступа к сведениям о перемещении объекта нескольким пользователям
 
@@ -29,7 +29,7 @@ ms.locfileid: "91701684"
 
 В окне Project (Проект) перейдите к папке **Assets** (Активы) > **MRTK.Tutorials.MultiUserCapabilities** > **Prefabs** (Заготовки) и перетащите заготовку **TableAnchor** на объект **SharedPlayground** в окне Hierarchy (Иерархия), чтобы добавить ее в сцену в качестве дочернего элемента объекта SharedPlayground.
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-04-section1-step1-1.png)
+![Unity с выбранной созданной заготовкой TableAnchor](images/mr-learning-sharing/sharing-04-section1-step1-1.png)
 
 ## <a name="configuring-pun-to-instantiate-the-objects"></a>Настройка PUN для создания объектов
 
@@ -37,23 +37,23 @@ ms.locfileid: "91701684"
 
 В окне "Проект" перейдите к папке **Assets** (Активы) > **MRTK.Tutorials.MultiUserCapabilities** > **Resources** (Ресурсы).
 
-В окне "Иерархия" разверните объект **NetworkLobby** и выберите дочерний объект **NetworkRoom** . Затем в окне "Инспектор" найдите компонент **Photon Room (Script)** (Photon Room — скрипт) и настройте его, как описано ниже.
+В окне "Иерархия" разверните объект **NetworkLobby** и выберите дочерний объект **NetworkRoom**. Затем в окне "Инспектор" найдите компонент **Photon Room (Script)** (Photon Room — скрипт) и настройте его, как описано ниже.
 
 * В поле **Rover Explorer Prefab** (Заготовка Rover Explorer) назначьте заготовку **RoverExplorer_Complete_Variant** из папки Resources (Ресурсы).
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-04-section2-step1-1.png)
+![Unity с частично настроенным компонентом Photon Room](images/mr-learning-sharing/sharing-04-section2-step1-1.png)
 
-Сохраняя выделение объекта **NetworkRoom** , в окне "Иерархия" разверните объект **TableAnchor** . Затем в окне "Инспектор" найдите компонент **Photon Room (Script)** (Photon Room — скрипт) и настройте его, как описано ниже.
+Сохраняя выделение объекта **NetworkRoom** , в окне "Иерархия" разверните объект **TableAnchor**. Затем в окне "Инспектор" найдите компонент **Photon Room (Script)** (Photon Room — скрипт) и настройте его, как описано ниже.
 
 * В поле **Rover Explorer Location** (Расположение Rover Explorer) укажите дочерний объект TableAnchor > **Table** из окна Hierarchy (Иерархия).
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-04-section2-step1-2.png)
+![Unity с настроенным компонентом Photon Room](images/mr-learning-sharing/sharing-04-section2-step1-2.png)
 
 ## <a name="trying-the-experience-with-shared-object-movement"></a>Использование возможности общего перемещения объектов
 
 Если вы теперь создадите и развернете проект Unity в HoloLens, а затем вернетесь в Unity и во время выполнения приложения на устройстве HoloLens нажмете кнопку Play (Играть), чтобы перейти в игровой режим, вы увидите, как при перемещении объекта в HoloLens перемещается объект в Unity.
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-04-section3-step1-1.gif)
+![Анимация, показывающая Unity с сетевыми объектами](images/mr-learning-sharing/sharing-04-section3-step1-1.gif)
 
 ## <a name="congratulations"></a>Поздравляем!
 

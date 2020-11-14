@@ -1,5 +1,5 @@
 ---
-title: Серия руководств по началу работы, часть 1 Введение
+title: Серия руководств по началу работы, часть 1 Знакомство с руководствами по началу работы
 description: Из этого курса вы узнаете, как с помощью набора Mixed Reality Toolkit (MRTK) создавать приложения смешанной реальности.
 author: jessemcculloch
 ms.author: jemccull
@@ -7,14 +7,14 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: mixed reality, unity, tutorial, hololens
 ms.localizationpriority: high
-ms.openlocfilehash: 6d6be08aa532de22a30e70274859eda466a78204
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: 992d864d7e016c3d0906366d10993ff0559afc06
+ms.sourcegitcommit: 8fd127aff85b77778bd7a75c5ec5215d27ecf21a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91699992"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93416902"
 ---
-# <a name="1-introduction"></a>1. Введение
+# <a name="1-introduction-to-the-getting-started-tutorials"></a>1. Знакомство с руководствами по началу работы
 
 ## <a name="overview"></a>Обзор
 
@@ -44,13 +44,13 @@ ms.locfileid: "91699992"
 * Компьютер с Windows 10, настроенный с помощью требуемых [установленных инструментов](../../install-the-tools.md).
 * [Пакет SDK для Windows 10](https://developer.microsoft.com/windows/downloads/windows-10-sdk/) версии 10.0.18362.0 и выше.
 * Устройство HoloLens 2, [настроенное для разработки](../../platform-capabilities-and-apis/using-visual-studio.md#enabling-developer-mode).
-* <a href="https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html" target="_blank">Unity Hub</a> с Unity 2019.3.15 и модулем поддержки сборки универсальной платформы Windows.
+* <a href="https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html" target="_blank">Unity Hub</a> с Unity 2019 LTS и модулем поддержки сборки универсальной платформы Windows
 
 > [!CAUTION]
 > Рекомендуемая версия MRTK для этой серии руководств — MRTK 2.4.0.
 
 > [!CAUTION]
-> Рекомендуемая версия Unity для этой серии руководств — Unity 2019.3.15. Это заменяет все требования к версии Unity, указанные выше.
+> Рекомендуемая версия Unity для этой серии руководств — Unity 2019 LTS. Это заменяет все требования к версии Unity, указанные выше.
 
 > [!div class="nextstepaction"]
 > [Следующее руководство: 2. Инициализация проекта и развертывание первого приложения](mr-learning-base-02.md)

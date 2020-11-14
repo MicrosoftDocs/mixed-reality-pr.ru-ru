@@ -7,12 +7,12 @@ ms.date: 07/29/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Windows Mixed Reality, test, MRTK, MRTK version 2, HoloLens 2
-ms.openlocfilehash: ca7c46f8d3c6b85125be3d6aa9d57e6f0d72fb82
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: 88bee12196099837f46164552c690a6b326f9ba7
+ms.sourcegitcommit: 83c9373fe5b2e07cdab921b6cab3fdd418307003
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91699776"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "94386230"
 ---
 # <a name="get-your-existing-app-ready-for-hololens-2"></a>Подготовка существующего приложения для использования в HoloLens 2
 
@@ -24,7 +24,7 @@ ms.locfileid: "91699776"
 
 | Шаг 1 | Шаг 2 | Шаг 3 | Шаг 4 |
 |----------|-------------------|-------------------|-------------------|
-| ![Логотип Visual Studio](../images/visualstudio_logo.png) | ![Логотип Unity](../../design/images/final_unity_logo.png)| ![Значок Unity](images/hololens2_icon.jpg) | ![Логотип МРТК](../../design/images/final_mrtk-small_logo.png) |
+| ![Логотип Visual Studio](../images/visualstudio_logo.png) | ![Логотип Unity](../../design/images/logo-unity.png)| ![Значок Unity](images/hololens2_icon.jpg) | ![Логотип МРТК](../../design/images/74-12.png) |
 | Скачивание новейших средств | Обновление проекта Unity | Компиляция для ARM | Миграция в MRTK версии 2
 
 Необходимые условия:
@@ -82,14 +82,14 @@ To help clarify additional differences between [Unity 2018 LTS](https://unity3d.
 
 Дополнительные сведения об использовании MRTK версии 2 см. в следующих ресурсах:
 
-- [Целевая страница MRTK](https://microsoft.github.io/MixedRealityToolkit-Unity/README.html)
-- [Getting started with MRTK](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/GettingStartedWithTheMRTK.html) (Начало работы с MRTK)
-- [Отслеживание рук в MRTK](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Input/HandTracking.html)
-- [Отслеживание движения глаз в MRTK](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/EyeTracking/EyeTracking_Main.html)
+- [Домашняя страница документации по MRTK (GitHub)](https://microsoft.github.io/MixedRealityToolkit-Unity/README.html)
+- [Руководство по установке (GitHub)](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Installation.html)
+- [Отслеживание рук в MRTK (GitHub)](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Input/HandTracking.html)
+- [Отслеживание взгляда в MRTK (GitHub)](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/EyeTracking/EyeTracking_Main.html)
 
 ### <a name="prepare-for-the-migration"></a>Подготовка к миграции
 
-Перед приемом новых файлов [*.unitypackage для MRTK версии 2](https://github.com/Microsoft/MixedRealityToolkit-Unity/releases) рекомендуется провести инвентаризацию **1) любого пользовательского кода, который интегрируется с MRTK версии 1** и **2) любого пользовательского кода для взаимодействия с помощью ввода или для компонентов UX** . Наиболее распространенные конфликты при освоении возможностей MRTK версии 2 для разработчиков в сфере смешанной реальности касаются методов ввода и взаимодействия. Рекомендуем прочитать статью о [модели ввода MRTK версии 2](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Input/Overview.html).
+Перед приемом новых файлов [*.unitypackage для MRTK версии 2](https://github.com/Microsoft/MixedRealityToolkit-Unity/releases) рекомендуется провести инвентаризацию **1) любого пользовательского кода, который интегрируется с MRTK версии 1** и **2) любого пользовательского кода для взаимодействия с помощью ввода или для компонентов UX**. Наиболее распространенные конфликты при освоении возможностей MRTK версии 2 для разработчиков в сфере смешанной реальности касаются методов ввода и взаимодействия. Рекомендуем прочитать статью о [модели ввода MRTK версии 2](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Input/Overview.html).
 
 Наконец, в новом решении [MRTK версии 2](https://github.com/microsoft/MixedRealityToolkit-Unity) реализован переход с модели скриптов и объектов управления в сцене на архитектуру конфигурации и поставщика служб. В результате формируется более четкая иерархия и архитектурная модель. Но для этого нужно изучить новые профили конфигурации. Рекомендуем прочитать [руководство по настройке набора средств для смешанной реальности](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/MixedRealityConfigurationGuide.html), чтобы приступить к ознакомлению с важными параметрами и профилями, которые нужно адаптировать к требованиям вашего приложения.
 
@@ -107,7 +107,7 @@ To help clarify additional differences between [Unity 2018 LTS](https://unity3d.
 - По возможности используйте стандартные элементы взаимодействия с пользователем MRTK (кнопки, баннеры и т. д.).
 - Не изменяйте файлы MRTK напрямую. Создайте оболочки для компонентов MRTK.
     - Это упрощает дальнейший прием данных и обновление MRTK.
-- Просмотрите и изучите примеры сцен в MRTK, особенно *HandInteractionExamples.scene* .
+- Просмотрите и изучите примеры сцен в MRTK, особенно *HandInteractionExamples.scene*.
 - Модифицируйте структуру пользовательского интерфейса на основе холста, используя четырехугольники, коллайдеры и текст TextMeshPro.
 - Включите [общий доступ к буферу глубины](camera-in-unity.md#sharing-your-depth-buffers-with-windows) или [задайте точку фокусировки](focus-point-in-unity.md). Предпочтительно использовать 16-разрядный буфер глубины, чтобы повысить производительность. Убедитесь, что при отрисовке цвета отображается глубина. Как правило, Unity не записывает данные глубины для прозрачных и текстовых игровых объектов. 
 - Задайте путь однопроходной отрисовки экземпляра.
@@ -150,8 +150,9 @@ To help clarify additional differences between [Unity 2018 LTS](https://unity3d.
 
 ## <a name="see-also"></a>См. также статью
 * [Установка средств](../install-the-tools.md)
-* [Getting started with MRTK v2](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/GettingStartedWithTheMRTK.html) (Начало работы с MRTK версии 2)
-* [Переход с API-интерфейсов HTK на API-интерфейсы MRTK](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/HTKToMRTKPortingGuide.html)
+* [Руководство по установке MRTK (GitHub)](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Installation.html)
+* [Домашняя страница документации по MRTK (GitHub)](https://microsoft.github.io/MixedRealityToolkit-Unity/README.html)
+* [Перенос из HoloToolkit/MRTK в MRTK версии 2 (GitHub)](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/HTKToMRTKPortingGuide.html)
 * [Рекомендуемые параметры для Unity](recommended-settings-for-unity.md)
 * [Understanding performance for Mixed Reality](../platform-capabilities-and-apis/understanding-performance-for-mixed-reality.md) (Основные сведения о производительности для Смешанной реальности)
 

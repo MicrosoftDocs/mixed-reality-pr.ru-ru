@@ -1,18 +1,18 @@
 ---
 title: Серия руководств по началу работы, часть 5. Создание динамического содержимого с помощью решателей
-description: Из этого курса вы узнаете, как с помощью набора средств для смешанной реальности (MRTK) создавать приложения смешанной реальности.
+description: Из этого курса вы узнаете, как с помощью решателей Mixed Reality Toolkit (MRTK) создавать динамическое содержимое.
 author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
 keywords: mixed reality, unity, tutorial, hololens
 ms.localizationpriority: high
-ms.openlocfilehash: c6ddbbd8bb65aa93c80f1e4499e976c7c24af7ec
-ms.sourcegitcommit: d8f39c0b95d9e61d645d64f27baabc7a1c300dc1
+ms.openlocfilehash: 64b5c3c719ce72260a10226d22c178d4016e403b
+ms.sourcegitcommit: 63c228af55379810ab2ee4f09f20eded1bb76229
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "92293220"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93353532"
 ---
 # <a name="5-creating-dynamic-content-using-solvers"></a>5. Создание динамического содержимого с помощью решателей
 
@@ -30,7 +30,7 @@ ms.locfileid: "92293220"
 
  Решатели MRTK размещаются в папке пакета SDK MRTK. Чтобы просмотреть доступные в проекте решатели, в окне проекта перейдите к папке **Assets** > **MRTK** > **SDK** > **Features** > **Utilities** > **Solvers** :
 
-![mr-learning-base](images/mr-learning-base/base-05-section1-step1-1.png)
+![Окно проекта Unity с выбранной папкой решателей](images/mr-learning-base/base-05-section1-step1-1.png)
 
 В этом учебнике мы рассмотрим реализацию решателя указателей направлений и решателя размещения касанием. Чтобы получить дополнительную информацию о полном наборе решателей, доступных в MRTK, просмотрите раздел [Solvers](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_Solver.html) (Решатели) на [портале документации по MRTK](https://microsoft.github.io/MixedRealityToolkit-Unity/README.html).
 
@@ -41,14 +41,14 @@ ms.locfileid: "92293220"
 
 В окне проекта перейдите к папке **Assets** > **MRTK.Tutorials.GettingStarted** > **Prefabs** , щелкните и перетащите заготовку **Chevron** в окно иерархии и задайте для него преобразование **положения** , X = 0, Y = 0, Z = 2, чтобы разместить его рядом с объектом RoverExplorer:
 
-![mr-learning-base](images/mr-learning-base/base-05-section2-step1-1.png)
+![Unity с выбранной созданной заготовкой Chevron](images/mr-learning-base/base-05-section2-step1-1.png)
 
 > [!TIP]
 > Если вы обнаружите, что камера или другие значки в сцене скрывают объекты или отвлекают от них внимание, их можно скрыть, <a href="https://docs.unity3d.com/2019.1/Documentation/Manual/GizmosMenu.html" target="_blank">переведя манипуляторы</a> в отключенное положение, как показано на рисунке выше. Дополнительные сведения о меню Gizmos (Манипуляторы) и его применении для оптимизации представления сцены вы можете найти в <a href="https://docs.unity3d.com/Manual/GizmosMenu.html" target="_blank">этом разделе</a> документации.
 
-Переименуйте вновь добавленный **индикатор** объекта шеврона, затем в окне Inspector (Инспектор) нажмите кнопку **Add Component** (Добавить компонент), чтобы добавить **DirectionalIndicator** .
+Переименуйте вновь добавленный **индикатор** объекта шеврона, затем в окне Inspector (Инспектор) нажмите кнопку **Add Component** (Добавить компонент), чтобы добавить **DirectionalIndicator**.
 
-![mr-learning-base](images/mr-learning-base/base-05-section2-step1-2.png)
+![Unity с добавленным компонентом решателя DirectionalIndicator](images/mr-learning-base/base-05-section2-step1-2.png)
 
 > [!NOTE]
 > При добавлении решателя (в нашем примере — DirectionalIndicator) автоматически добавляется еще компонент SolverHandler, который является обязательным для решателя.
@@ -62,13 +62,13 @@ ms.locfileid: "92293220"
 * Назначьте параметру **DirectionalIndicator** компонента **Directional Target** (Целевое направление) значение **RoverExplorer** , перетащив его из окна иерархии в поле **None (Transform)** (Нет (преобразование)).
 * Измените значение параметра **View Offset** (Смещение вида) на 0,2.
 
-![mr-learning-base](images/mr-learning-base/base-05-section2-step1-3.png)
+![Unity с настроенным компонентом решателя DirectionalIndicator](images/mr-learning-base/base-05-section2-step1-3.png)
 
 Нажмите кнопку Play (Воспроизведение), чтобы перейти в игровой режим, затем нажмите и удерживайте правую кнопку мыши, перемещая указатель мыши влево или вправо, чтобы повернуть направление взгляда и проверить следующее поведение.
 
 * Когда вы выйдете из объекта RoverExplorer, появится объект Indicator и будет указывать на объект RoverExplorer.
 
-![mr-learning-base](images/mr-learning-base/base-05-section2-step1-4.png)
+![Разделенное представление Unity в режиме воспроизведения с используемым решателем DirectionalIndicator](images/mr-learning-base/base-05-section2-step1-4.png)
 
 > [!NOTE]
 > Если вы не видите в окне Scene (Сцена) луч направления камеры, проверьте, включено ли меню Gizmos (Манипуляторы), как показано на изображении выше.
@@ -87,7 +87,7 @@ ms.locfileid: "92293220"
 * Установите флажок **Keep Orientation Vertical** (Оставить вертикальную ориентацию).
 * В выпадающем списке **Magnetic Surfaces** > **Element 0** (Магнитные поверхности > Элемент 0) снимите флажки всех параметров, кроме **Spatial Awareness** (Отслеживание пространственного положения).
 
-![mr-learning-base](images/mr-learning-base/base-05-section3-step1-1.png)
+![Unity с добавленным и настроенным компонентом решателя TapToPlace](images/mr-learning-base/base-05-section3-step1-1.png)
 
 > [!NOTE]
 > Параметр Magnetic Surfaces (Магнитные поверхности) определяет, какие объекты может обнаружить компонент Tap To Place (Script) (Размещение касанием — скрипт) при размещении объекта. Если изменить параметр на Spatial Awareness (Отслеживание пространственного положения), компонент Tap To Place (Script) (Размещение касанием — скрипт) сможет поместить луноход на объекты в слое Unity с именем Spatial Awareness (Отслеживание пространственного положения), который по умолчанию является сеткой отслеживания пространственного положения, созданной HoloLens.
@@ -99,15 +99,15 @@ ms.locfileid: "92293220"
 
 Если в окне Hierarchy (Иерархия) все еще выбран объект RoverAssembly, в окне инспектора перейдите к событию **On Placing Started ()** и щелкните значок **+** , чтобы добавить новое событие.
 
-![mr-learning-base](images/mr-learning-base/base-05-section3-step1-2.png)
+![Unity с добавленным событием OnPlacingStarted для скрипта TapToPlace](images/mr-learning-base/base-05-section3-step1-2.png)
 
 Настройте событие следующим образом:
 
 * Назначьте объект **RoverAssembly** в качестве прослушивателя для события On Placing Started (), перетащив его из окна Hierarchy (Иерархия) в поле **None (Object)** (Отсутствует (объект)).
 * В раскрывающемся списке **No Function** (Нет функции) выберите **TapToPlace** > **float SurfaceNormalOffset** , чтобы обновить значение свойства SurfaceNormalOffset при срабатывании события.
-* Убедитесь, что для аргумента задано значение  **0** .
+* Убедитесь, что для аргумента задано значение  **0**.
 
-![mr-learning-base](images/mr-learning-base/base-05-section3-step1-3.png)
+![Unity с настроенным событием OnPlacingStarted для скрипта TapToPlace](images/mr-learning-base/base-05-section3-step1-3.png)
 
 В окне Hierarchy (Иерархия) щелкните правой кнопкой мыши пустое место и выберите **3D Object** (Трехмерный объект) > **Cube (Куб)** , чтобы создать временный объект, представляющий землю, и настройте компонент **Transform** (Преобразование) следующим образом:
 
@@ -115,27 +115,27 @@ ms.locfileid: "92293220"
 * **Rotation** (Поворот): X = 0, Y = 0, Z = 0.
 * **Scale** (Масштаб): X = 10, Y = 0,2, Z = 10.
 
-![mr-learning-base](images/mr-learning-base/base-05-section3-step1-4.png)
+![Unity с добавленным и расположенным объектом временного куба на поверхности](images/mr-learning-base/base-05-section3-step1-4.png)
 
 Не отменяя выбор временного куба в окне Hierarchy (Иерархия), в окне Inspector (Инспектор) выберите в раскрывающимся списке **Layers** (Слои) значение, чтобы параметр слоя куба содержал только слой **Spatial Awareness** (Отслеживание пространственного положения).
 
-![mr-learning-base](images/mr-learning-base/base-05-section3-step1-5.png)
+![Unity с объектом временного куба на поверхности, для слоя которого задано значение Spatial Awareness (Отслеживание пространственного положения)](images/mr-learning-base/base-05-section3-step1-5.png)
 
 Нажмите кнопку Play (Воспроизведение), чтобы перейти в игровой режим, а затем нажмите и удерживайте правую кнопку мыши, пока взгляд не будет направлен на объект RoverAssembly:
 
-![mr-learning-base](images/mr-learning-base/base-05-section3-step1-6.png)
+![Разделенное представление Unity в режиме воспроизведения с объектом RoverAssembly, на который падает взгляд](images/mr-learning-base/base-05-section3-step1-6.png)
 
 Нажмите левую кнопку мыши, чтобы запустить процесс размещения касанием:
 
-![mr-learning-base](images/mr-learning-base/base-05-section3-step1-7.png)
+![Разделенное представление Unity в режиме воспроизведения с начатым размещением TapToPlace](images/mr-learning-base/base-05-section3-step1-7.png)
 
 Нажмите и удерживайте правую кнопку мыши, перемещая указатель мыши влево или вправо для поворота направления взгляда. Если размещение вас устраивает, нажмите левую кнопку мыши:
 
-![mr-learning-base](images/mr-learning-base/base-05-section3-step1-8.png)
+![Разделенное представление Unity в режиме воспроизведения с завершенным размещением TapToPlace](images/mr-learning-base/base-05-section3-step1-8.png)
 
 После завершения тестирования функции в игровом режиме щелкните правой кнопкой мыши объект Cube (Куб) и нажмите кнопку **Delete** (Удалить), чтобы удалить его со сцены:
 
-![mr-learning-base](images/mr-learning-base/base-05-section3-step1-9.png)
+![Unity с выбранным объектом временного куба на поверхности с вариантом Delete (Удалить) в контекстном меню](images/mr-learning-base/base-05-section3-step1-9.png)
 
 ## <a name="congratulations"></a>Поздравляем!
 

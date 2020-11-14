@@ -1,18 +1,18 @@
 ---
 title: Руководства по многопользовательским возможностям, часть 2. Настройка Photon Unity Networking
-description: В рамках этого курса вы узнаете, как реализовать многопользовательские возможности в приложении HoloLens 2.
+description: Пройдите этот курс, и вы узнаете, как реализовать Photon Unity Network в приложении HoloLens 2.
 author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
 keywords: mixed reality, unity, tutorial, hololens
 ms.localizationpriority: high
-ms.openlocfilehash: 23498938815bd5bb2e200639ae89c62699a01774
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: aeda463610f1fb1205eade556a2c2b9bc07a4fde
+ms.sourcegitcommit: 63c228af55379810ab2ee4f09f20eded1bb76229
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91702211"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93353482"
 ---
 # <a name="2-setting-up-photon-unity-networking"></a>2. Настройка Photon Unity Networking
 
@@ -32,38 +32,38 @@ ms.locfileid: "91702211"
 
 Для этого сначала выполните инструкции из руководства [Инициализация проекта и развертывание первого приложения](mr-learning-base-02.md) (исключая раздел [Разработка приложения для устройства](mr-learning-base-02.md#building-your-application-to-your-hololens-2)), в том числе следующие действия:
 
-1. [Создание проекта Unity](mr-learning-base-02.md#creating-the-unity-project) и присвоение ему подходящего имени, например *MRTK Tutorials* .
+1. [Создание проекта Unity](mr-learning-base-02.md#creating-the-unity-project) и присвоение ему подходящего имени, например *MRTK Tutorials*.
 1. [Переключение платформы сборки.](mr-learning-base-02.md#configuring-the-unity-project)
 1. [Импорт требуемых ресурсов TextMeshPro.](mr-learning-base-02.md#importing-the-textmeshpro-essential-resources)
 1. [Импорт набора средств для Смешанной реальности (MRTK).](mr-learning-base-02.md#importing-the-mixed-reality-toolkit)
 1. [Настройка проекта Unity.](mr-learning-base-02.md#configuring-the-unity-project)
-1. [Создание и настройка сцены](mr-learning-base-02.md#creating-and-configuring-the-scene) и присвоение ей понятного имени, например *MultiUserCapabilities* .
+1. [Создание и настройка сцены](mr-learning-base-02.md#creating-and-configuring-the-scene) и присвоение ей понятного имени, например *MultiUserCapabilities*.
 
 Затем выполните инструкции из раздела [Изменение параметра отображения отслеживания пространственного положения](mr-learning-base-03.md#changing-the-spatial-awareness-display-option):
 
-1. Измените **профиль конфигурации MRTK** на **DefaultHoloLens2ConfigurationProfile** .
+1. Измените **профиль конфигурации MRTK** на **DefaultHoloLens2ConfigurationProfile**.
 1. Измените **параметры отображения сетки отслеживания пространственного положения** на **Occlusion** (Загораживание).
 
 ## <a name="enabling-additional-capabilities"></a>Включение дополнительных возможностей
 
 В меню Unity щелкните **Edit** > **Project Settings...** (Правка > Параметры проекта...), чтобы открыть окно параметров проигрывателя, а затем найдите раздел **Player** >  **Publishing Settings** (Проигрыватель > Параметры публикации).
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-02-section2-step1-1.png)
+![Параметры проигрывателя Unity](images/mr-learning-sharing/sharing-02-section2-step1-1.png)
 
 В окне **Publishing Settings** (Параметры публикации) прокрутите содержимое вниз до раздела **Capabilities** (Возможности) и убедитесь, что здесь включены возможности **InternetClient** , **Microphone** , **SpatialPerception** и **GazeInput** , которые вы включили при выполнении шага [Настройка проекта Unity](mr-learning-base-02.md#configuring-the-unity-project) ранее.
 
 Затем включите следующие дополнительные возможности:
 
 * возможность **InternetClientServer** ;
-* возможность **PrivateNetworkClientServer** .
+* возможность **PrivateNetworkClientServer**.
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-02-section2-step1-2.png)
+![Настройки возможностей Unity](images/mr-learning-sharing/sharing-02-section2-step1-2.png)
 
 ## <a name="installing-inbuilt-unity-packages"></a>Установка встроенных пакетов Unity
 
 В меню Unity выберите **Window** > **Package Manager** (Окно > Диспетчер пакетов), чтобы открыть окно диспетчера пакетов, а затем щелкните **AR Foundation** и нажмите кнопку **Install** (Установить) для установки пакета.
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-02-section3-step1-1.png)
+![Диспетчер пакетов Unity с выбранным пакетом AR Foundation](images/mr-learning-sharing/sharing-02-section3-step1-1.png)
 
 > [!NOTE]
 > Пакет AR Foundation необходимо установить, так как он требуется для пакета SDK Пространственных привязок Azure, который вы будете импортировать при работе со следующим разделом.
@@ -79,7 +79,7 @@ ms.locfileid: "91702211"
 
 Когда вы завершите импорт активов для руководства, окно проекта должно выглядеть примерно так:
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-02-section4-step1-1.png)
+![Unity с окнами Hierarchy (Иерархия), Scene (Сцена) и Project (Проект) после импорта ресурсов для руководства](images/mr-learning-sharing/sharing-02-section4-step1-1.png)
 
 > [!TIP]
 > Сведения о том, как правильно импортировать пользовательский пакет Unity, см. в разделе [Импорт набора средств для Смешанной реальности](mr-learning-base-02.md#importing-the-mixed-reality-toolkit).
@@ -93,15 +93,15 @@ ms.locfileid: "91702211"
 
 После скачивания нажмите кнопку **Импорт** , чтобы открыть окно Import Unity Package (Импорт пакета Unity).
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-02-section5-step1-1.png)
+![Хранилище Unity Asset Store с PUN 2 (бесплатно)](images/mr-learning-sharing/sharing-02-section5-step1-1.png)
 
 В окне импорта пакета Unity нажмите кнопку **All** (Все), чтобы выбрать все ресурсы, а затем нажмите кнопку **Import** (Импорт), чтобы импортировать их.
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-02-section5-step1-2.png)
+![Unity с окном импорта PUN 2](images/mr-learning-sharing/sharing-02-section5-step1-2.png)
 
 Когда в Unity завершится процесс импорта, появится окно мастера PUN с открытым меню PUN Setup (Настройка PUN). На данный момент вы можете проигнорировать или закрыть это окно.
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-02-section5-step1-3.png)
+![Unity с окном настройки PUN](images/mr-learning-sharing/sharing-02-section5-step1-3.png)
 
 ## <a name="creating-the-pun-application"></a>Создание приложения PUN
 
@@ -109,26 +109,26 @@ ms.locfileid: "91702211"
 
 Перейдите на <a href="https://dashboard.photonengine.com/account/signin" target="_blank">панель мониторинга</a> Photon и войдите в систему, если у вас уже есть учетная запись, которую вы хотите использовать. В противном случае щелкните ссылку **Создать** и следуйте инструкциям, чтобы зарегистрировать новую учетную запись.
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-02-section6-step1-1.png)
+![Страница входа в Photon](images/mr-learning-sharing/sharing-02-section6-step1-1.png)
 
-После входа нажмите кнопку **Создать приложение** .
+После входа нажмите кнопку **Создать приложение**.
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-02-section6-step1-2.png)
+![Страница приветствия панели мониторинга Photon](images/mr-learning-sharing/sharing-02-section6-step1-2.png)
 
 На странице создания приложения введите приведенные ниже значения.
 
 * В раскрывающемся списке Photon Type (Тип Photon) выберите PUN.
-* В поле "Имя" введите подходящее имя, например _MRTK Tutorials_ .
+* В поле "Имя" введите подходящее имя, например _MRTK Tutorials_.
 * В поле "Описание" можно ввести описание (необязательно).
 * Поле "URL-адрес" оставьте пустым.
 
 Затем нажмите кнопку **Create** (Создать), чтобы создать приложение.
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-02-section6-step1-3.png)
+![Страница создания приложения Photon](images/mr-learning-sharing/sharing-02-section6-step1-3.png)
 
 Когда Photon завершит процесс создания, на панели мониторинга появится новое приложение PUN.
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-02-section6-step1-4.png)
+![Страница приложения Photon](images/mr-learning-sharing/sharing-02-section6-step1-4.png)
 
 ## <a name="connecting-the-unity-project-to-the-pun-application"></a>Подключение проекта Unity к приложению PUN
 
@@ -136,7 +136,7 @@ ms.locfileid: "91702211"
 
 На панели мониторинга Photon щелкните поле **ИД приложения** , чтобы отобразить идентификатор приложения, а затем скопируйте его в буфер обмена.
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-02-section7-step1-1.png)
+![Страница приложения Photon с выбранным идентификатором приложения](images/mr-learning-sharing/sharing-02-section7-step1-1.png)
 
 В меню Unity последовательно выберите **Window** > **Photon Unity Networking** > **PUN Wizard** (Окно > Photon Unity Networking > Мастер PUN), чтобы открыть окно мастера PUN. Затем нажмите кнопку **Проект установки** , чтобы открыть меню PUN Setup (Настройка PUN), и настройте его, как описано ниже.
 
@@ -144,11 +144,11 @@ ms.locfileid: "91702211"
 
 Затем нажмите кнопку **Проект установки** , чтобы применить идентификатор приложения.
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-02-section7-step1-2.png)
+![Окно настройки PUN в Unity с заполненным идентификатором приложения](images/mr-learning-sharing/sharing-02-section7-step1-2.png)
 
 Когда в Unity завершится процесс настройки PUN, в меню PUN Setup (Настройка PUN) появится сообщение **Готово!** В окне Project (Проект) будет автоматически выбран актив **PhotonServerSettings** , чтобы в окне Inspector (Инспектор) отображались его свойства.
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-02-section7-step1-3.png)
+![Окно настройки PUN в Unity с примененным проектом установки](images/mr-learning-sharing/sharing-02-section7-step1-3.png)
 
 ## <a name="congratulations"></a>Поздравляем!
 

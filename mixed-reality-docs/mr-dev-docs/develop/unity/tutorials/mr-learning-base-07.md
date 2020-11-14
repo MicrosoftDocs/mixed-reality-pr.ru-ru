@@ -1,18 +1,18 @@
 ---
 title: Серия руководств по началу работы, часть 7 Взаимодействие с трехмерными объектами
-description: Из этого курса вы узнаете, как с помощью набора средств для смешанной реальности (MRTK) создавать приложения смешанной реальности.
+description: Из этого курса вы узнаете, как использовать Mixed Reality Toolkit (MRTK) для взаимодействия с трехмерными объектами.
 author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
 keywords: mixed reality, unity, tutorial, hololens
 ms.localizationpriority: high
-ms.openlocfilehash: 0cedd731fc795341532a8a330f4fdcce9fba47b0
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: 1e91cc97f68a4d4b5bcb015184e96582533d1f96
+ms.sourcegitcommit: 63c228af55379810ab2ee4f09f20eded1bb76229
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91699797"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93353522"
 ---
 # <a name="7-interacting-with-3d-objects"></a>7. Взаимодействие с трехмерными объектами
 
@@ -43,7 +43,7 @@ ms.locfileid: "91699797"
 >
 > * компонент **Collider** (Коллайдер), например Box Collider;
 > * компонент **Object Manipulator (Script)** (Манипулятор объектами — скрипт);
-> * компонент **NearInteractionGrabbable** .
+> * компонент **NearInteractionGrabbable**.
 
 Кроме того, необходимо настроить обозреватель лунохода, чтобы можно было разместить детали лунохода и выполнить его полноценную сборку.
 
@@ -53,7 +53,7 @@ ms.locfileid: "91699797"
 * компонент **NearInteractionGrabbable** ;
 * компонент **Part Assembly Controller (Script)** (Элемент управления сборкой деталей — скрипт).
 
-![mr-learning-base](images/mr-learning-base/base-07-section1-step1-1.png)
+![Unity с выбранным объектом RoverAssembly и всеми частями лунохода и добавленными компонентами](images/mr-learning-base/base-07-section1-step1-1.png)
 
 > [!TIP]
 > Чтобы выбрать несколько объектов, которые не расположены рядом, нажмите и удерживайте клавишу CTRL и выберите любой объект с помощью кнопки мыши.
@@ -68,47 +68,47 @@ ms.locfileid: "91699797"
 
 * В раскрывающемся списке **Two Handed Manipulation Type** (Тип манипуляции двумя руками), снимите флажок Scale (Масштаб), чтобы были выбраны только параметры **Move** (Перемещение) и **Rotate** (Поворот).
 
-![mr-learning-base](images/mr-learning-base/base-07-section1-step1-2.png)
+![Unity с настроенным типом манипуляции двумя руками](images/mr-learning-base/base-07-section1-step1-2.png)
 
 > [!NOTE]
 > На этом этапе вы включили манипулирование объектами для всех объектов деталей лунохода и объекта RoverAssembly.
 
 В окне проекта перейдите к папке **Assets** > **MRTK** > **SDK** > **StandardAssets** > **Audio** , чтобы найти аудиоклипы:
 
-![mr-learning-base](images/mr-learning-base/base-07-section1-step1-3.png)
+![Окно проекта Unity с выбранной папкой аудио](images/mr-learning-base/base-07-section1-step1-3.png)
 
 В окне Hierarchy (Иерархия) выберите все **объекты деталей лунохода** , затем в окне Inspector (Инспектор) нажмите кнопку **Add Component** (Добавить компонент), чтобы добавить компонент **Audio Sources** (Источники аудио) и настроить его следующим образом:
 
-* В поле **AudioClip** укажите аудиоклип **MRTK_Scale_Start** .
+* В поле **AudioClip** укажите аудиоклип **MRTK_Scale_Start**.
 * Снимите флажок **Play On Awake** (Воспроизвести при загрузке).
 * Для параметра **Spatial Blend** (Пространственное наложение) установите значение 1.
 
-![mr-learning-base](images/mr-learning-base/base-07-section1-step1-4.png)
+![Unity с выбранными всеми частями лунохода и добавленным и настроенным компонентом Audio Source](images/mr-learning-base/base-07-section1-step1-4.png)
 
 В окне Hierarchy (Иерархия) разверните объект RoverAssembly > RoverModel_PlacementHints_XRay > **Parts_PlacementHints** , чтобы отобразить все объекты указания расположения, а затем выберите первую деталь лунохода, RoverParts > **Camera_Part** и настройте компонент **Part Assembly Controller (Script)** (Элемент управления сборкой деталей — скрипт) следующим образом:
 
-* В поле **Location To Place** (Расположение для размещения) укажите объект **Camera_PlacementHint** .
+* В поле **Location To Place** (Расположение для размещения) укажите объект **Camera_PlacementHint**.
 
-![mr-learning-base](images/mr-learning-base/base-07-section1-step1-5.png)
+![Unity с настроенным компонентом Camera_Part PartAssemblyController](images/mr-learning-base/base-07-section1-step1-5.png)
 
 **Повторите** это действие для каждого из оставшихся объектов деталей лунохода и объекта RoverAssembly, чтобы настроить компонент **Part Assembly Controller (Script)** (Элемент управления сборкой деталей — скрипт) следующим образом:
 
-* Для **Generator_Part** в поле **Location To Place** (Расположение для размещения) укажите объект **Generator_PlacementHint** .
-* Для **Lights_Part** в поле **Location To Place** (Расположение для размещения) укажите объект **Lights_PlacementHint** .
-* Для **UHFAntenna_Part** в поле **Location To Place** (Расположение для размещения) укажите объект **UHFAntenna_PlacementHint** .
-* Для **Spectrometer_Part** в поле **Location To Place** (Расположение для размещения) укажите объект **Spectrometer_PlacementHint** .
+* Для **Generator_Part** в поле **Location To Place** (Расположение для размещения) укажите объект **Generator_PlacementHint**.
+* Для **Lights_Part** в поле **Location To Place** (Расположение для размещения) укажите объект **Lights_PlacementHint**.
+* Для **UHFAntenna_Part** в поле **Location To Place** (Расположение для размещения) укажите объект **UHFAntenna_PlacementHint**.
+* Для **Spectrometer_Part** в поле **Location To Place** (Расположение для размещения) укажите объект **Spectrometer_PlacementHint**.
 * Для **RoverAssembly** укажите сам объект, т. е. тот же объект **RoverAssembly** в поле **Location To Place** (Расположение для размещения).
 
 В окне Hierarchy (Иерархия) выберите RoverExplorer > Buttons (Кнопки) > объект кнопки **Reset** (Сброс), затем в окне Inspector (Инспектор) настройте интерактивное событие **OnClick ()** следующим образом:
 
-* В поле **None (Object)** (Отсутствует (объект)) укажите объект **RoverAssembly** .
+* В поле **None (Object)** (Отсутствует (объект)) укажите объект **RoverAssembly**.
 * В раскрывающемся списке **No Function** (Функция отсутствует) выберите **PartAssemblyController** > **ResetPlacement ()** , чтобы задать эту функцию как действие, выполняемое при срабатывании события.
 
-![mr-learning-base](images/mr-learning-base/base-07-section1-step1-6.png)
+![Unity с настроенным событием Reset для объекта кнопки OnClick](images/mr-learning-base/base-07-section1-step1-6.png)
 
 Теперь, войдя в игровой режим, вы сможете поместить детали на луноход в режиме ближнего или дальнего взаимодействия. Когда деталь будет близка к соответствующей подсказке о размещении, она автоматически закрепится в нужном месте и станет деталью лунохода. Чтобы сбросить параметры размещения, нажмите кнопку Reset (Сброс):
 
-![mr-learning-base](images/mr-learning-base/base-07-section1-step1-7.png)
+![Разделенное представление Unity в режиме воспроизведения с нажатой кнопкой Reset](images/mr-learning-base/base-07-section1-step1-7.png)
 
 Дополнительные сведения о компоненте Object Manipulator (Манипулятор объектами) и его свойствах вы можете получить в [этом учебнике](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_ObjectManipulator.html) на [портале документации по MRTK](https://microsoft.github.io/MixedRealityToolkit-Unity/README.html).
 
@@ -125,7 +125,7 @@ ms.locfileid: "91699797"
 
 Затем **снимите флажок** рядом с компонентами, чтобы **отключить** их по умолчанию:
 
-![mr-learning-base](images/mr-learning-base/base-07-section2-step1-1.png)
+![Unity с выбранным объектом RoverExplorer и добавленными и отключенными компонентами](images/mr-learning-base/base-07-section2-step1-1.png)
 
 > [!NOTE]
 > Визуализация ограничивающей рамки создается во время выполнения. Поэтому вы не увидите ее до входа в игровой режим.
@@ -133,37 +133,37 @@ ms.locfileid: "91699797"
 > [!NOTE]
 > Компонент BoundingBox будет автоматически добавлять компонент NearInteractionGrabbable во время выполнения. Поэтому не нужно добавлять этот компонент для захвата вложенных объектов с помощью отслеживаемых рук.
 
-В окне Hierarchy (Иерархия) разверните в меню объект **ButtonCollection** , чтобы отобразить четыре кнопки и переименовать третью кнопку на **BoundingBox_Enable** . Затем в окне Inspector (Инспектор) настройте компонент **Button Config Helper (Script)** (Помощник настройки кнопки — скрипт) следующим образом:
+В окне Hierarchy (Иерархия) разверните в меню объект **ButtonCollection** , чтобы отобразить четыре кнопки и переименовать третью кнопку на **BoundingBox_Enable**. Затем в окне Inspector (Инспектор) настройте компонент **Button Config Helper (Script)** (Помощник настройки кнопки — скрипт) следующим образом:
 
 * Установите для параметра **Main Label Text** (Текст основной метки) значение **Enable** (Включить).
-* В поле **None (Object)** (Отсутствует (объект)) укажите объект **RoverExplorer** .
+* В поле **None (Object)** (Отсутствует (объект)) укажите объект **RoverExplorer**.
 * В раскрывающемся списке **No Function** (Функция отсутствует) выберите **BoundingBox** > **bool Enabled** (Активация по логическому значению), чтобы обновлять это значение свойства при срабатывании события.
-* Убедитесь, что флажок аргумента **установлен** .
+* Убедитесь, что флажок аргумента **установлен**.
 * Щелкните небольшой значок **+** , чтобы добавить событие.
-* В поле **None (Object)** (Отсутствует (объект)) укажите объект **RoverExplorer** .
+* В поле **None (Object)** (Отсутствует (объект)) укажите объект **RoverExplorer**.
 * В раскрывающемся списке **No Function** (Функция отсутствует) выберите **ObjectManipulator** > **bool enabled** (Активация по логическому значению), чтобы обновлять это значение свойства при срабатывании события.
-* Убедитесь, что флажок аргумента **установлен** .
+* Убедитесь, что флажок аргумента **установлен**.
 * Оставьте **значок** куба с ограничивающей рамкой.
 
-![mr-learning-base](images/mr-learning-base/base-07-section2-step1-2.png)
+![Unity с выбранным объектом кнопки BoundingBox_Enable и настроенным компонентом Button Config Helper](images/mr-learning-base/base-07-section2-step1-2.png)
 
 Переименуйте четвертую и последнюю кнопку на **BoundingBox_Disable** , затем в окне Inspector (Инспектор) настройте компонент **Button Config Helper (Script)** (Помощник настройки кнопки — скрипт) следующим образом:
 
 * Установите для параметра **Main Label Text** (Текст основной метки) значение **Disable** (Отключить).
-* В поле **None (Object)** (Отсутствует (объект)) укажите объект **RoverExplorer** .
+* В поле **None (Object)** (Отсутствует (объект)) укажите объект **RoverExplorer**.
 * В раскрывающемся списке **No Function** (Функция отсутствует) выберите **BoundingBox** > **bool Enabled** (Активация по логическому значению), чтобы обновлять это значение свойства при срабатывании события.
-* Убедитесь, что флажок аргумента **снят** .
+* Убедитесь, что флажок аргумента **снят**.
 * Щелкните небольшой значок **+** , чтобы добавить событие.
-* В поле **None (Object)** (Отсутствует (объект)) укажите объект **RoverExplorer** .
+* В поле **None (Object)** (Отсутствует (объект)) укажите объект **RoverExplorer**.
 * В раскрывающемся списке **No Function** (Функция отсутствует) выберите **ObjectManipulator** > **bool enabled** (Активация по логическому значению), чтобы обновлять это значение свойства при срабатывании события.
-* Убедитесь, что флажок аргумента **снят** .
+* Убедитесь, что флажок аргумента **снят**.
 * Измените **значок** на значок куба с ограничивающей рамкой.
 
-![mr-learning-base](images/mr-learning-base/base-07-section2-step1-3.png)
+![Unity с выбранным объектом кнопки BoundingBox_Disable и настроенным компонентом Button Config Helper](images/mr-learning-base/base-07-section2-step1-3.png)
 
 Теперь, войдя в игровой режим и включив ограничивающую рамку, нажав кнопку Enable (Включить), вы можете использовать режим ближнего или дальнего взаимодействия для перемещения, вращения и масштабирования ограничивающей рамки. Чтобы повторно отключить ограничивающую рамку, нажмите кнопку Disable (Отключить):
 
-![mr-learning-base](images/mr-learning-base/base-07-section2-step1-4.png)
+![Разделенное представление Unity в режиме воспроизведения с изменением ограничивающего прямоугольника](images/mr-learning-base/base-07-section2-step1-4.png)
 
 Дополнительные сведения о компоненте Bounding Box (Ограничивающая рамка) и его свойствах вы можете получить в [этом руководстве](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_BoundingBox.html) на [портале документации по MRTK](https://microsoft.github.io/MixedRealityToolkit-Unity/README.html).
 

@@ -1,18 +1,18 @@
 ---
 title: Руководства по Пространственным привязкам Azure — часть 3. Сохранение, получение и совместное использование Пространственных привязок Azure
-description: Пройдите этот курс и узнайте, как реализовать Пространственные привязки Azure в приложении смешанной реальности.
+description: Пройдите этот курс и узнайте, как сохранять, получать и совместно использовать Пространственные привязки Azure в приложении смешанной реальности.
 author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
 keywords: mixed reality, unity, tutorial, hololens
 ms.localizationpriority: high
-ms.openlocfilehash: edbbfa6bb4027e6d0d0d37a46575eafdb1d6e631
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: 2fbf9b849cec62c5281396fcb1e2f8e6e26b4621
+ms.sourcegitcommit: 63c228af55379810ab2ee4f09f20eded1bb76229
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91700328"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93353302"
 ---
 # <a name="3-saving-retrieving-and-sharing-azure-spatial-anchors"></a>3. Сохранение, получение и совместное использование Пространственных привязок Azure
 
@@ -25,13 +25,13 @@ ms.locfileid: "91700328"
 
 ## <a name="preparing-the-scene"></a>Подготовка сцены
 
-В окне Hierarchy (Иерархия) разверните объект **ButtonParent** . Выберите **последние четыре дочерних объекта кнопок** . В окне Inspector (Инспектор) **установите флажок** рядом с полем имени, чтобы все объекты стали активными.
+В окне Hierarchy (Иерархия) разверните объект **ButtonParent**. Выберите **последние четыре дочерних объекта кнопок**. В окне Inspector (Инспектор) **установите флажок** рядом с полем имени, чтобы все объекты стали активными.
 
-![mr-learning-asa](images/mr-learning-asa/asa-03-section1-step1-1.png)
+![Unity с выбранными и активными объектами кнопок, которые раньше были неактивны](images/mr-learning-asa/asa-03-section1-step1-1.png)
 
-В окне Hierarchy (Иерархия) выберите объекты **ButtonParent** . Затем в окне Inspector (Инспектор) найдите компонент **GridObjectCollection** и нажмите кнопку **Update Collection** (Обновить коллекцию), чтобы обновить расположение всех дочерних объектов **ButtonParent** .
+В окне Hierarchy (Иерархия) выберите объекты **ButtonParent**. Затем в окне Inspector (Инспектор) найдите компонент **GridObjectCollection** и нажмите кнопку **Update Collection** (Обновить коллекцию), чтобы обновить расположение всех дочерних объектов **ButtonParent**.
 
-![mr-learning-asa](images/mr-learning-asa/asa-03-section1-step1-2.png)
+![Unity с обновленным компонентом GridObjectCollection](images/mr-learning-asa/asa-03-section1-step1-2.png)
 
 ## <a name="persisting-azure-spatial-anchors-between-app-sessions"></a>Сохранение Пространственных привязок Azure между сеансами приложения
 
@@ -39,7 +39,7 @@ ms.locfileid: "91700328"
 
 В окне "Иерархия" разверните объект **ButtonParent** и найдите две кнопки с именами **SaveAzureAnchorIdToDisk** и **GetAzureAnchorIdFromDisk** :
 
-![mr-learning-asa](images/mr-learning-asa/asa-03-section2-step1-1.png)
+![Unity с выбранными объектами кнопок SaveAzureAnchorIdToDisk и GetAzureAnchorIdFromDisk](images/mr-learning-asa/asa-03-section2-step1-1.png)
 
 Выполните действия, которые описаны в инструкциях по [настройке кнопок для управления сценой](mr-learning-asa-02.md#configuring-the-buttons-to-operate-the-scene) из предыдущего руководства, чтобы настроить компонент **Interactable (Script)** (Доступный для взаимодействия — скрипт) для каждой из этих двух кнопок:
 
@@ -66,9 +66,9 @@ ms.locfileid: "91700328"
 
 Есть много способов передавать идентификаторы привязок Azure между несколькими устройствами, часть из которых описана в серии [руководств по многопользовательским возможностям](mr-learning-sharing-02.md). В нашем примере применяется простая веб-служба для отправки и скачивания идентификаторов привязок с нескольких устройств.
 
-В окне Hierarchy (Иерархия) разверните объект **ButtonParent** .   Найдите две кнопки с именами **ShareAzureAnchorIdToNetwork** и **GetAzureAnchorIdFromNetwork** .
+В окне Hierarchy (Иерархия) разверните объект **ButtonParent**.   Найдите две кнопки с именами **ShareAzureAnchorIdToNetwork** и **GetAzureAnchorIdFromNetwork**.
 
-![mr-learning-asa](images/mr-learning-asa/asa-03-section3-step1-1.png)
+![Unity с выбранными объектами кнопок ShareAzureAnchorIdToNetwork и GetAzureAnchorIdFromNetwork](images/mr-learning-asa/asa-03-section3-step1-1.png)
 
 Выполните действия, которые описаны в инструкциях по [настройке кнопок для управления сценой](mr-learning-asa-02.md#configuring-the-buttons-to-operate-the-scene) из предыдущего руководства, чтобы настроить компонент **Interactable (Script)** (Доступный для взаимодействия — скрипт) для каждой из этих двух кнопок:
 

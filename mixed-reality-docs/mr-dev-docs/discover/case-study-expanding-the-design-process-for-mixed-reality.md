@@ -6,12 +6,12 @@ ms.author: daescu
 ms.date: 04/08/2018
 ms.topic: article
 keywords: Windows Mixed Reality, проектирование, процесс, пример внедрения
-ms.openlocfilehash: f08115879d09d0be7ef8cae12ea0a4c15991a576
-ms.sourcegitcommit: 83c9373fe5b2e07cdab921b6cab3fdd418307003
+ms.openlocfilehash: 4cde36c8b5c3914c63e0c588e76dc4b782dcdcb9
+ms.sourcegitcommit: cc27d31f0cebaf9fc4221a3300a9e3d73230b367
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2020
-ms.locfileid: "94386250"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "94631512"
 ---
 # <a name="thinking-differently-for-mixed-reality"></a>Размышления по-разному для смешанной реальности
 Когда корпорация Майкрософт запустила HoloLens (1-й выпуск) для аудитории незавершенных разработчиков в 2016, группа уже составила партнерскую Studios внутри и за пределами корпорации Майкрософт, чтобы создать интерфейс для запуска устройства. Эти команды учились, открывая новые возможности и сталкиваясь с проблемами в новой области проектирования смешанной реальности.
@@ -128,13 +128,12 @@ ms.locfileid: "94386250"
 * Карандаши
 * Резки
 
-## <a name="next-discovery-checkpoint"></a>Следующая контрольная точка обнаружения
+## <a name="next-discovery-checkpoint"></a>Следующий этап
 
-Если вы подготовились к [пути обнаружения](get-started-with-mr.md) , то вы в состоянии изучить основы смешанной реальности. Здесь можно перейти к следующей базовой теме: 
+Поздравляем, вы закончили основу пути обнаружения смешанной реальности! Вы можете вернуться на главную [страницу обнаружения](get-started-with-mr.md) и [узнать, как отраслевые партнеры используют смешанную реальность](get-started-with-mr.md#see-how-industry-partners-are-using-mixed-reality) и [исследовать HoloLens](get-started-with-mr.md#explore-hololens-and-mixed-reality-services), или приступить к проектированию или разработке.
 
 > [!div class="nextstepaction"]
-> [Комфорт пользователя](../design/comfort.md)
+> [Начните разработку](../design/design.md)
 
-## <a name="see-also"></a>См. также
-* [Пример использования. мой первый год в группе проектирования HoloLens](../out-of-scope/case-study-my-first-year-on-the-hololens-design-team.md)
-* [Пример использования: подготовка к работе в Афтернов, создание прототипов, разработка](https://developer.microsoft.com/windows/mixed-reality/case_study_-_afternow's_process_-_envisioning,_prototyping,_building)
+> [!div class="nextstepaction"]
+> [Начните разработку](../develop/development.md)

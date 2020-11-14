@@ -1,18 +1,18 @@
 ---
 title: Серия учебников по началу работы, часть 9 Использование речевых команд
-description: Сведения о том, как использовать набор Mixed Reality Toolkit (MRTK) для создания приложений смешанной реальности.
+description: Из этого курса вы узнаете, как использовать речевые команды в наборе средств для смешанной реальности (MRTK).
 author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
 keywords: mixed reality, unity, tutorial, hololens
 ms.localizationpriority: high
-ms.openlocfilehash: d9ddf3d234b68dfe4ce3ab5c9272566479edd71d
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: c5d7297b8c8153270cd6ccf40eff64eab4afb49e
+ms.sourcegitcommit: 63c228af55379810ab2ee4f09f20eded1bb76229
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91700912"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93353512"
 ---
 # <a name="9-using-speech-commands"></a>9. Использование речевых команд
 
@@ -39,7 +39,7 @@ ms.locfileid: "91700912"
 В окне Hierarchy (Иерархия) выберите объект **MixedRealityToolkit** , затем в окне Inspector (Инспектор) перейдите на вкладку MixedRealityToolkit > **Input** (Ввод) и выполните следующие действия:
 
 * Разверните раздел **Speech** (Речь).
-* Клонируйте **DefaultMixedRealitySpeechCommandsProfile** и присвойте ему подходящее имя, например _GettingStarted_MixedRealitySpeechCommandsProfile_ .
+* Клонируйте **DefaultMixedRealitySpeechCommandsProfile** и присвойте ему подходящее имя, например _GettingStarted_MixedRealitySpeechCommandsProfile_.
 * Убедитесь, что параметр **Start Behaviour** (Поведение при запуске) имеет значение **Auto Start** (Автоматический запуск).
 
 ![Создание речевых команд](images/mr-learning-base/base-09-section2-step1-1.png)
@@ -108,11 +108,11 @@ ms.locfileid: "91700912"
 * Щелкните маленький значок **+** , чтобы добавить событие.
 * В окне Hierarchy (Иерархия) укажите объект **RoverExplorer** в поле **None (Object)** (Отсутствует (Объект)).
 * В раскрывающемся списке **No Function** (Функция отсутствует) выберите **BoundingBox** > **bool Enabled** (Активация по логическому значению), чтобы обновлять это значение свойства при срабатывании события.
-* Убедитесь, что флажок аргумента **снят** .
+* Убедитесь, что флажок аргумента **снят**.
 * Щелкните небольшой значок **+** , чтобы добавить событие.
 * В окне Hierarchy (Иерархия) укажите объект **RoverExplorer** в поле **None (Object)** (Отсутствует (Объект)).
 * В раскрывающемся списке **No Function** (Функция отсутствует) выберите **ObjectManipulator** > **bool enabled** (Активация по логическому значению), чтобы обновлять это значение свойства при срабатывании события.
-* Убедитесь, что флажок аргумента **снят** .
+* Убедитесь, что флажок аргумента **снят**.
 
 ![Настройка элемента ключевого слова 2](images/mr-learning-base/base-09-section3-step1-6.png)
 

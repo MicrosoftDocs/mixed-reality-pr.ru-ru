@@ -1,18 +1,18 @@
 ---
 title: Серия учебников по началу работы, часть 4. Размещение объектов в сцене
-description: Из этого курса вы узнаете, как с помощью набора средств для смешанной реальности (MRTK) создавать приложения смешанной реальности.
+description: Из этого курса вы узнаете, как размещать объекты в сцене и как использовать Mixed Reality Toolkit (MRTK) для упорядочивания объектов в сетке.
 author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
 keywords: mixed reality, unity, tutorial, hololens
 ms.localizationpriority: high
-ms.openlocfilehash: 4254b15f4c15e491f81f99438389a6e3bf772868
-ms.sourcegitcommit: d8f39c0b95d9e61d645d64f27baabc7a1c300dc1
+ms.openlocfilehash: 849de7c50adc8ff1da5262ad46fae50cce48e953
+ms.sourcegitcommit: 63c228af55379810ab2ee4f09f20eded1bb76229
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "92293230"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93353222"
 ---
 # <a name="4-positioning-objects-in-the-scene"></a>4. Размещение объектов в сцене
 
@@ -33,7 +33,7 @@ ms.locfileid: "92293230"
 
 Когда вы завершите импорт активов для руководства, окно проекта должно выглядеть примерно так:
 
-![mr-learning-base](images/mr-learning-base/base-04-section1-step1-1.png)
+![Unity с окнами Hierarchy (Иерархия), Scene (Сцена) и Project (Проект) после импорта ресурсов для руководства](images/mr-learning-base/base-04-section1-step1-1.png)
 
 > [!TIP]
 > Сведения о том, как правильно импортировать пользовательский пакет Unity, см. в разделе [Импорт набора средств для Смешанной реальности](mr-learning-base-02.md#importing-the-mixed-reality-toolkit).
@@ -42,14 +42,14 @@ ms.locfileid: "92293230"
 
 Щелкните правой кнопкой мыши пустое место в окне Hierarchy (Иерархия) и выберите **Create Empty** (Создать пустой), чтобы добавить в сцену пустой объект.
 
-![mr-learning-base](images/mr-learning-base/base-04-section2-step1-1.png)
+![Unity с пунктом Create Empty (Создать пустой) в контекстном меню](images/mr-learning-base/base-04-section2-step1-1.png)
 
 > [!TIP]
 > Чтобы отобразить окна Scene (Сцена) и Game (Игра) рядом друг с другом, как на изображении ниже, перетащите окно Game (Игра) и поместите его справа от окна Scene (Сцена). Дополнительные сведения см. на странице <a href="https://docs.unity3d.com/Manual/CustomizingYourWorkspace.html" target="_blank">Настройка рабочего пространства</a> в документации по Unity.
 
 Щелкните правой кнопкой мыши созданный объект, выберите **Rename** (Переименовать) и измените имя на **RoverExplorer** :
 
-![mr-learning-base](images/mr-learning-base/base-04-section2-step1-2.png)
+![Unity с пунктом Rename (Переименовать) в контекстном меню](images/mr-learning-base/base-04-section2-step1-2.png)
 
 Выбрав объект RoverExplorer в окне инспектора настройте компонент **Transform** (Преобразование) следующим образом:
 
@@ -57,7 +57,7 @@ ms.locfileid: "92293230"
 * **Rotation** (Поворот): X = 0, Y = 0, Z = 0.
 * **Scale** (Масштаб): X = 1, Y = 1, Z = 1.
 
-![mr-learning-base](images/mr-learning-base/base-04-section2-step1-3.png)
+![Unity с выбранным и размещенным объектом RoverExplorer](images/mr-learning-base/base-04-section2-step1-3.png)
 
 > [!NOTE]
 > Камера представляет голову пользователя в исходном положении: X = 0, Y = 0, Z = 0. Обычно одна единица в Unity равна примерно одному метру в физическом мире. Но из этого правила могут быть исключения, например для дочерних объектов масштабированных объектов. В приведенном выше сценарии для RoverExplorer задается положение на расстоянии 2 метра перед головой пользователя и 0,6 метра ниже нее.
@@ -66,7 +66,7 @@ ms.locfileid: "92293230"
 
 В окне Project (Проект) перейдите к папке **Assets (Активы)**  > **MRTK.Tutorials.GettingStarted** > **Prefabs (Заготовки)** .
 
-![mr-learning-base](images/mr-learning-base/base-04-section3-step1-1.png)
+![Окно проекта Unity с выбранной папкой заготовок](images/mr-learning-base/base-04-section3-step1-1.png)
 
 > [!TIP]
 > <a href="https://docs.unity3d.com/Manual/Prefabs.html" target="_blank">Заготовкой</a> называется предварительно настроенный игровой объект (GameObject), который хранится в качестве актива Unity и может повторно использоваться в проекте.
@@ -77,7 +77,7 @@ ms.locfileid: "92293230"
 * **Rotation** (Поворот): X = 0, Y = 0, Z = 0.
 * **Scale** (Масштаб): X = 1,2, Y = 0,01, Z = 1,2.
 
-![mr-learning-base](images/mr-learning-base/base-04-section3-step1-2.png)
+![Unity с выбранной и размещенной добавленной заготовкой Table](images/mr-learning-base/base-04-section3-step1-2.png)
 
 > [!TIP]
 > Для отображения сцены, как на рисунке ниже, используйте <a href="https://docs.unity3d.com/Manual/SceneViewNavigation.html" target="_blank">Scene Gizmo</a> (Манипулятор сцены) справа в верхнем углу окна сцены, чтобы направить угол взгляда вдоль оси Z вперед. Затем дважды щелкните объект MixedRealityPlayspace, чтобы перевести на него фокус камеры, и при необходимости увеличьте масштаб.
@@ -88,7 +88,7 @@ ms.locfileid: "92293230"
 * **Rotation** (Поворот): X = 0, Y = -135, Z = 0.
 * **Scale** (Масштаб): X = 1, Y = 1, Z = 1.
 
-![mr-learning-base](images/mr-learning-base/base-04-section3-step1-3.png)
+![Unity с выбранной и размещенной добавленной заготовкой RoverAssembly](images/mr-learning-base/base-04-section3-step1-3.png)
 
 ## <a name="organizing-objects-in-a-collection"></a>Упорядочение объектов в коллекции
 
@@ -98,33 +98,33 @@ ms.locfileid: "92293230"
 * **Rotation** (Поворот): X = 0, Y = 90, Z = 0.
 * **Scale** (Масштаб): X = 1, Y = 1, Z = 1.
 
-![mr-learning-base](images/mr-learning-base/base-04-section4-step1-1.png)
+![Unity выбранным и расположенным созданным объектом RoverParts](images/mr-learning-base/base-04-section4-step1-1.png)
 
 В окне Hierarchy (Иерархия) выберите все дочерние объекты RoverExplorer > RoverAssembly > RoverModel > **Parts** (Части). Щелкните их правой кнопкой мыши и выберите **Duplicate** (Дублировать), чтобы создать копию каждой части.
 
-![mr-learning-base](images/mr-learning-base/base-04-section4-step1-2.png)
+![Unity со всеми выбранными частями и пунктом Duplicate (Создать копию) в контекстном меню](images/mr-learning-base/base-04-section4-step1-2.png)
 
 > [!TIP]
 > Чтобы выбрать несколько смежных объектов, нажав и удерживая клавишу SHIFT, выберите первый и последний объект.
 
 Оставив выбранными только что продублированные дочерние объекты Parts (Части), щелкните и перетащите их в объект **RoverParts** , чтобы сделать их дочерними объектами RoverParts.
 
-![mr-learning-base](images/mr-learning-base/base-04-section4-step1-3.png)
+![Unity с новыми копиями частей, являющихся дочерними объектами RoverParts](images/mr-learning-base/base-04-section4-step1-3.png)
 
-Чтобы со сценой было проще работать, в окне Hierarchy (Иерархия) щелкните значок с изображением **глаза** слева от объекта. Для объекта **RoverAssembly** будет отключена **видимость сцены** . Так вы скроете объект в окне сцены, не изменяя его внутриигровую видимость.
+Чтобы со сценой было проще работать, в окне Hierarchy (Иерархия) щелкните значок с изображением **глаза** слева от объекта. Для объекта **RoverAssembly** будет отключена **видимость сцены**. Так вы скроете объект в окне сцены, не изменяя его внутриигровую видимость.
 
-![mr-learning-base](images/mr-learning-base/base-04-section4-step1-4.png)
+![Unity с отключенной видимостью сцены RoverAssembly](images/mr-learning-base/base-04-section4-step1-4.png)
 
 > [!TIP]
 > Дополнительные сведения об элементах управления видимостью и их применении для оптимизации представления сцены и рабочего процесса вы можете найти на странице <a href="https://docs.unity3d.com/Manual/SceneVisibility.html" target="_blank">Видимость сцены</a> в документации по Unity.
 
 В окне Hierarchy (Иерархия) очистите имена дочерних объектов RoverParts, изменив добавленную запись **(1)** на **_Part** :
 
-![mr-learning-base](images/mr-learning-base/base-04-section4-step1-5.png)
+![Unity с очищенным именем копий частей](images/mr-learning-base/base-04-section4-step1-5.png)
 
-В окне Hierarchy (Иерархия) выберите объект **RoverParts** . Затем в окне инспектора нажмите кнопку **Add Component** (Добавить компонент). Найдите и выберите компонент **GridObjectCollection** , чтобы добавить его в объект RoverParts:
+В окне Hierarchy (Иерархия) выберите объект **RoverParts**. Затем в окне инспектора нажмите кнопку **Add Component** (Добавить компонент). Найдите и выберите компонент **GridObjectCollection** , чтобы добавить его в объект RoverParts:
 
-![mr-learning-base](images/mr-learning-base/base-04-section4-step1-6.png)
+![Unity с объектом RoverParts с поиском Grid Object Collection при добавлении компонента](images/mr-learning-base/base-04-section4-step1-6.png)
 
 Настройте значения компонента **GridObjectCollection** следующим образом:
 
@@ -133,11 +133,11 @@ ms.locfileid: "92293230"
 * **Cell Width** (Ширина ячейки): 0,25.
 * **Distance from parent** (Расстояние от родительского объекта): 0,38.
 
-![mr-learning-base](images/mr-learning-base/base-04-section4-step1-7.png)
+![Unity с настроенным компонентом GridObjectCollection](images/mr-learning-base/base-04-section4-step1-7.png)
 
 Затем нажмите кнопку **Update Collection** (Обновить коллекцию), чтобы обновить положение дочерних объектов RoverParts.
 
-![mr-learning-base](images/mr-learning-base/base-04-section4-step1-8.png)
+![Unity с примененным компонентом GridObjectCollection](images/mr-learning-base/base-04-section4-step1-8.png)
 
 ## <a name="congratulations"></a>Поздравляем!
 

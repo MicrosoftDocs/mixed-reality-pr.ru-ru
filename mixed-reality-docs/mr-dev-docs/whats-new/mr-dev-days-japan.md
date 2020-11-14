@@ -6,12 +6,12 @@ ms.author: jemccull
 ms.date: 10/30/2020
 ms.topic: article
 keywords: Смешанная реальность, Конференция, встреча, разработчик, HoloLens, HoloLens 2, Kinect
-ms.openlocfilehash: af9055c4e6074c4d4b10b4f0a6ac135c858b57a7
-ms.sourcegitcommit: 520c69eb761ad6083b36f448bbcfab89e343e40d
-ms.translationtype: MT
+ms.openlocfilehash: 746b6257e6a3ab28424d7b74e43a1b6541d6fad0
+ms.sourcegitcommit: 8a80613f025b05a83393845d4af4da26a7d3ea9c
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/12/2020
-ms.locfileid: "94549117"
+ms.locfileid: "94573288"
 ---
 # <a name="mixed-reality-dev-days-japan"></a>Дни разработки смешанной реальности — Япония
 
@@ -48,18 +48,17 @@ ms.locfileid: "94549117"
 |12:50pm-1:12:00|**Разбиени**||||
 |1:12:00-1:25pm|*Сеанс 3* Обзор разработки HoloLens 2|Мадока Чиода (Madoka Chiyoda)|JA|200|
 |1:30-1:55pm|*Сеанс 4* HoloLens 2 & МРТК v 2.5 (МРТК-Unity)|Йоон парк|JA|300|
-|2:12:00-2:20pm|*Сеанс 5* Начало работы с HoloLens 2 и нереальными подсистемами (МРТК-Real)|Кэмерон Микка|RU|300|
+|2:12:00-2:25pm|*Сеанс 5* Начало работы с HoloLens 2 и нереальными подсистемами (МРТК-Real)|Кэмерон Микка|RU|300|
 |2:30-2:55pm|*Сеанс 6* Разработка приложений MR (рекомендуется для создания пользовательского интерфейса или UX для приложения HL2)|Даниэль Ескудеро|RU|300|
-|2:55pm-3:17:15|**Разбиени**||||
-|3:17:15-3:40pm|*Сеанс 7* Привязки объектов Azure|TBD|RU|300|
-|3:17:45-4:10pm|*Сеанс 8* Удаленная подготовка к просмотру Azure|Ацуши Atsushi Yokohama Сузуки|JA|300|
-|4:17:15-4:40pm|*Сеанс 9* Пространственные привязки Azure|TBD|RU|300|
-<!--|4:17:45-5:10pm|*Сеанс 10* Unity + Пиксиз|(Unity для Японии)|JA|200|-->
-|4:17:45-5:10pm|*Сеанс 10* РИСУНКА|TBD|JA|200|
-|5:17:15-5:40pm|*Сеанс 11* Пример использования Azure Kinect DK|Шинжи Чиба|JA|400|
-|5:17:45-6:12:00|Закрытие|Мадока Чиода (Madoka Chiyoda)|JA|Н/Д|
+|2:55pm-3:10pm|**Разбиени**||||
+|3:10pm-3:35pm|*Сеанс 7* Привязки объектов Azure|TBD|RU|300|
+|3:40pm-4:05pm|*Сеанс 8* Удаленная подготовка к просмотру Azure|Ацуши Atsushi Yokohama Сузуки|JA|300|
+|4:10pm-4:35pm|*Сеанс 9* Пространственные привязки Azure|TBD|RU|300|
+|4:40pm-5:05pm|*Сеанс 10* РИСУНКА|TBD|JA|200|
+|5:10pm-5:35pm|*Сеанс 11* Пример использования Azure Kinect DK|Шинжи Чиба|JA|400|
+|5:35pm-5:50pm|Закрытие|Мадока Чиода (Madoka Chiyoda)|JA|Н/Д|
 
-#### <a name="contributors-english-subtitle-reviewers"></a>Участники (рецензенты субтитров английского языка)
+#### <a name="contributors-technical-reviewers-for-the-subtitles"></a>Участники (Технические рецензенты для субтитров)
 
 Футо Хорио ( [@Futo_Horio](https://twitter.com/Futo_Horio) ), Такахиро мийаура ( [@takabrz1](https://twitter.com/takabrz1) ), Акихиро уэйама ( [@akihiro01051](https://twitter.com/akihiro01051) ), Каору Накамура ( [@kaorun55](https://twitter.com/kaorun55) ), блестящие тачихара ( [@deco_c_](https://twitter.com/deco_c_) )
 

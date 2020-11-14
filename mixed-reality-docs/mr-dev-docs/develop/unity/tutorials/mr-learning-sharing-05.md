@@ -1,18 +1,18 @@
 ---
 title: Руководства по многопользовательским возможностям, часть 5. Интеграция Пространственных привязок Azure в общий интерфейс
-description: В рамках этого курса вы узнаете, как реализовать многопользовательские возможности в приложении HoloLens 2.
+description: Пройдите этот курс и узнайте, как использовать Пространственные привязки Azure для привязки объектов в общем многопользовательском приложении HoloLens 2.
 author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
 keywords: mixed reality, unity, tutorial, hololens
 ms.localizationpriority: high
-ms.openlocfilehash: fc8e20a9ddaa595db0a3d59975e7c785d01c0a6d
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: 65672bad9a967e11e7feb7efc45759608e9c9e76
+ms.sourcegitcommit: 63c228af55379810ab2ee4f09f20eded1bb76229
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91701614"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93353432"
 ---
 # <a name="5-integrating-azure-spatial-anchors-into-a-shared-experience"></a>5. Интеграция Пространственных привязок Azure в общий интерфейс
 
@@ -27,68 +27,68 @@ ms.locfileid: "91701614"
 
 В окне "Иерархия" разверните объект **SharedPlayground** , затем разверните объект **TableAnchor** , чтобы предоставить его дочерние объекты.
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-05-section1-step1-1.png)
+![Unity с развернутыми объектами SharedPlayground и TableAnchor](images/mr-learning-sharing/sharing-05-section1-step1-1.png)
 
 В окне Project (Проект) перейдите к папке **Assets** (Активы) > **MRTK.Tutorials.MultiUserCapabilities** > **Prefabs** (Заготовки) и перетащите заготовку **Buttons** (Кнопки) на дочерний объект **TableAnchor** , чтобы добавить ее в сцену в качестве дочернего объекта TableAnchor.
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-05-section1-step1-2.png)
+![Unity с выбранной созданной заготовкой Buttons](images/mr-learning-sharing/sharing-05-section1-step1-2.png)
 
 ## <a name="configuring-the-buttons-to-operate-the-scene"></a>Настройка кнопок для управления сценой
 
 В этом разделе показано, как настроить серию событий кнопок, демонстрирующих базовые приемы использования Пространственных привязок Azure для достижения пространственного выравнивания в общем взаимодействии.
 
-В окне "Иерархия" разверните объект **Button** . Выберите в нем первый дочерний объект кнопки с именем **StartAzureSession** :
+В окне "Иерархия" разверните объект **Button**. Выберите в нем первый дочерний объект кнопки с именем **StartAzureSession** :
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-05-section2-step1-1.png)
+![Unity с выбранным объектом кнопки StartAzureSession](images/mr-learning-sharing/sharing-05-section2-step1-1.png)
 
 В окне "Инспектор" найдите компонент **Interactable (Script)** (Взаимодействие — скрипт) и настройте событие **OnClick ()** (Щелчок), как описано ниже.
 
-* В поле **None (Object)** (Отсутствует (объект)) укажите объект **TableAnchor** .
+* В поле **None (Object)** (Отсутствует (объект)) укажите объект **TableAnchor**.
 * В раскрывающемся списке **No Function** (Нет функции) выберите функцию **AnchorModuleScript** > **StartAzureSession ()** .
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-05-section2-step1-2.png)
+![Unity с настроенным событием OnClick для кнопки StartAzureSession](images/mr-learning-sharing/sharing-05-section2-step1-2.png)
 
-В окне "Иерархия" выберите второй дочерний объект кнопки с именем **CreateAzureAnchor** . Затем в окне "Инспектор" найдите компонент **Interactable (Script)** (Взаимодействие — скрипт) и настройте событие **OnClick ()** (Щелчок), как описано ниже.
+В окне "Иерархия" выберите второй дочерний объект кнопки с именем **CreateAzureAnchor**. Затем в окне "Инспектор" найдите компонент **Interactable (Script)** (Взаимодействие — скрипт) и настройте событие **OnClick ()** (Щелчок), как описано ниже.
 
-* В поле **None (Object)** (Отсутствует (объект)) укажите объект **TableAnchor** .
+* В поле **None (Object)** (Отсутствует (объект)) укажите объект **TableAnchor**.
 * В раскрывающемся списке **No Function** (Нет функции) выберите функцию **AnchorModuleScript** > **CreateAzureAnchor ()** .
-* В появившемся поле **None (Game Object)** (Отсутствует (игровой объект)) укажите объект **TableAnchor** .
+* В появившемся поле **None (Game Object)** (Отсутствует (игровой объект)) укажите объект **TableAnchor**.
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-05-section2-step1-3.png)
+![Unity с настроенным событием OnClick для кнопки CreateAzureAnchor](images/mr-learning-sharing/sharing-05-section2-step1-3.png)
 
-В окне "Иерархия" выберите третий дочерний объект кнопки с именем **ShareAzureAnchor** . Затем в окне "Инспектор" найдите компонент **Interactable (Script)** (Взаимодействие — скрипт) и настройте событие **OnClick ()** (Щелчок), как описано ниже.
+В окне "Иерархия" выберите третий дочерний объект кнопки с именем **ShareAzureAnchor**. Затем в окне "Инспектор" найдите компонент **Interactable (Script)** (Взаимодействие — скрипт) и настройте событие **OnClick ()** (Щелчок), как описано ниже.
 
-* В поле **None (Object)** (Отсутствует (объект)) укажите объект **TableAnchor** .
+* В поле **None (Object)** (Отсутствует (объект)) укажите объект **TableAnchor**.
 * В раскрывающемся списке **No Function** (Нет функции) выберите функцию **SharingModuleScript** > **ShareAzureAnchor ()** .
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-05-section2-step1-4.png)
+![Unity с настроенным событием OnClick для кнопки ShareAzureAnchor](images/mr-learning-sharing/sharing-05-section2-step1-4.png)
 
-В окне Hierarchy (Иерархия) выберите четвертый дочерний объект кнопки с именем **GetAzureAnchor** . Затем в окне Inspector (Инспектор) найдите компонент **Interactable (Script)** (Взаимодействие — скрипт) и настройте событие **OnClick ()** следующим образом:
+В окне Hierarchy (Иерархия) выберите четвертый дочерний объект кнопки с именем **GetAzureAnchor**. Затем в окне Inspector (Инспектор) найдите компонент **Interactable (Script)** (Взаимодействие — скрипт) и настройте событие **OnClick ()** следующим образом:
 
-* В поле **None (Object)** (Отсутствует (объект)) укажите объект **TableAnchor** .
+* В поле **None (Object)** (Отсутствует (объект)) укажите объект **TableAnchor**.
 * В раскрывающемся списке **No Function** (Нет функции) выберите функцию **SharingModuleScript** > **GetAzureAnchor ()** .
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-05-section2-step1-5.png)
+![Unity с настроенным событием OnClick для кнопки GetAzureAnchor](images/mr-learning-sharing/sharing-05-section2-step1-5.png)
 
 ## <a name="connecting-the-scene-to-the-azure-resource"></a>Подключение сцены к ресурсу Azure
 
-В окне "Иерархия" разверните объект **SharedPlayground** и выберите объект **TableAnchor** .
+В окне "Иерархия" разверните объект **SharedPlayground** и выберите объект **TableAnchor**.
 
 В окне Inspector (Инспектор) найдите компонент **Spatial Anchor Manager (Script)** (Диспетчер пространственных привязок — скрипт) и укажите в разделе **Credentials** (Учетные данные) данные учетной записи Пространственных привязок Azure, созданной при работе с разделом [предварительных требований](mr-learning-sharing-01.md#prerequisites) для этой серии руководств.
 
 * В поле **Spatial Anchors Account ID** (Идентификатор учетной записи пространственных привязок) вставьте **идентификатор учетной записи** Пространственных привязок Azure.
 * В поле **Spatial Anchors Account Key** (Ключ учетной записи пространственных привязок) вставьте первичный или вторичный **ключ доступа** учетной записи Пространственных привязок Azure.
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-05-section3-step1-1.png)
+![Unity с настроенным диспетчером пространственных привязок](images/mr-learning-sharing/sharing-05-section3-step1-1.png)
 
 > [!TIP]
 > Вы можете задать идентификатор и ключ учетной записи Пространственных привязок не только для сцены, но и для всего проекта, если у вас есть несколько сцен с Пространственными привязками Azure. Для этого в окне Project (Проект) выберите Assets (Активы) > AzureSpatialAnchors.SDK > Resources (Ресурсы) > актив **SpatialAnchorConfig** , а затем задайте значения в окне Inspector (Инспектор).
 
-В окне Hierarchy (Иерархия) выберите объект **TableAnchor** . Затем в окне Inspector (Инспектор) найдите компонент **Anchor Module (Script)** (Модуль привязок — скрипт) и настройте его следующим образом:
+В окне Hierarchy (Иерархия) выберите объект **TableAnchor**. Затем в окне Inspector (Инспектор) найдите компонент **Anchor Module (Script)** (Модуль привязок — скрипт) и настройте его следующим образом:
 
 * В поле **Public Sharing Pin** (ПИН-код общего доступа) измените несколько цифр, чтобы код стал уникальным для вашего проекта.
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-05-section3-step1-2.png)
+![Unity с настроенным скриптом модуля привязок](images/mr-learning-sharing/sharing-05-section3-step1-2.png)
 
 С выделенным объектом **TableAnchor** убедитесь, что в окне Inspector (Инспектор) **включены** все компоненты скрипта:
 
@@ -96,7 +96,7 @@ ms.locfileid: "91701614"
 * Установите флажок рядом с компонентами **Anchor Module Script (Script)** (Скрипт модуля привязок — скрипт), чтобы включить их.
 * Установите флажок рядом с компонентами **Sharing Module Script (Script)** (Скрипт модуля общего доступа — скрипт), чтобы включить их.
 
-![mr-learning-sharing](images/mr-learning-sharing/sharing-05-section3-step1-3.png)
+![Unity со всеми включенными компонентами скрипта TableAnchor](images/mr-learning-sharing/sharing-05-section3-step1-3.png)
 
 ## <a name="trying-the-experience-with-spatial-alignment"></a>Использование возможности пространственного выравнивания
 

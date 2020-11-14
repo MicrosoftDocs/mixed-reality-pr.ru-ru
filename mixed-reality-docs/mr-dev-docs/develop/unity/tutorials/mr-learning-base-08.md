@@ -1,18 +1,18 @@
 ---
 title: Серия руководств по началу работы, часть 8 Использование функции отслеживания взгляда
-description: Из этого курса вы узнаете, как с помощью набора средств для смешанной реальности (MRTK) создавать приложения смешанной реальности.
+description: Из этого курса вы узнаете, как использовать отслеживание глаз в Mixed Reality Toolkit (MRTK).
 author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
 keywords: mixed reality, unity, tutorial, hololens
 ms.localizationpriority: high
-ms.openlocfilehash: a87b613ca47eb0ed6695a55c8e5afe0f24de5937
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: 490a131bb196941d2ae581b97d88a104c0c212e2
+ms.sourcegitcommit: 63c228af55379810ab2ee4f09f20eded1bb76229
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91701000"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93353502"
 ---
 # <a name="8-using-eye-tracking"></a>8. Использование функции отслеживания взгляда
 
@@ -32,7 +32,7 @@ ms.locfileid: "91701000"
 
 В меню Unity последовательно выберите элементы Mixed Reality Toolkit (Набор средств для смешанной реальности) > Utilities (Служебные программы) > **Configure Unity Project** (Настроить проект Unity), чтобы открыть окно **MRTK Project Configurator** (Конфигуратор проектов MRTK). Затем перейдите в раздел **UWP Capabilities** (Возможности UWP) и убедитесь, что раздел **Enable Eye Gaze Input Capability** (Включить ввод с использованием взгляда) выделен серым цветом.
 
-![mr-learning-base](images/mr-learning-base/base-08-section1-step1-1.png)
+![Окно конфигурации проекта MRTK в Unity](images/mr-learning-base/base-08-section1-step1-1.png)
 
 > [!NOTE]
 > Функция ввода с использованием взгляда должна была быть включена в ходе выполнения инструкций, приведенных в разделе [Применение параметров конфигуратора проекта MRTK](mr-learning-base-02.md#1-apply-the-mrtk-project-configurator-settings), при настройке проекта Unity в начале работы с этой серией руководств. Если функция отключена, включите ее сейчас.
@@ -41,12 +41,12 @@ ms.locfileid: "91701000"
 
 В окне Hierarchy (Иерархия) выберите объект **MixedRealityToolkit** , затем в окне Inspector (Инспектор) перейдите на вкладку MixedRealityToolkit > **Input** (Ввод) и выполните следующие действия:
 
-* Клонируйте профиль **DefaultHoloLens2InputSystemProfile** и присвойте ему понятное имя, например _GettingStarted_HoloLens2InputSystemProfile_ .
+* Клонируйте профиль **DefaultHoloLens2InputSystemProfile** и присвойте ему понятное имя, например _GettingStarted_HoloLens2InputSystemProfile_.
 * Разверните раздел **Pointers** (Указатели).
-* Клонируйте профиль **DefaultMixedRealityPointerProfile** и присвойте ему понятное имя, например _GettingStarted_MixedRealityPointerProfile_ .
+* Клонируйте профиль **DefaultMixedRealityPointerProfile** и присвойте ему понятное имя, например _GettingStarted_MixedRealityPointerProfile_.
 * В разделе **Gaze Settings** (Параметры взгляда) установите флажок **Is Eye Tracking Enabled** (Включено отслеживание взгляда).
 
-![mr-learning-base](images/mr-learning-base/base-08-section2-step1-1.png)
+![Компонент MixedRealityToolkit в Unity с примененными созданными профилями и включенным отслеживанием глаз](images/mr-learning-base/base-08-section2-step1-1.png)
 
 > [!TIP]
 > Сведения о том, как правильно клонировать профили MRTK, см. в статье [Настройка профилей MRTK](mr-learning-base-03.md).
@@ -56,23 +56,23 @@ ms.locfileid: "91701000"
 В окне Hierarchy (Иерархия) выберите объект **MixedRealityToolkit** , в окне инспектора откройте вкладку **Input** (Ввод) и сделайте следующее:
 
 * Разверните раздел **Input Data Providers**  > **Input Simulation Service** (Поставщики входных данных > Служба имитации ввода).
-* Клонируйте профиль **DefaultMixedRealityInputSimulationProfile** и присвойте ему понятное имя, например _GettingStarted_MixedRealityInputSimulationProfile_ .
+* Клонируйте профиль **DefaultMixedRealityInputSimulationProfile** и присвойте ему понятное имя, например _GettingStarted_MixedRealityInputSimulationProfile_.
 * Найдите раздел **Eye Simulation** (Имитация взгляда) и установите флажок **Simulate Eye Position** (Имитировать положение глаз).
 
-![mr-learning-base](images/mr-learning-base/base-08-section3-step1-1.png)
+![Компонент MixedRealityToolkit в Unity с примененным созданным профилем и включенной имитацией взгляда](images/mr-learning-base/base-08-section3-step1-1.png)
 
 ## <a name="adding-eye-tracking-to-objects"></a>Добавление функции отслеживания взгляда в объекты
 
-В окне Hierarchy (Иерархия) разверните объект RoverExplorer > **Buttons** (Кнопки). Для каждого из трех дочерних объектов кнопок разверните и выберите объект SeeItSayItLabel > **TextMeshPro** .
+В окне Hierarchy (Иерархия) разверните объект RoverExplorer > **Buttons** (Кнопки). Для каждого из трех дочерних объектов кнопок разверните и выберите объект SeeItSayItLabel > **TextMeshPro**.
 
-![mr-learning-base](images/mr-learning-base/base-08-section4-step1-1.png)
+![Unity с выбранным объектом TextMeshPro](images/mr-learning-base/base-08-section4-step1-1.png)
 
 Выбрав три объекта TextMeshPro, в окне Inspector (Инспектор) нажмите кнопку **Add Component** (Добавить компонент), чтобы добавить следующие компоненты ко всем выбранным объектам:
 
 * компонент **Box Collider** (Прямоугольный коллайдер);
-* компонент **EyeTrackingTarget** .
+* компонент **EyeTrackingTarget**.
 
-![mr-learning-base](images/mr-learning-base/base-08-section4-step1-2.png)
+![Unity с выбранным объектом TextMeshPro и добавленными компонентами](images/mr-learning-base/base-08-section4-step1-2.png)
 
 В окне Hierarchy (Иерархия) выберите объект **Hints** (Указания) > SeeItSayItLabel > **TextMeshPro** , а затем настройте компонент **EyeTrackingTarget** следующим образом:
 
@@ -87,13 +87,13 @@ ms.locfileid: "91701000"
   * В раскрывающемся списке **No Function** (Нет функции) выберите **TextMeshPro** > **float fontSize** , чтобы обновлять это значение свойства при срабатывании события.
   * Задайте для аргумента значение **0,04** , чтобы сбросить размер шрифта обратно до значения 0,04.
 
-![mr-learning-base](images/mr-learning-base/base-08-section4-step1-3.png)
+![Unity с выбранным объектом TextMeshPro для Hints и настроенным компонентом EyeTrackingTarget](images/mr-learning-base/base-08-section4-step1-3.png)
 
-**Повторите** это действие для объекта **Explode** (Развернуть) > SeeItSayItLabel > **TextMeshPro** и объекта **Reset** (Сброс) > SeeItSayItLabel > **TextMeshPro** .
+**Повторите** это действие для объекта **Explode** (Развернуть) > SeeItSayItLabel > **TextMeshPro** и объекта **Reset** (Сброс) > SeeItSayItLabel > **TextMeshPro**.
 
 Если теперь перейти в режим игры, а затем нажать и удерживать правую кнопку мыши при перемещении указателя мыши до тех пор, пока взгляд не достигнет одной из меток, вы увидите, что размер шрифта увеличится на 50 %. При отведении взгляда текст вернется к исходному размеру.
 
-![mr-learning-base](images/mr-learning-base/base-08-section4-step1-4.png)
+![Разделенное представление Unity в режиме воспроизведения с взглядом, направленным на метку кнопки Explode с отслеживанием взгляда](images/mr-learning-base/base-08-section4-step1-4.png)
 
 ## <a name="congratulations"></a>Поздравляем!
 

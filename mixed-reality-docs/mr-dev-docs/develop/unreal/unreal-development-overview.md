@@ -7,12 +7,12 @@ ms.date: 08/04/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, потоковая передача, удаленное взаимодействие, смешанная реальность, разработка, начало работы, функции, новый проект, эмулятор, документация, руководства, функции, голограммы, разработка игр
-ms.openlocfilehash: 25842fb8083b7757e73e7dbe7551b6bde9d8d95e
-ms.sourcegitcommit: 4bb5544a0c74ac4e9766bab3401c9b30ee170a71
+ms.openlocfilehash: a8e345831167362745a45a8fa81ddae858083ca7
+ms.sourcegitcommit: 9a489e8a3bf90b20f1b61606eea42c859c833424
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92638591"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "94340692"
 ---
 # <a name="unreal-development-overview"></a>Обзор разработки в Unreal
 
@@ -45,7 +45,7 @@ ms.locfileid: "92638591"
 
 |  Контрольная точка  |  Результат  |
 | --- | --- |
-| [Установка последних средств](../install-the-tools.md) | Скачивание и установка последней версии пакета Unity и настройка проекта для смешанной реальности. |
+| [Установка последних средств](../install-the-tools.md) | Скачивание и установка последней версии Unreal Engine и настройка проекта для смешанной реальности. |
 | [Серия руководств по HoloLens 2](tutorials/unreal-uxt-ch1.md) | Ознакомление с руководствами по MRTK начального уровня для работы с оборудованием HoloLens 2. |
 
 ### <a name="2-core-building-blocks"></a>2. Основные компоненты

@@ -1,18 +1,18 @@
 ---
 title: Руководства по голографическому удаленному взаимодействию с компьютером, часть 2. Создание приложения для голографического удаленного взаимодействия с компьютером
-description: Пройдите этот курс, чтобы узнать, как реализовать удаленное взаимодействие в режиме смешанной реальности между вашим компьютером и HoloLens 2.
+description: Пройдите этот курс, чтобы узнать, как создать приложение для ПК с реализацией удаленного взаимодействия в режиме смешанной реальности между вашим компьютером и HoloLens 2.
 author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
 keywords: mixed reality, unity, tutorial, hololens
 ms.localizationpriority: high
-ms.openlocfilehash: 6d11d91a0e08c48c09f676171dcb9bb8a0ff74de
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: 30ef793511285fe2fe52810912f6c5c06c8550dc
+ms.sourcegitcommit: 63c228af55379810ab2ee4f09f20eded1bb76229
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91701711"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93353462"
 ---
 # <a name="2-creating-a-holographic-remoting-pc-application"></a>2. Создание приложения для голографического удаленного взаимодействия с компьютером
 
@@ -30,7 +30,7 @@ ms.locfileid: "91701711"
 
 В окне Project (Проект) перейдите к папке **Assets (Активы)**  > **MRTK.Tutorials.PCHolograhicRemoting** > **Prefabs (Заготовки)** . Затем перетащите заготовку **HolographicRemoting** в свою сцену.
 
-![mrlearning-pc-holographic-remoting](images/mrlearning-pc-holographic-remoting/Tutorial2-Section1-Step1-1.png)
+![Unity с выбранной добавленной заготовкой HolographicRemoting](images/mrlearning-pc-holographic-remoting/Tutorial2-Section1-Step1-1.png)
 
 ## <a name="build-your-application-to-pc"></a>Разработка приложения для компьютера
 
@@ -42,38 +42,38 @@ ms.locfileid: "91701711"
 
 В разделе **XR Settings** (Параметры XR) установите флажок **WSA Holographic Remoting Supported** (Поддержка голографического удаленного взаимодействия WSA) и включите функцию голографического удаленного взаимодействия.
 
-![mrlearning-pc-holographic-remoting](images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step1-1.png)
+![Окно параметров смешанной реальности Unity с включенной поддержкой удаленного голографического взаимодействия WSA](images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step1-1.png)
 
 ### <a name="2-build-the-unity-project"></a>2. Создание проекта Unity.
 
 В меню Unity щелкните File (Файл) > Build Settings... (Параметры сборки...), чтобы открыть окно параметров сборки:
 
-В окне Build Settings (Параметры сборки) нажмите кнопку ***Add Open Scenes*** (Добавить открытые сцены), чтобы добавить текущую сцену в список Scenes (Сцены). В списке Build (Сборка) нажмите кнопку ***Build*** (Сборка), чтобы открыть окно Build Universal Windows Platform (Создание приложений универсальной платформы Windows):
+В окне Build Settings (Параметры сборки) нажмите кнопку * *_Add Open Scenes_* _ (Добавить открытые сцены), чтобы добавить текущую сцену в список Scenes (Сцены). В списке Build (Сборка) нажмите кнопку _*_Build_*_ (Сборка), чтобы открыть окно Build Universal Windows Platform (Создание приложений универсальной платформы Windows):
 
-![mrlearning-pc-holographic-remoting](images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step2-1.png)
+![Окно параметров сборки Unity с добавленной сценой](images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step2-1.png)
 
-В окне Build Universal Windows Platform (Создание приложений универсальной платформы Windows) выберите подходящее расположение для хранения своей сборки, например Documents\MixedRealityLearning. Создайте папку и присвойте ей подходящее имя, например PCHolographicRemoting. Затем нажмите кнопку ***Select Folder*** (Выбрать папку), чтобы начать процесс сборки:
+В окне Build Universal Windows Platform (Создание приложений универсальной платформы Windows) выберите подходящее расположение для хранения своей сборки, например Documents\MixedRealityLearning. Создайте папку и присвойте ей подходящее имя, например PCHolographicRemoting. Затем нажмите кнопку _*_Select Folder_*_ (Выбрать папку), чтобы начать процесс сборки:
 
-![mrlearning-pc-holographic-remoting](images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step2-2.png)
+![Окно параметров сборки Unity с окном выбора папки](images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step2-2.png)
 
 Подождите, пока Unity завершит сборку.
 
-![mrlearning-pc-holographic-remoting](images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step2-3.png)
+![Unity выполняет сборку](images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step2-3.png)
 
 ### <a name="3-build-and-deploy-the-application"></a>3. Сборка и развертывание приложения
 
 По завершении процесса сборки Unity запросит проводник Windows открыть расположение с сохраненной сборкой. Перейдите к папке и дважды щелкните файл SLN, чтобы открыть его в Visual Studio:
 
-![mrlearning-pc-holographic-remoting](images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step3-1.png)
+![Проводник Windows с выбранным созданным решением Visual Studio](images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step3-1.png)
 
 > [!NOTE]
 > Если в Visual Studio появится запрос на установку новых компонентов, проверьте, установлены ли все обязательные компоненты, как описано в документации по установке средств.
 
 Настройте Visual Studio для компьютера, выбрав конфигурацию "Выпуск" архитектуру x64 и целевой объект "Локальный компьютер":
 
-![mrlearning-pc-holographic-remoting](images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step3-2.png)
+![Среда Visual Studio, настроенная для локального компьютера](images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step3-2.png)
 
-Нажмите кнопку ***Локальный компьютер*** . Запустится сборка и развертывание приложения на вашем компьютере. Приложение будет установлено на ваш компьютер по умолчанию.
+Нажмите кнопку _*_Local Machine_*_ (Локальный компьютер). Запустится сборка и развертывание приложения на вашем компьютере. Приложение будет установлено на ваш компьютер по умолчанию.
 
 ## <a name="testing-holographic-remoting-remote-application"></a>Проверка приложения для голографического удаленного взаимодействия
 
@@ -81,8 +81,8 @@ ms.locfileid: "91701711"
 
 ### <a name="1-install-the-remoting-player-application-on-hololens-2-device"></a>1. Установка приложения Remoting Player на устройство HoloLens 2.
 
-* На устройстве HoloLens 2 перейдите к приложению Store и выполните поиск по фразе " **Remoting Player** ".
-* Выберите приложение **Remoting Player** .
+_На устройстве HoloLens 2 перейдите к приложению Store и выполните поиск по фразе " **Remoting Player** ".
+* Выберите приложение **Remoting Player**.
 * Коснитесь элемента **Install** (Установить), чтобы скачать и установить приложение.
 
 ### <a name="2-connect-the-holographic-remoting-pc-app-to-the-remoting-player"></a>2. Подключение приложения для голографического удаленного взаимодействия с компьютером к Remoting Player.

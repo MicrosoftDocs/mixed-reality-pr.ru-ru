@@ -1,18 +1,18 @@
 ---
 title: Руководства по Пространственным привязкам Azure, часть 4 Отображение отзывов по Пространственным привязкам Azure
-description: Пройдите этот курс и узнайте, как реализовать Пространственные привязки Azure в приложении смешанной реальности.
+description: Пройдите этот курс и узнайте, как использовать визуальную обратную связь от Пространственных привязок Azure в приложении смешанной реальности.
 author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
 keywords: mixed reality, unity, tutorial, hololens
 ms.localizationpriority: high
-ms.openlocfilehash: c36fa20ae6438aee92d5d853febd683e01e81ea7
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: 4c35af1f5a2a723df6603fbdf41dd18a2e9ee45d
+ms.sourcegitcommit: 63c228af55379810ab2ee4f09f20eded1bb76229
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91700312"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93353342"
 ---
 # <a name="4-displaying-feedback-from-azure-spatial-anchors"></a>4. Отображение отзывов по Пространственным привязкам Azure
 
@@ -27,7 +27,7 @@ ms.locfileid: "91700312"
 
 В окне иерархии щелкните правой кнопкой мыши объект **Instructions** > **TextContent** (Инструкции > TextContent). Выберите **3D Object** > **Text - TextMeshPro** (Трехмерный объект > Текст — TextMeshPro), чтобы создать текстовый объект TextMeshPro как дочерний объект объекта TextContent.
 
-![mr-learning-asa](images/mr-learning-asa/asa-04-section1-step1-1.png)
+![Unity с выбранным созданным объектом TextMeshPro](images/mr-learning-asa/asa-04-section1-step1-1.png)
 
 > [!TIP]
 > Чтобы со сценой было проще работать, отключите параметр <a href="https://docs.unity3d.com/Manual/SceneVisibility.html" target="_blank">Scene Visibility</a> (Видимость сцены) для объекта ParentAnchor, щелкнув значок с изображением глаза слева от этого объекта. Так вы спрячете объект в окне сцены, не изменяя его внутриигровой видимости.
@@ -44,13 +44,13 @@ ms.locfileid: "91700312"
 * измените значение **Font Size** (Размер шрифта) текстового компонента TextMeshPro на 0.17;
 * измените значение **Alignment** (Выравнивание) текстового компонента TextMeshPro на Center (По центру) и Middle (Посередине).
 
-![mr-learning-asa](images/mr-learning-asa/asa-04-section1-step1-2.png)
+![Unity с настроенным объектом Feedback](images/mr-learning-asa/asa-04-section1-step1-2.png)
 
 В окне иерархии выберите объект **Feedback** (Обратная связь), а затем в окне инспектора используйте кнопку **Add Component** (Добавить компонент), чтобы добавить компонент **Anchor Feedback Script (Script)** (Скрипт обратной связи по привязке — скрипт) и настроить его следующим образом.
 
 * В поле **Feedback Text** (Текст обратной связи) компонента **Anchor Feedback Script (Script)** (Скрипт обратной связи по привязке — скрипт) укажите сам объект **Feedback** (Обратная связь).
 
-![mr-learning-asa](images/mr-learning-asa/asa-04-section1-step1-3.png)
+![Unity с настроенным компонентом Anchor Feedback Script](images/mr-learning-asa/asa-04-section1-step1-3.png)
 
 ## <a name="congratulations"></a>Поздравляем!
 

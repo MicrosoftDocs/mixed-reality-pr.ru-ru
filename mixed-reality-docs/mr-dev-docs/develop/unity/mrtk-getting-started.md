@@ -7,12 +7,12 @@ ms.date: 05/15/2019
 ms.topic: article
 ms.localizationpriority: high
 keywords: Windows Mixed Reality, тестирование, набор средств для смешанной реальности, MRTK версии 2, MRTK, инструменты, пакет SDK, HoloLens, HoloLens 2
-ms.openlocfilehash: c374939b4b3af28cabc1ee338c1c0d4d14ec17fe
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: 4513185573003510e5a7cae97ecce4cb5d2552e0
+ms.sourcegitcommit: 83c9373fe5b2e07cdab921b6cab3fdd418307003
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91701401"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "94386210"
 ---
 # <a name="getting-started-with-mrtk-for-unity"></a>Начало работы с MRTK для Unity
 ![MRTK](../../design/images/MRTK_UX_Hero.png)
@@ -26,10 +26,11 @@ MRTK для Unity — это кросс-платформенный пакет S
 
 >[!VIDEO https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Setting-up-your-HoloLens-2-development-environment/player?format=ny]
 
-Чтобы узнать больше, см. [документацию по MRTK на GitHub](https://microsoft.github.io/MixedRealityToolkit-Unity/README.html).
+Чтобы узнать больше, см. [документацию по MRTK на GitHub](https://microsoft.github.io/MixedRealityToolkit-Unity/README.html). Чтобы приступить к работе, выполните действия, описанные в [руководстве по установке](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Installation.html).
+
 
 ## <a name="new-with-mrtk-v2"></a>Новые возможности в MRTK версии 2
-Мы хотим испытать свою приверженность к этим инструментам платформы.  На самом деле мы использовали MRTK версии 2 для внутренней разработки, в том числе для программы установки (OOBE) и обучающего приложения смешанной реальности.  Вы можете также увидеть новые возможности HoloLens 2, сначала предоставленные посредством MRTK, так как мы считаем, что это лучший способ разработки на нашей платформе. 
+Мы хотим испытать свою приверженность к этим инструментам платформы.  На самом деле мы использовали MRTK версии 2 для внутренней разработки, в том числе для установки во время запуска при первом включении компьютера (OOBE) и нашего приложения с советами по использованию смешанной реальности. Вы можете также увидеть новые возможности HoloLens 2, сначала предоставленные посредством MRTK, так как мы считаем, что это лучший способ разработки на нашей платформе. 
 
 ### <a name="modular"></a>Модульность
 Мы создали модульный набор средств, поэтому нет необходимости добавлять его в свой проект целиком.  Это дает ряд преимуществ.  Проект будет меньшего размера и им будет проще управлять.  Кроме того, так как набор основан на поддерживающих сценарии объектах и управляется интерфейсом, можно также заменить его компоненты собственными, чтобы обеспечить поддержку других служб, систем и платформ.
@@ -41,7 +42,7 @@ MRTK для Unity — это кросс-платформенный пакет S
 Добавляя возможности для мобильных платформ, мы помнили о производительности.  Это очень важно, и мы хотели убедиться, что средства не будут работать против вас.
 
 ## <a name="see-also"></a>См. также статью
-* [Руководство по началу работы с MRTK](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/GettingStartedWithTheMRTK.html)
-* [Домашняя страница документации по MRTK](https://microsoft.github.io/MixedRealityToolkit-Unity/README.html)
 * [Установка средств](../install-the-tools.md)
-* [Перенос приложений из HTK/MRTK в MRTK версии 2](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/HTKToMRTKPortingGuide.html)
+* [Руководство по установке MRTK (GitHub)](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Installation.html)
+* [Домашняя страница документации по MRTK (GitHub)](https://microsoft.github.io/MixedRealityToolkit-Unity/README.html)
+* [Перенос из HoloToolkit/MRTK в MRTK версии 2 (GitHub)](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/HTKToMRTKPortingGuide.html)
