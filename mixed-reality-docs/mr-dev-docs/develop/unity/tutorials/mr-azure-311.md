@@ -5,286 +5,286 @@ author: drneil
 ms.author: jemccull
 ms.date: 07/04/2018
 ms.topic: article
-keywords: Azure, Mixed Reality, Academy, Unity, учебник, API, Microsoft Graph, hololens, иммерсивное, VR
-ms.openlocfilehash: e92104d24363a423732b7c512c7b3502b5066072
-ms.sourcegitcommit: 8e91ff47ef70e80a41137f80aa1093e711d27bf7
+keywords: Azure, Mixed Reality, Academy, Unity, учебник, API, Microsoft Graph, hololens, иммерсивное, VR, Windows 10, Visual Studio
+ms.openlocfilehash: 341b6fea537fe6001a8f7dcf2e98efea0a0b09b6
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "91957844"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94679443"
 ---
-# <a name="mr-and-azure-311---microsoft-graph"></a><span data-ttu-id="a1491-104">311. Смешанная реальность и Azure — Microsoft Graph</span><span class="sxs-lookup"><span data-stu-id="a1491-104">MR and Azure 311 - Microsoft Graph</span></span>
+# <a name="mr-and-azure-311---microsoft-graph"></a><span data-ttu-id="cfc43-104">311. Смешанная реальность и Azure — Microsoft Graph</span><span class="sxs-lookup"><span data-stu-id="cfc43-104">MR and Azure 311 - Microsoft Graph</span></span>
 
 >[!NOTE]
-><span data-ttu-id="a1491-105">Руководства Mixed Reality Academy были разработаны для иммерсивных гарнитур HoloLens (1-го поколения) и иммерсивных гарнитур Mixed Reality.</span><span class="sxs-lookup"><span data-stu-id="a1491-105">The Mixed Reality Academy tutorials were designed with HoloLens (1st gen) and Mixed Reality Immersive Headsets in mind.</span></span>  <span data-ttu-id="a1491-106">Поэтому мы считаем, что важно оставить эти руководства для разработчиков, которые ищут рекомендации по разработке для этих устройств.</span><span class="sxs-lookup"><span data-stu-id="a1491-106">As such, we feel it is important to leave these tutorials in place for developers who are still looking for guidance in developing for those devices.</span></span>  <span data-ttu-id="a1491-107">Данные руководства **_не_** будут обновляться с учетом последних наборов инструментов или возможностей взаимодействия для HoloLens 2.</span><span class="sxs-lookup"><span data-stu-id="a1491-107">These tutorials will **_not_** be updated with the latest toolsets or interactions being used for HoloLens 2.</span></span>  <span data-ttu-id="a1491-108">Они будут сохранены для работы на поддерживаемых устройствах.</span><span class="sxs-lookup"><span data-stu-id="a1491-108">They will be maintained to continue working on the supported devices.</span></span> <span data-ttu-id="a1491-109">Появится новая серия руководств, которые будут опубликованы в будущем, где будет показано, как разрабатывать данные для HoloLens 2.</span><span class="sxs-lookup"><span data-stu-id="a1491-109">There will be a new series of tutorials that will be posted in the future that will demonstrate how to develop for HoloLens 2.</span></span>  <span data-ttu-id="a1491-110">Это уведомление будет обновлено ссылкой на эти учебники при их публикации.</span><span class="sxs-lookup"><span data-stu-id="a1491-110">This notice will be updated with a link to those tutorials when they are posted.</span></span>
+><span data-ttu-id="cfc43-105">Руководства Mixed Reality Academy были разработаны для иммерсивных гарнитур HoloLens (1-го поколения) и иммерсивных гарнитур Mixed Reality.</span><span class="sxs-lookup"><span data-stu-id="cfc43-105">The Mixed Reality Academy tutorials were designed with HoloLens (1st gen) and Mixed Reality Immersive Headsets in mind.</span></span>  <span data-ttu-id="cfc43-106">Поэтому мы считаем, что важно оставить эти руководства для разработчиков, которые ищут рекомендации по разработке для этих устройств.</span><span class="sxs-lookup"><span data-stu-id="cfc43-106">As such, we feel it is important to leave these tutorials in place for developers who are still looking for guidance in developing for those devices.</span></span>  <span data-ttu-id="cfc43-107">Данные руководства **_не_** будут обновляться с учетом последних наборов инструментов или возможностей взаимодействия для HoloLens 2.</span><span class="sxs-lookup"><span data-stu-id="cfc43-107">These tutorials will **_not_** be updated with the latest toolsets or interactions being used for HoloLens 2.</span></span>  <span data-ttu-id="cfc43-108">Они будут сохранены для работы на поддерживаемых устройствах.</span><span class="sxs-lookup"><span data-stu-id="cfc43-108">They will be maintained to continue working on the supported devices.</span></span> <span data-ttu-id="cfc43-109">Появится новая серия руководств, которые будут опубликованы в будущем, где будет показано, как разрабатывать данные для HoloLens 2.</span><span class="sxs-lookup"><span data-stu-id="cfc43-109">There will be a new series of tutorials that will be posted in the future that will demonstrate how to develop for HoloLens 2.</span></span>  <span data-ttu-id="cfc43-110">Это уведомление будет обновлено ссылкой на эти учебники при их публикации.</span><span class="sxs-lookup"><span data-stu-id="cfc43-110">This notice will be updated with a link to those tutorials when they are posted.</span></span>
 
-<span data-ttu-id="a1491-111">В этом курсе вы узнаете, как использовать *Microsoft Graph* для входа в учетная запись Майкрософт с помощью безопасной проверки подлинности в приложении смешанной реальности.</span><span class="sxs-lookup"><span data-stu-id="a1491-111">In this course, you will learn how to use *Microsoft Graph* to log in into your Microsoft account using secure authentication within a mixed reality application.</span></span> <span data-ttu-id="a1491-112">Затем вы получите и отобразите запланированные собрания в интерфейсе приложения.</span><span class="sxs-lookup"><span data-stu-id="a1491-112">You will then retrieve and display your scheduled meetings in the application interface.</span></span>
+<span data-ttu-id="cfc43-111">В этом курсе вы узнаете, как использовать *Microsoft Graph* для входа в учетная запись Майкрософт с помощью безопасной проверки подлинности в приложении смешанной реальности.</span><span class="sxs-lookup"><span data-stu-id="cfc43-111">In this course, you will learn how to use *Microsoft Graph* to log in into your Microsoft account using secure authentication within a mixed reality application.</span></span> <span data-ttu-id="cfc43-112">Затем вы получите и отобразите запланированные собрания в интерфейсе приложения.</span><span class="sxs-lookup"><span data-stu-id="cfc43-112">You will then retrieve and display your scheduled meetings in the application interface.</span></span>
 
 ![](images/AzureLabs-Lab311-00.png)
 
-<span data-ttu-id="a1491-113">*Microsoft Graph* — это набор интерфейсов API, предназначенных для обеспечения доступа ко многим службам Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="a1491-113">*Microsoft Graph* is a set of APIs designed to enable access to many of Microsoft's services.</span></span> <span data-ttu-id="a1491-114">Корпорация Майкрософт описывает Microsoft Graph как матрица ресурсов, Соединенных связями, то есть позволяет приложению получать доступ ко всем данным о подключенных пользователях.</span><span class="sxs-lookup"><span data-stu-id="a1491-114">Microsoft describes Microsoft Graph as being a matrix of resources connected by relationships, meaning it allows an application to access all sorts of connected user data.</span></span> <span data-ttu-id="a1491-115">Дополнительные сведения см. на [странице Microsoft Graph](https://developer.microsoft.com/graph).</span><span class="sxs-lookup"><span data-stu-id="a1491-115">For more information, visit the [Microsoft Graph page](https://developer.microsoft.com/graph).</span></span>
+<span data-ttu-id="cfc43-113">*Microsoft Graph* — это набор интерфейсов API, предназначенных для обеспечения доступа ко многим службам Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="cfc43-113">*Microsoft Graph* is a set of APIs designed to enable access to many of Microsoft's services.</span></span> <span data-ttu-id="cfc43-114">Корпорация Майкрософт описывает Microsoft Graph как матрица ресурсов, Соединенных связями, то есть позволяет приложению получать доступ ко всем данным о подключенных пользователях.</span><span class="sxs-lookup"><span data-stu-id="cfc43-114">Microsoft describes Microsoft Graph as being a matrix of resources connected by relationships, meaning it allows an application to access all sorts of connected user data.</span></span> <span data-ttu-id="cfc43-115">Дополнительные сведения см. на [странице Microsoft Graph](https://developer.microsoft.com/graph).</span><span class="sxs-lookup"><span data-stu-id="cfc43-115">For more information, visit the [Microsoft Graph page](https://developer.microsoft.com/graph).</span></span>
 
-<span data-ttu-id="a1491-116">Разработка будет включать в себя создание приложения, в котором пользователю будет предложено Взгляните на сферу, а затем коснуться сферы, которая предложит пользователю безопасно войти в учетная запись Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="a1491-116">Development will include the creation of an app where the user will be instructed to gaze at and then tap a sphere, which will prompt the user to log in safely to a Microsoft account.</span></span> <span data-ttu-id="a1491-117">После входа в учетную запись пользователь увидит список собраний, запланированных на данный день.</span><span class="sxs-lookup"><span data-stu-id="a1491-117">Once logged in to their account, the user will be able to see a list of meetings scheduled for the day.</span></span>
+<span data-ttu-id="cfc43-116">Разработка будет включать в себя создание приложения, в котором пользователю будет предложено Взгляните на сферу, а затем коснуться сферы, которая предложит пользователю безопасно войти в учетная запись Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="cfc43-116">Development will include the creation of an app where the user will be instructed to gaze at and then tap a sphere, which will prompt the user to log in safely to a Microsoft account.</span></span> <span data-ttu-id="cfc43-117">После входа в учетную запись пользователь увидит список собраний, запланированных на данный день.</span><span class="sxs-lookup"><span data-stu-id="cfc43-117">Once logged in to their account, the user will be able to see a list of meetings scheduled for the day.</span></span>
 
-<span data-ttu-id="a1491-118">Прополнив этот курс, вы получите приложение HoloLens для смешанной реальности, которое сможет сделать следующее:</span><span class="sxs-lookup"><span data-stu-id="a1491-118">Having completed this course, you will have a mixed reality HoloLens application, which will be able to do the following:</span></span>
+<span data-ttu-id="cfc43-118">Прополнив этот курс, вы получите приложение HoloLens для смешанной реальности, которое сможет сделать следующее:</span><span class="sxs-lookup"><span data-stu-id="cfc43-118">Having completed this course, you will have a mixed reality HoloLens application, which will be able to do the following:</span></span>
 
-1.  <span data-ttu-id="a1491-119">С помощью жеста TAP Коснитесь объекта, который предложит пользователю войти в учетную запись Майкрософт (выход из приложения для входа в систему, а затем снова вернуться в приложение).</span><span class="sxs-lookup"><span data-stu-id="a1491-119">Using the Tap gesture, tap on an object, which will prompt the user to log into a Microsoft Account (moving out of the app to log in, and then back into the app again).</span></span>
-2.  <span data-ttu-id="a1491-120">Просмотр списка собраний, запланированных на данный день.</span><span class="sxs-lookup"><span data-stu-id="a1491-120">View a list of meetings scheduled for the day.</span></span> 
+1.  <span data-ttu-id="cfc43-119">С помощью жеста TAP Коснитесь объекта, который предложит пользователю войти в учетную запись Майкрософт (выход из приложения для входа в систему, а затем снова вернуться в приложение).</span><span class="sxs-lookup"><span data-stu-id="cfc43-119">Using the Tap gesture, tap on an object, which will prompt the user to log into a Microsoft Account (moving out of the app to log in, and then back into the app again).</span></span>
+2.  <span data-ttu-id="cfc43-120">Просмотр списка собраний, запланированных на данный день.</span><span class="sxs-lookup"><span data-stu-id="cfc43-120">View a list of meetings scheduled for the day.</span></span> 
 
-<span data-ttu-id="a1491-121">В приложении вы будете выполнять интеграцию результатов с вашей структурой.</span><span class="sxs-lookup"><span data-stu-id="a1491-121">In your application, it is up to you as to how you will integrate the results with your design.</span></span> <span data-ttu-id="a1491-122">Этот курс предназначен для изучения того, как интегрировать службу Azure с проектом Unity.</span><span class="sxs-lookup"><span data-stu-id="a1491-122">This course is designed to teach you how to integrate an Azure Service with your Unity project.</span></span> <span data-ttu-id="a1491-123">Это ваша задача использовать знания, полученные из этого курса, для улучшения приложения смешанной реальности.</span><span class="sxs-lookup"><span data-stu-id="a1491-123">It is your job to use the knowledge you gain from this course to enhance your mixed reality application.</span></span>
+<span data-ttu-id="cfc43-121">В приложении вы будете выполнять интеграцию результатов с вашей структурой.</span><span class="sxs-lookup"><span data-stu-id="cfc43-121">In your application, it is up to you as to how you will integrate the results with your design.</span></span> <span data-ttu-id="cfc43-122">Этот курс предназначен для изучения того, как интегрировать службу Azure с проектом Unity.</span><span class="sxs-lookup"><span data-stu-id="cfc43-122">This course is designed to teach you how to integrate an Azure Service with your Unity project.</span></span> <span data-ttu-id="cfc43-123">Это ваша задача использовать знания, полученные из этого курса, для улучшения приложения смешанной реальности.</span><span class="sxs-lookup"><span data-stu-id="cfc43-123">It is your job to use the knowledge you gain from this course to enhance your mixed reality application.</span></span>
 
-## <a name="device-support"></a><span data-ttu-id="a1491-124">Поддержка устройств</span><span class="sxs-lookup"><span data-stu-id="a1491-124">Device support</span></span>
+## <a name="device-support"></a><span data-ttu-id="cfc43-124">Поддержка устройств</span><span class="sxs-lookup"><span data-stu-id="cfc43-124">Device support</span></span>
 
 <table>
 <tr>
-<th><span data-ttu-id="a1491-125">Курс</span><span class="sxs-lookup"><span data-stu-id="a1491-125">Course</span></span></th><th style="width:150px"> <span data-ttu-id="a1491-126"><a href="../../../hololens-hardware-details.md">HoloLens</a></span><span class="sxs-lookup"><span data-stu-id="a1491-126"><a href="../../../hololens-hardware-details.md">HoloLens</a></span></span></th><th style="width:150px"> <span data-ttu-id="a1491-127"><a href="../../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></span><span class="sxs-lookup"><span data-stu-id="a1491-127"><a href="../../../discover/immersive-headset-hardware-details.md">Immersive headsets</a></span></span></th>
+<th><span data-ttu-id="cfc43-125">Курс</span><span class="sxs-lookup"><span data-stu-id="cfc43-125">Course</span></span></th><th style="width:150px"> <span data-ttu-id="cfc43-126"><a href="../../../hololens-hardware-details.md">HoloLens</a></span><span class="sxs-lookup"><span data-stu-id="cfc43-126"><a href="../../../hololens-hardware-details.md">HoloLens</a></span></span></th><th style="width:150px"> <span data-ttu-id="cfc43-127"><a href="../../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></span><span class="sxs-lookup"><span data-stu-id="cfc43-127"><a href="../../../discover/immersive-headset-hardware-details.md">Immersive headsets</a></span></span></th>
 </tr><tr>
-<td> <span data-ttu-id="a1491-128">311. Смешанная реальность и Azure: Microsoft Graph</span><span class="sxs-lookup"><span data-stu-id="a1491-128">MR and Azure 311: Microsoft Graph</span></span></td><td style="text-align: center;"> <span data-ttu-id="a1491-129">✔️</span><span class="sxs-lookup"><span data-stu-id="a1491-129">✔️</span></span></td><td style="text-align: center;"> </td>
+<td> <span data-ttu-id="cfc43-128">311. Смешанная реальность и Azure: Microsoft Graph</span><span class="sxs-lookup"><span data-stu-id="cfc43-128">MR and Azure 311: Microsoft Graph</span></span></td><td style="text-align: center;"> <span data-ttu-id="cfc43-129">✔️</span><span class="sxs-lookup"><span data-stu-id="cfc43-129">✔️</span></span></td><td style="text-align: center;"> </td>
 </tr>
 </table>
 
-## <a name="prerequisites"></a><span data-ttu-id="a1491-130">Предварительные требования</span><span class="sxs-lookup"><span data-stu-id="a1491-130">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="cfc43-130">Предварительные требования</span><span class="sxs-lookup"><span data-stu-id="cfc43-130">Prerequisites</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a1491-131">Этот учебник предназначен для разработчиков, имеющих базовый опыт работы с Unity и C#.</span><span class="sxs-lookup"><span data-stu-id="a1491-131">This tutorial is designed for developers who have basic experience with Unity and C#.</span></span> <span data-ttu-id="a1491-132">Также имейте в виду, что предварительные требования и письменные инструкции в этом документе отражают, что проверялось и проверено на момент написания статьи (Июль 2018).</span><span class="sxs-lookup"><span data-stu-id="a1491-132">Please also be aware that the prerequisites and written instructions within this document represent what has been tested and verified at the time of writing (July 2018).</span></span> <span data-ttu-id="a1491-133">Вы можете использовать новейшее программное обеспечение, как указано в статье [Установка средств](../../install-the-tools.md) , но не следует предполагать, что информация в этом курсе будет полностью соответствовать тому, что вы найдете в более новом программном обеспечении, чем указано ниже.</span><span class="sxs-lookup"><span data-stu-id="a1491-133">You are free to use the latest software, as listed within the [install the tools](../../install-the-tools.md) article, though it should not be assumed that the information in this course will perfectly match what you will find in newer software than what is listed below.</span></span>
+> <span data-ttu-id="cfc43-131">Этот учебник предназначен для разработчиков, имеющих базовый опыт работы с Unity и C#.</span><span class="sxs-lookup"><span data-stu-id="cfc43-131">This tutorial is designed for developers who have basic experience with Unity and C#.</span></span> <span data-ttu-id="cfc43-132">Также имейте в виду, что предварительные требования и письменные инструкции в этом документе отражают, что проверялось и проверено на момент написания статьи (Июль 2018).</span><span class="sxs-lookup"><span data-stu-id="cfc43-132">Please also be aware that the prerequisites and written instructions within this document represent what has been tested and verified at the time of writing (July 2018).</span></span> <span data-ttu-id="cfc43-133">Вы можете использовать новейшее программное обеспечение, как указано в статье [Установка средств](../../install-the-tools.md) , но не следует предполагать, что информация в этом курсе будет полностью соответствовать тому, что вы найдете в более новом программном обеспечении, чем указано ниже.</span><span class="sxs-lookup"><span data-stu-id="cfc43-133">You are free to use the latest software, as listed within the [install the tools](../../install-the-tools.md) article, though it should not be assumed that the information in this course will perfectly match what you will find in newer software than what is listed below.</span></span>
 
-<span data-ttu-id="a1491-134">Для этого курса рекомендуется следующее оборудование и программное обеспечение:</span><span class="sxs-lookup"><span data-stu-id="a1491-134">We recommend the following hardware and software for this course:</span></span>
+<span data-ttu-id="cfc43-134">Для этого курса рекомендуется следующее оборудование и программное обеспечение:</span><span class="sxs-lookup"><span data-stu-id="cfc43-134">We recommend the following hardware and software for this course:</span></span>
 
-- <span data-ttu-id="a1491-135">ПК для разработки</span><span class="sxs-lookup"><span data-stu-id="a1491-135">A development PC</span></span>
-- [<span data-ttu-id="a1491-136">Windows 10 для дизайнеров с обновлением (или более поздней версии) с включенным режимом разработчика</span><span class="sxs-lookup"><span data-stu-id="a1491-136">Windows 10 Fall Creators Update (or later) with Developer mode enabled</span></span>](../../install-the-tools.md#installation-checklist)
-- [<span data-ttu-id="a1491-137">Последний пакет SDK для Windows 10</span><span class="sxs-lookup"><span data-stu-id="a1491-137">The latest Windows 10 SDK</span></span>](../../install-the-tools.md#installation-checklist)
-- [<span data-ttu-id="a1491-138">Unity 2017,4</span><span class="sxs-lookup"><span data-stu-id="a1491-138">Unity 2017.4</span></span>](../../install-the-tools.md#installation-checklist)
-- [<span data-ttu-id="a1491-139">Visual Studio 2017</span><span class="sxs-lookup"><span data-stu-id="a1491-139">Visual Studio 2017</span></span>](../../install-the-tools.md#installation-checklist)
-- <span data-ttu-id="a1491-140">[Microsoft HoloLens](../../../hololens-hardware-details.md) с включенным режимом разработчика</span><span class="sxs-lookup"><span data-stu-id="a1491-140">A [Microsoft HoloLens](../../../hololens-hardware-details.md) with Developer mode enabled</span></span>
-- <span data-ttu-id="a1491-141">Доступ к Интернету для установки Azure и Microsoft Graph получение данных</span><span class="sxs-lookup"><span data-stu-id="a1491-141">Internet access for Azure setup and Microsoft Graph data retrieval</span></span>
-- <span data-ttu-id="a1491-142">Допустимая **учетная запись Майкрософт** (личная или рабочая или учебная)</span><span class="sxs-lookup"><span data-stu-id="a1491-142">A valid **Microsoft Account** (either personal or work/school)</span></span>
-- <span data-ttu-id="a1491-143">Несколько собраний, запланированных на текущий день, с использованием той же учетной записи Майкрософт</span><span class="sxs-lookup"><span data-stu-id="a1491-143">A few meetings scheduled for the current day, using the same Microsoft Account</span></span>
+- <span data-ttu-id="cfc43-135">ПК для разработки</span><span class="sxs-lookup"><span data-stu-id="cfc43-135">A development PC</span></span>
+- [<span data-ttu-id="cfc43-136">Windows 10 для дизайнеров с обновлением (или более поздней версии) с включенным режимом разработчика</span><span class="sxs-lookup"><span data-stu-id="cfc43-136">Windows 10 Fall Creators Update (or later) with Developer mode enabled</span></span>](../../install-the-tools.md#installation-checklist)
+- [<span data-ttu-id="cfc43-137">Последний пакет SDK для Windows 10</span><span class="sxs-lookup"><span data-stu-id="cfc43-137">The latest Windows 10 SDK</span></span>](../../install-the-tools.md#installation-checklist)
+- [<span data-ttu-id="cfc43-138">Unity 2017,4</span><span class="sxs-lookup"><span data-stu-id="cfc43-138">Unity 2017.4</span></span>](../../install-the-tools.md#installation-checklist)
+- [<span data-ttu-id="cfc43-139">Visual Studio 2017</span><span class="sxs-lookup"><span data-stu-id="cfc43-139">Visual Studio 2017</span></span>](../../install-the-tools.md#installation-checklist)
+- <span data-ttu-id="cfc43-140">[Microsoft HoloLens](../../../hololens-hardware-details.md) с включенным режимом разработчика</span><span class="sxs-lookup"><span data-stu-id="cfc43-140">A [Microsoft HoloLens](../../../hololens-hardware-details.md) with Developer mode enabled</span></span>
+- <span data-ttu-id="cfc43-141">Доступ к Интернету для установки Azure и Microsoft Graph получение данных</span><span class="sxs-lookup"><span data-stu-id="cfc43-141">Internet access for Azure setup and Microsoft Graph data retrieval</span></span>
+- <span data-ttu-id="cfc43-142">Допустимая **учетная запись Майкрософт** (личная или рабочая или учебная)</span><span class="sxs-lookup"><span data-stu-id="cfc43-142">A valid **Microsoft Account** (either personal or work/school)</span></span>
+- <span data-ttu-id="cfc43-143">Несколько собраний, запланированных на текущий день, с использованием той же учетной записи Майкрософт</span><span class="sxs-lookup"><span data-stu-id="cfc43-143">A few meetings scheduled for the current day, using the same Microsoft Account</span></span>
 
-### <a name="before-you-start"></a><span data-ttu-id="a1491-144">Перед началом работы</span><span class="sxs-lookup"><span data-stu-id="a1491-144">Before you start</span></span>
+### <a name="before-you-start"></a><span data-ttu-id="cfc43-144">Перед началом работы</span><span class="sxs-lookup"><span data-stu-id="cfc43-144">Before you start</span></span>
 
-1.  <span data-ttu-id="a1491-145">Чтобы избежать проблем при создании этого проекта, настоятельно рекомендуется создать проект, упомянутый в этом руководстве, в корневой или ближайшем к корневой папке (длинные пути к папкам могут вызвать проблемы во время сборки).</span><span class="sxs-lookup"><span data-stu-id="a1491-145">To avoid encountering issues building this project, it is strongly suggested that you create the project mentioned in this tutorial in a root or near-root folder (long folder paths can cause issues at build-time).</span></span>
-2.  <span data-ttu-id="a1491-146">Настройка и тестирование HoloLens.</span><span class="sxs-lookup"><span data-stu-id="a1491-146">Set up and test your HoloLens.</span></span> <span data-ttu-id="a1491-147">Если вам нужна поддержка по настройке HoloLens, [обязательно посетите статью Настройка hololens](https://docs.microsoft.com/hololens/hololens-setup).</span><span class="sxs-lookup"><span data-stu-id="a1491-147">If you need support setting up your HoloLens, [make sure to visit the HoloLens setup article](https://docs.microsoft.com/hololens/hololens-setup).</span></span> 
-3.  <span data-ttu-id="a1491-148">Рекомендуется выполнять настройку калибровки и датчика при разработке нового приложения HoloLens (иногда это может помочь в выполнении этих задач для каждого пользователя).</span><span class="sxs-lookup"><span data-stu-id="a1491-148">It is a good idea to perform Calibration and Sensor Tuning when beginning developing a new HoloLens App (sometimes it can help to perform those tasks for each user).</span></span> 
+1.  <span data-ttu-id="cfc43-145">Чтобы избежать проблем при создании этого проекта, настоятельно рекомендуется создать проект, упомянутый в этом руководстве, в корневой или ближайшем к корневой папке (длинные пути к папкам могут вызвать проблемы во время сборки).</span><span class="sxs-lookup"><span data-stu-id="cfc43-145">To avoid encountering issues building this project, it is strongly suggested that you create the project mentioned in this tutorial in a root or near-root folder (long folder paths can cause issues at build-time).</span></span>
+2.  <span data-ttu-id="cfc43-146">Настройка и тестирование HoloLens.</span><span class="sxs-lookup"><span data-stu-id="cfc43-146">Set up and test your HoloLens.</span></span> <span data-ttu-id="cfc43-147">Если вам нужна поддержка по настройке HoloLens, [обязательно посетите статью Настройка hololens](https://docs.microsoft.com/hololens/hololens-setup).</span><span class="sxs-lookup"><span data-stu-id="cfc43-147">If you need support setting up your HoloLens, [make sure to visit the HoloLens setup article](https://docs.microsoft.com/hololens/hololens-setup).</span></span> 
+3.  <span data-ttu-id="cfc43-148">Рекомендуется выполнять настройку калибровки и датчика при разработке нового приложения HoloLens (иногда это может помочь в выполнении этих задач для каждого пользователя).</span><span class="sxs-lookup"><span data-stu-id="cfc43-148">It is a good idea to perform Calibration and Sensor Tuning when beginning developing a new HoloLens App (sometimes it can help to perform those tasks for each user).</span></span> 
 
-<span data-ttu-id="a1491-149">Чтобы получить справку по калибровке, перейдите по этой [ссылке в статью калибровка HoloLens](../../../calibration.md#hololens-2).</span><span class="sxs-lookup"><span data-stu-id="a1491-149">For help on Calibration, please follow this [link to the HoloLens Calibration article](../../../calibration.md#hololens-2).</span></span>
+<span data-ttu-id="cfc43-149">Чтобы получить справку по калибровке, перейдите по этой [ссылке в статью калибровка HoloLens](../../../calibration.md#hololens-2).</span><span class="sxs-lookup"><span data-stu-id="cfc43-149">For help on Calibration, please follow this [link to the HoloLens Calibration article](../../../calibration.md#hololens-2).</span></span>
 
-<span data-ttu-id="a1491-150">Чтобы получить справку по настройке датчика, перейдите [по ссылке в статью Настройка датчика HoloLens](../../../sensor-tuning.md).</span><span class="sxs-lookup"><span data-stu-id="a1491-150">For help on Sensor Tuning, please follow this [link to the HoloLens Sensor Tuning article](../../../sensor-tuning.md).</span></span>
+<span data-ttu-id="cfc43-150">Чтобы получить справку по настройке датчика, перейдите [по ссылке в статью Настройка датчика HoloLens](../../../sensor-tuning.md).</span><span class="sxs-lookup"><span data-stu-id="cfc43-150">For help on Sensor Tuning, please follow this [link to the HoloLens Sensor Tuning article](../../../sensor-tuning.md).</span></span>
 
-## <a name="chapter-1---create-your-app-in-the-application-registration-portal"></a><span data-ttu-id="a1491-151">Глава 1. Создание приложения на портале регистрации приложений</span><span class="sxs-lookup"><span data-stu-id="a1491-151">Chapter 1 - Create your app in the Application Registration Portal</span></span>
+## <a name="chapter-1---create-your-app-in-the-application-registration-portal"></a><span data-ttu-id="cfc43-151">Глава 1. Создание приложения на портале регистрации приложений</span><span class="sxs-lookup"><span data-stu-id="cfc43-151">Chapter 1 - Create your app in the Application Registration Portal</span></span>
 
-<span data-ttu-id="a1491-152">Для начала вам потребуется создать и зарегистрировать приложение на **портале регистрации приложений** .</span><span class="sxs-lookup"><span data-stu-id="a1491-152">To begin with, you will need to create and register your application in the **Application Registration Portal** .</span></span>
+<span data-ttu-id="cfc43-152">Для начала вам потребуется создать и зарегистрировать приложение на **портале регистрации приложений**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-152">To begin with, you will need to create and register your application in the **Application Registration Portal**.</span></span>
 
-<span data-ttu-id="a1491-153">В этой главе вы также найдете ключ службы, который позволит выполнять вызовы *Microsoft Graph* для доступа к содержимому вашей учетной записи.</span><span class="sxs-lookup"><span data-stu-id="a1491-153">In this Chapter you will also find the Service Key that will allow you to make calls to *Microsoft Graph* to access your account content.</span></span>
+<span data-ttu-id="cfc43-153">В этой главе вы также найдете ключ службы, который позволит выполнять вызовы *Microsoft Graph* для доступа к содержимому вашей учетной записи.</span><span class="sxs-lookup"><span data-stu-id="cfc43-153">In this Chapter you will also find the Service Key that will allow you to make calls to *Microsoft Graph* to access your account content.</span></span>
 
-1.  <span data-ttu-id="a1491-154">Перейдите на [портал регистрации приложений Майкрософт](https://apps.dev.microsoft.com) и войдите с помощью учетной записи Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="a1491-154">Navigate to the [Microsoft Application Registration Portal](https://apps.dev.microsoft.com) and login with your Microsoft Account.</span></span> <span data-ttu-id="a1491-155">После входа вы будете перенаправлены на **портал регистрации приложений** .</span><span class="sxs-lookup"><span data-stu-id="a1491-155">Once you have logged in, you will be redirected to the **Application Registration Portal** .</span></span>
+1.  <span data-ttu-id="cfc43-154">Перейдите на [портал регистрации приложений Майкрософт](https://apps.dev.microsoft.com) и войдите с помощью учетной записи Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="cfc43-154">Navigate to the [Microsoft Application Registration Portal](https://apps.dev.microsoft.com) and login with your Microsoft Account.</span></span> <span data-ttu-id="cfc43-155">После входа вы будете перенаправлены на **портал регистрации приложений**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-155">Once you have logged in, you will be redirected to the **Application Registration Portal**.</span></span>
 
-2.  <span data-ttu-id="a1491-156">В разделе **Мои приложения** нажмите кнопку **Добавить приложение** .</span><span class="sxs-lookup"><span data-stu-id="a1491-156">In the **My applications** section, click on the button **Add an app** .</span></span>
+2.  <span data-ttu-id="cfc43-156">В разделе **Мои приложения** нажмите кнопку **Добавить приложение**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-156">In the **My applications** section, click on the button **Add an app**.</span></span>
 
     ![](images/AzureLabs-Lab311-01.png)![](images/AzureLabs-Lab311-02.png)
 
     > [!IMPORTANT]
-    > <span data-ttu-id="a1491-157">**Портал регистрации приложений** может выглядеть по-разному в зависимости от того, работал ли ранее *Microsoft Graph* .</span><span class="sxs-lookup"><span data-stu-id="a1491-157">The **Application Registration Portal** can look different, depending on whether you have previously worked with *Microsoft Graph* .</span></span> <span data-ttu-id="a1491-158">На следующих снимках экрана показаны эти различные версии.</span><span class="sxs-lookup"><span data-stu-id="a1491-158">The below screenshots display these different versions.</span></span>
+    > <span data-ttu-id="cfc43-157">**Портал регистрации приложений** может выглядеть по-разному в зависимости от того, работал ли ранее *Microsoft Graph*.</span><span class="sxs-lookup"><span data-stu-id="cfc43-157">The **Application Registration Portal** can look different, depending on whether you have previously worked with *Microsoft Graph*.</span></span> <span data-ttu-id="cfc43-158">На следующих снимках экрана показаны эти различные версии.</span><span class="sxs-lookup"><span data-stu-id="cfc43-158">The below screenshots display these different versions.</span></span>
 
-3.  <span data-ttu-id="a1491-159">Добавьте имя приложения и нажмите кнопку **создать** .</span><span class="sxs-lookup"><span data-stu-id="a1491-159">Add a name for your application and click **Create** .</span></span>
+3.  <span data-ttu-id="cfc43-159">Добавьте имя приложения и нажмите кнопку **создать**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-159">Add a name for your application and click **Create**.</span></span>
 
     ![](images/AzureLabs-Lab311-03.png)
 
-4.  <span data-ttu-id="a1491-160">После создания приложения вы будете перенаправлены на главную страницу приложения.</span><span class="sxs-lookup"><span data-stu-id="a1491-160">Once the application has been created, you will be redirected to the application main page.</span></span> <span data-ttu-id="a1491-161">Скопируйте **идентификатор приложения** и запишите это значение в безопасном месте, вы будете использовать его вскоре в своем коде.</span><span class="sxs-lookup"><span data-stu-id="a1491-161">Copy the **Application Id** and make sure to note this value somewhere safe, you will use it soon in your code.</span></span>
+4.  <span data-ttu-id="cfc43-160">После создания приложения вы будете перенаправлены на главную страницу приложения.</span><span class="sxs-lookup"><span data-stu-id="cfc43-160">Once the application has been created, you will be redirected to the application main page.</span></span> <span data-ttu-id="cfc43-161">Скопируйте **идентификатор приложения** и запишите это значение в безопасном месте, вы будете использовать его вскоре в своем коде.</span><span class="sxs-lookup"><span data-stu-id="cfc43-161">Copy the **Application Id** and make sure to note this value somewhere safe, you will use it soon in your code.</span></span>
 
     ![](images/AzureLabs-Lab311-04.png)
 
-5.  <span data-ttu-id="a1491-162">В разделе **платформы** убедитесь, что отображается **собственное приложение** .</span><span class="sxs-lookup"><span data-stu-id="a1491-162">In the **Platforms** section, make sure **Native Application** is displayed.</span></span> <span data-ttu-id="a1491-163">Если *не* щелкнуть **Добавить платформу** и выбрать **собственное приложение** .</span><span class="sxs-lookup"><span data-stu-id="a1491-163">If *not* click on **Add Platform** and select **Native Application** .</span></span>
+5.  <span data-ttu-id="cfc43-162">В разделе **платформы** убедитесь, что отображается **собственное приложение** .</span><span class="sxs-lookup"><span data-stu-id="cfc43-162">In the **Platforms** section, make sure **Native Application** is displayed.</span></span> <span data-ttu-id="cfc43-163">Если *не* щелкнуть **Добавить платформу** и выбрать **собственное приложение**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-163">If *not* click on **Add Platform** and select **Native Application**.</span></span>
 
     ![](images/AzureLabs-Lab311-05.png)
 
-6.  <span data-ttu-id="a1491-164">Прокрутите вниз на той же странице и в разделе, который называется **Microsoft Graph разрешениями** , необходимо добавить дополнительные разрешения для приложения.</span><span class="sxs-lookup"><span data-stu-id="a1491-164">Scroll down in the same page and in the section called **Microsoft Graph Permissions** you will need to add additional permissions for the application.</span></span> <span data-ttu-id="a1491-165">Щелкните **Добавить** рядом с **делегированными разрешениями** .</span><span class="sxs-lookup"><span data-stu-id="a1491-165">Click on **Add** next to **Delegated Permissions** .</span></span>
+6.  <span data-ttu-id="cfc43-164">Прокрутите вниз на той же странице и в разделе, который называется **Microsoft Graph разрешениями** , необходимо добавить дополнительные разрешения для приложения.</span><span class="sxs-lookup"><span data-stu-id="cfc43-164">Scroll down in the same page and in the section called **Microsoft Graph Permissions** you will need to add additional permissions for the application.</span></span> <span data-ttu-id="cfc43-165">Щелкните **Добавить** рядом с **делегированными разрешениями**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-165">Click on **Add** next to **Delegated Permissions**.</span></span>
 
     ![](images/AzureLabs-Lab311-06.png)
 
-7.  <span data-ttu-id="a1491-166">Так как вы хотите, чтобы приложение поменяло доступ к календарю пользователя, установите флажок **календари. чтение** и нажмите кнопку **ОК** .</span><span class="sxs-lookup"><span data-stu-id="a1491-166">Since you want your application to access the user's Calendar, check the box called **Calendars.Read** and click **OK** .</span></span>
+7.  <span data-ttu-id="cfc43-166">Так как вы хотите, чтобы приложение поменяло доступ к календарю пользователя, установите флажок **календари. чтение** и нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-166">Since you want your application to access the user's Calendar, check the box called **Calendars.Read** and click **OK**.</span></span>
 
     ![](images/AzureLabs-Lab311-07.png)
 
-8.  <span data-ttu-id="a1491-167">Прокрутите вниз и нажмите кнопку **сохранить** .</span><span class="sxs-lookup"><span data-stu-id="a1491-167">Scroll to the bottom and click the **Save** button.</span></span>
+8.  <span data-ttu-id="cfc43-167">Прокрутите вниз и нажмите кнопку **сохранить** .</span><span class="sxs-lookup"><span data-stu-id="cfc43-167">Scroll to the bottom and click the **Save** button.</span></span>
 
     ![](images/AzureLabs-Lab311-08.png)
 
-9.  <span data-ttu-id="a1491-168">Сохранение будет подтверждено, и вы можете выйти из **портала регистрации приложений** .</span><span class="sxs-lookup"><span data-stu-id="a1491-168">Your save will be confirmed, and you can log out from the **Application Registration Portal** .</span></span>
+9.  <span data-ttu-id="cfc43-168">Сохранение будет подтверждено, и вы можете выйти из **портала регистрации приложений**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-168">Your save will be confirmed, and you can log out from the **Application Registration Portal**.</span></span>
 
-## <a name="chapter-2---set-up-the-unity-project"></a><span data-ttu-id="a1491-169">Глава 2. Настройка проекта Unity</span><span class="sxs-lookup"><span data-stu-id="a1491-169">Chapter 2 - Set up the Unity project</span></span>
+## <a name="chapter-2---set-up-the-unity-project"></a><span data-ttu-id="cfc43-169">Глава 2. Настройка проекта Unity</span><span class="sxs-lookup"><span data-stu-id="cfc43-169">Chapter 2 - Set up the Unity project</span></span>
 
-<span data-ttu-id="a1491-170">Ниже приведена типичная Настройка для разработки с использованием смешанной реальности, которая является хорошим шаблоном для других проектов.</span><span class="sxs-lookup"><span data-stu-id="a1491-170">The following is a typical set up for developing with mixed reality, and as such, is a good template for other projects.</span></span>
+<span data-ttu-id="cfc43-170">Ниже приведена типичная Настройка для разработки с использованием смешанной реальности, которая является хорошим шаблоном для других проектов.</span><span class="sxs-lookup"><span data-stu-id="cfc43-170">The following is a typical set up for developing with mixed reality, and as such, is a good template for other projects.</span></span>
 
-1.  <span data-ttu-id="a1491-171">Откройте *Unity* и нажмите кнопку **создать** .</span><span class="sxs-lookup"><span data-stu-id="a1491-171">Open *Unity* and click **New** .</span></span>
+1.  <span data-ttu-id="cfc43-171">Откройте *Unity* и нажмите кнопку **создать**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-171">Open *Unity* and click **New**.</span></span>
 
     ![](images/AzureLabs-Lab311-09.png)
 
-2.  <span data-ttu-id="a1491-172">Необходимо указать имя проекта Unity.</span><span class="sxs-lookup"><span data-stu-id="a1491-172">You need to provide a Unity project name.</span></span> <span data-ttu-id="a1491-173">Вставьте **мсграфмр** .</span><span class="sxs-lookup"><span data-stu-id="a1491-173">Insert **MSGraphMR** .</span></span> <span data-ttu-id="a1491-174">Убедитесь, что для шаблона проекта задано значение **3D** .</span><span class="sxs-lookup"><span data-stu-id="a1491-174">Make sure the project template is set to **3D** .</span></span> <span data-ttu-id="a1491-175">Задайте для **расположения нужное расположение** (Помните, что ближе к корневым каталогам лучше).</span><span class="sxs-lookup"><span data-stu-id="a1491-175">Set the **Location** to somewhere appropriate for you (remember, closer to root directories is better).</span></span> <span data-ttu-id="a1491-176">Затем нажмите кнопку **создать проект** .</span><span class="sxs-lookup"><span data-stu-id="a1491-176">Then, click **Create project** .</span></span>
+2.  <span data-ttu-id="cfc43-172">Необходимо указать имя проекта Unity.</span><span class="sxs-lookup"><span data-stu-id="cfc43-172">You need to provide a Unity project name.</span></span> <span data-ttu-id="cfc43-173">Вставьте **мсграфмр**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-173">Insert **MSGraphMR**.</span></span> <span data-ttu-id="cfc43-174">Убедитесь, что для шаблона проекта задано значение **3D**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-174">Make sure the project template is set to **3D**.</span></span> <span data-ttu-id="cfc43-175">Задайте для **расположения нужное расположение** (Помните, что ближе к корневым каталогам лучше).</span><span class="sxs-lookup"><span data-stu-id="cfc43-175">Set the **Location** to somewhere appropriate for you (remember, closer to root directories is better).</span></span> <span data-ttu-id="cfc43-176">Затем нажмите кнопку **создать проект**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-176">Then, click **Create project**.</span></span>
 
     ![](images/AzureLabs-Lab311-10.png)
 
-3.  <span data-ttu-id="a1491-177">При открытом Unity стоит проверить, что для **редактора скриптов** по умолчанию задано значение **Visual Studio** .</span><span class="sxs-lookup"><span data-stu-id="a1491-177">With Unity open, it is worth checking the default **Script Editor** is set to **Visual Studio** .</span></span> <span data-ttu-id="a1491-178">Перейдите к разделу **изменение**  >  **настроек** , а затем в новом окне перейдите к разделу **Внешние инструменты** .</span><span class="sxs-lookup"><span data-stu-id="a1491-178">Go to **Edit** > **Preferences** and then from the new window, navigate to **External Tools** .</span></span> <span data-ttu-id="a1491-179">Измените **Редактор внешних скриптов** на **Visual Studio 2017** .</span><span class="sxs-lookup"><span data-stu-id="a1491-179">Change **External Script Editor** to **Visual Studio 2017** .</span></span> <span data-ttu-id="a1491-180">Закройте окно **настройки** .</span><span class="sxs-lookup"><span data-stu-id="a1491-180">Close the **Preferences** window.</span></span>
+3.  <span data-ttu-id="cfc43-177">При открытом Unity стоит проверить, что для **редактора скриптов** по умолчанию задано значение **Visual Studio**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-177">With Unity open, it is worth checking the default **Script Editor** is set to **Visual Studio**.</span></span> <span data-ttu-id="cfc43-178">Перейдите к разделу **изменение**  >  **настроек** , а затем в новом окне перейдите к разделу **Внешние инструменты**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-178">Go to **Edit** > **Preferences** and then from the new window, navigate to **External Tools**.</span></span> <span data-ttu-id="cfc43-179">Измените **Редактор внешних скриптов** на **Visual Studio 2017**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-179">Change **External Script Editor** to **Visual Studio 2017**.</span></span> <span data-ttu-id="cfc43-180">Закройте окно **настройки** .</span><span class="sxs-lookup"><span data-stu-id="cfc43-180">Close the **Preferences** window.</span></span>
 
     ![](images/AzureLabs-Lab311-11.png)
 
-4.  <span data-ttu-id="a1491-181">Перейдите в **раздел**  >  **параметры сборки** файлов и выберите **универсальная платформа Windows** , а затем нажмите кнопку **переключения платформы** , чтобы применить выбранные элементы.</span><span class="sxs-lookup"><span data-stu-id="a1491-181">Go to **File** > **Build Settings** and select **Universal Windows Platform** , then click on the **Switch Platform** button to apply your selection.</span></span>
+4.  <span data-ttu-id="cfc43-181">Перейдите в **раздел**  >  **параметры сборки** файлов и выберите **универсальная платформа Windows**, а затем нажмите кнопку **переключения платформы** , чтобы применить выбранные элементы.</span><span class="sxs-lookup"><span data-stu-id="cfc43-181">Go to **File** > **Build Settings** and select **Universal Windows Platform**, then click on the **Switch Platform** button to apply your selection.</span></span>
 
     ![](images/AzureLabs-Lab311-12.png)
 
-5.  <span data-ttu-id="a1491-182">Несмотря на то **File** , что все еще находятся в  >  **параметрах сборки** файлов, убедитесь, что:</span><span class="sxs-lookup"><span data-stu-id="a1491-182">While still in **File** > **Build Settings** , make sure that:</span></span>
+5.  <span data-ttu-id="cfc43-182">Несмотря на то **File**, что все еще находятся в  >  **параметрах сборки** файлов, убедитесь, что:</span><span class="sxs-lookup"><span data-stu-id="cfc43-182">While still in **File** > **Build Settings**, make sure that:</span></span>
 
-    1. <span data-ttu-id="a1491-183">**Целевое устройство** имеет значение **HoloLens**</span><span class="sxs-lookup"><span data-stu-id="a1491-183">**Target Device** is set to **HoloLens**</span></span>
-    2. <span data-ttu-id="a1491-184">Для **типа сборки** задано значение **D3D**</span><span class="sxs-lookup"><span data-stu-id="a1491-184">**Build Type** is set to **D3D**</span></span>
-    3. <span data-ttu-id="a1491-185">**Пакет SDK** установлен в значение " **Последняя установка** "</span><span class="sxs-lookup"><span data-stu-id="a1491-185">**SDK** is set to **Latest installed**</span></span>
-    4. <span data-ttu-id="a1491-186">Для **версии Visual Studio** установлено значение " **Последняя установка** "</span><span class="sxs-lookup"><span data-stu-id="a1491-186">**Visual Studio Version** is set to **Latest installed**</span></span>
-    5. <span data-ttu-id="a1491-187">**Сборка и запуск** настроены на **локальный компьютер**</span><span class="sxs-lookup"><span data-stu-id="a1491-187">**Build and Run** is set to **Local Machine**</span></span>
-    6. <span data-ttu-id="a1491-188">Сохраните сцену и добавьте ее в сборку.</span><span class="sxs-lookup"><span data-stu-id="a1491-188">Save the scene and add it to the build.</span></span>
+    1. <span data-ttu-id="cfc43-183">**Целевое устройство** имеет значение **HoloLens**</span><span class="sxs-lookup"><span data-stu-id="cfc43-183">**Target Device** is set to **HoloLens**</span></span>
+    2. <span data-ttu-id="cfc43-184">Для **типа сборки** задано значение **D3D**</span><span class="sxs-lookup"><span data-stu-id="cfc43-184">**Build Type** is set to **D3D**</span></span>
+    3. <span data-ttu-id="cfc43-185">**Пакет SDK** установлен в значение " **Последняя установка** "</span><span class="sxs-lookup"><span data-stu-id="cfc43-185">**SDK** is set to **Latest installed**</span></span>
+    4. <span data-ttu-id="cfc43-186">Для **версии Visual Studio** установлено значение " **Последняя установка** "</span><span class="sxs-lookup"><span data-stu-id="cfc43-186">**Visual Studio Version** is set to **Latest installed**</span></span>
+    5. <span data-ttu-id="cfc43-187">**Сборка и запуск** настроены на **локальный компьютер**</span><span class="sxs-lookup"><span data-stu-id="cfc43-187">**Build and Run** is set to **Local Machine**</span></span>
+    6. <span data-ttu-id="cfc43-188">Сохраните сцену и добавьте ее в сборку.</span><span class="sxs-lookup"><span data-stu-id="cfc43-188">Save the scene and add it to the build.</span></span>
 
-        1. <span data-ttu-id="a1491-189">Для этого выберите **Добавить открытые сцены** .</span><span class="sxs-lookup"><span data-stu-id="a1491-189">Do this by selecting **Add Open Scenes** .</span></span> <span data-ttu-id="a1491-190">Появится окно сохранения.</span><span class="sxs-lookup"><span data-stu-id="a1491-190">A save window will appear.</span></span>
+        1. <span data-ttu-id="cfc43-189">Для этого выберите **Добавить открытые сцены**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-189">Do this by selecting **Add Open Scenes**.</span></span> <span data-ttu-id="cfc43-190">Появится окно сохранения.</span><span class="sxs-lookup"><span data-stu-id="cfc43-190">A save window will appear.</span></span>
 
             ![](images/AzureLabs-Lab311-13.png)
 
-        2. <span data-ttu-id="a1491-191">Создайте новую папку для этой и любой будущей сцены.</span><span class="sxs-lookup"><span data-stu-id="a1491-191">Create a new folder for this, and any future, scene.</span></span> <span data-ttu-id="a1491-192">Нажмите кнопку **создать папку** , чтобы создать новую папку, назовите ее « **сцены** ».</span><span class="sxs-lookup"><span data-stu-id="a1491-192">Select the **New folder** button, to create a new folder, name it **Scenes** .</span></span>
+        2. <span data-ttu-id="cfc43-191">Создайте новую папку для этой и любой будущей сцены.</span><span class="sxs-lookup"><span data-stu-id="cfc43-191">Create a new folder for this, and any future, scene.</span></span> <span data-ttu-id="cfc43-192">Нажмите кнопку **создать папку** , чтобы создать новую папку, назовите ее « **сцены**».</span><span class="sxs-lookup"><span data-stu-id="cfc43-192">Select the **New folder** button, to create a new folder, name it **Scenes**.</span></span>
 
             ![](images/AzureLabs-Lab311-14.png)
 
-        3. <span data-ttu-id="a1491-193">Откройте только что созданную папку **сцены** , а затем в поле *имя файла* : введите **MR_ComputerVisionScene** , а затем нажмите кнопку **сохранить** .</span><span class="sxs-lookup"><span data-stu-id="a1491-193">Open your newly created **Scenes** folder, and then in the *File name* : text field, type **MR_ComputerVisionScene** , then click **Save** .</span></span>
+        3. <span data-ttu-id="cfc43-193">Откройте только что созданную папку **сцены** , а затем в поле *имя файла*: введите **MR_ComputerVisionScene**, а затем нажмите кнопку **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-193">Open your newly created **Scenes** folder, and then in the *File name*: text field, type **MR_ComputerVisionScene**, then click **Save**.</span></span>
 
             ![](images/AzureLabs-Lab311-15.png)
 
             > [!IMPORTANT] 
-            > <span data-ttu-id="a1491-194">Помните, что сцены Unity необходимо сохранять в папке *Assets* , так как они должны быть связаны с проектом Unity.</span><span class="sxs-lookup"><span data-stu-id="a1491-194">Be aware, you must save your Unity scenes within the *Assets* folder, as they must be associated with the Unity project.</span></span> <span data-ttu-id="a1491-195">Создание папки «сцены» (и других аналогичных папок) — типичный способ структуризации проекта Unity.</span><span class="sxs-lookup"><span data-stu-id="a1491-195">Creating the scenes folder (and other similar folders) is a typical way of structuring a Unity project.</span></span>
+            > <span data-ttu-id="cfc43-194">Помните, что сцены Unity необходимо сохранять в папке *Assets* , так как они должны быть связаны с проектом Unity.</span><span class="sxs-lookup"><span data-stu-id="cfc43-194">Be aware, you must save your Unity scenes within the *Assets* folder, as they must be associated with the Unity project.</span></span> <span data-ttu-id="cfc43-195">Создание папки «сцены» (и других аналогичных папок) — типичный способ структуризации проекта Unity.</span><span class="sxs-lookup"><span data-stu-id="cfc43-195">Creating the scenes folder (and other similar folders) is a typical way of structuring a Unity project.</span></span>
 
-    7.  <span data-ttu-id="a1491-196">Оставшиеся параметры, в *параметрах сборки* , должны быть оставлены по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="a1491-196">The remaining settings, in *Build Settings* , should be left as default for now.</span></span>
+    7.  <span data-ttu-id="cfc43-196">Оставшиеся параметры, в *параметрах сборки*, должны быть оставлены по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="cfc43-196">The remaining settings, in *Build Settings*, should be left as default for now.</span></span>
 
-6.  <span data-ttu-id="a1491-197">В окне *параметры сборки* нажмите кнопку **Параметры проигрывателя** , чтобы открыть связанную панель в пространстве, где находится *инспектор* .</span><span class="sxs-lookup"><span data-stu-id="a1491-197">In the *Build Settings* window, click on the **Player Settings** button, this will open the related panel in the space where the *Inspector* is located.</span></span> 
+6.  <span data-ttu-id="cfc43-197">В окне *параметры сборки* нажмите кнопку **Параметры проигрывателя** , чтобы открыть связанную панель в пространстве, где находится *инспектор* .</span><span class="sxs-lookup"><span data-stu-id="cfc43-197">In the *Build Settings* window, click on the **Player Settings** button, this will open the related panel in the space where the *Inspector* is located.</span></span> 
 
     ![](images/AzureLabs-Lab311-16.png)
 
-7. <span data-ttu-id="a1491-198">На этой панели необходимо проверить несколько параметров:</span><span class="sxs-lookup"><span data-stu-id="a1491-198">In this panel, a few settings need to be verified:</span></span>
+7. <span data-ttu-id="cfc43-198">На этой панели необходимо проверить несколько параметров:</span><span class="sxs-lookup"><span data-stu-id="cfc43-198">In this panel, a few settings need to be verified:</span></span>
 
-    1. <span data-ttu-id="a1491-199">На вкладке **другие параметры** выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="a1491-199">In the **Other Settings** tab:</span></span>
+    1. <span data-ttu-id="cfc43-199">На вкладке **другие параметры** выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="cfc43-199">In the **Other Settings** tab:</span></span>
 
-        1.  <span data-ttu-id="a1491-200">**Scripting** **Версия среды выполнения** сценариев должна быть **экспериментальной** (эквивалент .NET 4,6), что вызовет необходимость перезапуска редактора.</span><span class="sxs-lookup"><span data-stu-id="a1491-200">**Scripting** **Runtime Version** should be **Experimental** (.NET 4.6 Equivalent), which will trigger a need to restart the Editor.</span></span>
+        1.  <span data-ttu-id="cfc43-200">**Scripting** **Версия среды выполнения** сценариев должна быть **экспериментальной** (эквивалент .NET 4,6), что вызовет необходимость перезапуска редактора.</span><span class="sxs-lookup"><span data-stu-id="cfc43-200">**Scripting** **Runtime Version** should be **Experimental** (.NET 4.6 Equivalent), which will trigger a need to restart the Editor.</span></span>
 
-        2. <span data-ttu-id="a1491-201">**Серверная часть сценариев** должна быть **.NET**</span><span class="sxs-lookup"><span data-stu-id="a1491-201">**Scripting Backend** should be **.NET**</span></span>
+        2. <span data-ttu-id="cfc43-201">**Серверная часть сценариев** должна быть **.NET**</span><span class="sxs-lookup"><span data-stu-id="cfc43-201">**Scripting Backend** should be **.NET**</span></span>
 
-        3. <span data-ttu-id="a1491-202">**Уровень совместимости API** должен быть **.NET 4,6**</span><span class="sxs-lookup"><span data-stu-id="a1491-202">**API Compatibility Level** should be **.NET 4.6**</span></span>
+        3. <span data-ttu-id="cfc43-202">**Уровень совместимости API** должен быть **.NET 4,6**</span><span class="sxs-lookup"><span data-stu-id="cfc43-202">**API Compatibility Level** should be **.NET 4.6**</span></span>
 
             ![](images/AzureLabs-Lab311-17.png)
 
-    2.  <span data-ttu-id="a1491-203">На вкладке **Параметры публикации** в разделе **возможности** установите флажок:</span><span class="sxs-lookup"><span data-stu-id="a1491-203">Within the **Publishing Settings** tab, under **Capabilities** , check:</span></span>
+    2.  <span data-ttu-id="cfc43-203">На вкладке **Параметры публикации** в разделе **возможности** установите флажок:</span><span class="sxs-lookup"><span data-stu-id="cfc43-203">Within the **Publishing Settings** tab, under **Capabilities**, check:</span></span>
 
-        - <span data-ttu-id="a1491-204">**InternetClient** ;</span><span class="sxs-lookup"><span data-stu-id="a1491-204">**InternetClient**</span></span>
+        - <span data-ttu-id="cfc43-204">**InternetClient**;</span><span class="sxs-lookup"><span data-stu-id="cfc43-204">**InternetClient**</span></span>
 
             ![](images/AzureLabs-Lab311-18.png)
 
-    3.  <span data-ttu-id="a1491-205">На более низких панели в **параметрах XR** (см. ниже **Параметры публикации** ) Проверьте, **поддерживается** ли **пакет SDK для Windows Mixed Reality** .</span><span class="sxs-lookup"><span data-stu-id="a1491-205">Further down the panel, in **XR Settings** (found below **Publish Settings** ), check **Virtual Reality Supported** , make sure the **Windows Mixed Reality SDK** is added.</span></span>
+    3.  <span data-ttu-id="cfc43-205">На более низких панели в **параметрах XR** (см. ниже **Параметры публикации**) Проверьте, **поддерживается** ли **пакет SDK для Windows Mixed Reality** .</span><span class="sxs-lookup"><span data-stu-id="cfc43-205">Further down the panel, in **XR Settings** (found below **Publish Settings**), check **Virtual Reality Supported**, make sure the **Windows Mixed Reality SDK** is added.</span></span>
 
         ![](images/AzureLabs-Lab311-19.png)
 
-8.  <span data-ttu-id="a1491-206">Вернемся к *параметрам сборки* . *проекты C# для Unity* больше не заключаются; Установите флажок рядом с этим.</span><span class="sxs-lookup"><span data-stu-id="a1491-206">Back in *Build Settings* , *Unity C# Projects* is no longer greyed out; check the checkbox next to this.</span></span>
+8.  <span data-ttu-id="cfc43-206">Вернемся к *параметрам сборки*. *проекты C# для Unity* больше не заключаются; Установите флажок рядом с этим.</span><span class="sxs-lookup"><span data-stu-id="cfc43-206">Back in *Build Settings*, *Unity C# Projects* is no longer greyed out; check the checkbox next to this.</span></span>
 
-9.  <span data-ttu-id="a1491-207">Закройте окно *Build Settings* (Параметры сборки).</span><span class="sxs-lookup"><span data-stu-id="a1491-207">Close the *Build Settings* window.</span></span>
+9.  <span data-ttu-id="cfc43-207">Закройте окно *Build Settings* (Параметры сборки).</span><span class="sxs-lookup"><span data-stu-id="cfc43-207">Close the *Build Settings* window.</span></span>
 
-10.  <span data-ttu-id="a1491-208">Сохраните сцену и проект ( **файл**  >  **сохранить сцены/файл**  >  **сохранить проект** ).</span><span class="sxs-lookup"><span data-stu-id="a1491-208">Save your scene and project ( **FILE** > **SAVE SCENES / FILE** > **SAVE PROJECT** ).</span></span>
+10.  <span data-ttu-id="cfc43-208">Сохраните сцену и проект (**файл**  >  **сохранить сцены/файл**  >  **сохранить проект**).</span><span class="sxs-lookup"><span data-stu-id="cfc43-208">Save your scene and project (**FILE** > **SAVE SCENES / FILE** > **SAVE PROJECT**).</span></span>
 
-## <a name="chapter-3---import-libraries-in-unity"></a><span data-ttu-id="a1491-209">Глава 3. импорт библиотек в Unity</span><span class="sxs-lookup"><span data-stu-id="a1491-209">Chapter 3 - Import Libraries in Unity</span></span>
+## <a name="chapter-3---import-libraries-in-unity"></a><span data-ttu-id="cfc43-209">Глава 3. импорт библиотек в Unity</span><span class="sxs-lookup"><span data-stu-id="cfc43-209">Chapter 3 - Import Libraries in Unity</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="a1491-210">Если вы хотите пропустить компонент *установки Unity, установленный* в этом курсе, и продолжить работу с кодом, скачайте этот [Azure-MR-311. пакет unitypackage](https://github.com/Microsoft/HolographicAcademy/raw/Azure-MixedReality-Labs/Azure%20Mixed%20Reality%20Labs/MR%20and%20Azure%20311%20-%20Microsoft%20Graph/Azure-MR-311.unitypackage), импортируйте его в проект в качестве [**пользовательского пакета**](https://docs.unity3d.com/Manual/AssetPackages.html), а затем продолжайте в [главе 5](#chapter-5---create-meetingsui-class).</span><span class="sxs-lookup"><span data-stu-id="a1491-210">If you wish to skip the *Unity Set up* component of this course, and continue straight into code, feel free to download this [Azure-MR-311.unitypackage](https://github.com/Microsoft/HolographicAcademy/raw/Azure-MixedReality-Labs/Azure%20Mixed%20Reality%20Labs/MR%20and%20Azure%20311%20-%20Microsoft%20Graph/Azure-MR-311.unitypackage), import it into your project as a [**Custom Package**](https://docs.unity3d.com/Manual/AssetPackages.html), and then continue from [Chapter 5](#chapter-5---create-meetingsui-class).</span></span>
+> <span data-ttu-id="cfc43-210">Если вы хотите пропустить компонент *установки Unity, установленный* в этом курсе, и продолжить работу с кодом, скачайте этот [Azure-MR-311. пакет unitypackage](https://github.com/Microsoft/HolographicAcademy/raw/Azure-MixedReality-Labs/Azure%20Mixed%20Reality%20Labs/MR%20and%20Azure%20311%20-%20Microsoft%20Graph/Azure-MR-311.unitypackage), импортируйте его в проект в качестве [**пользовательского пакета**](https://docs.unity3d.com/Manual/AssetPackages.html), а затем продолжайте в [главе 5](#chapter-5---create-meetingsui-class).</span><span class="sxs-lookup"><span data-stu-id="cfc43-210">If you wish to skip the *Unity Set up* component of this course, and continue straight into code, feel free to download this [Azure-MR-311.unitypackage](https://github.com/Microsoft/HolographicAcademy/raw/Azure-MixedReality-Labs/Azure%20Mixed%20Reality%20Labs/MR%20and%20Azure%20311%20-%20Microsoft%20Graph/Azure-MR-311.unitypackage), import it into your project as a [**Custom Package**](https://docs.unity3d.com/Manual/AssetPackages.html), and then continue from [Chapter 5](#chapter-5---create-meetingsui-class).</span></span>
 
-<span data-ttu-id="a1491-211">Чтобы использовать *Microsoft Graph* в Unity, необходимо использовать библиотеку DLL  **Microsoft. Identity. Client** .</span><span class="sxs-lookup"><span data-stu-id="a1491-211">To use *Microsoft Graph* within Unity you need to make use of the  **Microsoft.Identity.Client** DLL.</span></span> <span data-ttu-id="a1491-212">Можно использовать пакет SDK для Microsoft Graph, однако после сборки проекта Unity потребуется добавить пакет NuGet (то есть редактирует проект после сборки).</span><span class="sxs-lookup"><span data-stu-id="a1491-212">It is possible to use the Microsoft Graph SDK, however, it will require the addition of a NuGet package after you build the Unity project (meaning editing the project post-build).</span></span> <span data-ttu-id="a1491-213">Проще импортировать необходимые библиотеки DLL непосредственно в Unity.</span><span class="sxs-lookup"><span data-stu-id="a1491-213">It is considered simpler to import the required DLLs directly into Unity.</span></span>
+<span data-ttu-id="cfc43-211">Чтобы использовать *Microsoft Graph* в Unity, необходимо использовать библиотеку DLL  **Microsoft. Identity. Client** .</span><span class="sxs-lookup"><span data-stu-id="cfc43-211">To use *Microsoft Graph* within Unity you need to make use of the  **Microsoft.Identity.Client** DLL.</span></span> <span data-ttu-id="cfc43-212">Можно использовать пакет SDK для Microsoft Graph, однако после сборки проекта Unity потребуется добавить пакет NuGet (то есть редактирует проект после сборки).</span><span class="sxs-lookup"><span data-stu-id="cfc43-212">It is possible to use the Microsoft Graph SDK, however, it will require the addition of a NuGet package after you build the Unity project (meaning editing the project post-build).</span></span> <span data-ttu-id="cfc43-213">Проще импортировать необходимые библиотеки DLL непосредственно в Unity.</span><span class="sxs-lookup"><span data-stu-id="cfc43-213">It is considered simpler to import the required DLLs directly into Unity.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a1491-214">В Unity существует известная ошибка, которая требует перенастройки подключаемых модулей после импорта.</span><span class="sxs-lookup"><span data-stu-id="a1491-214">There is currently a known issue in Unity which requires plugins to be reconfigured after import.</span></span> <span data-ttu-id="a1491-215">Эти действия (4-7 в этом разделе) больше не понадобятся после устранения ошибки.</span><span class="sxs-lookup"><span data-stu-id="a1491-215">These steps (4 - 7 in this section) will no longer be required after the bug has been resolved.</span></span>
+> <span data-ttu-id="cfc43-214">В Unity существует известная ошибка, которая требует перенастройки подключаемых модулей после импорта.</span><span class="sxs-lookup"><span data-stu-id="cfc43-214">There is currently a known issue in Unity which requires plugins to be reconfigured after import.</span></span> <span data-ttu-id="cfc43-215">Эти действия (4-7 в этом разделе) больше не понадобятся после устранения ошибки.</span><span class="sxs-lookup"><span data-stu-id="cfc43-215">These steps (4 - 7 in this section) will no longer be required after the bug has been resolved.</span></span>
 
-<span data-ttu-id="a1491-216">Чтобы импортировать *Microsoft Graph* в свой проект, [скачайте файл MSGraph_LabPlugins.zip](https://github.com/Microsoft/HolographicAcademy/raw/Azure-MixedReality-Labs/Azure%20Mixed%20Reality%20Labs/MR%20and%20Azure%20311%20-%20Microsoft%20Graph/MSGraph_LabPlugins.unitypackage).</span><span class="sxs-lookup"><span data-stu-id="a1491-216">To import *Microsoft Graph* into your own project, [download the MSGraph_LabPlugins.zip file](https://github.com/Microsoft/HolographicAcademy/raw/Azure-MixedReality-Labs/Azure%20Mixed%20Reality%20Labs/MR%20and%20Azure%20311%20-%20Microsoft%20Graph/MSGraph_LabPlugins.unitypackage).</span></span> <span data-ttu-id="a1491-217">Этот пакет был создан с использованием версий библиотек, которые были проверены.</span><span class="sxs-lookup"><span data-stu-id="a1491-217">This package has been created with versions of the libraries that have been tested.</span></span>
+<span data-ttu-id="cfc43-216">Чтобы импортировать *Microsoft Graph* в свой проект, [скачайте файл MSGraph_LabPlugins.zip](https://github.com/Microsoft/HolographicAcademy/raw/Azure-MixedReality-Labs/Azure%20Mixed%20Reality%20Labs/MR%20and%20Azure%20311%20-%20Microsoft%20Graph/MSGraph_LabPlugins.unitypackage).</span><span class="sxs-lookup"><span data-stu-id="cfc43-216">To import *Microsoft Graph* into your own project, [download the MSGraph_LabPlugins.zip file](https://github.com/Microsoft/HolographicAcademy/raw/Azure-MixedReality-Labs/Azure%20Mixed%20Reality%20Labs/MR%20and%20Azure%20311%20-%20Microsoft%20Graph/MSGraph_LabPlugins.unitypackage).</span></span> <span data-ttu-id="cfc43-217">Этот пакет был создан с использованием версий библиотек, которые были проверены.</span><span class="sxs-lookup"><span data-stu-id="cfc43-217">This package has been created with versions of the libraries that have been tested.</span></span>
 
-<span data-ttu-id="a1491-218">Если вы хотите узнать больше о том, как добавить пользовательские библиотеки DLL в проект Unity, [перейдите по этой ссылке](https://docs.unity3d.com/Manual/UsingDLL.html).</span><span class="sxs-lookup"><span data-stu-id="a1491-218">If you wish to know more about how to add custom DLLs to your Unity project, [follow this link](https://docs.unity3d.com/Manual/UsingDLL.html).</span></span>
+<span data-ttu-id="cfc43-218">Если вы хотите узнать больше о том, как добавить пользовательские библиотеки DLL в проект Unity, [перейдите по этой ссылке](https://docs.unity3d.com/Manual/UsingDLL.html).</span><span class="sxs-lookup"><span data-stu-id="cfc43-218">If you wish to know more about how to add custom DLLs to your Unity project, [follow this link](https://docs.unity3d.com/Manual/UsingDLL.html).</span></span>
 
-<span data-ttu-id="a1491-219">Чтобы импортировать пакет, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="a1491-219">To import the package:</span></span>
+<span data-ttu-id="cfc43-219">Чтобы импортировать пакет, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="cfc43-219">To import the package:</span></span>
 
-1.  <span data-ttu-id="a1491-220">Добавьте пакет Unity в Unity с помощью команды **Assets**  >  **Import Package**  >  меню **настраиваемый пакет** импорт активов.</span><span class="sxs-lookup"><span data-stu-id="a1491-220">Add the Unity Package to Unity by using the **Assets** > **Import Package** > **Custom Package** menu option.</span></span> <span data-ttu-id="a1491-221">Выберите только что скачанный пакет.</span><span class="sxs-lookup"><span data-stu-id="a1491-221">Select the package you just downloaded.</span></span>
+1.  <span data-ttu-id="cfc43-220">Добавьте пакет Unity в Unity с помощью команды **Assets**  >  **Import Package**  >  меню **настраиваемый пакет** импорт активов.</span><span class="sxs-lookup"><span data-stu-id="cfc43-220">Add the Unity Package to Unity by using the **Assets** > **Import Package** > **Custom Package** menu option.</span></span> <span data-ttu-id="cfc43-221">Выберите только что скачанный пакет.</span><span class="sxs-lookup"><span data-stu-id="cfc43-221">Select the package you just downloaded.</span></span>
 
-2.  <span data-ttu-id="a1491-222">В появившемся окне **Импорт пакета Unity** убедитесь, что выбраны все компоненты **подключаемых модулей** (включая).</span><span class="sxs-lookup"><span data-stu-id="a1491-222">In the **Import Unity Package** box that pops up, ensure everything under (and including) **Plugins** is selected.</span></span>
+2.  <span data-ttu-id="cfc43-222">В появившемся окне **Импорт пакета Unity** убедитесь, что выбраны все компоненты **подключаемых модулей** (включая).</span><span class="sxs-lookup"><span data-stu-id="cfc43-222">In the **Import Unity Package** box that pops up, ensure everything under (and including) **Plugins** is selected.</span></span>
 
     ![](images/AzureLabs-Lab311-20.png)
 
-3.  <span data-ttu-id="a1491-223">Нажмите кнопку **Импорт** , чтобы добавить элементы в проект.</span><span class="sxs-lookup"><span data-stu-id="a1491-223">Click the **Import** button to add the items to your project.</span></span>
+3.  <span data-ttu-id="cfc43-223">Нажмите кнопку **Импорт** , чтобы добавить элементы в проект.</span><span class="sxs-lookup"><span data-stu-id="cfc43-223">Click the **Import** button to add the items to your project.</span></span>
 
-4.  <span data-ttu-id="a1491-224">Перейдите в папку **мсграф** в разделе **подключаемые модули** на *панели проект* и выберите подключаемый модуль **Microsoft. Identity. Client** .</span><span class="sxs-lookup"><span data-stu-id="a1491-224">Go to the **MSGraph** folder under **Plugins** in the *Project Panel* and select the plugin called **Microsoft.Identity.Client** .</span></span>
+4.  <span data-ttu-id="cfc43-224">Перейдите в папку **мсграф** в разделе **подключаемые модули** на *панели проект* и выберите подключаемый модуль **Microsoft. Identity. Client**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-224">Go to the **MSGraph** folder under **Plugins** in the *Project Panel* and select the plugin called **Microsoft.Identity.Client**.</span></span>
 
     ![](images/AzureLabs-Lab311-21.png)
 
-5.  <span data-ttu-id="a1491-225">Выбрав *подключаемый модуль* , убедитесь, что **все платформы** не установлены, убедитесь, что флажок **всаплайер** также не установлен, а затем нажмите кнопку **Применить** .</span><span class="sxs-lookup"><span data-stu-id="a1491-225">With the *plugin* selected, ensure that **Any Platform** is unchecked, then ensure that **WSAPlayer** is also unchecked, then click **Apply** .</span></span> <span data-ttu-id="a1491-226">Это необходимо только для того, чтобы убедиться, что файлы настроены правильно.</span><span class="sxs-lookup"><span data-stu-id="a1491-226">This is just to confirm that the files are configured correctly.</span></span>
+5.  <span data-ttu-id="cfc43-225">Выбрав *подключаемый модуль* , убедитесь, что **все платформы** не установлены, убедитесь, что флажок **всаплайер** также не установлен, а затем нажмите кнопку **Применить**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-225">With the *plugin* selected, ensure that **Any Platform** is unchecked, then ensure that **WSAPlayer** is also unchecked, then click **Apply**.</span></span> <span data-ttu-id="cfc43-226">Это необходимо только для того, чтобы убедиться, что файлы настроены правильно.</span><span class="sxs-lookup"><span data-stu-id="cfc43-226">This is just to confirm that the files are configured correctly.</span></span>
 
     ![](images/AzureLabs-Lab311-22.png)
 
     > [!NOTE] 
-    > <span data-ttu-id="a1491-227">Пометка этих подключаемых модулей настраивает их для использования только в редакторе Unity.</span><span class="sxs-lookup"><span data-stu-id="a1491-227">Marking these plugins configures them to only be used in the Unity Editor.</span></span> <span data-ttu-id="a1491-228">В папке WSA имеется другой набор библиотек DLL, который будет использоваться после экспорта проекта из Unity в качестве универсального приложения Windows.</span><span class="sxs-lookup"><span data-stu-id="a1491-228">There are a different set of DLLs in the WSA folder which will be used after the project is exported from Unity as a Universal Windows Application.</span></span>
+    > <span data-ttu-id="cfc43-227">Пометка этих подключаемых модулей настраивает их для использования только в редакторе Unity.</span><span class="sxs-lookup"><span data-stu-id="cfc43-227">Marking these plugins configures them to only be used in the Unity Editor.</span></span> <span data-ttu-id="cfc43-228">В папке WSA имеется другой набор библиотек DLL, который будет использоваться после экспорта проекта из Unity в качестве универсального приложения Windows.</span><span class="sxs-lookup"><span data-stu-id="cfc43-228">There are a different set of DLLs in the WSA folder which will be used after the project is exported from Unity as a Universal Windows Application.</span></span>
 
-6.  <span data-ttu-id="a1491-229">Далее необходимо открыть папку **WSA** в папке **мсграф**</span><span class="sxs-lookup"><span data-stu-id="a1491-229">Next, you need to open the **WSA** folder, within the **MSGraph** folder.</span></span> <span data-ttu-id="a1491-230">Вы увидите копию того же файла, который вы только что настроили.</span><span class="sxs-lookup"><span data-stu-id="a1491-230">You will see a copy of the same file you just configured.</span></span> <span data-ttu-id="a1491-231">Выберите файл, а затем в инспекторе:</span><span class="sxs-lookup"><span data-stu-id="a1491-231">Select the file, and then in the inspector:</span></span>
+6.  <span data-ttu-id="cfc43-229">Далее необходимо открыть папку **WSA** в папке **мсграф**</span><span class="sxs-lookup"><span data-stu-id="cfc43-229">Next, you need to open the **WSA** folder, within the **MSGraph** folder.</span></span> <span data-ttu-id="cfc43-230">Вы увидите копию того же файла, который вы только что настроили.</span><span class="sxs-lookup"><span data-stu-id="cfc43-230">You will see a copy of the same file you just configured.</span></span> <span data-ttu-id="cfc43-231">Выберите файл, а затем в инспекторе:</span><span class="sxs-lookup"><span data-stu-id="cfc43-231">Select the file, and then in the inspector:</span></span>
 
-    -   <span data-ttu-id="a1491-232">Убедитесь, что **все платформы** не **установлены и установлен** **флажок** **только** **всаплайер** .</span><span class="sxs-lookup"><span data-stu-id="a1491-232">ensure that **Any Platform** is **unchecked** , and that **only** **WSAPlayer** is **checked** .</span></span>
+    -   <span data-ttu-id="cfc43-232">Убедитесь, что **все платформы** не **установлены и установлен** **флажок** **только** **всаплайер** .</span><span class="sxs-lookup"><span data-stu-id="cfc43-232">ensure that **Any Platform** is **unchecked**, and that **only** **WSAPlayer** is **checked**.</span></span>
 
-    -   <span data-ttu-id="a1491-233">Убедитесь, что **пакет SDK** имеет значение **UWP** , а для **серверной части скрипта** задано значение **net** .</span><span class="sxs-lookup"><span data-stu-id="a1491-233">Ensure **SDK** is set to **UWP** , and **Scripting Backend** is set to **Dot Net**</span></span>
+    -   <span data-ttu-id="cfc43-233">Убедитесь, что **пакет SDK** имеет значение **UWP**, а для **серверной части скрипта** задано значение **net** .</span><span class="sxs-lookup"><span data-stu-id="cfc43-233">Ensure **SDK** is set to **UWP**, and **Scripting Backend** is set to **Dot Net**</span></span>
 
-    -   <span data-ttu-id="a1491-234">Убедитесь, что флажок **не обрабатывать** **установлен** .</span><span class="sxs-lookup"><span data-stu-id="a1491-234">Ensure that **Don't process** is **checked** .</span></span>
+    -   <span data-ttu-id="cfc43-234">Убедитесь, что флажок **не обрабатывать** **установлен**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-234">Ensure that **Don't process** is **checked**.</span></span>
 
         ![](images/AzureLabs-Lab311-23.png)
 
-7.  <span data-ttu-id="a1491-235">Нажмите кнопку **Применить** .</span><span class="sxs-lookup"><span data-stu-id="a1491-235">Click **Apply** .</span></span>
+7.  <span data-ttu-id="cfc43-235">Щелкните **Применить**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-235">Click **Apply**.</span></span>
 
-## <a name="chapter-4---camera-setup"></a><span data-ttu-id="a1491-236">Глава 4. Настройка камеры</span><span class="sxs-lookup"><span data-stu-id="a1491-236">Chapter 4 - Camera Setup</span></span>
+## <a name="chapter-4---camera-setup"></a><span data-ttu-id="cfc43-236">Глава 4. Настройка камеры</span><span class="sxs-lookup"><span data-stu-id="cfc43-236">Chapter 4 - Camera Setup</span></span>
 
-<span data-ttu-id="a1491-237">В этой главе вы настроите основную камеру для сцены:</span><span class="sxs-lookup"><span data-stu-id="a1491-237">During this Chapter you will set up the Main Camera of your scene:</span></span>
+<span data-ttu-id="cfc43-237">В этой главе вы настроите основную камеру для сцены:</span><span class="sxs-lookup"><span data-stu-id="cfc43-237">During this Chapter you will set up the Main Camera of your scene:</span></span>
 
-1.  <span data-ttu-id="a1491-238">На *панели Иерархия* выберите **основную камеру** .</span><span class="sxs-lookup"><span data-stu-id="a1491-238">In the *Hierarchy Panel* , select the **Main Camera** .</span></span>
+1.  <span data-ttu-id="cfc43-238">На *панели Иерархия* выберите **основную камеру**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-238">In the *Hierarchy Panel*, select the **Main Camera**.</span></span>
 
-2.  <span data-ttu-id="a1491-239">После выбора вы сможете увидеть все компоненты **основной камеры** на панели *инспектора* .</span><span class="sxs-lookup"><span data-stu-id="a1491-239">Once selected, you will be able to see all the components of the **Main Camera** in the *Inspector* panel.</span></span>
+2.  <span data-ttu-id="cfc43-239">После выбора вы сможете увидеть все компоненты **основной камеры** на панели *инспектора* .</span><span class="sxs-lookup"><span data-stu-id="cfc43-239">Once selected, you will be able to see all the components of the **Main Camera** in the *Inspector* panel.</span></span>
 
-    1.  <span data-ttu-id="a1491-240">**Объект Camera** должен называться **основной камерой** (Обратите внимание на орфографию!)</span><span class="sxs-lookup"><span data-stu-id="a1491-240">The **Camera object** must be named **Main Camera** (note the spelling!)</span></span>
+    1.  <span data-ttu-id="cfc43-240">**Объект Camera** должен называться **основной камерой** (Обратите внимание на орфографию!)</span><span class="sxs-lookup"><span data-stu-id="cfc43-240">The **Camera object** must be named **Main Camera** (note the spelling!)</span></span>
 
-    2.  <span data-ttu-id="a1491-241">Для **тега** основной камеры необходимо задать значение **маинкамера** (Обратите внимание на правописание).</span><span class="sxs-lookup"><span data-stu-id="a1491-241">The Main Camera **Tag** must be set to **MainCamera** (note the spelling!)</span></span>
+    2.  <span data-ttu-id="cfc43-241">Для **тега** основной камеры необходимо задать значение **маинкамера** (Обратите внимание на правописание).</span><span class="sxs-lookup"><span data-stu-id="cfc43-241">The Main Camera **Tag** must be set to **MainCamera** (note the spelling!)</span></span>
 
-    3.  <span data-ttu-id="a1491-242">Убедитесь, что для параметра **Расположение преобразования** задано значение **0, 0, 0** .</span><span class="sxs-lookup"><span data-stu-id="a1491-242">Make sure the **Transform Position** is set to **0, 0, 0**</span></span>
+    3.  <span data-ttu-id="cfc43-242">Убедитесь, что для параметра **Расположение преобразования** задано значение **0, 0, 0** .</span><span class="sxs-lookup"><span data-stu-id="cfc43-242">Make sure the **Transform Position** is set to **0, 0, 0**</span></span>
 
-    4.  <span data-ttu-id="a1491-243">Установить для **чистых флагов** **сплошной цвет**</span><span class="sxs-lookup"><span data-stu-id="a1491-243">Set **Clear Flags** to **Solid Color**</span></span>
+    4.  <span data-ttu-id="cfc43-243">Установить для **чистых флагов** **сплошной цвет**</span><span class="sxs-lookup"><span data-stu-id="cfc43-243">Set **Clear Flags** to **Solid Color**</span></span>
 
-    5.  <span data-ttu-id="a1491-244">Установить черный **цвет фона** для компонента камеры **, альфа 0** **(шестнадцатеричный код: #00000000)**</span><span class="sxs-lookup"><span data-stu-id="a1491-244">Set the **Background Color** of the Camera Component to **Black, Alpha 0** **(Hex Code: #00000000)**</span></span>
+    5.  <span data-ttu-id="cfc43-244">Установить черный **цвет фона** для компонента камеры **, альфа 0** **(шестнадцатеричный код: #00000000)**</span><span class="sxs-lookup"><span data-stu-id="cfc43-244">Set the **Background Color** of the Camera Component to **Black, Alpha 0** **(Hex Code: #00000000)**</span></span>
 
         ![](images/AzureLabs-Lab311-24.png)
 
-3.  <span data-ttu-id="a1491-245">Итоговая структура объектов на *панели Иерархия* должна выглядеть так, как показано на рисунке ниже:</span><span class="sxs-lookup"><span data-stu-id="a1491-245">The final object structure in the *Hierarchy Panel* should be like the one shown in the image below:</span></span>
+3.  <span data-ttu-id="cfc43-245">Итоговая структура объектов на *панели Иерархия* должна выглядеть так, как показано на рисунке ниже:</span><span class="sxs-lookup"><span data-stu-id="cfc43-245">The final object structure in the *Hierarchy Panel* should be like the one shown in the image below:</span></span>
 
     ![](images/AzureLabs-Lab311-25.png)
 
-## <a name="chapter-5---create-meetingsui-class"></a><span data-ttu-id="a1491-246">Глава 5. Создание класса Митингсуи</span><span class="sxs-lookup"><span data-stu-id="a1491-246">Chapter 5 - Create MeetingsUI class</span></span>
+## <a name="chapter-5---create-meetingsui-class"></a><span data-ttu-id="cfc43-246">Глава 5. Создание класса Митингсуи</span><span class="sxs-lookup"><span data-stu-id="cfc43-246">Chapter 5 - Create MeetingsUI class</span></span>
 
-<span data-ttu-id="a1491-247">Первый сценарий, который необходимо создать, — это **митингсуи** , который отвечает за размещение и заполнение пользовательского интерфейса приложения (приветственное сообщение, инструкции и сведения о собраниях).</span><span class="sxs-lookup"><span data-stu-id="a1491-247">The first script you need to create is **MeetingsUI** , which is responsible for hosting and populating the UI of the application (welcome message, instructions and the meetings details).</span></span>
+<span data-ttu-id="cfc43-247">Первый сценарий, который необходимо создать, — это **митингсуи**, который отвечает за размещение и заполнение пользовательского интерфейса приложения (приветственное сообщение, инструкции и сведения о собраниях).</span><span class="sxs-lookup"><span data-stu-id="cfc43-247">The first script you need to create is **MeetingsUI**, which is responsible for hosting and populating the UI of the application (welcome message, instructions and the meetings details).</span></span>
 
-<span data-ttu-id="a1491-248">Чтобы создать этот класс, сделайте следующее:</span><span class="sxs-lookup"><span data-stu-id="a1491-248">To create this class:</span></span>
+<span data-ttu-id="cfc43-248">Чтобы создать этот класс, сделайте следующее:</span><span class="sxs-lookup"><span data-stu-id="cfc43-248">To create this class:</span></span>
 
-1.  <span data-ttu-id="a1491-249">Щелкните правой кнопкой мыши папку **Assets** на *панели проект* , а затем выберите **создать**  >  **папку** .</span><span class="sxs-lookup"><span data-stu-id="a1491-249">Right-click on the **Assets** folder in the *Project Panel* , then select **Create** > **Folder** .</span></span> <span data-ttu-id="a1491-250">Назовите папку **Scripts** .</span><span class="sxs-lookup"><span data-stu-id="a1491-250">Name the folder **Scripts** .</span></span>
+1.  <span data-ttu-id="cfc43-249">Щелкните правой кнопкой мыши папку **Assets** на *панели проект*, а затем выберите **создать**  >  **папку**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-249">Right-click on the **Assets** folder in the *Project Panel*, then select **Create** > **Folder**.</span></span> <span data-ttu-id="cfc43-250">Назовите папку **Scripts**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-250">Name the folder **Scripts**.</span></span>
 
     ![](images/AzureLabs-Lab311-26.png)
     ![](images/AzureLabs-Lab311-27.png)
 
-2.  <span data-ttu-id="a1491-251">Откройте папку **Scripts** , а затем в этой папке щелкните правой кнопкой мыши и в контекстном меню выберите **создать**  >  **скрипт C#** .</span><span class="sxs-lookup"><span data-stu-id="a1491-251">Open the **Scripts** folder then, within that folder, right-click, **Create** > **C# Script** .</span></span> <span data-ttu-id="a1491-252">Назовите сценарий **митингсуи.**</span><span class="sxs-lookup"><span data-stu-id="a1491-252">Name the script **MeetingsUI.**</span></span>
+2.  <span data-ttu-id="cfc43-251">Откройте папку **Scripts** , а затем в этой папке щелкните правой кнопкой мыши и в контекстном меню выберите **создать**  >  **скрипт C#**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-251">Open the **Scripts** folder then, within that folder, right-click, **Create** > **C# Script**.</span></span> <span data-ttu-id="cfc43-252">Назовите сценарий **митингсуи.**</span><span class="sxs-lookup"><span data-stu-id="cfc43-252">Name the script **MeetingsUI.**</span></span>
 
     ![](images/AzureLabs-Lab311-28.png)
 
-3.  <span data-ttu-id="a1491-253">Дважды щелкните новый скрипт **митингсуи** , чтобы открыть его в *Visual Studio* .</span><span class="sxs-lookup"><span data-stu-id="a1491-253">Double-click on the new **MeetingsUI** script to open it with *Visual Studio* .</span></span>
+3.  <span data-ttu-id="cfc43-253">Дважды щелкните новый скрипт **митингсуи** , чтобы открыть его в *Visual Studio*.</span><span class="sxs-lookup"><span data-stu-id="cfc43-253">Double-click on the new **MeetingsUI** script to open it with *Visual Studio*.</span></span>
 
-4.  <span data-ttu-id="a1491-254">Вставьте следующие пространства имен:</span><span class="sxs-lookup"><span data-stu-id="a1491-254">Insert the following namespaces:</span></span>
+4.  <span data-ttu-id="cfc43-254">Вставьте следующие пространства имен:</span><span class="sxs-lookup"><span data-stu-id="cfc43-254">Insert the following namespaces:</span></span>
 
     ```csharp
     using System;
     using UnityEngine;
     ```
 
-5.  <span data-ttu-id="a1491-255">Внутри класса вставьте следующие переменные:</span><span class="sxs-lookup"><span data-stu-id="a1491-255">Inside the class insert the following variables:</span></span>
+5.  <span data-ttu-id="cfc43-255">Внутри класса вставьте следующие переменные:</span><span class="sxs-lookup"><span data-stu-id="cfc43-255">Inside the class insert the following variables:</span></span>
 
     ```csharp    
         /// <summary>
@@ -298,7 +298,7 @@ ms.locfileid: "91957844"
         private TextMesh _meetingDisplayTextMesh;
     ```
 
-6.  <span data-ttu-id="a1491-256">Затем замените метод **Start ()** и добавьте метод **спящего режима ()** .</span><span class="sxs-lookup"><span data-stu-id="a1491-256">Then replace the **Start()** method and add an **Awake()** method.</span></span> <span data-ttu-id="a1491-257">Они будут вызываться при инициализации класса:</span><span class="sxs-lookup"><span data-stu-id="a1491-257">These will be called when the class initializes:</span></span>
+6.  <span data-ttu-id="cfc43-256">Затем замените метод **Start ()** и добавьте метод **спящего режима ()** .</span><span class="sxs-lookup"><span data-stu-id="cfc43-256">Then replace the **Start()** method and add an **Awake()** method.</span></span> <span data-ttu-id="cfc43-257">Они будут вызываться при инициализации класса:</span><span class="sxs-lookup"><span data-stu-id="cfc43-257">These will be called when the class initializes:</span></span>
 
     ```csharp    
         /// <summary>
@@ -319,7 +319,7 @@ ms.locfileid: "91957844"
         }
     ```
 
-7.  <span data-ttu-id="a1491-258">Добавьте методы, отвечающие за создание *пользовательского интерфейса совещаний* , и заполните его текущими собраниями по запросу:</span><span class="sxs-lookup"><span data-stu-id="a1491-258">Add the methods responsible for creating the *Meetings UI* and populate it with the current meetings when requested:</span></span>
+7.  <span data-ttu-id="cfc43-258">Добавьте методы, отвечающие за создание *пользовательского интерфейса совещаний* , и заполните его текущими собраниями по запросу:</span><span class="sxs-lookup"><span data-stu-id="cfc43-258">Add the methods responsible for creating the *Meetings UI* and populate it with the current meetings when requested:</span></span>
 
     ```csharp    
         /// <summary>
@@ -367,21 +367,21 @@ ms.locfileid: "91957844"
         }
     ```
 
-8. <span data-ttu-id="a1491-259">**Удалите** метод **Update ()** и **Сохраните изменения** в Visual Studio перед возвратом в Unity.</span><span class="sxs-lookup"><span data-stu-id="a1491-259">**Delete** the **Update()** method, and **save your changes** in Visual Studio before returning to Unity.</span></span> 
+8. <span data-ttu-id="cfc43-259">**Удалите** метод **Update ()** и **Сохраните изменения** в Visual Studio перед возвратом в Unity.</span><span class="sxs-lookup"><span data-stu-id="cfc43-259">**Delete** the **Update()** method, and **save your changes** in Visual Studio before returning to Unity.</span></span> 
 
-## <a name="chapter-6---create-the-graph-class"></a><span data-ttu-id="a1491-260">Глава 6. Создание класса Graph</span><span class="sxs-lookup"><span data-stu-id="a1491-260">Chapter 6 - Create the Graph class</span></span>
+## <a name="chapter-6---create-the-graph-class"></a><span data-ttu-id="cfc43-260">Глава 6. Создание класса Graph</span><span class="sxs-lookup"><span data-stu-id="cfc43-260">Chapter 6 - Create the Graph class</span></span>
 
-<span data-ttu-id="a1491-261">Следующий скрипт для создания — это сценарий **графа** .</span><span class="sxs-lookup"><span data-stu-id="a1491-261">The next script to create is the **Graph** script.</span></span> <span data-ttu-id="a1491-262">Этот сценарий отвечает за выполнение вызовов для проверки подлинности пользователя и получение запланированных собраний за текущий день из календаря пользователя.</span><span class="sxs-lookup"><span data-stu-id="a1491-262">This script is responsible for making the calls to authenticate the user and retrieve the scheduled meetings for the current day from the user's calendar.</span></span>
+<span data-ttu-id="cfc43-261">Следующий скрипт для создания — это сценарий **графа** .</span><span class="sxs-lookup"><span data-stu-id="cfc43-261">The next script to create is the **Graph** script.</span></span> <span data-ttu-id="cfc43-262">Этот сценарий отвечает за выполнение вызовов для проверки подлинности пользователя и получение запланированных собраний за текущий день из календаря пользователя.</span><span class="sxs-lookup"><span data-stu-id="cfc43-262">This script is responsible for making the calls to authenticate the user and retrieve the scheduled meetings for the current day from the user's calendar.</span></span>
 
-<span data-ttu-id="a1491-263">Чтобы создать этот класс, сделайте следующее:</span><span class="sxs-lookup"><span data-stu-id="a1491-263">To create this class:</span></span>
+<span data-ttu-id="cfc43-263">Чтобы создать этот класс, сделайте следующее:</span><span class="sxs-lookup"><span data-stu-id="cfc43-263">To create this class:</span></span>
 
-1.  <span data-ttu-id="a1491-264">Дважды щелкните папку **Scripts** , чтобы открыть ее.</span><span class="sxs-lookup"><span data-stu-id="a1491-264">Double-click on the **Scripts** folder, to open it.</span></span>
+1.  <span data-ttu-id="cfc43-264">Дважды щелкните папку **Scripts** , чтобы открыть ее.</span><span class="sxs-lookup"><span data-stu-id="cfc43-264">Double-click on the **Scripts** folder, to open it.</span></span>
 
-2.  <span data-ttu-id="a1491-265">Щелкните правой кнопкой мыши внутри папки **Scripts** и выберите пункт **создать**  >  **скрипт C#** .</span><span class="sxs-lookup"><span data-stu-id="a1491-265">Right-click inside the **Scripts** folder, click **Create** > **C# Script** .</span></span> <span data-ttu-id="a1491-266">Присвойте имя **графу** скрипта.</span><span class="sxs-lookup"><span data-stu-id="a1491-266">Name the script **Graph** .</span></span>
+2.  <span data-ttu-id="cfc43-265">Щелкните правой кнопкой мыши внутри папки **Scripts** и выберите пункт **создать**  >  **скрипт C#**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-265">Right-click inside the **Scripts** folder, click **Create** > **C# Script**.</span></span> <span data-ttu-id="cfc43-266">Присвойте имя **графу** скрипта.</span><span class="sxs-lookup"><span data-stu-id="cfc43-266">Name the script **Graph**.</span></span>
 
-3.  <span data-ttu-id="a1491-267">Дважды щелкните скрипт, чтобы открыть его в Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="a1491-267">Double-click on the script to open it with Visual Studio.</span></span>
+3.  <span data-ttu-id="cfc43-267">Дважды щелкните скрипт, чтобы открыть его в Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="cfc43-267">Double-click on the script to open it with Visual Studio.</span></span>
 
-4.  <span data-ttu-id="a1491-268">Вставьте следующие пространства имен:</span><span class="sxs-lookup"><span data-stu-id="a1491-268">Insert the following namespaces:</span></span>
+4.  <span data-ttu-id="cfc43-268">Вставьте следующие пространства имен:</span><span class="sxs-lookup"><span data-stu-id="cfc43-268">Insert the following namespaces:</span></span>
 
     ```csharp
     using System.Collections.Generic;
@@ -398,11 +398,11 @@ ms.locfileid: "91957844"
     ```
 
     > [!IMPORTANT]
-    > <span data-ttu-id="a1491-269">Обратите внимание, что части кода в этом скрипте заключены в оболочку для [директив предварительной компиляции](https://docs.unity3d.com/Manual/PlatformDependentCompilation.html). Это позволяет избежать проблем с библиотеками при построении решения Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="a1491-269">You will notice that parts of the code in this script are wrapped around [Precompile Directives](https://docs.unity3d.com/Manual/PlatformDependentCompilation.html), this is to avoid issues with the libraries when building the Visual Studio Solution.</span></span>
+    > <span data-ttu-id="cfc43-269">Обратите внимание, что части кода в этом скрипте заключены в оболочку для [директив предварительной компиляции](https://docs.unity3d.com/Manual/PlatformDependentCompilation.html). Это позволяет избежать проблем с библиотеками при построении решения Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="cfc43-269">You will notice that parts of the code in this script are wrapped around [Precompile Directives](https://docs.unity3d.com/Manual/PlatformDependentCompilation.html), this is to avoid issues with the libraries when building the Visual Studio Solution.</span></span>
 
-5.  <span data-ttu-id="a1491-270">Удалите методы **Start ()** и **Update ()** , так как они не будут использоваться.</span><span class="sxs-lookup"><span data-stu-id="a1491-270">Delete the **Start()** and **Update()** methods, as they will not be used.</span></span>
+5.  <span data-ttu-id="cfc43-270">Удалите методы **Start ()** и **Update ()** , так как они не будут использоваться.</span><span class="sxs-lookup"><span data-stu-id="cfc43-270">Delete the **Start()** and **Update()** methods, as they will not be used.</span></span>
 
-6.  <span data-ttu-id="a1491-271">За пределами класса **Graph** вставьте следующие объекты, которые необходимы для десериализации объекта JSON, представляющего ежедневные запланированные собрания:</span><span class="sxs-lookup"><span data-stu-id="a1491-271">Outside the **Graph** class, insert the following objects, which are necessary to deserialize the JSON object representing the daily scheduled meetings:</span></span>
+6.  <span data-ttu-id="cfc43-271">За пределами класса **Graph** вставьте следующие объекты, которые необходимы для десериализации объекта JSON, представляющего ежедневные запланированные собрания:</span><span class="sxs-lookup"><span data-stu-id="cfc43-271">Outside the **Graph** class, insert the following objects, which are necessary to deserialize the JSON object representing the daily scheduled meetings:</span></span>
 
     ```csharp
     /// <summary>
@@ -449,7 +449,7 @@ ms.locfileid: "91957844"
     }
     ```
 
-7.  <span data-ttu-id="a1491-272">В классе **Graph** добавьте следующие переменные:</span><span class="sxs-lookup"><span data-stu-id="a1491-272">Inside the **Graph** class, add the following variables:</span></span>
+7.  <span data-ttu-id="cfc43-272">В классе **Graph** добавьте следующие переменные:</span><span class="sxs-lookup"><span data-stu-id="cfc43-272">Inside the **Graph** class, add the following variables:</span></span>
 
     ```csharp    
         /// <summary>
@@ -475,9 +475,9 @@ ms.locfileid: "91957844"
     ```
 
     > [!NOTE]
-    > <span data-ttu-id="a1491-273">Измените значение **AppID** , чтобы оно было **идентификатором приложения** , записанным в **[главе 1](#chapter-1---create-your-app-in-the-application-registration-portal), шаг 4** .</span><span class="sxs-lookup"><span data-stu-id="a1491-273">Change the **appId** value to be the **App Id** that you have noted in **[Chapter 1](#chapter-1---create-your-app-in-the-application-registration-portal), step 4** .</span></span> <span data-ttu-id="a1491-274">Это значение должно совпадать со значением, отображаемым на **портале регистрации приложений** на странице регистрации приложения.</span><span class="sxs-lookup"><span data-stu-id="a1491-274">This value should be the same as that displayed in the **Application Registration Portal,** in your application registration page.</span></span>
+    > <span data-ttu-id="cfc43-273">Измените значение **AppID** , чтобы оно было **идентификатором приложения** , записанным в **[главе 1](#chapter-1---create-your-app-in-the-application-registration-portal), шаг 4**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-273">Change the **appId** value to be the **App Id** that you have noted in **[Chapter 1](#chapter-1---create-your-app-in-the-application-registration-portal), step 4**.</span></span> <span data-ttu-id="cfc43-274">Это значение должно совпадать со значением, отображаемым на **портале регистрации приложений** на странице регистрации приложения.</span><span class="sxs-lookup"><span data-stu-id="cfc43-274">This value should be the same as that displayed in the **Application Registration Portal,** in your application registration page.</span></span>
 
-8.  <span data-ttu-id="a1491-275">В классе **Graph** добавьте методы **сигнинасинк ()** и **акуиретокенасинк ()** , которые предложит пользователю вставить учетные данные для входа.</span><span class="sxs-lookup"><span data-stu-id="a1491-275">Within the **Graph** class, add the methods **SignInAsync()** and **AquireTokenAsync()** , that will prompt the user to insert the log-in credentials.</span></span>
+8.  <span data-ttu-id="cfc43-275">В классе **Graph** добавьте методы **сигнинасинк ()** и **акуиретокенасинк ()**, которые предложит пользователю вставить учетные данные для входа.</span><span class="sxs-lookup"><span data-stu-id="cfc43-275">Within the **Graph** class, add the methods **SignInAsync()** and **AquireTokenAsync()**, that will prompt the user to insert the log-in credentials.</span></span>
 
     ```csharp
         /// <summary>
@@ -546,11 +546,11 @@ ms.locfileid: "91957844"
         }
     ```
 
-9.  <span data-ttu-id="a1491-276">Добавьте следующие два метода:</span><span class="sxs-lookup"><span data-stu-id="a1491-276">Add the following two methods:</span></span>
+9.  <span data-ttu-id="cfc43-276">Добавьте следующие два метода:</span><span class="sxs-lookup"><span data-stu-id="cfc43-276">Add the following two methods:</span></span>
 
-    1.  <span data-ttu-id="a1491-277">**Буилдтодайкалендарендпоинт ()** , который создает URI, указывающий день, и интервал времени, в который извлекаются запланированные собрания.</span><span class="sxs-lookup"><span data-stu-id="a1491-277">**BuildTodayCalendarEndpoint()** , which builds the URI specifying the day, and time span, in which the scheduled meetings are retrieved.</span></span>
+    1.  <span data-ttu-id="cfc43-277">**Буилдтодайкалендарендпоинт ()**, который создает URI, указывающий день, и интервал времени, в который извлекаются запланированные собрания.</span><span class="sxs-lookup"><span data-stu-id="cfc43-277">**BuildTodayCalendarEndpoint()**, which builds the URI specifying the day, and time span, in which the scheduled meetings are retrieved.</span></span>
 
-    2.  <span data-ttu-id="a1491-278">**Листмитингсасинк ()** , которая запрашивает запланированные собрания *Microsoft Graph* .</span><span class="sxs-lookup"><span data-stu-id="a1491-278">**ListMeetingsAsync()** , which requests the scheduled meetings from *Microsoft Graph* .</span></span>
+    2.  <span data-ttu-id="cfc43-278">**Листмитингсасинк ()**, которая запрашивает запланированные собрания *Microsoft Graph*.</span><span class="sxs-lookup"><span data-stu-id="cfc43-278">**ListMeetingsAsync()**, which requests the scheduled meetings from *Microsoft Graph*.</span></span>
 
     ```csharp
         /// <summary>
@@ -614,21 +614,21 @@ ms.locfileid: "91957844"
         }
     ```
 
-10. <span data-ttu-id="a1491-279">Вы завершили выполнение скрипта **Graph** .</span><span class="sxs-lookup"><span data-stu-id="a1491-279">You have now completed the **Graph** script.</span></span> <span data-ttu-id="a1491-280">**Сохраните изменения** в Visual Studio перед возвратом в Unity.</span><span class="sxs-lookup"><span data-stu-id="a1491-280">**Save your changes** in Visual Studio before returning to Unity.</span></span>
+10. <span data-ttu-id="cfc43-279">Вы завершили выполнение скрипта **Graph** .</span><span class="sxs-lookup"><span data-stu-id="cfc43-279">You have now completed the **Graph** script.</span></span> <span data-ttu-id="cfc43-280">**Сохраните изменения** в Visual Studio перед возвратом в Unity.</span><span class="sxs-lookup"><span data-stu-id="cfc43-280">**Save your changes** in Visual Studio before returning to Unity.</span></span>
 
-## <a name="chapter-7---create-the-gazeinput-script"></a><span data-ttu-id="a1491-281">Глава 7. Создание скрипта Газеинпут</span><span class="sxs-lookup"><span data-stu-id="a1491-281">Chapter 7 - Create the GazeInput script</span></span>
+## <a name="chapter-7---create-the-gazeinput-script"></a><span data-ttu-id="cfc43-281">Глава 7. Создание скрипта Газеинпут</span><span class="sxs-lookup"><span data-stu-id="cfc43-281">Chapter 7 - Create the GazeInput script</span></span>
 
-<span data-ttu-id="a1491-282">Теперь создадим **газеинпут** .</span><span class="sxs-lookup"><span data-stu-id="a1491-282">You will now create the **GazeInput** .</span></span> <span data-ttu-id="a1491-283">Этот класс обрабатывает и отслеживает взгляд пользователя, используя **райкаст** , поступающий от **основной камеры** , проецирование вперед.</span><span class="sxs-lookup"><span data-stu-id="a1491-283">This class handles and keeps track of the user's gaze, using a **Raycast** coming from the **Main Camera** , projecting forward.</span></span>
+<span data-ttu-id="cfc43-282">Теперь создадим **газеинпут**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-282">You will now create the **GazeInput**.</span></span> <span data-ttu-id="cfc43-283">Этот класс обрабатывает и отслеживает взгляд пользователя, используя **райкаст** , поступающий от **основной камеры**, проецирование вперед.</span><span class="sxs-lookup"><span data-stu-id="cfc43-283">This class handles and keeps track of the user's gaze, using a **Raycast** coming from the **Main Camera**, projecting forward.</span></span>
 
-<span data-ttu-id="a1491-284">Чтобы создать скрипт, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="a1491-284">To create the script:</span></span>
+<span data-ttu-id="cfc43-284">Чтобы создать скрипт, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="cfc43-284">To create the script:</span></span>
 
-1.  <span data-ttu-id="a1491-285">Дважды щелкните папку **Scripts** , чтобы открыть ее.</span><span class="sxs-lookup"><span data-stu-id="a1491-285">Double-click on the **Scripts** folder, to open it.</span></span>
+1.  <span data-ttu-id="cfc43-285">Дважды щелкните папку **Scripts** , чтобы открыть ее.</span><span class="sxs-lookup"><span data-stu-id="cfc43-285">Double-click on the **Scripts** folder, to open it.</span></span>
 
-2.  <span data-ttu-id="a1491-286">Щелкните правой кнопкой мыши внутри папки **Scripts** и выберите пункт **создать**  >  **скрипт C#** .</span><span class="sxs-lookup"><span data-stu-id="a1491-286">Right-click inside the **Scripts** folder, click **Create** > **C# Script** .</span></span> <span data-ttu-id="a1491-287">Назовите сценарий **газеинпут** .</span><span class="sxs-lookup"><span data-stu-id="a1491-287">Name the script **GazeInput** .</span></span>
+2.  <span data-ttu-id="cfc43-286">Щелкните правой кнопкой мыши внутри папки **Scripts** и выберите пункт **создать**  >  **скрипт C#**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-286">Right-click inside the **Scripts** folder, click **Create** > **C# Script**.</span></span> <span data-ttu-id="cfc43-287">Назовите сценарий **газеинпут**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-287">Name the script **GazeInput**.</span></span>
 
-3.  <span data-ttu-id="a1491-288">Дважды щелкните скрипт, чтобы открыть его в Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="a1491-288">Double-click on the script to open it with Visual Studio.</span></span>
+3.  <span data-ttu-id="cfc43-288">Дважды щелкните скрипт, чтобы открыть его в Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="cfc43-288">Double-click on the script to open it with Visual Studio.</span></span>
 
-4.  <span data-ttu-id="a1491-289">Измените код пространства имен, чтобы он соответствовал приведенному ниже, вместе с добавлением тега **\[ System. \] Serializable** над классом **газеинпут** , чтобы его можно было сериализовать:</span><span class="sxs-lookup"><span data-stu-id="a1491-289">Change the namespaces code to match the one below, along with adding the ' **\[System.Serializable\]** ' tag above your **GazeInput** class, so that it can be serialized:</span></span>
+4.  <span data-ttu-id="cfc43-289">Измените код пространства имен, чтобы он соответствовал приведенному ниже, вместе с добавлением тега **\[ System. \] Serializable** над классом **газеинпут** , чтобы его можно было сериализовать:</span><span class="sxs-lookup"><span data-stu-id="cfc43-289">Change the namespaces code to match the one below, along with adding the '**\[System.Serializable\]**' tag above your **GazeInput** class, so that it can be serialized:</span></span>
 
     ```csharp
     using UnityEngine;
@@ -641,7 +641,7 @@ ms.locfileid: "91957844"
     {
     ```
 
-5.  <span data-ttu-id="a1491-290">В классе **газеинпут** добавьте следующие переменные:</span><span class="sxs-lookup"><span data-stu-id="a1491-290">Inside the **GazeInput** class, add the following variables:</span></span>
+5.  <span data-ttu-id="cfc43-290">В классе **газеинпут** добавьте следующие переменные:</span><span class="sxs-lookup"><span data-stu-id="cfc43-290">Inside the **GazeInput** class, add the following variables:</span></span>
 
     ```csharp    
         [Tooltip("Used to compare whether an object is to be interacted with.")]
@@ -677,7 +677,7 @@ ms.locfileid: "91957844"
         private Vector3 _gazeDirection;
     ```
 
-6.  <span data-ttu-id="a1491-291">Добавьте метод **креатекурсор ()** , чтобы создать курсор HoloLens в сцене, и вызовите метод из метода **Start ()** :</span><span class="sxs-lookup"><span data-stu-id="a1491-291">Add the **CreateCursor()** method to create the HoloLens cursor in the scene, and call the method from the **Start()** method:</span></span>
+6.  <span data-ttu-id="cfc43-291">Добавьте метод **креатекурсор ()** , чтобы создать курсор HoloLens в сцене, и вызовите метод из метода **Start ()** :</span><span class="sxs-lookup"><span data-stu-id="cfc43-291">Add the **CreateCursor()** method to create the HoloLens cursor in the scene, and call the method from the **Start()** method:</span></span>
 
     ```csharp    
         /// <summary>
@@ -708,7 +708,7 @@ ms.locfileid: "91957844"
         }
     ```
 
-7.  <span data-ttu-id="a1491-292">Следующие методы позволяют Райкасту взгляда и отслеживание объектов с сортировкой.</span><span class="sxs-lookup"><span data-stu-id="a1491-292">The following methods enable the gaze Raycast and keep track of the focused objects.</span></span>
+7.  <span data-ttu-id="cfc43-292">Следующие методы позволяют Райкасту взгляда и отслеживание объектов с сортировкой.</span><span class="sxs-lookup"><span data-stu-id="cfc43-292">The following methods enable the gaze Raycast and keep track of the focused objects.</span></span>
 
     ```csharp
     /// <summary>
@@ -804,40 +804,40 @@ ms.locfileid: "91957844"
         }
     ```
 
-8.  <span data-ttu-id="a1491-293">**Сохраните изменения** в Visual Studio перед возвратом в Unity.</span><span class="sxs-lookup"><span data-stu-id="a1491-293">**Save your changes** in Visual Studio before returning to Unity.</span></span>
+8.  <span data-ttu-id="cfc43-293">**Сохраните изменения** в Visual Studio перед возвратом в Unity.</span><span class="sxs-lookup"><span data-stu-id="cfc43-293">**Save your changes** in Visual Studio before returning to Unity.</span></span>
 
-## <a name="chapter-8---create-the-interactions-class"></a><span data-ttu-id="a1491-294">Глава 8. Создание класса взаимодействий</span><span class="sxs-lookup"><span data-stu-id="a1491-294">Chapter 8 - Create the Interactions class</span></span>
+## <a name="chapter-8---create-the-interactions-class"></a><span data-ttu-id="cfc43-294">Глава 8. Создание класса взаимодействий</span><span class="sxs-lookup"><span data-stu-id="cfc43-294">Chapter 8 - Create the Interactions class</span></span>
 
-<span data-ttu-id="a1491-295">Теперь потребуется создать скрипт **взаимодействия** , который отвечает за:</span><span class="sxs-lookup"><span data-stu-id="a1491-295">You will now need to create the **Interactions** script, which is responsible for:</span></span>
+<span data-ttu-id="cfc43-295">Теперь потребуется создать скрипт **взаимодействия** , который отвечает за:</span><span class="sxs-lookup"><span data-stu-id="cfc43-295">You will now need to create the **Interactions** script, which is responsible for:</span></span>
 
--   <span data-ttu-id="a1491-296">Обработка взаимодействия **касания** и **обзора камеры** , которая позволяет пользователю взаимодействовать с журналом "Кнопка" в сцене.</span><span class="sxs-lookup"><span data-stu-id="a1491-296">Handling the **Tap** interaction and the **Camera Gaze** , which enables the user to interact with the log in "button" in the scene.</span></span>
+-   <span data-ttu-id="cfc43-296">Обработка взаимодействия **касания** и **обзора камеры**, которая позволяет пользователю взаимодействовать с журналом "Кнопка" в сцене.</span><span class="sxs-lookup"><span data-stu-id="cfc43-296">Handling the **Tap** interaction and the **Camera Gaze**, which enables the user to interact with the log in "button" in the scene.</span></span>
 
--   <span data-ttu-id="a1491-297">Создание входного объекта "Кнопка" в сцене для пользователя, с которым будет взаимодействовать.</span><span class="sxs-lookup"><span data-stu-id="a1491-297">Creating the log in "button" object in the scene for the user to interact with.</span></span>
+-   <span data-ttu-id="cfc43-297">Создание входного объекта "Кнопка" в сцене для пользователя, с которым будет взаимодействовать.</span><span class="sxs-lookup"><span data-stu-id="cfc43-297">Creating the log in "button" object in the scene for the user to interact with.</span></span>
 
-<span data-ttu-id="a1491-298">Чтобы создать скрипт, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="a1491-298">To create the script:</span></span>
+<span data-ttu-id="cfc43-298">Чтобы создать скрипт, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="cfc43-298">To create the script:</span></span>
 
-1.  <span data-ttu-id="a1491-299">Дважды щелкните папку **Scripts** , чтобы открыть ее.</span><span class="sxs-lookup"><span data-stu-id="a1491-299">Double-click on the **Scripts** folder, to open it.</span></span>
+1.  <span data-ttu-id="cfc43-299">Дважды щелкните папку **Scripts** , чтобы открыть ее.</span><span class="sxs-lookup"><span data-stu-id="cfc43-299">Double-click on the **Scripts** folder, to open it.</span></span>
 
-2.  <span data-ttu-id="a1491-300">Щелкните правой кнопкой мыши внутри папки **Scripts** и выберите пункт **создать**  >  **скрипт C#** .</span><span class="sxs-lookup"><span data-stu-id="a1491-300">Right-click inside the **Scripts** folder, click **Create** > **C# Script** .</span></span> <span data-ttu-id="a1491-301">Назовите скрипт **взаимодействия** .</span><span class="sxs-lookup"><span data-stu-id="a1491-301">Name the script **Interactions** .</span></span>
+2.  <span data-ttu-id="cfc43-300">Щелкните правой кнопкой мыши внутри папки **Scripts** и выберите пункт **создать**  >  **скрипт C#**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-300">Right-click inside the **Scripts** folder, click **Create** > **C# Script**.</span></span> <span data-ttu-id="cfc43-301">Назовите скрипт **взаимодействия**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-301">Name the script **Interactions**.</span></span>
 
-3.  <span data-ttu-id="a1491-302">Дважды щелкните скрипт, чтобы открыть его в Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="a1491-302">Double-click on the script to open it with Visual Studio.</span></span>
+3.  <span data-ttu-id="cfc43-302">Дважды щелкните скрипт, чтобы открыть его в Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="cfc43-302">Double-click on the script to open it with Visual Studio.</span></span>
 
-4.  <span data-ttu-id="a1491-303">Вставьте следующие пространства имен:</span><span class="sxs-lookup"><span data-stu-id="a1491-303">Insert the following namespaces:</span></span>
+4.  <span data-ttu-id="cfc43-303">Вставьте следующие пространства имен:</span><span class="sxs-lookup"><span data-stu-id="cfc43-303">Insert the following namespaces:</span></span>
 
     ```csharp
     using UnityEngine;
     using UnityEngine.XR.WSA.Input;
     ```
 
-5.  <span data-ttu-id="a1491-304">Измените наследование класса **взаимодействия** , используя неизменное *поведение* , на **газеинпут** .</span><span class="sxs-lookup"><span data-stu-id="a1491-304">Change the inheritance of the **Interaction** class from *MonoBehaviour* to **GazeInput** .</span></span>
+5.  <span data-ttu-id="cfc43-304">Измените наследование класса **взаимодействия** , используя неизменное *поведение* , на **газеинпут**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-304">Change the inheritance of the **Interaction** class from *MonoBehaviour* to **GazeInput**.</span></span>
 
-    <span data-ttu-id="a1491-305">~~Взаимодействие открытых классов: одновариантное поведение~~</span><span class="sxs-lookup"><span data-stu-id="a1491-305">~~public class Interactions : MonoBehaviour~~</span></span>
+    <span data-ttu-id="cfc43-305">~~Взаимодействие открытых классов: одновариантное поведение~~</span><span class="sxs-lookup"><span data-stu-id="cfc43-305">~~public class Interactions : MonoBehaviour~~</span></span>
 
     ```csharp
     public class Interactions : GazeInput
     ```
 
-6.  <span data-ttu-id="a1491-306">Внутри класса **взаимодействия** вставьте следующую переменную:</span><span class="sxs-lookup"><span data-stu-id="a1491-306">Inside the **Interaction** class insert the following variable:</span></span>
+6.  <span data-ttu-id="cfc43-306">Внутри класса **взаимодействия** вставьте следующую переменную:</span><span class="sxs-lookup"><span data-stu-id="cfc43-306">Inside the **Interaction** class insert the following variable:</span></span>
 
     ```csharp
         /// <summary>
@@ -846,7 +846,7 @@ ms.locfileid: "91957844"
         private GestureRecognizer _gestureRecognizer;
     ```
 
-7.  <span data-ttu-id="a1491-307">Замените метод **Start** ; Обратите внимание, что это метод переопределения, который вызывает метод класса взгляда Base.</span><span class="sxs-lookup"><span data-stu-id="a1491-307">Replace the **Start** method; notice it is an override method, which calls the 'base' Gaze class method.</span></span> <span data-ttu-id="a1491-308">**Start ()** будет вызываться при инициализации класса, регистрации для распознавания ввода и создании *кнопки* входа в сцене:</span><span class="sxs-lookup"><span data-stu-id="a1491-308">**Start()** will be called when the class initializes, registering for input recognition and creating the sign in *button* in the scene:</span></span>
+7.  <span data-ttu-id="cfc43-307">Замените метод **Start** ; Обратите внимание, что это метод переопределения, который вызывает метод класса взгляда Base.</span><span class="sxs-lookup"><span data-stu-id="cfc43-307">Replace the **Start** method; notice it is an override method, which calls the 'base' Gaze class method.</span></span> <span data-ttu-id="cfc43-308">**Start ()** будет вызываться при инициализации класса, регистрации для распознавания ввода и создании *кнопки* входа в сцене:</span><span class="sxs-lookup"><span data-stu-id="cfc43-308">**Start()** will be called when the class initializes, registering for input recognition and creating the sign in *button* in the scene:</span></span>
 
     ```csharp    
         /// <summary>
@@ -868,7 +868,7 @@ ms.locfileid: "91957844"
         }
     ```
 
-8.  <span data-ttu-id="a1491-309">Добавьте метод **креатесигнинбуттон ()** , который создаст экземпляр *кнопки* входа в сцене и установит его свойства:</span><span class="sxs-lookup"><span data-stu-id="a1491-309">Add the **CreateSignInButton()** method, which will instantiate the sign in *button* in the scene and set its properties:</span></span>
+8.  <span data-ttu-id="cfc43-309">Добавьте метод **креатесигнинбуттон ()** , который создаст экземпляр *кнопки* входа в сцене и установит его свойства:</span><span class="sxs-lookup"><span data-stu-id="cfc43-309">Add the **CreateSignInButton()** method, which will instantiate the sign in *button* in the scene and set its properties:</span></span>
 
     ```csharp    
         /// <summary>
@@ -889,7 +889,7 @@ ms.locfileid: "91957844"
         }
     ```
 
-9.  <span data-ttu-id="a1491-310">Добавьте метод **GestureRecognizer_Tapped ()** , который должен отвечать на событие *TAP* пользователь.</span><span class="sxs-lookup"><span data-stu-id="a1491-310">Add the **GestureRecognizer_Tapped()** method, which be respond for the *Tap* user event.</span></span>
+9.  <span data-ttu-id="cfc43-310">Добавьте метод **GestureRecognizer_Tapped ()** , который должен отвечать на событие *TAP* пользователь.</span><span class="sxs-lookup"><span data-stu-id="cfc43-310">Add the **GestureRecognizer_Tapped()** method, which be respond for the *Tap* user event.</span></span>
 
     ```csharp   
         /// <summary>
@@ -905,94 +905,94 @@ ms.locfileid: "91957844"
         }
     ```
 
-10. <span data-ttu-id="a1491-311">**Удалите** метод **Update ()** , а затем **Сохраните изменения** в Visual Studio перед возвратом в Unity.</span><span class="sxs-lookup"><span data-stu-id="a1491-311">**Delete** the **Update()** method, and then **save your changes** in Visual Studio before returning to Unity.</span></span>
+10. <span data-ttu-id="cfc43-311">**Удалите** метод **Update ()** , а затем **Сохраните изменения** в Visual Studio перед возвратом в Unity.</span><span class="sxs-lookup"><span data-stu-id="cfc43-311">**Delete** the **Update()** method, and then **save your changes** in Visual Studio before returning to Unity.</span></span>
 
-## <a name="chapter-9---set-up-the-script-references"></a><span data-ttu-id="a1491-312">Глава 9. Настройка ссылок на скрипты</span><span class="sxs-lookup"><span data-stu-id="a1491-312">Chapter 9 - Set up the script references</span></span>
+## <a name="chapter-9---set-up-the-script-references"></a><span data-ttu-id="cfc43-312">Глава 9. Настройка ссылок на скрипты</span><span class="sxs-lookup"><span data-stu-id="cfc43-312">Chapter 9 - Set up the script references</span></span>
 
-<span data-ttu-id="a1491-313">В этой главе необходимо разместить сценарий **взаимодействия** на **основной камере** .</span><span class="sxs-lookup"><span data-stu-id="a1491-313">In this Chapter you need to place the **Interactions** script onto the **Main Camera** .</span></span> <span data-ttu-id="a1491-314">Затем этот скрипт будет обрабатывать размещение других сценариев, где они должны быть.</span><span class="sxs-lookup"><span data-stu-id="a1491-314">That script will then handle placing the other scripts where they need to be.</span></span>
+<span data-ttu-id="cfc43-313">В этой главе необходимо разместить сценарий **взаимодействия** на **основной камере**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-313">In this Chapter you need to place the **Interactions** script onto the **Main Camera**.</span></span> <span data-ttu-id="cfc43-314">Затем этот скрипт будет обрабатывать размещение других сценариев, где они должны быть.</span><span class="sxs-lookup"><span data-stu-id="cfc43-314">That script will then handle placing the other scripts where they need to be.</span></span>
 
--  <span data-ttu-id="a1491-315">В папке **скрипты** на *панели проект* перетащите **диалоговые окна взаимодействия** сценария в **основной объект Camera** , как показано на рисунке ниже.</span><span class="sxs-lookup"><span data-stu-id="a1491-315">From the **Scripts** folder in the *Project Panel* , drag the script **Interactions** to the **Main Camera** object, as pictured below.</span></span>
+-  <span data-ttu-id="cfc43-315">В папке **скрипты** на *панели проект* перетащите **диалоговые окна взаимодействия** сценария в **основной объект Camera** , как показано на рисунке ниже.</span><span class="sxs-lookup"><span data-stu-id="cfc43-315">From the **Scripts** folder in the *Project Panel*, drag the script **Interactions** to the **Main Camera** object, as pictured below.</span></span>
 
     ![](images/AzureLabs-Lab311-29.png)
 
-## <a name="chapter-10---setting-up-the-tag"></a><span data-ttu-id="a1491-316">Глава 10. Настройка тега</span><span class="sxs-lookup"><span data-stu-id="a1491-316">Chapter 10 - Setting up the Tag</span></span>
+## <a name="chapter-10---setting-up-the-tag"></a><span data-ttu-id="cfc43-316">Глава 10. Настройка тега</span><span class="sxs-lookup"><span data-stu-id="cfc43-316">Chapter 10 - Setting up the Tag</span></span>
 
-<span data-ttu-id="a1491-317">Код, обрабатывающий взгляд, будет использовать тег **сигнинбуттон** для указания объекта, с которым пользователь будет взаимодействовать для входа в *Microsoft Graph* .</span><span class="sxs-lookup"><span data-stu-id="a1491-317">The code handling the gaze will make use of the Tag **SignInButton** to identify which object the user will interact with to sign-in to *Microsoft Graph* .</span></span>
+<span data-ttu-id="cfc43-317">Код, обрабатывающий взгляд, будет использовать тег **сигнинбуттон** для указания объекта, с которым пользователь будет взаимодействовать для входа в *Microsoft Graph*.</span><span class="sxs-lookup"><span data-stu-id="cfc43-317">The code handling the gaze will make use of the Tag **SignInButton** to identify which object the user will interact with to sign-in to *Microsoft Graph*.</span></span>
 
-<span data-ttu-id="a1491-318">Чтобы создать тег, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="a1491-318">To create the Tag:</span></span>
+<span data-ttu-id="cfc43-318">Чтобы создать тег, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="cfc43-318">To create the Tag:</span></span>
 
-1.  <span data-ttu-id="a1491-319">В редакторе Unity щелкните **главную камеру** на *панели Иерархия* .</span><span class="sxs-lookup"><span data-stu-id="a1491-319">In the Unity Editor click on the **Main Camera** in the *Hierarchy Panel* .</span></span>
+1.  <span data-ttu-id="cfc43-319">В редакторе Unity щелкните **главную камеру** на *панели Иерархия*.</span><span class="sxs-lookup"><span data-stu-id="cfc43-319">In the Unity Editor click on the **Main Camera** in the *Hierarchy Panel*.</span></span>
 
-2.  <span data-ttu-id="a1491-320">На *панели инспектора* щелкните *тег* **маинкамера** , чтобы открыть раскрывающийся список.</span><span class="sxs-lookup"><span data-stu-id="a1491-320">In the *Inspector Panel* click on the **MainCamera** *Tag* to open a drop-down list.</span></span> <span data-ttu-id="a1491-321">Щелкните **Добавить тег...**</span><span class="sxs-lookup"><span data-stu-id="a1491-321">Click on **Add Tag...**</span></span>
+2.  <span data-ttu-id="cfc43-320">На *панели инспектора* щелкните *тег* **маинкамера** , чтобы открыть раскрывающийся список.</span><span class="sxs-lookup"><span data-stu-id="cfc43-320">In the *Inspector Panel* click on the **MainCamera** *Tag* to open a drop-down list.</span></span> <span data-ttu-id="cfc43-321">Щелкните **Добавить тег...**</span><span class="sxs-lookup"><span data-stu-id="cfc43-321">Click on **Add Tag...**</span></span>
 
     ![](images/AzureLabs-Lab311-30.png)
 
-3.  <span data-ttu-id="a1491-322">Нажмите кнопку **+** .</span><span class="sxs-lookup"><span data-stu-id="a1491-322">Click on the **+** button.</span></span>
+3.  <span data-ttu-id="cfc43-322">Нажмите кнопку **+** .</span><span class="sxs-lookup"><span data-stu-id="cfc43-322">Click on the **+** button.</span></span>
 
     ![](images/AzureLabs-Lab311-31.png)
 
-4.  <span data-ttu-id="a1491-323">Запишите имя тега как **сигнинбуттон** и нажмите кнопку Сохранить.</span><span class="sxs-lookup"><span data-stu-id="a1491-323">Write the Tag name as **SignInButton** and click Save.</span></span>
+4.  <span data-ttu-id="cfc43-323">Запишите имя тега как **сигнинбуттон** и нажмите кнопку Сохранить.</span><span class="sxs-lookup"><span data-stu-id="cfc43-323">Write the Tag name as **SignInButton** and click Save.</span></span>
 
     ![](images/AzureLabs-Lab311-32.png)
 
-## <a name="chapter-11---build-the-unity-project-to-uwp"></a><span data-ttu-id="a1491-324">Глава 11. Создание проекта Unity для UWP</span><span class="sxs-lookup"><span data-stu-id="a1491-324">Chapter 11 - Build the Unity project to UWP</span></span>
+## <a name="chapter-11---build-the-unity-project-to-uwp"></a><span data-ttu-id="cfc43-324">Глава 11. Создание проекта Unity для UWP</span><span class="sxs-lookup"><span data-stu-id="cfc43-324">Chapter 11 - Build the Unity project to UWP</span></span>
 
-<span data-ttu-id="a1491-325">Все необходимое для раздела Unity этого проекта теперь завершено, поэтому пришло время создать его из Unity.</span><span class="sxs-lookup"><span data-stu-id="a1491-325">Everything needed for the Unity section of this project has now been completed, so it is time to build it from Unity.</span></span>
+<span data-ttu-id="cfc43-325">Все необходимое для раздела Unity этого проекта теперь завершено, поэтому пришло время создать его из Unity.</span><span class="sxs-lookup"><span data-stu-id="cfc43-325">Everything needed for the Unity section of this project has now been completed, so it is time to build it from Unity.</span></span>
 
-1.  <span data-ttu-id="a1491-326">Перейдите к *параметрам сборки* (\* *файл* > \* параметры сборки \* \*).</span><span class="sxs-lookup"><span data-stu-id="a1491-326">Navigate to *Build Settings* (\* *File* > \*Build Settings\*\*).</span></span>
+1.  <span data-ttu-id="cfc43-326">Перейдите к *параметрам сборки* (\**файл* > \* параметры сборки \* \*).</span><span class="sxs-lookup"><span data-stu-id="cfc43-326">Navigate to *Build Settings* (\**File* > \*Build Settings\*\*).</span></span>
 
     ![](images/AzureLabs-Lab311-33.png)
 
-2.  <span data-ttu-id="a1491-327">Если это еще не так, то тактовые **\# проекты Unity на C** .</span><span class="sxs-lookup"><span data-stu-id="a1491-327">If not already, tick **Unity C\# Projects** .</span></span>
+2.  <span data-ttu-id="cfc43-327">Если это еще не так, то тактовые **\# проекты Unity на C**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-327">If not already, tick **Unity C\# Projects**.</span></span>
 
-3.  <span data-ttu-id="a1491-328">Щелкните **Построить** .</span><span class="sxs-lookup"><span data-stu-id="a1491-328">Click **Build** .</span></span> <span data-ttu-id="a1491-329">Unity запустит окно **проводника** , в котором необходимо создать, а затем выбрать папку для сборки приложения.</span><span class="sxs-lookup"><span data-stu-id="a1491-329">Unity will launch a **File Explorer** window, where you need to create and then select a folder to build the app into.</span></span> <span data-ttu-id="a1491-330">Создайте эту папку сейчас и назовите ее **app** Name.</span><span class="sxs-lookup"><span data-stu-id="a1491-330">Create that folder now, and name it **App** .</span></span> <span data-ttu-id="a1491-331">Затем выберите папку **приложения** и щелкните **выбрать папку** .</span><span class="sxs-lookup"><span data-stu-id="a1491-331">Then with the **App** folder selected, click **Select Folder** .</span></span>
+3.  <span data-ttu-id="cfc43-328">Щелкните **Построить**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-328">Click **Build**.</span></span> <span data-ttu-id="cfc43-329">Unity запустит окно **проводника** , в котором необходимо создать, а затем выбрать папку для сборки приложения.</span><span class="sxs-lookup"><span data-stu-id="cfc43-329">Unity will launch a **File Explorer** window, where you need to create and then select a folder to build the app into.</span></span> <span data-ttu-id="cfc43-330">Создайте эту папку сейчас и назовите ее **app** Name.</span><span class="sxs-lookup"><span data-stu-id="cfc43-330">Create that folder now, and name it **App**.</span></span> <span data-ttu-id="cfc43-331">Затем выберите папку **приложения** и щелкните **выбрать папку**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-331">Then with the **App** folder selected, click **Select Folder**.</span></span>
 
-4.  <span data-ttu-id="a1491-332">Unity начнет сборку проекта в папку **приложения** .</span><span class="sxs-lookup"><span data-stu-id="a1491-332">Unity will begin building your project to the **App** folder.</span></span>
+4.  <span data-ttu-id="cfc43-332">Unity начнет сборку проекта в папку **приложения** .</span><span class="sxs-lookup"><span data-stu-id="cfc43-332">Unity will begin building your project to the **App** folder.</span></span>
 
-5.  <span data-ttu-id="a1491-333">После того как Unity завершит сборку (может занять некоторое время), он откроет окно **проводника** в расположении сборки (проверьте панель задач, так как она может не всегда отображаться над окнами, но будет уведомлять о добавлении нового окна).</span><span class="sxs-lookup"><span data-stu-id="a1491-333">Once Unity has finished building (it might take some time), it will open a **File Explorer** window at the location of your build (check your task bar, as it may not always appear above your windows, but will notify you of the addition of a new window).</span></span>
+5.  <span data-ttu-id="cfc43-333">После того как Unity завершит сборку (может занять некоторое время), он откроет окно **проводника** в расположении сборки (проверьте панель задач, так как она может не всегда отображаться над окнами, но будет уведомлять о добавлении нового окна).</span><span class="sxs-lookup"><span data-stu-id="cfc43-333">Once Unity has finished building (it might take some time), it will open a **File Explorer** window at the location of your build (check your task bar, as it may not always appear above your windows, but will notify you of the addition of a new window).</span></span>
 
-## <a name="chapter-12---deploy-to-hololens"></a><span data-ttu-id="a1491-334">Глава 12. Развертывание в HoloLens</span><span class="sxs-lookup"><span data-stu-id="a1491-334">Chapter 12 - Deploy to HoloLens</span></span>
+## <a name="chapter-12---deploy-to-hololens"></a><span data-ttu-id="cfc43-334">Глава 12. Развертывание в HoloLens</span><span class="sxs-lookup"><span data-stu-id="cfc43-334">Chapter 12 - Deploy to HoloLens</span></span>
 
-<span data-ttu-id="a1491-335">Для развертывания на HoloLens выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="a1491-335">To deploy on HoloLens:</span></span>
+<span data-ttu-id="cfc43-335">Для развертывания на HoloLens выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="cfc43-335">To deploy on HoloLens:</span></span>
 
-1.  <span data-ttu-id="a1491-336">Вам потребуется IP-адрес HoloLens (для удаленного развертывания) и убедитесь, что HoloLens находится в **режиме разработчика.**</span><span class="sxs-lookup"><span data-stu-id="a1491-336">You will need the IP Address of your HoloLens (for Remote Deploy), and to ensure your HoloLens is in **Developer Mode.**</span></span> <span data-ttu-id="a1491-337">Для этого выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="a1491-337">To do this:</span></span>
+1.  <span data-ttu-id="cfc43-336">Вам потребуется IP-адрес HoloLens (для удаленного развертывания) и убедитесь, что HoloLens находится в **режиме разработчика.**</span><span class="sxs-lookup"><span data-stu-id="cfc43-336">You will need the IP Address of your HoloLens (for Remote Deploy), and to ensure your HoloLens is in **Developer Mode.**</span></span> <span data-ttu-id="cfc43-337">Выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="cfc43-337">To do this:</span></span>
 
-    1.  <span data-ttu-id="a1491-338">Людьми HoloLens, откройте **Параметры** .</span><span class="sxs-lookup"><span data-stu-id="a1491-338">Whilst wearing your HoloLens, open the **Settings** .</span></span>
+    1.  <span data-ttu-id="cfc43-338">Людьми HoloLens, откройте **Параметры**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-338">Whilst wearing your HoloLens, open the **Settings**.</span></span>
 
-    2.  <span data-ttu-id="a1491-339">Выберите **Сетевые &**  >  **Wi-Fi**  >  **Дополнительные параметры** сети Интернет Wi-Fi</span><span class="sxs-lookup"><span data-stu-id="a1491-339">Go to **Network & Internet** > **Wi-Fi** > **Advanced Options**</span></span>
+    2.  <span data-ttu-id="cfc43-339">Выберите **Сетевые &**  >  **Wi-Fi**  >  **Дополнительные параметры** сети Интернет Wi-Fi</span><span class="sxs-lookup"><span data-stu-id="cfc43-339">Go to **Network & Internet** > **Wi-Fi** > **Advanced Options**</span></span>
 
-    3.  <span data-ttu-id="a1491-340">Запишите **IPv4** -адрес.</span><span class="sxs-lookup"><span data-stu-id="a1491-340">Note the **IPv4** address.</span></span>
+    3.  <span data-ttu-id="cfc43-340">Запишите **IPv4** -адрес.</span><span class="sxs-lookup"><span data-stu-id="cfc43-340">Note the **IPv4** address.</span></span>
 
-    4.  <span data-ttu-id="a1491-341">Затем вернитесь к **параметрам** и **Обновите & безопасности**  >  **для разработчиков** .</span><span class="sxs-lookup"><span data-stu-id="a1491-341">Next, navigate back to **Settings** , and then to **Update & Security** > **For Developers**</span></span>
+    4.  <span data-ttu-id="cfc43-341">Затем вернитесь к **параметрам** и **Обновите & безопасности**  >  **для разработчиков** .</span><span class="sxs-lookup"><span data-stu-id="cfc43-341">Next, navigate back to **Settings**, and then to **Update & Security** > **For Developers**</span></span>
 
-    5.  <span data-ttu-id="a1491-342">Задайте **режим разработчика на** .</span><span class="sxs-lookup"><span data-stu-id="a1491-342">Set **Developer Mode On** .</span></span>
+    5.  <span data-ttu-id="cfc43-342">Задайте **режим разработчика на**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-342">Set **Developer Mode On**.</span></span>
 
-2.  <span data-ttu-id="a1491-343">Перейдите к новой сборке Unity (папка **приложения** ) и откройте файл решения в **Visual Studio** .</span><span class="sxs-lookup"><span data-stu-id="a1491-343">Navigate to your new Unity build (the **App** folder) and open the solution file with **Visual Studio** .</span></span>
+2.  <span data-ttu-id="cfc43-343">Перейдите к новой сборке Unity (папка **приложения** ) и откройте файл решения в **Visual Studio**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-343">Navigate to your new Unity build (the **App** folder) and open the solution file with **Visual Studio**.</span></span>
 
-3.  <span data-ttu-id="a1491-344">В **конфигурации решения** выберите **Отладка** .</span><span class="sxs-lookup"><span data-stu-id="a1491-344">In the **Solution Configuration** select **Debug** .</span></span>
+3.  <span data-ttu-id="cfc43-344">В **конфигурации решения** выберите **Отладка**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-344">In the **Solution Configuration** select **Debug**.</span></span>
 
-4.  <span data-ttu-id="a1491-345">На **платформе решения** выберите **x86, удаленный компьютер** .</span><span class="sxs-lookup"><span data-stu-id="a1491-345">In the **Solution Platform** , select **x86, Remote Machine** .</span></span> <span data-ttu-id="a1491-346">Вам будет предложено вставить **IP-адрес** удаленного устройства (в данном случае это HoloLens).</span><span class="sxs-lookup"><span data-stu-id="a1491-346">You will be prompted to insert the **IP address** of a remote device (the HoloLens, in this case, which you noted).</span></span>
+4.  <span data-ttu-id="cfc43-345">На **платформе решения** выберите **x86, удаленный компьютер**.</span><span class="sxs-lookup"><span data-stu-id="cfc43-345">In the **Solution Platform**, select **x86, Remote Machine**.</span></span> <span data-ttu-id="cfc43-346">Вам будет предложено вставить **IP-адрес** удаленного устройства (в данном случае это HoloLens).</span><span class="sxs-lookup"><span data-stu-id="cfc43-346">You will be prompted to insert the **IP address** of a remote device (the HoloLens, in this case, which you noted).</span></span>
 
     ![](images/AzureLabs-Lab311-34.png)
 
-5.  <span data-ttu-id="a1491-347">Перейдите в меню **Сборка** и щелкните **Развернуть решение** , чтобы загружать неопубликованные приложение в HoloLens.</span><span class="sxs-lookup"><span data-stu-id="a1491-347">Go to **Build** menu and click on **Deploy Solution** to sideload the application to your HoloLens.</span></span>
+5.  <span data-ttu-id="cfc43-347">Перейдите в меню **Сборка** и щелкните **Развернуть решение** , чтобы загружать неопубликованные приложение в HoloLens.</span><span class="sxs-lookup"><span data-stu-id="cfc43-347">Go to **Build** menu and click on **Deploy Solution** to sideload the application to your HoloLens.</span></span>
 
-6.  <span data-ttu-id="a1491-348">Теперь приложение должно отобразиться в списке установленных приложений в HoloLens, готовом к запуску.</span><span class="sxs-lookup"><span data-stu-id="a1491-348">Your app should now appear in the list of installed apps on your HoloLens, ready to be launched!</span></span>
+6.  <span data-ttu-id="cfc43-348">Теперь приложение должно отобразиться в списке установленных приложений в HoloLens, готовом к запуску.</span><span class="sxs-lookup"><span data-stu-id="cfc43-348">Your app should now appear in the list of installed apps on your HoloLens, ready to be launched!</span></span>
 
-## <a name="your-microsoft-graph-hololens-application"></a><span data-ttu-id="a1491-349">Приложение Microsoft Graph HoloLens</span><span class="sxs-lookup"><span data-stu-id="a1491-349">Your Microsoft Graph HoloLens application</span></span>
+## <a name="your-microsoft-graph-hololens-application"></a><span data-ttu-id="cfc43-349">Приложение Microsoft Graph HoloLens</span><span class="sxs-lookup"><span data-stu-id="cfc43-349">Your Microsoft Graph HoloLens application</span></span>
 
-<span data-ttu-id="a1491-350">Поздравляем, вы создали приложение смешанной реальности, которое использует Microsoft Graph для чтения и просмотра данных календаря пользователя.</span><span class="sxs-lookup"><span data-stu-id="a1491-350">Congratulations, you built a mixed reality app that leverages the Microsoft Graph, to read and display user Calendar data.</span></span>
+<span data-ttu-id="cfc43-350">Поздравляем, вы создали приложение смешанной реальности, которое использует Microsoft Graph для чтения и просмотра данных календаря пользователя.</span><span class="sxs-lookup"><span data-stu-id="cfc43-350">Congratulations, you built a mixed reality app that leverages the Microsoft Graph, to read and display user Calendar data.</span></span>
 
 ![](images/AzureLabs-Lab311-00.png)
 
-## <a name="bonus-exercises"></a><span data-ttu-id="a1491-351">Дополнительные упражнения</span><span class="sxs-lookup"><span data-stu-id="a1491-351">Bonus exercises</span></span>
+## <a name="bonus-exercises"></a><span data-ttu-id="cfc43-351">Дополнительные упражнения</span><span class="sxs-lookup"><span data-stu-id="cfc43-351">Bonus exercises</span></span>
 
-### <a name="exercise-1"></a><span data-ttu-id="a1491-352">Упражнение 1</span><span class="sxs-lookup"><span data-stu-id="a1491-352">Exercise 1</span></span>
+### <a name="exercise-1"></a><span data-ttu-id="cfc43-352">Упражнение 1</span><span class="sxs-lookup"><span data-stu-id="cfc43-352">Exercise 1</span></span>
 
-<span data-ttu-id="a1491-353">Использование Microsoft Graph для просмотра других сведений о пользователе</span><span class="sxs-lookup"><span data-stu-id="a1491-353">Use Microsoft Graph to display other information about the user</span></span>
+<span data-ttu-id="cfc43-353">Использование Microsoft Graph для просмотра других сведений о пользователе</span><span class="sxs-lookup"><span data-stu-id="cfc43-353">Use Microsoft Graph to display other information about the user</span></span>
 
--   <span data-ttu-id="a1491-354">Адрес электронной почты пользователя, номер телефона или изображение профиля</span><span class="sxs-lookup"><span data-stu-id="a1491-354">User email / phone number / profile picture</span></span>
+-   <span data-ttu-id="cfc43-354">Адрес электронной почты пользователя, номер телефона или изображение профиля</span><span class="sxs-lookup"><span data-stu-id="cfc43-354">User email / phone number / profile picture</span></span>
 
-### <a name="exercise-1"></a><span data-ttu-id="a1491-355">Упражнение 1</span><span class="sxs-lookup"><span data-stu-id="a1491-355">Exercise 1</span></span>
+### <a name="exercise-1"></a><span data-ttu-id="cfc43-355">Упражнение 1</span><span class="sxs-lookup"><span data-stu-id="cfc43-355">Exercise 1</span></span>
 
-<span data-ttu-id="a1491-356">Реализуйте голосовое управление для навигации по Microsoft Graph пользовательскому интерфейсу.</span><span class="sxs-lookup"><span data-stu-id="a1491-356">Implement voice control to navigate the Microsoft Graph UI.</span></span>
+<span data-ttu-id="cfc43-356">Реализуйте голосовое управление для навигации по Microsoft Graph пользовательскому интерфейсу.</span><span class="sxs-lookup"><span data-stu-id="cfc43-356">Implement voice control to navigate the Microsoft Graph UI.</span></span>

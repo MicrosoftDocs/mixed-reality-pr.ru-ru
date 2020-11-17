@@ -5,30 +5,30 @@ author: kegodin
 ms.author: kegodin
 ms.date: 12/01/2019
 ms.topic: article
-keywords: Смешанная реальность, Unity, учебник, hololens2, Пространственный звук
-ms.openlocfilehash: cb9bfb03da864c78784c288f4d7c4190461cd838
-ms.sourcegitcommit: d8f39c0b95d9e61d645d64f27baabc7a1c300dc1
+keywords: Смешанная реальность, Unity, учебник, hololens2, Пространственный звук, МРТК, набор средств для смешанной реальности, UWP, Windows 10, ХРТФ, функция передачи, связанная с HEAD, переглагол, Microsoft Спатиализер
+ms.openlocfilehash: c752f79f53b5167d674b9e778637357d97fb914a
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "92293152"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94678213"
 ---
-# <a name="enabling-and-disabling-spatialization-at-run-time"></a><span data-ttu-id="db4ff-105">Включение и отключение пространственности во время выполнения</span><span class="sxs-lookup"><span data-stu-id="db4ff-105">Enabling and disabling spatialization at run time</span></span>
+# <a name="enabling-and-disabling-spatialization-at-run-time"></a><span data-ttu-id="9b89c-105">Включение и отключение пространственности во время выполнения</span><span class="sxs-lookup"><span data-stu-id="9b89c-105">Enabling and disabling spatialization at run time</span></span>
 
-## <a name="objectives"></a><span data-ttu-id="db4ff-106">Цели</span><span class="sxs-lookup"><span data-stu-id="db4ff-106">Objectives</span></span>
-<span data-ttu-id="db4ff-107">В этой 4-ой главе вы выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="db4ff-107">In this 4th chapter, you'll:</span></span>
-* <span data-ttu-id="db4ff-108">Добавление нового скрипта для управления пространственностью игрового объекта</span><span class="sxs-lookup"><span data-stu-id="db4ff-108">Add a new script to control spatialization on a game object</span></span>
-* <span data-ttu-id="db4ff-109">Использование сценария управления пространственными из действий кнопки</span><span class="sxs-lookup"><span data-stu-id="db4ff-109">Drive the spatialization control script from button actions</span></span>
+## <a name="objectives"></a><span data-ttu-id="9b89c-106">Цели</span><span class="sxs-lookup"><span data-stu-id="9b89c-106">Objectives</span></span>
+<span data-ttu-id="9b89c-107">В этой 4-ой главе вы выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="9b89c-107">In this 4th chapter, you'll:</span></span>
+* <span data-ttu-id="9b89c-108">Добавление нового скрипта для управления пространственностью игрового объекта</span><span class="sxs-lookup"><span data-stu-id="9b89c-108">Add a new script to control spatialization on a game object</span></span>
+* <span data-ttu-id="9b89c-109">Использование сценария управления пространственными из действий кнопки</span><span class="sxs-lookup"><span data-stu-id="9b89c-109">Drive the spatialization control script from button actions</span></span>
 
-## <a name="add-spatialization-control-script"></a><span data-ttu-id="db4ff-110">Добавление скрипта управления пространственными</span><span class="sxs-lookup"><span data-stu-id="db4ff-110">Add spatialization control script</span></span>
-<span data-ttu-id="db4ff-111">Щелкните правой кнопкой мыши в области **проекта** и создайте новый скрипт c#, выбрав **создать-> скрипт c#**.</span><span class="sxs-lookup"><span data-stu-id="db4ff-111">Right-click in the **Project** pane and create a new C# script by choosing **Create -> C# Script**.</span></span> <span data-ttu-id="db4ff-112">Присвойте своему скрипту имя "Спатиализеонофф".</span><span class="sxs-lookup"><span data-stu-id="db4ff-112">Name your script "SpatializeOnOff".</span></span>
+## <a name="add-spatialization-control-script"></a><span data-ttu-id="9b89c-110">Добавление скрипта управления пространственными</span><span class="sxs-lookup"><span data-stu-id="9b89c-110">Add spatialization control script</span></span>
+<span data-ttu-id="9b89c-111">Щелкните правой кнопкой мыши в области **проекта** и создайте новый скрипт c#, выбрав **создать-> скрипт c#**.</span><span class="sxs-lookup"><span data-stu-id="9b89c-111">Right-click in the **Project** pane and create a new C# script by choosing **Create -> C# Script**.</span></span> <span data-ttu-id="9b89c-112">Присвойте своему скрипту имя "Спатиализеонофф".</span><span class="sxs-lookup"><span data-stu-id="9b89c-112">Name your script "SpatializeOnOff".</span></span>
 
 ![Создать скрипт](images/spatial-audio/create-script.png)
 
-<span data-ttu-id="db4ff-114">Дважды щелкните скрипт в области **проекта** , чтобы открыть его в Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="db4ff-114">Double-click the script in the **Project** pane to open it in Visual Studio.</span></span> <span data-ttu-id="db4ff-115">Замените содержимое скрипта по умолчанию следующим:</span><span class="sxs-lookup"><span data-stu-id="db4ff-115">Replace the default script contents with the following:</span></span>
+<span data-ttu-id="9b89c-114">Дважды щелкните скрипт в области **проекта** , чтобы открыть его в Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="9b89c-114">Double-click the script in the **Project** pane to open it in Visual Studio.</span></span> <span data-ttu-id="9b89c-115">Замените содержимое скрипта по умолчанию следующим:</span><span class="sxs-lookup"><span data-stu-id="9b89c-115">Replace the default script contents with the following:</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="db4ff-116">Несколько строк сценария заносятся в комментарий. Эти строки будут раскомментироваться в [главе 5](unity-spatial-audio-ch5.md).</span><span class="sxs-lookup"><span data-stu-id="db4ff-116">Several lines of the script are commented out. These lines will be uncommented in [Chapter 5](unity-spatial-audio-ch5.md).</span></span>
+> <span data-ttu-id="9b89c-116">Несколько строк сценария заносятся в комментарий. Эти строки будут раскомментироваться в [главе 5](unity-spatial-audio-ch5.md).</span><span class="sxs-lookup"><span data-stu-id="9b89c-116">Several lines of the script are commented out. These lines will be uncommented in [Chapter 5](unity-spatial-audio-ch5.md).</span></span>
 
 ```c#
 using System.Collections;
@@ -86,37 +86,37 @@ public class SpatializeOnOff : MonoBehaviour
 ```
 
 > [!NOTE]
-> <span data-ttu-id="db4ff-117">Чтобы включить или отключить пространственность, скрипт настраивает только свойство **спатиалбленд** , при этом свойство **пространственное** значение включено.</span><span class="sxs-lookup"><span data-stu-id="db4ff-117">To enable or disable spatialization, the script only adjusts the **spatialBlend** property, leaving the **spatialization** property enabled.</span></span> <span data-ttu-id="db4ff-118">В этом режиме Unity по-прежнему применяет кривую **тома** .</span><span class="sxs-lookup"><span data-stu-id="db4ff-118">In this mode, Unity still applies the **Volume** curve.</span></span> <span data-ttu-id="db4ff-119">В противном случае, если пользователю пришлось отключить пространственное расстояние от источника, он будет слышать внезапное увеличение объема данных.</span><span class="sxs-lookup"><span data-stu-id="db4ff-119">Otherwise, if the user were to disable spatialization when far from the source, they would hear the volume increase abruptly.</span></span> <br> <br>
-> <span data-ttu-id="db4ff-120">Если вы предпочитаете полностью отключить пространственность, измените скрипт, чтобы также настроить логическое свойство **пространственности** для переменной **объект SourceObject** .</span><span class="sxs-lookup"><span data-stu-id="db4ff-120">If you prefer to fully disable spatialization, modify the script to also adjust the **spatialization** boolean property of the **SourceObject** variable.</span></span>
+> <span data-ttu-id="9b89c-117">Чтобы включить или отключить пространственность, скрипт настраивает только свойство **спатиалбленд** , при этом свойство **пространственное** значение включено.</span><span class="sxs-lookup"><span data-stu-id="9b89c-117">To enable or disable spatialization, the script only adjusts the **spatialBlend** property, leaving the **spatialization** property enabled.</span></span> <span data-ttu-id="9b89c-118">В этом режиме Unity по-прежнему применяет кривую **тома** .</span><span class="sxs-lookup"><span data-stu-id="9b89c-118">In this mode, Unity still applies the **Volume** curve.</span></span> <span data-ttu-id="9b89c-119">В противном случае, если пользователю пришлось отключить пространственное расстояние от источника, он будет слышать внезапное увеличение объема данных.</span><span class="sxs-lookup"><span data-stu-id="9b89c-119">Otherwise, if the user were to disable spatialization when far from the source, they would hear the volume increase abruptly.</span></span> <br> <br>
+> <span data-ttu-id="9b89c-120">Если вы предпочитаете полностью отключить пространственность, измените скрипт, чтобы также настроить логическое свойство **пространственности** для переменной **объект SourceObject** .</span><span class="sxs-lookup"><span data-stu-id="9b89c-120">If you prefer to fully disable spatialization, modify the script to also adjust the **spatialization** boolean property of the **SourceObject** variable.</span></span>
 
-## <a name="attach-your-script-and-drive-it-from-the-button"></a><span data-ttu-id="db4ff-121">Присоединение сценария и его добавление с помощью кнопки</span><span class="sxs-lookup"><span data-stu-id="db4ff-121">Attach your script and drive it from the button</span></span>
-<span data-ttu-id="db4ff-122">На панели **инспектора** в окне « **четыре**» нажмите кнопку **Добавить компонент** и добавьте сценарий **спатиализе On Off** :</span><span class="sxs-lookup"><span data-stu-id="db4ff-122">On the **Inspector** pane of the **Quad**, click **Add Component** and add the **Spatialize On Off** script:</span></span>
+## <a name="attach-your-script-and-drive-it-from-the-button"></a><span data-ttu-id="9b89c-121">Присоединение сценария и его добавление с помощью кнопки</span><span class="sxs-lookup"><span data-stu-id="9b89c-121">Attach your script and drive it from the button</span></span>
+<span data-ttu-id="9b89c-122">На панели **инспектора** в окне « **четыре**» нажмите кнопку **Добавить компонент** и добавьте сценарий **спатиализе On Off** :</span><span class="sxs-lookup"><span data-stu-id="9b89c-122">On the **Inspector** pane of the **Quad**, click **Add Component** and add the **Spatialize On Off** script:</span></span>
 
 ![Добавить сценарий к четырем](images/spatial-audio/add-script-to-quad.png)
 
-<span data-ttu-id="db4ff-124">В компоненте **Спатиализе on** of **четыре**:</span><span class="sxs-lookup"><span data-stu-id="db4ff-124">On the **Spatialize On Off** component of the **Quad**:</span></span>
-1. <span data-ttu-id="db4ff-125">Найдите в **иерархии**тему **PressableButtonHoloLens2-> Иконандтекст-> текстмешпро** .</span><span class="sxs-lookup"><span data-stu-id="db4ff-125">Find the **PressableButtonHoloLens2 -> IconAndText -> TextMeshPro** subject in the **Hierarchy**:</span></span>
+<span data-ttu-id="9b89c-124">В компоненте **Спатиализе on** of **четыре**:</span><span class="sxs-lookup"><span data-stu-id="9b89c-124">On the **Spatialize On Off** component of the **Quad**:</span></span>
+1. <span data-ttu-id="9b89c-125">Найдите в **иерархии** тему **PressableButtonHoloLens2-> Иконандтекст-> текстмешпро** .</span><span class="sxs-lookup"><span data-stu-id="9b89c-125">Find the **PressableButtonHoloLens2 -> IconAndText -> TextMeshPro** subject in the **Hierarchy**:</span></span>
 
 ![Поиск объекта PressableButtonHoloLens2 в иерархии](images/spatial-audio/pressable-button-object.png)
 
-2. <span data-ttu-id="db4ff-127">Перетащите тему **текстмешпро** в поле **Буттонтекстобжект** компонента **спатиализе On Off** .</span><span class="sxs-lookup"><span data-stu-id="db4ff-127">Drag the **TextMeshPro** subject onto the **ButtonTextObject** field of the **Spatialize On Off** component</span></span>
+2. <span data-ttu-id="9b89c-127">Перетащите тему **текстмешпро** в поле **Буттонтекстобжект** компонента **спатиализе On Off** .</span><span class="sxs-lookup"><span data-stu-id="9b89c-127">Drag the **TextMeshPro** subject onto the **ButtonTextObject** field of the **Spatialize On Off** component</span></span>
 
-<span data-ttu-id="db4ff-128">После этих изменений компонент **Спатиализе on** of **четырехъядерия** будет выглядеть следующим образом:</span><span class="sxs-lookup"><span data-stu-id="db4ff-128">After these changes, the **Spatialize On Off** component of the **Quad** will look like this:</span></span>
+<span data-ttu-id="9b89c-128">После этих изменений компонент **Спатиализе on** of **четырехъядерия** будет выглядеть следующим образом:</span><span class="sxs-lookup"><span data-stu-id="9b89c-128">After these changes, the **Spatialize On Off** component of the **Quad** will look like this:</span></span>
 
 ![Спатиализе на отключенном базовом](images/spatial-audio/spatialize-on-off-basic.png)
 
-<span data-ttu-id="db4ff-130">Чтобы установить кнопку для вызова сценария **Спатиализе On Off** при отпускании кнопки, откройте панель **инспектора** объекта **PressableButtonHoloLens2** , найдите **взаимодействующий** компонент и выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="db4ff-130">To set the button to call the **Spatialize On Off** script when the button is released, open the **Inspector** pane of the **PressableButtonHoloLens2** object, find the **Interactable** component, and:</span></span>
-1. <span data-ttu-id="db4ff-131">Поиск региона **OnClick ()** подраздела **событий**</span><span class="sxs-lookup"><span data-stu-id="db4ff-131">Find the **OnClick ()** region of the **Events** subsection</span></span>
-2. <span data-ttu-id="db4ff-132">Перетащите **Quad** из **иерархии** в область целевого объекта.</span><span class="sxs-lookup"><span data-stu-id="db4ff-132">Drag the **Quad** from the **Hierarchy** into the target object slot.</span></span>
-3. <span data-ttu-id="db4ff-133">Выберите **спатиализеонофф. свапспатиализатион** из раскрывающегося списка действие.</span><span class="sxs-lookup"><span data-stu-id="db4ff-133">Select **SpatializeOnOff.SwapSpatialization** from the action drop-down box.</span></span>
+<span data-ttu-id="9b89c-130">Чтобы установить кнопку для вызова сценария **Спатиализе On Off** при отпускании кнопки, откройте панель **инспектора** объекта **PressableButtonHoloLens2** , найдите **взаимодействующий** компонент и выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="9b89c-130">To set the button to call the **Spatialize On Off** script when the button is released, open the **Inspector** pane of the **PressableButtonHoloLens2** object, find the **Interactable** component, and:</span></span>
+1. <span data-ttu-id="9b89c-131">Поиск региона **OnClick ()** подраздела **событий**</span><span class="sxs-lookup"><span data-stu-id="9b89c-131">Find the **OnClick ()** region of the **Events** subsection</span></span>
+2. <span data-ttu-id="9b89c-132">Перетащите **Quad** из **иерархии** в область целевого объекта.</span><span class="sxs-lookup"><span data-stu-id="9b89c-132">Drag the **Quad** from the **Hierarchy** into the target object slot.</span></span>
+3. <span data-ttu-id="9b89c-133">Выберите **спатиализеонофф. свапспатиализатион** из раскрывающегося списка действие.</span><span class="sxs-lookup"><span data-stu-id="9b89c-133">Select **SpatializeOnOff.SwapSpatialization** from the action drop-down box.</span></span>
 
-<span data-ttu-id="db4ff-134">После этих изменений **взаимодействующий** компонент будет выглядеть следующим образом:</span><span class="sxs-lookup"><span data-stu-id="db4ff-134">After these changes, the **Interactable** component will look like this:</span></span>
+<span data-ttu-id="9b89c-134">После этих изменений **взаимодействующий** компонент будет выглядеть следующим образом:</span><span class="sxs-lookup"><span data-stu-id="9b89c-134">After these changes, the **Interactable** component will look like this:</span></span>
 
 ![Параметры действия кнопки](images/spatial-audio/button-action-settings.png)
 
-## <a name="next-steps"></a><span data-ttu-id="db4ff-136">Дальнейшие действия</span><span class="sxs-lookup"><span data-stu-id="db4ff-136">Next steps</span></span>
-<span data-ttu-id="db4ff-137">Попробуйте приложение в HoloLens 2 или в редакторе Unity.</span><span class="sxs-lookup"><span data-stu-id="db4ff-137">Try out your app on a HoloLens 2 or in the Unity editor.</span></span> <span data-ttu-id="db4ff-138">Теперь в приложении можно нажать кнопку, чтобы активировать и деактивировать пространственность в видео.</span><span class="sxs-lookup"><span data-stu-id="db4ff-138">In the app, you can now touch the button to activate and deactivate spatialization on the video.</span></span> <span data-ttu-id="db4ff-139">При тестировании в редакторе Unity нажмите клавишу пробел и прокрутите прокрутку с помощью колесика прокрутки, чтобы активировать моделирование руки.</span><span class="sxs-lookup"><span data-stu-id="db4ff-139">When testing in the Unity editor, press the space bar and scroll with the scroll wheel to activate hand simulation.</span></span> 
+## <a name="next-steps"></a><span data-ttu-id="9b89c-136">Дальнейшие действия</span><span class="sxs-lookup"><span data-stu-id="9b89c-136">Next steps</span></span>
+<span data-ttu-id="9b89c-137">Попробуйте приложение в HoloLens 2 или в редакторе Unity.</span><span class="sxs-lookup"><span data-stu-id="9b89c-137">Try out your app on a HoloLens 2 or in the Unity editor.</span></span> <span data-ttu-id="9b89c-138">Теперь в приложении можно нажать кнопку, чтобы активировать и деактивировать пространственность в видео.</span><span class="sxs-lookup"><span data-stu-id="9b89c-138">In the app, you can now touch the button to activate and deactivate spatialization on the video.</span></span> <span data-ttu-id="9b89c-139">При тестировании в редакторе Unity нажмите клавишу пробел и прокрутите прокрутку с помощью колесика прокрутки, чтобы активировать моделирование руки.</span><span class="sxs-lookup"><span data-stu-id="9b89c-139">When testing in the Unity editor, press the space bar and scroll with the scroll wheel to activate hand simulation.</span></span> 
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="db4ff-140">Глава 5</span><span class="sxs-lookup"><span data-stu-id="db4ff-140">Chapter 5</span></span>](unity-spatial-audio-ch5.md) 
+> [<span data-ttu-id="9b89c-140">Глава 5</span><span class="sxs-lookup"><span data-stu-id="9b89c-140">Chapter 5</span></span>](unity-spatial-audio-ch5.md) 
 
