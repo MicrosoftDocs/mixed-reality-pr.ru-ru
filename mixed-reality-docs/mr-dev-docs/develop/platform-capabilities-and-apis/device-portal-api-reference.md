@@ -5,13 +5,13 @@ author: hamalawi
 ms.author: moelhama
 ms.date: 08/03/2020
 ms.topic: article
-keywords: HoloLens, портал устройств Windows, API
-ms.openlocfilehash: 6b8f99fbc6f1965639ceef218f5c516d2e6ba467
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+keywords: HoloLens, портал устройств Windows, API, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
+ms.openlocfilehash: 1085f6c948ab7fe0ff8cb3801ebb0b883570acbc
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91691445"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94677973"
 ---
 # <a name="device-portal-api-reference"></a>Справочник по API портала устройств
 
@@ -259,7 +259,7 @@ $.post("/api/holographic/mapmanager/exportmapandanchors")
 $.post("/api/holographic/mapmanager/exportmapandspatialmappingdb")
 ```
 
-### <a name="import"></a>Импортировать
+### <a name="import"></a>Импорт
 
 **/АПИ/холографик/мапманажер/импорт (POST)**
 
@@ -297,7 +297,7 @@ $.post("/api/holographic/mapmanager/import?FileName=" + spaceID, function() { al
 $.post("/api/holographic/mapmanager/import?FileName=" + spaceID, function() { alert("Import was successful!"); })
 ```
 
-### <a name="other"></a>Другое
+### <a name="other"></a>Другие
 
 **/АПИ/холографик/мапманажер/ресетмапанданчорсандсрдб (POST)**
 
@@ -355,7 +355,7 @@ $.post("/api/holographic/mapmanager/resetmapandanchorsandsrdb")
 
 Возвращает состояние захвата смешанной реальности на портале устройств Windows.
 
-***Ответ***
+**_Ответ_* _
 
 Ответ содержит свойство JSON, указывающее, записывается ли видео на портале устройств Windows.
 
@@ -363,7 +363,7 @@ $.post("/api/holographic/mapmanager/resetmapandanchorsandsrdb")
 {"IsRecording" : boolean}
 ```
 
-**/АПИ/холографик/МРК/сумбнаил (GET)**
+_ */АПИ/холографик/МРК/сумбнаил (Get)**
 
 Получает эскиз изображения для указанного файла.
 
@@ -693,6 +693,6 @@ Payload
 Возвращать данные
 * При запуске возвращает состояние сеанса ЗВЧ.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 * [Использование портала устройств Windows](using-the-windows-device-portal.md)
 * [Справочник по API для базовых порталов устройств (UWP)](https://docs.microsoft.com/windows/uwp/debug-test-perf/device-portal-api-core)

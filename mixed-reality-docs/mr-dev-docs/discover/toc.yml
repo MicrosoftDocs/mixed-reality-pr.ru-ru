@@ -6,6 +6,8 @@
   href: hologram.md
 - name: Расширение процесса проектирования
   href: case-study-expanding-the-design-process-for-mixed-reality.md
+- name: Обзор примеров
+  href: case-studies-overview.md
 - name: Оборудование HoloLens
   items:
     - name: "Сведения об оборудовании HoloLens\_2"

@@ -5,13 +5,13 @@ author: thetuvix
 ms.author: alexturn
 ms.date: 08/04/2020
 ms.topic: article
-keywords: DirectX, holographic-визуализация, собственное, собственное приложение, WinRT, приложение WinRT, API платформы, настраиваемое подсистема, по промежуточного слоя
-ms.openlocfilehash: fb51dfe15de26b80db255f0daca69e913f9ad35c
-ms.sourcegitcommit: c199872c11adae7de24929ed043ea90dea087b3e
+keywords: DirectX, holographic-визуализация, собственное, собственное приложение, WinRT, приложение WinRT, API платформы, настраиваемое ядро, промежуточное по, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
+ms.openlocfilehash: 0d5e364fdb4faac73f28649f5c009823a74ac595
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "92903116"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94679653"
 ---
 # <a name="native-development-overview"></a>Обзор разработки для собственной платформы
 

@@ -5,13 +5,13 @@ author: bstrukus
 ms.author: bestruku
 ms.date: 03/21/2018
 ms.topic: article
-keywords: Windows Mixed Reality, голограммы, стабилизации, пример внедрения
-ms.openlocfilehash: 4eb61cb37ef087dc5fbeb6b4ef6ca1c507719205
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+keywords: Windows Mixed Reality, голограммы, стабилизации, пример внедрения, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
+ms.openlocfilehash: c268e7ee83fdcbb8c5ddd09cd643f4354d05ec29
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91691457"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94679613"
 ---
 # <a name="case-study---using-the-stabilization-plane-to-reduce-holographic-turbulence"></a>Пример использования. использование плоскости стабилизации для сокращения турбуленце
 
@@ -97,7 +97,7 @@ ms.locfileid: "91691457"
 </tr>
 </table>
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 * [100. Основы смешанной реальности: начало работы с Unity](../unity/tutorials/holograms-100.md)
 * [Точка фокусировки в Unity](../unity/focus-point-in-unity.md)
 * [Стабильность голограммы](hologram-stability.md)

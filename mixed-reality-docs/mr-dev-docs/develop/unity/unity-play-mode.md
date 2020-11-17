@@ -5,13 +5,13 @@ author: jonmlyons
 ms.author: jlyons
 ms.date: 03/21/2018
 ms.topic: article
-keywords: Unity, удаленное взаимодействие, holographic удаленное взаимодействие, удаленный плеер holographic
-ms.openlocfilehash: 4239eba84bd94c0bdc596392fdf7a0c780778850
-ms.sourcegitcommit: 520c69eb761ad6083b36f448bbcfab89e343e40d
+keywords: Unity, удаленное взаимодействие, удаленное взаимодействие с holographic, holographic удаленное взаимодействие, HoloLens, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, режим воспроизведения Unity
+ms.openlocfilehash: 88ffa172c03dea6544ce8475612426e126415908
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "94549097"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94679063"
 ---
 # <a name="unity-play-mode"></a>Режим воспроизведения в Unity
 
@@ -22,7 +22,7 @@ ms.locfileid: "94549097"
 С помощью удаленного взаимодействия с holographic вы можете столкнуться с приложением на HoloLens, пока оно выполняется в редакторе Unity на компьютере. Входные данные с помощью взгляда, жеста, голоса и пространственного сопоставления отправляются из HoloLens на компьютер. Затем отображаемые кадры отправляются обратно в HoloLens. Это отличный способ быстрой отладки приложения без создания и развертывания полного проекта.
 1. На HoloLens перейдите к **Microsoft Store** и установите приложение с **[удаленным взаимодействием holographic](https://www.microsoft.com/store/p/holographic-remoting-player/9nblggh4sv40)** .
 2. На HoloLens запустите приложение **удаленного проигрывателя holographic** .
-3. В Unity перейдите в меню **окно** , разверните подменю **XR** и выберите « **holographic Emulator** ».
+3. В Unity перейдите в меню **окно** , разверните подменю **XR** и выберите « **holographic Emulator**».
 4. Задайте для **режима эмуляции** значение **удаленно на устройство**.
 5. Для параметра **Удаленный компьютер** введите IP-адрес HoloLens.
 6. Нажмите кнопку **Соединить**. Вы должны увидеть, что **состояние подключения** изменится на **подключено** , и в HoloLens появится пустое окно.
@@ -32,5 +32,5 @@ ms.locfileid: "94549097"
 
 Для достижения лучших результатов убедитесь, что приложение правильно устанавливает [фокусную точку](focus-point-in-unity.md). Это помогает более удачному удаленному взаимодействию лучше адаптировать сцену к задержке беспроводного подключения.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 * [Holographic Remoting Player](../platform-capabilities-and-apis/holographic-remoting-player.md)

@@ -5,15 +5,15 @@ author: sw5813
 ms.author: suwu
 ms.date: 7/10/2020
 ms.topic: article
-keywords: Нереал, Нереал. 4, UE4, HoloLens, HoloLens 2, Mixed Reality, развертывание на устройстве, ПК, документация
+keywords: Нереал, Нереал. 4, UE4, HoloLens, HoloLens 2, Mixed Reality, развертывание на устройстве, ПК, документация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: abd5e5c28ec5e66c4f73df8edf5e0ac0212d170a
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: 9d32dff121899d40175af813fac4f7be1acc66c3
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91691956"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94679123"
 ---
 # <a name="deploy-to-device-in-unreal"></a>Развертывание на устройстве в Unreal
 
@@ -30,11 +30,11 @@ ms.locfileid: "91691956"
 
 ![Параметры раскрывающегося списка запуска](images/unreal/launch-dropdown.png)
 
-2. Откройте **Device Manager** . Обратите внимание, что HoloLens не будет автоматически отображаться в списке устройств.
+2. Откройте **Device Manager**. Обратите внимание, что HoloLens не будет автоматически отображаться в списке устройств.
 
 3. Разверните раздел **Добавление устройства, не имеющего списка** .
 
-4. Выберите **HoloLens** в качестве **платформы** .
+4. Выберите **HoloLens** в качестве **платформы**.
 
 5. Введите IP-адрес устройства и сведения о портах, разделенные двоеточием, в качестве идентификатора устройства. Например, "127.0.0.1:10080" (при подключении через USB). Используйте учетные данные пользователя и пароля на портале устройства.
 
@@ -52,11 +52,11 @@ ms.locfileid: "91691956"
 
 Подробные инструкции по [упаковке и развертыванию приложения](tutorials/unreal-uxt-ch6.md#packaging-and-deploying-the-app-via-device-portal) можно найти в последнем разделе Начало работы с нереальными сериями руководств.
 
-## <a name="next-development-checkpoint"></a>Контрольная точка следующей разработки
+## <a name="next-development-checkpoint"></a>Следующий этап разработки
 
 Если вы подготовились к нереальному пути к контрольной точке разработки, мы собрались, что вы находитесь на стадии развертывания. Здесь можно перейти к добавлению дополнительных служб:
 
 > [!div class="nextstepaction"]
-> [Дополнительные службы](unreal-development-overview.md#5-adding-services)
+> [Расширенные службы](unreal-development-overview.md#5-adding-services)
 
-Вы всегда можете вернуться к [нереальным контрольным точкам разработки](unreal-development-overview.md#4-deploying-to-a-device) в любое время.
+Вы можете в любой момент вернуться к [этапам разработки для Unreal](unreal-development-overview.md#4-deploying-to-a-device).

@@ -5,13 +5,13 @@ author: mattzmsft
 ms.author: mazeller
 ms.date: 03/21/2018
 ms.topic: article
-keywords: развертывание, Unity, Visual Studio, HoloLens, HoloLens 2, иммерсивное головной телефон
-ms.openlocfilehash: 4d145568190ea43cf2ec43442a1c3d5ca4d92251
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+keywords: развертывание, Unity, Visual Studio, HoloLens, HoloLens 2, закрепляемая гарнитура, лучшие методики, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, UWP, Инструменты Visual Studio, Windows SDK
+ms.openlocfilehash: 5e00b24c7a36ae83a281800e2c7d8b2fc377f178
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91683244"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94678849"
 ---
 # <a name="best-practices-for-working-with-unity-and-visual-studio"></a>Рекомендации по работе с Unity и Visual Studio
 
@@ -55,9 +55,9 @@ ms.locfileid: "91683244"
 
 ## <a name="use-text-format-assets-for-easy-comparison-of-content-changes"></a>Использование ресурсов текстового формата для простого сравнения изменений содержимого
 
-Хранение ресурсов в текстовом формате упрощает проверку различий изменений содержимого в Visual Studio. Это можно сделать в окне "изменение параметров проекта > редакторе >", изменив режим **сериализации активов** на **принудительный текст** . Однако слияние изменений в файлах с текстовыми ресурсами является подверженным ошибкам и не рекомендуется, поэтому рекомендуется включить монопольное двоичное извлечение в системе управления версиями.
+Хранение ресурсов в текстовом формате упрощает проверку различий изменений содержимого в Visual Studio. Это можно сделать в окне "изменение параметров проекта > редакторе >", изменив режим **сериализации активов** на **принудительный текст**. Однако слияние изменений в файлах с текстовыми ресурсами является подверженным ошибкам и не рекомендуется, поэтому рекомендуется включить монопольное двоичное извлечение в системе управления версиями.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Набор средств Visual Studio для Unity](https://visualstudiogallery.msdn.microsoft.com/8d26236e-4a64-4d64-8486-7df95156aba9)
 - [Оптимизация времени сборки для IL2CPP](https://docs.unity3d.com/Manual/IL2CPP-OptimizingBuildTimes.html)
 - [*Унитискриптанализер* Расширение Visual Studio](https://github.com/Microsoft/MixedRealityCompanionKit/tree/master/UnityScriptAnalyzer)

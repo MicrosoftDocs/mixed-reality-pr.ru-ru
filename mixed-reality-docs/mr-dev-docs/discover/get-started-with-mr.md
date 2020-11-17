@@ -7,12 +7,12 @@ ms.date: 07/29/2020
 ms.topic: overview
 ms.localizationpriority: high
 keywords: Mixed Reality, discover, distribute, index, landing page, design, development, tutorials, sample apps, fundamentals, case studies, resources, HoloLens how-to, Open source projects
-ms.openlocfilehash: 34c78c277e0b184c0421c2bdd56ef13411a5bf29
-ms.sourcegitcommit: bd359c269add7ac76f0c2c26ca7caedba14749b1
+ms.openlocfilehash: 7c8fc83fd2b5542909fd2ea6ab4dca288175c56c
+ms.sourcegitcommit: cc27d31f0cebaf9fc4221a3300a9e3d73230b367
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94417839"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "94631522"
 ---
 # <a name="get-started-with-mixed-reality"></a>Приступая к работе со смешанной реальностью
 
@@ -143,11 +143,6 @@ ms.locfileid: "94417839"
 
 <br>
 
-
 >[!IMPORTANT]
 >Все материалы по разработке решений смешанной реальности, содержащиеся на этом сайте, предоставляются исключительно для ознакомления. Вы как разработчик приложения несете полную ответственность за приложение, его использование и влияние на конечных пользователей. В частности, вы гарантируете, что приложение не станет причиной дискомфорта, травмирования или любого другого вреда для пользователей. Также вы отвечаете за наличие соответствующих предупреждений и заявлений об отказе от ответственности. Вы должны во всех случаях предпринимать соответствующие действия, касающиеся разработки и публикации приложения, чтобы гарантировать его безопасность и выполнение всех обязательств, установленных в [соглашении между разработчиком приложений и корпорацией Майкрософт](https://docs.microsoft.com/legal/windows/agreements/app-developer-agreement).
 
-## <a name="see-also"></a>См. также раздел
-* [Сведения об оборудовании иммерсивных гарнитур](immersive-headset-hardware-details.md)
-* [Ресурсы сообщества](community.md)
-* [Руководство для энтузиастов виртуальной реальности](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/)

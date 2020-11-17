@@ -1,19 +1,19 @@
 ---
-title: Рекомендации по материалам в нереальном режиме
+title: Рекомендации по использованию материалов в Unreal
 description: Обзор материалов в нереальном подсистеме.
 author: hferrone
 ms.author: v-hferrone
 ms.date: 09/18/2020
 ms.topic: article
-keywords: Неreal, нереалное ядро 4, UE4, HoloLens, HoloLens 2, разработка, материалы, документация, руководства, функции, голограммы, Разработка игр
-ms.openlocfilehash: bfce6e6bf8acd58821dba1213e1f1ab571d85a0c
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+keywords: Нереал, Нереал. 4, UE4, HoloLens, HoloLens 2, разработка, материалы, документация, руководства, функции, голограммы, Разработка игр, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
+ms.openlocfilehash: d57689e9427ab5877e3afb49b0d19f35df6c47d2
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91691833"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94678943"
 ---
-# <a name="material-recommendations-in-unreal"></a>Рекомендации по материалам в нереальном режиме
+# <a name="material-recommendations-in-unreal"></a>Рекомендации по использованию материалов в Unreal
 
 Материалы могут создавать или прерывать производительность в нереальном ядре. Эта страница служит для быстрого запуска основных параметров, которые следует использовать для достижения максимальной производительности.
 
@@ -73,7 +73,7 @@ ms.locfileid: "91691833"
 
 При создании экземпляров материалов предпочтение необходимо предоставить **константе экземпляра материала** для экземпляра материала Dynamic. **Константа экземпляра материала** — это экземплярный материал, который вычисляется только один раз до выполнения.
 
-Экземпляр материала, созданный с помощью браузера содержимого ( **щелкните правой кнопкой мыши > создать экземпляр материала** ) — это константа экземпляра материала. Экземпляр материала Dynamic создается с помощью кода. Дополнительные сведения об экземплярах материалов см. в [документации по нереальному подсистеме](https://docs.unrealengine.com/Engine/Rendering/Materials/MaterialInstances/index.html).
+Экземпляр материала, созданный с помощью браузера содержимого (**щелкните правой кнопкой мыши > создать экземпляр материала**) — это константа экземпляра материала. Экземпляр материала Dynamic создается с помощью кода. Дополнительные сведения об экземплярах материалов см. в [документации по нереальному подсистеме](https://docs.unrealengine.com/Engine/Rendering/Materials/MaterialInstances/index.html).
 
 ![Создание экземпляров материалов в нереальном режиме](images/unreal-materials-img-08.png)
 
@@ -88,7 +88,7 @@ ms.locfileid: "91691833"
 
 ![Сложность материала в нереальном режиме](images/unreal-materials-img-10.png)
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 * [Мобильные материалы](https://docs.unrealengine.com/Platforms/Mobile/Materials/index.html)
 * [Режимы представления](https://docs.unrealengine.com/Engine/UI/LevelEditor/Viewports/ViewModes/index.html)
 * [Экземпляры материалов](https://docs.unrealengine.com/Engine/Rendering/Materials/MaterialInstances/index.html)

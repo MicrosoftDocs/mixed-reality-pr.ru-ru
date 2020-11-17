@@ -5,13 +5,13 @@ author: thetuvix
 ms.author: alexturn
 ms.date: 03/21/2018
 ms.topic: article
-keywords: глаз — взгляд, голова, Unity, голограмма, Смешанная реальность
-ms.openlocfilehash: 8c1a6cb0847cd0e6e776c6d4e1f7c1efdc126279
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+keywords: взгляд на глаза, головной взгляд, Unity, голограмма, Смешанная реальность, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, МРТК, набор средств смешанной реальности
+ms.openlocfilehash: 0c62de9cb1b7ea892831ea2cedbeb23be5ea7b37
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91691913"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94677513"
 ---
 # <a name="head-gaze-in-unity"></a>Головной взгляд в Unity
 
@@ -56,19 +56,19 @@ void Update()
 ## <a name="head-gaze-in-the-mixed-reality-toolkit-v2"></a>Руководитель-взгляд в наборе средств Mixed Reality версии 2
 Вы можете получить доступ к Head с помощью [диспетчера ввода](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Input/Overview.html) в мртк v2.
 
-## <a name="next-development-checkpoint"></a>Контрольная точка следующей разработки
+## <a name="next-development-checkpoint"></a>Следующий этап разработки
 
-Если вы используете точку контрольной точки разработки Unity, которую мы собрали, то можете изучить стандартные блоки МРТК. Отсюда можно перейти к следующему стандартному блоку:
+Если вы следуете изложенным нами этапам разработки для Unity, вы как раз прошли половину в изучении основных стандартных блоков MRTK. Отсюда вы можете перейти к следующему стандартному блоку:
 
 > [!div class="nextstepaction"]
 > [Жесты и контроллеры движений](gestures-and-motion-controllers-in-unity.md)
 
-Или перейти к возможностям платформы смешанной реальности и API-интерфейсам:
+Или перейдите к возможностям и API платформы смешанной реальности:
 
 > [!div class="nextstepaction"]
 > [общие возможности](shared-experiences-in-unity.md);
 
-Вы всегда можете вернуться к [контрольным точкам разработки Unity](unity-development-overview.md#2-core-building-blocks) в любое время.
+Вы можете в любой момент вернуться к [этапам разработки для Unity](unity-development-overview.md#2-core-building-blocks).
 
 ## <a name="see-also"></a>См. также раздел
 * [Камера](camera-in-unity.md)

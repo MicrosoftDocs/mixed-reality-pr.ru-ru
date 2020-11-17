@@ -5,18 +5,18 @@ author: caseymeekhof
 ms.author: cmeekhof
 ms.date: 08/04/2020
 ms.topic: article
-keywords: глаз-взгляд, руководитель-взгляд, отслеживание головок, отслеживание глаз, DirectX, ввод, голограммы
-ms.openlocfilehash: 06f725f3560d2c05e15c2e1362e820262986a192
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+keywords: взгляд на глаза, головной взгляд, отслеживание головок, отслеживание глаз, DirectX, ввод, голограммы, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
+ms.openlocfilehash: 9ec54f5db33346c499582b54a0b3e36c129bf7ab
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91691496"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94678083"
 ---
 # <a name="head-gaze-and-eye-gaze-input-in-directx"></a>Ввод с взгляда на глаза в DirectX
 
 > [!NOTE]
-> Эта статья связана с устаревшими собственными API-интерфейсами WinRT.  Для новых проектов собственных приложений рекомендуется использовать **[API опенкср](openxr-getting-started.md)** .
+> Эта статья связана с устаревшими собственными API-интерфейсами WinRT.  Для новых проектов собственных приложений рекомендуется использовать **[API опенкср](openxr-getting-started.md)**.
 
 В Windows Mixed Reality для определения того, что просматривает пользователь, используется ввод с глазом и взглядом на головной взгляд. Это можно использовать для создания первичных входных моделей, таких как [head-взгляд и Commit](../../design/gaze-and-commit.md), а также для предоставления контекста для типов взаимодействий. Есть два типа векторов взгляда, доступных через API: «Head-взгляд» и «глаз-взгляд».  Оба значения предоставляются в виде трехмерного луча с исходным и направленным координатами. Приложения могут райкаст в фоновом режиме или в реальном мире, а также определить назначение пользователя.
 
@@ -84,7 +84,7 @@ if (pointerPose)
 2. Включите функцию "Ввод взгляда" в манифесте пакета.
 
 ### <a name="requesting-access-to-eye-gaze-input"></a>Запрос доступа к входным данным взгляда
-При запуске приложения вызовите [эйеспосе:: рекуестакцессасинк](https://docs.microsoft.com//uwp/api/windows.perception.people.eyespose.requestaccessasync#Windows_Perception_People_EyesPose_RequestAccessAsync) , чтобы запросить доступ к отслеживанию глаз. Система запросит пользователя при необходимости и возвратит [газеинпутакцессстатус:: Allowed](https://docs.microsoft.com//uwp/api/windows.ui.input.gazeinputaccessstatus) после предоставления доступа. Это асинхронный вызов, поэтому для него требуется некоторое дополнительное управление. В следующем примере показано, как отсоединить отсоединенный std:: Thread для ожидания результата, который он сохраняет в переменную-член с именем *m_isEyeTrackingEnabled* .
+При запуске приложения вызовите [эйеспосе:: рекуестакцессасинк](https://docs.microsoft.com//uwp/api/windows.perception.people.eyespose.requestaccessasync#Windows_Perception_People_EyesPose_RequestAccessAsync) , чтобы запросить доступ к отслеживанию глаз. Система запросит пользователя при необходимости и возвратит [газеинпутакцессстатус:: Allowed](https://docs.microsoft.com//uwp/api/windows.ui.input.gazeinputaccessstatus) после предоставления доступа. Это асинхронный вызов, поэтому для него требуется некоторое дополнительное управление. В следующем примере показано, как отсоединить отсоединенный std:: Thread для ожидания результата, который он сохраняет в переменную-член с именем *m_isEyeTrackingEnabled*.
 
 ```cpp
 using namespace winrt::Windows::Perception::People;
@@ -134,7 +134,7 @@ if (Windows::Perception::People::EyesPose::IsSupported() &&
 
 ### <a name="declaring-the-gaze-input-capability"></a>Объявление возможности ввода с помощью *взгляда*
 
-Дважды щелкните файл AppxManifest в *Обозреватель решений* .  Затем перейдите к разделу возможностей и проверьте возможность *ввода* с помощью *средства* выбора. 
+Дважды щелкните файл AppxManifest в *Обозреватель решений*.  Затем перейдите к разделу возможностей и проверьте возможность *ввода* с помощью *средства* выбора. 
 
 ![Возможность ввода с клавиатуры](images/gaze-input-capability.png)
 
@@ -177,11 +177,11 @@ if (pointerPose)
 Как упоминалось в [документах по проектированию отслеживания взгляда](../../design/eye-tracking.md#fallback-solutions-when-eye-tracking-is-not-available), разработчики должны иметь в виду, что могут существовать экземпляры, в которых данные отслеживания взгляда могут быть недоступны для вашего приложения.
 Существуют различные причины для этого, если пользователь не откалиброван, пользователь запретил приложению доступ к данным отслеживания взгляда или просто временные помехи (например, палецы на делители HoloLens или волосы, окклудинг глаз пользователя). Хотя некоторые API-интерфейсы уже упоминались в этом документе, в следующей статье мы предоставляем сводку о том, как определить, что отслеживание взгляда доступно в качестве краткого справочника: 
 
-* Убедитесь, что система поддерживает отслеживание глаз. Вызовите следующий *метод* : [Windows. восприятие. People. эйеспосе. Поддержка ()](https://docs.microsoft.com/uwp/api/windows.perception.people.eyespose.issupported#Windows_Perception_People_EyesPose_IsSupported)
+* Убедитесь, что система поддерживает отслеживание глаз. Вызовите следующий *метод*: [Windows. восприятие. People. эйеспосе. Поддержка ()](https://docs.microsoft.com/uwp/api/windows.perception.people.eyespose.issupported#Windows_Perception_People_EyesPose_IsSupported)
 
-* Убедитесь, что пользователь откалиброван. Вызовите следующее *свойство* : [Windows. восприятие. People. эйеспосе. искалибратионвалид](https://docs.microsoft.com/uwp/api/windows.perception.people.eyespose.iscalibrationvalid#Windows_Perception_People_EyesPose_IsCalibrationValid) 
+* Убедитесь, что пользователь откалиброван. Вызовите следующее *свойство*: [Windows. восприятие. People. эйеспосе. искалибратионвалид](https://docs.microsoft.com/uwp/api/windows.perception.people.eyespose.iscalibrationvalid#Windows_Perception_People_EyesPose_IsCalibrationValid) 
 
-* Убедитесь, что пользователь предоставил приложению разрешение на использование данных отслеживания взгляда: получение текущего _"газеинпутакцессстатус"_ . Пример того, как это сделать, объясняется в [запросе доступа к вводу с помощью взгляда](https://docs.microsoft.com/windows/mixed-reality/gaze-in-directX#requesting-access-to-gaze-input).   
+* Убедитесь, что пользователь предоставил приложению разрешение на использование данных отслеживания взгляда: получение текущего _"газеинпутакцессстатус"_. Пример того, как это сделать, объясняется в [запросе доступа к вводу с помощью взгляда](https://docs.microsoft.com/windows/mixed-reality/gaze-in-directX#requesting-access-to-gaze-input).   
 
 Кроме того, может потребоваться проверить, что данные отслеживания взгляда не устарели, добавив время ожидания между полученными обновлениями данных отслеживания взгляда и иным способом откатом к заголовку, как описано ниже.  
 Дополнительные сведения см. в разделе [рекомендации по проектированию резервного проекта](../../design/eye-tracking.md#fallback-solutions-when-eye-tracking-is-not-available) .
@@ -205,7 +205,7 @@ if (pointerPose)
 
 <br>
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 * [Калибровка](../../calibration.md)
 * [Системы координат в DirectX](coordinate-systems-in-directx.md)
 * [Глаз — Взгляните на HoloLens 2](../../design/eye-tracking.md)

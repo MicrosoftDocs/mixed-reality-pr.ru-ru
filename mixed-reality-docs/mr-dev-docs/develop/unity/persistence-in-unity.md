@@ -5,13 +5,13 @@ author: thetuvix
 ms.author: alexturn
 ms.date: 02/24/2019
 ms.topic: article
-keywords: HoloLens, сохраняемость, Unity
-ms.openlocfilehash: bb1a9b0544f9325a60c86c7424b7b451b6b4335b
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+keywords: HoloLens, сохраняемость, Unity, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
+ms.openlocfilehash: cff7f05a5a5695ae8e379ed681c3b7320622968c
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91694600"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94678533"
 ---
 # <a name="persistence-in-unity"></a>Сохраняемость в Unity
 
@@ -107,19 +107,19 @@ for (int index = 0; index < ids.Length; index++)
 
 После завершения работы с пространственными привязками Azure можно <a href="https://docs.microsoft.com/azure/spatial-anchors/concepts/create-locate-anchors-unity" target="_blank">создавать и искать привязки в Unity</a>.
 
-## <a name="next-development-checkpoint"></a>Контрольная точка следующей разработки
+## <a name="next-development-checkpoint"></a>Следующий этап разработки
 
-Если вы используете точку контрольной точки разработки Unity, которую мы собрали, то можете изучить стандартные блоки в смешанной реальности. Отсюда можно перейти к следующему стандартному блоку:
+Если вы используете точку контрольной точки разработки Unity, которую мы собрали, то можете изучить стандартные блоки в смешанной реальности. Отсюда вы можете перейти к следующему стандартному блоку:
 
 > [!div class="nextstepaction"]
 > [Пространственное сопоставление](spatial-mapping-in-unity.md)
 
-Или перейти к возможностям платформы смешанной реальности и API-интерфейсам:
+Или перейдите к возможностям и API платформы смешанной реальности:
 
 > [!div class="nextstepaction"]
 > [общие возможности](shared-experiences-in-unity.md);
 
-Вы всегда можете вернуться к [контрольным точкам разработки Unity](unity-development-overview.md#2-core-building-blocks) в любое время.
+Вы можете в любой момент вернуться к [этапам разработки для Unity](unity-development-overview.md#2-core-building-blocks).
 
 ## <a name="see-also"></a>См. также
 * [Сохраняемость пространственной привязки](../../design/coordinate-systems.md#spatial-anchor-persistence)

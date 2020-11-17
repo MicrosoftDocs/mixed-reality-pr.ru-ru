@@ -5,13 +5,13 @@ author: kegodin
 ms.author: kegodin
 ms.date: 12/01/2019
 ms.topic: article
-keywords: Смешанная реальность, Unity, учебник, hololens2, Пространственный звук
-ms.openlocfilehash: cb9bfb03da864c78784c288f4d7c4190461cd838
-ms.sourcegitcommit: d8f39c0b95d9e61d645d64f27baabc7a1c300dc1
+keywords: Смешанная реальность, Unity, учебник, hololens2, Пространственный звук, МРТК, набор средств для смешанной реальности, UWP, Windows 10, ХРТФ, функция передачи, связанная с HEAD, переглагол, Microsoft Спатиализер
+ms.openlocfilehash: c752f79f53b5167d674b9e778637357d97fb914a
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "92293152"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94678213"
 ---
 # <a name="enabling-and-disabling-spatialization-at-run-time"></a>Включение и отключение пространственности во время выполнения
 
@@ -95,7 +95,7 @@ public class SpatializeOnOff : MonoBehaviour
 ![Добавить сценарий к четырем](images/spatial-audio/add-script-to-quad.png)
 
 В компоненте **Спатиализе on** of **четыре**:
-1. Найдите в **иерархии**тему **PressableButtonHoloLens2-> Иконандтекст-> текстмешпро** .
+1. Найдите в **иерархии** тему **PressableButtonHoloLens2-> Иконандтекст-> текстмешпро** .
 
 ![Поиск объекта PressableButtonHoloLens2 в иерархии](images/spatial-audio/pressable-button-object.png)
 

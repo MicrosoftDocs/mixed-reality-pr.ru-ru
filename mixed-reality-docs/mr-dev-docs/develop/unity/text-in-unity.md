@@ -5,13 +5,13 @@ author: cre8ivepark
 ms.author: dongpark
 ms.date: 06/03/2019
 ms.topic: article
-keywords: Windows Mixed Reality, проектирование, элементы управления, шрифт, типография, Пользовательский интерфейс, UX
-ms.openlocfilehash: 21409115ed1e9aa9103e1e77ea4aacc0881e1262
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+keywords: Windows Mixed Reality, проектирование, элементы управления, шрифт, типография, Пользовательский интерфейс, UX, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, МРТК, набор средств смешанной реальности
+ms.openlocfilehash: 9778b1b11db7ac1c330b0ede4f6153deff45a95a
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91694576"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94677363"
 ---
 # <a name="text-in-unity"></a>Текст в Unity
 
@@ -98,19 +98,19 @@ Segoe UI (шрифт по умолчанию для Windows) хорошо раб
 ![Шейдер с поддержкой перекрытия](images/hug-text-07-1000px.png)<br>
 *Шейдер с поддержкой перекрытия*
 
-## <a name="next-development-checkpoint"></a>Контрольная точка следующей разработки
+## <a name="next-development-checkpoint"></a>Следующий этап разработки
 
-Если вы используете точку контрольной точки разработки Unity, которую мы собрали, то можете изучить стандартные блоки МРТК. Отсюда можно перейти к следующему стандартному блоку:
+Если вы следуете изложенным нами этапам разработки для Unity, вы как раз прошли половину в изучении основных стандартных блоков MRTK. Отсюда вы можете перейти к следующему стандартному блоку:
 
 > [!div class="nextstepaction"]
 > [Голосовой ввод](voice-input-in-unity.md)
 
-Или перейти к возможностям платформы смешанной реальности и API-интерфейсам:
+Или перейдите к возможностям и API платформы смешанной реальности:
 
 > [!div class="nextstepaction"]
 > [общие возможности](shared-experiences-in-unity.md);
 
-Вы всегда можете вернуться к [контрольным точкам разработки Unity](unity-development-overview.md#2-core-building-blocks) в любое время.
+Вы можете в любой момент вернуться к [этапам разработки для Unity](unity-development-overview.md#2-core-building-blocks).
 
 
 ## <a name="see-also"></a>См. также раздел

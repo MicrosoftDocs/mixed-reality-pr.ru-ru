@@ -5,13 +5,13 @@ author: wguyman
 ms.author: wguyman
 ms.date: 03/21/2018
 ms.topic: article
-keywords: Фото, видео, hololens, Камера, Unity, размещаемые
-ms.openlocfilehash: dfbbcc21db1247a7250e5049bfd1c4f89976ac15
-ms.sourcegitcommit: 8e91ff47ef70e80a41137f80aa1093e711d27bf7
+keywords: Фото, видео, hololens, Камера, Unity, размещаемые, PVC, видеокамера, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, веб-камера, запись фотографий, видеозапись
+ms.openlocfilehash: c41ff88650da4aa6dc0d98c05b1b881362123a4f
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "91957804"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94678603"
 ---
 # <a name="locatable-camera-in-unity"></a>Камера с определяемым местоположением в Unity
 
@@ -205,7 +205,7 @@ void OnCapturedPhotoToMemory(PhotoCapture.PhotoCaptureResult result, PhotoCaptur
 **Пространство имен:** *UnityEngine. XR. WSA. веб-камера*<br>
 **Тип:** *видеокаптуре*
 
-Функция *видеокаптуре* очень похожа на функцию *фотозахвата* . Единственное отличие заключается в том, что необходимо указать значение кадров в секунду, которое можно сохранить непосредственно на диск в виде MP4-файла. Ниже приведены действия по использованию *видеокаптуре* .
+Функция *видеокаптуре* очень похожа на функцию *фотозахвата*. Единственное отличие заключается в том, что необходимо указать значение кадров в секунду, которое можно сохранить непосредственно на диск в виде MP4-файла. Ниже приведены действия по использованию *видеокаптуре* .
 1. Создание объекта *видеокаптуре*
 2. Создание объекта *камерапараметерс* с нужными параметрами
 3. Запуск видеорежима через *стартвидеомодеасинк*
@@ -321,5 +321,5 @@ void OnStoppedRecordingVideo(VideoCapture.VideoCaptureResult result)
 
 Вы можете в любой момент вернуться к [этапам разработки для Unity](unity-development-overview.md#3-platform-capabilities-and-apis).
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 * [Камера с определяемым местоположением](../platform-capab ilities-and-apis/locatable-camera.md)

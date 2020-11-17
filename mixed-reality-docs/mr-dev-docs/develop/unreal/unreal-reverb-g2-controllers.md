@@ -5,13 +5,13 @@ author: hferrone
 ms.author: jacksonf
 ms.date: 10/9/2020
 ms.topic: article
-keywords: Нереал, Нереал. 4, UE4, переглаголы, переглаголы G2, HP reverbы G2, Смешанная реальность, разработка, контроллеры движения, ввод данных пользователем, функции, новый проект, эмулятор, документация, руководства, функции, голограммы, Разработка игр
-ms.openlocfilehash: c9d3ea3a8dd52ed0712f9df5c1a789121a68fd35
-ms.sourcegitcommit: 4bb5544a0c74ac4e9766bab3401c9b30ee170a71
+keywords: Нереал, нереалистичное ядро 4, UE4, переглаголы, переглаголы G2, HP reverbы G2, Смешанная реальность, разработка, контроллеры движения, ввод данных, функции, новый проект, эмулятор, документация, руководства, функции, голограммы, Разработка игр, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
+ms.openlocfilehash: 6a56b11e6738dd6359508d0cdfc1560bddfaff2e
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92638724"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94678933"
 ---
 # <a name="hp-reverb-g2-controllers-in-unreal"></a>HP reverbы G2 контроллеров в нереальном режиме 
 
@@ -52,7 +52,7 @@ ms.locfileid: "92638724"
 
 [!INCLUDE[](includes/tabs-g2-controller-mapping-in-unreal.md)]
 
-## <a name="see-also"></a>См. также статью
+## <a name="see-also"></a>См. также
 * [Входные данные Стеамвр](https://docs.unrealengine.com/Platforms/VR/SteamVR/HowTo/SteamVRInput/index.html)
 * [Использование Стеамвр с Windows Mixed Reality](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/using-steamvr-with-windows-mixed-reality)
 * [Нереалная Камера проигрывателя](https://docs.unrealengine.com/Programming/Tutorials/PlayerCamera/3/index.html)

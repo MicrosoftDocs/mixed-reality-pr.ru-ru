@@ -5,13 +5,13 @@ author: hferrone
 ms.author: v-hferrone
 ms.date: 06/10/2020
 ms.topic: article
-keywords: Windows Mixed Reality, отслеживание, неreal, нереалное ядро 4, UE4, HoloLens, HoloLens 2, Смешанная реальность, разработка, функции, документация, руководства, голограммы, Разработка игр
-ms.openlocfilehash: 5bc120f802c2160282befd1ce6cb8025be21cbaa
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+keywords: Windows Mixed Reality, отслеживание, неreal, нереалное ядро 4, UE4, HoloLens, HoloLens 2, Смешанная реальность, разработка, функции, документация, руководства, голограммы, Разработка игр, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
+ms.openlocfilehash: 0a16a0291261277cb09e736e60b25f8ba71382e3
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91683084"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94679213"
 ---
 # <a name="hand-tracking-in-unreal"></a>Отслеживание рук в Unreal
 
@@ -68,7 +68,7 @@ enum class EWMRHandKeypoint : uint8
  
 ### <a name="supporting-hand-tracking"></a>Поддержка отслеживания
 
-Вы можете использовать отслеживание вручную в схемах, добавив **поддержку отслеживания вручную** для **отслеживания > Windows Mixed Reality** :
+Вы можете использовать отслеживание вручную в схемах, добавив **поддержку отслеживания вручную** для **отслеживания > Windows Mixed Reality**:
 
 ![BP для отслеживания](images/unreal/hand-tracking-bp.png)
 
@@ -115,7 +115,7 @@ static bool UWindowsMixedRealityHandTrackingFunctionLibrary::GetHandJointTransfo
 
 ![Динамическая анимация ссылки](images/unreal/live-link-animation.png)
  
-Иерархия анимации руки такая же, как и в `EWMRHandKeypoint` . Анимацию можно перенацелить с помощью **виндовсмикседреалитихандтраккингливелинкремапассет** :
+Иерархия анимации руки такая же, как и в `EWMRHandKeypoint` . Анимацию можно перенацелить с помощью **виндовсмикседреалитихандтраккингливелинкремапассет**:
 
 ![Анимация прямой связи 2](images/unreal/live-link-animation2.png)
  
@@ -128,7 +128,7 @@ static bool UWindowsMixedRealityHandTrackingFunctionLibrary::GetHandJointTransfo
 ![Сетка руки](images/unreal/hand-mesh.png)
 
 Прежде чем можно будет получить доступ к данным сетки данных, необходимо:
-- Выберите свой ресурс **арсессионконфиг** , разверните параметры **AR Settings-> мирового сопоставления** и установите флажок **создать данные сетки из отслеживающей геометрии** . 
+- Выберите свой ресурс **арсессионконфиг** , разверните параметры **AR Settings-> мирового сопоставления** и установите флажок **создать данные сетки из отслеживающей геометрии**. 
 
 Ниже приведены параметры сетки по умолчанию.
 
@@ -196,14 +196,14 @@ UMRMeshComponent* UARTrackedGeometry::GetUnderlyingMesh()
 
 Важно упомянуть, что поскольку результаты всех функций изменяют каждый кадр, все они становятся вызываемыми. Дополнительные сведения о чистом и нечистом или вызываемых функциях см. в статье GUID пользователя в [функциях](https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Functions/index.html#purevs.impure) .
 
-Чтобы использовать лучи в схемах, выполните поиск любых действий в **Windows Mixed Reality ХМД** :
+Чтобы использовать лучи в схемах, выполните поиск любых действий в **Windows Mixed Reality ХМД**:
 
 ![BP](images/unreal/hand-rays-bp.png)
  
 Чтобы получить доступ к ним в C++, включите `WindowsMixedRealityFunctionLibrary.h` в начало файла вызывающего кода.
 
 ### <a name="enum"></a>Перечисление
-Кроме того, у вас есть доступ к входным вариантам в **ехмдинпутконтроллербуттонс** , которые можно использовать в схемах:
+Кроме того, у вас есть доступ к входным вариантам в **ехмдинпутконтроллербуттонс**, которые можно использовать в схемах:
 
 ![Кнопки контроллера ввода](images/unreal/input-controller-buttons.png)
 
@@ -326,7 +326,7 @@ static EHMDTrackingStatus UWindowsMixedRealityFunctionLibrary::GetControllerTrac
 
 Hololens 2 может отслеживать пространственные жесты, что означает возможность захвата этих жестов в качестве входных данных. Дополнительные сведения о жестах можно найти в документе [об использовании HoloLens 2](https://docs.microsoft.com/hololens/hololens2-basic-usage) .
 
-Функцию схемы можно найти в разделе **пространственный ввод Windows Mixed Reality** , а функция C++ — путем добавления `WindowsMixedRealitySpatialInputFunctionLibrary.h` в файл вызывающего кода.
+Функцию схемы можно найти в разделе **пространственный ввод Windows Mixed Reality**, а функция C++ — путем добавления `WindowsMixedRealitySpatialInputFunctionLibrary.h` в файл вызывающего кода.
 
 ![Жесты записи](images/unreal/capture-gestures.png)
 
@@ -349,7 +349,7 @@ enum class ESpatialInputAxisGestureType : uint8
 };
 ```
 
-### <a name="function"></a>Функция
+### <a name="function"></a>Компонент
 Включить и отключить захват жестов можно с помощью `CaptureGestures` функции. Когда включенный жест запускает входные события, функция возвращает значение, `true` Если захват жеста завершается удачно, и `false` при наличии ошибки.
 
 Схем
@@ -405,16 +405,16 @@ const FKey FSpatialInputKeys::RightNavigationYGesture(RightNavigationYGestureNam
 const FKey FSpatialInputKeys::RightNavigationZGesture(RightNavigationZGestureName);
 ```
 
-## <a name="next-development-checkpoint"></a>Контрольная точка следующей разработки
+## <a name="next-development-checkpoint"></a>Следующий этап разработки
 
-Если вы подготовились к нереальному пути к контрольной точке разработки, мы собрались в исследовании стандартных блоков МРТК Core. Отсюда можно перейти к следующему стандартному блоку: 
+Если вы следуете изложенным нами этапам разработки для Unreal, вы как раз прошли половину в изучении основных стандартных блоков MRTK. Отсюда вы можете перейти к следующему стандартному блоку: 
 
 > [!div class="nextstepaction"]
 > [Локальные пространственные привязки](unreal-spatial-anchors.md)
 
-Или перейти к возможностям платформы смешанной реальности и API-интерфейсам:
+Или перейдите к возможностям и API платформы смешанной реальности:
 
 > [!div class="nextstepaction"]
 > [Камера HoloLens](unreal-hololens-camera.md)
 
-Вы всегда можете вернуться к [нереальным контрольным точкам разработки](unreal-development-overview.md#2-core-building-blocks) в любое время.
+Вы можете в любой момент вернуться к [этапам разработки для Unreal](unreal-development-overview.md#2-core-building-blocks).

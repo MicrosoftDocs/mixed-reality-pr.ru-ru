@@ -5,13 +5,13 @@ author: hferrone
 ms.author: v-hferrone
 ms.date: 06/10/2020
 ms.topic: article
-keywords: Windows Mixed Reality, голограммы, HoloLens 2, отслеживание глаз, входные данные с головного экрана, нереалная подсистема
-ms.openlocfilehash: 477fbdc9c7ddb3b4e890e62150651d9227d4c19e
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+keywords: Windows Mixed Reality, голограммы, HoloLens 2, отслеживание взгляда, ввод с экрана, подключенный головной дисплей, нереалный механизм, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
+ms.openlocfilehash: 2ea55e3c53275f6150ca7f2def10d71634119e2e
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91691989"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94679053"
 ---
 # <a name="gaze-input"></a>Входные данные взгляда
 
@@ -44,21 +44,21 @@ ms.locfileid: "91691989"
 
 Это все, что необходимо для того, чтобы добавить входные данные взгляда в приложения HoloLens 2 в нереальном виде. Дополнительные сведения о вводе и том, как он влияет на пользователей в смешанной реальности, можно найти по ссылкам ниже. Не забудьте подумать об этих возможностях при создании интерактивных интерфейсов.
 
-## <a name="next-development-checkpoint"></a>Контрольная точка следующей разработки
+## <a name="next-development-checkpoint"></a>Следующий этап разработки
 
-Если вы подготовились к нереальному пути к контрольной точке разработки, мы собрались в исследовании стандартных блоков МРТК Core. Отсюда можно перейти к следующему стандартному блоку: 
+Если вы следуете изложенным нами этапам разработки для Unreal, вы как раз прошли половину в изучении основных стандартных блоков MRTK. Отсюда вы можете перейти к следующему стандартному блоку: 
 
 > [!div class="nextstepaction"]
 > [Отслеживание рук](unreal-hand-tracking.md)
 
-Или перейти к возможностям платформы смешанной реальности и API-интерфейсам:
+Или перейдите к возможностям и API платформы смешанной реальности:
 
 > [!div class="nextstepaction"]
 > [Камера HoloLens](unreal-hololens-camera.md)
 
-Вы всегда можете вернуться к [нереальным контрольным точкам разработки](unreal-development-overview.md#2-core-building-blocks) в любое время.
+Вы можете в любой момент вернуться к [этапам разработки для Unreal](unreal-development-overview.md#2-core-building-blocks).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 * [Калибровка](../../calibration.md)
 * [Комфорт](../../design/comfort.md)
 * [Взгляд и фиксация](../../design/gaze-and-commit.md)
