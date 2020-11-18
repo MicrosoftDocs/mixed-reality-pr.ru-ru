@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: ad8f4a5ea9bda7915731f879da96cf7e007c58fb
-ms.sourcegitcommit: 4bb5544a0c74ac4e9766bab3401c9b30ee170a71
+ms.openlocfilehash: cd6541dd651573f31ddc2e2a388be53394059c5f
+ms.sourcegitcommit: f459c7deb254409fd5db3967bcc875bcbc367e77
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92755748"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94482420"
 ---
 # <a name="unity"></a>[Unity](#tab/unity)
 
@@ -13,7 +13,7 @@ ms.locfileid: "92755748"
 ### <a name="1-download-the-latest-version"></a>1. Скачайте последнюю версию.
 
 В качестве лучшей версии для запуска новых проектов мы рекомендуем [Unity LTS (долгосрочная поддержка)](https://unity3d.com/unity/qa/lts-releases). Затем ее можно обновить до последней версии, чтобы получить новые стабильные исправления.
-* Сейчас рекомендуем использовать **Unity 2019**  — сборку LTS, необходимую для MRTK версии 2 (см. ниже).
+* Сейчас рекомендуем использовать **Unity 2019** — сборку LTS, необходимую для MRTK версии 2 (см. ниже).
 * Если вам по определенным причинам требуется использовать другую версию Unity, с этим не возникнет затруднений, так как Unity поддерживает параллельную установку различных версий.
 
 ### <a name="2-import-mixed-reality-toolkit-mrtk"></a>2. Импортируйте набор средств для смешанной реальности (MRTK).
@@ -48,11 +48,31 @@ ms.locfileid: "92755748"
 
 #### <a name="for-hololens-development"></a>Для разработки решений для HoloLens
 
-При настройке компьютера для разработки решений для HoloLens убедитесь, что он соответствует системным требованиям для <a href="https://unity3d.com/unity/system-requirements" target="_blank">Unity</a> и <a href="https://docs.microsoft.com//visualstudio/releases/2019/system-requirements" target="_blank">Visual Studio</a>. Если вы планируете использовать [эмулятор HoloLens](../platform-capabilities-and-apis/using-the-hololens-emulator.md), убедитесь, что ваш компьютер соответствует [его системным требованиям](../platform-capabilities-and-apis/using-the-hololens-emulator.md#hololens-emulator-system-requirements).
+При настройке компьютера для разработки решений для HoloLens убедитесь, что он соответствует системным требованиям для <a href="https://unity3d.com/unity/system-requirements" target="_blank">Unity</a> и <a href="https://docs.microsoft.com//visualstudio/releases/2019/system-requirements" target="_blank">Visual Studio</a>. Если вы хотите запустить приложение на устройстве HoloLens, вам потребуется выполнить [инструкции по настройке портала устройств Windows](../platform-capabilities-and-apis/using-the-windows-device-portal.md#setting-up-hololens-to-use-windows-device-portal). Если вы планируете использовать [эмулятор HoloLens](../platform-capabilities-and-apis/using-the-hololens-emulator.md), убедитесь, что ваш компьютер соответствует [его системным требованиям](../platform-capabilities-and-apis/using-the-hololens-emulator.md#hololens-emulator-system-requirements).
 
 Сведения о начале работы с эмулятором HoloLens см. в [этой статье](../platform-capabilities-and-apis/using-the-hololens-emulator.md).
 
 Если вы планируете разработку приложений для иммерсивных гарнитур (гарнитур виртуальной реальности) HoloLens и Windows Mixed Reality, ознакомьтесь с системными рекомендациями и требованиями в приведенном ниже разделе.
+
+#### <a name="hololens-troubleshooting"></a>Устранение неполадок с HoloLens
+
+##### <a name="setting-developer-mode-is-grayed-out"></a>Неактивная кнопка для включения режима разработчика
+
+Если вы сталкиваетесь с проблемами при включении режима разработчика на устройстве, возможно, у вас нет прав [владельца устройства](https://docs.microsoft.com/hololens/security-adminless-os). В многопользовательском режиме то лицо, которое использует устройство первым, назначается владельцем. Все последующие пользователи не будут иметь нужных разрешений для включения режима разработчика или внесения других изменений в конфигурацию. Однако существует исключение, при котором первый пользователь может не быть владельцем устройства в среде с Autopilot. Подробные сведения см. в [документации по безопасности HoloLens](https://docs.microsoft.com/hololens/security-adminless-os#device-owner).
+
+Ниже представлены возможные решения.
+
+* Владелец устройства должен включить режим разработчика перед передачей устройства другим пользователям или разработчикам.
+* Рекомендация ИТ-администратору или администратору MDM включить параметр политики CSP [ApplicationManagement/AllowDeveloperUnlock](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-allowdeveloperunlock) для конкретного устройства или группы устройств, с которыми работают разработчики. 
+    * Эту политику можно задать с помощью [пакетов подготовки](https://docs.microsoft.com/hololens/hololens-provisioning) или через [MDM для устройств HoloLens](https://docs.microsoft.com/hololens/hololens-mdm-configure)
+* Использование решения [Advanced Recovery Companion (ARC)](https://docs.microsoft.com/hololens/hololens-recovery).
+
+> [!NOTE]
+> Дополнительные сведения об управлении устройствами HoloLens см. в **[этом обзоре](https://docs.microsoft.com/hololens/hololens-csp-policy-overview)** .
+
+##### <a name="i-cant-deploy-over-usb"></a>Не удается выполнить развертывание по USB
+
+Если вы не можете развернуть приложение непосредственно по USB, убедитесь, что вы выполнили все приведенные выше требования к установке, и следуйте инструкциям из нашего [пошагового руководства](../unity/tutorials/mr-learning-base-02.md#building-your-application-to-your-hololens-2).
 
 #### <a name="immersive-vr-headset-requirements"></a>Требования к иммерсивной гарнитуре виртуальной реальности
 
@@ -60,9 +80,9 @@ ms.locfileid: "92755748"
 >Приведенные ниже рекомендации являются действующими минимальными и рекомендуемыми характеристиками для *компьютера, где будут разрабатываться приложения* для иммерсивных гарнитур (гарнитур виртуальной реальности). Эти рекомендации регулярно обновляются.
 
 >[!WARNING]
->Не путайте их с [минимальными рекомендациями по совместимости аппаратного обеспечения компьютера](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines), в которых изложены *спецификации компьютера потребителя* , на которые следует ориентироваться при работе с приложением или игрой, используемых с иммерсивной гарнитурой (виртуальная реальность).
+>Не путайте их с [минимальными рекомендациями по совместимости аппаратного обеспечения компьютера](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines), в которых изложены *спецификации компьютера потребителя*, на которые следует ориентироваться при работе с приложением или игрой, используемых с иммерсивной гарнитурой (виртуальная реальность).
 
-Если вы используете гарнитуру **Reverb G2** , скачайте подключаемый модуль **Microsoft-Valve OpenXR** (TODO: // требуется ссылка).
+Если вы используете гарнитуру **Reverb G2**, скачайте подключаемый модуль **Microsoft-Valve OpenXR** (TODO: // требуется ссылка).
 
 Если на компьютере для разработки решений для иммерсивных гарнитур отсутствуют полноразмерные порты HDMI и (или) USB 3.0, для подключения гарнитуры вам потребуются [адаптеры](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs).
 
@@ -145,9 +165,29 @@ ms.locfileid: "92755748"
 
 #### <a name="for-hololens-development"></a>Для разработки решений для HoloLens
 
-При настройке компьютера для разработки решений для HoloLens убедитесь, что он соответствует системным требованиям для [Unreal](https://docs.unrealengine.com/GettingStarted/RecommendedSpecifications/index.html) и <a href="https://docs.microsoft.com//visualstudio/releases/2019/system-requirements" target="_blank">Visual Studio</a>. Если вы планируете использовать [эмулятор HoloLens](../platform-capabilities-and-apis/using-the-hololens-emulator.md), убедитесь, что ваш компьютер соответствует [его системным требованиям](../platform-capabilities-and-apis/using-the-hololens-emulator.md#hololens-emulator-system-requirements).
+При настройке компьютера для разработки решений для HoloLens убедитесь, что он соответствует системным требованиям для [Unreal](https://docs.unrealengine.com/GettingStarted/RecommendedSpecifications/index.html) и <a href="https://docs.microsoft.com//visualstudio/releases/2019/system-requirements" target="_blank">Visual Studio</a>. Если вы хотите запустить приложение на устройстве HoloLens, вам потребуется выполнить [инструкции по настройке портала устройств Windows](../platform-capabilities-and-apis/using-the-windows-device-portal.md#setting-up-hololens-to-use-windows-device-portal). Если вы планируете использовать [эмулятор HoloLens](../platform-capabilities-and-apis/using-the-hololens-emulator.md), убедитесь, что ваш компьютер соответствует [его системным требованиям](../platform-capabilities-and-apis/using-the-hololens-emulator.md#hololens-emulator-system-requirements).
 
 Если вы планируете разработку приложений для иммерсивных гарнитур (гарнитур виртуальной реальности) HoloLens и Windows Mixed Reality, ознакомьтесь с системными рекомендациями и требованиями в приведенном ниже разделе.
+
+#### <a name="hololens-troubleshooting"></a>Устранение неполадок с HoloLens
+
+##### <a name="setting-developer-mode-is-grayed-out"></a>Неактивная кнопка для включения режима разработчика
+
+Если вы сталкиваетесь с проблемами при включении режима разработчика на устройстве, возможно, у вас нет прав [владельца устройства](https://docs.microsoft.com/hololens/security-adminless-os). В многопользовательском режиме то лицо, которое использует устройство первым, назначается владельцем. Все последующие пользователи не будут иметь нужных разрешений для включения режима разработчика или внесения других изменений в конфигурацию. Однако существует исключение, при котором первый пользователь может не быть владельцем устройства в среде с Autopilot. Подробные сведения см. в [документации по безопасности HoloLens](https://docs.microsoft.com/hololens/security-adminless-os#device-owner).
+
+Ниже представлены возможные решения.
+
+* Владелец устройства должен включить режим разработчика перед передачей устройства другим пользователям или разработчикам.
+* Рекомендация ИТ-администратору или администратору MDM включить параметр политики CSP [ApplicationManagement/AllowDeveloperUnlock](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-allowdeveloperunlock) для конкретного устройства или группы устройств, с которыми работают разработчики. 
+    * Эту политику можно задать с помощью [пакетов подготовки](https://docs.microsoft.com/hololens/hololens-provisioning) или через [MDM для устройств HoloLens](https://docs.microsoft.com/hololens/hololens-mdm-configure)
+* Использование решения [Advanced Recovery Companion (ARC)](https://docs.microsoft.com/hololens/hololens-recovery).
+
+> [!NOTE]
+> Дополнительные сведения об управлении устройствами HoloLens см. в **[этом обзоре](https://docs.microsoft.com/hololens/hololens-csp-policy-overview)** .
+
+##### <a name="i-cant-deploy-over-usb"></a>Не удается выполнить развертывание по USB
+
+Если вы не можете развернуть приложение непосредственно по USB, убедитесь, что вы выполнили все приведенные выше требования к установке, и следуйте инструкциям из нашего [пошагового руководства](../unreal/tutorials/unreal-uxt-ch6.md).
 
 #### <a name="immersive-vr-headset-requirements"></a>Требования к иммерсивной гарнитуре виртуальной реальности
 
@@ -155,9 +195,9 @@ ms.locfileid: "92755748"
 >Приведенные ниже рекомендации являются действующими минимальными и рекомендуемыми характеристиками для *компьютера, где будут разрабатываться приложения* для иммерсивных гарнитур (гарнитур виртуальной реальности). Эти рекомендации регулярно обновляются.
 
 >[!WARNING]
->Не путайте их с [минимальными рекомендациями по совместимости аппаратного обеспечения компьютера](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines), в которых изложены *спецификации компьютера потребителя* , на которые следует ориентироваться при работе с приложением или игрой, используемых с иммерсивной гарнитурой (виртуальная реальность).
+>Не путайте их с [минимальными рекомендациями по совместимости аппаратного обеспечения компьютера](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines), в которых изложены *спецификации компьютера потребителя*, на которые следует ориентироваться при работе с приложением или игрой, используемых с иммерсивной гарнитурой (виртуальная реальность).
 
-Если вы используете гарнитуру **Reverb G2** , скачайте подключаемый модуль **Microsoft-Valve OpenXR** (TODO: // требуется ссылка).
+Если вы используете гарнитуру **Reverb G2**, скачайте подключаемый модуль **Microsoft-Valve OpenXR** (TODO: // требуется ссылка).
 
 Если на компьютере для разработки решений для иммерсивных гарнитур отсутствуют полноразмерные порты HDMI и (или) USB 3.0, для подключения гарнитуры вам потребуются [адаптеры](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs).
 
@@ -215,12 +255,28 @@ ms.locfileid: "92755748"
 
 #### <a name="for-hololens-development"></a>Для разработки решений для HoloLens
 
-При настройке компьютера для разработки решений для HoloLens убедитесь, что он соответствует системным требованиям для <a href="https://docs.microsoft.com//visualstudio/releases/2019/system-requirements" target="_blank">Visual Studio</a>. Если вы планируете использовать [эмулятор HoloLens](../platform-capabilities-and-apis/using-the-hololens-emulator.md), убедитесь, что ваш компьютер соответствует [его системным требованиям](../platform-capabilities-and-apis/using-the-hololens-emulator.md#hololens-emulator-system-requirements).
+При настройке компьютера для разработки решений для HoloLens убедитесь, что он соответствует системным требованиям для <a href="https://docs.microsoft.com//visualstudio/releases/2019/system-requirements" target="_blank">Visual Studio</a>. Если вы хотите запустить приложение на устройстве HoloLens, вам потребуется выполнить [инструкции по настройке портала устройств Windows](../platform-capabilities-and-apis/using-the-windows-device-portal.md#setting-up-hololens-to-use-windows-device-portal). Если вы планируете использовать [эмулятор HoloLens](../platform-capabilities-and-apis/using-the-hololens-emulator.md), убедитесь, что ваш компьютер соответствует [его системным требованиям](../platform-capabilities-and-apis/using-the-hololens-emulator.md#hololens-emulator-system-requirements).
 
 Если вы планируете разработку приложений для иммерсивных гарнитур (гарнитур виртуальной реальности) HoloLens и Windows Mixed Reality, ознакомьтесь с системными рекомендациями и требованиями в приведенном ниже разделе.
 
 > [!NOTE]
 > Вы можете разрабатывать и развертывать приложения для HoloLens, иммерсивных гарнитур виртуальной реальности или для устройств обоих типов. Убедитесь, что выполнены все указанные ниже требования в соответствии с вашими потребностями.
+
+#### <a name="hololens-troubleshooting"></a>Устранение неполадок с HoloLens
+
+##### <a name="setting-developer-mode-is-grayed-out"></a>Неактивная кнопка для включения режима разработчика
+
+Если вы сталкиваетесь с проблемами при включении режима разработчика на устройстве, возможно, у вас нет прав [владельца устройства](https://docs.microsoft.com/hololens/security-adminless-os). В многопользовательском режиме то лицо, которое использует устройство первым, назначается владельцем. Все последующие пользователи не будут иметь нужных разрешений для включения режима разработчика или внесения других изменений в конфигурацию. Однако существует исключение, при котором первый пользователь может не быть владельцем устройства в среде с Autopilot. Подробные сведения см. в [документации по безопасности HoloLens](https://docs.microsoft.com/hololens/security-adminless-os#device-owner).
+
+Ниже представлены возможные решения.
+
+* Владелец устройства должен включить режим разработчика перед передачей устройства другим пользователям или разработчикам.
+* Рекомендация ИТ-администратору или администратору MDM включить параметр политики CSP [ApplicationManagement/AllowDeveloperUnlock](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-allowdeveloperunlock) для конкретного устройства или группы устройств, с которыми работают разработчики. 
+    * Эту политику можно задать с помощью [пакетов подготовки](https://docs.microsoft.com/hololens/hololens-provisioning) или через [MDM для устройств HoloLens](https://docs.microsoft.com/hololens/hololens-mdm-configure)
+* Использование решения [Advanced Recovery Companion (ARC)](https://docs.microsoft.com/hololens/hololens-recovery).
+
+> [!NOTE]
+> Дополнительные сведения об управлении устройствами HoloLens см. в **[этом обзоре](https://docs.microsoft.com/hololens/hololens-csp-policy-overview)** .
 
 #### <a name="immersive-vr-headset-requirements"></a>Требования к иммерсивной гарнитуре виртуальной реальности
 
@@ -228,7 +284,7 @@ ms.locfileid: "92755748"
 >Приведенные ниже рекомендации являются действующими минимальными и рекомендуемыми характеристиками для *компьютера, где будут разрабатываться приложения* для иммерсивных гарнитур (гарнитур виртуальной реальности). Эти рекомендации регулярно обновляются.
 
 >[!WARNING]
->Не путайте их с [минимальными рекомендациями по совместимости аппаратного обеспечения компьютера](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines), в которых изложены *спецификации компьютера потребителя* , на которые следует ориентироваться при работе с приложением или игрой, используемых с иммерсивной гарнитурой (виртуальная реальность).
+>Не путайте их с [минимальными рекомендациями по совместимости аппаратного обеспечения компьютера](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines), в которых изложены *спецификации компьютера потребителя*, на которые следует ориентироваться при работе с приложением или игрой, используемых с иммерсивной гарнитурой (виртуальная реальность).
 
 Если на компьютере для разработки решений для иммерсивных гарнитур отсутствуют полноразмерные порты HDMI и (или) USB 3.0, для подключения гарнитуры вам потребуются [адаптеры](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs).
 

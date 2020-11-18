@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: mixed reality, unity, tutorial, hololens
 ms.localizationpriority: high
-ms.openlocfilehash: 30ef793511285fe2fe52810912f6c5c06c8550dc
-ms.sourcegitcommit: 63c228af55379810ab2ee4f09f20eded1bb76229
+ms.openlocfilehash: ded881290de0167b7ffe26fc86b573d9b9ebb0b6
+ms.sourcegitcommit: cc27d31f0cebaf9fc4221a3300a9e3d73230b367
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93353462"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "94631502"
 ---
 # <a name="2-creating-a-holographic-remoting-pc-application"></a>2. Создание приложения для голографического удаленного взаимодействия с компьютером
 
@@ -40,6 +40,11 @@ ms.locfileid: "93353462"
 
 В меню Unity последовательно выберите элементы Edit (Правка) > Project Settings... (Параметры проекта...), чтобы открыть окно параметров проигрывателя.
 
+В окне Project Settings (Параметры проекта) разверните пункт **Publishing Settings** (Параметры публикации), прокрутите вниз к разделу **Capabilities** (Возможности) и установите приведенный ниже флажок возможности (в дополнение к существующим).
+
+* Интернет (клиент и сервер)
+* Частная сеть (клиент и сервер)
+
 В разделе **XR Settings** (Параметры XR) установите флажок **WSA Holographic Remoting Supported** (Поддержка голографического удаленного взаимодействия WSA) и включите функцию голографического удаленного взаимодействия.
 
 ![Окно параметров смешанной реальности Unity с включенной поддержкой удаленного голографического взаимодействия WSA](images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step1-1.png)
@@ -48,7 +53,7 @@ ms.locfileid: "93353462"
 
 В меню Unity щелкните File (Файл) > Build Settings... (Параметры сборки...), чтобы открыть окно параметров сборки:
 
-В окне Build Settings (Параметры сборки) нажмите кнопку * *_Add Open Scenes_* _ (Добавить открытые сцены), чтобы добавить текущую сцену в список Scenes (Сцены). В списке Build (Сборка) нажмите кнопку _*_Build_*_ (Сборка), чтобы открыть окно Build Universal Windows Platform (Создание приложений универсальной платформы Windows):
+В окне Build Settings (Параметры сборки) нажмите кнопку **_Add Open Scenes_* _ (Добавить открытые сцены), чтобы добавить текущую сцену в список Scenes (Сцены). В списке Build (Сборка) нажмите кнопку _*_Build_*_ (Сборка), чтобы открыть окно Build Universal Windows Platform (Создание приложений универсальной платформы Windows):
 
 ![Окно параметров сборки Unity с добавленной сценой](images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step2-1.png)
 
@@ -81,7 +86,7 @@ ms.locfileid: "93353462"
 
 ### <a name="1-install-the-remoting-player-application-on-hololens-2-device"></a>1. Установка приложения Remoting Player на устройство HoloLens 2.
 
-_На устройстве HoloLens 2 перейдите к приложению Store и выполните поиск по фразе " **Remoting Player** ".
+_На устройстве HoloLens 2 перейдите к приложению Store и выполните поиск по фразе "**Remoting Player**".
 * Выберите приложение **Remoting Player**.
 * Коснитесь элемента **Install** (Установить), чтобы скачать и установить приложение.
 

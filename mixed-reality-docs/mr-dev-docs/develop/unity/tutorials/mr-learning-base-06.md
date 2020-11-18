@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: mixed reality, unity, tutorial, hololens
 ms.localizationpriority: high
-ms.openlocfilehash: 2d3a826ba3bf8fdf1299038a7964278f0d57dbb7
-ms.sourcegitcommit: 63c228af55379810ab2ee4f09f20eded1bb76229
+ms.openlocfilehash: f4530cb6519434f8eb74e5335fecbe82ac2cd2c2
+ms.sourcegitcommit: cc27d31f0cebaf9fc4221a3300a9e3d73230b367
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93353542"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "94631532"
 ---
 # <a name="6-creating-user-interfaces"></a>6. Создание пользовательских интерфейсов
 
@@ -38,7 +38,7 @@ ms.locfileid: "93353542"
 
 ![Unity с выбранным и расположенным новым объектом Buttons](images/mr-learning-base/base-06-section1-step1-1.png)
 
-В окне Project (Проект) перейдите к папке **Assets** > **MRTK.Tutorials.GettingStarted** > **Prefabs** , щелкните и перетащите заготовку **PressableRoundButton** к объекту **Buttons** (Кнопки), затем щелкните правой кнопкой мыши объект PressableRoundButton и выберите **Duplicate** (Дублировать), чтобы создать копию. Повторяйте эти действия до тех пор, пока у вас не будет три объекта PressableRoundButton:
+В окне Project (Проект) перейдите к папке **Assets** > **MRTK.Tutorials.GettingStarted** > **Prefabs**, щелкните и перетащите заготовку **PressableRoundButton** к объекту **Buttons** (Кнопки), затем щелкните правой кнопкой мыши объект PressableRoundButton и выберите **Duplicate** (Дублировать), чтобы создать копию. Повторяйте эти действия до тех пор, пока у вас не будет три объекта PressableRoundButton:
 
 ![Unity с новыми заготовками PressableRoundButton](images/mr-learning-base/base-06-section1-step1-2.png)
 
@@ -55,20 +55,23 @@ ms.locfileid: "93353542"
 
 В окне Hierarchy (Иерархия) присвойте имя кнопкам **Hints** (Подсказки), **Explode** (Развернуть) и **Reset** (Сброс).
 
-Для каждой кнопки выберите дочерний объект **SeeItSayItLabel** > **TextMeshPro** , а затем в окне Inspector (Инспектор) измените текст соответствующего компонента **TextMeshPro - Text** (TextMeshPro — текст), чтобы он соответствовал именам кнопок:
+Для каждой кнопки выберите дочерний объект **SeeItSayItLabel** > **TextMeshPro**, а затем в окне Inspector (Инспектор) измените текст соответствующего компонента **TextMeshPro - Text** (TextMeshPro — текст), чтобы он соответствовал именам кнопок:
 
 ![Unity с настроенными текстовыми подписями кнопок](images/mr-learning-base/base-06-section1-step1-4.png)
 
 После этого сверните дочерние объекты объекта Buttons (Кнопки).
 
-В окне Hierarchy (Иерархия) выберите объект кнопки **Hints** (Подсказки), затем в окне Inspector (Инспектор) настройте интерактивное событие **OnClick ()** следующим образом:
+В окне Hierarchy (Иерархия) выберите объект кнопки **Hints** (Подсказки), затем в окне Inspector (Инспектор) настройте событие **Interactable.OnClick ()** следующим образом:
 
 * В поле **None (Object)** (Отсутствует (объект)) укажите объект **RoverAssembly**.
 * В раскрывающемся списке **No Function** (Функция отсутствует) выберите **PlacementHintsController** > **TogglePlacementHints ()** , чтобы задать эту функцию как действие, выполняемое при срабатывании события.
 
 ![Unity с настроенным событием OnClick для объекта кнопки Hints](images/mr-learning-base/base-06-section1-step1-5.png)
 
-В окне Hierarchy (Иерархия) выберите объект кнопки **Explode** (Развернуть), затем в окне Inspector (Инспектор) настройте интерактивное событие **OnClick ()** следующим образом:
+> [!TIP]
+> Компонент Interactable — это общий контейнер, который позволяет сделать любой объект интерактивным с возможностью реагирования на ввод. Компонент Interactable выступает в качестве приемника всех типов ввода, в том числе прикосновений, движений руками, речи и т. д., а также передает такие взаимодействия в события и ответы визуальных тем. Чтобы узнать, как настроить его для разных типов ввода и изменить визуальную тему, см. руководство по [Interactable](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_Interactable.html) на [портале документации по MRTK](https://microsoft.github.io/MixedRealityToolkit-Unity/README.html).
+
+В окне Hierarchy (Иерархия) выберите объект кнопки **Explode** (Развернуть), затем в окне Inspector (Инспектор) настройте событие **Interactable.OnClick ()** следующим образом:
 
 * В поле **None (Object)** (Отсутствует (объект)) укажите объект **RoverAssembly**.
 * В раскрывающемся списке **No Function** (Функция отсутствует) выберите **ExplodedViewController** > **ToggleExplodedView ()** , чтобы задать эту функцию как действие, выполняемое при срабатывании события.
@@ -85,14 +88,14 @@ ms.locfileid: "93353542"
 
 ## <a name="creating-a-dynamic-menu-that-follows-the-user"></a>Создание динамического меню, которое следует за пользователем
 
-В окне Project (Проект) перейдите к папке **Assets** > **MRTK** > **SDK** > **Features** > **UX** > **Prefabs** > **Menus** , перетащите заготовку **NearMenu4x1** в окно Hierarchy (Иерархия), установите для параметра преобразования **Position** (Позиция) значения X = 0, Y = -0,4, Z = 0 и настройте его следующим образом:
+В окне Project (Проект) перейдите к папке **Assets** > **MRTK** > **SDK** > **Features** > **UX** > **Prefabs** > **Menus**, перетащите заготовку **NearMenu4x1** в окно Hierarchy (Иерархия), установите для параметра преобразования **Position** (Позиция) значения X = 0, Y = -0,4, Z = 0 и настройте его следующим образом:
 
 * Убедитесь, что для параметра **Tracked Target Type** (Тип отслеживаемой цели) компонента **SolverHandler** указано значение **Head** (Головной).
-* Установите флажок рядом с компонентом Solver **RadialView** , чтобы он был включен по умолчанию.
+* Установите флажок рядом с компонентом Solver **RadialView**, чтобы он был включен по умолчанию.
 
 ![Unity с выбранной добавленной заготовкой NearMenu](images/mr-learning-base/base-06-section2-step1-1.png)
 
-В окне Hierarchy (Иерархия) переименуйте объект в **Menu** (Меню), затем разверните его дочерний объект **ButtonCollection** , чтобы открыть четыре кнопки:
+В окне Hierarchy (Иерархия) переименуйте объект в **Menu** (Меню), затем разверните его дочерний объект **ButtonCollection**, чтобы открыть четыре кнопки:
 
 ![Unity с выбранным объектом Menu и развернутым объектом ButtonCollection](images/mr-learning-base/base-06-section2-step1-2.png)
 
@@ -116,7 +119,7 @@ ms.locfileid: "93353542"
 > [!NOTE]
 > Теперь после запуска приложения объект Indicator (Индикатор) будет по умолчанию отключен (его можно включить с помощью кнопки Indicator (Индикатор)).
 
-Переименуйте вторую кнопку на **TapToPlace** , затем в окне Inspector (Инспектор) настройте компонент **Button Config Helper (Script)** (Вспомогательная конфигурация кнопки — скрипт), как описано ниже.
+Переименуйте вторую кнопку на **TapToPlace**, затем в окне Inspector (Инспектор) настройте компонент **Button Config Helper (Script)** (Вспомогательная конфигурация кнопки — скрипт), как описано ниже.
 
 * Измените значение для параметра **Main Label Text** (Текст основной метки), чтобы он соответствовал названию кнопки.
 * В поле **None (Object)** (Отсутствует (Объект)) укажите объект RoverExplorer > **RoverAssembly**.
@@ -126,7 +129,7 @@ ms.locfileid: "93353542"
 
 ![Unity с объектом кнопки TapToPlace с настроенным скриптом Button Config Helper](images/mr-learning-base/base-06-section2-step1-5.png)
 
-В окне Hierarchy (Иерархия) выберите объект **RoverAssembly** , затем в окне Inspector (Инспектор) настройте компонент **Tap To Place (Script)** (Размещение касанием — скрипт), как описано ниже.
+В окне Hierarchy (Иерархия) выберите объект **RoverAssembly**, затем в окне Inspector (Инспектор) настройте компонент **Tap To Place (Script)** (Размещение касанием — скрипт), как описано ниже.
 
 * Снимите флажок рядом с его именем, чтобы сделать его неактивным по умолчанию.
 * В разделе события **On Placing Stopped ()** щелкните значок **+** , чтобы добавить новое событие:
@@ -161,7 +164,7 @@ ms.locfileid: "93353542"
 
 ## <a name="adding-tooltips"></a>Добавление подсказок
 
-В окне Project (Проект) перейдите в папку **Assets** > **MRTK** > **SDK** > **Features** > **UX** > **Prefabs** > **ToolTip** , чтобы найти заготовки подсказок:
+В окне Project (Проект) перейдите в папку **Assets** > **MRTK** > **SDK** > **Features** > **UX** > **Prefabs** > **ToolTip**, чтобы найти заготовки подсказок:
 
 ![Окно проекта Unity с выбранной папкой ToolTips](images/mr-learning-base/base-06-section4-step1-1.png)
 
@@ -174,13 +177,13 @@ ms.locfileid: "93353542"
 
 ![Unity со всеми выбранными объектами частей лунохода, а также добавленным и настроенным компонентом ToolTipSpawner](images/mr-learning-base/base-06-section4-step1-2.png)
 
-В окне Hierarchy (Иерархия) выберите первую часть лунохода (RoverParts > **Camera_Part** ) и настройте компонент **ToolTipSpawner** , как описано ниже.
+В окне Hierarchy (Иерархия) выберите первую часть лунохода (RoverParts > **Camera_Part**) и настройте компонент **ToolTipSpawner**, как описано ниже.
 
 * Измените параметр **Tool Tip Text** (Текст подсказки), чтобы в нем было указано имя части (например, **Camera** (Камера)).
 
 ![Unity с заданным в поле текста подсказки значением Camera (Камера)](images/mr-learning-base/base-06-section4-step1-3.png)
 
-**Повторите** этот шаг для каждого из объектов частей лунохода, чтобы настроить компонент **ToolTipSpawner** , как описано ниже.
+**Повторите** этот шаг для каждого из объектов частей лунохода, чтобы настроить компонент **ToolTipSpawner**, как описано ниже.
 
 * Для объекта **Generator_Part** измените значение параметра **Tool Tip Text** (Текст подсказки) на **Generator**.
 * Для объекта **Lights_Part** измените значение параметра **Tool Tip Text** (Текст подсказки) на **Lights**.
