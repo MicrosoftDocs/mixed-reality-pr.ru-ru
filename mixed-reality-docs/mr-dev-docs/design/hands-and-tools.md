@@ -5,13 +5,13 @@ author: shengkait
 ms.author: shentan
 ms.date: 04/26/2019
 ms.topic: article
-keywords: Смешанная реальность, руки, контроллеры движения, взаимодействие, проектирование
-ms.openlocfilehash: 8b2ed6127708204d0c4a537c56b2225ff26e0d0f
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+keywords: Смешанная реальность, руки, контроллеры движения, взаимодействие, проектирование, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
+ms.openlocfilehash: e931e5ec11548d9aab0d1dd7f8921dbc7554abab
+ms.sourcegitcommit: 4f3ef057a285be2e260615e5d6c41f00d15d08f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91693005"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94702160"
 ---
 # <a name="hands-and-motion-controllers"></a>Руки и контроллеры движений
 ## <a name="scenarios"></a>Сценарии
@@ -32,17 +32,17 @@ ms.locfileid: "91693005"
 
 :::row:::
     :::column:::
-       [![Непосредственное манипулирование с помощью рук](images/hands-and-controllers-direct-manipulation.jpg)](direct-manipulation.md)<br>
+       [![Непосредственное манипулирование руками](images/hands-and-controllers-direct-manipulation.jpg)](direct-manipulation.md)<br>
        ### <a name="direct-manipulation-with-handsbr"></a>[Непосредственное манипулирование с использованием рук](direct-manipulation.md)<br>
        Это модальность, использующая возможности руки, с помощью которых пользователи могут касаться голограмм и манипулировать ими напрямую. Используя ежедневные возможности и предоставляя верные визуальные аффорданцес, пользователи могут использовать тот же способ управления реальными объектами для взаимодействия с виртуальными.
     :::column-end:::
     :::column:::
-       [![Указание и фиксация с помощью рук](images/hands-and-controllers-point-and-commit.jpg)](point-and-commit.md)<br>
+       [![Наведение и фиксация с использованием рук](images/hands-and-controllers-point-and-commit.jpg)](point-and-commit.md)<br>
         ### <a name="point-and-commit-with-handsbr"></a>[Наведение и фиксация с использованием рук](point-and-commit.md)<br>
         Такое модальность позволяет пользователям взаимодействовать с голограммами на расстоянии. Он позволяет пользователям лучше использовать окружающую подстановку. Пользователи могут размещать голограммы в любом месте и по-прежнему обращаться к ним с любого расстояния. Модели и жесты, используемые для управления и манипулирования плоскими и трехмерными голограммами, высоко синхронизированы с этими моделями с прямой манипуляцией.
     :::column-end:::
     :::column:::
-       [![Контроллеры движений](images/hands-and-controllers-motion-controllers.jpg)](motion-controllers.md)<br>
+       [![Контроллеры движения](images/hands-and-controllers-motion-controllers.jpg)](motion-controllers.md)<br>
        ### <a name="motion-controllersbr"></a>[Контроллеры движения](motion-controllers.md)<br>
        Контроллеры движения — это средства, расширяющие физические возможности пользователя путем предоставления точных взаимодействий между большим диапазоном расстояний при использовании одной или обеих стрелок. Эти аксессуары оборудования предоставляют ярлыки для многих часто используемых взаимодействий и предоставляют сурефутед, тактиле Отзывы о различных действиях. В настоящее время контроллеры движения доступны только для сценариев Windows Mixed Reality (ВМР). 
     :::column-end:::

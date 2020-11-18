@@ -5,13 +5,13 @@ author: szymons
 ms.author: szymons
 ms.date: 07/08/2019
 ms.topic: article
-keywords: Основные сведения о сцене, пространственное сопоставление, Windows Mixed Reality, Unity
-ms.openlocfilehash: 6185d434b1687675f9ae46313277f61cf6d5e1f8
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+keywords: Основные сведения о сцене, пространственное сопоставление, Windows Mixed Reality, Unity, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, перекрытия, пакет SDK
+ms.openlocfilehash: 80fb01707d3265aa3dac23d75ea92034115d3c94
+ms.sourcegitcommit: 4f3ef057a285be2e260615e5d6c41f00d15d08f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91691560"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94703370"
 ---
 # <a name="scene-understanding"></a>Интерпретация сцены
 
@@ -35,7 +35,7 @@ ms.locfileid: "91691560"
 
 [Пример сцен для понимания сцены](https://github.com/sceneunderstanding-microsoft/unitysample/tree/master/Assets/Resources/SerializedScenesForPCPath)
 
-### <a name="sdk"></a>Пакет SDK
+### <a name="sdk"></a>SDK
 
 Если вы ищете конкретные сведения о том, как разрабатывать для сцены основные сведения о работе сцены и о том, как его разработать, см. статью [обзорная документация по пакету SDK](../develop/platform-capabilities-and-apis/scene-understanding-SDK.md) .
 
@@ -121,7 +121,7 @@ ms.locfileid: "91691560"
 
 Кроме того, общее число поверхностей, возвращаемых пространственным сопоставлением, ограничивается внутренним пространственном кэшем, а версия "пространственное" представлением сцены может получить доступ к данным пространственного сопоставления, которые не кэшируются. По этой причине представление сцены больше подходит для записи представлений сетки для более длинных пространств (например, больше, чем одна комната) для визуализации или дальнейшей обработки сетки. Универсальная сетка, возвращаемая с Енаблеворлдмеш, будет иметь согласованный уровень детализации, что может дать более привлекательную визуализацию при визуализации в виде каркаса.
 
-### <a name="see-also"></a>См. также
+### <a name="see-also"></a>См. также:
 
 * [Пакет SDK для понимания сцены](../develop/platform-capabilities-and-apis/scene-understanding-SDK.md)
 * [Пространственное сопоставление](spatial-mapping.md)

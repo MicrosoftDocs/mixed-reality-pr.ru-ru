@@ -5,13 +5,13 @@ author: grbury
 ms.author: grbury
 ms.date: 08/24/2019
 ms.topic: overview
-keywords: Windows Mixed Reality, HoloLens, пример внедрения, концепция, сценарии
-ms.openlocfilehash: 78ece9c010ed402c6281ee2f9cd5638db9af4f3d
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+keywords: Windows Mixed Reality, HoloLens, пример внедрения, концепция, сценарии, примеры внедрения, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
+ms.openlocfilehash: b30cc49759867b4f11f3f88195c8d9bec87ba297
+ms.sourcegitcommit: 4f3ef057a285be2e260615e5d6c41f00d15d08f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91692721"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94703490"
 ---
 # <a name="case-study-gallery"></a>Коллекция примеров использования
 
@@ -49,7 +49,7 @@ ms.locfileid: "91692721"
     :::column:::
        [ ![ Использование плоскости стабилизации для уменьшения holographic турбуленце](images/holotour-stabilization-plane-500px.jpg)](../develop/platform-capabilities-and-apis/case-study-using-the-stabilization-plane-to-reduce-holographic-turbulence.md) **[с помощью плоскости стабилизации, чтобы сократить турбуленце](../develop/platform-capabilities-and-apis/case-study-using-the-stabilization-plane-to-reduce-holographic-turbulence.md)**<br>
         Работа с голограммами может быть непростой. Тот факт, что вы можете перемещаться вокруг своего пространства и видеть самые голограммы из всех разных углов, обеспечивает уровень погружения, который нельзя получить с помощью обычного экрана компьютера.<br>
-        *Апрель 2017 г.*
+        *Апрель 2017 г.*
     :::column-end:::
 :::row-end:::
 
@@ -159,7 +159,7 @@ ms.locfileid: "91692721"
     :::column:::
        [ ![ Афтернов процесс — выработка, создание прототипов](../out-of-scope/images/whatisenvisioning-640px.png)](../out-of-scope/case-study-afternows-process-envisioning,-prototyping,-building.md) , **[формирование афтернов процессов, создание прототипов, разработка](../out-of-scope/case-study-afternows-process-envisioning,-prototyping,-building.md)**<br>
         В Афтернов мы работаем над тем, чтобы превратить свои идеи и стремлений в конкретные, полностью операционные продукты и возможности, готовые для рынка. Но прежде чем писать одну строку кода, мы создадим проект с помощью процесса, который называется представлением.<br>
-        *Апрель 2017 г.*
+        *Апрель 2017 г.*
     :::column-end:::
     :::column:::
     :::column-end:::

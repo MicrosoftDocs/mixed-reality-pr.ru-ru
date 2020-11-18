@@ -5,15 +5,15 @@ author: mavitazk
 ms.author: pinkb
 ms.date: 03/21/2018
 ms.topic: article
-keywords: Windows Mixed Reality, проектирование, цвет, освещение, материалы
-ms.openlocfilehash: 76237b1b08df98850a4989987ed608dae29b6b5c
-ms.sourcegitcommit: 24d96bf3bb9a3143445e018195edae99d91684c6
+keywords: Windows Mixed Reality, проектирование, цвет, освещение, материалы, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
+ms.openlocfilehash: 9333be5316f5b3ba317aac3ef8591c0dd65370d4
+ms.sourcegitcommit: 4f3ef057a285be2e260615e5d6c41f00d15d08f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92683220"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94702790"
 ---
-# <a name="color-light-and-materials"></a>Цвет, свет и материалы
+# <a name="color-light-and-materials"></a>Цвет, освещение и материалы
 ![Цвет, свет и материалы](images/RemoteRendering.jpg)
 
 Разработка содержимого для смешанной реальности требует тщательного рассмотрения цветов, освещения и материалов каждого из визуальных ресурсов, используемых в работе. Эти решения могут использоваться как в Aesthetic целях, так и при использовании освещения, чтобы установить тон иммерсивного окружения и функциональные цели, такие как использование впечатляющих цветов для оповещения пользователей о незавершенных действиях. Каждое из этих решений должно соответствовать возможностям и ограничениям целевого устройства вашего взаимодействия.
@@ -96,7 +96,7 @@ ms.locfileid: "92683220"
 
 ---
 
-## <a name="see-also"></a>См. также статью
+## <a name="see-also"></a>См. также
 * [Проектирование содержимого для голографического дисплея](designing-content-for-holographic-display.md)
 * [Разделение цветов](../develop/platform-capabilities-and-apis/hologram-stability.md#color-separation)
 * [Голограммы](../discover/hologram.md)

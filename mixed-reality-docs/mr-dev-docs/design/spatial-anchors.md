@@ -5,13 +5,13 @@ author: thetuvix
 ms.author: alexturn
 ms.date: 02/24/2019
 ms.topic: article
-keywords: coordinate system, spatial coordinate system, world-scale, world, scale, position, orientation, anchor, spatial anchor, world-locked, world-locking, persistence, sharing
-ms.openlocfilehash: a1108aceb91ec80d20b4cac043477ee92527035b
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+keywords: система координат, геодоступная система координат, мировое масштабирование, мир, масштабирование, расположение, ориентация, привязка, пространственный якорь, блокировка мира, блокировка мира, сохранение, совместное использование, телефонная гарнитура, Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens
+ms.openlocfilehash: 92694023a3c7c7266b0f5d927180df20692b9d45
+ms.sourcegitcommit: 4f3ef057a285be2e260615e5d6c41f00d15d08f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91691541"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94703310"
 ---
 # <a name="spatial-anchors"></a>Пространственные привязки
 
@@ -71,7 +71,7 @@ ms.locfileid: "91691541"
 
 Для облачных пространственных привязок хранилище можно масштабировать в соответствии с вашим сценарием. При необходимости можно хранить любое количество облачных привязок, освобождая их только в том случае, если вам известно, что пользователям больше не придется размещать голограммы на этой точке привязки.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 * [Системы координат](coordinate-systems.md)
 * [Общий доступ в смешанной реальности](../develop/platform-capabilities-and-apis/shared-experiences-in-mixed-reality.md)
 * <a href="https://docs.microsoft.com/azure/spatial-anchors" target="_blank">Пространственные привязки Azure</a>

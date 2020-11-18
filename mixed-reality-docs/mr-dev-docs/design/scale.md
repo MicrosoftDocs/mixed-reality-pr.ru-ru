@@ -5,13 +5,13 @@ author: shengkait
 ms.author: shentan
 ms.date: 03/21/2018
 ms.topic: article
-keywords: Windows Mixed Reality, стиль, Дизайн
-ms.openlocfilehash: 7d35da2d86d8d3b7f444974d87e5aa10e58ed2c8
-ms.sourcegitcommit: 9a489e8a3bf90b20f1b61606eea42c859c833424
+keywords: Windows Mixed Reality, стиль, дизайн, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, масштабирование, голограммы
+ms.openlocfilehash: e82211b0bee2214df7542d3129f95ea207f4b0e3
+ms.sourcegitcommit: 4f3ef057a285be2e260615e5d6c41f00d15d08f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "94340662"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94703380"
 ---
 # <a name="scale"></a>Масштабирование
 
@@ -79,18 +79,6 @@ ms.locfileid: "94340662"
 <br>
 
 ---
-
-## <a name="next-discovery-checkpoint"></a>Следующая контрольная точка обнаружения
-
-Если вы пойдете из [пути обнаружения](../discover/get-started-with-mr.md) , то вы находитесь в конце начального опыта в смешанной реальности. Вы можете либо узнать, какие отраслевые партнеры выполняют смешанную реальность в реальном мире: 
-
-> [!div class="nextstepaction"]
-> [Узнайте, как партнеры по отрасли используют смешанную реальность](../discover/get-started-with-mr.md#see-how-industry-partners-are-using-mixed-reality)
-
-Или перейдите к пути проектирования:
-
-> [!div class="nextstepaction"]
-> [Начните разработку](../design/design.md)
 
 ## <a name="see-also"></a>См. также
 * [Цвет, свет и материалы](../color,-light-and-materials.md)

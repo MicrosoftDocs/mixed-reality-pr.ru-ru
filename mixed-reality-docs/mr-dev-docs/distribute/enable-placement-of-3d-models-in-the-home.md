@@ -5,15 +5,15 @@ author: thmignon
 ms.author: thmignon
 ms.date: 05/04/2018
 ms.topic: article
-keywords: 3D, модель, место дома, место, мир, моделирование, Домашняя страница "смешанная реальность", Интернет, приложение
-ms.openlocfilehash: 4ea720fd9fc404d4730733b6b65df13acdf1a51a
-ms.sourcegitcommit: 838bebf6bacac4047feff493c0847d4e6371976f
+keywords: 3D, модель, место дома, место, мир, моделирование, Домашняя страница смешанная, Интернет, приложение, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
+ms.openlocfilehash: 192c403ce50c3a47fb19f644af78d1150bb9aa3f
+ms.sourcegitcommit: 4f3ef057a285be2e260615e5d6c41f00d15d08f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "91781567"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94703190"
 ---
-# <a name="enable-placement-of-3d-models-in-the-mixed-reality-home"></a>Включение размещения трехмерных моделей на домашней странице смешанной реальности
+# <a name="enable-placement-of-3d-models-in-the-mixed-reality-home"></a>Поддержка размещения трехмерных моделей в доме со смешанной реальностью
 
 > [!NOTE]
 > Эта функция была добавлена как часть [обновления Windows 10 от апреля 2018](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/release-notes-april-2018). Более старые версии Windows несовместимы с этой функцией.
@@ -88,10 +88,10 @@ private async void launchURI_Click(object sender, RoutedEventArgs e)
 
 ## <a name="considerations-for-immersive-vr-headsets"></a>Рекомендации для головных телефонов (VR)
 
-* Для головных гарнитур (VR) на портале Mixed Reality не должно выполняться никаких запусков перед вызовом *протокола добавления модели* . В этом случае *Протокол добавления модели* запустит портал Mixed Reality и поместит объект непосредственно там, где будет смотреться гарнитура, когда вы поступите на главную страницу Mixed Reality. 
+* Для головных гарнитур (VR) на портале Mixed Reality не должно выполняться никаких запусков перед вызовом *протокола добавления модели*. В этом случае *Протокол добавления модели* запустит портал Mixed Reality и поместит объект непосредственно там, где будет смотреться гарнитура, когда вы поступите на главную страницу Mixed Reality. 
 * При вызове *протокола добавления модели* с рабочего стола с уже запущенным порталом Mixed Reality убедитесь, что головной телефон находится в спящем режиме. В противном случае размещение не будет выполняться. 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Создание трехмерных моделей для использования на домашней странице Windows Mixed Reality](creating-3d-models-for-use-in-the-windows-mixed-reality-home.md)
 * [Навигация по дому с технологией Windows Mixed Reality](../discover/navigating-the-windows-mixed-reality-home.md)

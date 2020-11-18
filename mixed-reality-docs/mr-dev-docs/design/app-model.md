@@ -5,13 +5,13 @@ author: thetuvix
 ms.author: alexturn
 ms.date: 03/21/2018
 ms.topic: article
-keywords: UWP, модель приложения, жизненный цикл, приостановка, возобновление, плитка, представления, контракты
-ms.openlocfilehash: 67b883517ae17422bf7c27227c33882cf8a9f7ef
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+keywords: UWP, модель приложений, жизненный цикл, приостановка, возобновление, плитка, представления, контракты, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
+ms.openlocfilehash: 332556a5118f0c69a83654d345119995e4262cb5
+ms.sourcegitcommit: 4f3ef057a285be2e260615e5d6c41f00d15d08f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91692181"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94703110"
 ---
 # <a name="app-model"></a>Модель приложения
 
@@ -106,7 +106,7 @@ Windows Mixed Reality использует модель приложений, п
 
 #### <a name="switching-from-the-2d-xaml-view-to-the-immersive-view"></a>Переключение из 2D-представления XAML в иммерсивное представление
 
-Если приложение использует XAML, [IFRAMEWORKVIEWSOURCE](https://docs.microsoft.com/uwp/api/windows.applicationmodel.core.iframeworkviewsource) XAML будет управлять первым представлением приложения. Приложению потребуется перейти в иммерсивное представление перед активацией **CoreWindow** , чтобы приложение запускалось непосредственно в режиме погружения.
+Если приложение использует XAML, [IFRAMEWORKVIEWSOURCE](https://docs.microsoft.com/uwp/api/windows.applicationmodel.core.iframeworkviewsource) XAML будет управлять первым представлением приложения. Приложению потребуется перейти в иммерсивное представление перед активацией **CoreWindow**, чтобы приложение запускалось непосредственно в режиме погружения.
 
 Используйте [CoreApplication. креатеневвиев](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.Core.CoreApplication#Windows_ApplicationModel_Core_CoreApplication_CreateNewView_Windows_ApplicationModel_Core_IFrameworkViewSource_) и [аппликатионвиевсвитчер. свитчасинк](https://docs.microsoft.com/uwp/api/Windows.UI.ViewManagement.ApplicationViewSwitcher#Windows_UI_ViewManagement_ApplicationViewSwitcher_SwitchAsync_System_Int32_) , чтобы сделать его активным представлением.
 
@@ -176,7 +176,7 @@ HoloLens поддерживает контракты [филеопенпикке
 
 Контракты приложений и точки расширения позволяют зарегистрировать приложение, чтобы воспользоваться преимуществами более глубоких функций операционной системы, таких как обработка расширения файла или использование фоновых задач. Это список поддерживаемых и неподдерживаемых контрактов и точек расширения в HoloLens.
 
-|  Контракт или расширение  |  Поддерживается? | 
+|  Контракт или расширение  |  Поддержка | 
 |----------|----------|
 | [Поставщик аватара учетной записи (расширение)](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#account_picture_provider) | Не поддерживается | 
 | [Сигнал](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#alarm) | Не поддерживается | 
@@ -256,7 +256,7 @@ HoloLens поддерживает контракты [филеопенпикке
 * Чтобы выбрать только гарнитуры рабочего стола, нацеливание на ваше приложение на семейство устройств **Windows. Desktop** .
 * Чтобы выбрать только HoloLens, нацеливание на приложение на семейство устройств **Windows. holographic** .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Представления приложений](app-views.md)
 * [Обновление двухмерных приложений UWP для смешанной реальности](../develop/porting-apps/building-2d-apps.md)

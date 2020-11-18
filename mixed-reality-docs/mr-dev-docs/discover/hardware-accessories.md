@@ -5,13 +5,13 @@ author: mattzmsft
 ms.author: mazeller
 ms.date: 05/20/2020
 ms.topic: article
-keywords: практические руководства, стандартные, Bluetooth, BT, контроллер, игровой планшет, щелчок, Xbox
-ms.openlocfilehash: 7f51264a3914d028c9a027d70d5aa1999582110a
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+keywords: практические руководства, аксессуары, Bluetooth, BT, контроллер, игровой планшет, щелчки, Xbox, оборудование, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, контроллер движения
+ms.openlocfilehash: 3855d5337c4cad462b60ff8c73cec0b7b96c0ca1
+ms.sourcegitcommit: 4f3ef057a285be2e260615e5d6c41f00d15d08f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91694729"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94702010"
 ---
 # <a name="hardware-accessories"></a>Аксессуары к оборудованию
 
@@ -19,7 +19,7 @@ ms.locfileid: "91694729"
 
 Сведения об использовании стандартных устройств Bluetooth с HoloLens см. в разделе [Подключение к устройствам Bluetooth и USB-C](https://docs.microsoft.com/hololens/hololens-connect-devices).
 
-Для впечатляющих головных телефонов Windows Mixed Reality требуются Аксессуары для ввода данных, выходящих за пределы [взгляда](../design/gaze-and-commit.md) и [голоса](../design/voice-input.md). Поддерживаемые аксессуары включают в себя **клавиатуру, мышь** , **игровой планшет** и **[контроллеры движения](../design/motion-controllers.md)** .
+Для впечатляющих головных телефонов Windows Mixed Reality требуются Аксессуары для ввода данных, выходящих за пределы [взгляда](../design/gaze-and-commit.md) и [голоса](../design/voice-input.md). Поддерживаемые аксессуары включают в себя **клавиатуру, мышь**, **игровой планшет** и **[контроллеры движения](../design/motion-controllers.md)**.
 
 ## <a name="pairing-bluetooth-accessories"></a>Связывание стандартных устройств Bluetooth
 

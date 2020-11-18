@@ -5,13 +5,13 @@ author: grayclee
 ms.author: glee
 ms.date: 09/25/2019
 ms.topic: article
-keywords: Windows Mixed Reality, проектирование, рука, увлекательная гарнитура, МРТК, руки, помощь
-ms.openlocfilehash: 10e5f3b025e4346d7c4075c2de7252c9ab217c93
-ms.sourcegitcommit: 24d96bf3bb9a3143445e018195edae99d91684c6
+keywords: Windows Mixed Reality, проектирование, рука, увлекательная гарнитура, МРТК, руки, помощь в руки, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
+ms.openlocfilehash: d925f28b1d34b5a157e89fc0ea56a7b28fffbe8f
+ms.sourcegitcommit: 4f3ef057a285be2e260615e5d6c41f00d15d08f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92683250"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94702350"
 ---
 # <a name="hand-coach"></a>Обучающая рука
 ![Пример: рука](images/HandCoach/MRTK_handCoach.jpg)<br>
@@ -84,7 +84,7 @@ ms.locfileid: "92683250"
 
 ## <a name="can-i-create-my-own"></a>Можно ли создать собственную?
 
-Да. Мы рекомендуем вам создать собственный уникальный жест для игры и участвовать в сообществе!
+Да! Мы рекомендуем вам создать собственный уникальный жест для игры и участвовать в сообществе!
 Мы предоставили Maya-файл с определенной нагрузкой, который можно использовать для приложения, который можно скачать здесь: <a href="files/HandCoach_MRTK.zip"> скачать HandCoach_MRTK.zip </a>
 
 ![Пример анимированных рук в Maya](images/HandCoach/MayaSelect_Gif.gif)<br>
@@ -170,7 +170,7 @@ ms.locfileid: "92683250"
     *   Параметр для каждого проекта
         *   Для сцены задано значение UWP: инструкции см. в [проекте настройки Unity](../develop/unity/Configure-Unity-Project.md) для Windows Mixed Reality.
 
-## <a name="see-also"></a>См. также статью
+## <a name="see-also"></a>См. также
 * [Принципы взаимодействия](interaction-fundamentals.md)
 * [Процесс создания ресурсов](asset-creation-process.md)
 * [Жесты](../gestures.md)

@@ -1,19 +1,19 @@
 ---
-title: Проектирование содержимого для holographic
+title: Проектирование содержимого для голографического дисплея
 description: Рекомендации по проектированию и рекомендации для holographic
 author: yoonpark
 ms.author: dongpark
 ms.date: 06/18/2020
 ms.topic: article
-keywords: Проектирование пользовательского интерфейса, holographic, структура содержимого, темная тема, светлая тема
-ms.openlocfilehash: 627ffdd0a413ad3140c29e9b1c7bb69c9dc249cf
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+keywords: Проектирование пользовательского интерфейса, holographic, проектирование содержимого, темная тема, светлая тема, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств для смешанной реальности, дизайн, пикселы
+ms.openlocfilehash: ea3fbda7aff80f0878521deb433c88b16abeab19
+ms.sourcegitcommit: 4f3ef057a285be2e260615e5d6c41f00d15d08f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91692616"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94702640"
 ---
-# <a name="designing-content-for-holographic-display"></a>Проектирование содержимого для holographic
+# <a name="designing-content-for-holographic-display"></a>Проектирование содержимого для голографического дисплея
 
 ![Расположение с улнар стороны](images/UX_Hero_DarkTheme.jpg)
 
@@ -109,7 +109,7 @@ HoloLens позволяет отображать привлекательный 
 ---
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 * [Цвет, свет и материалы](color-light-and-materials.md)
 * [Курсоры](cursors.md)
 * [Телекинез](point-and-commit.md)

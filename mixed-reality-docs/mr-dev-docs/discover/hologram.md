@@ -5,20 +5,20 @@ author: hferrone
 ms.author: v-hferrone
 ms.date: 03/21/2018
 ms.topic: article
-keywords: Windows Mixed Reality, HoloLens, голограммы, проектирование, взаимодействие
-ms.openlocfilehash: f902639e66246c9184750ebc58dbad1c04b2bb5a
-ms.sourcegitcommit: cc27d31f0cebaf9fc4221a3300a9e3d73230b367
+keywords: Windows Mixed Reality, HoloLens, голограммы, проектирование, взаимодействие, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, что является дополненным
+ms.openlocfilehash: 6407770a818bc294cf615201a837218173b963d0
+ms.sourcegitcommit: 4f3ef057a285be2e260615e5d6c41f00d15d08f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "94631472"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94702250"
 ---
 # <a name="what-is-a-hologram"></a>Что такое голограмма?
 
 <iframe width="940" height="530" src="https://www.youtube.com/embed/MVXH5V8MVQo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-HoloLens позволяет создавать **голограммы** , объекты света и звук, которые отображаются в мире, как будто они являются реальными объектами. Голограммы отвечают на [взгляд](../design/gaze-and-commit.md), [жесты](../design/gaze-and-commit.md#composite-gestures) и [команды](../design/voice-input.md), а также могут взаимодействовать с [реальными областями](../design/spatial-mapping.md) по всему миру. Благодаря голограммам вы можете создавать цифровые объекты, которые являются частью окружающего мира.
+HoloLens позволяет создавать **голограммы**, объекты света и звук, которые отображаются в мире, как будто они являются реальными объектами. Голограммы отвечают на [взгляд](../design/gaze-and-commit.md), [жесты](../design/gaze-and-commit.md#composite-gestures) и [команды](../design/voice-input.md), а также могут взаимодействовать с [реальными областями](../design/spatial-mapping.md) по всему миру. Благодаря голограммам вы можете создавать цифровые объекты, которые являются частью окружающего мира.
 
 <br>
 

@@ -5,20 +5,20 @@ author: cre8ivepark
 ms.author: dongpark
 ms.date: 03/21/2018
 ms.topic: article
-keywords: Windows Mixed Reality, элементы управления, проектирование
-ms.openlocfilehash: 5859f7141e8fa0ea27f142981e2cbd05b8da53bf
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+keywords: Windows Mixed Reality, элементы управления, проектирование, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, коллекция объектов, 2D, 3D, МРТК, набор средств смешанной реальности
+ms.openlocfilehash: 41087c4a09e72b199c1ab03f504343bf7d6b1ba8
+ms.sourcegitcommit: 4f3ef057a285be2e260615e5d6c41f00d15d08f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91691604"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94703410"
 ---
 # <a name="object-collection"></a>Коллекция объектов
 
 ![Коллекция объектов, используемая в периодической таблице приложения Elements](images/UX_Hero_ObjectCollection.jpg)<br>
 
 
-Коллекция объектов — это элемент управления макета, который помогает размещать массив объектов в предопределенной трехмерной форме. Он поддерживает различные стили поверхности — **плоскость, цилиндр, шар** и **радиальный** . Вы можете настроить радиус и размер объектов, а также пространство между ними. Коллекция объектов поддерживает любой объект из Unity — как 2D, так и 3D. В **[наборе средств для смешанной реальности](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_ObjectCollection.html)** мы создали скрипт Unity и примеры, которые помогут создать коллекцию объектов.
+Коллекция объектов — это элемент управления макета, который помогает размещать массив объектов в предопределенной трехмерной форме. Он поддерживает различные стили поверхности — **плоскость, цилиндр, шар** и **радиальный**. Вы можете настроить радиус и размер объектов, а также пространство между ними. Коллекция объектов поддерживает любой объект из Unity — как 2D, так и 3D. В **[наборе средств для смешанной реальности](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_ObjectCollection.html)** мы создали скрипт Unity и примеры, которые помогут создать коллекцию объектов.
 
 
 ## <a name="object-collection-examples"></a>Примеры коллекции объектов
@@ -58,7 +58,7 @@ ms.locfileid: "91691604"
 ---
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Курсоры](cursors.md)
 * [Телекинез](point-and-commit.md)

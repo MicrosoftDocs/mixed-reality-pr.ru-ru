@@ -5,13 +5,13 @@ author: cre8ivepark
 ms.author: dongpark
 ms.date: 06/19/2020
 ms.topic: overview
-keywords: Проектирование UX, UX в смешанной реальности, UX, шаблоны приложений, элементы управления, стиль, HoloLens, взаимодействие, пространственное взаимодействие, пространственный интерфейс пользователя, элементы UX, поведение, стандартные блоки, типография, цвет
-ms.openlocfilehash: c070d05f40cb3bf0376809fd684a05fd74f86fd5
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+keywords: Проектирование UX, UX в смешанной реальности, UX, шаблоны приложений, элементы управления, стиль, HoloLens, взаимодействие, пространственное взаимодействие, пространственный пользовательский интерфейс, элементы UX, варианты поведения, стандартные блоки, типографские цвета, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
+ms.openlocfilehash: c75856362f0e68eba2736105c028bff736c5932c
+ms.sourcegitcommit: 4f3ef057a285be2e260615e5d6c41f00d15d08f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91692165"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94703140"
 ---
 # <a name="ux-elements-overview"></a>Общие сведения об элементах UX
 ## <a name="foundational-elements"></a>Основные элементы

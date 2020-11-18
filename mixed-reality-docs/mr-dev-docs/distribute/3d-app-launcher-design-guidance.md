@@ -5,13 +5,13 @@ author: thmignon
 ms.author: thmignon
 ms.date: 03/21/2018
 ms.topic: article
-keywords: Windows Mixed Reality, проектирование, средство запуска 3D-приложений, иммерсивное головной телефон, активный куб
-ms.openlocfilehash: 884d05b8b8ef7e15f5c65a411cf500b0d4dc598c
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+keywords: Windows Mixed Reality, проектирование, средство запуска приложений для трехмерной графики, иммерсивное головной телефон, активный куб, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, UWP, Win32, освещение, цвет
+ms.openlocfilehash: a501b4bdc86df17f6d005c2f7ccf4fe6a94a4b43
+ms.sourcegitcommit: 4f3ef057a285be2e260615e5d6c41f00d15d08f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91692837"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94703480"
 ---
 # <a name="3d-app-launcher-design-guidance"></a>Руководство по проектированию средств запуска трехмерных приложений
 
@@ -176,7 +176,7 @@ ms.locfileid: "91692837"
   * Предотвращение помогут освещения текстур
   * Используйте один из пакетов для создания данных типа PBR, чтобы получить правильные карты, созданные для нашего шейдера.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Создание трехмерных моделей для использования на домашней странице смешанной реальности](creating-3d-models-for-use-in-the-windows-mixed-reality-home.md)
 * [Реализация средств запуска трехмерных приложений (приложения UWP)](implementing-3d-app-launchers.md)

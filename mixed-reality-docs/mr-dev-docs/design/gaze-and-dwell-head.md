@@ -5,13 +5,13 @@ author: hferrone
 ms.author: v-hferrone
 ms.date: 05/13/2019
 ms.topic: article
-keywords: Смешанная реальность, взгляд, остановка, взаимодействие , конструктор
-ms.openlocfilehash: 825623b00107eec400b4df926c8980c92b065902
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+keywords: Смешанная реальность, взгляд, вдаваясь, взаимодействие, проектирование, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств для смешанной реальности, UX, рекомендации, представление списка
+ms.openlocfilehash: abedff5a273816f49419c7823b96eda1d474e336
+ms.sourcegitcommit: 4f3ef057a285be2e260615e5d6c41f00d15d08f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91693065"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94702320"
 ---
 # <a name="head-gaze-and-dwell"></a>Направление головы и остановка
 
@@ -179,7 +179,7 @@ ms.locfileid: "91693065"
 
 ---
  
- ## <a name="see-also"></a>См. также раздел
+ ## <a name="see-also"></a>См. также
 * [Взгляд и фиксация](gaze-and-commit.md)
 * [Руки: непосредственное манипулирование](direct-manipulation.md)
 * [Руки: жесты](gaze-and-commit.md#composite-gestures)
