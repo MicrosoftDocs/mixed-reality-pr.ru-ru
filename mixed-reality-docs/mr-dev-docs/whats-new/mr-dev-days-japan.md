@@ -6,12 +6,12 @@ ms.author: jemccull
 ms.date: 10/30/2020
 ms.topic: article
 keywords: Смешанная реальность, Конференция, встреча, разработчик, HoloLens, HoloLens 2, Kinect
-ms.openlocfilehash: e120582e6184b9b105221aeddb5bcb42629ccb0c
-ms.sourcegitcommit: fae413a2b0420e787671af90f14ee39cde51640f
+ms.openlocfilehash: 6f673c78004f94692fcb09d304d6d40d2f97f1c3
+ms.sourcegitcommit: 893d7df2df66316e881dfba578a2810c203d9aa3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/19/2020
-ms.locfileid: "94933269"
+ms.locfileid: "94941860"
 ---
 # <a name="mixed-reality-dev-days-japan"></a>Mixed Reality Dev Days — Япония
 
@@ -51,7 +51,7 @@ ms.locfileid: "94933269"
 |12:12:00-12:50pm|*Сеанс обеда* Панель: интерактивное бесплатное обсуждение, Q и A, МРТК + Окулус Quest 2|Мадока Чийода + специалисты Майкрософт MVP|JA|200|
 |12:50pm-1:12:00|**Разбиени**||||
 |1:12:00-1:25pm|*Сеанс 3* Обзор разработки HoloLens 2|Мадока Чиода (Madoka Chiyoda)|JA|200|
-|1:30-1:55pm|*Сеанс 4* HoloLens 2 & МРТК v 2.5 (МРТК-Unity)|Йоон парк|JA|300|
+|1:30-1:55pm|*Сеанс 4* Стандартные блоки UX МРТК (v 2.5.0)|Йоон парк|JA|300|
 |2:12:00-2:25pm|*Сеанс 5* Начало работы с HoloLens 2 и нереальными подсистемами (МРТК-Real)|Кэмерон Микка|RU|300|
 |2:30-2:55pm|*Сеанс 6* Создание приложения «создание голограммы». Мы рассмотрим функции, проблемы и другие интересные сведения, обнаруженные при создании нового приложения HoloLens 2.|Даниэль Ескудеро|RU|300|
 |2:55pm-3:10pm|**Разбиени**||||
