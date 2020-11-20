@@ -8,56 +8,56 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, предварительная продажа, исследование, покупка, перед покупкой
 appliesto:
 - Windows 10
-ms.openlocfilehash: a38b6ed8625fbb419ad24f2e27acec881d7b85a7
-ms.sourcegitcommit: ea7d806c9aa88d1295493a25f47e58bb72a4000a
+ms.openlocfilehash: 20a585088c9bea9d01754f78e9934a4022c0e34c
+ms.sourcegitcommit: c7b5790a26472c5a08c959189a574fb15f9046d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "92907446"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "95002978"
 ---
-# <a name="frequently-asked-questions"></a>Часто задаваемые вопросы
+# <a name="before-you-buy-frequently-asked-questions"></a>Перед покупкой часто задаваемых вопросов
 
 ## <a name="general-questions"></a>Общие вопросы
 
-### <a name="where-can-i-buy-a-windows-mixed-reality-ready-pc-or-headset"></a>Где можно купить готовый ПК или гарнитуру Windows Mixed Reality?
+### <a name="where-can-i-buy-a-windows-mixed-reality-ready-pc-or-headset"></a>Где можно купить готовый ПК или гарнитуру Windows Mixed Reality
 
 **Быстрый ответ:** Вы можете приобрести готовый компьютер или гарнитуру Windows Mixed Reality на утвержденном местном продавце или в сети из различных розничных продавцов, включая Microsoft Store. Найдите готовый ПК или гарнитуру Windows Mixed Reality в Интернете: <https://www.microsoft.com/mixed-reality/windows-mixed-reality?rtc=1>
 
-### <a name="where-can-i-try-windows-mixed-reality"></a>Где можно попробовать Windows Mixed Reality?
+### <a name="where-can-i-try-windows-mixed-reality"></a>Где можно попробовать Windows Mixed Reality
 
 **Быстрый ответ:** Вы можете испытать Windows Mixed Reality в [Microsoft реактора](https://developer.microsoft.com/reactor/?WT.mc_id=docs-faq-ayyonet) NEAR.
 
 * Поиск событий Microsoft реактора в Meetup.com: <https://www.meetup.com/pro/microsoft-reactor>
 
-### <a name="which-manufacturers-are-selling-windows-mixed-reality-devices"></a>Какие производители продают устройства Windows Mixed Reality?
+### <a name="which-manufacturers-are-selling-windows-mixed-reality-devices"></a>Какие производители продают устройства Windows Mixed Reality
 
 **Быстрый ответ:** Гарнитуры и контроллеры движения в настоящее время доступны в HP. См. раздел <https://www.microsoft.com/mixed-reality/windows-mixed-reality?rtc=1>.
 
-### <a name="where-can-i-buy-standalone-motion-controllers"></a>Где можно купить автономные контроллеры движения?
+### <a name="where-can-i-buy-standalone-motion-controllers"></a>Где можно купить автономные контроллеры движения
 
 **Быстрый ответ:** К сожалению, в настоящее время мы не осведомлены о розничных продавцах, продающих автономные контроллеры движения.
 
-### <a name="what-is-the-difference-between-a-windows-mixed-reality-pc-and-a-windows-mixed-reality-ultra-pc"></a>В чем разница между компьютерами с Windows Mixed Reality и компьютером Windows Mixed Reality?
+### <a name="what-is-the-difference-between-a-windows-mixed-reality-pc-and-a-windows-mixed-reality-ultra-pc"></a>В чем разница между компьютерами Windows Mixed Reality и Windows Mixed Reality (Ultra PC)
 
 **Быстрый ответ:** Сведения о компьютерах Windows Mixed Reality и Ultra PC записываются здесь: <https://aka.ms/mrcompat>
 
-### <a name="why-is-this-called-windows-mixed-reality-when-the-devices-look-like-they-provide-a-virtual-reality-experience"></a>Почему это называется Windows "Mixed Reality", когда устройства выглядят так, как они обеспечивают работу "Virtual Reality"?
+### <a name="why-is-this-called-windows-mixed-reality-when-the-devices-look-like-they-provide-a-virtual-reality-experience"></a>Почему это называется Windows "Mixed Reality", когда устройства выглядят так, как они предоставляют "Виртуальная реальность"
 
 **Быстрый ответ:** Смешанная реальность относится к полному спектру пространственных вычислений, от дополнений и голограмм к Virtual Reality. Платформа Windows Mixed Reality поддерживает устройства в виртуальной реальности (VR) и дополненной реальности (AR). В настоящее время поддерживаются два типа устройств с аналогичной технологией в таких спектрах: HoloLens (AR) и Windows Mixed Reality (VR) с контроллерами движения.
 
 Дополнительные сведения о смешанной реальности см. здесь: <https://docs.microsoft.com/windows/mixed-reality/mixed-reality>
 
-### <a name="what-is-the-difference-between-windows-mixed-reality-and-other-vr-headsets"></a>В чем разница между Windows Mixed Reality и другими гарнитурами VR?
+### <a name="what-is-the-difference-between-windows-mixed-reality-and-other-vr-headsets"></a>В чем разница между Windows Mixed Reality и другими гарнитурами VR
 
 **Быстрый ответ:** Головные гарнитуры Windows Mixed Reality имеют внутреннее отслеживание (отслеживание камер в гарнитуре) и установку Plug-and-Play с Windows 10.
 
-**Дополнительные сведения** . Windows Mixed Reality предлагает несколько функций, в том числе простую установку (отсутствие необходимости в внешних датчиках для мониторинга вашего и ваших контроллеров), выбор гарнитур для соответствия вашим комфортам и ценам, гарнитуры, имеющие конкурентные решения, и, наконец, уникальный пользовательский интерфейс, в котором используются тысячи приложений из Microsoft Store.
+**Дополнительные сведения**. Windows Mixed Reality предлагает несколько функций, в том числе простую установку (отсутствие необходимости в внешних датчиках для мониторинга вашего и ваших контроллеров), выбор гарнитур для соответствия вашим комфортам и ценам, гарнитуры, имеющие конкурентные решения, и, наконец, уникальный пользовательский интерфейс, в котором используются тысячи приложений из Microsoft Store.
 
-### <a name="does-mixed-reality-mean-that-inside-out-cameras-are-passthrough-can-you-experience-augmented-reality-in-addition-to-virtual-reality"></a>Смешанная реальность означает, что внутренние камеры являются транзитными? Можно ли расширить реальность в дополнение к Virtual Reality?
+### <a name="does-mixed-reality-mean-that-inside-out-cameras-are-passthrough-can-you-experience-augmented-reality-in-addition-to-virtual-reality"></a>Смешанная реальность означает, что внутренние камеры являются транзитными? Вы можете столкнуться с возможностями, дополненными к Virtual Reality
 
-**Быстрый ответ:** Нет, цифровые камеры на гарнитурах Windows Mixed Reality используются только для позиционированного отслеживания. Гарнитуры Windows Mixed Reality — это перекрыто, то есть они предназначены для Virtual Reality и не предоставляют представления о реальной или дополненной реальности. 
+**Быстрый ответ:** Нет, цифровые камеры на гарнитурах Windows Mixed Reality используются только для позиционированного отслеживания. Гарнитуры Windows Mixed Reality — это перекрыто, то есть они предназначены для Virtual Reality и не предоставляют представления о реальной или дополненной реальности.
 
-### <a name="what-is-inside-out-tracking-how-is-it-different-than-outside-in-tracking-or-lighthouse-tracking"></a>Что такое отслеживание в посередине? Чем она отличается от отслеживаний за пределами или отслеживанием лигхсаусе?
+### <a name="what-is-inside-out-tracking-how-is-it-different-than-outside-in-tracking-or-lighthouse-tracking"></a>Что такое отслеживание в посередине? Как это отличается от «вне» отслеживания или лигхсаусе отслеживания
 
 * **Внутреннее отслеживание** В Windows Mixed Reality используется внутреннее отслеживание. Встроенные камеры отслеживания встроены в гарнитуру и отслеживают изменения в среде, чтобы определить положение головных телефонов относительно среды по мере движения.
 
@@ -65,11 +65,11 @@ ms.locfileid: "92907446"
 
 Дополнительные сведения о внутреннем отслеживании см. здесь: <https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/tracking-system>
 
-### <a name="can-inside-out-tracking-of-motion-controllers-impact-my-game-play-due-to-camera-fov"></a>Может ли внутреннее отслеживание контроллеров Motion повлиять на игру игры из-за фов камеры?
+### <a name="can-inside-out-tracking-of-motion-controllers-impact-my-game-play-due-to-camera-fov"></a>Может ли внутреннее отслеживание контроллеров движения повлиять на игру игры из-за фов камеры
 
  Как и гарнитуры, контроллеры движения Windows Mixed Reality не нуждаются в настройке внешних датчиков отслеживания. Вместо этого контроллеры прописываются датчиками в самой гарнитуре. Если пользователь перемещает контроллеры из поля зрения гарнитуры, в большинстве случаев Windows будет по прежнему вычислять позиции контроллера и предоставлять их приложению. Когда контроллер потеряет Визуальное отслеживание на достаточно длинном уровне, позиции контроллера будут отбрасываться на позиции приблизительной точности. На этом этапе система будет блокировать контроллер для пользователя, отслеживая положение пользователя по мере его перемещения, сохраняя при этом ориентацию на уровне true, используя внутренние датчики ориентации. Многие приложения, использующие контроллеры для указания и активации элементов пользовательского интерфейса, могут нормально работать при приближенной точности, не выполняя при этом пользователя даже. Лучший способ сделать это — попробовать.
 
-### <a name="how-is-windows-mixed-reality-different-from-samsung-gear-vr"></a>Чем Windows Mixed Reality отличается от Samsung шестеренка VR?
+### <a name="how-is-windows-mixed-reality-different-from-samsung-gear-vr"></a>Чем Windows Mixed Reality отличается от Samsung шестеренка VR
 
 **Быстрый ответ:** Все продукты версии для смартфонов, в том числе Samsung шестеренки и Google Дайдреам, используют 3 степеней свободы (3DOF) системы отслеживания позиционирования. системы на основе 3DOF позволяют перемещать головной компьютер **только** из горловины в виртуальном мире. Windows с другой стороны использует 6 степеней свободы (6DOF), а также системы отслеживания размещения контроллеров. системы на основе 6DOF позволяют перемещать весь текст в виртуальном мире; Поэтому можно обойти объект и просмотреть его с разных перспектив, как в физическом мире. Рифт и Naopak также являются системами на основе 6DOF.
 
@@ -81,7 +81,7 @@ ms.locfileid: "92907446"
 <table>
 <tr>
 <th style="width:25%"> Headset </th>
-<th style="width:15%"> Решение </th>
+<th style="width:15%"> Разрешение </th>
 <th style="width:10%"> Отображение </th>
 <th style="width:10%"> Частота обновления </th>
 <th style="width:10%"> фов </th>
@@ -99,7 +99,7 @@ ms.locfileid: "92907446"
 <td> До 90Hz </td>
 <td> 100 ° </td>
 <td> разъем 3,5 мм </td>
-<td> Нет </td>
+<td> None </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://www.acer.com/ac/en/US/content/windows-mixed-reality-home">Асер</a> </td>
@@ -125,7 +125,7 @@ ms.locfileid: "92907446"
 <td> До 90Hz </td>
 <td> 95 ° </td>
 <td> разъем 3,5 мм </td>
-<td> Нет </td>
+<td> None </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://www.asus.com/us/Headset/ASUS-Windows-Mixed-Reality-Headset-HC102/">АДАПТЕР</a> </td>
@@ -138,7 +138,7 @@ ms.locfileid: "92907446"
 <td> До 90Hz </td>
 <td> 105 ° </td>
 <td> разъем 3,5 мм </td>
-<td> Нет </td>
+<td> None </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://www.dell.com/en-us/shop/accessories/apd/536-bbbr?~ck=mn">Оборудования</a> </td>
@@ -151,7 +151,7 @@ ms.locfileid: "92907446"
 <td> До 90Hz </td>
 <td> 105 ° </td>
 <td> разъем 3,5 мм </td>
-<td> Нет </td>
+<td> None </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="http://pr.fujitsu.com/jp/news/2017/10/17.html">Fujitsu</a> </td>
@@ -177,7 +177,7 @@ ms.locfileid: "92907446"
 <td> До 90Hz </td>
 <td> 105 ° </td>
 <td> разъем 3,5 мм </td>
-<td> Нет </td>
+<td> None </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://store.hp.com/us/en/pdp/hp-windows-mixed-reality-headset-vr1000-100">КОМПАНИИ</a> </td>
@@ -190,7 +190,7 @@ ms.locfileid: "92907446"
 <td> До 90Hz </td>
 <td> 105 ° </td>
 <td> разъем 3,5 мм </td>
-<td> Нет </td>
+<td> None </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/virtual-and-augmented-reality/lenovo-explorer/Lenovo-Explorer/p/G10NREAG0A2">Адаптер</a> </td>
@@ -203,7 +203,7 @@ ms.locfileid: "92907446"
 <td> До 90Hz </td>
 <td> 105 ° </td>
 <td> разъем 3,5 мм </td>
-<td> Нет </td>
+<td> None </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://www.medion.com/be/shop/monitoren-medion-erazer-mr-x1000-vr-headset-controllers-30023616a1.html">медион</a> </td>
@@ -216,7 +216,7 @@ ms.locfileid: "92907446"
 <td> До 90Hz </td>
 <td> 110 ° </td>
 <td> Интегрированная </td>
-<td> Нет </td>
+<td> None </td>
 <td style="text-align: center;">Машин</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://www.samsung.com/us/computing/hmd/windows-mixed-reality/xe800zaa-hc1us-xe800zaa-hc1us/?redir=windows%20mixed%20reality">Samsung</a> </td>
@@ -242,7 +242,7 @@ ms.locfileid: "92907446"
 <td> До 90Hz </td>
 <td> 105 ° </td>
 <td> разъем 3,5 мм </td>
-<td> Нет </td>
+<td> None </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="http://3glasses.com/goods.action?gid=30">3Glasses</a> </td>
@@ -257,7 +257,7 @@ ms.locfileid: "92907446"
 
 ### <a name="do-the-mixed-reality-headsets-have-ipd-adjustment"></a>Есть ли у гарнитур смешанной реальности корректировка IPD?
 
-**Быстрый ответ:** В зависимости от гарнитуры, некоторые гарнитуры смешанной реальности применяют механические настройки IPD. Другие гарнитуры — корректировка программного обеспечения IPD, повышающая искажение изображений и точность глубины на основе IPD. Пользователи могут задать свои пользовательские параметры IPD с помощью **параметров > Смешанная реальность > отображение гарнитуры > калибровка** .
+**Быстрый ответ:** В зависимости от гарнитуры, некоторые гарнитуры смешанной реальности применяют механические настройки IPD. Другие гарнитуры — корректировка программного обеспечения IPD, повышающая искажение изображений и точность глубины на основе IPD. Пользователи могут задать свои пользовательские параметры IPD с помощью **параметров > Смешанная реальность > отображение гарнитуры > калибровка**.
 
 ### <a name="do-the-mixed-reality-headsets-have-eye-relief-adjustment"></a>Настроили ли у гарнитур смешанной реальности корректировки глаз?
 
