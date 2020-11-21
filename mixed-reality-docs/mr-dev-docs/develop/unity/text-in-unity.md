@@ -6,12 +6,12 @@ ms.author: dongpark
 ms.date: 06/03/2019
 ms.topic: article
 keywords: Windows Mixed Reality, проектирование, элементы управления, шрифт, типография, Пользовательский интерфейс, UX, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: 9778b1b11db7ac1c330b0ede4f6153deff45a95a
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 04b62cd0989042856dbd15d467d042f67df69931
+ms.sourcegitcommit: 5d6dbbb94e60cf10786d0fbbaf4239a1541e9e29
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94677363"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "95008137"
 ---
 # <a name="text-in-unity"></a>Текст в Unity
 
@@ -93,7 +93,7 @@ Segoe UI (шрифт по умолчанию для Windows) хорошо раб
 
 ### <a name="shader-with-occlusion-support"></a>Шейдер с поддержкой перекрытия
 
-Материал шрифта по умолчанию Unity не поддерживает перекрытия. По этой причине текст позади объектов будет отображаться по умолчанию. Мы включили простой [шейдер, который поддерживает перекрытия](https://github.com/microsoft/MixedRealityToolkit-Unity/blob/mrtk_release/Assets/MRTK/Core/StandardAssets/Shaders/Text3DShader.shader). На рисунке ниже показан текст со стандартным материалом шрифта (слева) и текстом с правильным перекрытия (справа).
+Материал шрифта по умолчанию Unity не поддерживает перекрытия. По этой причине текст позади объектов будет отображаться по умолчанию. Мы включили простой [шейдер, который поддерживает перекрытия](https://github.com/microsoft/MixedRealityToolkit-Unity/blob/mrtk_development/Assets/MRTK/StandardAssets/Shaders/Text3DShader.shader). На рисунке ниже показан текст со стандартным материалом шрифта (слева) и текстом с правильным перекрытия (справа).
 
 ![Шейдер с поддержкой перекрытия](images/hug-text-07-1000px.png)<br>
 *Шейдер с поддержкой перекрытия*
