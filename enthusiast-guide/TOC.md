@@ -1,15 +1,11 @@
 # [Windows Mixed Reality: документация для энтузиастов](index.yml)
 ## [Начало работы с технологией виртуальной реальности](vr-journey.md)
 
-## Перед покупкой
-<!-- ### [What is Windows Mixed Reality?](windows-mixed-reality.md) -->
+## Начало работы
+### [Перед началом работы](before-you-start.md)
 ### [Минимальные рекомендации по оборудованию ПК](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md)
 ### [Рекомендуемые адаптеры](recommended-adapters-for-windows-mixed-reality-capable-pcs.md)
 ### [Получение справки по совместимости ПК](get-help-with-pc-compatibility.md)
-### [Часто задаваемые вопросы по Аналитике компьютеров](before-you-buy-faqs.md)
-
-## Начало работы
-### [Перед началом работы](before-you-start.md)
 ### [Подключение гарнитуры](plug-in-your-headset.md)
 ### [Установка Windows Mixed Reality](install-windows-mixed-reality.md)
 ### [Настройка Windows Mixed Reality](set-up-windows-mixed-reality.md)
@@ -31,6 +27,7 @@
 ### [Отправка сведений об ошибках и отзывов](filing-feedback.md)
 ### [Коды ошибок](error-codes.md)
 ### [Ошибки установки](installation_errors.md)
+### [Перед покупкой](before-you-buy-faqs.md)
 ### [границы,](boundary-questions.md)
 ### [Подключение гарнитуры](headset-connectivity.md)
 ### [Дисплей гарнитуры](headset-display.md)
