@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 10/15/2020
 ms.topic: overview
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR,
-ms.openlocfilehash: 429a1130d628f54f12eb8ff6eed3f48d4712143a
-ms.sourcegitcommit: 893d7df2df66316e881dfba578a2810c203d9aa3
+ms.openlocfilehash: 9426a85611cf53a349ca5bc8f3727ee8a784940e
+ms.sourcegitcommit: a129039d8ed228ed0305aa312006cadf403f0831
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "94941870"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "95417208"
 ---
 # <a name="start-your-vr-journey"></a>Начало работы с технологией виртуальной реальности
 
@@ -29,7 +29,7 @@ ms.locfileid: "94941870"
 
 |  Контрольная точка  |  Результат  |
 | --- | --- |
-| [Перед началом работы](before-you-start.md) |  |
+| [Перед началом работы](before-you-start.md) | Убедитесь, что у вас есть все, что нужно для начала пути к VR. |
 | [Минимальные рекомендации по оборудованию ПК](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md) | Все, что необходимо знать о работе Windows Mixed Reality, Windows Mixed Reality и приложение портала Windows Mixed Reality |
 | [Получение справки по совместимости ПК](get-help-with-pc-compatibility.md) | Сведения о созданном отчете из проверки компьютера Windows Mixed Reality |
 | [Приобретение часто задаваемых вопросов](before-you-buy-faqs.md) | Получите ответы на все вопросы о приобретении технических спецификаций, устройств и контроллеров |
@@ -64,11 +64,16 @@ ms.locfileid: "94941870"
 
 ## <a name="4-discover-apps-and-content"></a>4. Обнаружение приложений и содержимого
 
-Найдите современные игры, настольные приложения и содержимое VR и используйте браузер Microsoft ребра в приведенных ниже ресурсах. 
+В приведенных ниже ресурсах находятся впечатляющие игры, классические приложения и содержимое VR. 
 
 <br>
 
-| [Игры, видео 360 и приложения](using-games-and-apps-in-windows-mixed-reality.md) | Приступая к работе с первой увлекательной игрой, планшетами, приложениями для настольных компьютеров и Вебвром | | [Использование стеамвр](using-steamvr-with-windows-mixed-reality.md) | Подключение устройства и воспроизведение Стеамвр игр и изучение программы предварительной оценки Windows | | [Использование Microsoft ребра](using-microsoft-edge.md) | Установите последнюю версию Microsoft ребра на иммерсивное устройство | | [Использование вебвр](webvr.md) | Загрузите программу установки для работы в среде браузера |
+|  Контрольная точка  |  Функция  |
+| --- | --- |
+| [Игры, видео 360 и приложения](using-games-and-apps-in-windows-mixed-reality.md) | Начало работы с первой увлекательной игрой, планшетами для 2D-магазинов, приложениями для настольных компьютеров и Вебвр |
+| [Использование SteamVR](using-steamvr-with-windows-mixed-reality.md) | Подключение устройства и воспроизведение Стеамвр игр и изучение программы предварительной оценки Windows |
+| [Использование Microsoft Edge](using-microsoft-edge.md) | Установите последнюю версию Microsoft ребра на иммерсивное устройство. |
+| [Использование Вебвр](webvr.md) | Получение программы установки для работы с VR в среде браузера |
 
 ## <a name="troubleshooting-tips--resources"></a>Устранение неполадок, советы & ресурсов
 
