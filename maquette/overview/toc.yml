@@ -1,0 +1,8 @@
+- name: О Maquette
+  href: about.md
+- name: Установка
+  href: installation.md
+- name: Общие сведения о программировании
+  href: programming-overview.md
+- name: Ядро языка
+  href: core-language.md
