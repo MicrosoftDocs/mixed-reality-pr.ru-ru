@@ -1,0 +1,16 @@
+- name: Компонент 1
+  href: feature-1.md
+- name: Компонент 2
+  href: feature-2.md
+- name: Компонент 3
+  href: feature-3.md
+- name: Компонент 4
+  href: feature-4.md
+- name: Создание диалогового окна
+  href: creating-dialog-box.md
+- name: Создание страницы свойств из JSON
+  href: json-property-sheet.md
+- name: Доступ к JSON из Интернета
+  href: accessing-web-json.md
+- name: Работа с данными Excel
+  href: working-with-excel-data.md
