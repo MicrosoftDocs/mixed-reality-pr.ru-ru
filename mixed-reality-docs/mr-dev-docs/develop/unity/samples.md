@@ -7,13 +7,13 @@ ms.author: kurtie
 ms.date: 07/30/2020
 ms.topic: article
 ms.localizationpriority: high
-keywords: mixedrealitytoolkit, mixedrealitytoolkit-unity, academy, учебник
-ms.openlocfilehash: cd0fcd0f2247582582f008c3c1131e893d89a3de
-ms.sourcegitcommit: 8a80613f025b05a83393845d4af4da26a7d3ea9c
+keywords: mixedrealitytoolkit, mixedrealitytoolkit-unity, Academy, учебник, MRTK, Mixed Reality Toolkit, Unity, примеры приложений, приложения с примерами, открытый код, Microsoft Store, HoloLens, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
+ms.openlocfilehash: f33e66b0077f9b1f1255ee8da564ac588d1e02b9
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "94573198"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94677263"
 ---
 # <a name="sample-apps"></a>Примеры приложений
 

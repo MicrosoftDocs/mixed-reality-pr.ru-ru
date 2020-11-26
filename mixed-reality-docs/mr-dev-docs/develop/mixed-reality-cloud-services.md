@@ -7,13 +7,13 @@ ms.author: v-haferr
 ms.date: 06/5/2020
 ms.topic: overview
 ms.localizationpriority: high
-keywords: смешанная реальность, разрабатывать, разработка, HoloLens, облачные службы
-ms.openlocfilehash: ae79da3d5bdf85bc27312044409c1f9c9aa5f031
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+keywords: смешанная реальность, процессы разработки, разработка, HoloLens, облачные службы, Azure, удаленная отрисовка, пространственные привязки, Cognitive Services, восприятие, Unity, машинное обучение, перевод речи, компьютерное зрение, Microsoft Graph
+ms.openlocfilehash: 640e99637f9cfa1786e1e78ed5cec396748b2f47
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91699376"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94679693"
 ---
 # <a name="azure-cloud-services"></a>Oблачныe службы Azure
 
