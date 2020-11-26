@@ -5,14 +5,14 @@ author: jessemcculloch
 ms.author: jemccull
 ms.date: 02/26/2019
 ms.topic: article
-keywords: mixed reality, unity, tutorial, hololens
+keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure, распознавание речи, Windows 10
 ms.localizationpriority: high
-ms.openlocfilehash: 07130f7d8f10464219458be4ddd5c420a0512b51
-ms.sourcegitcommit: 8fd127aff85b77778bd7a75c5ec5215d27ecf21a
+ms.openlocfilehash: ec158de1aa8b8e6401802b68098eb7acd883d7e6
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93416990"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94679283"
 ---
 # <a name="1-integrating-and-using-speech-recognition-and-transcription"></a>1. Интеграция и использование средств распознавания и транскрибирования речи
 
@@ -59,7 +59,7 @@ ms.locfileid: "93416990"
 
 Поскольку для распознавания и транскрибирования речи вы будете применять пакет SDK "Речь", вам нужно настроить речевые команды MRTK так, чтобы они не мешали работе пакета SDK "Речь". Чтобы добиться этого, измените поведение начала речевых команд с Auto Start (Автозапуск) на Manual Start (Запуск вручную).
 
-Выделив объект **MixedRealityToolkit** в окне Hierarchy (Иерархия), выберите в окне Inspector (Инспектор) вкладку **Input** (Ввод), клонируйте профили **DefaultHoloLens2InputSystemProfile** и **DefaultMixedRealitySpeechCommandsProfile** , а затем измените для речевых команд параметр **Start Behavior** (Поведение начала) на **Manual Start** (Старт вручную):
+Выделив объект **MixedRealityToolkit** в окне Hierarchy (Иерархия), выберите в окне Inspector (Инспектор) вкладку **Input** (Ввод), клонируйте профили **DefaultHoloLens2InputSystemProfile** и **DefaultMixedRealitySpeechCommandsProfile**, а затем измените для речевых команд параметр **Start Behavior** (Поведение начала) на **Manual Start** (Старт вручную):
 
 ![mrlearning-speech](images/mrlearning-speech/tutorial1-section2-step1-1.png)
 
@@ -78,7 +78,7 @@ ms.locfileid: "93416990"
 
 ## <a name="importing-the-tutorial-assets"></a>Импорт активов для руководства
 
-Скачайте и **импортируйте** следующие пользовательские пакеты Unity **в указанном здесь порядке** :
+Скачайте и **импортируйте** следующие пользовательские пакеты Unity **в указанном здесь порядке**:
 
 * [Microsoft.CognitiveServices.Speech.N.N.N.unitypackage](https://aka.ms/csspeech/unitypackage) (последняя версия);
 * [MRTK.HoloLens2.Unity.Tutorials.Assets.GettingStarted.2.3.0.3.unitypackage](https://github.com/microsoft/MixedRealityLearning/releases/download/getting-started-v2.3.0.3/MRTK.HoloLens2.Unity.Tutorials.Assets.GettingStarted.2.3.0.3.unitypackage)
@@ -99,22 +99,22 @@ ms.locfileid: "93416990"
 
 ![mrlearning-speech](images/mrlearning-speech/tutorial1-section5-step1-1.png)
 
-В окне Hierarchy (Иерархия) сохраните выделение объекта **Lunarcom** , а в окне Inspector (Инспектор) с помощью кнопки **Add Component** (Добавить компонент) добавьте компонент **Lunarcom Controller (Script)** (Контроллер Lunarcom — скрипт) к объекту Lunarcom.
+В окне Hierarchy (Иерархия) сохраните выделение объекта **Lunarcom**, а в окне Inspector (Инспектор) с помощью кнопки **Add Component** (Добавить компонент) добавьте компонент **Lunarcom Controller (Script)** (Контроллер Lunarcom — скрипт) к объекту Lunarcom.
 
 ![mrlearning-speech](images/mrlearning-speech/tutorial1-section5-step1-2.png)
 
 > [!NOTE]
 > Компонент Lunarcom Controller (Script) (Контроллер Lunarcom — скрипт) не входит в состав MRTK. Он был предоставлен с активами для этого руководства.
 
-Сохраняя выделение объекта **Lunarcom** , разверните его для просмотра списка дочерних объектов, затем перетащите объект **Terminal** (Терминал) в поле **Terminal** (Терминал) объекта Lunarcom Controller (Script) (Контроллер Lunarcom — скрипт):
+Сохраняя выделение объекта **Lunarcom**, разверните его для просмотра списка дочерних объектов, затем перетащите объект **Terminal** (Терминал) в поле **Terminal** (Терминал) объекта Lunarcom Controller (Script) (Контроллер Lunarcom — скрипт):
 
 ![mrlearning-speech](images/mrlearning-speech/tutorial1-section5-step1-3.png)
 
-Сохраняя выделение объекта **Lunarcom** , разверните объект Terminal (Терминал) для просмотра списка его дочерних объектов, затем перетащите объект **ConnectionLight** (Индикатор подключения) в поле **ConnectionLight** (Индикатор подключения) объекта Lunarcom Controller (Script) (Контроллер Lunarcom — скрипт), а объект **OutputText** (Выходной текст) — в поле **Output Text** (Выходной текст):
+Сохраняя выделение объекта **Lunarcom**, разверните объект Terminal (Терминал) для просмотра списка его дочерних объектов, затем перетащите объект **ConnectionLight** (Индикатор подключения) в поле **ConnectionLight** (Индикатор подключения) объекта Lunarcom Controller (Script) (Контроллер Lunarcom — скрипт), а объект **OutputText** (Выходной текст) — в поле **Output Text** (Выходной текст):
 
 ![mrlearning-speech](images/mrlearning-speech/tutorial1-section5-step1-4.png)
 
-Сохраняя выделение объекта **Lunarcom** , разверните объект Buttons (Кнопки), чтобы открыть список его дочерних объектов, а затем в окне "Инспектор" разверните список **Buttons** (Кнопки), установите для его параметра **Size** (Размер) значение 3 и перетащите объекты **MicButton** , **SatelliteButton** и **RocketButton** в поля **Элемент** с номерами 0, 1 и 2, соответственно:
+Сохраняя выделение объекта **Lunarcom**, разверните объект Buttons (Кнопки), чтобы открыть список его дочерних объектов, а затем в окне "Инспектор" разверните список **Buttons** (Кнопки), установите для его параметра **Size** (Размер) значение 3 и перетащите объекты **MicButton**, **SatelliteButton** и **RocketButton** в поля **Элемент** с номерами 0, 1 и 2, соответственно:
 
 ![mrlearning-speech](images/mrlearning-speech/tutorial1-section5-step1-5.png)
 
@@ -122,7 +122,7 @@ ms.locfileid: "93416990"
 
 Чтобы использовать службу речи Azure, потребуется создать ресурс Azure и получить ключ API для службы "Речь". Выполните инструкции [по применению бесплатной версии службы "Речь"](https://docs.microsoft.com/azure/cognitive-services/speech-service/get-started) и выясните регион (расположение) вашей службы и значение ключа API (это может быть Key1 или Key2).
 
-В окне Hierarchy (Иерархия) выберите объект **Lunarcom** , а затем в окне Inspector (Инспектор) найдите в компоненте **Lunarcom Controller (Script)** (Контроллер Lunarcom — скрипт) раздел **Speech SDK Credentials** (Учетные данные пакета SDK) и настройте его, как описано ниже.
+В окне Hierarchy (Иерархия) выберите объект **Lunarcom**, а затем в окне Inspector (Инспектор) найдите в компоненте **Lunarcom Controller (Script)** (Контроллер Lunarcom — скрипт) раздел **Speech SDK Credentials** (Учетные данные пакета SDK) и настройте его, как описано ниже.
 
 * В поле **Speech Service API Key** (Ключ API службы "Речь") введите значение ключа API (Key1 или Key2).
 * В поле **Speech Service Region** (Регион службы "Речь") введите значение региона (расположения) службы, переведя все буквы в нижний регистр и удалив пробелы.
@@ -131,7 +131,7 @@ ms.locfileid: "93416990"
 
 ## <a name="using-speech-recognition-to-transcribe-speech"></a>Использование функции распознавания речи для транскрибирования речи
 
-В окне Hierarchy (Иерархия) выберите объект **Lunarcom** , а затем в окне Inspector (Инспектор) с помощью кнопки **Add Component** (Добавить компонент) добавьте компонент **Lunarcom Speech Recognizer (Script)** (Распознаватель речи Lunarcom — скрипт) к объекту Lunarcom.
+В окне Hierarchy (Иерархия) выберите объект **Lunarcom**, а затем в окне Inspector (Инспектор) с помощью кнопки **Add Component** (Добавить компонент) добавьте компонент **Lunarcom Speech Recognizer (Script)** (Распознаватель речи Lunarcom — скрипт) к объекту Lunarcom.
 
 ![mrlearning-speech](images/mrlearning-speech/tutorial1-section7-step1-1.png)
 

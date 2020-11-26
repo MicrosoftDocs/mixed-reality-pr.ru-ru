@@ -5,14 +5,14 @@ author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
-keywords: mixed reality, unity, tutorial, hololens
+keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, отслеживание глаз
 ms.localizationpriority: high
-ms.openlocfilehash: 490a131bb196941d2ae581b97d88a104c0c212e2
-ms.sourcegitcommit: 63c228af55379810ab2ee4f09f20eded1bb76229
+ms.openlocfilehash: 2b572a106cba904231ed124260cd879cd3a9a944
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93353502"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94679753"
 ---
 # <a name="8-using-eye-tracking"></a>8. Использование функции отслеживания взгляда
 
@@ -39,7 +39,7 @@ ms.locfileid: "93353502"
 
 ## <a name="enabling-eye-based-gaze-in-the-gaze-provider"></a>Включение отслеживания взгляда в поставщике данных о направлении взгляда
 
-В окне Hierarchy (Иерархия) выберите объект **MixedRealityToolkit** , затем в окне Inspector (Инспектор) перейдите на вкладку MixedRealityToolkit > **Input** (Ввод) и выполните следующие действия:
+В окне Hierarchy (Иерархия) выберите объект **MixedRealityToolkit**, затем в окне Inspector (Инспектор) перейдите на вкладку MixedRealityToolkit > **Input** (Ввод) и выполните следующие действия:
 
 * Клонируйте профиль **DefaultHoloLens2InputSystemProfile** и присвойте ему понятное имя, например _GettingStarted_HoloLens2InputSystemProfile_.
 * Разверните раздел **Pointers** (Указатели).
@@ -53,7 +53,7 @@ ms.locfileid: "93353502"
 
 ## <a name="enabling-simulated-eye-tracking-for-the-unity-editor"></a>Включение имитации отслеживания взгляда для редактора Unity
 
-В окне Hierarchy (Иерархия) выберите объект **MixedRealityToolkit** , в окне инспектора откройте вкладку **Input** (Ввод) и сделайте следующее:
+В окне Hierarchy (Иерархия) выберите объект **MixedRealityToolkit**, в окне инспектора откройте вкладку **Input** (Ввод) и сделайте следующее:
 
 * Разверните раздел **Input Data Providers**  > **Input Simulation Service** (Поставщики входных данных > Служба имитации ввода).
 * Клонируйте профиль **DefaultMixedRealityInputSimulationProfile** и присвойте ему понятное имя, например _GettingStarted_MixedRealityInputSimulationProfile_.
@@ -74,18 +74,18 @@ ms.locfileid: "93353502"
 
 ![Unity с выбранным объектом TextMeshPro и добавленными компонентами](images/mr-learning-base/base-08-section4-step1-2.png)
 
-В окне Hierarchy (Иерархия) выберите объект **Hints** (Указания) > SeeItSayItLabel > **TextMeshPro** , а затем настройте компонент **EyeTrackingTarget** следующим образом:
+В окне Hierarchy (Иерархия) выберите объект **Hints** (Указания) > SeeItSayItLabel > **TextMeshPro**, а затем настройте компонент **EyeTrackingTarget** следующим образом:
 
 * В разделе события **On Look At Start ()** (При взгляде на начало ())
   * Щелкните небольшой значок **+** , чтобы добавить событие.
   * Назначьте сам объект, т. е. тот же объект **TextMeshPro** полю **None (Object)** (Нет (объект)).
-  * В раскрывающемся списке **No Function** (Нет функции) выберите **TextMeshPro** > **float fontSize** , чтобы обновлять это значение свойства при срабатывании события.
-  * Задайте для аргумента значение **0,06** , чтобы увеличить текущий размер шрифта 0,04 на 50 %.
+  * В раскрывающемся списке **No Function** (Нет функции) выберите **TextMeshPro** > **float fontSize**, чтобы обновлять это значение свойства при срабатывании события.
+  * Задайте для аргумента значение **0,06**, чтобы увеличить текущий размер шрифта 0,04 на 50 %.
 * В разделе события **On Look At Start ()** (При отведении взгляда ())
   * Щелкните небольшой значок **+** , чтобы добавить событие.
   * Назначьте сам объект, т. е. тот же объект **TextMeshPro** полю **None (Object)** (Нет (объект)).
-  * В раскрывающемся списке **No Function** (Нет функции) выберите **TextMeshPro** > **float fontSize** , чтобы обновлять это значение свойства при срабатывании события.
-  * Задайте для аргумента значение **0,04** , чтобы сбросить размер шрифта обратно до значения 0,04.
+  * В раскрывающемся списке **No Function** (Нет функции) выберите **TextMeshPro** > **float fontSize**, чтобы обновлять это значение свойства при срабатывании события.
+  * Задайте для аргумента значение **0,04**, чтобы сбросить размер шрифта обратно до значения 0,04.
 
 ![Unity с выбранным объектом TextMeshPro для Hints и настроенным компонентом EyeTrackingTarget](images/mr-learning-base/base-08-section4-step1-3.png)
 

@@ -5,14 +5,14 @@ author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
-keywords: смешанная реальность, unity, руководство, hololens, android, ios
+keywords: смешанная реальность, Unity, учебник, HoloLens, Android, iOS, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure, ARCore, ARKit
 ms.localizationpriority: high
-ms.openlocfilehash: 501cfab2a86dcf5753b7371898a8c4b6c8a1e10b
-ms.sourcegitcommit: 63c228af55379810ab2ee4f09f20eded1bb76229
+ms.openlocfilehash: bee84db206dbb4e95272799c16d6dbd4e394e807
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93353382"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94679433"
 ---
 # <a name="5-azure-spatial-anchors-for-android-and-ios"></a>5. Пространственные привязки Azure для Android и iOS
 
@@ -48,7 +48,7 @@ ms.locfileid: "93353382"
 
 Из этого раздела вы узнаете, как настроить MRTK для развертывания на мобильном устройстве.
 
-В окне Hierarchy (Иерархия) выберите объект **MixedRealityToolkit**. Затем в окне Inspector (Инспектор) перейдите на вкладку **Camera** (Камера), клонируйте профиль камеры и присвойте ему понятное имя, например **AzureSpatialAnchors_ARCameraProfile** :
+В окне Hierarchy (Иерархия) выберите объект **MixedRealityToolkit**. Затем в окне Inspector (Инспектор) перейдите на вкладку **Camera** (Камера), клонируйте профиль камеры и присвойте ему понятное имя, например **AzureSpatialAnchors_ARCameraProfile**:
 
 ![Unity с выбранным созданным профилем ARCameraProfile](images/mr-learning-asa/asa-05-section2-step1-1.png)
 
@@ -59,7 +59,7 @@ ms.locfileid: "93353382"
 
 ![Профиль ARCameraProfile в Unity с добавленным поставщиком данных](images/mr-learning-asa/asa-05-section2-step1-2.png)
 
-В раскрывающемся списке **Type** (Тип) измените тип на **Microsoft.MixedReality.Toolkit.Experimental.UnityAR** > **UnityARCameraSettings** :
+В раскрывающемся списке **Type** (Тип) измените тип на **Microsoft.MixedReality.Toolkit.Experimental.UnityAR** > **UnityARCameraSettings**:
 
 ![Выбор типа поставщика данных для профиля ARCameraProfile в Unity](images/mr-learning-asa/asa-05-section2-step1-3.png)
 

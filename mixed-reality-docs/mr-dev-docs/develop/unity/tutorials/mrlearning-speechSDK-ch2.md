@@ -5,14 +5,14 @@ author: jessemcculloch
 ms.author: jemccull
 ms.date: 06/27/2019
 ms.topic: article
-keywords: mixed reality, unity, tutorial, hololens
+keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure, распознавание речи, Windows 10
 ms.localizationpriority: high
-ms.openlocfilehash: a7fa1bdaa72d341eaa49ac70dfa926d8f9bbad7a
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: d5b0e5140c698996c051eab10064d99280482886
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91702204"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94679733"
 ---
 # <a name="2-using-speech-recognition-to-execute-commands"></a>2. Использование функции распознавания речи для выполнения команд
 
@@ -24,7 +24,7 @@ ms.locfileid: "91702204"
 
 ## <a name="instructions"></a>Инструкции
 
-В окне Hierarchy (Иерархия) выберите объект **Lunarcom** , а затем в окне Inspector (Инспектор) с помощью кнопки **Add Component** (Добавить компонент) добавьте компонент **Lunarcom Wake Word Recognizer (Script)** (Распознаватель слова для пробуждения Lunarcom — скрипт) к объекту Lunarcom и настройте его, как показано ниже.
+В окне Hierarchy (Иерархия) выберите объект **Lunarcom**, а затем в окне Inspector (Инспектор) с помощью кнопки **Add Component** (Добавить компонент) добавьте компонент **Lunarcom Wake Word Recognizer (Script)** (Распознаватель слова для пробуждения Lunarcom — скрипт) к объекту Lunarcom и настройте его, как показано ниже.
 
 * В поле **Wake Word** (Слово для пробуждения) введите подходящую фразу, например _Activate terminal_ (Активировать терминал).
 * В поле **Dismiss Word** (Слово для отключения) введите подходящую фразу, например _Dismiss terminal_ (Отключить терминал).
@@ -34,11 +34,11 @@ ms.locfileid: "91702204"
 > [!NOTE]
 > Компонент Lunarcom Wake Word Recognizer (Script) (Распознаватель слова для пробуждения Lunarcom — скрипт) не входит в состав MRTK. Он был предоставлен с активами для этого руководства.
 
-Если теперь вы входите в игровой режим, как описано в предыдущем руководстве, панель терминала будет по умолчанию включена, но вы сможете ее отключить, произнеся настроенное слово для отключения **Dismiss terminal** :
+Если теперь вы входите в игровой режим, как описано в предыдущем руководстве, панель терминала будет по умолчанию включена, но вы сможете ее отключить, произнеся настроенное слово для отключения **Dismiss terminal**:
 
 ![mrlearning-speech](images/mrlearning-speech/tutorial2-section1-step1-2.png)
 
-Чтобы снова включить терминал, произнесите слово для пробуждения **Activate terminal** :
+Чтобы снова включить терминал, произнесите слово для пробуждения **Activate terminal**:
 
 ![mrlearning-speech](images/mrlearning-speech/tutorial2-section1-step1-3.png)
 

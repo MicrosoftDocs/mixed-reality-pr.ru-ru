@@ -6,16 +6,16 @@ ms.author: suwu
 ms.date: 7/10/2020
 ms.topic: article
 ms.localizationpriority: high
-keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, потоковая передача, компьютер, голографическое удаленное взаимодействие с приложением, проигрыватель для голографического удаленного взаимодействия, документация
+keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, потоковая передача, компьютер, голографическое удаленное взаимодействие с приложением, проигрыватель для голографического удаленного взаимодействия, документация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
 appliesto:
 - HoloLens
 - HoloLens 2
-ms.openlocfilehash: 9c60168b409a10a815313b1254a979244763b9e6
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: 5a001088208106176ae771c2bc684674e6ce37a8
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91701924"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94679783"
 ---
 # <a name="streaming-in-unreal"></a>Потоковая передача в Unreal
 

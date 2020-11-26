@@ -5,14 +5,14 @@ author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
-keywords: mixed reality, unity, tutorial, hololens
+keywords: смешанная реальность, Unity, учебник, HoloLens, многопользовательские возможности, Photon, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure
 ms.localizationpriority: high
-ms.openlocfilehash: 65672bad9a967e11e7feb7efc45759608e9c9e76
-ms.sourcegitcommit: 63c228af55379810ab2ee4f09f20eded1bb76229
+ms.openlocfilehash: ec24a8dcdc8708e61184056df6d282f4496cb453
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93353432"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94678253"
 ---
 # <a name="5-integrating-azure-spatial-anchors-into-a-shared-experience"></a>5. Интеграция Пространственных привязок Azure в общий интерфейс
 
@@ -25,11 +25,11 @@ ms.locfileid: "93353432"
 
 ## <a name="preparing-the-scene"></a>Подготовка сцены
 
-В окне "Иерархия" разверните объект **SharedPlayground** , затем разверните объект **TableAnchor** , чтобы предоставить его дочерние объекты.
+В окне "Иерархия" разверните объект **SharedPlayground**, затем разверните объект **TableAnchor**, чтобы предоставить его дочерние объекты.
 
 ![Unity с развернутыми объектами SharedPlayground и TableAnchor](images/mr-learning-sharing/sharing-05-section1-step1-1.png)
 
-В окне Project (Проект) перейдите к папке **Assets** (Активы) > **MRTK.Tutorials.MultiUserCapabilities** > **Prefabs** (Заготовки) и перетащите заготовку **Buttons** (Кнопки) на дочерний объект **TableAnchor** , чтобы добавить ее в сцену в качестве дочернего объекта TableAnchor.
+В окне Project (Проект) перейдите к папке **Assets** (Активы) > **MRTK.Tutorials.MultiUserCapabilities** > **Prefabs** (Заготовки) и перетащите заготовку **Buttons** (Кнопки) на дочерний объект **TableAnchor**, чтобы добавить ее в сцену в качестве дочернего объекта TableAnchor.
 
 ![Unity с выбранной созданной заготовкой Buttons](images/mr-learning-sharing/sharing-05-section1-step1-2.png)
 
@@ -37,7 +37,7 @@ ms.locfileid: "93353432"
 
 В этом разделе показано, как настроить серию событий кнопок, демонстрирующих базовые приемы использования Пространственных привязок Azure для достижения пространственного выравнивания в общем взаимодействии.
 
-В окне "Иерархия" разверните объект **Button**. Выберите в нем первый дочерний объект кнопки с именем **StartAzureSession** :
+В окне "Иерархия" разверните объект **Button**. Выберите в нем первый дочерний объект кнопки с именем **StartAzureSession**:
 
 ![Unity с выбранным объектом кнопки StartAzureSession](images/mr-learning-sharing/sharing-05-section2-step1-1.png)
 
@@ -82,7 +82,7 @@ ms.locfileid: "93353432"
 ![Unity с настроенным диспетчером пространственных привязок](images/mr-learning-sharing/sharing-05-section3-step1-1.png)
 
 > [!TIP]
-> Вы можете задать идентификатор и ключ учетной записи Пространственных привязок не только для сцены, но и для всего проекта, если у вас есть несколько сцен с Пространственными привязками Azure. Для этого в окне Project (Проект) выберите Assets (Активы) > AzureSpatialAnchors.SDK > Resources (Ресурсы) > актив **SpatialAnchorConfig** , а затем задайте значения в окне Inspector (Инспектор).
+> Вы можете задать идентификатор и ключ учетной записи Пространственных привязок не только для сцены, но и для всего проекта, если у вас есть несколько сцен с Пространственными привязками Azure. Для этого в окне Project (Проект) выберите Assets (Активы) > AzureSpatialAnchors.SDK > Resources (Ресурсы) > актив **SpatialAnchorConfig**, а затем задайте значения в окне Inspector (Инспектор).
 
 В окне Hierarchy (Иерархия) выберите объект **TableAnchor**. Затем в окне Inspector (Инспектор) найдите компонент **Anchor Module (Script)** (Модуль привязок — скрипт) и настройте его следующим образом:
 

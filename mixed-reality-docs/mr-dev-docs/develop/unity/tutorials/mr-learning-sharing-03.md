@@ -5,14 +5,14 @@ author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
-keywords: mixed reality, unity, tutorial, hololens
+keywords: смешанная реальность, Unity, учебник, HoloLens, многопользовательские возможности, Photon, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure
 ms.localizationpriority: high
-ms.openlocfilehash: 5ebb3ffd66422a5e38bc62ada0f040e00f52671d
-ms.sourcegitcommit: 63c228af55379810ab2ee4f09f20eded1bb76229
+ms.openlocfilehash: c16182fe2363b4682a25d70715f5ee8cb65d5886
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93353472"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94679763"
 ---
 # <a name="3-connecting-multiple-users"></a>3. Подключение нескольких пользователей
 
@@ -28,7 +28,7 @@ ms.locfileid: "93353472"
 
 В окне Project (Проект) перейдите к папке **Assets** > **MRTK.Tutorials.MultiUserCapabilities** > **Prefabs** (Активы > MRTK.Tutorials.MultiUserCapabilities > Заготовки), а затем щелкните и перетащите следующие заготовки в окно Hierarchy (Иерархия), чтобы добавить их в сцену:
 
-* заготовка **NetworkLobby** ;
+* заготовка **NetworkLobby**;
 * заготовка **SharedPlayground**.
 
 ![Unity с добавленными заготовками NetworkLobby и SharedPlayground](images/mr-learning-sharing/sharing-03-section1-step1-1.png)
@@ -51,17 +51,17 @@ ms.locfileid: "93353472"
 
 ![Unity с выбранным созданным объектом PhotonUser](images/mr-learning-sharing/sharing-03-section2-step1-1.png)
 
-В окне Hierarchy (Иерархия) выберите **PhotonUser** , перейдите в окно Inspector (Инспектор) и нажмите кнопку **Add component** (Добавить компонент), чтобы добавить в объект PhotonUser компонент **Photon User (Script)** (Пользователь Photon — скрипт).
+В окне Hierarchy (Иерархия) выберите **PhotonUser**, перейдите в окно Inspector (Инспектор) и нажмите кнопку **Add component** (Добавить компонент), чтобы добавить в объект PhotonUser компонент **Photon User (Script)** (Пользователь Photon — скрипт).
 
 ![Unity с добавленным компонентом PhotonUser](images/mr-learning-sharing/sharing-03-section2-step1-2.png)
 
-В окне "Инспектор" нажмите кнопку **Добавить компонент** , чтобы добавить в объект PhotonUser компонент **Generic Net Sync (Script)** (Generic Net Sync — скрипт) и настроить его, как описано ниже.
+В окне "Инспектор" нажмите кнопку **Добавить компонент**, чтобы добавить в объект PhotonUser компонент **Generic Net Sync (Script)** (Generic Net Sync — скрипт) и настроить его, как описано ниже.
 
 * Установите флажок **Is User** (Пользователь).
 
 ![Unity с добавленным и настроенным компонентом Generic Net Sync](images/mr-learning-sharing/sharing-03-section2-step1-3.png)
 
-В окне "Инспектор" нажмите кнопку **Добавить компонент** , чтобы добавить в объект PhotonUser компонент **Photon View (Script)** (Photon View — скрипт) и настроить его, как описано ниже.
+В окне "Инспектор" нажмите кнопку **Добавить компонент**, чтобы добавить в объект PhotonUser компонент **Photon View (Script)** (Photon View — скрипт) и настроить его, как описано ниже.
 
 * В поле **Observed Components** (Наблюдаемые компоненты) укажите компонент **Generic Net Sync (Script)** (Generic Net Sync — скрипт).
 
@@ -89,7 +89,7 @@ ms.locfileid: "93353472"
 
 ![Unity с выбранной созданной заготовкой PhotonUser](images/mr-learning-sharing/sharing-03-section2-step3-2.png)
 
-Щелкните правой кнопкой мыши объект **PhotonUser** в окне "Иерархия" и выберите **Удалить** , чтобы удалить его из сцены.
+Щелкните правой кнопкой мыши объект **PhotonUser** в окне "Иерархия" и выберите **Удалить**, чтобы удалить его из сцены.
 
 ![Unity с созданным объектом заготовки PhotonUser, удаленным из сцены](images/mr-learning-sharing/sharing-03-section2-step3-3.png)
 

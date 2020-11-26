@@ -5,14 +5,14 @@ author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
-keywords: mixed reality, unity, tutorial, hololens
+keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, TextMeshPro
 ms.localizationpriority: high
-ms.openlocfilehash: 2fb742f71baef50881a4a3279e7b0a1b969f0306
-ms.sourcegitcommit: 63c228af55379810ab2ee4f09f20eded1bb76229
+ms.openlocfilehash: 62f79e1a50f8a2f0d2c8829b968e2c3bf5ee7403
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93353442"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94679383"
 ---
 # <a name="2-initializing-your-project-and-deploying-your-first-application"></a>2. Инициализация проекта и развертывание первого приложения
 
@@ -28,7 +28,7 @@ ms.locfileid: "93353442"
 
 ## <a name="creating-the-unity-project"></a>Создание проекта Unity
 
-Запустите **Unity Hub** , откройте вкладку **Projects** (Проекты) и щелкните **стрелку вниз** рядом с кнопкой **New** (Создать):
+Запустите **Unity Hub**, откройте вкладку **Projects** (Проекты) и щелкните **стрелку вниз** рядом с кнопкой **New** (Создать):
 
 ![Unity Hub с выделенной кнопкой создания](images/mr-learning-base/base-02-section1-step1-1.png)
 
@@ -42,7 +42,7 @@ ms.locfileid: "93353442"
 В окне Create a new project (Создание нового проекта) сделайте следующее:
 
 * Убедитесь, что для параметра **Templates** (Шаблоны) задано значение **3D**.
-* Укажите понятное **имя проекта** , например _MRTK Tutorials_.
+* Укажите понятное **имя проекта**, например _MRTK Tutorials_.
 * Выберите подходящее **расположение** для хранения проекта, например _D:\MixedRealityLearning_.
 * Нажмите кнопку **Create** (Создать), чтобы создать и запустить новый проект Unity.
 
@@ -69,7 +69,7 @@ ms.locfileid: "93353442"
 
 ![Unity выполняет переключение платформы](images/mr-learning-base/base-02-section2-step1-3.png)
 
-Когда Unity переключит платформу, щелкните красный значок **x** , чтобы закрыть окно параметров сборки:
+Когда Unity переключит платформу, щелкните красный значок **x**, чтобы закрыть окно параметров сборки:
 
 ![Окно сборки Unity с выделенным значком закрытия](images/mr-learning-base/base-02-section2-step1-4.png)
 
@@ -112,7 +112,7 @@ ms.locfileid: "93353442"
 
 ![Выбор пункта Configure Unity Project (Настройка проекта Unity) в меню Unity](images/mr-learning-base/base-02-section5-step1-1.png)
 
-В окне конфигуратора проектов MRTK разверните раздел **Modify Configurations** (Изменение конфигураций), убедитесь, что все флажки включены, и нажмите кнопку **Apply** (Применить), чтобы применить эти параметры:
+В окне конфигуратора проектов MRTK разверните раздел **Modify Configurations** (Изменение конфигураций), убедитесь, что все флажки включены, и нажмите кнопку **Apply**(Применить), чтобы применить эти параметры:
 
 ![Окно конфигурации проекта MRTK в Unity](images/mr-learning-base/base-02-section5-step1-2.png)
 
@@ -152,7 +152,7 @@ ms.locfileid: "93353442"
 > [!TIP]
 > Снижать разрядность глубины до 16 бит необязательно, но это может улучшить производительность графики в проекте. Дополнительные сведения см. в разделе [Depth buffer sharing (HoloLens)](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Performance/PerfGettingStarted.html#depth-buffer-sharing-hololens) (Совместное использование буфера глубины в HoloLens) в документации по [производительности MRTK](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Performance/PerfGettingStarted.html).
 
-В окне Project Settings (Параметры проекта) выберите **Player** > **Publishing Settings** (Проигрыватель >Параметры публикации), затем в поле **Package name** (Имя пакета) введите подходящее имя, например _MRTKTutorials-GettingStarted_ :
+В окне Project Settings (Параметры проекта) выберите **Player** > **Publishing Settings** (Проигрыватель >Параметры публикации), затем в поле **Package name** (Имя пакета) введите подходящее имя, например _MRTKTutorials-GettingStarted_:
 
 ![Параметры публикации Unity с настроенным именем пакета](images/mr-learning-base/base-02-section5-step2-5.png)
 
@@ -183,7 +183,7 @@ ms.locfileid: "93353442"
 
 ![Выбор пользовательского сохранения в меню Unity](images/mr-learning-base/base-02-section6-step1-4.png)
 
-В окне сохранения сцены перейдите к папке **Scenes** проекта, присвойте сцене понятное имя, например _GettingStarted_ , и нажмите кнопку **Save** (Сохранить), чтобы сохранить сцену:
+В окне сохранения сцены перейдите к папке **Scenes** проекта, присвойте сцене понятное имя, например _GettingStarted_, и нажмите кнопку **Save** (Сохранить), чтобы сохранить сцену:
 
 ![Окно с запросом сохранения сцены в Unity](images/mr-learning-base/base-02-section6-step1-5.png)
 
@@ -197,7 +197,7 @@ ms.locfileid: "93353442"
 
 ![Окно параметров сборки Unity с выбранным вариантом UWP](images/mr-learning-base/base-02-section7-step1-1.png)
 
-В окне сборки универсальной платформы Windows выберите подходящее расположение для хранения сборки, например _D:\MixedRealityLearning\Builds_ , создайте папку и присвойте ей понятное имя, например _GettingStarted_ , а затем нажмите кнопку **Select Folder** (Выбрать папку), чтобы запустить процесс сборки:
+В окне сборки универсальной платформы Windows выберите подходящее расположение для хранения сборки, например _D:\MixedRealityLearning\Builds_, создайте папку и присвойте ей понятное имя, например _GettingStarted_, а затем нажмите кнопку **Select Folder** (Выбрать папку), чтобы запустить процесс сборки:
 
 ![Окно параметров сборки Unity с окном выбора папки](images/mr-learning-base/base-02-section7-step1-2.png)
 

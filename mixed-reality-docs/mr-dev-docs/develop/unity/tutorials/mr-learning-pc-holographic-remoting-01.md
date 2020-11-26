@@ -5,14 +5,14 @@ author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/29/2020
 ms.topic: article
-keywords: mixed reality, unity, tutorial, hololens
+keywords: смешанная реальность, Unity, учебник, Hololens, удаленное взаимодействие с компьютером, подсказки, отслеживание глаз
 ms.localizationpriority: high
-ms.openlocfilehash: d88d3e17e26ddd361f2cbe1a32f22025255303f0
-ms.sourcegitcommit: 8fd127aff85b77778bd7a75c5ec5215d27ecf21a
+ms.openlocfilehash: eae7b57544b8a544d3df926296ad5f2a720d5529
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93417000"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94679773"
 ---
 # <a name="1-getting-started-with-pc-holographic-remoting"></a>1. Начало работы с голографическим удаленным взаимодействием с ПК
 
@@ -94,7 +94,7 @@ ms.locfileid: "93417000"
 
 ![Unity с выбранными добавленными заготовками](images/mrlearning-pc-holographic-remoting/Tutorial1-Section3-Step1-2.png)
 
-Чтобы перенести фокус на объекты сцены, дважды щелкните объект **ModelParent** , а затем снова немного увеличьте масштаб представления:
+Чтобы перенести фокус на объекты сцены, дважды щелкните объект **ModelParent**, а затем снова немного увеличьте масштаб представления:
 
 ![Unity с объектом ModelParent в фокусе](images/mrlearning-pc-holographic-remoting/Tutorial1-Section3-Step1-3.png)
 
@@ -131,7 +131,7 @@ ms.locfileid: "93417000"
 
 Теперь кнопки настроены, чтобы продемонстрировать функции переключения и обрезки модели. Время добавить трехмерные модели и объекты обрезки в скрипт.
 
-Мы предоставили шесть различных трехмерных моделей для демонстрации, разверните * *_ModelParentobject_* _, чтобы отобразить эти трехмерные модели.
+Мы предоставили шесть различных трехмерных моделей для демонстрации, разверните **_ModelParentobject_* _, чтобы отобразить эти трехмерные модели.
 
 Сохраняя объект ButtonParent выделенным в окне Hierarchy (Иерархия), в окне Inspector (Инспектор) выберите компонент _ *View Button Control (Script)* * (Элемент управления кнопкой просмотра — скрипт) и разверните переменную **Models** (Модели).
 
@@ -155,9 +155,9 @@ ms.locfileid: "93417000"
 
 В этом разделе вы добавите отрисовщик дочерних объектов MarsCuriosityRover в отдельный объект обрезки, чтобы продемонстрировать обрезку модели MarsCuriosityRover.
 
-В окне Hierarchy (Иерархия) разверните объект **ClippingObjects** , чтобы предоставить три различных объекта обрезки, которые будут использоваться в этом проекте.
+В окне Hierarchy (Иерархия) разверните объект **ClippingObjects**, чтобы предоставить три различных объекта обрезки, которые будут использоваться в этом проекте.
 
-Чтобы настроить объект **ClippingSphere** , щелкните его, а затем в окне Inspector (Инспектор) выберите компонент **Clipping Sphere (Script)** (Обрезка сферы — скрипт). Введите количество отрисовщиков в поле размера, которое необходимо добавить для трехмерной модели. В этом случае для дочерних объектов MarsCuriosityRover добавьте 10 отрисовщиков. Будут созданы поля для добавления отрисовщиков. Перетащите объекты дочерней модели MarsCuriosityRover в эти поля.
+Чтобы настроить объект **ClippingSphere**, щелкните его, а затем в окне Inspector (Инспектор) выберите компонент **Clipping Sphere (Script)** (Обрезка сферы — скрипт). Введите количество отрисовщиков в поле размера, которое необходимо добавить для трехмерной модели. В этом случае для дочерних объектов MarsCuriosityRover добавьте 10 отрисовщиков. Будут созданы поля для добавления отрисовщиков. Перетащите объекты дочерней модели MarsCuriosityRover в эти поля.
 
 ![Unity с настроенными полями компонента скрипта ClippingSphere](images/mrlearning-pc-holographic-remoting/Tutorial1-Section5-Step1-1.png)
 
@@ -171,7 +171,7 @@ ms.locfileid: "93417000"
 
 ### <a name="1-identify-target-objects-and-associated-tooltips"></a>1. Определите целевые объекты и связанные с ними подсказки.
 
-В окне Hierarchy (Иерархия) выберите объект ModelParent. Разверните **_MarsCuriosity -> Rover_ *_, чтобы найти пять основных частей MarsCuriosityRover: _* POI-Camera** , **POI-Wheels** , **POI-Antena** , **POI-Spectrometer** , **POI-RUHF Antenna**.
+В окне Hierarchy (Иерархия) выберите объект ModelParent. Разверните **_MarsCuriosity -> Rover_ *_, чтобы найти пять основных частей MarsCuriosityRover: _* POI-Camera**, **POI-Wheels**, **POI-Antena**, **POI-Spectrometer**, **POI-RUHF Antenna**.
 
 * Обратите внимание на пять соответствующих объектов подсказок, связанных с деталями MarsCuriosityRover в окне Hierarchy (Иерархия).
 * Эти объекты будут настроены, чтобы выделять элементы при просмотре деталей MarsCuriosityRover.
@@ -180,14 +180,14 @@ ms.locfileid: "93417000"
 
 ### <a name="2-implement-while-looking-at-target-----on-look-away--events"></a>2. Реализация событий While Looking At Target () и On Look Away ()
 
-В окне Hierarchy (Иерархия) выберите объект * **POI-Camera** _. В окне Inspector (Инспектор) найдите компонент _ *Eye Tracking Target (Script)* * (Целевой объект отслеживания взгляда — скрипт) и настройте события **While Looking At Target ()**  & **On Look Away ()** следующим образом:
+В окне Hierarchy (Иерархия) выберите объект ***POI-Camera** _. В окне Inspector (Инспектор) найдите компонент _ *Eye Tracking Target (Script)* * (Целевой объект отслеживания взгляда — скрипт) и настройте события **While Looking At Target ()**  & **On Look Away ()** следующим образом:
 
 * В поле **None (Object)** (Отсутствует (объект)) укажите объект **POI-Camera ToolTip**.
-* В раскрывающемся списке **No Function** (Без функции) события **While Looking At Target ()** выберите **GameObject** > **SetActive (bool).** Установите **флажок** , чтобы выделить всплывающую подсказку в качестве действия, запускаемого при просмотре целевого объекта.
+* В раскрывающемся списке **No Function** (Без функции) события **While Looking At Target ()** выберите **GameObject** > **SetActive (bool).** Установите **флажок**, чтобы выделить всплывающую подсказку в качестве действия, запускаемого при просмотре целевого объекта.
 
 ![Unity выполняет настройку события EyeTrackingTarget WhileLookingAtTarget](images/mrlearning-pc-holographic-remoting/Tutorial1-Section6-Step2-1.png)
 
-* Выполните тот же процесс и выберите раскрывающийся список **No Function** (Без функции) прослушивателя событий **On Look Away ()** . Затем выберите **GameObject** > **SetActive (bool** ) и снимите **флажок** , чтобы скрыть всплывающую подсказку как действие, запускаемое при отведении взгляда от целевого объекта.
+* Выполните тот же процесс и выберите раскрывающийся список **No Function** (Без функции) прослушивателя событий **On Look Away ()** . Затем выберите **GameObject** > **SetActive (bool**) и снимите **флажок**, чтобы скрыть всплывающую подсказку как действие, запускаемое при отведении взгляда от целевого объекта.
 
 ![Unity с настроенным событием EyeTrackingTarget OnLookAway](images/mrlearning-pc-holographic-remoting/Tutorial1-Section6-Step2-2.png)
 

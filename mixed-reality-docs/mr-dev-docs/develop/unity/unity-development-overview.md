@@ -6,13 +6,13 @@ ms.author: kurtie
 ms.date: 08/04/2020
 ms.topic: article
 ms.localizationpriority: high
-keywords: Unity, смешанная реальность, разработка, приступая к работе, новый проект, перенос, возможность, камера, имитация, эмуляция, документация
-ms.openlocfilehash: 006814c17d7e2e7c343f28b83de845674c079a95
-ms.sourcegitcommit: 4bb5544a0c74ac4e9766bab3401c9b30ee170a71
+keywords: Unity, смешанная реальность, разработка, начало работы, новый проект, перенос, возможность, камера, имитация, эмуляция, документация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, что такое виртуальная реальность, что такое дополненная реальность, MRTK, Mixed Reality Toolkit, пространственное сопоставление, речевой ввод, камера с определяемым местоположением, эмулятор, Azure, учебники
+ms.openlocfilehash: 9a9a5bc47327b3bd23ac6212b8b9f12787b74e4c
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92638571"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94679903"
 ---
 # <a name="unity-development-overview"></a>Обзор разработки в Unity
 

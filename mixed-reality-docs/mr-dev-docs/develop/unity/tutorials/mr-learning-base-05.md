@@ -5,14 +5,14 @@ author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
-keywords: mixed reality, unity, tutorial, hololens
+keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, решатели
 ms.localizationpriority: high
-ms.openlocfilehash: 64b5c3c719ce72260a10226d22c178d4016e403b
-ms.sourcegitcommit: 63c228af55379810ab2ee4f09f20eded1bb76229
+ms.openlocfilehash: fb86cdfe82e8d89c65e8513b52e2de49f52a2f04
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93353532"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94679303"
 ---
 # <a name="5-creating-dynamic-content-using-solvers"></a>5. Создание динамического содержимого с помощью решателей
 
@@ -28,7 +28,7 @@ ms.locfileid: "93353532"
 
 ## <a name="location-of-solvers-in-the-mrtk"></a>Расположение решателей в MRTK
 
- Решатели MRTK размещаются в папке пакета SDK MRTK. Чтобы просмотреть доступные в проекте решатели, в окне проекта перейдите к папке **Assets** > **MRTK** > **SDK** > **Features** > **Utilities** > **Solvers** :
+ Решатели MRTK размещаются в папке пакета SDK MRTK. Чтобы просмотреть доступные в проекте решатели, в окне проекта перейдите к папке **Assets** > **MRTK** > **SDK** > **Features** > **Utilities** > **Solvers**:
 
 ![Окно проекта Unity с выбранной папкой решателей](images/mr-learning-base/base-05-section1-step1-1.png)
 
@@ -39,7 +39,7 @@ ms.locfileid: "93353532"
 
 ## <a name="using-the-directional-indicator-solver-to-direct-the-user-to-objects"></a>Использование решателя указателей направлений для направления пользователя к объектам
 
-В окне проекта перейдите к папке **Assets** > **MRTK.Tutorials.GettingStarted** > **Prefabs** , щелкните и перетащите заготовку **Chevron** в окно иерархии и задайте для него преобразование **положения** , X = 0, Y = 0, Z = 2, чтобы разместить его рядом с объектом RoverExplorer:
+В окне проекта перейдите к папке **Assets** > **MRTK.Tutorials.GettingStarted** > **Prefabs**, щелкните и перетащите заготовку **Chevron** в окно иерархии и задайте для него преобразование **положения**, X = 0, Y = 0, Z = 2, чтобы разместить его рядом с объектом RoverExplorer:
 
 ![Unity с выбранной созданной заготовкой Chevron](images/mr-learning-base/base-05-section2-step1-1.png)
 
@@ -59,7 +59,7 @@ ms.locfileid: "93353532"
 Настройте компоненты DirectionalIndicator и SolverHandler следующим образом:
 
 * Убедитесь, что для параметра **Tracked Target Type** (Тип отслеживаемой цели) компонента **SolverHandler** указано значение **Head** (Головной).
-* Назначьте параметру **DirectionalIndicator** компонента **Directional Target** (Целевое направление) значение **RoverExplorer** , перетащив его из окна иерархии в поле **None (Transform)** (Нет (преобразование)).
+* Назначьте параметру **DirectionalIndicator** компонента **Directional Target** (Целевое направление) значение **RoverExplorer**, перетащив его из окна иерархии в поле **None (Transform)** (Нет (преобразование)).
 * Измените значение параметра **View Offset** (Смещение вида) на 0,2.
 
 ![Unity с настроенным компонентом решателя DirectionalIndicator](images/mr-learning-base/base-05-section2-step1-3.png)
@@ -81,7 +81,7 @@ ms.locfileid: "93353532"
 
 ## <a name="using-the-tap-to-place-solver-to-reposition-objects"></a>Использование решателя размещения касанием, чтобы изменить расположение объектов
 
-В окне Hierarchy (Иерархия) выберите объект RoverExplorer > **RoverAssembly** , затем в окне Inspector (Инспектор) нажмите кнопку **Add Component** (Добавить компонент), чтобы добавить компонент **Tap To Place (Script)** (Размещение касанием — скрипт), и настройте его следующим образом:
+В окне Hierarchy (Иерархия) выберите объект RoverExplorer > **RoverAssembly**, затем в окне Inspector (Инспектор) нажмите кнопку **Add Component** (Добавить компонент), чтобы добавить компонент **Tap To Place (Script)** (Размещение касанием — скрипт), и настройте его следующим образом:
 
 * Убедитесь, что для параметра **Tracked Target Type** (Тип отслеживаемой цели) компонента **SolverHandler** указано значение **Head** (Головной).
 * Установите флажок **Keep Orientation Vertical** (Оставить вертикальную ориентацию).
@@ -104,8 +104,8 @@ ms.locfileid: "93353532"
 Настройте событие следующим образом:
 
 * Назначьте объект **RoverAssembly** в качестве прослушивателя для события On Placing Started (), перетащив его из окна Hierarchy (Иерархия) в поле **None (Object)** (Отсутствует (объект)).
-* В раскрывающемся списке **No Function** (Нет функции) выберите **TapToPlace** > **float SurfaceNormalOffset** , чтобы обновить значение свойства SurfaceNormalOffset при срабатывании события.
-* Убедитесь, что для аргумента задано значение  **0**.
+* В раскрывающемся списке **No Function** (Нет функции) выберите **TapToPlace** > **float SurfaceNormalOffset**, чтобы обновить значение свойства SurfaceNormalOffset при срабатывании события.
+* Убедитесь, что для аргумента задано значение **0**.
 
 ![Unity с настроенным событием OnPlacingStarted для скрипта TapToPlace](images/mr-learning-base/base-05-section3-step1-3.png)
 

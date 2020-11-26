@@ -5,14 +5,14 @@ author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
-keywords: mixed reality, unity, tutorial, hololens
+keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, речевые команды, голосовой ввод
 ms.localizationpriority: high
-ms.openlocfilehash: c5d7297b8c8153270cd6ccf40eff64eab4afb49e
-ms.sourcegitcommit: 63c228af55379810ab2ee4f09f20eded1bb76229
+ms.openlocfilehash: e51f9e816acbc2f98415deaec2c0885c97e40442
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93353512"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94679253"
 ---
 # <a name="9-using-speech-commands"></a>9. Использование речевых команд
 
@@ -36,7 +36,7 @@ ms.locfileid: "93353512"
 
 ## <a name="creating-speech-commands"></a>Создание речевых команд
 
-В окне Hierarchy (Иерархия) выберите объект **MixedRealityToolkit** , затем в окне Inspector (Инспектор) перейдите на вкладку MixedRealityToolkit > **Input** (Ввод) и выполните следующие действия:
+В окне Hierarchy (Иерархия) выберите объект **MixedRealityToolkit**, затем в окне Inspector (Инспектор) перейдите на вкладку MixedRealityToolkit > **Input** (Ввод) и выполните следующие действия:
 
 * Разверните раздел **Speech** (Речь).
 * Клонируйте **DefaultMixedRealitySpeechCommandsProfile** и присвойте ему подходящее имя, например _GettingStarted_MixedRealitySpeechCommandsProfile_.
@@ -61,13 +61,13 @@ ms.locfileid: "93353512"
 
 ## <a name="controlling-speech-commands"></a>Управление речевыми командами
 
-В окне Project (Проект) перейдите в папку **Assets** > **MRTK** > **SDK** > **Features** > **UX** > **Prefabs** > **ToolTip** , чтобы найти заготовки подсказок:
+В окне Project (Проект) перейдите в папку **Assets** > **MRTK** > **SDK** > **Features** > **UX** > **Prefabs** > **ToolTip**, чтобы найти заготовки подсказок:
 
 ![Открытие папки с подсказками](images/mr-learning-base/base-09-section3-step1-1.png)
 
 Щелкните правой кнопкой мыши пустое место в окне Hierarchy (Иерархия) и выберите **Create Empty** (Создать пустой), чтобы добавить к сцене пустой объект.
 
-Присвойте объекту имя **SpeechInputHandler_Global** , затем в окне Inspector (Инспектор) нажмите кнопку **Add Component** (Добавить компонент), чтобы добавить компонент **SpeechInputHandler** , и настройте его следующим образом:
+Присвойте объекту имя **SpeechInputHandler_Global**, затем в окне Inspector (Инспектор) нажмите кнопку **Add Component** (Добавить компонент), чтобы добавить компонент **SpeechInputHandler**, и настройте его следующим образом:
 
 * **Снимите флажок** в окне **Is Focus Required** (Требуется фокус), чтобы пользователь не видел объект с компонентом SpeechInputHandler для активации речевой команды.
 * В окне Project (Проект) добавьте заготовку **SpeechConfirmation Tooltip** в поле **Speech Confirmation Tooltip Prefab** (Заготовка подсказки подтверждения голосом), чтобы эта заготовка отображалась при распознавании речевой команды.
@@ -116,9 +116,9 @@ ms.locfileid: "93353512"
 
 ![Настройка элемента ключевого слова 2](images/mr-learning-base/base-09-section3-step1-6.png)
 
-В окне Hierarchy (Иерархия) выберите объект RoverExplorer > **RoverAssembly** , затем в окне Inspector (Инспектор) нажмите кнопку **Add Component** (Добавить компонент), чтобы добавить компонент **SpeechInputHandler** , и настройте его следующим образом:
+В окне Hierarchy (Иерархия) выберите объект RoverExplorer > **RoverAssembly**, затем в окне Inspector (Инспектор) нажмите кнопку **Add Component** (Добавить компонент), чтобы добавить компонент **SpeechInputHandler**, и настройте его следующим образом:
 
-* Убедитесь, что флажок **Is Focus Required** (Требуется фокус) **установлен** , чтобы пользователь видел объект с компонентом SpeechInputHandler, например RoverAssembly, для активации речевой команды.
+* Убедитесь, что флажок **Is Focus Required** (Требуется фокус) **установлен**, чтобы пользователь видел объект с компонентом SpeechInputHandler, например RoverAssembly, для активации речевой команды.
 * В окне Project (Проект) добавьте заготовку **SpeechConfirmation Tooltip** в поле **Speech Confirmation Tooltip Prefab** (Заготовка подсказки подтверждения голосом), чтобы эта заготовка отображалась при распознавании речевой команды.
 
 ![Добавление обработчика речевого ввода в Rover Assembly](images/mr-learning-base/base-09-section3-step1-7.png)

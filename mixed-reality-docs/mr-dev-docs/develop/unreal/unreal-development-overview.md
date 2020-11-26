@@ -6,13 +6,13 @@ ms.author: v-hferrone
 ms.date: 08/04/2020
 ms.topic: article
 ms.localizationpriority: high
-keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, потоковая передача, удаленное взаимодействие, смешанная реальность, разработка, начало работы, функции, новый проект, эмулятор, документация, руководства, функции, голограммы, разработка игр
-ms.openlocfilehash: a8e345831167362745a45a8fa81ddae858083ca7
-ms.sourcegitcommit: 9a489e8a3bf90b20f1b61606eea42c859c833424
+keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, потоковая передача, удаленное взаимодействие, смешанная реальность, разработка, начало работы, функции, новый проект, эмулятор, документация, руководства, функции, голограммы, разработка игр, гарнитура смешанной реальности, гарнитура виртуальной реальности
+ms.openlocfilehash: b810ad7500f8bb2a70ef18ad29fb32df8801a2de
+ms.sourcegitcommit: 2759aba06e643d70004023b105ed26b33ce3dbfa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "94340692"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94810450"
 ---
 # <a name="unreal-development-overview"></a>Обзор разработки в Unreal
 
@@ -29,7 +29,7 @@ ms.locfileid: "94340692"
 Если же вы новичок в разработке с использованием Unreal, советуем сначала изучить наши материалы: ознакомьтесь с <a href="https://docs.unrealengine.com/GettingStarted/index.html" target="_blank">серией руководств</a> по Unreal, чтобы войти в курс дела, и воспользуйтесь материалами и поддержкой, которые вы найдете на площадке <a href="https://www.unrealengine.com/marketplace/store" target="_blank">Unreal Marketplace</a> и на <a href="https://forums.unrealengine.com/development-discussion/vr-ar-development" target="_blank">форумах</a> по смешанной реальности. Эти ресурсы послужат вам путевкой в сообщество разработчиков и специалистов по решению задач на сегодняшнем рынке смешанной реальности.
 
 > [!IMPORTANT]
-> Ознакомьтесь с нашими **[руководствами по переносу](../porting-apps/porting-overview.md)** , если у вас есть существующий проект Unreal, который вы хотите перенести на HoloLens 2 или иммерсивные гарнитуры виртуальной реальности, например Reverb G2.
+> Ознакомьтесь с нашим **[руководством по переносу](unreal-reverb-g2-controllers.md)** , если у вас есть существующий проект Unreal, который вы хотите перенести на иммерсивные гарнитуры, например Reverb G2.
 
 ## <a name="development-checkpoints"></a>Этапы разработки
 

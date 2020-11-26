@@ -6,13 +6,13 @@ ms.author: grbury
 ms.date: 08/24/2019
 ms.topic: article
 ms.localizationpriority: high
-keywords: Смешанная реальность, обнаружение, распространение, указательный, целевая страница, проектирование, разработка, руководства, примеры приложений, основы, примеры, ресурсы, практические руководства по HoloLens, проекты с открытым кодом, основные понятия, взаимодействие
-ms.openlocfilehash: 19a83a132cca08573f1066a2f7b87bd383ca79f4
-ms.sourcegitcommit: 8a80613f025b05a83393845d4af4da26a7d3ea9c
+keywords: смешанная реальность, обнаружение, распространение, указатель, целевая страница, проектирование, разработка, учебники, примеры приложений, основы, примеры использования, ресурсы, практические руководства по HoloLens, проекты с открытым кодом, основные понятия, взаимодействие, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, MRTK, Mixed Reality Toolkit
+ms.openlocfilehash: 3c28991fa35052a8b5cf5a071899ec14f2fec226
+ms.sourcegitcommit: 4f3ef057a285be2e260615e5d6c41f00d15d08f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "94573278"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94702720"
 ---
 # <a name="start-designing-and-prototyping"></a>Начните проектировать и создавать прототипы
 

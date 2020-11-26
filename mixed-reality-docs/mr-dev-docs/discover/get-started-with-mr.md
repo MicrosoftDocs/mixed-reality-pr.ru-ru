@@ -6,13 +6,13 @@ ms.author: grbury
 ms.date: 07/29/2020
 ms.topic: overview
 ms.localizationpriority: high
-keywords: Mixed Reality, discover, distribute, index, landing page, design, development, tutorials, sample apps, fundamentals, case studies, resources, HoloLens how-to, Open source projects
-ms.openlocfilehash: 7c8fc83fd2b5542909fd2ea6ab4dca288175c56c
-ms.sourcegitcommit: cc27d31f0cebaf9fc4221a3300a9e3d73230b367
+keywords: смешанная реальность, обнаружение, распространение, указатель, целевая страница, проектирование, разработка, учебники, примеры приложений, основы, примеры использования, ресурсы, практические руководства по HoloLens, проекты с открытым кодом, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
+ms.openlocfilehash: c085a60f78ef68e2139b8cc3dd2fdae24bce2a52
+ms.sourcegitcommit: 4f3ef057a285be2e260615e5d6c41f00d15d08f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "94631522"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94702276"
 ---
 # <a name="get-started-with-mixed-reality"></a>Приступая к работе со смешанной реальностью
 

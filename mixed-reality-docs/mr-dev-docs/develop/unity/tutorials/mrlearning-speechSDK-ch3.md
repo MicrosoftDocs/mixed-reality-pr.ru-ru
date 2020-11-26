@@ -5,14 +5,14 @@ author: jessemcculloch
 ms.author: jemccull
 ms.date: 02/26/2019
 ms.topic: article
-keywords: mixed reality, unity, tutorial, hololens
+keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure, распознавание речи, Windows 10, перевод речи
 ms.localizationpriority: high
-ms.openlocfilehash: 6a7aead068b5ab8ba25bcf84bbeae0a19723845b
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: 1139da69b27352b996d57184e21e9d6291d26fce
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91702191"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94679923"
 ---
 # <a name="3-adding-the-azure-cognitive-services-speech-translation-component"></a>3. Добавление компонента перевода речи Azure Cognitive Services
 
@@ -24,7 +24,7 @@ ms.locfileid: "91702191"
 
 ## <a name="instructions"></a>Инструкции
 
-В окне Hierarchy (Иерархия) выберите объект **Lunarcom** , а затем в окне Inspector (Инспектор) с помощью кнопки **Add Component** (Добавить компонент) добавьте компонент **Lunarcom Translation Recognizer (Script)** (Распознаватель перевода Lunarcom — скрипт) к объекту Lunarcom и настройте его, как показано ниже.
+В окне Hierarchy (Иерархия) выберите объект **Lunarcom**, а затем в окне Inspector (Инспектор) с помощью кнопки **Add Component** (Добавить компонент) добавьте компонент **Lunarcom Translation Recognizer (Script)** (Распознаватель перевода Lunarcom — скрипт) к объекту Lunarcom и настройте его, как показано ниже.
 
 * Укажите любое удобное значение **Target Language** (Целевой язык), например _German_ (Немецкий).
 

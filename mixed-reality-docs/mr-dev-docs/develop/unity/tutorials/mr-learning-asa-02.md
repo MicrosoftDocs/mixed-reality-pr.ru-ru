@@ -5,14 +5,14 @@ author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
-keywords: mixed reality, unity, tutorial, hololens
+keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure
 ms.localizationpriority: high
-ms.openlocfilehash: c73ddec2fc1be20a4a2c582948cd240be7fe23db
-ms.sourcegitcommit: 63c228af55379810ab2ee4f09f20eded1bb76229
+ms.openlocfilehash: ae2726be302bf8ebf342ebd95233b28d7e534423
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93353452"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94679943"
 ---
 # <a name="2-getting-started-with-azure-spatial-anchors"></a>2. Начало работы с Пространственными привязками Azure
 
@@ -54,7 +54,7 @@ ms.locfileid: "93353452"
 
 ## <a name="importing-the-tutorial-assets"></a>Импорт активов для руководства
 
-Скачайте и **импортируйте** следующие пользовательские пакеты Unity **в указанном здесь порядке** :
+Скачайте и **импортируйте** следующие пользовательские пакеты Unity **в указанном здесь порядке**:
 
 * [AzureSpatialAnchors.unitypackage](https://github.com/Azure/azure-spatial-anchors-samples/releases/download/v2.2.1/AzureSpatialAnchors.unitypackage) (версия 2.2.1);
 * [MRTK.HoloLens2.Unity.Tutorials.Assets.GettingStarted.2.4.0.unitypackage](https://github.com/microsoft/MixedRealityLearning/releases/download/getting-started-v2.4.0/MRTK.HoloLens2.Unity.Tutorials.Assets.GettingStarted.2.4.0.unitypackage);
@@ -108,7 +108,7 @@ ms.locfileid: "93353452"
 
 * В поле **None (Object)** (Отсутствует (объект)) укажите объект **ParentAnchor**.
 * В раскрывающемся списке **No Function** (Функция отсутствует) выберите **AnchorModuleScript** > **CreateAzureAnchor ()** , чтобы задать эту функцию как действие, выполняемое при активации события.
-* В поле **None (Game Object)** (Отсутствует (игровой объект)) укажите объект **ParentAnchor** , чтобы сделать его аргументом функции CreateAzureAnchor ().
+* В поле **None (Game Object)** (Отсутствует (игровой объект)) укажите объект **ParentAnchor**, чтобы сделать его аргументом функции CreateAzureAnchor ().
 
 ![Unity с настроенным событием OnClick для кнопки CreateAzureAnchor](images/mr-learning-asa/asa-02-section5-step1-3.png)
 
@@ -116,7 +116,7 @@ ms.locfileid: "93353452"
 
 * В поле **None (Object)** (Отсутствует (объект)) укажите объект **ParentAnchor**.
 * В раскрывающемся списке **No Function** (Функция отсутствует) выберите **AnchorModuleScript** > **RemoveLocalAnchor ()** , чтобы задать эту функцию как действие, выполняемое при активации события.
-* В поле **None (Game Object)** (Отсутствует (игровой объект)) укажите объект **ParentAnchor** , чтобы сделать его аргументом функции RemoveLocalAnchor ().
+* В поле **None (Game Object)** (Отсутствует (игровой объект)) укажите объект **ParentAnchor**, чтобы сделать его аргументом функции RemoveLocalAnchor ().
 
 ![Unity с настроенным событием OnClick для кнопки RemoveLocalAnchor](images/mr-learning-asa/asa-02-section5-step1-4.png)
 
@@ -183,7 +183,7 @@ ms.locfileid: "93353452"
 
 ![Unity с выбранной добавленной заготовкой RoverExplorer_Complete](images/mr-learning-asa/asa-02-section8-step1-2.png)
 
-Выбрав добавленный объект RoverModule_Complete в окне иерархии, перетащите его в объект **ParentAnchor** , чтобы сделать его дочерним объектом объекта ParentAnchor.
+Выбрав добавленный объект RoverModule_Complete в окне иерархии, перетащите его в объект **ParentAnchor**, чтобы сделать его дочерним объектом объекта ParentAnchor.
 
 ![Unity с объектом RoverExplorer_Complete, настроенным как дочерний объект ParentAnchor](images/mr-learning-asa/asa-02-section8-step1-3.png)
 

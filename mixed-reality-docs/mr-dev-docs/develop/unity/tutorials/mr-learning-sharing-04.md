@@ -5,14 +5,14 @@ author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
-keywords: mixed reality, unity, tutorial, hololens
+keywords: смешанная реальность, Unity, учебник, HoloLens, многопользовательские возможности, Photon, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure
 ms.localizationpriority: high
-ms.openlocfilehash: 4a8d98bbabd3061e8fb9f4262e202dac680d584b
-ms.sourcegitcommit: 63c228af55379810ab2ee4f09f20eded1bb76229
+ms.openlocfilehash: 717bd1a259c8e21058023a7c45c3ee34783fec4a
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93353422"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94679233"
 ---
 # <a name="4-sharing-object-movements-with-multiple-users"></a>4. Предоставление общего доступа к сведениям о перемещении объекта нескольким пользователям
 
@@ -43,7 +43,7 @@ ms.locfileid: "93353422"
 
 ![Unity с частично настроенным компонентом Photon Room](images/mr-learning-sharing/sharing-04-section2-step1-1.png)
 
-Сохраняя выделение объекта **NetworkRoom** , в окне "Иерархия" разверните объект **TableAnchor**. Затем в окне "Инспектор" найдите компонент **Photon Room (Script)** (Photon Room — скрипт) и настройте его, как описано ниже.
+Сохраняя выделение объекта **NetworkRoom**, в окне "Иерархия" разверните объект **TableAnchor**. Затем в окне "Инспектор" найдите компонент **Photon Room (Script)** (Photon Room — скрипт) и настройте его, как описано ниже.
 
 * В поле **Rover Explorer Location** (Расположение Rover Explorer) укажите дочерний объект TableAnchor > **Table** из окна Hierarchy (Иерархия).
 

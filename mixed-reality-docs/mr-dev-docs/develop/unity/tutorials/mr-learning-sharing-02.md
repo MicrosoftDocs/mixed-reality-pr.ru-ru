@@ -5,14 +5,14 @@ author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
-keywords: mixed reality, unity, tutorial, hololens
+keywords: смешанная реальность, Unity, учебник, HoloLens, многопользовательские возможности, Photon, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure, PUN
 ms.localizationpriority: high
-ms.openlocfilehash: aeda463610f1fb1205eade556a2c2b9bc07a4fde
-ms.sourcegitcommit: 63c228af55379810ab2ee4f09f20eded1bb76229
+ms.openlocfilehash: 062c39ab6973c7c71e305cfc7a695fb250c76596
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93353482"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94679263"
 ---
 # <a name="2-setting-up-photon-unity-networking"></a>2. Настройка Photon Unity Networking
 
@@ -50,11 +50,11 @@ ms.locfileid: "93353482"
 
 ![Параметры проигрывателя Unity](images/mr-learning-sharing/sharing-02-section2-step1-1.png)
 
-В окне **Publishing Settings** (Параметры публикации) прокрутите содержимое вниз до раздела **Capabilities** (Возможности) и убедитесь, что здесь включены возможности **InternetClient** , **Microphone** , **SpatialPerception** и **GazeInput** , которые вы включили при выполнении шага [Настройка проекта Unity](mr-learning-base-02.md#configuring-the-unity-project) ранее.
+В окне **Publishing Settings** (Параметры публикации) прокрутите содержимое вниз до раздела **Capabilities** (Возможности) и убедитесь, что здесь включены возможности **InternetClient**, **Microphone**, **SpatialPerception** и **GazeInput**, которые вы включили при выполнении шага [Настройка проекта Unity](mr-learning-base-02.md#configuring-the-unity-project) ранее.
 
 Затем включите следующие дополнительные возможности:
 
-* возможность **InternetClientServer** ;
+* возможность **InternetClientServer**;
 * возможность **PrivateNetworkClientServer**.
 
 ![Настройки возможностей Unity](images/mr-learning-sharing/sharing-02-section2-step1-2.png)
@@ -70,7 +70,7 @@ ms.locfileid: "93353482"
 
 ## <a name="importing-the-tutorial-assets"></a>Импорт активов для руководства
 
-Скачайте и **импортируйте** следующие пользовательские пакеты Unity **в указанном здесь порядке** :
+Скачайте и **импортируйте** следующие пользовательские пакеты Unity **в указанном здесь порядке**:
 
 * [AzureSpatialAnchors.unitypackage](https://github.com/Azure/azure-spatial-anchors-samples/releases/download/v2.2.1/AzureSpatialAnchors.unitypackage) (версия 2.2.1);
 * [MRTK.HoloLens2.Unity.Tutorials.Assets.GettingStarted.2.4.0.unitypackage](https://github.com/microsoft/MixedRealityLearning/releases/download/getting-started-v2.4.0/MRTK.HoloLens2.Unity.Tutorials.Assets.GettingStarted.2.4.0.unitypackage);
@@ -91,7 +91,7 @@ ms.locfileid: "93353482"
 
 В меню Unity последовательно выберите **Window** > **Asset Store** (Окно > Asset Store), чтобы открыть окно Asset Store. Найдите и выберите актив **PUN 2 — FREE** от Exit Games, а затем нажмите кнопку **Download** (Скачать), чтобы скачать пакет активов в учетную запись Unity.
 
-После скачивания нажмите кнопку **Импорт** , чтобы открыть окно Import Unity Package (Импорт пакета Unity).
+После скачивания нажмите кнопку **Импорт**, чтобы открыть окно Import Unity Package (Импорт пакета Unity).
 
 ![Хранилище Unity Asset Store с PUN 2 (бесплатно)](images/mr-learning-sharing/sharing-02-section5-step1-1.png)
 
@@ -134,19 +134,19 @@ ms.locfileid: "93353482"
 
 В этом разделе показано, как подключить проект Unity к приложению PUN, которое вы создали при работе с предыдущим разделом.
 
-На панели мониторинга Photon щелкните поле **ИД приложения** , чтобы отобразить идентификатор приложения, а затем скопируйте его в буфер обмена.
+На панели мониторинга Photon щелкните поле **ИД приложения**, чтобы отобразить идентификатор приложения, а затем скопируйте его в буфер обмена.
 
 ![Страница приложения Photon с выбранным идентификатором приложения](images/mr-learning-sharing/sharing-02-section7-step1-1.png)
 
-В меню Unity последовательно выберите **Window** > **Photon Unity Networking** > **PUN Wizard** (Окно > Photon Unity Networking > Мастер PUN), чтобы открыть окно мастера PUN. Затем нажмите кнопку **Проект установки** , чтобы открыть меню PUN Setup (Настройка PUN), и настройте его, как описано ниже.
+В меню Unity последовательно выберите **Window** > **Photon Unity Networking** > **PUN Wizard** (Окно > Photon Unity Networking > Мастер PUN), чтобы открыть окно мастера PUN. Затем нажмите кнопку **Проект установки**, чтобы открыть меню PUN Setup (Настройка PUN), и настройте его, как описано ниже.
 
 * В поле **AppId or Email** (Идентификатор приложения или адрес электронной почты) вставьте идентификатор приложения PUN, скопированный на предыдущем шаге.
 
-Затем нажмите кнопку **Проект установки** , чтобы применить идентификатор приложения.
+Затем нажмите кнопку **Проект установки**, чтобы применить идентификатор приложения.
 
 ![Окно настройки PUN в Unity с заполненным идентификатором приложения](images/mr-learning-sharing/sharing-02-section7-step1-2.png)
 
-Когда в Unity завершится процесс настройки PUN, в меню PUN Setup (Настройка PUN) появится сообщение **Готово!** В окне Project (Проект) будет автоматически выбран актив **PhotonServerSettings** , чтобы в окне Inspector (Инспектор) отображались его свойства.
+Когда в Unity завершится процесс настройки PUN, в меню PUN Setup (Настройка PUN) появится сообщение **Готово!** В окне Project (Проект) будет автоматически выбран актив **PhotonServerSettings**, чтобы в окне Inspector (Инспектор) отображались его свойства.
 
 ![Окно настройки PUN в Unity с примененным проектом установки](images/mr-learning-sharing/sharing-02-section7-step1-3.png)
 

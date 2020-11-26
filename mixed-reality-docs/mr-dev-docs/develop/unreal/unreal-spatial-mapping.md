@@ -6,13 +6,13 @@ ms.author: v-hferrone
 ms.date: 06/10/2020
 ms.topic: article
 ms.localizationpriority: high
-keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, разработка, функции, документация, руководства, голограммы, пространственное сопоставление
-ms.openlocfilehash: 8e49878cf37945c8e317b1098f48014b57d18551
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, разработка, функции, документация, руководства, голограммы, пространственное сопоставление, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
+ms.openlocfilehash: cd7e99230809c9d98f732e0dfa1f0b86d05c4365
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91700976"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94678813"
 ---
 # <a name="spatial-mapping-in-unreal"></a>Пространственное сопоставление в Unreal
 
@@ -30,7 +30,7 @@ ms.locfileid: "91700976"
 Чтобы включить пространственное сопоставление (по умолчанию оно выключено) и отладить сетку **MRMesh** в игре для HoloLens:
 1. Откройте компонент **ARSessionConfig** и разверните раздел **ARSettings > World Mapping** (Параметры дополненной реальности > Сопоставление мира). 
 
-2. Установите флажок **Generate Mesh Data from Tracked Geometry** (Генерировать данные сетки по отслеживаемой геометрии), который предписывает подключаемому модулю HoloLens начать асинхронную регистрацию данных пространственного сопоставления с выводом в Unreal посредством сетки **MRMesh** . 
+2. Установите флажок **Generate Mesh Data from Tracked Geometry** (Генерировать данные сетки по отслеживаемой геометрии), который предписывает подключаемому модулю HoloLens начать асинхронную регистрацию данных пространственного сопоставления с выводом в Unreal посредством сетки **MRMesh**. 
 3. Установите флажок **Render Mesh Data in Wireframe** (Отрисовывать данные сетки в виде каркасной модели), чтобы контур каждого треугольника сетки **MRMesh** показывался белым цветом. 
 
 ![Хранилище пространственных привязок готово](images/unreal-spatialmapping-arsettings.PNG)
@@ -49,7 +49,7 @@ ms.locfileid: "91700976"
 
 ## <a name="working-with-mrmesh"></a>Работа с сеткой MRMesh
 Чтобы получить доступ к сетке **MRMesh** во время выполнения:
-1. Добавьте к субъекту Blueprint компонент **ARTrackableNotify** . 
+1. Добавьте к субъекту Blueprint компонент **ARTrackableNotify**. 
 
 ![AR Trackable Notify для пространственных привязок](images/unreal-spatialmapping-artrackablenotify.PNG)
 
@@ -67,12 +67,12 @@ ms.locfileid: "91700976"
 В коде на C++ можно подписаться на делегат `OnTrackableAdded`, позволяющий получить объект `ARTrackedGeometry`, как только он станет доступным. Пример соответствующего кода показан ниже. 
 
 > [!IMPORTANT]
-> Файл build.cs проекта **ДОЛЖЕН** содержать модуль **AugmentedReality** в списке **PublicDependencyModuleNames** .
-> - Через него включаются заголовочные файлы **ARBlueprintLibrary.h** и **MRMeshComponent.h** , что позволяет исследовать компонент **MRMesh** объекта **UARTrackedGeometry** . 
+> Файл build.cs проекта **ДОЛЖЕН** содержать модуль **AugmentedReality** в списке **PublicDependencyModuleNames**.
+> - Через него включаются заголовочные файлы **ARBlueprintLibrary.h** и **MRMeshComponent.h**, что позволяет исследовать компонент **MRMesh** объекта **UARTrackedGeometry**. 
 
 ![Код C++ для событий пространственных привязок](images/unreal-spatialmapping-examplecode.PNG)
 
-Пространственное сопоставление — не единственный тип данных, которые передаются в качестве поверхностей через объекты **ARTrackedGeometry** . Чтобы убедиться, что данная геометрия относится к пространственному сопоставлению, можно проверить, что `EARObjectClassification` имеет значение `World`. 
+Пространственное сопоставление — не единственный тип данных, которые передаются в качестве поверхностей через объекты **ARTrackedGeometry**. Чтобы убедиться, что данная геометрия относится к пространственному сопоставлению, можно проверить, что `EARObjectClassification` имеет значение `World`. 
 
 Существуют аналогичные делегаты для событий обновления и удаления: 
 - `AddOnTrackableUpdatedDelegate_Handle` 

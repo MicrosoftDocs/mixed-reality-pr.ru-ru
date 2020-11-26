@@ -5,14 +5,14 @@ author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
-keywords: mixed reality, unity, tutorial, hololens
+keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, решатели, коллекция объектов сетки
 ms.localizationpriority: high
-ms.openlocfilehash: 849de7c50adc8ff1da5262ad46fae50cce48e953
-ms.sourcegitcommit: 63c228af55379810ab2ee4f09f20eded1bb76229
+ms.openlocfilehash: b49d1b93b98a68e253239647262edc737fdbeb58
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93353222"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94679313"
 ---
 # <a name="4-positioning-objects-in-the-scene"></a>4. Размещение объектов в сцене
 
@@ -47,7 +47,7 @@ ms.locfileid: "93353222"
 > [!TIP]
 > Чтобы отобразить окна Scene (Сцена) и Game (Игра) рядом друг с другом, как на изображении ниже, перетащите окно Game (Игра) и поместите его справа от окна Scene (Сцена). Дополнительные сведения см. на странице <a href="https://docs.unity3d.com/Manual/CustomizingYourWorkspace.html" target="_blank">Настройка рабочего пространства</a> в документации по Unity.
 
-Щелкните правой кнопкой мыши созданный объект, выберите **Rename** (Переименовать) и измените имя на **RoverExplorer** :
+Щелкните правой кнопкой мыши созданный объект, выберите **Rename** (Переименовать) и измените имя на **RoverExplorer**:
 
 ![Unity с пунктом Rename (Переименовать) в контекстном меню](images/mr-learning-base/base-04-section2-step1-2.png)
 
@@ -71,7 +71,7 @@ ms.locfileid: "93353222"
 > [!TIP]
 > <a href="https://docs.unity3d.com/Manual/Prefabs.html" target="_blank">Заготовкой</a> называется предварительно настроенный игровой объект (GameObject), который хранится в качестве актива Unity и может повторно использоваться в проекте.
 
-В окне Project (Проект) щелкните и перетащите заготовку **Table** (Таблица) в объект **RoverExplorer** , чтобы сделать ее дочерним объектом RoverExplorer. Затем в окне инспектора настройте компонент **Transform** (Преобразование) следующим образом:
+В окне Project (Проект) щелкните и перетащите заготовку **Table** (Таблица) в объект **RoverExplorer**, чтобы сделать ее дочерним объектом RoverExplorer. Затем в окне инспектора настройте компонент **Transform** (Преобразование) следующим образом:
 
 * **Position** (Положение): X = 0, Y = -0,005, Z = 0.
 * **Rotation** (Поворот): X = 0, Y = 0, Z = 0.
@@ -82,7 +82,7 @@ ms.locfileid: "93353222"
 > [!TIP]
 > Для отображения сцены, как на рисунке ниже, используйте <a href="https://docs.unity3d.com/Manual/SceneViewNavigation.html" target="_blank">Scene Gizmo</a> (Манипулятор сцены) справа в верхнем углу окна сцены, чтобы направить угол взгляда вдоль оси Z вперед. Затем дважды щелкните объект MixedRealityPlayspace, чтобы перевести на него фокус камеры, и при необходимости увеличьте масштаб.
 
-В окне Project (Проект) щелкните и перетащите заготовку **RoverAssembly** в объект **RoverExplorer** , чтобы сделать ее дочерним объектом RoverExplorer. Затем в окне инспектора настройте компонент **Transform** (Преобразование) следующим образом:
+В окне Project (Проект) щелкните и перетащите заготовку **RoverAssembly** в объект **RoverExplorer**, чтобы сделать ее дочерним объектом RoverExplorer. Затем в окне инспектора настройте компонент **Transform** (Преобразование) следующим образом:
 
 * **Position** (Положение): X = -0,1, Y = 0, Z = 0.
 * **Rotation** (Поворот): X = 0, Y = -135, Z = 0.
@@ -107,7 +107,7 @@ ms.locfileid: "93353222"
 > [!TIP]
 > Чтобы выбрать несколько смежных объектов, нажав и удерживая клавишу SHIFT, выберите первый и последний объект.
 
-Оставив выбранными только что продублированные дочерние объекты Parts (Части), щелкните и перетащите их в объект **RoverParts** , чтобы сделать их дочерними объектами RoverParts.
+Оставив выбранными только что продублированные дочерние объекты Parts (Части), щелкните и перетащите их в объект **RoverParts**, чтобы сделать их дочерними объектами RoverParts.
 
 ![Unity с новыми копиями частей, являющихся дочерними объектами RoverParts](images/mr-learning-base/base-04-section4-step1-3.png)
 
@@ -118,11 +118,11 @@ ms.locfileid: "93353222"
 > [!TIP]
 > Дополнительные сведения об элементах управления видимостью и их применении для оптимизации представления сцены и рабочего процесса вы можете найти на странице <a href="https://docs.unity3d.com/Manual/SceneVisibility.html" target="_blank">Видимость сцены</a> в документации по Unity.
 
-В окне Hierarchy (Иерархия) очистите имена дочерних объектов RoverParts, изменив добавленную запись **(1)** на **_Part** :
+В окне Hierarchy (Иерархия) очистите имена дочерних объектов RoverParts, изменив добавленную запись **(1)** на **_Part**:
 
 ![Unity с очищенным именем копий частей](images/mr-learning-base/base-04-section4-step1-5.png)
 
-В окне Hierarchy (Иерархия) выберите объект **RoverParts**. Затем в окне инспектора нажмите кнопку **Add Component** (Добавить компонент). Найдите и выберите компонент **GridObjectCollection** , чтобы добавить его в объект RoverParts:
+В окне Hierarchy (Иерархия) выберите объект **RoverParts**. Затем в окне инспектора нажмите кнопку **Add Component** (Добавить компонент). Найдите и выберите компонент **GridObjectCollection**, чтобы добавить его в объект RoverParts:
 
 ![Unity с объектом RoverParts с поиском Grid Object Collection при добавлении компонента](images/mr-learning-base/base-04-section4-step1-6.png)
 

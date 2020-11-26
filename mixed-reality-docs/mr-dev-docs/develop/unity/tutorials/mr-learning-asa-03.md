@@ -5,14 +5,14 @@ author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
-keywords: mixed reality, unity, tutorial, hololens
+keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure, сеансы приложений
 ms.localizationpriority: high
-ms.openlocfilehash: 2fbf9b849cec62c5281396fcb1e2f8e6e26b4621
-ms.sourcegitcommit: 63c228af55379810ab2ee4f09f20eded1bb76229
+ms.openlocfilehash: c085aecef1ce32565d2f3bbbf1d5fdb2da91c217
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93353302"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94679413"
 ---
 # <a name="3-saving-retrieving-and-sharing-azure-spatial-anchors"></a>3. Сохранение, получение и совместное использование Пространственных привязок Azure
 
@@ -37,7 +37,7 @@ ms.locfileid: "93353302"
 
 Из этого раздела вы узнаете, как сохранить идентификатор привязки Azure на локальном диске HoloLens и извлечь его с диска. Так вы сможете запрашивать в Azure один и тот же идентификатор привязки в разных сеансах приложения. Это позволит вам разместить привязанные голограммы в том же расположении, что и в предыдущем сеансе приложения.
 
-В окне "Иерархия" разверните объект **ButtonParent** и найдите две кнопки с именами **SaveAzureAnchorIdToDisk** и **GetAzureAnchorIdFromDisk** :
+В окне "Иерархия" разверните объект **ButtonParent** и найдите две кнопки с именами **SaveAzureAnchorIdToDisk** и **GetAzureAnchorIdFromDisk**:
 
 ![Unity с выбранными объектами кнопок SaveAzureAnchorIdToDisk и GetAzureAnchorIdFromDisk](images/mr-learning-asa/asa-03-section2-step1-1.png)
 

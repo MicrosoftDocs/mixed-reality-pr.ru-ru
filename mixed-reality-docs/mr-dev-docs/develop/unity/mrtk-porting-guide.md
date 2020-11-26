@@ -6,13 +6,13 @@ ms.author: grbury
 ms.date: 07/29/2020
 ms.topic: article
 ms.localizationpriority: high
-keywords: Windows Mixed Reality, test, MRTK, MRTK version 2, HoloLens 2
-ms.openlocfilehash: 88bee12196099837f46164552c690a6b326f9ba7
-ms.sourcegitcommit: 83c9373fe5b2e07cdab921b6cab3fdd418307003
+keywords: Windows Mixed Reality, тестирование, MRTK, MRTK версии 2, HoloLens 2, Unity, перенос, 1-е поколение, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, миграция, рекомендации, ARM
+ms.openlocfilehash: 84edf3b029140884443c23d685fe03a12161d1b8
+ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2020
-ms.locfileid: "94386230"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94677393"
 ---
 # <a name="get-your-existing-app-ready-for-hololens-2"></a>Подготовка существующего приложения для использования в HoloLens 2
 
