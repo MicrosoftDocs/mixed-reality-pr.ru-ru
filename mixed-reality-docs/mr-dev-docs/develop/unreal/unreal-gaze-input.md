@@ -6,60 +6,118 @@ ms.author: v-hferrone
 ms.date: 06/10/2020
 ms.topic: article
 keywords: Windows Mixed Reality, голограммы, HoloLens 2, отслеживание взгляда, ввод с экрана, подключенный головной дисплей, нереалный механизм, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 2ea55e3c53275f6150ca7f2def10d71634119e2e
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: f89638cef6b90e004f097c701c3df13edaf74fac
+ms.sourcegitcommit: 09522ab15a9008ca4d022f9e37fcc98f6eaf6093
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94679053"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96354352"
 ---
-# <a name="gaze-input"></a><span data-ttu-id="5bb1e-104">Входные данные взгляда</span><span class="sxs-lookup"><span data-stu-id="5bb1e-104">Gaze Input</span></span>
+# <a name="gaze-input"></a><span data-ttu-id="00239-104">Входные данные взгляда</span><span class="sxs-lookup"><span data-stu-id="00239-104">Gaze Input</span></span>
 
-## <a name="overview"></a><span data-ttu-id="5bb1e-105">Обзор</span><span class="sxs-lookup"><span data-stu-id="5bb1e-105">Overview</span></span>
+<span data-ttu-id="00239-105">Взгляните, чтобы указать, что видят пользователи.</span><span class="sxs-lookup"><span data-stu-id="00239-105">Gaze is used to indicate what the user is looking at.</span></span>  <span data-ttu-id="00239-106">С помощью камер отслеживания взгляда на устройстве можно найти луч в нереальном пространстве, соответствующем текущему пользователю.</span><span class="sxs-lookup"><span data-stu-id="00239-106">This uses the eye tracking cameras on the device to find a ray in Unreal world space matching what the user is currently looking at.</span></span>
 
-<span data-ttu-id="5bb1e-106">[Подключаемый модуль Windows Mixed Reality](https://docs.unrealengine.com/Platforms/VR/WMR/index.html) не предоставляет встроенных функций для ввода данных, но HoloLens 2 поддерживает отслеживание глаз.</span><span class="sxs-lookup"><span data-stu-id="5bb1e-106">The [Windows Mixed Reality plugin](https://docs.unrealengine.com/Platforms/VR/WMR/index.html) doesn’t provide any built-in functions for gaze input, but HoloLens 2 does support eye tracking.</span></span> <span data-ttu-id="5bb1e-107">Фактические функции отслеживания предоставляются в виде интерфейсов API **монитора** и **отслеживания взгляда** в режиме реального времени и включают:</span><span class="sxs-lookup"><span data-stu-id="5bb1e-107">The actual tracking features are provided by Unreal's **Head Mounted Display** and **Eye Tracking** APIs and include:</span></span>
+## <a name="enabling-eye-tracking"></a><span data-ttu-id="00239-107">Включение отслеживания взгляда</span><span class="sxs-lookup"><span data-stu-id="00239-107">Enabling eye tracking</span></span>
 
-- <span data-ttu-id="5bb1e-108">Сведения об устройстве</span><span class="sxs-lookup"><span data-stu-id="5bb1e-108">Device information</span></span>
-- <span data-ttu-id="5bb1e-109">Датчики отслеживания</span><span class="sxs-lookup"><span data-stu-id="5bb1e-109">Tracking sensors</span></span>
-- <span data-ttu-id="5bb1e-110">Ориентация и положение</span><span class="sxs-lookup"><span data-stu-id="5bb1e-110">Orientation and position</span></span>
-- <span data-ttu-id="5bb1e-111">Области обрезки</span><span class="sxs-lookup"><span data-stu-id="5bb1e-111">Clipping panes</span></span>
-- <span data-ttu-id="5bb1e-112">Взгляните на данные и сведения об отслеживании</span><span class="sxs-lookup"><span data-stu-id="5bb1e-112">Gaze data and tracking information</span></span>
+- <span data-ttu-id="00239-108">В **параметрах проекта > HoloLens** включите функцию **ввода** с помощью средства входа.</span><span class="sxs-lookup"><span data-stu-id="00239-108">In **Project Settings > HoloLens**, enable the **Gaze Input** capability:</span></span>
 
-<span data-ttu-id="5bb1e-113">Полный список функций см. в документации по нереальному [подключению](https://docs.unrealengine.com/BlueprintAPI/Input/HeadMountedDisplay/index.html) и [отслеживания взглядов](https://docs.unrealengine.com/BlueprintAPI/EyeTracking/index.html) .</span><span class="sxs-lookup"><span data-stu-id="5bb1e-113">You can find the full list of features in Unreal's [Head Mounted Display](https://docs.unrealengine.com/BlueprintAPI/Input/HeadMountedDisplay/index.html) and [Eye Tracking](https://docs.unrealengine.com/BlueprintAPI/EyeTracking/index.html) documentation.</span></span>
+![Снимок экрана возможностей настройки проекта HoloLens с выделенными входными данными Взгляните](images/unreal-gaze-img-01.png)
 
-<span data-ttu-id="5bb1e-114">В дополнение к нереальным API-интерфейсам ознакомьтесь с документацией по [взаимодействию на основе взгляда](../../design/eye-gaze-interaction.md) для hololens 2 и прочитайте о работе [отслеживания взгляда в hololens 2](https://docs.microsoft.com/windows/mixed-reality/eye-tracking) .</span><span class="sxs-lookup"><span data-stu-id="5bb1e-114">In addition to the Unreal APIs, check out the documentation on [eye-gaze-based interaction](../../design/eye-gaze-interaction.md) for HoloLens 2 and read up on how [eye tracking on HoloLens 2](https://docs.microsoft.com/windows/mixed-reality/eye-tracking) works.</span></span>
-
-> [!IMPORTANT]
-> <span data-ttu-id="5bb1e-115">Отслеживание взгляда поддерживается только в HoloLens 2.</span><span class="sxs-lookup"><span data-stu-id="5bb1e-115">Eye tracking is only supported on HoloLens 2.</span></span>
-
-## <a name="enabling-eye-tracking"></a><span data-ttu-id="5bb1e-116">Включение отслеживания взгляда</span><span class="sxs-lookup"><span data-stu-id="5bb1e-116">Enabling eye tracking</span></span>
-<span data-ttu-id="5bb1e-117">Необходимо включить входные данные для параметров проекта HoloLens, прежде чем можно будет использовать интерфейсы API нереального времени.</span><span class="sxs-lookup"><span data-stu-id="5bb1e-117">Gaze input needs to be enabled in the HoloLens project settings before you can use any of Unreal's APIs.</span></span> <span data-ttu-id="5bb1e-118">При запуске приложения появится запрос на согласие, показанный на снимке экрана ниже.</span><span class="sxs-lookup"><span data-stu-id="5bb1e-118">When the application starts you'll see a consent prompt shown in the screenshot below.</span></span>
-
-- <span data-ttu-id="5bb1e-119">Выберите **Да** , чтобы задать разрешение и получить доступ к вводу с помощью взгляда.</span><span class="sxs-lookup"><span data-stu-id="5bb1e-119">Select **Yes** to set the permission and get access to gaze input.</span></span> <span data-ttu-id="5bb1e-120">Если необходимо изменить этот параметр в любое время, его можно найти в приложении " **Параметры** ".</span><span class="sxs-lookup"><span data-stu-id="5bb1e-120">If you need to change this setting at any time, it can be found in the **Settings** app.</span></span>
-
-![Разрешения на вход с глазами](images/unreal/eye-input-permissions.png)
+- <span data-ttu-id="00239-110">Создание нового субъекта и его добавление в сцену</span><span class="sxs-lookup"><span data-stu-id="00239-110">Create a new actor and add it to your scene</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="5bb1e-122">Отслеживание глаз HoloLens в нереальном режиме имеет один луч для обоих глаз, а не два луча, необходимых для отслеживания стереоскопик, что не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="5bb1e-122">HoloLens eye tracking in Unreal only has a single gaze ray for both eyes instead of the two rays needed for stereoscopic tracking, which is not supported.</span></span>
+> <span data-ttu-id="00239-111">Отслеживание глаз HoloLens в нереальном режиме имеет один луч для обоих глаз, а не два луча, необходимых для отслеживания стереоскопик, что не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="00239-111">HoloLens eye tracking in Unreal only has a single gaze ray for both eyes instead of the two rays needed for stereoscopic tracking, which is not supported.</span></span>
 
-<span data-ttu-id="5bb1e-123">Это все, что необходимо для того, чтобы добавить входные данные взгляда в приложения HoloLens 2 в нереальном виде.</span><span class="sxs-lookup"><span data-stu-id="5bb1e-123">That's all the setup you'll need to start adding gaze input to your HoloLens 2 apps in Unreal.</span></span> <span data-ttu-id="5bb1e-124">Дополнительные сведения о вводе и том, как он влияет на пользователей в смешанной реальности, можно найти по ссылкам ниже.</span><span class="sxs-lookup"><span data-stu-id="5bb1e-124">More information on gaze input and how it affects users in mixed reality can be found at the links below.</span></span> <span data-ttu-id="5bb1e-125">Не забудьте подумать об этих возможностях при создании интерактивных интерфейсов.</span><span class="sxs-lookup"><span data-stu-id="5bb1e-125">Be sure to think about these when building your interactive experiences.</span></span>
+## <a name="using-eye-tracking"></a><span data-ttu-id="00239-112">Использование функции отслеживания взгляда</span><span class="sxs-lookup"><span data-stu-id="00239-112">Using eye tracking</span></span>
 
-## <a name="next-development-checkpoint"></a><span data-ttu-id="5bb1e-126">Следующий этап разработки</span><span class="sxs-lookup"><span data-stu-id="5bb1e-126">Next Development Checkpoint</span></span>
+<span data-ttu-id="00239-113">Сначала убедитесь, что устройство поддерживает отслеживание взгляда с помощью функции Исэйетраккерконнектед.</span><span class="sxs-lookup"><span data-stu-id="00239-113">First check that the device supports eye tracking with the IsEyeTrackerConnected function.</span></span>  <span data-ttu-id="00239-114">Если возвращается значение true, вызовите Жетгазедата, чтобы найти место, где глаза пользователя просматриваются во время текущего кадра:</span><span class="sxs-lookup"><span data-stu-id="00239-114">If this returns true, call GetGazeData to find where the user’s eyes are looking at during the current frame:</span></span>
 
-<span data-ttu-id="5bb1e-127">Если вы следуете изложенным нами этапам разработки для Unreal, вы как раз прошли половину в изучении основных стандартных блоков MRTK.</span><span class="sxs-lookup"><span data-stu-id="5bb1e-127">If you're following the Unreal development checkpoint journey we've laid out, you're in the midst of exploring the MRTK core building blocks.</span></span> <span data-ttu-id="5bb1e-128">Отсюда вы можете перейти к следующему стандартному блоку:</span><span class="sxs-lookup"><span data-stu-id="5bb1e-128">From here, you can proceed to the next building block:</span></span> 
+![Схема подключенной функции отслеживания взгляда](images/unreal-gaze-img-02.png)
+
+> [!NOTE]
+> <span data-ttu-id="00239-116">Точка с фиксацией и значение достоверности недоступны в HoloLens.</span><span class="sxs-lookup"><span data-stu-id="00239-116">The fixation point and the confidence value are not available on HoloLens.</span></span>
+
+<span data-ttu-id="00239-117">Чтобы найти, что видят пользователи, используйте источник и направление взгляда в трассировке строки.</span><span class="sxs-lookup"><span data-stu-id="00239-117">To find what the user is looking at, use the gaze origin and direction in a line trace.</span></span>  <span data-ttu-id="00239-118">Начало этого вектора — это источник взгляда, а элемент End — источник и направление взгляда, умноженное на нужное расстояние:</span><span class="sxs-lookup"><span data-stu-id="00239-118">The start of this vector is the gaze origin and the end is the origin plus the gaze direction multiplied by the desired distance:</span></span>
+
+![Схема функции получения данных об взгляде](images/unreal-gaze-img-03.png)
+
+## <a name="getting-head-orientation"></a><span data-ttu-id="00239-120">Получение ориентации головного экрана</span><span class="sxs-lookup"><span data-stu-id="00239-120">Getting head orientation</span></span>
+
+<span data-ttu-id="00239-121">Кроме того, можно использовать поворот ХМД для представления направления заголовка пользователя.</span><span class="sxs-lookup"><span data-stu-id="00239-121">Alternatively, the HMD rotation can be used to represent the direction of the user’s head.</span></span>  <span data-ttu-id="00239-122">Это не требует возможности ввода с помощью взгляда, но не даст никаких сведений об отслеживании взгляда.</span><span class="sxs-lookup"><span data-stu-id="00239-122">This does not require the Gaze Input capability but won't give you any eye tracking information.</span></span>  <span data-ttu-id="00239-123">Для получения правильных выходных данных необходимо добавить ссылку на проект в качестве международного контекста:</span><span class="sxs-lookup"><span data-stu-id="00239-123">A reference to the blueprint must be added as the world context to get the correct output data:</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="00239-124">Получение данных ХМД доступно только в нереальных 4,26 и более.</span><span class="sxs-lookup"><span data-stu-id="00239-124">Getting HMD Data is only available in Unreal 4.26 and onwards.</span></span>
+
+![Схема функции Get Хмддата](images/unreal-gaze-img-04.png)
+
+## <a name="using-c"></a><span data-ttu-id="00239-126">Использование C++</span><span class="sxs-lookup"><span data-stu-id="00239-126">Using C++</span></span> 
+
+- <span data-ttu-id="00239-127">В файле build.cs игры добавьте "Эйетраккер" в список Публикдепенденцимодуленамес:</span><span class="sxs-lookup"><span data-stu-id="00239-127">In your game’s build.cs file, add “EyeTracker” to the PublicDependencyModuleNames list:</span></span>
+
+```cpp
+PublicDependencyModuleNames.AddRange(
+    new string[] {
+        "Core",
+        "CoreUObject",
+        "Engine",
+        "InputCore",
+        "EyeTracker"
+});
+```
+
+- <span data-ttu-id="00239-128">В «файл/новый класс C++» создайте новый субъект C++ с именем «Эйетраккер».</span><span class="sxs-lookup"><span data-stu-id="00239-128">In “File/ New C++ Class”, Create a new C++ actor called “EyeTracker”</span></span>
+    - <span data-ttu-id="00239-129">Решение Visual Studio откроется в новом классе Эйетраккер.</span><span class="sxs-lookup"><span data-stu-id="00239-129">A Visual Studio solution will open to the new EyeTracker class.</span></span> <span data-ttu-id="00239-130">Выполните сборку и запустите, чтобы открыть нереальную игру с новым субъектом Эйетраккер.</span><span class="sxs-lookup"><span data-stu-id="00239-130">Build and run to open the Unreal game with the new EyeTracker actor.</span></span>  <span data-ttu-id="00239-131">Выполните поиск строки "Эйетраккер" в окне "место субъектов".</span><span class="sxs-lookup"><span data-stu-id="00239-131">Search for “EyeTracker” in the “Place Actors” window.</span></span>  <span data-ttu-id="00239-132">Перетащите этот класс в окно игры, чтобы добавить его в проект:</span><span class="sxs-lookup"><span data-stu-id="00239-132">Drag and drop this class into the game window to add it to the project:</span></span>
+
+![Снимок экрана субъекта с открытым окном субъекта](images/unreal-gaze-img-06.png)
+
+- <span data-ttu-id="00239-134">В Эйетраккер. cpp добавьте включения для Эйетраккерфунктионлибрари и Дравдебугхелперс:</span><span class="sxs-lookup"><span data-stu-id="00239-134">In EyeTracker.cpp, add includes for EyeTrackerFunctionLibrary, and DrawDebugHelpers:</span></span>
+
+```cpp
+#include "EyeTrackerFunctionLibrary.h"
+#include "DrawDebugHelpers.h"
+```
+
+<span data-ttu-id="00239-135">В такте убедитесь, что устройство поддерживает отслеживание глаз с помощью Уэйетраккерфунктионлибрари:: Исэйетраккерконнектед.</span><span class="sxs-lookup"><span data-stu-id="00239-135">In Tick, check that the device supports eye tracking with UEyeTrackerFunctionLibrary::IsEyeTrackerConnected.</span></span>  <span data-ttu-id="00239-136">Затем найдите начало и конец луча для трассировки строки из Уэйетраккерфунктионлибрари:: Жетгазедата:</span><span class="sxs-lookup"><span data-stu-id="00239-136">Then find the start and end of a ray for a line trace from UEyeTrackerFunctionLibrary::GetGazeData:</span></span>
+
+```cpp
+void AEyeTracker::Tick(float DeltaTime)
+{
+    Super::Tick(DeltaTime);
+
+    if(UEyeTrackerFunctionLibrary::IsEyeTrackerConnected())
+    {
+        FEyeTrackerGazeData GazeData;
+        if(UEyeTrackerFunctionLibrary::GetGazeData(GazeData))
+        {
+            FVector Start = GazeData.GazeOrigin;
+            FVector End = GazeData.GazeOrigin + GazeData.GazeDirection * 100;
+
+            FHitResult Hit Result;
+            if (GWorld->LineTraceSingleByChannel(HitResult, Start, End, ECollisionChannel::ECC_Visiblity))
+            {
+                DrawDebugCoordinateSystem(GWorld, HitResult.Location, FQuat::Identity.Rotator(), 10);
+            }
+        }
+    }
+}
+```
+
+## <a name="next-development-checkpoint"></a><span data-ttu-id="00239-137">Следующий этап разработки</span><span class="sxs-lookup"><span data-stu-id="00239-137">Next Development Checkpoint</span></span>
+
+<span data-ttu-id="00239-138">Если вы следуете изложенным нами этапам разработки для Unreal, вы как раз прошли половину в изучении основных стандартных блоков MRTK.</span><span class="sxs-lookup"><span data-stu-id="00239-138">If you're following the Unreal development checkpoint journey we've laid out, you're in the midst of exploring the MRTK core building blocks.</span></span> <span data-ttu-id="00239-139">Отсюда вы можете перейти к следующему стандартному блоку:</span><span class="sxs-lookup"><span data-stu-id="00239-139">From here, you can proceed to the next building block:</span></span> 
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="5bb1e-129">Отслеживание рук</span><span class="sxs-lookup"><span data-stu-id="5bb1e-129">Hand tracking</span></span>](unreal-hand-tracking.md)
+> [<span data-ttu-id="00239-140">Отслеживание рук</span><span class="sxs-lookup"><span data-stu-id="00239-140">Hand tracking</span></span>](unreal-hand-tracking.md)
 
-<span data-ttu-id="5bb1e-130">Или перейдите к возможностям и API платформы смешанной реальности:</span><span class="sxs-lookup"><span data-stu-id="5bb1e-130">Or jump to Mixed Reality platform capabilities and APIs:</span></span>
+<span data-ttu-id="00239-141">Или перейдите к возможностям и API платформы смешанной реальности:</span><span class="sxs-lookup"><span data-stu-id="00239-141">Or jump to Mixed Reality platform capabilities and APIs:</span></span>
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="5bb1e-131">Камера HoloLens</span><span class="sxs-lookup"><span data-stu-id="5bb1e-131">HoloLens camera</span></span>](unreal-hololens-camera.md)
+> [<span data-ttu-id="00239-142">Камера HoloLens</span><span class="sxs-lookup"><span data-stu-id="00239-142">HoloLens camera</span></span>](unreal-hololens-camera.md)
 
-<span data-ttu-id="5bb1e-132">Вы можете в любой момент вернуться к [этапам разработки для Unreal](unreal-development-overview.md#2-core-building-blocks).</span><span class="sxs-lookup"><span data-stu-id="5bb1e-132">You can always go back to the [Unreal development checkpoints](unreal-development-overview.md#2-core-building-blocks) at any time.</span></span>
+<span data-ttu-id="00239-143">Вы можете в любой момент вернуться к [этапам разработки для Unreal](unreal-development-overview.md#2-core-building-blocks).</span><span class="sxs-lookup"><span data-stu-id="00239-143">You can always go back to the [Unreal development checkpoints](unreal-development-overview.md#2-core-building-blocks) at any time.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="5bb1e-133">См. также статью</span><span class="sxs-lookup"><span data-stu-id="5bb1e-133">See also</span></span>
-* [<span data-ttu-id="5bb1e-134">Калибровка</span><span class="sxs-lookup"><span data-stu-id="5bb1e-134">Calibration</span></span>](../../calibration.md)
-* [<span data-ttu-id="5bb1e-135">Комфорт</span><span class="sxs-lookup"><span data-stu-id="5bb1e-135">Comfort</span></span>](../../design/comfort.md)
-* [<span data-ttu-id="5bb1e-136">Взгляд и фиксация</span><span class="sxs-lookup"><span data-stu-id="5bb1e-136">Gaze and commit</span></span>](../../design/gaze-and-commit.md)
-* [<span data-ttu-id="5bb1e-137">Голосовой ввод</span><span class="sxs-lookup"><span data-stu-id="5bb1e-137">Voice input</span></span>](../../out-of-scope/voice-design.md)
+## <a name="see-also"></a><span data-ttu-id="00239-144">См. также статью</span><span class="sxs-lookup"><span data-stu-id="00239-144">See also</span></span>
+* [<span data-ttu-id="00239-145">Калибровка</span><span class="sxs-lookup"><span data-stu-id="00239-145">Calibration</span></span>](../../calibration.md)
+* [<span data-ttu-id="00239-146">Комфорт</span><span class="sxs-lookup"><span data-stu-id="00239-146">Comfort</span></span>](../../design/comfort.md)
+* [<span data-ttu-id="00239-147">Взгляд и фиксация</span><span class="sxs-lookup"><span data-stu-id="00239-147">Gaze and commit</span></span>](../../design/gaze-and-commit.md)
+* [<span data-ttu-id="00239-148">Голосовой ввод</span><span class="sxs-lookup"><span data-stu-id="00239-148">Voice input</span></span>](../../out-of-scope/voice-design.md)
