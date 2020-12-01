@@ -3,20 +3,20 @@ title: Holographic Remoting Player
 description: Удаленный плеер holographic — это сопутствующее приложение, которое подключается к КОМПЬЮТЕРным приложениям и играм, поддерживающим удаленное взаимодействие с Holographic. Holographic удаленно взаимодействии создает потоки с компьютера в Microsoft HoloLens в режиме реального времени, используя Wi-Fiное подключение.
 author: florianbagarmicrosoft
 ms.author: flbagar
-ms.date: 03/11/2020
+ms.date: 12/01/2020
 ms.topic: article
 keywords: HoloLens, удаленное взаимодействие, holographic удаленное взаимодействие, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, диагностика, производительность
-ms.openlocfilehash: c65b10079ffbc40602ebbd25b1e493c19b2a6078
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 990143a6d0c51f5f817ca0636573c3479a7e1682
+ms.sourcegitcommit: 9664bcc10ed7e60f7593f3a7ae58c66060802ab1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94677933"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96443621"
 ---
 # <a name="holographic-remoting-player"></a>Holographic Remoting Player
 
 >[!IMPORTANT]
->Holographic удаленное взаимодействие для HoloLens 2 является основным изменением версии. [Удаленные приложения для **hololens (1 общий)**](add-holographic-remoting.md) должны использовать пакет NuGet версии **1. x. x** и [Удаленные приложения для **HoloLens 2**](holographic-remoting-create-host.md) должны использовать **2. x. x**. Это означает, что удаленные приложения, написанные для HoloLens 2, несовместимы с HoloLens (1-го поколения) и наоборот.
+>Holographic удаленное взаимодействие для HoloLens 2 является основным изменением версии. [Удаленные приложения для **hololens (1 общий)**](add-holographic-remoting.md) должны использовать пакет NuGet версии **1. x. x** и [Удаленные приложения для **HoloLens 2**](holographic-remoting-create-remote-wmr.md) должны использовать **2. x. x**. Это означает, что удаленные приложения, написанные для HoloLens 2, несовместимы с HoloLens (1-го поколения) и наоборот.
 
 [Удаленный плеер holographic](https://www.microsoft.com/p/holographic-remoting-player/9nblggh4sv40) — это сопутствующее приложение, которое подключается к компьютерным приложениям и играм, поддерживающим удаленное взаимодействие с Holographic. Holographic удаленно взаимодействии создает потоки с компьютера в Microsoft HoloLens в режиме реального времени, используя Wi-Fiное подключение.
 
@@ -26,6 +26,9 @@ ms.locfileid: "94677933"
 
 >[!TIP]
 >Начиная с версии [2.2.0](holographic-remoting-version-history.md#v2.2.0) , для компьютеров Windows под управлением [Windows Mixed Reality](../../discover/navigating-the-windows-mixed-reality-home.md)также доступен плеер Holographic.
+
+>[!TIP]
+>Начиная с версии [2.4.0](holographic-remoting-version-history.md#v2.4.0) удаленные приложения можно создавать с помощью [API опенкср](../native/openxr.md) . Чтобы начать, ознакомьтесь с [написанием удаленного приложения holographic с удаленным взаимодействием с помощью API-интерфейсов опенкср](holographic-remoting-create-remote-openxr.md).
 
 ## <a name="connecting-to-the-holographic-remoting-player"></a>Подключение к удаленному проигрывателю holographic
 
@@ -76,8 +79,9 @@ ms.locfileid: "94677933"
 * Мы рекомендуем использовать графическую видеокарту GeForce ГТКС 970 или AMD Radeon R9 290.
 * Мы рекомендуем подключить компьютер к сети через Ethernet, чтобы уменьшить число прыжков беспроводной связи.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 * [HoloLens (1-й общий): Добавление удаленного взаимодействия holographic](add-holographic-remoting.md)
-* [HoloLens 2: Создание удаленного приложения holographic с удаленным взаимодействием](holographic-remoting-create-host.md)
+* [Создание удаленного приложения holographic с удаленным взаимодействием с помощью API Windows Mixed реалий](holographic-remoting-create-remote-wmr.md)
+* [Создание удаленного приложения holographic с удаленным взаимодействием с помощью API-интерфейсов Опенкср](holographic-remoting-create-remote-openxr.md)
 * [Условия лицензии на использование ПО для голографического удаленного взаимодействия](https://docs.microsoft.com//legal/mixed-reality/microsoft-holographic-remoting-software-license-terms)
 * [Заявление о конфиденциальности Майкрософт](https://go.microsoft.com/fwlink/?LinkId=521839)

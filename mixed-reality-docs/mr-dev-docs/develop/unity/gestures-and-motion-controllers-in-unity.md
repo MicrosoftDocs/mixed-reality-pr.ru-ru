@@ -1,23 +1,29 @@
 ---
 title: Жесты и контроллеры движения в Unity
 description: Узнайте, как выполнять действия с взглядом в Unity с помощью жестов и контроллеров движения.
-author: thetuvix
+author: hferrone
 ms.author: alexturn
-ms.date: 03/21/2018
+ms.date: 12/1/2020
 ms.topic: article
 keywords: жесты, контроллеры движения, Unity, взгляд, вход, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, МРТК, набор средств для смешанной реальности
-ms.openlocfilehash: e1a2ae10638bb8dbd35eed7e9a0a1d2a05181f0c
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 122642bb7fc561e505098bca00b8bf65bfd4552e
+ms.sourcegitcommit: 9664bcc10ed7e60f7593f3a7ae58c66060802ab1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94678653"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96443584"
 ---
 # <a name="gestures-and-motion-controllers-in-unity"></a>Жесты и контроллеры движения в Unity
 
 Существует два основных способа выполнения действий с вашим [взглядом в Unity](gaze-in-unity.md), [жестами](../../design/gaze-and-commit.md#composite-gestures) и [контроллерами движения](../../design/motion-controllers.md) в HoloLens и иммерсивное ХМД. Доступ к данным для обоих источников пространственных данных осуществляется через одни и те же API в Unity.
 
 Unity предоставляет два основных способа доступа к пространственным входным данным для Windows Mixed Reality, общих *входных и входных API-интерфейсов input.* XR, работающих в нескольких пакетах SDK для Unity, и API *интерактионманажер/GestureRecognizer* , относящийся к Windows Mixed Reality, который предоставляет полный набор пространственных входных данных.
+
+## <a name="unity-xr-input-apis"></a>Входные API-интерфейсы Unity XR
+
+Для новых проектов рекомендуется использовать новые интерфейсы API ввода XR с самого начала. 
+
+Дополнительные сведения об [API XR](https://docs.unity3d.com/Manual/xr_input.html)можно найти здесь.
 
 ## <a name="unity-buttonaxis-mapping-table"></a>Таблица сопоставления кнопок и осей Unity
 
@@ -213,6 +219,9 @@ Quaternion leftRotation = InputTracking.GetLocalRotation(XRNode.LeftHand);
 Обратите внимание, что связь между этим захватом и указателем (где накладывается кончик контроллера) может отличаться в разных контроллерах. На данный момент доступ к элементу указателя контроллера может осуществляться только через API ввода, характерный для MR, описанный в следующих разделах.
 
 ## <a name="windows-specific-apis-xrwsainput"></a>Интерфейсы API для Windows (XR. Головк. Входной
+
+> [!CAUTION]
+> Если в проекте используются какие-либо из XR. Поэтапные API-интерфейсы см. в них используется пакет SDK XR в будущих выпусках Unity. Для новых проектов мы рекомендуем использовать пакет SDK для XR с самого начала. Дополнительные сведения о [системе ввода и интерфейсах API XR](https://docs.unity3d.com/Manual/xr_input.html)можно найти здесь.
 
 **Пространство имен:** *UnityEngine. XR. WSA. Input*<br>
 **Типы**: *интерактионманажер*, *интерактионсаурцестате*, *интерактионсаурце*, *интерактионсаурцепропертиес*, *InteractionSourceKind*, *InteractionSourceLocation*

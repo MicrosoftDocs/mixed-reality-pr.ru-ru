@@ -1,17 +1,17 @@
 ---
 title: Добавление удаленного взаимодействия holographic
 description: Объясняется, как с помощью удаленного взаимодействия holographic визуализировать голограммы в HoloLens по сети.
-author: mikeriches
-ms.author: mriches
-ms.date: 05/24/2019
+author: florianbagarmicrosoft
+ms.author: flbagar
+ms.date: 12/01/2020
 ms.topic: article
 keywords: Windows Mixed Reality, голограммы, удаленное взаимодействие, удаленная подготовка к просмотру сети, HoloLens, голограммы на удаленных языках, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: ec03a349959f9bde71a2c8a600d513fb21c533a8
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 7aafb7a764a062efcca2c5a3cd9f77d4395516a2
+ms.sourcegitcommit: 9664bcc10ed7e60f7593f3a7ae58c66060802ab1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94679633"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96443646"
 ---
 # <a name="add-holographic-remoting-hololens-1st-gen"></a>Добавление удаленного взаимодействия holographic (HoloLens (1-й общий))
 
@@ -23,7 +23,7 @@ ms.locfileid: "94679633"
 Разработчики HoloLens, использующие holographic удаленное взаимодействие, должны обновить свои приложения, чтобы они были совместимы с HoloLens 2. Для этого требуется новая версия пакета NuGet удаленного взаимодействия Holographic. Если приложение, использующее пакет NuGet для удаленного взаимодействия с номером версии, меньшим 2.0.0.0, пытается подключиться к удаленному проигрывателю holographic с помощью HoloLens 2, произойдет сбой подключения.
 
 >[!NOTE]
->Рекомендации, относящиеся к HoloLens 2, можно найти [здесь](holographic-remoting-create-host.md).
+>Рекомендации, относящиеся к HoloLens 2, можно найти [здесь](holographic-remoting-create-remote-wmr.md).
 
 
 ## <a name="add-holographic-remoting-to-your-desktop-or-uwp-app"></a>Добавление удаленного взаимодействия holographic в приложение для настольных компьютеров или UWP
