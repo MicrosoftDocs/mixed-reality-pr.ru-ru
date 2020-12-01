@@ -1,19 +1,19 @@
 ---
-title: Обновление приложения Стеамвр
+title: Обновление приложений Стеамвр для Windows Mixed Reality
 description: Рекомендации по обновлению приложения Стеамвр для оптимизации совместимости с помощью головных телефонов Windows Mixed Reality.
 author: thmignon
 ms.author: thmignon
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Стеамвр, совместимость, перенос, однопотребительский общий Gen, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, миграция, Windows 10, Steam, контроллеры движения, хаптикс
-ms.openlocfilehash: be510203b928cc1871b505d184e1aba05ec99abc
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 4565f041db83574a51d9327d37780f5ef216dc9c
+ms.sourcegitcommit: 9664bcc10ed7e60f7593f3a7ae58c66060802ab1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94677663"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96443441"
 ---
-# <a name="updating-your-steamvr-application"></a>Обновление приложения Стеамвр
+# <a name="updating-steamvr-apps-for-windows-mixed-reality"></a>Обновление приложений Стеамвр для Windows Mixed Reality
 Мы советуем разработчикам тестировать и оптимизировать свои Стеамврные возможности для работы на гарнитурах Windows Mixed Reality. В этой документации рассматриваются распространенные улучшения, которые могут быть реализованы разработчиками, чтобы гарантировать, что их работа отлично работает в Windows Mixed Reality.
 
 ## <a name="initial-setup-instructions"></a>Инструкции по начальной настройке
@@ -52,7 +52,7 @@ ms.locfileid: "94677663"
 
 ## <a name="launching-steamvr-apps-from-windows-mixed-reality-start-menu"></a>Запуск приложений Стеамвр из меню "Пуск" Windows Mixed Reality
 
-Для функций VR, распространяемых через Steam, мы [обновили бета-версию Windows Mixed Reality для стеамвр](https://steamcommunity.com/games/719950/announcements/detail/1687045485866139800) , а также последнюю версию Windows [Insider](https://insider.windows.com) RS5 рейсов, чтобы стеамвр заголовки теперь отображались в меню Пуск Windows Mixed Reality в списке "все приложения". После установки этих версий программного обеспечения клиенты смогут запускать заголовки Стеамвр непосредственно из дома Windows Mixed Reality, не удаляя их гарнитуры.
+Для функций VR, распространяемых через Steam, мы [обновили Windows Mixed Reality для стеамвр](https://steamcommunity.com/games/719950/announcements/detail/1687045485866139800) вместе с последними [выпусками Windows](https://insider.windows.com) , чтобы заголовки стеамвр теперь отображались в меню Пуск Windows Mixed Reality в списке "все приложения" автоматически.
 
 ## <a name="windows-mixed-reality-logo"></a>Логотип Windows Mixed Reality
 
