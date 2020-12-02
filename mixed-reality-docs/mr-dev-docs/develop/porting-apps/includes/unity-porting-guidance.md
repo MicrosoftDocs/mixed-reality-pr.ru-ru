@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: bf6b98eca850d2b280e7a016799c4287955159a6
-ms.sourcegitcommit: 9664bcc10ed7e60f7593f3a7ae58c66060802ab1
+ms.openlocfilehash: 487118403c2a8af1a6b54bc9aa9245fbe9d0568a
+ms.sourcegitcommit: bec6029b2780c54cc04a45ef7ae5df3f5b4727c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 12/01/2020
-ms.locfileid: "96443671"
+ms.locfileid: "96477536"
 ---
 # <a name="project-settings"></a>[Параметры проекта](#tab/project)
 
@@ -94,7 +94,8 @@ else
 ### <a name="8-work-through-your-input-model"></a>8. Работа с моделью ввода
 
 Каждая игра или приложение, предназначенное для существующего ХМД, будет иметь набор входных данных, которые он обрабатывает, типы входных данных, необходимые для работы, и конкретные интерфейсы API, которые он вызывает для получения этих входных данных. Мы реализовали попытку сделать это как можно проще и простым, чтобы воспользоваться преимуществами входных данных, доступных в Windows Mixed Reality.
-1. Прочтите **руководство по переносу данных для Unity** на соседней вкладке, чтобы узнать, как Windows Mixed Reality предоставляет входные данные, и как они сопоставлены с тем, что приложение может сделать сегодня.
+
+Прочтите [руководство по переносу данных для Unity](https://docs.microsoft.com/windows/mixed-reality/develop/porting-apps/porting-guides?tabs=input) на соседней вкладке, чтобы узнать, как Windows Mixed Reality предоставляет входные данные, и как они сопоставлены с тем, что приложение может сделать сегодня.
 
 ### <a name="9-performance-testing-and-tuning"></a>9. Тестирование и настройка производительности
 
