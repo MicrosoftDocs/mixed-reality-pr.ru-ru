@@ -7,12 +7,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, устранение неполадок, ошибки, Справка, поддержка, производительность
 appliesto:
 - Windows 10
-ms.openlocfilehash: 241fb95d92c771af727cc50287e4d1b2526123a5
-ms.sourcegitcommit: c7b5790a26472c5a08c959189a574fb15f9046d2
+ms.openlocfilehash: 7712641bad36b8759b9237abf14593f8c121e81b
+ms.sourcegitcommit: 3eb4c1a79e9173a5c9b6d2284f34c0bceced402c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "95002970"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96501712"
 ---
 # <a name="hp-reverb-g2-frequently-asked-questions"></a>Часто задаваемые вопросы о команде HP
 
@@ -53,6 +53,10 @@ HP рекомендует:
 ## <a name="i-am-getting-a-13-14-something-went-wrong-error-when-my-pc-resumes-from-hibernate-s4"></a>Я получаю сообщение об ошибке 13-14 "что-то пошло не так" при выходе компьютера из режима гибернации (S4)
 
 Иногда во время процесса возобновления видеоадаптер не может установить подключение, поэтому отключив тип USB с компьютера и подключив его обратно, можно установить подключение.
+
+## <a name="my-hp-motion-controller-joystick-will-sometimes-stick-to-one-side"></a>Джойстик устройства HP Motion может иногда работать на одной стороне
+
+Эта проблема устранена путем полного нажатия джойстика до тех пор, пока он не нажмет его, и он будет свободно перемещаться.
 
 ## <a name="the-mixed-reality-portal-says-cant-run-mixed-reality-on-this-headset-but-this-worked-fine-with-my-previous-wmr-headset"></a>На портале Mixed Reality появляется сообщение "не удается запустить смешанную реальность на этой гарнитуре", но это работало с моей предыдущей гарнитурой ВМР
 
