@@ -1,0 +1,52 @@
+---
+title: Обновление проектов в Unreal
+description: Общие сведения о шагах обновления версии и нерекомендуемых API в проектах Unreal.
+author: hferrone
+ms.author: v-hferrone
+ms.date: 11/23/2020
+ms.topic: article
+ms.localizationpriority: high
+keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, разработка, документация, руководства, функции, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, перенос, обновление
+ms.openlocfilehash: efad783ee199ed42c7355917a180855b3ec4f11b
+ms.sourcegitcommit: 09522ab15a9008ca4d022f9e37fcc98f6eaf6093
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96355767"
+---
+# <a name="upgrading-projects-in-unreal"></a><span data-ttu-id="61854-104">Обновление проектов в Unreal</span><span class="sxs-lookup"><span data-stu-id="61854-104">Upgrading projects in Unreal</span></span>
+
+<span data-ttu-id="61854-105">При обновлении до новой версии Unreal для нерекомендуемых функций будут отображаться предупреждения при компиляции схемы или упаковке проекта.</span><span class="sxs-lookup"><span data-stu-id="61854-105">When updating to a new version of Unreal, deprecated functions will show up as warnings when compiling the blueprint or packaging the project.</span></span>  <span data-ttu-id="61854-106">Функции считаются нерекомендуемыми, если существует новая функция, которую следует использовать вместо старой.</span><span class="sxs-lookup"><span data-stu-id="61854-106">Functions are deprecated when a new function has been added that should be used instead.</span></span> 
+
+## <a name="426-upgrades"></a><span data-ttu-id="61854-107">Обновления в версии 4.26</span><span class="sxs-lookup"><span data-stu-id="61854-107">4.26 upgrades</span></span>
+ 
+<span data-ttu-id="61854-108">В версии 4.26 все платформы дополненной и виртуальной реальности подверглись рефакторингу — были добавлены общие интерфейсы, а код приложения при этом сохранил независимость от платформы.</span><span class="sxs-lookup"><span data-stu-id="61854-108">In 4.26, all AR and VR platforms have been refactored to add common interfaces and keep application code platform agnostic.</span></span>  <span data-ttu-id="61854-109">Вследствие этого в проектах HoloLens, обновляемых до версии 4.26, количество предупреждений может превышать обычное.</span><span class="sxs-lookup"><span data-stu-id="61854-109">Because of this refactor, HoloLens projects updating to 4.26 may see more warnings than usual.</span></span>  <span data-ttu-id="61854-110">Обновление до новых API рекомендуется, чтобы упростить возможность переноса на другие платформы.</span><span class="sxs-lookup"><span data-stu-id="61854-110">Updating to the new APIs is recommended so the project can be more easily ported to other platforms.</span></span>
+
+<span data-ttu-id="61854-111">В предупреждающих сообщениях указывается, какая функция устарела и какую функцию следует использовать.</span><span class="sxs-lookup"><span data-stu-id="61854-111">Warning messages will show which function has been deprecated and indicate what function to use instead.</span></span>  <span data-ttu-id="61854-112">Все нерекомендуемые функции будут работать в этом выпуске, но в будущих выпусках они могут быть недоступны.</span><span class="sxs-lookup"><span data-stu-id="61854-112">All deprecated functions will continue to work for this release but may not work in future releases.</span></span>  <span data-ttu-id="61854-113">Нерекомендуемые функции также больше не будут выводиться при поиске функций для схемы.</span><span class="sxs-lookup"><span data-stu-id="61854-113">Deprecated functions will also no longer be listed when searching for functions in a blueprint.</span></span>
+
+![Схема функции Create Named ARPin](images/unreal-porting-img-01.png)
+
+### <a name="425-deprecations"></a><span data-ttu-id="61854-115">Нерекомендуемые функции из версии 4.25</span><span class="sxs-lookup"><span data-stu-id="61854-115">4.25 deprecations</span></span>
+
+| <span data-ttu-id="61854-116">Нерекомендуемая функция</span><span class="sxs-lookup"><span data-stu-id="61854-116">Deprecated function</span></span> | <span data-ttu-id="61854-117">Новая функция</span><span class="sxs-lookup"><span data-stu-id="61854-117">New function</span></span> |
+| --- | --- |
+| <span data-ttu-id="61854-118">CreateNamedARPin</span><span class="sxs-lookup"><span data-stu-id="61854-118">CreateNamedARPin</span></span> | ![Схема функции Pin Component](images/unreal-porting-img-02.png) |
+| <span data-ttu-id="61854-120">LoadWMRAnchorStoreARPins</span><span class="sxs-lookup"><span data-stu-id="61854-120">LoadWMRAnchorStoreARPins</span></span> | ![Схема функции Load ARPins from Local Store](images/unreal-porting-img-03.png) |
+| <span data-ttu-id="61854-122">LoadWMRAnchorSaveARPinToWMRAnchorStoreStoreARPins</span><span class="sxs-lookup"><span data-stu-id="61854-122">LoadWMRAnchorSaveARPinToWMRAnchorStoreStoreARPins</span></span> | ![Схема функции Save ARPin to Local Store](images/unreal-porting-img-04.png) |
+| <span data-ttu-id="61854-124">RemoveARPinFromWMRAnchorStore</span><span class="sxs-lookup"><span data-stu-id="61854-124">RemoveARPinFromWMRAnchorStore</span></span> | ![Схема функции Remove ARPin from Local Store](images/unreal-porting-img-05.png) |
+| <span data-ttu-id="61854-126">SetEnabledMixedRealityCamera</span><span class="sxs-lookup"><span data-stu-id="61854-126">SetEnabledMixedRealityCamera</span></span> | ![Схема функции Set Enabled XRCamera](images/unreal-porting-img-06.png) |
+| <span data-ttu-id="61854-128">ResizeMixedRealityCamera</span><span class="sxs-lookup"><span data-stu-id="61854-128">ResizeMixedRealityCamera</span></span> | ![Схема функции Resize XRCamera](images/unreal-porting-img-07.png) |
+| <span data-ttu-id="61854-130">StartCameraCapture</span><span class="sxs-lookup"><span data-stu-id="61854-130">StartCameraCapture</span></span> | ![Схема функции Toggle ARCapture для запуска захвата с камеры](images/unreal-porting-img-08.png) |
+| <span data-ttu-id="61854-132">StopCameraCapture</span><span class="sxs-lookup"><span data-stu-id="61854-132">StopCameraCapture</span></span> | ![Схема функции Toggle ARCapture для остановки захвата с камеры](images/unreal-porting-img-09.png) |
+| <span data-ttu-id="61854-134">StartQRCodeCapture</span><span class="sxs-lookup"><span data-stu-id="61854-134">StartQRCodeCapture</span></span> | ![Схема функции Toggle ARCapture для запуска захвата QR-кода](images/unreal-porting-img-10.png) |
+| <span data-ttu-id="61854-136">StopQRCodeCapture</span><span class="sxs-lookup"><span data-stu-id="61854-136">StopQRCodeCapture</span></span> | ![Схема функции Toggle ARCapture для остановки захвата QR-кода](images/unreal-porting-img-11.png) |
+| <span data-ttu-id="61854-138">Пространственное сопоставление ранее автоматически запускалось в версии 4.25, но в версии 4.26 его нужно включить.</span><span class="sxs-lookup"><span data-stu-id="61854-138">Spatial mapping previously automatically started in 4.25, but now needs to be toggled in 4.26.</span></span> | ![Схема функции Toggle ARCapture для включения пространственного сопоставления](images/unreal-porting-img-12.png) |
+| <span data-ttu-id="61854-140">ShowKeyboard</span><span class="sxs-lookup"><span data-stu-id="61854-140">ShowKeyboard</span></span> | <span data-ttu-id="61854-141">Удалена в версии 4.26, так как клавиатура отображается автоматически при наведении фокуса на текстовое мини-приложение.</span><span class="sxs-lookup"><span data-stu-id="61854-141">Removed in 4.26 since the keyboard automatically shows when a text widget is focused on.</span></span> |
+| <span data-ttu-id="61854-142">HideKeyboard</span><span class="sxs-lookup"><span data-stu-id="61854-142">HideKeyboard</span></span> | <span data-ttu-id="61854-143">Удалена в версии 4.26, так как клавиатура скрывается автоматически при смещении фокуса с текстового мини-приложения.</span><span class="sxs-lookup"><span data-stu-id="61854-143">Removed in 4.26 since the keyboard will automatically hide when a text widget is unfocused.</span></span> |
+| <span data-ttu-id="61854-144">SupportsHandTracking</span><span class="sxs-lookup"><span data-stu-id="61854-144">SupportsHandTracking</span></span> | ![Схема свойства Supports Hand Tracking](images/unreal-porting-img-13.png) |
+| <span data-ttu-id="61854-146">IsDisplayOpaque</span><span class="sxs-lookup"><span data-stu-id="61854-146">IsDisplayOpaque</span></span> | ![Схема свойства IsDisplayOpaque](images/unreal-porting-img-14.png) |
+| <span data-ttu-id="61854-148">GetHandJointTransform, GetPointerPoseInfo, GetControllerTrackingStatus</span><span class="sxs-lookup"><span data-stu-id="61854-148">GetHandJointTransform, GetPointerPoseInfo, GetControllerTrackingStatus</span></span> | ![Схема функции Get Motion Controller Data](images/unreal-porting-img-15.png) |
+| <span data-ttu-id="61854-150">GetVersionString</span><span class="sxs-lookup"><span data-stu-id="61854-150">GetVersionString</span></span> | ![Схема функции Get Version String](images/unreal-porting-img-16.png) |
+| <span data-ttu-id="61854-152">IsTrackingAvailable</span><span class="sxs-lookup"><span data-stu-id="61854-152">IsTrackingAvailable</span></span> | ![Схема свойства IsTrackingAvailable](images/unreal-porting-img-17.png) |
+| <span data-ttu-id="61854-154">IsButtonClicked, IsButtonDown, IsGrasped, IsSelectPressed</span><span class="sxs-lookup"><span data-stu-id="61854-154">IsButtonClicked, IsButtonDown, IsGrasped, IsSelectPressed</span></span> | <span data-ttu-id="61854-155">Используйте систему входных действий в Unreal.</span><span class="sxs-lookup"><span data-stu-id="61854-155">Use Unreal’s input action system.</span></span> |
+| <span data-ttu-id="61854-156">SetFocusPointForFrame</span><span class="sxs-lookup"><span data-stu-id="61854-156">SetFocusPointForFrame</span></span> | <span data-ttu-id="61854-157">Удалена в версии 4.26.</span><span class="sxs-lookup"><span data-stu-id="61854-157">Removed in 4.26.</span></span>  <span data-ttu-id="61854-158">Ранее использовалась для повторного проецирования при удаленном взаимодействии, которое теперь поддерживает повторное проецирование глубины.</span><span class="sxs-lookup"><span data-stu-id="61854-158">Previously this was used for reprojection when remoting, which now supports depth reprojection.</span></span> |
