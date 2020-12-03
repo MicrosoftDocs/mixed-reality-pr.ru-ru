@@ -7,18 +7,21 @@ ms.date: 07/01/2020
 ms.topic: tutorial
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens 2, Azure, разработка Azure, пространственные привязки, смешанная реальность, разработка, функции, новый проект, эмулятор, документация, руководства, голограммы, разработка игр, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 05a4b221961fa9b3a150eb8ef9f8bd2f77f5b955
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: b464292b606f6c375fe84a50867cac770cd8f001
+ms.sourcegitcommit: 09522ab15a9008ca4d022f9e37fcc98f6eaf6093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94679873"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96354552"
 ---
 # <a name="azure-spatial-anchors-in-unreal"></a>Пространственные привязки Azure в Unreal
 
 ## <a name="overview"></a>Обзор
 
 Пространственные привязки Azure — это служба Microsoft Mixed Reality, позволяющая устройствам дополненной реальности обнаруживать, публиковать и сохранять точки привязок в физическом мире. В документации ниже приведены инструкции по интеграции службы "Пространственные привязки Azure" в проект Unreal. Дополнительные сведения см. на странице [службы "Пространственные привязки Azure"](https://azure.microsoft.com/services/spatial-anchors/).
+
+> [!NOTE]
+> Unreal Engine 4.26 теперь включает подключаемые модули для поддержки ARKit и ARCore, если вы разрабатываете приложения для iOS или Android.
 
 > [!IMPORTANT]
 > Локальные привязки хранятся на устройстве, а пространственные привязки Azure сохраняются в облаке. Если вам нужно хранить привязки локально на устройстве, соответствующие инструкции приведены в документе по [локальным пространственным привязкам](unreal-spatial-anchors.md). Обратите внимание, что вы можете использовать локальные привязки и привязки Azure в одном проекте без каких-либо конфликтов.

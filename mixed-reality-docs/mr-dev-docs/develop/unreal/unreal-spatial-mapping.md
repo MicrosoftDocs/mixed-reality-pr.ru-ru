@@ -7,16 +7,15 @@ ms.date: 06/10/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, разработка, функции, документация, руководства, голограммы, пространственное сопоставление, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: cd7e99230809c9d98f732e0dfa1f0b86d05c4365
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 878eae5f5fd0b7a1630511faa23c1477455ed988
+ms.sourcegitcommit: 09522ab15a9008ca4d022f9e37fcc98f6eaf6093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94678813"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96354388"
 ---
 # <a name="spatial-mapping-in-unreal"></a>Пространственное сопоставление в Unreal
 
-## <a name="overview"></a>Обзор
 Пространственное сопоставление позволяет помещать объекты на поверхности в физическом мире, показывая мир вокруг устройства HoloLens. За счет этого голограммы кажутся пользователю более реалистичными. Кроме того, пространственное сопоставление обеспечивает привязку объектов в мире пользователя, пользуясь признаками глубины из реального мира. Это помогает создать у пользователя впечатление, что голограммы физически находятся в одном с ним пространстве. Если голограммы будут висеть в воздухе или перемещаться, ощущения пользователя будут не столь реалистичными. При размещении объектов в пространстве нужно по возможности ориентироваться на комфорт.
 
 Дополнительные сведения о качестве пространственного сопоставления, размещении объектов, загораживании, отрисовке и других аспектах см. в разделе справки "[Пространственное сопоставление](../../design/spatial-mapping.md)".
@@ -26,6 +25,8 @@ ms.locfileid: "94678813"
 Чтобы включить пространственное сопоставление для HoloLens:
 - Выберите **Edit > Project Settings** (Правка > Параметры проекта) и прокрутите вниз до раздела **Platforms** (Платформы).    
     + Выберите **HoloLens** и установите флажок **Spatial Perception** (Пространственное восприятие).
+
+![Снимок экрана: параметры проекта HoloLens с выделенным параметром пространственного восприятия](images/unreal-spatial-mapping-img-01.png)
 
 Чтобы включить пространственное сопоставление (по умолчанию оно выключено) и отладить сетку **MRMesh** в игре для HoloLens:
 1. Откройте компонент **ARSessionConfig** и разверните раздел **ARSettings > World Mapping** (Параметры дополненной реальности > Сопоставление мира). 
@@ -48,6 +49,13 @@ ms.locfileid: "94678813"
     + Если предполагается, что приложение будет выполняться в обширном пространстве, следует указать в этом поле достаточно большое значение, чтобы оно лучше соответствовало пространству реального мира.  Если же приложению нужны голограммы только на поверхностях рядом с пользователем, значение в этом поле может быть небольшим. По мере перемещения пользователя по игровому миру вместе с ним перемещается и пространство для пространственных сопоставлений. 
 
 ## <a name="working-with-mrmesh"></a>Работа с сеткой MRMesh
+
+Сначала вам нужно запустить пространственное сопоставление:
+
+![Схема функции ToggleARCapture с выделенным типом захвата Spatial Mapping (пространственное сопоставление)](images/unreal-spatial-mapping-img-02.png)
+
+После захвата пространственного сопоставления для пространства мы рекомендуем отключить его.  Пространственное сопоставление может быть выполнено после определенного периода времени или после того, как лучи, выпущенные во всех направлениях, возвратят столкновения с MRMesh.
+
 Чтобы получить доступ к сетке **MRMesh** во время выполнения:
 1. Добавьте к субъекту Blueprint компонент **ARTrackableNotify**. 
 
@@ -64,21 +72,53 @@ ms.locfileid: "94678813"
 
 ![Пример пространственных привязок](images/unreal-spatialmapping-example.PNG)
 
-В коде на C++ можно подписаться на делегат `OnTrackableAdded`, позволяющий получить объект `ARTrackedGeometry`, как только он станет доступным. Пример соответствующего кода показан ниже. 
+## <a name="spatial-mapping-in-c"></a>Пространственное сопоставление в C++
 
-> [!IMPORTANT]
-> Файл build.cs проекта **ДОЛЖЕН** содержать модуль **AugmentedReality** в списке **PublicDependencyModuleNames**.
-> - Через него включаются заголовочные файлы **ARBlueprintLibrary.h** и **MRMeshComponent.h**, что позволяет исследовать компонент **MRMesh** объекта **UARTrackedGeometry**. 
+В файле build.cs игры добавьте **AugmentedReality** и **MRMesh** в список PublicDependencyModuleNames:
 
-![Код C++ для событий пространственных привязок](images/unreal-spatialmapping-examplecode.PNG)
+```cpp
+PublicDependencyModuleNames.AddRange(
+    new string[] {
+        "Core",
+        "CoreUObject",
+        "Engine",
+        "InputCore",    
+        "EyeTracker",
+        "AugmentedReality",
+        "MRMesh"
+});
+```
 
-Пространственное сопоставление — не единственный тип данных, которые передаются в качестве поверхностей через объекты **ARTrackedGeometry**. Чтобы убедиться, что данная геометрия относится к пространственному сопоставлению, можно проверить, что `EARObjectClassification` имеет значение `World`. 
+Чтобы получать доступ к MRMesh, подпишитесь на делегатов **OnTrackableAdded**:
 
-Существуют аналогичные делегаты для событий обновления и удаления: 
-- `AddOnTrackableUpdatedDelegate_Handle` 
-- `AddOnTrackableRemovedDelegate_Handle`. 
+```cpp
+#include "ARBlueprintLibrary.h"
+#include "MRMeshComponent.h"
 
-Полный список событий можно найти в API объекта [UARTrackedGeometry](https://docs.unrealengine.com/API/Runtime/AugmentedReality/UARTrackedGeometry/index.html).
+void AARTrackableMonitor::BeginPlay()
+{
+    Super::BeginPlay();
+
+    // Subscribe to Tracked Geometry delegates
+    UARBlueprintLibrary::AddOnTrackableAddedDelegate_Handle(
+        FOnTrackableAddedDelegate::CreateUObject(this, &AARTrackableMonitor::OnTrackableAdded)
+    );
+}
+
+void AARTrackableMonitor::OnTrackableAdded(UARTrackedGeometry* Added)
+{
+    // When tracked geometry is received, check that it's from spatial mapping
+    if(Added->GetObjectClassification() == EARObjectClassification::World)
+    {
+        UMRMeshComponent* MRMesh = Added->GetUnderlyingMesh();
+    }
+}
+```
+
+> [!NOTE]
+> Также существуют аналогичные делегаты для обновленных и удаленных событий: **AddOnTrackableUpdatedDelegate_Handle** и **AddOnTrackableRemovedDelegate_Handle** соответственно.
+>
+> Полный список событий можно найти в API объекта [UARTrackedGeometry](https://docs.unrealengine.com/API/Runtime/AugmentedReality/UARTrackedGeometry/index.html).
 
 ## <a name="see-also"></a>См. также статью
 * [Пространственное сопоставление](../../design/spatial-mapping.md)

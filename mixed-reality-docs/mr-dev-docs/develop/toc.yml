@@ -8,13 +8,15 @@
   href: install-the-tools.md
 - name: Перенос приложений
   items:
-    - name: "Подготовка существующего приложения для использования в HoloLens\_2"
-      href: unity/mrtk-porting-guide.md
-    - name: Руководство по переносу для иммерсивных приложений
+    - name: Общие сведения о переносе
+      href: porting-apps/porting-overview.md
+    - name: Перенос приложений HoloLens (1-го поколения) в HoloLens 2
+      href: porting-apps/porting-hl1-hl2.md
+    - name: Перенос приложений VR в Windows Mixed Reality
       href: porting-apps/porting-guides.md
-    - name: Обновление для SteamVR
+    - name: Обновление приложений SteamVR для Windows Mixed Reality
       href: porting-apps/updating-your-steamvr-application-for-windows-mixed-reality.md
-    - name: Обновление двухмерных приложений UWP для смешанной реальности
+    - name: 'Обновление приложений UWP, работающих в двухмерном режиме, для Windows Mixed Reality'
       href: porting-apps/building-2d-apps.md
 - name: Unity
   items:
@@ -26,8 +28,6 @@
           href: unity/mrtk-getting-started.md
         - name: Настройка проекта Unity для Windows Mixed Reality
           href: unity/configure-unity-project.md
-        - name: "Подготовка существующего приложения для использования в HoloLens\_2"
-          href: unity/mrtk-porting-guide.md
     - name: Учебники
       items:
         - name: Обзор
@@ -399,7 +399,11 @@
         - name: Holographic Remoting Player
           href: platform-capabilities-and-apis/holographic-remoting-player.md
         - name: Создание приложения с голографическим удаленным взаимодействием
-          href: platform-capabilities-and-apis/holographic-remoting-create-host.md
+          items:
+            - name: API HolographicSpace
+              href: platform-capabilities-and-apis/holographic-remoting-create-remote-wmr.md
+            - name: API OpenXR
+              href: platform-capabilities-and-apis/holographic-remoting-create-remote-openxr.md
         - name: Создание пользовательского проигрывателя для голографического удаленного взаимодействия
           href: platform-capabilities-and-apis/holographic-remoting-create-player.md
         - name: Пользовательские каналы данных с голографическим удаленным взаимодействием
