@@ -7,12 +7,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, устранение неполадок, ошибки, Справка, поддержка, производительность
 appliesto:
 - Windows 10
-ms.openlocfilehash: 7712641bad36b8759b9237abf14593f8c121e81b
-ms.sourcegitcommit: 3eb4c1a79e9173a5c9b6d2284f34c0bceced402c
+ms.openlocfilehash: 0c0bc508772fe32af9edc21ca62ba5e46125fe88
+ms.sourcegitcommit: 9c640c96e2270ef69edd46f1b12acb00b373554d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96501712"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96578619"
 ---
 # <a name="hp-reverb-g2-frequently-asked-questions"></a>Часто задаваемые вопросы о команде HP
 
@@ -57,6 +57,10 @@ HP рекомендует:
 ## <a name="my-hp-motion-controller-joystick-will-sometimes-stick-to-one-side"></a>Джойстик устройства HP Motion может иногда работать на одной стороне
 
 Эта проблема устранена путем полного нажатия джойстика до тех пор, пока он не нажмет его, и он будет свободно перемещаться.
+
+## <a name="others-state-i-am-very-loud-or-that-my-audio-is-clipping-while-i-am-using-the-microphone-with-some-applications"></a>Другие состояния я очень громко или что мой звук обрезается, пока я использую микрофон с некоторыми приложениями
+
+Уровни громкости входных данных автоматически устанавливаются в 100%, когда компьютер Windows впервые распознает микрофон с переглаголом G2. Из-за переглаголов высококачественных микрофонов, учет вводимых данных по умолчанию работает намного выше, чем в Windows 10. Рекомендуется задать входной уровень переглагола G2, начиная с 50%, и масштабировать его. Оптимальный параметр зависит от пользователя, особенно при использовании приложений, у которых нет параметра микрофона "автоматическое усиление". Примерами приложений с "автоматической усилением" являются Skype, Zoom, Teams и Cisco WebEx, но не все приложения для социальных сетей или широковещательных приложений используют эту функцию.
 
 ## <a name="the-mixed-reality-portal-says-cant-run-mixed-reality-on-this-headset-but-this-worked-fine-with-my-previous-wmr-headset"></a>На портале Mixed Reality появляется сообщение "не удается запустить смешанную реальность на этой гарнитуре", но это работало с моей предыдущей гарнитурой ВМР
 

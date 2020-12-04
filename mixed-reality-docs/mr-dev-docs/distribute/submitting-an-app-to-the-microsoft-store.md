@@ -6,14 +6,17 @@ ms.author: mazeller
 ms.date: 11/13/2020
 ms.topic: article
 keywords: Microsoft Store, HoloLens, впечатляющие головные телефоны, приложение, UWP, отправка, отправка, фильтры, метаданные, требования к системе, ключевые слова, wack, сертификация, упаковка, appx, товары, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, головной компьютер виртуальной реальности
-ms.openlocfilehash: b5d25817afeb2d8d970d329c802b7eaabcdf7f35
-ms.sourcegitcommit: 4f3ef057a285be2e260615e5d6c41f00d15d08f8
+ms.openlocfilehash: 1d37337279e46e5f0f9d5cea82813af8de9d0f76
+ms.sourcegitcommit: 9c640c96e2270ef69edd46f1b12acb00b373554d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94703120"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96578903"
 ---
 # <a name="submitting-an-app-to-the-microsoft-store"></a>Отправка приложения в Microsoft Store
+
+> [!IMPORTANT]
+> Если вы отправляете нереальное приложение, перед продолжением обязательно следуйте **[инструкциям по публикации](../develop/unreal/unreal-publishing-to-store.md)** .
 
 И [HoloLens](../hololens-hardware-details.md) , и ПК с Windows 10, постепенные использовать [иммерсивное головной телефон](../discover/immersive-headset-hardware-details.md) , универсальная платформа Windows приложения. При отправке приложения, поддерживающего HoloLens, PC или и того, и другого, отправка приложений осуществляется через [Центр партнеров](https://partner.microsoft.com/dashboard).
 
