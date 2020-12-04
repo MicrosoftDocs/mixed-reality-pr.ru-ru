@@ -1,6 +1,6 @@
 - name: Введение в разработку приложений смешанной реальности
   href: development.md
-- name: Oблачныe службы Azure
+- name: Обзор облачных служб смешанной реальности Azure
   href: mixed-reality-cloud-services.md
 - name: Общие сведения об обучении смешанной реальности
   href: mr-learning-overview.md
