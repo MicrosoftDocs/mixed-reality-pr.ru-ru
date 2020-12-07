@@ -1,11 +1,15 @@
 - name: Введение в разработку приложений смешанной реальности
   href: development.md
-- name: Обзор облачных служб смешанной реальности Azure
-  href: mixed-reality-cloud-services.md
-- name: Общие сведения об обучении смешанной реальности
-  href: mr-learning-overview.md
 - name: Установка инструментов
   href: install-the-tools.md
+- name: Начало работы
+  items:
+    - name: Обзор облачных служб смешанной реальности Azure
+      href: mixed-reality-cloud-services.md
+    - name: Общие сведения об обучении смешанной реальности
+      href: mr-learning-overview.md
+    - name: Примеры приложений и возможностей
+      href: features-and-samples.md
 - name: Перенос приложений
   items:
     - name: Общие сведения о переносе
@@ -216,8 +220,6 @@
           href: unity/unity-reverb-g2-controllers.md
     - name: Примеры приложений
       items:
-        - name: Обзор
-          href: unity/samples.md
         - name: "HoloLens\_2"
           items:
             - name: Surfaces
@@ -300,8 +302,6 @@
           href: unreal/unreal-reverb-g2-controllers.md
     - name: Примеры приложений
       items:
-        - name: Обзор
-          href: unreal/unreal-samples.md
         - name: Kippy's Escape
           href: unreal/unreal-kippys-escape.md
     - name: Развертывание и производительность
@@ -396,6 +396,8 @@
           href: platform-capabilities-and-apis/mixed-reality-capture-for-developers.md
         - name: 'Студия съемки смешанной реальности: принцип работы'
           href: platform-capabilities-and-apis/how-it-works-mixed-reality-capture-studios.md
+        - name: "Установка PIX для HoloLens\_2"
+          href: platform-capabilities-and-apis/installing-pix-hololens.md
     - name: Голографическое удаленное взаимодействие
       items:
         - name: Holographic Remoting Player
