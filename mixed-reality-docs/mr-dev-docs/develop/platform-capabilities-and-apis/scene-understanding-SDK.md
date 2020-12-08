@@ -6,12 +6,12 @@ ms.author: szymons
 ms.date: 07/08/2019
 ms.topic: article
 keywords: Основные сведения о сцене, пространственное сопоставление, Windows Mixed Reality, Unity
-ms.openlocfilehash: 7541ab38cd8c90e774614af5ea457e5636ee66fe
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: 731a4dfd0b714f22f25c0818de82680d4c576a27
+ms.sourcegitcommit: d11275796a1f65c31dd56b44a8a1bbaae4d7ec76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91692036"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96761766"
 ---
 # <a name="scene-understanding-sdk-overview"></a>Общие сведения о пакете SDK для сцены
 
@@ -119,7 +119,7 @@ ms.locfileid: "91692036"
 <tr>
 <th>сценеобжекткинд</th> <th>Описание</th>
 </tr>
-<tr><td>История</td><td>Известно, что Сценеобжект <b>не</b> является одним из других распознаваемых видов объекта сцены. Этот класс не следует путать с неизвестным, где фон может не быть стенным, этажным, потолком и т. д. Хотя эта категория неизвестна, она еще не классифицирована.</b></td></tr>
+<tr><td>Фон</td><td>Известно, что Сценеобжект <b>не</b> является одним из других распознаваемых видов объекта сцены. Этот класс не следует путать с неизвестным, где фон может не быть стенным, этажным, потолком и т. д. Хотя эта категория неизвестна, она еще не классифицирована.</b></td></tr>
 <tr><td>Брандмауэр</td><td>Физическая стенка. Предполагается, что стены являются неперемещаемыми структурами окружающей среды.</td></tr>
 <tr><td>Этаж</td><td>Полs — это любые поверхности, на которых может пройти один проход. Примечание. лестницы не являются этажами. Кроме того, обратите внимание, что в этом этаже предполагается любая неанализируемойная поверхность и, следовательно, нет явного предположений в единственном этаже. Многоуровневые структуры, пандуси и т. д. Все категории должны классифицироваться как пол.</td></tr>
 <tr><td>Ceiling</td><td>Верхняя поверхность комнаты.</td></tr>
@@ -135,9 +135,9 @@ ms.locfileid: "91692036"
 
 #### <a name="winding-order-and-coordinate-systems"></a>Порядок поворота и системы координат
 
-Все сетки, созданные при понимании сцены, должны возвращать сетки в правой системе координат, используя порядок поворота по часовой стрелке. 
+Все сетки, созданные при понимании сцены, должны возвращать сетки в Right-Handedной системе координат, используя порядок поворота по часовой стрелке. 
 
-Примечание. сборки ОС, выпущенные до. 191105, могут иметь известную ошибку, когда "мировые" сетки возвращались в порядке поворота по часовой стрелке, который впоследствии был исправлен.
+Примечание. сборки ОС, выпущенные до. 191105, могут иметь известную ошибку, когда "мировые" сетки возвращались в Counter-Clockwise порядке обмотки, которая впоследствии была исправлена.
 
 ### <a name="scenequad"></a>сценекуад
 
@@ -222,7 +222,7 @@ foreach (var sceneObject in myScene.SceneObjects)
 
 ### <a name="component-update-and-re-finding-components"></a>Обновление компонентов и их повторное обнаружение
 
-Существует другая функция, извлекающая компоненты в сцене с именем ***финдкомпонент*** . Эта функция полезна при обновлении объектов отслеживания и их поиске в последующих сценах. Следующий код вычислит новую сцену относительно предыдущей сцены, а затем найдет этаж в новой сцене.
+Существует другая функция, извлекающая компоненты в сцене с именем **_финдкомпонент_* _. Эта функция полезна при обновлении объектов отслеживания и их поиске в последующих сценах. Следующий код вычислит новую сцену относительно предыдущей сцены, а затем найдет этаж в новой сцене.
 
 ```cs
 // Compute a new scene, and tell the system that we want to compute relative to the previous scene
@@ -239,7 +239,7 @@ if (firstFloor != null)
 
 ## <a name="accessing-meshes-and-quads-from-scene-objects"></a>Доступ к сеткам и четырем из объектов сцены
 
-После обнаружения Сценеобжектс приложение, скорее всего, захочет получить доступ к данным, содержащимся в таких потерях. Доступ к этим данным осуществляется с помощью свойств « ***четыре*** » и « ***сетки*** ». Следующий код будет перечислять все четыре и сетки нашего объекта Floor.
+После обнаружения Сценеобжектс приложение, скорее всего, захочет получить доступ к данным, содержащимся в таких потерях. Доступ к этим данным осуществляется с помощью свойств « _*_четыре_*_ » и « _*_сетки_*_ ». Следующий код будет перечислять все четыре и сетки нашего объекта Floor.
 
 ```cs
 
@@ -263,53 +263,95 @@ foreach (var mesh in firstFloor.Meshes)
 
 ### <a name="dealing-with-transforms"></a>Работа с преобразованиями
 
-Понимание сцены предоставило намеренную попытку выполнить согласование с традиционными представлениями трехмерной сцены при работе с преобразованиями. Таким образом, каждая сцена ограничена одной системой координат, похожей на наиболее распространенные трехмерные представления среды. Сценеобжектс каждый предоставляет свое расположение в виде положения и ориентации в пределах этой системы координат. Если ваше приложение работает с сценами, которые дотягивают ограничение на один источник, можно привязать Сценеобжектс к Спатиаланчорс или создать несколько сцен и объединить их вместе, но для простоты предполагается, что ватертигхт сцены существуют в собственном источнике, локализованном одним NodeId, определенным в сцене. Оригинспатиалграфнодеид.
+Понимание сцены предоставило намеренную попытку выполнить согласование с традиционными представлениями трехмерной сцены при работе с преобразованиями. Таким образом, каждая сцена ограничена одной системой координат, похожей на наиболее распространенные трехмерные представления среды. Сценеобжектс каждый из них предоставляет свое расположение относительно этой системы координат. Если ваше приложение работает с сценами, которые дотягивают ограничение на один источник, можно привязать Сценеобжектс к Спатиаланчорс или создать несколько сцен и объединить их вместе, но для простоты предполагается, что ватертигхт сцены существуют в собственном источнике, локализованном одним NodeId, определенным в сцене. Оригинспатиалграфнодеид.
 
-В следующем коде Unity, например, показано, как использовать восприятие Windows и API Unity для совмещения систем координат. Дополнительные сведения о [SpatialGraphInteropPreview](https://docs.microsoft.com//uwp/api/windows.perception.spatial.preview.spatialgraphinteroppreview) получении спатиалкурдинатесистем, которые соответствуют источнику мира Unity, а также [SpatialCoordinateSystem](https://docs.microsoft.com//uwp/api/windows.perception.spatial.spatialcoordinatesystem) метод расширения для преобразования между и, см. в разделе спатиалкурдинатесистем и спатиалграфинтероппревиев. подробные сведения о API восприятия Windows и [собственные объекты смешанной реальности в Unity](https://docs.microsoft.com//windows/mixed-reality/unity-xrdevice-advanced) . `.ToUnity()` `System.Numerics.Matrix4x4` `UnityEngine.Matrix4x4`
+В следующем коде Unity, например, показано, как использовать восприятие Windows и API Unity для совмещения систем координат. Дополнительные сведения о получении Спатиалкурдинатесистем, которые соответствуют источнику мира Unity, см. в статьях [спатиалкурдинатесистем](https://docs.microsoft.com//uwp/api/windows.perception.spatial.spatialcoordinatesystem) и [спатиалграфинтероппревиев](https://docs.microsoft.com//uwp/api/windows.perception.spatial.preview.spatialgraphinteroppreview) . подробные сведения о API восприятия Windows и [собственные объекты смешанной реальности в Unity](https://docs.microsoft.com//windows/mixed-reality/unity-xrdevice-advanced) .
 
 ```cs
-public class SceneRootComponent : MonoBehavior
+private System.Numerics.Matrix4x4? GetSceneToUnityTransformAsMatrix4x4(SceneUnderstanding.Scene scene)
 {
-    public SpatialCoordinateSystem worldOrigin;
-    public Scene scene;
-    SpatialCoordinateSystem sceneOrigin;
-    
-    void Start()
-    {
-        // Initialize a SpatialCoordinateSystem for the scene's node in the system's Spatial Graph.
-        scene.origin = SpatialGraphInteropPreview.CreateCoordinateSystemForNode(scene.OriginSpatialGraphNodeId);
-    }
-    
-    void Update()
-    {
-        // Try to get the current transform of the scene's spatial graph node.
-        // This may not be available, e.g. when tracking has been lost.
-        var sceneToWorld = sceneOrigin.TryGetTransformTo(worldOrigin);
-        if (sceneToWorld.HasValue)
-        {
-            // Convert the transform to Unity numerics and update the game object.
-            var sceneToWorldUnity = sceneToWorld.Value.ToUnity();
-            this.gameObject.transform.SetPositionAndRotation(sceneToWorldUnity.GetColumn(3), sceneToWorldUnity.rotation);
-        }
-    }
+
+      System.Numerics.Matrix4x4? sceneToUnityTransform = System.Numerics.Matrix4x4.Identity;
+
+      Windows.Perception.Spatial.SpatialCoordinateSystem sceneCoordinateSystem = Microsoft.Windows.Perception.Spatial.Preview.SpatialGraphInteropPreview.CreateCoordinateSystemForNode(scene.OriginSpatialGraphNodeId);
+      HolograhicFrameData holoFrameData =  Marshal.PtrToStructure<HolograhicFrameData>(UnityEngine.XR.XRDevice.GetNativePtr());
+      Windows.Perception.Spatial.SpatialCoordinateSystem unityCoordinateSystem = Microsoft.Windows.Perception.Spatial.SpatialCoordinateSystem.FromNativePtr(holoFrameData.ISpatialCoordinateSystemPtr);
+
+      sceneToUnityTransform = sceneCoordinateSystem.TryGetTransformTo(unityCoordinateSystem);
+
+      if(sceneToUnityTransform != null)
+      {
+          sceneToUnityTransform = ConvertRightHandedMatrix4x4ToLeftHanded(sceneToUnityTransform.Value);
+      }
+      else
+      {
+          return null;
+      }
+
+    return sceneToUnityTransform;
 }
 ```
 
-`SceneObject`У каждого есть `Position` свойство и, `Orientation` которое можно использовать для размещения соответствующего содержимого относительно источника содержащего `Scene` . Например, в следующем примере предполагается, что игра является дочерней по отношению к корню сцены и назначает ее локальную точку и поворот в соответствии с заданным `SceneObject` :
+Каждый `SceneObject` из них имеет преобразование, которое затем применяется к этому объекту. В Unity преобразуются в правильные координаты и назначаются локальные преобразования следующим образом:
 
 ```cs
-void SetLocalTransformFromSceneObject(GameObject gameObject, SceneObject sceneObject)
+private System.Numerics.Matrix4x4 ConvertRightHandedMatrix4x4ToLeftHanded(System.Numerics.Matrix4x4 matrix)
 {
-    gameObject.transform.localPosition = sceneObject.Position.ToUnity();
-    gameObject.transform.localRotation = sceneObject.Orientation.ToUnity());
+    matrix.M13 = -matrix.M13;
+    matrix.M23 = -matrix.M23;
+    matrix.M43 = -matrix.M43;
+
+    matrix.M31 = -matrix.M31;
+    matrix.M32 = -matrix.M32;
+    matrix.M34 = -matrix.M34;
+
+    return matrix;
 }
+
+ private void SetUnityTransformFromMatrix4x4(Transform targetTransform, System.Numerics.Matrix4x4 matrix, bool updateLocalTransformOnly = false)
+ {
+    if(targetTransform == null)
+    {
+        return;
+    }
+
+    Vector3 unityTranslation;
+    Quaternion unityQuat;
+    Vector3 unityScale;
+
+    System.Numerics.Vector3 vector3;
+    System.Numerics.Quaternion quaternion;
+    System.Numerics.Vector3 scale;
+
+    System.Numerics.Matrix4x4.Decompose(matrix, out scale, out quaternion, out vector3);
+
+    unityTranslation = new Vector3(vector3.X, vector3.Y, vector3.Z);
+    unityQuat        = new Quaternion(quaternion.X, quaternion.Y, quaternion.Z, quaternion.W);
+    unityScale       = new Vector3(scale.X, scale.Y, scale.Z);
+
+    if(updateLocalTransformOnly)
+    {
+        targetTransform.localPosition = unityTranslation;
+        targetTransform.localRotation = unityQuat;
+    }
+    else
+    {
+        targetTransform.SetPositionAndRotation(unityTranslation, unityQuat);
+    }
+}
+
+// Assume we have an SU object called suObject and a unity equivalent unityObject
+
+System.Numerics.Matrix4x4 converted4x4LocationMatrix = ConvertRightHandedMatrix4x4ToLeftHanded(suObject.GetLocationAsMatrix());
+SetUnityTransformFromMatrix4x4(unityObject.transform, converted4x4LocationMatrix, true);
+        
 ```
 
 ### <a name="quad"></a>Четырехъядерный
 
 Четыре из них были разработаны для упрощения сценариев размещения 2D-файлов и должны рассматриваться как расширения для элементов UX в двумерных холстах. Хотя четыре компонента являются компонентами Сценеобжектс и могут быть визуализированы в трехмерном виде, четыре интерфейса API предполагают, что четыре структуры являются 2D-структурами. Они предлагают такие сведения, как экстент, форма и предоставление API для размещения.
 
-Четыре имеют прямоугольные экстенты, но они представляют собой произвольные геоповерхности. Чтобы включить размещение на этих 2D-поверхностях, взаимодействующих с четырьмя трехмерными средами, можно использовать служебные программы для обеспечения этого взаимодействия. В настоящее время понятие сцены предоставляет две такие функции: **финдцентермостплацемент** и **жетокклусионмаск** . Финдцентермостплацемент — это интерфейс API высокого уровня, который определяет положение на самом большом месте, где может быть размещен объект, и пытается найти лучшее место для объекта, гарантируя, что ограничивающий прямоугольник будет находиться на базовой поверхности.
+Четыре имеют прямоугольные экстенты, но они представляют собой произвольные геоповерхности. Чтобы включить размещение на этих 2D-поверхностях, взаимодействующих с четырьмя трехмерными средами, можно использовать служебные программы для обеспечения этого взаимодействия. В настоящее время понятие сцены предоставляет две такие функции: _ *финдцентермостплацемент** и **жетсурфацемаск**. Финдцентермостплацемент — это интерфейс API высокого уровня, который определяет положение на самом большом месте, где может быть размещен объект, и пытается найти лучшее место для объекта, гарантируя, что ограничивающий прямоугольник будет находиться на базовой поверхности.
 
 > [!NOTE]
 > Координаты выходных данных задаются относительно четырех в ««Quad» места с верхним левым углом (x = 0, y = 0), точно так же, как и с другими типами Rect Windows. Не забудьте принять это в учетную запись при работе с источниками собственных объектов. 
@@ -372,7 +414,11 @@ mesh.GetVertexPositions(positions);
 
 Буферы индексов и вершин должны быть >= количество индексов или вершин, но в противном случае можно изменить размер произвольного размера, допуская эффективное использование памяти.
 
-## <a name="developing-with-scene-understandings"></a>Разработка с использованием сцен
+### <a name="collidermesh"></a>коллидермеш
+
+Объекты сцены обеспечивают доступ к сетке и данным в виде сетки через сетки и свойства Коллидермешес. Эти сетки всегда будут соответствовать друг другу, то есть индекс и'с свойства "сетки" представляет тот же жеометрих, что и и'с индекс свойства Коллидермешес. Если среда выполнения или объект поддерживает сетки гуаратид, вы получаете наименьший многоугольник, приближение с наибольшим порядковым номером и женралли рекомендуется использовать Коллидермешес везде, где приложение будет использовать конфликты. Если система не поддерживает конфликты, объект сетки, возвращаемый в Коллидермешес, будет таким же, как и сетка, уменьшающая ограничения памяти.
+
+## <a name="developing-with-scene-understanding"></a>Общие сведения о разработке с использованием сцены
 
 На этом этапе вы должны понимать основные строительные блоки сцены, посвященные среде выполнения и пакету SDK. Основная часть мощности и сложности лежит в шаблонах доступа, взаимодействии с трехмерными платформами и средствах, которые могут быть написаны поверх этих API для выполнения более сложных задач, таких как пространственный планирование, анализ комнаты, навигация, физика и т. д. Мы надеемся, что они записываются в примеры, которые будут надеяться вам в правильном направлении. Если у вас есть образцы или сценарии, которые мы не используем, сообщите нам, и мы попытаемся попытаться документировать или обменять нужные объекты.
 
