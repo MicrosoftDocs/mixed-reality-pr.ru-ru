@@ -3,15 +3,15 @@ title: Общие сведения о переносе
 description: Общие сведения о различных вариантах переноса для переноса существующих приложений в смешанную реальность.
 author: hferrone
 ms.author: v-hferrone
-ms.date: 10/02/2020
+ms.date: 12/9/2020
 ms.topic: article
 keywords: Перенос, Unity, по промежуточного слоя, ядро, UWP, Win32
-ms.openlocfilehash: 074e0792a5ed43bb56b8f337613234efbd166eb7
-ms.sourcegitcommit: 9664bcc10ed7e60f7593f3a7ae58c66060802ab1
+ms.openlocfilehash: 1ec03610dd26e9f75162795cbdded77a8e0189ce
+ms.sourcegitcommit: f2782d0925b2075fdaa0a4ecdef3dd4f0b4e1e99
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96443542"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96925831"
 ---
 # <a name="porting-overview"></a>Общие сведения о переносе
 

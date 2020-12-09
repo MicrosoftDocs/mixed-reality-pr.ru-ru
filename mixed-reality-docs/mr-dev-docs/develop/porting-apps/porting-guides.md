@@ -3,15 +3,15 @@ title: Перенос приложений VR в Windows Mixed Reality
 description: Пошаговое руководство, объясняющее, как перенести существующее иммерсивное приложение на Windows Mixed Reality.
 author: JBrentJ
 ms.author: alexturn
-ms.date: 07/07/2020
+ms.date: 12/9/2020
 ms.topic: article
 keywords: порт, Unity, Нереал, по промежуточного слоя, ядро, UWP, Win32, перенос, 1-й Gen, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, миграция, Windows 10, сопоставление входных данных
-ms.openlocfilehash: aa9d45a4413fd8e0f5c7eec61f830635c2db6f4b
-ms.sourcegitcommit: 9664bcc10ed7e60f7593f3a7ae58c66060802ab1
+ms.openlocfilehash: 9f3e064c4462fc3d12a23bd94885476bcd2f9466
+ms.sourcegitcommit: f2782d0925b2075fdaa0a4ecdef3dd4f0b4e1e99
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96443673"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96925952"
 ---
 # <a name="porting-vr-apps-to-windows-mixed-reality"></a>Перенос приложений VR в Windows Mixed Reality
 

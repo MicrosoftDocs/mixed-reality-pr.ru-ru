@@ -3,15 +3,15 @@ title: WinRT в Unreal
 description: Общие сведения о подключаемом модуле пространственного звука для Unreal Engine.
 author: hferrone
 ms.author: jacksonf
-ms.date: 07/08/2020
+ms.date: 12/9/2020
 ms.topic: article
 keywords: Нереал, нереалистичный механизм 4, UE4, HoloLens, HoloLens 2, потоковая передача, удаленное взаимодействие, Смешанная реальность, разработка, начало работы, функции, новый проект, эмулятор, документация, руководства, функции, голограммы, Разработка игр, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, WinRT, DLL
-ms.openlocfilehash: f9001f3a9e36eb5d8553545f38cf10411bafd64b
-ms.sourcegitcommit: 32cb81eee976e73cd661c2b347691c37865a60bc
+ms.openlocfilehash: f86939ee53b51fad1e31d18f810d92c3d20611f8
+ms.sourcegitcommit: f2782d0925b2075fdaa0a4ecdef3dd4f0b4e1e99
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96609414"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96926066"
 ---
 # <a name="winrt-in-unreal"></a>WinRT в Unreal
 
@@ -26,7 +26,7 @@ ms.locfileid: "96609414"
 > [!div class="nextstepaction"]
 > [Развертывание на устройстве](unreal-deploying.md)
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 * [API-интерфейсы/WinRT C++](https://docs.microsoft.com/windows/uwp/cpp-and-winrt-apis/)
 * [Класс Филесавепиккер](https://docs.microsoft.com/uwp/api/Windows.Storage.Pickers.FileSavePicker) 
 * [Нереал. сторонние библиотеки](https://docs.unrealengine.com/Programming/BuildTools/UnrealBuildTool/ThirdPartyLibraries/index.html) 

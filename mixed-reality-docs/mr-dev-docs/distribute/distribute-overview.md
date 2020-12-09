@@ -3,15 +3,15 @@ title: Распространение приложений
 description: Обзор различных вариантов распространения для различных поддерживаемых платформ и хранилищ публикаций.
 author: hferrone
 ms.author: v-hferrone
-ms.date: 10/02/2020
+ms.date: 12/9/2020
 ms.topic: article
 keywords: HoloLens, Mixed Reality, впечатляющие гарнитуры, приложение, UWP, отправка, отправка, фильтры, метаданные, требования к системе, ключевые слова, wack, сертификация, пакет, appx, товары
-ms.openlocfilehash: 4ea60d2111f99924eaa417d4ff6fa8830934588c
-ms.sourcegitcommit: 9c640c96e2270ef69edd46f1b12acb00b373554d
+ms.openlocfilehash: 5c7a1d6e00610a4046bd71b07ca5184399c9e335
+ms.sourcegitcommit: f2782d0925b2075fdaa0a4ecdef3dd4f0b4e1e99
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96578883"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96925775"
 ---
 # <a name="distributing-your-apps"></a>Распространение приложений
 
@@ -99,7 +99,7 @@ ms.locfileid: "96578883"
 
 * Вы также можете развернуть сборки на устройстве и предоставить к ним доступ другим разработчикам, использующим режим разработчика, путем [развертывания и отладки в Visual Studio](../develop/platform-capabilities-and-apis/using-visual-studio.md) или [установки пакета приложения с помощью портала устройств](https://docs.microsoft.com/hololens/holographic-custom-apps#installing-an-application-package-with-the-device-portal).
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 * [Поиск, установка и удаление приложений из Microsoft Store](https://docs.microsoft.com/hololens/holographic-store-apps)
 
 <!-- ## Submitting to the Microsoft Store
