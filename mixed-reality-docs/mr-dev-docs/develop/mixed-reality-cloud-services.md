@@ -1,6 +1,6 @@
 ---
 layout: LandingPage
-title: Oблачныe службы Azure
+title: Обзор облачных служб смешанной реальности Azure
 description: Ресурсы облачных служб смешанной реальности.
 author: hferrone
 ms.author: v-haferr
@@ -8,14 +8,14 @@ ms.date: 06/5/2020
 ms.topic: overview
 ms.localizationpriority: high
 keywords: смешанная реальность, процессы разработки, разработка, HoloLens, облачные службы, Azure, удаленная отрисовка, пространственные привязки, Cognitive Services, восприятие, Unity, машинное обучение, перевод речи, компьютерное зрение, Microsoft Graph
-ms.openlocfilehash: 640e99637f9cfa1786e1e78ed5cec396748b2f47
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 338574ac5a06841a6a2a9920fc0dfbdfdbfd0bbf
+ms.sourcegitcommit: eba192e1cfaef35bc55161d4e9a0adea36ff1a18
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94679693"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96526061"
 ---
-# <a name="azure-cloud-services"></a>Oблачныe службы Azure
+# <a name="azure-mixed-reality-cloud-services-overview"></a>Обзор облачных служб смешанной реальности Azure
 
 ![ Изображение с Пространственными привязками Azure](../design/images/AzureSpatialAnchors.jpg)
 
