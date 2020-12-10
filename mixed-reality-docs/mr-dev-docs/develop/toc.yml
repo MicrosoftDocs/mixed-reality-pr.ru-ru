@@ -6,8 +6,6 @@
   items:
     - name: Обзор облачных служб смешанной реальности Azure
       href: mixed-reality-cloud-services.md
-    - name: Общие сведения об обучении смешанной реальности
-      href: mr-learning-overview.md
     - name: Примеры приложений и возможностей
       href: features-and-samples.md
 - name: Перенос приложений
@@ -254,6 +252,8 @@
   items:
     - name: Обзор разработки для Unreal
       href: unreal/unreal-development-overview.md
+    - name: Обновление проектов в Unreal
+      href: unreal/unreal-porting.md
     - name: Учебники
       items:
         - name: Создание приложения для игры в шахматы с помощью средств взаимодействия с пользователем из MRTK
@@ -310,8 +310,6 @@
           href: unreal/unreal-deploying.md
         - name: Публикация в Microsoft Store
           href: unreal/unreal-publishing-to-store.md
-        - name: Обновление проектов в Unreal
-          href: unreal/unreal-porting.md
         - name: Рекомендации по производительности для Unreal
           href: unreal/performance-recommendations-for-unreal.md
         - name: Рекомендации по использованию материалов в Unreal
