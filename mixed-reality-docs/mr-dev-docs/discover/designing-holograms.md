@@ -1,17 +1,17 @@
 ---
-title: Проектирование голограмм
+title: Создание голограмм
 description: Узнайте о смешанной реальности с помощью нового приложения разработки голограмм Майкрософт.
 author: hferrone
 ms.author: daescu
 ms.date: 11/24/2020
 ms.topic: article
 keywords: МРТК, набор средств для смешанной реальности, голограммы, проектирование голограмм, обучение, пример приложения, гарнитура смешанной реальности, гарнитура виртуальной реальности, что такое виртуальная реальность
-ms.openlocfilehash: 243b6f28da7b074b3ff6d48794d525ac08281fa7
-ms.sourcegitcommit: 09522ab15a9008ca4d022f9e37fcc98f6eaf6093
+ms.openlocfilehash: bf904b319ed5b452f254b659315d9b531832a4d5
+ms.sourcegitcommit: fbeff51cae92add88d2b960c9b7bbfb04d5a0291
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96355433"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97002589"
 ---
 # <a name="the-making-of-designing-holograms"></a>Создание голограмм
 
@@ -122,6 +122,32 @@ ms.locfileid: "96355433"
 Очевидно, что значки работают гораздо лучше, чем простой текст, поэтому, чтобы предоставить еще более широкие рекомендации, я приступил к созданию набора анимированных объектов и аватаров, каждый из которых говорит о том, что делается в соответствующем сценарии и как он используется.
 
 ![Анимированный GIF-файл в интерактивной системе «holographic»](images/designing-holograms/creative-process.gif)
+
+## <a name="core-concepts"></a>Основные понятия
+
+**Голографический кадр**
+
+![Анимированный GIF-файл пользователя, который просматривает доллхаусе с выделенным кадром holographic](images/designing-holograms/FOVandFOI.gif)
+
+**Системы координат**
+
+![Анимированный GIF-файл пользователя, который просматривает доллхаусе с выделенными системами координат](images/designing-holograms/CoordinateSystems.gif)
+
+**Отслеживание взгляда**
+
+![Анимированный GIF-файл пользователя, просматривая стационарные голограммы с выделенным лучом.](images/designing-holograms/EyeTracking.gif)
+
+**Визуализация и пространственное сопоставление для просмотра комнаты**
+
+![Анимированный GIF-файл всех поверхностей в сопоставляемом доллхаусе](images/designing-holograms/SpatialMapping.gif)
+
+**Интерпретация сцены**
+
+![Анимированный GIF объектов в доллхаусе, который распознается](images/designing-holograms/SceneUnderstanding.gif)
+
+**Указание и фиксация с помощью луча**
+
+![Анимированный GIF-файл, создающий свою руку с выделенным лучом](images/designing-holograms/HandRays.gif)
 
 ## <a name="try-it-out-moments"></a>«Попробуйте» в секундах
 

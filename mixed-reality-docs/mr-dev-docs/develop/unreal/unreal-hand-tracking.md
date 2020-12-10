@@ -6,129 +6,67 @@ ms.author: v-hferrone
 ms.date: 06/10/2020
 ms.topic: article
 keywords: Windows Mixed Reality, отслеживание, неreal, нереалное ядро 4, UE4, HoloLens, HoloLens 2, Смешанная реальность, разработка, функции, документация, руководства, голограммы, Разработка игр, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 4c66e2353c1e881c05541fd0fe9eafa553ea5c23
-ms.sourcegitcommit: 32cb81eee976e73cd661c2b347691c37865a60bc
+ms.openlocfilehash: 66ae1994f2bbee3ba4786a7c4eeebfe1cd57ca37
+ms.sourcegitcommit: fbeff51cae92add88d2b960c9b7bbfb04d5a0291
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96609715"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97002708"
 ---
 # <a name="hand-tracking-in-unreal"></a>Отслеживание рук в Unreal
 
-Система отслеживания руки в качестве входных данных использует Палмс и пальцы человека. Данные по положению и повороту каждого пальца доступны все жесты Palm и руки. 
+Система отслеживания руки в качестве входных данных использует Палмс и пальцы человека. Данные по положению и повороту каждого пальца доступны все жесты Palm и руки. Начиная с нереального 4,26, отслеживание выполняется на основе нереального подключаемого модуля Хеадмаунтеддисплай и использует общий API на всех платформах и устройствах XR. Функции одинаковы для систем Windows Mixed Reality и Опенкср.
 
 ## <a name="hand-pose"></a>Рука
 
-Рука руки позволяет вам в качестве входных данных использовать руки и пальцы пользователей. Вы можете обращаться к данным отслеживания как в схемах, так и в C++. Дополнительные технические сведения можно найти в API [Windows. восприятие. People. хандпосе](https://docs.microsoft.com/uwp/api/windows.perception.people.handpose) . Нереалный API отправляет данные в виде системы координат с тактами, синхронизированными с нереальным механизмом.
-
-### <a name="understanding-the-bone-hierarchy"></a>Основные сведения об иерархии костей
-
-`EWMRHandKeypoint`Перечисление описывает иерархию костей руки. Вы можете найти все руки кэйпоинт, перечисленные в ваших чертежах:
-
-![Кэйпоинт BP](images/hand-keypoint-bp.png)
-
-Полное перечисление C++ показано ниже.
-```cpp
-enum class EWMRHandKeypoint : uint8
-{
-    Palm,
-    Wrist,
-    ThumbMetacarpal,
-    ThumbProximal,
-    ThumbDistal,
-    ThumbTip,
-    IndexMetacarpal,
-    IndexProximal,
-    IndexIntermediate,
-    IndexDistal,
-    IndexTip,
-    MiddleMetacarpal,
-    MiddleProximal,
-    MiddleIntermediate,
-    MiddleDistal,
-    MiddleTip,
-    RingMetacarpal,
-    RingProximal,
-    RingIntermediate,
-    RingDistal,
-    RingTip,
-    LittleMetacarpal,
-    LittleProximal,
-    LittleIntermediate,
-    LittleDistal,
-    LittleTip
-};
-```
-
-Числовые значения для каждого варианта перечисления можно найти в таблице [Windows. восприятие. People. ханджоинткинд](https://docs.microsoft.com/uwp/api/windows.perception.people.handjointkind) . На рисунке ниже показана вся схема оформления руки с соответствующими вариантами перечисления.
+Рука руки позволяет относить и использовать руки и пальцы пользователей в качестве входных данных, к которым можно получить доступ как в чертежах, так и в C++. Нереалный API отправляет данные в виде системы координат с тактами, синхронизированными с нереальным механизмом.
 
 ![Схема руки](../native/images/hand-skeleton.png)
- 
-### <a name="supporting-hand-tracking"></a>Поддержка отслеживания
 
-Вы можете использовать отслеживание вручную в схемах, добавив **поддержку отслеживания вручную** для **отслеживания > Windows Mixed Reality**:
-
-![BP для отслеживания](images/unreal/hand-tracking-bp.png)
-
-Эта функция возвращает значение `true` , если отслеживание поддерживается на устройстве, и `false` Если отслеживание недоступно.
-
-![Поддерживает отправную очередь для отслеживания](images/unreal/supports-hand-tracking-bp.png)
-
-C++: 
-
-Добавьте `WindowsMixedRealityHandTrackingFunctionLibrary.h`.
-
-```cpp
-static bool UWindowsMixedRealityHandTrackingFunctionLibrary::SupportsHandTracking()
-```
-
-### <a name="getting-hand-tracking"></a>Отслеживание отслеживания
-
-**Жесанджоинттрансформ** можно использовать для возврата пространственных данных из руки. Данные обновляются каждым кадром, но если вы находитесь внутри фрейма, возвращаемые значения кэшируются. В этой функции не рекомендуется использовать интенсивную логику для повышения производительности. 
-
-![Преобразование «получение соединения с рукой»](images/unreal/get-hand-joint-transform.png)
- 
-C++:
-```cpp
-static bool UWindowsMixedRealityHandTrackingFunctionLibrary::GetHandJointTransform(EControllerHand Hand, EWMRHandKeypoint Keypoint, FTransform& OutTransform, float& OutRadius)
-```
-
-Ниже приведена декомпозиция параметров функции Жесанджоинттрансформ:
-
-* **Рука** — может быть пользователем слева или справа.
-* **Кэйпоинт** — кость руки. 
-* **Transform** — координаты и ориентация базы данных-основания кости. Можно запросить основу следующей кости, чтобы получить данные преобразования для конца кости. Специальная кость TIP дает окончание дистал. 
-* **Радиус** — радиус базовой части кости.
-* **Возвращаемое значение** — true, если кость отслеживанию этого кадра, значение false, если кость не будет отслеживанием.
+[!INCLUDE[](includes/tabs-tracking-hand-pose.md)]
 
 ## <a name="hand-live-link-animation"></a>Анимация прямой связи
 
 Руки, доступные для анимации, используют [подключаемый модуль динамической компоновки](https://docs.unrealengine.com/Engine/Animation/LiveLinkPlugin/index.html).
 
-Если включены подключаемые модули Windows Mixed Reality и Live links: 
-1. Выберите **окно > активная ссылка** , чтобы открыть окно редактора динамической связи. 
+Если включены подключаемые модули Windows Mixed Reality и Live links:
+1. Выберите **окно > активная ссылка** , чтобы открыть окно редактора динамической связи.
 2. Выбор **источника** и включение **источника отслеживания Windows Mixed Reality**
 
 ![Источник прямой связи](images/unreal/live-link-source.png)
- 
+
 После включения источника и открытия ресурса анимации раскройте раздел " **анимация** " на вкладке " **Предварительный просмотр** ". Дополнительные параметры см. здесь.
 
 ![Динамическая анимация ссылки](images/unreal/live-link-animation.png)
- 
+
 Иерархия анимации руки такая же, как и в `EWMRHandKeypoint` . Анимацию можно перенацелить с помощью **виндовсмикседреалитихандтраккингливелинкремапассет**:
 
 ![Анимация прямой связи 2](images/unreal/live-link-animation2.png)
- 
+
 Он также может быть подклассом в редакторе:
 
 ![Сопоставление активных ссылок](images/unreal/live-link-remap.png)
- 
-## <a name="accessing-hand-mesh-data"></a>Доступ к данным сетки
+
+## <a name="hand-mesh"></a>Сетка руки
+
+### <a name="hand-mesh-as-a-tracked-geometry"></a>Сетка "рука" в виде отслеживающей геометрии
+
+> [!IMPORTANT]
+> Для получения сеток в качестве отслеживаемой геометрии в Опенкср необходимо вызвать **set use сетчатая сетка** с **включенной геометрией отслеживания**.
+
+Чтобы включить этот режим, следует вызвать **set use сетчатая сетка** с **включенной геометрией отслеживания**:
+
+![Схема начала воспроизведения подключена к параметру использовать сетку данных с включенным режимом геометрического отслеживания](images/unreal-hand-tracking-img-08.png)
+
+> [!NOTE]
+> Одновременное включение обоих режимов невозможно. Если включить один, то другой автоматически отключается.
+
+### <a name="accessing-hand-mesh-data"></a>Доступ к данным сетки
 
 ![Сетка руки](images/unreal/hand-mesh.png)
 
 Прежде чем можно будет получить доступ к данным сетки данных, необходимо:
-- Выберите свой ресурс **арсессионконфиг** , разверните параметры **AR Settings-> мирового сопоставления** и установите флажок **создать данные сетки из отслеживающей геометрии**. 
+- Выберите свой ресурс **арсессионконфиг** , разверните параметры **AR Settings-> мирового сопоставления** и установите флажок **создать данные сетки из отслеживающей геометрии**.
 
 Ниже приведены параметры сетки по умолчанию.
 
@@ -139,23 +77,23 @@ static bool UWindowsMixedRealityHandTrackingFunctionLibrary::GetHandJointTransfo
 
 Эти значения параметров используются в качестве сетки пространственного сопоставления и по умолчанию для сетки. Их можно изменить в любой момент в проекте или коде для любой сетки.
 
-### <a name="c-api-reference"></a>Справочник по API C++ 
+### <a name="c-api-reference"></a>Справочник по API C++
 Используется `EEARObjectClassification` для поиска значений сетки в объектах, доступных для наблюдения.
 ```cpp
 enum class EARObjectClassification : uint8
 {
-    // Other types 
+    // Other types
     HandMesh,
 };
 ```
 
-Следующие делегаты вызываются, когда система обнаруживает любой отслеживающий объект, включая сетку типа "рука". 
+Следующие делегаты вызываются, когда система обнаруживает любой отслеживающий объект, включая сетку типа "рука".
 
 ```cpp
-class FARSupportInterface 
+class FARSupportInterface
 {
     public:
-    // Other params 
+    // Other params
     DECLARE_AR_SI_DELEGATE_FUNCS(OnTrackableAdded)
     DECLARE_AR_SI_DELEGATE_FUNCS(OnTrackableUpdated)
     DECLARE_AR_SI_DELEGATE_FUNCS(OnTrackableRemoved)
@@ -174,246 +112,57 @@ void UARHandMeshComponent::OnTrackableAdded(UARTrackedGeometry* Added)
 UMRMeshComponent* UARTrackedGeometry::GetUnderlyingMesh()
 ```
 
-
 ### <a name="blueprint-api-reference"></a>Справочник по API-интерфейсам схем
 
 Для работы с сетчатыми сетками в схемах:
 1. Добавление компонента **артраккабленотифи** в проект схемы
 
 ![Уведомление Артраккабле](images/unreal/ar-trackable-notify.png)
- 
-2. Перейдите на панель **сведений** и разверните раздел **события** . 
+
+2. Перейдите на панель **сведений** и разверните раздел **события** .
 
 ![Артраккабле уведомление 2](images/unreal/ar-trackable-notify2.png)
- 
+
 3. Перезаписать для добавления, обновления или удаления отслеживаний геометрии со следующими узлами в графе событий:
 
 ![Уведомление Артраккабле](images/unreal/on-artrackable-notify.png)
- 
-## <a name="hand-rays"></a>Лучи с рукой
 
-Можно использовать входной луч в качестве указывающего устройства как в C++, так и в чертежах, которые предоставляют API [Windows. UI. input. spatial. спатиалпоинтеринтерактионсаурцепосе](https://docs.microsoft.com/uwp/api/windows.ui.input.spatial.spatialpointerinteractionsourcepose) .
+### <a name="hand-mesh-visualization-in-openxr"></a>Визуализация сетки руки в Опенкср
+
+Чтобы визуализировать сетку, рекомендуется использовать подключаемый модуль Ксрвисуализатион в ситуации с [подключаемым модулем Microsoft опенкср](https://github.com/microsoft/Microsoft-OpenXR-Unreal). 
+
+Затем в редакторе схем следует использовать функцию **set use сетчатой** функции из [подключаемого модуля Microsoft опенкср](https://github.com/microsoft/Microsoft-OpenXR-Unreal) с **включенной ксрвисуализатион** в качестве параметра:
+
+![Схема начала воспроизведения подключена к параметру использовать сетку руки с включенным режимом ксрвисуализатион](images/unreal-hand-tracking-img-05.png)
+
+Для управления процессом отрисовки следует использовать **контроллер движения Render** из ксрвисуализатион:
+
+![Схема получения функции данных контроллера движения, подключенной к функции контроллера движения прорисовки](images/unreal-hand-tracking-img-06.png)
+
+Получаются такие результаты:
+
+![Изображение цифрового руки, наложенное на реальную человеческий рукой](images/unreal-hand-tracking-img-07.png) 
+
+Если вам нужно нечто более сложное, например рисовать сетку руки с помощью пользовательского шейдера, необходимо получить сетки в виде отслеживающей геометрии. 
+
+## <a name="hand-rays"></a>Лучи рук
+
+Функция руки работает для замкнутых взаимодействий, таких как извлечение объектов или нажатие кнопок. Однако иногда требуется работать с голограммами, которые находятся далеко от пользователей. Это можно сделать с помощью луча, которые можно использовать в качестве указывающих устройств как в C++, так и в чертежах. Вы можете нарисовать луч от руки до дальнего времени и с помощью некоторой помощи от нереальной трассировки лучей выбрать голограмму, которая в противном случае будет недоступна. 
 
 > [!IMPORTANT]
-> Поскольку все результаты всех функций изменяются каждый кадр, все они становятся вызываемыми. Дополнительные сведения о чистом и нечистом или вызываемых функциях см. в статье GUID пользователя в [функциях](https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Functions/index.html#purevs.impure).
+> Поскольку все результаты всех функций изменяются каждый кадр, все они становятся вызываемыми. Дополнительные сведения о чистом и нечистом или вызываемых функциях см. в статье GUID пользователя в [функциях](https://docs.unrealengine.com/Engine/Blueprints/UserGuide/Functions/index.html#purevs.impure).
 
-Чтобы использовать лучи в схемах, выполните поиск любых действий в **Windows Mixed Reality ХМД**:
-
-![BP](images/unreal/hand-rays-bp.png)
- 
-Чтобы получить доступ к ним в C++, включите `WindowsMixedRealityFunctionLibrary.h` в начало файла вызывающего кода.
-
-### <a name="enum"></a>Перечисление
-
-Кроме того, у вас есть доступ к входным вариантам в **ехмдинпутконтроллербуттонс**, которые можно использовать в схемах:
-
-![Кнопки контроллера ввода](images/unreal/input-controller-buttons.png)
-
-Для доступа в C++ используйте `EHMDInputControllerButtons` Класс Enum:
-```cpp
-enum class EHMDInputControllerButtons : uint8
-{
-    Select,
-    Grasp,
-//......
-};
-```
-
-Ниже приведена разбивка двух применимых вариантов перечисления.
-
-* **SELECT** — пользователь активировал событие SELECT. 
-    * Активируется в HoloLens 2, выполняя касание, взгляните и зафиксировать, или выполнив команду "Select" с включенным [голосовым входом](unreal-voice-input.md) . 
-* Пользовательское событие **, активируемое с** учетом продачи. 
-    * Активируется в HoloLens 2, закрывая пальцы пользователя на голограмме. 
-
-Вы можете получить доступ к состоянию отслеживания сетки руки в C++ с помощью `EHMDTrackingStatus` перечисления, показанного ниже:
-
-```cpp
-enum class EHMDTrackingStatus : uint8
-{
-    NotTracked,
-    //......
-    Tracked
-};
-```
-
-Ниже приведена разбивка двух применимых вариантов перечисления.
-
-* **Ноттраккед** — рука не отображается
-* С **отслеживанием** — рука полностью отслеживание
-
-### <a name="struct"></a>Структура
-
-Структура Поинтерпосеинфо может предоставить сведения о следующих данных:
-
-* **Источник** — источник руки
-* **Направление** — направление руки
-* **Вверх** — вверх в виде вектора руки
-* **Orientation** — ориентация кватерниона 
-* **Состояние отслеживания** — текущее состояние отслеживания
-
-Доступ к структуре Поинтерпосеинфо можно получить с помощью схем, как показано ниже:
-
-![BP, сведения о указателе](images/unreal/pointer-pose-info-bp.png)
-
-Или с + +:
-
-```cpp
-struct FPointerPoseInfo
-{
-    FVector Origin;
-    FVector Direction;
-    FVector Up;
-    FQuat Orientation;
-    EHMDTrackingStatus TrackingStatus;
-};
-```
-
-### <a name="functions"></a>Функции
-
-Все перечисленные ниже функции можно вызывать для каждого кадра, что позволяет выполнять непрерывный мониторинг. 
-
-1. **Получить сведения о выведении указателя** возвращает полные сведения о направлении ладони в текущем кадре. 
-
-Схем
-
-![Получить сведения о указателе](images/unreal/get-pointer-pose-info.png)
-
-C++: 
-```cpp
-static FPointerPoseInfo UWindowsMixedRealityFunctionLibrary::GetPointerPoseInfo(EControllerHand hand);
-```
-
-2. Если рука проблюдается в текущем кадре, **будет** возвращено значение true.
-
-Схем
-
-![Есть BP](images/unreal/is-grasped-bp.png)
-
-C++:
-```cpp
-static bool UWindowsMixedRealityFunctionLibrary::IsGrasped(EControllerHand hand);
-```
- 
-3. При **нажатии кнопки выбрать** возвращается значение true, если пользователь активировал выбор в текущем кадре.
-
-Схем
-
-![Выбрана нажатая нажимаемая BP](images/unreal/is-select-pressed-bp.png)
-
-C++:
-```cpp
-static bool UWindowsMixedRealityFunctionLibrary::IsSelectPressed(EControllerHand hand);
-```
-
-4. Нажата **кнопка "** возвращает значение true", если событие или кнопка активированы в текущем кадре.
-
-Схем
-
-![Нажата кнопка BP](images/unreal/is-button-clicked-bp.png)
-
-C++:
-```cpp
-static bool UWindowsMixedRealityFunctionLibrary::IsButtonClicked(EControllerHand hand, EHMDInputControllerButtons button);
-```
-
-5. **Получение состояния отслеживания контроллера** возвращает состояние отслеживания в текущем кадре.
-
-Схем
-
-![Получить состояние отслежения контроллера](images/unreal/get-controller-tracking-status-bp.png)
-
-C++:
-```cpp
-static EHMDTrackingStatus UWindowsMixedRealityFunctionLibrary::GetControllerTrackingStatus(EControllerHand hand);
-```
+[!INCLUDE[](includes/tabs-tracking-hand-ray.md)]
 
 ## <a name="gestures"></a>Жесты
 
-HoloLens 2 отслеживает пространственные жесты, что означает, что эти жесты можно записать в качестве входных данных. Дополнительные сведения о жестах можно найти в документе [об использовании HoloLens 2](https://docs.microsoft.com/hololens/hololens2-basic-usage) .
+HoloLens 2 отслеживает пространственные жесты, что означает, что эти жесты можно записать в качестве входных данных. Отслеживание жестов основано на модели подписки. Используйте функцию "Настройка жестов", чтобы сообщить устройству, какие жесты необходимо отслеживанию.  Дополнительные сведения о жестах можно найти в документе [об использовании HoloLens 2](https://docs.microsoft.com/hololens/hololens2-basic-usage) .
 
-Функцию схемы можно найти в разделе **пространственный ввод Windows Mixed Reality**, а функция C++ — путем добавления `WindowsMixedRealitySpatialInputFunctionLibrary.h` в файл вызывающего кода.
-
-![Жесты записи](images/unreal/capture-gestures.png)
-
-### <a name="enum"></a>Перечисление
-<!-- Deprecated
-The `ESPatialInputAxisGestureType` enum describes spatial axis gestures and are [fully documented](../../out-of-scope/deprecated/holograms-211.md).
--->
-Схем 
-
-![Тип жеста](images/unreal/gesture-type.png)
-
-C++:
-```cpp
-enum class ESpatialInputAxisGestureType : uint8
-{
-    None = 0,
-    Manipulation = 1,
-    Navigation = 2,
-    NavigationRails = 3
-};
-```
-
-### <a name="function"></a>Функция
-Включить и отключить захват жестов можно с помощью `CaptureGestures` функции. Когда включенный жест запускает входные события, функция возвращает значение, `true` Если захват жеста завершается удачно, и `false` при наличии ошибки.
-
-Схем
-
-![Точка применения жестов захвата](images/unreal/capture-gestures-bp.png)
-
-C++:
-```cpp
-static bool UWindowsMixedRealitySpatialInputFunctionLibrary::CaptureGestures(
-    bool Tap = false, 
-    bool Hold = false, 
-    ESpatialInputAxisGestureType AxisGesture = ESpatialInputAxisGestureType::None, 
-    bool NavigationAxisX = true, 
-    bool NavigationAxisY = true, 
-    bool NavigationAxisZ = true);
-```
-
-Ниже приведены ключевые события, которые можно найти в чертежах и C++: ключевые события. ![](images/unreal/key-events.png)
-
-![Ключевые события 2](images/unreal/key-events2.png)
-```cpp
-const FKey FSpatialInputKeys::TapGesture(TapGestureName);
-const FKey FSpatialInputKeys::DoubleTapGesture(DoubleTapGestureName);
-const FKey FSpatialInputKeys::HoldGesture(HoldGestureName);
-
-const FKey FSpatialInputKeys::LeftTapGesture(LeftTapGestureName);
-const FKey FSpatialInputKeys::LeftDoubleTapGesture(LeftDoubleTapGestureName);
-const FKey FSpatialInputKeys::LeftHoldGesture(LeftHoldGestureName);
-
-const FKey FSpatialInputKeys::RightTapGesture(RightTapGestureName);
-const FKey FSpatialInputKeys::RightDoubleTapGesture(RightDoubleTapGestureName);
-const FKey FSpatialInputKeys::RightHoldGesture(RightHoldGestureName);
-
-const FKey FSpatialInputKeys::LeftManipulationGesture(LeftManipulationGestureName);
-const FKey FSpatialInputKeys::LeftManipulationXGesture(LeftManipulationXGestureName);
-const FKey FSpatialInputKeys::LeftManipulationYGesture(LeftManipulationYGestureName);
-const FKey FSpatialInputKeys::LeftManipulationZGesture(LeftManipulationZGestureName);
-
-const FKey FSpatialInputKeys::LeftNavigationGesture(LeftNavigationGestureName);
-const FKey FSpatialInputKeys::LeftNavigationXGesture(LeftNavigationXGestureName);
-const FKey FSpatialInputKeys::LeftNavigationYGesture(LeftNavigationYGestureName);
-const FKey FSpatialInputKeys::LeftNavigationZGesture(LeftNavigationZGestureName);
-
-
-const FKey FSpatialInputKeys::RightManipulationGesture(RightManipulationGestureName);
-const FKey FSpatialInputKeys::RightManipulationXGesture(RightManipulationXGestureName);
-const FKey FSpatialInputKeys::RightManipulationYGesture(RightManipulationYGestureName);
-const FKey FSpatialInputKeys::RightManipulationZGesture(RightManipulationZGestureName);
-
-const FKey FSpatialInputKeys::RightNavigationGesture(RightNavigationGestureName);
-const FKey FSpatialInputKeys::RightNavigationXGesture(RightNavigationXGestureName);
-const FKey FSpatialInputKeys::RightNavigationYGesture(RightNavigationYGestureName);
-const FKey FSpatialInputKeys::RightNavigationZGesture(RightNavigationZGestureName);
-```
+[!INCLUDE[](includes/tabs-tracking-gestures.md)]
 
 ## <a name="next-development-checkpoint"></a>Следующий этап разработки
 
-Если вы подготовились к нереальному пути разработки, мы собрались изучить основные конструктивные блоки МРТК. Отсюда можно перейти к следующему стандартному блоку: 
+Если вы подготовились к нереальному пути разработки, мы собрались изучить основные конструктивные блоки МРТК. Отсюда можно перейти к следующему стандартному блоку:
 
 > [!div class="nextstepaction"]
 > [Локальные пространственные привязки](unreal-spatial-anchors.md)

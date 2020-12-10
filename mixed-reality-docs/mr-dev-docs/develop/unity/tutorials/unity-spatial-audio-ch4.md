@@ -2,20 +2,20 @@
 title: Пространственные аудио учебники — 4. Включение и отключение пространственного звука во время выполнения
 description: Используйте кнопку, чтобы включить или отключить пространственность звука во время выполнения.
 author: kegodin
-ms.author: kegodin
+ms.author: v-hferrone
 ms.date: 12/01/2019
 ms.topic: article
 keywords: Смешанная реальность, Unity, учебник, hololens2, Пространственный звук, МРТК, набор средств для смешанной реальности, UWP, Windows 10, ХРТФ, функция передачи, связанная с HEAD, переглагол, Microsoft Спатиализер
-ms.openlocfilehash: c752f79f53b5167d674b9e778637357d97fb914a
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: c9e510e544962c5d1a4c462d20dafa222c6a5289
+ms.sourcegitcommit: fbeff51cae92add88d2b960c9b7bbfb04d5a0291
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94678213"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97002609"
 ---
 # <a name="enabling-and-disabling-spatialization-at-run-time"></a>Включение и отключение пространственности во время выполнения
 
-## <a name="objectives"></a>Цели
+## <a name="objectives"></a>Задачи
 В этой 4-ой главе вы выполните следующие действия:
 * Добавление нового скрипта для управления пространственностью игрового объекта
 * Использование сценария управления пространственными из действий кнопки

@@ -2,20 +2,20 @@
 title: Пространственные аудио учебники — 2. Придание пространственной формы звуку при взаимодействии с кнопками
 description: Добавьте кнопку в проект и спатиализе кнопку звуки.
 author: kegodin
-ms.author: kegodin
+ms.author: v-hferrone
 ms.date: 12/01/2019
 ms.topic: article
 keywords: Смешанная реальность, Unity, учебник, hololens2, пространственный аудио, МРТК, набор средств для смешанной реальности, UWP, Windows 10, ХРТФ, функция передачи, связанная с HEAD, переглагол, Microsoft Спатиализер, Prefabs, кривая тома
-ms.openlocfilehash: eb550c3127e13926d73428b337abfd7cf9872eb7
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 62825ed8922cd904212160748018446cbc76b839
+ms.sourcegitcommit: fbeff51cae92add88d2b960c9b7bbfb04d5a0291
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94678193"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97002599"
 ---
 # <a name="spatializing-button-interaction-sounds"></a>Придание пространственной формы звуку при взаимодействии с кнопками
 
-## <a name="objectives"></a>Цели
+## <a name="objectives"></a>Задачи
 В этой второй главе модуля пространственное аудио в учебниках HoloLens 2 вы выполните следующие действия:
 * Добавление кнопки
 * Спатиализе кнопку "звуки"
