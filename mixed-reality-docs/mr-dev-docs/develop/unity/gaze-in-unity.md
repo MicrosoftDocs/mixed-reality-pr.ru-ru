@@ -6,24 +6,22 @@ ms.author: alexturn
 ms.date: 03/21/2018
 ms.topic: article
 keywords: взгляд на глаза, головной взгляд, Unity, голограмма, Смешанная реальность, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: 0c62de9cb1b7ea892831ea2cedbeb23be5ea7b37
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: ca33fef5a5a761df83ed7991b366cf711a5db224
+ms.sourcegitcommit: 87b54c75044f433cfadda68ca71c1165608e2f4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94677513"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97010365"
 ---
 # <a name="head-gaze-in-unity"></a>Головной взгляд в Unity
 
 [Взгляд](../../design/gaze-and-commit.md) — это основной способ, с помощью которого пользователи могут ориентироваться на [голограммы](../../discover/hologram.md) , создаваемые приложением в [смешанной реальности](../../discover/mixed-reality.md).
 
-
 ## <a name="implementing-head-gaze"></a>Реализация головного взгляда
 
-По сути, [элемент "Head-взгляд](../../design/gaze-and-commit.md) " реализуется путем проецирования луча из заголовка пользователя, где находится гарнитура, в прямом направлении и определяет, что луч конфликтует с.
-В Unity расположение и направление головного пользователя предоставляются с помощью основной [камеры](camera-in-unity.md)Unity, в частности [UnityEngine. Camera. Main](https://docs.unity3d.com/ScriptReference/Camera-main.html). [преобразование. Forward](https://docs.unity3d.com/ScriptReference/Transform-forward.html) и [UnityEngine. Camera. Main](https://docs.unity3d.com/ScriptReference/Camera-main.html). [Transform. Disposition](https://docs.unity3d.com/ScriptReference/Transform-position.html).
+По сути, вы определяете [головное взгляд](../../design/gaze-and-commit.md) , выполняя проекцию луча вперед от гарнитуры пользователя, чтобы узнать, что он касается. В Unity расположение и направление головного пользователя предоставляются через [камеру](camera-in-unity.md), в частности [UnityEngine. Camera. Main](https://docs.unity3d.com/ScriptReference/Camera-main.html). [преобразование. Forward](https://docs.unity3d.com/ScriptReference/Transform-forward.html) и [UnityEngine. Camera. Main](https://docs.unity3d.com/ScriptReference/Camera-main.html). [Transform. Disposition](https://docs.unity3d.com/ScriptReference/Transform-position.html).
 
-Вызов функции [физик. райкаст](https://docs.unity3d.com/ScriptReference/Physics.Raycast.html) приводит к [райкассит](https://docs.unity3d.com/ScriptReference/RaycastHit.html) структуре, содержащей сведения о конфликте, включая трехмерную точку, в которой произошел конфликт, а другая GameObjectа, с которой был получен элемент head-взгляда.
+Вызов функции [физик. райкаст](https://docs.unity3d.com/ScriptReference/Physics.Raycast.html) дает вам [райкассит](https://docs.unity3d.com/ScriptReference/RaycastHit.html) , содержащий сведения о конфликте, включая трехмерную точку конфликта, а другой GameObject — попадание в голову.
 
 ### <a name="example-implement-head-gaze"></a>Пример: реализация Heading-взгляда
 
@@ -47,18 +45,18 @@ void Update()
 
 ### <a name="best-practices"></a>Рекомендации
 
-Хотя в приведенном выше примере показано, как выполнить одно райкаст в цикле обновления, чтобы найти целевые точки пользователя, рекомендуется сделать это в одном объекте, управляющем Heading-взглядом, а не делать это в любом объекте, который потенциально заинтересован в объекте, газед в. Это позволяет приложению сохранять обработку, выполняя только один заголовок-взгляд, райкаст каждый кадр.
+Хотя в приведенном выше примере в цикле обновления создается один райкаст, чтобы найти целевые точки пользователя, мы рекомендуем использовать один объект для управления всеми процессами головного взгляда. Объединение логики с помощью Head-взгляда позволит сохранить ценную вычислительную мощность приложения и ограничить райкастинг на один кадр.
 
 ## <a name="visualizing-head-gaze"></a>Визуализация головного взгляда
 
-Точно так же, как и на рабочем столе, где используется указатель мыши для назначения и взаимодействия с содержимым, следует реализовать [курсор](../../design/cursors.md) , представляющий голову пользователя. Это дает пользователю уверенность в том, с чем они взаимодействуют.
+Как и в случае с указателем мыши на компьютере, необходимо реализовать [курсор](../../design/cursors.md) , представляющий голову пользователя. Знание содержимого, на которое нацелен пользователь, повышает уверенность в том, с чем они взаимодействуют.
 
-## <a name="head-gaze-in-the-mixed-reality-toolkit-v2"></a>Руководитель-взгляд в наборе средств Mixed Reality версии 2
-Вы можете получить доступ к Head с помощью [диспетчера ввода](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Input/Overview.html) в мртк v2.
+## <a name="head-gaze-in-the-mixed-reality-toolkit"></a>Руководитель-взгляд в наборе средств Mixed Reality 
+Вы можете получить доступ к Head с помощью [диспетчера ввода](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Input/Overview.html) в мртк.
 
 ## <a name="next-development-checkpoint"></a>Следующий этап разработки
 
-Если вы следуете изложенным нами этапам разработки для Unity, вы как раз прошли половину в изучении основных стандартных блоков MRTK. Отсюда вы можете перейти к следующему стандартному блоку:
+Если вы пойдете из пути разработки Unity, мы собрались, что вы в состоянии изучить стандартные блоки МРТК Core. Отсюда можно перейти к следующему стандартному блоку:
 
 > [!div class="nextstepaction"]
 > [Жесты и контроллеры движений](gestures-and-motion-controllers-in-unity.md)
