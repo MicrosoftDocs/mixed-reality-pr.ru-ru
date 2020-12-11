@@ -1,20 +1,20 @@
 ---
-ms.openlocfilehash: cdd2b613535080b371807020670a2785274c29f5
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: f4f9a04a2de5e2c10bc43770bb1bfe9d00f3a4b6
+ms.sourcegitcommit: d56e7dd6c917ddc4ead0792ebff21891921174b9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91699560"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96564081"
 ---
 # <a name="available-in-mrtk"></a>[Доступно в MRTK](#tab/mrtk)
 
 |  Функция  |  Возможности  |
 | --- | --- |
-| [имитация ввода;](https://github.com/microsoft/MixedReality-UXTools-Unreal/blob/public/0.8.x/Docs/InputSimulation.md) | Использование ввода с помощью мыши и клавиатуры в редакторе для имитации виртуального шлема (HMD) и функций отслеживания рук |
-| [Взаимодействие с рукой](https://github.com/microsoft/MixedReality-UXTools-Unreal/blob/public/0.8.x/Docs/HandInteraction.md) | Взаимодействие с компонентами пользовательского интерфейса с помощью выраженного ввода движениями рук |
-| [Компонент кнопки с нажатием](https://github.com/microsoft/MixedReality-UXTools-Unreal/blob/public/0.8.x/Docs/PressableButton.md) | Задание состояния схем кнопок через низкоуровневые компоненты |
-| [компонент-манипулятор;](https://github.com/microsoft/MixedReality-UXTools-Unreal/blob/public/0.8.x/Docs/Manipulator.md) | Перемещение и вращение субъекта с помощью ввода манипулированием одной или двумя руками |
-| [следящий компонент.](https://github.com/microsoft/MixedReality-UXTools-Unreal/blob/public/0.8.x/Docs/FollowComponent.md) | Сохранение субъекта или компонента в поле зрения другого компонента |
+| [имитация ввода;](https://microsoft.github.io/MixedReality-UXTools-Unreal/Docs/InputSimulation.html) | Использование ввода с помощью мыши и клавиатуры в редакторе для имитации виртуального шлема (HMD) и функций отслеживания рук |
+| [Взаимодействие с рукой](https://microsoft.github.io/MixedReality-UXTools-Unreal/Docs/HandInteraction.html) | Взаимодействие с компонентами пользовательского интерфейса с помощью выраженного ввода движениями рук |
+| [Нажимаемая кнопка](https://microsoft.github.io/MixedReality-UXTools-Unreal/Docs/PressableButton.html) | Задание состояния схем кнопок через низкоуровневые компоненты |
+| [Манипулятор.](https://microsoft.github.io/MixedReality-UXTools-Unreal/Docs/Manipulator.html) | Перемещение и вращение субъекта с помощью ввода манипулированием одной или двумя руками |
+| [Отслеживание.](https://microsoft.github.io/MixedReality-UXTools-Unreal/Docs/FollowComponent.html) | Сохранение субъекта или компонента в поле зрения другого компонента |
 
 # <a name="standalone-features"></a>[Изолированные функции](#tab/standalone)
 

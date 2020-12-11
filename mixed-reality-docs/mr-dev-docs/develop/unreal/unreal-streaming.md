@@ -10,26 +10,25 @@ keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанна
 appliesto:
 - HoloLens
 - HoloLens 2
-ms.openlocfilehash: 5a001088208106176ae771c2bc684674e6ce37a8
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 9cbde33ce7238d704d4b24b4afbed9d8306d4e4d
+ms.sourcegitcommit: 32cb81eee976e73cd661c2b347691c37865a60bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94679783"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96609335"
 ---
 # <a name="streaming-in-unreal"></a>Потоковая передача в Unreal
 
-## <a name="overview"></a>Обзор
 Потоковая передача с компьютера в HoloLens обеспечивает два основных преимущества: 
 * Ваше приложение смешанной реальности может использовать вычислительные мощности компьютера. 
 * Ускоренная итерация разработки. 
 
-Чтобы приступить к работе, скачайте [Holographic Remoting Player](../platform-capabilities-and-apis/holographic-remoting-player.md) на устройство HoloLens. Этот инструмент позволит вашему приложению передавать данные в потоковом режиме непосредственно на проигрыватель удаленного взаимодействия на HoloLens из следующих источников:
+Чтобы приступить к работе, скачайте [Holographic Remoting Player](../platform-capabilities-and-apis/holographic-remoting-player.md) на устройство HoloLens. Holographic Remoting Player позволит вашему приложению передавать данные в потоковом режиме непосредственно на проигрыватель удаленного взаимодействия на HoloLens из следующих источников:
 
 * редактор Unreal Engine;
 * упакованный исполняемый файл Windows. 
 
-При потоковой передаче вы получаете доступ практически ко всем возможностям HoloLens, которые можно использовать при запуске приложения на устройстве. К ним относятся [отслеживание суставов рук](unreal-hand-tracking.md) (если вы используете HoloLens 2), [пространственное картирование](unreal-spatial-mapping.md) и [пространственные привязки](unreal-spatial-anchors.md). Но при этом недоступны функции из этого [списка ограничений](../platform-capabilities-and-apis/holographic-remoting-troubleshooting.md). 
+При потоковой передаче вы получаете доступ практически ко всем возможностям HoloLens, которые можно использовать при запуске приложения на устройстве. К ним относятся [отслеживание суставов рук](unreal-hand-tracking.md), если вы используете HoloLens 2, [пространственное картирование](unreal-spatial-mapping.md) и [пространственные привязки](unreal-spatial-anchors.md). Но при этом недоступны функции из этого [списка](../platform-capabilities-and-apis/holographic-remoting-troubleshooting.md). 
 
 > [!NOTE]
 > * Качество потоковой передачи в значительной степени зависит от уровня сигнала вашей беспроводной сети.
@@ -45,7 +44,7 @@ ms.locfileid: "94679783"
     </colgroup>
     <tr>
         <td><strong>Источник</strong></td>
-        <td><a href="https://docs.microsoft.com/hololens/hololens1-hardware"><strong>HoloLens 1-го поколения</strong></a></td>
+        <td><a href="https://docs.microsoft.com/hololens/hololens1-hardware"><strong>HoloLens первого поколения</strong></a></td>
         <td><a href="https://www.microsoft.com/hololens/hardware"><strong>HoloLens 2</strong></a></td>
         <td><strong>Иммерсивные гарнитуры</strong></td>
     </tr>
@@ -68,14 +67,14 @@ ms.locfileid: "94679783"
 
 Потоковая передача данных из Unreal Editor на устройство HoloLens обеспечивает разработчикам значительные преимущества при тестировании, а именно отсутствие необходимости ждать, пока приложение будет собрано и развернуто, для оценки обновлений.
 
-Подробные инструкции по [потоковой передаче из Unreal Editor](tutorials/unreal-uxt-ch6.md#device-only-streaming) можно найти в последнем разделе серии руководств по началу работы с Unreal.
+Подробные инструкции по [потоковой передаче из Unreal Editor](tutorials/unreal-uxt-ch6.md#device-only-streaming) можно найти в нашей серии руководств.
 
 ## <a name="streaming-from-a-packaged-windows-executable"></a>Потоковая передача из упакованного исполняемого файла Windows
 
-Начиная с версии Unreal 4.25.1, вы можете передавать данные вашего приложения на устройство HoloLens 2 в потоковом режиме из упакованного исполняемого файла Windows, выполнив следующие шаги: 
+В Unreal 4.25.1 и более поздних версий вы можете передавать данные вашего приложения на устройство HoloLens 2 в потоковом режиме из упакованного исполняемого файла Windows: 
 
 1. Выберите **File > Package Project > Windows** (Файл > Проект пакета > Windows) в меню редактора. 
-    * Выберите расположение для сохранения пакета и нажмите **Select Folder** (Выбрать папку).
+    * Выберите расположение для сохранения пакета и выберите элемент **Select Folder** (Выбрать папку).
 
 2. После завершения сборки пакета откройте инструмент **Holographic Remoting Player** на HoloLens 2 и запишите значение IP-адреса. 
 3. Оставьте **Holographic Remoting Player** открытым и с помощью командной строки выполните следующие действия: 
@@ -88,6 +87,7 @@ ms.locfileid: "94679783"
 Нажмите клавишу ВВОД, и ваше приложение начнет потоковую передачу.
 
 ## <a name="see-also"></a>См. также статью
+
 * [История версий голографического удаленного взаимодействия](../platform-capabilities-and-apis/holographic-remoting-version-history.md)
 * [Создание пользовательского проигрывателя для голографического удаленного взаимодействия](../platform-capabilities-and-apis/holographic-remoting-create-player.md)
 * [Установка безопасного подключения с использованием голографического удаленного взаимодействия](../platform-capabilities-and-apis/holographic-remoting-secure-connection.md)
