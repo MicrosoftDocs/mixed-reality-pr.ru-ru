@@ -6,12 +6,12 @@ ms.author: flbagar
 ms.date: 12/01/2020
 ms.topic: article
 keywords: HoloLens, удаленное взаимодействие, holographic удаленное взаимодействие, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, каналы данных
-ms.openlocfilehash: 119a08a7f0e41aca694184879e33aaf54160220c
-ms.sourcegitcommit: 9664bcc10ed7e60f7593f3a7ae58c66060802ab1
+ms.openlocfilehash: 6fd2bbd8ce2dedc3b13674576a23a0484ebe1419
+ms.sourcegitcommit: 99ae85159b7cf75f919021771ebb8299868beea9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96443454"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97102909"
 ---
 # <a name="custom-holographic-remoting-data-channels"></a>Пользовательские каналы данных с голографическим удаленным взаимодействием
 
@@ -38,15 +38,15 @@ winrt::Microsoft::Holographic::AppRemoting::IDataChannel::OnDataReceived_revoker
 winrt::Microsoft::Holographic::AppRemoting::IDataChannel::OnClosed_revoker m_customChannelClosedEventRevoker;
 ```
 
-После успешной установки подключения можно инициировать создание новых каналов данных с удаленной стороны или с стороны проигрывателя. Ремотеконтекст и Плайерконтекст предоставляют ```CreateDataChannel()``` метод для этого. Первый параметр — это идентификатор канала, который используется для идентификации канала данных в последующих операциях. Второй параметр — приоритет, указывающий приоритет, с которым данные этого канала передаются на другую сторону. Допустимый диапазон идентификаторов каналов — от 0 до 63 для удаленной стороны, а 64 — до 127 для стороны проигрывателя. Допустимые приоритеты ```Low``` : ```Medium``` или ```High``` (на обеих сторонах).
+После успешной установки соединения можно создавать каналы данных на удаленной стороне, на стороне проигрывателя или в обоих случаях. Как Ремотеконтекст, так и Плайерконтекст предоставляют ```CreateDataChannel()``` метод для создания каналов данных. Первый параметр — это идентификатор канала, который используется для идентификации канала данных в последующих операциях. Вторым параметром является приоритет, указывающий приоритет, с которым данные этого канала передаются на другую сторону. Допустимые идентификаторы каналов на удаленной стороне: от 0 до 63, а 64 до и включительно, включая 127 для стороны проигрывателя. Допустимые приоритеты: ```Low``` , ```Medium``` или ```High``` (на обеих сторонах).
 
-Чтобы инициировать создание канала данных на **удаленной** стороне, выполните следующие действия.
+Чтобы начать создание канала данных на **удаленной** стороне, выполните следующие действия.
 ```cpp
 // Valid channel ids for channels created on the remote side are 0 up to and including 63
 m_remoteContext.CreateDataChannel(0, DataChannelPriority::Low);
 ```
 
-Чтобы инициировать создание канала данных на стороне **проигрывателя** , сделайте следующее:
+Чтобы начать создание канала данных на стороне **проигрывателя** , выполните следующие действия.
 ```cpp
 // Valid channel ids for channels created on the player side are 64 up to and including 127
 m_playerContext.CreateDataChannel(64, DataChannelPriority::Low);
@@ -114,7 +114,7 @@ m_customDataChannel.Close();
 ```
 
 ## <a name="see-also"></a>См. также:
-* [Создание удаленного приложения holographic с удаленным взаимодействием с помощью API Windows Mixed реалий](holographic-remoting-create-remote-wmr.md)
+* [Создание удаленного приложения holographic с удаленным взаимодействием с помощью API-интерфейсов Windows Mixed Reality](holographic-remoting-create-remote-wmr.md)
 * [Создание удаленного приложения holographic с удаленным взаимодействием с помощью API-интерфейсов Опенкср](holographic-remoting-create-remote-openxr.md)
 * [Создание пользовательского проигрывателя для голографического удаленного взаимодействия](holographic-remoting-create-player.md)
 * [Устранение неполадок и ограничения удаленного взаимодействия с holographic](holographic-remoting-troubleshooting.md)
