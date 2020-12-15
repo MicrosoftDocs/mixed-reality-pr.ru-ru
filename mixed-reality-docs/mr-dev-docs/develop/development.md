@@ -4,16 +4,16 @@ title: Изучите инструменты и архитектуру.
 description: Документация для разработчиков приложений смешанной реальности для HoloLens и иммерсивных гарнитур.
 author: grbury
 ms.author: grbury
-ms.date: 07/31/2020
+ms.date: 12/9/2020
 ms.topic: overview
 ms.localizationpriority: high
 keywords: смешанная реальность, процессы разработки, разработка, HoloLens, Unity, Unreal, DirectX, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, что такое виртуальная реальность, что такое дополненная реальность, разработка для виртуальной реальности, разработка для дополненной реальности
-ms.openlocfilehash: e269523b7ddd369d65e9a33dbeb32b13a17428a4
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 75501e299b0bccbc35056ebb2da6657bd5d1e335
+ms.sourcegitcommit: f2782d0925b2075fdaa0a4ecdef3dd4f0b4e1e99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94677863"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96925972"
 ---
 # <a name="introduction-to-mixed-reality-development"></a>Введение в разработку приложений смешанной реальности
 

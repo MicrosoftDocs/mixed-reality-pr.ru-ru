@@ -4,16 +4,16 @@ title: Обзор облачных служб смешанной реально�
 description: Ресурсы облачных служб смешанной реальности.
 author: hferrone
 ms.author: v-haferr
-ms.date: 06/5/2020
+ms.date: 12/9/2020
 ms.topic: overview
 ms.localizationpriority: high
 keywords: смешанная реальность, процессы разработки, разработка, HoloLens, облачные службы, Azure, удаленная отрисовка, пространственные привязки, Cognitive Services, восприятие, Unity, машинное обучение, перевод речи, компьютерное зрение, Microsoft Graph
-ms.openlocfilehash: 338574ac5a06841a6a2a9920fc0dfbdfdbfd0bbf
-ms.sourcegitcommit: eba192e1cfaef35bc55161d4e9a0adea36ff1a18
+ms.openlocfilehash: f69ec9672898caf01092d805e5c83df48a14a65e
+ms.sourcegitcommit: f2782d0925b2075fdaa0a4ecdef3dd4f0b4e1e99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96526061"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96925931"
 ---
 # <a name="azure-mixed-reality-cloud-services-overview"></a>Обзор облачных служб смешанной реальности Azure
 
