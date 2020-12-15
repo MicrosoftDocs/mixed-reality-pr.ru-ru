@@ -3,16 +3,16 @@ title: Обзор разработки в Unreal
 description: Общие сведения о разработке для смешанной реальности в Unreal Engine 4
 author: hferrone
 ms.author: v-hferrone
-ms.date: 12/7/2020
+ms.date: 12/9/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, потоковая передача, удаленное взаимодействие, смешанная реальность, разработка, начало работы, функции, новый проект, эмулятор, документация, руководства, функции, голограммы, разработка игр, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, OpenXR
-ms.openlocfilehash: 1dcc5d6b00e1fdd51126e334cd28a10319b77af3
-ms.sourcegitcommit: f31f3a54c7c46e21884d62b4a696acf122a3c2b9
+ms.openlocfilehash: af5883ad71acf919133c330b1da8eb846d3a039f
+ms.sourcegitcommit: f2782d0925b2075fdaa0a4ecdef3dd4f0b4e1e99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96781973"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96926022"
 ---
 # <a name="unreal-development-overview"></a>Обзор разработки в Unreal
 

@@ -3,16 +3,16 @@ title: Перенос приложений HoloLens (1-го поколения) 
 description: Предназначено для разработчиков, которые используют существующее приложение для HoloLens (1-го поколения) и (или) устаревшей версии MRTK и хотят перейти на MRTK версии 2 и HoloLens 2.
 author: hferrone
 ms.author: grbury
-ms.date: 07/29/2020
+ms.date: 12/9/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Windows Mixed Reality, тестирование, MRTK, MRTK версии 2, HoloLens 2, Unity, перенос, 1-е поколение, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, миграция, рекомендации, ARM
-ms.openlocfilehash: 9d76dcdb6fedb3297a781b9bf905b9d74521ad58
-ms.sourcegitcommit: 9664bcc10ed7e60f7593f3a7ae58c66060802ab1
+ms.openlocfilehash: 7a4c05ce4918ff3868265c40096bd37016d4546a
+ms.sourcegitcommit: f2782d0925b2075fdaa0a4ecdef3dd4f0b4e1e99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96469731"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96925956"
 ---
 # <a name="porting-hololens-1st-gen-apps-to-hololens-2"></a>Перенос приложений HoloLens (1-го поколения) в HoloLens 2
 
