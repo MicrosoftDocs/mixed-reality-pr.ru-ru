@@ -6,12 +6,12 @@ ms.author: flbagar
 ms.date: 12/01/2020
 ms.topic: article
 keywords: Windows Mixed Reality, голограммы, удаленное взаимодействие, удаленная подготовка к просмотру сети, HoloLens, удаленные голограммы, устранение неполадок, Справка, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: ca0e4b3a43eae5be09f2c0bfbee9056cd847787c
-ms.sourcegitcommit: 9664bcc10ed7e60f7593f3a7ae58c66060802ab1
+ms.openlocfilehash: 9b900238abc79b0f2f93691d4b4a67cce67a201a
+ms.sourcegitcommit: c41372e0c6ca265f599bff309390982642d628b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96443598"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97530190"
 ---
 # <a name="holographic-remoting-troubleshooting"></a>Устранение неполадок удаленного взаимодействия с holographic
 
@@ -22,15 +22,15 @@ ms.locfileid: "96443598"
 
 В примере приложений с удаленным взаимодействием с устранением рисков Spectre (/Qspectre) включено устранение рисков в конфигурации выпуска.
 
-Если вы получаете неустранимую ошибку компоновщика, в которой говорится, что не удается открыть "vccorlib. lib", убедитесь, что Рабочая нагрузка Visual Studio включает библиотеки, снижающие опасность устранением рисков Spectre. Дополнительные сведения см. в разделе https://aka.ms/Ofhn4c.
+Если вы получаете *vccorlib. lib не удается открыть* неустранимую ошибку, убедитесь, что Рабочая нагрузка Visual Studio включает [библиотеки, снижающие опасность устранением рисков Spectre](https://aka.ms/Ofhn4c) .
 
-## <a name="speech"></a>Речь
+## <a name="speech"></a>Speech
 
-Проигрыватель holographic Remoting поддерживает наложение диагностики, которую можно включить, произнося ```Enable Diagnostics``` и отключая, произнося ```Disable Diagnostics``` . Если у вас возникли проблемы с этими голосовыми командами, можно также запустить проигрыватель holographic Remoting через веб-браузер, используя ```ms-holographic-remoting:?stats``` в качестве URL-адреса.
+Проигрыватель holographic Remoting поддерживает наложение диагностики, которую можно включить, произнося ```Enable Diagnostics``` и отключая с помощью ```Disable Diagnostics``` . Если у вас возникли проблемы с этими голосовыми командами, можно также запустить проигрыватель holographic Remoting через веб-браузер, используя ```ms-holographic-remoting:?stats``` в качестве URL-адреса.
 
 ## <a name="h265-video-codec-not-available"></a>Кодек H265 Video недоступен
 
-При использовании видеокодека H265 в удаленном приложении необходимо установить [расширения видео HEVC](https://www.microsoft.com/p/hevc-video-extensions/9nmzlz57r3t7) . При возникновении проблем, когда кодек установлен, но не может использоваться, ознакомьтесь с руководством по [устранению неполадок](https://docs.microsoft.com/azure/remote-rendering/resources/troubleshoot#h265-codec-not-available) .
+Установите [расширения видео HEVC](https://www.microsoft.com/p/hevc-video-extensions/9nmzlz57r3t7) при использовании видеокодека H265 в удаленном приложении. При возникновении проблем, когда кодек установлен, но не может использоваться, ознакомьтесь с руководством по [устранению неполадок](https://docs.microsoft.com/azure/remote-rendering/resources/troubleshoot#h265-codec-not-available) .
 
 ## <a name="limitations"></a>Ограничения
 
@@ -44,13 +44,13 @@ ms.locfileid: "96443598"
 * [HolographicCamera.IsHardwareContentProtectionEnabled](https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographiccamera.ishardwarecontentprotectionenabled#Windows_Graphics_Holographic_HolographicCamera_IsHardwareContentProtectionEnabled)
 * [HolographicViewConfiguration.RequestRenderTargetSize](https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicviewconfiguration.requestrendertargetsize#Windows_Graphics_Holographic_HolographicViewConfiguration_RequestRenderTargetSize_Windows_Foundation_Size_)
   - Поддерживается начиная с версии [2.2.0](holographic-remoting-version-history.md#v2.2.0)
-  - В предыдущих версиях не происходит сбой, но размер целевого объекта прорисовки не изменится.
+  - В предыдущих версиях не происходит сбой, но размер целевого объекта рендеринга не изменяется.
 * [Холографиккамерапосе. Оверридепрожектионтрансформ](https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographiccamerapose.overrideprojectiontransform)
 * [Холографиккамерапосе. Оверридевиевпорт](https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographiccamerapose.overrideviewport)
 * [Холографиккамерапосе. Оверридевиевтрансформ](https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographiccamerapose.overrideviewtransform)
   - Поддерживается начиная с версии [2.2.0](holographic-remoting-version-history.md#v2.2.0)
 * [Холографиккамерарендерингпараметерс. CommitDirect3D11DepthBuffer](https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographiccamerarenderingparameters.commitdirect3d11depthbuffer#Windows_Graphics_Holographic_HolographicCameraRenderingParameters_CommitDirect3D11DepthBuffer_Windows_Graphics_DirectX_Direct3D11_IDirect3DSurface_)
-  - Не завершается ошибкой, но буфер глубины не будет удален.
+  - Петров.
   - Поддерживается начиная с версии [2.1.0](holographic-remoting-version-history.md#v2.1.0)
 * [HolographicDisplay.TryGetViewConfiguration](https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicdisplay.trygetviewconfiguration)
   - Запрос Холографиквиевконфигуратионкинд. Фотовидеокамера всегда будет возвращать ```nullptr``` .
@@ -105,7 +105,7 @@ ms.locfileid: "96443598"
 
 ## <a name="see-also"></a>См. также:
 * [Журнал версий службы удаленного взаимодействия с holographic](holographic-remoting-version-history.md)
-* [Создание удаленного приложения holographic с удаленным взаимодействием с помощью API Windows Mixed реалий](holographic-remoting-create-remote-wmr.md)
+* [Создание удаленного приложения holographic с удаленным взаимодействием с помощью API-интерфейсов Windows Mixed Reality](holographic-remoting-create-remote-wmr.md)
 * [Создание удаленного приложения holographic с удаленным взаимодействием с помощью API-интерфейсов Опенкср](holographic-remoting-create-remote-openxr.md)
 * [Создание пользовательского проигрывателя для голографического удаленного взаимодействия](holographic-remoting-create-player.md)
 * [Условия лицензии на использование ПО для голографического удаленного взаимодействия](https://docs.microsoft.com/legal/mixed-reality/microsoft-holographic-remoting-software-license-terms)
