@@ -6,61 +6,61 @@ ms.author: dobrown
 ms.date: 05/15/2019
 ms.topic: article
 keywords: VR, лбе, развлечения на основе расположения, VR Аркадные, Аркадные, иммерсивное, QR, QR-код, hololens2
-ms.openlocfilehash: e7b1f04b51cb1011cd0d66c27fe6a8bff3aafb79
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: 023da7a98d1559d9dd0387a7efbaf26ad577df50
+ms.sourcegitcommit: c41372e0c6ca265f599bff309390982642d628b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91692049"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97530012"
 ---
-# <a name="qr-code-tracking"></a><span data-ttu-id="30486-104">Отслеживание QR-кода</span><span class="sxs-lookup"><span data-stu-id="30486-104">QR code tracking</span></span>
+# <a name="qr-code-tracking"></a><span data-ttu-id="cec87-104">Отслеживание QR-кода</span><span class="sxs-lookup"><span data-stu-id="cec87-104">QR code tracking</span></span>
 
-<span data-ttu-id="30486-105">HoloLens 2 может обнаруживать QR-коды в окружении, окружающем гарнитуру, устанавливая систему координат в реальном расположении всего кода.</span><span class="sxs-lookup"><span data-stu-id="30486-105">HoloLens 2 can detect QR codes in the environment around the headset, establishing a coordinate system at each code's real-world location.</span></span>
+<span data-ttu-id="cec87-105">HoloLens 2 может обнаруживать QR-коды в среде вокруг гарнитуры, определяя систему координат в реальном расположении каждого кода.</span><span class="sxs-lookup"><span data-stu-id="cec87-105">HoloLens 2 can detect QR codes in the environment around the headset, establishing a coordinate system at each code's real-world location.</span></span>
 
-## <a name="device-support"></a><span data-ttu-id="30486-106">Поддержка устройств</span><span class="sxs-lookup"><span data-stu-id="30486-106">Device support</span></span>
+## <a name="device-support"></a><span data-ttu-id="cec87-106">Поддержка устройств</span><span class="sxs-lookup"><span data-stu-id="cec87-106">Device support</span></span>
 
 <table>
 <tr>
-<th><span data-ttu-id="30486-107">Функция</span><span class="sxs-lookup"><span data-stu-id="30486-107">Feature</span></span></th><th style="width:150px"> <span data-ttu-id="30486-108"><a href="../../hololens-hardware-details.md">HoloLens (1-го поколения)</a></span><span class="sxs-lookup"><span data-stu-id="30486-108"><a href="../../hololens-hardware-details.md">HoloLens (1st gen)</a></span></span></th><th style="width:150px"><span data-ttu-id="30486-109">HoloLens 2</span><span class="sxs-lookup"><span data-stu-id="30486-109">HoloLens 2</span></span></th><th style="width:150px"> <span data-ttu-id="30486-110"><a href="../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></span><span class="sxs-lookup"><span data-stu-id="30486-110"><a href="../../discover/immersive-headset-hardware-details.md">Immersive headsets</a></span></span></th>
+<th><span data-ttu-id="cec87-107">Функция</span><span class="sxs-lookup"><span data-stu-id="cec87-107">Feature</span></span></th><th style="width:150px"> <span data-ttu-id="cec87-108"><a href="../../hololens-hardware-details.md">HoloLens (первый общий)</a></span><span class="sxs-lookup"><span data-stu-id="cec87-108"><a href="../../hololens-hardware-details.md">HoloLens (first gen)</a></span></span></th><th style="width:150px"><span data-ttu-id="cec87-109">HoloLens 2</span><span class="sxs-lookup"><span data-stu-id="cec87-109">HoloLens 2</span></span></th><th style="width:150px"> <span data-ttu-id="cec87-110"><a href="../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></span><span class="sxs-lookup"><span data-stu-id="cec87-110"><a href="../../discover/immersive-headset-hardware-details.md">Immersive headsets</a></span></span></th>
 </tr><tr>
-<td> <span data-ttu-id="30486-111">Обнаружение QR-кода</span><span class="sxs-lookup"><span data-stu-id="30486-111">QR code detection</span></span></td><td style="text-align: center;"><span data-ttu-id="30486-112">️</span><span class="sxs-lookup"><span data-stu-id="30486-112">️</span></span></td><td style="text-align: center;"> <span data-ttu-id="30486-113">✔️</span><span class="sxs-lookup"><span data-stu-id="30486-113">✔️</span></span></td><td style="text-align: center;"><span data-ttu-id="30486-114">✔️</span><span class="sxs-lookup"><span data-stu-id="30486-114">✔️</span></span></td>
+<td> <span data-ttu-id="cec87-111">Обнаружение QR-кода</span><span class="sxs-lookup"><span data-stu-id="cec87-111">QR code detection</span></span></td><td style="text-align: center;"><span data-ttu-id="cec87-112">️</span><span class="sxs-lookup"><span data-stu-id="cec87-112">️</span></span></td><td style="text-align: center;"> <span data-ttu-id="cec87-113">✔️</span><span class="sxs-lookup"><span data-stu-id="cec87-113">✔️</span></span></td><td style="text-align: center;"><span data-ttu-id="cec87-114">✔️</span><span class="sxs-lookup"><span data-stu-id="cec87-114">✔️</span></span></td>
 </tr>
 </table>
 
 >[!NOTE]
-><span data-ttu-id="30486-115">Отслеживание QR-кодов с помощью впечатляющих головных телефонов Windows Mixed Reality на настольных компьютерах поддерживается в Windows 10 версии 2004 и более поздних версиях.</span><span class="sxs-lookup"><span data-stu-id="30486-115">QR code tracking with immersive Windows Mixed Reality headsets on desktop PCs is supported on Windows 10 Version 2004 and higher.</span></span> <span data-ttu-id="30486-116">Используйте API Microsoft. Микседреалити. Кркодеватчер. support (), чтобы определить, поддерживается ли эта функция на текущем устройстве.</span><span class="sxs-lookup"><span data-stu-id="30486-116">Use the Microsoft.MixedReality.QRCodeWatcher.IsSupported() API to determine whether the feature is supported on the current device.</span></span>
+><span data-ttu-id="cec87-115">Отслеживание QR-кодов с помощью впечатляющих головных телефонов Windows Mixed Reality на настольных компьютерах поддерживается в Windows 10 версии 2004 и более поздних версиях.</span><span class="sxs-lookup"><span data-stu-id="cec87-115">QR code tracking with immersive Windows Mixed Reality headsets on desktop PCs is supported on Windows 10 Version 2004 and higher.</span></span> <span data-ttu-id="cec87-116">Используйте API Microsoft. Микседреалити. Кркодеватчер. support (), чтобы определить, поддерживается ли эта функция на текущем устройстве.</span><span class="sxs-lookup"><span data-stu-id="cec87-116">Use the Microsoft.MixedReality.QRCodeWatcher.IsSupported() API to determine whether the feature is supported on the current device.</span></span>
 
-## <a name="getting-the-qr-package"></a><span data-ttu-id="30486-117">Получение QR-пакета</span><span class="sxs-lookup"><span data-stu-id="30486-117">Getting the QR package</span></span>
-<span data-ttu-id="30486-118">Пакет NuGet для обнаружения QR-кода можно скачать [здесь](https://nuget.org/Packages/Microsoft.MixedReality.QR).</span><span class="sxs-lookup"><span data-stu-id="30486-118">You can download the NuGet package for QR code detection [here](https://nuget.org/Packages/Microsoft.MixedReality.QR).</span></span>
+## <a name="getting-the-qr-package"></a><span data-ttu-id="cec87-117">Получение QR-пакета</span><span class="sxs-lookup"><span data-stu-id="cec87-117">Getting the QR package</span></span>
 
-## <a name="detecting-qr-codes"></a><span data-ttu-id="30486-119">Обнаружение QR-кодов</span><span class="sxs-lookup"><span data-stu-id="30486-119">Detecting QR codes</span></span>
+<span data-ttu-id="cec87-118">Пакет NuGet для обнаружения QR-кода можно скачать [здесь](https://nuget.org/Packages/Microsoft.MixedReality.QR).</span><span class="sxs-lookup"><span data-stu-id="cec87-118">You can download the NuGet package for QR code detection [here](https://nuget.org/Packages/Microsoft.MixedReality.QR).</span></span>
 
-### <a name="adding-the-webcam-capability"></a><span data-ttu-id="30486-120">Добавление возможности веб-камеры</span><span class="sxs-lookup"><span data-stu-id="30486-120">Adding the webcam capability</span></span>
-<span data-ttu-id="30486-121">Для обнаружения QR-кодов необходимо добавить в `webcam` Манифест возможность.</span><span class="sxs-lookup"><span data-stu-id="30486-121">You will need to add the capability `webcam` to your manifest to detect QR codes.</span></span> <span data-ttu-id="30486-122">Эта возможность необходима, так как данные в обнаруженных кодах в пользовательской среде могут содержать конфиденциальные сведения.</span><span class="sxs-lookup"><span data-stu-id="30486-122">This capability is required as the data within detected codes in the user's environment may contain sensitive information.</span></span>
+## <a name="detecting-qr-codes"></a><span data-ttu-id="cec87-119">Обнаружение QR-кодов</span><span class="sxs-lookup"><span data-stu-id="cec87-119">Detecting QR codes</span></span>
 
-<span data-ttu-id="30486-123">Разрешение можно запросить, вызвав `QRCodeWatcher.RequestAccessAsync()` :</span><span class="sxs-lookup"><span data-stu-id="30486-123">Permission can be requested by calling `QRCodeWatcher.RequestAccessAsync()`:</span></span>
+### <a name="adding-the-webcam-capability"></a><span data-ttu-id="cec87-120">Добавление возможности веб-камеры</span><span class="sxs-lookup"><span data-stu-id="cec87-120">Adding the webcam capability</span></span>
 
-<span data-ttu-id="30486-124">_См_</span><span class="sxs-lookup"><span data-stu-id="30486-124">_C#:_</span></span>
+<span data-ttu-id="cec87-121">Чтобы обнаружить QR-коды, необходимо добавить в `webcam` Манифест возможность.</span><span class="sxs-lookup"><span data-stu-id="cec87-121">You'll need to add the capability `webcam` to your manifest to detect QR codes.</span></span> <span data-ttu-id="cec87-122">Эта возможность необходима, так как данные в обнаруженных кодах в пользовательской среде могут содержать конфиденциальные сведения.</span><span class="sxs-lookup"><span data-stu-id="cec87-122">This capability is required as the data within detected codes in the user's environment may contain sensitive information.</span></span>
+
+<span data-ttu-id="cec87-123">Разрешение можно запросить, вызвав `QRCodeWatcher.RequestAccessAsync()` :</span><span class="sxs-lookup"><span data-stu-id="cec87-123">Permission can be requested by calling `QRCodeWatcher.RequestAccessAsync()`:</span></span>
+
+<span data-ttu-id="cec87-124">_См_</span><span class="sxs-lookup"><span data-stu-id="cec87-124">_C#:_</span></span>
 ```cs
 await QRCodeWatcher.RequestAccessAsync();
 ```
 
-<span data-ttu-id="30486-125">_C++_</span><span class="sxs-lookup"><span data-stu-id="30486-125">_C++:_</span></span>
+<span data-ttu-id="cec87-125">_C++_</span><span class="sxs-lookup"><span data-stu-id="cec87-125">_C++:_</span></span>
 ```cpp
 co_await QRCodeWatcher.RequestAccessAsync();
 ```
 
-<span data-ttu-id="30486-126">Разрешение должно быть запрошено до создания объекта Кркодеватчер.</span><span class="sxs-lookup"><span data-stu-id="30486-126">Permission must be requested before you construct a QRCodeWatcher object.</span></span>
+<span data-ttu-id="cec87-126">Разрешение должно быть запрошено до создания объекта Кркодеватчер.</span><span class="sxs-lookup"><span data-stu-id="cec87-126">Permission must be requested before you construct a QRCodeWatcher object.</span></span>
 
-<span data-ttu-id="30486-127">Хотя для обнаружения QR-кодов требуется `webcam` возможность, обнаружение осуществляется с помощью камер отслеживания устройства.</span><span class="sxs-lookup"><span data-stu-id="30486-127">While QR code detection requires the `webcam` capability, the detection occurs using the device's tracking cameras.</span></span> <span data-ttu-id="30486-128">Это обеспечивает более широкое ФОВное обнаружение и повышает время работы аккумулятора по сравнению с обнаружением с помощью камеры устройства и видео (ПС).</span><span class="sxs-lookup"><span data-stu-id="30486-128">This provides a wider detection FOV and better battery life compared to detection with the device's photo/video (PV) camera.</span></span>
+<span data-ttu-id="cec87-127">Хотя для обнаружения QR-кодов требуется `webcam` возможность, обнаружение осуществляется с помощью камер отслеживания устройства.</span><span class="sxs-lookup"><span data-stu-id="cec87-127">While QR code detection requires the `webcam` capability, the detection occurs using the device's tracking cameras.</span></span> <span data-ttu-id="cec87-128">Это обеспечивает более широкое ФОВное обнаружение и повышает время работы аккумулятора по сравнению с обнаружением с помощью камеры устройства и видео (ПС).</span><span class="sxs-lookup"><span data-stu-id="cec87-128">This provides a wider detection FOV and better battery life compared to detection with the device's photo/video (PV) camera.</span></span>
 
-### <a name="detecting-qr-codes-in-unity"></a><span data-ttu-id="30486-129">Обнаружение QR-кодов в Unity</span><span class="sxs-lookup"><span data-stu-id="30486-129">Detecting QR codes in Unity</span></span>
+### <a name="detecting-qr-codes-in-unity"></a><span data-ttu-id="cec87-129">Обнаружение QR-кодов в Unity</span><span class="sxs-lookup"><span data-stu-id="cec87-129">Detecting QR codes in Unity</span></span>
 
-<span data-ttu-id="30486-130">Вы можете использовать API обнаружения QR-кода в Unity, не принимая зависимость от МРТК.</span><span class="sxs-lookup"><span data-stu-id="30486-130">You can use the QR code detection API in Unity without taking a dependency on MRTK.</span></span> <span data-ttu-id="30486-131">Для этого необходимо установить пакет NuGet с помощью [NuGet для Unity](https://github.com/GlitchEnzo/NuGetForUnity).</span><span class="sxs-lookup"><span data-stu-id="30486-131">To do so, you must install the NuGet package using [NuGet for Unity](https://github.com/GlitchEnzo/NuGetForUnity).</span></span>
+<span data-ttu-id="cec87-130">API обнаружения QR-кода можно использовать в Unity без импорта МРТК, установив пакет NuGet с помощью [NuGet для Unity](https://github.com/GlitchEnzo/NuGetForUnity).</span><span class="sxs-lookup"><span data-stu-id="cec87-130">You can use the QR code detection API in Unity without importing MRTK by installing the NuGet package using [NuGet for Unity](https://github.com/GlitchEnzo/NuGetForUnity).</span></span> <span data-ttu-id="cec87-131">Если вы хотите узнать, как это работает, скачайте [пример приложения Unity](https://github.com/chgatla-microsoft/QRTracking/tree/master/SampleQRCodes).</span><span class="sxs-lookup"><span data-stu-id="cec87-131">If you want to get a feel for how it works, download the [sample Unity app](https://github.com/chgatla-microsoft/QRTracking/tree/master/SampleQRCodes).</span></span> <span data-ttu-id="cec87-132">Пример приложения содержит примеры для отображения с holographic-го квадрата по QR кодам и связанным данным, таким как GUID, физический размер, метка времени и декодированные данные.</span><span class="sxs-lookup"><span data-stu-id="cec87-132">The sample app has examples for displaying a holographic square over QR codes and associated data such as GUID, physical size, timestamp, and decoded data.</span></span>
 
-<span data-ttu-id="30486-132">Существует пример приложения Unity, которое отображает holographic-квадрат над QR-кодами вместе со связанными данными, такими как GUID, физический размер, метка времени и декодированные данные.</span><span class="sxs-lookup"><span data-stu-id="30486-132">There is a sample Unity app that displays a holographic square over QR codes, along with the associated data such as GUID, physical size, timestamp, and decoded data.</span></span> <span data-ttu-id="30486-133">Это приложение можно найти по адресу https://github.com/chgatla-microsoft/QRTracking/tree/master/SampleQRCodes .</span><span class="sxs-lookup"><span data-stu-id="30486-133">This app can be located at https://github.com/chgatla-microsoft/QRTracking/tree/master/SampleQRCodes.</span></span>
-
-### <a name="detecting-qr-codes-in-c"></a><span data-ttu-id="30486-134">Обнаружение QR-кодов в C++</span><span class="sxs-lookup"><span data-stu-id="30486-134">Detecting QR codes in C++</span></span>
+### <a name="detecting-qr-codes-in-c"></a><span data-ttu-id="cec87-133">Обнаружение QR-кодов в C++</span><span class="sxs-lookup"><span data-stu-id="cec87-133">Detecting QR codes in C++</span></span>
 
 ```cpp
 using namespace winrt::Windows::Foundation;
@@ -120,15 +120,17 @@ private:
 };
 ```
 
-## <a name="getting-the-coordinate-system-for-a-qr-code"></a><span data-ttu-id="30486-135">Получение системы координат для QR-кода</span><span class="sxs-lookup"><span data-stu-id="30486-135">Getting the coordinate system for a QR code</span></span>
+## <a name="getting-the-coordinate-system-for-a-qr-code"></a><span data-ttu-id="cec87-134">Получение системы координат для QR-кода</span><span class="sxs-lookup"><span data-stu-id="cec87-134">Getting the coordinate system for a QR code</span></span>
 
-<span data-ttu-id="30486-136">Каждый обнаруженный QR-код предоставляет [систему пространственных координат](../../design/coordinate-systems.md) , выравниваемая по левому краю в верхнем левом углу квадрата быстрого обнаружения, как показано ниже.</span><span class="sxs-lookup"><span data-stu-id="30486-136">Each detected QR code exposes a [spatial coordinate system](../../design/coordinate-systems.md) aligned with the QR code at the top left corner of the fast detection square in the top left as seen below.</span></span>  <span data-ttu-id="30486-137">При непосредственном использовании QR-пакета SDK ось Z указывает на бумагу (не показано) — при преобразовании в координаты Unity точки оси Z находятся за пределами бумаги и остаются в левой части.</span><span class="sxs-lookup"><span data-stu-id="30486-137">When directly using the QR SDK, the Z-axis is pointing into the paper (not shown) - when converted into Unity coordinates, the Z-axis points out of the paper and is left-handed.</span></span>
-
-<span data-ttu-id="30486-138">Спатиалкурдинатесистем QR-кода выстраивается так, как показано.</span><span class="sxs-lookup"><span data-stu-id="30486-138">A QR code's SpatialCoordinateSystem aligns as shown.</span></span> <span data-ttu-id="30486-139">Эта система координат может быть получена из платформы путем вызова <a href="https://docs.microsoft.com/uwp/api/windows.perception.spatial.preview.spatialgraphinteroppreview.createcoordinatesystemfornode" target="_blank">спатиалграфинтероппревиев:: креатекурдинатесистемфорноде</a> и передачи спатиалграфнодеид кода.</span><span class="sxs-lookup"><span data-stu-id="30486-139">This coordinate system can be obtained from the platform by calling <a href="https://docs.microsoft.com/uwp/api/windows.perception.spatial.preview.spatialgraphinteroppreview.createcoordinatesystemfornode" target="_blank">SpatialGraphInteropPreview::CreateCoordinateSystemForNode</a> and passing in the code's SpatialGraphNodeId.</span></span>
+<span data-ttu-id="cec87-135">Каждый обнаруженный QR-код предоставляет [пространственное координатную систему](../../design/coordinate-systems.md) , согласованную с QR-кодом в левом верхнем углу квадрата быстрого обнаружения в верхней левой части:</span><span class="sxs-lookup"><span data-stu-id="cec87-135">Each detected QR code exposes a [spatial coordinate system](../../design/coordinate-systems.md) aligned with the QR code at the top-left corner of the fast detection square in the top left:</span></span>  
 
 ![Система координат QR-кода](images/Qr-coordinatesystem.png) 
 
-<span data-ttu-id="30486-141">Для объекта Кркоде в следующем коде C++ показано, как создать прямоугольник и разместить его с помощью системы координат QR-кода:</span><span class="sxs-lookup"><span data-stu-id="30486-141">For a QRCode object, the following C++ code shows how to create a rectangle and place it using the QR code's coordinate system:</span></span>
+<span data-ttu-id="cec87-137">При непосредственном использовании QR-пакета SDK ось Z указывает на бумагу (не показано) — при преобразовании в координаты Unity точки оси Z находятся за пределами бумаги и остаются в левой части.</span><span class="sxs-lookup"><span data-stu-id="cec87-137">When directly using the QR SDK, the Z-axis is pointing into the paper (not shown) - when converted into Unity coordinates, the Z-axis points out of the paper and is left-handed.</span></span>
+
+<span data-ttu-id="cec87-138">Спатиалкурдинатесистем QR-кода выстраивается так, как показано.</span><span class="sxs-lookup"><span data-stu-id="cec87-138">A QR code's SpatialCoordinateSystem aligns as shown.</span></span> <span data-ttu-id="cec87-139">Вы можете получить систему координат из платформы, вызвав <a href="https://docs.microsoft.com/uwp/api/windows.perception.spatial.preview.spatialgraphinteroppreview.createcoordinatesystemfornode" target="_blank">спатиалграфинтероппревиев:: креатекурдинатесистемфорноде</a> и передав спатиалграфнодеид кода.</span><span class="sxs-lookup"><span data-stu-id="cec87-139">You can get the coordinate system from the platform by calling <a href="https://docs.microsoft.com/uwp/api/windows.perception.spatial.preview.spatialgraphinteroppreview.createcoordinatesystemfornode" target="_blank">SpatialGraphInteropPreview::CreateCoordinateSystemForNode</a> and passing in the code's SpatialGraphNodeId.</span></span>
+
+<span data-ttu-id="cec87-140">В приведенном ниже коде C++ показано, как создать прямоугольник и разместить его с помощью системы координат QR-кода:</span><span class="sxs-lookup"><span data-stu-id="cec87-140">The C++ code below shows how to create a rectangle and place it using the QR code's coordinate system:</span></span>
 
 ```cpp
 // Creates a 2D rectangle in the x-y plane, with the specified properties.
@@ -145,13 +147,13 @@ std::vector<float3> MyApplication::CreateRectangle(float width, float height)
 }
 ```
 
-<span data-ttu-id="30486-142">Для создания QR-прямоугольника можно использовать физический размер:</span><span class="sxs-lookup"><span data-stu-id="30486-142">You can use the physical size to create the QR rectangle:</span></span>
+<span data-ttu-id="cec87-141">Для создания QR-прямоугольника можно использовать физический размер:</span><span class="sxs-lookup"><span data-stu-id="cec87-141">You can use the physical size to create the QR rectangle:</span></span>
 
 ```cpp
 std::vector<float3> qrVertices = CreateRectangle(code.PhysicalSideLength(), code.PhysicalSideLength()); 
 ```
 
-<span data-ttu-id="30486-143">Систему координат можно использовать для рисования QR-кода или прикрепления голограмм к расположению:</span><span class="sxs-lookup"><span data-stu-id="30486-143">The coordinate system can be used to draw the QR code or attach holograms to the location:</span></span>
+<span data-ttu-id="cec87-142">Систему координат можно использовать для рисования QR-кода или прикрепления голограмм к расположению:</span><span class="sxs-lookup"><span data-stu-id="cec87-142">The coordinate system can be used to draw the QR code or attach holograms to the location:</span></span>
 
 ```cpp
 using namespace winrt::Windows::Perception::Spatial;
@@ -159,7 +161,7 @@ using namespace winrt::Windows::Perception::Spatial::Preview;
 SpatialCoordinateSystem qrCoordinateSystem = SpatialGraphInteropPreview::CreateCoordinateSystemForNode(code.SpatialGraphNodeId());
 ```
 
-<span data-ttu-id="30486-144">В целом, ваш *кркодеаддедхандлер* может выглядеть примерно так:</span><span class="sxs-lookup"><span data-stu-id="30486-144">Altogether, your *QRCodeAddedHandler* may look something like this:</span></span>
+<span data-ttu-id="cec87-143">В целом, ваш *кркодеаддедхандлер* может выглядеть примерно так:</span><span class="sxs-lookup"><span data-stu-id="cec87-143">Altogether, your *QRCodeAddedHandler* may look something like this:</span></span>
 
 ```cpp
 void MyApplication::OnAddedQRCode(const QRCodeAddedEventArgs& args)
@@ -182,47 +184,47 @@ void MyApplication::OnAddedQRCode(const QRCodeAddedEventArgs& args)
 }
 ```
 
-## <a name="best-practices-for-qr-code-detection"></a><span data-ttu-id="30486-145">Рекомендации по обнаружению QR-кода</span><span class="sxs-lookup"><span data-stu-id="30486-145">Best practices for QR code detection</span></span>
+## <a name="best-practices-for-qr-code-detection"></a><span data-ttu-id="cec87-144">Рекомендации по обнаружению QR-кода</span><span class="sxs-lookup"><span data-stu-id="cec87-144">Best practices for QR code detection</span></span>
 
-### <a name="quiet-zones-around-qr-codes"></a><span data-ttu-id="30486-146">Зоны без кавычек вокруг QR-кодов</span><span class="sxs-lookup"><span data-stu-id="30486-146">Quiet zones around QR Codes</span></span>
+### <a name="quiet-zones-around-qr-codes"></a><span data-ttu-id="cec87-145">Зоны без кавычек вокруг QR-кодов</span><span class="sxs-lookup"><span data-stu-id="cec87-145">Quiet zones around QR Codes</span></span>
 
-<span data-ttu-id="30486-147">Для правильного чтения QR-коды занимают поля вокруг всех сторон кода.</span><span class="sxs-lookup"><span data-stu-id="30486-147">To be read correctly, QR codes require a margin around all sides of the code.</span></span> <span data-ttu-id="30486-148">Это поле не должно содержать ни одного печатного содержимого и должно состоять из четырех модулей (один черный квадрат в коде).</span><span class="sxs-lookup"><span data-stu-id="30486-148">This margin must not contain any printed content and should be four modules (a single black square in the code) wide.</span></span> 
+<span data-ttu-id="cec87-146">Для правильного чтения QR-коды занимают поля вокруг всех сторон кода.</span><span class="sxs-lookup"><span data-stu-id="cec87-146">To be read correctly, QR codes require a margin around all sides of the code.</span></span> <span data-ttu-id="cec87-147">Это поле не должно содержать ни одного печатного содержимого и должно состоять из четырех модулей (один черный квадрат в коде).</span><span class="sxs-lookup"><span data-stu-id="cec87-147">This margin must not contain any printed content and should be four modules (a single black square in the code) wide.</span></span> 
 
-<span data-ttu-id="30486-149">[QR-спецификация](https://www.qrcode.com/en/howto/code.html) содержит дополнительные сведения о зонах «тихий».</span><span class="sxs-lookup"><span data-stu-id="30486-149">The [QR spec](https://www.qrcode.com/en/howto/code.html) contains more information about quiet zones.</span></span>
+<span data-ttu-id="cec87-148">[QR-спецификация](https://www.qrcode.com/en/howto/code.html) содержит дополнительные сведения о зонах «тихий».</span><span class="sxs-lookup"><span data-stu-id="cec87-148">The [QR spec](https://www.qrcode.com/en/howto/code.html) contains more information about quiet zones.</span></span>
 
-### <a name="lighting-and-backdrop"></a><span data-ttu-id="30486-150">Освещение и фон</span><span class="sxs-lookup"><span data-stu-id="30486-150">Lighting and backdrop</span></span>
-<span data-ttu-id="30486-151">Качество обнаружения QR-кодов является уязвимым для различных освещения и подложки.</span><span class="sxs-lookup"><span data-stu-id="30486-151">QR code detection quality is susceptible to varying illumination and backdrop.</span></span> 
+### <a name="lighting-and-backdrop"></a><span data-ttu-id="cec87-149">Освещение и фон</span><span class="sxs-lookup"><span data-stu-id="cec87-149">Lighting and backdrop</span></span>
+<span data-ttu-id="cec87-150">Качество обнаружения QR-кодов является уязвимым для различных освещения и подложки.</span><span class="sxs-lookup"><span data-stu-id="cec87-150">QR code detection quality is susceptible to varying illumination and backdrop.</span></span> 
 
-<span data-ttu-id="30486-152">В сцене с особенно ярким освещением распечатайте черный цвет на сером фоне.</span><span class="sxs-lookup"><span data-stu-id="30486-152">In a scene with particularly bright lighting, print a code that is black on a gray background.</span></span> <span data-ttu-id="30486-153">В противном случае распечатайте черный QR-код на белом фоне.</span><span class="sxs-lookup"><span data-stu-id="30486-153">Otherwise, print a black QR code on a white background.</span></span>
+<span data-ttu-id="cec87-151">В сцене с ярким освещением распечатайте черный цвет на сером фоне.</span><span class="sxs-lookup"><span data-stu-id="cec87-151">In a scene with bright lighting, print a code that is black on a gray background.</span></span> <span data-ttu-id="cec87-152">В противном случае распечатайте черный QR-код на белом фоне.</span><span class="sxs-lookup"><span data-stu-id="cec87-152">Otherwise, print a black QR code on a white background.</span></span>
 
-<span data-ttu-id="30486-154">Если фон кода является особенно темным, попробуйте использовать черный цвет в сером коде, если частота обнаружения мала.</span><span class="sxs-lookup"><span data-stu-id="30486-154">If the backdrop to the code is particularly dark, try a black on gray code if your detection rate is low.</span></span> <span data-ttu-id="30486-155">Если подложка относительно легкая, то обычный код должен работать нормально.</span><span class="sxs-lookup"><span data-stu-id="30486-155">If the backdrop is relatively light, a regular code should work fine.</span></span>
+<span data-ttu-id="cec87-153">Если фон кода является темным, попробуйте использовать черный цвет в сером коде, если частота обнаружения мала.</span><span class="sxs-lookup"><span data-stu-id="cec87-153">If the backdrop to the code is dark, try a black on gray code if your detection rate is low.</span></span> <span data-ttu-id="cec87-154">Если подложка относительно легкая, то обычный код должен работать нормально.</span><span class="sxs-lookup"><span data-stu-id="cec87-154">If the backdrop is relatively light, a regular code should work fine.</span></span>
 
-### <a name="size-of-qr-codes"></a><span data-ttu-id="30486-156">Размер QR-кодов</span><span class="sxs-lookup"><span data-stu-id="30486-156">Size of QR codes</span></span>
-<span data-ttu-id="30486-157">Устройства Windows Mixed Reality не работают с QR-кодами с сторонами, меньшими 5 cm.</span><span class="sxs-lookup"><span data-stu-id="30486-157">Windows Mixed Reality devices do not work with QR codes with sides smaller than 5 cm each.</span></span>
+### <a name="size-of-qr-codes"></a><span data-ttu-id="cec87-155">Размер QR-кодов</span><span class="sxs-lookup"><span data-stu-id="cec87-155">Size of QR codes</span></span>
+<span data-ttu-id="cec87-156">Устройства Windows Mixed Reality не работают с QR-кодами с сторонами, меньшими 5 cm.</span><span class="sxs-lookup"><span data-stu-id="cec87-156">Windows Mixed Reality devices don't work with QR codes with sides smaller than 5 cm each.</span></span>
 
-<span data-ttu-id="30486-158">Для QR-кодов, которые находятся в диапазоне от 5 до 10 cm, вы должны быть достаточно близки для обнаружения кода.</span><span class="sxs-lookup"><span data-stu-id="30486-158">For QR codes between 5 and 10 cm length sides, you must be fairly close to detect the code.</span></span> <span data-ttu-id="30486-159">Для обнаружения кодов с таким размером также потребуется больше времени.</span><span class="sxs-lookup"><span data-stu-id="30486-159">It will also take longer to detect codes at this size.</span></span> 
+<span data-ttu-id="cec87-157">Для QR-кодов, которые находятся в диапазоне от 5 до 10 cm, вы должны быть достаточно близки к обнаружению кода.</span><span class="sxs-lookup"><span data-stu-id="cec87-157">For QR codes between 5 cm and 10-cm length sides, you must be fairly close to detect the code.</span></span> <span data-ttu-id="cec87-158">Для обнаружения кодов с таким размером также потребуется больше времени.</span><span class="sxs-lookup"><span data-stu-id="cec87-158">It will also take longer to detect codes at this size.</span></span> 
 
-<span data-ttu-id="30486-160">Точное время на обнаружение кодов зависит не только от размера QR-кодов, но от того, на каком расстоянии у вас нет кода.</span><span class="sxs-lookup"><span data-stu-id="30486-160">The exact time to detect codes depends not only on the size of the QR codes, but how far you are away from the code.</span></span> <span data-ttu-id="30486-161">Переход ближе к коду поможет в смещении проблем с размером.</span><span class="sxs-lookup"><span data-stu-id="30486-161">Moving closer to the code will help offset issues with size.</span></span>
+<span data-ttu-id="cec87-159">Точное время на обнаружение кодов зависит не только от размера QR-кодов, но от того, насколько далеко вы находитесь вне кода.</span><span class="sxs-lookup"><span data-stu-id="cec87-159">The exact time to detect codes depends not only on the size of the QR codes, but how far you're away from the code.</span></span> <span data-ttu-id="cec87-160">Переход ближе к коду поможет в смещении проблем с размером.</span><span class="sxs-lookup"><span data-stu-id="cec87-160">Moving closer to the code will help offset issues with size.</span></span>
 
-### <a name="distance-and-angular-position-from-the-qr-code"></a><span data-ttu-id="30486-162">Расстояние и угловое расположение из QR-кода</span><span class="sxs-lookup"><span data-stu-id="30486-162">Distance and angular position from the QR code</span></span>
-<span data-ttu-id="30486-163">Отслеживающие камеры могут обнаруживать только определенный уровень детализации.</span><span class="sxs-lookup"><span data-stu-id="30486-163">The tracking cameras can only detect a certain level of detail.</span></span> <span data-ttu-id="30486-164">Для действительно небольших кодов — < 10cm вдоль сторон, вы должны быть достаточно близки.</span><span class="sxs-lookup"><span data-stu-id="30486-164">For really small codes - < 10cm along the sides - you must be fairly close.</span></span> <span data-ttu-id="30486-165">Для QR-кода версии 1, наличного от 10 до 25 сантиметров, минимальное расстояние обнаружения составляет от 0,15 метров до 0,5 метров.</span><span class="sxs-lookup"><span data-stu-id="30486-165">For a version 1 QR code varying from 10 to 25 cm wide, the minimum detection distance ranges from 0.15 meters to 0.5 meters.</span></span> 
+### <a name="distance-and-angular-position-from-the-qr-code"></a><span data-ttu-id="cec87-161">Расстояние и угловое расположение из QR-кода</span><span class="sxs-lookup"><span data-stu-id="cec87-161">Distance and angular position from the QR code</span></span>
+<span data-ttu-id="cec87-162">Отслеживающие камеры могут обнаруживать только определенный уровень детализации.</span><span class="sxs-lookup"><span data-stu-id="cec87-162">The tracking cameras can only detect a certain level of detail.</span></span> <span data-ttu-id="cec87-163">Для небольших кодов — < 10 cm вдоль сторон, вы должны быть достаточно близки.</span><span class="sxs-lookup"><span data-stu-id="cec87-163">For small codes - < 10 cm along the sides - you must be fairly close.</span></span> <span data-ttu-id="cec87-164">Для QR-кода версии 1, отличающегося от 10 cm до 25 сантиметров, минимальное расстояние обнаружения составляет от 0,15 метров до 0,5 метров.</span><span class="sxs-lookup"><span data-stu-id="cec87-164">For a version 1 QR code varying from 10 cm to 25 cm wide, the minimum detection distance ranges from 0.15 meters to 0.5 meters.</span></span> 
 
-<span data-ttu-id="30486-166">Расстояние обнаружения для размера увеличивается линейно.</span><span class="sxs-lookup"><span data-stu-id="30486-166">The detection distance for size increases linearly.</span></span> 
+<span data-ttu-id="cec87-165">Расстояние обнаружения для размера увеличивается линейно.</span><span class="sxs-lookup"><span data-stu-id="cec87-165">The detection distance for size increases linearly.</span></span> 
 
-<span data-ttu-id="30486-167">Обнаружение QR работает с диапазоном углов + = 45deg.</span><span class="sxs-lookup"><span data-stu-id="30486-167">QR detection works with a range of angles += 45deg.</span></span> <span data-ttu-id="30486-168">Это необходимо для того, чтобы убедиться, что у нас есть правильное разрешение для обнаружения кода.</span><span class="sxs-lookup"><span data-stu-id="30486-168">This is to ensure we have proper resolution to detect the code.</span></span>
+<span data-ttu-id="cec87-166">Обнаружение QR работает с диапазоном углов + = 45 град, чтобы обеспечить правильное разрешение для обнаружения кода.</span><span class="sxs-lookup"><span data-stu-id="cec87-166">QR detection works with a range of angles += 45 deg to ensure we have proper resolution to detect the code.</span></span>
 
-### <a name="qr-codes-with-logos"></a><span data-ttu-id="30486-169">QR-коды с логотипами</span><span class="sxs-lookup"><span data-stu-id="30486-169">QR codes with logos</span></span>
-<span data-ttu-id="30486-170">QR-коды с логотипами не тестировались и в настоящее время не поддерживаются.</span><span class="sxs-lookup"><span data-stu-id="30486-170">QR codes with logos have not been tested and are currently unsupported.</span></span>
+### <a name="qr-codes-with-logos"></a><span data-ttu-id="cec87-167">QR-коды с логотипами</span><span class="sxs-lookup"><span data-stu-id="cec87-167">QR codes with logos</span></span>
+<span data-ttu-id="cec87-168">QR-коды с логотипами не тестировались и в настоящее время не поддерживаются.</span><span class="sxs-lookup"><span data-stu-id="cec87-168">QR codes with logos haven't been tested and are currently unsupported.</span></span>
 
-### <a name="managing-qr-code-data"></a><span data-ttu-id="30486-171">Управление данными QR-кода</span><span class="sxs-lookup"><span data-stu-id="30486-171">Managing QR code data</span></span>
-<span data-ttu-id="30486-172">Устройства Windows Mixed Reality обнаруживают QR-коды на уровне системы в драйвере.</span><span class="sxs-lookup"><span data-stu-id="30486-172">Windows Mixed Reality devices detect QR codes at the system level in the driver.</span></span> <span data-ttu-id="30486-173">При перезагрузке устройства обнаруженные QR-коды исчезают и будут повторно обнаружены как новые объекты в следующий раз.</span><span class="sxs-lookup"><span data-stu-id="30486-173">When the device is rebooted, the detected QR codes are gone and will be re-detected as new objects next time.</span></span>
+### <a name="managing-qr-code-data"></a><span data-ttu-id="cec87-169">Управление данными QR-кода</span><span class="sxs-lookup"><span data-stu-id="cec87-169">Managing QR code data</span></span>
+<span data-ttu-id="cec87-170">Устройства Windows Mixed Reality обнаруживают QR-коды на уровне системы в драйвере.</span><span class="sxs-lookup"><span data-stu-id="cec87-170">Windows Mixed Reality devices detect QR codes at the system level in the driver.</span></span> <span data-ttu-id="cec87-171">При перезагрузке устройства обнаруженные QR-коды исчезают и будут повторно обнаружены как новые объекты в следующий раз.</span><span class="sxs-lookup"><span data-stu-id="cec87-171">When the device is rebooted, the detected QR codes are gone and will be redetected as new objects next time.</span></span>
 
-<span data-ttu-id="30486-174">Рекомендуется настроить приложение так, чтобы оно игнорировало QR-коды старше определенной метки времени.</span><span class="sxs-lookup"><span data-stu-id="30486-174">It is recommended to configure your app to ignore QR codes older than a specific timestamp.</span></span> <span data-ttu-id="30486-175">В настоящее время API не поддерживает очистку журнала QR-кода.</span><span class="sxs-lookup"><span data-stu-id="30486-175">Currently, the API does not support clearing QR code history.</span></span>
+<span data-ttu-id="cec87-172">Мы рекомендуем настроить приложение так, чтобы оно игнорировало QR-коды старше определенной метки времени.</span><span class="sxs-lookup"><span data-stu-id="cec87-172">We recommend configuring your app to ignore QR codes older than a specific timestamp.</span></span> <span data-ttu-id="cec87-173">В настоящее время API не поддерживает очистку журнала QR-кода.</span><span class="sxs-lookup"><span data-stu-id="cec87-173">Currently, the API doesn't support clearing QR code history.</span></span>
 
-### <a name="qr-code-placement-in-a-space"></a><span data-ttu-id="30486-176">Размещение QR-кода в пространстве</span><span class="sxs-lookup"><span data-stu-id="30486-176">QR code placement in a space</span></span>
-<span data-ttu-id="30486-177">Рекомендации по расположению и способу размещения QR-кодов см. в статье [рекомендации по окружению для HoloLens](../../environment-considerations-for-hololens.md).</span><span class="sxs-lookup"><span data-stu-id="30486-177">For recommendations on where and how to place QR codes, please refer to [Environment considerations for HoloLens](../../environment-considerations-for-hololens.md).</span></span>
+### <a name="qr-code-placement-in-a-space"></a><span data-ttu-id="cec87-174">Размещение QR-кода в пространстве</span><span class="sxs-lookup"><span data-stu-id="cec87-174">QR code placement in a space</span></span>
+<span data-ttu-id="cec87-175">Рекомендации по месту и способу размещения QR-кодов см. в статье [рекомендации по окружению для HoloLens](../../environment-considerations-for-hololens.md).</span><span class="sxs-lookup"><span data-stu-id="cec87-175">For recommendations on where and how to place QR codes, refer to [Environment considerations for HoloLens](../../environment-considerations-for-hololens.md).</span></span>
 
-## <a name="qr-api-reference"></a><span data-ttu-id="30486-178">Справочник по QR-API</span><span class="sxs-lookup"><span data-stu-id="30486-178">QR API reference</span></span>
+## <a name="qr-api-reference"></a><span data-ttu-id="cec87-176">Справочник по QR-API</span><span class="sxs-lookup"><span data-stu-id="cec87-176">QR API reference</span></span>
 
 ```cs
 namespace Microsoft.MixedReality.QR
@@ -456,6 +458,6 @@ namespace Microsoft.MixedReality.QR
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="30486-179">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="30486-179">See also</span></span>
-* [<span data-ttu-id="30486-180">Системы координат</span><span class="sxs-lookup"><span data-stu-id="30486-180">Coordinate systems</span></span>](../../design/coordinate-systems.md)
-* <span data-ttu-id="30486-181"><a href="https://docs.microsoft.com/azure/spatial-anchors/overview" target="_blank">Пространственные привязки Azure.</a></span><span class="sxs-lookup"><span data-stu-id="30486-181"><a href="https://docs.microsoft.com/azure/spatial-anchors/overview" target="_blank">Azure Spatial Anchors</a></span></span>
+## <a name="see-also"></a><span data-ttu-id="cec87-177">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="cec87-177">See also</span></span>
+* [<span data-ttu-id="cec87-178">Системы координат</span><span class="sxs-lookup"><span data-stu-id="cec87-178">Coordinate systems</span></span>](../../design/coordinate-systems.md)
+* <span data-ttu-id="cec87-179"><a href="https://docs.microsoft.com/azure/spatial-anchors/overview" target="_blank">Пространственные привязки Azure</a></span><span class="sxs-lookup"><span data-stu-id="cec87-179"><a href="https://docs.microsoft.com/azure/spatial-anchors/overview" target="_blank">Azure Spatial Anchors</a></span></span>
