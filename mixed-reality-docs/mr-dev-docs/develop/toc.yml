@@ -312,6 +312,8 @@
           href: unreal/unreal-publishing-to-store.md
         - name: Рекомендации по производительности для Unreal
           href: unreal/performance-recommendations-for-unreal.md
+        - name: Профилирование с помощью Unreal Insights
+          href: unreal/unreal-insights.md
         - name: Рекомендации по использованию материалов в Unreal
           href: unreal/unreal-materials.md
         - name: Потоковая передача в Unreal
