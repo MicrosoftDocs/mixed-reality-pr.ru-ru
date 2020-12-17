@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 12/15/2020
 ms.topic: article
 keywords: опенкср, Unity, hololens, hololens 2, Mixed Reality, МРТК, набор средств для смешанной реальности, дополненная реальность, виртуальная реальность, гарнитуры смешанной реальности, обучение, учебник, начало работы
-ms.openlocfilehash: dc908762d6e44e04f56b8ff82b90394106ca42e5
-ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
+ms.openlocfilehash: 5db08dee6b26de6fa3f44d92709e4903bb90a44c
+ms.sourcegitcommit: 7595db7438398b5c78cec41a6f8ab625711bf8ec
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 12/17/2020
-ms.locfileid: "97622948"
+ms.locfileid: "97664422"
 ---
 # <a name="mixed-reality-openxr-supported-features-in-unity"></a>Функции, поддерживаемые Опенкср Mixed Reality в Unity
 
@@ -25,12 +25,12 @@ ms.locfileid: "97622948"
 * Оптимизирует пакет UWP и взаимодействие CoreWindow для приложений HoloLens 2.
 * Отслеживание масштаба мира с использованием привязок и неограниченного пространства.
 * API-интерфейс хранилища привязки для сохранения привязок в локальном хранилище HoloLens 2.
-* Взаимодействие контроллера движения и руки, включая новый контроллер HP REVERB G2.
+* [Взаимодействие контроллера движения и руки](#motion-controller-and-hand-interactions), включая новый контроллер HP REVERB G2.
 * Отслеживание с обобразованием с использованием 26 соединений и совместного входа RADIUS.
 * Взаимодействие взгляда на HoloLens 2.
 * Поиск камеры фото/Video (ПС) в HoloLens 2.
 * Запись смешанной реальности с помощью визуализации с третьим глазом через камеру ПС.
-* Поддерживает "Play" в HoloLens 2 с помощью приложения holographic Remoting, что позволяет разработчикам выполнять отладку сценариев без создания и развертывания на устройстве.
+* Поддерживает ["Play" в HoloLens 2 с помощью приложения holographic, поддерживающего удаленное взаимодействие](#holographic-remoting-in-unity-editor-play-mode), что позволяет разработчикам выполнять отладку сценариев без создания и развертывания на устройстве.
 * Совместимо с МРТК Unity 2.5.2 через пакет адаптера МРТК Опенкср. <missing link>
 * Совместимо с Unity [арфаундатион 4,0](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.1/manual/index.html) или более поздней версии
 
