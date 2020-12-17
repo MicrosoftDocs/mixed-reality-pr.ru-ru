@@ -6,18 +6,18 @@ ms.author: alexturn
 ms.date: 08/04/2020
 ms.topic: article
 keywords: DirectX, holographic-визуализация, собственное, собственное приложение, WinRT, приложение WinRT, API платформы, настраиваемое ядро, промежуточное по, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 0d5e364fdb4faac73f28649f5c009823a74ac595
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 493715660ff8df79df25e09c82fe48b863053ed3
+ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94679653"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97613078"
 ---
 # <a name="native-development-overview"></a>Обзор разработки для собственной платформы
 
 ![Эмблема собственного баннера](../images/native_logo_banner.png)
 
-Трехмерные модули, такие как [Unity](../unity/unity-development-overview.md) или [Real](../unreal/unreal-development-overview.md) , не являются открытыми для вас путями к разработке смешанной реальности. Приложения смешанной реальности также можно создавать путем непосредственного программирования на API-интерфейсы Windows Mixed Reality с помощью DirectX 11 или DirectX 12. Используя платформу напрямую, вы сами создаете собственное по промежуточного слоя или платформу. 
+Трехмерные модули, такие как [Unity](../unity/unity-development-overview.md) или [Real](../unreal/unreal-development-overview.md) , не являются открытыми для вас путями к разработке смешанной реальности. Вы также можете создавать приложения смешанной реальности с помощью интерфейсов API Windows Mixed Reality с DirectX 11 или DirectX 12. Перейдя к источнику платформы, вы сами создаете собственное по промежуточного слоя или платформу. 
 
 > [!IMPORTANT]
 > Если у вас есть проект WinRT, который вы хотите поддерживать, перейдите к нашей основной [документации по WinRT](creating-a-holographic-directx-project.md). 
@@ -29,10 +29,10 @@ ms.locfileid: "94679653"
 ### <a name="1-getting-started"></a>1. Начало работы
 
 Windows Mixed Reality поддерживает [два типа приложений](../../design/app-views.md):
-* **Приложения смешанной реальности** (UWP или Win32), использующие [API Холографикспаце](getting-a-holographicspace.md) или [API опенкср](openxr.md) для визуализации [иммерсивного представления](../../design/app-views.md) пользователю, заполняющему отображение гарнитуры
+* Приложения UWP или Win32 **Mixed Reality** , использующие [API Холографикспаце](getting-a-holographicspace.md) или [API опенкср](openxr.md) для визуализации [иммерсивного представления](../../design/app-views.md) , которое заполняет отображение гарнитуры
 * **2D-приложения** (UWP), использующие DirectX, XAML или другую платформу для отрисовки [2D-представлений](../../design/app-views.md#2d-views) на планшетах в домашней среде Windows Mixed Reality
 
-Различия между разработкой DirectX для [2D-представлений и иммерсивное представление](../../design/app-views.md) в основном связаны с более holographic и пространственными входными данными. [IFrameworkView](https://msdn.microsoft.com/library/windows/apps/windows.applicationmodel.core.iframeworkview.aspx) приложения UWP или HWND приложения Win32 являются обязательными и остаются в основном одинаковыми. Это справедливо и для API-интерфейсов WinRT, доступных для приложения. Однако для использования преимуществ holographic необходимо использовать другое подмножество этих API-интерфейсов. Например, имеющуюся цепочку буферов и Frame находятся под управлением системы для holographic приложений с целью включения циклического цикла кадров.
+Различия между разработкой DirectX для [2D-представлений и иммерсивное представление](../../design/app-views.md) в основном связаны с более holographic и пространственными входными данными. [IFrameworkView](https://msdn.microsoft.com/library/windows/apps/windows.applicationmodel.core.iframeworkview.aspx) приложения UWP или HWND приложения Win32 являются обязательными и остаются в основном одинаковыми. Это справедливо и для API-интерфейсов WinRT, доступных для приложения. Однако для использования преимуществ holographic необходимо использовать другое подмножество этих API-интерфейсов. Например, система для holographic приложений управляет имеющуюся цепочку буферов и Frame on для реализации циклического цикла кадров.
 
 [!INCLUDE[](../includes/native-getting-started.md)]
 
@@ -54,11 +54,11 @@ Windows Mixed Reality поддерживает [два типа приложен
 
 ### <a name="3-deploying-and-testing"></a>3. Развертывание и тестирование
 
-Вы можете разрабатывать приложения, используя OpenXR с HoloLens 2 или иммерсивную гарнитуру Windows Mixed Reality с компьютером.  Если у вас нет доступа к гарнитуре, можно использовать [эмулятор HoloLens 2](../platform-capabilities-and-apis/using-the-hololens-emulator.md) или [симулятор Windows Mixed Reality](../platform-capabilities-and-apis/using-the-windows-mixed-reality-simulator.md) .
+Вы можете разрабатывать приложения на настольном компьютере, используя Опенкср на виртуальной гарнитуре HoloLens 2 или Windows Mixed Reality.  Если у вас нет доступа к гарнитуре, можно использовать [эмулятор HoloLens 2](../platform-capabilities-and-apis/using-the-hololens-emulator.md) или [симулятор Windows Mixed Reality](../platform-capabilities-and-apis/using-the-windows-mixed-reality-simulator.md) .
 
 ## <a name="whats-next"></a>Дальнейшие действия
 
-Разработчику всегда будет чем заняться, особенно при изучении нового инструмента или пакета SDK. В приведенных ниже разделах вы найдете информацию для более опытных разработчиков, а также полезные ресурсы, которые помогут вам, если у вас возникнут трудности. Учтите, что эти темы и ресурсы не имеют определенного порядка, поэтому вы можете изучать их в любой последовательности.
+Разработчику всегда будет чем заняться, особенно при изучении нового инструмента или пакета SDK. В следующих разделах вы можете перейти к областям, которые выходят за пределы уже выполненных материалов. Эти разделы и ресурсы не располагаются в последовательном порядке, поэтому вы можете разоойтись и изучить!
 
 ### <a name="additional-resources"></a>Дополнительные ресурсы
 
@@ -68,6 +68,6 @@ Windows Mixed Reality поддерживает [два типа приложен
 * [Производительность OpenXR](openxr-performance.md)
 * [Устранение неполадок с OpenXR](openxr-troubleshooting.md)
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 * [Модель приложений](../../design/app-model.md)
 * [Представления приложений](../../design/app-views.md)

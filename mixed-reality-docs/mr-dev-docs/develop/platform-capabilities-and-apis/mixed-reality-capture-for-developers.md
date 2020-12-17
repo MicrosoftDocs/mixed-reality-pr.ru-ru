@@ -1,19 +1,19 @@
 ---
-title: Съемка смешанной реальности для разработчиков
+title: Захват смешанной реальности для разработчиков
 description: Рекомендации по записи смешанной реальности для разработчиков.
 author: mattzmsft
 ms.author: mazeller
 ms.date: 02/24/2019
 ms.topic: article
 keywords: Нормативная бумага, Фото, видео, захват, Камера
-ms.openlocfilehash: e9819995806784c512acee6ada10d0be56051fca
-ms.sourcegitcommit: c41372e0c6ca265f599bff309390982642d628b8
+ms.openlocfilehash: 13765686c3e86822efff17b25995a6eaa4008e6c
+ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97530130"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97613348"
 ---
-# <a name="mixed-reality-capture-for-developers"></a>Съемка смешанной реальности для разработчиков
+# <a name="mixed-reality-capture-for-developers"></a>Захват смешанной реальности для разработчиков
 
 > [!NOTE]
 > Рекомендации по новой функции нормативных требований для HoloLens 2 см. в разделе [Render на камере ПС](#render-from-the-pv-camera-opt-in) ниже.
@@ -157,7 +157,7 @@ if (view != null)
 <table>
 <tr>
 <td>
-<img src="images/chessboardblackedges-300px.jpg" alt="Failing to clear to transparent black: black edge artifacts around holograms"/>
+<img src="images/chessboardblackedges-300px.jpg" alt="Failure to clear to transparent black: black edge artifacts around holograms"/>
 </td>
 <td>
 <img src="images/fieldblackedges-300px.jpg" alt="Failing to clear to transparent black: black edge artifacts around holograms"/>
