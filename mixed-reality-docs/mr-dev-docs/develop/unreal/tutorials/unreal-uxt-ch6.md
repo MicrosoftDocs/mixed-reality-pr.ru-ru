@@ -7,12 +7,12 @@ ms.date: 06/10/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, учебник, начало работы, MRTK, UXT, UX Tools, документация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 4319b1171090b8ca7a320e98867bfb3635bab005
-ms.sourcegitcommit: 32cb81eee976e73cd661c2b347691c37865a60bc
+ms.openlocfilehash: 7f6f501a5e2cde9fdb6aa3ba1aa973a4ab697fd8
+ms.sourcegitcommit: 87b54c75044f433cfadda68ca71c1165608e2f4b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96609495"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97010553"
 ---
 # <a name="6-packaging--deploying-to-device-or-emulator"></a>6. Упаковка и развертывание на устройстве или в эмуляторе
 
@@ -49,6 +49,7 @@ ms.locfileid: "96609495"
 1.  Перейдите к разделу **Edit > Project Settings** (Правка > Параметры проекта).
     * В разделе **Project > Description > About > Project Name** (Проект > Описание > Сведения > Имя проекта) введите имя проекта.
     * Добавьте **CN=название_вашей_компании** в разделе **Project > Description > Publisher > Company Distinguished Name** (Проект > Описание > Издатель > Название организации).
+    * Выберите **Start in VR** (Запустить в виртуальной реальности) на вкладке **Project > Description > Settings** (Проект > Описание > Настройки).
 
 > [!IMPORTANT]
 > Если оставить любое из этих полей пустым, при попытке создать новый сертификат на шаге 3 будет выдаваться ошибка.
@@ -56,7 +57,10 @@ ms.locfileid: "96609495"
 > [!IMPORTANT]
 > Имя издателя должно быть указано в формате [LADPv3](https://www.ietf.org/rfc/rfc2253.txt). Неправильно сформированное имя издателя приведет к возникновению ошибки "Signing key not found. The app could not be digitally signed" (Ключ подписывания не найден. Не удалось подписать приложение) при упаковке.
 
-![Параметры проекта — Описание](images/unreal-uxt/6-cn.PNG)
+> [!IMPORTANT]
+> Если параметр Start in VR (Запустить в виртуальной реальности) не выбран, ваше приложение попытается запуститься на экране.
+
+![Параметры проекта — Описание](images/unreal-uxt/6-cn-new.PNG)
 
 2.  В разделе **Platforms > HoloLens** (Платформы > HoloLens) установите флажок **Build for HoloLens Emulation** (Сборка для эмуляции HoloLens) и/или **Build for HoloLens Device** (Сборка для устройства HoloLens).
 

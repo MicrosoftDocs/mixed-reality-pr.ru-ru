@@ -7,12 +7,12 @@ ms.date: 11/23/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, разработка, документация, руководства, функции, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, перенос, обновление
-ms.openlocfilehash: 0ba10b8ee1067da4494f147d43f8834010e1250f
-ms.sourcegitcommit: 32cb81eee976e73cd661c2b347691c37865a60bc
+ms.openlocfilehash: 5460ab55c887c44029e956545cf6a549f55716f7
+ms.sourcegitcommit: 87b54c75044f433cfadda68ca71c1165608e2f4b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96609665"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97010625"
 ---
 # <a name="upgrading-projects-in-unreal"></a>Обновление проектов в Unreal
 
@@ -50,3 +50,7 @@ ms.locfileid: "96609665"
 | IsTrackingAvailable | ![Схема свойства IsTrackingAvailable](images/unreal-porting-img-17.png) |
 | IsButtonClicked, IsButtonDown, IsGrasped, IsSelectPressed | Используйте систему входных действий в Unreal. |
 | SetFocusPointForFrame | Удалена в версии 4.26.  Ранее использовалась для повторного проецирования при удаленном взаимодействии, которое теперь поддерживает повторное проецирование глубины. |
+
+## <a name="426-changes"></a>Изменения в версии 4.26
+
+Существенным изменением является то, что параметр **Start in VR** (Запустить в виртуальной реальности) на вкладке **Edit > Project Settings > Project > Description > Settings** (Правка > Параметры проекта > Проект > Описание > Настройки) обязателен для запуска подключаемого модуля Windows Mixed Reality. Без него вы не сможете видеть голограммы на устройстве.

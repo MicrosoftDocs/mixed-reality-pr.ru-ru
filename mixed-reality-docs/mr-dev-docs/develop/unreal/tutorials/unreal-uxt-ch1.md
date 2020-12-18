@@ -7,12 +7,12 @@ ms.date: 06/10/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, учебник, начало работы, MRTK, UXT, UX Tools, документация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 465215efd953c0acb9f2d80a2905ee06963c5f8c
-ms.sourcegitcommit: 32cb81eee976e73cd661c2b347691c37865a60bc
+ms.openlocfilehash: 71a3edbc00c315ca68ac56985c54faee2492d74d
+ms.sourcegitcommit: 87b54c75044f433cfadda68ca71c1165608e2f4b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96609725"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97010534"
 ---
 # <a name="1-getting-started"></a>1. Начало работы
 
@@ -33,20 +33,27 @@ ms.locfileid: "96609725"
 * Windows 10 1809 или более поздней версии.
 * Пакет SDK для Windows 10 версии 10.0.18362.0 и выше.
 * [Unreal Engine](https://www.unrealengine.com/en-US/get-now) версии 4.25 и выше.
-* Устройство Microsoft HoloLens 2, [настроенное для разработки](../../platform-capabilities-and-apis/using-visual-studio.md#enabling-developer-mode), или эмулятор.
+* Устройство Microsoft HoloLens 2, [настроенное для разработки](../../platform-capabilities-and-apis/using-visual-studio.md#enabling-developer-mode), или [эмулятор](../../platform-capabilities-and-apis/using-the-hololens-emulator.md#hololens-2-emulator-overview).
 * Visual Studio 2019 с указанными ниже рабочими нагрузками
 
 ### <a name="installing-visual-studio-2019"></a>Установка Visual Studio 2019
 
 Сначала убедитесь, что в вашей установке есть все необходимые пакеты Visual Studio:
 1. Установите последнюю версию [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/).
-2. Установите следующие [рабочие нагрузки](https://docs.microsoft.com/visualstudio/install/modify-visual-studio?#modify-workloads):
+1. Установите следующие [рабочие нагрузки](https://docs.microsoft.com/visualstudio/install/modify-visual-studio?#modify-workloads):
     * "Разработка классических приложений на C++";
     * "Разработка классических приложений .NET";
     * "Разработка приложений для универсальной платформы Windows".
+1. Разверните пункт "Разработка приложений для универсальной платформы Windows" и выберите следующее: 
+    * Подключение USB-устройств
+    * Средства универсальной платформы Windows на C++ (версия 142)
 
-3. Установите следующие [компоненты](https://docs.microsoft.com/visualstudio/install/modify-visual-studio?#modify-individual-components):
+1. Установите следующие [компоненты](https://docs.microsoft.com/visualstudio/install/modify-visual-studio?#modify-individual-components):
     * компиляторы, средства сборки и среды выполнения > средства сборки MSVC v142 — VS 2019 C++ ARM64 (последняя версия).
+
+Вы можете подтвердить установку по следующему изображению:
+
+![Флажки, которые обязательно нужно установить при установке VS](images/unreal-uxt/1-install-the-tools.png)
 
 Вот и все! Можно приступать к проекту по созданию шахматного приложения.
 
