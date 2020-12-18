@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 12/15/2020
 ms.topic: article
 keywords: опенкср, Unity, hololens, hololens 2, Mixed Reality, МРТК, набор средств для смешанной реальности, дополненная реальность, виртуальная реальность, гарнитуры смешанной реальности, обучение, учебник, начало работы
-ms.openlocfilehash: 5db08dee6b26de6fa3f44d92709e4903bb90a44c
-ms.sourcegitcommit: 7595db7438398b5c78cec41a6f8ab625711bf8ec
+ms.openlocfilehash: 1cbe9dd1ffb493bcc9da76e70dec9720f2d10340
+ms.sourcegitcommit: 4bbf2f802117a9a3788b2b0e3b0a2f58e187f6ea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97664422"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97665370"
 ---
 # <a name="mixed-reality-openxr-supported-features-in-unity"></a>Функции, поддерживаемые Опенкср Mixed Reality в Unity
 
@@ -24,7 +24,7 @@ ms.locfileid: "97664422"
 * Поддерживает как приложения UWP для HoloLens 2, так и приложения Win32 VR для головных телефонов Windows Mixed Reality.
 * Оптимизирует пакет UWP и взаимодействие CoreWindow для приложений HoloLens 2.
 * Отслеживание масштаба мира с использованием привязок и неограниченного пространства.
-* API-интерфейс хранилища привязки для сохранения привязок в локальном хранилище HoloLens 2.
+* [API-интерфейс хранилища привязки для сохранения привязок](#anchors-and-anchor-persistence) в локальном хранилище HoloLens 2.
 * [Взаимодействие контроллера движения и руки](#motion-controller-and-hand-interactions), включая новый контроллер HP REVERB G2.
 * Отслеживание с обобразованием с использованием 26 соединений и совместного входа RADIUS.
 * Взаимодействие взгляда на HoloLens 2.
@@ -58,12 +58,67 @@ ms.locfileid: "97664422"
 > [!NOTE]
 > Начиная с версии 0.1.0, среда выполнения не поддерживает функцию привязки, а функции Аранчорманажер не будут работать через удаленное взаимодействие.  Эта функция появилась в будущих выпусках.
 
+## <a name="anchors-and-anchor-persistence"></a>Привязки и сохранение привязки
+
+Подключаемый модуль Mixed Reality Опенкср предоставляет базовые функции привязки с помощью реализации Арфаундатион **Аранчорманажер** Unity. Основные сведения о **аранчор** s в арфаундатион см. в руководстве по [Арфаундатион для AR Anchor Manager](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.1/manual/anchor-manager.html). Начиная с версии 0.1.0 этот подключаемый модуль поддерживает все функциональные возможности Аранчорманажер, за исключением создания привязок, присоединенных к плоскости, которая ожидается в будущем выпуске.
+
+### <a name="anchor-persistence-and-the-xranchorstore"></a>Сохранение привязки и Ксранчорсторе
+
+Дополнительный API, называемый **ксранчорсторе** , позволяет сохранять привязки между сеансами. Ксранчорсторе — это представление сохраненных привязок на устройстве. Привязки можно сохранять из **аранчорс** в сцене Unity, загружать из хранилища в новый **аранчорс** или удалять из хранилища.
+
+> [!NOTE]
+> Эти привязки должны быть сохранены и загружены на одном устройстве. Хранилище с привязкой между устройствами будет поддерживаться с помощью пространственных привязок Azure в следующем выпуске.
+
+``` cs
+public class Microsoft.MixedReality.ARSubsystems.XRAnchorStore
+{
+    // A list of all persisted anchors, which can be loaded.
+    public IReadOnlyList<string> PersistedAnchorNames { get; }
+
+    // Clear all persisted anchors
+    public void Clear();
+
+    // Load a single persisted anchor by name. The ARAnchorManager will create this new anchor and report it in
+    // the ARAnchorManager.anchorsChanged event. The TrackableId returned here is the same TrackableId the 
+    // ARAnchor will have when it is instantiated.
+    public TrackableId LoadAnchor(string name);
+
+    // Attempts to persist an existing ARAnchor with the given TrackableId to the local store. Returns true if 
+    // the storage is successful, false otherwise.
+    public bool TryPersistAnchor(string name, TrackableId trackableId);
+
+    // Removes a single persisted anchor from the anchor store. This will not affect any ARAnchors in the Unity
+    // scene, only the anchors in storage.
+    public void UnpersistAnchor(string name);
+}
+```
+
+Чтобы загрузить Ксранчорсторе, подключаемый модуль предоставляет метод расширения для Ксранчорсубсистем, подсистему Аранчорманажер:
+
+``` cs
+public static Task<XRAnchorStore> LoadAnchorStoreAsync(this XRAnchorSubsystem anchorSubsystem)
+```
+
+Чтобы использовать этот метод расширения, необходимо получить доступ к нему из подсистемы Аранчорманажер следующим образом:
+ 
+``` cs
+ARAnchorManager arAnchorManager = GetComponent<ARAnchorManager>(); 
+XRAnchorStore anchorStore = await arAnchorManager.subsystem.LoadAnchorStoreAsync(); 
+```
+
+Полный пример сохранения и несохраненных привязок см. в разделе привязки-> примеры привязок в образце [сцены подключаемого модуля Mixed Reality опенкср](openxr-getting-started.md#hololens-2-samples):
+
+![Снимок экрана: панель иерархии открыта в редакторе Unity с выделенным образцом "привязки"](images/openxr-features-img-04.png)
+
+![Снимок экрана: Панель инспектора открыта в редакторе Unity с выделенным образцом сценария "привязки"](images/openxr-features-img-05.png)
+
 ## <a name="motion-controller-and-hand-interactions"></a>Взаимодействие контроллера движения и руки
-Основные сведения о взаимодействии смешанной реальности в Unity см. в [руководстве по Unity для XR данных Unity](https://docs.unity3d.com/2020.2/Documentation/Manual/xr_input.html). Эта документация по Unity охватывает сопоставления от входных данных, относящихся к конкретному контроллеру, до более обобщенных `InputFeatureUsage` , способов определения доступных входных данных XR и их категоризации, считывания информации из этих входов и т. д. 
+
+Основные сведения о взаимодействии смешанной реальности в Unity см. в [руководстве по Unity для XR данных Unity](https://docs.unity3d.com/2020.2/Documentation/Manual/xr_input.html). Эта документация по Unity охватывает сопоставления от входных данных, относящихся к конкретному контроллеру, с более обобщенными **инпутфеатуреусажеами**, как можно идентифицировать и классифицировать доступные входные данные XR, как считывать их из этих входных данных и многое другое. 
  
-Подключаемый модуль Mixed Reality Опенкср предоставляет дополнительные профили взаимодействия ввода, сопоставленные со стандартом `InputFeatureUsage` s, как описано ниже: 
+Подключаемый модуль Mixed Reality Опенкср предоставляет дополнительные профили взаимодействия ввода, сопоставленные со стандартным **инпутфеатуреусаже**, как описано ниже. 
  
-| `InputFeatureUsage` | HP reverbы G2 Controller (Опенкср) | HoloLens (Опенкср) |
+| инпутфеатуреусаже | HP reverbы G2 Controller (Опенкср) | HoloLens (Опенкср) |
 | ---- | ---- | ---- |
 | primary2DAxis | Джойстик | |
 | primary2DAxisClick | Джойстик — щелчок | |
@@ -75,9 +130,25 @@ ms.locfileid: "97664422"
 | тригжербуттон | Триггер-нажатие | |
 | менубуттон | Меню | |
 
-#### <a name="haptics"></a>хаптикс
-Сведения об использовании хаптикс в системе ввода XR в Unity можно найти в [руководстве по Unity для Unity XR input-хаптикс](https://docs.unity3d.com/2020.2/Documentation/Manual/xr_input.html#Haptics). 
+### <a name="aim-and-grip-poses"></a>AIM и захват
 
+У вас есть доступ к двум наборам экземпляров через входные взаимодействия Опенкср: 
+* Захват для отрисовки объектов в руки
+* Цель, указывающая на мир. 
+
+Дополнительные сведения об этой структуре и различиях между ними можно найти в [подкаталогах Опенкср Specification-input](https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#semantic-path-input).
+
+Представления, предоставляемые Инпутфеатуреусажес **девицепоситион**, **девицеротатион**, **девицевелоЦити** и **девицеангуларвелоЦити** , представляют собой OpenXR **захват** . Инпутфеатуреусажес, связанные с захватом, определяются в [Коммонусажес](https://docs.unity3d.com/2020.2/Documentation/ScriptReference/XR.CommonUsages.html)Unity.
+
+Представления, предоставляемые Инпутфеатуреусажес **поинтерпоситион**, **поинтерротатион**, **поинтервелоЦити** и **поинтерангуларвелоЦити** , представляют собой OpenXR **Цель** . Эти Инпутфеатуреусажес не определены во вложенных файлах C#, поэтому необходимо определить собственный Инпутфеатуреусажес следующим образом:
+
+``` cs
+public static readonly InputFeatureUsage<Vector3> PointerPosition = new InputFeatureUsage<Vector3>("PointerPosition");
+```
+
+### <a name="haptics"></a>хаптикс
+
+Сведения об использовании хаптикс в системе ввода XR в Unity можно найти в [руководстве по Unity для Unity XR input-хаптикс](https://docs.unity3d.com/2020.2/Documentation/Manual/xr_input.html#Haptics). 
 
 ## <a name="whats-coming-soon"></a>Что ожидается в ближайшее время
 
