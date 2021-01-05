@@ -8,12 +8,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, обратная связь, центр обратной связи, ошибки
 appliesto:
 - Windows 10
-ms.openlocfilehash: d8b4e23603a09d39fef076b600364a55410d12c3
-ms.sourcegitcommit: 0b406ccbc7ce619e42809ba8dfdc47d83f4917ff
+ms.openlocfilehash: afb559937c2bde06d3c74c1c572aefec50502884
+ms.sourcegitcommit: 9a93c9e9b3b088da942ac4386813ecf263c2e324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "97691419"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "97865439"
 ---
 # <a name="contributing-to-the-mixed-reality-enthusiast-guide"></a>Дополнение к руководству по работе со смешанной реальности
 
@@ -167,7 +167,7 @@ ms.locfileid: "97691419"
 >[!NOTE]
 >Предварительный просмотр изменений в review.docs.microsoft.com доступен только для сотрудников Майкрософт
 
-Сотрудники корпорации Майкрософт. После объединения публикаций в главную ветвь вы можете ознакомиться с содержимым, прежде чем оно станет общедоступным https://review.docs.microsoft.com/windows/mixed-reality?branch=master . Найдите статью, используя оглавление в левом столбце.
+Сотрудники корпорации Майкрософт. После объединения публикаций в главную ветвь вы можете ознакомиться с содержимым, прежде чем оно станет общедоступным https://review.docs.microsoft.com/windows/mixed-reality/enthusiast-guide?branch=master . Найдите статью, используя оглавление в левом столбце.
 
 ## <a name="editing-in-the-browser-vs-editing-with-a-desktop-client"></a>Редактирование в браузере и редактирование с помощью настольного клиента
 

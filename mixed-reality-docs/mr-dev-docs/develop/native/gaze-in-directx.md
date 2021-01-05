@@ -6,12 +6,12 @@ ms.author: cmeekhof
 ms.date: 08/04/2020
 ms.topic: article
 keywords: взгляд на глаза, головной взгляд, отслеживание головок, отслеживание глаз, DirectX, ввод, голограммы, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 4e8c638d91125a30cb4121b09a699f9ff6db5892
-ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
+ms.openlocfilehash: 4d7ed9b735b5f3cd7029e42ccc75bc539e3c4f4b
+ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97613048"
+ms.lasthandoff: 01/01/2021
+ms.locfileid: "97848089"
 ---
 # <a name="head-gaze-and-eye-gaze-input-in-directx"></a>Ввод с взгляда на глаза в DirectX
 
@@ -35,7 +35,7 @@ ms.locfileid: "97613048"
     <col width="25%" />
 </colgroup>
 <tr>
-     <td><strong>Компонент</strong></td>
+     <td><strong>Возможность</strong></td>
      <td><a href="../../hololens-hardware-details.md"><strong>HoloLens (1-го поколения)</strong></a></td>
      <td><a href="https://docs.microsoft.com/hololens/hololens2-hardware"><strong>HoloLens 2</strong></td>
      <td><a href="../../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
@@ -84,6 +84,7 @@ if (pointerPose)
 2. Включите функцию "Ввод взгляда" в манифесте пакета.
 
 ### <a name="requesting-access-to-eye-gaze-input"></a>Запрос доступа к входным данным взгляда
+
 При запуске приложения вызовите [эйеспосе:: рекуестакцессасинк](https://docs.microsoft.com//uwp/api/windows.perception.people.eyespose.requestaccessasync#Windows_Perception_People_EyesPose_RequestAccessAsync) , чтобы запросить доступ к отслеживанию глаз. Система запросит пользователя при необходимости и возвратит [газеинпутакцессстатус:: Allowed](https://docs.microsoft.com//uwp/api/windows.ui.input.gazeinputaccessstatus) после предоставления доступа. Это асинхронный вызов, поэтому для него требуется некоторое дополнительное управление. В следующем примере показано, как отсоединить отсоединенный std:: Thread для ожидания результата, который он сохраняет в переменную-член с именем *m_isEyeTrackingEnabled*.
 
 ```cpp
@@ -146,6 +147,7 @@ if (Windows::Perception::People::EyesPose::IsSupported() &&
 ```
 
 ### <a name="getting-the-eye-gaze-ray"></a>Получение луча с глазом взгляда
+
 После получения доступа к ET вы можете бесплатно захватить каждый кадр.
 Как и в случае с Head-взглядом, получите [спатиалпоинтерпосе](https://docs.microsoft.com//uwp/api/Windows.UI.Input.Spatial.SpatialPointerPose) , вызвав [Спатиалпоинтерпосе:: трижетаттиместамп](https://docs.microsoft.com//uwp/api/windows.ui.input.spatial.spatialpointerpose.trygetattimestamp) с нужной меткой времени и системой координат. Спатиалпоинтерпосе содержит объект [эйеспосе](https://docs.microsoft.com//uwp/api/windows.perception.people.eyespose) через свойство [глаза](https://docs.microsoft.com//uwp/api/windows.ui.input.spatial.spatialpointerpose.eyes) . Это значение не равно null, только если включено отслеживание глаз. После этого можно проверить, имеет ли пользователь устройства калибровку отслеживания взгляда, вызвав [эйеспосе:: искалибратионвалид](https://docs.microsoft.com//uwp/api/windows.perception.people.eyespose.iscalibrationvalid#Windows_Perception_People_EyesPose_IsCalibrationValid).  Затем [Используйте свойство "наблюдатель",](https://docs.microsoft.com//uwp/api/windows.perception.people.eyespose.gaze#Windows_Perception_People_EyesPose_Gaze) чтобы получить [спатиалрай](https://docs.microsoft.com//uwp/api/windows.perception.spatial.spatialray) , содержащий расположение и направление взгляда. Свойство "взгляд" иногда может иметь значение null, поэтому обязательно проверьте это. Это может произойти, если калибровка пользователя временно закрывает свои глаза.
 
@@ -174,7 +176,8 @@ if (pointerPose)
 ```
 
 ## <a name="fallback-when-eye-tracking-isnt-available"></a>Откат, когда отслеживание глаз недоступно
-Как упоминалось в [документах по проектированию отслеживания взгляда](../../design/eye-tracking.md#fallback-solutions-when-eye-tracking-is-not-available), проектировщики и разработчики должны знать экземпляры, в которых данные отслеживания взгляда могут быть недоступны.
+
+Как упоминалось в [документах по проектированию отслеживания взгляда](../../design/eye-tracking.md#fallback-solutions-when-eye-tracking-isnt-available), проектировщики и разработчики должны знать экземпляры, в которых данные отслеживания взгляда могут быть недоступны.
 
 Существуют различные причины недоступности данных.
 * Пользователь не откалиброван
@@ -190,11 +193,12 @@ if (pointerPose)
 * Убедитесь, что пользователь предоставил приложению разрешение на использование данных отслеживания взгляда: получение текущего _"газеинпутакцессстатус"_. Пример того, как это сделать, объясняется в [запросе доступа к вводу с помощью взгляда](https://docs.microsoft.com/windows/mixed-reality/gaze-in-directX#requesting-access-to-gaze-input).   
 
 Кроме того, можно проверить, не устарели ли данные отслеживания взгляда, добавив время ожидания между полученными обновлениями данных отслеживания взгляда и иным образом выполнить откат до головного взгляда, как описано ниже.   
-Дополнительные сведения см. в разделе [рекомендации по проектированию резервного проектирования](../../design/eye-tracking.md#fallback-solutions-when-eye-tracking-is-not-available) .
+Дополнительные сведения см. в разделе [рекомендации по проектированию резервного проектирования](../../design/eye-tracking.md#fallback-solutions-when-eye-tracking-isnt-available) .
 
 <br>
 
 ## <a name="correlating-gaze-with-other-inputs"></a>Сопоставление взгляда с другими входными данными
+
 Иногда может оказаться, что требуется [спатиалпоинтерпосе](https://docs.microsoft.com//uwp/api/windows.ui.input.spatial.spatialpointerpose) , соответствующий событию в прошлом. Например, если пользователь выполняет касание Air, ваше приложение может захотеть узнать, что именно оно искало. Для этой цели простое использование [спатиалпоинтерпосе:: трижетаттиместамп](https://docs.microsoft.com//uwp/api/windows.ui.input.spatial.spatialpointerpose.trygetattimestamp) с прогнозируемым временем кадров будет неточным из-за задержки между системной обработкой входных данных и временем вывода. Кроме того, если для нацеливания используется глаз, наши глаза, как правило, переходят даже перед завершением действия фиксации. Это не является проблемой для простого касания воздуха, но становится более важным при объединении длинных голосовых команд с помощью передвижений с быстрым глазом. Одним из способов решения этого сценария является создание дополнительного вызова  [спатиалпоинтерпосе:: трижетаттиместамп](https://docs.microsoft.com//uwp/api/windows.ui.input.spatial.spatialpointerpose.trygetattimestamp)с использованием метки времени с предысторией, соответствующей входному событию.  
 
 Однако для входных данных, перенаправляющихся через Спатиалинтерактионманажер, существует более простой метод. [Спатиалинтерактионсаурцестате](https://docs.microsoft.com//uwp/api/windows.ui.input.spatial.spatialinteractionsourcestate) имеет собственную функцию [трижетаттиместамп](https://docs.microsoft.com//uwp/api/windows.ui.input.spatial.spatialinteractionsourcestate.trygetpointerpose) . Вызов, который предоставит вполне коррелированный [спатиалпоинтерпосе](https://docs.microsoft.com//uwp/api/windows.ui.input.spatial.spatialpointerpose) без предоставляя. Дополнительные сведения о работе с Спатиалинтерактионсаурцестатес см. в документации по [DirectX](hands-and-motion-controllers-in-directx.md) .
@@ -202,6 +206,7 @@ if (pointerPose)
 <br>
 
 ## <a name="calibration"></a>Калибровка
+
 Чтобы отслеживание отслеживания проработало правильно, каждый пользователь должен пройти по [калибровке пользователя с отслеживанием взгляда](../../calibration.md). Это позволяет устройству настроить систему для более удобного и качественного просмотра для пользователя, а также для обеспечения точного отслеживания в то же время. Разработчикам не нужно ничего делать на своих концах для управления калибровкой пользователей. Система обеспечит пользователю запрос на калибровку устройства в следующих случаях:
 * Пользователь использует устройство в первый раз
 * Пользователь ранее отказался от процесса калибровки
@@ -212,6 +217,7 @@ if (pointerPose)
 <br>
 
 ## <a name="see-also"></a>См. также раздел
+
 * [Калибровка](../../calibration.md)
 * [Системы координат в DirectX](coordinate-systems-in-directx.md)
 * [Глаз — Взгляните на HoloLens 2](../../design/eye-tracking.md)

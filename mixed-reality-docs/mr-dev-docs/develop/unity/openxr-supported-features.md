@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 12/15/2020
 ms.topic: article
 keywords: опенкср, Unity, hololens, hololens 2, Mixed Reality, МРТК, набор средств для смешанной реальности, дополненная реальность, виртуальная реальность, гарнитуры смешанной реальности, обучение, учебник, начало работы
-ms.openlocfilehash: 1cbe9dd1ffb493bcc9da76e70dec9720f2d10340
-ms.sourcegitcommit: 4bbf2f802117a9a3788b2b0e3b0a2f58e187f6ea
+ms.openlocfilehash: 94ec7ae6c89dea8f953fea6f4c794ca51e044d87
+ms.sourcegitcommit: 5784336a780486d05db6a627839efe47f08fac36
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "97665370"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97880588"
 ---
 # <a name="mixed-reality-openxr-supported-features-in-unity"></a>Функции, поддерживаемые Опенкср Mixed Reality в Unity
 
@@ -31,32 +31,32 @@ ms.locfileid: "97665370"
 * Поиск камеры фото/Video (ПС) в HoloLens 2.
 * Запись смешанной реальности с помощью визуализации с третьим глазом через камеру ПС.
 * Поддерживает ["Play" в HoloLens 2 с помощью приложения holographic, поддерживающего удаленное взаимодействие](#holographic-remoting-in-unity-editor-play-mode), что позволяет разработчикам выполнять отладку сценариев без создания и развертывания на устройстве.
-* Совместимо с МРТК Unity 2.5.2 через пакет адаптера МРТК Опенкср. <missing link>
+* Совместимо с МРТК Unity 2.5.2 и более поздней версии через поддержку поставщика МРТК Опенкср. Чтобы приступить к работе [, ознакомьтесь с документацией по мртк](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/GettingStartedWithMRTKAndXRSDK.html) .
 * Совместимо с Unity [арфаундатион 4,0](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.1/manual/index.html) или более поздней версии
 
 ## <a name="holographic-remoting-in-unity-editor-play-mode"></a>Holographic удаленное взаимодействие в режиме воспроизведения редактора Unity
 
 Создание проекта Unity для UWP в проекте Visual Studio, а затем упаковка и развертывание на устройстве HoloLens 2 может занять некоторое время. Одно из решений — включить удаленное взаимодействие с помощью редактора, которое позволяет выполнять отладку сценария C#, используя режим "Воспроизведение" непосредственно на устройстве HoloLens 2 по сети. Этот сценарий позволяет избежать издержек при создании и развертывании пакета UWP на удаленном устройстве.
 
-1. Сначала необходимо [установить приложение с удаленным проигрывателем holographic](https://www.microsoft.com/store/productId/9NBLGGH4SV40) из магазина в HoloLens 2.  
+1. Сначала необходимо [установить приложение с удаленным проигрывателем holographic](https://www.microsoft.com/store/productId/9NBLGGH4SV40) из магазина в HoloLens 2.
 2. Запустите приложение удаленного проигрывателя holographic в HoloLens 2, и вы увидите номер версии и IP-адрес для подключения.
     * Для работы с подключаемым модулем Опенкср потребуется v версии 2.4 или более поздней.
 
-![Снимок экрана удаленного проигрывателя holographic, работающего в HoloLens](images/openxr-features-img-01.png)
+    ![Снимок экрана удаленного проигрывателя holographic, работающего в HoloLens](images/openxr-features-img-01.png)
 
 3. Откройте **Параметры проекта Edit->**, перейдите в **раздел Управление подключаемыми модулями XR** и установите флажок **набор функций Windows Mixed Reality** :
 
-![Снимок экрана: панель "Параметры проекта", открытая в редакторе Unity с выделенным подключаемым модулем управления XR](images/openxr-features-img-02.png)
+    ![Снимок экрана: панель "Параметры проекта", открытая в редакторе Unity с выделенным подключаемым модулем управления XR](images/openxr-features-img-02.png)
 
 4. Разверните раздел " **компоненты** " в разделе **опенкср** и выберите команду " **отобразить все** ".
 5. Установите флажок **удаленное взаимодействие с помощью редактора holographic** и введите IP-адрес, полученный из приложения holographic Remoting:
 
-![Снимок экрана: панель "Параметры проекта", открытая в редакторе Unity с выделенными компонентами](images/openxr-features-img-03.png)
+    ![Снимок экрана: панель "Параметры проекта", открытая в редакторе Unity с выделенными компонентами](images/openxr-features-img-03.png)
 
 Теперь можно нажать кнопку "Воспроизвести", чтобы воспроизвести приложение Unity в удаленном приложении holographic на HoloLens. Вы также можете [присоединить Visual Studio к Unity](https://docs.microsoft.com/visualstudio/gamedev/unity/get-started/using-visual-studio-tools-for-unity?pivots=windows) для отладки скриптов C# в режиме воспроизведения.
 
 > [!NOTE]
-> Начиная с версии 0.1.0, среда выполнения не поддерживает функцию привязки, а функции Аранчорманажер не будут работать через удаленное взаимодействие.  Эта функция появилась в будущих выпусках.
+> Начиная с версии 0.1.0, среда выполнения holographic Remoting не поддерживает привязки, а функции Аранчорманажер не будут работать через удаленное взаимодействие.  Эта функция появилась в будущих выпусках.
 
 ## <a name="anchors-and-anchor-persistence"></a>Привязки и сохранение привязки
 
@@ -79,11 +79,11 @@ public class Microsoft.MixedReality.ARSubsystems.XRAnchorStore
     public void Clear();
 
     // Load a single persisted anchor by name. The ARAnchorManager will create this new anchor and report it in
-    // the ARAnchorManager.anchorsChanged event. The TrackableId returned here is the same TrackableId the 
+    // the ARAnchorManager.anchorsChanged event. The TrackableId returned here is the same TrackableId the
     // ARAnchor will have when it is instantiated.
     public TrackableId LoadAnchor(string name);
 
-    // Attempts to persist an existing ARAnchor with the given TrackableId to the local store. Returns true if 
+    // Attempts to persist an existing ARAnchor with the given TrackableId to the local store. Returns true if
     // the storage is successful, false otherwise.
     public bool TryPersistAnchor(string name, TrackableId trackableId);
 
@@ -100,10 +100,10 @@ public static Task<XRAnchorStore> LoadAnchorStoreAsync(this XRAnchorSubsystem an
 ```
 
 Чтобы использовать этот метод расширения, необходимо получить доступ к нему из подсистемы Аранчорманажер следующим образом:
- 
+
 ``` cs
-ARAnchorManager arAnchorManager = GetComponent<ARAnchorManager>(); 
-XRAnchorStore anchorStore = await arAnchorManager.subsystem.LoadAnchorStoreAsync(); 
+ARAnchorManager arAnchorManager = GetComponent<ARAnchorManager>();
+XRAnchorStore anchorStore = await arAnchorManager.subsystem.LoadAnchorStoreAsync();
 ```
 
 Полный пример сохранения и несохраненных привязок см. в разделе привязки-> примеры привязок в образце [сцены подключаемого модуля Mixed Reality опенкср](openxr-getting-started.md#hololens-2-samples):
@@ -114,10 +114,10 @@ XRAnchorStore anchorStore = await arAnchorManager.subsystem.LoadAnchorStoreAsync
 
 ## <a name="motion-controller-and-hand-interactions"></a>Взаимодействие контроллера движения и руки
 
-Основные сведения о взаимодействии смешанной реальности в Unity см. в [руководстве по Unity для XR данных Unity](https://docs.unity3d.com/2020.2/Documentation/Manual/xr_input.html). Эта документация по Unity охватывает сопоставления от входных данных, относящихся к конкретному контроллеру, с более обобщенными **инпутфеатуреусажеами**, как можно идентифицировать и классифицировать доступные входные данные XR, как считывать их из этих входных данных и многое другое. 
- 
-Подключаемый модуль Mixed Reality Опенкср предоставляет дополнительные профили взаимодействия ввода, сопоставленные со стандартным **инпутфеатуреусаже**, как описано ниже. 
- 
+Основные сведения о взаимодействии смешанной реальности в Unity см. в [руководстве по Unity для XR данных Unity](https://docs.unity3d.com/2020.2/Documentation/Manual/xr_input.html). Эта документация по Unity охватывает сопоставления от входных данных, относящихся к конкретному контроллеру, с более обобщенными **инпутфеатуреусажеами**, как можно идентифицировать и классифицировать доступные входные данные XR, как считывать их из этих входных данных и многое другое.
+
+Подключаемый модуль Mixed Reality Опенкср предоставляет дополнительные профили взаимодействия ввода, сопоставленные со стандартным **инпутфеатуреусаже**, как описано ниже.
+
 | инпутфеатуреусаже | HP reverbы G2 Controller (Опенкср) | HoloLens (Опенкср) |
 | ---- | ---- | ---- |
 | primary2DAxis | Джойстик | |
@@ -132,9 +132,10 @@ XRAnchorStore anchorStore = await arAnchorManager.subsystem.LoadAnchorStoreAsync
 
 ### <a name="aim-and-grip-poses"></a>AIM и захват
 
-У вас есть доступ к двум наборам экземпляров через входные взаимодействия Опенкср: 
+У вас есть доступ к двум наборам экземпляров через входные взаимодействия Опенкср:
+
 * Захват для отрисовки объектов в руки
-* Цель, указывающая на мир. 
+* Цель, указывающая на мир.
 
 Дополнительные сведения об этой структуре и различиях между ними можно найти в [подкаталогах Опенкср Specification-input](https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#semantic-path-input).
 
@@ -148,7 +149,7 @@ public static readonly InputFeatureUsage<Vector3> PointerPosition = new InputFea
 
 ### <a name="haptics"></a>хаптикс
 
-Сведения об использовании хаптикс в системе ввода XR в Unity можно найти в [руководстве по Unity для Unity XR input-хаптикс](https://docs.unity3d.com/2020.2/Documentation/Manual/xr_input.html#Haptics). 
+Сведения об использовании хаптикс в системе ввода XR в Unity можно найти в [руководстве по Unity для Unity XR input-хаптикс](https://docs.unity3d.com/2020.2/Documentation/Manual/xr_input.html#Haptics).
 
 ## <a name="whats-coming-soon"></a>Что ожидается в ближайшее время
 
@@ -160,7 +161,7 @@ public static readonly InputFeatureUsage<Vector3> PointerPosition = new InputFea
 * Поддержка **пространственных привязок Azure** появилась в следующем выпуске.
 * **ARM64** — единственная поддерживаемая платформа для приложений HoloLens 2. Платформа **ARM** поступает в будущем выпуске.
 
-## <a name="troubleshooting"></a>Устранение неполадок 
+## <a name="troubleshooting"></a>Устранение неполадок
 
-При приостановке и возобновлении работы приложения Unity в HoloLens 2 приложение не может корректно возобновить работу, что приводит к 4 вращающимся точкам в представлении HoloLens. 
+При приостановке и возобновлении работы приложения Unity в HoloLens 2 приложение не может корректно возобновить работу, что приводит к 4 вращающимся точкам в представлении HoloLens.
 * Установка для **режима отправки глубины** значения " **нет** " в параметрах проекта опенкср в качестве обходного пути

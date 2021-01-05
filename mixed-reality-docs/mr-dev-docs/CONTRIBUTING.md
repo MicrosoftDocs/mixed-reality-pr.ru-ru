@@ -5,20 +5,28 @@ author: mattwojo
 ms.author: mattwoj
 ms.date: 03/21/2018
 ms.topic: article
-ms.openlocfilehash: 0a71072a27befc4295b82e1235cbc75655743056
-ms.sourcegitcommit: 0b406ccbc7ce619e42809ba8dfdc47d83f4917ff
+ms.openlocfilehash: 47689a53557e6ce9b97d0e9d834a70fb0a7786d0
+ms.sourcegitcommit: 9a93c9e9b3b088da942ac4386813ecf263c2e324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "97691317"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "97865419"
 ---
 # <a name="contributing-to-mixed-reality-developer-documentation"></a>Документация для разработчиков смешанной реальности
 
 Добро пожаловать в [общедоступный репозиторий документации для разработчиков смешанной реальности](https://github.com/MicrosoftDocs/mixed-reality/tree/master/mixed-reality-docs)! Все статьи, созданные или измененные в этом репозитории, **будут доступны для общего пользования.** 
 
-Документы смешанной реальности теперь находятся на платформе docs.microsoft.com, которая использует Markdown с возможностями GitHub с функциями Маркдиг. Содержимое, которое вы редактируете в этом репозитории, форматируется на стилизованных страницах, которые отображаются в https://docs.microsoft.com/windows/mixed-reality . Если вы хотите участвовать в документации по HoloLens или VR для энтузиастов, посетите соответствующие репозитории [hololens](https://github.com/MicrosoftDocs/Hololens) и [VR](https://github.com/MicrosoftDocs/mixed-reality/tree/docs/enthusiast-guide) .
+Документы смешанной реальности теперь находятся на платформе docs.microsoft.com, которая использует Markdown с возможностями GitHub с функциями Маркдиг. Содержимое, которое вы редактируете в этом репозитории, форматируется на стилизованных страницах, которые отображаются в https://docs.microsoft.com/windows/mixed-reality . 
 
 На этой странице описаны основные шаги и рекомендации по созданию и ссылкам на основы Markdown. Спасибо за Ваше предложение!
+
+## <a name="available-repos"></a>Доступные репозиториев
+
+| Имя репозитория | URL-адрес |
+| --- | --- |
+| Смешанная реальность | [MicrosoftDocs/Mixed-Reality](https://docs.microsoft.com/windows/mixed-reality) |
+| Руководством для энтузиастов | [MicrosoftDocs/Mixed-Reality/энтузиаст-Guide](https://github.com/MicrosoftDocs/mixed-reality/tree/docs/enthusiast-guide) |
+| HoloLens | [MicrosoftDocs/HoloLens](https://github.com/MicrosoftDocs/Hololens) |
 
 ## <a name="before-you-start"></a>Перед началом работы
 
