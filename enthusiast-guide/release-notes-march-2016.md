@@ -6,18 +6,18 @@ ms.author: mazeller
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Заметки о выпуске, HoloLens, ОС, платформа, компоненты, сборка, запуск
-ms.openlocfilehash: 49cdc51ab2da90e6483e3a06fe6b193ee9bbfc49
-ms.sourcegitcommit: 838bebf6bacac4047feff493c0847d4e6371976f
+ms.openlocfilehash: 9129bb220d2a580235494a94ecbd3227e7d4c7c7
+ms.sourcegitcommit: 1b90f27af091dffd4fba63d69a89873aa0f75079
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "91784022"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97725935"
 ---
 # <a name="release-notes---march-2016"></a>Заметки о выпуске — март 2016 г.
 
 Добро пожаловать в Windows holographic, которая доступна в первый раз в Microsoft HoloLens. Мы хотим [услышать ваши отзывы](https://docs.microsoft.com/windows/mixed-reality/give-us-feedback). Используйте центр обратной связи, [форумы для разработчиков](https://forums.hololens.com) и [Twitter с помощью @HoloLens ](https://twitter.com/hololens).
 
-**Версия выпуска:** Выпуск Windows holographic, 2016 марта ( **10.0.11082.1033** )
+**Версия выпуска:** Выпуск Windows holographic, 2016 марта (**10.0.11082.1033**)
 
 >[!VIDEO https://www.youtube.com/embed/C98qaPAMVQU]
 
@@ -27,11 +27,11 @@ ms.locfileid: "91784022"
 * **Microsoft Edge.** Современный веб-браузер для Windows 10.
 * **Параметры.** Проверьте сведения о системе, [подключитесь к Wi-Fi](https://docs.microsoft.com/windows/mixed-reality/connecting-to-wi-fi-on-hololens)и [подключитесь к устройствам Bluetooth](https://docs.microsoft.com/windows/mixed-reality/discover/hardware-accessories).
 * **Голограммы.** Размещайте голограммы в своем мире, обходить их, а затем прослушивать и слышать их с любого угла.
-* **Монитора.** Повторите [калибровку](https://docs.microsoft.com/windows/mixed-reality/calibration) , которая была выполнена при первом запуске. Сделайте это при каждом переключении пользователей.
+* **Монитора.** При каждом переключении пользователей повторите [калибровку](https://docs.microsoft.com/windows/mixed-reality/calibration) , выполненную при первом запуске.
 * **Знакомство с жестами.** Повторите руководство по жестам, выполненное при первом запуске.
 * **Изображений.** Просмотрите фотографии и видеозаписи смешанной реальности, которые вы передаете на устройство, а затем поместите их в мир, а также голограммы.
 
-Чтобы разблокировать устройство для разработки, откройте приложение " *Параметры* ", перейдите в раздел " *Обновление & безопасность* ", перейдите на страницу " *для разработчиков* " и установите переключатель "режим разработчика" в положение вкл. Это то же место, где можно включить [портал устройств](https://docs.microsoft.com/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-windows-device-portal).
+Чтобы разблокировать устройство для разработки, откройте приложение " *Параметры* ", перейдите в раздел " *Обновление & безопасность*", перейдите на страницу " *для разработчиков* " и установите переключатель "режим разработчика" в положение вкл. [Портал устройств](https://docs.microsoft.com/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-windows-device-portal) можно также включить отсюда.
 
 ## <a name="see-also"></a>См. также раздел
 * [Известные проблемы с HoloLens](https://docs.microsoft.com/windows/mixed-reality/hololens-known-issues)

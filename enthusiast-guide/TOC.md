@@ -46,3 +46,5 @@
 ### [Как работает отслеживание Inside-out](tracking-system.md)
 ### [HP Reverb G2 — контроллеры в Unity](https://docs.microsoft.com/windows/mixed-reality/develop/unity/unity-reverb-g2-controllers)
 ### [HP Reverb G2 — контроллеры в Unreal](https://docs.microsoft.com/windows/mixed-reality/develop/unreal/unreal-reverb-g2-controllers)
+
+## [Руководство по участию в работе](contributing.md)

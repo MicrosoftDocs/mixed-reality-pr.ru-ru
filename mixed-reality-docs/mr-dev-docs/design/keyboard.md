@@ -6,19 +6,18 @@ ms.author: dongpark
 ms.date: 11/01/2019
 ms.topic: article
 keywords: Смешанная реальность, элементы управления, взаимодействие, Пользовательский интерфейс, UX, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, клавиатура, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: 52555dec04b42b7865e8d358d57cbc9112a7a326
-ms.sourcegitcommit: 4f3ef057a285be2e260615e5d6c41f00d15d08f8
+ms.openlocfilehash: b258ad7934cae76c581723d681cce32c68458b72
+ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94703150"
+ms.lasthandoff: 01/01/2021
+ms.locfileid: "97847279"
 ---
 # <a name="keyboard"></a>Keyboard (Клавиатура)
 
 ![Keyboard (Клавиатура)](images/UX_Hero_Keyboard.jpg)
 
-Приложение Mixed Reality может вызывать системную клавиатуру в любое время. Обратите внимание, что системная клавиатура работает в соответствии с возможностями целевой платформы, например клавиатура на HoloLens 2 поддерживает прямые взаимодействия, а клавиатура на HoloLens (1) поддерживает ввод с помощью сенсорного экрана.
-
+Приложение Mixed Reality может вызывать системную клавиатуру в любое время, что ведет себя в соответствии с возможностями целевой платформы. Например, клавиатура на HoloLens 2 поддерживает прямые взаимодействия с руки, а на клавиатурах HoloLens (1 Gen) — и касания.
 
 <br>
 
@@ -34,12 +33,12 @@ ms.locfileid: "94703150"
 
 ## <a name="next-development-checkpoint"></a>Следующий этап разработки
 
-Если вы используете точку контрольной точки разработки Unity, которую мы собрали, ваша следующая задача — развернуть приложение на устройстве или в эмуляторе. 
+Если вы подготовились к расположению разработки Unity, то ваша следующая задача — развернуть приложение на устройстве или в эмуляторе. 
 
 > [!div class="nextstepaction"]
 > [Развертывание в HoloLens или в виде впечатляющих головных телефонов Windows Mixed Reality](../develop/platform-capabilities-and-apis/using-visual-studio.md)
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 * [Курсоры](cursors.md)
 * [Телекинез](point-and-commit.md)

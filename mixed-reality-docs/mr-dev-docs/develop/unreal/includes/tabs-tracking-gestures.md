@@ -1,11 +1,28 @@
 ---
-ms.openlocfilehash: 50b56f6f081f682c3f3655e81aa492d84d254314
-ms.sourcegitcommit: fbeff51cae92add88d2b960c9b7bbfb04d5a0291
+ms.openlocfilehash: 6b9223481ed909961dbb88d03e4b55ef68448525
+ms.sourcegitcommit: 13ef9f89ee61fbfe547ecf5fdfdb97560a0de833
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97002705"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97717312"
 ---
+# <a name="426"></a>[4.26](#tab/426)
+
+### <a name="windows-mixed-reality"></a>Windows Mixed Reality
+
+![План начала воспроизведения, подключенный к функции настройки жестов](../images/unreal-hand-tracking-img-09.png)
+
+Затем следует добавить код для подписки на следующие события:
+
+![Снимок экрана с графическими жестами для сохранения данных на пространственном входе ](../images/unreal/key-events.png)
+ ![ в Windows](../images/unreal/key-events2.png)
+
+### <a name="openxr"></a>OpenXR
+
+В Опенкср события жестов отправляются через входной конвейер. Используя взаимодействие с руки, устройство может автоматически распознать жесты касания и удерживания, но не другие. Они именуются в виде Опенксрмсфсандинтерактион выбора и сопоставлений с захватом. Вам не нужно включать подписку, вы должны объявить события в параметрах проекта/подсистеме/входе, как в следующем:
+
+![Снимок экрана с сопоставлениями действий Опенкср](../images/unreal-hand-tracking-img-12.png)
+
 # <a name="425"></a>[4.25](#tab/425)
 
 Функцию схемы можно найти в разделе **пространственный ввод Windows Mixed Reality**, а функция C++ — путем добавления `WindowsMixedRealitySpatialInputFunctionLibrary.h` в файл вызывающего кода.
@@ -87,19 +104,3 @@ const FKey FSpatialInputKeys::RightNavigationYGesture(RightNavigationYGestureNam
 const FKey FSpatialInputKeys::RightNavigationZGesture(RightNavigationZGestureName);
 ```
 
-# <a name="426"></a>[4.26](#tab/426)
-
-### <a name="windows-mixed-reality"></a>Windows Mixed Reality
-
-![План начала воспроизведения, подключенный к функции настройки жестов](../images/unreal-hand-tracking-img-09.png)
-
-Затем следует добавить код для подписки на следующие события:
-
-![Снимок экрана с графическими жестами для сохранения данных на пространственном входе ](../images/unreal/key-events.png)
- ![ в Windows](../images/unreal/key-events2.png)
-
-### <a name="openxr"></a>OpenXR
-
-В Опенкср события жестов отправляются через входной конвейер. Используя взаимодействие с руки, устройство может автоматически распознать жесты касания и удерживания, но не другие. Они именуются в виде Опенксрмсфсандинтерактион выбора и сопоставлений с захватом. Вам не нужно включать подписку, вы должны объявить события в параметрах проекта/подсистеме/входе, как в следующем:
-
-![Снимок экрана с сопоставлениями действий Опенкср](../images/unreal-hand-tracking-img-12.png)

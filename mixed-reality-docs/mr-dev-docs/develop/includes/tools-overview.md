@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: cd6541dd651573f31ddc2e2a388be53394059c5f
-ms.sourcegitcommit: f459c7deb254409fd5db3967bcc875bcbc367e77
+ms.openlocfilehash: 283bfffb2d59d92712e86e12c05be8974f04fae6
+ms.sourcegitcommit: 13ef9f89ee61fbfe547ecf5fdfdb97560a0de833
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94482420"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97718116"
 ---
 # <a name="unity"></a>[Unity](#tab/unity)
 
@@ -81,8 +81,6 @@ ms.locfileid: "94482420"
 
 >[!WARNING]
 >Не путайте их с [минимальными рекомендациями по совместимости аппаратного обеспечения компьютера](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines), в которых изложены *спецификации компьютера потребителя*, на которые следует ориентироваться при работе с приложением или игрой, используемых с иммерсивной гарнитурой (виртуальная реальность).
-
-Если вы используете гарнитуру **Reverb G2**, скачайте подключаемый модуль **Microsoft-Valve OpenXR** (TODO: // требуется ссылка).
 
 Если на компьютере для разработки решений для иммерсивных гарнитур отсутствуют полноразмерные порты HDMI и (или) USB 3.0, для подключения гарнитуры вам потребуются [адаптеры](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs).
 
@@ -196,8 +194,6 @@ ms.locfileid: "94482420"
 
 >[!WARNING]
 >Не путайте их с [минимальными рекомендациями по совместимости аппаратного обеспечения компьютера](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines), в которых изложены *спецификации компьютера потребителя*, на которые следует ориентироваться при работе с приложением или игрой, используемых с иммерсивной гарнитурой (виртуальная реальность).
-
-Если вы используете гарнитуру **Reverb G2**, скачайте подключаемый модуль **Microsoft-Valve OpenXR** (TODO: // требуется ссылка).
 
 Если на компьютере для разработки решений для иммерсивных гарнитур отсутствуют полноразмерные порты HDMI и (или) USB 3.0, для подключения гарнитуры вам потребуются [адаптеры](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs).
 

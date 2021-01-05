@@ -1,30 +1,30 @@
 ---
 title: Обзор примера внедрения
-description: Истории, обучение и работа группа "смешанная реальность" обнаружила и жоттед на пути.
+description: Истории, материалы и опыт работы Группа "смешанная реальность" нашла и жоттед в направлении.
 author: grbury
 ms.author: grbury
 ms.date: 08/24/2019
 ms.topic: overview
 keywords: Windows Mixed Reality, HoloLens, пример внедрения, концепция, сценарии, примеры внедрения, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: b30cc49759867b4f11f3f88195c8d9bec87ba297
-ms.sourcegitcommit: 4f3ef057a285be2e260615e5d6c41f00d15d08f8
+ms.openlocfilehash: 7d3e2f3bbbc6a89bf4f136e2657f8a9abe7b9560
+ms.sourcegitcommit: 8d3b84d2aa01f078ecf92cec001a252e3ea7b24d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94703490"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "97757652"
 ---
 # <a name="case-study-gallery"></a>Коллекция примеров использования
 
-Истории, обучение и работа группа "смешанная реальность" обнаружила и жоттед на пути.
+Истории, материалы и опыт работы Группа "смешанная реальность" нашла и жоттед в направлении.
 
 :::row:::
     :::column:::
        [ ![ 3 холостудио пользовательского интерфейса и проектирования взаимодействия обучение](images/thought-bubble-500px.jpg)](../out-of-scope/case-study-3-holostudio-ui-and-interaction-design-learnings.md) **[3 холостудио пользовательского интерфейса и модели взаимодействия](../out-of-scope/case-study-3-holostudio-ui-and-interaction-design-learnings.md)**<br>
-        Холостудио был одним из первых приложений для HoloLens. Поэтому нам пришлось создавать новые рекомендации по трехмерному ИНТЕРФЕЙСу и проектированию взаимодействия. Мы сделали это с помощью многих пользовательских тестов, создания прототипов, проб и ошибок.<br>
+        Холостудио был одним из первых приложений для HoloLens. Поэтому нам пришлось создавать новые рекомендации по трехмерному ИНТЕРФЕЙСу и проектированию взаимодействия. Мы сделали это с помощью тестирования пользователей, создания прототипов, проб и ошибок.<br>
         *Июль 2016 г.*
     :::column-end:::
     :::column:::
-       [ ![ Создание холоскетч, пространственного макета и приложения для создания наброска](images/holosketch-image-01-640px.png)](../out-of-scope/case-study-building-holosketch,-a-spatial-layout-and-ux-sketching-app-for-hololens.md) , предназначенного для hololens **[здание холоскетч, пространственного макета и приложения для наброска в формате UX](../out-of-scope/case-study-building-holosketch,-a-spatial-layout-and-ux-sketching-app-for-hololens.md)**<br>
+       [ ![ Создание холоскетч, пространственного макета и приложения для создания наброска](images/holosketch-image-01-640px.png)](../out-of-scope/case-study-building-holosketch,-a-spatial-layout-and-ux-sketching-app-for-hololens.md) , предназначенного для hololens **[здания холоскетч, пространственного макета и приложения наброска наметки UX для hololens](../out-of-scope/case-study-building-holosketch,-a-spatial-layout-and-ux-sketching-app-for-hololens.md)**<br>
         Холоскетч — это пространственный макет на устройстве и средство создания наброска UX для HoloLens, помогающее в создании Holographic.<br>
          *Июль 2017 г.*
     :::column-end:::
@@ -79,7 +79,7 @@ ms.locfileid: "94703490"
     :::column-end:::
     :::column:::
        [ ![ Создание обозревателя Galaxy для hololens 2](../develop/unity/images/ge-update-interactions-concept-force-grab.png)](../develop/unity/galaxy-explorer-update.md) **[Создание Galaxy Explorer для hololens 2](../develop/unity/galaxy-explorer-update.md)**<br>
-        Добро пожаловать в то, как мы обновляем обозреватель Galaxy для HoloLens 2. Galaxy Explorer изначально разрабатывался в качестве приложения с открытым исходным кодом для HoloLens (1-го поколения) с помощью программы поделиться своими идеями и является одной из первых пользователей смешанной реальности. Теперь мы обновляем его для новых возможностей HoloLens 2.<br>
+        Добро пожаловать в то, как мы обновляем обозреватель Galaxy для HoloLens 2. Обозреватель Galaxy изначально разрабатывался как приложение с открытым исходным кодом для HoloLens (1-го поколения) с помощью программы поделиться своими идеями, и это одна из самых разных возможностей смешанной реальности. Теперь мы обновляем его для новых возможностей HoloLens 2.<br>
         *Июнь 2019 г.*
     :::column-end:::
     :::column:::
@@ -104,7 +104,7 @@ ms.locfileid: "94703490"
         *Август 2016 г.*
     :::column-end:::
     :::column:::
-       [ ![ Запись и создание содержимого для холотаур](../out-of-scope/images/camera-machu-pichu-500px.png)](../out-of-scope/case-study-capturing-and-creating-content-for-holotour.md) **[запись и создание содержимого для холотаур](../out-of-scope/case-study-capturing-and-creating-content-for-holotour.md)**<br>
+       [ ![ Запись и создание содержимого для Мачу Пичу холотаур](../out-of-scope/images/camera-machu-pichu-500px.png)](../out-of-scope/case-study-capturing-and-creating-content-for-holotour.md) **[запись и создание содержимого для холотаур](../out-of-scope/case-study-capturing-and-creating-content-for-holotour.md)**<br>
         Холотаур предоставляет впечатляющие трехмерные обзоры значков по всему миру. Как было обнаружено, создание более убедительной трехмерной отрисовки хорошо известного расположения занимается мастером творческих и технологических подходов.<br>
         *Август 2016 г.*
     :::column-end:::
@@ -158,7 +158,7 @@ ms.locfileid: "94703490"
 :::row:::
     :::column:::
        [ ![ Афтернов процесс — выработка, создание прототипов](../out-of-scope/images/whatisenvisioning-640px.png)](../out-of-scope/case-study-afternows-process-envisioning,-prototyping,-building.md) , **[формирование афтернов процессов, создание прототипов, разработка](../out-of-scope/case-study-afternows-process-envisioning,-prototyping,-building.md)**<br>
-        В Афтернов мы работаем над тем, чтобы превратить свои идеи и стремлений в конкретные, полностью операционные продукты и возможности, готовые для рынка. Но прежде чем писать одну строку кода, мы создадим проект с помощью процесса, который называется представлением.<br>
+        В Афтернов мы работаем над тем, чтобы превратить свои идеи и стремлений в конкретные, полностью операционные продукты и готовую среду для рынка. Но прежде чем писать одну строку кода, мы создадим проект с помощью процесса, который называется представлением.<br>
         *Апрель 2017 г.*
     :::column-end:::
     :::column:::

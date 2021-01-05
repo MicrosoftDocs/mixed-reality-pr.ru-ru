@@ -6,12 +6,12 @@ ms.author: moelhama
 ms.date: 08/03/2020
 ms.topic: article
 keywords: HoloLens, портал устройств Windows, API, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 1085f6c948ab7fe0ff8cb3801ebb0b883570acbc
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: c705ce65971042ab41befed9c6813dc797b61fc0
+ms.sourcegitcommit: 084b1da9d7b435394b38d6152a2f9aee7a74aa2a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94677973"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97804426"
 ---
 # <a name="device-portal-api-reference"></a>Справочник по API портала устройств
 
@@ -297,7 +297,7 @@ $.post("/api/holographic/mapmanager/import?FileName=" + spaceID, function() { al
 $.post("/api/holographic/mapmanager/import?FileName=" + spaceID, function() { alert("Import was successful!"); })
 ```
 
-### <a name="other"></a>Другие
+### <a name="other"></a>Другое
 
 **/АПИ/холографик/мапманажер/ресетмапанданчорсандсрдб (POST)**
 
@@ -388,6 +388,9 @@ _ */АПИ/холографик/МРК/сумбнаил (Get)**
 Останавливает текущую запись смешанной реальности
 
 ## <a name="mixed-reality-streaming"></a>Потоковая передача смешанной реальности
+
+> [!CAUTION]
+> Из-за изоляции замыкания на себя невозможно подключиться к потоковой передаче смешанной реальности из приложения на устройстве.
 
 HoloLens поддерживает динамическую предварительную версию смешанной реальности через частную загрузку фрагментированного MP4.
 
@@ -693,6 +696,6 @@ Payload
 Возвращать данные
 * При запуске возвращает состояние сеанса ЗВЧ.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 * [Использование портала устройств Windows](using-the-windows-device-portal.md)
 * [Справочник по API для базовых порталов устройств (UWP)](https://docs.microsoft.com/windows/uwp/debug-test-perf/device-portal-api-core)

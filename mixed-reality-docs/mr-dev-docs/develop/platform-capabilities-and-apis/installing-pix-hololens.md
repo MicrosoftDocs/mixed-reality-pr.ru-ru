@@ -6,12 +6,12 @@ ms.author: flbagar
 ms.date: 12/02/2020
 ms.topic: article
 keywords: HoloLens, HoloLens 2, PIX, захват, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 5dfc16f97790b47af3c24ca44c060a9a2495a320
-ms.sourcegitcommit: c41372e0c6ca265f599bff309390982642d628b8
+ms.openlocfilehash: 598a6b891798be7059eae2eff578c6bbbae442f6
+ms.sourcegitcommit: 9d79aaa313f003dd42d5610d458031890776ee8e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97530446"
+ms.lasthandoff: 12/30/2020
+ms.locfileid: "97822920"
 ---
 # <a name="installing-pix-for-hololens-2"></a>Установка PIX для HoloLens 2
 
@@ -25,7 +25,7 @@ ms.locfileid: "97530446"
 
 3. Включить **режим разработчика** и **портал устройств**:
 
-* Откройте **Параметры** из оболочки:
+* Откройте **Параметры** из дома смешанной реальности:
 
 ![Снимок экрана: меню HoloLens с выделенной кнопкой "Параметры"](images/pix-img-01.jpg)
 
