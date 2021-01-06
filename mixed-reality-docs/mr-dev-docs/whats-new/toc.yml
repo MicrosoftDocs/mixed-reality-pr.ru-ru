@@ -1,4 +1,19 @@
-# - name: Learn about Azure Services 
+- name: Изучение приложения для создания голограмм
+  href: ../discover/designing-holograms.md
+- name: Новые модули Learn по смешанной реальности
+  href: ../discover/mr-learning-overview.md
+- name: Подробнее об облачных службах смешанной реальности в Azure
+  href: ../develop/mixed-reality-cloud-services.md
+- name: Начало работы с OpenXR в Unity
+  href: ../develop/unity/openxr-getting-started.md
+- name: Использование новых контроллеров HP Reverb G2
+  items:
+    - name: Unity
+      href: ../develop/unity/unity-reverb-g2-controllers.md
+    - name: Unreal
+      href: ../develop/unreal/unreal-reverb-g2-controllers.md
+- name: Дистрибуция приложений по всему миру
+  href: ../distribute/distribute-overview.md
 - name: Приготовьтесь к выпуску нового решения Microsoft Edge
   href: new-microsoft-edge.md
 - name: Программы и мероприятия
