@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 12/1/2020
 ms.topic: article
 keywords: опенкср, Unity, hololens, hololens 2, Mixed Reality, МРТК, набор средств для смешанной реальности, дополненная реальность, виртуальная реальность, гарнитуры смешанной реальности, обучение, учебник, начало работы
-ms.openlocfilehash: 9e7f59c57d409d61df73e6d07659bf6c7242202c
-ms.sourcegitcommit: 5784336a780486d05db6a627839efe47f08fac36
+ms.openlocfilehash: 7d28dd50e111da4b010bcae699b7451d967e8f35
+ms.sourcegitcommit: 653ddcae6d7a1617c89da1153fa8e7b482ef6818
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97880607"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97905296"
 ---
 # <a name="using-the-mixed-reality-openxr-plugin-for-unity"></a>Использование подключаемого модуля Опенкср в смешанной реальности для Unity
 
@@ -125,6 +125,10 @@ ms.locfileid: "97880607"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 Теперь, когда проект настроен для Опенкср и имеет доступ к примерам, ознакомьтесь с [возможностями](openxr-supported-features.md) , которые в настоящее время поддерживаются в нашем подключаемом модуле опенкср.
+
+## <a name="have-feedback"></a>Хотите оставить отзыв?
+
+Опенкср все еще экспериментально, поэтому мы будем рады получить отзывы, которые помогут улучшить его. Вы найдете нас на [форумах Unity](https://aka.ms/unityforums) , пометив сообщение на форуме с помощью **Microsoft**  +  **опенкср** и **HoloLens 2** или **Windows Mixed Reality**.
 
 ## <a name="see-also"></a>См. также раздел
 
