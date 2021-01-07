@@ -8,12 +8,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, обратная связь, центр обратной связи, ошибки
 appliesto:
 - Windows 10
-ms.openlocfilehash: e55c66599e47abff35b872a494a6afbb48774171
-ms.sourcegitcommit: 50d9afae479e418b885dc883ce88771292923f01
+ms.openlocfilehash: 8f6ba747c2f336194cb30241dce18bc1138143f2
+ms.sourcegitcommit: b331ec40b1e8869e6a6e7b2e32a03ff68e04b956
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "97859523"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97956067"
 ---
 # <a name="get-help-with-pc-compatibility-in-windows-mixed-reality"></a>Получение справки по совместимости ПК в Windows Mixed Reality
 
@@ -27,13 +27,32 @@ ms.locfileid: "97859523"
 > * Проверьте список [рекомендуемых адаптеров](recommended-adapters-for-windows-mixed-reality-capable-pcs.md)
 > * Обновите графический драйвер, выбрав **пуск > параметры > обновить & безопасность > проверить наличие обновлений** . 
 
+Если вы хотите получить контакт, [обратитесь в](https://answers.microsoft.com) [службу поддержки](https://support.microsoft.com/contactus/)или воспользуйтесь сведениями об [устранении неполадок](troubleshooting-windows-mixed-reality.md) .
+
 ## <a name="youre-good-to-go"></a>Все готово
 
 Хорошая новость: Если вы видите, что **вы знаете** сообщение, ваш компьютер может работать под управлением Windows Mixed Reality! По-прежнему существуют различия между оборудованием и конфигурацией компьютера, поэтому возможности смешанной реальности могут отличаться на разных ПК.
 
 ## <a name="supports-some-features"></a>Поддерживает некоторые функции
 
-Если вы видите сообщение о том, что **компонент поддерживает некоторые функции** , ваш компьютер может запускать некоторые возможности Windows Mixed Reality, но не может обеспечить лучшую работу. К возможным недостаткам относятся задержкой графика, попадания в производительность, а также некоторые приложения и игры, которые не могут быть запущены. Мы добавили сообщения, которые вы можете увидеть, и о том, что делать с ними ниже.
+Если вы видите сообщение о том, что **компонент поддерживает некоторые функции** , ваш компьютер может запускать некоторые возможности Windows Mixed Reality, но не может обеспечить лучшую работу. К возможным недостаткам относятся задержкой графика, попадания в производительность, а также некоторые приложения и игры, которые не могут быть запущены. Мы добавили сообщения, которые вы можете увидеть, и о том, что делать с ними:
+
+* [На этом компьютере имеется Интегрированная графическая карта с одним каналом ОЗУ](#this-pc-has-an-integrated-graphics-card-with-single-channel-ram)
+* [На этом компьютере имеется Конфигурация гибридной графики с несовместимой связью PCIe](#this-pc-has-a-hybrid-graphics-configuration-with-an-incompatible-pcie-link)
+* [Графический драйвер этого компьютера может не работать с Windows Mixed Reality](#this-pcs-graphics-driver-might-not-work-well-with-windows-mixed-reality)
+* [Процессор этого компьютера может не работать с Windows Mixed Reality](#this-pcs-processor-might-not-work-well-with-windows-mixed-reality)
+* [У этого компьютера может не быть совместимой конфигурации USB](#this-pc-might-not-have-a-compatible-usb-configuration)
+* [На этом компьютере нет Bluetooth 4,0 для контроллеров](#this-pc-doesnt-have-bluetooth-40-for-controllers)
+* [В зависимости от гарнитуры может потребоваться адаптер Bluetooth для использования контроллеров движения.](#depending-on-your-headset-you-may-need-a-bluetooth-adapter-to-use-motion-controllers)
+* [На этом компьютере нет USB-порта с самостоятельным питанием](#this-pc-doesnt-have-a-self-powered-usb-port)
+* [Графическая карта этого компьютера не будет работать с Windows Mixed Reality](#this-pcs-graphics-card-wont-work-with-windows-mixed-reality)
+* [Графический драйвер этого компьютера не будет работать с Windows Mixed Reality](#this-pcs-graphics-driver-wont-work-with-windows-mixed-reality)
+* [Процессор этого компьютера не будет работать с Windows Mixed Reality](#this-pcs-processor-wont-work-with-windows-mixed-reality)
+* [На этом компьютере недостаточно свободного дискового пространства для запуска Windows Mixed Reality](#this-pc-doesnt-have-enough-free-disk-space-to-run-windows-mixed-reality)
+* [На этом компьютере работает выпуск Windows, который не поддерживает Windows Mixed Reality](#this-pc-is-running-an-edition-of-windows-that-doesnt-support-windows-mixed-reality)
+* [На этом компьютере не установлена последняя версия Windows 10](#this-pc-isnt-running-the-latest-version-of-windows-10)
+* [Этот компьютер не имеет порта USB 3,0](#this-pc-has-no-usb-30-port)
+* [Невозможно запустить это приложение через удаленный рабочий стол](#you-cant-run-this-app-via-remote-desktop)
 
 ### <a name="this-pc-has-an-integrated-graphics-card-with-single-channel-ram"></a>На этом компьютере имеется Интегрированная графическая карта с одним каналом ОЗУ
 
@@ -161,10 +180,11 @@ Windows Mixed Reality работает в [Windows 10 Домашняя](https://
 
 Некоторые конфигурации оборудования могут вызвать проблемы с производительностью в Windows Mixed Reality. Для таких проблем, как низкая загрузка, прерывистый визуальный элемент или плохое качество визуального элемента, попробуйте следующие общие исправления:
 
-* Закройте все открытые приложения, работающие на рабочем столе компьютера.
+* Закройте все открытые приложения, работающие на рабочем столе компьютера
 * Если вы используете адаптер HDMI USB-C или Дисплайпорт, попробуйте другой. См. Рекомендуемые адаптеры
-* Если к графической плате компьютера подключены дополнительные мониторы, отключите их.
-* Попробуйте скачать некоторые различные приложения смешанной реальности из Магазина Windows. Некоторые из них могут работать лучше с установкой компьютера.
+* При наличии дополнительных мониторов, подключенных к графической плате компьютера, отключите их.
+* Попробуйте скачать некоторые различные приложения смешанной реальности из Магазина Windows. Некоторые из них могут работать лучше с установкой компьютера
+* Ознакомьтесь с [документацией по вопросам производительности](performance-questions.md)
 
 Если у вас по-прежнему возникают проблемы с производительностью, обновите следующие параметры [Windows Mixed Reality](set-up-windows-mixed-reality.md) , чтобы обеспечить оптимальное взаимодействие с пользователем:
 
@@ -178,7 +198,7 @@ Windows Mixed Reality работает в [Windows 10 Домашняя](https://
 
 ## <a name="working-with-steamvr"></a>Работа с Стеамвр
 
-Замечательные игры от Стеамвр — это отличный способ испытать все, что требуется для работы с VR. Тем не менее, необходимо убедиться, что вы получаете максимальную производительность для вашего иммерсивного устройства. После установки [Steam](https://store.steampowered.com/about)выполните следующие действия.
+Замечательные игры от Стеамвр — это отличный способ испытать все, что требуется для работы с VR. Тем не менее, необходимо убедиться, что вы [получаете максимальную производительность](performance-questions.md) для вашего иммерсивного устройства. После установки [Steam](https://store.steampowered.com/about)выполните следующие действия.
 
 * Следуйте инструкциям по [использованию стеамвр с Windows Mixed Reality](using-steamvr-with-windows-mixed-reality.md)
 * Установка приложений для [тестирования производительности стеамвр](https://store.steampowered.com/app/323910/SteamVR_Performance_Test)
@@ -196,9 +216,3 @@ Windows Mixed Reality работает в [Windows 10 Домашняя](https://
 > [Настройка Windows Mixed Reality](set-up-windows-mixed-reality.md)
 
 Вы всегда можете вернуться к [пути VR](vr-journey.md) в любое время.
-
-## <a name="see-also"></a>См. также раздел
-
-* [Спросить у сообщества](https://answers.microsoft.com)
-* [Свяжитесь с нами для получения поддержки](https://support.microsoft.com/contactus/)
-* [Устранение неполадок](troubleshooting-windows-mixed-reality.md)
