@@ -1,19 +1,20 @@
 ---
-title: Пространственные аудио учебники — 3. Придание пространственной формы звуку из видео
-description: Импортируйте видео-ресурс в проект Unity и спатиализе звук из видео.
+title: Придание пространственной формы звуку из видео
+description: Узнайте, как импортировать ресурс видео в проект Unity Mixed Reality и спатиализе звук из видео.
 author: kegodin
 ms.author: v-hferrone
 ms.date: 12/01/2019
 ms.topic: article
 keywords: Mixed Reality, Unity, учебник, hololens2, Пространственный звук, МРТК, набор средств для смешанной реальности, UWP, Windows 10, ХРТФ, функция передачи, связанная с HEAD, переглагол, Microsoft Спатиализер, импорт видео, проигрыватель видео
-ms.openlocfilehash: 46f2f88be6613096a835f04e826b776c32c1b8c2
-ms.sourcegitcommit: fbeff51cae92add88d2b960c9b7bbfb04d5a0291
+ms.openlocfilehash: 211d1e32a8137444d0f33d442a60067dcd77ca36
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97002629"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98007415"
 ---
 # <a name="spatializing-audio-from-a-video"></a>Придание пространственной формы звуку из видео
+
 В этой третьей главе, посвященной пространственному аудио модулю в учебниках по Unity в HoloLens 2, вы выполните следующие действия:
 * Импорт видео и добавление видеопроигрывателя
 * Воспроизведение видео на куадрангле
@@ -40,6 +41,7 @@ ms.locfileid: "97002629"
 ![Видеопроигрыватель в иерархии](images/spatial-audio/video-player-in-hierarchy.png)
 
 ## <a name="play-video-onto-a-quadrangle"></a>Воспроизведение видео на куадрангле
+
 Объекту **видеопроигрывателя** требуется текстурированный объект Game, на котором будет отображаться видео. Во-первых, добавьте к своей **иерархии** « **четыре** », щелкнув правой кнопкой мыши панель « **Иерархия** » и выбрав « **объемные объекты», > «четыре»**:
 
 ![Добавить Quad в иерархию](images/spatial-audio/add-quad-to-hierarchy.png)
@@ -74,6 +76,7 @@ ms.locfileid: "97002629"
 ![Свойства проигрывателя видео](images/spatial-audio/video-player-properties.png)
 
 ## <a name="spatialize-the-audio-from-the-video"></a>Спатиализе звук из видео
+
 На панели **инспектора** для « **четырех**» создайте **источник аудио** , в который вы направите звук из видео:
 * Щелкните **Добавить компонент** в нижней части панели.
 * Добавление **источника звука**
@@ -96,6 +99,7 @@ ms.locfileid: "97002629"
 ![Выбор источника звука видеопроигрывателя](images/spatial-audio/video-player-set-audio-source.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
+
 Попробуйте приложение в HoloLens 2 или в редакторе Unity. Вы увидите и услышите видео, и звук из видео будет пространственно.
 
 > [!div class="nextstepaction"]

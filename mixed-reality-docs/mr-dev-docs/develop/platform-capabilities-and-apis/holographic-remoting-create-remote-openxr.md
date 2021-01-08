@@ -1,17 +1,17 @@
 ---
 title: Создание удаленного приложения holographic с удаленным взаимодействием (Опенкср)
-description: При создании удаленного приложения holographic удаленное содержимое, которое отображается на удаленном компьютере, можно передать в HoloLens 2.
+description: Узнайте, как выполнить потоковую передачу удаленного содержимого, отображаемого на удаленном компьютере, в HoloLens 2 с помощью приложений с удаленным взаимодействием Опенкср.
 author: florianbagarmicrosoft
 ms.author: flbagar
 ms.date: 12/01/2020
 ms.topic: article
 keywords: HoloLens, удаленное взаимодействие, holographic удаленное взаимодействие, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, NuGet
-ms.openlocfilehash: 202f2108ade9998d25d87dee20d4bd456da0a118
-ms.sourcegitcommit: c41372e0c6ca265f599bff309390982642d628b8
+ms.openlocfilehash: 616765143309fe2a4883c1393713133fcbe2a9d5
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97530419"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98006494"
 ---
 # <a name="writing-a-holographic-remoting-remote-app-using-the-openxr-api"></a>Создание удаленного приложения holographic с удаленным взаимодействием с помощью API Опенкср
 
@@ -210,4 +210,4 @@ m_window->PresentSwapchain();
 * [Установка безопасного подключения с использованием голографического удаленного взаимодействия](holographic-remoting-secure-connection.md)
 * [Устранение неполадок и ограничения удаленного взаимодействия с holographic](holographic-remoting-troubleshooting.md)
 * [Условия лицензии на использование ПО для голографического удаленного взаимодействия](https://docs.microsoft.com//legal/mixed-reality/microsoft-holographic-remoting-software-license-terms)
-* [Заявление о конфиденциальности Майкрософт](https://go.microsoft.com/fwlink/?LinkId=521839)
+* [Заявление Майкрософт о конфиденциальности](https://go.microsoft.com/fwlink/?LinkId=521839)

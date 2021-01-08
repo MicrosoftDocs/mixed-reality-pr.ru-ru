@@ -1,6 +1,6 @@
 ---
 title: Перед началом работы
-description: Как убедиться, что компьютер совместим с и готов к использованию Windows Mixed Reality.
+description: Узнайте, как обеспечить совместимость ПК и готовность к работе с различными приложениями Windows Mixed Reality.
 author: hferrone
 ms.author: v-hferrone
 ms.date: 09/15/2020
@@ -8,12 +8,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, совместимый, совместимость, начало работы, Настройка, ПК, требования к системе
 appliesto:
 - Windows 10
-ms.openlocfilehash: f4743b6548def227675944fcd742b1596963cb3c
-ms.sourcegitcommit: 1b90f27af091dffd4fba63d69a89873aa0f75079
+ms.openlocfilehash: b7e90477ed16170a5661f34798a5af822ad8e945
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97725495"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98006884"
 ---
 # <a name="before-you-start"></a>Перед началом работы
 

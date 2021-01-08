@@ -1,17 +1,17 @@
 ---
 title: Объемная отрисовка
-description: Изображения объемные содержат обширную информацию с непрозрачностью и цветом в рамках всего тома, которые не могут быть легко выражены в качестве поверхностей. Узнайте, как эффективно визуализировать объемные образы в Windows Mixed Reality.
+description: Узнайте, как эффективно визуализировать насыщенные объемные изображения с непрозрачностью и цветом в Windows Mixed Reality.
 author: kevinkennedy
 ms.author: kkennedy
 ms.date: 03/21/2018
 ms.topic: article
 keywords: образ объемные, подготовка тома, производительность, Смешанная реальность
-ms.openlocfilehash: c0b68a2368823e5699e24d66bfafe1e4e05bdce8
-ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
+ms.openlocfilehash: 2a76be80d786aea0c8bc1bd364155fa37d37e151
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97612948"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98008784"
 ---
 # <a name="volume-rendering"></a>Объемная отрисовка
 

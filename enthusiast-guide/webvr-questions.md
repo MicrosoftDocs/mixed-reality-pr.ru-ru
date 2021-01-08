@@ -1,14 +1,14 @@
 ---
 title: Вопросы и ответы по Вебвр
-description: Устранение неполадок в Интернете для смешанной реальности, которое выходит за рамки стандартной документации по поддержке пользователей.
+description: Ознакомьтесь с устранением неполадок смешанной реальности для веб-приложений, которые выходят за рамки стандартной документации по поддержке пользователей.
 ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, устранение неполадок, ошибки, Справка, поддержка, Вебвр
-ms.openlocfilehash: fd9906ca36c71b1bf959466d90c57e07be0eca5e
-ms.sourcegitcommit: 1b90f27af091dffd4fba63d69a89873aa0f75079
+ms.openlocfilehash: dc7a0b28e19f4f1fc029489aae2ea375e43b8d3b
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97725635"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98008664"
 ---
 # <a name="webvr-faqs"></a>Вопросы и ответы по Вебвр
 

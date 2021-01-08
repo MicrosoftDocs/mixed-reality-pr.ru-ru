@@ -1,17 +1,17 @@
 ---
 title: Обучающая рука
-description: Трехмерные руки, активируемые, когда система не обнаруживает пользователей, которые могут помочь им.
+description: Узнайте, как трехмерные руки инициируются с помощью руки, когда система не обнаруживает руки пользователя, которые помогут им помочь.
 author: grayclee
 ms.author: glee
 ms.date: 09/25/2019
 ms.topic: article
 keywords: Windows Mixed Reality, проектирование, рука, увлекательная гарнитура, МРТК, руки, помощь в руки, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: e46704a1cd2e93fc1764528c408c01d117444c34
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: 07b42482d9258b4189ef43683370bd951f5c88e8
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97847959"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009164"
 ---
 # <a name="hand-coach"></a>Обучающая рука
 
@@ -146,7 +146,7 @@ ms.locfileid: "97847959"
 
 ## <a name="implementing-hands-into-your-unity-project"></a>Реализация руки в проекте Unity
 
-### <a name="best-practices"></a>Советы и рекомендации
+### <a name="best-practices"></a>Рекомендации
 
 * Рекомендуется масштабировать руки в Unity до 0,6
 * Руки следует воспроизводить дважды, в противном случае — до завершения жеста. Для того чтобы пользователь имел время для регистрации и просмотра жеста, необходимо дважды выполнить цикл. Стрелки должны появления и исчезновения между циклами. 

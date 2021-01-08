@@ -1,17 +1,17 @@
 ---
 title: Проектирование содержимого для голографического дисплея
-description: Ознакомьтесь с рекомендациями по проектированию и рекомендациями по работе с Holographic.
+description: Ознакомьтесь с рекомендациями по проектированию и рекомендациями по работе с holographic на устройствах HoloLens.
 author: yoonpark
 ms.author: dongpark
 ms.date: 06/18/2020
 ms.topic: article
 keywords: Проектирование пользовательского интерфейса, holographic, проектирование содержимого, темная тема, светлая тема, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств для смешанной реальности, дизайн, пикселы
-ms.openlocfilehash: 4a95f5df50a600035d9127c73f86a5d8be5e7131
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: 371d9aac610a765e7ecc6dd1f17401e5d7855672
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97847990"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009094"
 ---
 # <a name="designing-content-for-holographic-display"></a>Проектирование содержимого для голографического дисплея
 
@@ -22,6 +22,7 @@ ms.locfileid: "97847990"
 <br>
 
 ## <a name="challenges-with-bright-color-on-a-large-surface"></a>Трудности с ярким цветом на большой поверхности 
+
 На основе нашего исследования и тестирования HoloLens мы обнаружили, что использование ярких цветов в большой области экрана может привести к появлению нескольких проблем: 
 
 **Выносливости глаз** 

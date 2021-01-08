@@ -1,17 +1,17 @@
 ---
 title: Пространственное сопоставление в DirectX
-description: Узнайте, как реализовать пространственное сопоставление в приложении DirectX, включая пример приложения для пространственного сопоставления, поставляемого с пакетом SDK для универсальная платформа Windows.
+description: Узнайте, как реализовать пространственное сопоставление в приложении DirectX и как использовать пример приложения для пространственного сопоставления в универсальная платформа Windows SDK.
 author: mikeriches
 ms.author: mriches
 ms.date: 08/04/2020
 ms.topic: article
 keywords: Windows Mixed Reality, пространственное сопоставление, среда, взаимодействие, DirectX, WinRT, API, пример кода, UWP, пакет SDK, пошаговое руководство
-ms.openlocfilehash: fa372473939222ef4be7ca36076a17241173c441
-ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
+ms.openlocfilehash: bcd78487e96aaf09707aa4bf58917223cc2e8583
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97612918"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98006714"
 ---
 # <a name="spatial-mapping-in-directx"></a>Пространственное сопоставление в DirectX
 
@@ -35,7 +35,7 @@ ms.locfileid: "97612918"
     <col width="25%" />
     </colgroup>
     <tr>
-        <td><strong>Компонент</strong></td>
+        <td><strong>Возможность</strong></td>
         <td><a href="../../hololens-hardware-details.md"><strong>HoloLens (1-го поколения)</strong></a></td>
         <td><a href="https://docs.microsoft.com/hololens/hololens2-hardware"><strong>HoloLens 2</strong></td>
         <td><a href="../../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
@@ -88,7 +88,7 @@ ms.locfileid: "97612918"
 
 ### <a name="set-up-your-app-to-use-the-spatialperception-capability"></a>Настройка приложения для использования возможности Спатиалперцептион
 
-Приложение может использовать возможность пространственного сопоставления. Это необходимо потому, что пространственный сетчатый объект представляет собой представление среды пользователя, которое может считаться частными данными. Объявите эту возможность в файле Package. appxmanifest для приложения. Ниже приведен пример:
+Приложение может использовать возможность пространственного сопоставления. Это необходимо потому, что пространственный сетчатый объект представляет собой представление среды пользователя, которое может считаться частными данными. Объявите эту возможность в файле Package. appxmanifest для приложения. Приведем пример:
 
 ```xml
 <Capabilities>
@@ -96,7 +96,7 @@ ms.locfileid: "97612918"
 </Capabilities>
 ```
 
-Эта возможность поступает из пространства имен **uap2** . Чтобы получить доступ к этому пространству имен в манифесте, включите его в качестве атрибута *кслмнс* в &lt; элемент Package>. Ниже приведен пример:
+Эта возможность поступает из пространства имен **uap2** . Чтобы получить доступ к этому пространству имен в манифесте, включите его в качестве атрибута *кслмнс* в &lt; элемент Package>. Приведем пример:
 
 ```xml
 <Package

@@ -1,17 +1,17 @@
 ---
 title: API-интерфейсы WinRT с Unity для HoloLens
-description: Объясняется, как использовать API-интерфейсы WinRT (пространство имен Windows) в проекте Unity для HoloLens.
+description: Использование API-интерфейсов WinRT и пространства имен Windows в проектах Unity Mixed Reality для HoloLens.
 author: mikeriches
 ms.author: mriches
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Unity, WinRT, Windows Mixed Reality, API, пошаговое руководство, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, интерфейсы API смешанной реальности
-ms.openlocfilehash: ff12df7eb41350fe1f842b3450f3532e4ab8ffa1
-ms.sourcegitcommit: 87b54c75044f433cfadda68ca71c1165608e2f4b
+ms.openlocfilehash: 2c57af72a10867b5ef4fc87ff96679e576d203f4
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97010585"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98007324"
 ---
 # <a name="winrt-apis-with-unity-for-hololens"></a>API-интерфейсы WinRT с Unity для HoloLens
 

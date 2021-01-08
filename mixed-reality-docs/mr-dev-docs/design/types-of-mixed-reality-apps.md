@@ -1,17 +1,17 @@
 ---
 title: Типы приложений смешанной реальности
-description: Узнайте о спектре возможностей, которые могут поддерживаться платформой Mixed Reality, от полноценных сред до тонкого уровня информации в текущей среде пользователя.
+description: Узнайте о возможностях, поддерживаемых платформой Mixed Reality, от впечатляющих сред до тонкого уровня информации в среде пользователя.
 author: rwinj
 ms.author: willyang
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Windows Mixed Reality, проектирование, шаблоны приложений, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens
-ms.openlocfilehash: 8c9a051ff0b80461fe590efa37593bddb01c0e63
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: 795d8733b9f509a79d9429f75dff2f88a2a63c93
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97848106"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98007624"
 ---
 # <a name="types-of-mixed-reality-apps"></a>Типы приложений смешанной реальности
 

@@ -1,17 +1,17 @@
 ---
 title: 100. Основы смешанной реальности — начало работы с Unity
-description: Узнайте, как создать первое базовое приложение "Hello World" в смешанной реальности.
+description: Узнайте, как создать первое базовое приложение "Hello World" в смешанной реальности для устройств HoloLens и Windows Mixed Reality.
 author: keveleigh
 ms.author: kurtie
 ms.date: 10/22/2019
 ms.topic: article
 keywords: Смешанная реальность, Windows Mixed Reality, HoloLens, иммерсивное, VR, MR, начало работы, голограмма, Academy, учебник, Academy Mixed Reality, Unity, Смешанная реальность, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 83ca133e341688f42fa2d53b4d50f1aefa9bb39b
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 7b316314d7aa693e8be9006b2c5578c1bae7e3ff
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94678413"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98006514"
 ---
 # <a name="mr-basics-100-getting-started-with-unity"></a>100. Основы смешанной реальности: начало работы с Unity
 
@@ -43,7 +43,7 @@ ms.locfileid: "94678413"
 Чтобы создать и развернуть приложения UWP, Unity может экспортировать проект как решение Visual Studio, которое будет содержать все необходимые файлы ресурсов и файлов кода.
 
 1. Запустить Unity
-2. Выберите " **создать** "
+2. Выберите **Создать**.
 3. Введите имя проекта (например, "Микседреалитинтродуктион").
 4. Укажите расположение для сохранения проекта
 5. Убедитесь, что выбран **трехмерный** переключатель.
@@ -223,7 +223,7 @@ ms.locfileid: "94678413"
 
 Теперь, когда ваше приложение развернуто, постарайтесь переместить весь куб и увидеть, что он остается в мире перед вами.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 * [Обзор разработки в Unity](../unity-development-overview.md)
 * [Рекомендации по работе с Unity и Visual Studio](../best-practices-for-working-with-unity-and-visual-studio.md)

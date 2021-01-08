@@ -1,17 +1,17 @@
 ---
-title: Пример использования. использование плоскости стабилизации для сокращения турбуленце
-description: Использование плоскости стабилизации для уменьшения голографической турбулентности
+title: Пример использования. использование плоскости стабилизации
+description: Узнайте, как наша группа разработки использовала плоскость стабилизации, чтобы сократить турбуленце в приложении смешанной реальности.
 author: bstrukus
 ms.author: bestruku
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Windows Mixed Reality, голограммы, стабилизации, пример внедрения, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: e0eba3df5457ea06ee80682d99c82a5a23c1635d
-ms.sourcegitcommit: c41372e0c6ca265f599bff309390982642d628b8
+ms.openlocfilehash: 85caee589a5f031f605417639eab2e980cb613c5
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97530436"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98006704"
 ---
 # <a name="case-study---using-the-stabilization-plane-to-reduce-holographic-turbulence"></a>Пример использования. использование плоскости стабилизации для сокращения турбуленце
 

@@ -1,17 +1,17 @@
 ---
 title: Создание голографического проекта в DirectX
-description: Описание процесса создания нового приложения holographic на основе шаблона приложения Windows Mixed Reality.
+description: Узнайте, как создать новое приложение с поддержкой DirectX на основе шаблона приложения Windows Mixed Reality.
 author: mikeriches
 ms.author: mriches
 ms.date: 08/04/2020
 ms.topic: article
 keywords: Windows Mixed Reality, holographic приложение, новое приложение, приложение UWP, шаблон приложения, голограммы, новый проект, пошаговое руководство, Загрузка, пример кода, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: f377ca5b8af08beb53c878e1ebf665b8074853f6
-ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
+ms.openlocfilehash: 9259a85512555342877de0a5a8bae697fdd03b8d
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97613088"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98006874"
 ---
 # <a name="creating-a-holographic-directx-project"></a>Создание голографического проекта в DirectX
 
@@ -145,7 +145,7 @@ int APIENTRY wWinMain(
 
 Папка **содержимого** проекта содержит классы для отрисовки голограмм в [holographic пространстве](getting-a-holographicspace.md). Голограмма по умолчанию в шаблоне является вращающимся кубом, который располагается на расстоянии 2 метров от пользователя. Рисование этого Куба реализовано в **спиннингкуберендерер. cpp**, который имеет следующие ключевые методы:
 
-|  Метод  |  Объяснение | 
+|  Метод  |  Пояснение | 
 |----------|----------|
 |  `CreateDeviceDependentResources` |  Загружает шейдеры и создает сетку Куба. | 
 |  `PositionHologram` |  Помещает голограмму в расположение, указанное предоставленным <a href="https://docs.microsoft.com/uwp/api/windows.ui.input.spatial.spatialpointerpose" target="_blank">спатиалпоинтерпосе</a>. | 
@@ -154,7 +154,7 @@ int APIENTRY wWinMain(
 
 Вложенная папка **шейдеров** содержит четыре реализации шейдера по умолчанию:
 
-|  Шейдер  |  Объяснение | 
+|  Шейдер  |  Пояснение | 
 |----------|----------|
 |  `GeometryShader.hlsl` |  Сквозной объект, который оставляет геометрию неизменной. | 
 |  `PixelShader.hlsl` |  Проходит через данные цвета. Данные цвета интерполируются и назначаются пикселу на шаге растрирования. | 

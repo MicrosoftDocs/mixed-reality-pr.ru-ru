@@ -1,14 +1,14 @@
 ---
 title: Использование Стеамвр с Windows Mixed Reality
-description: Как играть в Стеамвр игры на гарнитурах Windows Mixed Reality с совместимыми ПК.
+description: Узнайте, как настроить и воспроизводить игры Стеамвр на гарнитурах и контроллерах Windows Mixed Reality с совместимыми ПК.
 ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, игры, Стеамвр, Steam, требования к системе
-ms.openlocfilehash: e91c5b7fcaed2f048e79843c47ae613761a5d3ad
-ms.sourcegitcommit: 1b90f27af091dffd4fba63d69a89873aa0f75079
+ms.openlocfilehash: 9330d6026b74494c851aea6b4664c1ede787c1c5
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97725745"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98006904"
 ---
 # <a name="using-steamvr-with-windows-mixed-reality"></a>Использование Стеамвр с Windows Mixed Reality
 

@@ -1,17 +1,17 @@
 ---
 title: Заметки о выпуске — 2019 мая
-description: Заметки о выпуске Windows Mixed Reality для Windows 10 может 2019 обновление (также известное как 19H1).
+description: Оставайтесь в курсе заметок о выпуске Windows Mixed Reality для Windows 10, возможно, 2019 или 19H1 Update.
 author: mattzmsft
 ms.author: mazeller
 ms.date: 07/11/2019
 ms.topic: article
 keywords: Заметки о выпуске, версия, Windows 10, сборка, 19h1, ОС, Май 2019
-ms.openlocfilehash: 19444732884a87de3f28e90d656deef6e51eb191
-ms.sourcegitcommit: 1b90f27af091dffd4fba63d69a89873aa0f75079
+ms.openlocfilehash: fd5688b7c68e0a16873ff153f3c158a3575e02e9
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97725925"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98007124"
 ---
 # <a name="release-notes---may-2019"></a>Заметки о выпуске — 2019 мая
 

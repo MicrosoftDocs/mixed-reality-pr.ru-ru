@@ -1,17 +1,17 @@
 ---
 title: Направление головы и остановка
-description: Общие сведения о модели направления головы и остановки
+description: Приступите к работе с обзором модели ввода Head и вдаваясь, включая распространенные сценарии и принципы проектирования.
 author: hferrone
 ms.author: v-hferrone
 ms.date: 05/13/2019
 ms.topic: article
 keywords: Смешанная реальность, взгляд, вдаваясь, взаимодействие, проектирование, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств для смешанной реальности, UX, рекомендации, представление списка
-ms.openlocfilehash: 060d78ec629905ac9f2134851998ec131d85f0cd
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: 2bfd984a466c1ccd3913e889ca57663800f46380
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97847375"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98007084"
 ---
 # <a name="head-gaze-and-dwell"></a>Направление головы и остановка
 

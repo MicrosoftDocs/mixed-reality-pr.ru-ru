@@ -1,17 +1,17 @@
 ---
 title: Общие пространственные привязки в DirectX
-description: Объясняется, как синхронизировать два устройства HoloLens путем совместного использования пространственных привязок.
+description: Узнайте, как синхронизировать два устройства HoloLens путем совместного использования локальных и пространственных привязок Azure в приложениях DirectX.
 author: thetuvix
 ms.author: alexturn
 ms.date: 08/04/2020
 ms.topic: article
 keywords: HoloLens, синхронизация, пространственный якорь, перемещение, многопрограммный, просмотр, сценарий, пошаговое руководство, пример кода, Azure, пространственные привязки Azure, ASA
-ms.openlocfilehash: 4e41975a18c28cb2228b20ebb5d3a445774cca44
-ms.sourcegitcommit: c41372e0c6ca265f599bff309390982642d628b8
+ms.openlocfilehash: 46fe6be5d81a8fc68502500e318eb8e63d223089
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97530332"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98008534"
 ---
 # <a name="shared-experiences-in-directx"></a>Общие возможности DirectX
 
@@ -35,6 +35,7 @@ ms.locfileid: "97530332"
 В ситуациях, когда нельзя использовать пространственные привязки Azure, [Передача локальных точек](../../out-of-scope/local-anchor-transfers-in-directx.md) подключения позволяет одному устройству hololens экспортировать привязку, которая будет импортирована вторым устройством hololens.  Такой подход обеспечивает менее устойчивое отзыв, чем пространственные привязки Azure, а устройства iOS и Android не поддерживаются этим подходом.
 
 ## <a name="see-also"></a>См. также раздел
+
 * [Общий доступ в смешанной реальности](shared-experiences-in-mixed-reality.md)
 * <a href="https://docs.microsoft.com/azure/spatial-anchors" target="_blank">Пространственные привязки Azure</a>
 * <a href="https://docs.microsoft.com/cpp/api/spatial-anchors/winrt/" target="_blank">Пакет SDK для пространственных привязок Azure для HoloLens</a>

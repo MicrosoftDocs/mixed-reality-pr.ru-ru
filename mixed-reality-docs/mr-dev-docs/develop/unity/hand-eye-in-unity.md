@@ -1,17 +1,17 @@
 ---
 title: Взгляд на руки и отслеживание глаз в Unity
-description: Существует два основных способа выполнения действий с вашим взглядом в Unity, жестами и контроллерами движения.
+description: Узнайте о двух основных способах выполнения действий с взглядом в Unity, а также жестами и контроллерами движения.
 author: thetuvix
 ms.author: alexturn
 ms.date: 03/21/2018
 ms.topic: article
 keywords: жесты, контроллеры движения, Unity, взгляд, вход, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, МРТК, набор средств для смешанной реальности
-ms.openlocfilehash: de8ea7968c36722f3690c5515e4f69e576898524
-ms.sourcegitcommit: 87b54c75044f433cfadda68ca71c1165608e2f4b
+ms.openlocfilehash: 4c704677a78fee02b9da9d0db9bc2966ab6b3724
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97011561"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98008960"
 ---
 # <a name="articulated-hand-and-eye-tracking-in-unity"></a>Взгляд на руки и отслеживание глаз в Unity
 
@@ -48,7 +48,7 @@ ms.locfileid: "97011561"
 
 ## <a name="next-development-checkpoint"></a>Следующий этап разработки
 
-Если вы пойдете из пути разработки Unity, мы собрались, что вы в состоянии изучить стандартные блоки МРТК Core. Отсюда можно перейти к следующему стандартному блоку:
+Если вы пойдете из пути разработки Unity, мы собрались, что вы в состоянии изучить стандартные блоки МРТК Core. Отсюда вы можете перейти к следующему стандартному блоку:
 
 > [!div class="nextstepaction"]
 > [Пространственное сопоставление](spatial-mapping-in-unity.md)

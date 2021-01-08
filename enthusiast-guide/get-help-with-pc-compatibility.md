@@ -1,6 +1,6 @@
 ---
-title: Получение справки по совместимости ПК в Windows Mixed Reality
-description: Справочный ресурс для проблем совместимости ПК при работе с Windows Mixed Reality.
+title: Получение справки по совместимости ПК
+description: Используйте ресурсы для решения проблем совместимости ПК при работе с приложениями и устройствами Windows Mixed Reality.
 author: hferrone
 ms.author: v-hferrone
 ms.date: 01/07/2021
@@ -8,12 +8,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, обратная связь, центр обратной связи, ошибки
 appliesto:
 - Windows 10
-ms.openlocfilehash: a3d8c21a6f9f94cbecca81915145603588e468ff
-ms.sourcegitcommit: e944f24d2deb4433865cc8f6fd9305d6d9676f48
+ms.openlocfilehash: e3d150544c3bce99d1aa808229d282b3d2fe1dd0
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97971903"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98007484"
 ---
 # <a name="get-help-with-pc-compatibility-in-windows-mixed-reality"></a>Получение справки по совместимости ПК в Windows Mixed Reality
 

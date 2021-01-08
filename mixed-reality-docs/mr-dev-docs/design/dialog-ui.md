@@ -1,17 +1,17 @@
 ---
 title: Диалог
-description: Сведения о наложении диалоговых окон и их использовании в приложениях смешанной реальности.
+description: Сведения о наложения диалоговых окон в МРТК и о том, как их использовать в приложениях смешанной реальности.
 author: cre8ivepark
 ms.author: dongpark
 ms.date: 06/19/2020
 ms.topic: article
 keywords: Смешанная реальность, HoloLens, элементы управления ИП, взаимодействие, Пользовательский интерфейс, UX, проектирование UX, пространственный пользовательский интерфейс, пространственное взаимодействие, трехмерный Пользовательский интерфейс, трехмерный UI, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: 752c4cc03c90e498664c61fa3c53b303a2a83a2f
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: 9ef4fc5e4d781d235996a645e8d1bb81e040a64c
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97847451"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009054"
 ---
 # <a name="dialog"></a>Диалог
 

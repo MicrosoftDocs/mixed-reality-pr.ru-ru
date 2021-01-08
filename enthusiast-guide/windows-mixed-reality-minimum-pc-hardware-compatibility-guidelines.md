@@ -1,6 +1,6 @@
 ---
-title: Минимальные рекомендации по совместимости Windows Mixed Reality с оборудованием ПК
-description: В диаграмме расструктурированы минимальные требования к системе ПК для обеспечения совместимости с Windows Mixed Reality.
+title: Рекомендации по совместимости ПК с Windows Mixed Reality
+description: В обзорной диаграмме представлены минимальные требования к системе ПК для обеспечения совместимости с Windows Mixed Reality.
 author: hferrone
 ms.author: v-hferrone
 ms.date: 09/16/2020
@@ -8,12 +8,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, Ultra, совместимая, совместимость, требования к системе, ПК
 appliesto:
 - Windows 10
-ms.openlocfilehash: bd287e2089056be56330c2c2e8e9af2c079009ac
-ms.sourcegitcommit: 1b90f27af091dffd4fba63d69a89873aa0f75079
+ms.openlocfilehash: ed53c388797cb57a7f2a53ed40b18923a23c8b74
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97725665"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009124"
 ---
 # <a name="windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines"></a>Минимальные рекомендации по совместимости Windows Mixed Reality с оборудованием ПК
 
@@ -69,6 +69,7 @@ Windows 10 поддерживает Windows Mixed Reality и Windows Mixed Reali
  [Получение справки по результатам портала смешанной реальности](https://support.microsoft.com/en-us/help/4045777/windows-10-get-help-with-pc-compatibility-in-windows-mixed-reality)
 
 ## <a name="compatibility-guidelines"></a>Рекомендации по совместимости
+
 > [!IMPORTANT]
 > Мы будем обновлять, доставляя и изменяя эти рекомендации по совместимости компьютеров с Windows Mixed Reality. Регулярно проверяйте последние рекомендации и требования.
 
@@ -180,25 +181,25 @@ Windows 10 поддерживает Windows Mixed Reality и Windows Mixed Reali
         <th> Устройство Surface </th><th> Поддержка функций Windows Mixed Reality? </th><th> Рекомендуемая конфигурация </th><th> Примечания</th>
     </tr>
     <tr>
-        <td style="vertical-align: middle"> Surface Pro (первоначальная) или Surface Pro 2 </td><td style="vertical-align: middle"> None </td><td> </td><td></td>
+        <td style="vertical-align: middle"> Surface Pro (первоначальная) или Surface Pro 2 </td><td style="vertical-align: middle"> Нет </td><td> </td><td></td>
     </tr>
     <tr>
-        <td style="vertical-align: middle"> Surface Pro 3 </td><td style="vertical-align: middle"> None </td><td> </td><td></td>
+        <td style="vertical-align: middle"> Surface Pro 3 </td><td style="vertical-align: middle"> Нет </td><td> </td><td></td>
     </tr>
 (с установленным Windows 10 Pro) <tr>
-        <td style="vertical-align: middle"> Surface Pro 4 </td><td style="vertical-align: middle"> None </td><td> </td><td></td>
+        <td style="vertical-align: middle"> Surface Pro 4 </td><td style="vertical-align: middle"> Нет </td><td> </td><td></td>
     </tr>
     <tr>
-        <td style="vertical-align: middle"> Surface 3 </td><td style="vertical-align: middle"> None </td><td> </td><td></td>
+        <td style="vertical-align: middle"> Surface 3 </td><td style="vertical-align: middle"> Нет </td><td> </td><td></td>
     </tr>
     <tr>
-        <td style="vertical-align: middle"> Surface Book </td><td style="vertical-align: middle"> None </td><td> </td><td></td>
+        <td style="vertical-align: middle"> Surface Book </td><td style="vertical-align: middle"> Нет </td><td> </td><td></td>
     </tr>
     <tr>
-        <td style="vertical-align: middle"> Контактная книга с базой производительности </td><td style="vertical-align: middle"> None </td><td> </td><td></td>
+        <td style="vertical-align: middle"> Контактная книга с базой производительности </td><td style="vertical-align: middle"> Нет </td><td> </td><td></td>
     </tr>
     <tr>
-        <td style="vertical-align: middle"> Surface Go </td><td style="vertical-align: middle"> None </td><td> </td><td></td>
+        <td style="vertical-align: middle"> Surface Go </td><td style="vertical-align: middle"> Нет </td><td> </td><td></td>
     </tr>
 <tr>
         <td style="vertical-align: middle"> Контактная книга 2 (15 &quot; ) </td><td style="vertical-align: middle"> Полное </td><td style="vertical-align: middle"> Intel Core i7/NVIDIA ГТКС 1060/16 ГБ ОЗУ </td>
@@ -261,6 +262,7 @@ Windows 10 поддерживает Windows Mixed Reality и Windows Mixed Reali
 </table>
 
 ## <a name="see-also"></a>См. также раздел
+
 * [Спросить у сообщества](https://answers.microsoft.com)
 * [Свяжитесь с нами для получения поддержки](https://support.microsoft.com/contactus/)
 * [Рекомендуемые адаптеры для ПК с поддержкой Windows Mixed Reality](recommended-adapters-for-windows-mixed-reality-capable-pcs.md)

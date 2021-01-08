@@ -1,6 +1,6 @@
 ---
 title: Использование речи в Windows Mixed Reality
-description: Узнайте, как использовать речевые входные данные в приложениях Windows Mixed Reality.
+description: Узнайте, как использовать речевые входные данные для управления командами, трехмерными объектами и диктовкой в приложениях Windows Mixed Reality.
 author: hferrone
 ms.author: v-hferrone
 ms.date: 09/16/2020
@@ -8,12 +8,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, обратная связь, центр обратной связи, ошибки
 appliesto:
 - Windows 10
-ms.openlocfilehash: 6a32b96fd932e3b7d47e29749fb47c70b64e32c3
-ms.sourcegitcommit: 1b90f27af091dffd4fba63d69a89873aa0f75079
+ms.openlocfilehash: 9c1863a3fb0c7d8681f82aa6e0d93400bef578c9
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97725775"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98007674"
 ---
 # <a name="using-speech-in-windows-mixed-reality"></a>Использование речи в Windows Mixed Reality
 
@@ -25,7 +25,7 @@ ms.locfileid: "97725775"
 
 > [!NOTE]
 > * Если речь включена, Windows Mixed Reality всегда прослушивается. При подключении к Интернету мы отправляем все, что вы говорите в облако, чтобы службы Microsoft Speech Services могли распознавать еще больше команд.
-> * Речевые команды не поддерживаются на всех языках. Дополнительные сведения
+> * Речевые команды не поддерживаются на всех языках. Подробнее
 > * Гарнитуры и динамики Bluetooth не поддерживаются в Windows Mixed Reality.
 
 ## <a name="see-it-say-it"></a>Модель "Посмотри на это, произнеси это"
@@ -87,7 +87,7 @@ ms.locfileid: "97725775"
 | Перемещение вверх или вниз при запуске или всех приложениях | Страница вверх/вниз |
 | Вернуться в меню "Пуск" из всех приложений | Назад |
 | Сделать фотографию | Камера |
-| Взять видео | Видеоролик |
+| Взять видео | Видео |
 | Отображение представления "гарнитура" на портале смешанной реальности на рабочем столе | Предварительный просмотр |
 | Открытие регулятора громкости при запуске | Изменение громкости |
 | Mute | Mute |

@@ -1,17 +1,17 @@
 ---
 title: Шейдер
-description: Стандартный шейдер набора средств для смешанной реальности предоставляет различные типы визуальных эффектов, которые можно использовать с голограммами.
+description: Узнайте, как стандартный шейдер набора средств для смешанной реальности предоставляет различные типы визуальных эффектов, которые можно использовать с голограммами в приложениях смешанной реальности.
 author: cre8ivepark
 ms.author: dongpark
 ms.date: 11/01/2019
 ms.topic: article
 keywords: Смешанная реальность, элементы управления, взаимодействие, UI, UX, шейдер, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности, визуальные эффекты
-ms.openlocfilehash: 08701fb48d633f7de75b74b5e44655c3a01fade8
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: 68e40c053f9557debf9ad22baf2f48a8e06a1bbb
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97848243"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98008864"
 ---
 # <a name="shader"></a>Шейдер
 

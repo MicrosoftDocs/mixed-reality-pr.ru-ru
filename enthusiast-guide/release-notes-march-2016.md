@@ -1,17 +1,17 @@
 ---
 title: Заметки о выпуске — март 2016 г.
-description: Заметки о выпуске HoloLens для запуска HoloLens и Windows Holographic.
+description: Оставайтесь в курсе заметок о выпуске HoloLens для запуска HoloLens и Windows Holographic.
 author: mattzmsft
 ms.author: mazeller
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Заметки о выпуске, HoloLens, ОС, платформа, компоненты, сборка, запуск
-ms.openlocfilehash: 9129bb220d2a580235494a94ecbd3227e7d4c7c7
-ms.sourcegitcommit: 1b90f27af091dffd4fba63d69a89873aa0f75079
+ms.openlocfilehash: a7797483b5ba60203f0f0b3c2c4ce79b924d81dc
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97725935"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009204"
 ---
 # <a name="release-notes---march-2016"></a>Заметки о выпуске — март 2016 г.
 

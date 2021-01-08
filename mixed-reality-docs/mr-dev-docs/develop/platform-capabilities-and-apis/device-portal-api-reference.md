@@ -1,17 +1,17 @@
 ---
 title: Справочник по API портала устройств
-description: Справочник по API для портала устройств Windows на HoloLens
+description: Следите за обновлениями API портала устройств Windows для разработки HoloLens.
 author: hamalawi
 ms.author: moelhama
 ms.date: 08/03/2020
 ms.topic: article
 keywords: HoloLens, портал устройств Windows, API, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: c705ce65971042ab41befed9c6813dc797b61fc0
-ms.sourcegitcommit: 084b1da9d7b435394b38d6152a2f9aee7a74aa2a
+ms.openlocfilehash: 13845a5a5668ee8c86178196326425f46be9b321
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "97804426"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98006654"
 ---
 # <a name="device-portal-api-reference"></a>Справочник по API портала устройств
 

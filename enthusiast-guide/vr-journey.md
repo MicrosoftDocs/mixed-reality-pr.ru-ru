@@ -1,17 +1,17 @@
 ---
 title: Начало работы с технологией виртуальной реальности
-description: Контрольные точки для создания новых пользователей устройств VR с помощью установки и использования их впечатляющих устройств VR.
+description: Изучите наши проверенные контрольные точки, чтобы познакомиться с новыми пользователями устройств путем настройки и использования их впечатляющих устройств VR.
 author: hferrone
 ms.author: v-hferrone
 ms.date: 10/15/2020
 ms.topic: overview
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR,
-ms.openlocfilehash: 9a82ab12b9cf91bd1fefcf84a2f6b4e62c8df24a
-ms.sourcegitcommit: 1b90f27af091dffd4fba63d69a89873aa0f75079
+ms.openlocfilehash: 711c1b74b79ba510d29c17de0ec21270946ceb61
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97725711"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98007064"
 ---
 # <a name="start-your-vr-journey"></a>Начало работы с технологией виртуальной реальности
 

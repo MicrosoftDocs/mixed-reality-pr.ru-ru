@@ -1,17 +1,17 @@
 ---
 title: Отрисовка в DirectX
-description: Описание более holographic для Windows Mixed Reality.
+description: Узнайте, как обновлять и визуализировать содержимое в приложениях DirectX для Windows Mixed Reality.
 author: mikeriches
 ms.author: mriches
 ms.date: 08/04/2020
 ms.topic: article
 keywords: Windows Mixed Reality, голограммы, отрисовка, трехмерная графика, Холографикфраме, цикл отрисовки, цикл обновления, пошаговое руководство, пример кода, Direct3D
-ms.openlocfilehash: 90d665e8054a185969a95e6ff6415979e728e9ab
-ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
+ms.openlocfilehash: aafead61b45550f499405ae63bda7d7f8e79d224
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97613188"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98006724"
 ---
 # <a name="rendering-in-directx"></a>Отрисовка в DirectX
 

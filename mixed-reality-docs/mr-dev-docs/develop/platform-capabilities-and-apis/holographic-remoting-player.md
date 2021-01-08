@@ -1,17 +1,17 @@
 ---
 title: Holographic Remoting Player
-description: Holographic Remoting Player — это дополнительное приложение, которое подключается к приложениям и играм для ПК с поддержкой голографического удаленного взаимодействия. С помощью подключения к удаленному взаимодействию с компьютера до Microsoft HoloLens в режиме реального времени посылается Wi-Fi более Holographic.
+description: Узнайте об удаленном проигрывателе holographic и потоковой передаче данных с компьютера в HoloLens в режиме реального времени через Wi-Fi.
 author: florianbagarmicrosoft
 ms.author: flbagar
 ms.date: 12/01/2020
 ms.topic: article
 keywords: HoloLens, удаленное взаимодействие, holographic удаленное взаимодействие, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, диагностика, производительность
-ms.openlocfilehash: 07848f20fb23c15688dcb7cbc668b8011e34736b
-ms.sourcegitcommit: c41372e0c6ca265f599bff309390982642d628b8
+ms.openlocfilehash: c016221746efb34dd83ceb42a4a2cde156dde4c8
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97530230"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98006534"
 ---
 # <a name="holographic-remoting-player"></a>Holographic Remoting Player
 
@@ -84,4 +84,4 @@ ms.locfileid: "97530230"
 * [Создание удаленного приложения holographic с удаленным взаимодействием с помощью API-интерфейсов Windows Mixed Reality](holographic-remoting-create-remote-wmr.md)
 * [Создание удаленного приложения holographic с удаленным взаимодействием с помощью API-интерфейсов Опенкср](holographic-remoting-create-remote-openxr.md)
 * [Условия лицензии на использование ПО для голографического удаленного взаимодействия](https://docs.microsoft.com//legal/mixed-reality/microsoft-holographic-remoting-software-license-terms)
-* [Заявление о конфиденциальности Майкрософт](https://go.microsoft.com/fwlink/?LinkId=521839)
+* [Заявление Майкрософт о конфиденциальности](https://go.microsoft.com/fwlink/?LinkId=521839)

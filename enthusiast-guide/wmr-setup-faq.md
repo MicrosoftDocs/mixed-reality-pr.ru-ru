@@ -1,6 +1,6 @@
 ---
 title: Вопросы и ответы по настройке Windows Mixed Reality
-description: Получите ответы на часто задаваемые вопросы о настройке при работе с Windows Mixed Reality.
+description: Получите ответы на часто задаваемые вопросы о настройке при работе с приложениями и устройствами Windows Mixed Reality.
 author: hferrone
 ms.author: v-hferrone
 ms.date: 09/15/2020
@@ -8,12 +8,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, обратная связь, центр обратной связи, ошибки
 appliesto:
 - Windows 10
-ms.openlocfilehash: bde88890f596e19dd9b5f9e87ceabbf91039af67
-ms.sourcegitcommit: 1b90f27af091dffd4fba63d69a89873aa0f75079
+ms.openlocfilehash: 2da2524ae09014b990ea4f0301a21d4aac963eb9
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97725445"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98008634"
 ---
 # <a name="windows-mixed-reality-setup-faq"></a>Вопросы и ответы по настройке Windows Mixed Reality
 
@@ -126,7 +126,7 @@ ms.locfileid: "97725445"
 
 Если вы используете подключение Wi-Fi 2,4 ГГц, контроллеры движения могут замедлить работу Wi-Fi. Выполните одно из следующих действий.
 
-* Переключитесь на подключение Wi-Fi с частотой 5 ГГц, если оно доступно. Дополнительные сведения
+* Переключитесь на подключение Wi-Fi с частотой 5 ГГц, если оно доступно. Подробнее
 * Используйте отдельный адаптер Bluetooth для подключения контроллеров Motion к компьютеру. [См. Рекомендуемые адаптеры](recommended-adapters-for-windows-mixed-reality-capable-pcs.md)
 
 > [!NOTE]

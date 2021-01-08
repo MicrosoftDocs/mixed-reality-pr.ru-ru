@@ -1,17 +1,17 @@
 ---
 title: Пример использования — Холотаур
-description: Холотаур для Microsoft HoloLens предоставляет впечатляющие трехмерные обзоры значков по всему миру. В этом практическом примере рассматривается процесс записи и создания содержимого, используемого для Холотаур.
+description: Изучите пример использования приложения Холотаур и познакомьтесь с процессом записи и создания содержимого.
 author: dannyaskew
 ms.author: daaske
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Холотаур, HoloLens, Windows Mixed Reality
-ms.openlocfilehash: 9908327a1b8e70eef73d3f98adb7c75615e8e098
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: 3e285988b6027b8c043dea7a4594c21d0bf3370d
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91691937"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009324"
 ---
 # <a name="case-study---holotour"></a>Пример использования — Холотаур
 

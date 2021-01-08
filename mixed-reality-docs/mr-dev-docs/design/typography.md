@@ -1,17 +1,17 @@
 ---
 title: Шрифтовое оформление
-description: Текст — важный элемент для доставки информации в приложении.
+description: Узнайте, как спроектировать и реализовать текст в качестве важного элемента для доставки информации в приложении смешанной реальности.
 author: cre8ivepark
 ms.author: dongpark
 ms.date: 06/03/2019
 ms.topic: article
 keywords: Windows Mixed Reality, проектирование, стиль, шрифт, типографский, Пользовательский интерфейс, UX, текст, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, HoloLens
-ms.openlocfilehash: 09e0e6029011fdd7fda793f6b6645cb3744baa3b
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: 38acc8c0d2c7dbd7bcb192f82bb1bb52838323ac
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97848146"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98007654"
 ---
 # <a name="typography"></a>Шрифтовое оформление
 

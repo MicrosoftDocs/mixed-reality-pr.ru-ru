@@ -1,17 +1,17 @@
 ---
 title: Добавление удаленного взаимодействия holographic
-description: Объясняется, как с помощью удаленного взаимодействия holographic визуализировать голограммы в HoloLens по сети.
+description: Узнайте, как установить, настроить и использовать holographic удаленное взаимодействие, чтобы визуализировать голограммы на устройстве HoloLens по сети.
 author: florianbagarmicrosoft
 ms.author: flbagar
 ms.date: 12/01/2020
 ms.topic: article
 keywords: Windows Mixed Reality, голограммы, удаленное взаимодействие, удаленная подготовка к просмотру сети, HoloLens, голограммы на удаленных языках, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 809258d3387b5e45885c0eb207544c176f891a1d
-ms.sourcegitcommit: c41372e0c6ca265f599bff309390982642d628b8
+ms.openlocfilehash: 68c1dd43dac4830da061d4900ce768692057e781
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97530305"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98006674"
 ---
 # <a name="add-holographic-remoting-hololens-first-gen"></a>Добавление удаленного взаимодействия с holographic (HoloLens (первый общий))
 

@@ -1,17 +1,17 @@
 ---
 title: Планшет
-description: Планшет — это элемент управления "тонкий" стиль окна для отображения 2D-содержимого.
+description: Познакомьтесь с материалами, элементом управления "тонкий стиль окна" для отображения 2D-содержимого с помощью набора средств Mixed Reality.
 author: cre8ivepark
 ms.author: dongpark
 ms.date: 11/01/2019
 ms.topic: article
 keywords: Смешанная реальность, элементы управления, взаимодействие, Пользовательский интерфейс, UX, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, планшет, МРТК, набор средств для смешанной реальности
-ms.openlocfilehash: 53bcc9d8ac3b222e9b5a3dfcf47b327c212552d2
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: cbb4a741f4f78dcad603670bc282a25bc0e70fd2
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97848221"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98008814"
 ---
 # <a name="slate"></a>Планшет
 

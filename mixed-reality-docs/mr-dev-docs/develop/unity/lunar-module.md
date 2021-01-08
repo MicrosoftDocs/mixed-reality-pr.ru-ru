@@ -1,17 +1,17 @@
 ---
 title: Лунный модуль
-description: Узнайте, как расширять базовые жесты HoloLens с помощью двунаправленного отслеживания и ввода контроллера Xbox, создавать объекты, которые реактивны для сопоставления поверхности и поиска плоскости, и реализовывать простые системы меню.
+description: Узнайте, как расширять базовые жесты HoloLens с помощью двунаправленного отслеживания и ввода контроллера Xbox, создавать реактивные объекты и реализовывать системы меню.
 author: radicalad
 ms.author: adlinv
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Windows Mixed Reality, примеры приложений, проектирование, МРТК, набор средств для смешанной реальности, Unity, примеры приложений, примеры приложений, Открытый исходный код, Microsoft Store, HoloLens, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 2861cb85ac2f4a51a80e586b2be42ddb1d395e8a
-ms.sourcegitcommit: 87b54c75044f433cfadda68ca71c1165608e2f4b
+ms.openlocfilehash: b0630df49fd8ad154017000893a08560793fb39e
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97010505"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98008825"
 ---
 # <a name="lunar-module"></a>Лунный модуль
 

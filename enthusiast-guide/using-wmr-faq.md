@@ -1,6 +1,6 @@
 ---
 title: Вопросы и ответы по использованию Windows Mixed Reality
-description: Получите ответы на часто задаваемые вопросы при работе с Windows Mixed Reality.
+description: Найдите ресурсы с общими вопросами при работе с приложениями и оборудованием Windows Mixed Reality.
 author: hferrone
 ms.author: v-hferrone
 ms.date: 09/15/2020
@@ -8,12 +8,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, обратная связь, центр обратной связи, ошибки
 appliesto:
 - Windows 10
-ms.openlocfilehash: 75ed2699cc34af5f526e0799b762d45ef36e99b9
-ms.sourcegitcommit: 1b90f27af091dffd4fba63d69a89873aa0f75079
+ms.openlocfilehash: 31a27afa9c96ee8beb8b38f74534fc6f58c01f1d
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97725675"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98007054"
 ---
 # <a name="using-windows-mixed-reality-faq"></a>Вопросы и ответы по использованию Windows Mixed Reality
 
@@ -24,7 +24,6 @@ ms.locfileid: "97725675"
 ## <a name="i-see-a-message-that-says-lost-tracking-or-we-dont-have-a-boundary-for-this-space"></a>Отображается сообщение "потеря отслеживания" или "у нас нет границы для этого пространства".
 
 Выберите **запустить > портал смешанной реальности** на рабочем столе. Выберите **меню**, а затем — **Запуск программы установки** , чтобы создать новую границу. Windows Mixed Reality поддерживает несколько расположений и определяет пространство, в котором вы используете при запуске, если комната не изменилась.  
-
 
 ## <a name="i-cant-hear-any-sound-or-the-sound-is-coming-from-my-computer-instead-of-my-headset"></a>Не слышен звук или звук поступает с моего компьютера, а не с моего головного телефона
 
@@ -113,7 +112,7 @@ Windows Mixed Reality предназначена для воспроизведе
 Если вы используете подключение Wi-Fi 2,4 ГГц, контроллеры движения могут замедлить работу Wi-Fi:
 
 <!-- TODO: Use Windows Mixed Reality PC hardware guidelines interlink -->
-* Переключитесь на подключение Wi-Fi с частотой 5 ГГц, если оно доступно. [Дополнительные сведения](https://support.microsoft.com/help/4000461)
+* Переключитесь на подключение Wi-Fi с частотой 5 ГГц, если оно доступно. [Подробнее](https://support.microsoft.com/help/4000461)
 * Используйте отдельный адаптер Bluetooth для подключения контроллеров Motion к компьютеру. [См. Рекомендуемые адаптеры](recommended-adapters-for-windows-mixed-reality-capable-pcs.md)
 
 ## <a name="what-is-the-experience-options-setting"></a>Что такое параметры работы?
@@ -133,5 +132,6 @@ Windows Mixed Reality предназначена для воспроизведе
 По-прежнему нужна помощь? Дополнительные сведения об устранении неполадок см. в [этой статье](troubleshooting-windows-mixed-reality.md).
 
 ## <a name="see-also"></a>См. также раздел
+
 * [Спросить у сообщества](https://answers.microsoft.com)
 * [Свяжитесь с нами для получения поддержки](https://support.microsoft.com/contactus/)

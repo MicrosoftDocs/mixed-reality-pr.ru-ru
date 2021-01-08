@@ -1,17 +1,17 @@
 ---
 title: Жесты и контроллеры движения в Unity
-description: Узнайте, как выполнять действия с взглядом в Unity с помощью жестов и контроллеров движения.
+description: Узнайте, как выполнять действия с взглядом в Unity с помощью жестов и контроллеров движения, используя XR и общие API кнопок и осей.
 author: hferrone
 ms.author: alexturn
 ms.date: 12/1/2020
 ms.topic: article
 keywords: жесты, контроллеры движения, Unity, взгляд, вход, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, МРТК, набор средств для смешанной реальности
-ms.openlocfilehash: 8941fa05af21a7b2c7302f4a76f27cf38e1d5a65
-ms.sourcegitcommit: 87b54c75044f433cfadda68ca71c1165608e2f4b
+ms.openlocfilehash: 3ef3e3d5a1d9171ff6cc04e19fa97bb73768370e
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97010325"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98008794"
 ---
 # <a name="gestures-and-motion-controllers-in-unity"></a>Жесты и контроллеры движения в Unity
 
@@ -152,11 +152,11 @@ Windows Mixed Reality поддерживает контроллеры движе
 <tr>
 <th> Состояние отслеживания </th><th> саурцелоссриск </th><th> поситионаккураци </th><th> трижетпоситион</th>
 </tr><tr>
-<td> <b>Высокая точность</b> </td><td style="background-color: green; color: white"> &lt; 1,0 </td><td style="background-color: green; color: white"> Высокий </td><td style="background-color: green; color: white"> true</td>
+<td> <b>Высокая точность</b> </td><td style="background-color: green; color: white"> &lt; 1,0 </td><td style="background-color: green; color: white"> Высокий </td><td style="background-color: green; color: white"> Да</td>
 </tr><tr>
-<td> <b>Высокая точность (при потере риска)</b> </td><td style="background-color: orange"> = = 1,0 </td><td style="background-color: green; color: white"> Высокий </td><td style="background-color: green; color: white"> true</td>
+<td> <b>Высокая точность (при потере риска)</b> </td><td style="background-color: orange"> = = 1,0 </td><td style="background-color: green; color: white"> Высокий </td><td style="background-color: green; color: white"> Да</td>
 </tr><tr>
-<td> <b>Приблизительная точность</b> </td><td style="background-color: orange"> = = 1,0 </td><td style="background-color: orange"> Приблизительна </td><td style="background-color: green; color: white"> true</td>
+<td> <b>Приблизительная точность</b> </td><td style="background-color: orange"> = = 1,0 </td><td style="background-color: orange"> Приблизительна </td><td style="background-color: green; color: white"> Да</td>
 </tr><tr>
 <td> <b>Без расположения</b> </td><td style="background-color: orange"> = = 1,0 </td><td style="background-color: orange"> Приблизительна </td><td style="background-color: orange"> false</td>
 </tr>
@@ -565,7 +565,7 @@ void OnDestroy()
 
 ## <a name="next-development-checkpoint"></a>Следующий этап разработки
 
-Если вы пойдете из пути разработки Unity, мы собрались, что вы в состоянии изучить стандартные блоки МРТК Core. Отсюда можно перейти к следующему стандартному блоку:
+Если вы пойдете из пути разработки Unity, мы собрались, что вы в состоянии изучить стандартные блоки МРТК Core. Отсюда вы можете перейти к следующему стандартному блоку:
 
 > [!div class="nextstepaction"]
 > [Отслеживание рук и взгляда](hand-eye-in-unit.md)

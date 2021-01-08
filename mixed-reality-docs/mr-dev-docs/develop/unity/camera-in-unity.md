@@ -1,17 +1,17 @@
 ---
 title: Камера в Unity
-description: Использование основной камеры Unity для разработки Windows Mixed Reality для работы с Holographic.
+description: Узнайте, как настроить и использовать основную камеру Unity для разработки Windows Mixed Reality для работы с Holographic.
 author: keveleigh
 ms.author: kurtie
 ms.date: 10/22/2019
 ms.topic: article
 keywords: холотулкит, микседреалититулкит, микседреалититулкит-Unity, holographic, holographic, впечатляющий, захватывающий пункт, буфер глубины, только ориентация, Позиционированный, непрозрачный, прозрачный, зажим, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 26eb8966004c958c6063d09de891ef835d973a82
-ms.sourcegitcommit: 87b54c75044f433cfadda68ca71c1165608e2f4b
+ms.openlocfilehash: cd5284a8fdef7254b7d0375b57877d30f5d0d708
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97010435"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98006394"
 ---
 # <a name="camera-in-unity"></a>Камера в Unity
 
@@ -97,7 +97,7 @@ ms.locfileid: "97010435"
 
 ## <a name="next-development-checkpoint"></a>Следующий этап разработки
 
-Если вы пойдете из пути разработки Unity, мы собрались, что вы в состоянии изучить стандартные блоки МРТК Core. Отсюда можно перейти к следующему стандартному блоку:
+Если вы пойдете из пути разработки Unity, мы собрались, что вы в состоянии изучить стандартные блоки МРТК Core. Отсюда вы можете перейти к следующему стандартному блоку:
 
 > [!div class="nextstepaction"]
 > [Взгляд](gaze-in-unity.md)

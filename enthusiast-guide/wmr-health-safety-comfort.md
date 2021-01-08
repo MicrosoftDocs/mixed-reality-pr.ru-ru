@@ -1,5 +1,5 @@
 ---
-title: Работоспособность, безопасность и комфортная гарнитура Windows Mixed Reality
+title: Работоспособность и безопасность головного телефона Windows Mixed Reality
 description: Узнайте, как обеспечить работоспособность, безопасность и удобство работы пользователей при использовании приложений Windows Mixed Reality.
 author: hferrone
 ms.author: v-hferrone
@@ -8,12 +8,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, обратная связь, центр обратной связи, ошибки
 appliesto:
 - Windows 10
-ms.openlocfilehash: a8b78cd637b3f3b68ef793aa76031e3151f1f0fe
-ms.sourcegitcommit: 1b90f27af091dffd4fba63d69a89873aa0f75079
+ms.openlocfilehash: 32b29d11585bae4e803e516ae3733e1165f45587
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97725575"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009004"
 ---
 # <a name="windows-mixed-reality-immersive-headset-health-safety-and-comfort"></a>Работоспособность, безопасность и комфортная гарнитура Windows Mixed Reality
 

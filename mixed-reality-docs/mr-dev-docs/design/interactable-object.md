@@ -1,17 +1,17 @@
 ---
 title: Активный объект
-description: Кнопка длиннее метафоры, используемой для активации события в 2D-абстрактном мире. В мире объемной смешанной реальности мы больше не должны беспокоиться об этом мире абстракции.
+description: Узнайте, как запускать события, предоставлять визуальные подсказки и взаимодействовать с объектами в приложениях смешанной реальности.
 author: cre8ivepark
 ms.author: v-hferrone
 ms.date: 06/06/2019
 ms.topic: article
 keywords: Смешанная реальность, элементы управления, взаимодействие, подсказки, Пользовательский интерфейс, UX, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств для смешанной реальности, аудио
-ms.openlocfilehash: fb7004c22602683e4edb1e38784cac5c0b7479c4
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: d0dc8ce6425d597d04b47a6c8b08f72534488594
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97847861"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98007204"
 ---
 # <a name="interactable-object"></a>Активный объект
 

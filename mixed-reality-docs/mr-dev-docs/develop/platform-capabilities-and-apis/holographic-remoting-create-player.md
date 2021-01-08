@@ -1,17 +1,17 @@
 ---
 title: Создание пользовательского проигрывателя для голографического удаленного взаимодействия
-description: Создав настраиваемое приложение для удаленного взаимодействия holographic, вы можете создать пользовательское приложение, способное отображать содержимое, отображаемое на удаленном компьютере, в HoloLens 2.
+description: Создайте пользовательское приложение удаленного взаимодействия Хологафик для отображения содержимого, отображаемого на удаленном компьютере, в HoloLens 2.
 author: florianbagarmicrosoft
 ms.author: flbagar
 ms.date: 12/01/2020
 ms.topic: article
 keywords: HoloLens, удаленное взаимодействие, удаленное взаимодействие, NuGet, манифест приложения, контекст проигрывателя, удаленное приложение, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: ac3ee68cf3cff3e024ce40acceac61a2fe123399
-ms.sourcegitcommit: 99ae85159b7cf75f919021771ebb8299868beea9
+ms.openlocfilehash: 23449749e709075e6530730e596bfcc9cd088c1e
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97102899"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98006554"
 ---
 # <a name="writing-a-custom-holographic-remoting-player-app"></a>Создание пользовательского проигрывателя для голографического удаленного взаимодействия
 
@@ -257,4 +257,4 @@ winrt::Microsoft::Holographic::AppRemoting::PlayerFrameStatistics statistics = m
 * [Установка безопасного подключения с использованием голографического удаленного взаимодействия](holographic-remoting-secure-connection.md)
 * [Устранение неполадок и ограничения удаленного взаимодействия с holographic](holographic-remoting-troubleshooting.md)
 * [Условия лицензии на использование ПО для голографического удаленного взаимодействия](https://docs.microsoft.com//legal/mixed-reality/microsoft-holographic-remoting-software-license-terms)
-* [Заявление о конфиденциальности Майкрософт](https://go.microsoft.com/fwlink/?LinkId=521839)
+* [Заявление Майкрософт о конфиденциальности](https://go.microsoft.com/fwlink/?LinkId=521839)

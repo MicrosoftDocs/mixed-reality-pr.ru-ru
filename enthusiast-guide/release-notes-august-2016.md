@@ -1,17 +1,17 @@
 ---
 title: Заметки о выпуске — август 2016 г.
-description: Заметки о выпуске HoloLens для годовщины Windows 10 (попадают 2016)
+description: Оставайтесь в курсе заметок о выпуске HoloLens для годовщины Windows 10 на 2016.
 author: mattzmsft
 ms.author: mazeller
 ms.date: 03/21/2018
 ms.topic: article
 keywords: HoloLens, заметки о выпуске, ОС, платформа, функции, коммерческий набор
-ms.openlocfilehash: 870da1075dd1fa1a83926a89bad753233927abda
-ms.sourcegitcommit: 1b90f27af091dffd4fba63d69a89873aa0f75079
+ms.openlocfilehash: 9d65d0a2454b5eb076e7c350a6d26e11660af9a5
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97725965"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009264"
 ---
 # <a name="release-notes---august-2016"></a>Заметки о выпуске — август 2016 г.
 

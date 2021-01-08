@@ -1,17 +1,17 @@
 ---
 title: Устранение неполадок и ограничения удаленного взаимодействия с holographic
-description: Действия по устранению неполадок для удаленного взаимодействия holographic в HoloLens 2.
+description: Найдите материалы по устранению неполадок и инструкции для функции holographic Remoting на устройствах HoloLens 2.
 author: florianbagarmicrosoft
 ms.author: flbagar
 ms.date: 12/01/2020
 ms.topic: article
 keywords: Windows Mixed Reality, голограммы, удаленное взаимодействие, удаленная подготовка к просмотру сети, HoloLens, удаленные голограммы, устранение неполадок, Справка, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 9b900238abc79b0f2f93691d4b4a67cce67a201a
-ms.sourcegitcommit: c41372e0c6ca265f599bff309390982642d628b8
+ms.openlocfilehash: ee1dce72af02374e930de4a1bdff94285c7a84ae
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97530190"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98006454"
 ---
 # <a name="holographic-remoting-troubleshooting"></a>Устранение неполадок удаленного взаимодействия с holographic
 
@@ -24,7 +24,7 @@ ms.locfileid: "97530190"
 
 Если вы получаете *vccorlib. lib не удается открыть* неустранимую ошибку, убедитесь, что Рабочая нагрузка Visual Studio включает [библиотеки, снижающие опасность устранением рисков Spectre](https://aka.ms/Ofhn4c) .
 
-## <a name="speech"></a>Speech
+## <a name="speech"></a>Речь
 
 Проигрыватель holographic Remoting поддерживает наложение диагностики, которую можно включить, произнося ```Enable Diagnostics``` и отключая с помощью ```Disable Diagnostics``` . Если у вас возникли проблемы с этими голосовыми командами, можно также запустить проигрыватель holographic Remoting через веб-браузер, используя ```ms-holographic-remoting:?stats``` в качестве URL-адреса.
 
@@ -109,4 +109,4 @@ ms.locfileid: "97530190"
 * [Создание удаленного приложения holographic с удаленным взаимодействием с помощью API-интерфейсов Опенкср](holographic-remoting-create-remote-openxr.md)
 * [Создание пользовательского проигрывателя для голографического удаленного взаимодействия](holographic-remoting-create-player.md)
 * [Условия лицензии на использование ПО для голографического удаленного взаимодействия](https://docs.microsoft.com/legal/mixed-reality/microsoft-holographic-remoting-software-license-terms)
-* [Заявление о конфиденциальности Майкрософт](https://go.microsoft.com/fwlink/?LinkId=521839)
+* [Заявление Майкрософт о конфиденциальности](https://go.microsoft.com/fwlink/?LinkId=521839)

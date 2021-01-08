@@ -1,17 +1,17 @@
 ---
 title: Интерпретация сцены
-description: Введение в сцену общие сведения о возможностях HoloLens
+description: Узнайте, как разрабатывать данные с помощью сцены для HoloLens, включая пакет SDK, возможности и распространенные сценарии использования.
 author: szymons
 ms.author: szymons
 ms.date: 07/08/2019
 ms.topic: article
 keywords: Основные сведения о сцене, пространственное сопоставление, Windows Mixed Reality, Unity, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, перекрытия, пакет SDK
-ms.openlocfilehash: f46245c668e7cc58258fa4e28c4af5aa7812ef5f
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: c4485c5501300d6ca629f4e587fde1f88eea7ea5
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97848266"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98008874"
 ---
 # <a name="scene-understanding"></a>Интерпретация сцены
 

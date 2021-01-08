@@ -6,12 +6,12 @@ ms.author: flbagar
 ms.date: 12/01/2020
 ms.topic: article
 keywords: HoloLens, удаленное взаимодействие, holographic удаленное взаимодействие, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, безопасность, аутентификация, сервер-клиент
-ms.openlocfilehash: 64eb54d9401f3fbc8b73ebb97b19de5a68cdc5c4
-ms.sourcegitcommit: c41372e0c6ca265f599bff309390982642d628b8
+ms.openlocfilehash: 0881238bfca199958802598a3e1829a9de0d8e5b
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97530412"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98006484"
 ---
 # <a name="enabling-connection-security-for-holographic-remoting"></a>Включение безопасности подключения для удаленного взаимодействия holographic
 
@@ -24,7 +24,7 @@ ms.locfileid: "97530412"
 * Рекомендуемые меры на основе различных вариантов использования
 * Реализация безопасности в решении для удаленного взаимодействия с holographic
 
-## <a name="overview"></a>Обзор
+## <a name="holographic-remoting-security"></a>Безопасность удаленного взаимодействия holographic
 
 Holographic удаленное взаимодействие обменивается данными по сети. Если меры безопасности отсутствуют, злоумышленников в одной сети может нарушить целостность обмена данными или получить доступ к конфиденциальной информации.
 
@@ -194,4 +194,4 @@ Holographic удаленное взаимодействие обменивает
 * [Создание пользовательского проигрывателя для голографического удаленного взаимодействия](holographic-remoting-create-player.md)
 * [Устранение неполадок и ограничения удаленного взаимодействия с holographic](holographic-remoting-troubleshooting.md)
 * [Условия лицензии на использование ПО для голографического удаленного взаимодействия](https://docs.microsoft.com//legal/mixed-reality/microsoft-holographic-remoting-software-license-terms)
-* [Заявление о конфиденциальности Майкрософт](https://go.microsoft.com/fwlink/?LinkId=521839)
+* [Заявление Майкрософт о конфиденциальности](https://go.microsoft.com/fwlink/?LinkId=521839)

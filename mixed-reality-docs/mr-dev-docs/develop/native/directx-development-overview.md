@@ -1,17 +1,17 @@
 ---
 title: Обзор разработки для собственной платформы
-description: Создайте модуль смешанной реальности на основе DirectX, используя интерфейсы API Windows Mixed Reality напрямую.
+description: Узнайте, как создать механизм смешанной реальности на основе DirectX с помощью интерфейсов API Windows Mixed Reality напрямую.
 author: thetuvix
 ms.author: alexturn
 ms.date: 08/04/2020
 ms.topic: article
 keywords: DirectX, holographic-визуализация, собственное, собственное приложение, WinRT, приложение WinRT, API платформы, настраиваемое ядро, промежуточное по, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 493715660ff8df79df25e09c82fe48b863053ed3
-ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
+ms.openlocfilehash: 764cbe0a37501cc176e9bb05a9a7771b03666f0c
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97613078"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98006854"
 ---
 # <a name="native-development-overview"></a>Обзор разработки для собственной платформы
 

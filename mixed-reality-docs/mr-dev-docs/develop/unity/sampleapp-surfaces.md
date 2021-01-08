@@ -1,17 +1,17 @@
 ---
 title: Surfaces
-description: Surfaces — это пример приложения с открытым исходным кодом от лабораторных занятий корпорации Майкрософт по проектированию смешанной реальности. Он изучает, как можно создать тактиле неожиданностью с визуальным, звуковым и полноценным отслеживанием вручную.
+description: Узнайте, как создать тактиле сенсатионс с помощью визуального, звукового и четкого отслеживания в примере приложения Surfaces.
 author: cre8ivepark
 ms.author: dongpark
 ms.date: 06/18/2020
 ms.topic: article
 keywords: Windows Mixed Reality, проектирование, пример приложения, элементы управления, МРТК, набор средств для смешанной реальности, Unity, примеры приложений, примеры приложений, Открытый исходный код, Microsoft Store, HoloLens, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: c20ea17b20c867d9bf1da0d5f6244e36f2abbf27
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: bfb93574212dc9e6624d8baac636caf5c8df428a
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94678523"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009314"
 ---
 # <a name="surfaces"></a>Surfaces
 
@@ -23,11 +23,13 @@ ms.locfileid: "94678523"
 ![Surfaces](images/MRDL_Surfaces_1.jpg)
 
 ## <a name="demo-video"></a>Демонстрационное видео 
+
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4IhWQ]
 
 Записано с помощью HoloLens 2 с записью смешанной реальности
 
 ## <a name="about-the-app"></a>Сведения о приложении
+
 На поверхностях показано, как использовать систему ввода и стандартные блоки набора средств Mixed Reality Toolkit (МРТК) для создания приложений для HoloLens 2. В этом проекте можно найти примеры:
 - Используйте [входную систему](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Input/Overview.html)мртк, в частности отслеживание вручную или совместно.
 - Используйте [стандартный ШЕЙДЕР](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_MRTKStandardShader.html) мртк для работы с графикой.
@@ -35,14 +37,17 @@ ms.locfileid: "94678523"
 Вы можете использовать компоненты этого проекта для создания собственных приложений смешанной реальности.
 
 ## <a name="mr-dev-days-2020---learnings-from-the-mr-surfaces-app"></a>Дни разработки MR 2020 — сведения из приложения MR Surfaces
+
 [Сведения из приложения MR Surfaces](https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Learnings-from-the-MR-Surfaces-App)
 
 С Симкинс, старший дизайнер, лежащий в основе приложения МРДЛ Surfaces, рассказывает о статье о проектировании и технических возможностях приложения.
 
 ## <a name="project-repository-on-github"></a>Репозиторий проекта в GitHub
+
 [https://github.com/microsoft/MRDL_Unity_Surfaces](https://github.com/microsoft/MRDL_Unity_Surfaces)
 
 ## <a name="download-app-from-microsoft-store-in-hololens-2"></a>Скачать приложение из Microsoft Store в HoloLens 2
+
 https://www.microsoft.com/en-us/p/surfaces/9nvkpv3sk3x0#activetab=pivot:overviewtab
 
 (Приложение доступно только в HoloLens 2)
@@ -56,7 +61,7 @@ https://www.microsoft.com/en-us/p/surfaces/9nvkpv3sk3x0#activetab=pivot:overview
 </tr>
 </table>
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 * [MRTK Examples Hub](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_ExampleHub.html) - [(скачайте из Microsoft Store в HoloLens 2)](https://www.microsoft.com/en-us/p/mrtk-examples-hub/9mv8c39l2sj4)
 * [Surfaces](sampleapp-surfaces.md) - [(скачайте из Microsoft Store в HoloLens 2)](https://www.microsoft.com/en-us/p/surfaces/9nvkpv3sk3x0)

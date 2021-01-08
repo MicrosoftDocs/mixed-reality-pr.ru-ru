@@ -1,22 +1,22 @@
 ---
 title: Обзор Вебвр
-description: Общие сведения об использовании и разработке для Вебвр в Windows Mixed Reality
+description: Изучите основы использования и разработки приложений Вебвр, работающих на впечатляющих наушниках Windows Mixed Reality.
 author: yonet
 ms.author: ayyonet
 ms.date: 04/10/2020
 ms.topic: article
 keywords: Вебвр, Вебкср, Винмр, Вебар, Web VR, Web XR, Web MR, Web AR, 360, 360 Video, 360 видео, 360 Photo, 360 Фото, 360 Content, иммерсивное веб-, иммерсивевеб, IW
-ms.openlocfilehash: fdff2acf7816f36129d867650b16d9760a92e375
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: bf0335c0fa7fd42f60a20690d22b2ef9a4f6859a
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91695157"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98006964"
 ---
 # <a name="webvr-overview"></a>Обзор Вебвр
 
 > [!IMPORTANT]
-> **API-интерфейсы вебвр 1,1** являются устаревшими и заменены **API-интерфейсами устройств вебкср** .
+> **API-интерфейсы вебвр 1,1** являются устаревшими и заменены **API-интерфейсами устройств вебкср**.
 
 API-интерфейсы Вебвр 1,1 являются устаревшими и удаляются из Chrome и нового Microsoft ребра. API-интерфейсы Вебвр заменяются API-интерфейсами устройств Вебкср. Вы можете проверить список браузеров, которые в настоящее время поддерживают API Вебвр в [caniuse.com](https://caniuse.com/#search=webvr).
 
@@ -24,7 +24,7 @@ API-интерфейсы Вебвр 1,1 являются устаревшими 
 
 Инструкции по доступу к содержимому Вебвр в захватывающих гарнитурах с **более ранними версиями Microsoft (15 – 18)** можно найти в статье о программе для [энтузиастов](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/webvr). Чтобы проверить версию ребра, введите "edge://version/" в панели поиска браузеров с пограничными версиями.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 * [Обзор Вебкср](webxr-overview.md)
 * [Спецификация API устройства Вебкср](https://immersive-web.github.io/webxr/)

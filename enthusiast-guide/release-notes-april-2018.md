@@ -1,17 +1,17 @@
 ---
 title: Заметки о выпуске — 2018 апреля
-description: Заметки о выпуске HoloLens и Windows Mixed Reality для обновления Windows 10 от апреля 2018 (также известного как RS4).
+description: Оставайтесь в курсе изменений в HoloLens и заметках о выпуске Windows Mixed Reality для Windows 10 апреля 2018/RS4 Update.
 author: mattzmsft
 ms.author: mazeller
 ms.date: 05/21/2018
 ms.topic: article
 keywords: Заметки о выпуске, версия, Windows 10, сборка, RS4, ОС
-ms.openlocfilehash: 42d22feb582716be5ab0bd24ade4a8566dddb5cf
-ms.sourcegitcommit: 1b90f27af091dffd4fba63d69a89873aa0f75079
+ms.openlocfilehash: 8590cf8f813f22fb4f91fef0862b1e2e4ad43b1a
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97725975"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009244"
 ---
 # <a name="release-notes---april-2018"></a>Заметки о выпуске — 2018 апреля
 

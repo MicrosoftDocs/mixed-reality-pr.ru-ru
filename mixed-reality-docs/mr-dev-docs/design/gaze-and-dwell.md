@@ -1,17 +1,17 @@
 ---
 title: Взгляд и остановка
-description: Общие сведения о модели ввода (глаза/Head) и вдаваясь.
+description: Общие сведения о модели ввода с взглядом и вдаваясь для приложений смешанной реальности.
 author: sostel
 ms.author: sostel
 ms.date: 10/31/2019
 ms.topic: article
 keywords: Смешанная реальность, взгляд, вдаваясь, взаимодействие, проектирование, отслеживание взгляда, отслеживание головок, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, головной офис виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: e8005551e08248a73098bd0f9c198b0919e2471a
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: 2daeea996251b1220ee4753567b42117fbb2126c
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97847342"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98007644"
 ---
 # <a name="gaze-and-dwell"></a>Взгляд и остановка
 

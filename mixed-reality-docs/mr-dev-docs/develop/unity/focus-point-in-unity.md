@@ -1,17 +1,17 @@
 ---
 title: Точка фокусировки в Unity
-description: Ручная настройка стабильности в Unity путем установки точки фокусировки
+description: Узнайте, как вручную настроить стабильность в Unity, установив точку фокусировки для захватывающих головных телефонов HoloLens и Windows Mixed Reality.
 author: thetuvix
 ms.author: alexturn
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Unity, точка фокусировки, плоскость фокусировки, стабилизации плоскость, стабилизации точка, репроект, ЛСР, буфер глубины, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: d2708dcf39f1d2c67ab1abf69f8330f9dd536ab0
-ms.sourcegitcommit: 87b54c75044f433cfadda68ca71c1165608e2f4b
+ms.openlocfilehash: bd662a079f23ed590708d961e924859675a44917
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97010275"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009344"
 ---
 # <a name="focus-point-in-unity"></a>Точка фокусировки в Unity
 
@@ -53,7 +53,7 @@ void Update()
 
 ## <a name="next-development-checkpoint"></a>Следующий этап разработки
 
-Если вы подготовились к расположению разработки Unity, мы собрались изучить возможности и API платформы смешанной реальности. Отсюда можно перейти к следующему разделу:
+Если вы подготовились к расположению разработки Unity, мы собрались изучить возможности и API платформы смешанной реальности. Вы можете перейти к следующей статье:
 
 > [!div class="nextstepaction"]
 > [потеря слежения](tracking-loss-in-unity.md);
@@ -66,4 +66,5 @@ void Update()
 Вы можете в любой момент вернуться к [этапам разработки для Unity](unity-development-overview.md#3-platform-capabilities-and-apis).
 
 ### <a name="see-also"></a>См. также раздел
+
 * [Плоскость стабилизации](../platform-capabilities-and-apis/hologram-stability.md#reprojection)

@@ -1,17 +1,17 @@
 ---
 title: Покупки из приложений
-description: Покупки из приложений поддерживаются в приложениях смешанной реальности, но для их настройки требуется некоторое количество операций.
+description: Узнайте, как использовать покупки из приложений в приложениях смешанной реальности с помощью 2D-представлений XAML и всплывающего окна ОС Windows для хранения.
 author: thetuvix
 ms.author: alexturn
 ms.date: 03/21/2018
 ms.topic: article
 keywords: покупки в приложении, hololens, XAML, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 905c1be72bf2a3d6fa167cab68a4cb71e6538acc
-ms.sourcegitcommit: 8d3b84d2aa01f078ecf92cec001a252e3ea7b24d
+ms.openlocfilehash: a87cc68f67def1d46a3a6ba352e723d356f51fa2
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "97757787"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98008674"
 ---
 # <a name="in-app-purchases"></a>Покупки из приложений
 

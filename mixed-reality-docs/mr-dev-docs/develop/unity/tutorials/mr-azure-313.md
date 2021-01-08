@@ -1,17 +1,17 @@
 ---
 title: 313. Смешанная реальность и Azure — служба "Центр Интернета вещей"
-description: Пройдите этот курс, чтобы узнать, как реализовать службу центра Интернета вещей Azure на виртуальной машине под управлением Ubuntu 16,4, а затем визуализировать данные сообщений с помощью Microsoft HoloLens или иммерсивного (VR) гарнитуры.
+description: Узнайте, как реализовать службу центра Интернета вещей Azure на виртуальной машине под управлением Ubuntu 16,4 и визуализировать данные сообщений с помощью гарнитуры Microsoft HoloLens или VR.
 author: drneil
 ms.author: jemccull
 ms.date: 07/11/2018
 ms.topic: article
 keywords: Azure, Mixed Reality, Academy, ребро, центр Интернета вещей, учебник, API, уведомление, функции, таблицы, hololens, иммерсивное, VR, IOT, виртуальная машина, Ubuntu, Python, Windows 10, Visual Studio
-ms.openlocfilehash: 2a642bad363d86e37ca2d6c00ebf1ebb73908dec
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 3c01c7351ee284b72a15fd7d5bdd3205fec91e49
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94679513"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009304"
 ---
 # <a name="mr-and-azure-313-iot-hub-service"></a>313. Смешанная реальность и Azure: служба "Центр Интернета вещей"
 
@@ -805,7 +805,7 @@ ms.locfileid: "94679513"
         sudo iotedge list
     ```
 
-    Или
+    либо
 
     ```bash
         sudo docker ps
