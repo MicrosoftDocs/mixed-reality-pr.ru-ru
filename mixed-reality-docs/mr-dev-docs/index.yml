@@ -4,7 +4,7 @@ summary: Исследуйте расширяющийся мир приложен
 brand: windows
 metadata:
   title: Документация по смешанной реальности
-  description: Погрузитесь в расширяющийся мир приложений смешанной реальности с Windows Mixed Reality, набором средств для смешанной реальности (MRTK), Unity, Unreal и многими другими решениями для HoloLens и иммерсивных гарнитур Windows.
+  description: Погрузитесь в постоянно расширяющийся мир приложений смешанной реальности для HoloLens и иммерсивных гарнитур Windows.
   services: service
   ms.service: service
   ms.subservice: subservice
@@ -13,12 +13,12 @@ metadata:
   author: hferrone
   ms.author: v-haferr
   ms.date: 07/23/2020
-  ms.openlocfilehash: 0ddea2f7271e00cc4f845b6bfd6c53c919846632
-  ms.sourcegitcommit: 653ddcae6d7a1617c89da1153fa8e7b482ef6818
+  ms.openlocfilehash: 0ef4c230bb58d9be3c0d61822754c313ab8dab16
+  ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 01/06/2021
-  ms.locfileid: "97905286"
+  ms.lasthandoff: 01/08/2021
+  ms.locfileid: "98007560"
 highlightedContent:
   items:
   - title: Что такое смешанная реальность?
