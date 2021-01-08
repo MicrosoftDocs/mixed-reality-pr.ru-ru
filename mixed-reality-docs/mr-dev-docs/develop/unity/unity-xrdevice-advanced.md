@@ -1,30 +1,30 @@
 ---
 title: Собственные объекты смешанной реальности в Unity
-description: Получить доступ к базовым объектам holographic в Unity.
+description: Узнайте, как получить доступ к базовым объектам holographic в Unity с помощью пространства имен XR.
 author: vladkol
 ms.author: vladkol
 ms.date: 05/20/2018
 ms.topic: article
 keywords: Unity, Mixed Reality, Native, ксрдевице, спатиалкурдинатесистем, холографикфраме, холографиккамера, испатиалкурдинатесистем, iholographicframe, iholographiccamera, getnativeptr, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 8dda1152da9705147ca3a057faadb9edd8428df6
-ms.sourcegitcommit: 87b54c75044f433cfadda68ca71c1165608e2f4b
+ms.openlocfilehash: 7aa69286942ce98909e23508d92fb88c59ce9175
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97010595"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009814"
 ---
-# <a name="mixed-reality-native-objects-in-unity"></a><span data-ttu-id="7ae06-104">Собственные объекты смешанной реальности в Unity</span><span class="sxs-lookup"><span data-stu-id="7ae06-104">Mixed Reality native objects in Unity</span></span>
+# <a name="mixed-reality-native-objects-in-unity"></a><span data-ttu-id="52730-104">Собственные объекты смешанной реальности в Unity</span><span class="sxs-lookup"><span data-stu-id="52730-104">Mixed Reality native objects in Unity</span></span>
 
-<span data-ttu-id="7ae06-105">Каждое приложение смешанной реальности [получает холографикспаце,](../native/getting-a-holographicspace.md) прежде чем оно начнет получать данные камеры и кадры визуализации.</span><span class="sxs-lookup"><span data-stu-id="7ae06-105">Every Mixed Reality app [gets a HolographicSpace](../native/getting-a-holographicspace.md) before it starts receiving camera data and rendering frames.</span></span> <span data-ttu-id="7ae06-106">В Unity подсистема выполняет эти действия для вас, обрабатывая holographic и внутренне обновление как часть цикла подготовки к просмотру.</span><span class="sxs-lookup"><span data-stu-id="7ae06-106">In Unity, the engine takes care of those steps for you, handling Holographic objects and internally updating as part of its render loop.</span></span>
+<span data-ttu-id="52730-105">Каждое приложение смешанной реальности [получает холографикспаце,](../native/getting-a-holographicspace.md) прежде чем оно начнет получать данные камеры и кадры визуализации.</span><span class="sxs-lookup"><span data-stu-id="52730-105">Every Mixed Reality app [gets a HolographicSpace](../native/getting-a-holographicspace.md) before it starts receiving camera data and rendering frames.</span></span> <span data-ttu-id="52730-106">В Unity подсистема выполняет эти действия для вас, обрабатывая holographic и внутренне обновление как часть цикла подготовки к просмотру.</span><span class="sxs-lookup"><span data-stu-id="52730-106">In Unity, the engine takes care of those steps for you, handling Holographic objects and internally updating as part of its render loop.</span></span>
 
-<span data-ttu-id="7ae06-107">Однако в сложных сценариях может потребоваться получить доступ к базовым собственным объектам, таким как <a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographiccamera" target="_blank">холографиккамера</a> и Current <a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicframe" target="_blank">холографикфраме</a>.</span><span class="sxs-lookup"><span data-stu-id="7ae06-107">However, in advanced scenarios you may need to get access to the underlying native objects, such as the <a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographiccamera" target="_blank">HolographicCamera</a> and current <a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicframe" target="_blank">HolographicFrame</a>.</span></span> <span data-ttu-id="7ae06-108"><a href="https://docs.unity3d.com/ScriptReference/XR.XRDevice.html" target="_blank">UnityEngine. XR. ксрдевице</a> предоставляет доступ к этим собственным объектам.</span><span class="sxs-lookup"><span data-stu-id="7ae06-108"><a href="https://docs.unity3d.com/ScriptReference/XR.XRDevice.html" target="_blank">UnityEngine.XR.XRDevice</a> is what provides access to these native objects.</span></span>
+<span data-ttu-id="52730-107">Однако в сложных сценариях может потребоваться получить доступ к базовым собственным объектам, таким как <a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographiccamera" target="_blank">холографиккамера</a> и Current <a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicframe" target="_blank">холографикфраме</a>.</span><span class="sxs-lookup"><span data-stu-id="52730-107">However, in advanced scenarios you may need to get access to the underlying native objects, such as the <a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographiccamera" target="_blank">HolographicCamera</a> and current <a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicframe" target="_blank">HolographicFrame</a>.</span></span> <span data-ttu-id="52730-108"><a href="https://docs.unity3d.com/ScriptReference/XR.XRDevice.html" target="_blank">UnityEngine. XR. ксрдевице</a> предоставляет доступ к этим собственным объектам.</span><span class="sxs-lookup"><span data-stu-id="52730-108"><a href="https://docs.unity3d.com/ScriptReference/XR.XRDevice.html" target="_blank">UnityEngine.XR.XRDevice</a> is what provides access to these native objects.</span></span>
 
-## <a name="xrdevice"></a><span data-ttu-id="7ae06-109">ксрдевице</span><span class="sxs-lookup"><span data-stu-id="7ae06-109">XRDevice</span></span> 
+## <a name="xrdevice"></a><span data-ttu-id="52730-109">ксрдевице</span><span class="sxs-lookup"><span data-stu-id="52730-109">XRDevice</span></span> 
 
-<span data-ttu-id="7ae06-110">**Пространство имен:** *UnityEngine. XR*</span><span class="sxs-lookup"><span data-stu-id="7ae06-110">**Namespace:** *UnityEngine.XR*</span></span><br>
-<span data-ttu-id="7ae06-111">**Тип:** *ксрдевице*</span><span class="sxs-lookup"><span data-stu-id="7ae06-111">**Type:** *XRDevice*</span></span>
+<span data-ttu-id="52730-110">**Пространство имен:** *UnityEngine. XR*</span><span class="sxs-lookup"><span data-stu-id="52730-110">**Namespace:** *UnityEngine.XR*</span></span><br>
+<span data-ttu-id="52730-111">**Тип:** *ксрдевице*</span><span class="sxs-lookup"><span data-stu-id="52730-111">**Type:** *XRDevice*</span></span>
 
-<span data-ttu-id="7ae06-112">Тип *ксрдевице* позволяет получить доступ к базовым машинным объектам с помощью метода <a href="https://docs.unity3d.com/ScriptReference/XR.XRDevice.GetNativePtr.html" target="_blank">жетнативептр</a> .</span><span class="sxs-lookup"><span data-stu-id="7ae06-112">The *XRDevice* type allows you to get access to underlying native objects using the <a href="https://docs.unity3d.com/ScriptReference/XR.XRDevice.GetNativePtr.html" target="_blank">GetNativePtr</a> method.</span></span> <span data-ttu-id="7ae06-113">Возвращаемые Жетнативептр различаются между различными платформами.</span><span class="sxs-lookup"><span data-stu-id="7ae06-113">What GetNativePtr returns varies between different platforms.</span></span> <span data-ttu-id="7ae06-114">На универсальная платформа Windows при использовании пакета SDK XR для Windows Mixed Reality Ксрдевице. Жетнативептр возвращает указатель (IntPtr) в следующую структуру:</span><span class="sxs-lookup"><span data-stu-id="7ae06-114">On the Universal Windows Platform, when targeting the Windows Mixed Reality XR SDK, XRDevice.GetNativePtr returns a pointer (IntPtr) to the following structure:</span></span> 
+<span data-ttu-id="52730-112">Тип *ксрдевице* позволяет получить доступ к базовым машинным объектам с помощью метода <a href="https://docs.unity3d.com/ScriptReference/XR.XRDevice.GetNativePtr.html" target="_blank">жетнативептр</a> .</span><span class="sxs-lookup"><span data-stu-id="52730-112">The *XRDevice* type allows you to get access to underlying native objects using the <a href="https://docs.unity3d.com/ScriptReference/XR.XRDevice.GetNativePtr.html" target="_blank">GetNativePtr</a> method.</span></span> <span data-ttu-id="52730-113">Возвращаемые Жетнативептр различаются между различными платформами.</span><span class="sxs-lookup"><span data-stu-id="52730-113">What GetNativePtr returns varies between different platforms.</span></span> <span data-ttu-id="52730-114">На универсальная платформа Windows при использовании пакета SDK XR для Windows Mixed Reality Ксрдевице. Жетнативептр возвращает указатель (IntPtr) в следующую структуру:</span><span class="sxs-lookup"><span data-stu-id="52730-114">On the Universal Windows Platform, when targeting the Windows Mixed Reality XR SDK, XRDevice.GetNativePtr returns a pointer (IntPtr) to the following structure:</span></span> 
 
 ```cs
 using System;
@@ -40,22 +40,22 @@ struct HolographicFrameNativeData
     public IntPtr IHolographicCameraPtr; // // Windows::Graphics::Holographic::IHolographicCamera
 }
 ```
-<span data-ttu-id="7ae06-115">Его можно преобразовать в Холографикфраменативедата с помощью метода Marshal. PtrToStructure нарушают:</span><span class="sxs-lookup"><span data-stu-id="7ae06-115">You can convert it to HolographicFrameNativeData using Marshal.PtrToStructure method:</span></span>
+<span data-ttu-id="52730-115">Его можно преобразовать в Холографикфраменативедата с помощью метода Marshal. PtrToStructure нарушают:</span><span class="sxs-lookup"><span data-stu-id="52730-115">You can convert it to HolographicFrameNativeData using Marshal.PtrToStructure method:</span></span>
 ```cs
 var nativePtr = UnityEngine.XR.XRDevice.GetNativePtr();
 HolographicFrameNativeData hfd = Marshal.PtrToStructure<HolographicFrameNativeData>(nativePtr);
 ```
-<span data-ttu-id="7ae06-116">***Ихолографиккамераптр** — это массив IntPtr, упакованный как UnmanagedType. ByValArray с длиной, равной макснумберофкамерас*</span><span class="sxs-lookup"><span data-stu-id="7ae06-116">***IHolographicCameraPtr** is an array of IntPtr marshaled as UnmanagedType.ByValArray with a length equal to MaxNumberOfCameras*</span></span> 
+<span data-ttu-id="52730-116">***Ихолографиккамераптр** — это массив IntPtr, упакованный как UnmanagedType. ByValArray с длиной, равной макснумберофкамерас*</span><span class="sxs-lookup"><span data-stu-id="52730-116">***IHolographicCameraPtr** is an array of IntPtr marshaled as UnmanagedType.ByValArray with a length equal to MaxNumberOfCameras*</span></span> 
 
-### <a name="unmarshaling-native-pointers"></a><span data-ttu-id="7ae06-117">Распаковка собственных указателей</span><span class="sxs-lookup"><span data-stu-id="7ae06-117">Unmarshaling native pointers</span></span>
+### <a name="unmarshaling-native-pointers"></a><span data-ttu-id="52730-117">Распаковка собственных указателей</span><span class="sxs-lookup"><span data-stu-id="52730-117">Unmarshaling native pointers</span></span>
 
-<span data-ttu-id="7ae06-118">При использовании [Microsoft. Windows. микседреалити. дотнетвинрт](https://www.nuget.org/packages/Microsoft.Windows.MixedReality.DotNetWinRT)можно создать управляемый объект из собственного указателя с помощью `FromNativePtr()` метода:</span><span class="sxs-lookup"><span data-stu-id="7ae06-118">If you are using [Microsoft.Windows.MixedReality.DotNetWinRT](https://www.nuget.org/packages/Microsoft.Windows.MixedReality.DotNetWinRT), you can construct a managed object from a native pointer using the `FromNativePtr()` method:</span></span>
+<span data-ttu-id="52730-118">При использовании [Microsoft. Windows. микседреалити. дотнетвинрт](https://www.nuget.org/packages/Microsoft.Windows.MixedReality.DotNetWinRT)можно создать управляемый объект из собственного указателя с помощью `FromNativePtr()` метода:</span><span class="sxs-lookup"><span data-stu-id="52730-118">If you are using [Microsoft.Windows.MixedReality.DotNetWinRT](https://www.nuget.org/packages/Microsoft.Windows.MixedReality.DotNetWinRT), you can construct a managed object from a native pointer using the `FromNativePtr()` method:</span></span>
 
 ```cs
 var worldOrigin = Microsoft.Windows.Perception.Spatial.SpatialCoordinateSystem.FromNativePtr(hfd.ISpatialCoordinateSystemPtr);
 ```
 
-<span data-ttu-id="7ae06-119">В противном случае используйте `Marshal.GetObjectForIUnknown()` и выполните приведение к нужному типу:</span><span class="sxs-lookup"><span data-stu-id="7ae06-119">Otherwise, use `Marshal.GetObjectForIUnknown()` and cast to the type you want:</span></span>
+<span data-ttu-id="52730-119">В противном случае используйте `Marshal.GetObjectForIUnknown()` и выполните приведение к нужному типу:</span><span class="sxs-lookup"><span data-stu-id="52730-119">Otherwise, use `Marshal.GetObjectForIUnknown()` and cast to the type you want:</span></span>
 
 ```cs
 #if ENABLE_WINMD_SUPPORT
@@ -63,9 +63,9 @@ var worldOrigin = (Windows.Perception.Spatial.SpatialCoordinateSystem)Marshal.Ge
 #endif
 ```
 
-### <a name="converting-between-coordinate-systems"></a><span data-ttu-id="7ae06-120">Преобразование между системами координат</span><span class="sxs-lookup"><span data-stu-id="7ae06-120">Converting between coordinate systems</span></span>
+### <a name="converting-between-coordinate-systems"></a><span data-ttu-id="52730-120">Преобразование между системами координат</span><span class="sxs-lookup"><span data-stu-id="52730-120">Converting between coordinate systems</span></span>
 
-<span data-ttu-id="7ae06-121">Unity использует левую систему координат, а API-интерфейсы восприятия Windows — для использования правильных систем координат.</span><span class="sxs-lookup"><span data-stu-id="7ae06-121">Unity uses a left-handed coordinate system, while the Windows Perception APIs use right-handed coordinate systems.</span></span> <span data-ttu-id="7ae06-122">Для преобразования между этими двумя соглашениями можно использовать следующие вспомогательные методы:</span><span class="sxs-lookup"><span data-stu-id="7ae06-122">To convert between these two conventions, you can use the following helpers:</span></span>
+<span data-ttu-id="52730-121">Unity использует левую систему координат, а API-интерфейсы восприятия Windows — для использования правильных систем координат.</span><span class="sxs-lookup"><span data-stu-id="52730-121">Unity uses a left-handed coordinate system, while the Windows Perception APIs use right-handed coordinate systems.</span></span> <span data-ttu-id="52730-122">Для преобразования между этими двумя соглашениями можно использовать следующие вспомогательные методы:</span><span class="sxs-lookup"><span data-stu-id="52730-122">To convert between these two conventions, you can use the following helpers:</span></span>
 
 ```cs
 namespace NumericsConversion
@@ -91,14 +91,14 @@ namespace NumericsConversion
 }
 ```
 
-### <a name="using-holographicframe-native-data"></a><span data-ttu-id="7ae06-123">Использование собственных данных Холографикфраме</span><span class="sxs-lookup"><span data-stu-id="7ae06-123">Using HolographicFrame native data</span></span>
+### <a name="using-holographicframe-native-data"></a><span data-ttu-id="52730-123">Использование собственных данных Холографикфраме</span><span class="sxs-lookup"><span data-stu-id="52730-123">Using HolographicFrame native data</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="7ae06-124">Изменение состояния собственных объектов, полученных через Холографикфраменативедата, может привести к непредсказуемому поведению и артефактам визуализации, особенно если Unity также является причиной того же состояния.</span><span class="sxs-lookup"><span data-stu-id="7ae06-124">Changing the state of the native objects received via HolographicFrameNativeData may cause unpredictable behaviour and rendering artifacts, especially if Unity also reasons about that same state.</span></span>  <span data-ttu-id="7ae06-125">Например, не следует вызывать Холографикфраме. Упдатекуррентпредиктион, или, в противном случае прогнозирование, которое Unity визуализирует с этим кадром, будет не синхронизировано с объектом, который ожидается Windows, что снизит [стабильность](../platform-capabilities-and-apis/hologram-stability.md).</span><span class="sxs-lookup"><span data-stu-id="7ae06-125">For example, you should not call HolographicFrame.UpdateCurrentPrediction, or else the pose prediction that Unity renders with that frame will be out of sync with the pose that Windows is expecting, which will reduce [hologram stability](../platform-capabilities-and-apis/hologram-stability.md).</span></span>
+> <span data-ttu-id="52730-124">Изменение состояния собственных объектов, полученных через Холографикфраменативедата, может привести к непредсказуемому поведению и артефактам визуализации, особенно если Unity также является причиной того же состояния.</span><span class="sxs-lookup"><span data-stu-id="52730-124">Changing the state of the native objects received via HolographicFrameNativeData may cause unpredictable behaviour and rendering artifacts, especially if Unity also reasons about that same state.</span></span>  <span data-ttu-id="52730-125">Например, не следует вызывать Холографикфраме. Упдатекуррентпредиктион, или, в противном случае прогнозирование, которое Unity визуализирует с этим кадром, будет не синхронизировано с объектом, который ожидается Windows, что снизит [стабильность](../platform-capabilities-and-apis/hologram-stability.md).</span><span class="sxs-lookup"><span data-stu-id="52730-125">For example, you should not call HolographicFrame.UpdateCurrentPrediction, or else the pose prediction that Unity renders with that frame will be out of sync with the pose that Windows is expecting, which will reduce [hologram stability](../platform-capabilities-and-apis/hologram-stability.md).</span></span>
 
-<span data-ttu-id="7ae06-126">Если вам нужен доступ к собственным интерфейсам для подготовки к просмотру или отладке, используйте данные из Холографикфраменативедата в собственных подключаемых модулях или коде C#.</span><span class="sxs-lookup"><span data-stu-id="7ae06-126">If you need access to native interfaces for rendering or debugging purposes, use data from HolographicFrameNativeData in your native plugins or C# code.</span></span> 
+<span data-ttu-id="52730-126">Если вам нужен доступ к собственным интерфейсам для подготовки к просмотру или отладке, используйте данные из Холографикфраменативедата в собственных подключаемых модулях или коде C#.</span><span class="sxs-lookup"><span data-stu-id="52730-126">If you need access to native interfaces for rendering or debugging purposes, use data from HolographicFrameNativeData in your native plugins or C# code.</span></span> 
 
-<span data-ttu-id="7ae06-127">Ниже приведен пример того, как можно использовать Холографикфраменативедата для получения прогноза текущего кадра для времени Photon.</span><span class="sxs-lookup"><span data-stu-id="7ae06-127">Here's an example of how you can use HolographicFrameNativeData to get the current frame's prediction for photon time.</span></span> 
+<span data-ttu-id="52730-127">Ниже приведен пример того, как можно использовать Холографикфраменативедата для получения прогноза текущего кадра для времени Photon.</span><span class="sxs-lookup"><span data-stu-id="52730-127">Here's an example of how you can use HolographicFrameNativeData to get the current frame's prediction for photon time.</span></span> 
 
 ```cs
 using System;
@@ -129,9 +129,10 @@ public static bool GetCurrentFrameDateTime(out DateTime frameDateTime)
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="7ae06-128">См. также:</span><span class="sxs-lookup"><span data-stu-id="7ae06-128">See Also</span></span>
-* [<span data-ttu-id="7ae06-129">Использование пространства имен Windows с приложениями Unity для HoloLens</span><span class="sxs-lookup"><span data-stu-id="7ae06-129">Using the Windows namespace with Unity apps for HoloLens</span></span>](using-the-windows-namespace-with-unity-apps-for-hololens.md)
-* <span data-ttu-id="7ae06-130"><a href="https://docs.microsoft.com/uwp/api/windows.perception.spatial.spatialcoordinatesystem" target="_blank">спатиалкурдинатесистем</a></span><span class="sxs-lookup"><span data-stu-id="7ae06-130"><a href="https://docs.microsoft.com/uwp/api/windows.perception.spatial.spatialcoordinatesystem" target="_blank">SpatialCoordinateSystem</a></span></span>
-* <span data-ttu-id="7ae06-131"><a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicframe" target="_blank">HolographicFrame</a></span><span class="sxs-lookup"><span data-stu-id="7ae06-131"><a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicframe" target="_blank">HolographicFrame</a></span></span>
-* <span data-ttu-id="7ae06-132"><a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographiccamera" target="_blank">HolographicCamera</a></span><span class="sxs-lookup"><span data-stu-id="7ae06-132"><a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographiccamera" target="_blank">HolographicCamera</a></span></span>
-* [<span data-ttu-id="7ae06-133">Отрисовка в DirectX</span><span class="sxs-lookup"><span data-stu-id="7ae06-133">Rendering in DirectX</span></span>](../native/rendering-in-directx.md)
+## <a name="see-also"></a><span data-ttu-id="52730-128">См. также:</span><span class="sxs-lookup"><span data-stu-id="52730-128">See Also</span></span>
+
+* [<span data-ttu-id="52730-129">Использование пространства имен Windows с приложениями Unity для HoloLens</span><span class="sxs-lookup"><span data-stu-id="52730-129">Using the Windows namespace with Unity apps for HoloLens</span></span>](using-the-windows-namespace-with-unity-apps-for-hololens.md)
+* <span data-ttu-id="52730-130"><a href="https://docs.microsoft.com/uwp/api/windows.perception.spatial.spatialcoordinatesystem" target="_blank">спатиалкурдинатесистем</a></span><span class="sxs-lookup"><span data-stu-id="52730-130"><a href="https://docs.microsoft.com/uwp/api/windows.perception.spatial.spatialcoordinatesystem" target="_blank">SpatialCoordinateSystem</a></span></span>
+* <span data-ttu-id="52730-131"><a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicframe" target="_blank">HolographicFrame</a></span><span class="sxs-lookup"><span data-stu-id="52730-131"><a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicframe" target="_blank">HolographicFrame</a></span></span>
+* <span data-ttu-id="52730-132"><a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographiccamera" target="_blank">HolographicCamera</a></span><span class="sxs-lookup"><span data-stu-id="52730-132"><a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographiccamera" target="_blank">HolographicCamera</a></span></span>
+* [<span data-ttu-id="52730-133">Отрисовка в DirectX</span><span class="sxs-lookup"><span data-stu-id="52730-133">Rendering in DirectX</span></span>](../native/rendering-in-directx.md)
