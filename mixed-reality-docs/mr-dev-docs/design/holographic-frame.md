@@ -1,17 +1,17 @@
 ---
 title: Голографический кадр
-description: Пользователи видят мир смешанной реальности через пакет Holographic.
+description: Узнайте, как пользователи видят мир смешанной реальности с помощью holographic-кадра и как лучше всего проектировать работу.
 author: cre8ivepark
 ms.author: dongpark
 ms.date: 06/25/2020
 ms.topic: article
 keywords: HoloLens, Windows Mixed Reality, holographic кадр, поле зрения, фов, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств для смешанной реальности, взаимодействия, навигация, меню
-ms.openlocfilehash: 679f629d5190ad6e3df2d92d2adfcce998f7dea5
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: 5898f98054afadb58fb059ff54be23f015232d55
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97847379"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009594"
 ---
 # <a name="holographic-frame"></a>Голографический кадр
 

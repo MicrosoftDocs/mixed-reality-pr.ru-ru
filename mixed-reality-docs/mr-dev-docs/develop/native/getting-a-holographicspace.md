@@ -1,17 +1,17 @@
 ---
 title: Получение HolographicSpace
-description: Описание API Холографикспаце, основной концепции для holographic-отрисовки и пространственного ввода.
+description: Узнайте, как использовать API Холографикспаце для более holographic-отрисовки и пространственного ввода в приложениях смешанной реальности.
 author: mikeriches
 ms.author: mriches
 ms.date: 08/04/2020
 ms.topic: article
 keywords: Windows Mixed Reality, Холографикспаце, CoreWindow, пространственный ввод, подготовка к просмотру, цепочка подкачки, ный фрейм, цикл обновления, цикл игры, кадр ссылки, локатабилити, пример кода, пошаговое руководство, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 3b0e31b8d3bf0d7741e7976edd2069db68ea5121
-ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
+ms.openlocfilehash: c630905b4f7f3bf03d575201feb944c3b8f62f32
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97613018"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009534"
 ---
 # <a name="getting-a-holographicspace"></a>Получение HolographicSpace
 

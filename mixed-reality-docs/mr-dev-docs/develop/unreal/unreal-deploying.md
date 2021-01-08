@@ -1,6 +1,6 @@
 ---
 title: Развертывание на устройстве в Unreal
-description: Рекомендации по развертыванию на устройство в нереальном режиме в HoloLens 2
+description: Узнайте все, что необходимо знать о развертывании нереальных приложений смешанной реальности в HoloLens 2 с помощью редактора или портала устройств.
 author: sw5813
 ms.author: suwu
 ms.date: 12/9/2020
@@ -8,12 +8,12 @@ ms.topic: article
 keywords: Нереал, Нереал. 4, UE4, HoloLens, HoloLens 2, Mixed Reality, развертывание на устройстве, ПК, документация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 390bd1a9f1bc643efb1a342421e8c96574e74334
-ms.sourcegitcommit: f2782d0925b2075fdaa0a4ecdef3dd4f0b4e1e99
+ms.openlocfilehash: 24b2c013e1c9f25f54be9a6fefec8a86846c1746
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96925911"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009754"
 ---
 # <a name="deploy-to-device-in-unreal"></a>Развертывание на устройстве в Unreal
 

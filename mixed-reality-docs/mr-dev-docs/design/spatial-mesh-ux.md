@@ -1,17 +1,17 @@
 ---
 title: Визуализация пространственной сетки
-description: Сведения о том, как устройства понимают физические среды с помощью пространственных сеток.
+description: Ознакомьтесь с рекомендациями по проектированию и физической средой, посвященной визуализации пространственной сетки в МРТК.
 author: cre8ivepark
 ms.author: dongpark
 ms.date: 06/19/2020
 ms.topic: article
 keywords: Смешанная реальность, HoloLens, элементы управления ИП, взаимодействие, Пользовательский интерфейс, UX, проектирование UX, пространственный пользовательский интерфейс, пространственное взаимодействие, трехмерный Пользовательский интерфейс, трехмерный UI, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: ffa13da6762b803ba2a3f370308ac2af65164ecf
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: 0f9cdc218c6fe54b8892c39a6a76f023e203d334
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97848192"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009924"
 ---
 # <a name="spatial-mesh"></a>Виртуальная сетка
 

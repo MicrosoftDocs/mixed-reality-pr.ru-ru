@@ -1,17 +1,17 @@
 ---
 title: Представления приложения
-description: Два вида представлений в приложениях Windows Mixed Reality — это иммерсивное представление и 2D-представления.
+description: Узнайте, как использовать два вида представлений в приложениях Windows Mixed Reality — иммерсивное представление и 2D-представления.
 author: thetuvix
 ms.author: alexturn
 ms.date: 03/21/2018
 ms.topic: article
 keywords: иммерсивное представление, 2D-представление, планшет, приложение, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: 0c6127427d5af118bb18aea5c19ddaef6fe8d5eb
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: a9cd03212fcbb0d7b3d9e4d2b3108e4d09972455
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97848069"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009634"
 ---
 # <a name="app-views"></a>Представления приложения
 

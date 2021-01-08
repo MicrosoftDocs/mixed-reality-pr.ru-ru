@@ -1,17 +1,17 @@
 ---
 title: Потеря слежения в Unity
-description: Обработка потерь отслеживания в приложении Unity.
+description: Узнайте, как обрабатывать потери отслеживания вручную и по умолчанию в приложении Unity Mixed Reality.
 author: thetuvix
 ms.author: alexturn
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Unity, отслеживание потерь, отслеживание потерь изображения, опрос, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 1df9f579abf43576284d065afa091bb26c631482
-ms.sourcegitcommit: 87b54c75044f433cfadda68ca71c1165608e2f4b
+ms.openlocfilehash: 39ce4e079886b27ed35c419a3b3913c6700e0d32
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97010055"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009854"
 ---
 # <a name="tracking-loss-in-unity"></a>Потеря слежения в Unity
 
@@ -37,7 +37,7 @@ ms.locfileid: "97010055"
 
 ### <a name="polling"></a>Опрос
 
-Наиболее важное состояние — *поситионаллокаторстате. Active*. Это означает, что отслеживание полностью работоспособно. Любое другое состояние приведет к появлению в основной камере только ротации. Пример.
+Наиболее важное состояние — *поситионаллокаторстате. Active*. Это означает, что отслеживание полностью работоспособно. Любое другое состояние приведет к появлению в основной камере только ротации. Пример:
 
 ```cs
 void Update()
@@ -82,4 +82,5 @@ private void WorldManager_OnPositionalLocatorStateChanged(PositionalLocatorState
 ```
 
 ## <a name="see-also"></a>См. также раздел
+
 * [Обработка потерь отслеживания в DirectX](../native/coordinate-systems-in-directx.md#handling-tracking-loss)

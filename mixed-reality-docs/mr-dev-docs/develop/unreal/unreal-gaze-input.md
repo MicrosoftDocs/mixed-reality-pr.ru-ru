@@ -1,17 +1,17 @@
 ---
 title: Взгляните на входные данные в нереальном режиме
-description: Руководство по настройке входных данных взгляда для HoloLens и нереального модуля
+description: Узнайте, как настроить и использовать ввод с помощью взгляда с отслеживанием глаз и ориентацией на голове для приложений HoloLens в нереальном виде.
 author: hferrone
 ms.author: jacksonf
 ms.date: 12/9/2020
 ms.topic: article
 keywords: Windows Mixed Reality, голограммы, HoloLens 2, отслеживание взгляда, ввод с экрана, подключенный головной дисплей, нереалный механизм, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: a11573d732e739068dca8c42dd8688c0705fc5bb
-ms.sourcegitcommit: f2782d0925b2075fdaa0a4ecdef3dd4f0b4e1e99
+ms.openlocfilehash: e546867fe02acd5e72ee76b4108a369ec25fd32f
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96925984"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98010144"
 ---
 # <a name="gaze-input"></a>Входные данные взгляда
 
@@ -104,7 +104,7 @@ void AEyeTracker::Tick(float DeltaTime)
 
 ## <a name="next-development-checkpoint"></a>Следующий этап разработки
 
-Если вы подготовились к нереальному пути разработки, мы собрались изучить основные конструктивные блоки МРТК. Отсюда можно перейти к следующему стандартному блоку:
+Если вы следуете изложенным нами инструкциям по разработке для Unreal, вы как раз прошли половину в изучении основных стандартных блоков MRTK. Отсюда вы можете перейти к следующему стандартному блоку:
 
 > [!div class="nextstepaction"]
 > [Отслеживание рук](unreal-hand-tracking.md)

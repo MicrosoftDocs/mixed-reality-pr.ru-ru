@@ -1,17 +1,17 @@
 ---
 title: Направление головы и фиксация
-description: Общие сведения о входной модели "Head-взгляд" и "фиксация".
+description: Начните работу с входной моделью Head-взгляд и Commit, включая целевые размеры, размещение и стабилизации.
 author: caseymeekhof
 ms.author: cmeekhof
 ms.date: 03/31/2019
 ms.topic: article
 keywords: Смешанная реальность, взгляд, определение целевой платформы, взаимодействие, проектирование, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств для смешанной реальности, цель, фокус, сглаживание
-ms.openlocfilehash: cc12c349704a63c5b95c9eede91d0486f56787a2
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: 13a040a8309d084fcfdbfa91cbd9d63b595b004a
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97847885"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009454"
 ---
 # <a name="head-gaze-and-commit"></a>Направление головы и фиксация
 

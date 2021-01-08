@@ -1,17 +1,17 @@
 ---
 title: Режим воспроизведения в Unity
-description: Использование режима воспроизведения в редакторе Unity для предварительного просмотра изменений на устройстве без развертывания приложения.
+description: Узнайте, как использовать режим воспроизведения в редакторе Unity для предварительного просмотра изменений приложения на устройстве без развертывания приложения.
 author: jonmlyons
 ms.author: jlyons
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Unity, удаленное взаимодействие, удаленное взаимодействие с holographic, holographic удаленное взаимодействие, HoloLens, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, режим воспроизведения Unity
-ms.openlocfilehash: 396e441903fe7b567c6329ca4d207ce893a07825
-ms.sourcegitcommit: 87b54c75044f433cfadda68ca71c1165608e2f4b
+ms.openlocfilehash: 9f6c2cafd08fca8a5d60f3fcf5832ee74762e173
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97010615"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009844"
 ---
 # <a name="unity-play-mode"></a>Режим воспроизведения в Unity
 

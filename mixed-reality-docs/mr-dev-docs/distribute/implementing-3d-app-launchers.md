@@ -1,17 +1,17 @@
 ---
 title: Реализация средств запуска трехмерных приложений (приложения UWP)
-description: Как создать трехмерные программы запуска и логотипы для приложений и игр Windows Mixed Reality (распространяется через Microsoft Store) как на HoloLens, так и в иммерсивного (VR) гарнитурах.
+description: Узнайте, как создавать средства запуска и логотипы трехмерных приложений для приложений и игр Windows Mixed Reality на гарнитурах HoloLens и VR.
 author: thmignon
 ms.author: thmignon
 ms.date: 07/12/2018
 ms.topic: article
 keywords: 3D, Эмблема, значок, моделирование, средство запуска, трехмерное средство запуска, плитка, динамический куб, глубокая ссылка, секондаритиле, вторичная плитка, UWP, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, XML, ограничивающий прямоугольник, Unity
-ms.openlocfilehash: 38f0932f20e3660c91b87de7bcb9d66799d9a51a
-ms.sourcegitcommit: 8d3b84d2aa01f078ecf92cec001a252e3ea7b24d
+ms.openlocfilehash: 40a68d0835ec8fb92d6417650700f41e8a31aab6
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "97757501"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009684"
 ---
 # <a name="implement-3d-app-launchers-uwp-apps"></a>Реализация средств запуска трехмерных приложений (приложения UWP)
 

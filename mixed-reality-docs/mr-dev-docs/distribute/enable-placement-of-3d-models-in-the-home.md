@@ -1,17 +1,17 @@
 ---
 title: Размещение трехмерных моделей в доме
-description: Размещение трехмерных моделей с веб-сайта или приложения на домашней странице Windows Mixed Reality
+description: Узнайте, как разместить трехмерные модели с веб-сайта или приложения на домашней странице Windows Mixed Reality.
 author: thmignon
 ms.author: thmignon
 ms.date: 05/04/2018
 ms.topic: article
 keywords: 3D, модель, место дома, место, мир, моделирование, Домашняя страница смешанная, Интернет, приложение, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: ad35e1d010e32c4729b0d0dd58943dabdee86e09
-ms.sourcegitcommit: 8d3b84d2aa01f078ecf92cec001a252e3ea7b24d
+ms.openlocfilehash: c92ba7a3242b618b9ef9cef01ae400cf4dbf36b2
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "97757812"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98010104"
 ---
 # <a name="enable-placement-of-3d-models-in-the-mixed-reality-home"></a>Поддержка размещения трехмерных моделей в доме со смешанной реальностью
 
@@ -42,7 +42,7 @@ ms.locfileid: "97757812"
     </tr>
 </table>
 
-## <a name="overview"></a>Обзор
+## <a name="the-basics"></a>Основные сведения
 
 Включить размещение трехмерных моделей в домашней среде Windows Mixed Reality можно двумя шагами:
 1. [Убедитесь, что ваша трехмерная модель совместима с домашней системой Windows Mixed Reality](creating-3d-models-for-use-in-the-windows-mixed-reality-home.md).

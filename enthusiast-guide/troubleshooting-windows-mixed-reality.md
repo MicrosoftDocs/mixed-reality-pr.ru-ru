@@ -1,14 +1,14 @@
 ---
 title: Устранение неполадок Windows Mixed Reality
-description: Устранение неполадок Windows Mixed Reality, которое выходит за рамки стандартной документации по поддержке пользователей.
+description: Получайте актуальные сведения об устранении неполадок Windows Mixed Reality, которые выходят за рамки стандартной документации по поддержке пользователей.
 ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, устранение неполадок, ошибки, Справка, поддержка
-ms.openlocfilehash: f98bc55062f2e159e6ac6fca5514cee899f50bc5
-ms.sourcegitcommit: 50d9afae479e418b885dc883ce88771292923f01
+ms.openlocfilehash: 6e685aac0919d920f47c2bd8954706da79dbc8c4
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "97859493"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009484"
 ---
 # <a name="troubleshooting-windows-mixed-reality-faqs"></a>Устранение неполадок Windows Mixed Reality (FAQ)
 

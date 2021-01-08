@@ -1,17 +1,17 @@
 ---
 title: 310. Смешанная реальность и Azure — обнаружение объектов
-description: Пройдите этот курс, чтобы научиться обучить модель машинного обучения, а затем использовать обученную модель для распознавания похожих объектов и их позиций в реальном мире из приложения смешанной реальности.
+description: Пройдите этот курс, чтобы узнать, как обучить и использовать модель машинного обучения для распознавания похожих объектов и их расположения в реальном мире.
 author: drneil
 ms.author: jemccull
 ms.date: 07/04/2018
 ms.topic: article
 keywords: Azure, пользовательское видение, обнаружение объектов, Смешанная реальность, Academy, Unity, учебник, API, hololens, Windows 10, Visual Studio
-ms.openlocfilehash: 10f3b2b8f8422a20c39a4d89568e42ca530683c2
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 8f625ebc1e40edaa6364567686c345386ea37dbf
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94679463"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98010174"
 ---
 # <a name="mr-and-azure-310-object-detection"></a>MR и Azure 310: обнаружение объектов
 
@@ -1292,7 +1292,7 @@ ms.locfileid: "94679463"
 
     1.  Людьми HoloLens, откройте **Параметры**.
 
-    2.  Выберите **Сетевые &**  >  **Wi-Fi**  >  **Дополнительные параметры** сети Интернет Wi-Fi
+    2.  Выберите **Сетевые &**  >    >  **Дополнительные параметры** сети Интернет Wi-Fi
 
     3.  Запишите **IPv4** -адрес.
 

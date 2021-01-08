@@ -1,17 +1,17 @@
 ---
 title: Биллбординг и закрепление элемента в пространстве
-description: Объекты с рекламой всегда ориентированы на себя для пользователя.
+description: Узнайте, как использовать объекты с рекламой, которые всегда ориентированы на себя для пользователя в приложениях смешанной реальности.
 author: radicalad
 ms.author: adlinv
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Windows Mixed Reality, Реклама на щитах, пометка, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: 44f2678fe2f8e4be071086f46037749d1df61ae4
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: 92caa1bcd325cefecc6d3820b819cecfce6fc09c
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97848034"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009617"
 ---
 # <a name="billboarding-and-tag-along"></a>Биллбординг и закрепление элемента в пространстве
 

@@ -1,17 +1,17 @@
 ---
 title: Создание обозревателя Galaxy для HoloLens 2
-description: Добро пожаловать в то, как мы обновляем обозреватель Galaxy для HoloLens 2. Так же, как и в исходном обозревателе Galaxy, наша группа будет открывать проект на GitHub с открытым исходным кодом, чтобы предоставить сообществу полный доступ.
+description: Узнайте, как наша команда обновляет проект Galaxy Explorer с открытым исходным кодом для HoloLens 2 на GitHub.
 author: l-garrett
 ms.author: grbury
 ms.date: 06/30/2019
 ms.topic: article
 keywords: Galaxy Explorer, пример внедрения, проект, пример, МРТК, набор средств для смешанной реальности, Unity, примеры приложений, примеры приложений, Открытый исходный код, Microsoft Store, HoloLens, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 00bf589d738cf74cbfdb489bc43aadf931dda285
-ms.sourcegitcommit: 87b54c75044f433cfadda68ca71c1165608e2f4b
+ms.openlocfilehash: d3a31204275b2d2a9f1f1ea1c283993d2e0285ed
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97010475"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009584"
 ---
 # <a name="the-making-of-galaxy-explorer-for-hololens-2"></a>Создание обозревателя Galaxy для HoloLens 2
 

@@ -1,17 +1,17 @@
 ---
-title: Речевой ввод
-description: Руководство по настройке и использованию речевого ввода в HoloLens 2 и нереальном подсистеме
+title: Ввод голоса в нереальном режиме
+description: Узнайте, как настроить и использовать голосовой ввод, сопоставления речи и распознавание в нереальных приложениях смешанной реальности для устройств HoloLens 2.
 author: hferrone
 ms.author: v-hferrone
 ms.date: 06/10/2020
 ms.topic: article
 keywords: Windows Mixed Reality, нереалный, Нереальный механизм 4, UE4, HoloLens 2, голосовый ввод, речевое распознавание, Смешанная реальность, разработка, функции, документация, руководства, голограмма, Разработка игр, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 504a2d978e3c9bc698e8edd11ea8a4d6be13795a
-ms.sourcegitcommit: 32cb81eee976e73cd661c2b347691c37865a60bc
+ms.openlocfilehash: c7ac523258dc44aa261470aea8cdf21f32c915b2
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96609755"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98010074"
 ---
 # <a name="voice-input-in-unreal"></a>Ввод голоса в нереальном режиме
 

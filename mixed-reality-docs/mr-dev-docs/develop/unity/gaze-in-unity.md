@@ -1,17 +1,17 @@
 ---
 title: Взгляд в Unity
-description: Взгляд — это основной способ, с помощью которого пользователи могут ориентироваться на голограммы, создаваемые приложением в смешанной реальности.
+description: Узнайте, как использовать ввод с помощью взгляда в качестве основного способа, которым пользователи могут ориентироваться на голограммы, создаваемые приложением в смешанной реальности.
 author: thetuvix
 ms.author: alexturn
 ms.date: 03/21/2018
 ms.topic: article
 keywords: взгляд на глаза, головной взгляд, Unity, голограмма, Смешанная реальность, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: ca33fef5a5a761df83ed7991b366cf711a5db224
-ms.sourcegitcommit: 87b54c75044f433cfadda68ca71c1165608e2f4b
+ms.openlocfilehash: 5dab8cb38aaa4b9a4547f4bf494afb093b6d8058
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97010365"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009894"
 ---
 # <a name="head-gaze-in-unity"></a>Головной взгляд в Unity
 
@@ -56,7 +56,7 @@ void Update()
 
 ## <a name="next-development-checkpoint"></a>Следующий этап разработки
 
-Если вы пойдете из пути разработки Unity, мы собрались, что вы в состоянии изучить стандартные блоки МРТК Core. Отсюда можно перейти к следующему стандартному блоку:
+Если вы пойдете из пути разработки Unity, мы собрались, что вы в состоянии изучить стандартные блоки МРТК Core. Отсюда вы можете перейти к следующему стандартному блоку:
 
 > [!div class="nextstepaction"]
 > [Жесты и контроллеры движений](gestures-and-motion-controllers-in-unity.md)

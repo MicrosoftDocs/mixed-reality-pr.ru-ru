@@ -1,17 +1,17 @@
 ---
 title: Case study - Looking through holes in your reality (Пример использования. Взгляд сквозь отверстия в реальности)
-description: В этом практическом примере объясняется, как реализовать воздействие "волшебное окно" на HoloLens, что позволяет пользователю видеть позади стен, в пол и в виртуальных вакансиях в реальной среде.
+description: В этом примере рассматривается реализация эффектов "волшебное окно" в HoloLens, позволяющая пользователю видеть стены, под пол и виртуальные вакансии.
 author: ericrehmeyer
 ms.author: bestruku
 ms.date: 10/18/2019
 ms.topic: article
 keywords: Windows Mixed Reality, HoloLens, магическое окно, фокусировки
-ms.openlocfilehash: 84af124cc69e03b3502cee55c694b11ff5c9433b
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: 018e45a79d88cbc8e28204f023106fbe5dae39bc
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91693273"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98010114"
 ---
 # <a name="case-study---looking-through-holes-in-your-reality"></a>Case study - Looking through holes in your reality (Пример использования. Взгляд сквозь отверстия в реальности)
 
@@ -19,7 +19,7 @@ ms.locfileid: "91693273"
 
 ## <a name="the-tech"></a>Технический
 
-Если вы фаугхт пришельцы по мере того, как они переходили через стены в **[робораид](https://www.youtube.com/watch?v=Hf9qkURqtbM)** , разблокировали появление стены во **[фрагментах](case-study-creating-an-immersive-experience-in-fragments.md)** или оказались достаточно счастливыми, чтобы увидеть УНСК бесконечности Хангар в е в **[E3 в 2015](https://www.youtube.com/watch?v=QDw5QjDtFy8)** , то вы видели, о чем я говорю. В зависимости от вашего воображения Эта визуальная хитрость может использоваться для помещения временных отверстий в дривалл или для скрытия миров в свободной флурбоард.
+Если вы фаугхт пришельцы по мере того, как они переходили через стены в **[робораид](https://www.youtube.com/watch?v=Hf9qkURqtbM)**, разблокировали появление стены во **[фрагментах](case-study-creating-an-immersive-experience-in-fragments.md)** или оказались достаточно счастливыми, чтобы увидеть УНСК бесконечности Хангар в е в **[E3 в 2015](https://www.youtube.com/watch?v=QDw5QjDtFy8)**, то вы видели, о чем я говорю. В зависимости от вашего воображения Эта визуальная хитрость может использоваться для помещения временных отверстий в дривалл или для скрытия миров в свободной флурбоард.
 
 ![Робораид добавляет трехмерные каналы и другую структуру позади стен, видимую только через отверстия, созданные в качестве инвадерсного перерыва.](../develop/unity/images/roboraid-640px.png)
 

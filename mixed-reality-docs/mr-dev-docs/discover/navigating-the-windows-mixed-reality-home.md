@@ -1,17 +1,17 @@
 ---
 title: Навигация по дому с технологией Windows Mixed Reality
-description: Гарнитуры и головные телефоны Windows Mixed Reality используют парадигму для запуска, размещения и манипулирования приложениями и трехмерными моделями в вашей среде (как физическими, так и цифровыми). Узнайте, как перемещаться на домашнюю страницу Windows Mixed Reality на обоих типах устройств.
+description: Узнайте, как перемещаться на домашнюю страницу Windows Mixed Reality на HoloLens и на наушниках Windows Mixed Reality.
 author: mattzmsft
 ms.author: mazeller
 ms.date: 03/21/2018
 ms.topic: article
 keywords: оболочка, ОС, платформа, Клифф House, дом, Главная, среда, запуск, меню "Пуск", главное меню, ПИН-код, приложение, запуск приложений, размещение приложений, телепортируйтесь, перемещение, навигация, гарнитура смешанной реальности, гарнитура виртуальной реальности, виртуальная реальность
-ms.openlocfilehash: 4d8aa88fa1057c550601feb7ad85ace15fcada54
-ms.sourcegitcommit: 8d3b84d2aa01f078ecf92cec001a252e3ea7b24d
+ms.openlocfilehash: 06e28c9c1f0f6244f7f502382d61d4740b5fb71f
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "97757692"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009694"
 ---
 # <a name="navigating-the-windows-mixed-reality-home"></a>Навигация по дому с технологией Windows Mixed Reality
 

@@ -1,17 +1,17 @@
 ---
 title: Голосовой ввод в Unity
-description: Unity предоставляет три способа добавления речевого ввода в приложение Windows Mixed Reality.
+description: Узнайте, как Unity предоставляет три способа добавления голосового ввода, распознавания речи и диктовки в приложение Windows Mixed Reality.
 author: thetuvix
 ms.author: alexturn
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Речевой ввод, Кэйвордрекогнизер, Граммаррекогнизер, микрофон, Диктовка, речь, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: 66aba92c14eca4183739687934e12db289cd2302
-ms.sourcegitcommit: 87b54c75044f433cfadda68ca71c1165608e2f4b
+ms.openlocfilehash: d07909bbf05ff882eb0a4b6123c39eae9280e3e8
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97010575"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009804"
 ---
 # <a name="voice-input-in-unity"></a>Голосовой ввод в Unity
 

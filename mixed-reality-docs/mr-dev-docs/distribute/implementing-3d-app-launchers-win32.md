@@ -1,17 +1,17 @@
 ---
 title: Реализация средств запуска трехмерных приложений (приложения Win32)
-description: Узнайте, как создавать средства запуска и логотипы трехмерных приложений для приложений Win32 VR и игр для меню Пуск и домашней среды Windows Mixed Reality.
+description: Узнайте, как создавать приложения и логотипы трехмерных приложений для Win32 VR и игр для меню "Пуск" и домашней среды.
 author: thmignon
 ms.author: thmignon
 ms.date: 07/12/2018
 ms.topic: article
 keywords: 3D, Эмблема, значок, моделирование, средство запуска, трехмерное средство запуска, плитка, динамический куб, Win32, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, манифест
-ms.openlocfilehash: 5a3e38de54aad1fceb4804003043c87dddab61c4
-ms.sourcegitcommit: 8d3b84d2aa01f078ecf92cec001a252e3ea7b24d
+ms.openlocfilehash: 63b07664cb09f51e6d0588fdc50d141ad8985093
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "97757822"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009673"
 ---
 # <a name="implement-3d-app-launchers-win32-apps"></a>Реализация средств запуска трехмерных приложений (приложения Win32)
 

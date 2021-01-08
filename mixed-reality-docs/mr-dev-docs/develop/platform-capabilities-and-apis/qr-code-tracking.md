@@ -1,17 +1,17 @@
 ---
 title: Отслеживание QR-кода
-description: Узнайте, как обнаруживать QR-коды в HoloLens 2.
+description: Узнайте, как обнаруживать QR-коды, добавлять возможности веб-камеры и управлять системами координат в приложениях смешанной реальности в HoloLens 2.
 author: dorreneb
 ms.author: dobrown
 ms.date: 05/15/2019
 ms.topic: article
 keywords: VR, лбе, развлечения на основе расположения, VR Аркадные, Аркадные, иммерсивное, QR, QR-код, hololens2
-ms.openlocfilehash: 023da7a98d1559d9dd0387a7efbaf26ad577df50
-ms.sourcegitcommit: c41372e0c6ca265f599bff309390982642d628b8
+ms.openlocfilehash: 7e5931e0d23ef6c905b8ec54d08e572a89e747e0
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97530012"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009404"
 ---
 # <a name="qr-code-tracking"></a>Отслеживание QR-кода
 
@@ -21,7 +21,7 @@ HoloLens 2 может обнаруживать QR-коды в среде вок�
 
 <table>
 <tr>
-<th>Функция</th><th style="width:150px"> <a href="../../hololens-hardware-details.md">HoloLens (первый общий)</a></th><th style="width:150px">HoloLens 2</th><th style="width:150px"> <a href="../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></th>
+<th>Компонент</th><th style="width:150px"> <a href="../../hololens-hardware-details.md">HoloLens (первый общий)</a></th><th style="width:150px">HoloLens 2</th><th style="width:150px"> <a href="../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></th>
 </tr><tr>
 <td> Обнаружение QR-кода</td><td style="text-align: center;">️</td><td style="text-align: center;"> ✔️</td><td style="text-align: center;">✔️</td>
 </tr>

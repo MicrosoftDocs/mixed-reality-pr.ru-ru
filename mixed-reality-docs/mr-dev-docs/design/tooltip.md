@@ -1,17 +1,17 @@
 ---
 title: Подсказка
-description: Подсказка — это короткое описание, связанное с каким-либо элементом управления или объектом.
+description: Узнайте, как использовать подсказки в приложениях смешанной реальности, которые являются краткими описаниями, связанными с другим элементом управления или объектом.
 author: cre8ivepark
 ms.author: dongpark
 ms.date: 11/01/2019
 ms.topic: article
 keywords: Смешанная реальность, элементы управления, взаимодействие, Пользовательский интерфейс, UX, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, подсказка, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: ceb88fd89ec9d7bde50e23f2ae3ac158a301eb02
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: bed9e83cac381fceddbf94cd4048d36427a27874
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97848119"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009414"
 ---
 # <a name="tooltip"></a>Подсказка
 

@@ -1,17 +1,17 @@
 ---
 title: Пакет SDK для понимания сцены
-description: Инструкции по программированию для пакета SDK для сцены
+description: Узнайте, как установить и использовать пакет SDK для сцены, включая компоненты, сетки и объекты в приложениях смешанной реальности.
 author: szymons
 ms.author: szymons
 ms.date: 12/14/2020
 ms.topic: article
 keywords: Основные сведения о сцене, пространственное сопоставление, Windows Mixed Reality, Unity
-ms.openlocfilehash: 1ec29d09ab52abae9a9111a6441523c8aa7720f7
-ms.sourcegitcommit: c41372e0c6ca265f599bff309390982642d628b8
+ms.openlocfilehash: 9520ad604125705c60624254b097de5fc93021ec
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97530349"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009384"
 ---
 # <a name="scene-understanding-sdk-overview"></a>Общие сведения о пакете SDK для сцены
 

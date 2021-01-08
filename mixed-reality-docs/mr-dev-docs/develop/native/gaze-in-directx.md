@@ -1,17 +1,17 @@
 ---
 title: Направление головы и взгляда в DirectX
-description: Узнайте, как использовать головное взгляд и отслеживание взгляда в собственных приложениях DirectX.
+description: Узнайте, как запрашивать, использовать и распаковать райкастинг данные из отслеживания взгляда и взгляда в собственных приложениях DirectX.
 author: caseymeekhof
 ms.author: cmeekhof
 ms.date: 08/04/2020
 ms.topic: article
 keywords: взгляд на глаза, головной взгляд, отслеживание головок, отслеживание глаз, DirectX, ввод, голограммы, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 4d7ed9b735b5f3cd7029e42ccc75bc539e3c4f4b
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: a518e5e4153da9c58295abb257a8ed2d69145211
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97848089"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009554"
 ---
 # <a name="head-gaze-and-eye-gaze-input-in-directx"></a>Ввод с взгляда на глаза в DirectX
 
@@ -27,6 +27,7 @@ ms.locfileid: "97848089"
 И те, и другие лучи доступны через API  [спатиалпоинтерпосе](https://docs.microsoft.com//uwp/api/Windows.UI.Input.Spatial.SpatialPointerPose) . Вызовите метод [спатиалпоинтерпосе:: трижетаттиместамп](https://docs.microsoft.com//uwp/api/windows.ui.input.spatial.spatialpointerpose.trygetattimestamp) , чтобы получить новый объект спатиалпоинтерпосе в указанной метке времени и [системе координат](coordinate-systems-in-directx.md). Этот Спатиалпоинтерпосе содержит источник и направление головного взгляда. Он также содержит источник глаза и направление взгляда, если отслеживание взгляда доступно.
 
 ### <a name="device-support"></a>Поддержка устройств
+
 <table>
 <colgroup>
     <col width="25%" />

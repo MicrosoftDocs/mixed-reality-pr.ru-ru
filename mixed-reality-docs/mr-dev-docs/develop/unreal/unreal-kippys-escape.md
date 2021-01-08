@@ -1,6 +1,6 @@
 ---
 title: Создание escape-последовательности Киппи
-description: Пройдите вместе с нами, как мы рассмотрим создание escape-последовательности Киппи для HoloLens 2 в нереальном механизме.
+description: Пройдите вместе с нами, как мы рассмотрим создание приложения экранирования Киппи Mixed Reality для HoloLens 2 в нереальном механизме.
 author: sw5813
 ms.author: suwu
 ms.date: 9/4/2020
@@ -8,12 +8,12 @@ ms.topic: article
 keywords: Нереал, Нереал. 4, UE4, HoloLens, HoloLens 2, Mixed Reality, развертывание на устройстве, ПК, документация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: eaba6ea1ee77ffffb74008402eafd1f09fd822e5
-ms.sourcegitcommit: 32cb81eee976e73cd661c2b347691c37865a60bc
+ms.openlocfilehash: df199b6a3215158e15fb1252dd75c58aea5bc2ab
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96609685"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98010044"
 ---
 # <a name="the-making-of-kippys-escape"></a>Создание escape-последовательности Киппи
 
@@ -21,8 +21,6 @@ ms.locfileid: "96609685"
 
 > [!IMPORTANT]
 > Убедитесь, что используется **нереалный механизм 4,25 или более поздней версии** , если вы создаете escape-последовательность Киппи из репозитория GitHub.
-
-## <a name="overview"></a>Обзор
 
 Escape-Киппи — это пример приложения [HoloLens](https://docs.microsoft.com/hololens/hololens2-hardware) с открытым кодом, созданного с помощью нереальных средств для работы с ядром 4 и [смешанной реальности](https://github.com/microsoft/MixedReality-UXTools-Unreal). В этой записи мы рассмотрим наш процесс от первых принципов и визуальной разработки до реализации и оптимизации работы. Дополнительные сведения о разработке приложений смешанной реальности с помощью средств МРТК UX можно найти в статье [Обзор нереальных развертываний](unreal-development-overview.md).
 

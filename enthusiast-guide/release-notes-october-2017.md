@@ -1,17 +1,17 @@
 ---
 title: Заметки о выпуске — октябрь 2017 г.
-description: Заметки о выпуске Windows Mixed Reality для обновления Windows 10 для дизайнеров (октябрь 2017).
+description: Оставайтесь в курсе заметок о выпуске Windows Mixed Reality для обновления Windows 10 для дизайнеров (октябрь 2017).
 author: mattzmsft
 ms.author: mazeller
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Заметки о выпуске, версия, Windows 10, сборка, RS3, ОС
-ms.openlocfilehash: 7c5af3b8ead4aa4bee9e342e9c41b696a30e5e2c
-ms.sourcegitcommit: 1b90f27af091dffd4fba63d69a89873aa0f75079
+ms.openlocfilehash: 83c16a40388960547cfcf7444e1ae630c2f5b7f2
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97725915"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009494"
 ---
 # <a name="release-notes---october-2017"></a>Заметки о выпуске — октябрь 2017 г.
 

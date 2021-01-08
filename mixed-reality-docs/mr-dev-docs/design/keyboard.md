@@ -1,17 +1,17 @@
 ---
 title: Клавиатура
-description: Узнайте, как вызвать системную клавиатуру в МРТК.
+description: Узнайте, как вызывать и использовать системную клавиатуру с помощью набора средств Mixed Reality.
 author: cre8ivepark
 ms.author: dongpark
 ms.date: 11/01/2019
 ms.topic: article
 keywords: Смешанная реальность, элементы управления, взаимодействие, Пользовательский интерфейс, UX, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, клавиатура, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: b258ad7934cae76c581723d681cce32c68458b72
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: 8efb5446479e53569349eda302c7d4dcb844a137
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97847279"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009734"
 ---
 # <a name="keyboard"></a>Keyboard (Клавиатура)
 

@@ -1,19 +1,19 @@
 ---
 title: Windows Mixed Reality и новая Microsoft ребро
-description: Приготовьтесь к новому Microsoft ребру в Windows Mixed Reality. Сюда входят изменения, которые необходимо выполнить, обновления для поиска и известные проблемы.
+description: Узнайте о новых возможностях Microsoft ребра для смешанной реальности, в том числе о том, что следует рассчитывать, об обновлениях для поиска и известных проблемах.
 author: mattzmsft
 ms.author: mazeller
 ms.date: 08/04/2020
 ms.topic: article
 keywords: Пограничная, новая, впечатляющие веб-приложения, Microsoft ребро, браузер, VR, 360, 360 видео, средство просмотра 360, вебкср, вебвр
-ms.openlocfilehash: 341c7e3d53bd7fb0c569a8acffcf56662c8d2c32
-ms.sourcegitcommit: 8d3b84d2aa01f078ecf92cec001a252e3ea7b24d
+ms.openlocfilehash: ef55ee564e0a7ea11aaaad62ebf259459454ab72
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "97757442"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98010034"
 ---
-# <a name="windows-mixed-reality-and-the-new-microsoft-edge"></a>Windows Mixed Reality и новая Microsoft ребро
+# <a name="the-new-microsoft-edge-for-windows-mixed-reality"></a>Новый Microsoft ребро для Windows Mixed Reality
 
 [Новый Microsoft ребр теперь доступен для загрузки](https://blogs.windows.com/windowsexperience/?p=173496), но клиенты также могут [подождать появления следующего обновления, чтобы установить его в Windows 10](https://blogs.windows.com/msedgedev/2020/01/15/upgrading-new-microsoft-edge-79-chromium/), следуя измеренному подходу на протяжении следующих нескольких месяцев. 
 

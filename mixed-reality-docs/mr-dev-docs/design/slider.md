@@ -1,17 +1,17 @@
 ---
 title: Slider
-description: Ползунок — это компонент пользовательского интерфейса, который позволяет задать значение путем перемещения регулятора или рычага на дорожке.
+description: Узнайте, как использовать компонент пользовательского интерфейса Slider для установки значения путем перемещения бегунка или рычага на дорожке с помощью набора средств Mixed Reality.
 author: cre8ivepark
 ms.author: dongpark
 ms.date: 11/01/2019
 ms.topic: article
 keywords: Смешанная реальность, элементы управления, взаимодействие, Пользовательский интерфейс, UX, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, ползунок, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: b2f338dd25bbcc50a68a3c5e9b8d980d15827755
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: 15a536074f8f873456482a55c1c9dbe418602bb1
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97848228"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009564"
 ---
 # <a name="slider"></a>Slider
 
