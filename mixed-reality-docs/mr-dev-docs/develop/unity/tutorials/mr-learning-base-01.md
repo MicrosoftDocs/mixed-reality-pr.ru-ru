@@ -1,5 +1,5 @@
 ---
-title: Серия руководств по началу работы, часть 1 Знакомство с руководствами по началу работы
+title: Учебники по MRTK — 1. Введение в учебники по MRTK
 description: Из этого курса вы узнаете, как с помощью набора Mixed Reality Toolkit (MRTK) создавать приложения смешанной реальности.
 author: jessemcculloch
 ms.author: jemccull
@@ -7,14 +7,14 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, решатели, отслеживание взгляда, голосовые команды
 ms.localizationpriority: high
-ms.openlocfilehash: 14feba57c7a8995648d108ffa5e4af95c4fa2827
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 25a19d24a027000c78d6bffe2c74eb9f9d91370c
+ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94679333"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97613208"
 ---
-# <a name="1-introduction-to-the-getting-started-tutorials"></a>1. Знакомство с руководствами по началу работы
+# <a name="1-introduction-to-the-mrtk-tutorials"></a>1. Введение в учебники по MRTK
 
 ## <a name="overview"></a>Обзор
 

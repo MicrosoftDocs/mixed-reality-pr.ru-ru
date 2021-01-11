@@ -1,5 +1,5 @@
 ---
-title: Серия руководств по началу работы, часть 8 Использование функции отслеживания взгляда
+title: Учебники по MRTK — 8. Использование функции отслеживания взгляда
 description: Из этого курса вы узнаете, как использовать отслеживание глаз в Mixed Reality Toolkit (MRTK).
 author: jessemcculloch
 ms.author: jemccull
@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, отслеживание глаз
 ms.localizationpriority: high
-ms.openlocfilehash: 2b572a106cba904231ed124260cd879cd3a9a944
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 538204513589b96bedb8b20c46eee5735b764a4c
+ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94679753"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97613488"
 ---
 # <a name="8-using-eye-tracking"></a>8. Использование функции отслеживания взгляда
 

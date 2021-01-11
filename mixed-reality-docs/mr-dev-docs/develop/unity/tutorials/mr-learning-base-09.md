@@ -1,5 +1,5 @@
 ---
-title: Серия учебников по началу работы, часть 9 Использование речевых команд
+title: Учебники по MRTK — 9. Использование речевых команд
 description: Из этого курса вы узнаете, как использовать речевые команды в наборе средств для смешанной реальности (MRTK).
 author: jessemcculloch
 ms.author: jemccull
@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, речевые команды, голосовой ввод
 ms.localizationpriority: high
-ms.openlocfilehash: e51f9e816acbc2f98415deaec2c0885c97e40442
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 6e008f3e46bc4a22499691e284020321d29a2f23
+ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94679253"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97613468"
 ---
 # <a name="9-using-speech-commands"></a>9. Использование речевых команд
 

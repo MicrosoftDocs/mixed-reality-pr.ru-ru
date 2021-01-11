@@ -1,24 +1,24 @@
 ---
-title: Обзор разработки в Unity
-description: Приступите к созданию приложений смешанной реальности в Unity.
-author: thetuvix
+title: Разработка в Unity для HoloLens
+description: Приступите к созданию приложений смешанной реальности в Unity и HoloLens.
+author: hferrone
 ms.author: kurtie
 ms.date: 12/9/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unity, смешанная реальность, разработка, начало работы, новый проект, перенос, возможность, камера, имитация, эмуляция, документация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, что такое виртуальная реальность, что такое дополненная реальность, MRTK, Mixed Reality Toolkit, пространственное сопоставление, речевой ввод, камера с определяемым местоположением, эмулятор, Azure, учебники
-ms.openlocfilehash: 4eeec1544315ff2b9a43fc725d5bbd83c8cea89f
-ms.sourcegitcommit: f2782d0925b2075fdaa0a4ecdef3dd4f0b4e1e99
+ms.openlocfilehash: 150d86d1522f3fa71dd9d9a1fe154baef89496e0
+ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96926035"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97613478"
 ---
-# <a name="unity-development-overview"></a>Обзор разработки в Unity
+# <a name="unity-development-for-hololens"></a>Разработка в Unity для HoloLens 
 
 ![Баннер с логотипом Unity](../images/unity_logo_banner.png)
 
-Самым быстрым средством создания [приложения смешанной реальности](../../design/app-views.md) в[Unity](https://unity.com) является набор Mixed Reality Toolkit. Если вы еще не работали с Unity, мы рекомендуем вам предварительно изучить [руководства](https://unity3d.com/learn/tutorials) для начинающих на платформе Unity Learn. Также посетите комплексный портал [Asset Store](https://www.assetstore.unity3d.com/) и [форумы по смешанной реальности Unity](https://forum.unity3d.com/forums/hololens.102/), чтобы воспользоваться опытом онлайн-сообщества, создающего приложения смешанной реальности. Никогда не угадаешь, какие великолепные ресурсы или решения можно найти в Интернете. Когда вы будете готовы начать работу с MRTK, перейдите к этапам разработки ниже.
+Самым быстрым средством создания [приложения смешанной реальности](../../design/app-views.md) HoloLens в[Unity](https://unity.com) является набор Mixed Reality Toolkit. Если вы еще не работали с Unity, мы рекомендуем вам предварительно изучить [руководства](https://unity3d.com/learn/tutorials) для начинающих на платформе Unity Learn. Также посетите комплексный портал [Asset Store](https://www.assetstore.unity3d.com/) и [форумы по смешанной реальности Unity](https://forum.unity3d.com/forums/hololens.102/), чтобы воспользоваться опытом онлайн-сообщества, создающего приложения смешанной реальности. Никогда не угадаешь, какие великолепные ресурсы или решения можно найти в Интернете. Когда вы будете готовы начать работу с MRTK, перейдите к этапам разработки ниже.
 
 > [!IMPORTANT]
 > Ознакомьтесь с нашими **[руководствами по переносу](../porting-apps/porting-overview.md)** , если вы хотите перенести существующий проект Unity в HoloLens 2. Мы предоставляем руководства для проектов, которые используют HTK, MRTK версии 1 или SteamVR и которые были разработаны для иммерсивных гарнитур, таких как Reverb G2, Oculus Rift и HTC Vive.

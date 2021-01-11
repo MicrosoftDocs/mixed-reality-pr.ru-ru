@@ -1,5 +1,5 @@
 ---
-title: Серия руководств по началу работы, часть 7 Взаимодействие с трехмерными объектами
+title: Учебники по MRTK — 7. Взаимодействие с трехмерными объектами
 description: Из этого курса вы узнаете, как использовать Mixed Reality Toolkit (MRTK) для взаимодействия с трехмерными объектами.
 author: jessemcculloch
 ms.author: jemccull
@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, взаимодействие с объектами, ограничивающие прямоугольники
 ms.localizationpriority: high
-ms.openlocfilehash: 5e2857a7baf85187902bd98de6271e53dcc3539e
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: a457c850cdc5db7b9613ae20caab23d69b342997
+ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94679273"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97613498"
 ---
 # <a name="7-interacting-with-3d-objects"></a>7. Взаимодействие с трехмерными объектами
 

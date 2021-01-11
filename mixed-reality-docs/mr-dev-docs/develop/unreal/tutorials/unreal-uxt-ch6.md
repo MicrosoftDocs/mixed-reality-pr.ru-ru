@@ -7,12 +7,12 @@ ms.date: 06/10/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, учебник, начало работы, MRTK, UXT, UX Tools, документация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 7f6f501a5e2cde9fdb6aa3ba1aa973a4ab697fd8
-ms.sourcegitcommit: 87b54c75044f433cfadda68ca71c1165608e2f4b
+ms.openlocfilehash: 83d8068ca8ce73f23edb85cf9044db5409105380
+ms.sourcegitcommit: 9a93c9e9b3b088da942ac4386813ecf263c2e324
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97010553"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "97865399"
 ---
 # <a name="6-packaging--deploying-to-device-or-emulator"></a>6. Упаковка и развертывание на устройстве или в эмуляторе
 
@@ -30,6 +30,9 @@ ms.locfileid: "97010553"
 Если вы выбрали этот вариант для своего шахматного приложения, нужны будут следующие приготовления:
 
 1.  Установите и запустите **проигрыватель голографического удаленного взаимодействия** из Microsoft Store на устройстве HoloLens 2. Запишите IP-адрес, отображаемый в приложении.
+    * Выберите **Edit > Project Settings** (Правка > Параметры проекта) и убедитесь, что для параметра Windows **Default RHI** (RHI по умолчанию) задано значение **Default** (По умолчанию) или **D3D11**:
+
+![RHI по умолчанию](../images/unreal/performance-recommendations-img-09.png)
 
 2.  В редакторе Unreal выберите **Edit > Project Settings** (Правка > Параметры проекта) и в разделе **Holographic Remoting** (Голографическое удаленное взаимодействие) установите флажок **Enable Remoting** (Включить удаленное взаимодействие).
 

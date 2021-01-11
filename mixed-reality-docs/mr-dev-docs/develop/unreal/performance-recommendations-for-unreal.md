@@ -7,12 +7,12 @@ ms.date: 5/5/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, производительность, оптимизация, параметры, документация
-ms.openlocfilehash: 295f5c3653d02e9ab7ab4cd51dba57cafb5b291f
-ms.sourcegitcommit: 32cb81eee976e73cd661c2b347691c37865a60bc
+ms.openlocfilehash: a369a68f8ebf9b7084c22f0efa3bbf0bf5ecbebf
+ms.sourcegitcommit: 9a93c9e9b3b088da942ac4386813ecf263c2e324
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96609625"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "97865429"
 ---
 # <a name="performance-recommendations-for-unreal"></a>Рекомендации по производительности для Unreal
 
@@ -37,7 +37,7 @@ ms.locfileid: "96609625"
 
 ![Параметры отрисовки виртуальной реальности](images/unreal/performance-recommendations-img-03.png)
 
-4. При использовании OpenXR убедитесь, что выбран вариант **По умолчанию** или **D3D12** для параметра **RHI по умолчанию**.
+4. **[Только для OpenXR]** Убедитесь, что выбрано значение **Default** (По умолчанию) или **D3D12** для параметра **Default RHI** (RHI по умолчанию):
     * Вариант **D3D11** приведет к ухудшению производительности, так как платформе придется выполнять дополнительный проход отрисовки. **D3D12** улучшает производительность отрисовки (и не требует дополнительного прохода).
 
 ![RHI по умолчанию](images/unreal/performance-recommendations-img-09.png)
