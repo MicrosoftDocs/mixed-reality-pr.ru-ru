@@ -7,12 +7,12 @@ ms.date: 12/9/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Windows Mixed Reality, тестирование, MRTK, MRTK версии 2, HoloLens 2, Unity, перенос, 1-е поколение, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, миграция, рекомендации, ARM
-ms.openlocfilehash: ddff4ddff70211a5af38e367e863f81fd5f0c82d
-ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
+ms.openlocfilehash: c55eb47c7fa8e87fd1fe96fd3b81f3cd3a3ee5a0
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97612888"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009914"
 ---
 # <a name="porting-hololens-1st-gen-apps-to-hololens-2"></a>Перенос приложений HoloLens (1-го поколения) в HoloLens 2
 

@@ -1,5 +1,5 @@
 ---
-title: Учебники по облачным службам Azure, часть 5. Интеграция Службы Azure Bot c помощью LUIS
+title: Интеграция Службы Azure Bot c помощью LUIS
 description: Пройдите этот курс, чтобы узнать, как реализовать Службу Azure Bot и возможность распознавания естественного языка в приложении HoloLens 2.
 author: jessemcculloch
 ms.author: jemccull
@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, HoloLens 2, служба Azure Bot, LUIS, естественный язык, чат-бот, облачные службы Azure, Пользовательское визуальное распознавание Azure, Windows 10
 ms.localizationpriority: high
-ms.openlocfilehash: d9884fc135a38e610df9faceb8cf4b24c21f7982
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 70d136467bc677c028614429e6e197ce25b30327
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94679363"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98008254"
 ---
 # <a name="5-integrating-azure-bot-service"></a>5. Интеграция Службы Azure Bot
 

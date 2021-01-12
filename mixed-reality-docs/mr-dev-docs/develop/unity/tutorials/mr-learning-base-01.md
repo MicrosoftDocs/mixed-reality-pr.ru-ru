@@ -1,5 +1,5 @@
 ---
-title: Учебники по MRTK — 1. Введение в учебники по MRTK
+title: Введение в учебники по MRTK
 description: Из этого курса вы узнаете, как с помощью набора Mixed Reality Toolkit (MRTK) создавать приложения смешанной реальности.
 author: jessemcculloch
 ms.author: jemccull
@@ -7,16 +7,14 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, решатели, отслеживание взгляда, голосовые команды
 ms.localizationpriority: high
-ms.openlocfilehash: 25a19d24a027000c78d6bffe2c74eb9f9d91370c
-ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
+ms.openlocfilehash: 27a5f2cae4f08fbc142c8b872c22d23ab41cdc62
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97613208"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98008084"
 ---
 # <a name="1-introduction-to-the-mrtk-tutorials"></a>1. Введение в учебники по MRTK
-
-## <a name="overview"></a>Обзор
 
 Приветствуем вас в серии руководств по началу работы! Из этих руководств вы узнаете о наборе средств для смешанной реальности (MRTK) и некоторых его функциях. Кроме того, вы создадите взаимодействие в смешанной реальности, чтобы пользователи могли рассмотреть голограмму, созданную по модели марсохода NASA Curiosity. Пройдя эту серию, вы сможете уверенно работать с MRTK и ускорите процесс разработки.
 

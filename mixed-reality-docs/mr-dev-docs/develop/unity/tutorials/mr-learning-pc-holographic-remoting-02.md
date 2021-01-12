@@ -1,5 +1,5 @@
 ---
-title: Руководства по голографическому удаленному взаимодействию с компьютером, часть 2. Создание приложения для голографического удаленного взаимодействия с компьютером
+title: Создание приложения для голографического удаленного взаимодействия с компьютером
 description: Пройдите этот курс, чтобы узнать, как создать приложение для ПК с реализацией удаленного взаимодействия в режиме смешанной реальности между вашим компьютером и HoloLens 2.
 author: jessemcculloch
 ms.author: jemccull
@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, голографическое удаленное взаимодействие с компьютером, Visual Studio
 ms.localizationpriority: high
-ms.openlocfilehash: 258fd80c812fca246190e98b3fa371b2f4c1b51f
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: fd357b0b487b948afb6ae15c9e84362e2bc1ef90
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94679243"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98007334"
 ---
 # <a name="2-creating-a-holographic-remoting-pc-application"></a>2. Создание приложения для голографического удаленного взаимодействия с компьютером
 

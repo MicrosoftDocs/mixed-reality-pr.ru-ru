@@ -1,5 +1,5 @@
 ---
-title: Учебники по MRTK — 5. Создание динамического содержимого с помощью решателей
+title: Создание динамического содержимого с помощью решателей
 description: Из этого курса вы узнаете, как с помощью решателей Mixed Reality Toolkit (MRTK) создавать динамическое содержимое.
 author: jessemcculloch
 ms.author: jemccull
@@ -7,16 +7,14 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, решатели
 ms.localizationpriority: high
-ms.openlocfilehash: 533aa1c9f2b0b7620e23d611714552fb19a5357b
-ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
+ms.openlocfilehash: 959ed164e566f5bee3db203437145fa08ce168d8
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97613508"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98008024"
 ---
 # <a name="5-creating-dynamic-content-using-solvers"></a>5. Создание динамического содержимого с помощью решателей
-
-## <a name="overview"></a>Обзор
 
 В этом учебнике мы рассмотрим способы динамического помещения голограмм с помощью доступных инструментов размещения MRTK, известных как "решатели" и предназначенных для сложных сценариев пространственного размещения. В MRTK решатели — это система сценариев и поведений, которые мы используем, чтобы разрешить объектам следовать за вами, пользователем или другими игровыми объектами на сцене. С их помощью также можно выполнить прикрепление к определенной позиции, что делает приложение интуитивно понятным.
 

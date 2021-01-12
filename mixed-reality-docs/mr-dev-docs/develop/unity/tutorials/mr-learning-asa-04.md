@@ -1,5 +1,5 @@
 ---
-title: Руководства по Пространственным привязкам Azure, часть 4 Отображение отзывов по Пространственным привязкам Azure
+title: Отображение отзывов по Пространственным привязкам Azure
 description: Пройдите этот курс и узнайте, как использовать визуальную обратную связь от Пространственных привязок Azure в приложении смешанной реальности.
 author: jessemcculloch
 ms.author: jemccull
@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure, сеансы, элементы обратной связи
 ms.localizationpriority: high
-ms.openlocfilehash: fe87e539060b57f505838b43e897e8b6d8336aaf
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 05e418b84f3370274433c4cc21f0122f3475301c
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94679393"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98008334"
 ---
 # <a name="4-displaying-feedback-from-azure-spatial-anchors"></a>4. Отображение отзывов по Пространственным привязкам Azure
 

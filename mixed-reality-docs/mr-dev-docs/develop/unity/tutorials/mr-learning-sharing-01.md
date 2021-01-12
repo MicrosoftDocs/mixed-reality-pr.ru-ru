@@ -1,5 +1,5 @@
 ---
-title: Руководства по многопользовательским возможностям, часть 1. Введение в руководства по многопользовательским возможностям
+title: Введение в руководства по многопользовательским возможностям
 description: В рамках этого курса вы узнаете, как реализовать многопользовательские возможности в приложении HoloLens 2.
 author: jessemcculloch
 ms.author: jemccull
@@ -7,16 +7,14 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, многопользовательские возможности, Photon, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure
 ms.localizationpriority: high
-ms.openlocfilehash: 9bcaed777b8b98d95065324fc1fb5b33a1923e63
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 1000b4d2637e3a0f3bbc79df9866577427674767
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94679743"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98007224"
 ---
 # <a name="1-introduction-to-the-multi-user-capabilities-tutorials"></a>1. Введение в руководства по многопользовательским возможностям
-
-## <a name="overview"></a>Обзор
 
 Приветствуем в руководствах по многопользовательским возможностям! Из этой серии руководств вы узнаете об основных принципах создания многопользовательских взаимодействий с помощью <a href="https://www.photonengine.com/PUN" target="_blank">Photon Unity Networking</a> (PUN). PUN — это одна из нескольких сетевых платформ, на основе которых разработчики смешанной реальности могут создавать совместные взаимодействия.
 

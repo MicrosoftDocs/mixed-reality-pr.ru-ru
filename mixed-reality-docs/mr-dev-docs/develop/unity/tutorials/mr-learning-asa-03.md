@@ -1,5 +1,5 @@
 ---
-title: Руководства по Пространственным привязкам Azure — часть 3. Сохранение, получение и совместное использование Пространственных привязок Azure
+title: Сохранение, получение и совместное использование Пространственных привязок Azure
 description: Пройдите этот курс и узнайте, как сохранять, получать и совместно использовать Пространственные привязки Azure в приложении смешанной реальности.
 author: jessemcculloch
 ms.author: jemccull
@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure, сеансы приложений
 ms.localizationpriority: high
-ms.openlocfilehash: c085aecef1ce32565d2f3bbbf1d5fdb2da91c217
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: abe0c8bc70469826e25f7016a3cc1ba971c1fcc1
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94679413"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98008364"
 ---
 # <a name="3-saving-retrieving-and-sharing-azure-spatial-anchors"></a>3. Сохранение, получение и совместное использование Пространственных привязок Azure
 

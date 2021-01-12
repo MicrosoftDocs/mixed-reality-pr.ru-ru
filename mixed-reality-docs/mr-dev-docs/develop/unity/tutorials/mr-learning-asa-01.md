@@ -1,5 +1,5 @@
 ---
-title: Руководства по Пространственным привязкам Azure, часть 1 Знакомство с руководствами по Пространственным привязкам Azure
+title: Знакомство с руководствами по Пространственным привязкам Azure
 description: Пройдите этот курс и узнайте, как реализовать Пространственные привязки Azure в приложении смешанной реальности.
 author: jessemcculloch
 ms.author: jemccull
@@ -7,16 +7,14 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure, iOS, Android, Windows 10, ARCore, macOS, Android Build Support, ARKit
 ms.localizationpriority: high
-ms.openlocfilehash: 005bbf3f9ecb7ed7f15f78d4042b4090f00edca7
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 6ac412913f8d475d213a26cb4f9f82e12d129b82
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94679403"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98008404"
 ---
 # <a name="1-introduction-to-the-azure-spatial-anchors-tutorials"></a>1. Знакомство с руководствами по Пространственным привязкам Azure
-
-## <a name="overview"></a>Обзор
 
 Добро пожаловать в руководства по Пространственным привязкам Azure! Из этой серии руководств вы узнаете о <a href="https://azure.microsoft.com/services/spatial-anchors" target="_blank">Пространственных привязках Azure</a> (ASA) и о том, как использовать возможности смешанной реальности в реальном мире. Вы также узнаете, как развернуть проект в Android и iOS.
 
