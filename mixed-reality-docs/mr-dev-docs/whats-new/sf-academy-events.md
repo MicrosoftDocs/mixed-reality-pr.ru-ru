@@ -6,12 +6,12 @@ ms.author: daescu
 ms.date: 10/12/2020
 ms.topic: article
 keywords: событие, календарь, Academy, расписание, SF, Сан Франциско, реактора
-ms.openlocfilehash: ce0fb818547af70252e7387a910207e333407363
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: a7d592243f758415c0ca757f35567d80fbfc1f2f
+ms.sourcegitcommit: 44d0f2873c75003caf9d8d244ceaeb3faa89df63
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98010004"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98110442"
 ---
 # <a name="microsoft-mixed-reality-events"></a>События Microsoft Mixed Reality
 
@@ -31,4 +31,4 @@ ms.locfileid: "98010004"
 | Серия докладов по смешанной реальности|22 сентября 2020 г.|[Escape-Киппи: введение в нереальном & МРТК для HoloLens 2]()|
 | Серия докладов по смешанной реальности|22 октября 2020 г.|[Введение в Вебкср с Бабилонжс](https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Adding-Augmented-Reality-to-your-Typescript-Project)|
 | Серия докладов по смешанной реальности|17 ноября 2020 г.|[Создание будущего: что нового в МРТК](https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Building-the-Future-Whats-New-in-the-Mixed-Reality-Toolkit)|
-| Серия докладов по смешанной реальности|1 декабря 2020 г.|[Проектирование голограмм]()|
+| Серия докладов по смешанной реальности|1 декабря 2020 г.|[Проектирование голограмм](https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Making-of-Designing-Holograms)|
