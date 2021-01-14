@@ -1,22 +1,20 @@
 ---
-title: Учебники по MRTK — 9. Использование речевых команд
-description: Из этого курса вы узнаете, как использовать речевые команды в наборе средств для смешанной реальности (MRTK).
+title: Использование речевых команд
+description: Из этого курса вы узнаете, как создать, настроить и использовать речевые команды в приложениях смешанной реальности с помощью Mixed Reality Toolkit (MRTK).
 author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, речевые команды, голосовой ввод
 ms.localizationpriority: high
-ms.openlocfilehash: 6e008f3e46bc4a22499691e284020321d29a2f23
-ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
+ms.openlocfilehash: 8aea8ead6416787f2979e0deff46ee5d6d45eb19
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97613468"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98007914"
 ---
 # <a name="9-using-speech-commands"></a>9. Использование речевых команд
-
-## <a name="overview"></a>Обзор
 
 Из этого учебника вы узнаете, как создавать речевые команды и управлять ими глобально. Вы также узнаете, как управлять локальными речевыми командами, которые требуют от пользователя просмотра объекта, управляющего речевой командой.
 
@@ -32,7 +30,7 @@ ms.locfileid: "97613468"
 ![Включение поддержки микрофона](images/mr-learning-base/base-09-section1-step1-1.png)
 
 > [!NOTE]
-> Во время выполнения инструкций по настройке проекта Unity из раздела [Применение параметров конфигуратора проекта MRTK](mr-learning-base-02.md#1-apply-the-mrtk-project-configurator-settings), приведенного в начале этого учебного курса, должна быть включена функция поддержки микрофона. Если функция отключена, включите ее сейчас.
+> Во время выполнения инструкций по настройке проекта Unity из раздела [Применение параметров конфигуратора проекта MRTK](mr-learning-base-02.md#selecting-mrtk-and-project-settings), приведенного в начале этого учебного курса, должна быть включена функция поддержки микрофона. Если функция отключена, включите ее сейчас.
 
 ## <a name="creating-speech-commands"></a>Создание речевых команд
 

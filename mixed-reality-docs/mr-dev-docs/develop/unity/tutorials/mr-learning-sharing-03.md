@@ -1,18 +1,18 @@
 ---
-title: Руководства по многопользовательским возможностям, часть 3. Подключение нескольких пользователей
-description: В рамках этого курса вы узнаете, как подключить нескольких пользователей в приложении HoloLens 2.
+title: Подключение нескольких пользователей
+description: В рамках этого курса вы узнаете, как подключить нескольких пользователей в приложении смешанной реальности HoloLens 2.
 author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, многопользовательские возможности, Photon, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure
 ms.localizationpriority: high
-ms.openlocfilehash: c16182fe2363b4682a25d70715f5ee8cb65d5886
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 6cc77b32e9479bafeb53dcb99cba4f2f29865fd7
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94679763"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98007214"
 ---
 # <a name="3-connecting-multiple-users"></a>3. Подключение нескольких пользователей
 
@@ -112,7 +112,7 @@ ms.locfileid: "94679763"
 ![Анимация, показывающая Unity с сетевыми пользователями](images/mr-learning-sharing/sharing-03-section4-step1-1.gif)
 
 > [!TIP]
-> Сведения о том, как правильно скомпилировать проект Unity и развернуть его в HoloLens 2, см. в разделе [Создание приложения для HoloLens 2](mr-learning-base-02.md#building-your-application-to-your-hololens-2).
+> Сведения о том, как правильно скомпилировать проект Unity и развернуть его в HoloLens 2, см. в разделе [Создание приложения для HoloLens 2](mr-learning-base-02.md#building-and-deploying-to-your-hololens-2).
 
 > [!CAUTION]
 > Этому приложению требуется подключение к Photon, поэтому не забудьте проверить подключение компьютера или устройства к Интернету.

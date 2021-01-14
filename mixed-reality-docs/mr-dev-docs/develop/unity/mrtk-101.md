@@ -1,18 +1,18 @@
 ---
-title: Общие сведения об MRTK. Как с помощью Mixed Reality Toolkit для Unity выполнять стандартные пространственные взаимодействия (HoloLens 2, HoloLens, Windows Mixed Reality, Open VR)
-description: Как с помощью Набора средств Unity для смешанной реальности выполнять базовые операции взаимодействия (HoloLens 2, HoloLens, Windows Mixed Reality, Open VR)
+title: Общие сведения об MRTK. Использование распространенных пространственных взаимодействий
+description: Как с помощью Набора средств Unity для смешанной реальности выполнять базовые операции взаимодействия для HoloLens 2, HoloLens, Windows Mixed Reality и Open VR.
 author: cre8ivepark
 ms.author: dongpark
 ms.date: 08/27/2019
 ms.topic: article
 keywords: HoloLens, MRTK, Mixed Reality Toolkit, Windows Mixed Reality, проектирование, пример приложения, средства управления, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
 ms.localizationpriority: high
-ms.openlocfilehash: 16087b69a45def0f496d2ded434458725474bd25
-ms.sourcegitcommit: 87b54c75044f433cfadda68ca71c1165608e2f4b
+ms.openlocfilehash: ff3c6e055bca66fc5ad12548966140af8197235c
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97010605"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98008944"
 ---
 # <a name="mrtk-101-how-to-use-mixed-reality-toolkit-unity-for-common-spatial-interactions"></a>Общие сведения об MRTK. Как использовать Mixed Reality Toolkit в Unity для реализации стандартных пространственных взаимодействий
 

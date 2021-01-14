@@ -1,20 +1,20 @@
 ---
-title: Руководства по использованию службы "Речь" в Azure, часть 2. Добавление автономного режима для преобразования речи в текст в локальной среде
-description: В рамках этого курса вы узнаете, как реализовать пакет SDK "Речь" в приложении смешанной реальности.
+title: Добавление автономного режима для преобразования речи в текст в локальной среде
+description: Пройдите этот курс, чтобы узнать, как добавить автономный режим для локального перевода речи в текст в приложениях смешанной реальности.
 author: jessemcculloch
 ms.author: jemccull
 ms.date: 06/27/2019
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure, распознавание речи, Windows 10
 ms.localizationpriority: high
-ms.openlocfilehash: d5b0e5140c698996c051eab10064d99280482886
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: db495d6cdfa99721e68b4004535a5411bde9b17d
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94679733"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98010084"
 ---
-# <a name="2-using-speech-recognition-to-execute-commands"></a>2. Использование функции распознавания речи для выполнения команд
+# <a name="2-adding-an-offline-mode-for-local-speech-to-text-translation"></a>2. Добавление автономного режима для преобразования речи в текст в локальной среде
 
 В этом руководстве вы добавите возможность выполнения команд с помощью распознавания речи Azure, что позволит выполнять действия по определенным в приложении словам или фразам.
 
@@ -29,18 +29,18 @@ ms.locfileid: "94679733"
 * В поле **Wake Word** (Слово для пробуждения) введите подходящую фразу, например _Activate terminal_ (Активировать терминал).
 * В поле **Dismiss Word** (Слово для отключения) введите подходящую фразу, например _Dismiss terminal_ (Отключить терминал).
 
-![mrlearning-speech](images/mrlearning-speech/tutorial2-section1-step1-1.png)
+![Редактор Unity с выделенным компонентом скрипта Lunarcom Wake Word Recognizer](images/mrlearning-speech/tutorial2-section1-step1-1.png)
 
 > [!NOTE]
 > Компонент Lunarcom Wake Word Recognizer (Script) (Распознаватель слова для пробуждения Lunarcom — скрипт) не входит в состав MRTK. Он был предоставлен с активами для этого руководства.
 
 Если теперь вы входите в игровой режим, как описано в предыдущем руководстве, панель терминала будет по умолчанию включена, но вы сможете ее отключить, произнеся настроенное слово для отключения **Dismiss terminal**:
 
-![mrlearning-speech](images/mrlearning-speech/tutorial2-section1-step1-2.png)
+![Редактор Unity в режиме воспроизведения с используемой функцией распознавания речи](images/mrlearning-speech/tutorial2-section1-step1-2.png)
 
 Чтобы снова включить терминал, произнесите слово для пробуждения **Activate terminal**:
 
-![mrlearning-speech](images/mrlearning-speech/tutorial2-section1-step1-3.png)
+![Редактор Unity в режиме воспроизведения с активным терминалом](images/mrlearning-speech/tutorial2-section1-step1-3.png)
 
 > [!CAUTION]
 > Этому приложению требуется подключение к Azure, поэтому не забудьте проверить связь компьютера или устройства с Интернетом.

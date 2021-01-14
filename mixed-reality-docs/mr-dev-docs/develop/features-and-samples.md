@@ -1,18 +1,18 @@
 ---
 title: Примеры приложений и возможностей
-description: Узнайте о примерах доступных возможностей HoloLens.
+description: Узнавайте первыми обо всех доступных примерах Майкрософт и приложениях-функциях смешанной реальности для HoloLens.
 author: hferrone
 ms.author: jemccull
 ms.date: 12/3/2020
 ms.topic: article
 keywords: смешанная реальность, unity, руководство, hololens, обучение, примеры, mrtk, режим исследований, hololens 2, qr-коды, webrtc, запись смешанной реальности, удаленное взаимодействие, средства пользовательского интерфейса
 ms.localizationpriority: high
-ms.openlocfilehash: 2624949dd21b4c8e14ed45f152d41900b5f91faf
-ms.sourcegitcommit: 924f8c1ceb93c378f800cf88d82944cf80f092bc
+ms.openlocfilehash: 3aa0e51a92b909689ff97a07b45900ab65579c59
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96615551"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98007614"
 ---
 # <a name="samples-and-feature-apps"></a>Примеры приложений и возможностей
 

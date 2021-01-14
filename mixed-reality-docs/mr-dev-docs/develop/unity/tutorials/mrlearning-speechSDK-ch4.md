@@ -1,18 +1,18 @@
 ---
-title: Руководства по использованию службы "Речь" в Azure, часть 4 Настройка намерения и распознавания естественного языка
-description: В рамках этого курса вы узнаете, как реализовать пакет SDK службы "Речь" в приложении смешанной реальности.
+title: Настройка намерения и распознавание естественного языка
+description: Пройдите этот курс, чтобы узнать, как настроить распознавание намерений и естественного языка в приложениях смешанной реальности.
 author: jessemcculloch
 ms.author: jemccull
 ms.date: 02/26/2019
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure, распознавание речи, Windows 10, LUIS, портал LUIS, намерение, сущности, речевые фрагменты, понимание естественного языка
 ms.localizationpriority: high
-ms.openlocfilehash: b21637fc0630b6cb024dcdbc0a1985979914d3a0
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 07044d3dc38be12d5d601d34a23a241a71c5b06d
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94678513"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98007774"
 ---
 # <a name="4-setting-up-intent-and-natural-language-understanding"></a>4. Настройка намерения и распознавания естественного языка
 

@@ -1,18 +1,18 @@
 ---
 title: Фото- и видеокамера HoloLens в Unreal
-description: Руководство по работе с фото- и видеокамерой HoloLens в Unreal
+description: Сведения о том, как использовать фото- и видеокамеру HoloLens для Съемки смешанной реальности и поиска объектов в Unreal.
 author: hferrone
 ms.author: jacksonf
 ms.date: 12/9/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, разработка, функции, документация, руководства, голограммы, камера, фото-/видеокамера, MRC, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: fb7bbf5a0f41c15d73e59226dad32cda8764e6cc
-ms.sourcegitcommit: f2782d0925b2075fdaa0a4ecdef3dd4f0b4e1e99
+ms.openlocfilehash: 15eba0c992d6d3d8895314f1a6128ace18c02483
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96926100"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98010064"
 ---
 # <a name="hololens-photovideo-camera-in-unreal"></a>Фото- и видеокамера HoloLens в Unreal
 
@@ -38,5 +38,6 @@ ms.locfileid: "96926100"
 Вы можете в любой момент вернуться к [этапам разработки для Unreal](unreal-development-overview.md#3-platform-capabilities-and-apis).
 
 ## <a name="see-also"></a>См. также статью
+
 * [Камера с определяемым местоположением](../platform-capabilities-and-apis/locatable-camera.md)
 * [Съемка смешанной реальности для разработчиков](../platform-capabilities-and-apis/mixed-reality-capture-for-developers.md)

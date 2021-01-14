@@ -1,18 +1,18 @@
 ---
 title: QR-коды в Unreal
-description: Введение в использование QR-кодов в Unreal
+description: Сведения о том, как настраивать, использовать и отслеживать QR-коды в приложениях смешанной реальности Unreal.
 author: hferrone
 ms.author: v-hferrone
 ms.date: 12/9/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, разработка, функции, документация, руководства, голограммы, QR-коды, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 72f08c22b8dcab5e13de2baae817b3496ada1a60
-ms.sourcegitcommit: f2782d0925b2075fdaa0a4ecdef3dd4f0b4e1e99
+ms.openlocfilehash: 1daa368ee9f98accec58c6621073bd7caefdfdcb
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96926075"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98010014"
 ---
 # <a name="qr-codes-in-unreal"></a>QR-коды в Unreal
 
@@ -28,6 +28,7 @@ ms.locfileid: "96926075"
 > QR-коды — это единственный тип изображений, отслеживаемый HoloLens без дополнительной настройки. Модуль Unreal **UARTrackedImage** не поддерживается в HoloLens. Если вам требуется отслеживать собственные изображения, вы можете получать данные с [веб-камеры](unreal-hololens-camera.md) устройства и обрабатывать кадры с нее с помощью сторонней библиотеки распознавания изображений. 
 
 ## <a name="enabling-qr-detection"></a>Включение обнаружения QR-кодов
+
 Поскольку для обнаружения QR-кодов устройству HoloLens 2 нужно задействовать веб-камеру, необходимо включить эту функцию в параметрах проекта:
 - Выберите **Edit > Project Settings** (Правка > Параметры проекта), прокрутите вниз до раздела **Platforms** (Платформы) и выберите элемент **HoloLens**.
     + Разверните раздел **Capabilities** (Возможности) и установите флажок **Webcam** (Веб-камера).  
@@ -52,6 +53,7 @@ QR-коды выводятся в виде отслеживаемого изоб
 ![Добавление узла в событие On Add Tracked Geometry (При добавлении отслеживаемой геометрии)](images/unreal-qr-codes-tracked-geometry.png)
 
 ## <a name="using-a-tracked-qr-code"></a>Использование отслеживаемого QR-кода
+
 В графе событий, показанном на следующей иллюстрации, событие **OnUpdateTrackedImage** используется для отрисовки точки в центре QR-кода и печати его данных.
 
 [!INCLUDE[](includes/tabs-qr-codes-2.md)]
@@ -63,6 +65,7 @@ QR-коды выводятся в виде отслеживаемого изоб
 Можно также [получить систему координат для QR-кода](https://docs.microsoft.com/windows/mixed-reality/qr-code-tracking#getting-the-coordinate-system-for-a-qr-code) в программном коде.
 
 ## <a name="finding-the-unique-id"></a>Поиск уникального идентификатора
+
 Каждый QR-код имеет уникальный идентификатор (GUID), найти который можно следующим образом:
 - Перетащите закрепление **As ARTracked QRCode** (Как отслеживаемый QR-код дополненной реальности) и найдите узел **Get Unique ID** (Получить уникальный идентификатор).
 

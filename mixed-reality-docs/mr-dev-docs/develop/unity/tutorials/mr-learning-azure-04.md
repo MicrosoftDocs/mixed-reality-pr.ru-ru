@@ -1,5 +1,5 @@
 ---
-title: Руководства по облачным службам Azure, часть 4. Интеграция Пространственных привязок Azure
+title: Интеграция Пространственных привязок Azure
 description: Пройдите этот курс и узнайте, как реализовать Пространственные привязки Azure в приложении HoloLens 2.
 author: jessemcculloch
 ms.author: jemccull
@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, HoloLens 2, Пространственные привязки Azure, облачные службы Azure, Пользовательское визуальное распознавание Azure, Windows 10
 ms.localizationpriority: high
-ms.openlocfilehash: 5245f3522e7822c16ebc0d0113634f152f223086
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 50e5bccf09e03ebda8057dbb3ca9d83fc01694bd
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94679343"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98008174"
 ---
 # <a name="4-integrating-azure-spatial-anchors"></a>4. Интеграция Пространственных привязок Azure
 
@@ -60,7 +60,7 @@ ms.locfileid: "94679343"
 Пространственные привязки Azure не могут работать в Unity. Поэтому для проверки функциональных возможностей этой службы вам придется развернуть проект на устройстве.
 
 > [!TIP]
-> Сведения о том, как правильно скомпилировать проект Unity и развернуть его на HoloLens 2, см. в разделе [Создание приложения для HoloLens 2](mr-learning-base-02.md#building-your-application-to-your-hololens-2).
+> Сведения о том, как правильно скомпилировать проект Unity и развернуть его на HoloLens 2, см. в разделе [Создание приложения для HoloLens 2]((mr-learning-base-02.md#building-and-deploying-to-your-hololens-2).
 
 ## <a name="run-the-app-on-your-hololens-2-and-follow-the-in-app-instructions"></a>Запустите приложение на HoloLens 2 и следуйте предоставленным инструкциям
 

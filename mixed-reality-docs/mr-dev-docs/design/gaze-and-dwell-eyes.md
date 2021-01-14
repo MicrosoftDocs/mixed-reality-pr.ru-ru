@@ -1,18 +1,18 @@
 ---
 title: Определение направления взгляда и остановка
-description: Общие сведения о модели ввода на основе направления взгляда и остановки.
+description: Начните работу с обзором модели ввода на основе направления взгляда и остановки, а также узнайте больше о моделях взаимодействия, рекомендациях по проектированию и уникальных проблемах.
 author: sostel
 ms.author: sostel
 ms.date: 10/29/2019
 ms.topic: article
 ms.localizationpriority: high
 keywords: отслеживание взгляда, смешанная реальность, ввод, управление взглядом, отслеживание взглядом, HoloLens 2, выбор глазами, остановка взгляда, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, MRTK, Mixed Reality Toolkit, проектирование
-ms.openlocfilehash: bf9ad97790093a08156660bfd6e33d16c06e6387
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: 78f8dcec3c8368128ec5904df36ce1391aa8b879
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97847810"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98007714"
 ---
 # <a name="eye-gaze-and-dwell"></a>Определение направления взгляда и остановка
 
@@ -43,6 +43,7 @@ ms.locfileid: "97847810"
 ![Состояния остановленного взгляда](images/eyes_dwellstate_recommendation.png)<br>
 
 ## <a name="see-also"></a>См. также статью
+
 * [Отслеживание взгляда](eye-tracking.md)
 * [Определение направления взгляда и фиксация](gaze-and-commit-eyes.md)
 * [Взгляд и фиксация](gaze-and-commit.md)

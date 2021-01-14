@@ -1,18 +1,18 @@
 ---
 title: Установка инструментов
-description: Ознакомьтесь с этой статьей, чтобы подготовиться к разработке решений смешанной реальности. В этой статье всегда должны быть указаны самые последние версии Unity, Visual Studio и других инструментов, рекомендованных для разработки приложений для иммерсивных гарнитур HoloLens и Windows Mixed Reality.
+description: Здесь вы найдете последние версии Unity, Visual Studio и инструментов, рекомендуемых для разработки для HoloLens и виртуальной реальности.
 author: thetuvix
 ms.author: alexturn
 ms.date: 12/9/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: актуальность, инструменты, начало работы, основы, Unity, Visual Studio, набор средств, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, установка, Windows, HoloLens, эмулятор, Unreal, OpenXR
-ms.openlocfilehash: addbab6a7bedc7c8065e7b68923bf1956a522a02
-ms.sourcegitcommit: f2782d0925b2075fdaa0a4ecdef3dd4f0b4e1e99
+ms.openlocfilehash: 447f0713ef26757bd6fcf89684a7f5d59a052dcb
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96925995"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009424"
 ---
 # <a name="install-the-tools"></a>Установка инструментов
 

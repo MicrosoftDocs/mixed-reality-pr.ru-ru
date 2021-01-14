@@ -1,18 +1,18 @@
 ---
 title: Использование портала устройств Windows
-description: Портал устройств Windows для HoloLens позволяет настроить устройство и управлять им удаленно по подключению через Wi-Fi или USB. Портал устройств — это веб-сервер на вашем устройстве HoloLens, к которому можно подключаться из веб-браузера на ПК. Портал устройств содержит множество инструментов, которые помогут вам управлять HoloLens, отлаживать и оптимизировать приложения.
+description: Сведения о том, как настраивать устройства удаленно через Wi-Fi или USB с помощью портала устройств Windows, а также как управлять ими.
 author: hamalawi
 ms.author: moelhama
 ms.date: 08/03/2020
 ms.topic: article
 keywords: Портал устройств Windows, HoloLens
 ms.localizationpriority: high
-ms.openlocfilehash: 168d4175a7e55d5116f19c51a802c9a8abdc1e19
-ms.sourcegitcommit: c41372e0c6ca265f599bff309390982642d628b8
+ms.openlocfilehash: 75eda2775486b1ace82b574816db34a2f895c80b
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97530319"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98007794"
 ---
 # <a name="using-the-windows-device-portal"></a>Использование портала устройств Windows
 

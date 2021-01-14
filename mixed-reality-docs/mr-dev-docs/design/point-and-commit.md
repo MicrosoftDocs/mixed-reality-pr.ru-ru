@@ -1,18 +1,18 @@
 ---
 title: Наведение и фиксация с использованием рук
-description: Общие сведения о модели ввода с наведением и фиксацией
+description: Сведения об основах модели ввода с наведением и фиксацией для поддержки жестов в приложениях смешанной реальности.
 author: caseymeekhof
 ms.author: cmeekhof
 ms.date: 04/05/2019
 ms.topic: article
 ms.localizationpriority: high
 keywords: смешанная реальность, взаимодействие, проектирование, HoloLens, руки, дальность, наведение и фиксация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, телекинез, манипулирование объектами, MRTK, Mixed Reality Toolkit, степень свободы
-ms.openlocfilehash: 13b692dada134f856ac6eed446cca45702030f67
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: 4ee1fabac763a22006b956e46a908ff4d11e395f
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97848290"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009744"
 ---
 # <a name="point-and-commit-with-hands"></a>Наведение и фиксация с использованием рук
 

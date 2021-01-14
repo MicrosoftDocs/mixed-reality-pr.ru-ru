@@ -1,22 +1,20 @@
 ---
-title: Учебники по MRTK — 8. Использование функции отслеживания взгляда
-description: Из этого курса вы узнаете, как использовать отслеживание глаз в Mixed Reality Toolkit (MRTK).
+title: Использование функции отслеживания взгляда
+description: Из этого курса вы узнаете, как использовать отслеживание глаз в приложениях смешанной реальности в Mixed Reality Toolkit (MRTK).
 author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, отслеживание глаз
 ms.localizationpriority: high
-ms.openlocfilehash: 538204513589b96bedb8b20c46eee5735b764a4c
-ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
+ms.openlocfilehash: f464ba4e08f1446f1d50eda577aedf9d070630ee
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97613488"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98007894"
 ---
 # <a name="8-using-eye-tracking"></a>8. Использование функции отслеживания взгляда
-
-## <a name="overview"></a>Обзор
 
 Из этого руководства вы узнаете, как включить функцию отслеживания взгляда для HoloLens 2 и добавить ее в объекты, чтобы активировать действия, когда пользователь смотрит на объекты.
 
@@ -35,7 +33,7 @@ ms.locfileid: "97613488"
 ![Окно конфигурации проекта MRTK в Unity](images/mr-learning-base/base-08-section1-step1-1.png)
 
 > [!NOTE]
-> Функция ввода с использованием взгляда должна была быть включена в ходе выполнения инструкций, приведенных в разделе [Применение параметров конфигуратора проекта MRTK](mr-learning-base-02.md#1-apply-the-mrtk-project-configurator-settings), при настройке проекта Unity в начале работы с этой серией руководств. Если функция отключена, включите ее сейчас.
+> Функция ввода с использованием взгляда должна была быть включена в ходе выполнения инструкций, приведенных в разделе [Применение параметров конфигуратора проекта MRTK](mr-learning-base-02.md#selecting-mrtk-and-project-settings), при настройке проекта Unity в начале работы с этой серией руководств. Если функция отключена, включите ее сейчас.
 
 ## <a name="enabling-eye-based-gaze-in-the-gaze-provider"></a>Включение отслеживания взгляда в поставщике данных о направлении взгляда
 

@@ -1,22 +1,20 @@
 ---
-title: Учебники по MRTK — 6. Создание пользовательских интерфейсов
-description: Из этого курса вы узнаете, как с помощью Mixed Reality Toolkit (MRTK) создавать пользовательские интерфейсы.
+title: Создание пользовательских интерфейсов
+description: Из этого курса вы узнаете, как с помощью Mixed Reality Toolkit (MRTK) создавать статические и динамические пользовательские интерфейсы.
 author: jessemcculloch
 ms.author: jemccull
 ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, заготовки, голограммы, советы
 ms.localizationpriority: high
-ms.openlocfilehash: 90b794dc6e88b724d16c339e428c4d2ed9cdac07
-ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
+ms.openlocfilehash: 989de4871332608448619e75ffd760c616332533
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97613518"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98008064"
 ---
 # <a name="6-creating-user-interfaces"></a>6. Создание пользовательских интерфейсов
-
-## <a name="overview"></a>Обзор
 
 В этом учебнике показано, как создать простой пользовательский интерфейс, используя кнопки MRTK и заготовки меню вместе с компонентом Unity TextMeshPro. Кроме того, здесь приведены сведения о том, как настроить кнопки для запуска событий и добавить динамические элементы интерфейса подсказки, чтобы предоставить пользователю дополнительную информацию.
 

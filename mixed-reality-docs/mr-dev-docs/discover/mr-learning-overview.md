@@ -1,18 +1,18 @@
 ---
 title: Общие сведения о модуле Learn по смешанной реальности
-description: Ознакомьтесь с доступными модулями Learn по Смешанной реальности.
+description: Узнавайте первыми обо всех доступных модулях смешанной реальности, размещаемых на платформе Microsoft Learn.
 author: hferrone
 ms.author: jemccull
 ms.date: 11/30/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, Hololens, Learn, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, что такое виртуальная реальность, что такое дополненная реальность, MRTK, Mixed Reality Toolkit, перевод с одного языка на другой, Azure, Azure Cognitive Services, Microsoft Learn
 ms.localizationpriority: high
-ms.openlocfilehash: 5d59f09b98b4228b52a87a7c91e64129060f754c
-ms.sourcegitcommit: 8d3b84d2aa01f078ecf92cec001a252e3ea7b24d
+ms.openlocfilehash: 211d8e61a45a59df725f4c6c7d11c93f129d63b5
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "97757802"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98006914"
 ---
 # <a name="mixed-reality-learn-overview"></a>Общие сведения о модуле Learn по смешанной реальности
 

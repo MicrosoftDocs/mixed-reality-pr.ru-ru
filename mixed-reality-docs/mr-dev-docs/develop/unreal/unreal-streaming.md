@@ -1,6 +1,6 @@
 ---
 title: Потоковая передача в Unreal
-description: Руководство по потоковой передаче в Unreal для HoloLens 2
+description: Сведения о том, как осуществлять потоковую передачу приложений Unreal на устройства HoloLens 2, а также об ограничениях потоковой передачи и параметрах командной строки.
 author: sw5813
 ms.author: suwu
 ms.date: 12/7/2020
@@ -10,12 +10,12 @@ keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанна
 appliesto:
 - HoloLens
 - HoloLens 2
-ms.openlocfilehash: 3638f07753355061f251bb2d6fa47233872d5b90
-ms.sourcegitcommit: 0509cf6c57067cffd75a0189106e3369e9ecc5c8
+ms.openlocfilehash: a0c376ed6366e57b8a521c52db2fc02fcd1c0285
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96855890"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009954"
 ---
 # <a name="streaming-in-unreal"></a>Потоковая передача в Unreal
 

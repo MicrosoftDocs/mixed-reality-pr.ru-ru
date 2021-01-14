@@ -1,18 +1,18 @@
 ---
 title: Публикация в Microsoft Store
-description: ''
+description: Сведения о том, как создавать пакеты ваших приложений смешанной реальности Unreal, сертифицировать и публиковать их в Microsoft Store.
 author: hferrone
 ms.author: jacksonf
 ms.date: 12/3/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, разработка, документация, руководства, функции, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, публикация, дистрибуция, Microsoft Store
-ms.openlocfilehash: 37a17ba4a691ca8db6ce447abd485293454b8ae3
-ms.sourcegitcommit: 9c640c96e2270ef69edd46f1b12acb00b373554d
+ms.openlocfilehash: 41f081f11cdb9ac2fdf96a81bb761a1321d1776f
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96583951"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98010024"
 ---
 # <a name="publishing-to-the-microsoft-store"></a>Публикация в Microsoft Store
 
@@ -108,6 +108,7 @@ if(Target.Platform == UnrealTargetPlatform.Win64)
 4. Закройте Unreal, откройте проект и выполните повторную сборку пакета для HoloLens.  Перезапустите WACK, и ошибка исчезнет. 
 
 ## <a name="see-also"></a>См. также раздел
+
 * [Отправка приложения в Microsoft Store](../../distribute/submitting-an-app-to-the-microsoft-store.md)
 * [Комплект сертификации приложений для Windows](https://developer.microsoft.com/windows/downloads/app-certification-kit)
 * [Создание файла Установщика приложений вручную](https://docs.microsoft.com/windows/msix/app-installer/how-to-create-appinstaller-file)

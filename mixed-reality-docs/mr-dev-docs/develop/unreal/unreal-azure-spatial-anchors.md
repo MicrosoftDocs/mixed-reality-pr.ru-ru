@@ -1,18 +1,18 @@
 ---
 title: Пространственные привязки Azure в Unreal
-description: Общие сведения о создании пространственных привязок Azure в движке Unreal.
+description: Сведения о том, как создавать, находить существующие Пространственные привязки Azure и управлять ими в приложениях смешанной реальности Unreal.
 author: hferrone
 ms.author: jacksonf
 ms.date: 12/9/2020
 ms.topic: tutorial
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens 2, Azure, разработка Azure, пространственные привязки, смешанная реальность, разработка, функции, новый проект, эмулятор, документация, руководства, голограммы, разработка игр, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 18ec9db03341ad4fc6a5c10ea6f8fdd38c61c537
-ms.sourcegitcommit: f2782d0925b2075fdaa0a4ecdef3dd4f0b4e1e99
+ms.openlocfilehash: 95e8ad708dd44a05fb306b2ea49f167fd400c5d8
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96926027"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009774"
 ---
 # <a name="azure-spatial-anchors-in-unreal"></a>Пространственные привязки Azure в Unreal
 

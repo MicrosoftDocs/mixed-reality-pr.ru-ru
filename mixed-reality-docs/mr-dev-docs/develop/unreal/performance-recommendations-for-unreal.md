@@ -1,24 +1,25 @@
 ---
 title: Рекомендации по производительности для Unreal
-description: Рекомендации по оптимизации производительности для приложений смешанной реальности в Unreal
+description: Сведения о том, как обеспечить оптимальную производительность приложений смешанной реальности с помощью рекомендуемых параметров проекта Unreal.
 author: hferrone
 ms.author: v-hferrone
 ms.date: 5/5/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, производительность, оптимизация, параметры, документация
-ms.openlocfilehash: a369a68f8ebf9b7084c22f0efa3bbf0bf5ecbebf
-ms.sourcegitcommit: 9a93c9e9b3b088da942ac4386813ecf263c2e324
+ms.openlocfilehash: a1a8dacd0206882c7ebd67b2658fa2e6300aa66a
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "97865429"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009824"
 ---
 # <a name="performance-recommendations-for-unreal"></a>Рекомендации по производительности для Unreal
 
 В Unreal Engine есть несколько функций, которые могут [повысить производительность приложений](../platform-capabilities-and-apis/understanding-performance-for-mixed-reality.md) для смешанной реальности. Прежде чем продолжать, рекомендуется прочесть о факторах, ограничивающих производительность приложения, анализе и профилировании приложений смешанной реальности, а также общих настройках, повышающих производительность.
 
 ## <a name="recommended-unreal-project-settings"></a>Рекомендуемые параметры для проекта Unreal
+
 Каждый из параметров, о которых идет речь ниже, можно найти в разделе **Edit > Project Settings** (Правка > Параметры проекта).
 
 1. При использовании мобильного отрисовщика виртуальной реальности:
@@ -78,4 +79,5 @@ ms.locfileid: "97865429"
 ![Сокращение числа преобразований шейдеров на мобильных устройствах](images/unreal/performance-recommendations-img-08.png)
 
 ## <a name="see-also"></a>См. также раздел
+
 * [Рекомендации по повышению производительности для Unreal Engine на мобильных устройствах]( https://docs.unrealengine.com/Platforms/Mobile/Performance/index.html)

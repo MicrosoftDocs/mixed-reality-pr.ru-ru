@@ -1,18 +1,18 @@
 ---
 title: Локальные пространственные привязки в Unreal
-description: Руководство по применению пространственных привязок в Unreal
+description: Сведения о том, как использовать, сохранять пространственные привязки в приложениях смешанной реальности Unreal, а также как управлять ими.
 author: hferrone
 ms.author: v-hferrone
 ms.date: 12/9/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, разработка, функции, документация, руководства, голограммы, пространственные привязки, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 1c9d9fa119e57c57ab126fc26a26a35d75e07db7
-ms.sourcegitcommit: f2782d0925b2075fdaa0a4ecdef3dd4f0b4e1e99
+ms.openlocfilehash: d44610ea0632dbc93941096007e60e4ae7be53e1
+ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96926088"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98009984"
 ---
 # <a name="local-spatial-anchors-in-unreal"></a>Локальные пространственные привязки в Unreal
 
@@ -83,6 +83,7 @@ ms.locfileid: "96926088"
 Вы можете в любой момент вернуться к [этапам разработки для Unreal](unreal-development-overview.md#2-core-building-blocks).
 
 ## <a name="see-also"></a>См. также статью
+
 * [Пространственные привязки Azure](unreal-azure-spatial-anchors.md)
 * [Пространственные привязки](../../design/spatial-anchors.md)
 * [Системы координат](../../design/coordinate-systems.md)

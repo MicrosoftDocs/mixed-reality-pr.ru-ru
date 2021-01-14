@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 283bfffb2d59d92712e86e12c05be8974f04fae6
-ms.sourcegitcommit: 13ef9f89ee61fbfe547ecf5fdfdb97560a0de833
+ms.openlocfilehash: 4b9a1c20a8d885ea796c296f6a542d41e3ab58ef
+ms.sourcegitcommit: b13c517df19179ca281362a1f006914289c58ad4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97718116"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98052842"
 ---
 # <a name="unity"></a>[Unity](#tab/unity)
 
@@ -21,7 +21,7 @@ ms.locfileid: "97718116"
 
 [Набор средств для смешанной реальности](../unity/mrtk-getting-started.md) (MRTK) — это кросс-платформенный пакет разработки с открытым кодом для приложений смешанной реальности. MRTK предоставляет кросс-платформенную систему ввода, базовые компоненты и общие строительные блоки для пространственных взаимодействий. Набор используется для ускорения разработки приложений, предназначенных для Microsoft HoloLens, иммерсивных гарнитур (гарнитур виртуальной реальности) Windows Mixed Reality и платформы OpenVR.
 
-Для выполнения установки мы рекомендуем изучить [раздел по началу работы](../unity/unity-development-overview.md#1-getting-started) нашего [обзора разработки для Unity](../unity/unity-development-overview.md). Если вы уже работаете с этим обзором, выполните остальные шаги по настройке (см. ниже) и перейдите к [руководствам по началу работы с HoloLens 2](../unity/tutorials/mr-learning-base-01.md).
+Для выполнения установки мы рекомендуем изучить раздел по началу работы, следуя нашим курируемым этапам разработки для[HoloLens](../unity/unity-development-overview.md#1-getting-started) или [виртуальной реальности](../unity/unity-development-wmr-overview.md#1-getting-started). Если вы уже работаете с этими этапами, выполните остальные шаги по настройке (см. ниже) и перейдите к [руководствам по началу работы с HoloLens 2](../unity/tutorials/mr-learning-base-01.md).
 
 > [!IMPORTANT]
 > Обратите внимание, что инструкции по установке приведены для последнего стабильного сочетания выпусков MRTK и Unity — **MRTK 2.4.0** и **Unity 2019.3.15**.
@@ -72,7 +72,7 @@ ms.locfileid: "97718116"
 
 ##### <a name="i-cant-deploy-over-usb"></a>Не удается выполнить развертывание по USB
 
-Если вы не можете развернуть приложение непосредственно по USB, убедитесь, что вы выполнили все приведенные выше требования к установке, и следуйте инструкциям из нашего [пошагового руководства](../unity/tutorials/mr-learning-base-02.md#building-your-application-to-your-hololens-2).
+Если вы не можете развернуть приложение непосредственно по USB, убедитесь, что вы выполнили все приведенные выше требования к установке, и следуйте инструкциям из нашего [пошагового руководства](../unity/tutorials/mr-learning-base-02.md#building-and-deploying-to-your-hololens-2).
 
 #### <a name="immersive-vr-headset-requirements"></a>Требования к иммерсивной гарнитуре виртуальной реальности
 
@@ -115,16 +115,24 @@ ms.locfileid: "97718116"
 Если у вас нет опыта разработки с использованием MRTK в Unity, мы рекомендуем вам изучить наш обзор разработки для Unity:
 
 > [!div class="nextstepaction"]
-> [Начало работы с Unity](../unity/unity-development-overview.md)
+> [Начало работы с Unity для HoloLens](../unity/unity-development-overview.md)
+
+> [!div class="nextstepaction"]
+> [Начало работы с Unity для виртуальной реальности](../unity/unity-development-wmr-overview.md)
 
 ## <a name="next-development-checkpoint"></a>Следующий этап разработки
 
-Если вы следуете изложенным нами этапам разработки для Unity, вашей следующей задачей будет изучение руководств по HoloLens 2.
+Если вы следуете изложенным нами этапам разработки в Unity для HoloLens, вашей следующей задачей будет изучение руководств по HoloLens 2.
 
 > [!div class="nextstepaction"]
 > [Серия руководств по HoloLens 2](../unity/tutorials/mr-learning-base-01.md)
 
-Вы можете в любой момент вернуться к [этапам разработки для Unity](../unity/unity-development-overview.md#1-getting-started).
+Если вы следуете этапам разработки в Unity для виртуальной реальности, настройте свой проект.
+
+> [!div class="nextstepaction"]
+> [Настройка проекта для WMR](../unity/configure-unity-project.md)
+
+Вы можете в любой момент вернуться к этапам разработки в Unity для [HoloLens](../unity/unity-development-overview.md#1-getting-started) и [виртуальной реальности](../unity/unity-development-wmr-overview.md#1-getting-started).
 
 # <a name="unreal"></a>[Unreal](#tab/unreal)
 
