@@ -6,12 +6,12 @@ ms.author: thmignon
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Стеамвр, совместимость, перенос, однопотребительский общий Gen, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, миграция, Windows 10, Steam, контроллеры движения, хаптикс
-ms.openlocfilehash: 94b6aad63156d752858c6566174ff01e6127d75d
-ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
+ms.openlocfilehash: c67eed489f626c804583592e496fcfaff5d8c291
+ms.sourcegitcommit: a1bb77f729ee2e0b3dbd1c2c837bb7614ba7b9bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97612908"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98192632"
 ---
 # <a name="updating-steamvr-apps-for-windows-mixed-reality"></a>Обновление приложений SteamVR для Windows Mixed Reality
 
@@ -26,7 +26,7 @@ ms.locfileid: "97612908"
 1. Если приложение подготавливает модели контроллеров:
     * Использование [моделей контроллеров движения Windows Mixed Reality](../../design/motion-controllers.md#rendering-the-motion-controller-model)
     * Используйте Ивррендермодел:: Жеткомпонентстате для получения локальных преобразований в части компонентов (например, указатель a).
-2. Опыт, имеющий понятие правой или левой, должен получать подсказки от входных API-интерфейсов для различения контроллеров [(пример Unity)](../unity/gestures-and-motion-controllers-in-unity.md#unity-buttonaxis-mapping-table) .
+2. Опыт, имеющий понятие правой или левой, должен получать подсказки от входных API-интерфейсов для различения контроллеров [(пример Unity)](../unity/motion-controllers-in-unity.md#unity-buttonaxis-mapping-table) .
 
 ## <a name="controls"></a>Элементы управления
 

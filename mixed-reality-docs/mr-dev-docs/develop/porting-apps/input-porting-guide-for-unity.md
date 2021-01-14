@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 12/9/2020
 ms.topic: article
 keywords: вход, Unity, перенос
-ms.openlocfilehash: 97280ff260729bfc2042f7760fa3950e949e27a4
-ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
+ms.openlocfilehash: d6bef0f10cf1fc20d5067ac77a126bb793385f59
+ms.sourcegitcommit: a1bb77f729ee2e0b3dbd1c2c837bb7614ba7b9bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97613268"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98192652"
 ---
 # <a name="input-porting-guide-for-unity"></a>Руководство по переносу логики ввода для Unity
 
@@ -21,13 +21,13 @@ ms.locfileid: "97613268"
 
 В настоящее время Unity использует общие интерфейсы API input. Окулус и input. Axis для предоставления входных данных для [пакета SDK](https://docs.unity3d.com/Manual/OculusControllers.html) и [пакета SDK для опенвр](https://docs.unity3d.com/Manual/OpenVRControllers.html). Если ваши приложения уже используют эти API для входных данных, API-интерфейсы input. "Кнопка" и "вход. ось" являются простейшими путями для поддержки контроллеров движения в Windows Mixed Reality. Вам потребуется только сопоставить кнопки и оси в диспетчере ввода.
 
-Дополнительные сведения см. в разделе [Таблица соответствия кнопок и осей Unity](../unity/gestures-and-motion-controllers-in-unity.md#unity-buttonaxis-mapping-table) , а также [Общие сведения об общих API Unity](../unity/gestures-and-motion-controllers-in-unity.md#common-unity-apis-inputgetbuttongetaxis).
+Дополнительные сведения см. в разделе [Таблица соответствия кнопок и осей Unity](../unity/motion-controllers-in-unity.md#unity-buttonaxis-mapping-table) , а также [Общие сведения об общих API Unity](../unity/motion-controllers-in-unity.md#common-unity-apis-inputgetbuttongetaxis).
 
 ## <a name="windows-specific-xrwsainput-apis"></a>XR, относящийся к Windows. Головк. Входные интерфейсы API
 
 Если приложение уже создает пользовательскую логику ввода для каждой платформы, можно использовать пространственные входные API для Windows в пространстве имен **UnityEngine. XR. WSA. Input** . Отсюда вы сможете получить доступ к дополнительным сведениям, таким как точность расположения или тип источника, что позволяет сообщать между ними и контроллерами в HoloLens.
 
-Дополнительные сведения см. в [обзоре интерфейсов API UnityEngine. XR. WSA. Input](../unity/gestures-and-motion-controllers-in-unity.md#windows-specific-apis-xrwsainput).
+Дополнительные сведения см. в [обзоре интерфейсов API UnityEngine. XR. WSA. Input](../unity/motion-controllers-in-unity.md#windows-specific-apis-xrwsainput).
 
 ## <a name="grip-pose-vs-pointing-pose"></a>Захват захвата и указание объекта a
 
@@ -48,9 +48,9 @@ Windows Mixed Reality поддерживает контроллеры движе
 
 Эти координаты представляются в универсальных координатах Unity.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 * [Контроллеры движения]().. /.. /Десигн/мотион-контроллерс.МД)
-* [Жесты и контроллеры движения в Unity](../unity/gestures-and-motion-controllers-in-unity.md)
+* [Контроллеры движения в Unity](../unity/motion-controllers-in-unity.md)
 * [UnityEngine. XR. WSA. input](https://docs.unity3d.com/ScriptReference/XR.WSA.Input.InteractionManager.html)
 * [UnityEngine. XR. Инпуттраккинг](https://docs.unity3d.com/ScriptReference/XR.InputTracking.html)
 * [Руководства по переносу приложений](porting-guides.md)

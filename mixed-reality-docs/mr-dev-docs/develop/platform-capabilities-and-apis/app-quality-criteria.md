@@ -6,12 +6,12 @@ ms.author: crderr
 ms.date: 03/21/2018
 ms.topic: article
 keywords: критерии качества приложения, Смешанная реальность, приложение смешанной реальности, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 788a2e8ac1a364f8c33e3895992fd99fa220a26a
-ms.sourcegitcommit: c41372e0c6ca265f599bff309390982642d628b8
+ms.openlocfilehash: 8037b573f50ef1f1137a6c50913990fadf40e92e
+ms.sourcegitcommit: a1bb77f729ee2e0b3dbd1c2c837bb7614ba7b9bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97530290"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98192682"
 ---
 # <a name="app-quality-criteria"></a>Критерии качества приложения
 
@@ -545,7 +545,8 @@ ms.locfileid: "97530290"
 * [Руководство по переносу логики ввода для Unity](../porting-apps/input-porting-guide-for-unity.md)
 * [Ввод с клавиатуры в Unity](../unity/keyboard-input-in-unity.md)
 * [Взгляд в Unity](../unity/gaze-in-unity.md)
-* [Жесты и контроллеры движения в Unity](../unity/gestures-and-motion-controllers-in-unity.md)
+* [Контроллеры движения в Unity](../unity/motion-controllers-in-unity.md)
+* [Жесты в Unity](../unity/gestures-in-unity.md)
 * [Голосовой ввод в Unity](../unity/voice-input-in-unity.md)
 * [Ввод с помощью клавиатуры, мыши и контроллера в DirectX](../../keyboard,-mouse,-and-controller-input-in-directx.md)
 * [Направление головы и взгляда в DirectX](../native/gaze-in-directx.md)

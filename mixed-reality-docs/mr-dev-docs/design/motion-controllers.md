@@ -5,13 +5,13 @@ author: wguyman
 ms.author: wguyman
 ms.date: 03/21/2018
 ms.topic: article
-keywords: 6DOF контроллеры, контроллеры движения, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, прокрутка, захват, штат
-ms.openlocfilehash: 2dbe0ab0b83b371a88e419e7b223f30670bfeaea
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+keywords: 6DOF контроллеры, контроллеры движения, связывание, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, прокрутка, захват, состояние
+ms.openlocfilehash: 94a9292b3a765131ae197fd9f91c27a52a463eef
+ms.sourcegitcommit: a1bb77f729ee2e0b3dbd1c2c837bb7614ba7b9bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009714"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98192622"
 ---
 # <a name="motion-controllers"></a>Контроллеры движений
 
@@ -239,7 +239,7 @@ Windows Mixed Reality поддерживает контроллеры движе
 
 Рекомендуется визуализировать все готовые модели на **захвате** контроллера, так как источник модели соответствует этой точке в физическом мире. При подготовке к просмотру моделей контроллеров вы можете райкаст в сцену из **указателя** a, который представляет луч, на котором пользователи естественным образом задаются, учитывая физическую структуру контроллера.
 
-Дополнительные сведения о динамической загрузке моделей контроллеров в Unity см. в разделе [Подготовка модели контроллера движения в](../develop/unity/gestures-and-motion-controllers-in-unity.md#rendering-the-motion-controller-model-in-unity) Unity.
+Дополнительные сведения о динамической загрузке моделей контроллеров в Unity см. в разделе [Подготовка модели контроллера движения в](../develop/unity/gestures-in-unity.md#rendering-the-motion-controller-model-in-unity) Unity.
 
 график **линий 2D-контроллера** Несмотря на то, что мы рекомендуем присоединить в себя советы и команды контроллера в приложении к самим моделям контроллера, некоторые разработчики могут использовать двумерные штриховые представления контроллеров движения в плоском «учебнике» или «как» пользовательского интерфейса. Для этих разработчиков мы сделали так. png-контроллер движения. графические файлы доступны как в черном, так и белом рисунке (щелкните правой кнопкой мыши, чтобы сохранить).
 
@@ -275,9 +275,9 @@ Windows Mixed Reality поддерживает контроллеры движе
 
 [Отправьте нам отзыв](../give-us-feedback.md) в центре обратной связи, используя категорию "смешанная реальность — > вход".
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
-* [Жесты и контроллеры движения в Unity](../develop/unity/gestures-and-motion-controllers-in-unity.md)
+* [Контроллеры движения в Unity](../develop/unity/motion-controllers-in-unity.md)
 * [Контроллеры движения и жестов в DirectX](../develop/native/hands-and-motion-controllers-in-directx.md)
 * [Жесты](gaze-and-commit.md#composite-gestures)
 * [Руководство по энтузиасту: Домашняя страница Windows Mixed Reality](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/your-mixed-reality-home)
