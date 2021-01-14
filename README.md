@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: ff8435ee09cf380bb4b055a50abcbe4e5e91dc03
-ms.sourcegitcommit: 13fe1e7f7f268730a0be720933d7414e9c63ac9b
+ms.openlocfilehash: d9b8bc79859ab74c799188326731b3c8722bc49a
+ms.sourcegitcommit: b9d0155ae0d37a9f55f2cf0bcd954a2b148a26e0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "97808815"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98181741"
 ---
 ![Виртуальная колибри и рука человека](mixed-reality-docs/mr-dev-docs/discover/images/01_MixedReality.png)
 
@@ -55,7 +55,10 @@ ms.locfileid: "97808815"
 
 * [Начало работы с технологией виртуальной реальности](enthusiast-guide/vr-journey.md)
 
+## <a name="contributor-license-agreement-cla"></a>Лицензионное соглашение участника (CLA)
+
+На этом проекте приветствуются публикации и предложения. Для участия в большинстве процессов по разработке документации необходимо принять лицензионное соглашение участника (CLA), в котором указывается, что вы предоставляете нам права на использование ваших публикаций. Дополнительные сведения см. на сайте [https://cla.opensource.microsoft.com](https://cla.opensource.microsoft.com).
+
 ## <a name="microsoft-open-source-code-of-conduct"></a>Правила поведения при работе с открытым кодом, принятые в проектах корпорации Майкрософт
 
-В рамках этого проекта действуют [правила поведения в отношении продуктов с открытым исходным кодом Майкрософт](https://opensource.microsoft.com/codeofconduct/).
-Дополнительные сведения:[вопросы и ответы по правилам поведения](https://opensource.microsoft.com/codeofconduct/faq/). С любыми другими вопросами или комментариями обращайтесь по адресу[opencode@microsoft.com](mailto:opencode@microsoft.com).
+В рамках этого проекта действуют [правила поведения в отношении продуктов с открытым исходным кодом Майкрософт](https://opensource.microsoft.com/codeofconduct). Дополнительные сведения:[вопросы и ответы по правилам поведения](https://opensource.microsoft.com/codeofconduct/faq/). С любыми другими вопросами или комментариями обращайтесь по адресу[opencode@microsoft.com](mailto:opencode@microsoft.com).
