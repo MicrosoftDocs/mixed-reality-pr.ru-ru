@@ -1,0 +1,31 @@
+---
+ms.openlocfilehash: 716fdc03c9e2eb3ae4ffb61940e9b11e13c4a6ce
+ms.sourcegitcommit: b13c517df19179ca281362a1f006914289c58ad4
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040573"
+---
+# <a name="available-in-mrtk"></a>[<span data-ttu-id="f597c-101">Доступно в MRTK</span><span class="sxs-lookup"><span data-stu-id="f597c-101">Available in MRTK</span></span>](#tab/mrtk)
+
+|  <span data-ttu-id="f597c-102">Функция</span><span class="sxs-lookup"><span data-stu-id="f597c-102">Feature</span></span>  |  <span data-ttu-id="f597c-103">Возможности</span><span class="sxs-lookup"><span data-stu-id="f597c-103">Capabilities</span></span>  |
+| --- | --- |
+| [<span data-ttu-id="f597c-104">Базовые взаимодействия</span><span class="sxs-lookup"><span data-stu-id="f597c-104">Basic interactions</span></span>](../unity/mrtk-101.md) | <span data-ttu-id="f597c-105">Базовые сведения о взаимодействии с объектами в иммерсивном пространстве</span><span class="sxs-lookup"><span data-stu-id="f597c-105">Learn the basics of interacting with objects in immersive space</span></span> |
+| [<span data-ttu-id="f597c-106">Камера</span><span class="sxs-lookup"><span data-stu-id="f597c-106">Camera</span></span>](../unity/camera-in-unity.md) | <span data-ttu-id="f597c-107">Полная оптимизация визуального качества и стабильности голограммы в приложениях смешанной реальности</span><span class="sxs-lookup"><span data-stu-id="f597c-107">Fully optimize visual quality and hologram stability in your Mixed Reality apps</span></span> |
+| [<span data-ttu-id="f597c-108">Жесты и контроллеры движений</span><span class="sxs-lookup"><span data-stu-id="f597c-108">Gestures and motion controllers</span></span>](../unity/gestures-and-motion-controllers-in-unity.md) | <span data-ttu-id="f597c-109">Добавление пространственных действий в приложения смешанной реальности</span><span class="sxs-lookup"><span data-stu-id="f597c-109">Add spatial actions to your Mixed Reality apps</span></span> |
+| [<span data-ttu-id="f597c-110">Text</span><span class="sxs-lookup"><span data-stu-id="f597c-110">Text</span></span>](../unity/text-in-unity.md) | <span data-ttu-id="f597c-111">Создание четкого и высококачественного текста надлежащего размера и с качественной отрисовкой</span><span class="sxs-lookup"><span data-stu-id="f597c-111">Get sharp, high-quality text that has a manageable size and quality rendering</span></span> |
+| [<span data-ttu-id="f597c-112">Голосовой ввод</span><span class="sxs-lookup"><span data-stu-id="f597c-112">Voice input</span></span>](../unity/voice-input-in-unity.md) | <span data-ttu-id="f597c-113">Захват произнесенных слов, фраз и диктовка со стороны пользователей</span><span class="sxs-lookup"><span data-stu-id="f597c-113">Capture spoken keywords, phrases, and dictation from your users</span></span>|
+
+# <a name="standalone-features"></a>[<span data-ttu-id="f597c-114">Изолированные функции</span><span class="sxs-lookup"><span data-stu-id="f597c-114">Standalone features</span></span>](#tab/standalone)
+
+|  <span data-ttu-id="f597c-115">Функция</span><span class="sxs-lookup"><span data-stu-id="f597c-115">Feature</span></span>  |  <span data-ttu-id="f597c-116">Возможности</span><span class="sxs-lookup"><span data-stu-id="f597c-116">Capabilities</span></span>  |
+| --- | --- |
+| [<span data-ttu-id="f597c-117">Камера</span><span class="sxs-lookup"><span data-stu-id="f597c-117">Camera</span></span>](../unity/camera-in-unity.md) | <span data-ttu-id="f597c-118">Полная оптимизация визуального качества и стабильности голограммы в приложениях смешанной реальности</span><span class="sxs-lookup"><span data-stu-id="f597c-118">Fully optimize visual quality and hologram stability in your Mixed Reality apps</span></span> |
+| [<span data-ttu-id="f597c-119">Системы координат</span><span class="sxs-lookup"><span data-stu-id="f597c-119">Coordinate systems</span></span>](../unity/coordinate-systems-in-unity.md) | <span data-ttu-id="f597c-120">Определение масштаба взаимодействия для целей в приложении</span><span class="sxs-lookup"><span data-stu-id="f597c-120">Determine the experience scale your application targets</span></span> |
+| [<span data-ttu-id="f597c-121">Жесты и контроллеры движений</span><span class="sxs-lookup"><span data-stu-id="f597c-121">Gestures and motion controllers</span></span>](../unity/gestures-and-motion-controllers-in-unity.md) | <span data-ttu-id="f597c-122">Добавление пространственных действий в приложения смешанной реальности</span><span class="sxs-lookup"><span data-stu-id="f597c-122">Add spatial actions to your Mixed Reality apps</span></span> |
+| [<span data-ttu-id="f597c-123">Сохраняемость</span><span class="sxs-lookup"><span data-stu-id="f597c-123">Persistence</span></span>](../unity/persistence-in-unity.md) | <span data-ttu-id="f597c-124">Локальное сохранение голограмм в разных сеансах приложений</span><span class="sxs-lookup"><span data-stu-id="f597c-124">Persist holograms locally across different app sessions</span></span> |
+| [<span data-ttu-id="f597c-125">Пространственный звук</span><span class="sxs-lookup"><span data-stu-id="f597c-125">Spatial sound</span></span>](../unity/spatial-sound-in-unity.md) | <span data-ttu-id="f597c-126">Добавление возможностей иммерсивного трехмерного звука в приложения</span><span class="sxs-lookup"><span data-stu-id="f597c-126">Enhance your apps with immersive 3D audio</span></span> |
+| [<span data-ttu-id="f597c-127">Text</span><span class="sxs-lookup"><span data-stu-id="f597c-127">Text</span></span>](../unity/text-in-unity.md) | <span data-ttu-id="f597c-128">Создание четкого и высококачественного текста надлежащего размера и с качественной отрисовкой</span><span class="sxs-lookup"><span data-stu-id="f597c-128">Get sharp, high-quality text that has a manageable size and quality rendering</span></span> |
+| [<span data-ttu-id="f597c-129">Голосовой ввод</span><span class="sxs-lookup"><span data-stu-id="f597c-129">Voice input</span></span>](../unity/voice-input-in-unity.md) | <span data-ttu-id="f597c-130">Захват произнесенных слов, фраз и диктовка со стороны пользователей</span><span class="sxs-lookup"><span data-stu-id="f597c-130">Capture spoken keywords, phrases, and dictation from your users</span></span>|
+
+
