@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 03/21/2018
 ms.topic: article
 keywords: клавиатура, вход, Unity, таучскринкэйбоард, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 613c9327b517205c340555b6423a3809906f9b9f
-ms.sourcegitcommit: 87b54c75044f433cfadda68ca71c1165608e2f4b
+ms.openlocfilehash: 90416f91a7de369ff97a2254fed4b3773724408b
+ms.sourcegitcommit: be7473bbebc1872d8c9df6f2da837efd3279dee6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97010515"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98226413"
 ---
 # <a name="keyboard-input-in-unity"></a>Ввод с клавиатуры в Unity
 
@@ -118,7 +118,7 @@ if (TouchScreenKeyboard.visible == false && keyboard != null)
 
 ## <a name="next-development-checkpoint"></a>Следующий этап разработки
 
-Если вы подготовились к расположению разработки Unity, мы собрались изучить возможности и API платформы смешанной реальности. Здесь можно перейти к любому [разделу](unity-development-overview.md#3-platform-capabilities-and-apis) или перейти непосредственно к развертыванию приложения на устройстве или в эмуляторе.
+Если вы подготовились к расположению разработки Unity, мы собрались изучить возможности и API платформы смешанной реальности. Здесь можно перейти к любому [разделу](unity-development-overview.md#3-advanced-features) или перейти непосредственно к развертыванию приложения на устройстве или в эмуляторе.
 
 > [!div class="nextstepaction"]
 > [Развертывание в HoloLens или в виде впечатляющих головных телефонов Windows Mixed Reality](../platform-capabilities-and-apis/using-visual-studio.md)

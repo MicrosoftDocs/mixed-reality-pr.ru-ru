@@ -6,12 +6,12 @@ ms.author: wguyman
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Фото, видео, hololens, Камера, Unity, размещаемые, PVC, видеокамера, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, веб-камера, запись фотографий, видеозапись
-ms.openlocfilehash: 125521206421acbcc4c9ad6e5fb371314ddb48f2
-ms.sourcegitcommit: 87b54c75044f433cfadda68ca71c1165608e2f4b
+ms.openlocfilehash: 8916b332774185e4453b514ca7b6916947bdcd81
+ms.sourcegitcommit: be7473bbebc1872d8c9df6f2da837efd3279dee6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97010105"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98226423"
 ---
 # <a name="locatable-camera-in-unity"></a>Камера с определяемым местоположением в Unity
 
@@ -309,7 +309,7 @@ void OnStoppedRecordingVideo(VideoCapture.VideoCaptureResult result)
 
 ## <a name="next-development-checkpoint"></a>Следующий этап разработки
 
-Если вы используете точку контрольной точки разработки Unity, которую мы собрали, вы находитесь в процессе изучения возможностей платформы смешанной реальности и интерфейсов API. Отсюда можно перейти к следующему разделу:
+Если вы используете точку контрольной точки разработки Unity, которую мы собрали, вы находитесь в процессе изучения возможностей платформы смешанной реальности и интерфейсов API. Вы можете перейти к следующей статье:
 
 > [!div class="nextstepaction"]
 > [точка фокусировки](focus-point-in-unity.md);
@@ -319,7 +319,7 @@ void OnStoppedRecordingVideo(VideoCapture.VideoCaptureResult result)
 > [!div class="nextstepaction"]
 > [Развертывание в HoloLens или в виде впечатляющих головных телефонов Windows Mixed Reality](../platform-capabilities-and-apis/using-visual-studio.md)
 
-Вы можете в любой момент вернуться к [этапам разработки для Unity](unity-development-overview.md#3-platform-capabilities-and-apis).
+Вы можете в любой момент вернуться к [этапам разработки для Unity](unity-development-overview.md#3-advanced-features).
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 * [Камера с определяемым местоположением](../platform-capab ilities-and-apis/locatable-camera.md)
