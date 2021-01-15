@@ -8,6 +8,8 @@
   href: mr-learning-overview.md
 - name: Расширение процесса проектирования
   href: case-study-expanding-the-design-process-for-mixed-reality.md
+- name: Запуск центра примеров MRTK
+  href: running-examples-hub.md
 - name: Создание голограмм
   href: designing-holograms.md
 - name: Обзор примеров
