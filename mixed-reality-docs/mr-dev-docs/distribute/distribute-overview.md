@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 12/9/2020
 ms.topic: article
 keywords: HoloLens, Mixed Reality, впечатляющие гарнитуры, приложение, UWP, отправка, отправка, фильтры, метаданные, требования к системе, ключевые слова, wack, сертификация, пакет, appx, товары
-ms.openlocfilehash: 632bb9c0c5bdb93041f71a4382802b02f6817f0e
-ms.sourcegitcommit: 8d3b84d2aa01f078ecf92cec001a252e3ea7b24d
+ms.openlocfilehash: b729bd65413587d3ad3b05bef495349b60a6fffd
+ms.sourcegitcommit: 47a5c86b4694449c825902631777a9962a40e332
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "97757632"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98215979"
 ---
 # <a name="distributing-your-apps"></a>Распространение приложений
 
@@ -66,7 +66,7 @@ ms.locfileid: "97757632"
     <td><a href="submitting-an-app-to-the-microsoft-store.md"><strong>Microsoft Store</strong></a></td>
     <td>❌</td>
     <td>✔️</td>
-    <td>✔️</td>s
+    <td>✔️</td>
 </tr>
 <tr>
     <td><a href="https://docs.microsoft.com/hololens/app-deploy-store-business"><strong>Microsoft Store для бизнеса</strong></a></td>
@@ -97,8 +97,8 @@ ms.locfileid: "97757632"
 
 * Если вы хотите установить приложение HoloLens 2 в автономном режиме, обратитесь к инструкциям в [автономном режиме безопасности HoloLens 2](https://docs.microsoft.com/hololens/hololens-common-scenarios-offline-secure) или установите приложение с помощью пакета подготовки без включения режима разработчика.
 
-* Вы также можете развернуть сборки на устройстве и предоставить к ним доступ другим разработчикам, использующим режим разработчика, путем [развертывания и отладки в Visual Studio](../develop/platform-capabilities-and-apis/using-visual-studio.md) или [установки пакета приложения с помощью портала устройств](https://docs.microsoft.com/hololens/holographic-custom-apps#installing-an-application-package-with-the-device-portal).
+* Вы также можете развернуть сборки на устройстве и предоставить к ним доступ другим разработчикам, использующим режим разработчика, путем [развертывания и отладки в Visual Studio](../develop/platform-capabilities-and-apis/using-visual-studio.md) или [установки пакета приложения с помощью портала устройств](../develop/platform-capabilities-and-apis/using-the-windows-device-portal.md#sideloading-applications).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 * [Поиск, установка и удаление приложений из Microsoft Store](https://docs.microsoft.com/hololens/holographic-store-apps)
 
