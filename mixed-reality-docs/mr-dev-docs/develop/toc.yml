@@ -20,25 +20,17 @@
       href: porting-apps/building-2d-apps.md
 - name: Unity
   items:
-    - name: Обзор разработки в Unity
+    - name: Разработка в Unity для HoloLens
       href: unity/unity-development-overview.md
-    - name: Конфигурации проекта
-      items:
-        - name: Знакомство с MRTK
-          href: unity/mrtk-getting-started.md
-        - name: Настройка проекта без МРТК
-          href: unity/configure-unity-project.md
-        - name: Использование подключаемого модуля Смешанной реальности OpenXR
-          href: unity/openxr-getting-started.md
-        - name: Поддерживаемые функции подключаемого модуля OpenXR
-          href: unity/openxr-supported-features.md
+    - name: Разработка в Unity для виртуальной реальности
+      href: unity/unity-development-wmr-overview.md
     - name: Учебники
       items:
         - name: Обзор
           href: unity/tutorials.md
         - name: "Руководства по HoloLens\_2"
           items:
-            - name: Руководства по MRTK
+            - name: Учебники по MRTK для начинающих
               items:
                 - name: 1. Введение
                   href: unity/tutorials/mr-learning-base-01.md
@@ -172,51 +164,63 @@
               href: unity/tutorials/mr-azure-312.md
             - name: "313. Смешанная реальность и Azure\_— служба \"Центр Интернета вещей\""
               href: unity/tutorials/mr-azure-301.md
-    - name: Основные компоненты
+    - name: Настройка проекта
+      items:
+        - name: Знакомство с MRTK
+          href: unity/mrtk-getting-started.md
+        - name: Настройка проекта без МРТК
+          href: unity/configure-unity-project.md
+        - name: Использование подключаемого модуля Смешанной реальности OpenXR
+          href: unity/openxr-getting-started.md
+        - name: Поддерживаемые функции подключаемого модуля OpenXR
+          href: unity/openxr-supported-features.md
+    - name: Основные стандартные блоки
       items:
         - name: "101. MRTK\_— создание основных видов взаимодействия с помощью набора средств для смешанной реальности в Unity"
           href: unity/mrtk-101.md
-        - name: Камера в Unity
+        - name: Камера
           href: unity/camera-in-unity.md
-        - name: Системы координат в Unity
+        - name: Системы координат
           href: unity/coordinate-systems-in-unity.md
-        - name: Сохраняемость в Unity
+        - name: Сохраняемость
           href: unity/persistence-in-unity.md
-        - name: Взгляд в Unity
+        - name: Направление головы
           href: unity/gaze-in-unity.md
-        - name: Текст в Unity
+        - name: Текст
           href: unity/text-in-unity.md
-        - name: Жесты и контроллеры движения в Unity
-          href: unity/gestures-and-motion-controllers-in-unity.md
-        - name: Отслеживание рук и глаз в Unity
+        - name: Контроллеры движений
+          href: unity/motion-controllers-in-unity.md
+        - name: Жесты
+          href: unity/gestures-in-unity.md
+        - name: Отслеживание рук и взгляда
           href: unity/hand-eye-in-unit.md
-        - name: Голосовой ввод в Unity
+        - name: Голосовой ввод
           href: unity/voice-input-in-unity.md
-        - name: Пространственное сопоставление в Unity
+        - name: пространственное сопоставление
           href: unity/spatial-mapping-in-unity.md
-        - name: Пространственный звук в Unity
+        - name: пространственный звук
           href: unity/spatial-sound-in-unity.md
-    - name: Возможности и интерфейсы API платформы
+    - name: Дополнительные функции
       items:
-        - name: Общий доступ в Unity
+        - name: Общие возможности
           href: unity/shared-experiences-in-unity.md
-        - name: Камера с определяемым местоположением в Unity
+        - name: Камера с определяемым местоположением
           href: unity/locatable-camera-in-unity.md
-        - name: Точка фокусировки в Unity
+        - name: точка фокусировки;
           href: unity/focus-point-in-unity.md
-        - name: Потеря слежения в Unity
+        - name: потеря слежения;
           href: unity/tracking-loss-in-unity.md
-        - name: Ввод с клавиатуры в Unity
+        - name: Ввод с клавиатуры
           href: unity/keyboard-input-in-unity.md
         - name: Использование пространства имен Windows с приложениями Unity для HoloLens
           href: unity/using-the-windows-namespace-with-unity-apps-for-hololens.md
-        - name: Собственные объекты смешанной реальности в Unity
+        - name: Собственные объекты смешанной реальности
           href: unity/unity-xrdevice-advanced.md
-        - name: Использование Vuforia с Unity
+        - name: Использование Vuforia
           href: unity/vuforia-development-overview.md
     - name: Иммерсивная виртуальная реальность
       items:
-        - name: Контроллеры HP Reverb G2 в Unity
+        - name: "Контроллеры HP\_Reverb\_G2"
           href: unity/unity-reverb-g2-controllers.md
     - name: Примеры приложений
       items:
@@ -236,7 +240,7 @@
               href: unity/galaxy-explorer.md
             - name: Лунный модуль
               href: unity/lunar-module.md
-    - name: Параметры и отладка
+    - name: Отладка и производительность
       items:
         - name: "Управляемая отладка с помощью Unity\_IL2CPP"
           href: unity/managed-debugging-with-unity-il2cpp.md
@@ -272,35 +276,35 @@
               href: unreal/tutorials/unreal-uxt-ch5.md
             - name: Упаковка и развертывание
               href: unreal/tutorials/unreal-uxt-ch6.md
-    - name: Основные компоненты
+    - name: Основные стандартные блоки
       items:
-        - name: Ввод взглядом в Unreal
+        - name: Ввод взглядом
           href: unreal/unreal-gaze-input.md
-        - name: Отслеживание рук в Unreal
+        - name: Отслеживание рук
           href: unreal/unreal-hand-tracking.md
-        - name: Пространственное сопоставление в Unreal
+        - name: пространственное сопоставление
           href: unreal/unreal-spatial-mapping.md
-        - name: Пространственный звук в Unreal
+        - name: Пространственный звук
           href: unreal/unreal-spatial-audio.md
-        - name: Локальные пространственные привязки в Unreal
+        - name: Локальные пространственные привязки
           href: unreal/unreal-spatial-anchors.md
-        - name: Пространственные привязки Azure в Unreal
+        - name: Пространственные привязки Azure
           href: unreal/unreal-azure-spatial-anchors.md
-        - name: Голосовой ввод в Unreal
+        - name: Голосовой ввод
           href: unreal/unreal-voice-input.md
-    - name: Возможности и интерфейсы API платформы
+    - name: Дополнительные функции
       items:
-        - name: Фото- и видеокамера HoloLens в Unreal
+        - name: Фото- и видеокамера HoloLens
           href: unreal/unreal-hololens-camera.md
-        - name: QR-коды в Unreal
+        - name: QR-коды
           href: unreal/unreal-qr-codes.md
-        - name: UMG и клавиатура в Unreal
+        - name: UMG и клавиатура
           href: unreal/unreal-umg-keyboard.md
-        - name: WinRT в Unreal
+        - name: WinRT
           href: unreal/unreal-winrt.md
     - name: Иммерсивная виртуальная реальность
       items:
-        - name: Контроллеры HP Reverb G2 в Unreal
+        - name: "Контроллеры HP\_Reverb\_G2"
           href: unreal/unreal-reverb-g2-controllers.md
     - name: Примеры приложений
       items:
@@ -308,17 +312,17 @@
           href: unreal/unreal-kippys-escape.md
     - name: Развертывание и производительность
       items:
-        - name: Развертывание на устройстве в Unreal
+        - name: Развертывание на устройстве
           href: unreal/unreal-deploying.md
         - name: Публикация в Microsoft Store
           href: unreal/unreal-publishing-to-store.md
-        - name: Рекомендации по производительности для Unreal
+        - name: Рекомендации по повышению производительности
           href: unreal/performance-recommendations-for-unreal.md
-        - name: Рекомендации по использованию материалов в Unreal
+        - name: Рекомендации по использованию материалов
           href: unreal/unreal-materials.md
         - name: Профилирование с помощью Unreal Insights
           href: unreal/unreal-insights.md
-        - name: Потоковая передача в Unreal
+        - name: Streaming
           href: unreal/unreal-streaming.md
 - name: Интернет
   items:
