@@ -176,8 +176,6 @@
           href: unity/openxr-supported-features.md
     - name: Основные стандартные блоки
       items:
-        - name: "101. MRTK\_— создание основных видов взаимодействия с помощью набора средств для смешанной реальности в Unity"
-          href: unity/mrtk-101.md
         - name: Камера
           href: unity/camera-in-unity.md
         - name: Системы координат
