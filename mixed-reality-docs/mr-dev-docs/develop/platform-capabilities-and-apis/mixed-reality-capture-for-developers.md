@@ -1,19 +1,19 @@
 ---
-title: Съемка смешанной реальности для разработчиков
+title: Захват смешанной реальности для разработчиков
 description: Ознакомьтесь с рекомендациями по включению, использованию и визуализации записи смешанной реальности для разработчиков.
 author: mattzmsft
 ms.author: mazeller
 ms.date: 02/24/2019
 ms.topic: article
 keywords: Нормативная бумага, Фото, видео, захват, Камера
-ms.openlocfilehash: 40d621133d8aa4c7a58488b80a04ca3b4b46638d
-ms.sourcegitcommit: aa29b68603721e909f08f352feed24c65d2e505e
+ms.openlocfilehash: 88b31d139f01c6cbe0567203e39f7640270f7716
+ms.sourcegitcommit: e24715fffa815c24ca411fa93eed9576ae729337
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98108867"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "98247727"
 ---
-# <a name="mixed-reality-capture-for-developers"></a>Съемка смешанной реальности для разработчиков
+# <a name="mixed-reality-capture-for-developers"></a>Захват смешанной реальности для разработчиков
 
 > [!NOTE]
 > Рекомендации по новой функции нормативных требований для HoloLens 2 см. в разделе [Render на камере ПС](#render-from-the-pv-camera-opt-in) ниже.
@@ -214,7 +214,7 @@ if (view != null)
 
 У приложений есть два варианта добавления этого результата:
 * Старый API: [Windows. Media. Capture. медиакаптуре. аддеффектасинк ()](https://docs.microsoft.com/uwp/api/windows.media.capture.mediacapture.addeffectasync)
-* Новый рекомендуемый API Майкрософт (Возвращает объект, позволяющий управлять динамическими свойствами): [Windows. Media. Capture. медиакаптуре. аддвидеоеффектасинк ()](https://docs.microsoft.com/uwp/api/windows.media.capture.mediacapture.addvideoeffectasync)  /  [Windows. Media. Capture. медиакаптуре. аддаудиоеффектасинк ()](https://docs.microsoft.com/uwp/api/windows.media.capture.mediacapture.addaudioeffectasync) , требующий, чтобы приложение создали собственную реализацию [ивидеоеффектдефинитион](https://docs.microsoft.com/uwp/api/Windows.Media.Effects.IVideoEffectDefinition) и [IAudioEffectDefinition](https://docs.microsoft.com/uwp/api/windows.media.effects.iaudioeffectdefinition). См. раздел норматив [Effect, например использование.
+* Новый рекомендуемый API Майкрософт (Возвращает объект, позволяющий управлять динамическими свойствами): [Windows. Media. Capture. медиакаптуре. аддвидеоеффектасинк ()](https://docs.microsoft.com/uwp/api/windows.media.capture.mediacapture.addvideoeffectasync)  /  [Windows. Media. Capture. медиакаптуре. аддаудиоеффектасинк ()](https://docs.microsoft.com/uwp/api/windows.media.capture.mediacapture.addaudioeffectasync) , требующий, чтобы приложение создали собственную реализацию [ивидеоеффектдефинитион](https://docs.microsoft.com/uwp/api/Windows.Media.Effects.IVideoEffectDefinition) и [IAudioEffectDefinition](https://docs.microsoft.com/uwp/api/windows.media.effects.iaudioeffectdefinition). Примеры см. в [примере приложения нормативных требований](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/HolographicMixedRealityCapture) .
 
 >[!NOTE]
 > Пространство имен Windows. Media. Микседреалитикаптуре не будет распознано в Visual Studio, но строки остаются действительными.
