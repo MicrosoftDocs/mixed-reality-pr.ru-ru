@@ -7,12 +7,12 @@ ms.date: 12/9/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, разработка, функции, документация, руководства, голограммы, QR-коды, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 1daa368ee9f98accec58c6621073bd7caefdfdcb
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: d896af683a86a1b27e5d100df744222085574a93
+ms.sourcegitcommit: e24715fffa815c24ca411fa93eed9576ae729337
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98010014"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "98247747"
 ---
 # <a name="qr-codes-in-unreal"></a>QR-коды в Unreal
 
@@ -85,7 +85,7 @@ QR-коды выводятся в виде отслеживаемого изоб
 > [!div class="nextstepaction"]
 > [Развертывание на устройстве](unreal-deploying.md)
 
-Вы можете в любой момент вернуться к [этапам разработки для Unreal](unreal-development-overview.md#3-platform-capabilities-and-apis).
+Вы можете в любой момент вернуться к [этапам разработки для Unreal](unreal-development-overview.md#3-advanced-features).
 
 ## <a name="see-also"></a>См. также статью
 * [Пространственное сопоставление](../../design/spatial-mapping.md)
