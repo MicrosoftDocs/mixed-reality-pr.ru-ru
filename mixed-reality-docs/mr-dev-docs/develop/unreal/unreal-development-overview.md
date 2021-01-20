@@ -7,12 +7,12 @@ ms.date: 12/9/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, потоковая передача, удаленное взаимодействие, смешанная реальность, разработка, начало работы, функции, новый проект, эмулятор, документация, руководства, функции, голограммы, разработка игр, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, OpenXR
-ms.openlocfilehash: 3d9a33ca98734d40a37e24805f28f7f70b6a4ba9
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: eb9ec39d663dec2b5bf4c9177524449f31aaf554
+ms.sourcegitcommit: e24715fffa815c24ca411fa93eed9576ae729337
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009764"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "98247737"
 ---
 # <a name="unreal-development-overview"></a>Обзор разработки в Unreal
 
@@ -54,7 +54,7 @@ ms.locfileid: "98009764"
 > [!NOTE]
 > Дополнительные сведения см. в репозитории **[UX Tools для Unreal на GitHub](https://github.com/microsoft/MixedReality-UXTools-Unreal)** .
 
-### <a name="3-platform-capabilities-and-apis"></a>3. Возможности и интерфейсы API платформы
+### <a name="3-advanced-features"></a>3. Дополнительные функции
 
 Другие ключевые функции, которые играют важную роль в приложениях смешанной реальности, доступны без установки дополнительных пакетов или настройки. Такие функции можно добавить в проекты Unreal с установленным набором MRTK или без него. Изучив расширенные функции, вы сможете создавать более сложные приложения смешанной реальности.
 

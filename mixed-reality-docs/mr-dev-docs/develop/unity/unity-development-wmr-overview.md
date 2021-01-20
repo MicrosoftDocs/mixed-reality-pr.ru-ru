@@ -7,12 +7,12 @@ ms.date: 12/11/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unity, смешанная реальность, разработка, начало работы, новый проект, перенос, возможность, камера, имитация, эмуляция, документация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, что такое виртуальная реальность, что такое дополненная реальность, MRTK, Mixed Reality Toolkit, голосовой ввод, камера с определяемым местоположением, эмулятор, Azure, руководства
-ms.openlocfilehash: ba63f137e90b68345f3e5bbb831aba6abd6fe538
-ms.sourcegitcommit: b13c517df19179ca281362a1f006914289c58ad4
+ms.openlocfilehash: edd75def71ad31a1d29a480d0b2a7f7ffbd8c037
+ms.sourcegitcommit: be7473bbebc1872d8c9df6f2da837efd3279dee6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040576"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98226433"
 ---
 # <a name="unity-development-for-vr-and-windows-mixed-reality"></a>Разработка в Unity для виртуальной реальности и Windows Mixed Reality
 
@@ -42,7 +42,7 @@ ms.locfileid: "98040576"
 
 [!INCLUDE[](../includes/unity-building-blocks-wmr.md)]
 
-### <a name="3-platform-capabilities-and-apis"></a>3. Возможности и интерфейсы API платформы
+### <a name="3-advanced-features"></a>3. Дополнительные функции
 
 Другие ключевые функции, которые играют важную роль в иммерсивных приложениях, доступны через API Unity, не требуя установки дополнительных пакетов или настройки. Изучив расширенные функции, предлагаемые Unity, вы сможете создавать более сложные и интересные приложения виртуальной реальности.
 

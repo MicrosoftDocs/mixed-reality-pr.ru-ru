@@ -7,12 +7,12 @@ ms.date: 12/9/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unity, смешанная реальность, разработка, начало работы, новый проект, перенос, возможность, камера, имитация, эмуляция, документация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, что такое виртуальная реальность, что такое дополненная реальность, MRTK, Mixed Reality Toolkit, пространственное сопоставление, речевой ввод, камера с определяемым местоположением, эмулятор, Azure, учебники
-ms.openlocfilehash: 28ddaeed4218dc3433e13122806a2032e335dd56
-ms.sourcegitcommit: b13c517df19179ca281362a1f006914289c58ad4
+ms.openlocfilehash: c5b7683574378565c71e95bc6205be3dbf92fcaf
+ms.sourcegitcommit: be7473bbebc1872d8c9df6f2da837efd3279dee6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98031990"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98226443"
 ---
 # <a name="unity-development-for-hololens"></a>Разработка в Unity для HoloLens
 
@@ -49,7 +49,7 @@ ms.locfileid: "98031990"
 
 [!INCLUDE[](../includes/unity-building-blocks.md)]
 
-### <a name="3-platform-capabilities-and-apis"></a>3. Возможности и интерфейсы API платформы
+### <a name="3-advanced-features"></a>3. Дополнительные функции
 
 Другие ключевые функции, которые играют важную роль в приложениях смешанной реальности, доступны через API Unity, не требуя установки дополнительных пакетов или настройки. Эти функции можно добавлять в проекты Unity с установленным набором MRTK или без него. Изучив расширенные функции, предлагаемые Unity, вы сможете создавать более сложные и интересные приложения смешанной реальности.
 
