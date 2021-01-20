@@ -44,7 +44,7 @@
 ### [Вопросы здоровья, безопасности и комфорта при использовании иммерсивной гарнитуры](wmr-health-safety-comfort.md)
 ### [Обзор программного обеспечения смешанной реальности и история выпусков](mixed-reality-software.md)
 ### [Как работает отслеживание Inside-out](tracking-system.md)
-### [HP Reverb G2 — контроллеры в Unity](https://docs.microsoft.com/windows/mixed-reality/develop/unity/unity-reverb-g2-controllers)
-### [HP Reverb G2 — контроллеры в Unreal](https://docs.microsoft.com/windows/mixed-reality/develop/unreal/unreal-reverb-g2-controllers)
+### [HP Reverb G2 — контроллеры в Unity](/windows/mixed-reality/develop/unity/unity-reverb-g2-controllers)
+### [HP Reverb G2 — контроллеры в Unreal](/windows/mixed-reality/develop/unreal/unreal-reverb-g2-controllers)
 
 ## [Руководство по участию в работе](contributing.md)
