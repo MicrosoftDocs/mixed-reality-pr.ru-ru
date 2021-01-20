@@ -17,9 +17,9 @@
 - name: Оборудование HoloLens
   items:
     - name: "Сведения об оборудовании HoloLens\_2"
-      href: 'https://docs.microsoft.com/hololens/hololens2-hardware'
+      href: /hololens/hololens2-hardware
     - name: Сведения об оборудовании HoloLens (1-го поколения)
-      href: 'https://docs.microsoft.com/hololens/hololens1-hardware'
+      href: /hololens/hololens1-hardware
 - name: Иммерсивные гарнитуры
   items:
     - name: Сведения об оборудовании иммерсивных гарнитур
@@ -27,7 +27,7 @@
     - name: Навигация по дому с технологией Windows Mixed Reality
       href: navigating-the-windows-mixed-reality-home.md
     - name: Руководство для энтузиастов виртуальной реальности
-      href: 'https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/'
+      href: /windows/mixed-reality/enthusiast-guide/
     - name: Развлечения на основе местоположения
       href: location-based-experiences.md
 - name: Ресурсы сообщества
