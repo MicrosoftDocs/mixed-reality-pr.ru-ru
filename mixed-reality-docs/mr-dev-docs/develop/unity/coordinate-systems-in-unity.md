@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 02/24/2019
 ms.topic: article
 keywords: система координат, пространственный система координат, только ориентация, установленный масштаб, фиксированный масштаб, комната. масштабирование, мировое масштабирование, 360 градусов, помещение, размещение, помещение, мир, масштабирование, положение, ориентация, Unity, привязка, пространственное привязку, прикрепление, блокировка мира, блокировка по всему миру, блокировки текста, Блокировка текста, блокировка в мире, с потерей данных, локатабилити, границы, перецентрирование, гарнитура смешанной реальности, головной телефон
-ms.openlocfilehash: 900c393bf9ab09f1ac49e3108488d081f8025c19
-ms.sourcegitcommit: 87b54c75044f433cfadda68ca71c1165608e2f4b
+ms.openlocfilehash: aa68ae44e09dfe579f8ab8924d1b300506a1f00e
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97010285"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98581061"
 ---
 # <a name="coordinate-systems-in-unity"></a>Системы координат в Unity
 
@@ -163,15 +163,15 @@ Anchor_OnTrackingChanged(anchor, anchor.isLocated);
 
 ## <a name="sharing-anchors-across-devices"></a>Совместное использование привязок на разных устройствах
 
-Используйте <a href="https://docs.microsoft.com/azure/spatial-anchors/overview" target="_blank">Пространственные привязки Azure</a> , чтобы создать устойчивую облачную привязку на основе локальной ворлданчор, которую приложение может затем разместить на нескольких устройствах HoloLens, iOS и Android.  При совместном использовании общей пространственной привязки на нескольких устройствах каждый пользователь может видеть содержимое, отображаемое относительно этой привязки в том же физическом расположении.  Это позволяет обмениваться опытом в режиме реального времени.
+Используйте <a href="/azure/spatial-anchors/overview" target="_blank">Пространственные привязки Azure</a> , чтобы создать устойчивую облачную привязку на основе локальной ворлданчор, которую приложение может затем разместить на нескольких устройствах HoloLens, iOS и Android.  При совместном использовании общей пространственной привязки на нескольких устройствах каждый пользователь может видеть содержимое, отображаемое относительно этой привязки в том же физическом расположении.  Это позволяет обмениваться опытом в режиме реального времени.
 
-Чтобы приступить к созданию общих интерфейсов в Unity, ознакомьтесь с пошаговыми руководствами Unity по 5-минутной <a href="https://docs.microsoft.com/azure/spatial-anchors/unity-overview" target="_blank">пространственной привязке Azure</a>.
+Чтобы приступить к созданию общих интерфейсов в Unity, ознакомьтесь с пошаговыми руководствами Unity по 5-минутной <a href="/azure/spatial-anchors/unity-overview" target="_blank">пространственной привязке Azure</a>.
 
-После завершения работы с пространственными привязками Azure можно <a href="https://docs.microsoft.com/azure/spatial-anchors/concepts/create-locate-anchors-unity" target="_blank">создавать и искать привязки в Unity</a>.
+После завершения работы с пространственными привязками Azure можно <a href="/azure/spatial-anchors/concepts/create-locate-anchors-unity" target="_blank">создавать и искать привязки в Unity</a>.
 
 ## <a name="next-development-checkpoint"></a>Следующий этап разработки
 
-Если вы используете точку контрольной точки разработки Unity, которую мы собрали, то можете изучить стандартные блоки в смешанной реальности. Отсюда можно перейти к следующему стандартному блоку:
+Если вы используете точку контрольной точки разработки Unity, которую мы собрали, то можете изучить стандартные блоки в смешанной реальности. Отсюда вы можете перейти к следующему стандартному блоку:
 
 > [!div class="nextstepaction"]
 > [Взгляд](gaze-in-unity.md)
@@ -190,5 +190,5 @@ Anchor_OnTrackingChanged(anchor, anchor.isLocated);
 * [Пространственные привязки](../../design/spatial-anchors.md)
 * [Сохраняемость в Unity](persistence-in-unity.md)
 * [Общий доступ в Unity](shared-experiences-in-unity.md)
-* <a href="https://docs.microsoft.com/azure/spatial-anchors" target="_blank">Пространственные привязки Azure</a>
-* <a href="https://docs.microsoft.com/dotnet/api/Microsoft.Azure.SpatialAnchors" target="_blank">Пакет SDK для пространственных привязок Azure для Unity</a>
+* <a href="/azure/spatial-anchors" target="_blank">Пространственные привязки Azure</a>
+* <a href="/dotnet/api/Microsoft.Azure.SpatialAnchors" target="_blank">Пакет SDK для пространственных привязок Azure для Unity</a>

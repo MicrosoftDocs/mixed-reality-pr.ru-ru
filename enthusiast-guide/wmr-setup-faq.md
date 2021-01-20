@@ -8,12 +8,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, обратная связь, центр обратной связи, ошибки
 appliesto:
 - Windows 10
-ms.openlocfilehash: 2da2524ae09014b990ea4f0301a21d4aac963eb9
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 87eb22e600ca2426bdd3fec1fd428c11d9c45313
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98008634"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98581818"
 ---
 # <a name="windows-mixed-reality-setup-faq"></a>Вопросы и ответы по настройке Windows Mixed Reality
 
@@ -28,7 +28,7 @@ ms.locfileid: "98008634"
 * Перезагрузите компьютер и повторите попытку. Возможно, потребуется повторить несколько раз или запустить средство устранения неполадок Центр обновления Windows, чтобы очистить ожидающие обновления.
 
 > [!NOTE]
-> * Если вы находитесь в управляемой корпоративной сети, обратитесь к администратору. Может потребоваться включить Windows Mixed Reality. Ищете инструкции для ИТ Pro? См. **[эту статью](https://docs.microsoft.com/windows/application-management/manage-windows-mixed-reality)**.
+> * Если вы находитесь в управляемой корпоративной сети, обратитесь к администратору. Может потребоваться включить Windows Mixed Reality. Ищете инструкции для ИТ Pro? См. **[эту статью](/windows/application-management/manage-windows-mixed-reality)**.
 > * Если для Wi-Fi сетевого подключения установлено значение лимитное, измените его на неконтролируемый. **[Подробнее](https://support.microsoft.com/help/4028458)**
 
 ## <a name="i-get-a-message-that-says-something-went-wrong-and-we-couldnt-start-windows-mixed-reality"></a>Я получаю сообщение "что-то пошло не так, и нам не удалось запустить Windows Mixed Reality".
@@ -126,7 +126,7 @@ ms.locfileid: "98008634"
 
 Если вы используете подключение Wi-Fi 2,4 ГГц, контроллеры движения могут замедлить работу Wi-Fi. Выполните одно из следующих действий.
 
-* Переключитесь на подключение Wi-Fi с частотой 5 ГГц, если оно доступно. Подробнее
+* Переключитесь на подключение Wi-Fi с частотой 5 ГГц, если оно доступно. Дополнительные сведения
 * Используйте отдельный адаптер Bluetooth для подключения контроллеров Motion к компьютеру. [См. Рекомендуемые адаптеры](recommended-adapters-for-windows-mixed-reality-capable-pcs.md)
 
 > [!NOTE]

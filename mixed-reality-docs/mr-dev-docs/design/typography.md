@@ -6,12 +6,12 @@ ms.author: dongpark
 ms.date: 06/03/2019
 ms.topic: article
 keywords: Windows Mixed Reality, проектирование, стиль, шрифт, типографский, Пользовательский интерфейс, UX, текст, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, HoloLens
-ms.openlocfilehash: 38acc8c0d2c7dbd7bcb192f82bb1bb52838323ac
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 015273c84462e48e145af77421da4131bb650d9e
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98007654"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98580271"
 ---
 # <a name="typography"></a>Шрифтовое оформление
 
@@ -37,9 +37,9 @@ ms.locfileid: "98007654"
 
 ### <a name="limit-your-fonts"></a>Ограничение шрифтов
 
-Старайтесь не использовать более двух различных семейств шрифтов в одном контексте. Слишком большое число шрифтов приведет к нарушению удобства и согласованности вашего опыта и значительно затрудняет использование информации. В HoloLens, поскольку информация перемещается поверх физической среды, использование слишком большого количества стилей шрифта приведет к ухудшению работы. Segoe UI — это шрифт для всех цифровых дизайнов Майкрософт. Он постоянно используется в оболочке Windows Mixed Reality. Файл шрифта Segoe UI можно загрузить на [странице Windows Design Toolkit](https://docs.microsoft.com/windows/uwp/design-downloads/).
+Старайтесь не использовать более двух различных семейств шрифтов в одном контексте. Слишком большое число шрифтов приведет к нарушению удобства и согласованности вашего опыта и значительно затрудняет использование информации. В HoloLens, поскольку информация перемещается поверх физической среды, использование слишком большого количества стилей шрифта приведет к ухудшению работы. Segoe UI — это шрифт для всех цифровых дизайнов Майкрософт. Он постоянно используется в оболочке Windows Mixed Reality. Файл шрифта Segoe UI можно загрузить на [странице Windows Design Toolkit](/windows/uwp/design-downloads/).
 
-[Дополнительные сведения о гарнитуре Segoe UI](https://docs.microsoft.com/windows/uwp/design/style/typography)
+[Дополнительные сведения о гарнитуре Segoe UI](/windows/uwp/design/style/typography)
 
 ### <a name="avoid-thin-font-weights"></a>Избегайте тонких весов шрифтов
 
@@ -132,4 +132,4 @@ Segoe UI (шрифт по умолчанию для Windows) хорошо раб
 ## <a name="see-also"></a>См. также раздел
 
 * [Текст в Unity](../develop/unity/text-in-unity.md)
-* [Цвет, свет и материалы](../color,-light-and-materials.md)
+* [Цвет, свет и материалы](./color-light-and-materials.md)

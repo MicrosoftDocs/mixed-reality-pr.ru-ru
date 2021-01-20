@@ -3,12 +3,12 @@ title: Использование игр и приложений в Windows Mixe
 description: Как запускать иммерсивное и 2D-приложения и игры, просматривать рабочий стол и работать с содержимым Вебвр и Стеамвр.
 ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, приложения, игры, Настольный, Стеамвр, Вебвр, Steam
-ms.openlocfilehash: 24d8e0fcf93b40e21484c9b1dddd1adaaf75fb00
-ms.sourcegitcommit: 1b90f27af091dffd4fba63d69a89873aa0f75079
+ms.openlocfilehash: e277ede1af3e38d7f1525412431d9006092f93b6
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97725855"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98581378"
 ---
 # <a name="using-games-and-apps-in-windows-mixed-reality"></a>Использование игр и приложений в Windows Mixed Reality
 
@@ -75,7 +75,7 @@ Windows Mixed Reality — это просто Windows. Это означает, 
 
 Windows Mixed Reality для Стеамвр позволяет пользователям запускать Стеамврные возможности на впечатляющих наушниках Windows Mixed Reality. После установки Windows Mixed Reality для Стеамвр можно запустить любимые приложения Стеамвр из библиотеки настольных систем или Steam и воспроизвести их непосредственно на гарнитуре Windows.
 
-Чтобы приступить к работе, следуйте [инструкциям по установке стеамвр для Windows Mixed Reality](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/using-steamvr-with-windows-mixed-reality).
+Чтобы приступить к работе, следуйте [инструкциям по установке стеамвр для Windows Mixed Reality](./using-steamvr-with-windows-mixed-reality.md).
 
 ## <a name="see-also"></a>См. также раздел
 

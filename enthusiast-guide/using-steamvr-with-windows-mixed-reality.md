@@ -3,12 +3,12 @@ title: Использование Стеамвр с Windows Mixed Reality
 description: Узнайте, как настроить и воспроизводить игры Стеамвр на гарнитурах и контроллерах Windows Mixed Reality с совместимыми ПК.
 ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, игры, Стеамвр, Steam, требования к системе
-ms.openlocfilehash: 01fac0f6ce88e473da8a8d9300a4169b37b74078
-ms.sourcegitcommit: b13c517df19179ca281362a1f006914289c58ad4
+ms.openlocfilehash: 4a2d3065a12cdc413eae5b7ad164db6e820455ae
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98031970"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98581790"
 ---
 # <a name="using-steamvr-with-windows-mixed-reality"></a>Использование Стеамвр с Windows Mixed Reality
 
@@ -163,6 +163,6 @@ Red = репроекция движения отключена, так как п
 
 * [Устранение неполадок Стеамвр с Windows Mixed Reality](steamvr-questions.md)
 * [Использование игр и приложений в Windows Mixed Reality](using-games-and-apps-in-windows-mixed-reality.md)
-* [Использование контроллеров HP в Unity](https://docs.microsoft.com/windows/mixed-reality/develop/unity/unity-reverb-g2-controllers)
-* [Использование контроллеров HP в нереальном режиме](https://docs.microsoft.com/windows/mixed-reality/develop/unreal/unreal-reverb-g2-controllers)
+* [Использование контроллеров HP в Unity](/windows/mixed-reality/develop/unity/unity-reverb-g2-controllers)
+* [Использование контроллеров HP в нереальном режиме](/windows/mixed-reality/develop/unreal/unreal-reverb-g2-controllers)
 * [Отправка сведений об ошибках и отзывов](filing-feedback.md)

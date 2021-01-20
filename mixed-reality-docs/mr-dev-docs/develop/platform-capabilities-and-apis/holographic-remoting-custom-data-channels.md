@@ -6,12 +6,12 @@ ms.author: flbagar
 ms.date: 12/01/2020
 ms.topic: article
 keywords: HoloLens, удаленное взаимодействие, holographic удаленное взаимодействие, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, каналы данных
-ms.openlocfilehash: 6fd2bbd8ce2dedc3b13674576a23a0484ebe1419
-ms.sourcegitcommit: 99ae85159b7cf75f919021771ebb8299868beea9
+ms.openlocfilehash: a11fe0bb023ae34692015585f6e1689db4330ac7
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97102909"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98582618"
 ---
 # <a name="custom-holographic-remoting-data-channels"></a>Пользовательские каналы данных с голографическим удаленным взаимодействием
 
@@ -118,5 +118,5 @@ m_customDataChannel.Close();
 * [Создание удаленного приложения holographic с удаленным взаимодействием с помощью API-интерфейсов Опенкср](holographic-remoting-create-remote-openxr.md)
 * [Создание пользовательского проигрывателя для голографического удаленного взаимодействия](holographic-remoting-create-player.md)
 * [Устранение неполадок и ограничения удаленного взаимодействия с holographic](holographic-remoting-troubleshooting.md)
-* [Условия лицензии на использование ПО для голографического удаленного взаимодействия](https://docs.microsoft.com//legal/mixed-reality/microsoft-holographic-remoting-software-license-terms)
+* [Условия лицензии на использование ПО для голографического удаленного взаимодействия](//legal/mixed-reality/microsoft-holographic-remoting-software-license-terms)
 * [Заявление о конфиденциальности Майкрософт](https://go.microsoft.com/fwlink/?LinkId=521839)

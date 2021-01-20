@@ -6,16 +6,16 @@ ms.author: pinkb
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Windows Mixed Reality, проектирование, цвет, освещение, материалы, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: 5d99941f068e808ba14d97084ef840a66aded2a9
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: bf64413793aa40d158fde9f9a416d9a9b66af236
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97848062"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98580060"
 ---
 # <a name="color-light-and-materials"></a>Цвет, свет и материалы
 
-![Цвет, свет и материалы](images/RemoteRendering.jpg)
+![Цвет, освещение и материалы](images/RemoteRendering.jpg)
 
 Проектирование содержимого для смешанной реальности требует тщательного рассмотрения цветов, освещения и материалов для всех виртуальных ресурсов. Aestheticные цели могут включать использование освещения и материала для установки тона иммерсивного окружения, в то время как функциональные задачи могут включать использование впечатляющих цветов для оповещения пользователей о предустановленном действии. Каждое из этих решений должно соответствовать возможностям и ограничениям целевого устройства вашего взаимодействия.
 
@@ -105,4 +105,4 @@ ms.locfileid: "97848062"
 * [Разделение цветов](../develop/platform-capabilities-and-apis/hologram-stability.md#color-separation)
 * [Голограммы](../discover/hologram.md)
 * [Язык Microsoft Design — Color](https://www.microsoft.com/design/color)
-* [Цвет универсальная платформа Windows](https://docs.microsoft.com/windows/uwp/style/color)
+* [Цвет универсальная платформа Windows](/windows/uwp/style/color)

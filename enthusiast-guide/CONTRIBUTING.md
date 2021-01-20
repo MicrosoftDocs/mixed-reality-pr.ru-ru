@@ -8,12 +8,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, обратная связь, центр обратной связи, ошибки
 appliesto:
 - Windows 10
-ms.openlocfilehash: afb559937c2bde06d3c74c1c572aefec50502884
-ms.sourcegitcommit: 9a93c9e9b3b088da942ac4386813ecf263c2e324
+ms.openlocfilehash: 28ca1653019252c749fe5977a06bff4503800c10
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "97865439"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98580182"
 ---
 # <a name="contributing-to-the-mixed-reality-enthusiast-guide"></a>Дополнение к руководству по работе со смешанной реальности
 
@@ -22,7 +22,7 @@ ms.locfileid: "97865439"
 > [!IMPORTANT]
 > При работе со всеми репозиториями, используемыми для публикации на сайте docs.microsoft.com, требуется соблюдать [правила поведения для управляемых компанией Майкрософт сообществ разработки ПО с открытым кодом](https://opensource.microsoft.com/codeofconduct/). См. дополнительные сведения на странице [вопросов и ответов о правилах поведения](https://opensource.microsoft.com/codeofconduct/faq/). Также вы можете отправить свои вопросы и комментарии по адресу [opencode@microsoft.com](mailto:opencode@microsoft.com).<br>
 >
-> Порядок внесения незначительных изменений или уточнений в документацию и примеры кода из общедоступных репозиториев см. в [условиях использования на сайте docs.microsoft.com](https://docs.microsoft.com/legal/termsofuse). Если новые или значительные изменения вносят не сотрудники корпорации Майкрософт, в комментариях к запросу на вытягивание на сайте GitHub появится предложение принять условия лицензионного соглашения с участником (CLA). Вам нужно заполнить онлайн-форму, после чего мы сможем принять ваш запрос на внесение изменений.
+> Порядок внесения незначительных изменений или уточнений в документацию и примеры кода из общедоступных репозиториев см. в [условиях использования на сайте docs.microsoft.com](/legal/termsofuse). Если новые или значительные изменения вносят не сотрудники корпорации Майкрософт, в комментариях к запросу на вытягивание на сайте GitHub появится предложение принять условия лицензионного соглашения с участником (CLA). Вам нужно заполнить онлайн-форму, после чего мы сможем принять ваш запрос на внесение изменений.
 
 ## <a name="before-you-start"></a>Перед началом работы
 
@@ -53,7 +53,7 @@ ms.locfileid: "97865439"
 | 5. Нажмите кнопку Предварительный просмотр изменений, чтобы убедиться, что форматирование выглядит так, как ожидалось. | ![Предварительный просмотр изменений](images/edit-in-github.png)|
 | 6. После завершения прокрутки перейдите к нижней части страницы и нажмите кнопку "предложить изменение файла". появится страница "Сравнение изменений", позволяющая проверить изменения. Затем нажмите кнопку "создать запрос на вытягивание", чтобы отправить изменения. На этом этапе все готово. | ![Предложить изменение](images/propose.jpg)|
 
-После отправки изменений (через запрос на вытягивание) они будут проверены участником группы разработчиков документации. Если запрос принят, обновления публикуются в [https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide) .
+После отправки изменений (через запрос на вытягивание) они будут проверены участником группы разработчиков документации. Если запрос принят, обновления публикуются в [https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide](/windows/mixed-reality/enthusiast-guide) .
 
 * Для внутреннего просмотра можно просмотреть изменения в разделе [https://review.docs.microsoft.com/windows/mixed-reality/enthusiast-guide](https://review.docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/?branch=master) .
 
@@ -128,7 +128,7 @@ ms.locfileid: "97865439"
 
 ## <a name="working-with-branches"></a>Работа с ветвями
 
-В [репозитории GitHub для энтузиастов в смешанной реальности](https://github.com/MicrosoftDocs/mixedreality-enthusiast-guide) используются две основные родительские ветви: [master](https://github.com/MicrosoftDocs/mixedreality-enthusiast-guide/tree/master), содержимое которых можно просмотреть на [промежуточном сайте](https://review.docs.microsoft.com/windows/mixed-reality/enthusiast-guide)и в [реальном времени](https://github.com/MicrosoftDocs/mixedreality-enthusiast-guide/tree/live)для содержимого, отображаемого на [активном сайте](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide).
+В [репозитории GitHub для энтузиастов в смешанной реальности](https://github.com/MicrosoftDocs/mixedreality-enthusiast-guide) используются две основные родительские ветви: [master](https://github.com/MicrosoftDocs/mixedreality-enthusiast-guide/tree/master), содержимое которых можно просмотреть на [промежуточном сайте](https://review.docs.microsoft.com/windows/mixed-reality/enthusiast-guide)и в [реальном времени](https://github.com/MicrosoftDocs/mixedreality-enthusiast-guide/tree/live)для содержимого, отображаемого на [активном сайте](/windows/mixed-reality/enthusiast-guide).
 
 При внесении вклада отправьте запрос на вытягивание (PR) в **главную** ветвь. Эта ветвь доступна для просмотра на промежуточном сайте и в ней содержатся только те материалы, которые готовы к публикации на общедоступном сайте. Вы также можете создать и отправить ветвь с собственным уникальным именем ветви, которую можно выбрать и просмотреть на промежуточном сайте. ( **Динамическая** ветвь может использоваться только администраторами содержимого.)
 
@@ -138,13 +138,13 @@ ms.locfileid: "97865439"
 
 - [Основы Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 - [Markdown-at-"Краткий справочник"](images/MarkdownPoster.pdf)
-- [Дополнительные ресурсы для записи Markdown для docs.microsoft.com](https://docs.microsoft.com/contribute/how-to-write-use-markdown)
+- [Дополнительные ресурсы для записи Markdown для docs.microsoft.com](/contribute/how-to-write-use-markdown)
 
 ### <a name="adding-tables"></a>Добавление таблиц
 
 Из-за того, что таблицы стилей docs.microsoft.com, они не будут иметь границы или пользовательские стили, даже если вы попробуете использовать встроенный код CSS. Он будет работать в течение короткого периода времени, но в конечном итоге платформа будет выводить стили из таблицы. Итак, планируйте и старайтесь не усложнять таблицы. [Вот сайт, который упрощает Markdown таблицы](https://www.tablesgenerator.com/markdown_tables).
 
-[Расширение "документы Markdown" для Visual Studio Code](https://docs.microsoft.com/teamblog/docs-extension) также упрощает создание таблиц, если вы используете [Visual Studio Code (см. ниже)](#using-visual-studio-code) , чтобы изменить документацию.
+[Расширение "документы Markdown" для Visual Studio Code](/teamblog/docs-extension) также упрощает создание таблиц, если вы используете [Visual Studio Code (см. ниже)](#using-visual-studio-code) , чтобы изменить документацию.
 
 ### <a name="adding-images"></a>Добавление изображений
 

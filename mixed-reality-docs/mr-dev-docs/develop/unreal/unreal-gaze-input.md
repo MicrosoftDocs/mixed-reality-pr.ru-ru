@@ -6,12 +6,12 @@ ms.author: jacksonf
 ms.date: 12/9/2020
 ms.topic: article
 keywords: Windows Mixed Reality, голограммы, HoloLens 2, отслеживание взгляда, ввод с экрана, подключенный головной дисплей, нереалный механизм, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: e546867fe02acd5e72ee76b4108a369ec25fd32f
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 0c5191534313b94a5382d1065f5a5dd1a208bb49
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98010144"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98579988"
 ---
 # <a name="gaze-input"></a>Входные данные взгляда
 
@@ -117,7 +117,7 @@ void AEyeTracker::Tick(float DeltaTime)
 Вы можете в любой момент вернуться к [этапам разработки для Unreal](unreal-development-overview.md#2-core-building-blocks).
 
 ## <a name="see-also"></a>См. также статью
-* [Калибровка](../../calibration.md)
+* [Калибровка](/hololens/hololens-calibration)
 * [Комфорт](../../design/comfort.md)
 * [Взгляд и фиксация](../../design/gaze-and-commit.md)
 * [Голосовой ввод](../../out-of-scope/voice-design.md)

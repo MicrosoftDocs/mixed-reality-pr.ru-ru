@@ -2,16 +2,16 @@
 title: Рекомендации по использованию материалов в Unreal
 description: Обзор материалов в нереальном подсистеме.
 author: hferrone
-ms.author: v-hferrone
+ms.author: safarooq
 ms.date: 09/18/2020
 ms.topic: article
 keywords: Нереал, Нереал. 4, UE4, HoloLens, HoloLens 2, разработка, материалы, документация, руководства, функции, голограммы, Разработка игр, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 11c10577bd3946facb96fd77b09265ab5ca26f24
-ms.sourcegitcommit: 32cb81eee976e73cd661c2b347691c37865a60bc
+ms.openlocfilehash: bfe70e730c5fbd6e5d103737b03e76bfd0ab65f6
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96609575"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98580790"
 ---
 # <a name="material-recommendations-in-unreal"></a>Рекомендации по использованию материалов в Unreal
 
@@ -88,7 +88,7 @@ ms.locfileid: "96609575"
 
 ![Сложность материала в нереальном режиме](images/unreal-materials-img-10.png)
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 * [Мобильные материалы](https://docs.unrealengine.com/Platforms/Mobile/Materials/index.html)
 * [Режимы представления](https://docs.unrealengine.com/Engine/UI/LevelEditor/Viewports/ViewModes/index.html)
 * [Экземпляры материалов](https://docs.unrealengine.com/Engine/Rendering/Materials/MaterialInstances/index.html)

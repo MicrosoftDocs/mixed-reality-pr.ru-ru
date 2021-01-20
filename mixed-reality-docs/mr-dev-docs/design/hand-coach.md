@@ -6,12 +6,12 @@ ms.author: glee
 ms.date: 09/25/2019
 ms.topic: article
 keywords: Windows Mixed Reality, проектирование, рука, увлекательная гарнитура, МРТК, руки, помощь в руки, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: 07b42482d9258b4189ef43683370bd951f5c88e8
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 69afe767e01c57535b79575e4f25fabe4a9f6f39
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009164"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98582274"
 ---
 # <a name="hand-coach"></a>Обучающая рука
 
@@ -177,7 +177,7 @@ ms.locfileid: "98009164"
 
 * [Принципы взаимодействия](interaction-fundamentals.md)
 * [Процесс создания ресурсов](asset-creation-process.md)
-* [Жесты](../gestures.md)
+* [Жесты](./interaction-fundamentals.md)
 * [Установка инструментов](../develop/install-the-tools.md)
 * [Настройка проекта Unity](../develop/unity/Configure-Unity-Project.md)
 * [Обзор разработки в Unity](../develop/unity/unity-development-overview.md)

@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 05/13/2019
 ms.topic: article
 keywords: Смешанная реальность, взгляд, вдаваясь, взаимодействие, проектирование, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств для смешанной реальности, UX, рекомендации, представление списка
-ms.openlocfilehash: 2bfd984a466c1ccd3913e889ca57663800f46380
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: e70536b7247153979b8650ba1f5bcbe1a7cd08af
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98007084"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98582206"
 ---
 # <a name="head-gaze-and-dwell"></a>Направление головы и остановка
 
@@ -32,7 +32,7 @@ Head-взгляд и вдаваясь отлично подходят в сит�
     </colgroup>
     <tr>
         <td><strong>Модель ввода</strong></td>
-        <td><a href="../hololens-hardware-details.md"><strong>HoloLens (1-го поколения)</strong></a></td>
+        <td><a href="/hololens/hololens1-hardware"><strong>HoloLens (1-го поколения)</strong></a></td>
         <td><a href="https://docs.microsoft.com/hololens/hololens2-hardware"><strong>HoloLens 2</strong></td>
         <td><a href="../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
     </tr>

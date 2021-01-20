@@ -6,12 +6,12 @@ ms.author: crderr
 ms.date: 03/21/2018
 ms.topic: article
 keywords: критерии качества приложения, Смешанная реальность, приложение смешанной реальности, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 8037b573f50ef1f1137a6c50913990fadf40e92e
-ms.sourcegitcommit: a1bb77f729ee2e0b3dbd1c2c837bb7614ba7b9bd
+ms.openlocfilehash: 3f6752c0a15ae7db21be1f4a6d2843339ab28a5c
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98192682"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98581265"
 ---
 # <a name="app-quality-criteria"></a>Критерии качества приложения
 
@@ -36,7 +36,7 @@ ms.locfileid: "98192682"
     <col width="33%" />
     </colgroup>
     <tr>
-        <td><a href="../../hololens-hardware-details.md"><strong>HoloLens</strong></a></td>
+        <td><a href="/hololens/hololens1-hardware"><strong>HoloLens</strong></a></td>
         <td><a href="../../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
         <td></td>
     </tr>
@@ -99,7 +99,7 @@ ms.locfileid: "98192682"
     <col width="33%" />
     </colgroup>
     <tr>
-        <td><a href="../../hololens-hardware-details.md"><strong>HoloLens</strong></a></td>
+        <td><a href="/hololens/hololens1-hardware"><strong>HoloLens</strong></a></td>
         <td><a href="../../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
         <td></td>
     </tr>
@@ -161,7 +161,7 @@ ms.locfileid: "98192682"
     <col width="33%" />
     </colgroup>
     <tr>
-        <td><a href="../../hololens-hardware-details.md"><strong>HoloLens</strong></a></td>
+        <td><a href="/hololens/hololens1-hardware"><strong>HoloLens</strong></a></td>
         <td><a href="../../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
         <td></td>
     </tr>
@@ -224,7 +224,7 @@ ms.locfileid: "98192682"
     <col width="33%" />
     </colgroup>
     <tr>
-        <td><a href="../../hololens-hardware-details.md"><strong>HoloLens</strong></a></td>
+        <td><a href="/hololens/hololens1-hardware"><strong>HoloLens</strong></a></td>
         <td><a href="../../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
         <td></td>
     </tr>
@@ -281,7 +281,7 @@ ms.locfileid: "98192682"
     <col width="33%" />
     </colgroup>
     <tr>
-        <td><a href="../../hololens-hardware-details.md"><strong>HoloLens</strong></a></td>
+        <td><a href="/hololens/hololens1-hardware"><strong>HoloLens</strong></a></td>
         <td><a href="../../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
         <td></td>
     </tr>
@@ -324,7 +324,7 @@ ms.locfileid: "98192682"
     <col width="33%" />
     </colgroup>
     <tr>
-        <td><a href="../../hololens-hardware-details.md"><strong>HoloLens</strong></a></td>
+        <td><a href="/hololens/hololens1-hardware"><strong>HoloLens</strong></a></td>
         <td><a href="../../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
         <td></td>
     </tr>
@@ -382,7 +382,7 @@ ms.locfileid: "98192682"
     <col width="33%" />
     </colgroup>
     <tr>
-        <td><a href="../../hololens-hardware-details.md"><strong>HoloLens</strong></a></td>
+        <td><a href="/hololens/hololens1-hardware"><strong>HoloLens</strong></a></td>
         <td><a href="../../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
         <td></td>
     </tr>
@@ -438,7 +438,7 @@ ms.locfileid: "98192682"
     <col width="33%" />
     </colgroup>
     <tr>
-        <td><a href="../../hololens-hardware-details.md"><strong>HoloLens</strong></a></td>
+        <td><a href="/hololens/hololens1-hardware"><strong>HoloLens</strong></a></td>
         <td><a href="../../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
         <td></td>
     </tr>
@@ -479,7 +479,7 @@ ms.locfileid: "98192682"
 #### <a name="documentation"></a>Документация
 
 * [Проектирование взаимодействия](../../discover/hologram.md)
-* [Цвет, освещение и материал](../../color,-light-and-materials.md)
+* [Цвет, освещение и материал](../../design/color-light-and-materials.md)
 * [Биллбординг и закрепление элемента в пространстве](../../design/billboarding-and-tag-along.md)
 * [Инстинктивное взаимодействие](../../design/interaction-fundamentals.md)
 * [Движение и перемещение](../../design/comfort.md#self-motion-and-user-locomotion)
@@ -497,7 +497,7 @@ ms.locfileid: "98192682"
     <col width="33%" />
     </colgroup>
     <tr>
-        <td><a href="../../hololens-hardware-details.md"><strong>HoloLens</strong></a></td>
+        <td><a href="/hololens/hololens1-hardware"><strong>HoloLens</strong></a></td>
         <td><a href="../../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
         <td></td>
     </tr>
@@ -548,7 +548,7 @@ ms.locfileid: "98192682"
 * [Контроллеры движения в Unity](../unity/motion-controllers-in-unity.md)
 * [Жесты в Unity](../unity/gestures-in-unity.md)
 * [Голосовой ввод в Unity](../unity/voice-input-in-unity.md)
-* [Ввод с помощью клавиатуры, мыши и контроллера в DirectX](../../keyboard,-mouse,-and-controller-input-in-directx.md)
+* [Ввод с помощью клавиатуры, мыши и контроллера в DirectX](./keyboard-mouse-and-controller-input-in-directx.md)
 * [Направление головы и взгляда в DirectX](../native/gaze-in-directx.md)
 * [Контроллеры движения и жестов в DirectX](../native/hands-and-motion-controllers-in-directx.md)
 * [Голосовой ввод в DirectX](../native/voice-input-in-directx.md)
@@ -573,7 +573,7 @@ ms.locfileid: "98192682"
     <col width="33%" />
     </colgroup>
     <tr>
-        <td><a href="../../hololens-hardware-details.md"><strong>HoloLens</strong></a></td>
+        <td><a href="/hololens/hololens1-hardware"><strong>HoloLens</strong></a></td>
         <td><a href="../../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
         <td></td>
     </tr>
@@ -628,7 +628,7 @@ ms.locfileid: "98192682"
     <col width="33%" />
     </colgroup>
     <tr>
-        <td><a href="../../hololens-hardware-details.md"><strong>HoloLens</strong></a></td>
+        <td><a href="/hololens/hololens1-hardware"><strong>HoloLens</strong></a></td>
         <td><a href="../../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
         <td></td>
     </tr>
@@ -683,7 +683,7 @@ ms.locfileid: "98192682"
     <col width="33%" />
     </colgroup>
     <tr>
-        <td><a href="../../hololens-hardware-details.md"><strong>HoloLens</strong></a></td>
+        <td><a href="/hololens/hololens1-hardware"><strong>HoloLens</strong></a></td>
         <td><a href="../../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
         <td></td>
     </tr>
@@ -726,7 +726,7 @@ ms.locfileid: "98192682"
     <col width="33%" />
     </colgroup>
     <tr>
-        <td><a href="../../hololens-hardware-details.md"><strong>HoloLens</strong></a></td>
+        <td><a href="/hololens/hololens1-hardware"><strong>HoloLens</strong></a></td>
         <td><a href="../../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
         <td></td>
     </tr>

@@ -6,12 +6,12 @@ ms.author: jacksonf
 ms.date: 12/9/2020
 ms.topic: article
 keywords: Нереал, нереалистичный механизм 4, UE4, HoloLens, HoloLens 2, потоковая передача, удаленное взаимодействие, Смешанная реальность, разработка, начало работы, функции, новый проект, эмулятор, документация, руководства, функции, голограммы, Разработка игр, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, WinRT, DLL
-ms.openlocfilehash: 0d181d1eff644de0512c40a140474612a1540b40
-ms.sourcegitcommit: e24715fffa815c24ca411fa93eed9576ae729337
+ms.openlocfilehash: f32b5b3ddbee2e24e61d08b0a1b887b7b06e6da4
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "98247757"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98580406"
 ---
 # <a name="winrt-in-unreal"></a>WinRT в Unreal
 
@@ -26,8 +26,8 @@ ms.locfileid: "98247757"
 > [!div class="nextstepaction"]
 > [Развертывание на устройстве](unreal-deploying.md)
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
-* [API-интерфейсы/WinRT C++](https://docs.microsoft.com/windows/uwp/cpp-and-winrt-apis/)
-* [Класс Филесавепиккер](https://docs.microsoft.com/uwp/api/Windows.Storage.Pickers.FileSavePicker) 
-* [Нереал. сторонние библиотеки](https://docs.unrealengine.com/Programming/BuildTools/UnrealBuildTool/ThirdPartyLibraries/index.html) 
+* [API-интерфейсы/WinRT C++](/windows/uwp/cpp-and-winrt-apis/)
+* [Класс Филесавепиккер](/uwp/api/Windows.Storage.Pickers.FileSavePicker) 
+* [Нереал. сторонние библиотеки](https://docs.unrealengine.com/Programming/BuildTools/UnrealBuildTool/ThirdPartyLibraries/index.html)

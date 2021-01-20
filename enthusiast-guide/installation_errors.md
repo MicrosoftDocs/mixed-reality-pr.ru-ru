@@ -8,12 +8,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, устранение неполадок, ошибки, Справка, поддержка, установка
 appliesto:
 - Windows 10
-ms.openlocfilehash: 56ead28a5809eadef1797507168b68cbaf79953e
-ms.sourcegitcommit: 1b90f27af091dffd4fba63d69a89873aa0f75079
+ms.openlocfilehash: 056caca0b7e562007178929d4a59c2faeaece450
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97726065"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98581661"
 ---
 # <a name="installation-errors"></a>Ошибки установки
 
@@ -31,7 +31,7 @@ ms.locfileid: "97726065"
 
 ## <a name="before-we-can-set-up-windows-mixed-reality-your-administrator-will-need-to-enable-it-for-your-organization-learn-more"></a>"Перед настройкой Windows Mixed Reality администратору потребуется включить ее для вашей организации. Дополнительные сведения "
 
-Возможно, вы используете сеть, управляемую предприятием, и ваша организация использует Windows Server Update Services (WSUS). Эти и другие политики, которые могут заблокировать загрузку. Чтобы [включить Windows Mixed Reality](https://docs.microsoft.com/windows/application-management/manage-windows-mixed-reality#enable), обратитесь к ИТ-отделу Организации или к системному администратору.
+Возможно, вы используете сеть, управляемую предприятием, и ваша организация использует Windows Server Update Services (WSUS). Эти и другие политики, которые могут заблокировать загрузку. Чтобы [включить Windows Mixed Reality](/windows/application-management/manage-windows-mixed-reality#enable), обратитесь к ИТ-отделу Организации или к системному администратору.
 
 ## <a name="we-couldnt-download-the-mixed-reality-software-or-hang-tight-while-we-do-some-downloading"></a>«Не удалось скачать программное обеспечение для смешанной реальности» или «зависнуть в процессе загрузки»
 

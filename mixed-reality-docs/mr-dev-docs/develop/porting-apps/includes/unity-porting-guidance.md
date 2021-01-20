@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 0ef22142ac2efc3ef47ece2619d31dbeddcff8fe
-ms.sourcegitcommit: a1bb77f729ee2e0b3dbd1c2c837bb7614ba7b9bd
+ms.openlocfilehash: 6c33618e6d09da156bc4a4480fbecf3c0da94378
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98192670"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98580588"
 ---
 # <a name="project-settings"></a>[Параметры проекта](#tab/project)
 
@@ -39,7 +39,7 @@ ms.locfileid: "98192670"
 > Если приложение имеет какие-либо зависимости от служб для конкретных устройств, таких как сопоставление из Steam, необходимо отключить их на этом шаге. Вы можете подключиться к эквивалентным службам, которые Windows предоставляет позже.
 
 ### <a name="5-setup-your-windows-mixed-reality-hardware"></a>5. Настройка оборудования Windows Mixed Reality
-1. Ознакомьтесь с этапами [настройки иммерсивного головного телефона](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/before-you-start
+1. Ознакомьтесь с этапами [настройки иммерсивного головного телефона](/windows/mixed-reality/enthusiast-guide/before-you-start
 )
 2. Узнайте об [использовании симулятора Windows Mixed Reality](../../platform-capabilities-and-apis/using-the-windows-mixed-reality-simulator.md) и [навигации на домашней странице Windows Mixed Reality](../../../discover/navigating-the-windows-mixed-reality-home.md)
 
@@ -95,13 +95,13 @@ else
 
 Каждая игра или приложение, предназначенное для существующего ХМД, будет иметь набор входных данных, которые он обрабатывает, типы входных данных, необходимые для работы, и конкретные интерфейсы API, которые он вызывает для получения этих входных данных. Мы реализовали попытку сделать это как можно проще и простым, чтобы воспользоваться преимуществами входных данных, доступных в Windows Mixed Reality.
 
-Прочтите [руководство по переносу данных для Unity](https://docs.microsoft.com/windows/mixed-reality/develop/porting-apps/porting-guides?tabs=input) на соседней вкладке, чтобы узнать, как Windows Mixed Reality предоставляет входные данные, и как они сопоставлены с тем, что приложение может сделать сегодня.
+Прочтите [руководство по переносу данных для Unity](../porting-guides.md?tabs=input) на соседней вкладке, чтобы узнать, как Windows Mixed Reality предоставляет входные данные, и как они сопоставлены с тем, что приложение может сделать сегодня.
 
 ### <a name="9-performance-testing-and-tuning"></a>9. Тестирование и настройка производительности
 
-Windows Mixed Reality будет доступна на широком классе устройств, от высокопроизводительных компьютерных ПК до широкого спектра основных ПК на рынке. В зависимости от того, на каком рынке ориентирован целевой объект, существует существенная разница в доступных вычислениях и графических бюджетах для вашего приложения. Во время этого упражнения по переносу вы, скорее всего, используете ПК уровня "Премиум" и имели значительные бюджетные и графические графики, доступные для вашего приложения. Если вы хотите сделать приложение доступным более широкой аудитории, следует протестировать и профилировать приложение на [целевом оборудовании, которое вы хотите](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines)использовать.
+Windows Mixed Reality будет доступна на широком классе устройств, от высокопроизводительных компьютерных ПК до широкого спектра основных ПК на рынке. В зависимости от того, на каком рынке ориентирован целевой объект, существует существенная разница в доступных вычислениях и графических бюджетах для вашего приложения. Во время этого упражнения по переносу вы, скорее всего, используете ПК уровня "Премиум" и имели значительные бюджетные и графические графики, доступные для вашего приложения. Если вы хотите сделать приложение доступным более широкой аудитории, следует протестировать и профилировать приложение на [целевом оборудовании, которое вы хотите](/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines)использовать.
 
-[Unity](https://docs.unity3d.com/Manual/Profiler.html) и [Visual Studio](https://docs.microsoft.com/visualstudio/profiling/index) включают в себя Профилировщики производительности, а как [Корпорация Майкрософт](../../platform-capabilities-and-apis/understanding-performance-for-mixed-reality.md) , так и [Корпорация Intel](https://software.intel.com/articles/vr-content-developer-guide) публикуют рекомендации по профилированию и оптимизации производительности. Существует подробное обсуждение производительности, доступное [для понимания производительности смешанной реальности](../../platform-capabilities-and-apis/understanding-performance-for-mixed-reality.md). Дополнительные сведения о Unity см. в разделе [рекомендации по повышению производительности для Unity](../../unity/performance-recommendations-for-unity.md).
+[Unity](https://docs.unity3d.com/Manual/Profiler.html) и [Visual Studio](/visualstudio/profiling/index) включают в себя Профилировщики производительности, а как [Корпорация Майкрософт](../../platform-capabilities-and-apis/understanding-performance-for-mixed-reality.md) , так и [Корпорация Intel](https://software.intel.com/articles/vr-content-developer-guide) публикуют рекомендации по профилированию и оптимизации производительности. Существует подробное обсуждение производительности, доступное [для понимания производительности смешанной реальности](../../platform-capabilities-and-apis/understanding-performance-for-mixed-reality.md). Дополнительные сведения о Unity см. в разделе [рекомендации по повышению производительности для Unity](../../unity/performance-recommendations-for-unity.md).
 
 # <a name="input-mapping"></a>[сопоставление входных данных;](#tab/input)
 

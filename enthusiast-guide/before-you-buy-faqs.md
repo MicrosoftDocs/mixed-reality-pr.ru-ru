@@ -8,12 +8,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, предварительная продажа, исследование, покупка, перед покупкой
 appliesto:
 - Windows 10
-ms.openlocfilehash: e9b9254166b3ac4c188531d3651407ecfd853460
-ms.sourcegitcommit: 1b90f27af091dffd4fba63d69a89873aa0f75079
+ms.openlocfilehash: 1f7eaa59a18598d1df2ecef611a9ea7d58e6a36a
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97725515"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98580298"
 ---
 # <a name="before-you-buy-frequently-asked-questions"></a>Перед покупкой часто задаваемых вопросов
 
@@ -63,7 +63,7 @@ ms.locfileid: "97725515"
 
 * **Отслеживание за пределами** Окулус, Naopak и другие используют отслеживание за пределами.  При отслеживании внешних устройств гарнитура отслеживается одним или несколькими внешними устройствами. Камеры встроены в эти внешние устройства, помещаются вокруг среды и используются для определения расположения гарнитуры в зависимости от среды.
 
-Узнайте больше о [внутреннем отслеживании](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/tracking-system).
+Узнайте больше о [внутреннем отслеживании](./tracking-system.md).
 
 ### <a name="can-inside-out-tracking-of-motion-controllers-impact-my-game-play-due-to-camera-fov"></a>Может ли внутреннее отслеживание контроллеров движения повлиять на игру игры из-за фов камеры
 
@@ -99,7 +99,7 @@ ms.locfileid: "97725515"
 <td> До 90 Гц </td>
 <td> 100 ° </td>
 <td> 3,5-мм гнездо </td>
-<td> None </td>
+<td> Нет </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://www.acer.com/ac/en/US/content/windows-mixed-reality-home">Асер</a> </td>
@@ -125,7 +125,7 @@ ms.locfileid: "97725515"
 <td> До 90 Гц </td>
 <td> 95 ° </td>
 <td> 3,5-мм гнездо </td>
-<td> None </td>
+<td> Нет </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://www.asus.com/us/Headset/ASUS-Windows-Mixed-Reality-Headset-HC102/">АДАПТЕР</a> </td>
@@ -138,7 +138,7 @@ ms.locfileid: "97725515"
 <td> До 90 Гц </td>
 <td> 105 ° </td>
 <td> 3,5-мм гнездо </td>
-<td> None </td>
+<td> Нет </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://www.dell.com/en-us/shop/accessories/apd/536-bbbr?~ck=mn">Оборудования</a> </td>
@@ -151,7 +151,7 @@ ms.locfileid: "97725515"
 <td> До 90 Гц </td>
 <td> 105 ° </td>
 <td> 3,5-мм гнездо </td>
-<td> None </td>
+<td> Нет </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="http://pr.fujitsu.com/jp/news/2017/10/17.html">Fujitsu</a> </td>
@@ -177,7 +177,7 @@ ms.locfileid: "97725515"
 <td> До 90 Гц </td>
 <td> 105 ° </td>
 <td> 3,5-мм гнездо </td>
-<td> None </td>
+<td> Нет </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://store.hp.com/us/en/pdp/hp-windows-mixed-reality-headset-vr1000-100">КОМПАНИИ</a> </td>
@@ -190,7 +190,7 @@ ms.locfileid: "97725515"
 <td> До 90 Гц </td>
 <td> 105 ° </td>
 <td> 3,5-мм гнездо </td>
-<td> None </td>
+<td> Нет </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/virtual-and-augmented-reality/lenovo-explorer/Lenovo-Explorer/p/G10NREAG0A2">Адаптер</a> </td>
@@ -203,7 +203,7 @@ ms.locfileid: "97725515"
 <td> До 90 Гц </td>
 <td> 105 ° </td>
 <td> 3,5-мм гнездо </td>
-<td> None </td>
+<td> Нет </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://www.medion.com/be/shop/monitoren-medion-erazer-mr-x1000-vr-headset-controllers-30023616a1.html">медион</a> </td>
@@ -216,7 +216,7 @@ ms.locfileid: "97725515"
 <td> До 90 Гц </td>
 <td> 110 ° </td>
 <td> Интегрированная </td>
-<td> None </td>
+<td> Нет </td>
 <td style="text-align: center;">Машин</td>
 <td> Попадают 2017 </td>
 <td> <a href="https://www.samsung.com/us/computing/hmd/windows-mixed-reality/xe800zaa-hc1us-xe800zaa-hc1us/?redir=windows%20mixed%20reality">Samsung</a> </td>
@@ -242,7 +242,7 @@ ms.locfileid: "97725515"
 <td> До 90 Гц </td>
 <td> 105 ° </td>
 <td> 3,5-мм гнездо </td>
-<td> None </td>
+<td> Нет </td>
 <td style="text-align: center;">Программное обеспечение</td>
 <td> Попадают 2017 </td>
 <td> <a href="http://3glasses.com/goods.action?gid=30">3Glasses</a> </td>
@@ -368,7 +368,7 @@ ms.locfileid: "97725515"
 
 **Быстрый ответ:** Да, Windows Mixed Reality будет работать, даже если у вас нет большого места. Это можно настроить во время установки, выбрав вариант "Настольный".
 
-## <a name="content"></a>Содержимое
+## <a name="content"></a>Content
 
 ### <a name="what-games-and-apps-run-on-windows-mixed-reality"></a>Какие игры и приложения работают в Windows Mixed Reality?
 

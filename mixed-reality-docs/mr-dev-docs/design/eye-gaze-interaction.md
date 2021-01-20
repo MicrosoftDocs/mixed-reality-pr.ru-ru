@@ -6,18 +6,18 @@ ms.author: sostel
 ms.date: 10/29/2019
 ms.topic: article
 keywords: Отслеживание взгляда, Смешанная реальность, ввод, глаз-взгляд, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств для смешанной реальности, проектирование, взаимодействия
-ms.openlocfilehash: b5091b92fd048f72184212401d54ad0b7353875c
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: db3cb774d72de13c2f1e51d446969ee7a4cdf2b7
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98008584"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98582381"
 ---
 # <a name="eye-gaze-based-interaction-on-hololens-2"></a>Взгляд на основе взгляда на HoloLens 2
 
 ![Демонстрация отслеживания взгляда в МРТК](images/mrtk_et_scenemenu.jpg)
 
-Одной из наших замечательных новых возможностей в HoloLens 2 является отслеживание взгляда. На странице [отслеживания взгляда на HoloLens 2](eye-tracking.md) мы упоминали, что каждый пользователь должен пройти по [калибровке](https://docs.microsoft.com/hololens/hololens-calibration), предоставил некоторые рекомендации для разработчиков и выделил варианты использования для отслеживания глаз. Взгляд на глаза — это новый тип вводимых пользователем данных, и многое будет изучать. 
+Одной из наших замечательных новых возможностей в HoloLens 2 является отслеживание взгляда. На странице [отслеживания взгляда на HoloLens 2](eye-tracking.md) мы упоминали, что каждый пользователь должен пройти по [калибровке](/hololens/hololens-calibration), предоставил некоторые рекомендации для разработчиков и выделил варианты использования для отслеживания глаз. Взгляд на глаза — это новый тип вводимых пользователем данных, и многое будет изучать. 
 
 В то время как входные данные взгляда на глаза используются только в нашей оболочке (пользовательский интерфейс, отображаемый при запуске HoloLens 2), несколько приложений, например ["HoloLens Playground"](https://www.microsoft.com/p/mr-playground/9nb31lh723s2), представляют отличные примеры того, как ввод с глазным взглядом может добавить к волшебному эффекту.
 На этой странице обсуждаются вопросы проектирования по интеграции ввода взгляда с глазами для взаимодействия с более holographic приложениями.
@@ -35,7 +35,7 @@ ms.locfileid: "98008584"
 </colgroup>
 <tr>
      <td><strong>Возможность</strong></td>
-     <td><a href="../hololens-hardware-details.md"><strong>HoloLens (1-го поколения)</strong></a></td>
+     <td><a href="/hololens/hololens1-hardware"><strong>HoloLens (1-го поколения)</strong></a></td>
      <td><a href="https://docs.microsoft.com/hololens/hololens2-hardware"><strong>HoloLens 2</strong></td>
      <td><a href="../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
 </tr>

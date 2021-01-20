@@ -6,12 +6,12 @@ ms.author: davidkl
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Unity, пространственное сопоставление, модуль подготовки отчетов, средство визуализации, сетка, сканирование, компонент, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, МРТК, набор средств для смешанной реальности
-ms.openlocfilehash: b4c45ba91a3e864c8cd29f3ebc3396d0250948f4
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 841cc1fa2a37884545ae12865f9b7cf56338dc07
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009294"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98582547"
 ---
 # <a name="spatial-mapping-in-unity"></a>Пространственное сопоставление в Unity
 
@@ -34,7 +34,7 @@ Unity включает полную поддержку пространстве�
     </colgroup>
     <tr>
         <td><strong>Возможность</strong></td>
-        <td><a href="../../hololens-hardware-details.md"><strong>HoloLens (первый общий)</strong></a></td>
+        <td><a href="/hololens/hololens1-hardware"><strong>HoloLens (первый общий)</strong></a></td>
         <td><a href="https://docs.microsoft.com/hololens/hololens2-hardware"><strong>HoloLens 2</strong></td>
         <td><a href="../../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
     </tr>
@@ -487,7 +487,7 @@ Import_UnderstandingMesh –
 Если вы пойдете из пути разработки Unity, мы собрались, что вы в состоянии изучить стандартные блоки МРТК Core. Отсюда вы можете перейти к следующему стандартному блоку: 
 
 > [!div class="nextstepaction"]
-> [Текстовые](text-in-unity.md)
+> [Text](text-in-unity.md)
 
 Или перейдите к возможностям и API платформы смешанной реальности:
 

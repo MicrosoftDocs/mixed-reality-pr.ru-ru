@@ -3,12 +3,12 @@ title: Использование Вебвр с Windows Mixed Reality
 description: Ознакомьтесь с основами Вебвр, как использовать ее с Microsoft ребром на гарнитурах Windows Mixed Reality, а также как часто устранять неполадки.
 ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, Вебвр, ребро, Microsoft ребро, просмотр веб-страниц
-ms.openlocfilehash: 0b0d07383b43feaa11fb9bfac2b071d8d4d80b19
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 89d9e51bf4adb63e7836968a0112849f7ac403d0
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009444"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98581753"
 ---
 # <a name="using-webvr-with-windows-mixed-reality"></a>Использование Вебвр с Windows Mixed Reality
 
@@ -35,7 +35,7 @@ ms.locfileid: "98009444"
 
 ## <a name="where-can-i-find-the-webvr-developer-documentation"></a>Где найти документацию для разработчиков Вебвр
 
-Документация для разработчиков находится здесь: [Документация для разработчиков вебвр](https://docs.microsoft.com/microsoft-edge/webvr/).
+Документация для разработчиков находится здесь: [Документация для разработчиков вебвр](/microsoft-edge/webvr/).
 
 ## <a name="ive-found-a-website-with-webvr-that-doesnt-work-in-windows-mixed-reality-what-do-i-do"></a>Я нашел веб-сайт с Вебвр, который не работает в Windows Mixed Reality. Чем я занимаюсь
 

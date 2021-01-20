@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 12/01/2019
 ms.topic: article
 keywords: Смешанная реальность, Unity, учебник, hololens2, Пространственный звук, МРТК, набор средств для смешанной реальности, UWP, Windows 10, ХРТФ, функция передачи, связанная с HEAD, переглагол, Microsoft Спатиализер
-ms.openlocfilehash: 1eb2913f1953e334cfe75b786f96bb51a9852fc5
-ms.sourcegitcommit: a56a551ebc59529a3683fe6db90d59f982ab0b45
+ms.openlocfilehash: 7d4702a21fccbb18c7c4b07675953c37785ae6db
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98578459"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98580221"
 ---
 # <a name="1-adding-spatial-audio-to-your-unity-project"></a>1. Добавление пространственного звука в проект Unity
 
@@ -21,7 +21,7 @@ ms.locfileid: "98578459"
 
 В [репозитории Microsoft Спатиализер GitHub](https://github.com/microsoft/spatialaudio-unity) есть завершенный проект Unity этой последовательности руководств.
 
-Сведения о том, что означает спатиализеие звуков с помощью технологий пространственности на основе ХРТФ и рекомендации по их полезности, см. в статье о [проектировании пространственных звуков](https://docs.microsoft.com/windows/mixed-reality/spatial-sound-design).
+Сведения о том, что означает спатиализеие звуков с помощью технологий пространственности на основе ХРТФ и рекомендации по их полезности, см. в статье о [проектировании пространственных звуков](/windows/mixed-reality/spatial-sound-design).
 
 ## <a name="what-is-hrtf-offload"></a>Что такое разгрузка ХРТФ?
 

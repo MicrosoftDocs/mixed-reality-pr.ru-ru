@@ -6,18 +6,18 @@ ms.author: mazeller
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Заметки о выпуске, версия, Windows 10, сборка, RS3, ОС
-ms.openlocfilehash: 83c16a40388960547cfcf7444e1ae630c2f5b7f2
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: e3be8edab2aedd18013622c671283b71f95f98d8
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009494"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98581440"
 ---
 # <a name="release-notes---october-2017"></a>Заметки о выпуске — октябрь 2017 г.
 
-Добро пожаловать в Windows Mixed Reality! В выпуске **[обновления Windows 10 для дизайнеров](https://blogs.windows.com/windowsexperience/2017/10/17/whats-new-windows-10-fall-creators-update/)** появилась поддержка новых [впечатляющих головных телефонов](https://docs.microsoft.com/windows/mixed-reality/discover/immersive-headset-hardware-details) и [контроллеров движения](https://docs.microsoft.com/windows/mixed-reality/design/motion-controllers)Windows Mixed Reality. Теперь вы можете исследовать новые мировые среды, играть в игры VR и воспроизводить развлечения при подключении к [компьютеру с поддержкой Windows Mixed Reality](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines).
+Добро пожаловать в Windows Mixed Reality! В выпуске **[обновления Windows 10 для дизайнеров](https://blogs.windows.com/windowsexperience/2017/10/17/whats-new-windows-10-fall-creators-update/)** появилась поддержка новых [впечатляющих головных телефонов](/windows/mixed-reality/discover/immersive-headset-hardware-details) и [контроллеров движения](/windows/mixed-reality/design/motion-controllers)Windows Mixed Reality. Теперь вы можете исследовать новые мировые среды, играть в игры VR и воспроизводить развлечения при подключении к [компьютеру с поддержкой Windows Mixed Reality](./windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md).
 
-Гарнитуры и контроллеры движения Windows Mixed Reality — это кульминацией массовых усилий, а также основной шаг вперед для [платформы Windows Mixed Reality](https://docs.microsoft.com/windows/mixed-reality/discover/mixed-reality), включая [Microsoft HoloLens](https://docs.microsoft.com/windows/mixed-reality/hololens-hardware-details). Хотя HoloLens не получает обновления с обновлением для дизайнеров Windows 10, работа над HoloLens не остановлена. У нас будет множество изучений и ценных сведений, которые будут применяться к нашей недавней работе в Windows Mixed Reality в целом. На самом деле, игровые гарнитуры и контроллеры движения Windows Mixed Reality представляют прекрасную точку входа на разработку для HoloLens, так как те же интерфейсы API, средства и понятия применяются и к обоим.
+Гарнитуры и контроллеры движения Windows Mixed Reality — это кульминацией массовых усилий, а также основной шаг вперед для [платформы Windows Mixed Reality](/windows/mixed-reality/discover/mixed-reality), включая [Microsoft HoloLens](/windows/mixed-reality/hololens-hardware-details). Хотя HoloLens не получает обновления с обновлением для дизайнеров Windows 10, работа над HoloLens не остановлена. У нас будет множество изучений и ценных сведений, которые будут применяться к нашей недавней работе в Windows Mixed Reality в целом. На самом деле, игровые гарнитуры и контроллеры движения Windows Mixed Reality представляют прекрасную точку входа на разработку для HoloLens, так как те же интерфейсы API, средства и понятия применяются и к обоим.
 
 Чтобы выполнить обновление до последнего выпуска для каждого устройства, откройте приложение **Параметры** , перейдите в раздел **Обновление & безопасность**, а затем нажмите кнопку **проверить наличие обновлений** . На компьютере с Windows 10 можно также вручную установить обновление Windows 10 для дизайнеров Creator с помощью [средства создания Windows Media](https://www.microsoft.com/software-download/windows10).
 
@@ -30,16 +30,16 @@ ms.locfileid: "98009494"
 
 В официальном обновлении Windows 10 для дизайнеров добавлены сведения о поддержке головных телефонов Windows Mixed Reality и контроллеров движения, а также о том, что Windows 10 является первой пространственной операционной системой в мире. Вот некоторые основные моменты:
 * **[Различные гарнитуры](https://blogs.windows.com/windowsexperience/2017/10/03/how-to-pre-order-your-windows-mixed-reality-headset/)** — Windows Mixed Reality позволяет партнерам предлагать различные типы гарнитур, начиная с $399 долларов США в комплекте с контроллерами движения.
-* **[Контроллеры движения](https://docs.microsoft.com/windows/mixed-reality/design/motion-controllers)** — беспроводное связывание контроллеров движения Windows Mixed Reality с вашим компьютером через Bluetooth и функции, отслеживающие шесть степеней свободы, множество методов ввода и ИМУС.
-* **[Простота настройки и переносимость](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs)** — настройте и начните работу в течение 10 минут. Впечатляющие головные телефоны используют внутреннее отслеживание для отслеживания движения и контроллеров движения с шестью фридомс. Внешние камеры или маркеры лигхсаусе не требуются.
-* **[Поддержка более широкого спектра ПК](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines)** — Windows Mixed Reality позволит большему числу пользователей настольных компьютеров, чем когда-либо ранее, с поддержкой SELECT, встроенными графическими картами и ПК, начиная с $499 долл. США.
-* **[Домашняя страница Windows Mixed Reality](https://docs.microsoft.com/windows/mixed-reality/discover/navigating-the-windows-mixed-reality-home)** . Первая пространственно-операционная система в мире предоставляет привычную домашнюю среду для многозадачного использования с 2D-приложениями, запуска игр и приложений VR и размещения декоративных голограмм.
+* **[Контроллеры движения](/windows/mixed-reality/design/motion-controllers)** — беспроводное связывание контроллеров движения Windows Mixed Reality с вашим компьютером через Bluetooth и функции, отслеживающие шесть степеней свободы, множество методов ввода и ИМУС.
+* **[Простота настройки и переносимость](./recommended-adapters-for-windows-mixed-reality-capable-pcs.md)** — настройте и начните работу в течение 10 минут. Впечатляющие головные телефоны используют внутреннее отслеживание для отслеживания движения и контроллеров движения с шестью фридомс. Внешние камеры или маркеры лигхсаусе не требуются.
+* **[Поддержка более широкого спектра ПК](./windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md)** — Windows Mixed Reality позволит большему числу пользователей настольных компьютеров, чем когда-либо ранее, с поддержкой SELECT, встроенными графическими картами и ПК, начиная с $499 долл. США.
+* **[Домашняя страница Windows Mixed Reality](/windows/mixed-reality/discover/navigating-the-windows-mixed-reality-home)** . Первая пространственно-операционная система в мире предоставляет привычную домашнюю среду для многозадачного использования с 2D-приложениями, запуска игр и приложений VR и размещения декоративных голограмм.
 * **[Невероятные игры и приложения в Microsoft Store](https://www.microsoft.com/store/collections/MR-All-ImmersiveContent/)** — от захватывающих развлечений, таких как Хулу vr и 360, в Компьютерные игры, такие как суперхот VR и солнца, Microsoft Store имеет ряд содержимого для работы в Windows Mixed Reality.
-* **[Стеамвр ранний доступ](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/using-steamvr-with-windows-mixed-reality)** . Обновление Windows 10 для дизайнеров позволяет использовать названия головных телефонов и контроллеров Windows Mixed Reality, что делает самый крупный каталог заголовков VR доступными для пользователей Windows Mixed Reality.
+* **[Стеамвр ранний доступ](./using-steamvr-with-windows-mixed-reality.md)** . Обновление Windows 10 для дизайнеров позволяет использовать названия головных телефонов и контроллеров Windows Mixed Reality, что делает самый крупный каталог заголовков VR доступными для пользователей Windows Mixed Reality.
 
 ## <a name="known-issues"></a>Известные проблемы
 
-Мы работаем над тем, чтобы предоставить отличный опыт Windows Mixed Reality, но мы по-прежнему отслеживаем некоторые известные проблемы. Если вы нашли других пользователей, [отправьте нам отзыв](https://docs.microsoft.com/windows/mixed-reality/give-us-feedback).
+Мы работаем над тем, чтобы предоставить отличный опыт Windows Mixed Reality, но мы по-прежнему отслеживаем некоторые известные проблемы. Если вы нашли других пользователей, [отправьте нам отзыв](/windows/mixed-reality/give-us-feedback).
 
 ### <a name="desktop-app-in-the-windows-mixed-reality-home"></a>Классическое приложение на домашней странице Windows Mixed Reality
 * Средство выделения фрагментов не работает в классическом приложении.
@@ -95,7 +95,7 @@ ms.locfileid: "98009494"
 * [Заметки о выпуске — март 2016 г.](release-notes-march-2016.md)
 
 ## <a name="see-also"></a>См. также раздел
-* [Поддержка иммерсивного режима гарнитуры (внешняя ссылка)](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/troubleshooting-windows-mixed-reality)
-* [Известные проблемы с HoloLens](https://docs.microsoft.com/windows/mixed-reality/hololens-known-issues)
-* [Установка средств](https://docs.microsoft.com/windows/mixed-reality/develop/install-the-tools)
-* [Обратная связь](https://docs.microsoft.com/windows/mixed-reality/give-us-feedback)
+* [Поддержка иммерсивного режима гарнитуры (внешняя ссылка)](./troubleshooting-windows-mixed-reality.md)
+* [Известные проблемы с HoloLens](/windows/mixed-reality/hololens-known-issues)
+* [Установка средств](/windows/mixed-reality/develop/install-the-tools)
+* [Обратная связь](/windows/mixed-reality/give-us-feedback)

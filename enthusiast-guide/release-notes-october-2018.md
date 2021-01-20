@@ -6,12 +6,12 @@ ms.author: mazeller
 ms.date: 10/02/2018
 ms.topic: article
 keywords: Заметки о выпуске, версия, Windows 10, сборка, RS5, ОС
-ms.openlocfilehash: f7d95481d166f2c8795701c516946346101a21d0
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: f62bc5b1e172958a6aebf366852cfd921f7817a3
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98007114"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98581488"
 ---
 # <a name="release-notes---october-2018"></a>Заметки о выпуске — октябрь 2018 г.
 
@@ -33,7 +33,7 @@ ms.locfileid: "98007114"
     ![Смешанная реальность фонарик](images/mr-flashlight.png)
 
 * **Новые приложения и способы запуска содержимого на домашней странице Mixed Reality**
-    * Если вы используете [Windows Mixed Reality для стеамвр](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/using-steamvr-with-windows-mixed-reality), заголовки стеамвр теперь отображаются в меню "Пуск", а средства запуска приложений для каждого из них можно разместить на домашней странице смешанной реальности.
+    * Если вы используете [Windows Mixed Reality для стеамвр](./using-steamvr-with-windows-mixed-reality.md), заголовки стеамвр теперь отображаются в меню "Пуск", а средства запуска приложений для каждого из них можно разместить на домашней странице смешанной реальности.
     
         ![Средства запуска приложений Стеамвр](images/steamvr-launchers.png)
         
@@ -50,9 +50,9 @@ ms.locfileid: "98007114"
     
 ### <a name="for-developers"></a>Для разработчиков
 
-* **[Отслеживание QR-кода](https://docs.microsoft.com/windows/mixed-reality/develop/platform-capabilities-and-apis/qr-code-tracking)** . Включение отслеживания qrного кода в приложении смешанной реальности позволяет внутренним гарнитурам Windows Mixed Reality проверять наличие QR-кодов и передавать их в интересующие приложения.
+* **[Отслеживание QR-кода](/windows/mixed-reality/develop/platform-capabilities-and-apis/qr-code-tracking)** . Включение отслеживания qrного кода в приложении смешанной реальности позволяет внутренним гарнитурам Windows Mixed Reality проверять наличие QR-кодов и передавать их в интересующие приложения.
 * **Поддержка аппаратных устройств DRM для впечатляющих приложений** . разработчики теперь могут запрашивать аппаратно защищенные текстуры буфера, если они поддерживаются аппаратным обеспечением экрана, что позволяет приложениям использовать аппаратно-защищенное содержимое из таких источников, как PlayReady.
-* **[Интеграция пользовательского интерфейса для отслеживания смешанной реальности в иммерсивное приложение](https://docs.microsoft.com/windows/mixed-reality/develop/platform-capabilities-and-apis/mixed-reality-capture-for-developers#integrating-mrc-functionality-from-within-your-app)** . разработчики могут интегрировать в свои приложения запись смешанной реальности, используя встроенный [Пользовательский интерфейс для захвата камеры](https://docs.microsoft.com/windows/uwp/audio-video-camera/capture-photos-and-video-with-cameracaptureui) Windows с помощью всего нескольких строк кода.
+* **[Интеграция пользовательского интерфейса для отслеживания смешанной реальности в иммерсивное приложение](/windows/mixed-reality/develop/platform-capabilities-and-apis/mixed-reality-capture-for-developers#integrating-mrc-functionality-from-within-your-app)** . разработчики могут интегрировать в свои приложения запись смешанной реальности, используя встроенный [Пользовательский интерфейс для захвата камеры](/windows/uwp/audio-video-camera/capture-photos-and-video-with-cameracaptureui) Windows с помощью всего нескольких строк кода.
 
 ## <a name="new-features-for-hololens"></a>Новые возможности для HoloLens
 
@@ -72,7 +72,7 @@ ms.locfileid: "98007114"
 
 ### <a name="for-developers"></a>Для разработчиков
 
-* **[Интеграция пользовательского интерфейса для отслеживания смешанной реальности в иммерсивное приложение](https://docs.microsoft.com/windows/mixed-reality/develop/platform-capabilities-and-apis/mixed-reality-capture-for-developers#integrating-mrc-functionality-from-within-your-app)** . разработчики могут интегрировать в свои приложения запись смешанной реальности, используя встроенный [Пользовательский интерфейс для захвата камеры](https://docs.microsoft.com/windows/uwp/audio-video-camera/capture-photos-and-video-with-cameracaptureui) Windows с помощью всего нескольких строк кода.
+* **[Интеграция пользовательского интерфейса для отслеживания смешанной реальности в иммерсивное приложение](/windows/mixed-reality/develop/platform-capabilities-and-apis/mixed-reality-capture-for-developers#integrating-mrc-functionality-from-within-your-app)** . разработчики могут интегрировать в свои приложения запись смешанной реальности, используя встроенный [Пользовательский интерфейс для захвата камеры](/windows/uwp/audio-video-camera/capture-photos-and-video-with-cameracaptureui) Windows с помощью всего нескольких строк кода.
 
 ### <a name="for-commercial-customers"></a>Для коммерческих клиентов
 
@@ -88,7 +88,7 @@ ms.locfileid: "98007114"
 
 ## <a name="known-issues"></a>Известные проблемы
 
-Мы работаем над тем, чтобы предоставить отличный опыт Windows Mixed Reality, но мы по-прежнему отслеживаем некоторые известные проблемы. Если вы нашли других пользователей, отправьте [нам отзыв](https://docs.microsoft.com/windows/mixed-reality/give-us-feedback).
+Мы работаем над тем, чтобы предоставить отличный опыт Windows Mixed Reality, но мы по-прежнему отслеживаем некоторые известные проблемы. Если вы нашли других пользователей, отправьте [нам отзыв](/windows/mixed-reality/give-us-feedback).
 
 ### <a name="hololens"></a>HoloLens
  
@@ -99,7 +99,7 @@ ms.locfileid: "98007114"
 
 ## <a name="provide-feedback-and-report-issues"></a>Предоставление отзывов и отчетов о проблемах
 
-Используйте [приложение центра обратной связи на компьютере HoloLens или Windows 10](https://docs.microsoft.com/windows/mixed-reality/give-us-feedback) для предоставления отзывов и отчетов о проблемах. Использование центра обратной связи гарантирует, что все необходимые диагностические сведения были добавлены, чтобы помочь нашим специалистам быстро отладить и устранить проблему.
+Используйте [приложение центра обратной связи на компьютере HoloLens или Windows 10](/windows/mixed-reality/give-us-feedback) для предоставления отзывов и отчетов о проблемах. Использование центра обратной связи гарантирует, что все необходимые диагностические сведения были добавлены, чтобы помочь нашим специалистам быстро отладить и устранить проблему.
 
 >[!NOTE]
 >Не забудьте принять приглашение, запрашивающее, нужен ли центр отзывов для доступа к папке документов (выберите **Да** при появлении запроса).
@@ -113,8 +113,7 @@ ms.locfileid: "98007114"
 * [Заметки о выпуске — март 2016 г.](release-notes-march-2016.md)
 
 ## <a name="see-also"></a>См. также раздел
-* [Поддержка иммерсивного режима гарнитуры (внешняя ссылка)](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/troubleshooting-windows-mixed-reality)
+* [Поддержка иммерсивного режима гарнитуры (внешняя ссылка)](./troubleshooting-windows-mixed-reality.md)
 * [Поддержка HoloLens (внешняя ссылка)](https://support.microsoft.com/products/hololens)
-* [Установка средств](https://docs.microsoft.com/windows/mixed-reality/develop/install-the-tools)
-* [Обратная связь](https://docs.microsoft.com/windows/mixed-reality/give-us-feedback)
-
+* [Установка средств](/windows/mixed-reality/develop/install-the-tools)
+* [Обратная связь](/windows/mixed-reality/give-us-feedback)

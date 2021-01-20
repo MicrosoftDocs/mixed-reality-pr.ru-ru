@@ -6,12 +6,12 @@ ms.author: mazeller
 ms.date: 07/11/2019
 ms.topic: article
 keywords: Заметки о выпуске, версия, Windows 10, сборка, 19h1, ОС, Май 2019
-ms.openlocfilehash: fd5688b7c68e0a16873ff153f3c158a3575e02e9
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: b8df518b03544bd2473ff67030ed008e1a2bc26e
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98007124"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98581505"
 ---
 # <a name="release-notes---may-2019"></a>Заметки о выпуске — 2019 мая
 
@@ -50,7 +50,7 @@ HoloLens (1-й общий) переходит в состояние долгос
 
 ## <a name="provide-feedback-and-report-issues"></a>Предоставление отзывов и отчетов о проблемах
 
-Используйте [приложение центра отзывов на компьютере с Windows 10](https://docs.microsoft.com/windows/mixed-reality/give-us-feedback) или на устройстве HoloLens для предоставления отзывов и отчетов о проблемах. Использование центра обратной связи гарантирует, что все необходимые диагностические сведения были добавлены, чтобы помочь нашим специалистам быстро отладить и устранить проблему.
+Используйте [приложение центра отзывов на компьютере с Windows 10](/windows/mixed-reality/give-us-feedback) или на устройстве HoloLens для предоставления отзывов и отчетов о проблемах. Использование центра обратной связи гарантирует, что все необходимые диагностические сведения были добавлены, чтобы помочь нашим специалистам быстро отладить и устранить проблему.
 
 >[!NOTE]
 >Не забудьте принять приглашение, запрашивающее, нужен ли центр отзывов для доступа к папке документов (выберите **Да** при появлении запроса).
@@ -66,8 +66,7 @@ HoloLens (1-й общий) переходит в состояние долгос
 * [Заметки о выпуске — март 2016 г.](release-notes-march-2016.md)
 
 ## <a name="see-also"></a>См. также раздел
-* [Поддержка иммерсивного режима гарнитуры (внешняя ссылка)](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/troubleshooting-windows-mixed-reality)
+* [Поддержка иммерсивного режима гарнитуры (внешняя ссылка)](./troubleshooting-windows-mixed-reality.md)
 * [Поддержка HoloLens (внешняя ссылка)](https://support.microsoft.com/products/hololens)
-* [Установка средств](https://docs.microsoft.com/windows/mixed-reality/develop/install-the-tools)
+* [Установка средств](/windows/mixed-reality/develop/install-the-tools)
 * [Отправьте нам отзыв] (https://docs.microsoft.com/windows/mixed-reality/give-us-feedback
-

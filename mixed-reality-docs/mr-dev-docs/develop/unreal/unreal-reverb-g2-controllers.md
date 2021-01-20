@@ -6,12 +6,12 @@ ms.author: jacksonf
 ms.date: 10/9/2020
 ms.topic: article
 keywords: Нереал, нереалистичное ядро 4, UE4, переглаголы, переглаголы G2, HP reverbы G2, Смешанная реальность, разработка, контроллеры движения, ввод данных, функции, новый проект, эмулятор, документация, руководства, функции, голограммы, Разработка игр, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 83ff19c0527ee2d10a4f00ccd84539ca16d05517
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 006c70208ec0eaa45447caecf39f799c4be1bfeb
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009994"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98582685"
 ---
 # <a name="hp-reverb-g2-controllers-in-unreal"></a>HP reverbы G2 контроллеров в нереальном режиме 
 
@@ -54,5 +54,5 @@ ms.locfileid: "98009994"
 
 ## <a name="see-also"></a>См. также раздел
 * [Входные данные Стеамвр](https://docs.unrealengine.com/Platforms/VR/SteamVR/HowTo/SteamVRInput/index.html)
-* [Использование Стеамвр с Windows Mixed Reality](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/using-steamvr-with-windows-mixed-reality)
+* [Использование Стеамвр с Windows Mixed Reality](/windows/mixed-reality/enthusiast-guide/using-steamvr-with-windows-mixed-reality)
 * [Нереалная Камера проигрывателя](https://docs.unrealengine.com/Programming/Tutorials/PlayerCamera/3/index.html)

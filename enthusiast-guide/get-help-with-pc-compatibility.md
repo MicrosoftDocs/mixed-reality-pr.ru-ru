@@ -8,12 +8,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, обратная связь, центр обратной связи, ошибки
 appliesto:
 - Windows 10
-ms.openlocfilehash: e3d150544c3bce99d1aa808229d282b3d2fe1dd0
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 28b377108fdb51d7f922710e579d62e7103ef765
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98007484"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98580537"
 ---
 # <a name="get-help-with-pc-compatibility-in-windows-mixed-reality"></a>Получение справки по совместимости ПК в Windows Mixed Reality
 
@@ -116,7 +116,7 @@ PCIe означает подключение *периферийных комп�
 
 ### <a name="this-pc-doesnt-have-bluetooth-40-for-controllers"></a>На этом компьютере нет Bluetooth 4,0 для контроллеров
 
-2018 и новые гарнитуры Windows Mixed Reality уже имеют встроенные технологии Bluetooth, но если у вас старая гарнитура, для контроллеров движения смешанной реальности требуется Bluetooth 4,0. Вы по-прежнему можете [использовать Windows Mixed Reality с контроллером Xbox](motion-controller-problems.md#can-i-pair-my-xbox-controller-to-my-pc-so-i-can-use-it-in-headset), [мышью и клавиатурой](https://docs.microsoft.com/windows/mixed-reality/discover/navigating-the-windows-mixed-reality-home#keyboard-and-mouse)или [USB-адаптером Bluetooth для подключения контроллеров движения](motion-controller-problems.md#how-can-i-tell-if-im-using-bluetooth-technology) к компьютеру. [См. Рекомендуемые адаптеры](recommended-adapters-for-windows-mixed-reality-capable-pcs.md)
+2018 и новые гарнитуры Windows Mixed Reality уже имеют встроенные технологии Bluetooth, но если у вас старая гарнитура, для контроллеров движения смешанной реальности требуется Bluetooth 4,0. Вы по-прежнему можете [использовать Windows Mixed Reality с контроллером Xbox](motion-controller-problems.md#can-i-pair-my-xbox-controller-to-my-pc-so-i-can-use-it-in-headset), [мышью и клавиатурой](/windows/mixed-reality/discover/navigating-the-windows-mixed-reality-home#keyboard-and-mouse)или [USB-адаптером Bluetooth для подключения контроллеров движения](motion-controller-problems.md#how-can-i-tell-if-im-using-bluetooth-technology) к компьютеру. [См. Рекомендуемые адаптеры](recommended-adapters-for-windows-mixed-reality-capable-pcs.md)
 
 ### <a name="depending-on-your-headset-you-may-need-a-bluetooth-adapter-to-use-motion-controllers"></a>В зависимости от гарнитуры может потребоваться адаптер Bluetooth для использования контроллеров движения.
 

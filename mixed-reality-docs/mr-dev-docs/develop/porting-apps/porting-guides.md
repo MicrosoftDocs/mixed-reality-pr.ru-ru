@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 12/9/2020
 ms.topic: article
 keywords: порт, Unity, Нереал, по промежуточного слоя, ядро, UWP, Win32, перенос, 1-й Gen, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, миграция, Windows 10, сопоставление входных данных
-ms.openlocfilehash: b43b42567183ef77ef76b301212233eeeb7c04ca
-ms.sourcegitcommit: a1bb77f729ee2e0b3dbd1c2c837bb7614ba7b9bd
+ms.openlocfilehash: dd09c6479bfcf3659b3e9355be898d77bccc6dc6
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98192671"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98580582"
 ---
 # <a name="porting-vr-apps-to-windows-mixed-reality"></a>Перенос приложений VR в Windows Mixed Reality
 
@@ -37,8 +37,8 @@ Windows 10 включает поддержку для впечатляющих �
 Платформа Windows Mixed Reality все еще находится под активной разработкой. Мы рекомендуем [присоединиться к программе предварительной](https://insider.windows.com/) оценки Windows, чтобы получить доступ к рейсу о быстром выпуске Windows.
 1. Установка [обновления Windows 10 для дизайнеров](https://www.microsoft.com/software-download/windows10)
 2. [Присоединяйтесь](https://insider.windows.com/) к программе предварительной оценки Windows.
-3. Включить [режим разработчика](https://docs.microsoft.com/windows/uwp/get-started/enable-your-device-for-development)
-4. Переключиться на [быстрые авиарейсы по Windows](https://blogs.technet.microsoft.com/uktechnet/2016/07/01/joining-insider-preview) с помощью **параметров > Update & Security Section**
+3. Включить [режим разработчика](/windows/uwp/get-started/enable-your-device-for-development)
+4. Переключиться на [быстрые авиарейсы по Windows](/archive/blogs/uktechnet/joining-insider-preview) с помощью **параметров > Update & Security Section**
 
 ### <a name="3-upgrade-to-the-most-recent-build-of-visual-studio"></a>3. обновление до последней сборки Visual Studio
 * Если вы используете Visual Studio, обновитесь до последней сборки
@@ -56,8 +56,8 @@ Windows 10 включает поддержку для впечатляющих �
 > [!IMPORTANT]
 > Если вы используете контроллеры HP reverbы G2, обратитесь к [этой статье](../unreal/unreal-reverb-g2-controllers.md) для получения дополнительных инструкций по сопоставлению входных данных.
 
-## <a name="see-also"></a>См. также
-* [Минимальные рекомендации по совместимости Windows Mixed Reality с оборудованием ПК](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines)
+## <a name="see-also"></a>См. также раздел
+* [Минимальные рекомендации по совместимости Windows Mixed Reality с оборудованием ПК](/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines)
 * [Основные сведения о производительности смешанной реальности](../platform-capabilities-and-apis/understanding-performance-for-mixed-reality.md)
 * [Рекомендации по повышению производительности для Unity](../unity/performance-recommendations-for-unity.md)
 * [Контроллеры движения](../../design/motion-controllers.md)

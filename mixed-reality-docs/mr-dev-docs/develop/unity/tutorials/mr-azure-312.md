@@ -6,12 +6,12 @@ ms.author: jemccull
 ms.date: 07/04/2018
 ms.topic: article
 keywords: Azure, Mixed Reality, Academy, Unity, учебник, API, компьютерное зрение, hololens, иммерсивное, VR, Microsoft Bot Framework V4, Bot веб-приложения, Bot Framework, Microsoft Bot, Windows 10, Visual Studio
-ms.openlocfilehash: 6c172bbede50062064a654543362afe38b46be63
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 6b8b4624615a3c3f62800b396803572b0b67ad1a
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94679453"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98582462"
 ---
 # <a name="mr-and-azure-312-bot-integration"></a>312. Смешанная реальность и Azure: интеграция ботов
 
@@ -36,7 +36,7 @@ ms.locfileid: "94679453"
 
 <table>
 <tr>
-<th>Курс</th><th style="width:150px"> <a href="../../../hololens-hardware-details.md">HoloLens</a></th><th style="width:150px"> <a href="../../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></th>
+<th>Курс</th><th style="width:150px"> <a href="/hololens/hololens1-hardware">HoloLens</a></th><th style="width:150px"> <a href="../../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></th>
 </tr><tr>
 <td> 312. Смешанная реальность и Azure: интеграция ботов</td><td style="text-align: center;"> ✔️</td><td style="text-align: center;"> ✔️</td>
 </tr>
@@ -57,18 +57,18 @@ ms.locfileid: "94679453"
 - [Последний пакет SDK для Windows 10](../../install-the-tools.md#installation-checklist)
 - [Unity 2017,4](../../install-the-tools.md#installation-checklist)
 - [Visual Studio 2017](../../install-the-tools.md#installation-checklist)
-- Высокодоступная [гарнитура Windows Mixed Reality (VR)](../../../discover/immersive-headset-hardware-details.md) или [Microsoft HoloLens](../../../hololens-hardware-details.md) с включенным режимом разработчика
+- Высокодоступная [гарнитура Windows Mixed Reality (VR)](../../../discover/immersive-headset-hardware-details.md) или [Microsoft HoloLens](/hololens/hololens1-hardware) с включенным режимом разработчика
 - Доступ к Интернету для Azure и получение Azure Bot. Для получения дополнительных сведений [перейдите по этой ссылке](https://dev.botframework.com/).
 
 ### <a name="before-you-start"></a>Перед началом работы
 
 1.  Чтобы избежать проблем при создании этого проекта, настоятельно рекомендуется создать проект, упомянутый в этом руководстве, в корневой или ближайшем к корневой папке (длинные пути к папкам могут вызвать проблемы во время сборки).
-2.  Настройка и тестирование HoloLens. Если вам нужна поддержка по настройке HoloLens, [обязательно посетите статью Настройка hololens](https://docs.microsoft.com/hololens/hololens-setup). 
+2.  Настройка и тестирование HoloLens. Если вам нужна поддержка по настройке HoloLens, [обязательно посетите статью Настройка hololens](/hololens/hololens-setup). 
 3.  Рекомендуется выполнять настройку калибровки и датчика при разработке нового приложения HoloLens (иногда это может помочь в выполнении этих задач для каждого пользователя). 
 
-Чтобы получить справку по калибровке, перейдите по этой [ссылке в статью калибровка HoloLens](../../../calibration.md#hololens-2).
+Чтобы получить справку по калибровке, перейдите по этой [ссылке в статью калибровка HoloLens](/hololens/hololens-calibration#hololens-2).
 
-Чтобы получить справку по настройке датчика, перейдите [по ссылке в статью Настройка датчика HoloLens](../../../sensor-tuning.md).
+Чтобы получить справку по настройке датчика, перейдите [по ссылке в статью Настройка датчика HoloLens](/hololens/hololens-updates).
 
 ## <a name="chapter-1--create-the-bot-application"></a>Глава 1. Создание приложения-робота
 
@@ -273,7 +273,7 @@ ms.locfileid: "94679453"
     2. Выберите **подписку**.
     3. Выберите **группу ресурсов** или создайте новую. Группа ресурсов предоставляет способ мониторинга, контроля доступа, подготовки счетов и управления ими для коллекции ресурсов Azure. Рекомендуется размещать все службы Azure, связанные с одним проектом (например, такие курсы), в общей группе ресурсов.
 
-        > Если вы хотите ознакомиться с дополнительными сведениями о группах ресурсов Azure, [перейдите по этой ссылке.](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-portal)
+        > Если вы хотите ознакомиться с дополнительными сведениями о группах ресурсов Azure, [перейдите по этой ссылке.](/azure/azure-resource-manager/resource-group-portal)
 
     4. Определите расположение группы ресурсов (при создании новой группы ресурсов). В идеале это расположение будет находиться в регионе, в котором будет выполняться приложение. Некоторые ресурсы Azure доступны только в определенных регионах.
     5. Выберите **ценовую категорию** , подходящую для вас. Если вы впервые создаете службу *веб-приложения Bot* , для вас должен быть доступен бесплатный уровень (с именем F0).
@@ -437,7 +437,7 @@ ms.locfileid: "94679453"
 
 Чтобы импортировать библиотеку Newtonsoft в проект, используйте пакет Unity, прилагаемый к этому курсу.
 
-1.  Добавьте *. пакет unitypackage* в Unity с помощью команды **Assets**  >  **Import Package**  >  меню **настраиваемый пакет** импорт активов.
+1.  Добавьте *. пакет unitypackage* в Unity с помощью команды   >    >  меню **настраиваемый пакет** импорт активов.
 
     ![Импорт библиотеки Newtonsoft](images/AzureLabs-Lab312-34.png)
 

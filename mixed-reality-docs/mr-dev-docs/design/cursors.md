@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 02/24/2019
 ms.topic: article
 keywords: HoloLens (1-й общий), HoloLens 2, Смешанная реальность, курсоры, нацеленность, взгляд, жесты, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности, лучи, входные данные
-ms.openlocfilehash: 3d1bc215f7f5c37f1c2c3ae33c3bc2e4031b354a
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: 0525bb9b30dfe71fba7b8ebf2afd2c87a8c97a27
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97847998"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98582400"
 ---
 # <a name="cursors"></a>Курсоры
 
@@ -32,7 +32,7 @@ ms.locfileid: "97847998"
     </colgroup>
     <tr>
         <td><strong>Возможность</strong></td>
-        <td><a href="https://docs.microsoft.com/hololens/hololens1-hardware"><strong>HoloLens (1-го поколения)</strong></a></td>
+        <td><a href="/hololens/hololens1-hardware"><strong>HoloLens (1-го поколения)</strong></a></td>
         <td><a href="https://docs.microsoft.com/hololens/hololens2-hardware"><strong>HoloLens 2</strong></td>
         <td><a href="../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
     </tr>
@@ -163,7 +163,7 @@ ms.locfileid: "97847998"
 
 ## <a name="cursor-in-mrtk-mixed-reality-toolkit-for-unity"></a>Курсор в МРТК (набор средств для смешанной реальности) для Unity
 
-По умолчанию [мртк](https://github.com/Microsoft/MixedRealityToolkit-Unity) предоставляет курсор prefab ([дефаулткурсор. prefab](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/mrtk_release/Assets/MixedRealityToolkit.SDK/Features/UX/Prefabs/Cursors)), который имеет то же визуальное состояние, что и системный курсор оболочки. Он назначается входным профилем МРТК в разделе указатели. Вы можете заменить или настроить этот курсор для работы. Для удобства ввода с отслеживанием взгляда МРТК также предоставляет Эйегазекурсор, который имеет тонкий визуальный элемент, позволяющий избежать вычитания.
+По умолчанию [мртк](https://github.com/Microsoft/MixedRealityToolkit-Unity) предоставляет курсор prefab ([дефаулткурсор. prefab](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/mrtk_release/Assets/MixedRealityToolkit.SDK/Features/UX/Prefabs/Cursors)), который имеет то же визуальное состояние, что и системный курсор оболочки. Она назначается в профиле ввода данных в MRTK, в разделе "Указатели". Вы можете заменить или настроить этот курсор для работы. Для удобства ввода с отслеживанием взгляда МРТК также предоставляет Эйегазекурсор, который имеет тонкий визуальный элемент, позволяющий избежать вычитания.
 
 * [MRTK — профиль указателя](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/MixedRealityConfigurationGuide.html#pointer-configuration)
 * [MRTK — система ввода](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Input/Overview.html)

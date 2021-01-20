@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 08/04/2020
 ms.topic: article
 keywords: DirectX, holographic-визуализация, собственное, собственное приложение, WinRT, приложение WinRT, API платформы, настраиваемое ядро, промежуточное по, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 764cbe0a37501cc176e9bb05a9a7771b03666f0c
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: b137fad12740542deb4995485201a9bd0d1d7662
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98006854"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98581041"
 ---
 # <a name="native-development-overview"></a>Обзор разработки для собственной платформы
 
@@ -32,7 +32,7 @@ Windows Mixed Reality поддерживает [два типа приложен
 * Приложения UWP или Win32 **Mixed Reality** , использующие [API Холографикспаце](getting-a-holographicspace.md) или [API опенкср](openxr.md) для визуализации [иммерсивного представления](../../design/app-views.md) , которое заполняет отображение гарнитуры
 * **2D-приложения** (UWP), использующие DirectX, XAML или другую платформу для отрисовки [2D-представлений](../../design/app-views.md#2d-views) на планшетах в домашней среде Windows Mixed Reality
 
-Различия между разработкой DirectX для [2D-представлений и иммерсивное представление](../../design/app-views.md) в основном связаны с более holographic и пространственными входными данными. [IFrameworkView](https://msdn.microsoft.com/library/windows/apps/windows.applicationmodel.core.iframeworkview.aspx) приложения UWP или HWND приложения Win32 являются обязательными и остаются в основном одинаковыми. Это справедливо и для API-интерфейсов WinRT, доступных для приложения. Однако для использования преимуществ holographic необходимо использовать другое подмножество этих API-интерфейсов. Например, система для holographic приложений управляет имеющуюся цепочку буферов и Frame on для реализации циклического цикла кадров.
+Различия между разработкой DirectX для [2D-представлений и иммерсивное представление](../../design/app-views.md) в основном связаны с более holographic и пространственными входными данными. [IFrameworkView](/uwp/api/Windows.ApplicationModel.Core.IFrameworkView) приложения UWP или HWND приложения Win32 являются обязательными и остаются в основном одинаковыми. Это справедливо и для API-интерфейсов WinRT, доступных для приложения. Однако для использования преимуществ holographic необходимо использовать другое подмножество этих API-интерфейсов. Например, система для holographic приложений управляет имеющуюся цепочку буферов и Frame on для реализации циклического цикла кадров.
 
 [!INCLUDE[](../includes/native-getting-started.md)]
 

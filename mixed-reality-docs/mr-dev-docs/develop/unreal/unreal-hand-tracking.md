@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 06/10/2020
 ms.topic: article
 keywords: Windows Mixed Reality, отслеживание, неreal, нереалное ядро 4, UE4, HoloLens, HoloLens 2, Смешанная реальность, разработка, функции, документация, руководства, голограммы, Разработка игр, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: e482c93233348325736d2c224788e9174c1f3b67
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 1888258321af978ca52623008193e6dae94833a8
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98010164"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98581111"
 ---
 # <a name="hand-tracking-in-unreal"></a>Отслеживание рук в Unreal
 
@@ -156,7 +156,7 @@ UMRMeshComponent* UARTrackedGeometry::GetUnderlyingMesh()
 
 ## <a name="gestures"></a>Жесты
 
-HoloLens 2 отслеживает пространственные жесты, что означает, что эти жесты можно записать в качестве входных данных. Отслеживание жестов основано на модели подписки. Используйте функцию "Настройка жестов", чтобы сообщить устройству, какие жесты необходимо отслеживанию.  Дополнительные сведения о жестах можно найти в документе [об использовании HoloLens 2](https://docs.microsoft.com/hololens/hololens2-basic-usage) .
+HoloLens 2 отслеживает пространственные жесты, что означает, что эти жесты можно записать в качестве входных данных. Отслеживание жестов основано на модели подписки. Используйте функцию "Настройка жестов", чтобы сообщить устройству, какие жесты необходимо отслеживанию.  Дополнительные сведения о жестах можно найти в документе [об использовании HoloLens 2](/hololens/hololens2-basic-usage) .
 
 [!INCLUDE[](includes/tabs-tracking-gestures.md)]
 

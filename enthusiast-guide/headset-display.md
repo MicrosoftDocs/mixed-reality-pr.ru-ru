@@ -8,12 +8,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, устранение неполадок, ошибки, Справка, поддержка
 appliesto:
 - Windows 10
-ms.openlocfilehash: 6bcd6db30bf3a8a6e69d45c10be523d45ee4f82a
-ms.sourcegitcommit: 1b90f27af091dffd4fba63d69a89873aa0f75079
+ms.openlocfilehash: f448cafe3d0952ada63d545e44b58001779a1470
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97725415"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98580511"
 ---
 # <a name="headset-display-faqs"></a>Часто задаваемые вопросы о гарнитуре
 
@@ -52,7 +52,7 @@ ms.locfileid: "97725415"
 
 ## <a name="my-headset-display-occasionally-turns-black-after-some-use"></a>Отображение гарнитуры иногда становится черным после некоторого использования
 
-* Попробуйте отключить все функции приостановки или энергосбережения USB на компьютере. Например, в **параметрах > System > Power & спящий режим > [USB Выборочная приостановка](https://docs.microsoft.com/windows-hardware/drivers/usbcon/usb-selective-suspend)**, параметр "разрешить компьютеру отключить это устройство для экономии энергии" в Device Manager и все параметры энергосбережения USB в микропрограмме компьютера.
+* Попробуйте отключить все функции приостановки или энергосбережения USB на компьютере. Например, в **параметрах > System > Power & спящий режим > [USB Выборочная приостановка](/windows-hardware/drivers/usbcon/usb-selective-suspend)**, параметр "разрешить компьютеру отключить это устройство для экономии энергии" в Device Manager и все параметры энергосбережения USB в микропрограмме компьютера.
 * Временно отключите все остальные USB-устройства и периферийное устройство, подключенные к компьютеру.
 * Убедитесь, что версия драйвера GPU актуальна, и проверьте наличие новых проблем с производительностью и совместимостью и регрессией новых драйверов.
 

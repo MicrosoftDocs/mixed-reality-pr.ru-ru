@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 03/21/2018
 ms.topic: article
 keywords: иммерсивное представление, 2D-представление, планшет, приложение, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: a9cd03212fcbb0d7b3d9e4d2b3108e4d09972455
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: b6a16fc3b1ac45d74874f37ce44a36d3e144fee8
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009634"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98580102"
 ---
 # <a name="app-views"></a>Представления приложения
 
@@ -24,7 +24,7 @@ ms.locfileid: "98009634"
 ![В режиме погружения можно помещать голограммы в мир по всему миру.](images/designoverview-940px.jpg)<br>
 *В режиме погружения можно поместить голограммы в мир*
 
-В [HoloLens](https://docs.microsoft.com/hololens/hololens1-hardware)приложение визуализирует свои голограммы на основе реальной окружающей среды пользователя. На [иммерсивное головной гарнитуре Windows Mixed Reality](../discover/immersive-headset-hardware-details.md)пользователь не может видеть реальный мир, поэтому приложение должно визуализировать все, что будет видеть пользователь.
+В [HoloLens](/hololens/hololens1-hardware)приложение визуализирует свои голограммы на основе реальной окружающей среды пользователя. На [иммерсивное головной гарнитуре Windows Mixed Reality](../discover/immersive-headset-hardware-details.md)пользователь не может видеть реальный мир, поэтому приложение должно визуализировать все, что будет видеть пользователь.
 
 [Главная страница Windows Mixed Reality](../discover/navigating-the-windows-mixed-reality-home.md) (включая меню «Пуск» и голограммы, помещенные в среду) не отображается в режиме погружения. В HoloLens Кортана передает все системные уведомления, происходящие, когда отображается иммерсивное представление, в котором пользователь может ответить на ввод голоса.
 

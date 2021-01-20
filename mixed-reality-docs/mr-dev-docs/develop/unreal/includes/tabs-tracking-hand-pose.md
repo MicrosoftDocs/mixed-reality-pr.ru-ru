@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: c5a13798ca6a73f1a6410abe310c2166b67f4626
-ms.sourcegitcommit: 13ef9f89ee61fbfe547ecf5fdfdb97560a0de833
+ms.openlocfilehash: 21c29b2c8d540378259200cc834f7a36065f8ab3
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97718144"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98581103"
 ---
 # <a name="426"></a>[4.26](#tab/426)
 
@@ -57,7 +57,7 @@ enum class EWMRHandKeypoint : uint8
 };
 ```
 
-Числовые значения для каждого варианта перечисления можно найти в таблице [Windows. восприятие. People. ханджоинткинд](https://docs.microsoft.com/uwp/api/windows.perception.people.handjointkind) .
+Числовые значения для каждого варианта перечисления можно найти в таблице [Windows. восприятие. People. ханджоинткинд](/uwp/api/windows.perception.people.handjointkind) .
 
 ### <a name="supporting-hand-tracking"></a>Поддержка отслеживания
 
@@ -95,4 +95,3 @@ static bool UWindowsMixedRealityHandTrackingFunctionLibrary::GetHandJointTransfo
 * **Transform** — координаты и ориентация базы данных-основания кости. Можно запросить основу следующей кости, чтобы получить данные преобразования для конца кости. Специальная кость TIP дает окончание дистал.
 * * * Радиус — радиус основы кости.
 * * * Возвращаемое значение — true, если кость отслеживанием этого кадра, значение false, если кость не будет отслеживанием.
-

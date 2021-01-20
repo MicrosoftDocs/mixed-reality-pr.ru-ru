@@ -6,12 +6,12 @@ ms.author: ayyonet
 ms.date: 04/10/2020
 ms.topic: article
 keywords: JavaScript, Вебкср, Винмр, Вебар, Вебвр, Виндовсмикседреалити, HoloLens, Windows Mixed Reality, веб-VR, Web XR, Web MR, Web AR, 360, 360 Video, 360 видео, 360 Photo, 360 фотографии, 360 Content, иммерсивное Интернет, иммерсивное веб-сайт, IW, иммерсивевеб
-ms.openlocfilehash: 26d1edf536eb23673393caaee0a833e036adc194
-ms.sourcegitcommit: 8e91ff47ef70e80a41137f80aa1093e711d27bf7
+ms.openlocfilehash: 573db6f739292b7e67148d260a5ba1880d24fb20
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "91957784"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98580324"
 ---
 # <a name="javascript-development-overview"></a>Обзор разработки в JavaScript
 
@@ -63,8 +63,8 @@ Three.js — популярная трехмерная библиотека дл
 * [Иммерсивевеб. dev](https://immersiveweb.dev/)
 * [Примеры Вебкср](https://immersive-web.github.io/webxr-samples/)
 * [Использование Babylon.js для создания Вебксрных возможностей](https://doc.babylonjs.com/how_to/introduction_to_webxr)
-* [Windows Mixed Reality и новая Microsoft ребро](https://docs.microsoft.com/windows/mixed-reality/new-microsoft-edge#introducing-the-new-microsoft-edge)
+* [Windows Mixed Reality и новая Microsoft ребро](/windows/mixed-reality/new-microsoft-edge#introducing-the-new-microsoft-edge)
 * [Иммерсивное веб-сайт W3C GitHub](https://github.com/immersive-web)
-* [API WebGL](https://msdn.microsoft.com/library/bg182648(v=vs.85).aspx)
+* [API WebGL](/previous-versions/windows/internet-explorer/ie-developer/dev-guides/bg182648(v=vs.85))
 * Расширения [API](https://msdn.microsoft.com/library/dn743630(v=vs.85).aspx) и [игровой](https://w3c.github.io/gamepad/extensions.html) планшета
 * [Обзор Вебвр](webvr-overview.md)

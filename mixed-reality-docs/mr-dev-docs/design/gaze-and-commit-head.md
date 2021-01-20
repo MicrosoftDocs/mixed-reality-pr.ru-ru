@@ -6,12 +6,12 @@ ms.author: cmeekhof
 ms.date: 03/31/2019
 ms.topic: article
 keywords: Смешанная реальность, взгляд, определение целевой платформы, взаимодействие, проектирование, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств для смешанной реальности, цель, фокус, сглаживание
-ms.openlocfilehash: 13a040a8309d084fcfdbfa91cbd9d63b595b004a
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: a69b855e2246327affeeb0f771f565b94ea65cb2
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009454"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98582279"
 ---
 # <a name="head-gaze-and-commit"></a>Направление головы и фиксация
 
@@ -28,13 +28,13 @@ ms.locfileid: "98009454"
     </colgroup>
     <tr>
         <td><strong>Модель ввода</strong></td>
-        <td><a href="../hololens-hardware-details.md"><strong>HoloLens (1-го поколения)</strong></a></td>
+        <td><a href="/hololens/hololens1-hardware"><strong>HoloLens (1-го поколения)</strong></a></td>
         <td><a href="https://docs.microsoft.com/hololens/hololens2-hardware"><strong>HoloLens 2</strong></td>
         <td><a href="../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
     </tr>
      <tr>
         <td>Направление головы и фиксация</td>
-        <td>✔️ Рекомендуется</td>
+        <td>✔ Рекомендуется</td>
         <td>✔ Рекомендуется (третий вариант <a href="interaction-fundamentals.md">см. в разделе других возможностей</a>)</td>
         <td>➕ Альтернативный вариант</td>
     </tr>
@@ -98,6 +98,3 @@ ms.locfileid: "98009454"
 * [Руки: наведение и фиксация](point-and-commit.md)
 * [Инстинктивное взаимодействие](interaction-fundamentals.md)
 * [Голосовой ввод](voice-input.md)
-
-
-

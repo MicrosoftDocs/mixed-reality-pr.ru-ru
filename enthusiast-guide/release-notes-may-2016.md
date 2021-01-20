@@ -6,16 +6,16 @@ ms.author: mazeller
 ms.date: 03/21/2018
 ms.topic: article
 keywords: HoloLens, заметки о выпуске, ОС, компоненты, сборка, платформа
-ms.openlocfilehash: db5e3b87eaf619a0f25e07d0698499a89a1b4b12
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 290369f94797a790ec0a2bb4227d84902d31eb43
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009504"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98581521"
 ---
 # <a name="release-notes---may-2016"></a>Заметки о выпуске — май 2016 г.
 
-Группа HoloLens стремится предоставить вам новейшие обновления функций и основные исправления в рамках программы предварительной оценки Windows. Благодарим вас за все ваши предложения, мы принимаем ваши отзывы в сердце. Продолжайте [предоставлять отзыв](https://docs.microsoft.com/windows/mixed-reality/give-us-feedback) через центр обратной связи, [форумы для разработчиков](https://forums.hololens.com) и [Twitter с @HoloLens помощью ](https://twitter.com/hololens).
+Группа HoloLens стремится предоставить вам новейшие обновления функций и основные исправления в рамках программы предварительной оценки Windows. Благодарим вас за все ваши предложения, мы принимаем ваши отзывы в сердце. Продолжайте [предоставлять отзыв](/windows/mixed-reality/give-us-feedback) через центр обратной связи, [форумы для разработчиков](https://forums.hololens.com) и [Twitter с @HoloLens помощью ](https://twitter.com/hololens).
 
 **Версия выпуска:** Обновление Windows holographic 2016 (**10.0.14342.1016**)
 
@@ -34,7 +34,7 @@ ms.locfileid: "98009504"
    * Попробуйте взглянуть на голограмму и поверните ее, выполнив слово "Face мне"
    * Измените его размер, указав "больше" или "меньше"
    * Переместите приложение, указав «Привет, перенесите *имя приложения* ».
-* Мы **упростили разработку на HoloLens**. Теперь вы можете просматривать, загружать и скачивать файлы с помощью [портала устройств Windows](https://docs.microsoft.com/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-windows-device-portal). Доступ к папке документы, папке изображений и локальному хранилищу можно получить для любого приложения, которое вы загрузили или развернули с помощью Visual Studio.
+* Мы **упростили разработку на HoloLens**. Теперь вы можете просматривать, загружать и скачивать файлы с помощью [портала устройств Windows](/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-windows-device-portal). Доступ к папке документы, папке изображений и локальному хранилищу можно получить для любого приложения, которое вы загрузили или развернули с помощью Visual Studio.
 * **Теперь эмулятор поддерживает вход с использованием учетной записи Майкрософт** , как в реальной HoloLens, который можно включить в меню "дополнительные инструменты" ">>".
 * **двумерные приложения теперь скрывают панель приложения и курсор при просмотре полноэкранного видео** , чтобы избежать вычитания. Ваш видеомонитор будет еще более приятно работать на HoloLens.
 * Вы также можете **закреплять фотографии без панели приложений** в своем мире.
@@ -59,7 +59,7 @@ ms.locfileid: "98009504"
 * Ускоренная **Регистрация приложений** и **Автоматическое определение часового пояса** во время работы в программе OOBE, что дает лучшие возможности для первого взаимодействия с пользователем.
 * Контроль **хранилища** позволяет просматривать оставшееся и используемое дисковое пространство системой и приложениями в приложении "Параметры".
 * Мы собрали приложение обратной связи и внутреннее устройство в одном **центре обратной связи** с приложением, которое является средством для получения **отзывов** о новых возможностях, которые нуждаются в улучшении, а также о том, что можно сделать без них. Присоединяйтесь к программе предварительной оценки, вы можете **получать последние новости для участников программы предварительной оценки**, **оценивать ставки** и обращаться к **отзывам поисков** из центра обратной связи.
-* Мы также [опубликовали обновленную сборку эмулятора HoloLens](https://docs.microsoft.com/windows/mixed-reality/develop/install-the-tools) .
+* Мы также [опубликовали обновленную сборку эмулятора HoloLens](/windows/mixed-reality/develop/install-the-tools) .
 * Видеоролики смешанной реальности теперь выглядят лучше из-за автоматического **видео стабилизации**.
 
 ## <a name="major-fixes"></a>Основные исправления
@@ -113,12 +113,12 @@ ms.locfileid: "98009504"
 * [Заметки о выпуске — март 2016 г.](release-notes-march-2016.md)
 
 ## <a name="see-also"></a>См. также раздел
-* [Известные проблемы с HoloLens](https://docs.microsoft.com/windows/mixed-reality/hololens-known-issues)
-* [Установка средств](https://docs.microsoft.com/windows/mixed-reality/develop/install-the-tools)
-* [Оболочка](https://docs.microsoft.com/windows/mixed-reality/discover/navigating-the-windows-mixed-reality-home)
-* [Обновление двухмерных приложений UWP для смешанной реальности](https://docs.microsoft.com/windows/mixed-reality/develop/porting-apps/building-2d-apps)
-* [Аксессуары к оборудованию](https://docs.microsoft.com/windows/mixed-reality/discover/hardware-accessories)
-* [Смешанный захват реальности](https://docs.microsoft.com/windows/mixed-reality/mixed-reality-capture)
-* [Голосовой ввод](https://docs.microsoft.com/windows/mixed-reality/design/voice-input)
-* [Отправка приложения в магазин Windows](https://docs.microsoft.com/windows/mixed-reality/distribute/submitting-an-app-to-the-microsoft-store)
-* [Использование эмулятора HoloLens](https://docs.microsoft.com/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-hololens-emulator)
+* [Известные проблемы с HoloLens](/windows/mixed-reality/hololens-known-issues)
+* [Установка средств](/windows/mixed-reality/develop/install-the-tools)
+* [Оболочка](/windows/mixed-reality/discover/navigating-the-windows-mixed-reality-home)
+* [Обновление двухмерных приложений UWP для смешанной реальности](/windows/mixed-reality/develop/porting-apps/building-2d-apps)
+* [Аксессуары к оборудованию](/windows/mixed-reality/discover/hardware-accessories)
+* [Смешанный захват реальности](/windows/mixed-reality/mixed-reality-capture)
+* [Голосовой ввод](/windows/mixed-reality/design/voice-input)
+* [Отправка приложения в магазин Windows](/windows/mixed-reality/distribute/submitting-an-app-to-the-microsoft-store)
+* [Использование эмулятора HoloLens](/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-hololens-emulator)
