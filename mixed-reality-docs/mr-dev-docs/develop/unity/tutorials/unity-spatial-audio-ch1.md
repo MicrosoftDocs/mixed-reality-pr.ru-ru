@@ -1,25 +1,25 @@
 ---
-title: Добавление пространственного звука в проект
+title: Пространственные аудио учебники — 1. Добавление пространственного звука в проект
 description: Добавьте подключаемый модуль Microsoft Спатиализер в проект Unity, чтобы получить доступ к аппаратной разгрузке HoloLens 2 ХРТФ.
 author: kegodin
 ms.author: v-hferrone
 ms.date: 12/01/2019
 ms.topic: article
 keywords: Смешанная реальность, Unity, учебник, hololens2, Пространственный звук, МРТК, набор средств для смешанной реальности, UWP, Windows 10, ХРТФ, функция передачи, связанная с HEAD, переглагол, Microsoft Спатиализер
-ms.openlocfilehash: 80bf19e8a091bd241e28afff0a42c13ca72e1d45
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 1eb2913f1953e334cfe75b786f96bb51a9852fc5
+ms.sourcegitcommit: a56a551ebc59529a3683fe6db90d59f982ab0b45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98007474"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98578459"
 ---
-# <a name="adding-spatial-audio-to-your-unity-project"></a>Добавление пространственного звука в проект Unity
+# <a name="1-adding-spatial-audio-to-your-unity-project"></a>1. Добавление пространственного звука в проект Unity
 
-Добро пожаловать в учебник по пространственному аудио для Unity в HoloLens2. В этой последовательности учебников показано следующее:
-* Как использовать функцию перегрузки, связанную с HEAD (ХРТФ), в HoloLens 2 в Unity
-* Включение переглагола при использовании разгрузки ХРТФ
+## <a name="overview"></a>Обзор
 
-В [репозитории Microsoft Спатиализер GitHub](https://github.com/microsoft/spatialaudio-unity) есть завершенный проект Unity этой последовательности руководств. 
+Добро пожаловать в учебник по пространственному аудио для Unity в HoloLens2. В этой серии руководств вы узнаете, как использовать разгрузку функций передачи, связанных с HEAD (ХРТФ), в HoloLens 2 и как включить пересылку при использовании разгрузки ХРТФ.
+
+В [репозитории Microsoft Спатиализер GitHub](https://github.com/microsoft/spatialaudio-unity) есть завершенный проект Unity этой последовательности руководств.
 
 Сведения о том, что означает спатиализеие звуков с помощью технологий пространственности на основе ХРТФ и рекомендации по их полезности, см. в статье о [проектировании пространственных звуков](https://docs.microsoft.com/windows/mixed-reality/spatial-sound-design).
 
@@ -29,79 +29,68 @@ ms.locfileid: "98007474"
 
 ## <a name="objectives"></a>Задачи
 
-В этой первой главе вы выполните следующие действия:
-* Создание проекта Unity и импорт МРТК
-* Импорт подключаемого модуля Microsoft спатиализер
-* Включение подключаемого модуля Microsoft спатиализер
+* Импорт и Включение подключаемого модуля Microsoft спатиализер
 * Включение пространственного звука на рабочей станции разработчика
 
-## <a name="create-a-project-and-add-nuget-for-unity"></a>Создание проекта и добавление NuGet для Unity
+## <a name="prerequisites"></a>Предварительные условия
 
-Начните с пустого проекта Unity, а затем добавьте и настройте NuGet для Unity:
-1. Скачайте последнюю версию [нужетфорунити. пакет unitypackage](https://github.com/GlitchEnzo/NuGetForUnity/releases/latest)
-2. В строке меню Unity щелкните **активы-> импортировать пакет-> пользовательский пакет...** и установите пакет нужетфорунити:
+* Компьютер с Windows 10, настроенный с помощью требуемых [установленных инструментов](../../install-the-tools.md).
+* Базовые навыки работы с C#.
+* Устройство HoloLens 2, [настроенное для разработки](../../platform-capabilities-and-apis/using-visual-studio.md#enabling-developer-mode).
+* <a href="https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html" target="_blank">Unity Hub</a> с Unity 2019 LTS и модулем поддержки сборки универсальной платформы Windows.
 
-![Импорт пользовательского пакета](images/spatial-audio/import-custom-package.png)
+Прежде чем продолжить, мы **настоятельно рекомендуем** завершить серию руководств по [началу](mr-learning-base-01.md) работы или выполнить некоторые базовые опыт работы с Unity и мртк.
 
-## <a name="add-the-windows-mixed-reality-package"></a>Добавление пакета Windows Mixed Reality
+> [!IMPORTANT]
+>
+> * Рекомендуемая версия Unity для этой серии руководств — Unity 2019 LTS. Это заменяет все требования к версии Unity и рекомендации, указанные выше.
 
-Поддержка Windows Mixed Reality в Unity 2019 и более поздних версиях содержится в необязательном пакете. Чтобы добавить его в проект, откройте **окно Диспетчер пакетов >** в строке меню Unity:
+## <a name="creating-and-preparing-the-unity-project"></a>Создание и подготовка проекта Unity
 
-![Меню диспетчера пакетов](images/spatial-audio/package-manager-menu.png)
+В рамках этого раздела вы создадите новый проект Unity и подготовите его к разработке MRTK.
 
-Затем найдите и установите пакет **Windows Mixed Reality** .
+Для этого сначала выполните инструкции из руководства [Инициализация проекта и первое приложение](mr-learning-base-02.md), за исключением раздела [Разработка приложения для устройства](mr-learning-base-02.md#building-your-application-to-your-hololens-2), то есть следующие действия:
 
-![Окно диспетчера пакетов](images/spatial-audio/package-manager-window.png)
+1. [Создание проекта Unity](mr-learning-base-02.md#creating-the-unity-project) и присвоение ему подходящего имени, например *MRTK Tutorials*.
 
-## <a name="install-mrtk-and-microsoft-spatializer"></a>Установка МРТК и Microsoft Спатиализер
+1. [Переключение платформы сборки.](mr-learning-base-02.md#configuring-the-unity-project)
 
-Используя NuGet для Unity, установите подключаемые модули МРТК и Microsoft Спатиализер.
-1. В строке меню Unity щелкните **NuGet-> Управление пакетами NuGet**.
+1. [Импорт требуемых ресурсов TextMeshPro.](mr-learning-base-02.md#importing-the-textmeshpro-essential-resources)
 
-![Управление пакетами NuGet](images/spatial-audio/manage-nuget-packages.png)
+1. [Импорт набора средств для Смешанной реальности (MRTK).](mr-learning-base-02.md#importing-the-mixed-reality-toolkit)
 
-2. В поле **поиска** введите "Microsoft. Микседреалити. Toolkit" и установите пакет мртк Core: **Microsoft. микседреалити. Toolkit. Foundation** .
+1. [Настройка проекта Unity.](mr-learning-base-02.md#configuring-the-unity-project)
 
-![Пакет NuGet МРТК](images/spatial-audio/mrtk-nuget-package.png)
+1. [Создание и настройка сцены](mr-learning-base-02.md#creating-and-configuring-the-scene) и присвойте сцене подходящее имя, например *спатиалаудио*
 
-[Пакет NuGet мртк](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/MRTKNuGetPackage.html) имеет дополнительный контекст и сведения.
+Затем выполните инструкции по [изменению параметра "Показать сведения о пространственной поддержке](mr-learning-base-03.md#changing-the-spatial-awareness-display-option) ", чтобы убедиться, что профиль конфигурации мртк для сцены **дефаултксрсдкконфигуратионпрофиле** , и измените параметры экрана для сетки пространственной поддержки на **перекрытия**.
 
-4. В поле **поиска** введите "Microsoft. спатиалаудио" и установите пакет Microsoft Спатиализер: **Microsoft. спатиалаудио. спатиализер. Unity.**
+## <a name="adding-microsoft-spatializer-to-the-project"></a>Добавление Microsoft Спатиализер в проект
 
-![NuGet подключаемого модуля спатиализер](images/spatial-audio/spatializer-plugin-nuget.png)
+Скачайте и импортируйте Microsoft Спатиализер  <a href="https://github.com/microsoft/spatialaudio-unity/releases/download/v1.0.18/Microsoft.SpatialAudio.Spatializer.Unity.1.0.18.unitypackage" target="_blank">Microsoft. спатиалаудио. спатиализер. Unity. 1.0.18. пакет unitypackage </a>
 
-## <a name="set-up-mrtk-in-your-project"></a>Настройка МРТК в проекте
-
-1. Откройте окно параметры сборки, выбрав **файл-> параметры сборки**.
-
-2. Выберите _универсальная платформа Windows_ и нажмите кнопку **Переключить платформу**.
-
-3. Щелкните **Параметры проигрывателя** в **окне сборка** , чтобы открыть свойства **параметров проигрывателя** на панели **инспектора** .
-    * В разделе **Параметры XR** установите флажок **Поддерживаемые виртуальные реальность** .
-    * В разделе **Параметры XR** измените **режим отображения стерео** на **один экземпляр однопроходного экземпляра**.
-    * В разделе **Параметры публикации** установите флажок **пространственное восприятие** в разделе **возможности** .
-
-4. В строке меню щелкните **набор средств для смешанной реальности — > добавить в сцену и настроить..** чтобы добавить МРТК в сцену.
-
-Дополнительные рекомендации, включая создание приложения и развертывание в HoloLens 2, см. в [главе 1 базового модуля MR Learning](../../../mrlearning-base-ch1.md).
+>[!TIP]
+> Чтобы вспомнить, как правильно импортировать пользовательский пакет Unity, воспользуйтесь инструкциями из статьи об [импорте Набора средств Смешанной реальности (MRTK)](../../../mrlearning-base-ch1.md#import-the-mixed-reality-toolkit).
 
 ## <a name="enable-the-microsoft-spatializer-plugin"></a>Включение подключаемого модуля Microsoft Спатиализер
 
-Включите подключаемый модуль **Microsoft спатиализер** . Откройте **> параметры проекта-> аудио** и измените **подключаемый модуль Спатиализер** на "Microsoft спатиализер". Теперь раздел **аудио** в **параметрах проекта** будет выглядеть следующим образом:
+После импорта **Microsoft спатиализер** необходимо включить его. Откройте **> параметры проекта-> аудио** и измените **подключаемый модуль Спатиализер** на "Microsoft спатиализер".
 
-![Параметры проекта, отображающие подключаемый модуль спатиализер](images/spatial-audio/project-settings.png)
+![Параметры проекта, отображающие подключаемый модуль спатиализер](images/spatial-audio/spatial-audio-01-section3-step1-1.png)
 
 ## <a name="enable-spatial-audio-on-your-workstation"></a>Включение пространственного звука на рабочей станции
 
 В настольных версиях Windows Пространственный звук по умолчанию отключен. Включите его, щелкнув значок тома правой кнопкой мыши на панели задач. Чтобы получить лучшее представление о том, что вы услышите в HoloLens 2, выберите **Пространственный звук — > Windows Sonic для наушников**.
 
-![Параметры пространственного звука рабочего стола](images/spatial-audio/desktop-audio-settings.png)
+![Параметры пространственного звука рабочего стола](images/spatial-audio/spatial-audio-01-section4-step1-1.png)
 
 > [!NOTE]
 > Этот параметр требуется только в том случае, если планируется тестирование проекта в редакторе Unity.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="congratulations"></a>Поздравляем!
+
+В этом учебнике вы узнаете, как импортировать и включить подключаемый модуль Microsoft Спатиализер, а также включить Пространственный звук на рабочей станции.
+В следующем учебнике вы узнаете, как добавить пространственный звук в проект Unity.
 
 > [!div class="nextstepaction"]
-> [Пространственный звуковой раздел Unity 2](unity-spatial-audio-ch2.md)
-
+> [Следующее руководство: 2. звуковое взаимодействие кнопки Спатиализинг](unity-spatial-audio-ch2.md)
