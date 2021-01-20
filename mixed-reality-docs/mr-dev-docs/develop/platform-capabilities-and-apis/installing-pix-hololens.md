@@ -6,12 +6,12 @@ ms.author: flbagar
 ms.date: 12/02/2020
 ms.topic: article
 keywords: HoloLens, HoloLens 2, PIX, захват, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 598a6b891798be7059eae2eff578c6bbbae442f6
-ms.sourcegitcommit: 9d79aaa313f003dd42d5610d458031890776ee8e
+ms.openlocfilehash: 29cb741cd986fbb98dabb1faf2051450fd0286c3
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/30/2020
-ms.locfileid: "97822920"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583098"
 ---
 # <a name="installing-pix-for-hololens-2"></a>Установка PIX для HoloLens 2
 
@@ -21,7 +21,7 @@ ms.locfileid: "97822920"
 
 1. Загрузите последнюю [версию PIX с]( https://devblogs.microsoft.com/pix/download) главного компьютера и подключите свой HoloLens 2 к компьютеру через USB-кабель.
 
-2. Если HoloLens 2 находится в сборке программы [предварительной оценки Windows](https://insider.windows.com) или имеет конфигурацию, которая отменяет PIX, изменяйте  [устройство](https://docs.microsoft.com/hololens/hololens-recovery) , чтобы стереть все данные.
+2. Если HoloLens 2 находится в сборке программы [предварительной оценки Windows](https://insider.windows.com) или имеет конфигурацию, которая отменяет PIX, изменяйте  [устройство](/hololens/hololens-recovery) , чтобы стереть все данные.
 
 3. Включить **режим разработчика** и **портал устройств**:
 
@@ -46,7 +46,7 @@ ms.locfileid: "97822920"
 * Если устройство по-прежнему подключено, в спящем режиме и пользователь вошел в систему, запустите Visual Studio.
 
 > [!IMPORTANT]
-> Убедитесь, что устройство находится не в режиме ожидания или в спящем режиме. Если у вас возникли проблемы с этим шагом, см. [инструкции на портале устройств Windows](https://docs.microsoft.com/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-windows-device-portal).
+> Убедитесь, что устройство находится не в режиме ожидания или в спящем режиме. Если у вас возникли проблемы с этим шагом, см. [инструкции на портале устройств Windows](./using-the-windows-device-portal.md).
 
 ## <a name="preparing-for-deployment"></a>Подготовка к развертыванию
 

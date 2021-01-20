@@ -6,12 +6,12 @@ ms.author: thmignon
 ms.date: 07/12/2018
 ms.topic: article
 keywords: 3D, Эмблема, значок, моделирование, средство запуска, трехмерное средство запуска, плитка, динамический куб, Win32, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, манифест
-ms.openlocfilehash: 63b07664cb09f51e6d0588fdc50d141ad8985093
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 46d3419d3c8267291496d8f788103d7002e6f230
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009673"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583038"
 ---
 # <a name="implement-3d-app-launchers-win32-apps"></a>Реализация средств запуска трехмерных приложений (приложения Win32)
 
@@ -33,11 +33,11 @@ ms.locfileid: "98009673"
 
 ## <a name="configuring-the-3d-launcher"></a>Настройка средства запуска 3D
 
-Приложения Win32 будут отображаться в списке "все приложения" в меню "Пуск" Windows Mixed Reality, если для них создается средство запуска для 3D-приложений. Для этого создайте XML-файл [манифеста визуальных элементов](https://msdn.microsoft.com/library/windows/apps/dn393983.aspx) , ссылающийся на средство запуска 3D-приложений, выполнив следующие действия.
+Приложения Win32 будут отображаться в списке "все приложения" в меню "Пуск" Windows Mixed Reality, если для них создается средство запуска для 3D-приложений. Для этого создайте XML-файл [манифеста визуальных элементов](/previous-versions/windows/apps/dn393983(v=win.10)) , ссылающийся на средство запуска 3D-приложений, выполнив следующие действия.
 
 1. Создайте **файл GLBA ресурсов средства запуска 3D-приложения** (см. раздел [моделирование и экспорт](creating-3d-models-for-use-in-the-windows-mixed-reality-home.md)).
-2. Создайте **[Манифест визуальных элементов](https://msdn.microsoft.com/library/windows/apps/dn393983.aspx)** для приложения.
-    1. Вы можете начать с [примера ниже](#sample-visual-elements-manifest).  Дополнительные сведения см. в документации по полному [манифесту визуальных элементов](https://msdn.microsoft.com/library/windows/apps/dn393983.aspx) .
+2. Создайте **[Манифест визуальных элементов](/previous-versions/windows/apps/dn393983(v=win.10))** для приложения.
+    1. Вы можете начать с [примера ниже](#sample-visual-elements-manifest).  Дополнительные сведения см. в документации по полному [манифесту визуальных элементов](/previous-versions/windows/apps/dn393983(v=win.10)) .
     2. Обновите **Square150x150Logo** и **SQUARE70X70LOGO** с помощью PNG/JPG/GIF для своего приложения.
         * Они будут использоваться для 2D-логотипа приложения в списке все приложения Windows Mixed Reality и в меню Пуск на рабочем столе.
         * Путь к файлу основан на папке, содержащей манифест визуальных элементов.

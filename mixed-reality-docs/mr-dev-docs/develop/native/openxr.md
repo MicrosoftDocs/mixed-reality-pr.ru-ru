@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 7/29/2019
 ms.topic: article
 keywords: Опенкср, Кхронос, Басикксрапп, DirectX, Native, собственное приложение, настраиваемое ядро, по промежуточного слоя
-ms.openlocfilehash: ba03799ff42d3a4c27799dcf2f4035d408360120
-ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
+ms.openlocfilehash: 76193cdf3c790037474b66de9fbbbd1da8f31199
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97613136"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583795"
 ---
 # <a name="openxr"></a>OpenXR
 
@@ -80,7 +80,7 @@ API Опенкср предоставляет основные функции п
 
 *Новая подсистема Рендердрагон Minecraft создает свою настольную поддержку версий VR с помощью Опенкср*
 
-Корпорация Майкрософт приработала к играм Unity и в рабочей ситуации, чтобы убедиться в том, что будущее смешанной реальности открыта, а не только для HoloLens 2, но в полной мере в мире, включая [Новый переглаголы G2](https://www.microsoft.com/mixed-reality/windows-mixed-reality?rtc=1).  Дополнительные сведения о разработке для HoloLens (1-го поколения) см. в [заметках о выпуске](https://docs.microsoft.com/hololens/hololens1-release-notes).
+Корпорация Майкрософт приработала к играм Unity и в рабочей ситуации, чтобы убедиться в том, что будущее смешанной реальности открыта, а не только для HoloLens 2, но в полной мере в мире, включая [Новый переглаголы G2](https://www.microsoft.com/mixed-reality/windows-mixed-reality?rtc=1).  Дополнительные сведения о разработке для HoloLens (1-го поколения) см. в [заметках о выпуске](/hololens/hololens1-release-notes).
 
 Чтобы узнать, как можно приступить к работе с Опенкср в Unity, нереальном модулем или собственной подсистемой, читайте здесь!
 

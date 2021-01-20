@@ -6,12 +6,12 @@ ms.author: mazeller
 ms.date: 03/21/2018
 ms.topic: article
 keywords: развертывание, Unity, Visual Studio, HoloLens, HoloLens 2, закрепляемая гарнитура, лучшие методики, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, UWP, Инструменты Visual Studio, Windows SDK
-ms.openlocfilehash: 9464c86826b9a8ea2c64384dfa699fc6d98743dd
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 6940382af605c28686cec862cf2d9b6cb8411387
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009374"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583461"
 ---
 # <a name="best-practices-for-working-with-unity-and-visual-studio"></a>Рекомендации по работе с Unity и Visual Studio
 
@@ -35,7 +35,7 @@ ms.locfileid: "98009374"
 
 ## <a name="visual-studio-tools-for-unity"></a>Набор средств Visual Studio для Unity
 
-Скачать [инструменты Visual Studio для Unity](https://docs.microsoft.com/visualstudio/cross-platform/getting-started-with-visual-studio-tools-for-unity)
+Скачать [инструменты Visual Studio для Unity](/visualstudio/cross-platform/getting-started-with-visual-studio-tools-for-unity)
 
 **Преимущества Инструменты Visual Studio для Unity**
 * Отладка Unity в редакторе в режиме воспроизведения из Visual Studio путем размещения точек останова, оценки переменных и сложных выражений.

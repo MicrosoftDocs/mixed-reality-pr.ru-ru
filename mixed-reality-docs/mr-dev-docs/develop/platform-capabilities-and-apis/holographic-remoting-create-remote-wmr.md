@@ -6,12 +6,12 @@ ms.author: flbagar
 ms.date: 12/01/2020
 ms.topic: article
 keywords: HoloLens, удаленное взаимодействие, holographic удаленное взаимодействие, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, NuGet
-ms.openlocfilehash: b78d1c93c8b2890ba8d904c289c8d61a14380824
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 65c76266c00f51cbe17f6bfd2991a6adf4103855
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98006504"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583849"
 ---
 # <a name="writing-a-holographic-remoting-remote-app-using-the-holographicspace-api"></a>Создание удаленного приложения holographic с удаленным взаимодействием с помощью API Холографикспаце
 
@@ -27,7 +27,7 @@ ms.locfileid: "98006504"
 Хорошей отправной точкой является работающая Рабочая станция на основе DirectX или приложение UWP, которое предназначено для [API холографикспаце](../native/getting-a-holographicspace.md). Дополнительные сведения см. в статье [Общие сведения о разработке DirectX](../native/directx-development-overview.md). [Шаблон проекта с + + holographic](../native/creating-a-holographic-directx-project.md) является хорошей отправной точкой.
 
 >[!IMPORTANT]
->Любое приложение, использующее holographic удаленное взаимодействие, должно быть создано для использования [многопоточного подразделения](https://docs.microsoft.com//windows/win32/com/multithreaded-apartments). Использование [однопотокового подразделения](https://docs.microsoft.com//windows/win32/com/single-threaded-apartments) поддерживается, но может привести к неоптимальной производительности и, возможно, "дергания" во время воспроизведения. При использовании C++/WinRT [WinRT:: init_apartment](https://docs.microsoft.com//windows/uwp/cpp-and-winrt-apis/get-started) многопотоковое подразделение является значением по умолчанию.
+>Любое приложение, использующее holographic удаленное взаимодействие, должно быть создано для использования [многопоточного подразделения](//windows/win32/com/multithreaded-apartments). Использование [однопотокового подразделения](//windows/win32/com/single-threaded-apartments) поддерживается, но может привести к неоптимальной производительности и, возможно, "дергания" во время воспроизведения. При использовании C++/WinRT [WinRT:: init_apartment](//windows/uwp/cpp-and-winrt-apis/get-started) многопотоковое подразделение является значением по умолчанию.
 
 
 
@@ -104,7 +104,7 @@ catch(winrt::hresult_error& e)
 >Как и в случае любого API-интерфейса C++/WinRT, ```Connect``` может возникнуть исключение WinRT:: hresult_error, которое необходимо обработать.
 
 >[!TIP]
->Чтобы избежать использования проекции языка [C++/WinRT](https://docs.microsoft.com//windows/uwp/cpp-and-winrt-apis/) , ```build\native\include\<windows sdk version>\abi\Microsoft.Holographic.AppRemoting.h``` можно добавить файл, расположенный внутри пакета NuGet удаленного взаимодействия с удаленным доступом. Он содержит объявления базовых COM-интерфейсов. Однако рекомендуется использовать C++/WinRT.
+>Чтобы избежать использования проекции языка [C++/WinRT](//windows/uwp/cpp-and-winrt-apis/) , ```build\native\include\<windows sdk version>\abi\Microsoft.Holographic.AppRemoting.h``` можно добавить файл, расположенный внутри пакета NuGet удаленного взаимодействия с удаленным доступом. Он содержит объявления базовых COM-интерфейсов. Однако рекомендуется использовать C++/WinRT.
 
 Прослушивание входящих подключений в удаленном приложении можно выполнить, вызвав ```Listen``` метод. Во время этого вызова можно указать как порт подтверждения, так и порт транспорта. Порт подтверждения используется для первоначального подтверждения. Затем данные отправляются через порт транспорта. По умолчанию используются **8265** и **8266** .
 
@@ -197,7 +197,7 @@ if (auto remoteSpeech = m_remoteContext.GetRemoteSpeech())
 }
 ```
 
-С помощью асинхронного вспомогательного метода можно инициализировать удаленный голос. Это необходимо сделать асинхронно, так как инициализация может занять значительное время. [Параллельные и асинхронные операции с c++/WinRT](https://docs.microsoft.com//windows/uwp/cpp-and-winrt-apis/concurrency) объясняет, как создавать асинхронные функции с помощью c++/винрт.
+С помощью асинхронного вспомогательного метода можно инициализировать удаленный голос. Это необходимо сделать асинхронно, так как инициализация может занять значительное время. [Параллельные и асинхронные операции с c++/WinRT](//windows/uwp/cpp-and-winrt-apis/concurrency) объясняет, как создавать асинхронные функции с помощью c++/винрт.
 
 ```cpp
 winrt::Windows::Foundation::IAsyncOperation<winrt::Windows::Storage::StorageFile> LoadGrammarFileAsync()
@@ -234,7 +234,7 @@ winrt::fire_and_forget InitializeSpeechAsync(
 ```
 
 Существует два способа указания фраз для распознавания.
-1) Спецификация внутри XML-файла грамматики речи. Дополнительные сведения см. [в статье Создание базовой грамматики XML](https://docs.microsoft.com//previous-versions/office/developer/speech-technologies/hh361658(v=office.14)) .
+1) Спецификация внутри XML-файла грамматики речи. Дополнительные сведения см. [в статье Создание базовой грамматики XML](//previous-versions/office/developer/speech-technologies/hh361658(v=office.14)) .
 2) Укажите, передав их в векторе словаря в ```ApplyParameters``` .
 
 Внутри обратного вызова Онрекогнизедспич можно обрабатывать события речи:
@@ -315,7 +315,7 @@ m_remoteContext.ConfigureDepthVideoStream(DepthBufferStreamResolution::Half_Reso
 
 Помните, что использование буфера глубины полного разрешения также влияет на требования к пропускной способности и должно учитывать максимальное значение пропускной способности, которое вы предоставляете ```CreateRemoteContext``` .
 
-Чтобы настроить разрешение, необходимо также зафиксировать буфер глубины с помощью [холографиккамерарендерингпараметерс. CommitDirect3D11DepthBuffer](https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographiccamerarenderingparameters.commitdirect3d11depthbuffer#Windows_Graphics_Holographic_HolographicCameraRenderingParameters_CommitDirect3D11DepthBuffer_Windows_Graphics_DirectX_Direct3D11_IDirect3DSurface_).
+Чтобы настроить разрешение, необходимо также зафиксировать буфер глубины с помощью [холографиккамерарендерингпараметерс. CommitDirect3D11DepthBuffer](/uwp/api/windows.graphics.holographic.holographiccamerarenderingparameters.commitdirect3d11depthbuffer#Windows_Graphics_Holographic_HolographicCameraRenderingParameters_CommitDirect3D11DepthBuffer_Windows_Graphics_DirectX_Direct3D11_IDirect3DSurface_).
 
 ```cpp
 
@@ -362,5 +362,5 @@ void SampleRemoteMain::Render(HolographicFrame holographicFrame)
 * [Пользовательские каналы данных с голографическим удаленным взаимодействием](holographic-remoting-custom-data-channels.md)
 * [Установка безопасного подключения с использованием голографического удаленного взаимодействия](holographic-remoting-secure-connection.md)
 * [Устранение неполадок и ограничения удаленного взаимодействия с holographic](holographic-remoting-troubleshooting.md)
-* [Условия лицензии на использование ПО для голографического удаленного взаимодействия](https://docs.microsoft.com//legal/mixed-reality/microsoft-holographic-remoting-software-license-terms)
-* [Заявление Майкрософт о конфиденциальности](https://go.microsoft.com/fwlink/?LinkId=521839)
+* [Условия лицензии на использование ПО для голографического удаленного взаимодействия](//legal/mixed-reality/microsoft-holographic-remoting-software-license-terms)
+* [Заявление о конфиденциальности Майкрософт](https://go.microsoft.com/fwlink/?LinkId=521839)

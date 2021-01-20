@@ -6,12 +6,12 @@ ms.author: mriches
 ms.date: 08/04/2020
 ms.topic: article
 keywords: Windows Mixed Reality, голограммы, отрисовка, трехмерная графика, Холографикфраме, цикл отрисовки, цикл обновления, пошаговое руководство, пример кода, Direct3D
-ms.openlocfilehash: aafead61b45550f499405ae63bda7d7f8e79d224
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: f62df75f8febc3f3ee6e7c98f2c8fd91082a4466
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98006724"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583780"
 ---
 # <a name="rendering-in-directx"></a>Отрисовка в DirectX
 
@@ -25,7 +25,7 @@ Windows Mixed Reality построена на основе DirectX для соз
 ## <a name="update-for-the-current-frame"></a>Обновление текущего кадра
 
 Чтобы обновить состояние приложения для голограмм, один раз для каждого кадра приложение будет выполнять следующие действия:
-* Получение <a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicframe" target="_blank">холографикфраме</a> из системы управления отображением.
+* Получение <a href="/uwp/api/windows.graphics.holographic.holographicframe" target="_blank">холографикфраме</a> из системы управления отображением.
 * Обновите сцену, используя текущий прогноз, где будет отображаться представление камеры после завершения подготовки к просмотру. Обратите внимание, что для «holographic» сцены может существовать более одной камеры.
 
 Для отображения в представлениях с Камером holographic, один раз для каждого кадра, приложение будет выполнять следующие действия:
@@ -33,7 +33,7 @@ Windows Mixed Reality построена на основе DirectX для соз
 
 ### <a name="create-a-new-holographic-frame-and-get-its-prediction"></a>Создание нового пакета holographic и получение его прогноза
 
-<a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicframe" target="_blank">Холографикфраме</a> содержит сведения, необходимые приложению для обновления и отрисовки текущего кадра. Приложение начинает каждый новый кадр, вызывая метод **креатенекстфраме** . При вызове этого метода прогнозы выполняются с использованием последних доступных данных датчика и инкапсулированы в объект **куррентпредиктион** .
+<a href="/uwp/api/windows.graphics.holographic.holographicframe" target="_blank">Холографикфраме</a> содержит сведения, необходимые приложению для обновления и отрисовки текущего кадра. Приложение начинает каждый новый кадр, вызывая метод **креатенекстфраме** . При вызове этого метода прогнозы выполняются с использованием последних доступных данных датчика и инкапсулированы в объект **куррентпредиктион** .
 
 Для каждого отображаемого кадра должен использоваться новый объект Frame, так как он действителен только для мгновенного выполнения. Свойство **куррентпредиктион** содержит такие сведения, как расположение камеры. Данные выделяются на конкретный момент времени, когда фрейм должен быть видимым для пользователя.
 
@@ -73,7 +73,7 @@ for (HolographicCameraPose const& cameraPose : prediction.CameraPoses())
 
 ### <a name="get-the-coordinate-system-to-use-as-a-basis-for-rendering"></a>Получение системы координат для использования в качестве основания для подготовки к просмотру
 
-Windows Mixed Reality позволяет вашему приложению создавать различные [системы координат](coordinate-systems-in-directx.md), например присоединенные и стационарные справочные фреймы для отслеживания расположений в физическом мире. Приложение может использовать эти системы координат в качестве причины, по которой следует визуализировать голограммы каждого кадра. При запросе координат из API вы всегда будете передавать <a href="https://docs.microsoft.com/uwp/api/windows.perception.spatial.spatialcoordinatesystem" target="_blank">спатиалкурдинатесистем</a> , внутри которых должны выражаться эти координаты.
+Windows Mixed Reality позволяет вашему приложению создавать различные [системы координат](coordinate-systems-in-directx.md), например присоединенные и стационарные справочные фреймы для отслеживания расположений в физическом мире. Приложение может использовать эти системы координат в качестве причины, по которой следует визуализировать голограммы каждого кадра. При запросе координат из API вы всегда будете передавать <a href="/uwp/api/windows.perception.spatial.spatialcoordinatesystem" target="_blank">спатиалкурдинатесистем</a> , внутри которых должны выражаться эти координаты.
 
 Из **аппмаин:: Update**:
 
@@ -313,7 +313,7 @@ context->VSSetConstantBuffers(
 
 Windows Mixed Reality включает в себя функции для [стабилизацииов изображений](../platform-capabilities-and-apis/hologram-stability.md) , позволяющие размещать голограммы, где разработчик или пользователь помещает их в мир. Образ стабилизации помогает скрыть задержку, присущую конвейеру отрисовки, чтобы обеспечить наилучший опыт для пользователей. Можно указать точку фокусировки, чтобы улучшить стабилизации изображений, или можно предоставить буфер глубины для стабилизации оптимизированного изображения в режиме реального времени.
 
-Для получения лучших результатов приложение должно предоставить буфер глубины с помощью API <a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographiccamerarenderingparameters.commitdirect3d11depthbuffer" target="_blank">CommitDirect3D11DepthBuffer</a> . Затем Windows Mixed Reality может использовать сведения об геометрии из буфера глубины для оптимизации стабилизации изображений в режиме реального времени. Шаблон приложения Windows holographic по умолчанию фиксирует буфер глубины приложения, помогая оптимизировать стабильность.
+Для получения лучших результатов приложение должно предоставить буфер глубины с помощью API <a href="/uwp/api/windows.graphics.holographic.holographiccamerarenderingparameters.commitdirect3d11depthbuffer" target="_blank">CommitDirect3D11DepthBuffer</a> . Затем Windows Mixed Reality может использовать сведения об геометрии из буфера глубины для оптимизации стабилизации изображений в режиме реального времени. Шаблон приложения Windows holographic по умолчанию фиксирует буфер глубины приложения, помогая оптимизировать стабильность.
 
 Из **аппмаин:: Render**:
 
@@ -600,7 +600,7 @@ void main(triangle GeometryShaderInput input[3], inout TriangleStream<GeometrySh
 
 ### <a name="enable-the-holographic-frame-to-present-the-swap-chain"></a>Включение в holographic фрейма цепочки буферов
 
-В Windows Mixed Reality система управляет цепочкой буферов обмена. Затем система управляет показом кадров на каждой из holographic камер для обеспечения высокого качества взаимодействия с пользователем. Он также предоставляет окно просмотра, которое обновляет каждый кадр для каждой камеры для оптимизации аспектов системы, таких как изображение стабилизации или запись смешанной реальности. Таким образом, holographic приложение, использующее DirectX, не вызывает **Present** в цепочке подкачки DXGI. Вместо этого используйте класс <a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicframe" target="_blank">холографикфраме</a> , чтобы показать все цепочек переключений для кадра после завершения его рисования.
+В Windows Mixed Reality система управляет цепочкой буферов обмена. Затем система управляет показом кадров на каждой из holographic камер для обеспечения высокого качества взаимодействия с пользователем. Он также предоставляет окно просмотра, которое обновляет каждый кадр для каждой камеры для оптимизации аспектов системы, таких как изображение стабилизации или запись смешанной реальности. Таким образом, holographic приложение, использующее DirectX, не вызывает **Present** в цепочке подкачки DXGI. Вместо этого используйте класс <a href="/uwp/api/windows.graphics.holographic.holographicframe" target="_blank">холографикфраме</a> , чтобы показать все цепочек переключений для кадра после завершения его рисования.
 
 Из **DeviceResources::P** повторной отправки:
 
@@ -608,11 +608,11 @@ void main(triangle GeometryShaderInput input[3], inout TriangleStream<GeometrySh
 HolographicFramePresentResult presentResult = frame.PresentUsingCurrentPrediction();
 ```
 
-По умолчанию этот API ожидает завершения кадра перед возвратом. Перед началом работы над новым кадром holographic приложения должны ожидать завершения предыдущего кадра, так как это сокращает задержку и обеспечивает лучшие результаты прогнозов с помощью Holographic. Это не жесткое правило, и если у вас есть кадры, которые занимают больше одного экрана для подготовки к просмотру, можно отключить это время, передав параметр Холографикфрамепресентваитбехавиор в <a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicframe.presentusingcurrentprediction" target="_blank">пресентусингкуррентпредиктион</a>. В этом случае, скорее всего, будет использоваться поток асинхронной отрисовки для поддержания непрерывной нагрузки на GPU. Частота обновления устройства HoloLens составляет 60 Гц, при этом длительность одного кадра составляет примерно 16 мс. Впечатляющие головные устройства могут находиться в диапазоне от 60 Гц до 90 Гц; При обновлении экрана с частотой 90 Гц каждый кадр будет иметь длительность примерно 11 мс.
+По умолчанию этот API ожидает завершения кадра перед возвратом. Перед началом работы над новым кадром holographic приложения должны ожидать завершения предыдущего кадра, так как это сокращает задержку и обеспечивает лучшие результаты прогнозов с помощью Holographic. Это не жесткое правило, и если у вас есть кадры, которые занимают больше одного экрана для подготовки к просмотру, можно отключить это время, передав параметр Холографикфрамепресентваитбехавиор в <a href="/uwp/api/windows.graphics.holographic.holographicframe.presentusingcurrentprediction" target="_blank">пресентусингкуррентпредиктион</a>. В этом случае, скорее всего, будет использоваться поток асинхронной отрисовки для поддержания непрерывной нагрузки на GPU. Частота обновления устройства HoloLens составляет 60 Гц, при этом длительность одного кадра составляет примерно 16 мс. Впечатляющие головные устройства могут находиться в диапазоне от 60 Гц до 90 Гц; При обновлении экрана с частотой 90 Гц каждый кадр будет иметь длительность примерно 11 мс.
 
 ### <a name="handle-devicelost-scenarios-in-cooperation-with-the-holographicframe"></a>Обрабатывайте сценарии Девицелост в сотрудничество с Холографикфраме
 
-Приложениям DirectX 11 обычно требуется проверить значение HRESULT, возвращаемое функцией **Present** цепочки ПОДкачки DXGI, чтобы определить, была ли ошибка **девицелост** . Класс <a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicframe" target="_blank">холографикфраме</a> обрабатывает это за вас. Проверьте возвращенный <a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicframepresentresult" target="_blank">холографикфрамепресентресулт</a> , чтобы узнать, нужно ли освободить и повторно создать ресурсы на основе Direct3D и устройства.
+Приложениям DirectX 11 обычно требуется проверить значение HRESULT, возвращаемое функцией **Present** цепочки ПОДкачки DXGI, чтобы определить, была ли ошибка **девицелост** . Класс <a href="/uwp/api/windows.graphics.holographic.holographicframe" target="_blank">холографикфраме</a> обрабатывает это за вас. Проверьте возвращенный <a href="/uwp/api/windows.graphics.holographic.holographicframepresentresult" target="_blank">холографикфрамепресентресулт</a> , чтобы узнать, нужно ли освободить и повторно создать ресурсы на основе Direct3D и устройства.
 
 ```cpp
 // The PresentUsingCurrentPrediction API will detect when the graphics device
@@ -625,7 +625,7 @@ if (presentResult == HolographicFramePresentResult::DeviceRemoved)
 }
 ```
 
-Если устройство Direct3D было потеряно, и вы создали его повторно, вам нужно сообщить <a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicspace" target="_blank">холографикспаце</a> начать использовать новое устройство. Для этого устройства будет создана цепочка буферов.
+Если устройство Direct3D было потеряно, и вы создали его повторно, вам нужно сообщить <a href="/uwp/api/windows.graphics.holographic.holographicspace" target="_blank">холографикспаце</a> начать использовать новое устройство. Для этого устройства будет создана цепочка буферов.
 
 Из **DeviceResources:: инитиализеусингхолографикспаце**:
 
@@ -641,7 +641,7 @@ m_holographicSpace.SetDirect3D11Device(m_d3dInteropDevice);
 
 В большинстве общих примеров кода Direct3D демонстрируется создание устройства DirectX с помощью аппаратного адаптера по умолчанию, который в гибридной системе может отличаться от используемого для гарнитуры.
 
-Чтобы обойти какие либо проблемы, используйте <a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicadapterid" target="_blank">холографикадаптерид</a> из <a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicspace" target="_blank">холографикспаце</a>. Примарядаптерид () или <a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicdisplay" target="_blank">холографикдисплай</a>. ИД адаптера (). Этот ИД адаптера можно затем использовать для выбора правильного Дксгиадаптер с помощью IDXGIFactory4. Енумадаптербилуид.
+Чтобы обойти какие либо проблемы, используйте <a href="/uwp/api/windows.graphics.holographic.holographicadapterid" target="_blank">холографикадаптерид</a> из <a href="/uwp/api/windows.graphics.holographic.holographicspace" target="_blank">холографикспаце</a>. Примарядаптерид () или <a href="/uwp/api/windows.graphics.holographic.holographicdisplay" target="_blank">холографикдисплай</a>. ИД адаптера (). Этот ИД адаптера можно затем использовать для выбора правильного Дксгиадаптер с помощью IDXGIFactory4. Енумадаптербилуид.
 
 Из **DeviceResources:: инитиализеусингхолографикспаце**:
 
@@ -711,7 +711,7 @@ const HRESULT hr = D3D11CreateDevice(
 
 Использование Media Foundation в гибридных системах может вызвать проблемы, когда видео не будет отображаться или текстура видео повреждена, так как Media Foundation по умолчанию использует поведение системы. В некоторых сценариях для поддержки многопоточности и установки правильных флагов создания требуется создать отдельный ID3D11Device.
 
-При инициализации ID3D11Device должен быть определен флаг D3D11_CREATE_DEVICE_VIDEO_SUPPORT в составе D3D11_CREATE_DEVICE_FLAG. После создания устройства и контекста вызовите <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10multithread-setmultithreadprotected" target="_blank">сетмултисреадпротектед</a> , чтобы включить многопоточность. Чтобы связать устройство с <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager" target="_blank">имфдксгидевицеманажер</a>, используйте функцию <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-resetdevice" target="_blank">Имфдксгидевицеманажер:: ресетдевице</a> .
+При инициализации ID3D11Device должен быть определен флаг D3D11_CREATE_DEVICE_VIDEO_SUPPORT в составе D3D11_CREATE_DEVICE_FLAG. После создания устройства и контекста вызовите <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10multithread-setmultithreadprotected" target="_blank">сетмултисреадпротектед</a> , чтобы включить многопоточность. Чтобы связать устройство с <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager" target="_blank">имфдксгидевицеманажер</a>, используйте функцию <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-resetdevice" target="_blank">Имфдксгидевицеманажер:: ресетдевице</a> .
 
 Код для **связывания ID3D11Device с имфдксгидевицеманажер**:
 

@@ -6,12 +6,12 @@ ms.author: jemccull
 ms.date: 07/03/2018
 ms.topic: article
 keywords: Azure, Mixed Reality, Academy, Unity, учебник, API, пользовательское видение, hololens, иммерсивное, VR, Windows 10, Visual Studio
-ms.openlocfilehash: d40dc1cf23ee8040406047eaddd7ee3b70365199
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: cba2df5841911df6d60a7060a70f835975a21f62
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94679553"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583401"
 ---
 # <a name="mr-and-azure-302b-custom-vision"></a>302b. Смешанная реальность и Azure: пользовательское визуальное распознавание
 
@@ -29,7 +29,7 @@ ms.locfileid: "94679553"
 
 ![результат курса](images/AzureLabs-Lab302b-00.png)
 
-Azure Пользовательское визуальное распознавание — это служба Microsoft, которая позволяет разработчикам создавать пользовательские классификаторы изображений. Эти классификаторы можно использовать с новыми образами для распознавания или классификации объектов внутри этого нового изображения. Служба предоставляет простой, простой в использовании веб-портал для упрощения процесса. Дополнительные сведения см. на [странице Пользовательская служба визуального распознавания Azure](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/home).
+Azure Пользовательское визуальное распознавание — это служба Microsoft, которая позволяет разработчикам создавать пользовательские классификаторы изображений. Эти классификаторы можно использовать с новыми образами для распознавания или классификации объектов внутри этого нового изображения. Служба предоставляет простой, простой в использовании веб-портал для упрощения процесса. Дополнительные сведения см. на [странице Пользовательская служба визуального распознавания Azure](/azure/cognitive-services/custom-vision-service/home).
 
 После завершения этого курса у вас будет приложение смешанной реальности, которое сможет работать в двух режимах:
 
@@ -43,7 +43,7 @@ Azure Пользовательское визуальное распознава
 
 <table>
 <tr>
-<th>Курс</th><th style="width:150px"> <a href="../../../hololens-hardware-details.md">HoloLens</a></th><th style="width:150px"> <a href="../../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></th>
+<th>Курс</th><th style="width:150px"> <a href="/hololens/hololens1-hardware">HoloLens</a></th><th style="width:150px"> <a href="../../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></th>
 </tr><tr>
 <td> 302b. Смешанная реальность и Azure: пользовательское визуальное распознавание</td><td style="text-align: center;"> ✔️</td><td style="text-align: center;"> ✔️</td>
 </tr>
@@ -64,7 +64,7 @@ Azure Пользовательское визуальное распознава
 - [Последний пакет SDK для Windows 10](../../install-the-tools.md#installation-checklist)
 - [Unity 2017,4](../../install-the-tools.md#installation-checklist)
 - [Visual Studio 2017](../../install-the-tools.md#installation-checklist)
-- Высокодоступная [гарнитура Windows Mixed Reality (VR)](../../../discover/immersive-headset-hardware-details.md) или [Microsoft HoloLens](../../../hololens-hardware-details.md) с включенным режимом разработчика
+- Высокодоступная [гарнитура Windows Mixed Reality (VR)](../../../discover/immersive-headset-hardware-details.md) или [Microsoft HoloLens](/hololens/hololens1-hardware) с включенным режимом разработчика
 - Камера, подключенная к компьютеру (для разработки в увлекательной гарнитуре)
 - Доступ к Интернету для установки Azure и получение API Пользовательское визуальное распознавание
 - Последовательность из пяти (5) образов (рекомендуется десять (10)) для каждого объекта, который вы хотите Пользовательская служба визуального распознавания распознать. При желании вы можете использовать образы, [которые уже предоставлены в этом курсе (мышь компьютера и клавиатура) ](https://github.com/Microsoft/HolographicAcademy/raw/Azure-MixedReality-Labs/Azure%20Mixed%20Reality%20Labs/MR%20and%20Azure%20302b%20-%20Custom%20vision/ComputerVision_Images.zip).
@@ -72,12 +72,12 @@ Azure Пользовательское визуальное распознава
 ## <a name="before-you-start"></a>Перед началом работы
 
 1.  Чтобы избежать проблем при создании этого проекта, настоятельно рекомендуется создать проект, упомянутый в этом руководстве, в корневой или ближайшем к корневой папке (длинные пути к папкам могут вызвать проблемы во время сборки).
-2.  Настройка и тестирование HoloLens. Если вам нужна поддержка по настройке HoloLens, [обязательно посетите статью Настройка hololens](https://docs.microsoft.com/hololens/hololens-setup). 
+2.  Настройка и тестирование HoloLens. Если вам нужна поддержка по настройке HoloLens, [обязательно посетите статью Настройка hololens](/hololens/hololens-setup). 
 3.  Рекомендуется выполнять настройку калибровки и датчика при разработке нового приложения HoloLens (иногда это может помочь в выполнении этих задач для каждого пользователя). 
 
-Чтобы получить справку по калибровке, перейдите по этой [ссылке в статью калибровка HoloLens](../../../calibration.md#hololens-2).
+Чтобы получить справку по калибровке, перейдите по этой [ссылке в статью калибровка HoloLens](/hololens/hololens-calibration#hololens-2).
 
-Чтобы получить справку по настройке датчика, перейдите [по ссылке в статью Настройка датчика HoloLens](../../../sensor-tuning.md).
+Чтобы получить справку по настройке датчика, перейдите [по ссылке в статью Настройка датчика HoloLens](/hololens/hololens-updates).
 
 ## <a name="chapter-1---the-custom-vision-service-portal"></a>Глава 1. портал Пользовательская служба визуального распознавания
 
@@ -118,7 +118,7 @@ Azure Пользовательское визуальное распознава
 
         ![Настройка доменов](images/AzureLabs-Lab302b-05.png)
 
-        > Если вы хотите ознакомиться с дополнительными сведениями о группах ресурсов Azure, обратитесь [к статье о группе ресурсов](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-portal).
+        > Если вы хотите ознакомиться с дополнительными сведениями о группах ресурсов Azure, обратитесь [к статье о группе ресурсов](/azure/azure-resource-manager/resource-group-portal).
 
 7.  По завершении нажмите кнопку **создать проект**. Вы будете перенаправлены на страницу пользовательская служба визуального распознавания, проект.
 
@@ -279,7 +279,7 @@ Azure Пользовательское визуальное распознава
 Для работы с этим курсом необходимо использовать библиотеку **Newtonsoft** , которую можно добавить в ресурсы в качестве библиотеки DLL. Пакет, содержащий [эту библиотеку, можно скачать по этой ссылке](https://github.com/Microsoft/HolographicAcademy/raw/Azure-MixedReality-Labs/Azure%20Mixed%20Reality%20Labs/MR%20and%20Azure%20302b%20-%20Custom%20vision/NewtonsoftDLL.unitypackage).
 Чтобы импортировать библиотеку Newtonsoft в проект, используйте пакет Unity, прилагаемый к этому курсу.
 
-1.  Добавьте *. пакет unitypackage* в Unity с помощью команды меню * >  *Import* *Package*  >  *Настраиваемый* *пакет* импорт *активов** .
+1.  Добавьте *. пакет unitypackage* в Unity с помощью команды меню * >     >  *Настраиваемый* *пакет* импорт *активов** .
 
 2.  В появившемся окне **Импорт пакета Unity** убедитесь, что выбраны все компоненты **подключаемых модулей** (включая).
 
@@ -1666,7 +1666,7 @@ Azure Пользовательское визуальное распознава
 
     1.  Людьми HoloLens, откройте **Параметры**.
 
-    2.  Выберите **Сетевые &**  >  **Wi-Fi**  >  **Дополнительные параметры** сети Интернет Wi-Fi
+    2.  Выберите **Сетевые &**  >    >  **Дополнительные параметры** сети Интернет Wi-Fi
 
     3.  Запишите **IPv4** -адрес.
 

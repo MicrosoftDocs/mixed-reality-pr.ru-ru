@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Windows Mixed Reality, HoloLens, голограммы, проектирование, взаимодействие, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, что является дополненным
-ms.openlocfilehash: b390910fcece8e6263d19f52c80b784efb2561f6
-ms.sourcegitcommit: 8d3b84d2aa01f078ecf92cec001a252e3ea7b24d
+ms.openlocfilehash: cc6b4a4838e7a275b1ef3a45e54c4b894a04b9c2
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "97757562"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583344"
 ---
 # <a name="what-is-a-hologram"></a>Что такое голограмма?
 
@@ -33,7 +33,7 @@ HoloLens позволяет создавать **голограммы**, пре�
     </colgroup>
     <tr>
         <td><strong>Возможность</strong></td>
-        <td><a href="../hololens-hardware-details.md"><strong>HoloLens (1-го поколения)</strong></a></td>
+        <td><a href="/hololens/hololens1-hardware"><strong>HoloLens (1-го поколения)</strong></a></td>
         <td><a href="https://docs.microsoft.com/hololens/hololens2-hardware"><strong>HoloLens 2</strong></td>
         <td><a href="../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
     </tr>
@@ -126,8 +126,7 @@ HoloLens позволяет создавать **голограммы**, пре�
 
 ## <a name="next-discovery-checkpoint"></a>Следующий этап
 
-Если вы следуете изложенному нами [плану обучения](get-started-with-mr.md), сейчас вы находитесь в середине своего пути знакомства с основами смешанной реальности. Отсюда можно перейти к следующему разделу: 
+Если вы следуете изложенному нами [плану обучения](get-started-with-mr.md), сейчас вы находитесь в середине своего пути знакомства с основами смешанной реальности. Отсюда вы можете перейти к следующей основной теме: 
 
 > [!div class="nextstepaction"]
 > [Расширение процесса разработки](case-study-expanding-the-design-process-for-mixed-reality.md)
-

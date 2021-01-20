@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 08/03/2020
 ms.topic: article
 keywords: лбе, MixedRealitySpatialDataPackager.exe, Микседреалитиспатиалдатапаккажер
-ms.openlocfilehash: df6757730c8a5448d96811bfe4ce024f6942dc07
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: 93d598a6add8350850faadab241b254e9cb341aa
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91692693"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583648"
 ---
 # <a name="mixed-reality-spatial-data-packager-documentation"></a>Документация по диспетчеру пространственных данных в смешанной реальности
 
@@ -23,7 +23,7 @@ ms.locfileid: "91692693"
 > Это средство и его операция предлагаются "как есть". Он может быть изменен без уведомления и не должен быть совместим с будущими выпусками Windows или Windows Mixed Reality ХМД. 
 
 
-## <a name="download"></a>Скачивание
+## <a name="download"></a>Скачать
  Скачайте [микседреалитиспатиалдатапаккажер здесь](https://download.microsoft.com/download/A/1/2/A12B8A90-B3F7-4ED9-A4BB-D59DDCDAA125/MixedRealitySpatialDataPackager.zip)
 
 ## <a name="device-support"></a>Поддержка устройств
@@ -37,7 +37,7 @@ ms.locfileid: "91692693"
     </colgroup>
     <tr>
         <td><strong>Возможность</strong></td>
-        <td><a href="../hololens-hardware-details.md"><strong>HoloLens (1-го поколения)</strong></a></td>
+        <td><a href="/hololens/hololens1-hardware"><strong>HoloLens (1-го поколения)</strong></a></td>
         <td><a href="https://docs.microsoft.com/hololens/hololens2-hardware"><strong>HoloLens 2</strong></td>
         <td><a href="../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
     </tr>
@@ -71,8 +71,7 @@ ms.locfileid: "91692693"
 4. Сократите пустое число поверхностей, например, поместите диапазон различных плакатов на белые стены.
 5. Сопоставьте пространство без динамических объектов в сцене, например перемещение людей
 6. Блокировать карту при импорте (доступно через предварительную версию Insider)
-7. Разблокируйте карту и повторно просканируйте среду при отслеживании качества и/или изменении в среде (освещение или изменения в макете объекта).
-***
+7. Разблокируйте карту и повторно просканируйте среду при отслеживании качества и/или изменении в среде (освещение или изменения в макете объекта) * * _
 
 ## <a name="running-mixed-reality-spatial-data-packager-with-companion-script"></a>Запуск упаковщика пространственных данных Mixed Reality с сопутствующим скриптом
 
@@ -154,7 +153,7 @@ MixedRealitySpatialDataPackager.exe import <folderpath to mapx files> <target pa
 Импорт удаляет существующие пространственные данные и заменяет их данными из указанного каталога. Во входных данных имени приложения указывается имя пакета целевого приложения, которое, например, должны импортироваться пространственные привязки, а идентификатор безопасности целевого пользователя указывает пользователя, который должен иметь доступ к импортированным пространственным привязкам. Имя семейства целевого пакета и идентификаторы безопасности пользователя должны соответствовать существующим значениям на компьютере, иначе исполняемый файл будет невозможен.
 
 
-***
+_**
 ## <a name="error-messages"></a>сообщения об ошибках
 Кроме того, сообщения об ошибках, приведенные ниже, также будут сопровождаться значением HRESULT.
 

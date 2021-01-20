@@ -6,12 +6,12 @@ ms.author: thmignon
 ms.date: 07/12/2018
 ms.topic: article
 keywords: 3D, Эмблема, значок, моделирование, средство запуска, трехмерное средство запуска, плитка, динамический куб, глубокая ссылка, секондаритиле, вторичная плитка, UWP, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, XML, ограничивающий прямоугольник, Unity
-ms.openlocfilehash: 40a68d0835ec8fb92d6417650700f41e8a31aab6
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 7a0b73a0b3638c1aa2c9cbffacd548fb461589ea
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009684"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98582975"
 ---
 # <a name="implement-3d-app-launchers-uwp-apps"></a>Реализация средств запуска трехмерных приложений (приложения UWP)
 
@@ -118,7 +118,7 @@ ms.locfileid: "98009684"
 >[!IMPORTANT]
 >Трехмерные глубокие ссылки (secondaryTiles) работают только с 2D-приложениями UWP. Однако можно создать [средство запуска для 3D-приложения](implementing-3d-app-launchers.md) , чтобы запустить эксклюзивное приложение из домашней страницы Windows Mixed Reality.
 
-Вы можете улучшить приложения для Windows Mixed Reality, добавив возможность размещения трехмерных моделей из приложения на [домашней странице Windows Mixed Reality](../discover/navigating-the-windows-mixed-reality-home.md) в качестве глубоких ссылок на содержимое в двухмерном приложении, так же, как [2D-вторичные плитки](https://docs.microsoft.com/windows/uwp/controls-and-patterns/tiles-and-notifications-secondary-tiles) в меню "Пуск" Windows. Например, можно создать 360 °, которые непосредственно связываются с приложением 360 ° Photo Viewer, или позволить пользователям размещать трехмерное содержимое из коллекции ресурсов, открывающей страницу сведений об авторе. Это всего лишь два способа расширить функциональные возможности 2D-приложения с помощью трехмерного содержимого.
+Вы можете улучшить приложения для Windows Mixed Reality, добавив возможность размещения трехмерных моделей из приложения на [домашней странице Windows Mixed Reality](../discover/navigating-the-windows-mixed-reality-home.md) в качестве глубоких ссылок на содержимое в двухмерном приложении, так же, как [2D-вторичные плитки](/windows/uwp/controls-and-patterns/tiles-and-notifications-secondary-tiles) в меню "Пуск" Windows. Например, можно создать 360 °, которые непосредственно связываются с приложением 360 ° Photo Viewer, или позволить пользователям размещать трехмерное содержимое из коллекции ресурсов, открывающей страницу сведений об авторе. Это всего лишь два способа расширить функциональные возможности 2D-приложения с помощью трехмерного содержимого.
 
 ### <a name="creating-a-3d-secondarytile"></a>Создание трехмерного "Секондаритиле"
 
@@ -191,7 +191,7 @@ if (!tile.VisualElements.MixedRealityModel.Uri.Equals(updatedUri))
 
 ### <a name="checking-that-the-user-is-in-windows-mixed-reality"></a>Проверка того, что пользователь находится в Windows Mixed Reality
 
-Трехмерные ссылки (secondaryTiles) можно создавать только тогда, когда представление отображается на гарнитуре Windows Mixed Reality. Если представление не представлено на гарнитуре Windows Mixed Reality, рекомендуется правильно его обработать, либо скрыть точку входа, либо Показать сообщение об ошибке. Это можно проверить, выполнив запрос к [искуррентвиевпресентедонхолографик ()](https://docs.microsoft.com/uwp/api/windows.applicationmodel.preview.holographic.holographicapplicationpreview#Windows_ApplicationModel_Preview_Holographic_HolographicApplicationPreview_IsCurrentViewPresentedOnHolographicDisplay_).
+Трехмерные ссылки (secondaryTiles) можно создавать только тогда, когда представление отображается на гарнитуре Windows Mixed Reality. Если представление не представлено на гарнитуре Windows Mixed Reality, рекомендуется правильно его обработать, либо скрыть точку входа, либо Показать сообщение об ошибке. Это можно проверить, выполнив запрос к [искуррентвиевпресентедонхолографик ()](/uwp/api/windows.applicationmodel.preview.holographic.holographicapplicationpreview#Windows_ApplicationModel_Preview_Holographic_HolographicApplicationPreview_IsCurrentViewPresentedOnHolographicDisplay_).
 
 ## <a name="tile-notifications"></a>Уведомления на плитках
 
@@ -201,7 +201,7 @@ if (!tile.VisualElements.MixedRealityModel.Uri.Equals(updatedUri))
 * Периодическое опрос
 * Запланированные уведомления
 
-Дополнительные сведения о функциях и атрибутах других плиток, а также о том, как они используются для двумерных плиток, см. в [документации по плитке для приложений UWP](https://docs.microsoft.com/windows/uwp/controls-and-patterns/tiles-and-notifications-creating-tiles).
+Дополнительные сведения о функциях и атрибутах других плиток, а также о том, как они используются для двумерных плиток, см. в [документации по плитке для приложений UWP](/windows/uwp/controls-and-patterns/tiles-and-notifications-creating-tiles).
 
 ## <a name="see-also"></a>См. также раздел
 

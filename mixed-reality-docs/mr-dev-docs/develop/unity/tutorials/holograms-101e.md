@@ -6,12 +6,12 @@ ms.author: kurtie
 ms.date: 10/22/2019
 ms.topic: article
 keywords: Смешанная реальность, Windows Mixed Reality, голограмма, Academy, учебник, эмулятор, HoloLens, Academy Mixed Reality, Unity, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, Windows 10, Взгляните, жесты, ввод голоса, Пространственный звук, пространственное сопоставление
-ms.openlocfilehash: 3499011b8c91168bf27522e5f6f287b14295283e
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: afe62dbc3385b41d08011bf7893672272f25485b
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94678313"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583693"
 ---
 # <a name="mr-basics-101e-complete-project-with-emulator"></a>101E. Основы смешанной реальности: полный проект с использованием эмулятора
 
@@ -28,15 +28,15 @@ ms.locfileid: "94678313"
 
 <table>
 <tr>
-<th>Курс</th><th style="width:150px"> <a href="../../../hololens-hardware-details.md">HoloLens</a></th><th style="width:150px"> <a href="../../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></th>
+<th>Курс</th><th style="width:150px"> <a href="/hololens/hololens1-hardware">HoloLens</a></th><th style="width:150px"> <a href="../../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></th>
 </tr><tr>
 <td>101E. Основы смешанной реальности: полный проект с использованием эмулятора</td><td style="text-align: center;"> ✔️</td><td style="text-align: center;"> </td>
 </tr>
 </table>
 
-## <a name="before-you-start"></a>Перед началом работы
+## <a name="before-you-start"></a>Прежде чем начать
 
-### <a name="prerequisites"></a>Предварительные требования
+### <a name="prerequisites"></a>Предварительные условия
 
 * КОМПЬЮТЕР с Windows 10, на котором [установлены правильные средства](../../install-the-tools.md).
 
@@ -57,7 +57,7 @@ ms.locfileid: "94678313"
 
 В этой главе мы создадим наш первый проект Unity и пошаговым процессом сборки и развертывания.
 
-### <a name="objectives"></a>Цели
+### <a name="objectives"></a>Задачи
 
 * Настройка Unity для разработки с Holographic.
 * Создайте голограмму.
@@ -66,7 +66,7 @@ ms.locfileid: "94678313"
 ### <a name="instructions"></a>Инструкции
 
 * Запустите Unity.
-* Щелкните **Open**(Открыть).
+* Выберите **Open** (Открыть).
 * Введите Location в качестве папки **Origami** , которая была отменена для архивации.
 * Выберите **Origami** и щелкните **выбрать папку**.
 * Сохраните новую сцену: **файл**  /  **сохранить сцену как**.
@@ -124,7 +124,7 @@ ms.locfileid: "94678313"
 
 В этой главе мы будем познакомиться с первым из трех способов взаимодействия с голограммами — [Взгляните](../../../design/gaze-and-commit.md).
 
-### <a name="objectives"></a>Цели
+### <a name="objectives"></a>Задачи
 
 * Визуализируйте взгляд с помощью курсора, заблокированного по всему миру.
 
@@ -200,7 +200,7 @@ public class WorldCursor : MonoBehaviour
 
 В этой главе мы добавим поддержку [жестов](../../../design/gaze-and-commit.md#composite-gestures). Когда пользователь выбирает бумажную сферу, мы сделаем сферу, включив для нее функцию "сила притяжения" с помощью системы обработки физических модулей Unity.
 
-### <a name="objectives"></a>Цели
+### <a name="objectives"></a>Задачи
 
 * Контролируйте голограммы с помощью жеста выбора.
 
@@ -311,7 +311,7 @@ public class SphereCommands : MonoBehaviour
 
 В этой главе мы добавим поддержку двух [голосовых команд](../../../design/voice-input.md): "сбросить мир", чтобы вернуть удаленные шарик к их исходному расположению и "удалить шар", чтобы сделать сферу.
 
-### <a name="objectives"></a>Цели
+### <a name="objectives"></a>Задачи
 
 * Добавление речевых команд, которые всегда прослушиваются в фоновом режиме.
 * Создайте голограмму, которая реагирует на голосовую команду.
@@ -434,7 +434,7 @@ public class SphereCommands : MonoBehaviour
 
 В этой главе мы добавим музыку в приложение, а затем активируем звуковые эффекты для определенных действий. Мы будем использовать [Пространственный звук](../../../design/spatial-sound.md) , чтобы дать звуковое сопровождение определенному месту в трехмерном пространстве.
 
-### <a name="objectives"></a>Цели
+### <a name="objectives"></a>Задачи
 
 * Прослушайте голограммы в своем мире.
 
@@ -543,7 +543,7 @@ public class SphereSounds : MonoBehaviour
 
 Теперь мы будем использовать [пространственное сопоставление](../../../design/spatial-mapping.md) , чтобы поместить игровую доску на реальный объект в реальном мире.
 
-### <a name="objectives"></a>Цели
+### <a name="objectives"></a>Задачи
 
 * Приведите реальный мир к виртуальному миру.
 * Размещайте голограммы, где это важно.
@@ -638,7 +638,7 @@ public class TapToPlaceParent : MonoBehaviour
 
 Теперь вы готовы приступить к созданию собственных приложений holographic!
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 * [101. Основы смешанной реальности: полный проект с использованием устройства](holograms-101.md)
 * [Взгляд](../../../design/gaze-and-commit.md)

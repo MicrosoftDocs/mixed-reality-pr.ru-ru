@@ -6,12 +6,12 @@ ms.author: shentan
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Windows Mixed Reality, стиль, дизайн, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, масштабирование, голограммы
-ms.openlocfilehash: 6711a58fb4dde2aa28272c3003e642c4f4d3e236
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: 12b1c96146f76274831c9bc3427cef93bb326f70
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97848276"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583315"
 ---
 # <a name="scale"></a>Масштабирование
 
@@ -81,6 +81,6 @@ ms.locfileid: "97848276"
 ---
 
 ## <a name="see-also"></a>См. также раздел
-* [Цвет, свет и материалы](../color,-light-and-materials.md)
+* [Цвет, свет и материалы](./color-light-and-materials.md)
 * [Оформление текста](typography.md)
 * [Проектирование пространственного звука](spatial-sound-design.md)

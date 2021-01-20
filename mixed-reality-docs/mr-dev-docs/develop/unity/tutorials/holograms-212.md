@@ -6,17 +6,17 @@ ms.author: kurtie
 ms.date: 10/22/2019
 ms.topic: article
 keywords: холотулкит, микседреалититулкит, микседреалититулкит-Unity, Academy, руководство, речь, HoloLens, Academy Mixed Reality, Unity, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, Windows 10
-ms.openlocfilehash: b9d9002180da7a59c62b77b83872e77499da4c09
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 6fb3e10cb440fdda941a6d68b106da1bbaaedbc9
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94677243"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583688"
 ---
 # <a name="mr-input-212-voice"></a>212. Ввод в смешанной реальности: голосовые команды
 
 >[!NOTE]
->Руководства Mixed Reality Academy были разработаны для иммерсивных гарнитур HoloLens (1-го поколения) и иммерсивных гарнитур Mixed Reality.  Поэтому мы считаем, что важно оставить эти руководства для разработчиков, которые ищут рекомендации по разработке для этих устройств.  Данные руководства **_не_** будут обновляться с учетом последних наборов инструментов или возможностей взаимодействия для HoloLens 2.  Они будут сохранены для работы на поддерживаемых устройствах. Опубликован [новый цикл руководств](../../../mr-learning-base-01.md) для HoloLens 2.
+>Руководства Mixed Reality Academy были разработаны для иммерсивных гарнитур HoloLens (1-го поколения) и иммерсивных гарнитур Mixed Reality.  Поэтому мы считаем, что важно оставить эти руководства для разработчиков, которые ищут рекомендации по разработке для этих устройств.  Данные руководства **_не_** будут обновляться с учетом последних наборов инструментов или возможностей взаимодействия для HoloLens 2.  Они будут сохранены для работы на поддерживаемых устройствах. Опубликован [новый цикл руководств](./mr-learning-base-01.md) для HoloLens 2.
 
 [Ввод голоса](../../../design/voice-input.md) дает нам еще один способ взаимодействия с нашими голограммами. Речевые команды работают очень естественным образом. Разработайте свои речевые команды, чтобы они были:
 
@@ -45,15 +45,15 @@ ms.locfileid: "94677243"
 
 <table>
 <tr>
-<th>Курс</th><th style="width:150px"> <a href="../../../hololens-hardware-details.md">HoloLens</a></th><th style="width:150px"> <a href="../../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></th>
+<th>Курс</th><th style="width:150px"> <a href="/hololens/hololens1-hardware">HoloLens</a></th><th style="width:150px"> <a href="../../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></th>
 </tr><tr>
 <td>212. Ввод в смешанной реальности: голосовые команды</td><td style="text-align: center;"> ✔️</td><td style="text-align: center;"> ✔️</td>
 </tr>
 </table>
 
-## <a name="before-you-start"></a>Перед началом работы
+## <a name="before-you-start"></a>Прежде чем начать
 
-### <a name="prerequisites"></a>Предварительные требования
+### <a name="prerequisites"></a>Предварительные условия
 
 * КОМПЬЮТЕР с Windows 10, на котором [установлены правильные средства](../../../develop/install-the-tools.md).
 * Некоторые основные возможности программирования на C#.
@@ -79,7 +79,7 @@ ms.locfileid: "94677243"
 ### <a name="instructions"></a>Инструкции
 
 1. Запустите Unity.
-2. Щелкните **Open**(Открыть).
+2. Выберите **Open** (Открыть).
 3. Перейдите в папку **холографикакадеми-голограмм-212-Voice** , которая была отменена в архиве.
 4. Найдите и выберите **начальную** / папку **обозревателя моделей** .
 5. Нажмите кнопку **выбрать папку** .
@@ -124,7 +124,7 @@ ms.locfileid: "94677243"
 
 >[!VIDEO https://www.youtube.com/embed/fDwijJWuEc0]
 
-### <a name="objectives"></a>Цели
+### <a name="objectives"></a>Задачи
 
 * Узнайте об отделах **и Ототказах** от дизайна речевых команд.
 * Используйте **кэйвордрекогнизер** для добавления речевых команд на основе взгляда.
@@ -180,7 +180,7 @@ ms.locfileid: "94677243"
 
 >[!VIDEO https://www.youtube.com/embed/87ViteoPpyU]
 
-### <a name="objectives"></a>Цели
+### <a name="objectives"></a>Задачи
 
 * Запишите сообщение, используя ввод с микрофона.
 * Отправьте отзыв пользователю о том, что приложение ожидает передачи голоса.
@@ -228,7 +228,7 @@ MessageUIRenderer.gameObject.SetActive(false);
 
 >[!VIDEO https://www.youtube.com/embed/TIMddr-HqEU]
 
-### <a name="objectives"></a>Цели
+### <a name="objectives"></a>Задачи
 
 * Используйте распознаватель диктофона для преобразования речи пользователя в текст.
 * Отображение гипотетического и окончательного результатов распознавателя диктовки в Communicator.
@@ -259,7 +259,7 @@ MessageUIRenderer.gameObject.SetActive(false);
 5. После нажатия **кнопки "прерывать"** или истечения времени ожидания в сеансе MIC следует **Отключить диктатионрекогнизер**.
 6. Перезапустите **кэйвордрекогнизер**, который будет прослушивать команду **отправки сообщения** .
 
-Давайте начнем. Выполните все упражнения кода для 3. a в **MicrophoneManager.CS** или скопируйте и вставьте готовый код ниже:
+Итак, начнем. Выполните все упражнения кода для 3. a в **MicrophoneManager.CS** или скопируйте и вставьте готовый код ниже:
 
 ```cs
 // Copyright (c) Microsoft Corporation. All rights reserved.
@@ -464,7 +464,7 @@ namespace Academy
 
 >[!VIDEO https://www.youtube.com/embed/J2dYJNSvv18]
 
-### <a name="objectives"></a>Цели
+### <a name="objectives"></a>Задачи
 
 * Используйте распознаватель грамматики для распознавания речи пользователя в соответствии с уточнением или спецификацией распознавания речи, файлом.
 

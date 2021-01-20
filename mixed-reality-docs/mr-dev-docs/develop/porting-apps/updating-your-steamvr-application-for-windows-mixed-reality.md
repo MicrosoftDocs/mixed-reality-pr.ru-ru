@@ -6,12 +6,12 @@ ms.author: thmignon
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Стеамвр, совместимость, перенос, однопотребительский общий Gen, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, миграция, Windows 10, Steam, контроллеры движения, хаптикс
-ms.openlocfilehash: c67eed489f626c804583592e496fcfaff5d8c291
-ms.sourcegitcommit: a1bb77f729ee2e0b3dbd1c2c837bb7614ba7b9bd
+ms.openlocfilehash: b6d92d558218f71af0e8c7693f64a50a44524c63
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98192632"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583822"
 ---
 # <a name="updating-steamvr-apps-for-windows-mixed-reality"></a>Обновление приложений SteamVR для Windows Mixed Reality
 
@@ -19,7 +19,7 @@ ms.locfileid: "98192632"
 
 ## <a name="initial-setup-instructions"></a>Инструкции по начальной настройке
 
-Чтобы начать тестирование игры или приложения в Windows Mixed Reality, обязательно ознакомьтесь с нашим [руководством по началу работы.](https://aka.ms/WindowsMixedRealitySteamVR)
+Чтобы начать тестирование игры или приложения в Windows Mixed Reality, обязательно ознакомьтесь с нашим [руководством по началу работы.](/windows/mixed-reality/enthusiast-guide/using-steamvr-with-windows-mixed-reality)
 
 ## <a name="controller-models"></a>Модели контроллеров
 
@@ -48,7 +48,7 @@ ms.locfileid: "98192632"
 
 ## <a name="haptics"></a>хаптикс
 
-Начиная с [обновления Windows 10 от апреля 2018](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/release-notes-april-2018)г., хаптикс теперь поддерживаются для стеамврных возможностей Windows Mixed Reality. Если ваше приложение или игра Стеамвр уже включает поддержку хаптикс, теперь она должна работать (без дополнительной работы) с [контроллерами движения Windows Mixed Reality](../../design/motion-controllers.md).
+Начиная с [обновления Windows 10 от апреля 2018](/windows/mixed-reality/enthusiast-guide/release-notes-april-2018)г., хаптикс теперь поддерживаются для стеамврных возможностей Windows Mixed Reality. Если ваше приложение или игра Стеамвр уже включает поддержку хаптикс, теперь она должна работать (без дополнительной работы) с [контроллерами движения Windows Mixed Reality](../../design/motion-controllers.md).
 
 Контроллеры движения Windows Mixed Reality используют стандартный мотор хаптикс, в отличие от линейных исполнителей, находящихся в некоторых других Стеамвр контроллерах Motion. Это может привести к слегка отличающимся впечатлениям от ожидаемого взаимодействия с пользователем. Поэтому мы рекомендуем тестировать и настраивать дизайн хаптикс с помощью контроллеров движения Windows Mixed Reality. Например, иногда короткие хаптик пульса (5-10 мс) менее заметны на контроллерах движения Windows Mixed Reality. Чтобы получить более заметный импульс, поэкспериментируйте с отправкой более длительного "щелчка" (40-70 мс), чтобы придать мотору больше времени, прежде чем отключать его.
 
@@ -62,16 +62,16 @@ ms.locfileid: "98192632"
 
 ## <a name="bugs-and-feedback"></a>Ошибки и отзывы
 
-Ваш отзыв не будет ценным, когда дело доходит до улучшения возможностей Стеамвр Windows Mixed Reality. Отправка всех отзывов и ошибок через [центр обратной связи Windows](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/filing-feedback). Ниже приведены некоторые [советы о том, как сделать отзыв стеамвр как можно более удобным](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/using-steamvr-with-windows-mixed-reality#sharing-feedback-on-steamvr).
+Ваш отзыв не будет ценным, когда дело доходит до улучшения возможностей Стеамвр Windows Mixed Reality. Отправка всех отзывов и ошибок через [центр обратной связи Windows](/windows/mixed-reality/enthusiast-guide/filing-feedback). Ниже приведены некоторые [советы о том, как сделать отзыв стеамвр как можно более удобным](/windows/mixed-reality/enthusiast-guide/using-steamvr-with-windows-mixed-reality#sharing-feedback-on-steamvr).
 
 Если у вас есть вопросы или комментарии для совместного использования, вы также можете связаться с нами на нашем [форуме Steam](https://steamcommunity.com/app/719950/discussions/).
 
 ## <a name="faqs-and-troubleshooting"></a>Часто задаваемые вопросы и устранение неполадок
 
-Если у вас возникли общие проблемы с настройкой или воспроизведением опыта, [Ознакомьтесь с последними действиями по устранению неполадок](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/troubleshooting-windows-mixed-reality#steamvr).
+Если у вас возникли общие проблемы с настройкой или воспроизведением опыта, [Ознакомьтесь с последними действиями по устранению неполадок](/windows/mixed-reality/enthusiast-guide/troubleshooting-windows-mixed-reality#steamvr).
 
 ## <a name="see-also"></a>См. также статью
 
 * [Установка средств](../install-the-tools.md)
-* [Журнал драйверов контроллера гарнитуры и движения](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/mixed-reality-software)
-* [Минимальные рекомендации по совместимости Windows Mixed Reality с оборудованием ПК](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines)
+* [Журнал драйверов контроллера гарнитуры и движения](/windows/mixed-reality/enthusiast-guide/mixed-reality-software)
+* [Минимальные рекомендации по совместимости Windows Mixed Reality с оборудованием ПК](/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines)

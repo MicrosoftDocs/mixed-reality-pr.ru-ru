@@ -6,12 +6,12 @@ ms.author: flbagar
 ms.date: 12/01/2020
 ms.topic: article
 keywords: HoloLens, удаленное взаимодействие, holographic удаленное взаимодействие, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, безопасность, аутентификация, сервер-клиент
-ms.openlocfilehash: 0881238bfca199958802598a3e1829a9de0d8e5b
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 6b8c26bfa32661a180f1f58acc5c4aa13529f3bb
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98006484"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583847"
 ---
 # <a name="enabling-connection-security-for-holographic-remoting"></a>Включение безопасности подключения для удаленного взаимодействия holographic
 
@@ -97,7 +97,7 @@ Holographic удаленное взаимодействие обменивает
 * Клиент отправляет этот токен серверу с помощью удаленного взаимодействия с Holographic.
 * Сервер проверяет маркер клиента на соответствие поставщику удостоверений.
 
-Одним из примеров поставщика удостоверений является [платформа Microsoft Identity](https://docs.microsoft.com/azure/active-directory/develop/).
+Одним из примеров поставщика удостоверений является [платформа Microsoft Identity](/azure/active-directory/develop/).
 
 Как и в предыдущем варианте использования, убедитесь, что эти маркеры не отправляются через небезопасные каналы или не предоставляются иным образом.
 
@@ -115,7 +115,7 @@ Holographic удаленное взаимодействие обменивает
 Все интерфейсы имеют функцию, запрашивающую выполнение действия, которая получает объект обратного вызова в качестве параметра. С помощью этого объекта можно легко реализовать асинхронную обработку запроса. Сохраним ссылку на этот объект и вызовите функцию завершения после завершения асинхронного действия. Функцию завершения можно вызвать из любого потока.
 
 >[!TIP]
->Реализация интерфейсов WinRT может быть легко выполнена с помощью C++/Винрт. Подробные сведения см. в разделе [API-интерфейсы автора с C++/WinRT](https://docs.microsoft.com//windows/uwp/cpp-and-winrt-apis/author-apis) .
+>Реализация интерфейсов WinRT может быть легко выполнена с помощью C++/Винрт. Подробные сведения см. в разделе [API-интерфейсы автора с C++/WinRT](//windows/uwp/cpp-and-winrt-apis/author-apis) .
 
 >[!IMPORTANT]
 >В `build\native\include\HolographicAppRemoting\Microsoft.Holographic.AppRemoting.idl` пакете NuGet содержится подробная документация по API, связанному с защищенными соединениями.
@@ -193,5 +193,5 @@ Holographic удаленное взаимодействие обменивает
 * [Создание удаленного приложения holographic с удаленным взаимодействием с помощью API-интерфейсов Опенкср](holographic-remoting-create-remote-openxr.md)
 * [Создание пользовательского проигрывателя для голографического удаленного взаимодействия](holographic-remoting-create-player.md)
 * [Устранение неполадок и ограничения удаленного взаимодействия с holographic](holographic-remoting-troubleshooting.md)
-* [Условия лицензии на использование ПО для голографического удаленного взаимодействия](https://docs.microsoft.com//legal/mixed-reality/microsoft-holographic-remoting-software-license-terms)
-* [Заявление Майкрософт о конфиденциальности](https://go.microsoft.com/fwlink/?LinkId=521839)
+* [Условия лицензии на использование ПО для голографического удаленного взаимодействия](//legal/mixed-reality/microsoft-holographic-remoting-software-license-terms)
+* [Заявление о конфиденциальности Майкрософт](https://go.microsoft.com/fwlink/?LinkId=521839)

@@ -6,19 +6,19 @@ ms.author: jacksonf
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Совместное использование, привязка, Ворлданчор, MR совместное использование 250, Ворлданчортрансфербатч, Спатиалперцептион, перемещение, перенос локальной привязки, экспорт привязки, импорт привязки
-ms.openlocfilehash: 1048e6a3cfc41a04cd49e201e5d1841e805a4193
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 4949dd49817d723729974fb5666d5defb64b72ba
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009644"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583875"
 ---
 # <a name="local-anchor-transfers-in-unity"></a>Передача локальных привязок в Unity
 
-В ситуациях, когда нельзя использовать <a href="https://docs.microsoft.com/azure/spatial-anchors" target="_blank">Пространственные привязки Azure</a>, передача локальных точек подключения позволяет одному устройству hololens экспортировать привязку, которая будет импортирована вторым устройством hololens.
+В ситуациях, когда нельзя использовать <a href="/azure/spatial-anchors" target="_blank">Пространственные привязки Azure</a>, передача локальных точек подключения позволяет одному устройству hololens экспортировать привязку, которая будет импортирована вторым устройством hololens.
 
 >[!NOTE]
->Передача локальных привязок обеспечивает менее устойчивое отзыв, чем <a href="https://docs.microsoft.com/azure/spatial-anchors" target="_blank">Пространственные привязки Azure</a>, а устройства iOS и Android не поддерживаются этим подходом.
+>Передача локальных привязок обеспечивает менее устойчивое отзыв, чем <a href="/azure/spatial-anchors" target="_blank">Пространственные привязки Azure</a>, а устройства iOS и Android не поддерживаются этим подходом.
 
 ### <a name="setting-the-spatialperception-capability"></a>Настройка возможности Спатиалперцептион
 
@@ -138,4 +138,3 @@ private void OnImportComplete(SerializationCompletionReason completionReason, Wo
 ```
 
 После того как *GameObject* блокируется через вызов *lockobject* , он будет иметь *ворлданчор* , который сохранит его в той же физической позиции в мире, но может находиться в другом месте в пространстве координат Unity, чем другие пользователи.
-

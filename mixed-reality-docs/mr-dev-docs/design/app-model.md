@@ -6,16 +6,16 @@ ms.author: alexturn
 ms.date: 03/21/2018
 ms.topic: article
 keywords: UWP, модель приложений, жизненный цикл, приостановка, возобновление, плитка, представления, контракты, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: 00d9d5329e4c93030692d727c645de1eefbdb72d
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: 941c0f3f81596e8465157121462b4150cefd8ac2
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97848113"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583211"
 ---
 # <a name="app-model"></a>Модель приложения
 
-В Windows Mixed Reality используется модель приложения, предоставляемая [универсальная платформа Windows](https://docs.microsoft.com/windows/uwp/get-started/) (UWP), которая является моделью и средой для современных приложений Windows. Модель приложения UWP определяет, как полностью устанавливаются, обновляются, изменяются версии и удаляются приложения. Кроме того, он управляет жизненным циклом приложения, выполнением, спящим и остановкой приложений, а также их сохранением состояния. Наконец, модель приложения охватывает интеграцию и взаимодействие с операционной системой, файлами и другими приложениями.
+В Windows Mixed Reality используется модель приложения, предоставляемая [универсальная платформа Windows](/windows/uwp/get-started/) (UWP), которая является моделью и средой для современных приложений Windows. Модель приложения UWP определяет, как полностью устанавливаются, обновляются, изменяются версии и удаляются приложения. Кроме того, он управляет жизненным циклом приложения, выполнением, спящим и остановкой приложений, а также их сохранением состояния. Наконец, модель приложения охватывает интеграцию и взаимодействие с операционной системой, файлами и другими приложениями.
 
 ![Двумерные приложения, расположенные на домашней странице Windows Mixed Reality в за завтраком области](images/20160112-055908-hololens-500px.jpg)<br>
 *Приложения с плоским представлением, расположенным на домашней странице Windows Mixed Reality*
@@ -26,12 +26,12 @@ ms.locfileid: "97848113"
 
 ### <a name="placement-is-launch"></a>Размещение — запуск
 
-Каждое приложение запускается в смешанной реальности путем размещения плитки приложения (только [вторичная плитка Windows](https://docs.microsoft.com/uwp/api/Windows.UI.StartScreen.SecondaryTile)) на [домашней странице Windows Mixed Reality](../discover/navigating-the-windows-mixed-reality-home.md). На этих плитках приложений при размещении будет запущено выполнение приложения. Эти плитки приложений сохраняются и остаются в размещенном расположении, действуя как запуски в любое время, когда требуется вернуться к приложению.
+Каждое приложение запускается в смешанной реальности путем размещения плитки приложения (только [вторичная плитка Windows](/uwp/api/Windows.UI.StartScreen.SecondaryTile)) на [домашней странице Windows Mixed Reality](../discover/navigating-the-windows-mixed-reality-home.md). На этих плитках приложений при размещении будет запущено выполнение приложения. Эти плитки приложений сохраняются и остаются в размещенном расположении, действуя как запуски в любое время, когда требуется вернуться к приложению.
 
 ![Размещение помещает вспомогательную плитку в мир](images/slide1-600px.png)<br>
 *Размещение помещает вспомогательную плитку в мир*
 
-Как только размещение завершается (если размещение не было запущено приложением при запуске [приложения](app-model.md#protocols) ), запускается запуск приложения. Windows Mixed Reality может одновременно запускать ограниченное количество приложений. После размещения и запуска приложения другие активные приложения могут приостановить работу. Приостановленные приложения оставляют снимок экрана последнего состояния приложения на плитке приложения везде, где вы поместили его. Дополнительные сведения об обработке возобновления и других событий жизненного цикла см. в статье [жизненный цикл приложений UWP в Windows 10](https://docs.microsoft.com/windows/uwp/launch-resume/app-lifecycle).
+Как только размещение завершается (если размещение не было запущено приложением при запуске [приложения](app-model.md#protocols) ), запускается запуск приложения. Windows Mixed Reality может одновременно запускать ограниченное количество приложений. После размещения и запуска приложения другие активные приложения могут приостановить работу. Приостановленные приложения оставляют снимок экрана последнего состояния приложения на плитке приложения везде, где вы поместили его. Дополнительные сведения об обработке возобновления и других событий жизненного цикла см. в статье [жизненный цикл приложений UWP в Windows 10](/windows/uwp/launch-resume/app-lifecycle).
 
 ![После размещения плитки приложение запускает ](images/slide2-500px.png) ![ схему состояния "запущено", "приостановлено" или "не запущено"](images/ic576232-500px.png)<br>
 *Left: после размещения плитки приложение начинает работать. Справа: Схема состояний для приложения работает, приостановлена или не запущена.*
@@ -42,18 +42,18 @@ ms.locfileid: "97848113"
 
 ### <a name="app-suspensiontermination"></a>Приостановка и завершение работы приложения
 
-На [домашней странице Windows Mixed Reality](../discover/navigating-the-windows-mixed-reality-home.md)пользователь может создать несколько точек входа для приложения, запустив приложение из меню Пуск и поместив плитку приложения в мир. Каждая плитка приложения ведет себя как другая точка входа и имеет отдельный экземпляр плитки в системе. Запрос для [секондаритиле. финдалласинк](https://docs.microsoft.com/uwp/api/Windows.UI.StartScreen.SecondaryTile#Windows_UI_StartScreen_SecondaryTile_FindAllAsync) приведет к созданию **секондаритиле** для каждого экземпляра приложения.
+На [домашней странице Windows Mixed Reality](../discover/navigating-the-windows-mixed-reality-home.md)пользователь может создать несколько точек входа для приложения, запустив приложение из меню Пуск и поместив плитку приложения в мир. Каждая плитка приложения ведет себя как другая точка входа и имеет отдельный экземпляр плитки в системе. Запрос для [секондаритиле. финдалласинк](/uwp/api/Windows.UI.StartScreen.SecondaryTile#Windows_UI_StartScreen_SecondaryTile_FindAllAsync) приведет к созданию **секондаритиле** для каждого экземпляра приложения.
 
 При приостановке приложения UWP из текущего состояния берется снимок экрана.
 
 ![Отображаются снимки экрана для приостановленных приложений](images/slide9-800px.png)<br>
 *Отображаются снимки экрана для приостановленных приложений*
 
-Одним из ключевых отличий от других оболочек Windows 10 является то, как приложение сообщает об активации экземпляра приложения через события [CoreApplication. возобновляет](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.Core.CoreApplication#Windows_ApplicationModel_Core_CoreApplication_Resuming) работу и [CoreWindow. Activated](https://docs.microsoft.com/uwp/api/windows.ui.core.corewindow#Windows_UI_Core_CoreWindow_Activated) .
+Одним из ключевых отличий от других оболочек Windows 10 является то, как приложение сообщает об активации экземпляра приложения через события [CoreApplication. возобновляет](/uwp/api/Windows.ApplicationModel.Core.CoreApplication#Windows_ApplicationModel_Core_CoreApplication_Resuming) работу и [CoreWindow. Activated](/uwp/api/windows.ui.core.corewindow#Windows_UI_Core_CoreWindow_Activated) .
 
 |  Сценарий |  Возобновление  |  Активировано | 
 |----------|----------|----------|
-|  Запуск нового экземпляра приложения из меню "Пуск"  |   |  **Активировано** с помощью нового [тилеид](https://docs.microsoft.com/uwp/api/windows.ui.startscreen.secondarytile#Windows_UI_StartScreen_SecondaryTile_TileId) | 
+|  Запуск нового экземпляра приложения из меню "Пуск"  |   |  **Активировано** с помощью нового [тилеид](/uwp/api/windows.ui.startscreen.secondarytile#Windows_UI_StartScreen_SecondaryTile_TileId) | 
 |  Запуск второго экземпляра приложения из меню "Пуск"  |   |  **Активировано** с помощью нового **тилеид** | 
 |  Выберите экземпляр приложения, который сейчас не активен  |   |  **Активируется** с **тилеид** , связанным с экземпляром | 
 |  Выберите другое приложение, а затем выберите ранее активный экземпляр  |  **Возобновление** вызвано  |  | 
@@ -61,14 +61,14 @@ ms.locfileid: "97848113"
 
 ### <a name="extended-execution"></a>Расширенное выполнение
 
-Иногда приложению необходимо продолжить работу в фоновом или воспроизводимом аудио. [Фоновые задачи](https://docs.microsoft.com/windows/uwp/launch-resume/declare-background-tasks-in-the-application-manifest) доступны в HoloLens.
+Иногда приложению необходимо продолжить работу в фоновом или воспроизводимом аудио. [Фоновые задачи](/windows/uwp/launch-resume/declare-background-tasks-in-the-application-manifest) доступны в HoloLens.
 
 ![Приложения могут выполняться в фоновом режиме](images/slide10-800px.png)<br>
 *Приложения могут выполняться в фоновом режиме*
 
 ## <a name="app-views"></a>Представления приложения
 
-После активации приложения можно выбрать тип представления, которое вы хотите отобразить. Для **CoreApplication** приложения всегда существует основное [представление приложения](https://docs.microsoft.com/uwp/api/Windows.UI.ViewManagement.ApplicationView) и любое количество дополнительных представлений приложений, которые вы хотите создать. На рабочем столе представление приложения можно представить как окно. Шаблоны приложений смешанной реальности создают проект Unity, в котором основное представление приложения является [иммерсивное](app-views.md). 
+После активации приложения можно выбрать тип представления, которое вы хотите отобразить. Для **CoreApplication** приложения всегда существует основное [представление приложения](/uwp/api/Windows.UI.ViewManagement.ApplicationView) и любое количество дополнительных представлений приложений, которые вы хотите создать. На рабочем столе представление приложения можно представить как окно. Шаблоны приложений смешанной реальности создают проект Unity, в котором основное представление приложения является [иммерсивное](app-views.md). 
 
 Приложение может создать дополнительное представление 2D-приложения с помощью таких технологий, как XAML, для использования таких функций Windows 10, как покупка в приложении. Если приложение запущено как приложение UWP для других устройств Windows 10, основное представление — 2D. Однако в смешанной реальности вы можете «легко», добавив другое представление приложения, которое покажет волуметрикалли. Представьте себе создание приложения для просмотра фотографий на языке XAML, в котором кнопка "показ слайдов" переключена на представление иммерсивного приложения, флев фотографии из приложения по всему миру и на поверхностях.
 
@@ -77,7 +77,7 @@ ms.locfileid: "97848113"
 
 ### <a name="creating-an-immersive-view"></a>Создание иммерсивного представления
 
-Приложения смешанной реальности создают иммерсивное представление, которое достигается с помощью типа [холографикспаце](https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicspace) .
+Приложения смешанной реальности создают иммерсивное представление, которое достигается с помощью типа [холографикспаце](/uwp/api/windows.graphics.holographic.holographicspace) .
 
 Приложение, которое является исключительно увлекательным, должно всегда создавать иммерсивное представление при запуске, даже если оно запускается с рабочего стола. Иммерсивное представление всегда отображается в гарнитуре, независимо от того, где они были созданы. При активации иммерсивного представления отобразится портал Mixed Reality и пошаговое указание пользователя на его гарнитуру.
 
@@ -97,7 +97,7 @@ ms.locfileid: "97848113"
 
 ### <a name="placement-of-additional-app-tiles"></a>Размещение плиток дополнительных приложений
 
-С помощью [вспомогательных API плиток](https://docs.microsoft.com/windows/uwp/design/shell/tiles-and-notifications/secondary-tiles)можно разместить любое количество приложений с плоским представлением в мире. Эти закрепленные плитки отображаются в виде экранов-заставок, которые пользователи должны располагать, а затем могут использоваться для запуска приложения. В настоящее время Windows Mixed Reality не поддерживает отрисовку содержимого 2D мозаики в виде динамических плиток.
+С помощью [вспомогательных API плиток](/windows/uwp/design/shell/tiles-and-notifications/secondary-tiles)можно разместить любое количество приложений с плоским представлением в мире. Эти закрепленные плитки отображаются в виде экранов-заставок, которые пользователи должны располагать, а затем могут использоваться для запуска приложения. В настоящее время Windows Mixed Reality не поддерживает отрисовку содержимого 2D мозаики в виде динамических плиток.
 
 ![Приложения могут иметь несколько размещений с помощью дополнительных плиток](images/slide6-800px.png)<br>
 *Приложения могут иметь несколько размещений с помощью дополнительных плиток*
@@ -106,13 +106,13 @@ ms.locfileid: "97848113"
 
 #### <a name="switching-from-the-2d-xaml-view-to-the-immersive-view"></a>Переключение из 2D-представления XAML в иммерсивное представление
 
-Если приложение использует XAML, [IFRAMEWORKVIEWSOURCE](https://docs.microsoft.com/uwp/api/windows.applicationmodel.core.iframeworkviewsource) XAML будет управлять первым представлением приложения. Приложению потребуется перейти в иммерсивное представление перед активацией **CoreWindow**, чтобы приложение запускалось непосредственно в режиме погружения.
+Если приложение использует XAML, [IFRAMEWORKVIEWSOURCE](/uwp/api/windows.applicationmodel.core.iframeworkviewsource) XAML будет управлять первым представлением приложения. Приложению потребуется перейти в иммерсивное представление перед активацией **CoreWindow**, чтобы приложение запускалось непосредственно в режиме погружения.
 
-Используйте [CoreApplication. креатеневвиев](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.Core.CoreApplication#Windows_ApplicationModel_Core_CoreApplication_CreateNewView_Windows_ApplicationModel_Core_IFrameworkViewSource_) и [аппликатионвиевсвитчер. свитчасинк](https://docs.microsoft.com/uwp/api/Windows.UI.ViewManagement.ApplicationViewSwitcher#Windows_UI_ViewManagement_ApplicationViewSwitcher_SwitchAsync_System_Int32_) , чтобы сделать его активным представлением.
+Используйте [CoreApplication. креатеневвиев](/uwp/api/Windows.ApplicationModel.Core.CoreApplication#Windows_ApplicationModel_Core_CoreApplication_CreateNewView_Windows_ApplicationModel_Core_IFrameworkViewSource_) и [аппликатионвиевсвитчер. свитчасинк](/uwp/api/Windows.UI.ViewManagement.ApplicationViewSwitcher#Windows_UI_ViewManagement_ApplicationViewSwitcher_SwitchAsync_System_Int32_) , чтобы сделать его активным представлением.
 
 > [!NOTE]
->* Не указывайте флаг [аппликатионвиевсвитчингоптионс. консолидатевиевс](https://docs.microsoft.com/uwp/api/windows.ui.viewmanagement.applicationviewswitchingoptions) для **свитчасинк** при переключении из представления XAML в иммерсивное представление, или планшет, в котором было запущено приложение, будет удален из мира.
->* **Свитчасинк** следует вызывать с помощью [диспетчера](https://docs.microsoft.com/uwp/api/windows.ui.core.corewindow#Windows_UI_Core_CoreWindow_Dispatcher) , связанного с представлением, в которое вы переключаете.
+>* Не указывайте флаг [аппликатионвиевсвитчингоптионс. консолидатевиевс](/uwp/api/windows.ui.viewmanagement.applicationviewswitchingoptions) для **свитчасинк** при переключении из представления XAML в иммерсивное представление, или планшет, в котором было запущено приложение, будет удален из мира.
+>* **Свитчасинк** следует вызывать с помощью [диспетчера](/uwp/api/windows.ui.core.corewindow#Windows_UI_Core_CoreWindow_Dispatcher) , связанного с представлением, в которое вы переключаете.
 >* Если необходимо запустить виртуальную клавиатуру или активировать другое приложение, необходимо будет **свитчасинк** обратно в представление XAML.
 
 ![Приложения могут переключаться между 2D-представлениями и иммерсивного представлениями ](images/slide7-600px.png) ![ , когда приложение переходит в иммерсивное представление, смешанный мир и другие приложения исчезают](images/slide8-600px.png)<br>
@@ -149,19 +149,19 @@ ms.locfileid: "97848113"
 
 ### <a name="protocols"></a>Протоколы
 
-HoloLens поддерживает запуск приложений с помощью [Windows.SysTEM. API-интерфейсы средства запуска](https://docs.microsoft.com/uwp/api/Windows.System.Launcher).
+HoloLens поддерживает запуск приложений с помощью [Windows.SysTEM. API-интерфейсы средства запуска](/uwp/api/Windows.System.Launcher).
 
 При запуске другого приложения необходимо учитывать некоторые моменты.
 
-* При выполнении не модального запуска, например [лаунчуриасинк](https://docs.microsoft.com/uwp/api/Windows.System.Launcher#Windows_System_Launcher_LaunchUriAsync_Windows_Foundation_Uri_), пользователь должен поместить приложение перед взаимодействием с ним.
+* При выполнении не модального запуска, например [лаунчуриасинк](/uwp/api/Windows.System.Launcher#Windows_System_Launcher_LaunchUriAsync_Windows_Foundation_Uri_), пользователь должен поместить приложение перед взаимодействием с ним.
 
-* При выполнении модального запуска, например с помощью [лаунчурифорресултсасинк](https://docs.microsoft.com/uwp/api/Windows.System.Launcher#Windows_System_Launcher_LaunchUriForResultsAsync_Windows_Foundation_Uri_Windows_System_LauncherOptions_Windows_Foundation_Collections_ValueSet_), модальное приложение помещается поверх окна.
+* При выполнении модального запуска, например с помощью [лаунчурифорресултсасинк](/uwp/api/Windows.System.Launcher#Windows_System_Launcher_LaunchUriForResultsAsync_Windows_Foundation_Uri_Windows_System_LauncherOptions_Windows_Foundation_Collections_ValueSet_), модальное приложение помещается поверх окна.
 
 * Windows Mixed Reality не может накладывать приложения поверх монопольных представлений. Чтобы показать запущенное приложение, Windows переводит пользователя в мир для отображения приложения.
 
 ### <a name="file-pickers"></a>Выбор файлов
 
-HoloLens поддерживает контракты [филеопенпиккер](https://docs.microsoft.com/uwp/api/Windows.Storage.Pickers.FileOpenPicker) и [филесавепиккер](https://docs.microsoft.com/uwp/api/Windows.Storage.Pickers.FileSavePicker) . Однако приложение не устанавливается заранее, выполняющее контракты средства выбора файлов. Такие приложения, например OneDrive, можно установить из Microsoft Store.
+HoloLens поддерживает контракты [филеопенпиккер](/uwp/api/Windows.Storage.Pickers.FileOpenPicker) и [филесавепиккер](/uwp/api/Windows.Storage.Pickers.FileSavePicker) . Однако приложение не устанавливается заранее, выполняющее контракты средства выбора файлов. Такие приложения, например OneDrive, можно установить из Microsoft Store.
 
 Если установлено несколько приложений для выбора файлов, Пользовательский интерфейс устранения неоднозначности для выбора запускаемого приложения не отображается. Вместо этого будет выбрано первое установленное средство выбора файлов. При сохранении файла создается имя файла, включающее метку времени. Пользователь не может его изменить.
 
@@ -170,7 +170,7 @@ HoloLens поддерживает контракты [филеопенпикке
 |  Приложение  |  Расширения | 
 |----------|----------|
 |  Фотографии  |  BMP, GIF, JPG, PNG, AVI, MOV, MP4, WMV | 
-|  Microsoft Edge;  |  htm, HTML, PDF, SVG, XML | 
+|  Microsoft Edge  |  htm, HTML, PDF, SVG, XML | 
 
 ### <a name="app-contracts-and-windows-mixed-reality-extensions"></a>Контракты приложений и расширения Windows Mixed Reality
 
@@ -178,79 +178,79 @@ HoloLens поддерживает контракты [филеопенпикке
 
 |  Контракт или расширение  |  Поддержка | 
 |----------|----------|
-| [Поставщик аватара учетной записи (расширение)](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#account_picture_provider) | Не поддерживается | 
-| [Сигнал](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#alarm) | Не поддерживается | 
-| [Службы приложений](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#app_service) | Поддерживается, но не полностью функциональным | 
-| [Поставщик встреч](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#appointmnets_provider) | Не поддерживается | 
-| [Автозапуск (расширение)](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#autoplay) | Не поддерживается | 
-| [Фоновые задачи (расширение)](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#background_tasts) | Частично поддерживается (не все триггеры) | 
-| [Задача обновления (расширение)](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#update_task) | Поддерживается | 
-| [Контракт обновления кэшированных файлов](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#cached_file_updater) | Поддерживается | 
-| [Параметры камеры (расширение)](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#camera_settings) | Не поддерживается | 
-| [Протокол набора](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#dial_protocol) | Не поддерживается | 
-| [Активация файла (расширение)](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#file_activation) | Поддерживается | 
-| [Контракт средства выбора файлов для открытия](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#file_open_picker_contract) | Поддерживается | 
-| [Контракт средства выбора файлов для сохранения](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#file_save_picker_contract) | Поддерживается | 
-| [Вызов экрана блокировки](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#lock_screen_call) | Не поддерживается | 
-| [Воспроизведение мультимедиа](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#media_playback) | Не поддерживается | 
-| [Воспроизвести по контракту](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#playto_contract) | Не поддерживается | 
-| [Задача предварительно установленной конфигурации](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#preinstalled_config_task) | Не поддерживается | 
-| [Объемный рабочий процесс печати](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#print_3d_workflow) | Поддерживается | 
-| [Параметры задачи печати (расширение)](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#print_task_settings) | Не поддерживается | 
-| [Активация URI (расширение)](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#protocol_activation) | Поддерживается | 
-| [Ограниченный запуск](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#restricted_launch) | Не поддерживается | 
-| [Поиск по контракту](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#search_contract) | Не поддерживается | 
-| [Контракт параметров](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#settings_contract) | Не поддерживается | 
-| [Поделиться контрактом](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#share_contract) | Не поддерживается | 
-| [SSL/сертификаты (расширение)](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#ssl_certificates) | Поддерживается | 
-| [Поставщик учетных записей веб-служб](https://msdn.microsoft.com/library/windows/desktop/hh464906.aspx#web_account_provider) | Поддерживается | 
+| [Поставщик аватара учетной записи (расширение)](/previous-versions/windows/apps/hh464906(v=win.10)#account_picture_provider) | Не поддерживается | 
+| [Сигнал](/previous-versions/windows/apps/hh464906(v=win.10)#alarm) | Не поддерживается | 
+| [Службы приложений](/previous-versions/windows/apps/hh464906(v=win.10)#app_service) | Поддерживается, но не полностью функциональным | 
+| [Поставщик встреч](/previous-versions/windows/apps/hh464906(v=win.10)#appointmnets_provider) | Не поддерживается | 
+| [Автозапуск (расширение)](/previous-versions/windows/apps/hh464906(v=win.10)#autoplay) | Не поддерживается | 
+| [Фоновые задачи (расширение)](/previous-versions/windows/apps/hh464906(v=win.10)#background_tasts) | Частично поддерживается (не все триггеры) | 
+| [Задача обновления (расширение)](/previous-versions/windows/apps/hh464906(v=win.10)#update_task) | Поддерживается | 
+| [Контракт обновления кэшированных файлов](/previous-versions/windows/apps/hh464906(v=win.10)#cached_file_updater) | Поддерживается | 
+| [Параметры камеры (расширение)](/previous-versions/windows/apps/hh464906(v=win.10)#camera_settings) | Не поддерживается | 
+| [Протокол набора](/previous-versions/windows/apps/hh464906(v=win.10)#dial_protocol) | Не поддерживается | 
+| [Активация файла (расширение)](/previous-versions/windows/apps/hh464906(v=win.10)#file_activation) | Поддерживается | 
+| [Контракт средства выбора файлов для открытия](/previous-versions/windows/apps/hh464906(v=win.10)#file_open_picker_contract) | Поддерживается | 
+| [Контракт средства выбора файлов для сохранения](/previous-versions/windows/apps/hh464906(v=win.10)#file_save_picker_contract) | Поддерживается | 
+| [Вызов экрана блокировки](/previous-versions/windows/apps/hh464906(v=win.10)#lock_screen_call) | Не поддерживается | 
+| [Воспроизведение мультимедиа](/previous-versions/windows/apps/hh464906(v=win.10)#media_playback) | Не поддерживается | 
+| [Воспроизвести по контракту](/previous-versions/windows/apps/hh464906(v=win.10)#playto_contract) | Не поддерживается | 
+| [Задача предварительно установленной конфигурации](/previous-versions/windows/apps/hh464906(v=win.10)#preinstalled_config_task) | Не поддерживается | 
+| [Объемный рабочий процесс печати](/previous-versions/windows/apps/hh464906(v=win.10)#print_3d_workflow) | Поддерживается | 
+| [Параметры задачи печати (расширение)](/previous-versions/windows/apps/hh464906(v=win.10)#print_task_settings) | Не поддерживается | 
+| [Активация URI (расширение)](/previous-versions/windows/apps/hh464906(v=win.10)#protocol_activation) | Поддерживается | 
+| [Ограниченный запуск](/previous-versions/windows/apps/hh464906(v=win.10)#restricted_launch) | Не поддерживается | 
+| [Поиск по контракту](/previous-versions/windows/apps/hh464906(v=win.10)#search_contract) | Не поддерживается | 
+| [Контракт параметров](/previous-versions/windows/apps/hh464906(v=win.10)#settings_contract) | Не поддерживается | 
+| [Поделиться контрактом](/previous-versions/windows/apps/hh464906(v=win.10)#share_contract) | Не поддерживается | 
+| [SSL/сертификаты (расширение)](/previous-versions/windows/apps/hh464906(v=win.10)#ssl_certificates) | Поддерживается | 
+| [Поставщик учетных записей веб-служб](/previous-versions/windows/apps/hh464906(v=win.10)#web_account_provider) | Поддерживается | 
 
 ## <a name="app-file-storage"></a>Хранилище файлов приложений
 
-Все хранилище осуществляется через [пространство имен Windows. Storage](https://docs.microsoft.com/uwp/api/Windows.Storage). HoloLens не поддерживает синхронизацию и роуминг хранилища приложений. Дополнительные сведения см. в следующей документации:
+Все хранилище осуществляется через [пространство имен Windows. Storage](/uwp/api/Windows.Storage). HoloLens не поддерживает синхронизацию и роуминг хранилища приложений. Дополнительные сведения см. в следующей документации:
 
-* [Файлы, папки и библиотеки](https://docs.microsoft.com/windows/uwp/files/index)
-* [Хранение и извлечение параметров и прочих данных приложения](https://docs.microsoft.com/windows/uwp/design/app-settings/store-and-retrieve-app-data)
+* [Файлы, папки и библиотеки](/windows/uwp/files/index)
+* [Хранение и извлечение параметров и прочих данных приложения](/windows/uwp/design/app-settings/store-and-retrieve-app-data)
 
 ### <a name="known-folders"></a>Известные папки
 
-Полные сведения о приложениях UWP см. в разделе [кновнфолдерс](https://docs.microsoft.com/uwp/api/Windows.Storage.KnownFolders) .
+Полные сведения о приложениях UWP см. в разделе [кновнфолдерс](/uwp/api/Windows.Storage.KnownFolders) .
 
 <table>
 <tr>
 <th> Свойство</th><th> Поддерживается в HoloLens</th><th> Поддерживается на впечатляющих гарнитурах</th><th> Описание</th>
 </tr><tr>
-<td><a href="https://docs.microsoft.com/uwp/api/Windows.Storage.KnownFolders#Windows_Storage_KnownFolders_AppCaptures">аппкаптурес</a></td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td><td>Возвращает папку "записи приложения".</td>
+<td><a href="/uwp/api/Windows.Storage.KnownFolders#Windows_Storage_KnownFolders_AppCaptures">аппкаптурес</a></td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td><td>Возвращает папку "записи приложения".</td>
 </tr><tr>
-<td><a href="https://docs.microsoft.com/uwp/api/Windows.Storage.KnownFolders#Windows_Storage_KnownFolders_CameraRoll">камераролл</a></td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td><td>Возвращает папку рулона камеры.</td>
+<td><a href="/uwp/api/Windows.Storage.KnownFolders#Windows_Storage_KnownFolders_CameraRoll">камераролл</a></td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td><td>Возвращает папку рулона камеры.</td>
 </tr><tr>
-<td><a href="https://docs.microsoft.com/uwp/api/Windows.Storage.KnownFolders#Windows_Storage_KnownFolders_DocumentsLibrary">документслибрари</a></td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td><td>Возвращает библиотеку документов. Библиотека документов не предназначена для общего использования.</td>
+<td><a href="/uwp/api/Windows.Storage.KnownFolders#Windows_Storage_KnownFolders_DocumentsLibrary">документслибрари</a></td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td><td>Возвращает библиотеку документов. Библиотека документов не предназначена для общего использования.</td>
 </tr><tr>
-<td><a href="https://docs.microsoft.com/uwp/api/Windows.Storage.KnownFolders#Windows_Storage_KnownFolders_MusicLibrary">мусиклибрари</a></td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td><td>Возвращает музыкальную библиотеку.</td>
+<td><a href="/uwp/api/Windows.Storage.KnownFolders#Windows_Storage_KnownFolders_MusicLibrary">мусиклибрари</a></td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td><td>Возвращает музыкальную библиотеку.</td>
 </tr><tr>
-<td><a href="https://docs.microsoft.com/uwp/api/Windows.Storage.KnownFolders#Windows_Storage_KnownFolders_Objects3D">Objects3D</a></td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td><td>Возвращает объемные папки объектов.</td>
+<td><a href="/uwp/api/Windows.Storage.KnownFolders#Windows_Storage_KnownFolders_Objects3D">Objects3D</a></td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td><td>Возвращает объемные папки объектов.</td>
 </tr><tr>
-<td><a href="https://docs.microsoft.com/uwp/api/Windows.Storage.KnownFolders#Windows_Storage_KnownFolders_PicturesLibrary">пиктуреслибрари</a></td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td><td>Возвращает библиотеку изображений.</td>
+<td><a href="/uwp/api/Windows.Storage.KnownFolders#Windows_Storage_KnownFolders_PicturesLibrary">пиктуреслибрари</a></td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td><td>Возвращает библиотеку изображений.</td>
 </tr><tr>
-<td><a href="https://docs.microsoft.com/uwp/api/Windows.Storage.KnownFolders#Windows_Storage_KnownFolders_Playlists">Списки воспроизведения</a></td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td><td>Возвращает папку "списки воспроизведения".</td>
+<td><a href="/uwp/api/Windows.Storage.KnownFolders#Windows_Storage_KnownFolders_Playlists">Списки воспроизведения</a></td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td><td>Возвращает папку "списки воспроизведения".</td>
 </tr><tr>
-<td><a href="https://docs.microsoft.com/uwp/api/Windows.Storage.KnownFolders#Windows_Storage_KnownFolders_SavedPictures">саведпиктурес</a></td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td><td>Возвращает папку сохраненных изображений.</td>
+<td><a href="/uwp/api/Windows.Storage.KnownFolders#Windows_Storage_KnownFolders_SavedPictures">саведпиктурес</a></td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td><td>Возвращает папку сохраненных изображений.</td>
 </tr><tr>
-<td><a href="https://docs.microsoft.com/uwp/api/Windows.Storage.KnownFolders#Windows_Storage_KnownFolders_VideosLibrary">видеослибрари</a></td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td><td>Возвращает библиотеку видео.</td>
+<td><a href="/uwp/api/Windows.Storage.KnownFolders#Windows_Storage_KnownFolders_VideosLibrary">видеослибрари</a></td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td><td>Возвращает библиотеку видео.</td>
 </tr><tr>
-<td><a href="https://docs.microsoft.com/uwp/api/Windows.Storage.KnownFolders#Windows_Storage_KnownFolders_HomeGroup">Домашняя группа</a></td><td></td><td style="text-align: center;">✔️</td><td>Возвращает папку домашней группы.</td>
+<td><a href="/uwp/api/Windows.Storage.KnownFolders#Windows_Storage_KnownFolders_HomeGroup">Домашняя группа</a></td><td></td><td style="text-align: center;">✔️</td><td>Возвращает папку домашней группы.</td>
 </tr><tr>
-<td><a href="https://docs.microsoft.com/uwp/api/Windows.Storage.KnownFolders#Windows_Storage_KnownFolders_MediaServerDevices">медиасервердевицес</a></td><td></td><td style="text-align: center;">✔️</td><td>Возвращает папку для устройств Media Server (Digital живая Network Alliance (DLNA)).</td>
+<td><a href="/uwp/api/Windows.Storage.KnownFolders#Windows_Storage_KnownFolders_MediaServerDevices">медиасервердевицес</a></td><td></td><td style="text-align: center;">✔️</td><td>Возвращает папку для устройств Media Server (Digital живая Network Alliance (DLNA)).</td>
 </tr><tr>
-<td><a href="https://docs.microsoft.com/uwp/api/Windows.Storage.KnownFolders#Windows_Storage_KnownFolders_RecordedCalls">рекордедкаллс</a></td><td></td><td style="text-align: center;">✔️</td><td>Возвращает папку записанных вызовов.</td>
+<td><a href="/uwp/api/Windows.Storage.KnownFolders#Windows_Storage_KnownFolders_RecordedCalls">рекордедкаллс</a></td><td></td><td style="text-align: center;">✔️</td><td>Возвращает папку записанных вызовов.</td>
 </tr><tr>
-<td><a href="https://docs.microsoft.com/uwp/api/Windows.Storage.KnownFolders#Windows_Storage_KnownFolders_RemovableDevices">RemovableDevices</a></td><td></td><td style="text-align: center;">✔️</td><td>Возвращает папку "съемные устройства".</td>
+<td><a href="/uwp/api/Windows.Storage.KnownFolders#Windows_Storage_KnownFolders_RemovableDevices">RemovableDevices</a></td><td></td><td style="text-align: center;">✔️</td><td>Возвращает папку "съемные устройства".</td>
 </tr>
 </table>
 
 ## <a name="app-package"></a>Пакет приложения
 
-В Windows 10 вы больше не нацелены на операционную систему, но вместо этого [нацеливанием приложение на одно или несколько семейств устройств](https://docs.microsoft.com/windows/uwp/get-started/universal-application-platform-guide#device-families). Семейство устройств определяет API-интерфейсы, характеристики системы и поведение, ожидаемые на устройствах внутри семейства. Он также определяет набор устройств, на которых можно установить приложение из [Microsoft Store](../distribute/submitting-an-app-to-the-microsoft-store.md#specifying-target-device-families).
+В Windows 10 вы больше не нацелены на операционную систему, но вместо этого [нацеливанием приложение на одно или несколько семейств устройств](/windows/uwp/get-started/universal-application-platform-guide#device-families). Семейство устройств определяет API-интерфейсы, характеристики системы и поведение, ожидаемые на устройствах внутри семейства. Он также определяет набор устройств, на которых можно установить приложение из [Microsoft Store](../distribute/submitting-an-app-to-the-microsoft-store.md#specifying-target-device-families).
 
 * Чтобы выбрать гарнитуры рабочего стола и HoloLens, нацеливание на приложение в **Windows. Универсальное** семейство устройств.
 * Чтобы выбрать только гарнитуры рабочего стола, нацеливание на ваше приложение на семейство устройств **Windows. Desktop** .

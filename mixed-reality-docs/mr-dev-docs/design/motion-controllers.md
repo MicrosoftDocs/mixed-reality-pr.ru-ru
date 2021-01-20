@@ -6,12 +6,12 @@ ms.author: wguyman
 ms.date: 03/21/2018
 ms.topic: article
 keywords: 6DOF контроллеры, контроллеры движения, связывание, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, прокрутка, захват, состояние
-ms.openlocfilehash: 94a9292b3a765131ae197fd9f91c27a52a463eef
-ms.sourcegitcommit: a1bb77f729ee2e0b3dbd1c2c837bb7614ba7b9bd
+ms.openlocfilehash: 367c9d9e0179c82af05af3fded9341ff7960d19e
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98192622"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583662"
 ---
 # <a name="motion-controllers"></a>Контроллеры движений
 
@@ -41,7 +41,7 @@ ms.locfileid: "98192622"
 </colgroup>
 <tr>
      <td><strong>Возможность</strong></td>
-     <td><a href="../hololens-hardware-details.md"><strong>HoloLens (1-го поколения)</strong></a></td>
+     <td><a href="/hololens/hololens1-hardware"><strong>HoloLens (1-го поколения)</strong></a></td>
      <td><a href="https://docs.microsoft.com/hololens/hololens2-hardware"><strong>HoloLens 2</strong></td>
      <td><a href="../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
 </tr>
@@ -80,14 +80,14 @@ ms.locfileid: "98192622"
 
 **Проверка обновлений для Windows, Unity и драйверов**
 * Посетите страницу [Установка инструментов](../develop/install-the-tools.md) для предпочтительных версий Windows, Unity и т. д. для разработки в смешанной реальности.
-* Убедитесь, что у вас есть самые последние [драйверы гарнитуры и контроллера движения](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/mixed-reality-software).
+* Убедитесь, что у вас есть самые последние [драйверы гарнитуры и контроллера движения](/windows/mixed-reality/enthusiast-guide/mixed-reality-software).
 
 ### <a name="pairing-controllers"></a>Связывание контроллеров
 
 Контроллеры движения можно привязывать к основному компьютеру с помощью параметров Windows, таких как любое другое устройство Bluetooth.
 
 1. Вставьте две батареи AA в заднюю часть контроллера. Пока не закрывайтеся батарея.
-2. Если вы используете внешний USB-адаптер Bluetooth, а не встроенный радиомодуль Bluetooth, ознакомьтесь с рекомендациями по [Bluetooth](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/troubleshooting-windows-mixed-reality#bluetooth-best-practices) , прежде чем продолжать. Для конфигурации рабочего стола с встроенным радио убедитесь, что антенна подключена.
+2. Если вы используете внешний USB-адаптер Bluetooth, а не встроенный радиомодуль Bluetooth, ознакомьтесь с рекомендациями по [Bluetooth](/windows/mixed-reality/enthusiast-guide/troubleshooting-windows-mixed-reality#bluetooth-best-practices) , прежде чем продолжать. Для конфигурации рабочего стола с встроенным радио убедитесь, что антенна подключена.
 3. Открыть **Параметры Windows**  ->  **устройства**  ->  **Добавить Bluetooth или другое устройство**  ->  **Bluetooth** и удалить все более ранние экземпляры "контроллер движения — справа" и "контроллер движения — слева". Проверьте также категорию Другие устройства в нижней части списка.
 4. Выберите **Добавить Bluetooth или другое устройство** и посмотрите, как начать обнаружение устройств Bluetooth.
 5. Нажмите и удерживайте кнопку Windows контроллера, чтобы включить контроллер, выпустив его после посигнала.
@@ -142,7 +142,7 @@ ms.locfileid: "98192622"
 
 * Убедитесь, что контроллеры работают правильно:
     1. Запустите **портал смешанной реальности** и введите домашнюю страницу смешанной реальности.
-    2. Переместите контроллеры и проверьте отслеживание, проверка и работоспособность [телетранспорта](../discover/navigating-the-windows-mixed-reality-home.md#getting-around-your-home) . В противном случае ознакомьтесь с [устранением неполадок контроллера движения](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/troubleshooting-windows-mixed-reality#motion-controllers).
+    2. Переместите контроллеры и проверьте отслеживание, проверка и работоспособность [телетранспорта](../discover/navigating-the-windows-mixed-reality-home.md#getting-around-your-home) . В противном случае ознакомьтесь с [устранением неполадок контроллера движения](/windows/mixed-reality/enthusiast-guide/troubleshooting-windows-mixed-reality#motion-controllers).
 
 ## <a name="gazing-and-pointing"></a>Облаками и указание
 
@@ -257,7 +257,7 @@ Windows Mixed Reality поддерживает контроллеры движе
 
 ### <a name="how-do-i-update-motion-controller-firmware"></a>Разделы справки обновить встроенное по контроллера движения?
 
-Встроенное по контроллера движения является частью драйвера гарнитуры и будет автоматически обновлено при подключении при необходимости. Обновление встроенного по обычно занимает 1-2 минут в зависимости от радиосигнала Bluetooth и качества связи. В редких случаях обновление встроенного по контроллера может занять до 10 минут, что может указывать на плохое подключение Bluetooth или радиопомехи. Сведения об устранении проблем с подключением см. в статье рекомендации по [Bluetooth в статье о энтузиастах](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/troubleshooting-windows-mixed-reality#bluetooth-best-practices) . После обновления встроенного по контроллеры перезапускаются и подключаются к главному компьютеру (вы можете заметить, что индикаторы будут освещены для отслеживания). Если обновление встроенного по прервано (например, при потере питания контроллеров), будет предпринята попытка повторного выполнения в следующий раз, когда контроллеры будут включены.
+Встроенное по контроллера движения является частью драйвера гарнитуры и будет автоматически обновлено при подключении при необходимости. Обновление встроенного по обычно занимает 1-2 минут в зависимости от радиосигнала Bluetooth и качества связи. В редких случаях обновление встроенного по контроллера может занять до 10 минут, что может указывать на плохое подключение Bluetooth или радиопомехи. Сведения об устранении проблем с подключением см. в статье рекомендации по [Bluetooth в статье о энтузиастах](/windows/mixed-reality/enthusiast-guide/troubleshooting-windows-mixed-reality#bluetooth-best-practices) . После обновления встроенного по контроллеры перезапускаются и подключаются к главному компьютеру (вы можете заметить, что индикаторы будут освещены для отслеживания). Если обновление встроенного по прервано (например, при потере питания контроллеров), будет предпринята попытка повторного выполнения в следующий раз, когда контроллеры будут включены.
 
 ### <a name="how-i-can-check-battery-level"></a>Как можно проверить уровень заряда батареи?
 
@@ -269,17 +269,17 @@ Windows Mixed Reality поддерживает контроллеры движе
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 
-См. раздел [Устранение неполадок контроллера движения](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/troubleshooting-windows-mixed-reality#motion-controllers) в разделе Руководство по энтузиасту.
+См. раздел [Устранение неполадок контроллера движения](/windows/mixed-reality/enthusiast-guide/troubleshooting-windows-mixed-reality#motion-controllers) в разделе Руководство по энтузиасту.
 
 ## <a name="filing-motion-controller-feedbackbugs"></a>Архивация отзывов и ошибок контроллера движения
 
-[Отправьте нам отзыв](../give-us-feedback.md) в центре обратной связи, используя категорию "смешанная реальность — > вход".
+[Отправьте нам отзыв](/hololens/hololens-feedback) в центре обратной связи, используя категорию "смешанная реальность — > вход".
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 * [Контроллеры движения в Unity](../develop/unity/motion-controllers-in-unity.md)
 * [Контроллеры движения и жестов в DirectX](../develop/native/hands-and-motion-controllers-in-directx.md)
 * [Жесты](gaze-and-commit.md#composite-gestures)
-* [Руководство по энтузиасту: Домашняя страница Windows Mixed Reality](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/your-mixed-reality-home)
-* [Руководство по энтузиасту: использование игр & приложений в Windows Mixed Reality](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/using-games-and-apps-in-windows-mixed-reality)
-* [Как работает отслеживание Inside-out](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/tracking-system)
+* [Руководство по энтузиасту: Домашняя страница Windows Mixed Reality](/windows/mixed-reality/enthusiast-guide/your-mixed-reality-home)
+* [Руководство по энтузиасту: использование игр & приложений в Windows Mixed Reality](/windows/mixed-reality/enthusiast-guide/using-games-and-apps-in-windows-mixed-reality)
+* [Как работает отслеживание Inside-out](/windows/mixed-reality/enthusiast-guide/tracking-system)

@@ -6,23 +6,23 @@ ms.author: mazeller
 ms.date: 11/13/2020
 ms.topic: article
 keywords: Microsoft Store, HoloLens, впечатляющие головные телефоны, приложение, UWP, отправка, отправка, фильтры, метаданные, требования к системе, ключевые слова, wack, сертификация, упаковка, appx, товары, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, головной компьютер виртуальной реальности
-ms.openlocfilehash: 7b1953fe0244b06f019f0e28432b7f9be9c21081
-ms.sourcegitcommit: b13c517df19179ca281362a1f006914289c58ad4
+ms.openlocfilehash: 8597526d35aa7ac7afadec0dd33fd23ef82d668a
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98031981"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583886"
 ---
 # <a name="submitting-an-app-to-the-microsoft-store"></a>Отправка приложения в Microsoft Store
 
 > [!IMPORTANT]
 > Если вы отправляете нереальное приложение, обязательно следуйте **[инструкциям по публикации](../develop/unreal/unreal-publishing-to-store.md)** , прежде чем продолжить.
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Предварительные требования
 
-И [HoloLens](../hololens-hardware-details.md) , и ПК с Windows 10, постепенные использовать [иммерсивное головной телефон](../discover/immersive-headset-hardware-details.md) , универсальная платформа Windows приложения. При отправке приложения, поддерживающего HoloLens, PC или и того, и другого, отправка приложений осуществляется через [Центр партнеров](https://partner.microsoft.com/dashboard).
+И [HoloLens](/hololens/hololens1-hardware) , и ПК с Windows 10, постепенные использовать [иммерсивное головной телефон](../discover/immersive-headset-hardware-details.md) , универсальная платформа Windows приложения. При отправке приложения, поддерживающего HoloLens, PC или и того, и другого, отправка приложений осуществляется через [Центр партнеров](https://partner.microsoft.com/dashboard).
 
-Если у вас еще нет учетной записи разработчика центра партнеров, [зарегистрируйте](https://developer.microsoft.com/store/register) ее, прежде чем переходить к. Дополнительные сведения о рекомендациях и контрольных списках см. в этой [статье](https://docs.microsoft.com/windows/uwp/publish/app-submissions)о отправках приложений.
+Если у вас еще нет учетной записи разработчика центра партнеров, [зарегистрируйте](https://developer.microsoft.com/store/register) ее, прежде чем переходить к. Дополнительные сведения о рекомендациях и контрольных списках см. в этой [статье](/windows/uwp/publish/app-submissions)о отправках приложений.
 
 > [!IMPORTANT]
 > Вы не сможете отправлять какие-либо приложения на Microsoft Store, если учетная запись разработчика центра партнеров не прошла проверку. Для получения дополнительных сведений обратитесь в службу [поддержки](https://developer.microsoft.com/windows/support) центра партнеров.
@@ -42,13 +42,13 @@ ms.locfileid: "98031981"
 
 ### <a name="prepare-image-assets-included-in-the-appx"></a>Подготовка ресурсов изображений, включенных в appx
 
-Для создания приложения в пакете appx, которое требуется для отправки в Microsoft Store, требуются следующие ресурсы изображений. Дополнительные сведения о [рекомендациях для плиток и ресурсов значков см](https://msdn.microsoft.com/library/windows/apps/mt412102.aspx) . на сайте MSDN.
+Для создания приложения в пакете appx, которое требуется для отправки в Microsoft Store, требуются следующие ресурсы изображений. Дополнительные сведения о [рекомендациях для плиток и ресурсов значков см](/windows/uwp/app-resources/images-tailored-for-scale-theme-contrast) . на сайте MSDN.
 
 | Требуемый актив | Рекомендуемый масштаб | Формат образа | Где отображается ресурс? | 
 |----------|----------|----------|------------------|
-| Квадратный логотип 71x71 | Любой |  PNG | н/д | 
+| Квадратный логотип 71x71 | Любой |  PNG | Н/Д | 
 | Квадратный логотип 150x150 | 150x150 (100% Scale) или 225x225 (150% Scale) | PNG | Начальные ПИН-коды и все приложения (если 310x310 не предоставлены), варианты поиска магазинов, страница "список магазинов", "Обзор магазина", "Поиск магазина" | 
-|  Логотип широкой 310x150 |  Любой  |  PNG  |  н/д | 
+|  Логотип широкой 310x150 |  Любой  |  PNG  |  Н/Д | 
 |  Эмблема магазина |  75x75 (150% шкалы)  |  PNG  |  Центр партнеров, приложение отчетов, написание рецензии, моя библиотека | 
 |  Заставка |  930x450 (150% шкалы)  |  PNG  |  средство запуска 2D App (планшет) | 
 
@@ -75,7 +75,7 @@ ms.locfileid: "98031981"
 
 ### <a name="specifying-target-device-families"></a>Указание семейств целевых устройств
 
-Приложения Windows Mixed Reality (как для [HoloLens](../hololens-hardware-details.md) , так и для [впечатляющих головных телефонов](../discover/immersive-headset-hardware-details.md)) являются частью универсальная платформа Windows, поэтому любой пакет приложения с семейством устройств **Windows. универсальное** [целевое устройство](https://msdn.microsoft.com/library/windows/apps/dn986903.aspx) может работать на компьютерах HoloLens или Windows 10 с увлекательными гарнитурами. Если в манифесте приложения не указано целевое семейство устройств, вы можете непреднамеренно открыть приложение на случай, если вы не запланировали устройства с Windows 10. Выполните следующие действия, чтобы указать предполагаемое семейство устройств Windows 10, а затем [дважды проверьте, установлены ли правильные семейства устройств при отправке пакета приложения в центр партнеров для отправки Microsoft Store.](submitting-an-app-to-the-microsoft-store.md#submitting-your-mixed-reality-app-to-the-store)
+Приложения Windows Mixed Reality (как для [HoloLens](/hololens/hololens1-hardware) , так и для [впечатляющих головных телефонов](../discover/immersive-headset-hardware-details.md)) являются частью универсальная платформа Windows, поэтому любой пакет приложения с семейством устройств **Windows. универсальное** [целевое устройство](/uwp/schemas/appxpackage/uapmanifestschema/element-targetdevicefamily) может работать на компьютерах HoloLens или Windows 10 с увлекательными гарнитурами. Если в манифесте приложения не указано целевое семейство устройств, вы можете непреднамеренно открыть приложение на случай, если вы не запланировали устройства с Windows 10. Выполните следующие действия, чтобы указать предполагаемое семейство устройств Windows 10, а затем [дважды проверьте, установлены ли правильные семейства устройств при отправке пакета приложения в центр партнеров для отправки Microsoft Store.](submitting-an-app-to-the-microsoft-store.md#submitting-your-mixed-reality-app-to-the-store)
 
 * Чтобы задать это поле в Visual Studio, щелкните правой кнопкой мыши **пакет. appxmanifest** и выберите **Просмотреть код**, а затем найдите поле **имя TargetDeviceFamily** . По умолчанию он должен выглядеть, как в следующей записи:
 
@@ -118,7 +118,7 @@ ms.locfileid: "98031981"
 </Dependencies>
 ```
 
-Дополнительные сведения о нацеливании на семейства устройств можно получить, прочитав [документацию по TARGETDEVICEFAMILY UWP](https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-targetdevicefamily).
+Дополнительные сведения о нацеливании на семейства устройств можно получить, прочитав [документацию по TARGETDEVICEFAMILY UWP](/uwp/schemas/appxpackage/uapmanifestschema/element-targetdevicefamily).
 
 ### <a name="associate-app-with-the-store"></a>Связывание приложения с магазином
 
@@ -136,14 +136,14 @@ ms.locfileid: "98031981"
 
 ### <a name="creating-an-upload-package"></a>Создание пакета отправки
 
-Следуйте рекомендациям в [упаковке универсальных приложений Windows для Windows 10](https://msdn.microsoft.com/library/hh454036.aspx#Anchor_2).
+Следуйте рекомендациям в [упаковке универсальных приложений Windows для Windows 10](/previous-versions/windows/apps/hh454036(v=vs.140)#Anchor_2).
 
 Последний этап создания пакета отправки — проверка пакета с помощью [набора сертификации приложений Windows](#windows-app-certification-kit).
 
 Если вы добавляете пакет для HoloLens в существующий продукт, доступный в других семействах устройств Windows 10, обратите внимание на следующее: 
 
-* [Как номера версий могут повлиять на то, какие пакеты доставляются конкретным клиентам](https://msdn.microsoft.com/library/windows/apps/mt188602.aspx)
-* [Распределение пакетов между различными операционными системами](https://msdn.microsoft.com/library/windows/apps/mt188601.aspx)
+* [Как номера версий могут повлиять на то, какие пакеты доставляются конкретным клиентам](/windows/uwp/publish/package-version-numbering)
+* [Распределение пакетов между различными операционными системами](/windows/uwp/publish/guidance-for-app-package-management)
 
 Общее руководство заключается в том, что пакет с наибольшим номером версии для устройства является устройством, распространяемым магазином.
 
@@ -167,7 +167,7 @@ ms.locfileid: "98031981"
 
 ### <a name="windows-app-certification-kit"></a>Комплект сертификации приложений для Windows
 
-При создании пакетов приложений для отправки в центр партнеров с помощью Visual Studio мастер создания пакетов приложений предлагает запустить комплект сертификации приложений для Windows в соответствии с созданными пакетами. Чтобы процесс передачи данных в магазин был нечетким, рекомендуется убедиться, что локальная копия приложения передает [тесты комплекта сертификации приложений Windows](https://msdn.microsoft.com/library/windows/apps/jj657973.aspx) , прежде чем отправлять их в магазин. Запуск комплекта сертификации приложений для Windows на удаленном сервере HoloLens в настоящее время не поддерживается.
+При создании пакетов приложений для отправки в центр партнеров с помощью Visual Studio мастер создания пакетов приложений предлагает запустить комплект сертификации приложений для Windows в соответствии с созданными пакетами. Чтобы процесс передачи данных в магазин был нечетким, рекомендуется убедиться, что локальная копия приложения передает [тесты комплекта сертификации приложений Windows](/previous-versions/windows/apps/jj657973(v=win.10)) , прежде чем отправлять их в магазин. Запуск комплекта сертификации приложений для Windows на удаленном сервере HoloLens в настоящее время не поддерживается.
 
 ### <a name="run-on-all-targeted-device-families"></a>Запустить на всех целевых семействах устройств
 
@@ -177,19 +177,19 @@ ms.locfileid: "98031981"
 
 Если вы отправляете приложение Mixed Reality, основанное на проекте Unity, сначала ознакомьтесь с этим [видеороликом](https://channel9.msdn.com/Blogs/One-Dev-Minute/How-to-publish-your-Unity-game-as-a-UWP-app) .
 
-Как правило, отправка приложения Windows Mixed Reality, работающего на HoloLens или иммерсивное гарнитуры, аналогично отправке любого приложения UWP на Microsoft Store. Создав приложение, [сохранив его имя](https://docs.microsoft.com/windows/uwp/publish/create-your-app-by-reserving-a-name), выполните [Контрольный список для отправки UWP](https://docs.microsoft.com/windows/uwp/publish/app-submissions).
+Как правило, отправка приложения Windows Mixed Reality, работающего на HoloLens или иммерсивное гарнитуры, аналогично отправке любого приложения UWP на Microsoft Store. Создав приложение, [сохранив его имя](/windows/uwp/publish/create-your-app-by-reserving-a-name), выполните [Контрольный список для отправки UWP](/windows/uwp/publish/app-submissions).
 
-Одно из первых действий — [выбрать категорию и подкатегорию](https://docs.microsoft.com/windows/uwp/publish/category-and-subcategory-table) для своего интерфейса смешанной реальности. Важно **выбрать наиболее точную категорию для приложения**. Категории помогают торговым приложениям в соответствующих категориях магазина и убедиться, что она отображается с использованием релевантных поисковых запросов. **Перечисление названия VR в качестве игры не приведет к повышению вероятности вашего приложения** и может помешать его отображению в более подходящего и менее подгонку категориях.
+Одно из первых действий — [выбрать категорию и подкатегорию](/windows/uwp/publish/category-and-subcategory-table) для своего интерфейса смешанной реальности. Важно **выбрать наиболее точную категорию для приложения**. Категории помогают торговым приложениям в соответствующих категориях магазина и убедиться, что она отображается с использованием релевантных поисковых запросов. **Перечисление названия VR в качестве игры не приведет к повышению вероятности вашего приложения** и может помешать его отображению в более подходящего и менее подгонку категориях.
 
 Однако в процессе отправки есть четыре ключевых области, в которых нужно выбрать смешанный вариант выбора:
-1. В разделе " **[объявления продуктов](submitting-an-app-to-the-microsoft-store.md#mixed-reality-product-declarations)** " в разделе " [свойства](https://docs.microsoft.com/windows/uwp/publish/enter-app-properties)".
-2. В разделе " **[требования к системе](submitting-an-app-to-the-microsoft-store.md#mixed-reality-system-requirements)** " в разделе " [свойства](https://docs.microsoft.com/windows/uwp/publish/enter-app-properties)".
-3. В разделе " **[доступность семейства устройств](submitting-an-app-to-the-microsoft-store.md#device-family-availability)** " в разделе " [пакеты](https://docs.microsoft.com/windows/uwp/publish/upload-app-packages)".
+1. В разделе " **[объявления продуктов](submitting-an-app-to-the-microsoft-store.md#mixed-reality-product-declarations)** " в разделе " [свойства](/windows/uwp/publish/enter-app-properties)".
+2. В разделе " **[требования к системе](submitting-an-app-to-the-microsoft-store.md#mixed-reality-system-requirements)** " в разделе " [свойства](/windows/uwp/publish/enter-app-properties)".
+3. В разделе " **[доступность семейства устройств](submitting-an-app-to-the-microsoft-store.md#device-family-availability)** " в разделе " [пакеты](/windows/uwp/publish/upload-app-packages)".
 4. В нескольких полях **[страницы из списка магазинов](submitting-an-app-to-the-microsoft-store.md#store-listing-page)** .
 
 ### <a name="mixed-reality-product-declarations"></a>Объявления продуктов смешанной реальности
 
-На странице **[Свойства](https://docs.microsoft.com/windows/uwp/publish/enter-app-properties)** процесса отправки приложения вы найдете несколько параметров, относящихся к смешанной реальности в разделе **[объявления продуктов](https://docs.microsoft.com/windows/uwp/publish/app-declarations)** .
+На странице **[Свойства](/windows/uwp/publish/enter-app-properties)** процесса отправки приложения вы найдете несколько параметров, относящихся к смешанной реальности в разделе **[объявления продуктов](/windows/uwp/publish/app-declarations)** .
 
 ![Объявления продуктов смешанной реальности](images/product-declarations-900px.png)<br>
 Объявления продуктов смешанной реальности
@@ -207,7 +207,7 @@ ms.locfileid: "98031981"
 
 ### <a name="mixed-reality-system-requirements"></a>Требования к системе смешанной реальности
 
-На странице **[Свойства](https://docs.microsoft.com/windows/uwp/publish/enter-app-properties)** процесса отправки приложения вы найдете несколько параметров, относящихся к смешанной реальности в разделе **[требования к системе](https://docs.microsoft.com/windows/uwp/publish/enter-app-properties#system-requirements)** .
+На странице **[Свойства](/windows/uwp/publish/enter-app-properties)** процесса отправки приложения вы найдете несколько параметров, относящихся к смешанной реальности в разделе **[требования к системе](/windows/uwp/publish/enter-app-properties#system-requirements)** .
 
 ![Требования к системе](images/system-reqs-800px.png)<br>
 Требования к системе
@@ -220,7 +220,7 @@ ms.locfileid: "98031981"
 
 Будьте внимательны при выборе флажков "минимальное оборудование" или "Рекомендуемое оборудование" для входных типов. 
 
-Например: 
+Пример: 
 * Если для игры требуются контроллеры движения, но принимается речевой ввод через микрофон, установите флажок "минимальный объем оборудования" рядом с пунктом "контроллеры движения Windows Mixed Reality", но в поле "Рекомендуемое оборудование" рядом с параметром "микрофон". 
 * Если для игры можно использовать контроллер Xbox, игровой планшет или контроллеры движения, можно установить флажок "минимальное оборудование" рядом с "контроллером Xbox или игровой планшетом" и установить флажок "Рекомендуемое оборудование" рядом с пунктом "контроллеры движения Windows Mixed Reality", так как контроллеры движения, скорее всего, будут предлагать пошаговое воспроизведение на игровом устройстве.
 
@@ -234,7 +234,7 @@ ms.locfileid: "98031981"
 
 **Спецификации ПК:**
 
-Если вы хотите, чтобы ваше приложение достигло максимально возможного количества пользователей гарнитуры Windows Mixed [Reality,](../develop/platform-capabilities-and-apis/understanding-performance-for-mixed-reality.md) запросите спецификации ПК для [компьютеров Windows Mixed Reality с интегрированной графикой](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines).
+Если вы хотите, чтобы ваше приложение достигло максимально возможного количества пользователей гарнитуры Windows Mixed [Reality,](../develop/platform-capabilities-and-apis/understanding-performance-for-mixed-reality.md) запросите спецификации ПК для [компьютеров Windows Mixed Reality с интегрированной графикой](/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines).
 
 Независимо от того, нацелено ли приложение смешанной реальности на минимальные требования к компьютеру Windows Mixed Reality или требуется специальная конфигурация компьютера, например выделенный GPU [Windows Mixed Reality Ultra PC] ( https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines , необходимо добавить соответствующие спецификации ПК в столбце "минимальное оборудование".
 
@@ -259,7 +259,7 @@ ms.locfileid: "98031981"
 
 ### <a name="store-listing-page"></a>Страница "список магазинов"
 
-На странице " [список магазинов](https://docs.microsoft.com/windows/uwp/publish/create-app-store-listings) " процесса отправки приложения можно добавить полезные сведения о приложении смешанной реальности.
+На странице " [список магазинов](/windows/uwp/publish/create-app-store-listings) " процесса отправки приложения можно добавить полезные сведения о приложении смешанной реальности.
 
 >[!IMPORTANT]
 >Чтобы обеспечить правильную классификацию приложения по магазину и сделать его обнаруживаемым для клиентов Windows Mixed Reality, необходимо добавить **"Windows Mixed Reality"** в качестве одного из "условий поиска" для приложения (условия поиска можно найти, развернув раздел "Общие поля").
@@ -269,7 +269,7 @@ ms.locfileid: "98031981"
 
 ## <a name="offering-a-free-trial-for-your-game-or-app"></a>Предложение бесплатной пробной версии для игры или приложения
 
-Во многих случаях ваши потребители будут ограничены отсутствием опыта работы с Virtual Reality перед покупкой иммерсивного головного телефона Windows Mixed Reality. Они могут не знать, что следует ждать от интенсивных игр или быть знакомы с собственным пороговом значением в впечатляющих впечатлениях. Многие клиенты также могут испытать иммерсивное головной телефон Windows Mixed Reality на компьютерах, которые не имеют эмблемы как [Компьютеры Windows Mixed Reality](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines). Из-за этих соображений настоятельно рекомендуется использовать [бесплатную пробную версию](https://docs.microsoft.com/windows/uwp/publish/set-app-pricing-and-availability#free-trial) платного приложения или игры смешанной реальности.
+Во многих случаях ваши потребители будут ограничены отсутствием опыта работы с Virtual Reality перед покупкой иммерсивного головного телефона Windows Mixed Reality. Они могут не знать, что следует ждать от интенсивных игр или быть знакомы с собственным пороговом значением в впечатляющих впечатлениях. Многие клиенты также могут испытать иммерсивное головной телефон Windows Mixed Reality на компьютерах, которые не имеют эмблемы как [Компьютеры Windows Mixed Reality](/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines). Из-за этих соображений настоятельно рекомендуется использовать [бесплатную пробную версию](/windows/uwp/publish/set-app-pricing-and-availability#free-trial) платного приложения или игры смешанной реальности.
 
 ## <a name="see-also"></a>См. также раздел
 * [Что такое смешанная реальность?](../discover/mixed-reality.md)
@@ -278,4 +278,4 @@ ms.locfileid: "98031981"
 * [Основные сведения о производительности смешанной реальности](../develop/platform-capabilities-and-apis/understanding-performance-for-mixed-reality.md)
 * [Рекомендации по повышению производительности для Unity](../develop/unity/performance-recommendations-for-unity.md)
 * [Тестирование приложения на устройстве HoloLens](../develop/platform-capabilities-and-apis/testing-your-app-on-hololens.md)
-* [Минимальные рекомендации по совместимости Windows Mixed Reality с оборудованием ПК](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines)
+* [Минимальные рекомендации по совместимости Windows Mixed Reality с оборудованием ПК](/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines)

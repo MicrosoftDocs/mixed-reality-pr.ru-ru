@@ -6,17 +6,17 @@ ms.author: kurtie
 ms.date: 10/22/2019
 ms.topic: article
 keywords: холотулкит, микседреалититулкит, микседреалититулкит-Unity, Academy, учебник, взгляд, HoloLens, Academy Mixed Reality, Unity, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, Windows 10
-ms.openlocfilehash: 2cbbdba0a74ab94c6a291cbe6af1cd1ae9020fe4
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 7e8d72bc4d37d76f8f9ec40956cb85591e237ac8
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94677253"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583868"
 ---
 # <a name="mr-input-210-gaze"></a>210. Ввод в смешанной реальности: Взгляд
 
 >[!NOTE]
->Руководства Mixed Reality Academy были разработаны для иммерсивных гарнитур HoloLens (1-го поколения) и иммерсивных гарнитур Mixed Reality.  Поэтому мы считаем, что важно оставить эти руководства для разработчиков, которые ищут рекомендации по разработке для этих устройств.  Данные руководства **_не_** будут обновляться с учетом последних наборов инструментов или возможностей взаимодействия для HoloLens 2.  Они будут сохранены для работы на поддерживаемых устройствах. Опубликован [новый цикл руководств](../../../mr-learning-base-01.md) для HoloLens 2.
+>Руководства Mixed Reality Academy были разработаны для иммерсивных гарнитур HoloLens (1-го поколения) и иммерсивных гарнитур Mixed Reality.  Поэтому мы считаем, что важно оставить эти руководства для разработчиков, которые ищут рекомендации по разработке для этих устройств.  Данные руководства **_не_** будут обновляться с учетом последних наборов инструментов или возможностей взаимодействия для HoloLens 2.  Они будут сохранены для работы на поддерживаемых устройствах. Опубликован [новый цикл руководств](./mr-learning-base-01.md) для HoloLens 2.
 
 [Взгляните](../../../design/gaze-and-commit.md) на первую форму входных данных и раскрывает намерение и осведомленность пользователя. MR-вход 210 (то есть обозреватель проектов) — это глубокое углубление концепций Windows Mixed Reality, связанных с взглядом. Мы будем добавлять в курсор и голограммы сведения о контексте, используя все преимущества вашего приложения о взгляде пользователя.
 
@@ -37,15 +37,15 @@ ms.locfileid: "94677253"
 
 <table>
 <tr>
-<th>Курс</th><th style="width:150px"> <a href="../../../hololens-hardware-details.md">HoloLens</a></th><th style="width:150px"> <a href="../../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></th>
+<th>Курс</th><th style="width:150px"> <a href="/hololens/hololens1-hardware">HoloLens</a></th><th style="width:150px"> <a href="../../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></th>
 </tr><tr>
 <td>210. Ввод в смешанной реальности: Взгляд</td><td style="text-align: center;"> ✔️</td><td style="text-align: center;"> ✔️</td>
 </tr>
 </table>
 
-## <a name="before-you-start"></a>Перед началом работы
+## <a name="before-you-start"></a>Прежде чем начать
 
-### <a name="prerequisites"></a>Предварительные требования
+### <a name="prerequisites"></a>Предварительные условия
 
 * КОМПЬЮТЕР с Windows 10, на котором [установлены правильные средства](../../../develop/install-the-tools.md).
 * Некоторые основные возможности программирования на C#.
@@ -68,7 +68,7 @@ ms.locfileid: "94677253"
 
 >[!VIDEO https://www.youtube.com/embed/_Ccn6riQ6vU]
 
-### <a name="objectives"></a>Цели
+### <a name="objectives"></a>Задачи
 
 * Оптимизация Unity для разработки решений для HoloLens.
 * Импорт ресурсов и настройка сцены.
@@ -136,7 +136,7 @@ ms.locfileid: "94677253"
 2. Щелкните **создать папку** и присвойте имя папке **сцены**.
 3. Назовите файл «**моделексплорер**» и сохраните его в папке « **сцены** ».
 
-### <a name="build-the-project"></a>Сборка проекта
+### <a name="build-the-project"></a>Построение проекта
 
 1. В Unity выберите **файл > параметры сборки**.
 2. Щелкните **Добавить открытые сцены** , чтобы добавить сцену.
@@ -172,7 +172,7 @@ ms.locfileid: "94677253"
 
 >[!VIDEO https://www.youtube.com/embed/S24u0V_T7ZI]
 
-### <a name="objectives"></a>Цели
+### <a name="objectives"></a>Задачи
 
 * Визуальное проектирование и поведение курсора.
 * Обратная связь курсора на основе взгляда.
@@ -243,7 +243,7 @@ void IFocusable.OnFocusExit()
 
 >[!VIDEO https://www.youtube.com/embed/TFnuLva4VJ0]
 
-### <a name="objectives"></a>Цели
+### <a name="objectives"></a>Задачи
 
 * Упростить целевую голограмму.
 * Стабилизация естественных перемещений головок.
@@ -259,7 +259,7 @@ void IFocusable.OnFocusExit()
 
 >[!VIDEO https://www.youtube.com/embed/htVbJCMlj64]
 
-### <a name="objectives"></a>Цели
+### <a name="objectives"></a>Задачи
 
 * Добавьте к курсору индикатор направления, чтобы помочь найти голограммы.
 
@@ -271,7 +271,7 @@ void IFocusable.OnFocusExit()
 2. Скрыть индикатор направления, если пользователь облаками на голограммах.
 3. Обновите индикатор направления, чтобы он указывал на голограммы.
 
-Давайте начнем.
+Итак, начнем.
 
 1. Щелкните объект **астроман** на панели **Иерархия** и **щелкните стрелку** , чтобы развернуть его.
 2. На панели **Иерархия** выберите объект **Директионалиндикатор** в разделе **астроман**.
@@ -286,7 +286,7 @@ void IFocusable.OnFocusExit()
 
 >[!VIDEO https://www.youtube.com/embed/qFiLr_LUACE]
 
-### <a name="objectives"></a>Цели
+### <a name="objectives"></a>Задачи
 
 * Используйте рекламу, чтобы всегда иметь на себя голограммы.
 
@@ -304,7 +304,7 @@ void IFocusable.OnFocusExit()
 
 >[!VIDEO https://www.youtube.com/embed/Ct8ORZAX5JU]
 
-### <a name="objectives"></a>Цели
+### <a name="objectives"></a>Задачи
 
 * Используйте Tag-Along, чтобы наши голограммы соблюдались вокруг комнаты.
 

@@ -6,17 +6,17 @@ ms.author: thmignon
 ms.date: 05/04/2018
 ms.topic: article
 keywords: 3D, модель, место дома, место, мир, моделирование, Домашняя страница смешанная, Интернет, приложение, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: c92ba7a3242b618b9ef9cef01ae400cf4dbf36b2
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 58da61add35546331ff8199fa20885f9869a9f43
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98010104"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583807"
 ---
 # <a name="enable-placement-of-3d-models-in-the-mixed-reality-home"></a>Поддержка размещения трехмерных моделей в доме со смешанной реальностью
 
 > [!NOTE]
-> Эта функция была добавлена как часть [обновления Windows 10 от апреля 2018](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/release-notes-april-2018). Более старые версии Windows несовместимы с этой функцией.
+> Эта функция была добавлена как часть [обновления Windows 10 от апреля 2018](/windows/mixed-reality/enthusiast-guide/release-notes-april-2018). Более старые версии Windows несовместимы с этой функцией.
 
 [Главная страница Windows Mixed Reality](../discover/navigating-the-windows-mixed-reality-home.md) — это отправная точка, в которой пользователи начинают работу перед запуском приложений. В некоторых случаях двумерные приложения (например, приложения с голограммами) позволяют размещать трехмерные модели непосредственно в домашней среде "смешанной реальности" как украшения или для дальнейшей проверки в полном объеме. *Протокол добавления модели* позволяет отправить трехмерную модель с веб-сайта или приложения непосредственно на домашнюю страницу Windows Mixed Reality, где они будут сохраняться как средства [запуска 3D-приложений](3d-app-launcher-design-guidance.md), 2D-приложения и голограммы. 
 
@@ -32,7 +32,7 @@ ms.locfileid: "98010104"
     </colgroup>
     <tr>
         <td><strong>Возможность</strong></td>
-        <td><a href="../hololens-hardware-details.md"><strong>HoloLens</strong></a></td>
+        <td><a href="/hololens/hololens1-hardware"><strong>HoloLens</strong></a></td>
         <td><a href="../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
     </tr>
      <tr>

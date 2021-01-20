@@ -6,19 +6,19 @@ ms.author: mazeller
 ms.date: 02/24/2019
 ms.topic: article
 keywords: Нормативная бумага, Фото, видео, захват, Камера
-ms.openlocfilehash: 88b31d139f01c6cbe0567203e39f7640270f7716
-ms.sourcegitcommit: e24715fffa815c24ca411fa93eed9576ae729337
+ms.openlocfilehash: cbdd99ab7ab405163fb7e0ba366ee85f8bcc634d
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "98247727"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583674"
 ---
 # <a name="mixed-reality-capture-for-developers"></a>Захват смешанной реальности для разработчиков
 
 > [!NOTE]
 > Рекомендации по новой функции нормативных требований для HoloLens 2 см. в разделе [Render на камере ПС](#render-from-the-pv-camera-opt-in) ниже.
 
-Вы можете в любое время принять фотографию или видео [смешанной реальности](../../mixed-reality-capture.md) (с соблюдением нормативных требований), но при разработке приложения следует учитывать некоторые моменты. Сюда входят рекомендации по качеству с соблюдением нормативных требований и реагированию на изменения системы при записи МРКС.
+Вы можете в любое время принять фотографию или видео [смешанной реальности](/hololens/holographic-photos-and-videos) (с соблюдением нормативных требований), но при разработке приложения следует учитывать некоторые моменты. Сюда входят рекомендации по качеству с соблюдением нормативных требований и реагированию на изменения системы при записи МРКС.
 
 Разработчики также могут легко интегрировать запись смешанной реальности и вставить их в свои приложения.
 
@@ -61,7 +61,7 @@ HoloLens 2 добавляет возможность визуализации и
 
 ##### <a name="enable-the-photovideocamera-holographicviewconfiguration-in-directx"></a>Включение Фотовидеокамера Холографиквиевконфигуратион в DirectX
 
-Чтобы принять участие в подготовке к просмотру с камеры ПС, приложение просто включает [Холографиквиевконфигуратион](https://docs.microsoft.com/uwp/api/Windows.Graphics.Holographic.HolographicViewConfiguration)фотовидеокамера:
+Чтобы принять участие в подготовке к просмотру с камеры ПС, приложение просто включает [Холографиквиевконфигуратион](/uwp/api/Windows.Graphics.Holographic.HolographicViewConfiguration)фотовидеокамера:
 ```csharp
 var display = Windows.Graphics.Holographic.HolographicDisplay.GetDefault();
 var view = display.TryGetViewConfiguration(Windows.Graphics.Holographic.HolographicViewConfigurationKind.PhotoVideoCamera);
@@ -79,7 +79,7 @@ if (view != null)
 
 При остановке записи смешанной реальности (или в случае, если приложение отключает конфигурацию представления при выполнении записи смешанной реальности), Холографиккамера будет отображаться в списке следующего Холографикфраме Ремоведкамерас и будет срабатывать событие Камераремовед Холографикспаце.
 
-В Холографиккамера было добавлено свойство [виевконфигуратион](https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographiccamera.viewconfiguration) , помогающее определить конфигурацию, к которой принадлежит камера.
+В Холографиккамера было добавлено свойство [виевконфигуратион](/uwp/api/windows.graphics.holographic.holographiccamera.viewconfiguration) , помогающее определить конфигурацию, к которой принадлежит камера.
 
 ##### <a name="enable-the-photovideocamera-holographicviewconfiguration-in-unity"></a>Включение Холографиквиевконфигуратион Фотовидеокамера в Unity
 
@@ -121,15 +121,15 @@ if (view != null)
 #### <a name="2d-app"></a>2D-приложение
 
 При выполнении записи смешанной реальности 2D-приложения могут закрывать свое визуальное содержимое:
-* Присутствие с флагом [DXGI_PRESENT_RESTRICT_TO_OUTPUT](https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-present)
-* Создание цепочки подкачки приложения с помощью флага [DXGI_SWAP_CHAIN_FLAG_HW_PROTECTED](https://docs.microsoft.com/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_chain_flag)
-* С обновлением Windows 10 2019 можно установить параметр [Исскринкаптуринаблед](https://docs.microsoft.com/uwp/api/windows.ui.viewmanagement.applicationview.isscreencaptureenabled) аппликатионвиев
+* Присутствие с флагом [DXGI_PRESENT_RESTRICT_TO_OUTPUT](/windows/desktop/direct3ddxgi/dxgi-present)
+* Создание цепочки подкачки приложения с помощью флага [DXGI_SWAP_CHAIN_FLAG_HW_PROTECTED](/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_chain_flag)
+* С обновлением Windows 10 2019 можно установить параметр [Исскринкаптуринаблед](/uwp/api/windows.ui.viewmanagement.applicationview.isscreencaptureenabled) аппликатионвиев
 
 #### <a name="immersive-app"></a>Иммерсивное приложение
 
 В иммерсивное приложение может быть исключено из захвата смешанной реальности, чтобы исключить их визуальное содержимое:
-* Настройка [Исконтентпротектионенаблед](https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographiccamerarenderingparameters.iscontentprotectionenabled) холографиккамерарендерингпараметер для отключения захвата смешанной реальности для соответствующего кадра
-* Настройка [Ишардвареконтентпротектионенаблед](https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographiccamera.ishardwarecontentprotectionenabled) холографиккамера для отключения захвата смешанной реальности для связанной с ним камеры holographic
+* Настройка [Исконтентпротектионенаблед](/uwp/api/windows.graphics.holographic.holographiccamerarenderingparameters.iscontentprotectionenabled) холографиккамерарендерингпараметер для отключения захвата смешанной реальности для соответствующего кадра
+* Настройка [Ишардвареконтентпротектионенаблед](/uwp/api/windows.graphics.holographic.holographiccamera.ishardwarecontentprotectionenabled) холографиккамера для отключения захвата смешанной реальности для связанной с ним камеры holographic
 
 #### <a name="password-keyboard"></a>Клавиатура с паролем
 
@@ -137,10 +137,10 @@ if (view != null)
 
 ### <a name="knowing-when-mrc-is-active"></a>Знание того, когда активна НОРМАТИВная информация
 
-Класс [аппкаптуре](https://docs.microsoft.com/uwp/api/Windows.Media.Capture.AppCapture) может использоваться приложением для получения сведений о том, когда работает запись системы в смешанной реальности (для аудио или видео).
+Класс [аппкаптуре](/uwp/api/Windows.Media.Capture.AppCapture) может использоваться приложением для получения сведений о том, когда работает запись системы в смешанной реальности (для аудио или видео).
 
 >[!NOTE]
->API [Жетфоркуррентвиев](https://docs.microsoft.com/uwp/api/windows.media.capture.appcapture.getforcurrentview) аппкаптуре может вернуть значение null, если запись смешанной реальности недоступна на устройстве. Также важно отменить регистрацию события Каптурингчанжед, когда приложение приостанавливается, в противном случае НОРМАТИВное состояние может стать заблокированным.
+>API [Жетфоркуррентвиев](/uwp/api/windows.media.capture.appcapture.getforcurrentview) аппкаптуре может вернуть значение null, если запись смешанной реальности недоступна на устройстве. Также важно отменить регистрацию события Каптурингчанжед, когда приложение приостанавливается, в противном случае НОРМАТИВное состояние может стать заблокированным.
 
 ### <a name="best-practices-hololens-specific"></a>Рекомендации (только для HoloLens)
 
@@ -196,7 +196,7 @@ if (view != null)
 
 ### <a name="mrc-with-built-in-camera-ui"></a>НОРМАТИВ с помощью встроенного пользовательского интерфейса камеры
 
-Разработчики могут использовать *[API пользовательского интерфейса для записи камеры](https://docs.microsoft.com/windows/uwp/audio-video-camera/capture-photos-and-video-with-cameracaptureui)* , чтобы получить записанную пользователем фотографию или видео смешанной реальности с помощью всего нескольких строк кода.
+Разработчики могут использовать *[API пользовательского интерфейса для записи камеры](/windows/uwp/audio-video-camera/capture-photos-and-video-with-cameracaptureui)* , чтобы получить записанную пользователем фотографию или видео смешанной реальности с помощью всего нескольких строк кода.
 
 Этот API запускает встроенный интерфейс для камеры с соблюдением требований, где пользователи могут взять фотографию или видео и возвратить полученную запись в приложение. Вы можете создать настраиваемый набор записей для записи смешанной реальности, если вам нужно добавить пользовательский интерфейс камеры или доступ на более низком уровне для записи потоков.
 
@@ -210,11 +210,11 @@ if (view != null)
 
 Приложения Unity должны увидеть [Locatable_camera_in_Unity](../unity/locatable-camera-in-unity.md) для свойства, чтобы включить голограммы.
 
-Другие приложения могут сделать это с помощью [API-интерфейсов захвата Windows Media](https://docs.microsoft.com/uwp/api/Windows.Media.Capture.MediaCapture) для управления камерой и добавления видео и звуковых эффектов с соблюдением требований, чтобы включить виртуальные голограммы и звук приложения в все еще и видео.
+Другие приложения могут сделать это с помощью [API-интерфейсов захвата Windows Media](/uwp/api/Windows.Media.Capture.MediaCapture) для управления камерой и добавления видео и звуковых эффектов с соблюдением требований, чтобы включить виртуальные голограммы и звук приложения в все еще и видео.
 
 У приложений есть два варианта добавления этого результата:
-* Старый API: [Windows. Media. Capture. медиакаптуре. аддеффектасинк ()](https://docs.microsoft.com/uwp/api/windows.media.capture.mediacapture.addeffectasync)
-* Новый рекомендуемый API Майкрософт (Возвращает объект, позволяющий управлять динамическими свойствами): [Windows. Media. Capture. медиакаптуре. аддвидеоеффектасинк ()](https://docs.microsoft.com/uwp/api/windows.media.capture.mediacapture.addvideoeffectasync)  /  [Windows. Media. Capture. медиакаптуре. аддаудиоеффектасинк ()](https://docs.microsoft.com/uwp/api/windows.media.capture.mediacapture.addaudioeffectasync) , требующий, чтобы приложение создали собственную реализацию [ивидеоеффектдефинитион](https://docs.microsoft.com/uwp/api/Windows.Media.Effects.IVideoEffectDefinition) и [IAudioEffectDefinition](https://docs.microsoft.com/uwp/api/windows.media.effects.iaudioeffectdefinition). Примеры см. в [примере приложения нормативных требований](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/HolographicMixedRealityCapture) .
+* Старый API: [Windows. Media. Capture. медиакаптуре. аддеффектасинк ()](/uwp/api/windows.media.capture.mediacapture.addeffectasync)
+* Новый рекомендуемый API Майкрософт (Возвращает объект, позволяющий управлять динамическими свойствами): [Windows. Media. Capture. медиакаптуре. аддвидеоеффектасинк ()](/uwp/api/windows.media.capture.mediacapture.addvideoeffectasync)  /  [Windows. Media. Capture. медиакаптуре. аддаудиоеффектасинк ()](/uwp/api/windows.media.capture.mediacapture.addaudioeffectasync) , требующий, чтобы приложение создали собственную реализацию [ивидеоеффектдефинитион](/uwp/api/Windows.Media.Effects.IVideoEffectDefinition) и [IAudioEffectDefinition](/uwp/api/windows.media.effects.iaudioeffectdefinition). Примеры см. в [примере приложения нормативных требований](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/HolographicMixedRealityCapture) .
 
 >[!NOTE]
 > Пространство имен Windows. Media. Микседреалитикаптуре не будет распознано в Visual Studio, но строки остаются действительными.
@@ -223,12 +223,12 @@ if (view != null)
 
 |  Имя свойства  |  Type  |  Значение по умолчанию  |  Описание |
 |----------|----------|----------|----------|
-|  StreamType  |  UINT32 ([медиастреамтипе](https://docs.microsoft.com/uwp/api/Windows.Media.Capture.MediaStreamType))  |  1 (Видеорекорд)  |  Опишите поток отслеживания, для которого используется этот результат. Звук недоступен. |
+|  StreamType  |  UINT32 ([медиастреамтипе](/uwp/api/Windows.Media.Capture.MediaStreamType))  |  1 (Видеорекорд)  |  Опишите поток отслеживания, для которого используется этот результат. Звук недоступен. |
 |  холограмкомпоситионенаблед  |  Логическое  |  true  |  Флаг для включения или отключения голограмм в видеозаписи. |
 |  рекордингиндикаторенаблед  |  Логическое  |  true  |  Флаг для включения или отключения индикатора записи на экране во время записи голограммы. |
 |  видеостабилизатионенаблед  |  Логическое  |  FALSE  |  Флаг, позволяющий включать или отключать видео стабилизации, включенные в средство регистрации HoloLens. |
 |  видеостабилизатионбуфферленгс  |  ЗНАЧЕНИЕМ  |  0  |  Укажите, сколько кадров с предысторией используется для видео стабилизации. 0 — это 0-задержка и почти "бесплатная" с точки зрения мощности и производительности. 15 рекомендуется использовать для наивысшего качества (за счет 15 кадров задержки и памяти). |
-|  глобалопаЦитикоеффиЦиент  |  float  |  0,9 (HoloLens) 1,0 (иммерсивное головной телефон)  |  Установите коэффициент глобальной прозрачности для голограммы в диапазоне от 0,0 (полностью прозрачный) до 1,0 (полностью непрозрачный). |
+|  глобалопаЦитикоеффиЦиент  |  FLOAT  |  0,9 (HoloLens) 1,0 (иммерсивное головной телефон)  |  Установите коэффициент глобальной прозрачности для голограммы в диапазоне от 0,0 (полностью прозрачный) до 1,0 (полностью непрозрачный). |
 |  бланконпротектедконтент  |  Логическое  |  FALSE  |  Установите флаг, чтобы включить или отключить возврат пустого кадра, если имеется 2D-приложение UWP, показывающее защищенное содержимое. Если этот флаг имеет значение false, а двухмерная приложение UWP отображает защищенное содержимое, то 2D-приложение UWP будет заменено защищенной текстурой содержимого как на гарнитуре, так и в записи смешанной реальности. |
 |  шовхидденмеш  |  Логическое  |  FALSE  |  Флаг для включения или отключения отображения скрытой сетки областей и соседнего содержимого камеры Holographic. |
 | аутпутсизе | Размер | 0, 0 | Задайте желаемый размер выходных данных после кадрирования для видео стабилизации. Размер кадрирования по умолчанию выбирается, если задано значение 0 или указан недопустимый размер выходных данных. |
@@ -244,8 +244,8 @@ if (view != null)
 | Имя свойства | Type | Значение по умолчанию | Описание |
 |----------|----------|----------|----------|
 | миксермоде | ЗНАЧЕНИЕМ | 2 (MIC и системные аудио) | Перечисление, используемое для указания того, какие источники звука следует использовать: 0 (только MIC Audio), 1 (только для системных аудио), 2 (MIC и системные аудио) |
-| лупбаккгаин | float | Настройка **усиления звука приложения** на портале устройств Windows | Применить к системному звуковому тому. Диапазон от 0,0 до 5,0. Поддерживается только в HoloLens 2 |
-| микрофонегаин | float | Параметр " **Усиление звука с микрофона** " на портале устройств Windows | Примените к тому, чтобы применить микрофон. Диапазон от 0,0 до 5,0. Поддерживается только в HoloLens 2 |
+| лупбаккгаин | FLOAT | Настройка **усиления звука приложения** на портале устройств Windows | Применить к системному звуковому тому. Диапазон от 0,0 до 5,0. Поддерживается только в HoloLens 2 |
+| микрофонегаин | FLOAT | Параметр " **Усиление звука с микрофона** " на портале устройств Windows | Примените к тому, чтобы применить микрофон. Диапазон от 0,0 до 5,0. Поддерживается только в HoloLens 2 |
 
 >[!NOTE]
 > Вы можете изменить значение по умолчанию **лупбаккгаин** или **микрофонегаин** на портале устройств Windows, перейдя на [страницу захвата смешанной реальности](using-the-windows-device-portal.md#mixed-reality-capture) и настроив ползунок рядом с соответствующими параметрами. Оба параметра по умолчанию имеют значение **1,0**, но могут быть установлены для любого значения в диапазоне от **0,0** до **5,0**.
@@ -260,7 +260,7 @@ if (view != null)
 
 В HoloLens 1 не удается записать фотографию или записать видео, пока процесс записывает видео или отправит фотографию. Обратная попытка также имеет значение true: Если норматив работает, приложение не сможет получить доступ к камере. 
 
-С помощью HoloLens 2 можно предоставить общий доступ к камере. Если вам не требуется прямой контроль над разрешением или частотой кадров, можно инициализировать Медиакаптуре, используя [свойство шаредмоде](https://docs.microsoft.com/uwp/api/windows.media.capture.mediacaptureinitializationsettings.sharingmode?view=winrt-19041) с шаредреадонли.  
+С помощью HoloLens 2 можно предоставить общий доступ к камере. Если вам не требуется прямой контроль над разрешением или частотой кадров, можно инициализировать Медиакаптуре, используя [свойство шаредмоде](/uwp/api/windows.media.capture.mediacaptureinitializationsettings.sharingmode?view=winrt-19041) с шаредреадонли.  
 
 ##### <a name="built-in-mrc-photovideo-camera-access"></a>Встроенный доступ к фотографиям и видеокамере с соблюдением требований
 
@@ -287,11 +287,11 @@ if (view != null)
 
 При использовании функции нормативных требований рекомендуется всегда запрашивать монопольный доступ к камере. Это обеспечит приложению полный контроль над параметрами камеры при условии, что вы знаете об ограничениях, перечисленных выше. 
 
-* Создание объекта записи мультимедиа с помощью [параметров инициализации](https://docs.microsoft.com/uwp/api/windows.media.capture.mediacaptureinitializationsettings?view=winrt-19041)
-* Установка свойства [шарингмоде](https://docs.microsoft.com/uwp/api/windows.media.capture.mediacaptureinitializationsettings.sharingmode?view=winrt-19041#Windows_Media_Capture_MediaCaptureInitializationSettings_SharingMode) в **монопольном режиме**
+* Создание объекта записи мультимедиа с помощью [параметров инициализации](/uwp/api/windows.media.capture.mediacaptureinitializationsettings?view=winrt-19041)
+* Установка свойства [шарингмоде](/uwp/api/windows.media.capture.mediacaptureinitializationsettings.sharingmode?view=winrt-19041#Windows_Media_Capture_MediaCaptureInitializationSettings_SharingMode) в **монопольном режиме**
 
 > [!CAUTION]
-> Прежде чем продолжить, внимательно прочтите [Примечания шарингмоде](https://docs.microsoft.com/uwp/api/windows.media.capture.mediacaptureinitializationsettings.sharingmode?view=winrt-19041#remarks) .
+> Прежде чем продолжить, внимательно прочтите [Примечания шарингмоде](/uwp/api/windows.media.capture.mediacaptureinitializationsettings.sharingmode?view=winrt-19041#remarks) .
 
 * Настройка камеры в нужном виде
 * Запустите приложение, запишите видеокадры с помощью API запуска, а затем включите НОРМАТИВную память.
@@ -299,14 +299,14 @@ if (view != null)
 > [!CAUTION]
 > Если вы запускаете функцию нормативных требований перед запуском приложения, мы не можем гарантировать, что функция будет работать должным образом.
 
-Полный пример описанного выше процесса можно найти в [образце отслеживания с помощью holographic лиц](https://docs.microsoft.com/samples/microsoft/windows-universal-samples/holographicfacetracking).
+Полный пример описанного выше процесса можно найти в [образце отслеживания с помощью holographic лиц](/samples/microsoft/windows-universal-samples/holographicfacetracking).
 
 > [!NOTE]
 > До выхода обновления Windows 10 от апреля 2018 пользовательское средство записи пользовательских учетных записей взаимоисключающее с соблюдением нормативных требований системы (запись фотографий, запись видео или потоковая передача с портала устройств Windows).
 
 ## <a name="see-also"></a>См. также раздел
 
-* [Смешанный захват реальности](../../mixed-reality-capture.md)
+* [Смешанный захват реальности](/hololens/holographic-photos-and-videos)
 * [Зрительское представление](spectator-view.md)
 * [Общие сведения о разработке Unity](../unity/unity-development-overview.md)
 * [Обзор разработки для Unreal](../unreal/unreal-development-overview.md)

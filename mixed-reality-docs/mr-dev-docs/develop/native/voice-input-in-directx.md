@@ -6,12 +6,12 @@ ms.author: mriches
 ms.date: 08/04/2020
 ms.topic: article
 keywords: Пошаговое руководство, голосовая команда, фраза, распознавание, речь, DirectX, платформа, Кортана, Windows Mixed Reality
-ms.openlocfilehash: c917fbc4215442bc66f52dc2c527e01b2c446594
-ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
+ms.openlocfilehash: 5f7ed587b474d147c0b13e4896a89f655f8dc30b
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97613108"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583742"
 ---
 # <a name="voice-input-in-directx"></a>Голосовой ввод в DirectX
 
@@ -67,7 +67,7 @@ m_speechCommandList->Append(StringReference(L"SpeechRecognizer"));
    m_speechCommandData.push_back(float4(0.5f, 0.1f, 1.f, 1.f));
 ```
 
-Чтобы загрузить список команд в список ограничений для распознавателя речи, используйте объект [спичрекогнитионлистконстраинт](https://msdn.microsoft.com/library/windows/apps/windows.media.speechrecognition.speechrecognitionlistconstraint.aspx) .
+Чтобы загрузить список команд в список ограничений для распознавателя речи, используйте объект [спичрекогнитионлистконстраинт](/uwp/api/Windows.Media.SpeechRecognition.SpeechRecognitionListConstraint) .
 
 ```
 SpeechRecognitionListConstraint^ spConstraint = ref new SpeechRecognitionListConstraint(m_speechCommandList);
@@ -86,7 +86,7 @@ SpeechRecognitionListConstraint^ spConstraint = ref new SpeechRecognitionListCon
    });
 ```
 
-Подпишитесь на событие [ресултженератед](https://msdn.microsoft.com/library/windows/apps/windows.media.speechrecognition.speechcontinuousrecognitionsession.resultgenerated.aspx) в [спичконтинуаусрекогнитионсессион](https://msdn.microsoft.com/library/windows/apps/windows.media.speechrecognition.speechcontinuousrecognitionsession.aspx)распознавателя речи. Это событие уведомляет ваше приложение о том, что одна из команд распознана.
+Подпишитесь на событие [ресултженератед](/uwp/api/Windows.Media.SpeechRecognition.SpeechContinuousRecognitionSession) в [спичконтинуаусрекогнитионсессион](/uwp/api/Windows.Media.SpeechRecognition.SpeechContinuousRecognitionSession)распознавателя речи. Это событие уведомляет ваше приложение о том, что одна из команд распознана.
 
 ```
 m_speechRecognizer->ContinuousRecognitionSession->ResultGenerated +=
@@ -95,7 +95,7 @@ m_speechRecognizer->ContinuousRecognitionSession->ResultGenerated +=
            );
 ```
 
-Обработчик событий *онресултженератед* получает данные события в экземпляре [спичконтинуаусрекогнитионресултженератедевентаргс](https://msdn.microsoft.com/library/windows/apps/windows.media.speechrecognition.speechcontinuousrecognitionresultgeneratedeventargs.aspx) . Если достоверность превышает заданное вами пороговое значение, приложение должно отметить, что событие произошло. Сохраните данные события, чтобы их можно было использовать в более позднем цикле обновления.
+Обработчик событий *онресултженератед* получает данные события в экземпляре [спичконтинуаусрекогнитионресултженератедевентаргс](/uwp/api/Windows.Media.SpeechRecognition.SpeechContinuousRecognitionResultGeneratedEventArgs) . Если достоверность превышает заданное вами пороговое значение, приложение должно отметить, что событие произошло. Сохраните данные события, чтобы их можно было использовать в более позднем цикле обновления.
 
 Из *холографиквоицеинпутсамплемаин. cpp*:
 
@@ -256,7 +256,7 @@ catch (Exception^ exception)
 ```
 
 > [!NOTE]
-> Существует несколько предопределенных [спичрекогнитионсценариос](https://msdn.microsoft.com/library/windows/apps/windows.media.speechrecognition.speechrecognitionscenario.aspx) , которые можно использовать для оптимизации распознавания речи.
+> Существует несколько предопределенных [спичрекогнитионсценариос](/uwp/api/Windows.Media.SpeechRecognition.SpeechRecognitionScenario) , которые можно использовать для оптимизации распознавания речи.
 
 * Чтобы оптимизировать для диктовки, используйте сценарий диктовки.<br/>
    ```
@@ -431,5 +431,5 @@ catch (Exception^ exception)
 ```
 
 ## <a name="see-also"></a>См. также раздел
-* [Разработка речевых приложений](https://msdn.microsoft.com/library/dn596121.aspx)
+* [Разработка речевых приложений](/windows/uwp/design/input/speech-interactions)
 * [Пример Спичрекогнитионандсинсесис](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis)

@@ -6,12 +6,12 @@ ms.author: jemccull
 ms.date: 07/04/2018
 ms.topic: article
 keywords: Azure, Mixed Reality, Academy, Unity, учебник, API, Microsoft Graph, hololens, иммерсивное, VR, Windows 10, Visual Studio
-ms.openlocfilehash: 341b6fea537fe6001a8f7dcf2e98efea0a0b09b6
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 699e520fb9db8d8d3b5bab8b98d92fa39f0acb2d
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94679443"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583447"
 ---
 # <a name="mr-and-azure-311---microsoft-graph"></a>311. Смешанная реальность и Azure — Microsoft Graph
 
@@ -37,7 +37,7 @@ ms.locfileid: "94679443"
 
 <table>
 <tr>
-<th>Курс</th><th style="width:150px"> <a href="../../../hololens-hardware-details.md">HoloLens</a></th><th style="width:150px"> <a href="../../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></th>
+<th>Курс</th><th style="width:150px"> <a href="/hololens/hololens1-hardware">HoloLens</a></th><th style="width:150px"> <a href="../../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></th>
 </tr><tr>
 <td> 311. Смешанная реальность и Azure: Microsoft Graph</td><td style="text-align: center;"> ✔️</td><td style="text-align: center;"> </td>
 </tr>
@@ -55,7 +55,7 @@ ms.locfileid: "94679443"
 - [Последний пакет SDK для Windows 10](../../install-the-tools.md#installation-checklist)
 - [Unity 2017,4](../../install-the-tools.md#installation-checklist)
 - [Visual Studio 2017](../../install-the-tools.md#installation-checklist)
-- [Microsoft HoloLens](../../../hololens-hardware-details.md) с включенным режимом разработчика
+- [Microsoft HoloLens](/hololens/hololens1-hardware) с включенным режимом разработчика
 - Доступ к Интернету для установки Azure и Microsoft Graph получение данных
 - Допустимая **учетная запись Майкрософт** (личная или рабочая или учебная)
 - Несколько собраний, запланированных на текущий день, с использованием той же учетной записи Майкрософт
@@ -63,12 +63,12 @@ ms.locfileid: "94679443"
 ### <a name="before-you-start"></a>Перед началом работы
 
 1.  Чтобы избежать проблем при создании этого проекта, настоятельно рекомендуется создать проект, упомянутый в этом руководстве, в корневой или ближайшем к корневой папке (длинные пути к папкам могут вызвать проблемы во время сборки).
-2.  Настройка и тестирование HoloLens. Если вам нужна поддержка по настройке HoloLens, [обязательно посетите статью Настройка hololens](https://docs.microsoft.com/hololens/hololens-setup). 
+2.  Настройка и тестирование HoloLens. Если вам нужна поддержка по настройке HoloLens, [обязательно посетите статью Настройка hololens](/hololens/hololens-setup). 
 3.  Рекомендуется выполнять настройку калибровки и датчика при разработке нового приложения HoloLens (иногда это может помочь в выполнении этих задач для каждого пользователя). 
 
-Чтобы получить справку по калибровке, перейдите по этой [ссылке в статью калибровка HoloLens](../../../calibration.md#hololens-2).
+Чтобы получить справку по калибровке, перейдите по этой [ссылке в статью калибровка HoloLens](/hololens/hololens-calibration#hololens-2).
 
-Чтобы получить справку по настройке датчика, перейдите [по ссылке в статью Настройка датчика HoloLens](../../../sensor-tuning.md).
+Чтобы получить справку по настройке датчика, перейдите [по ссылке в статью Настройка датчика HoloLens](/hololens/hololens-updates).
 
 ## <a name="chapter-1---create-your-app-in-the-application-registration-portal"></a>Глава 1. Создание приложения на портале регистрации приложений
 
@@ -131,7 +131,7 @@ ms.locfileid: "94679443"
 
     ![](images/AzureLabs-Lab311-12.png)
 
-5.  Несмотря на то **File**, что все еще находятся в  >  **параметрах сборки** файлов, убедитесь, что:
+5.  Несмотря на то , что все еще находятся в  >  **параметрах сборки** файлов, убедитесь, что:
 
     1. **Целевое устройство** имеет значение **HoloLens**
     2. Для **типа сборки** задано значение **D3D**
@@ -165,7 +165,7 @@ ms.locfileid: "94679443"
 
     1. На вкладке **другие параметры** выполните следующие действия.
 
-        1.  **Scripting** **Версия среды выполнения** сценариев должна быть **экспериментальной** (эквивалент .NET 4,6), что вызовет необходимость перезапуска редактора.
+        1.   **Версия среды выполнения** сценариев должна быть **экспериментальной** (эквивалент .NET 4,6), что вызовет необходимость перезапуска редактора.
 
         2. **Серверная часть сценариев** должна быть **.NET**
 
@@ -205,7 +205,7 @@ ms.locfileid: "94679443"
 
 Чтобы импортировать пакет, выполните следующие действия.
 
-1.  Добавьте пакет Unity в Unity с помощью команды **Assets**  >  **Import Package**  >  меню **настраиваемый пакет** импорт активов. Выберите только что скачанный пакет.
+1.  Добавьте пакет Unity в Unity с помощью команды   >    >  меню **настраиваемый пакет** импорт активов. Выберите только что скачанный пакет.
 
 2.  В появившемся окне **Импорт пакета Unity** убедитесь, что выбраны все компоненты **подключаемых модулей** (включая).
 
@@ -234,7 +234,7 @@ ms.locfileid: "94679443"
 
         ![](images/AzureLabs-Lab311-23.png)
 
-7.  Щелкните **Применить**.
+7.  Нажмите кнопку **Применить**.
 
 ## <a name="chapter-4---camera-setup"></a>Глава 4. Настройка камеры
 
@@ -959,7 +959,7 @@ ms.locfileid: "94679443"
 
     1.  Людьми HoloLens, откройте **Параметры**.
 
-    2.  Выберите **Сетевые &**  >  **Wi-Fi**  >  **Дополнительные параметры** сети Интернет Wi-Fi
+    2.  Выберите **Сетевые &**  >    >  **Дополнительные параметры** сети Интернет Wi-Fi
 
     3.  Запишите **IPv4** -адрес.
 

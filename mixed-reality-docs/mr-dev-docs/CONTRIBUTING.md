@@ -5,12 +5,12 @@ author: mattwojo
 ms.author: mattwoj
 ms.date: 01/11/2021
 ms.topic: article
-ms.openlocfilehash: 8add6413b0ff4bb32c15d1fce10977397aa33ba1
-ms.sourcegitcommit: aa29b68603721e909f08f352feed24c65d2e505e
+ms.openlocfilehash: f60179c35f6103c4771ea2777e05829bfb7a8ce4
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98108857"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583048"
 ---
 # <a name="contributing-to-mixed-reality-developer-documentation"></a>Документация для разработчиков смешанной реальности
 
@@ -24,11 +24,11 @@ ms.locfileid: "98108857"
 
 | Имя репозитория | URL-адрес |
 | --- | --- |
-| Смешанная реальность | [MicrosoftDocs/Mixed-Reality](https://docs.microsoft.com/windows/mixed-reality) |
+| Смешанная реальность | [MicrosoftDocs/Mixed-Reality](/windows/mixed-reality) |
 | Руководством для энтузиастов | [MicrosoftDocs/Mixed-Reality/энтузиаст-Guide](https://github.com/MicrosoftDocs/mixed-reality/tree/docs/enthusiast-guide) |
 | HoloLens | [MicrosoftDocs/HoloLens](https://github.com/MicrosoftDocs/Hololens) |
 
-## <a name="before-you-start"></a>Прежде чем начать
+## <a name="before-you-start"></a>Перед началом работы
 
 Если у вас ее еще нет, необходимо [создать учетную запись GitHub](https://github.com/join).
 
@@ -131,13 +131,13 @@ ms.locfileid: "98108857"
 
 - [Основы Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 - [Markdown-at-"Краткий справочник"](images/MarkdownPoster.pdf)
-- [Дополнительные ресурсы для записи Markdown для docs.microsoft.com](https://docs.microsoft.com/contribute/how-to-write-use-markdown)
+- [Дополнительные ресурсы для записи Markdown для docs.microsoft.com](/contribute/how-to-write-use-markdown)
 
 ### <a name="adding-tables"></a>Добавление таблиц
 
 Из-за того, что таблицы стилей docs.microsoft.com, они не будут иметь границы или пользовательские стили, даже если вы попробуете использовать встроенный код CSS. Он будет работать в течение короткого периода времени, но в конечном итоге платформа будет выводить стили из таблицы. Итак, планируйте и старайтесь не усложнять таблицы. [Вот сайт, который упрощает Markdown таблицы](https://www.tablesgenerator.com/markdown_tables).
 
-[Расширение "документы Markdown" для Visual Studio Code](https://docs.microsoft.com/teamblog/docs-extension) также упрощает создание таблиц, если вы используете [Visual Studio Code (см. ниже)](#using-visual-studio-code) , чтобы изменить документацию.
+[Расширение "документы Markdown" для Visual Studio Code](/teamblog/docs-extension) также упрощает создание таблиц, если вы используете [Visual Studio Code (см. ниже)](#using-visual-studio-code) , чтобы изменить документацию.
 
 ### <a name="adding-images"></a>Добавление изображений
 

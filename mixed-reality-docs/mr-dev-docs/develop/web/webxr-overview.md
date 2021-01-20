@@ -6,12 +6,12 @@ ms.author: ayyonet
 ms.date: 04/10/2020
 ms.topic: article
 keywords: Вебкср, Винмр, Вебар, Вебвр, Виндовсмикседреалити, HoloLens, Windows Mixed Reality, веб-VR, Web XR, Web MR, Web AR, 360, 360 Video, 360 видео, 360 Photo, 360 фотографии, 360 Content, иммерсивное веб-, иммерсивевеб, IW
-ms.openlocfilehash: e49f5f2422c9802f94b63943f8a38949a2969f83
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 99cf5cf151c41252e43c6051c0d6281d33fe695a
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98006944"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98582907"
 ---
 # <a name="webxr-overview"></a>Обзор Вебкср
 
@@ -19,7 +19,7 @@ ms.locfileid: "98006944"
 
 **API устройства вебкср** предназначен для доступа к устройствам **Virtual Reality (VR)** и **дополненным (AR)** , включая **датчики** и **подключенные к головным выдисплеям** в **Интернете**. API устройства Вебкср в настоящее время доступен в Microsoft погранично, а версия Chrome 79 и более поздних версий поддерживает Вебкср по умолчанию. Последнюю версию поддержки браузера для Вебкср можно узнать по адресу [caniuse.com](https://caniuse.com/#search=webxr).
 
-Узнайте больше о [Windows Mixed Reality и новом Microsoft ребре](https://docs.microsoft.com/windows/mixed-reality/new-microsoft-edge#introducing-the-new-microsoft-edge)в разделе [новые](https://docs.microsoft.com/windows/mixed-reality/mrtk-porting-guide) возможности.
+Узнайте больше о [Windows Mixed Reality и новом Microsoft ребре](/windows/mixed-reality/new-microsoft-edge#introducing-the-new-microsoft-edge)в разделе [новые](/windows/mixed-reality/mrtk-porting-guide) возможности.
 
 ## <a name="viewing-webxr"></a>Просмотр Вебкср
 
@@ -36,9 +36,9 @@ ms.locfileid: "98006944"
 * [Документация по API устройства Вебкср](https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API)
 * [Иммерсивевеб. dev](https://immersiveweb.dev/)
 * [Примеры Вебкср](https://immersive-web.github.io/webxr-samples/)
-* [Windows Mixed Reality и новая Microsoft ребро](https://docs.microsoft.com/windows/mixed-reality/new-microsoft-edge#introducing-the-new-microsoft-edge)
+* [Windows Mixed Reality и новая Microsoft ребро](/windows/mixed-reality/new-microsoft-edge#introducing-the-new-microsoft-edge)
 * [Иммерсивное веб-сайт W3C GitHub](https://github.com/immersive-web)
-* [API WebGL](https://msdn.microsoft.com/library/bg182648(v=vs.85).aspx)
+* [API WebGL](/previous-versions/windows/internet-explorer/ie-developer/dev-guides/bg182648(v=vs.85))
 * Расширения [API](https://msdn.microsoft.com/library/dn743630(v=vs.85).aspx) и [игровой](https://w3c.github.io/gamepad/extensions.html) планшета
 * [Обработка потерянного контекста в WebGL](https://www.khronos.org/webgl/wiki/HandlingContextLost)
 * [поинтерлокк](https://www.w3.org/TR/pointerlock/)

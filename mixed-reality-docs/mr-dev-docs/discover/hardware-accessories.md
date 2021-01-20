@@ -6,18 +6,18 @@ ms.author: mazeller
 ms.date: 05/20/2020
 ms.topic: article
 keywords: практические руководства, аксессуары, Bluetooth, BT, контроллер, игровой планшет, щелчки, Xbox, оборудование, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, контроллер движения
-ms.openlocfilehash: aaed865f3fd2f722ce287bd2362299f785af05dc
-ms.sourcegitcommit: 8d3b84d2aa01f078ecf92cec001a252e3ea7b24d
+ms.openlocfilehash: b9a58a34a88de01d1d2351ff0a5efbe4f99298db
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "97757722"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583325"
 ---
 # <a name="hardware-accessories"></a>Аксессуары к оборудованию
 
 Устройства Windows Mixed Reality поддерживают аксессуары. Вы можете использовать порты Bluetooth или USB для связывания поддерживаемых аксессуаров с увлекательной гарнитурой компьютера.
 
-Сведения об использовании стандартных устройств Bluetooth с HoloLens см. в разделе [Подключение к устройствам Bluetooth и USB-C](https://docs.microsoft.com/hololens/hololens-connect-devices).
+Сведения об использовании стандартных устройств Bluetooth с HoloLens см. в разделе [Подключение к устройствам Bluetooth и USB-C](/hololens/hololens-connect-devices).
 
 Для впечатляющих головных телефонов Windows Mixed Reality требуются Аксессуары для ввода данных, выходящих за пределы [взгляда](../design/gaze-and-commit.md) и [голоса](../design/voice-input.md). Поддерживаемые аксессуары включают в себя **клавиатуру, мышь**, **игровой планшет** и **[контроллеры движения](../design/motion-controllers.md)**.
 

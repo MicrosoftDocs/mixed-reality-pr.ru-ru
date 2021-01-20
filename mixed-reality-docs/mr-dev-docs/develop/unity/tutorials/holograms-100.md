@@ -6,12 +6,12 @@ ms.author: kurtie
 ms.date: 10/22/2019
 ms.topic: article
 keywords: Смешанная реальность, Windows Mixed Reality, HoloLens, иммерсивное, VR, MR, начало работы, голограмма, Academy, учебник, Academy Mixed Reality, Unity, Смешанная реальность, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 7b316314d7aa693e8be9006b2c5578c1bae7e3ff
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 86ac759cb73e39f88d62db5dab0c38108bb17d55
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98006514"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583738"
 ---
 # <a name="mr-basics-100-getting-started-with-unity"></a>100. Основы смешанной реальности: начало работы с Unity
 
@@ -24,7 +24,7 @@ ms.locfileid: "98006514"
 
 <table>
 <tr>
-<th>Курс</th><th style="width:150px"> <a href="../../../hololens-hardware-details.md">HoloLens</a></th><th style="width:150px"> <a href="../../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></th>
+<th>Курс</th><th style="width:150px"> <a href="/hololens/hololens1-hardware">HoloLens</a></th><th style="width:150px"> <a href="../../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></th>
 </tr><tr>
 <td>100. Основы смешанной реальности: начало работы с Unity</td><td style="text-align: center;"> ✔️</td><td style="text-align: center;"> ✔️</td>
 </tr>
@@ -154,7 +154,7 @@ ms.locfileid: "98006514"
 2. Откройте **окно > XR > с эмуляцией holographic**.
 3. Измените **режим эмуляции** с **нет** на **Удаленный с устройством**.
 4. В поле **Удаленный компьютер** введите IP-адрес HoloLens, записанный ранее.
-5. Нажмите кнопку **Соединить**.
+5. Щелкните **Подключить**.
 6. Убедитесь, что **состояние подключения** изменено на зеленый **подключен**.
 7. Теперь можно нажать кнопку **воспроизвести** в редакторе Unity.
 

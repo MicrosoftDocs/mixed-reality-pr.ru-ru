@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 3/26/2019
 ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, производительность, оптимизация, ЦП, GPU
-ms.openlocfilehash: ff3db5d49ddab13a20c4c32de8e5640fff4f0d81
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 68aae6408a59b197227ab8cd9042e11f8a255d10
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98008474"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583080"
 ---
 # <a name="understanding-performance-for-mixed-reality"></a>Основные сведения о производительности смешанной реальности
 
@@ -21,7 +21,7 @@ ms.locfileid: "98008474"
 
 | Платформа | Частота целевых кадров |
 |----------|-------------------|
-| [HoloLens](../../hololens-hardware-details.md) | 60 кадров/с |
+| [HoloLens](/hololens/hololens1-hardware) | 60 кадров/с |
 | [Портативные компьютеры Windows Mixed Reality](../../discover/immersive-headset-hardware-details.md) | 90 КАДРОВ/С |
 | [Компьютеры Windows Mixed Reality](../../discover/immersive-headset-hardware-details.md) | 60 кадров/с |
 
@@ -46,7 +46,7 @@ ms.locfileid: "98008474"
 
 Ниже приведены некоторые распространенные средства, помогающие собрать подробные сведения о профилировании для приложения.
 - [Анализаторы производительности графики Intel](https://software.intel.com/gpa)
-- [Отладчики графики Visual Studio](https://docs.microsoft.com/visualstudio/debugger/graphics/visual-studio-graphics-diagnostics)
+- [Отладчики графики Visual Studio](/visualstudio/debugger/graphics/visual-studio-graphics-diagnostics)
 - [Профилировщик Unity](https://docs.unity3d.com/Manual/Profiler.html)
 - [Отладчик фреймов Unity](https://docs.unity3d.com/Manual/FrameDebugger.html)
 
@@ -100,7 +100,7 @@ ms.locfileid: "98008474"
 
 #### <a name="reduce-polygon-count"></a>Уменьшить число многоугольников
 
-Чем больше число многоугольников, тем больше операций для GPU, тем самым [уменьшая количество многоугольников](https://docs.microsoft.com/dynamics365/mixed-reality/import-tool/optimize-models#performance-targets) в сцене, тем меньше время визуализации. Есть и другие факторы, которые делают геометрические объекты геометрическими, но количество многоугольников является самой простой метрикой, определяющей объем работы, которую займет визуализация сцены.
+Чем больше число многоугольников, тем больше операций для GPU, тем самым [уменьшая количество многоугольников](/dynamics365/mixed-reality/import-tool/optimize-models#performance-targets) в сцене, тем меньше время визуализации. Есть и другие факторы, которые делают геометрические объекты геометрическими, но количество многоугольников является самой простой метрикой, определяющей объем работы, которую займет визуализация сцены.
 
 #### <a name="limit-overdraw"></a>Ограничение перерисовки
 
@@ -139,6 +139,5 @@ ms.locfileid: "98008474"
 ## <a name="see-also"></a>См. также раздел
 - [Рекомендации по производительности для Unity](../unity/performance-recommendations-for-unity.md)
 - [Рекомендуемые параметры для Unity](../unity/recommended-settings-for-unity.md)
-- [Оптимизация трехмерных моделей](https://docs.microsoft.com/dynamics365/mixed-reality/import-tool/optimize-models#performance-targets)
-- [Рекомендации по преобразованию и оптимизации трехмерных моделей в режиме реального времени](https://docs.microsoft.com/dynamics365/mixed-reality/import-tool/best-practices)
-
+- [Оптимизация трехмерных моделей](/dynamics365/mixed-reality/import-tool/optimize-models#performance-targets)
+- [Рекомендации по преобразованию и оптимизации трехмерных моделей в режиме реального времени](/dynamics365/mixed-reality/import-tool/best-practices)

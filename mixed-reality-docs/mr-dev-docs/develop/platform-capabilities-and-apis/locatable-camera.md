@@ -6,16 +6,16 @@ ms.author: wguyman
 ms.date: 06/12/2019
 ms.topic: article
 keywords: Камера, hololens, цветовая камера, лицевая сторона, hololens 2, ОПС, компьютерное зрение, фидуЦиал, маркеры, QR-код, QR-, Фото, видео
-ms.openlocfilehash: 9261465f362e6aa0e97d9f6b1f61af305c178079
-ms.sourcegitcommit: c41372e0c6ca265f599bff309390982642d628b8
+ms.openlocfilehash: bc478aa658b26eb3a4efb16c62d0874b12992e78
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97530376"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583621"
 ---
 # <a name="locatable-camera"></a>Камера с определяемым местоположением
 
-HoloLens включает в себя камеру, подключенную к передней части устройства, что позволяет приложениям видеть, что видит пользователь. У разработчиков есть доступ к камере и управление ей, точно так же, как и для цветных камер на смартфонах, портативных компьютерах или настольных ПК. Те же универсальные функции [захвата мультимедиа Windows Media](https://msdn.microsoft.com/library/windows/apps/windows.media.capture.mediacapture.aspx) и Windows Media Foundation, которые работают с мобильными и рабочим столами в HoloLens. Unity [переносит эти API Windows](../unity/locatable-camera-in-unity.md) в абстрактные функции использования камеры в HoloLens. К задачам функций относятся обычные фотографии и видеоролики (с голограммами или без них), а также расположение камеры в и перспективы на сцене.
+HoloLens включает в себя камеру, подключенную к передней части устройства, что позволяет приложениям видеть, что видит пользователь. У разработчиков есть доступ к камере и управление ей, точно так же, как и для цветных камер на смартфонах, портативных компьютерах или настольных ПК. Те же универсальные функции [захвата мультимедиа Windows Media](/uwp/api/Windows.Media.Capture.MediaCapture) и Windows Media Foundation, которые работают с мобильными и рабочим столами в HoloLens. Unity [переносит эти API Windows](../unity/locatable-camera-in-unity.md) в абстрактные функции использования камеры в HoloLens. К задачам функций относятся обычные фотографии и видеоролики (с голограммами или без них), а также расположение камеры в и перспективы на сцене.
 
 ## <a name="device-camera-information"></a>Сведения о камере устройства
 
@@ -25,7 +25,7 @@ HoloLens включает в себя камеру, подключенную к 
 * Белый индикатор конфиденциальности, направленный на мир, будет загораться каждый раз, когда камера активна
 * Камера поддерживает следующие режимы (все режимы — 16:9 пропорций) в 30, 24, 20, 15 и 5 кадров/с.
 
-  |  Видео  |  Preview (Предварительный просмотр)  |  Могут  |  Горизонтальное поле представления (H-фов) |  Предлагаемое использование | 
+  |  Видео  |  Предварительный просмотр  |  Могут  |  Горизонтальное поле представления (H-фов) |  Предлагаемое использование | 
   |----------|----------|----------|----------|----------|
   |  1280 x 720 |  1280 x 720 |  1280 x 720 |  45 градусов  |  (режим по умолчанию с видео стабилизации) | 
   |  Н/Д |  Н/Д |  2048x1152 |  67 градусов |  Изображение с наивысшим разрешением по-прежнему | 
@@ -37,10 +37,10 @@ HoloLens включает в себя камеру, подключенную к 
 
 * Автоматическое фокусирование фотографии и Видеокамеры (ПС) с автобалансом белого, автоматической экспозицией и полным конвейером обработки образов.
 * Белый индикатор конфиденциальности, направленный на мир, будет освещен всякий раз, когда камера активна.
-* HoloLens 2 поддерживает различные профили камеры. Узнайте, как [обнаруживать и выбирать возможности камеры](https://docs.microsoft.com//windows/uwp/audio-video-camera/camera-profiles).
+* HoloLens 2 поддерживает различные профили камеры. Узнайте, как [обнаруживать и выбирать возможности камеры](//windows/uwp/audio-video-camera/camera-profiles).
 * Камера поддерживает следующие профили и разрешения (все видеорежимы имеют соотношение пропорций 16:9):
   
-  | Профиль                                         | Видео     | Preview (Предварительный просмотр)   | Могут     | Частота кадров | Горизонтальное поле представления (H-фов) | Предлагаемое использование                             |
+  | Профиль                                         | Видео     | Предварительный просмотр   | Могут     | Частота кадров | Горизонтальное поле представления (H-фов) | Предлагаемое использование                             |
   |-------------------------------------------------|-----------|-----------|-----------|-------------|----------------------------------|---------------------------------------------|
   | Прежние, 0 Баланцедвидеоандфото, 100             | 2272x1278 | 2272x1278 |           | 15,30       | 64,69                            | Высококачественная запись видео                |
   | Прежние, 0 Баланцедвидеоандфото, 100             | 896x504   | 896x504   |           | 15,30       | 64,69                            | Предварительный просмотр потока для записи фотографий высокого качества |
@@ -59,7 +59,7 @@ HoloLens включает в себя камеру, подключенную к 
   | Видеоконференции, 100 Баланцедвидеоандфото, 120 | 424x240   |           |           | 15, 30       | 64,69                            | Видеоконференции, сценарии длительной длительности |
 
 > [!NOTE]
-> Клиенты могут использовать [запись смешанной реальности](../../mixed-reality-capture.md) , чтобы принимать видео или фотографии приложения, включая голограммы и видео стабилизации.
+> Клиенты могут использовать [запись смешанной реальности](/hololens/holographic-photos-and-videos) , чтобы принимать видео или фотографии приложения, включая голограммы и видео стабилизации.
 >
 >В качестве разработчика необходимо учитывать вопросы, которые следует учитывать при создании приложения, если вы хотите, чтобы он был как можно более хорошим, когда клиент захватывает содержимое. Вы также можете включить (и настроить) запись смешанной реальности непосредственно в приложении. Узнайте больше о [записи смешанной реальности для разработчиков](mixed-reality-capture-for-developers.md).
 
@@ -75,20 +75,20 @@ HoloLens включает в себя камеру, подключенную к 
 
 ### <a name="using-mediaframereference"></a>Использование Медиафрамереференце
 
-Эти инструкции применяются, если йоу'р использует класс [медиафрамереференце](https://docs.microsoft.com//uwp/api/windows.media.capture.frames.mediaframereference) для чтения кадров изображения с камеры.
+Эти инструкции применяются, если йоу'р использует класс [медиафрамереференце](//uwp/api/windows.media.capture.frames.mediaframereference) для чтения кадров изображения с камеры.
 
-Каждый кадр изображения (фото или видео) включает в себя [спатиалкурдинатесистем](https://docs.microsoft.com//uwp/api/windows.perception.spatial.spatialcoordinatesystem) с корнем на камере во время записи, доступ к которому можно получить с помощью свойства [курдинатесистем](https://docs.microsoft.com//uwp/api/windows.media.capture.frames.mediaframereference.coordinatesystem#Windows_Media_Capture_Frames_MediaFrameReference_CoordinateSystem) [медиафрамереференце](https://docs.microsoft.com//uwp/api/Windows.Media.Capture.Frames.MediaFrameReference). Каждый кадр содержит описание модели линзы, которое можно найти в свойстве [камераинтринсикс](https://docs.microsoft.com//uwp/api/windows.media.capture.frames.videomediaframe.cameraintrinsics#Windows_Media_Capture_Frames_VideoMediaFrame_CameraIntrinsics) . Вместе эти преобразования определяются для каждого пикселя в трехмерном пространстве, представляющем путь, взятый фотоны, который создал пиксель. Эти лучи могут быть связаны с другим содержимым в приложении путем получения преобразования из системы координат кадра в другую систему координат (например, из [стационарной рамки ссылки](../../design/coordinate-systems.md#stationary-frame-of-reference)). 
+Каждый кадр изображения (фото или видео) включает в себя [спатиалкурдинатесистем](//uwp/api/windows.perception.spatial.spatialcoordinatesystem) с корнем на камере во время записи, доступ к которому можно получить с помощью свойства [курдинатесистем](//uwp/api/windows.media.capture.frames.mediaframereference.coordinatesystem#Windows_Media_Capture_Frames_MediaFrameReference_CoordinateSystem) [медиафрамереференце](//uwp/api/Windows.Media.Capture.Frames.MediaFrameReference). Каждый кадр содержит описание модели линзы, которое можно найти в свойстве [камераинтринсикс](//uwp/api/windows.media.capture.frames.videomediaframe.cameraintrinsics#Windows_Media_Capture_Frames_VideoMediaFrame_CameraIntrinsics) . Вместе эти преобразования определяются для каждого пикселя в трехмерном пространстве, представляющем путь, взятый фотоны, который создал пиксель. Эти лучи могут быть связаны с другим содержимым в приложении путем получения преобразования из системы координат кадра в другую систему координат (например, из [стационарной рамки ссылки](../../design/coordinate-systems.md#stationary-frame-of-reference)). 
 
 Каждый кадр изображения предоставляет следующие сведения:
 * Пиксельные данные (в формате RGB/NV12/JPEG/т. д.)
-* [Спатиалкурдинатесистем](https://docs.microsoft.com//uwp/api/windows.perception.spatial.spatialcoordinatesystem) из расположения записи
-* Класс [камераинтринсикс](https://docs.microsoft.com//uwp/api/windows.media.capture.frames.videomediaframe.cameraintrinsics#Windows_Media_Capture_Frames_VideoMediaFrame_CameraIntrinsics) , содержащий режим линзы камеры
+* [Спатиалкурдинатесистем](//uwp/api/windows.perception.spatial.spatialcoordinatesystem) из расположения записи
+* Класс [камераинтринсикс](//uwp/api/windows.media.capture.frames.videomediaframe.cameraintrinsics#Windows_Media_Capture_Frames_VideoMediaFrame_CameraIntrinsics) , содержащий режим линзы камеры
 
 [Образец холографикфацетраккинг](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/HolographicFaceTracking) показывает довольно простой способ запроса преобразования между системой координат камеры и собственными системами координат приложения.
 
 ### <a name="using-media-foundation"></a>Использование Media Foundation
 
-Если вы используете Media Foundation непосредственно для чтения кадров изображения с камеры, можно использовать [атрибуты MFSampleExtension_CameraExtrinsics](https://docs.microsoft.com/windows/win32/medfound/mfsampleextension-cameraextrinsics) и [MFSampleExtension_PinholeCameraIntrinsics](https://docs.microsoft.com/windows/win32/medfound/mfsampleextension-pinholecameraintrinsics) для каждого кадра, чтобы нахождение кадров камеры относительно других систем координат вашего приложения, как показано в следующем примере кода:
+Если вы используете Media Foundation непосредственно для чтения кадров изображения с камеры, можно использовать [атрибуты MFSampleExtension_CameraExtrinsics](/windows/win32/medfound/mfsampleextension-cameraextrinsics) и [MFSampleExtension_PinholeCameraIntrinsics](/windows/win32/medfound/mfsampleextension-pinholecameraintrinsics) для каждого кадра, чтобы нахождение кадров камеры относительно других систем координат вашего приложения, как показано в следующем примере кода:
 
 ```cpp
 #include <winrt/windows.perception.spatial.preview.h>
@@ -259,7 +259,7 @@ public static Vector3 ClosestPointBetweenRays(
 ## <a name="see-also"></a>См. также раздел
 * [Пример камеры размещаемые](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/HolographicFaceTracking)
 * [Камера с определяемым местоположением в Unity](../unity/locatable-camera-in-unity.md)
-* [Смешанный захват реальности](../../mixed-reality-capture.md)
+* [Смешанный захват реальности](/hololens/holographic-photos-and-videos)
 * [Съемка смешанной реальности для разработчиков](mixed-reality-capture-for-developers.md)
-* [Введение в запись носителя](https://msdn.microsoft.com/library/windows/apps/mt243896.aspx)
+* [Введение в запись носителя](/windows/uwp/audio-video-camera/)
 * [Пример отслеживания с "holographic лиц"](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/HolographicFaceTracking)

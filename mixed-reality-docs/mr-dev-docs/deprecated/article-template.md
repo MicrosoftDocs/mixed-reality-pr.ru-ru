@@ -6,12 +6,12 @@ ms.author: randyw
 ms.date: 10/22/2019
 ms.topic: article
 keywords: нет
-ms.openlocfilehash: 1fc560d170c4e17f4d70b7068474a1aabda472a2
-ms.sourcegitcommit: 3762d207d3b5f4a1d932197aae7a4fae4baec960
+ms.openlocfilehash: 246e87ace1c0b3edf5e9f4829a5a0879cddf7279
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "97676137"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583178"
 ---
 # <a name="title-be-as-specific-as-possible-use-human-terms"></a>Название (должно быть как можно точнее, использовать человеческие термины) 
 
@@ -31,8 +31,8 @@ ms.locfileid: "97676137"
     <col width="22%" />
 </colgroup>
 <tr>
-     <td><strong>Компонент</strong></td>
-     <td><a href="../hololens-hardware-details.md"><strong>HoloLens (1-го поколения)</strong></a></td>
+     <td><strong>Возможность</strong></td>
+     <td><a href="/hololens/hololens1-hardware"><strong>HoloLens (1-го поколения)</strong></a></td>
      <td><a href="https://docs.microsoft.com/hololens/hololens2-hardware"><strong>HoloLens 2</strong></td>
      <td><a href="../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
 </tr>
@@ -233,7 +233,7 @@ Neo-географическое Управление структурой че�
 
 ---
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 * [Название связанной статьи 1](../design/design.md)
 * [Название связанной статьи 2](../design/design.md)

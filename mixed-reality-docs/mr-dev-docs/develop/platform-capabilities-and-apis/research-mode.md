@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 07/31/2020
 ms.topic: article
 keywords: Режим исследований, ОПС, RS4, компьютерное зрение, исследование, HoloLens, HoloLens 2
-ms.openlocfilehash: 6c40ac814a5dacfdbb942aec8200f46157bea161
-ms.sourcegitcommit: c41372e0c6ca265f599bff309390982642d628b8
+ms.openlocfilehash: c8e626969f87eda8b686ba759a167a2bf48e3277
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97530091"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583132"
 ---
 # <a name="hololens-research-mode"></a>Режим исследования в HoloLens
 
@@ -44,7 +44,7 @@ ms.locfileid: "97530091"
 
 ## <a name="security-and-performance"></a>Безопасность и производительность
 
-Включение режима исследований использует больше энергии аккумулятора, чем использование HoloLens 2 при нормальных условиях, даже если приложение, использующее функции режима исследования, не запущено.  Включение этого режима может также снизить общую безопасность устройства, так как приложения могут использовать данные датчика неверно.  Дополнительные сведения о безопасности устройств можно найти в [разделе вопросы и ответы о безопасности HoloLens](https://docs.microsoft.com/hololens/hololens-faq-security).  
+Включение режима исследований использует больше энергии аккумулятора, чем использование HoloLens 2 при нормальных условиях, даже если приложение, использующее функции режима исследования, не запущено.  Включение этого режима может также снизить общую безопасность устройства, так как приложения могут использовать данные датчика неверно.  Дополнительные сведения о безопасности устройств можно найти в [разделе вопросы и ответы о безопасности HoloLens](/hololens/hololens-faq-security).  
 
 ## <a name="device-support"></a>Поддержка устройств
 <table>
@@ -53,9 +53,9 @@ ms.locfileid: "97530091"
     <col width="33%" />
     <col width="33%" /> </colgroup>
     <tr>
-        <td><strong>Компонент</strong></td>
-        <td><a href="https://docs.microsoft.com/hololens/hololens1-hardware"><strong>HoloLens первого поколения</strong></a></td>
-        <td><a href="https://docs.microsoft.com/hololens/hololens2-hardware"><strong>HoloLens 2</strong></a></td>
+        <td><strong>Возможность</strong></td>
+        <td><a href="/hololens/hololens1-hardware"><strong>HoloLens первого поколения</strong></a></td>
+        <td><a href="/hololens/hololens2-hardware"><strong>HoloLens 2</strong></a></td>
     </tr>
      <tr>
         <td>Камеры для отслеживания головного подразделения</td>
@@ -92,7 +92,7 @@ ms.locfileid: "97530091"
 * Выберите **для разработчиков** и включите **режим разработчика**.
 * Прокрутите вниз и включите **Портал устройств**.
 
-После включения функций [для разработчиков подключитесь к порталу устройств](https://docs.microsoft.com/windows/uwp/debug-test-perf/device-portal-hololens) , чтобы включить функции режима исследования:
+После включения функций [для разработчиков подключитесь к порталу устройств](/windows/uwp/debug-test-perf/device-portal-hololens) , чтобы включить функции режима исследования:
 
 * Перейдите в **режим "система > исследований** " на **портале устройств**.
 * Выберите **Разрешить доступ к потоку датчика**.
@@ -104,15 +104,15 @@ ms.locfileid: "97530091"
 *Окно режима исследований на портале устройств HoloLens*
 
 > [!IMPORTANT]
-> Режим исследования для HoloLens 2 доступен начиная с сборки 19041,1356. Если вам нужен доступ в более ранней сборке, зарегистрируйтесь для получения [предварительной версии программы предварительной оценки](https://docs.microsoft.com/hololens/hololens-insider) .
+> Режим исследования для HoloLens 2 доступен начиная с сборки 19041,1356. Если вам нужен доступ в более ранней сборке, зарегистрируйтесь для получения [предварительной версии программы предварительной оценки](/hololens/hololens-insider) .
 
 ### <a name="using-sensor-data-in-your-apps"></a>Использование данных датчика в приложениях
 
-Приложения могут получать доступ к данным потока датчика так же, как [Media Foundation](https://msdn.microsoft.com/library/windows/desktop/ms694197) доступ к потокам фото и видео. 
+Приложения могут получать доступ к данным потока датчика так же, как [Media Foundation](/windows/win32/medfound/microsoft-media-foundation-sdk) доступ к потокам фото и видео. 
 
 Все API-интерфейсы, работающие для разработки HoloLens, также доступны в режиме исследований. В частности, приложение точно знает, где HoloLens находится в 6DoF пространстве во время записи каждого кадра датчика.
 
-У нас есть образцы приложений, демонстрирующие доступ к потоку в режиме исследований, использование [встроенных функций и внешних](https://docs.microsoft.com/windows/mixed-reality/locatable-camera#locating-the-device-camera-in-the-world)компонентов, а также запись потоков:
+У нас есть образцы приложений, демонстрирующие доступ к потоку в режиме исследований, использование [встроенных функций и внешних](/windows/mixed-reality/locatable-camera#locating-the-device-camera-in-the-world)компонентов, а также запись потоков:
 * [HoloLens (первый общий)](https://github.com/Microsoft/HoloLensForCV)
 * [HoloLens 2](https://github.com/microsoft/HoloLens2ForCV)
 
@@ -124,7 +124,7 @@ ms.locfileid: "97530091"
 
 ## <a name="see-also"></a>См. также раздел
 
-* [Microsoft Media Foundation](https://msdn.microsoft.com/library/windows/desktop/ms694197)
+* [Microsoft Media Foundation](/windows/win32/medfound/microsoft-media-foundation-sdk)
 * [Репозиторий GitHub Хололенсфоркв](https://github.com/Microsoft/HoloLensForCV)
 * [Репозиторий GitHub HoloLens2ForCV](https://github.com/microsoft/HoloLens2ForCV)
 * [Использование портала устройств Windows](using-the-windows-device-portal.md)

@@ -6,12 +6,12 @@ ms.author: jlyons
 ms.date: 02/24/2019
 ms.topic: article
 keywords: HoloLens, тестирование
-ms.openlocfilehash: d26a3717da2ee9943e92e3602b6029435815262b
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: b6f1c6bcff9f9db1a1fb7f5b3ea9d2c4c2be969a
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98008544"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583761"
 ---
 # <a name="testing-your-app-on-hololens"></a>Тестирование приложения на устройстве HoloLens
 
@@ -111,7 +111,7 @@ ms.locfileid: "98008544"
 
 ## <a name="windows-app-certification-kit"></a>Комплект сертификации приложений для Windows
 
-Чтобы предоставить приложению наилучшую возможность [публикации в магазине Windows](../../distribute/submitting-an-app-to-the-microsoft-store.md), проверьте и протестируйте его локально перед отправкой на сертификацию. Если приложение предназначено для семейства устройств Windows. holographic, [Комплект сертификации приложений для Windows](https://msdn.microsoft.com/library/windows/apps/xaml/mt186449.aspx) будет выполнять на компьютере только локальные статические тесты анализа. На HoloLens не будут выполняться тесты.
+Чтобы предоставить приложению наилучшую возможность [публикации в магазине Windows](../../distribute/submitting-an-app-to-the-microsoft-store.md), проверьте и протестируйте его локально перед отправкой на сертификацию. Если приложение предназначено для семейства устройств Windows. holographic, [Комплект сертификации приложений для Windows](/windows/uwp/debug-test-perf/windows-app-certification-kit) будет выполнять на компьютере только локальные статические тесты анализа. На HoloLens не будут выполняться тесты.
 
 ## <a name="see-also"></a>См. также раздел
 

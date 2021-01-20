@@ -6,16 +6,16 @@ ms.author: grbury
 ms.date: 06/30/2019
 ms.topic: article
 keywords: Galaxy Explorer, пример внедрения, проект, пример, МРТК, набор средств для смешанной реальности, Unity, примеры приложений, примеры приложений, Открытый исходный код, Microsoft Store, HoloLens, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: d3a31204275b2d2a9f1f1ea1c283993d2e0285ed
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 4a5df06009d2c9c25b12c8e7f4bd1622821964c8
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009584"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98582892"
 ---
 # <a name="the-making-of-galaxy-explorer-for-hololens-2"></a>Создание обозревателя Galaxy для HoloLens 2
 
-Добро пожаловать в обновленный обозреватель Galaxy для приложения HoloLens 2! [Galaxy Explorer](https://docs.microsoft.com/windows/mixed-reality/galaxy-explorer "Galaxy Explorer") изначально разрабатывался как приложение с открытым исходным кодом для HoloLens (первая публикация) с помощью программы поделиться своими идеями, и это одна из первых пользователей смешанной реальности. Теперь мы обновляем его для [новых и интересных возможностей HoloLens 2](https://www.microsoft.com/hololens/hardware).
+Добро пожаловать в обновленный обозреватель Galaxy для приложения HoloLens 2! [Galaxy Explorer](/windows/mixed-reality/galaxy-explorer "Galaxy Explorer") изначально разрабатывался как приложение с открытым исходным кодом для HoloLens (первая публикация) с помощью программы поделиться своими идеями, и это одна из первых пользователей смешанной реальности. Теперь мы обновляем его для [новых и интересных возможностей HoloLens 2](https://www.microsoft.com/hololens/hardware).
 
 Как один из [Studios Microsoft Mixed Reality](galaxy-explorer-update.md#mixed-reality-studios), мы обычно разрабатываем коммерческие решения и разрабатывают & тестирование на целевых платформах в рамках процесса творческого и разрабатываемого. Мы начинать на этот проект, используя платформы и средства (например, [мртк](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/GettingStartedWithTheMRTK.html)), которые становятся доступными нам и сообществом, и мы хотим перехватить вас.
 

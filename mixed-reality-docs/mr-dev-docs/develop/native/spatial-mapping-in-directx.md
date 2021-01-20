@@ -6,12 +6,12 @@ ms.author: mriches
 ms.date: 08/04/2020
 ms.topic: article
 keywords: Windows Mixed Reality, пространственное сопоставление, среда, взаимодействие, DirectX, WinRT, API, пример кода, UWP, пакет SDK, пошаговое руководство
-ms.openlocfilehash: bcd78487e96aaf09707aa4bf58917223cc2e8583
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 19479a4efb577bad629e46b59334f0d23b0b2db4
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98006714"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583772"
 ---
 # <a name="spatial-mapping-in-directx"></a>Пространственное сопоставление в DirectX
 
@@ -36,7 +36,7 @@ ms.locfileid: "98006714"
     </colgroup>
     <tr>
         <td><strong>Возможность</strong></td>
-        <td><a href="../../hololens-hardware-details.md"><strong>HoloLens (1-го поколения)</strong></a></td>
+        <td><a href="/hololens/hololens1-hardware"><strong>HoloLens (1-го поколения)</strong></a></td>
         <td><a href="https://docs.microsoft.com/hololens/hololens2-hardware"><strong>HoloLens 2</strong></td>
         <td><a href="../../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
     </tr>
@@ -50,35 +50,35 @@ ms.locfileid: "98006714"
 
 ## <a name="directx-development-overview"></a>Обзор разработки в DirectX
 
-При разработке собственного приложения для пространственного сопоставления используются API-интерфейсы в пространстве имен [Windows. восприятие. пространственный.](https://msdn.microsoft.com/library/windows/apps/windows.perception.spatial.aspx) Эти API предоставляют полный контроль над функциями пространственного сопоставления, точно так же, как интерфейсы API пространственного сопоставления предоставляются [Unity](../unity/spatial-mapping-in-unity.md).
+При разработке собственного приложения для пространственного сопоставления используются API-интерфейсы в пространстве имен [Windows. восприятие. пространственный.](/uwp/api/Windows.Perception.Spatial) Эти API предоставляют полный контроль над функциями пространственного сопоставления, точно так же, как интерфейсы API пространственного сопоставления предоставляются [Unity](../unity/spatial-mapping-in-unity.md).
 
 ### <a name="perception-apis"></a>API-интерфейсы восприятия
 
 Ниже приведены основные типы, предоставляемые для разработки пространственных сопоставлений.
-* [Спатиалсурфацеобсервер](https://msdn.microsoft.com/library/windows/apps/windows.perception.spatial.surfaces.spatialsurfaceobserver.aspx) предоставляет сведения о поверхностях в указанных в приложении областях пространства рядом с пользователем в виде объектов спатиалсурфацеинфо.
-* [Спатиалсурфацеинфо](https://msdn.microsoft.com/library/windows/apps/windows.perception.spatial.surfaces.spatialsurfaceinfo.aspx) описывает одну пространственно екстантную поверхность, включая уникальный идентификатор, связанный том и время последнего изменения. Он предоставит Спатиалсурфацемеш асинхронно после запроса.
-* [Спатиалсурфацемешоптионс](https://msdn.microsoft.com/library/windows/apps/windows.perception.spatial.surfaces.spatialsurfacemeshoptions.aspx) содержит параметры, используемые для настройки объектов спатиалсурфацемеш, запрошенных из спатиалсурфацеинфо.
-* [Спатиалсурфацемеш](https://msdn.microsoft.com/library/windows/apps/windows.perception.spatial.surfaces.spatialsurfacemesh.aspx) представляет данные сетки для отдельной пространственной поверхности. Данные для позиций вершин, нормалей вершин и индексов треугольников содержатся в объектах-членах Спатиалсурфацемешбуффер.
-* [Спатиалсурфацемешбуффер](https://msdn.microsoft.com/library/windows/apps/windows.perception.spatial.surfaces.spatialsurfacemeshbuffer.aspx) заключает в оболочку один тип данных сетки.
+* [Спатиалсурфацеобсервер](/uwp/api/Windows.Perception.Spatial.Surfaces.SpatialSurfaceObserver) предоставляет сведения о поверхностях в указанных в приложении областях пространства рядом с пользователем в виде объектов спатиалсурфацеинфо.
+* [Спатиалсурфацеинфо](/uwp/api/Windows.Perception.Spatial.Surfaces.SpatialSurfaceInfo) описывает одну пространственно екстантную поверхность, включая уникальный идентификатор, связанный том и время последнего изменения. Он предоставит Спатиалсурфацемеш асинхронно после запроса.
+* [Спатиалсурфацемешоптионс](/uwp/api/Windows.Perception.Spatial.Surfaces.SpatialSurfaceMeshOptions) содержит параметры, используемые для настройки объектов спатиалсурфацемеш, запрошенных из спатиалсурфацеинфо.
+* [Спатиалсурфацемеш](/uwp/api/Windows.Perception.Spatial.Surfaces.SpatialSurfaceMesh) представляет данные сетки для отдельной пространственной поверхности. Данные для позиций вершин, нормалей вершин и индексов треугольников содержатся в объектах-членах Спатиалсурфацемешбуффер.
+* [Спатиалсурфацемешбуффер](/uwp/api/Windows.Perception.Spatial.Surfaces.SpatialSurfaceMeshBuffer) заключает в оболочку один тип данных сетки.
 
 При разработке приложения с использованием этих API основная последовательность программ будет выглядеть следующим образом (как показано в примере приложения, описанном ниже):
 - **Настройка Спатиалсурфацеобсервер**
-  - Вызовите [рекуестакцессасинк](https://msdn.microsoft.com/library/windows/apps/windows.perception.spatial.surfaces.spatialsurfaceobserver.requestaccessasync.aspx), чтобы убедиться, что пользователь предоставил разрешение на использование возможностей пространственного сопоставления устройства.
+  - Вызовите [рекуестакцессасинк](/uwp/api/Windows.Perception.Spatial.Surfaces.SpatialSurfaceObserver), чтобы убедиться, что пользователь предоставил разрешение на использование возможностей пространственного сопоставления устройства.
   - Создайте экземпляр объекта Спатиалсурфацеобсервер.
-  - Вызовите [сетбаундингволумес](https://msdn.microsoft.com/library/windows/apps/mt592747.aspx) , чтобы указать области пространства, в которых требуется получить сведения о пространственных поверхностях. Вы можете изменить эти регионы в будущем, вызвав эту функцию еще раз. Каждый регион указывается с помощью [спатиалбаундингволуме](https://msdn.microsoft.com/library/windows/apps/windows.perception.spatial.spatialboundingvolume.aspx).
-  - Зарегистрируйтесь на событие [обсерведсурфацесчанжед](https://msdn.microsoft.com/library/windows/apps/windows.perception.spatial.surfaces.spatialsurfaceobserver.observedsurfaceschanged.aspx) , которое будет срабатывать каждый раз, когда станут доступны новые сведения о пространственных областях в указанных регионах.
+  - Вызовите [сетбаундингволумес](/uwp/api/Windows.Perception.Spatial.Surfaces.SpatialSurfaceObserver) , чтобы указать области пространства, в которых требуется получить сведения о пространственных поверхностях. Вы можете изменить эти регионы в будущем, вызвав эту функцию еще раз. Каждый регион указывается с помощью [спатиалбаундингволуме](/uwp/api/Windows.Perception.Spatial.SpatialBoundingVolume).
+  - Зарегистрируйтесь на событие [обсерведсурфацесчанжед](/uwp/api/Windows.Perception.Spatial.Surfaces.SpatialSurfaceObserver) , которое будет срабатывать каждый раз, когда станут доступны новые сведения о пространственных областях в указанных регионах.
 - **Обработка событий Обсерведсурфацесчанжед**
-  - В обработчике событий вызовите [жетобсерведсурфацес](https://msdn.microsoft.com/library/windows/apps/windows.perception.spatial.surfaces.spatialsurfaceobserver.getobservedsurfaces.aspx) , чтобы получить карту объектов спатиалсурфацеинфо. С помощью этой схемы можно обновить записи, для которых существуют пространственные поверхности [в среде пользователя](../../design/spatial-mapping.md#mesh-caching).
-  - Для каждого объекта Спатиалсурфацеинфо можно запросить [трижетбаундс](https://msdn.microsoft.com/library/windows/apps/windows.perception.spatial.surfaces.spatialsurfaceinfo.trygetbounds.aspx) , чтобы определить пространственные экстенты поверхности, выраженные в [пространственной системе координат](../../design/coordinate-systems.md) по вашему выбору.
-  - Если вы решили запросить, сетку для пространственной поверхности, вызовите [трикомпутелатестмешасинк](https://msdn.microsoft.com/library/windows/apps/mt592715.aspx). Вы можете указать параметры, задающие плотность треугольников, и формат возвращаемых данных сетки.
+  - В обработчике событий вызовите [жетобсерведсурфацес](/uwp/api/Windows.Perception.Spatial.Surfaces.SpatialSurfaceObserver) , чтобы получить карту объектов спатиалсурфацеинфо. С помощью этой схемы можно обновить записи, для которых существуют пространственные поверхности [в среде пользователя](../../design/spatial-mapping.md#mesh-caching).
+  - Для каждого объекта Спатиалсурфацеинфо можно запросить [трижетбаундс](/uwp/api/Windows.Perception.Spatial.Surfaces.SpatialSurfaceInfo) , чтобы определить пространственные экстенты поверхности, выраженные в [пространственной системе координат](../../design/coordinate-systems.md) по вашему выбору.
+  - Если вы решили запросить, сетку для пространственной поверхности, вызовите [трикомпутелатестмешасинк](/uwp/api/Windows.Perception.Spatial.Surfaces.SpatialSurfaceInfo). Вы можете указать параметры, задающие плотность треугольников, и формат возвращаемых данных сетки.
 - **Сетка приема и обработки**
   - Каждый вызов Трикомпутелатестмешасинк будет асинхронно возвращать один объект Спатиалсурфацемеш.
-  - Из этого объекта можно получить доступ к содержащимся объектам Спатиалсурфацемешбуффер, которые предоставляют доступ к индексам треугольника, позициям вершин и нормалям вершин сетки, если вы запрашиваете их. Эти данные будут в формате, непосредственно совместимом с [API-интерфейсами Direct3D 11](https://msdn.microsoft.com/library/windows/desktop/ff476501(v=vs.85).aspx) , используемыми для отрисовки сеток.
+  - Из этого объекта можно получить доступ к содержащимся объектам Спатиалсурфацемешбуффер, которые предоставляют доступ к индексам треугольника, позициям вершин и нормалям вершин сетки, если вы запрашиваете их. Эти данные будут в формате, непосредственно совместимом с [API-интерфейсами Direct3D 11](/windows/win32/api/d3d11/nf-d3d11-id3d11device-createbuffer) , используемыми для отрисовки сеток.
   - Здесь приложение может при необходимости анализировать или [обрабатывать](../../design/spatial-mapping.md#mesh-processing) данные сетки, а также использовать их для [визуализации](../../design/spatial-mapping.md#rendering) и [райкастинг и конфликта](../../design/spatial-mapping.md#raycasting-and-collision).
-  - Важно отметить, что необходимо применить шкалу к позициям вершин сетки (например, в шейдере вершин, используемом для отрисовки сеток), чтобы преобразовать их из оптимизированных целых единиц, в которых они хранятся в буфере, на метры. Эту шкалу можно получить, вызвав [вертекспоситионскале](https://msdn.microsoft.com/library/windows/apps/windows.perception.spatial.surfaces.spatialsurfacemesh.vertexpositionscale.aspx).
+  - Важно отметить, что необходимо применить шкалу к позициям вершин сетки (например, в шейдере вершин, используемом для отрисовки сеток), чтобы преобразовать их из оптимизированных целых единиц, в которых они хранятся в буфере, на метры. Эту шкалу можно получить, вызвав [вертекспоситионскале](/uwp/api/Windows.Perception.Spatial.Surfaces.SpatialSurfaceMesh).
 
 ### <a name="troubleshooting"></a>Устранение неполадок
-* Не забудьте масштабировать позиции вершин сетки в шейдере вершин, используя шкалу, возвращенную [спатиалсурфацемеш. вертекспоситионскале](https://msdn.microsoft.com/library/windows/apps/windows.perception.spatial.surfaces.spatialsurfacemesh.vertexpositionscale.aspx)
+* Не забудьте масштабировать позиции вершин сетки в шейдере вершин, используя шкалу, возвращенную [спатиалсурфацемеш. вертекспоситионскале](/uwp/api/Windows.Perception.Spatial.Surfaces.SpatialSurfaceMesh)
 
 ## <a name="spatial-mapping-code-sample-walkthrough"></a>Пример пошагового руководства по коду пространственного сопоставления
 
@@ -88,7 +88,7 @@ ms.locfileid: "98006714"
 
 ### <a name="set-up-your-app-to-use-the-spatialperception-capability"></a>Настройка приложения для использования возможности Спатиалперцептион
 
-Приложение может использовать возможность пространственного сопоставления. Это необходимо потому, что пространственный сетчатый объект представляет собой представление среды пользователя, которое может считаться частными данными. Объявите эту возможность в файле Package. appxmanifest для приложения. Приведем пример:
+Приложение может использовать возможность пространственного сопоставления. Это необходимо потому, что пространственный сетчатый объект представляет собой представление среды пользователя, которое может считаться частными данными. Объявите эту возможность в файле Package. appxmanifest для приложения. Ниже приведен пример:
 
 ```xml
 <Capabilities>
@@ -96,7 +96,7 @@ ms.locfileid: "98006714"
 </Capabilities>
 ```
 
-Эта возможность поступает из пространства имен **uap2** . Чтобы получить доступ к этому пространству имен в манифесте, включите его в качестве атрибута *кслмнс* в &lt; элемент Package>. Приведем пример:
+Эта возможность поступает из пространства имен **uap2** . Чтобы получить доступ к этому пространству имен в манифесте, включите его в качестве атрибута *кслмнс* в &lt; элемент Package>. Ниже приведен пример:
 
 ```xml
 <Package
@@ -159,7 +159,7 @@ initSurfaceObserverTask.then([this, coordinateSystem](Windows::Perception::Spati
 
 ### <a name="create-a-surface-observer"></a>Создание наблюдателя Surface
 
-Пространство имен **Windows::P ерцептион:: spatial::** Surfaces включает класс [спатиалсурфацеобсервер](https://msdn.microsoft.com/library/windows/apps/windows.perception.spatial.surfaces.spatialsurfaceobserver.aspx) , который следит за одним или несколькими томами, указанными в [спатиалкурдинатесистем](https://msdn.microsoft.com/library/windows/apps/windows.perception.spatial.spatialcoordinatesystem.aspx). Используйте экземпляр [спатиалсурфацеобсервер](https://msdn.microsoft.com/library/windows/apps/windows.perception.spatial.surfaces.spatialsurfaceobserver.aspx) для доступа к данным сетки Surface в режиме реального времени.
+Пространство имен **Windows::P ерцептион:: spatial::** Surfaces включает класс [спатиалсурфацеобсервер](/uwp/api/Windows.Perception.Spatial.Surfaces.SpatialSurfaceObserver) , который следит за одним или несколькими томами, указанными в [спатиалкурдинатесистем](/uwp/api/Windows.Perception.Spatial.SpatialCoordinateSystem). Используйте экземпляр [спатиалсурфацеобсервер](/uwp/api/Windows.Perception.Spatial.Surfaces.SpatialSurfaceObserver) для доступа к данным сетки Surface в режиме реального времени.
 
 Из **аппмаин. h**:
 
@@ -219,7 +219,7 @@ m_surfaceObserver->SetBoundingVolume(
             );
 ```
 
-Если приложение должно выполнять какие-либо действия, если данные сопоставления поверхности недоступны, можно написать код для реагирования на случай, когда [спатиалперцептионакцессстатус](https://msdn.microsoft.com/library/windows/apps/windows.perception.spatial.spatialperceptionaccessstatus.aspx) не **разрешен** — например, он не будет разрешен на компьютерах с подключенными устройствами, так как эти устройства не имеют оборудования для пространственного сопоставления. Для этих устройств следует использовать пространственный этап для получения сведений о среде пользователя и конфигурации устройства.
+Если приложение должно выполнять какие-либо действия, если данные сопоставления поверхности недоступны, можно написать код для реагирования на случай, когда [спатиалперцептионакцессстатус](/uwp/api/Windows.Perception.Spatial.SpatialPerceptionAccessStatus) не **разрешен** — например, он не будет разрешен на компьютерах с подключенными устройствами, так как эти устройства не имеют оборудования для пространственного сопоставления. Для этих устройств следует использовать пространственный этап для получения сведений о среде пользователя и конфигурации устройства.
 
 ### <a name="initialize-and-update-the-surface-mesh-collection"></a>Инициализация и обновление коллекции сеток поверхности
 
@@ -250,7 +250,7 @@ m_surfaceObserver->ObservedSurfacesChanged += ref new TypedEventHandler<SpatialS
 
 **Примечание.** Это может быть не самым эффективным способом для работы приложения с данными сетки. Этот код написан для ясности и не оптимизирован.
 
-Данные сетки поверхности предоставляются в карте только для чтения, в которой хранятся объекты [спатиалсурфацеинфо](https://msdn.microsoft.com/library/windows/apps/windows.perception.spatial.surfaces.spatialsurfaceinfo.aspx) с использованием [Platform:: GUID](https://msdn.microsoft.com/library/windows/desktop/aa373931.aspx) в качестве значений ключа.
+Данные сетки поверхности предоставляются в карте только для чтения, в которой хранятся объекты [спатиалсурфацеинфо](/uwp/api/Windows.Perception.Spatial.Surfaces.SpatialSurfaceInfo) с использованием [Platform:: GUID](https://msdn.microsoft.com/library/windows/desktop/aa373931.aspx) в качестве значений ключа.
 
 ```cpp
 IMapView<Guid, SpatialSurfaceInfo^>^ const& surfaceCollection = sender->GetObservedSurfaces();
@@ -397,7 +397,7 @@ CreateDirectXBuffer(device, D3D11_BIND_VERTEX_BUFFER, positions, m_vertexPositio
 
 ### <a name="update-and-render-surface-meshes"></a>Обновление и отрисовка сеток поверхности
 
-Наш класс Сурфацемеш имеет специализированную функцию Update. Каждый [спатиалсурфацемеш](https://msdn.microsoft.com/library/windows/apps/windows.perception.spatial.surfaces.spatialsurfacemesh.aspx) имеет собственное преобразование, и в нашем примере используется текущая система координат для **спатиалстатионариреференцефраме** , чтобы получить преобразование. Затем он обновляет буфер констант модели на GPU.
+Наш класс Сурфацемеш имеет специализированную функцию Update. Каждый [спатиалсурфацемеш](/uwp/api/Windows.Perception.Spatial.Surfaces.SpatialSurfaceMesh) имеет собственное преобразование, и в нашем примере используется текущая система координат для **спатиалстатионариреференцефраме** , чтобы получить преобразование. Затем он обновляет буфер констант модели на GPU.
 
 ```cpp
 void SurfaceMesh::UpdateTransform(
@@ -678,4 +678,4 @@ m_meshCollection->Render(pCameraResources->IsRenderingStereoscopic(), false);
 
 ## <a name="see-also"></a>См. также раздел
 * [Создание голографического проекта в DirectX](creating-a-holographic-directx-project.md)
-* [API Windows. восприятие. пространственный](https://msdn.microsoft.com/library/windows/apps/windows.perception.spatial.aspx)
+* [API Windows. восприятие. пространственный](/uwp/api/Windows.Perception.Spatial)

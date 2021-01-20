@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 03/21/2018
 ms.topic: article
 keywords: покупки в приложении, hololens, XAML, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: a87cc68f67def1d46a3a6ba352e723d356f51fa2
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: dfc5a0cfcc7a4d63147a753c8892d65dfae5e495
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98008674"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98582950"
 ---
 # <a name="in-app-purchases"></a>Покупки из приложений
 
@@ -20,7 +20,7 @@ ms.locfileid: "98008674"
 Чтобы использовать функцию в функции приобретения приложений, необходимо выполнить следующие действия.
 * Создание 2D- [представления](../design/app-views.md) XAML для отображения в виде планшета
 * Переключитесь на него, чтобы активировать размещение, которое оставляет иммерсивное представление
-* Вызовите API: await [куррентапп. рекуестпродуктпурчасеасинк ("дураблеитемиапнаме");](https://docs.microsoft.com/uwp/api/windows.applicationmodel.store.currentapp#Windows_ApplicationModel_Store_CurrentApp_RequestProductPurchaseAsync_System_String_)
+* Вызовите API: await [куррентапп. рекуестпродуктпурчасеасинк ("дураблеитемиапнаме");](/uwp/api/windows.applicationmodel.store.currentapp#Windows_ApplicationModel_Store_CurrentApp_RequestProductPurchaseAsync_System_String_)
 
 Этот API отобразит всплывающее окно ОС Windows, в котором отображается название, описание и цена покупки в приложении. Затем пользователь может выбрать вариант приобретения. После завершения действия приложение должно будет представлять пользовательский интерфейс, что позволит пользователю вернуться к его [иммерсивное представление](../design/app-views.md).
 

@@ -6,12 +6,12 @@ ms.author: jemccull
 ms.date: 07/04/2018
 ms.topic: article
 keywords: Azure, пользовательское видение, обнаружение объектов, Смешанная реальность, Academy, Unity, учебник, API, hololens, Windows 10, Visual Studio
-ms.openlocfilehash: 8f625ebc1e40edaa6364567686c345386ea37dbf
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: edbd583c5361f8074dc57fedb66d6ab01df16de8
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98010174"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583478"
 ---
 # <a name="mr-and-azure-310-object-detection"></a>MR и Azure 310: обнаружение объектов
 
@@ -28,8 +28,8 @@ ms.locfileid: "98010174"
 
 **Пользовательское визуальное распознавание Azure, обнаружение объектов** — это служба Майкрософт, которая позволяет разработчикам создавать пользовательские классификаторы изображений. Эти классификаторы можно использовать с новыми образами для обнаружения объектов внутри этого нового изображения, предоставляя **границы рамки** в самом образе. Служба предоставляет простой, простой в использовании веб-портал для упрощения этого процесса. Дополнительные сведения см. по следующим ссылкам:
 
-* [Страница Пользовательское визуальное распознавание Azure](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/home)
-* [Ограничения и квоты](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/limits-and-quotas)
+* [Страница Пользовательское визуальное распознавание Azure](/azure/cognitive-services/custom-vision-service/home)
+* [Ограничения и квоты](/azure/cognitive-services/custom-vision-service/limits-and-quotas)
 
 После завершения этого курса у вас будет приложение смешанной реальности, которое сможет сделать следующее:
 
@@ -49,7 +49,7 @@ ms.locfileid: "98010174"
 
 <table>
 <tr>
-<th>Курс</th><th style="width:150px"> <a href="../../../hololens-hardware-details.md">HoloLens</a></th><th style="width:150px"> <a href="../../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></th>
+<th>Курс</th><th style="width:150px"> <a href="/hololens/hololens1-hardware">HoloLens</a></th><th style="width:150px"> <a href="../../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></th>
 </tr><tr>
 <td> 310. Смешанная реальность и Azure: обнаружение объектов</td><td style="text-align: center;"> ✔️</td><td style="text-align: center;"> </td>
 </tr>
@@ -63,23 +63,23 @@ ms.locfileid: "98010174"
 Для этого курса рекомендуется следующее оборудование и программное обеспечение:
 
 - ПК для разработки
-- [Windows 10 для дизайнеров с обновлением (или более поздней версии) с включенным режимом разработчика](https://docs.microsoft.com/windows/mixed-reality/install-the-tools#installation-checklist-for-hololens)
-- [Последний пакет SDK для Windows 10](https://docs.microsoft.com/windows/mixed-reality/install-the-tools#installation-checklist-for-hololens)
-- [Unity 2017,4 LTS](https://docs.microsoft.com/windows/mixed-reality/install-the-tools#installation-checklist-for-hololens)
-- [Visual Studio 2017](https://docs.microsoft.com/windows/mixed-reality/install-the-tools#installation-checklist-for-hololens)
-- [Microsoft HoloLens](https://docs.microsoft.com/windows/mixed-reality/hololens-hardware-details) с включенным режимом разработчика
+- [Windows 10 для дизайнеров с обновлением (или более поздней версии) с включенным режимом разработчика](/windows/mixed-reality/install-the-tools#installation-checklist-for-hololens)
+- [Последний пакет SDK для Windows 10](/windows/mixed-reality/install-the-tools#installation-checklist-for-hololens)
+- [Unity 2017,4 LTS](/windows/mixed-reality/install-the-tools#installation-checklist-for-hololens)
+- [Visual Studio 2017](/windows/mixed-reality/install-the-tools#installation-checklist-for-hololens)
+- [Microsoft HoloLens](/windows/mixed-reality/hololens-hardware-details) с включенным режимом разработчика
 - Доступ к Интернету для установки Azure и извлечения Пользовательская служба визуального распознавания
 -  Для каждого объекта, который необходимо распознать Пользовательское визуальное распознавание, требуется ряд по крайней мере пятнадцати (15) образов. При желании вы можете использовать образы, которые уже предоставлены в этом курсе, [серии – CUPS](https://github.com/Microsoft/HolographicAcademy/raw/Azure-MixedReality-Labs/Azure%20Mixed%20Reality%20Labs/MR%20and%20Azure%20310%20-%20Object%20detection/Cup%20Images.zip)).
 
 ## <a name="before-you-start"></a>Перед началом работы
 
 1.  Чтобы избежать проблем при создании этого проекта, настоятельно рекомендуется создать проект, упомянутый в этом руководстве, в корневой или ближайшем к корневой папке (длинные пути к папкам могут вызвать проблемы во время сборки).
-2.  Настройка и тестирование HoloLens. Если вам нужна поддержка по настройке HoloLens, [обязательно посетите статью Настройка hololens](https://docs.microsoft.com/hololens/hololens-setup). 
+2.  Настройка и тестирование HoloLens. Если вам нужна поддержка по настройке HoloLens, [обязательно посетите статью Настройка hololens](/hololens/hololens-setup). 
 3.  Рекомендуется выполнять настройку калибровки и датчика при разработке нового приложения HoloLens (иногда это может помочь в выполнении этих задач для каждого пользователя). 
 
-Чтобы получить справку по калибровке, перейдите по этой [ссылке в статью калибровка HoloLens](../../../calibration.md#hololens-2).
+Чтобы получить справку по калибровке, перейдите по этой [ссылке в статью калибровка HoloLens](/hololens/hololens-calibration#hololens-2).
 
-Чтобы получить справку по настройке датчика, перейдите [по ссылке в статью Настройка датчика HoloLens](../../../sensor-tuning.md).
+Чтобы получить справку по настройке датчика, перейдите [по ссылке в статью Настройка датчика HoloLens](/hololens/hololens-updates).
 
 ## <a name="chapter-1---the-custom-vision-portal"></a>Глава 1. портал Пользовательское визуальное распознавание
 
@@ -116,7 +116,7 @@ ms.locfileid: "98010174"
         ![](images/AzureLabs-Lab310-05.png)
 
         > [!NOTE]
-        > Если вы хотите [ознакомиться с дополнительными сведениями о группах ресурсов Azure, перейдите к соответствующему документу](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-portal) .
+        > Если вы хотите [ознакомиться с дополнительными сведениями о группах ресурсов Azure, перейдите к соответствующему документу](/azure/azure-resource-manager/resource-group-portal) .
 
     4.  Задайте **типы проектов** как **Обнаружение объектов (Предварительная версия)**.
 

@@ -6,12 +6,12 @@ ms.author: jemccull
 ms.date: 07/04/2018
 ms.topic: article
 keywords: Azure, Mixed Reality, Academy, Unity, учебник, API, Служба анализа языка, Luis, hololens, иммерсивное, VR, Windows 10, Visual Studio
-ms.openlocfilehash: 431858d369bc7007cc5eddbf0e75d9b74b7ba5d3
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: a91fcd2e20ce1e1731bd398fa72923f6ff5e8406
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94679503"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583430"
 ---
 # <a name="mr-and-azure-303-natural-language-understanding-luis"></a>MR и Azure 303: понимание естественного языка (LUIS)
 
@@ -44,7 +44,7 @@ ms.locfileid: "94679503"
 
 <table>
 <tr>
-<th>Курс</th><th style="width:150px"> <a href="../../../hololens-hardware-details.md">HoloLens</a></th><th style="width:150px"> <a href="../../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></th>
+<th>Курс</th><th style="width:150px"> <a href="/hololens/hololens1-hardware">HoloLens</a></th><th style="width:150px"> <a href="../../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></th>
 </tr><tr>
 <td>MR и Azure 303: понимание естественного языка (LUIS)</td><td style="text-align: center;"> ✔️</td><td style="text-align: center;"> ✔️</td>
 </tr>
@@ -65,7 +65,7 @@ ms.locfileid: "94679503"
 - [Последний пакет SDK для Windows 10](../../install-the-tools.md)
 - [Unity 2017,4](../../install-the-tools.md)
 - [Visual Studio 2017](../../install-the-tools.md)
-- Высокодоступная [гарнитура Windows Mixed Reality (VR)](../../../discover/immersive-headset-hardware-details.md) или [Microsoft HoloLens](../../../hololens-hardware-details.md) с включенным режимом разработчика
+- Высокодоступная [гарнитура Windows Mixed Reality (VR)](../../../discover/immersive-headset-hardware-details.md) или [Microsoft HoloLens](/hololens/hololens1-hardware) с включенным режимом разработчика
 - Набор наушников со встроенным микрофоном (если у гарнитуры нет встроенного MIC и динамиков);
 - Доступ к Интернету для установки Azure и извлечения LUIS
 
@@ -105,11 +105,11 @@ ms.locfileid: "94679503"
     3. Выберите **ценовую категорию** , подходящую для вас. Если вы впервые создаете *службу Luis*, вам будет доступен бесплатный уровень (с именем F0). Для этого курса Свободное выделение должно быть больше, чем достаточно.
     4. Выберите **группу ресурсов** или создайте новую. Группа ресурсов предоставляет способ мониторинга, контроля доступа, подготовки счетов и управления ими для коллекции ресурсов Azure. Рекомендуется размещать все службы Azure, связанные с одним проектом (например, такие курсы), в общей группе ресурсов. 
 
-        > Если вы хотите ознакомиться с дополнительными сведениями о группах ресурсов Azure, обратитесь [к статье о группе ресурсов](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-portal).
+        > Если вы хотите ознакомиться с дополнительными сведениями о группах ресурсов Azure, обратитесь [к статье о группе ресурсов](/azure/azure-resource-manager/resource-group-portal).
 
     5. Определите **Расположение** группы ресурсов (при создании новой группы ресурсов). В идеале это расположение будет находиться в регионе, в котором будет выполняться приложение. Некоторые ресурсы Azure доступны только в определенных регионах.
     6. Также необходимо подтвердить, что вы поняли условия, примененные к этой службе.
-    7. Нажмите кнопку **Создать**.
+    7. Нажмите кнопку **создания**.
 
         ![Создание службы LUIS. ввод пользователя](images/AzureLabs-Lab3-03.png)
  
@@ -453,7 +453,7 @@ change the color of this object to blue
     |       | Transform- *позиционирование* |       |  \| |       | Преобразование — *масштабирование* |       |
     |:-----:|:----------------------:|:-----:|:---:|:-----:|:-------------------:|:-----:|
     | **X** | **да**                  | **Z** |  \| | **X** | **да**               | **Z** |
-    | -2    | 6                      | 9     |  \| | 0,1   | 0,1                 | 0,1   | 
+    | -2    | 6                      | 9     |  \| | 0.1   | 0.1                 | 0.1   | 
 
 14. Измените **Размер шрифта** в компоненте **сетки текста** на **50**.
 15. Измените *имя* объекта **сетки текста** на **текст диктовки**.
@@ -1117,4 +1117,4 @@ change the color of this object to blue
 
 ### <a name="exercise-2"></a>Упражнение 2
 
-Попробуйте расширить возможности LUIS и приложений, добавив дополнительные функции для объектов в сцене. в качестве примера можно создать новые объекты в точке попадания, в зависимости от того, что сообщает пользователь, а затем использовать эти объекты вместе с текущими объектами сцены с помощью существующих команд. 
+Попробуйте расширить возможности LUIS и приложений, добавив дополнительные функции для объектов в сцене. в качестве примера можно создать новые объекты в точке попадания, в зависимости от того, что сообщает пользователь, а затем использовать эти объекты вместе с текущими объектами сцены с помощью существующих команд.

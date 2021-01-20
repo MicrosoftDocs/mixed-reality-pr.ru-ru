@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 12/1/2020
 ms.topic: article
 keywords: контроллеры движения, Unity, ввод, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: bf9aad0ee67a406280cefedec8b55fb1de130b8b
-ms.sourcegitcommit: a1bb77f729ee2e0b3dbd1c2c837bb7614ba7b9bd
+ms.openlocfilehash: db103e674a369f13e62aac5e8c0513b2c2c17f9e
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98192976"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583507"
 ---
 # <a name="motion-controllers-in-unity"></a>Контроллеры движения в Unity
 
@@ -445,7 +445,7 @@ void InteractionManager_InteractionSourceUpdated(InteractionSourceUpdatedEventAr
 - [211. Ввод в смешанной реальности: жест](tutorials/holograms-211.md)
 - [213. Ввод в смешанной реальности: контроллеры движения](../../deprecated/mixed-reality-213.md)
 
-[![MR-вход 213 — контроллер движения](images/mr213-main-600px.jpg)](https://docs.microsoft.com/windows/mixed-reality/mixed-reality-213)<br>
+[![MR-вход 213 — контроллер движения](images/mr213-main-600px.jpg)](/windows/mixed-reality/mixed-reality-213)<br>
 *MR-вход 213 — контроллер движения*
 
 ## <a name="next-development-checkpoint"></a>Следующий этап разработки
@@ -453,7 +453,7 @@ void InteractionManager_InteractionSourceUpdated(InteractionSourceUpdatedEventAr
 Если вы пойдете из пути разработки Unity, мы собрались, что вы в состоянии изучить стандартные блоки МРТК Core. Отсюда вы можете перейти к следующему стандартному блоку:
 
 > [!div class="nextstepaction"]
-> [Отслеживание рук и взгляда](hand-eye-in-unit.md)
+> [Отслеживание рук и взгляда](./hand-eye-in-unity.md)
 
 Или перейдите к возможностям и API платформы смешанной реальности:
 

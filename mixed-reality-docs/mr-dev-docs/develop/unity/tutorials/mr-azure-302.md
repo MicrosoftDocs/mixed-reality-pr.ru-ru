@@ -6,12 +6,12 @@ ms.author: jemccull
 ms.date: 07/04/2018
 ms.topic: article
 keywords: Azure, Mixed Reality, Academy, Unity, учебник, API, компьютерное зрение, hololens, иммерсивное, VR, Windows 10, Visual Studio
-ms.openlocfilehash: f972ba57bc27bff32aba70972fad2e6374d0c574
-ms.sourcegitcommit: dd13a32a5bb90bd53eeeea8214cd5384d7b9ef76
+ms.openlocfilehash: 2ba5f01b0b14c655f8639f74590a511629350fbb
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94679533"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583285"
 ---
 # <a name="mr-and-azure-302-computer-vision"></a>302. Смешанная реальность и Azure: компьютерное зрение
 
@@ -42,7 +42,7 @@ Microsoft Компьютерное зрение — это набор интер
 
 <table>
 <tr>
-<th>Курс</th><th style="width:150px"> <a href="../../../hololens-hardware-details.md">HoloLens</a></th><th style="width:150px"> <a href="../../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></th>
+<th>Курс</th><th style="width:150px"> <a href="/hololens/hololens1-hardware">HoloLens</a></th><th style="width:150px"> <a href="../../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></th>
 </tr><tr>
 <td> 302. Смешанная реальность и Azure: компьютерное зрение</td><td style="text-align: center;"> ✔️</td><td style="text-align: center;"> ✔️</td>
 </tr>
@@ -63,19 +63,19 @@ Microsoft Компьютерное зрение — это набор интер
 - [Последний пакет SDK для Windows 10](../../install-the-tools.md#installation-checklist)
 - [Unity 2017,4](../../install-the-tools.md#installation-checklist)
 - [Visual Studio 2017](../../install-the-tools.md#installation-checklist)
-- Высокодоступная [гарнитура Windows Mixed Reality (VR)](../../../discover/immersive-headset-hardware-details.md) или [Microsoft HoloLens](../../../hololens-hardware-details.md) с включенным режимом разработчика
+- Высокодоступная [гарнитура Windows Mixed Reality (VR)](../../../discover/immersive-headset-hardware-details.md) или [Microsoft HoloLens](/hololens/hololens1-hardware) с включенным режимом разработчика
 - Камера, подключенная к компьютеру (для разработки в увлекательной гарнитуре)
 - Доступ к Интернету для установки Azure и извлечения API компьютерного зрения
 
 ## <a name="before-you-start"></a>Перед началом работы
 
 1.  Чтобы избежать проблем при создании этого проекта, настоятельно рекомендуется создать проект, упомянутый в этом руководстве, в корневой или ближайшем к корневой папке (длинные пути к папкам могут вызвать проблемы во время сборки).
-2.  Настройка и тестирование HoloLens. Если вам нужна поддержка по настройке HoloLens, [обязательно посетите статью Настройка hololens](https://docs.microsoft.com/hololens/hololens-setup). 
+2.  Настройка и тестирование HoloLens. Если вам нужна поддержка по настройке HoloLens, [обязательно посетите статью Настройка hololens](/hololens/hololens-setup). 
 3.  Рекомендуется выполнять настройку калибровки и датчика при разработке нового приложения HoloLens (иногда это может помочь в выполнении этих задач для каждого пользователя). 
 
-Чтобы получить справку по калибровке, перейдите по этой [ссылке в статью калибровка HoloLens](../../../calibration.md#hololens-2).
+Чтобы получить справку по калибровке, перейдите по этой [ссылке в статью калибровка HoloLens](/hololens/hololens-calibration#hololens-2).
 
-Чтобы получить справку по настройке датчика, перейдите [по ссылке в статью Настройка датчика HoloLens](../../../sensor-tuning.md).
+Чтобы получить справку по настройке датчика, перейдите [по ссылке в статью Настройка датчика HoloLens](/hololens/hololens-updates).
 
 ## <a name="chapter-1--the-azure-portal"></a>Глава 1 — портал Azure
 
@@ -104,7 +104,7 @@ Microsoft Компьютерное зрение — это набор интер
     3. Выберите **ценовую категорию** , подходящую для вас. Если вы впервые создаете службу *API компьютерного зрения* , вам будет доступен бесплатный уровень (с именем F0).
     4. Выберите **группу ресурсов** или создайте новую. Группа ресурсов предоставляет способ мониторинга, контроля доступа, подготовки счетов и управления ими для коллекции ресурсов Azure. Рекомендуется, чтобы все службы Azure, связанные с одним проектом (например, в этих лабораториях), были в общей группе ресурсов. 
 
-        > Если вы хотите ознакомиться с дополнительными сведениями о группах ресурсов Azure, обратитесь [к статье о группе ресурсов](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-portal).
+        > Если вы хотите ознакомиться с дополнительными сведениями о группах ресурсов Azure, обратитесь [к статье о группе ресурсов](/azure/azure-resource-manager/resource-group-portal).
 
     5. Определите расположение группы ресурсов (при создании новой группы ресурсов). В идеале это расположение будет находиться в регионе, в котором будет выполняться приложение. Некоторые ресурсы Azure доступны только в определенных регионах.
 
@@ -263,7 +263,7 @@ Microsoft Компьютерное зрение — это набор интер
  
 2.  На *панели Иерархия* щелкните **LabelText**. Выбрав **LabelText** , настройте следующие переменные на *панели инспектора*:
 
-    1. Установить значение **Position** **0, 0,** 0
+    1. Установить значение  **0, 0,** 0
     2. Установите **масштаб** **0,01, 0,01, 0,01**
     3. В **сетке текста** компонента:
     4. Замените весь текст в **тексте** на "..."        

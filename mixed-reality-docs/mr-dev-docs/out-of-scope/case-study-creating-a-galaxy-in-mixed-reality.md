@@ -6,12 +6,12 @@ ms.author: kaluccin
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Galaxy Explorer, HoloLens, Windows Mixed Reality, поделиться своей идеей, пример внедрения
-ms.openlocfilehash: 0226c38e9fa21407a7a6529693a2adb3c5da7659
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: ef97920d22df65a9d4fa5e630840759e58c80b53
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009784"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583545"
 ---
 # <a name="case-study---creating-a-galaxy-in-mixed-reality"></a>Пример использования. Создание Galaxy в смешанной реальности
 
@@ -147,7 +147,7 @@ float3 ComputeStarPosition(StarDescriptor star)
 
 ### <a name="a-bit-of-context-first"></a>Первый контекст
 
-При использовании текстур в игре размер текстуры редко будет совпадать с областью, в которой мы хотим использовать ее, но можно использовать различные виды фильтрации текстур, чтобы получить графическую карту для интерполяции нужного цвета от пикселя текстуры ([Фильтрация текстур](https://msdn.microsoft.com/library/dn642451.aspx)). Фильтрация, интересующая нас, — это [билинейнойная фильтрация](https://msdn.microsoft.com/library/windows/desktop/bb172357.aspx) , которая вычислит значение любого пикселя с помощью четырех ближайших соседей.
+При использовании текстур в игре размер текстуры редко будет совпадать с областью, в которой мы хотим использовать ее, но можно использовать различные виды фильтрации текстур, чтобы получить графическую карту для интерполяции нужного цвета от пикселя текстуры ([Фильтрация текстур](/previous-versions/visualstudio/visual-studio-2015/debugger/point-bilinear-trilinear-and-anisotropic-texture-filtering-variants)). Фильтрация, интересующая нас, — это [билинейнойная фильтрация](/windows/win32/direct3d9/bilinear-texture-filtering) , которая вычислит значение любого пикселя с помощью четырех ближайших соседей.
 
 ![Оригинал перед фильтрацией](images/texture-1.png)
 

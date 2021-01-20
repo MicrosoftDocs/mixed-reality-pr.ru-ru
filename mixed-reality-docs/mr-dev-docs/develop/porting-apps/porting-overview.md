@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 12/9/2020
 ms.topic: article
 keywords: Перенос, Unity, по промежуточного слоя, ядро, UWP, Win32
-ms.openlocfilehash: 5a57c73481e80e5ab6fac1bd02b83c5d3dfaabb6
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 268d98b45aa659614e0266bfd1add7c7ed2f684a
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98007494"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583588"
 ---
 # <a name="porting-overview"></a>Общие сведения о переносе
 
@@ -48,7 +48,7 @@ ms.locfileid: "98007494"
 
 ### <a name="hololens-1st-gen-unity-apps-to-hololens-2"></a>Приложения Unity (1-го поколения) для HoloLens 2
 
-При наличии существующего приложения Unity (1-го поколения), которое вы хотите перенести в HoloLens 2, следуйте инструкциям в [статье о переносе hololens](../unity/mrtk-porting-guide.md).
+При наличии существующего приложения Unity (1-го поколения), которое вы хотите перенести в HoloLens 2, следуйте инструкциям в [статье о переносе hololens](./porting-hl1-hl2.md).
 
 ### <a name="windows-mixed-reality-headsets"></a>гарнитуры смешанной реальности Windows Mixed Reality;
 
@@ -61,4 +61,3 @@ ms.locfileid: "98007494"
 ### <a name="2d-universal-windows-applications"></a>Двумерные универсальные приложения Windows
 
 Если у вас есть приложение 2D-приложения UWP, которое вы хотите перенести на иммерсивное или HoloLens Windows Mixed Reality, следуйте инструкциям по [переносу двумерных приложений UWP для Windows Mixed Reality](building-2d-apps.md) .
-

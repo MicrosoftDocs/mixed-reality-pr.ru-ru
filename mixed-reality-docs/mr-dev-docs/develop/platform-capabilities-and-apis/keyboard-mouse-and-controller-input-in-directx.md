@@ -6,12 +6,12 @@ ms.author: mriches
 ms.date: 08/04/2020
 ms.topic: article
 keywords: Windows Mixed Reality, клавиатура, мышь, игровой контроллер, контроллер Xbox, HoloLens, Настольный компьютер, пошаговое руководство, пример кода
-ms.openlocfilehash: b7984c86b952612af020e2bd91063e0a9b0d92f6
-ms.sourcegitcommit: c41372e0c6ca265f599bff309390982642d628b8
+ms.openlocfilehash: 3cf35ba195e839332cbedb8b2c3945334a158cbc
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97530052"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583636"
 ---
 # <a name="keyboard-mouse-and-controller-input-in-directx"></a>Ввод с помощью клавиатуры, мыши и контроллера в DirectX
 
@@ -60,7 +60,7 @@ ms.locfileid: "97530052"
 Вы также можете использовать ввод с помощью мыши, используя обработчики событий ввода UWP CoreWindow. Вот как можно изменить шаблон приложения Windows holographic для поддержки щелчков мыши так же, как нажатые жесты. После внесения этого изменения щелкните мышью, когда людьми иммерсивное устройство гарнитуры изменит расположение Куба.
 
 > [!NOTE]
-> Приложения UWP также могут получать необработанные ТОЧЕЧные данные для мыши с помощью API [мауседевице](https://docs.microsoft.com/uwp/api/Windows.Devices.Input.MouseDevice) .
+> Приложения UWP также могут получать необработанные ТОЧЕЧные данные для мыши с помощью API [мауседевице](/uwp/api/Windows.Devices.Input.MouseDevice) .
 
 Начните с объявления нового обработчика Онпоинтерпрессед в Аппвиев. h:
 
