@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 12/01/2019
 ms.topic: article
 keywords: Смешанная реальность, Unity, учебник, hololens2, Пространственный звук, МРТК, набор средств для смешанной реальности, UWP, Windows 10, ХРТФ, функция передачи, связанная с HEAD, переглагол, Microsoft Спатиализер
-ms.openlocfilehash: 7d4702a21fccbb18c7c4b07675953c37785ae6db
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: cc7a4db5a3b4d853f2912a5e8e022fddd372e105
+ms.sourcegitcommit: 04927427226928bd9178da0049d4cef626a6b0bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98580221"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "98635392"
 ---
 # <a name="1-adding-spatial-audio-to-your-unity-project"></a>1. Добавление пространственного звука в проект Unity
 
@@ -63,7 +63,7 @@ ms.locfileid: "98580221"
 
 1. [Создание и настройка сцены](mr-learning-base-02.md#creating-and-configuring-the-scene) и присвойте сцене подходящее имя, например *спатиалаудио*
 
-Затем выполните инструкции по [изменению параметра "Показать сведения о пространственной поддержке](mr-learning-base-03.md#changing-the-spatial-awareness-display-option) ", чтобы убедиться, что профиль конфигурации мртк для сцены **дефаултксрсдкконфигуратионпрофиле** , и измените параметры экрана для сетки пространственной поддержки на **перекрытия**.
+Затем выполните инструкции по [изменению параметра "Показать сведения о пространственной поддержке](mr-learning-base-03.md#changing-the-spatial-awareness-display-option) ", чтобы убедиться, что профиль конфигурации мртк для сцены **DefaultHoloLens2ConfigurationProfile** , и измените параметры экрана для сетки пространственной поддержки на **перекрытия**.
 
 ## <a name="adding-microsoft-spatializer-to-the-project"></a>Добавление Microsoft Спатиализер в проект
 

@@ -3,25 +3,25 @@ title: Отслеживание QR-кода
 description: Узнайте, как обнаруживать QR-коды, добавлять возможности веб-камеры и управлять системами координат в приложениях смешанной реальности в HoloLens 2.
 author: dorreneb
 ms.author: dobrown
-ms.date: 05/15/2019
+ms.date: 01/21/2021
 ms.topic: article
 keywords: VR, лбе, развлечения на основе расположения, VR Аркадные, Аркадные, иммерсивное, QR, QR-код, hololens2
-ms.openlocfilehash: 08ed651deaab0c230142f45b93858f41ee300323
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: 0f53b8def268b2d501c6efe3c3e40ea18f9323e0
+ms.sourcegitcommit: 04927427226928bd9178da0049d4cef626a6b0bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98583142"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "98635436"
 ---
 # <a name="qr-code-tracking"></a>Отслеживание QR-кода
 
-HoloLens 2 может обнаруживать QR-коды в среде вокруг гарнитуры, определяя систему координат в реальном расположении каждого кода.
+HoloLens 2 может обнаруживать QR-коды в среде вокруг гарнитуры, определяя систему координат в реальном расположении каждого кода. После включения веб-камеры устройства вы сможете распознать QR-коды в последних версиях проектов Нереал или Unity. Прежде чем перейти в рабочую среду, рекомендуется выполнить [рекомендации,](#best-practices-for-qr-code-detection) описанные в конце статьи.
 
 ## <a name="device-support"></a>Поддержка устройств
 
 <table>
 <tr>
-<th>Компонент</th><th style="width:150px"> <a href="/hololens/hololens1-hardware">HoloLens (первый общий)</a></th><th style="width:150px">HoloLens 2</th><th style="width:150px"> <a href="../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></th>
+<th>Функция</th><th style="width:150px"> <a href="/hololens/hololens1-hardware">HoloLens (первый общий)</a></th><th style="width:150px">HoloLens 2</th><th style="width:150px"> <a href="../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></th>
 </tr><tr>
 <td> Обнаружение QR-кода</td><td style="text-align: center;">️</td><td style="text-align: center;"> ✔️</td><td style="text-align: center;">✔️</td>
 </tr>
