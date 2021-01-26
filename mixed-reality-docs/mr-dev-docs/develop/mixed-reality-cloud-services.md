@@ -8,12 +8,12 @@ ms.date: 12/9/2020
 ms.topic: overview
 ms.localizationpriority: high
 keywords: смешанная реальность, процессы разработки, разработка, HoloLens, облачные службы, Azure, удаленная отрисовка, пространственные привязки, Cognitive Services, восприятие, Unity, машинное обучение, перевод речи, компьютерное зрение, Microsoft Graph
-ms.openlocfilehash: 251fd68d2a3fea79c1db160b6aaf64aad05c686f
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 725e41e94923f1738eb11064c772f9138a6be09a
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009574"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98582705"
 ---
 # <a name="azure-mixed-reality-cloud-services-overview"></a>Обзор облачных служб смешанной реальности Azure
 
@@ -66,10 +66,10 @@ ms.locfileid: "98009574"
 
 :::row:::
     :::column:::
-       [![Speech](../whats-new/images/speech.jpg)](https://docs.microsoft.com/azure/cognitive-services/speech-service/)
+       [![Speech](../whats-new/images/speech.jpg)](/azure/cognitive-services/speech-service/)
     :::column-end:::
     :::column span="2":::
-        ### <a name="speech"></a>[Речь](https://docs.microsoft.com/azure/cognitive-services/speech-service/)
+        ### <a name="speech"></a>[Речь](/azure/cognitive-services/speech-service/)
         Узнайте, как служба Речи обеспечивает интеграцию возможностей для обработки речи в любое приложение или службу. Преобразовывайте речь в текст или синтезируйте естественную речь из текста с использованием стандартных (или настраиваемых) вариантов голоса. Опробуйте любую службу бесплатно и быстро создавайте приложения и службы с поддержкой голосовых функций с помощью следующих возможностей.
     :::column-end:::
 :::row-end:::
@@ -78,10 +78,10 @@ ms.locfileid: "98009574"
 
 :::row:::
     :::column:::
-       [![Компьютерное зрение](../whats-new/images/vision.jpg)](https://docs.microsoft.com/azure/cognitive-services/computer-vision/)
+       [![Компьютерное зрение](../whats-new/images/vision.jpg)](/azure/cognitive-services/computer-vision/)
     :::column-end:::
     :::column span="2":::
-        ### <a name="vision"></a>[Компьютерное зрение](https://docs.microsoft.com/azure/cognitive-services/computer-vision/)
+        ### <a name="vision"></a>[Компьютерное зрение](/azure/cognitive-services/computer-vision/)
         Распознавайте, идентифицируйте, подписывайте, индексируйте и модерируйте свои изображения, видео и цифровое содержимое рукописного ввода. Узнайте, как Компьютерное зрение позволяет приложениям и службам точно идентифицировать и анализировать содержимое в изображениях, цифровом содержимом рукописного ввода и на видео.
     :::column-end:::
 :::row-end:::
@@ -95,7 +95,7 @@ ms.locfileid: "98009574"
 <table>
     <tr>
         <td><strong>Облачная служба Azure</strong></td>
-        <td><a href="../hololens-hardware-details.md"><strong>HoloLens 1-го поколения</strong></a></td>
+        <td><a href="/hololens/hololens1-hardware"><strong>HoloLens 1-го поколения</strong></a></td>
         <td><a href="../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
     </tr>
      <tr>
@@ -167,5 +167,5 @@ ms.locfileid: "98009574"
 
 ## <a name="see-also"></a>См. также раздел
 
-* Руководства по Пространственным привязкам Azure для HoloLens 2, [часть 1 из 3, "Начало работы с Пространственными привязками Azure"](../mrlearning-asa-ch1.md)
+* Руководства по Пространственным привязкам Azure для HoloLens 2, [часть 1 из 3, "Начало работы с Пространственными привязками Azure"](./unity/tutorials/mr-learning-asa-02.md)
 * Руководства по использованию службы "Речь" для HoloLens 2, [часть 1 из 4, "Интеграция и использование средств распознавания и транскрибирования речи"](../develop/unity/tutorials/mrlearning-speechSDK-ch1.md)
