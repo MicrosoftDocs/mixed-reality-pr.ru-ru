@@ -6,12 +6,12 @@ ms.author: szymons
 ms.date: 12/14/2020
 ms.topic: article
 keywords: Основные сведения о сцене, пространственное сопоставление, Windows Mixed Reality, Unity
-ms.openlocfilehash: 748ec444bfcbabb534f391a889fcc16c7671bf7d
-ms.sourcegitcommit: 753f0ee94cf86be645cad8efd60f1b43ac529c96
+ms.openlocfilehash: 2a1bf87ae4ce13b47d373f44e398d02382674fe7
+ms.sourcegitcommit: 63b7f6d5237327adc51486afcd92424b79e6118b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "98758369"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98810134"
 ---
 # <a name="scene-understanding-sdk-overview"></a>Общие сведения о пакете SDK для сцены
 
@@ -265,7 +265,7 @@ foreach (var mesh in firstFloor.Meshes)
 
 Понимание сцены предоставило намеренную попытку выполнить согласование с традиционными представлениями трехмерной сцены при работе с преобразованиями. Таким образом, каждая сцена ограничена одной системой координат, похожей на наиболее распространенные трехмерные представления среды. Сценеобжектс каждый из них предоставляет свое расположение относительно этой системы координат. Если ваше приложение работает с сценами, которые дотягивают ограничение на один источник, можно привязать Сценеобжектс к Спатиаланчорс или создать несколько сцен и объединить их вместе, но для простоты предполагается, что ватертигхт сцены существуют в собственном источнике, локализованном одним NodeId, определенным в сцене. Оригинспатиалграфнодеид.
 
-В следующем коде Unity, например, показано, как использовать восприятие Windows и API Unity для совмещения систем координат. Дополнительные сведения о получении Спатиалкурдинатесистем, которые соответствуют источнику мира Unity, см. в статьях [спатиалкурдинатесистем](//uwp/api/windows.perception.spatial.spatialcoordinatesystem) и [спатиалграфинтероппревиев](//uwp/api/windows.perception.spatial.preview.spatialgraphinteroppreview) . подробные сведения о API восприятия Windows и [собственные объекты смешанной реальности в Unity](//windows/mixed-reality/unity-xrdevice-advanced) .
+В следующем коде Unity, например, показано, как использовать восприятие Windows и API Unity для совмещения систем координат. Дополнительные сведения о получении Спатиалкурдинатесистем, которые соответствуют источнику мира Unity, см. в статьях [спатиалкурдинатесистем](/uwp/api/windows.perception.spatial.spatialcoordinatesystem) и [спатиалграфинтероппревиев](/uwp/api/windows.perception.spatial.preview.spatialgraphinteroppreview) . подробные сведения о API восприятия Windows и [собственные объекты смешанной реальности в Unity](/windows/mixed-reality/unity-xrdevice-advanced) .
 
 ```cs
 private System.Numerics.Matrix4x4? GetSceneToUnityTransformAsMatrix4x4(SceneUnderstanding.Scene scene)

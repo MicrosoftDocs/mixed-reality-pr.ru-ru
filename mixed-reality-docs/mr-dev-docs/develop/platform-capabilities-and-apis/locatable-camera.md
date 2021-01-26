@@ -6,12 +6,12 @@ ms.author: wguyman
 ms.date: 06/12/2019
 ms.topic: article
 keywords: Камера, hololens, цветовая камера, лицевая сторона, hololens 2, ОПС, компьютерное зрение, фидуЦиал, маркеры, QR-код, QR-, Фото, видео
-ms.openlocfilehash: bc478aa658b26eb3a4efb16c62d0874b12992e78
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: f34973fee56f9469632b320a62dd441ed32e5805
+ms.sourcegitcommit: 63b7f6d5237327adc51486afcd92424b79e6118b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98583621"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98810155"
 ---
 # <a name="locatable-camera"></a>Камера с определяемым местоположением
 
@@ -28,7 +28,7 @@ HoloLens включает в себя камеру, подключенную к 
   |  Видео  |  Предварительный просмотр  |  Могут  |  Горизонтальное поле представления (H-фов) |  Предлагаемое использование | 
   |----------|----------|----------|----------|----------|
   |  1280 x 720 |  1280 x 720 |  1280 x 720 |  45 градусов  |  (режим по умолчанию с видео стабилизации) | 
-  |  Н/Д |  Н/Д |  2048x1152 |  67 градусов |  Изображение с наивысшим разрешением по-прежнему | 
+  |  Недоступно |  Недоступно |  2048x1152 |  67 градусов |  Изображение с наивысшим разрешением по-прежнему | 
   |  1408x792 |  1408x792 |  1408x792 |  48 градусов |  Разрешение перепроверки (заполнения) перед видео стабилизации | 
   |  1344x756 |  1344x756 |  1344x756 |  67 градусов |  Крупный фов видеорежим с пересканированием | 
   |  896x504 |  896x504 |  896x504 |  48 градусов |  Режим низкого уровня питания и низкого разрешения для задач обработки изображений | 
@@ -37,7 +37,7 @@ HoloLens включает в себя камеру, подключенную к 
 
 * Автоматическое фокусирование фотографии и Видеокамеры (ПС) с автобалансом белого, автоматической экспозицией и полным конвейером обработки образов.
 * Белый индикатор конфиденциальности, направленный на мир, будет освещен всякий раз, когда камера активна.
-* HoloLens 2 поддерживает различные профили камеры. Узнайте, как [обнаруживать и выбирать возможности камеры](//windows/uwp/audio-video-camera/camera-profiles).
+* HoloLens 2 поддерживает различные профили камеры. Узнайте, как [обнаруживать и выбирать возможности камеры](/windows/uwp/audio-video-camera/camera-profiles).
 * Камера поддерживает следующие профили и разрешения (все видеорежимы имеют соотношение пропорций 16:9):
   
   | Профиль                                         | Видео     | Предварительный просмотр   | Могут     | Частота кадров | Горизонтальное поле представления (H-фов) | Предлагаемое использование                             |
@@ -75,14 +75,14 @@ HoloLens включает в себя камеру, подключенную к 
 
 ### <a name="using-mediaframereference"></a>Использование Медиафрамереференце
 
-Эти инструкции применяются, если йоу'р использует класс [медиафрамереференце](//uwp/api/windows.media.capture.frames.mediaframereference) для чтения кадров изображения с камеры.
+Эти инструкции применяются, если йоу'р использует класс [медиафрамереференце](/uwp/api/windows.media.capture.frames.mediaframereference) для чтения кадров изображения с камеры.
 
-Каждый кадр изображения (фото или видео) включает в себя [спатиалкурдинатесистем](//uwp/api/windows.perception.spatial.spatialcoordinatesystem) с корнем на камере во время записи, доступ к которому можно получить с помощью свойства [курдинатесистем](//uwp/api/windows.media.capture.frames.mediaframereference.coordinatesystem#Windows_Media_Capture_Frames_MediaFrameReference_CoordinateSystem) [медиафрамереференце](//uwp/api/Windows.Media.Capture.Frames.MediaFrameReference). Каждый кадр содержит описание модели линзы, которое можно найти в свойстве [камераинтринсикс](//uwp/api/windows.media.capture.frames.videomediaframe.cameraintrinsics#Windows_Media_Capture_Frames_VideoMediaFrame_CameraIntrinsics) . Вместе эти преобразования определяются для каждого пикселя в трехмерном пространстве, представляющем путь, взятый фотоны, который создал пиксель. Эти лучи могут быть связаны с другим содержимым в приложении путем получения преобразования из системы координат кадра в другую систему координат (например, из [стационарной рамки ссылки](../../design/coordinate-systems.md#stationary-frame-of-reference)). 
+Каждый кадр изображения (фото или видео) включает в себя [спатиалкурдинатесистем](/uwp/api/windows.perception.spatial.spatialcoordinatesystem) с корнем на камере во время записи, доступ к которому можно получить с помощью свойства [курдинатесистем](/uwp/api/windows.media.capture.frames.mediaframereference.coordinatesystem#Windows_Media_Capture_Frames_MediaFrameReference_CoordinateSystem) [медиафрамереференце](/uwp/api/Windows.Media.Capture.Frames.MediaFrameReference). Каждый кадр содержит описание модели линзы, которое можно найти в свойстве [камераинтринсикс](/uwp/api/windows.media.capture.frames.videomediaframe.cameraintrinsics#Windows_Media_Capture_Frames_VideoMediaFrame_CameraIntrinsics) . Вместе эти преобразования определяются для каждого пикселя в трехмерном пространстве, представляющем путь, взятый фотоны, который создал пиксель. Эти лучи могут быть связаны с другим содержимым в приложении путем получения преобразования из системы координат кадра в другую систему координат (например, из [стационарной рамки ссылки](../../design/coordinate-systems.md#stationary-frame-of-reference)). 
 
 Каждый кадр изображения предоставляет следующие сведения:
 * Пиксельные данные (в формате RGB/NV12/JPEG/т. д.)
-* [Спатиалкурдинатесистем](//uwp/api/windows.perception.spatial.spatialcoordinatesystem) из расположения записи
-* Класс [камераинтринсикс](//uwp/api/windows.media.capture.frames.videomediaframe.cameraintrinsics#Windows_Media_Capture_Frames_VideoMediaFrame_CameraIntrinsics) , содержащий режим линзы камеры
+* [Спатиалкурдинатесистем](/uwp/api/windows.perception.spatial.spatialcoordinatesystem) из расположения записи
+* Класс [камераинтринсикс](/uwp/api/windows.media.capture.frames.videomediaframe.cameraintrinsics#Windows_Media_Capture_Frames_VideoMediaFrame_CameraIntrinsics) , содержащий режим линзы камеры
 
 [Образец холографикфацетраккинг](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/HolographicFaceTracking) показывает довольно простой способ запроса преобразования между системой координат камеры и собственными системами координат приложения.
 
@@ -256,7 +256,7 @@ public static Vector3 ClosestPointBetweenRays(
 * Определение и распознавание объектов в комнате
 * Определение и распознавание людей в комнате, например размещение карточек контактных лиц с помощью лиц
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 * [Пример камеры размещаемые](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/HolographicFaceTracking)
 * [Камера с определяемым местоположением в Unity](../unity/locatable-camera-in-unity.md)
 * [Смешанный захват реальности](/hololens/holographic-photos-and-videos)
