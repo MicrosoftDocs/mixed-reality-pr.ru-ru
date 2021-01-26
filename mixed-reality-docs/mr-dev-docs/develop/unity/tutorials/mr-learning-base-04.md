@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, решатели, коллекция объектов сетки
 ms.localizationpriority: high
-ms.openlocfilehash: e09047e4f75697722f76301630c275f126b3cbda
-ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
+ms.openlocfilehash: 27964cad03111a3f7dad89c66df0cb9a4f95a9e2
+ms.sourcegitcommit: a56a551ebc59529a3683fe6db90d59f982ab0b45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97613258"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98579213"
 ---
 # <a name="4-positioning-objects-in-the-scene"></a>4. Размещение объектов в сцене
 
@@ -143,4 +143,5 @@ ms.locfileid: "97613258"
 
 Из этого руководства вы узнали, как разместить объекты в сцене относительно пользователя и упорядочить объекты в коллекции с помощью функции коллекции объектов сетки MRTK.
 
-[Следующее руководство: 5. Создание динамического содержимого с помощью решателей](mr-learning-base-05.md)
+> [!div class="nextstepaction"]
+>[Следующее руководство: 5. Создание динамического содержимого с помощью решателей](mr-learning-base-05.md)

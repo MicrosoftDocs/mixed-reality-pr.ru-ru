@@ -7,12 +7,12 @@ ms.date: 11/30/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, Hololens, Learn, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, что такое виртуальная реальность, что такое дополненная реальность, MRTK, Mixed Reality Toolkit, перевод с одного языка на другой, Azure, Azure Cognitive Services, Microsoft Learn
 ms.localizationpriority: high
-ms.openlocfilehash: 211d8e61a45a59df725f4c6c7d11c93f129d63b5
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: f8188cc8c417b60864cd963120ad004d6169c3c2
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98006914"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583526"
 ---
 # <a name="mixed-reality-learn-overview"></a>Общие сведения о модуле Learn по смешанной реальности
 
@@ -26,7 +26,7 @@ Microsoft Learn — это наша платформа обучения. Ее �
 
 Если вы хотите узнать больше об основах смешанной реальности или еще не выбрали путь разработки, вы можете начать работу с общих обучающих модулей, применимых к разным технологиям.
 
-### <a name="introduction-to-mixed-reality"></a>[Введение в смешанную реальность](https://docs.microsoft.com/learn/modules/intro-to-mixed-reality/)
+### <a name="introduction-to-mixed-reality"></a>[Введение в смешанную реальность](/learn/modules/intro-to-mixed-reality/)
 
 Ознакомьтесь с основными понятиями, терминологией и процессами проектирования, которые используются при разработке для смешанной реальности.
 
@@ -44,7 +44,7 @@ Microsoft Learn — это наша платформа обучения. Ее �
 
 Не имеет значения, начинаете ли вы работу или являетесь опытным специалистом, наш практический подход к разработке для Смешанной реальности в Unity поможет вам быстрее и увереннее достичь поставленных целей в своем темпе.
 
-### <a name="set-up-a-mixed-reality-project-in-unity-with-the-mixed-reality-toolkit"></a>[Настройка проекта смешанной реальности в Unity с помощью Mixed Reality Toolkit](https://docs.microsoft.com/learn/modules/mixed-reality-toolkit-project-unity/)
+### <a name="set-up-a-mixed-reality-project-in-unity-with-the-mixed-reality-toolkit"></a>[Настройка проекта смешанной реальности в Unity с помощью Mixed Reality Toolkit](/learn/modules/mixed-reality-toolkit-project-unity/)
 
 Импортируйте Mixed Reality Toolkit в проект Unity, чтобы ускорить разработку смешанной реальности.
 
@@ -58,7 +58,7 @@ Microsoft Learn — это наша платформа обучения. Ее �
 * Сравнение трех основных моделей взаимодействия MRTK.
 * Работа с голограммами с использованием ObjectManipulator.
 
-### <a name="create-a-language-translator-app-with-unity--azure-cognitive-services"></a>[Создание приложения переводчика с использованием Unity и Azure Cognitive Services](https://docs.microsoft.com/learn/modules/create-language-translator-mixed-reality-application-unity-azure-cognitive-services/)
+### <a name="create-a-language-translator-app-with-unity--azure-cognitive-services"></a>[Создание приложения переводчика с использованием Unity и Azure Cognitive Services](/learn/modules/create-language-translator-mixed-reality-application-unity-azure-cognitive-services/)
 
 Создайте приложение-переводчик для устройства смешанной реальности (Windows Mixed Reality, HoloLens 2 и т. д.) с помощью Cognitive Services.
 

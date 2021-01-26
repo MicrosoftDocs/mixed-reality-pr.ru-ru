@@ -7,12 +7,12 @@ ms.date: 12/9/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unity, смешанная реальность, разработка, начало работы, новый проект, перенос, возможность, камера, имитация, эмуляция, документация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, что такое виртуальная реальность, что такое дополненная реальность, MRTK, Mixed Reality Toolkit, пространственное сопоставление, речевой ввод, камера с определяемым местоположением, эмулятор, Azure, учебники
-ms.openlocfilehash: c5b7683574378565c71e95bc6205be3dbf92fcaf
-ms.sourcegitcommit: be7473bbebc1872d8c9df6f2da837efd3279dee6
+ms.openlocfilehash: fc444f4d40d8bc013253869fe77ddd563e889d85
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "98226443"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583003"
 ---
 # <a name="unity-development-for-hololens"></a>Разработка в Unity для HoloLens
 
@@ -85,7 +85,7 @@ ms.locfileid: "98226443"
 
 Если вы хотите перенести существующие приложения, вам помогут приведенные ниже статьи:
 
-* [Перенос из HoloToolkit/MRTK в MRTK v2](mrtk-porting-guide.md)
+* [Перенос из HoloToolkit/MRTK в MRTK v2](../porting-apps/porting-hl1-hl2.md)
 * [Руководство по переносу для иммерсивных приложений](../porting-apps/porting-guides.md)
 * [Руководство по переносу логики ввода](../platform-capabilities-and-apis/using-the-windows-mixed-reality-simulator.md)
 

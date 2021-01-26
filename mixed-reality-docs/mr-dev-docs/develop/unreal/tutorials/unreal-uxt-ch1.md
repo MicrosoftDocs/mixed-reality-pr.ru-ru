@@ -7,16 +7,16 @@ ms.date: 06/10/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, учебник, начало работы, MRTK, UXT, UX Tools, документация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 762247f550a3471bbbb6d1004283c6f901346503
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: a46b9fef96f75f3d80b9ebbd5cbd724730374b41
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009794"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98580559"
 ---
 # <a name="1-getting-started"></a>1. Начало работы
 
-Как новичкам, так и опытным специалистам по разработке приложений смешанной реальности стоит начать работу с [HoloLens 2](https://docs.microsoft.com/windows/mixed-reality/) и [Unreal Engine](https://www.unrealengine.com/en-US/) отсюда. В этой серии руководств даются пошаговые инструкции по созданию интерактивного приложения для игры в шахматы с помощью [подключаемого модуля средств UX](https://github.com/microsoft/MixedReality-UXTools-Unreal), входящего в состав [набора средств для смешанной реальности для Unreal](https://github.com/microsoft/MixedRealityToolkit-Unreal). Этот подключаемый модуль содержит код, схемы и примеры, которые помогут вам реализовать распространенные функции пользовательского интерфейса в своих проектах. 
+Как новичкам, так и опытным специалистам по разработке приложений смешанной реальности стоит начать работу с [HoloLens 2](../../../index.yml) и [Unreal Engine](https://www.unrealengine.com/en-US/) отсюда. В этой серии руководств даются пошаговые инструкции по созданию интерактивного приложения для игры в шахматы с помощью [подключаемого модуля средств UX](https://github.com/microsoft/MixedReality-UXTools-Unreal), входящего в состав [набора средств для смешанной реальности для Unreal](https://github.com/microsoft/MixedRealityToolkit-Unreal). Этот подключаемый модуль содержит код, схемы и примеры, которые помогут вам реализовать распространенные функции пользовательского интерфейса в своих проектах. 
 
 ![Готовая сцена в окне просмотра](images/unreal-uxt/5-endscene.PNG)
 
@@ -40,7 +40,7 @@ ms.locfileid: "98009794"
 
 Сначала убедитесь, что в вашей установке есть все необходимые пакеты Visual Studio:
 1. Установите последнюю версию [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/).
-1. Установите следующие [рабочие нагрузки](https://docs.microsoft.com/visualstudio/install/modify-visual-studio?#modify-workloads):
+1. Установите следующие [рабочие нагрузки](/visualstudio/install/modify-visual-studio#modify-workloads):
     * "Разработка классических приложений на C++";
     * "Разработка классических приложений .NET";
     * "Разработка приложений для универсальной платформы Windows".
@@ -48,7 +48,7 @@ ms.locfileid: "98009794"
     * Подключение USB-устройств
     * Средства универсальной платформы Windows на C++ (версия 142)
 
-1. Установите следующие [компоненты](https://docs.microsoft.com/visualstudio/install/modify-visual-studio?#modify-individual-components):
+1. Установите следующие [компоненты](/visualstudio/install/modify-visual-studio#modify-individual-components):
     * компиляторы, средства сборки и среды выполнения > средства сборки MSVC v142 — VS 2019 C++ ARM64 (последняя версия).
 
 Вы можете подтвердить установку по следующему изображению:

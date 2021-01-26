@@ -7,12 +7,12 @@ ms.date: 04/13/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Visual Studio, HoloLens, смешанная реальность, отладка, развертывание
-ms.openlocfilehash: 20bda2cd247f18680d3f9fe95284e238a32e1140
-ms.sourcegitcommit: c41372e0c6ca265f599bff309390982642d628b8
+ms.openlocfilehash: c4ffe3a426ad82c324efef20639cf836f16a7f63
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97529967"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583615"
 ---
 # <a name="using-visual-studio-to-deploy-and-debug"></a>Развертывание и отладка с помощью Visual Studio
 
@@ -129,7 +129,7 @@ ms.locfileid: "97529967"
 
 ## <a name="graphics-debugger-for-hololens-1st-gen"></a>Отладчик графики для HoloLens (1-го поколения)
 
-Инструменты диагностики графики в Visual Studio очень полезны для создания и оптимизации голографического приложения. Подробные сведения см. в разделе [Диагностика графики в Visual Studio](https://msdn.microsoft.com/library/hh315751.aspx) на сайте MSDN.
+Инструменты диагностики графики в Visual Studio очень полезны для создания и оптимизации голографического приложения. Подробные сведения см. в разделе [Диагностика графики в Visual Studio](/previous-versions/visualstudio/visual-studio-2015/debugger/visual-studio-graphics-diagnostics) на сайте MSDN.
 
 **Запуск отладчика графики**
 1. Выполните приведенные выше инструкции, чтобы выбрать устройство или эмулятор в качестве цели.
@@ -138,7 +138,7 @@ ms.locfileid: "97529967"
 
 ## <a name="profiling"></a>Профилирование
 
-Инструменты профилирования Visual Studio позволяют анализировать производительность и использование ресурсов приложения. Сюда входят инструменты для оптимизации использования ЦП, памяти, графического процессора и сети. Подробные сведения см. в разделе [Запуск средств диагностики без отладки](https://msdn.microsoft.com/library/dn957936.aspx) на сайте MSDN.
+Инструменты профилирования Visual Studio позволяют анализировать производительность и использование ресурсов приложения. Сюда входят инструменты для оптимизации использования ЦП, памяти, графического процессора и сети. Подробные сведения см. в разделе [Запуск средств диагностики без отладки](/previous-versions/visualstudio/visual-studio-2015/profiling/profiling-tools) на сайте MSDN.
 
 **Запуск инструментов профилирования для HoloLens**
 1. Выполните приведенные выше инструкции, чтобы выбрать устройство или эмулятор в качестве цели.
@@ -175,5 +175,5 @@ Visual Studio можно использовать для отладки уста
 ## <a name="see-also"></a>См. также статью
 * [Установка средств](../install-the-tools.md)
 * [Использование эмулятора HoloLens](using-the-hololens-emulator.md)
-* [Развертывание и отладка приложений универсальной платформы Windows (UWP)](https://msdn.microsoft.com/library/windows/apps/xaml/mt613243.aspx)
-* [Включение устройства для разработки](https://docs.microsoft.com/windows/uwp/get-started/enable-your-device-for-development)
+* [Развертывание и отладка приложений универсальной платформы Windows (UWP)](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps)
+* [Включение устройства для разработки](/windows/uwp/get-started/enable-your-device-for-development)

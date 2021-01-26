@@ -7,12 +7,12 @@ ms.date: 06/15/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, потоковая передача, удаленное взаимодействие, смешанная реальность, разработка, начало работы, функции, новый проект, эмулятор, документация, руководства, функции, голограммы, разработка игр, гарнитура смешанной реальности, гарнитура Windows Mixed Reality гарнитура виртуальной реальности, пространственное аудио
-ms.openlocfilehash: 98c10e370cd4ca5e437a4677be6fce3d3aee53a9
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: fdb4f401188a813b99884929cd835453dec5aaf0
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009974"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98580431"
 ---
 # <a name="spatial-audio-in-unreal"></a>Пространственный звук в Unreal
 
@@ -124,6 +124,6 @@ ms.locfileid: "98009974"
 
 
 ## <a name="see-also"></a>См. также статью
-* [Пространственный звук](https://docs.microsoft.com/windows/mixed-reality/spatial-sound)
-* [Проектирование пространственного звука](https://docs.microsoft.com/windows/mixed-reality/spatial-sound-design)
-* [220. Пространство в смешанной реальности: пространственный звук](https://docs.microsoft.com/windows/mixed-reality/holograms-220)
+* [Пространственный звук](/windows/mixed-reality/spatial-sound)
+* [Проектирование пространственного звука](/windows/mixed-reality/spatial-sound-design)
+* [220. Пространство в смешанной реальности: пространственный звук](/windows/mixed-reality/holograms-220)

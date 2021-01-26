@@ -7,12 +7,12 @@ ms.date: 04/02/2019
 ms.topic: article
 ms.localizationpriority: high
 keywords: смешанная реальность, взгляд, выбор целевого объекта взглядом, взаимодействие, проектирование, манипулирование руками, HoloLens, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, MRTK, Mixed Reality Toolkit, кнопка, коллайдеры, ограничивающий прямоугольник, двумерные объекты, инстинктивные жесты
-ms.openlocfilehash: a5e3497926d977f2a60cd32bb5f009d27d7b86ee
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: 194212fd19196990eaf873299afbf1c11846946d
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97848050"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583410"
 ---
 # <a name="direct-manipulation-with-hands"></a>Непосредственное манипулирование руками
 
@@ -31,9 +31,9 @@ ms.locfileid: "97848050"
 </colgroup>
 <tr>
      <td><strong>Модель ввода</strong></td>
-     <td><a href="https://docs.microsoft.com/hololens/hololens1-hardware"><strong>HoloLens (1-го поколения)</strong></a></td>
-     <td><a href="https://docs.microsoft.com/hololens/hololens2-hardware"><strong>HoloLens 2</strong></a></td>
-     <td><a href="https://docs.microsoft.com/windows/mixed-reality/immersive-headset-hardware-details"><strong>Иммерсивные гарнитуры</strong></a></td>
+     <td><a href="/hololens/hololens1-hardware"><strong>HoloLens (1-го поколения)</strong></a></td>
+     <td><a href="/hololens/hololens2-hardware"><strong>HoloLens 2</strong></a></td>
+     <td><a href="/windows/mixed-reality/immersive-headset-hardware-details"><strong>Иммерсивные гарнитуры</strong></a></td>
 </tr>
 <tr>
      <td>Непосредственное манипулирование руками</td>

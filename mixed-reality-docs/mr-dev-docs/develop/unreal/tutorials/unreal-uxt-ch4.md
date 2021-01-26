@@ -7,12 +7,12 @@ ms.date: 11/18/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, учебник, начало работы, MRTK, UXT, UX Tools, документация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 12e94e880f8b681ed9c4720b841f8a44ae9e0fd7
-ms.sourcegitcommit: 32cb81eee976e73cd661c2b347691c37865a60bc
+ms.openlocfilehash: c26f5579aad29624c9a8f374caa4799423d0637e
+ms.sourcegitcommit: 04927427226928bd9178da0049d4cef626a6b0bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96609585"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "98635444"
 ---
 # <a name="4-making-your-scene-interactive"></a>4. Настройка интерактивной сцены
 
@@ -56,7 +56,7 @@ ms.locfileid: "96609585"
 - Появятся события жестового ручного ввода, которыми можно будет манипулировать через объект Pawn.
 - Появятся события ввода с дальним взаимодействием при помощи лучей телекинеза, исходящих из запястий виртуальных рук.
 
-Прежде чем продолжать, изучите [документацию](https://microsoft.github.io/MixedReality-UXTools-Unreal/version/public/0.9.x/Docs/HandInteraction.html) по взаимодействию с помощью рук.
+Прежде чем продолжать, изучите [документацию](https://microsoft.github.io/MixedReality-UXTools-Unreal/Docs/HandInteraction.html) по взаимодействию с помощью рук.
 
 Когда будете готовы, откройте схему **MRPawn** и перейдите к разделу **Event Graph** (Граф событий).
 
@@ -85,7 +85,7 @@ ms.locfileid: "96609585"
 
 ![Полная конфигурация субъектов взаимодействия с рукой](images/unreal-uxt/4-fingerptrs.PNG)
 
-Дополнительные сведения о субъектах взаимодействия с рукой см. в [документации по UX Tools](https://microsoft.github.io/MixedReality-UXTools-Unreal/version/public/0.9.x/Docs/HandInteraction.html).
+Дополнительные сведения о субъектах взаимодействия с рукой см. в [документации по UX Tools](https://microsoft.github.io/MixedReality-UXTools-Unreal/Docs/HandInteraction.html).
 
 Теперь с помощью виртуальных рук в проекте можно выбирать объекты, но пока еще нельзя манипулировать ими. Последнее, что необходимо сделать, прежде чем тестировать приложение — добавить к субъектам в сцене компоненты Manipulator, или манипуляторы.
 

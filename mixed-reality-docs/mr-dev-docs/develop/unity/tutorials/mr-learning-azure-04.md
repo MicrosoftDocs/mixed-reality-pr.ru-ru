@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, HoloLens 2, Пространственные привязки Azure, облачные службы Azure, Пользовательское визуальное распознавание Azure, Windows 10
 ms.localizationpriority: high
-ms.openlocfilehash: 50e5bccf09e03ebda8057dbb3ca9d83fc01694bd
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 75c3f98c2f40f03240906716d9b942a157994130
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98008174"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98581896"
 ---
 # <a name="4-integrating-azure-spatial-anchors"></a>4. Интеграция Пространственных привязок Azure
 
@@ -28,12 +28,12 @@ ms.locfileid: "98008174"
 
  **Пространственные привязки Azure** — это часть семейства облачных служб Azure. Решение позволяет сохранять данные расположения привязок. Сохраненные данные расположений привязок можно получить из облака на основе *идентификатора привязки*. К этим данным расположения привязок можно предоставить доступ многоплатформенным устройствам, таким как HoloLens, iOS и Android.
 
-Ознакомьтесь с дополнительными сведениями о [Пространственных привязках Azure](https://docs.microsoft.com/azure/spatial-anchors/overview).
+Ознакомьтесь с дополнительными сведениями о [Пространственных привязках Azure](/azure/spatial-anchors/overview).
 
 ## <a name="preparing-azure-spatial-anchors"></a>Подготовка Пространственных привязок Azure
 
 Перед началом работы создайте ресурс пространственной привязки на портале Azure.
-Узнайте, как создать [ресурс пространственной привязки](https://docs.microsoft.com/azure/spatial-anchors/quickstarts/get-started-hololens#create-a-spatial-anchors-resource).
+Узнайте, как создать [ресурс пространственной привязки](/azure/spatial-anchors/quickstarts/get-started-hololens#create-a-spatial-anchors-resource).
 
 ## <a name="preparing-the-scene"></a>Подготовка сцены
 

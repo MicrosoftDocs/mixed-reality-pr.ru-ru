@@ -7,12 +7,12 @@ ms.date: 07/29/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, Hololens, удаленное взаимодействие с компьютером, подсказки, отслеживание глаз
 ms.localizationpriority: high
-ms.openlocfilehash: 551c6427d9659dd7f5bad8558c777e918456b4d7
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: d8c7de8a93a32107afe67a1d0375612ab6245be9
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98007924"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98581962"
 ---
 # <a name="1-getting-started-with-pc-holographic-remoting"></a>1. Начало работы с голографическим удаленным взаимодействием с ПК
 
@@ -46,7 +46,7 @@ ms.locfileid: "98007924"
 
 В рамках этого раздела вы создадите новый проект Unity и подготовите его к разработке MRTK.
 
-Для этого сначала выполните инструкции из руководства [Инициализация проекта и первое приложение](mr-learning-base-02.md), за исключением раздела [Разработка приложения для устройства](mr-learning-base-02.md#building-and-deploying-to-your-hololens-2), то есть следующие действия:
+Для этого сначала выполните инструкции из руководства [Инициализация проекта и первое приложение](mr-learning-base-02.md), за исключением раздела [Разработка приложения для устройства](mr-learning-base-02.md#building-your-application-to-your-hololens-2), то есть следующие действия:
 
 1. [Создание проекта Unity](mr-learning-base-02.md#creating-the-unity-project) и присвоение ему подходящего имени, например *MRTK Tutorials*.
 
@@ -56,7 +56,7 @@ ms.locfileid: "98007924"
 
 4. [Импорт набора средств для Смешанной реальности (MRTK).](mr-learning-base-02.md#importing-the-mixed-reality-toolkit)
 
-5. [Настройка проекта Unity.](mr-learning-base-02.md#selecting-mrtk-and-project-settings)
+5. [Настройка проекта Unity.](mr-learning-base-02.md#configuring-the-unity-project)
 
 6. [Создание и настройка сцены](mr-learning-base-02.md#creating-and-configuring-the-scene) и присвоение ей подходящего имени, например **Голографическое удаленное взаимодействие с ПК**.
 
@@ -67,7 +67,7 @@ ms.locfileid: "98007924"
 Скачайте и **импортируйте** пакет [MRTK.Tutorials.PCHolographicRemoting.unitypackage](https://github.com/microsoft/MixedRealityLearning/releases/download/pc-holographic-remoting-v2.4.0/MRTK.Tutorials.PCHolographicRemoting.unitypackage).
 
 >[!TIP]
-> Чтобы вспомнить, как правильно импортировать пользовательский пакет Unity, воспользуйтесь инструкциями из статьи об [импорте Набора средств Смешанной реальности (MRTK)](../../../mrlearning-base-ch1.md#import-the-mixed-reality-toolkit).
+> Чтобы вспомнить, как правильно импортировать пользовательский пакет Unity, воспользуйтесь инструкциями из статьи об [импорте Набора средств Смешанной реальности (MRTK)](./mr-learning-base-02.md#importing-the-mixed-reality-toolkit).
 
 Когда вы завершите импорт активов для учебника, окно проекта должно выглядеть примерно так:
 
@@ -191,7 +191,7 @@ ms.locfileid: "98007924"
 
 Выполните тот же процесс и назначьте соответствующие объекты подсказки тем же деталям **MarsCuriosityRover** событий **While Looking At Target ()**  & **On Look Away ()** .
 
-Чтобы включить отслеживание взгляда, следуйте приведенным [рекомендациям](https://docs.microsoft.com/windows/mixed-reality/mrlearning-base-ch5#5-enable-simulated-eye-tracking-for-in-editor-simulations).
+Чтобы включить отслеживание взгляда, следуйте приведенным [рекомендациям](/windows/mixed-reality/mrlearning-base-ch5#5-enable-simulated-eye-tracking-for-in-editor-simulations).
 
 ## <a name="congratulations"></a>Поздравляем!
 

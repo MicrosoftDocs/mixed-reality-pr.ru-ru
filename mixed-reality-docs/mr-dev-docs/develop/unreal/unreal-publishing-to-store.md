@@ -7,12 +7,12 @@ ms.date: 12/3/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, разработка, документация, руководства, функции, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, публикация, дистрибуция, Microsoft Store
-ms.openlocfilehash: 41f081f11cdb9ac2fdf96a81bb761a1321d1776f
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 3a975d9c66e64f56919163e9d3aa65a3126d6379
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98010024"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583590"
 ---
 # <a name="publishing-to-the-microsoft-store"></a>Публикация в Microsoft Store
 
@@ -111,4 +111,4 @@ if(Target.Platform == UnrealTargetPlatform.Win64)
 
 * [Отправка приложения в Microsoft Store](../../distribute/submitting-an-app-to-the-microsoft-store.md)
 * [Комплект сертификации приложений для Windows](https://developer.microsoft.com/windows/downloads/app-certification-kit)
-* [Создание файла Установщика приложений вручную](https://docs.microsoft.com/windows/msix/app-installer/how-to-create-appinstaller-file)
+* [Создание файла Установщика приложений вручную](/windows/msix/app-installer/how-to-create-appinstaller-file)

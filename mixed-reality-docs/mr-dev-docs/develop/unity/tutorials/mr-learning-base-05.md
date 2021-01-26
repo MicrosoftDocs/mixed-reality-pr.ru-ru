@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, решатели
 ms.localizationpriority: high
-ms.openlocfilehash: 959ed164e566f5bee3db203437145fa08ce168d8
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 6006bf5e3edaee13c8ede0bdc04fd5ea928f1757
+ms.sourcegitcommit: a56a551ebc59529a3683fe6db90d59f982ab0b45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98008024"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98579165"
 ---
 # <a name="5-creating-dynamic-content-using-solvers"></a>5. Создание динамического содержимого с помощью решателей
 
@@ -141,4 +141,5 @@ ms.locfileid: "98008024"
 
 Чтобы получить дополнительные сведения об этих и других решателях в составе MRTK, ознакомьтесь с руководством [Решатели](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_Solver.html) на [портале документации по MRTK](https://microsoft.github.io/MixedRealityToolkit-Unity/README.html).
 
-[Следующее руководство: 6. Создание пользовательских интерфейсов](mr-learning-base-06.md)
+> [!div class="nextstepaction"]
+>[Следующее руководство: 6. Создание пользовательских интерфейсов](mr-learning-base-06.md)

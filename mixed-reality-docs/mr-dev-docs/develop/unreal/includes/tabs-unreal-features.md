@@ -1,15 +1,15 @@
 ---
-ms.openlocfilehash: 31f11712c2f1cbe7e6726ecf5a83ccd31a2e616e
-ms.sourcegitcommit: 0509cf6c57067cffd75a0189106e3369e9ecc5c8
+ms.openlocfilehash: 2ccad1adee0098233d08c6694dbb84d9fc1df6ff
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96912320"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98580055"
 ---
 # <a name="426"></a>[4.26](#tab/ue426)
 
 В последнюю версию Unreal Engine 4.26 входит следующее:
-* Поддержка новых [API смешанной реальности между устройствами](https://docs.microsoft.com/windows/mixed-reality/develop/unreal/unreal-porting).
+* Поддержка новых [API смешанной реальности между устройствами](../unreal-porting.md).
 * Поддержка OpenXR и подключаемый модуль [Microsoft OpenXR](https://github.com/microsoft/Microsoft-OpenXR-Unreal). 
 * подключаемый модуль проигрыватель мультимедиа HoloLens для эффективного воспроизведения видео;
 * Пространственные привязки Azure для iOS и Android (бета-версия);
@@ -31,4 +31,4 @@ ms.locfileid: "96912320"
 * Смешанный захват реальности
 * начальная поддержка пространственных привязок Azure.
 
-Дополнительные сведения см. в <a href="https://docs.unrealengine.com/Support/Builds/ReleaseNotes/4_25/index.html" target="_blank" title="заметках о выпуске Unreal Engine 4.25">заметки о выпуске</a>. 
+Дополнительные сведения см. в <a href="https://docs.unrealengine.com/Support/Builds/ReleaseNotes/4_25/index.html" target="_blank" title="заметках о выпуске Unreal Engine 4.25">заметки о выпуске</a>.

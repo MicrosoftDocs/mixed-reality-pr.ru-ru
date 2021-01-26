@@ -7,12 +7,12 @@ ms.date: 02/11/2019
 ms.topic: article
 ms.localizationpriority: high
 keywords: Spectator View, iPhone, iOS, iPad, OpenCV, камера, ARKit, HoloLens, смешанная реальность, MixedRealityToolkit, демонстрация, запись
-ms.openlocfilehash: 1f61d2094ec2762ab22576d2eac85ed6bf81d5c7
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: aa85b54283b260447c36072b74031554e1aa1939
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98008614"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583117"
 ---
 # <a name="spectator-view-for-hololens-and-hololens-2"></a>Spectator View для HoloLens и HoloLens 2
 
@@ -60,6 +60,6 @@ ms.locfileid: "98008614"
 | Длительность настройки во время выполнения               |         Сразу же          |                     Медл.                    |
 ## <a name="see-also"></a>См. также раздел
 
-* [Смешанный захват реальности](../../mixed-reality-capture.md) 
+* [Смешанный захват реальности](/hololens/holographic-photos-and-videos) 
 * [Съемка смешанной реальности для разработчиков](mixed-reality-capture-for-developers.md)
 * [Общий доступ в смешанной реальности](shared-experiences-in-mixed-reality.md)

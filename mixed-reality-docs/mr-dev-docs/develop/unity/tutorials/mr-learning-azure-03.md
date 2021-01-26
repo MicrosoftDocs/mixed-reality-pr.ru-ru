@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, HoloLens 2, Пользовательское визуальное распознавание Azure, Azure Cognitive Services, облачные службы Azure, Windows 10
 ms.localizationpriority: high
-ms.openlocfilehash: bd99b2ca8f41c276db747dc7fc75328c31807512
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: aa3ad219ab2cd45b14d06881757ec776d3e098f3
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98008214"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98581938"
 ---
 # <a name="3-integrating-azure-custom-vision"></a>3. Интеграция Пользовательского визуального распознавания Azure
 
@@ -28,13 +28,13 @@ ms.locfileid: "98008214"
 
 **Пользовательское визуальное распознавание Azure** входит в семейство служб **Cognitive Services** и используется для обучения классификаторов изображений. Классификатор изображений — это служба ИИ, которая использует обученную модель для применения соответствующих тегов. Эта функция классификации будет использоваться нашим приложением для обнаружения *отслеживаемых объектов*.
 
-См. сведения о [Пользовательском визуальном распознавании Azure](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/home).
+См. сведения о [Пользовательском визуальном распознавании Azure](/azure/cognitive-services/custom-vision-service/home).
 
 ## <a name="preparing-azure-custom-vision"></a>Подготовка Пользовательского визуального распознавания Azure
 
 Перед началом работы нужно создать проект пользовательского визуального распознавания, и самый быстрый способ сделать это — использовать веб-портал.
 
-Следуйте инструкциям из этого [краткого руководства](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier#choose-training-images), чтобы настроить учетную запись и проект (до раздела *Отправка и снабжение тегами изображений*).
+Следуйте инструкциям из этого [краткого руководства](/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier#choose-training-images), чтобы настроить учетную запись и проект (до раздела *Отправка и снабжение тегами изображений*).
 
 > [!WARNING]
 > Для обучения модели необходимо иметь минимум два тега и пять изображений на каждый тег. Для работы с этим приложением нужно создать хотя бы один тег с пятью изображениями, чтобы последующий процесс обучения не завершился сбоем.

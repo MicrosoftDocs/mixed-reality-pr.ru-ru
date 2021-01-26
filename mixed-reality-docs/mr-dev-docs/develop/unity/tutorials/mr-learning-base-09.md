@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, речевые команды, голосовой ввод
 ms.localizationpriority: high
-ms.openlocfilehash: 8aea8ead6416787f2979e0deff46ee5d6d45eb19
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: c052c3501ab34811f33f1f6464c8394669eebe77
+ms.sourcegitcommit: 04927427226928bd9178da0049d4cef626a6b0bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98007914"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "98635452"
 ---
 # <a name="9-using-speech-commands"></a>9. Использование речевых команд
 
@@ -30,7 +30,7 @@ ms.locfileid: "98007914"
 ![Включение поддержки микрофона](images/mr-learning-base/base-09-section1-step1-1.png)
 
 > [!NOTE]
-> Во время выполнения инструкций по настройке проекта Unity из раздела [Применение параметров конфигуратора проекта MRTK](mr-learning-base-02.md#selecting-mrtk-and-project-settings), приведенного в начале этого учебного курса, должна быть включена функция поддержки микрофона. Если функция отключена, включите ее сейчас.
+> Во время выполнения инструкций по настройке проекта Unity из раздела [Применение параметров конфигуратора проекта MRTK](mr-learning-base-02.md#creating-and-configuring-the-scene), приведенного в начале этого учебного курса, должна быть включена функция поддержки микрофона. Если функция отключена, включите ее сейчас.
 
 ## <a name="creating-speech-commands"></a>Создание речевых команд
 
@@ -147,4 +147,3 @@ ms.locfileid: "98007914"
 > [Базовые взаимодействия](../mrtk-101.md)
 
 Вы можете в любой момент вернуться к [этапам разработки для Unity](../unity-development-overview.md#1-getting-started).
-

@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure, сеансы приложений
 ms.localizationpriority: high
-ms.openlocfilehash: abe0c8bc70469826e25f7016a3cc1ba971c1fcc1
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 4bae36bfb24130fc7914563af07c09374162f3cb
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98008364"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98582049"
 ---
 # <a name="3-saving-retrieving-and-sharing-azure-spatial-anchors"></a>3. Сохранение, получение и совместное использование Пространственных привязок Azure
 
@@ -58,7 +58,7 @@ ms.locfileid: "98008364"
 8. Найдите привязку Azure (она отвечает за размещение Rover Explorer в расположении, которое мы настроили на шаге 3).
 
 > [!NOTE]
-> Чтобы полностью перезапустить приложение после выхода из представления иммерсивного приложения, окно приложения в доме в смешанной реальности необходимо закрыть перед повторным запуском из меню "Пуск". См. сведения об [использовании приложений в HoloLens](https://docs.microsoft.com/hololens/holographic-home#using-apps-on-hololens).
+> Чтобы полностью перезапустить приложение после выхода из представления иммерсивного приложения, окно приложения в доме в смешанной реальности необходимо закрыть перед повторным запуском из меню "Пуск". См. сведения об [использовании приложений в HoloLens](/hololens/holographic-home#using-apps-on-hololens).
 
 ## <a name="sharing-azure-spatial-anchors-between-devices"></a>Совместное использование Пространственных привязок Azure на разных устройствах
 

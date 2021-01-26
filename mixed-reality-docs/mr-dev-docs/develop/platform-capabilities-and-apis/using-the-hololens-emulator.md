@@ -7,12 +7,12 @@ ms.date: 01/13/2021
 ms.topic: article
 ms.localizationpriority: high
 keywords: HoloLens, emulator
-ms.openlocfilehash: c26048db18c482312472210c133b20a42fdecae6
-ms.sourcegitcommit: 4b6815605e2ea3830052baed38df21af354d2f9b
+ms.openlocfilehash: 6770ce215fb846b7863b77e4b9fe6da7d7b0c98f
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98166789"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583488"
 ---
 # <a name="using-the-hololens-emulator"></a>Использование эмулятора HoloLens
 
@@ -43,7 +43,7 @@ ms.locfileid: "98166789"
 * 64-разрядный ЦП.
 * ЦП с четырьмя ядрами (или несколько процессоров с четырьмя ядрами в сумме).
 * ОЗУ не менее 8 ГБ.
-* Следующие компоненты должны быть [доступными и включенными](https://blogs.technet.com/b/iftekhar/archive/2010/08/09/enable-hardware-settings-in-bios-to-run-hyper-v.aspx) в BIOS:
+* Следующие компоненты должны быть [доступными и включенными](/archive/blogs/iftekhar/enable-hardware-settings-in-bios-to-run-hyper-v) в BIOS:
    * Аппаратные средства виртуализации
    * преобразование адресов второго уровня (SLAT);
    * аппаратное предотвращение выполнения данных (DEP).
@@ -255,7 +255,7 @@ ms.locfileid: "98166789"
 * При удалении эмулятора HoloLens 2 образ жесткого диска (Flash.vhdx) может остаться на жестком диске в папке Windows Kits\10\Emulation\HoloLens\<build number>.  Этот файл можно спокойно удалить.
 * Включение аппаратного ускорения графики может привести к сбою приложений Holographic в некоторых системах с графическими технологиями AMD или Intel.  Чтобы устранить эту проблему, отключите аппаратное ускорение графики в окне средств эмулятора.
 * После установки последних обновлений Windows по состоянию на июль 2020 г. аппаратное ускорение графики в эмуляторе HoloLens (1-го поколения) может быть больше не доступно.
-Компонент RemoteFX, необходимый для аппаратного ускорения графики, теперь не рекомендуется и будет удален в будущем выпуске Windows.  Чтобы повторно включить аппаратное ускорение графики, используйте [командлет PowerShell Enable-VMRemoteFXPhysicalVideoAdapter](https://docs.microsoft.com/powershell/module/hyper-v/enable-vmremotefxphysicalvideoadapter).  Дополнительные сведения см. в [документации по прекращению поддержки и удалению RemoteFX в Windows](https://support.microsoft.com/help/4570006/update-to-disable-and-remove-the-remotefx-vgpu-component).
+Компонент RemoteFX, необходимый для аппаратного ускорения графики, теперь не рекомендуется и будет удален в будущем выпуске Windows.  Чтобы повторно включить аппаратное ускорение графики, используйте [командлет PowerShell Enable-VMRemoteFXPhysicalVideoAdapter](/powershell/module/hyper-v/enable-vmremotefxphysicalvideoadapter).  Дополнительные сведения см. в [документации по прекращению поддержки и удалению RemoteFX в Windows](https://support.microsoft.com/help/4570006/update-to-disable-and-remove-the-remotefx-vgpu-component).
 
 ## <a name="troubleshooting"></a>Диагностика
 

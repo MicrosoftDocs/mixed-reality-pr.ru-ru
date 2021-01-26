@@ -7,12 +7,12 @@ ms.date: 04/05/2019
 ms.topic: article
 ms.localizationpriority: high
 keywords: смешанная реальность, взаимодействие, проектирование, HoloLens, руки, дальность, наведение и фиксация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, телекинез, манипулирование объектами, MRTK, Mixed Reality Toolkit, степень свободы
-ms.openlocfilehash: 4ee1fabac763a22006b956e46a908ff4d11e395f
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 3351a38cad99089a60555ffe450447fc5c356fdc
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009744"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583204"
 ---
 # <a name="point-and-commit-with-hands"></a>Наведение и фиксация с использованием рук
 
@@ -31,7 +31,7 @@ ms.locfileid: "98009744"
 </colgroup>
 <tr>
      <td><strong>Модель ввода</strong></td>
-     <td><a href="../hololens-hardware-details.md"><strong>HoloLens (1-го поколения)</strong></a></td>
+     <td><a href="/hololens/hololens1-hardware"><strong>HoloLens (1-го поколения)</strong></a></td>
      <td><a href="https://docs.microsoft.com/hololens/hololens2-hardware"><strong>HoloLens 2</strong></td>
      <td><a href="../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
 </tr>

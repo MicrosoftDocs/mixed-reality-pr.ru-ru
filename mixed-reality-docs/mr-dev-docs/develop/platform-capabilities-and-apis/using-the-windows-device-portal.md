@@ -7,18 +7,18 @@ ms.date: 08/03/2020
 ms.topic: article
 keywords: Портал устройств Windows, HoloLens
 ms.localizationpriority: high
-ms.openlocfilehash: 75eda2775486b1ace82b574816db34a2f895c80b
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: c354a6f7c3afd6164182f915c39bbf1ce306ef39
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98007794"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583242"
 ---
 # <a name="using-the-windows-device-portal"></a>Использование портала устройств Windows
 
 <table>
 <tr>
-<th>Функция</th><th style="width:150px"><a href="../../hololens-hardware-details.md">HoloLens (1-го поколения)</a></th><th style="width:150px">HoloLens 2</th><th style="width:150px">
+<th>Функция</th><th style="width:150px"><a href="/hololens/hololens1-hardware">HoloLens (1-го поколения)</a></th><th style="width:150px">HoloLens 2</th><th style="width:150px">
 </tr><tr>
 <td> Портал устройств Windows</td><td style="text-align: center;"> ✔️</td><td style="text-align: center;"> ✔️</td><td style="text-align: center;"></td>
 </tr>
@@ -26,19 +26,19 @@ ms.locfileid: "98007794"
 
 Портал устройств Windows для HoloLens позволяет настроить устройство и управлять им удаленно по подключению через Wi-Fi или USB. Портал устройств — это веб-сервер на вашем устройстве HoloLens, к которому можно подключаться из веб-браузера на ПК. Портал устройств содержит множество инструментов, которые помогут вам управлять HoloLens, отлаживать и оптимизировать приложения.
 
-Эта документация посвящена исключительно порталу устройств Windows для HoloLens. Чтобы использовать портал устройств Windows для ПК (в том числе для Windows Mixed Reality), изучите [этот обзор](https://docs.microsoft.com/windows/uwp/debug-test-perf/device-portal).
+Эта документация посвящена исключительно порталу устройств Windows для HoloLens. Чтобы использовать портал устройств Windows для ПК (в том числе для Windows Mixed Reality), изучите [этот обзор](/windows/uwp/debug-test-perf/device-portal).
 
 ## <a name="setting-up-hololens-to-use-windows-device-portal"></a>Настройка HoloLens для использования портала устройств Windows
 
 1. Включите устройство HoloLens и наденьте его.
-2. Выполните [жест "Пуск"](https://docs.microsoft.com/hololens/hololens2-basic-usage#start-gesture) для HoloLens2 или [жест "раскрытая ладонь"](https://docs.microsoft.com/hololens/hololens1-basic-usage#open-the-start-menu-with-bloom) для HoloLens (1-го поколения), чтобы открыть главное меню. 
-3. Посмотрите на плитку **Settings** (Параметры) и выполните [жест касания](https://docs.microsoft.com/hololens/hololens1-basic-usage#select-holograms-with-gaze-and-air-tap) в HoloLens (1-го поколения). Для выбора элемента в HoloLens 2 можно [коснуться его или использовать телекинез](https://docs.microsoft.com/hololens/hololens2-basic-usage). 
+2. Выполните [жест "Пуск"](/hololens/hololens2-basic-usage#start-gesture) для HoloLens2 или [жест "раскрытая ладонь"](/hololens/hololens1-basic-usage#open-the-start-menu-with-bloom) для HoloLens (1-го поколения), чтобы открыть главное меню. 
+3. Посмотрите на плитку **Settings** (Параметры) и выполните [жест касания](/hololens/hololens1-basic-usage#select-holograms-with-gaze-and-air-tap) в HoloLens (1-го поколения). Для выбора элемента в HoloLens 2 можно [коснуться его или использовать телекинез](/hololens/hololens2-basic-usage). 
 4. Выберите пункт меню **Обновить**.
 5. Выберите пункт меню **Для разработчиков**.
 6. Включите **Режим разработчика**.
 
 > [!IMPORTANT]
-> Если вы выполнили вход в многопользовательском режиме, а не с правами администратора, возможность использования режима разработчика может быть недоступна. Убедитесь, что вы являетесь **[администратором на устройстве](https://docs.microsoft.com/hololens/security-adminless-os)** .
+> Если вы выполнили вход в многопользовательском режиме, а не с правами администратора, возможность использования режима разработчика может быть недоступна. Убедитесь, что вы являетесь **[администратором на устройстве](/hololens/security-adminless-os)** .
 
 7. [Прокрутите вниз](../../design/gaze-and-commit.md#composite-gestures) и включите **Портал устройств**.
 8. Если вы настраиваете портал устройств Windows для развертывания приложений на этом устройстве HoloLens через подключение USB или Wi-Fi, щелкните **Pair** (Связать) для [создания ПИН-кода связывания](using-visual-studio.md). Оставьте приложение "Параметры" и окно PIN-кода открытым, пока не закончите ввод PIN-кода в Visual Studio в процессе первого развертывания.
@@ -47,7 +47,7 @@ ms.locfileid: "98007794"
 
 ## <a name="connecting-over-wi-fi"></a>Подключение через Wi-Fi
 
-1. [Подключите устройство HoloLens к Wi-Fi](../../connecting-to-wi-fi-on-hololens.md).
+1. [Подключите устройство HoloLens к Wi-Fi](/hololens/hololens-network).
 2. Найдите IP-адрес устройства одним из следующих способов:
    * Выберите последовательно **Settings > Network & Internet > Wi-Fi > Advanced Options** (Параметры > Сеть и Интернет > Wi-Fi > Расширенные параметры).
    * Выберите **Settings > Network & Internet** (Параметры > Сеть и Интернет) и **Свойства оборудования**.
@@ -281,13 +281,13 @@ ms.locfileid: "98007794"
 ![Страница трассировки производительности на портале устройств Windows для Microsoft HoloLens](images/using-windows-portal-img-08.png)<br>
 *Страница трассировки производительности на портале устройств Windows для Microsoft HoloLens*
 
-Захват трассировок с помощью [Windows Performance Recorder](https://msdn.microsoft.com/library/windows/hardware/hh448205.aspx) (WPR) с устройства HoloLens.
+Захват трассировок с помощью [Windows Performance Recorder](/previous-versions/windows/it-pro/windows-8.1-and-8/hh448205(v=win.10)) (WPR) с устройства HoloLens.
 * **Available profiles** (Доступные профили): выберите профиль WPR в раскрывающемся списке, затем выберите элемент **Start** (Запуск) для начала трассировки.
 * **Custom profiles** (Пользовательские профили): Нажмите кнопку **Browse** (Обзор) для выбора профиля WPR на своем компьютере. Выберите элемент **Upload and start** (Передать и запустить), чтобы начать трассировку.
 
 Чтобы прекратить трассировку, щелкните ссылку остановки. Оставайтесь на этой странице до тех пор, пока файл трассировки не будет полностью скачан.
 
-Захваченные файлы ETL можно открыть для анализа в [Windows Performance Analyzer](https://msdn.microsoft.com/library/windows/hardware/hh448170.aspx).
+Захваченные файлы ETL можно открыть для анализа в [Windows Performance Analyzer](/previous-versions/windows/it-pro/windows-8.1-and-8/hh448170(v=win.10)).
 
 ### <a name="processes"></a>Процессы
 
@@ -330,7 +330,7 @@ ms.locfileid: "98007794"
 ![Страница аварийных дампов для приложения на портале устройств Windows для Microsoft HoloLens](images/using-windows-portal-img-12.png)<br>
 *Страница аварийных дампов для приложения на портале устройств Windows для Microsoft HoloLens*
 
-На этой странице можно собирать дампы сбоев для загрузки в сторонние приложения. Установите флажок **Crash Dumps Enabled** (Аварийные дампы включены) для каждого приложения, в котором следует собирать аварийные дампы. Вернитесь на эту страницу для сбора дампов сбоев. Файлы дампов можно [открыть для отладки в Visual Studio](https://msdn.microsoft.com/library/d5zhxt22.aspx).
+На этой странице можно собирать дампы сбоев для загрузки в сторонние приложения. Установите флажок **Crash Dumps Enabled** (Аварийные дампы включены) для каждого приложения, в котором следует собирать аварийные дампы. Вернитесь на эту страницу для сбора дампов сбоев. Файлы дампов можно [открыть для отладки в Visual Studio](/previous-versions/visualstudio/visual-studio-2015/debugger/using-dump-files).
 
 ### <a name="file-explorer"></a>Проводник
 
@@ -342,11 +342,11 @@ ms.locfileid: "98007794"
 ### <a name="kiosk-mode"></a>Режим полного экрана
 
 >[!NOTE]
->Полноэкранный режим доступен только в [Microsoft HoloLens Commercial Suite](../../commercial-features.md).
+>Полноэкранный режим доступен только в [Microsoft HoloLens Commercial Suite](/hololens/hololens-commercial-features).
 
 ![Страница полноэкранного режима на портале устройств Windows в Microsoft HoloLens](images/using-windows-portal-img-14.png)
 
-Изучите статью [Настройка устройства HoloLens в режиме киоска](https://docs.microsoft.com/hololens/hololens-kiosk#set-up-kiosk-mode-using-the-windows-device-portal-windows-10-version-1607-and-version-1803) в Центре Майкрософт для ИТ-специалистов, чтобы получить актуальные инструкции по включению режима киоска на портале устройств Windows.
+Изучите статью [Настройка устройства HoloLens в режиме киоска](/hololens/hololens-kiosk#set-up-kiosk-mode-using-the-windows-device-portal-windows-10-version-1607-and-version-1803) в Центре Майкрософт для ИТ-специалистов, чтобы получить актуальные инструкции по включению режима киоска на портале устройств Windows.
 
 ### <a name="logging"></a>Ведение журнала
 

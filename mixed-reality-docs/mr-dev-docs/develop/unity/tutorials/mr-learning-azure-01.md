@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: Azure, смешанная реальность, Unity, учебник, Hololens, Hololens 2, хранилище BLOB-объектов Azure, табличное хранилище Azure, Пространственные привязки Azure, Azure Bot Framework, облачные службы Azure, Пользовательское визуальное распознавание Azure, Windows 10
 ms.localizationpriority: high
-ms.openlocfilehash: 24f44e7ecef3aeab45978787bf09d1f947bc2411
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 8f8727074870d07ac9fcd7190f5f53931d75643f
+ms.sourcegitcommit: 04927427226928bd9178da0049d4cef626a6b0bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98008324"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "98635548"
 ---
 # <a name="1-azure-cloud-services-for-hololens-2"></a>1. Облачные службы Azure для HoloLens 2
 
@@ -82,13 +82,13 @@ ms.locfileid: "98008324"
 
 В рамках этого раздела вы создадите новый проект Unity и подготовите его к разработке MRTK.
 
-Для этого сначала выполните инструкции из руководства [Инициализация проекта и первое приложение](mr-learning-base-02.md), за исключением раздела [Разработка приложения для устройства](mr-learning-base-02.md#building-and-deploying-to-your-hololens-2), то есть следующие действия:
+Для этого сначала выполните инструкции из руководства [Инициализация проекта и первое приложение](mr-learning-base-02.md), за исключением раздела [Разработка приложения для устройства](mr-learning-base-02.md#building-your-application-to-your-hololens-2), то есть следующие действия:
 
 1. [Создание проекта Unity](mr-learning-base-02.md#creating-the-unity-project) и присвоение ему подходящего имени, например *Azure Cloud Tutorials*.
 2. [Переключение платформы сборки.](mr-learning-base-02.md#switching-the-build-platform)
 3. [Импорт требуемых ресурсов TextMeshPro.](mr-learning-base-02.md#importing-the-textmeshpro-essential-resources)
 4. [Импорт набора средств для смешанной реальности (MRTK).](mr-learning-base-02.md#importing-the-mixed-reality-toolkit)
-5. [Настройка проекта Unity.](mr-learning-base-02.md#selecting-mrtk-and-project-settings)
+5. [Настройка проекта Unity.](mr-learning-base-02.md#configuring-the-unity-project)
 6. [Создание и настройка сцены](mr-learning-base-02.md#creating-and-configuring-the-scene) и назначение ей понятного имени, например *AzureCloudServices.*
 
 Затем следуйте инструкциям по [изменению параметра отображения для отслеживания пространственного положения](mr-learning-base-03.md#changing-the-spatial-awareness-display-option), чтобы указать профиль конфигурации MRTK **DefaultHoloLens2ConfigurationProfile** для сцены и значение **Occlusion** (Перекрытие) для параметра отображения сетки отслеживания пространственного положения.
@@ -197,7 +197,7 @@ ms.locfileid: "98008324"
 Не все функции, которые будут использоваться в этой серии учебников, можно выполнять внутри редактора Unity. Это означает, что вам необходимо получить сведения о развертывании приложения на устройстве HoloLens 2.
 
 > [!TIP]
-> Чтобы вспомнить, как правильно скомпилировать проект Unity и развернуть его на HoloLens 2, воспользуйтесь инструкциями из раздела о [разработке приложения для устройства](mr-learning-base-02.md#building-and-deploying-to-your-hololens-2) в учебнике по началу работы.
+> Чтобы вспомнить, как правильно скомпилировать проект Unity и развернуть его на HoloLens 2, воспользуйтесь инструкциями из раздела о [разработке приложения для устройства](mr-learning-base-02.md#building-your-application-to-your-hololens-2) в учебнике по началу работы.
 
 ### <a name="3-run-the-app-on-your-hololens-2-and-follow-the-in-app-instructions"></a>3. Запустите приложение на HoloLens 2 и следуйте предоставленным инструкциям
 

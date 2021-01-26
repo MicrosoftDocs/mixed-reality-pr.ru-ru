@@ -2,17 +2,17 @@
 title: Рекомендации по производительности для Unreal
 description: Сведения о том, как обеспечить оптимальную производительность приложений смешанной реальности с помощью рекомендуемых параметров проекта Unreal.
 author: hferrone
-ms.author: v-hferrone
+ms.author: safarooq
 ms.date: 5/5/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, производительность, оптимизация, параметры, документация
-ms.openlocfilehash: a1a8dacd0206882c7ebd67b2658fa2e6300aa66a
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: e956f12d27c826cff35e0b65957060953073a28b
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009824"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583065"
 ---
 # <a name="performance-recommendations-for-unreal"></a>Рекомендации по производительности для Unreal
 
