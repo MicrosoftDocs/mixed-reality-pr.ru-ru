@@ -7,12 +7,12 @@ ms.date: 12/9/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, разработка, функции, документация, руководства, голограммы, QR-коды, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: d896af683a86a1b27e5d100df744222085574a93
-ms.sourcegitcommit: e24715fffa815c24ca411fa93eed9576ae729337
+ms.openlocfilehash: d9f23bacf31b310da6d49e74de2153b50e642c7d
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "98247747"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98582667"
 ---
 # <a name="qr-codes-in-unreal"></a>QR-коды в Unreal
 
@@ -22,7 +22,7 @@ ms.locfileid: "98247747"
 - Освещение и фон
 - Размер, расстояние и угловое положение
 
-Размещая QR-коды в приложении, следует уделять особое внимание [особенностям пространственной среды](../../environment-considerations-for-hololens.md). Более подробные сведения по каждой из этих тем, а также инструкции по скачиванию соответствующего пакета NuGet см. в главном документе "[Отслеживание QR-кодов](../platform-capabilities-and-apis/qr-code-tracking.md)".
+Размещая QR-коды в приложении, следует уделять особое внимание [особенностям пространственной среды](/hololens/hololens-environment-considerations). Более подробные сведения по каждой из этих тем, а также инструкции по скачиванию соответствующего пакета NuGet см. в главном документе "[Отслеживание QR-кодов](../platform-capabilities-and-apis/qr-code-tracking.md)".
 
 > [!CAUTION]
 > QR-коды — это единственный тип изображений, отслеживаемый HoloLens без дополнительной настройки. Модуль Unreal **UARTrackedImage** не поддерживается в HoloLens. Если вам требуется отслеживать собственные изображения, вы можете получать данные с [веб-камеры](unreal-hololens-camera.md) устройства и обрабатывать кадры с нее с помощью сторонней библиотеки распознавания изображений. 
@@ -32,7 +32,7 @@ ms.locfileid: "98247747"
 Поскольку для обнаружения QR-кодов устройству HoloLens 2 нужно задействовать веб-камеру, необходимо включить эту функцию в параметрах проекта:
 - Выберите **Edit > Project Settings** (Правка > Параметры проекта), прокрутите вниз до раздела **Platforms** (Платформы) и выберите элемент **HoloLens**.
     + Разверните раздел **Capabilities** (Возможности) и установите флажок **Webcam** (Веб-камера).  
-- Необходимо также включить отслеживание QR-кодов, [добавив ресурс ARSessionConfig](https://docs.microsoft.com/windows/mixed-reality/unreal-uxt-ch3#adding-the-session-asset) (по умолчанию оно выключено).
+- Необходимо также включить отслеживание QR-кодов, [добавив ресурс ARSessionConfig](/windows/mixed-reality/unreal-uxt-ch3#adding-the-session-asset) (по умолчанию оно выключено).
 
 [!INCLUDE[](includes/tabs-qr-codes-1.md)]
 
@@ -62,7 +62,7 @@ QR-коды выводятся в виде отслеживаемого изоб
 1. Сначала отслеживаемое изображение приводится к типу **ARTrackedQRCode** и проверяется, что текущее обновленное изображение содержит QR-код.  
 2. Закодированные данные извлекаются из переменной **QRCode**. Координаты левого верхнего угла QR-кода можно получить из расположения, возвращаемого функцией **GetLocalToWorldTransform**, а размеры кода — с помощью функции **GetEstimateSize**.
 
-Можно также [получить систему координат для QR-кода](https://docs.microsoft.com/windows/mixed-reality/qr-code-tracking#getting-the-coordinate-system-for-a-qr-code) в программном коде.
+Можно также [получить систему координат для QR-кода](/windows/mixed-reality/qr-code-tracking#getting-the-coordinate-system-for-a-qr-code) в программном коде.
 
 ## <a name="finding-the-unique-id"></a>Поиск уникального идентификатора
 

@@ -7,12 +7,12 @@ ms.date: 12/9/2020
 ms.topic: tutorial
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens 2, Azure, разработка Azure, пространственные привязки, смешанная реальность, разработка, функции, новый проект, эмулятор, документация, руководства, голограммы, разработка игр, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 95e8ad708dd44a05fb306b2ea49f167fd400c5d8
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 5797cd48198b163b55f3724685126b1d4d85c69c
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009774"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583020"
 ---
 # <a name="azure-spatial-anchors-in-unreal"></a>Пространственные привязки Azure в Unreal
 
@@ -30,17 +30,17 @@ ms.locfileid: "98009774"
 
 - [Unreal 4.25](https://www.unrealengine.com/get-now) или более поздней версии;
 - настройка [проекта HoloLens 2](tutorials/unreal-uxt-ch1.md) в Unreal; 
-- ознакомление с [обзором пространственных привязок Azure](https://docs.microsoft.com/azure/spatial-anchors/overview);
+- ознакомление с [обзором пространственных привязок Azure](/azure/spatial-anchors/overview);
 - базовые знания C++ и Unreal.
 
 ## <a name="getting-azure-spatial-anchors-account-info"></a>Получение сведений об учетной записи службы "Пространственные привязки Azure"
 
 Прежде чем вы сможете использовать Пространственные привязки Azure в своем проекте, сделайте следующее:
-* [Создайте ресурс пространственных привязок](https://docs.microsoft.com/azure/spatial-anchors/quickstarts/get-started-hololens#create-a-spatial-anchors-resource) и скопируйте приведенные ниже поля учетной записи. Эти значения используются для аутентификации пользователей в учетной записи приложения:
+* [Создайте ресурс пространственных привязок](/azure/spatial-anchors/quickstarts/get-started-hololens#create-a-spatial-anchors-resource) и скопируйте приведенные ниже поля учетной записи. Эти значения используются для аутентификации пользователей в учетной записи приложения:
     * **идентификатор учетной записи**;
     * **ключ учетной записи**.
 
-Дополнительные сведения см. в документации по [аутентификации в службе "Пространственные привязки Azure"](https://docs.microsoft.com/azure/spatial-anchors/concepts/authentication?tabs=csharp).
+Дополнительные сведения см. в документации по [аутентификации в службе "Пространственные привязки Azure"](/azure/spatial-anchors/concepts/authentication?tabs=csharp).
 
 > [!NOTE]
 > Пространственные привязки Azure в Unreal 4.25 не поддерживают маркеры аутентификации Azure AD, но мы добавим поддержку такой функции в последующих выпусках.
@@ -65,7 +65,7 @@ ms.locfileid: "98009774"
 ![Снимок экрана: панель сведений с выделенными идентификатором учетной записи Пространственных привязок Azure и типом переменной](images/asa-unreal/unreal-spatial-anchors-img-02.png)
 
 Запустите сеанс Пространственных привязок Azure, выполнив следующие действия:
-1. Проверьте, что **сеанс дополненной реальности** запущен в приложении HoloLens, так как сеанс Пространственных привязок Azure не может запуститься без сеанса дополненной реальности. Если у вас нет единой настройки, [создайте ресурс сеанса дополненной реальности](https://docs.microsoft.com/windows/mixed-reality/unreal-uxt-ch3#adding-the-session-asset).
+1. Проверьте, что **сеанс дополненной реальности** запущен в приложении HoloLens, так как сеанс Пространственных привязок Azure не может запуститься без сеанса дополненной реальности. Если у вас нет единой настройки, [создайте ресурс сеанса дополненной реальности](/windows/mixed-reality/unreal-uxt-ch3#adding-the-session-asset).
 2. Добавьте пользовательское событие **Start Azure Spatial Anchors Session** (Запуск сеанса Пространственных привязок Azure) и настройте его, как показано на снимке экрана ниже.
     * При создании сеанса он не будет запущен по умолчанию. Это позволяет настроить сеанс для аутентификации со службой "Пространственные привязки Azure".
 
@@ -216,6 +216,6 @@ ms.locfileid: "98009774"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Локальные пространственные привязки](unreal-spatial-anchors.md)
-* [Документация по пространственным привязкам](https://docs.microsoft.com/azure/spatial-anchors/)
+* [Документация по пространственным привязкам](/azure/spatial-anchors/)
 * [Функции пространственных привязок](https://azure.microsoft.com/services/spatial-anchors/#features)
-* [Действующие рекомендации по работе с привязками](https://docs.microsoft.com/azure/spatial-anchors/concepts/guidelines-effective-anchor-experiences)
+* [Действующие рекомендации по работе с привязками](/azure/spatial-anchors/concepts/guidelines-effective-anchor-experiences)

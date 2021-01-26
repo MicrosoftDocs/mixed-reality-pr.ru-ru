@@ -7,19 +7,19 @@ ms.date: 06/10/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, учебник, начало работы, MRTK, UXT, UX Tools, документация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 464df846d0fc6e1bd22ee3862adcdf110c377728
-ms.sourcegitcommit: 32cb81eee976e73cd661c2b347691c37865a60bc
+ms.openlocfilehash: 9e02ea6cb2710b4661e97dc8b0d5f4f48ab09fa7
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96609655"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98583902"
 ---
 # <a name="2-initializing-your-project-and-first-application"></a>2. Инициализация проекта и первое приложение
 
 С помощью инструкций из первого руководства вы создадите проект Unreal, включите подключаемый модуль HoloLens, создадите уровень, зададите для него освещение и добавите шахматные фигуры. Для этого мы воспользуемся готовыми ресурсами для трехмерных объектов и материалов. Создавать модели с нуля не придется. Когда вы выполните все описанное в руководстве, у вас будет шаблон для работы со смешанной реальностью.
 
 > [!IMPORTANT]
-> Убедитесь, что у вас есть все необходимое из списка на странице [Начало работы](https://docs.microsoft.com/windows/mixed-reality/unreal-uxt-ch1).
+> Убедитесь, что у вас есть все необходимое из списка на странице [Начало работы](/windows/mixed-reality/unreal-uxt-ch1).
 
 ## <a name="objectives"></a>Задачи
 
@@ -29,7 +29,7 @@ ms.locfileid: "96609655"
 
 ## <a name="creating-a-new-unreal-project"></a>Создание проекта Unreal.
 
-Первое, что вам понадобится для работы — это проект. Если вы только начинаете разработку на Unreal, [скачайте вспомогательные файлы](https://docs.microsoft.com/windows/mixed-reality/develop/unreal/tutorials/unreal-uxt-ch6#packaging-and-deploying-the-app-via-device-portal) из Epic Launcher.
+Первое, что вам понадобится для работы — это проект. Если вы только начинаете разработку на Unreal, [скачайте вспомогательные файлы](./unreal-uxt-ch6.md#packaging-and-deploying-the-app-via-device-portal) из Epic Launcher.
 
 1. Запуск Unreal Engine
 
