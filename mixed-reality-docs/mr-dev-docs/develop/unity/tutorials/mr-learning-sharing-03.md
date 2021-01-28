@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, многопользовательские возможности, Photon, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure
 ms.localizationpriority: high
-ms.openlocfilehash: 6cc77b32e9479bafeb53dcb99cba4f2f29865fd7
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 0c6bf0871836ad7aae9c3906b2042f97ae003ebf
+ms.sourcegitcommit: 3dad2adfdb5bdb8100d8d864f7845e34a3ef912d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98007214"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98699068"
 ---
 # <a name="3-connecting-multiple-users"></a>3. Подключение нескольких пользователей
 
@@ -63,13 +63,13 @@ ms.locfileid: "98007214"
 
 В окне "Инспектор" нажмите кнопку **Добавить компонент**, чтобы добавить в объект PhotonUser компонент **Photon View (Script)** (Photon View — скрипт) и настроить его, как описано ниже.
 
-* В поле **Observed Components** (Наблюдаемые компоненты) укажите компонент **Generic Net Sync (Script)** (Generic Net Sync — скрипт).
+* Убедитесь, что поле **Observed Components** (Наблюдаемые компоненты) назначено с компонентом **Generic Net Sync (Script)** (Generic Net Sync — скрипт).
 
 ![Unity с добавленным и настроенным компонентом Photon View](images/mr-learning-sharing/sharing-03-section2-step1-4.png)
 
 ### <a name="2-create-the-avatar"></a>2. Создание аватара
 
-В окне Project (Проект) перейдите к папке **Assets** > **MRTK** > **SDK** > **StandardAssets**  > **Materials** (Активы > MRTK > Пакет SDK > Стандартные активы > Материалы), чтобы найти материалы MRTK.
+В окне Project (Проект) перейдите к папке **Assets** > **MRTK** > **StandardAssets** > **Materials** (Активы > MRTK > Стандартные активы > Материалы), чтобы найти материалы MRTK.
 
 Затем щелкните правой кнопкой мыши объект **PhotonUser** в окне Hierarchy (Иерархия) и последовательно выберите **3D Object** > **Sphere** (Трехмерный объект > Сфера), чтобы создать сферический объект в качестве дочернего для объекта PhotonUser и настроить его следующим образом:
 
@@ -112,7 +112,7 @@ ms.locfileid: "98007214"
 ![Анимация, показывающая Unity с сетевыми пользователями](images/mr-learning-sharing/sharing-03-section4-step1-1.gif)
 
 > [!TIP]
-> Сведения о том, как правильно скомпилировать проект Unity и развернуть его в HoloLens 2, см. в разделе [Создание приложения для HoloLens 2](mr-learning-base-02.md#building-and-deploying-to-your-hololens-2).
+> Сведения о том, как правильно скомпилировать проект Unity и развернуть его в HoloLens 2, см. в разделе [Создание приложения для HoloLens 2](mr-learning-base-02.md#building-your-application-to-your-hololens-2).
 
 > [!CAUTION]
 > Этому приложению требуется подключение к Photon, поэтому не забудьте проверить подключение компьютера или устройства к Интернету.

@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, решатели, отслеживание взгляда, голосовые команды
 ms.localizationpriority: high
-ms.openlocfilehash: 27a5f2cae4f08fbc142c8b872c22d23ab41cdc62
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: a917aea812c262e3589110a29e2399da4c1e5348
+ms.sourcegitcommit: a56a551ebc59529a3683fe6db90d59f982ab0b45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98008084"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98579273"
 ---
 # <a name="1-introduction-to-the-mrtk-tutorials"></a>1. Введение в учебники по MRTK
 
@@ -42,14 +42,14 @@ ms.locfileid: "98008084"
 * Компьютер с Windows 10, настроенный с помощью требуемых [установленных инструментов](../../install-the-tools.md).
 * [Пакет SDK для Windows 10](https://developer.microsoft.com/windows/downloads/windows-10-sdk/) версии 10.0.18362.0 и выше.
 * Устройство HoloLens 2, [настроенное для разработки](../../platform-capabilities-and-apis/using-visual-studio.md#enabling-developer-mode).
+
 * <a href="https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html" target="_blank">Unity Hub</a> с Unity 2019 LTS и модулем поддержки сборки универсальной платформы Windows
 
 > [!CAUTION]
-> Рекомендуемая версия MRTK для этой серии руководств — MRTK 2.4.0.
+> Для работы с этой серии учебников рекомендуется MRTK 2.5.1.
 
 > [!CAUTION]
 > Рекомендуемая версия Unity для этой серии руководств — Unity 2019 LTS. Это заменяет все требования к версии Unity, указанные выше.
 
 > [!div class="nextstepaction"]
 > [Следующее руководство: 2. Инициализация проекта и развертывание первого приложения](mr-learning-base-02.md)
-

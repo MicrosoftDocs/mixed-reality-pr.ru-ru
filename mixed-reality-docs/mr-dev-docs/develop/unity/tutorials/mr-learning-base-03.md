@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, отслеживание пространственного положения
 ms.localizationpriority: high
-ms.openlocfilehash: 58f9c5f756a12e99fd10b136b2a450c6227b2dad
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 9b0c914bd1f518d53abdd681b3a5f6959c9a6211
+ms.sourcegitcommit: a56a551ebc59529a3683fe6db90d59f982ab0b45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98008014"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98579355"
 ---
 # <a name="3-configuring-the-mrtk-profiles"></a>3. Настройка профилей MRTK
 
@@ -47,7 +47,7 @@ ms.locfileid: "98008014"
 > [!NOTE]
 > Профиль конфигурации является профилем верхнего уровня. Следовательно, для изменения любых других профилей сначала необходимо клонировать профиль конфигурации.
 
-В окне Hierarchy (Иерархия) выберите объект **MixedRealityToolkit**, перейдите в окно Inspector (Инспектор) и измените профиль конфигурации **MixedRealityToolkit** на **DefaultHoloLens2ConfigurationProfile**.
+В окне Hierarchy (Иерархия) выберите объект **MixedRealityToolkit**, перейдите в окно Inspector (Инспектор) и убедитесь, что для профиля конфигурации **MixedRealityToolkit** задано значение **DefaultXRSDKConfigurationProfile**.
 
 ![Компонент MixedRealityToolkit в Unity с выбранным профилем DefaultHoloLens2ConfigurationProfile](images/mr-learning-base/base-03-section1-step1-1.png)
 
@@ -55,7 +55,7 @@ ms.locfileid: "98008014"
 
 ![Компонент MixedRealityToolkit в Unity с кнопкой копирования и настройки](images/mr-learning-base/base-03-section1-step1-2.png)
 
-В окне Clone Profile (Клонирование профиля) введите понятное **имя профиля**, например _GettingStarted_HoloLens2ConfigurationProfile_, а затем нажмите кнопку **Clone** (Клонировать), чтобы создать доступную для редактирования копию **DefaultHololens2ConfigurationProfile**.
+В окне Clone Profile (Клонирование профиля) введите понятное **имя профиля**, например _GettingStarted_XRSDKConfigurationProfile_, а затем нажмите кнопку **Clone** (Клонировать), чтобы создать доступную для редактирования копию **DefaultXRSDKConfigurationProfile**:
 
 ![Компонент MixedRealityToolkit в Unity со всплывающим окном клонирования профиля конфигурации](images/mr-learning-base/base-03-section1-step1-3.png)
 
@@ -83,7 +83,7 @@ ms.locfileid: "98008014"
 
 ![Компонент MixedRealityToolkit в Unity с выбранной вкладкой Spatial Awareness (Отслеживание пространственного положения)](images/mr-learning-base/base-03-section1-step3-1.png)
 
-В окне Clone Profile (Клонирование профиля) введите понятное **имя профиля**, например _GettingStarted_MixedRealitySpatialAwarenessSystemProfile_, а затем нажмите кнопку **Clone** (Клонировать), чтобы создать доступную для редактирования копию **DefaultMixedRealitySpatialAwarenessSystemProfile**.
+В окне Clone Profile (Клонирование профиля) введите понятное **имя профиля**, например _GettingStarted_XRSDKSpatialAwarenessSystemProfile_, а затем нажмите кнопку **Clone** (Клонировать), чтобы создать доступную для редактирования копию **DefaultXRSDKSpatialAwarenessSystemProfile**:
 
 ![Компонент MixedRealityToolkit в Unity со всплывающим окном клонирования системного профиля отслеживания пространственного положения](images/mr-learning-base/base-03-section1-step3-2.png)
 
@@ -93,7 +93,7 @@ ms.locfileid: "98008014"
 
 ### <a name="4-clone-the-default-spatial-awareness-mesh-observer-profile"></a>4. Клонирование профиля по умолчанию для наблюдателя сетки отслеживания пространственного положения
 
-Оставаясь на вкладке **Spatial Awareness** (Отслеживание пространственного положения), разверните раздел **Windows Mixed Reality Spatial Mesh Observer** (Наблюдатель виртуальной сетки Windows Mixed Reality), а затем нажмите кнопку **Clone** (Клонировать), чтобы открыть окно клонирования профиля:
+На вкладке **Spatial Awareness** (Отслеживание пространственного положения), разверните раздел **XR SDK Windows Mixed Reality Spatial Mesh Observer** (Наблюдатель пространственной сетки Windows Mixed Reality для пакета SDK смешанной реальности), а затем нажмите кнопку **Clone** (Клонировать), чтобы открыть окно клонирования профиля:
 
 ![Компонент MixedRealityToolkit в Unity с развернутым разделом наблюдателя виртуальной сетки Windows Mixed Reality](images/mr-learning-base/base-03-section1-step4-1.png)
 

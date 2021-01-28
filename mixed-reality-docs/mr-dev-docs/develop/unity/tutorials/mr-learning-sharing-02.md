@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, многопользовательские возможности, Photon, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure, PUN
 ms.localizationpriority: high
-ms.openlocfilehash: 8bf8d440cb47d817514e34c98ac45f34f495c2bb
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 1c47da28b3ccdc706f372749f265ac0329a2327b
+ms.sourcegitcommit: 3dad2adfdb5bdb8100d8d864f7845e34a3ef912d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98007304"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98699148"
 ---
 # <a name="2-setting-up-photon-unity-networking"></a>2. Настройка Photon Unity Networking
 
@@ -28,13 +28,13 @@ ms.locfileid: "98007304"
 
 В рамках этого раздела вы создадите новый проект Unity и подготовите его к разработке MRTK.
 
-Для этого сначала выполните инструкции из руководства [Инициализация проекта и развертывание первого приложения](mr-learning-base-02.md) (исключая раздел [Разработка приложения для устройства](mr-learning-base-02.md#building-and-deploying-to-your-hololens-2)), в том числе следующие действия:
+Для этого сначала выполните инструкции из руководства [Инициализация проекта и развертывание первого приложения](mr-learning-base-02.md) (исключая раздел [Разработка приложения для устройства](mr-learning-base-02.md#building-your-application-to-your-hololens-2)), в том числе следующие действия:
 
 1. [Создание проекта Unity](mr-learning-base-02.md#creating-the-unity-project) и присвоение ему подходящего имени, например *MRTK Tutorials*.
 2. [Переключение платформы сборки.](mr-learning-base-02.md#switching-the-build-platform)
 3. [Импорт требуемых ресурсов TextMeshPro.](mr-learning-base-02.md#importing-the-textmeshpro-essential-resources)
 4. [Импорт набора средств для Смешанной реальности (MRTK).](mr-learning-base-02.md#importing-the-mixed-reality-toolkit)
-5. [Настройка проекта Unity.](mr-learning-base-02.md#selecting-mrtk-and-project-settings)
+5. [Настройка проекта Unity.](mr-learning-base-02.md#configuring-the-unity-project)
 6. [Создание и настройка сцены](mr-learning-base-02.md#creating-and-configuring-the-scene) и присвоение ей понятного имени, например *MultiUserCapabilities*.
 
 Затем выполните инструкции из раздела [Изменение параметра отображения отслеживания пространственного положения](mr-learning-base-03.md#changing-the-spatial-awareness-display-option):
@@ -48,7 +48,7 @@ ms.locfileid: "98007304"
 
 ![Параметры проигрывателя Unity](images/mr-learning-sharing/sharing-02-section2-step1-1.png)
 
-В окне **Publishing Settings** (Параметры публикации) прокрутите содержимое вниз до раздела **Capabilities** (Возможности) и убедитесь, что здесь включены возможности **InternetClient**, **Microphone**, **SpatialPerception** и **GazeInput**, которые вы включили при выполнении шага [Настройка проекта Unity](mr-learning-base-02.md#selecting-mrtk-and-project-settings) ранее.
+В окне **Publishing Settings** (Параметры публикации) прокрутите содержимое вниз до раздела **Capabilities** (Возможности) и убедитесь, что здесь включены возможности **InternetClient**, **Microphone**, **SpatialPerception** и **GazeInput**, которые вы включили при выполнении шага [Настройка проекта Unity](mr-learning-base-02.md#configuring-the-unity-project) ранее.
 
 Затем включите следующие дополнительные возможности:
 
@@ -68,9 +68,11 @@ ms.locfileid: "98007304"
 
 ## <a name="importing-the-tutorial-assets"></a>Импорт активов для руководства
 
-Скачайте и **импортируйте** следующие пользовательские пакеты Unity **в указанном здесь порядке**:
+Добавьте пакет SDK AzurespatialAnchors 2.7.1 в свой проект Unity с помощью этого [учебника](https://docs.microsoft.com/en-us/azure/spatial-anchors/how-tos/setup-unity-project?tabs=UPMPackage).
 
-* [AzureSpatialAnchors.unitypackage](https://github.com/Azure/azure-spatial-anchors-samples/releases/download/v2.2.1/AzureSpatialAnchors.unitypackage) (версия 2.2.1);
+
+Скачайте и **импортируйте** следующие пользовательские пакеты Unity **в указанном здесь порядке**:
+ 
 * [MRTK.HoloLens2.Unity.Tutorials.Assets.GettingStarted.2.4.0.unitypackage](https://github.com/microsoft/MixedRealityLearning/releases/download/getting-started-v2.4.0/MRTK.HoloLens2.Unity.Tutorials.Assets.GettingStarted.2.4.0.unitypackage);
 * [MRTK.HoloLens2.Unity.Tutorials.Assets.AzureSpatialAnchors.2.4.0.unitypackage](https://github.com/microsoft/MixedRealityLearning/releases/download/azure-spatial-anchors-v2.4.0/MRTK.HoloLens2.Unity.Tutorials.Assets.AzureSpatialAnchors.2.4.0.unitypackage);
 * [MRTK.HoloLens2.Unity.Tutorials.Assets.MultiUserCapabilities.2.4.0.unitypackage](https://github.com/microsoft/MixedRealityLearning/releases/download/multi-user-capabilities-v2.4.0/MRTK.HoloLens2.Unity.Tutorials.Assets.MultiUserCapabilities.2.4.0.unitypackage).
@@ -83,7 +85,7 @@ ms.locfileid: "98007304"
 > Сведения о том, как правильно импортировать пользовательский пакет Unity, см. в разделе [Импорт набора средств для Смешанной реальности](mr-learning-base-02.md#importing-the-mixed-reality-toolkit).
 
 > [!NOTE]
-> После импорта пакета учебных активов MultiUserCapabilities в окне консоли появятся несколько ошибок [CS0246](https://docs.microsoft.com/dotnet/csharp/language-reference/compiler-messages/cs0246). Они указывают на отсутствие типа или пространства имен. Это ожидаемое поведение, и ошибки будут устранены при работе со следующим разделом при импорте активов PUN.
+> После импорта пакета учебных активов MultiUserCapabilities в окне консоли появятся несколько ошибок [CS0246](/dotnet/csharp/language-reference/compiler-messages/cs0246). Они указывают на отсутствие типа или пространства имен. Это ожидаемое поведение, и ошибки будут устранены при работе со следующим разделом при импорте активов PUN.
 
 ## <a name="importing-the-pun-assets"></a>Импорт активов PUN
 

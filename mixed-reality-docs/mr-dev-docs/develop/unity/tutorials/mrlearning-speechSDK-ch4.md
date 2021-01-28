@@ -7,12 +7,12 @@ ms.date: 02/26/2019
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure, распознавание речи, Windows 10, LUIS, портал LUIS, намерение, сущности, речевые фрагменты, понимание естественного языка
 ms.localizationpriority: high
-ms.openlocfilehash: 07044d3dc38be12d5d601d34a23a241a71c5b06d
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 8d840855321de5d4e055b944783649c9d8028f9a
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98007774"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98581476"
 ---
 # <a name="4-setting-up-intent-and-natural-language-understanding"></a>4. Настройка намерения и распознавания естественного языка
 
@@ -55,7 +55,7 @@ ms.locfileid: "98007774"
 На странице "Создание" щелкните вариант **Прогнозирование** и введите следующие значения:
 
 * Для параметра **Подписка** выберите **Бесплатная пробная версия**, если вы используете пробную версию подписки. Либо выберите любую другую из существующих подписок.
-* В разделе **Группа ресурсов** щелкните ссылку **Создать**, введите подходящее имя, например *МРКТ-Tutorial*, а затем щелкните **ОК**.
+* В разделе **Группа ресурсов** щелкните ссылку **Создать**, введите подходящее имя, например *MRKT-Tutorials*, а затем щелкните **ОК**.
 
 ![mrlearning-speech](images/mrlearning-speech/tutorial4-section2-step1-3.png)
 
@@ -73,7 +73,7 @@ ms.locfileid: "98007774"
 
 ![mrlearning-speech](images/mrlearning-speech/tutorial4-section2-step1-4.png)
 
-Затем перейдите на вкладку **Проверка и создание**, просмотрите сведения и нажмите кнопку **Создать** в нижней части страницы, чтобы создать ресурс и новую группу ресурсов, если вы выбрали такой вариант:
+Затем щелкните вкладку **Проверка и создание**, просмотрите сведения и нажмите кнопку **Создать** в нижней части страницы, чтобы создать ресурс и новую группу ресурсов, если вы выбрали такой вариант:
 
 ![mrlearning-speech](images/mrlearning-speech/tutorial4-section2-step1-5.png)
 
@@ -107,13 +107,14 @@ ms.locfileid: "98007774"
 Используя ту же учетную запись, с которой вы создавали ресурс Azure в предыдущем разделе, войдите в службу <a href="https://www.luis.ai" target="_blank">LUIS</a>, выберите страну и подтвердите согласие с условиями использования. На следующем этапе в ответ на предложение **привязать учетную запись Azure** выберите вариант **Continue using your trial key** (Продолжить использование ключа пробной версии), чтобы использовать ресурс разработки Azure.
 
 > [!NOTE]
-> Если вы ранее регистрировались в LUIS и срок вашего ключа пробной версии уже истек, воспользуйтесь документацией [по переходу на использование ключа создания ресурса Azure](https://docs.microsoft.com/azure/cognitive-services/luis/luis-migration-authoring), чтобы переместить ресурс разработки LUIS в Azure.
+> Если вы ранее регистрировались в LUIS и срок вашего ключа пробной версии уже истек, воспользуйтесь документацией [по переходу на использование ключа создания ресурса Azure](/azure/cognitive-services/luis/luis-migration-authoring), чтобы переместить ресурс разработки LUIS в Azure.
 
-Выполнив вход, перейдите на страницу **Мои приложения**, щелкните **Создать новое приложение** и введите следующие значения во всплывающем окне **Создать новое приложение**.
+После входа щелкните **Новое приложение** и введите следующие значения во всплывающем окне **Создание нового приложения**:
 
 * В поле **Имя** введите подходящее имя, например *MRTK Tutorials — AzureSpeechServices*.
 * В поле **Язык и региональные параметры** выберите **Английский**.
 * В поле **Описание** можно ввести описание (необязательно).
+* В поле **Ресурс прогнозирования** выберите ресурс прогнозирования из раскрывающегося списка, который был создан на портале Azure.
 
 Теперь нажмите кнопку **Готово**, чтобы создать приложение.
 
@@ -125,7 +126,7 @@ ms.locfileid: "98007774"
 
 ### <a name="2-create-intents"></a>2. Создание намерений
 
-На странице Dashboard (Панель мониторинга) откройте Build (Сборка) > App Assets (Активы приложения) > **Intents** (Намерения), затем щелкните **Create new intent** (Создать новое намерение) и введите следующие значения во всплывающем окне **Create new intent** (Создать новое намерение):
+На странице Dashboard (Панель мониторинга) откройте Build (Сборка) > App Assets (Активы приложения) > **Intents** (Намерения), затем щелкните **Create** (Создать) и введите следующие значения во всплывающем окне **Create new intent** (Создание нового намерения):
 
 * В поле **Имя намерения** введите **PressButton**.
 
@@ -164,12 +165,12 @@ ms.locfileid: "98007774"
 
 ### <a name="4-create-entities"></a>4. Создание сущностей
 
-На странице намерения PressButton откройте Build (Сборка) > App Assets (Активы приложения) > **Entities** (Сущности), затем щелкните **Create new entity** (Создать новую сущность) и введите следующие значения во всплывающем окне **Create new entity** (Создать новую сущность):
+На странице намерения PressButton откройте Build (Сборка) > App Assets (Активы приложения) > **Entities** (Сущности), затем щелкните **Create** (Создать) и введите следующие значения во всплывающем окне **Create new entity** (Создание новой сущности):
 
 * В поле **Имя сущности** введите **Action**.
-* В поле **Тип сущности** выберите **Простая**.
+* В поле **Entity type** (Тип сущности) выберите **Machine learned** (Машинное обучение)
 
-Теперь нажмите кнопку **Готово**, чтобы создать сущность.
+Затем нажмите кнопку **Create** (Создать), чтобы создать новую сущность:
 
 ![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step4-1.png)
 
@@ -188,7 +189,7 @@ ms.locfileid: "98007774"
 
 ![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step5-1.png)
 
-Теперь речевой фрагмент **go ahead** определен как значение сущности **Action**. Если вы наведете курсор мыши на имя сущности Action, вы увидите сопоставленное значение сущности Action:
+Теперь речевой фрагмент **go ahead** определен как значение сущности **Action**. Вы увидите значение сущности действия под фразой "Go ahead" (Вперед):
 
 ![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step5-2.png)
 
@@ -199,7 +200,7 @@ ms.locfileid: "98007774"
 
 ![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step5-3.png)
 
-Теперь слово **launch** определено как значение сущности **Target**. Если вы наведете курсор мыши на имя сущности Target, вы увидите сопоставленное значение сущности Target:
+Теперь слово **launch** определено как значение для сущности **Target**. Вы увидите новое значение сущности Target под словом "launch" (Запуск):
 
 ![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step5-4.png)
 
@@ -219,14 +220,6 @@ ms.locfileid: "98007774"
 Когда вы завершите пометку примеров речевых фрагментов, страница намерения PressButton будет выглядеть примерно так:
 
 ![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step5-5.png)
-
-Есть и другой метод еще раз проверить, все ли данные внесены верно: щелкните меню **Параметры просмотра** и переключите представление на **Отобразить значения сущностей**.
-
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step5-6.png)
-
-Теперь, включив отображение значений сущностей, вы можете навести курсор мыши на любое из помеченных слов или речевых фрагментов, чтобы быстро увидеть сопоставленное имя сущности:
-
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step5-7.png)
 
 ### <a name="6-train-test-and-publish-the-app"></a>6. Обучение, тестирование и публикация приложения
 
@@ -249,7 +242,7 @@ ms.locfileid: "98007774"
 
 ![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step6-3.png)
 
-Чтобы опубликовать приложение, нажмите кнопку **Опубликовать** справа вверху, затем во всплывающем окне **Choose your publishing slot and settings** (Выберите слот и параметры публикации) выберите пункт **Production** (Рабочий) и нажмите кнопку **Опубликовать**.
+Чтобы опубликовать приложение, нажмите кнопку **Опубликовать** справа вверху, затем во всплывающем окне **Choose your publishing slot and settings** (Выберите слот и параметры публикации) выберите пункт **Production** (Рабочий) и нажмите кнопку **Done** (Готово):
 
 ![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step6-4.png)
 
@@ -257,25 +250,9 @@ ms.locfileid: "98007774"
 
 ![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step6-5.png)
 
-### <a name="7-assign-an-azure-prediction-resource-to-the-app"></a>7. Присвоение приложению ресурса прогнозирования Azure
+Перейдите к странице Manage > Application Settings > **Azure Resources** (Управление > Параметры приложения > Ресурсы Azure), которая должна выглядеть примерно так:
 
-Откройте страниц "Управление" > "Параметры приложения" > **Ресурсы Azure**:
-
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step7-1.png)
-
-На странице "Ресурсы Azure" нажмите кнопку **Add prediction resource** (Добавить ресурс прогнозирования) и выберите следующие значения во всплывающем окне **Assign a resource to your app** (Назначьте ресурс приложению).
-
-* В поле **Имя клиента** выберите нужное имя клиента.
-* В поле **Имя подписки** выберите ту же подписку, которую вы использовали на этапе [Создание ресурса распознавания речи в Azure](mrlearning-speechSDK-ch4.md#creating-the-azure-language-understanding-resource).
-* В поле **Имя ресурса LUIS** выберите тот ресурс прогнозирования, который вы создали на этапе [Создание ресурса распознавания речи в Azure](mrlearning-speechSDK-ch4.md#creating-the-azure-language-understanding-resource).
-
-Теперь нажмите кнопку **Назначить ресурс**, чтобы назначить ресурс прогнозирования Azure приложению:
-
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step7-2.png)
-
-Когда завершится назначение ресурса, страница "Ресурсы Azure" будет выглядеть следующим образом:
-
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step7-3.png)
+![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step6-6.png)
 
 ## <a name="connecting-the-unity-project-to-the-luis-app"></a>Подключение проекта Unity к приложению LUIS
 

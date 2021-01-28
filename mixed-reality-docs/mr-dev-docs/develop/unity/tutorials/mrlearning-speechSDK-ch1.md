@@ -1,20 +1,22 @@
 ---
-title: Интеграция и использование средств распознавания и транскрибирования речи
-description: Пройдите этот курс, чтобы узнать, как добавить функции распознавания и транскрибирования службы "Речь" в Azure и использовать их в приложениях смешанной реальности.
+title: Руководства по использованию службы "Речь" в Azure, часть 1. Интеграция и использование средств распознавания и транскрибирования речи
+description: В рамках этого курса вы узнаете, как реализовать пакет SDK службы "Речь" в приложении смешанной реальности.
 author: jessemcculloch
 ms.author: jemccull
 ms.date: 02/26/2019
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure, распознавание речи, Windows 10
 ms.localizationpriority: high
-ms.openlocfilehash: f0c26c861cb3400c552d17d45f77cfe3a5cc284c
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: c663bbf443c206750854c1b8f4cd8946eacd28b1
+ms.sourcegitcommit: 04927427226928bd9178da0049d4cef626a6b0bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98010124"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "98635460"
 ---
 # <a name="1-integrating-and-using-speech-recognition-and-transcription"></a>1. Интеграция и использование средств распознавания и транскрибирования речи
+
+## <a name="overview"></a>Обзор
 
 В этой серии руководств вы создадите приложение смешанной реальности и на его примере изучите использование служб распознавания речи Azure с HoloLens 2. Изучив эту серию руководств, вы сможете применять микрофон устройства для транскрибирования речи в текст в режиме реального времени, переводить эту речь на другие языки и применять распознавание намерений для анализа голосовых команд с применением искусственного интеллекта.
 
@@ -41,16 +43,16 @@ ms.locfileid: "98010124"
 
 В рамках этого раздела вы создадите новый проект Unity и подготовите его к разработке MRTK.
 
-Для этого сначала выполните инструкции из руководства [Инициализация проекта и первое приложение](mr-learning-base-02.md), за исключением раздела [Разработка приложения для устройства](mr-learning-base-02.md#building-and-deploying-to-your-hololens-2), то есть следующие действия:
+Для этого сначала выполните инструкции из руководства [Инициализация проекта и первое приложение](mr-learning-base-02.md), за исключением раздела [Разработка приложения для устройства](mr-learning-base-02.md#building-your-application-to-your-hololens-2), то есть следующие действия:
 
 1. [Создание проекта Unity](mr-learning-base-02.md#creating-the-unity-project) и присвоение ему подходящего имени, например *MRTK Tutorials*.
-2. [Переключение платформы сборки.](mr-learning-base-02.md#switching-the-build-platform)
+2. [Переключение платформы сборки.](mr-learning-base-02.md#configuring-the-unity-project)
 3. [Импорт требуемых ресурсов TextMeshPro.](mr-learning-base-02.md#importing-the-textmeshpro-essential-resources)
 4. [Импорт набора средств для Смешанной реальности (MRTK).](mr-learning-base-02.md#importing-the-mixed-reality-toolkit)
-5. [Настройка проекта Unity.](mr-learning-base-02.md#selecting-mrtk-and-project-settings)
+5. [Настройка проекта Unity.](mr-learning-base-02.md#configuring-the-unity-project)
 6. [Создание и настройка сцены](mr-learning-base-02.md#creating-and-configuring-the-scene) и присвоение ей понятного имени, например *AzureSpeechServices*.
 
-Затем следуйте инструкциям по [изменению параметра отображения для отслеживания пространственного положения](mr-learning-base-03.md#changing-the-spatial-awareness-display-option), чтобы указать профиль конфигурации MRTK **DefaultHoloLens2ConfigurationProfile** для сцены и значение **Occlusion** (Перекрытие) для параметра отображения сетки отслеживания пространственного положения.
+Затем следуйте инструкциям по [изменению параметра отображения для отслеживания пространственного положения](mr-learning-base-03.md#changing-the-spatial-awareness-display-option), чтобы указать профиль конфигурации MRTK **DefaultHoloLens2ConfigurationProfile** для сцены и значение **Occlusion** (Загораживание) для параметра отображения сетки отслеживания пространственного положения.
 
 ## <a name="configuring-the-speech-commands-start-behavior"></a>Настройка поведения для начала речевых команд
 
@@ -79,7 +81,7 @@ ms.locfileid: "98010124"
 
 * [Microsoft.CognitiveServices.Speech.N.N.N.unitypackage](https://aka.ms/csspeech/unitypackage) (последняя версия);
 * [MRTK.HoloLens2.Unity.Tutorials.Assets.GettingStarted.2.3.0.3.unitypackage](https://github.com/microsoft/MixedRealityLearning/releases/download/getting-started-v2.3.0.3/MRTK.HoloLens2.Unity.Tutorials.Assets.GettingStarted.2.3.0.3.unitypackage)
-* [MRTK.HoloLens2.Unity.Tutorials.Assets.AzureSpeechServices.2.3.0.0.unitypackage](https://github.com/microsoft/MixedRealityLearning/releases/download/azure-speech-services-v2.3.0.0/MRTK.HoloLens2.Unity.Tutorials.Assets.AzureSpeechServices.2.3.0.0.unitypackage).
+* [MRTK.HoloLens2.Unity.Tutorials.Assets.AzureSpeechServices.2.5.1.unitypackage](https://github.com/microsoft/MixedRealityLearning/releases/download/2.5.1/MRTK.HoloLens2.Unity.Tutorials.Assets.AzureSpeechServices.2.5.1.unitypackage)
 
 > [!TIP]
 > Сведения о том, как правильно импортировать пользовательский пакет Unity, см. в разделе [Импорт набора средств для Смешанной реальности](mr-learning-base-02.md#importing-the-mixed-reality-toolkit).
@@ -117,7 +119,7 @@ ms.locfileid: "98010124"
 
 ## <a name="connecting-the-unity-project-to-the-azure-resource"></a>Подключение проекта Unity к ресурсу Azure
 
-Чтобы использовать службу речи Azure, потребуется создать ресурс Azure и получить ключ API для службы "Речь". Выполните инструкции [по применению бесплатной версии службы "Речь"](https://docs.microsoft.com/azure/cognitive-services/speech-service/get-started) и выясните регион (расположение) вашей службы и значение ключа API (это может быть Key1 или Key2).
+Чтобы использовать службу речи Azure, потребуется создать ресурс Azure и получить ключ API для службы "Речь". Выполните инструкции [по применению бесплатной версии службы "Речь"](/azure/cognitive-services/speech-service/get-started) и выясните регион (расположение) вашей службы и значение ключа API (это может быть Key1 или Key2).
 
 В окне Hierarchy (Иерархия) выберите объект **Lunarcom**, а затем в окне Inspector (Инспектор) найдите в компоненте **Lunarcom Controller (Script)** (Контроллер Lunarcom — скрипт) раздел **Speech SDK Credentials** (Учетные данные пакета SDK) и настройте его, как описано ниже.
 
@@ -142,7 +144,6 @@ ms.locfileid: "98010124"
 Теперь, если на компьютере подключен микрофон, любой сказанный вами текст будет выводиться на панели терминала:
 
 ![mrlearning-speech](images/mrlearning-speech/tutorial1-section7-step1-3.png)
-
 
 > [!CAUTION]
 > Этому приложению требуется подключение к Azure, поэтому не забудьте проверить связь компьютера или устройства с Интернетом.

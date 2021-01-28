@@ -7,12 +7,12 @@ ms.date: 12/9/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, потоковая передача, удаленное взаимодействие, смешанная реальность, разработка, начало работы, функции, новый проект, эмулятор, документация, руководства, функции, голограммы, разработка игр, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, OpenXR
-ms.openlocfilehash: eb9ec39d663dec2b5bf4c9177524449f31aaf554
-ms.sourcegitcommit: e24715fffa815c24ca411fa93eed9576ae729337
+ms.openlocfilehash: a5b65bbfe5a1f365a93836406365fdc395b73c47
+ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "98247737"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98580030"
 ---
 # <a name="unreal-development-overview"></a>Обзор разработки в Unreal
 
@@ -49,6 +49,8 @@ ms.locfileid: "98247737"
 
 * [UX Tools для Unreal](https://www.unrealengine.com/marketplace/en-US/product/mixed-reality-ux-tools) — первый выпускаемый подключаемый модуль. Сейчас его поддерживает только HoloLens 2. Подключаемый модуль включает в себя код на C++, схемы и примеры активов общих функций UX для имитации ввода, взаимодействий с помощью руки, притяжения к поверхности и много другого.
 
+* [Graphics Tools для Unreal](https://github.com/microsoft/MixedReality-GraphicsTools-Unreal/) — это подключаемый модуль для игр на UE с кодом, схемами и примерами активов. Он призван помочь в улучшении графики приложений смешанной реальности с минимальным влиянием на производительность.
+
 [!INCLUDE[](../includes/unreal-building-blocks.md)]
 
 > [!NOTE]
@@ -82,7 +84,7 @@ ms.locfileid: "98247737"
 
 ### <a name="debugging"></a>Отладка
 
-Если вы хотите выполнить отладку приложения с помощью Visual Studio, когда оно работает на устройстве, следуйте [этим инструкциям](https://docs.microsoft.com/visualstudio/debugger/debug-installed-app-package#remote).
+Если вы хотите выполнить отладку приложения с помощью Visual Studio, когда оно работает на устройстве, следуйте [этим инструкциям](/visualstudio/debugger/debug-installed-app-package#remote).
 
 ### <a name="performance"></a>Производительность
 
@@ -104,7 +106,7 @@ ms.locfileid: "98247737"
 | Пространственный звук | 4.23 | ✔️ |
 | Поддержка потоковой передачи на экран для зрителей | 4.24 |
 | Планарные координаты LSR при потоковой передаче | 4.24 |
-| [Примеры приложений](unreal-samples.md) | 4.24 | ✔️ |
+| [Примеры приложений](../features-and-samples.md) | 4.24 | ✔️ |
 | Просмотр на нескольких мобильных устройствах: Производительность до 60 кадров/с | 4.25 | ✔️ |
 | Отрисовка для третьей камеры | 4.25 |
 | Потоковая передача из упакованного классического приложения | 4.25.1 | ✔️ |

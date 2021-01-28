@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, Android, iOS, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure, ARCore, ARKit
 ms.localizationpriority: high
-ms.openlocfilehash: 545373ed169a77614b0a00264f5ba1bf1f3deb8e
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 741c000de0ab2feb3dcbff33e2a0b0acc70838e8
+ms.sourcegitcommit: 3dad2adfdb5bdb8100d8d864f7845e34a3ef912d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98008394"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98699259"
 ---
 # <a name="5-azure-spatial-anchors-for-android-and-ios"></a>5. Пространственные привязки Azure для Android и iOS
 
@@ -28,7 +28,7 @@ ms.locfileid: "98008394"
 В этом разделе будут обновлены и установлены следующие встроенные пакеты:
 
 * AR Foundation 3.1.3;
-* XR Legacy Input Helpers 2.1.4
+* XR Legacy Input Helpers 2.1.6
 * пакет поддержки ARCore XR Plugin 3.1.3 для Android;
 * пакет поддержки ARKit XR plugin 3.1.3 для iOS.
 
@@ -73,6 +73,10 @@ ms.locfileid: "98008394"
 > [!NOTE]
 > При добавлении компонента диспетчера опорных точек AR (скрипт) автоматически добавляется компонент источника сеанса AR (скрипт), так как он необходим компоненту диспетчера опорных точек AR (скрипт).
 
+
+
+Выполните обновление описаний скриптов UnityAR в MRTK, вызвав элемент меню: **Mixed Reality Toolkit** > **Utilities (Служебные программы)**  > **UnityAR** > Update Scripting Defines (Обновить описания скриптов)
+
 ## <a name="building-your-application-to-your-android-device"></a>Создание приложения для устройства Android
 
 Из этого раздела вы узнаете, как настроить проект для сборки и развертывания на устройстве Android.
@@ -93,6 +97,10 @@ ms.locfileid: "98008394"
 В меню Unity щелкните **Edit** > **Project Settings...** (Правка > Параметры проекта...), чтобы открыть окно параметров проигрывателя, а затем найдите раздел **Player (Проигрыватель)**  >  **Other Settings (Другие параметры)** . Выберите элемент **Vulkan** и удалите его, щелкнув символ **-** .
 
 ![Другие параметры Unity с выбранным API Vulcan](images/mr-learning-asa/asa-05-section3-step1-3.png)
+
+В меню Unity выберите **Edit (Правка)**  > **Project Settings (Параметры проекта)**  >**Player (Проигрыватель)** > **XR Setting (Параметры смешанной реальности)** , убедитесь, что вы используете платформу **Android** и установите флажок **Virtual Reality Supported** (С поддержкой виртуальной реальности), затем щелкните значок "+" и выберите None (Нет):
+
+![Окно конфигуратора проектов MRTK в Unity для Android](images/mr-learning-asa/asa-05-section3-step1-2-1.png)
 
 Закройте окно Player Settings (Параметры проигрывателя) и снова откройте окно Build Settings (Параметры сборки).
 
@@ -147,7 +155,7 @@ ms.locfileid: "98008394"
 
 ![Окно параметров сборки Unity с окном сохранения для iOS](images/mr-learning-asa/asa-05-section4-step1-5.png)
 
-После сборки выполните инструкции из раздела [Экспорт проект Xcode](https://docs.microsoft.com/azure/spatial-anchors/quickstarts/get-started-unity-ios#export-the-xcode-project), чтобы научиться развертывать проекты Xcode на устройствах iOS.
+После сборки выполните инструкции из раздела [Экспорт проект Xcode](/azure/spatial-anchors/quickstarts/get-started-unity-ios#export-the-xcode-project), чтобы научиться развертывать проекты Xcode на устройствах iOS.
 
 ## <a name="congratulations"></a>Поздравляем!
 

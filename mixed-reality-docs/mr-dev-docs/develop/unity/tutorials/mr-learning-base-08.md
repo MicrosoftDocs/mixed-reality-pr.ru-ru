@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, отслеживание глаз
 ms.localizationpriority: high
-ms.openlocfilehash: f464ba4e08f1446f1d50eda577aedf9d070630ee
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 5efe1c54d9e3b4096dfec4221e4ce04e7370ca47
+ms.sourcegitcommit: 04927427226928bd9178da0049d4cef626a6b0bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98007894"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "98635476"
 ---
 # <a name="8-using-eye-tracking"></a>8. Использование функции отслеживания взгляда
 
@@ -33,7 +33,7 @@ ms.locfileid: "98007894"
 ![Окно конфигурации проекта MRTK в Unity](images/mr-learning-base/base-08-section1-step1-1.png)
 
 > [!NOTE]
-> Функция ввода с использованием взгляда должна была быть включена в ходе выполнения инструкций, приведенных в разделе [Применение параметров конфигуратора проекта MRTK](mr-learning-base-02.md#selecting-mrtk-and-project-settings), при настройке проекта Unity в начале работы с этой серией руководств. Если функция отключена, включите ее сейчас.
+> Функция ввода с использованием взгляда должна была быть включена в ходе выполнения инструкций, приведенных в разделе [Применение параметров конфигуратора проекта MRTK](mr-learning-base-02.md#creating-and-configuring-the-scene), при настройке проекта Unity в начале работы с этой серией руководств. Если функция отключена, включите ее сейчас.
 
 ## <a name="enabling-eye-based-gaze-in-the-gaze-provider"></a>Включение отслеживания взгляда в поставщике данных о направлении взгляда
 
@@ -55,9 +55,9 @@ ms.locfileid: "98007894"
 
 * Разверните раздел **Input Data Providers**  > **Input Simulation Service** (Поставщики входных данных > Служба имитации ввода).
 * Клонируйте профиль **DefaultMixedRealityInputSimulationProfile** и присвойте ему понятное имя, например _GettingStarted_MixedRealityInputSimulationProfile_.
-* Найдите раздел **Eye Simulation** (Имитация взгляда) и установите флажок **Simulate Eye Position** (Имитировать положение глаз).
+* Найдите раздел **Eye Gaze Simulation** (Имитация направления взгляда) и задайте для параметра **Default Eye Gaze Simulation Mode** (Режим имитации направления взгляда по умолчанию) значение **Camera Forward Axis** (Ось камеры, направленная вперед).
 
-![Компонент MixedRealityToolkit в Unity с примененным созданным профилем и включенной имитацией взгляда](images/mr-learning-base/base-08-section3-step1-1.png)
+![Unity с выбранным объектом TextMeshPro](images/mr-learning-base/base-08-section3-step1-1.png)
 
 ## <a name="adding-eye-tracking-to-objects"></a>Добавление функции отслеживания взгляда в объекты
 
