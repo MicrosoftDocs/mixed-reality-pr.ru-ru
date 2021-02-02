@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 10/14/2020
 ms.topic: article
 keywords: Unity, переглагол, переглаголы G2, HP reverbы G2, Mixed Reality, разработка, контроллеры движения, ввод данных, функции, новый проект, эмулятор, документация, руководства, функции, голограммы, Разработка игр
-ms.openlocfilehash: fa9b80076d65978ae1602fc4f9519d7e11c651b5
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: 26435ef57c9baf59b1008fb4750aedd913a19814
+ms.sourcegitcommit: 1304f8f0a838290c1ae3db34670b67c75ea9bdaa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98583577"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99421401"
 ---
 # <a name="hp-reverb-g2-controllers-in-unity"></a>HP reverbы G2 Controllers в Unity
 
@@ -31,38 +31,11 @@ HP Motion Controllers — это новый тип контроллеров Wind
 
 Экземпляры Мотионконтроллер можно захватить, создав *мотионконтроллерватчер* и подписавшись на его события, аналогично использованию событий *интерактионманажер* для обнаружения новых экземпляров *интерактионсаурце* . Методы и свойства Мотионконтроллер описывают входные данные, поддерживаемые контроллером, включая его кнопки, триггеры, двухмерную ось и аналоговый стик. Класс Мотионконтроллер также предоставляет методы для доступа к входным состояниям через класс *мотионконтроллерреадинг* . Класс Мотионконтроллерреадинг представляет моментальный снимок состояния контроллера в заданный момент времени. 
 
-## <a name="installing-microsoftmixedrealityinput-using-the-unity-package-manager"></a>Установка Microsoft. Микседреалити. input с помощью диспетчера пакетов Unity 
+## <a name="installing-microsoftmixedrealityinput-with-the-mixed-reality-feature-tool"></a>Установка Microsoft. Микседреалити. input с помощью инструмента "функция смешанной реальности"
 
-Диспетчер пакетов Unity использует [файл манифеста](https://docs.unity3d.com/Manual/upm-manifestPkg.html) (manifest.jsв) для определения устанавливаемых пакетов и реестров (серверов), из которых они могут быть установлены. Прежде чем можно будет использовать пакет Microsoft. Микседреалити. input, необходимо зарегистрировать сервер компонентов смешанной реальности.
+Установите подключаемый модуль Microsoft. Микседреалити. input, используя новое приложение средства "функция смешанной реальности". Следуйте [инструкциям по установке и использованию](welcome-to-mr-feature-tool.md) и выберите **входной пакет Mixed Reality** в категории "набор средств смешанной реальности":
 
-### <a name="registering-the-mixed-reality-component-server"></a>Регистрация сервера компонентов смешанной реальности 
-
-Для каждого проекта, который будет использовать входной пакет Mixed Reality, для manifest.jsфайла (в папке пакеты) требуется добавленный реестр с областью действия Mixed Reality. Чтобы правильно изменить manifest.jsдля поддержки смешанной реальности: 
-    1. Откройте <projectRoot> /паккажес/manifest.jsв текстовом редакторе, например Visual Studio Code. 
-    2. В верхней части файла манифеста добавьте сервер Mixed Reality в раздел реестра с заданной областью и сохраните файл. 
-    
-<pre>
-{ 
-  "scopedRegistries": [ 
-    { 
-      "name": "Microsoft Mixed Reality", 
-      "url": "https://pkgs.dev.azure.com/aipmr/MixedReality-Unity-Packages/_packaging/Unity-packages/npm/registry/", 
-      "scopes": [ 
-        "com.microsoft.mixedreality" 
-      ] 
-    } 
-  ], 
-</pre>
-
-### <a name="adding-the-microsoftmixedrealityinput-package"></a>Добавление пакета Microsoft. Микседреалити. input 
-
-Измените раздел Dependencies в <projectRoot> /паккажес/manifest.json File в текстовом редакторе, чтобы добавить пакет com. Microsoft. микседреалити. input, и сохраните файл. 
-
-<pre>
-  "dependencies": { 
-    "com.microsoft.mixedreality.input": "0.9.2006", 
-  }
-</pre>
+![Окно пакетов инструмента "функция смешанной реальности" с выделенным входом смешанной реальности](images/feature-tool-mrinput.png)
 
 ## <a name="using-microsoftmixedrealityinput"></a>Использование Microsoft. Микседреалити. input 
 
@@ -505,7 +478,7 @@ private void stateCache_InputPressed(object sender, MotionControllerStateCache.M
 } 
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <!-- ## Getting started
 
