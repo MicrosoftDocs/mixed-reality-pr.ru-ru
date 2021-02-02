@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, HoloLens 2, служба хранилища Azure, облачные службы Azure, Windows 10
 ms.localizationpriority: high
-ms.openlocfilehash: 9c2041f9dac284fc4a7bea7d79b95e3e6240902a
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: fc049fc54674b4f7387ae937f142b9b4afe44e66
+ms.sourcegitcommit: daa45a19a3a353334380cda78fee7fa149f0e48b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98581920"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98981713"
 ---
 # <a name="2-integrating-azure-storage"></a>2. Интеграция службы хранилища Azure
 
@@ -28,7 +28,7 @@ ms.locfileid: "98581920"
 
 **Служба хранилища Azure** — это решение Майкрософт для хранения данных в облаке, которое может охватывать множество сценариев и требований. Оно может быстро масштабироваться, а также быть легкодоступным для разработчиков. Все службы можно использовать из **учетной записи службы хранилища Azure**. В нашем случае мы будем использовать *Хранилище таблиц* и *Хранилище BLOB-объектов*.
 
-Дополнительные сведения о [службах хранилища Azure](/azure/storage/blobs/storage-blobs-overview).
+Дополнительные сведения о [службах хранилища Azure](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-overview).
 
 ### <a name="azure-table-storage"></a>Хранилище таблиц Azure
 
@@ -36,18 +36,18 @@ ms.locfileid: "98581920"
 
 В контексте демонстрационного приложения требуются две таблицы: одна для хранения сведений о проекте с информацией о состоянии обученных моделей (подробнее об этом в учебнике [Интеграция Пользовательского визуального распознавания Azure](mr-learning-azure-03.md)), а вторая — для хранения сведений об *отслеживаемых объектах*.
 
-Дополнительные сведения о [хранилище таблиц Azure](/azure/storage/tables/table-storage-overview).
+Дополнительные сведения о [хранилище таблиц Azure](https://docs.microsoft.com/azure/storage/tables/table-storage-overview).
 
 ### <a name="azure-blob-storage"></a>Хранилище BLOB-объектов Azure
 
 Эта служба позволяет хранить большие двоичные файлы. Ее можно использовать для хранения фотографий *отслеживаемых объектов* в виде эскиза.
 Для демонстрационного приложения необходим один контейнер BLOB-объектов для хранения изображений.
 
-Подробнее о [Хранилище BLOB-объектов Azure](/azure/storage/blobs/storage-blobs-introduction).
+Подробнее о [Хранилище BLOB-объектов Azure](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction).
 
 ## <a name="preparing-azure-storage"></a>Подготовка службы хранилища Azure
 
-Для использования служб хранилища Azure потребуется учетная запись хранения Azure. Сведения о создании учетной записи хранения см. [здесь](/azure/storage/common/storage-account-create?tabs=azure-portal). Дополнительные сведения об учетных записях хранения см. в [этой статье](/azure/storage/common/storage-account-overview).
+Для использования служб хранилища Azure потребуется учетная запись хранения Azure. Сведения о создании учетной записи хранения см. [здесь](https://docs.microsoft.com/azure/storage/common/storage-account-create?tabs=azure-portal). Дополнительные сведения об учетных записях хранения см. в [этой статье](https://docs.microsoft.com/azure/storage/common/storage-account-overview).
 
 Как только у вас будет учетная запись хранения, вы сможете получить строку подключения на **портале Azure**, которая потребуется в следующем разделе этого урока.
 
@@ -57,7 +57,8 @@ ms.locfileid: "98581920"
 
 > [!TIP]
 > Для тестирования в редакторе Unity можно использовать локальный эмулятор:
-> * в Windows 10 можно использовать [эмулятор хранения Azure](/azure/storage/common/storage-use-emulator);
+>
+> * в Windows 10 можно использовать [эмулятор хранения Azure](https://docs.microsoft.com/azure/storage/common/storage-use-emulator);
 > * в MacOS/Linux можно использовать [образ Azurite](https://hub.docker.com/_/microsoft-azure-storage-azurite) для Docker.
 
 ## <a name="preparing-the-scene"></a>Подготовка сцены
