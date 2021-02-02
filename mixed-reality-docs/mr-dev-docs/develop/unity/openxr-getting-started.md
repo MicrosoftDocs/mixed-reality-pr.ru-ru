@@ -6,18 +6,18 @@ ms.author: alexturn
 ms.date: 01/11/2021
 ms.topic: article
 keywords: опенкср, Unity, hololens, hololens 2, Mixed Reality, МРТК, набор средств для смешанной реальности, дополненная реальность, виртуальная реальность, гарнитуры смешанной реальности, обучение, учебник, начало работы
-ms.openlocfilehash: c5d312161b7d0f4f832e8d09dbacf5af700ffd8d
-ms.sourcegitcommit: aa29b68603721e909f08f352feed24c65d2e505e
+ms.openlocfilehash: 1adfb979cfc22be5da18ed990c9db55e6bad97f3
+ms.sourcegitcommit: cef969ffd22dc1e5a1e9c3c32fbf0646206519a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98108892"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "99238136"
 ---
 # <a name="using-the-mixed-reality-openxr-plugin-for-unity"></a>Использование подключаемого модуля Опенкср в смешанной реальности для Unity
 
 Начиная с Unity версии 2020,2, пакет подключаемого модуля Опенкср Microsoft Mixed Reality доступен с помощью диспетчера пакетов Unity (УПМ).
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>предварительные требования
 
 * Unity 2020,2 или более поздней версии
 * Подключаемый модуль Unity Опенкср 0.1.2 или более поздней версии
@@ -27,51 +27,11 @@ ms.locfileid: "98108892"
 > [!NOTE]
 > Если вы создаете приложения VR на компьютере с Windows, подключаемый модуль Опенкср в смешанной реальности не обязательно требуется. Однако необходимо установить подключаемый модуль, если вы настраиваете сопоставление контроллера для контроллеров HP reverbа G2 или создаете приложения, которые работают на гарнитурах HoloLens 2 и VR.
 
-## <a name="installing-the-mixed-reality-openxr-plugin"></a>Установка подключаемого модуля Опенкср Mixed Reality
+## <a name="installing-openxr-with-the-mixed-reality-feature-tool"></a>Установка Опенкср с помощью средства "функция смешанной реальности"
 
-Перед использованием подключаемого модуля Опенкср Mixed Reality в проекте необходимо установить **подключаемый модуль опенкср** и пакеты **управления подключаемым модулем XR** . Если вы уже установили их, отлично! В противном случае Установка подключаемого модуля Опенкср для смешанной реальности автоматически установит их как зависимости:
+Установите подключаемый модуль Опенкср с помощью нового приложения средства "функция смешанной реальности". Следуйте [инструкциям по установке и использованию](welcome-to-mr-feature-tool.md) и выберите пакет **подключаемого модуля Опенкср смешанной реальности** в категории "набор средств смешанной реальности":
 
-1. В редакторе Unity выберите **правка > параметры проекта > диспетчер пакетов** .
-2. Разверните раздел **реестра с областью действия** , введите следующие сведения и выберите **сохранить**:
-    * Присвоить **имя** **Microsoft Mixed Reality**
-    * Задать **URL-адрес****https://pkgs.dev.azure.com/aipmr/MixedReality-Unity-Packages/_packaging/Unity-packages/npm/registry/**
-    * Задайте для **областей** значение **com. Microsoft. микседреалити**
-
-3. В разделе **Дополнительные параметры** выберите **включить предварительные версии пакетов** .
-
-![Снимок экрана: окно диспетчера пакетов Unity, открываемое в параметрах проекта](images/openxr-img-01.png)
-
-Диспетчер пакетов Unity использует файл манифеста с именем *manifest.js* для определения устанавливаемых пакетов и реестров, из которых они могут быть установлены.
-
-> [!IMPORTANT]
-> Опенкср по-прежнему является экспериментальным в Unity, и этот процесс может измениться со временем, так как мы работаем над оптимизацией процесса разработки.
-
-### <a name="registering-the-mixed-reality-dependency"></a>Регистрация зависимости Mixed Reality
-
-После добавления реестра с областью действия Microsoft Mixed Reality в манифест можно указать пакет Опенкср.
-
-Чтобы добавить пакет Опенкср, выполните следующие действия.
-
-1. Откройте **[прожектрут]/паккажес/manifest.js** в текстовом редакторе, например Visual Studio Code
-    1. Чтобы получить его, щелкните правой кнопкой мыши **пакеты** на левой панели окна проекта. Затем нажмите кнопку " **отобразить в проводнике**".
-    ![Снимок экрана: список пакетов в окне проекта](images/packages.png)
-1. Измените раздел "зависимости" в файле *packages/manifest.jsдля* файла следующим образом:
-
-    > [!IMPORTANT]
-    > В файле манифеста может быть больше зависимостей, чем показано здесь. Не удаляйте ни один из них. просто добавьте в список зависимость Опенкср.
-
-    ``` json
-      "dependencies": {
-        "com.microsoft.mixedreality.openxr": "0.1.2",
-      }
-    ```
-
-1. Сохраните файл, вернитесь в редактор Unity и откройте **Диспетчер пакетов** , чтобы убедиться, что подключаемый модуль установлен:
-
-    ![Снимок экрана: Диспетчер пакетов Unity открыт в редакторе Unity с выделенным подключаемым модулем Mixed Reality Опенкср](images/openxr-img-03.png)
-
-    > [!Note]
-    > Если пакет Опенкср удаляется с помощью диспетчера пакетов Unity, его необходимо добавить повторно с помощью описанных выше действий.
+![Окно пакетов инструмента "функция смешанной реальности" с выделенным подключаемым модулем Open XR](images/feature-tool-openxr.png)
 
 ## <a name="configuring-xr-plugin-management-for-openxr"></a>Настройка управления подключаемым модулем XR для Опенкср
 
@@ -124,9 +84,13 @@ ms.locfileid: "98108892"
 
 ## <a name="using-mrtk-with-openxr-support"></a>Использование МРТК с поддержкой Опенкср
 
-МРТК Unity поддерживает подключаемый модуль Mixed Reality Опенкср, начиная с выпуска 2.5.3.  Подключаемые модули МРТК можно установить из тех же реестров с заданной областью, что и при [установке подключаемого модуля Опенкср Mixed Reality](#installing-the-mixed-reality-openxr-plugin). Более подробную информацию можно найти в [документации по мртк](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/usingupm.html#registering-the-mixed-reality-component-server).
+МРТК Unity поддерживает подключаемый модуль Mixed Reality Опенкср, начиная с выпуска 2.5.3.  
 
-1. Добавьте следующие пакеты в файл **[прожектрут]/паккажес/manifest.jsв** файле:
+1. Снова откройте [средство "функция смешанной реальности](welcome-to-mr-feature-tool.md) " и выберите пакет **подключаемого модуля Опенкср смешанной реальности** в категории поддержка платформы.
+
+<!-- MRTK plugins can be installed from the same scoped registries as you set up when [installing the Mixed Reality OpenXR plugin](#installing-the-mixed-reality-openxr-plugin). You can find more detailed information in the [MRTK documentation](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/usingupm.html#registering-the-mixed-reality-component-server).
+
+1. Add following packages in your **[projectRoot]/Packages/manifest.json** file:
 
 ```json
 "dependencies": {
@@ -135,7 +99,7 @@ ms.locfileid: "98108892"
     "com.microsoft.mixedreality.toolkit.examples": "2.5.3",
     …
 }
-```
+``` -->
 
 2. Перейдите к скрипту компонента набора средств Микседреалити Toolkit в инспекторе и переключитесь в профиль **дефаултопенксрконфигуратионпрофиле** :
 
@@ -157,7 +121,7 @@ ms.locfileid: "98108892"
 
 Опенкср все еще экспериментально, поэтому мы будем рады получить отзывы, которые помогут улучшить его. Вы найдете нас на [форумах Unity](https://aka.ms/unityforums) , пометив сообщение на форуме с помощью **Microsoft**  +  **опенкср** и **HoloLens 2** или **Windows Mixed Reality**.
 
-## <a name="see-also"></a>См. также статью
+## <a name="see-also"></a>См. также
 
 * [Настройка проекта без МРТК](configure-unity-project.md)
 * [Рекомендуемые параметры для Unity](recommended-settings-for-unity.md)
