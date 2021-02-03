@@ -174,6 +174,20 @@
           href: unity/openxr-getting-started.md
         - name: Поддерживаемые функции подключаемого модуля OpenXR
           href: unity/openxr-supported-features.md
+        - name: Mixed Reality Feature Tool
+          items:
+            - name: Добро пожаловать в MR Feature Tool
+              href: unity/welcome-to-mr-feature-tool.md
+            - name: Configure
+              href: unity/configuring-feature-tool.md
+            - name: Обнаружить
+              href: unity/discovering-features.md
+            - name: Импорт
+              href: unity/importing-features.md
+            - name: Сведения о пакете
+              href: unity/viewing-package-details.md
+            - name: Просмотр изменений
+              href: unity/reviewing-changes.md
     - name: Основные стандартные блоки
       items:
         - name: Камера
@@ -262,7 +276,7 @@
       href: unreal/unreal-porting.md
     - name: Краткие руководства
       items:
-        - name: Создание проекта HoloLens
+        - name: Создание первого приложения для HoloLens в Unreal
           href: unreal/unreal-quickstart.md
     - name: Учебники
       items:
