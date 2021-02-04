@@ -7,12 +7,12 @@ ms.date: 12/9/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, потоковая передача, удаленное взаимодействие, смешанная реальность, разработка, начало работы, функции, новый проект, эмулятор, документация, руководства, функции, голограммы, разработка игр, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, OpenXR
-ms.openlocfilehash: a5b65bbfe5a1f365a93836406365fdc395b73c47
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: 99540b9cd3473097896d847943b9736300000305
+ms.sourcegitcommit: 1304f8f0a838290c1ae3db34670b67c75ea9bdaa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98580030"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99421423"
 ---
 # <a name="unreal-development-overview"></a>Обзор разработки в Unreal
 
@@ -38,6 +38,7 @@ ms.locfileid: "98580030"
 |  Контрольная точка  |  Результат  |
 | --- | --- |
 | [Установка последних средств](../install-the-tools.md) | Скачивание и установка последней версии Unreal Engine и настройка проекта для смешанной реальности. |
+| [Создание первого приложения для HoloLens в Unreal](unreal-quickstart.md) | Начало разработки в Unreal и на HoloLens путем создания простого приложения смешанной реальности. |
 | [Серия руководств по HoloLens 2](tutorials/unreal-uxt-ch1.md) | Настройка среды для разработки приложений смешанной реальности в Unreal, создание первого приложения с помощью MRTK и развертывание его на устройстве HoloLens 2. |
 | Начало работы с [OpenXR](../native/openxr.md) в Unreal (необязательно) | Если вы хотите создать приложение OpenXR в Unreal, отключите следующий подключаемый модуль подсистемы:<ul><li>Windows Mixed Reality</li></ul><br>Скачайте с GitHub следующий подключаемый модуль и включите его в проекте:<ul><li> [Microsoft OpenXR](https://github.com/microsoft/Microsoft-OpenXR-Unreal).</li></ul><br>Полный список поддерживаемых сейчас функций в OpenXR приведен [ниже](#supported-features).|
 

@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, TextMeshPro
 ms.localizationpriority: high
-ms.openlocfilehash: 4d82d0974a0a797e7f8d2de2d4943666f7d32a4f
-ms.sourcegitcommit: 04927427226928bd9178da0049d4cef626a6b0bf
+ms.openlocfilehash: ff479df81316ab5ceeabf045ad1bbae007190ed4
+ms.sourcegitcommit: cef969ffd22dc1e5a1e9c3c32fbf0646206519a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "98635526"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "99238153"
 ---
 # <a name="2-initializing-your-project-and-deploying-your-first-application"></a>2. Инициализация проекта и развертывание первого приложения
 
@@ -86,7 +86,13 @@ ms.locfileid: "98635526"
 
 ## <a name="importing-the-mixed-reality-toolkit"></a>Импорт набора средств для смешанной реальности (MRTK)
 
-Скачайте пользовательский пакет Unity:
+### <a name="using-the-mixed-reality-feature-tool"></a>Использование Mixed Reality Feature Tool
+
+Чтобы установить MRTK с помощью нашего нового приложения Mixed Reality Feature Tool, следуйте [инструкциям по установке и использованию](../welcome-to-mr-feature-tool.md) и выберите пакет **Mixed Reality Toolkit Foundation** в категории Mixed Reality Toolkit.
+
+### <a name="using-unity-packages"></a>Использование пакетов Unity
+
+Чтобы установить MRTK с пользовательским пакетом, выполните следующие действия:
 
 * [Microsoft.MixedReality.Toolkit.Unity.Foundation.2.5.1.unitypackage](https://github.com/microsoft/MixedRealityToolkit-Unity/releases/download/v2.5.1/Microsoft.MixedReality.Toolkit.Unity.Foundation.2.5.1.unitypackage)
 
@@ -128,9 +134,9 @@ ms.locfileid: "98635526"
 
 В окне Project Settings (Параметры проекта) выберите **XR Plug-in Management (Управление подключаемым модулем смешанной реальности)**  > **Install XR Plug-in Management (Установить пакет для управления подключаемым модулем смешанной реальности)** :
 
-![Параметры публикации Unity с настроенным именем пакета](images/mr-learning-base/base-02-section5-step2-2.png)
+![Параметры проекта с выбранным разделом XR Plugin Management (Управление подключаемым модулем смешанной реальности)](images/mr-learning-base/base-02-section5-step2-2.png)
 
-после установки пакета для управления подключаемым модулем смешанной реальности в Unity. Убедитесь, что вы выбрали параметр Universal Windows Platform (Универсальная платформа Windows) и установите флажок Initialize XR on Startup (Инициализировать смешанную реальность при запуске).
+После установки пакета для управления подключаемым модулем смешанной реальности в Unity сделайте следующее. Убедитесь, что вы выбрали параметр Universal Windows Platform (Универсальная платформа Windows) и установите флажок Initialize XR on Startup (Инициализировать смешанную реальность при запуске).
 
 ![Настройка управления подключаемым модулем смешанной реальности в Unity](images/mr-learning-base/base-02-section5-step2-3.png)
 
@@ -142,10 +148,10 @@ ms.locfileid: "98635526"
 
 В окне конфигуратора проектов MRTK откройте раскрывающийся список **Audio spatializer** (Аудио спатиалайзер), чтобы выбрать **MS HRTF Spatializer** (Спатиалайзер MS HRTF), а затем нажмите кнопку **Apply** (Применить), чтобы применить параметр:
 
-![Параметры смешанной реальности Unity с выбранным меню для добавления пакета SDK Windows Mixed Reality](images/mr-learning-base/base-02-section5-step2-5.png)
+![Окно конфигуратора проектов MRTK с выделенным свойством аудиоспатиалайзера](images/mr-learning-base/base-02-section5-step2-5.png)
 
 > [!TIP]
->Настраивать свойство аудиоспатиалайзера необязательно, но это может упростить работу со звуком в проекте. Если задать для свойства значение MS HRTF Spatializer (Спатиалайзер MS HRTF), этот подключаемый модуль спатиалайзера будет использоваться при включенном свойстве AudioSource.spatialize в Unity. Дополнительные сведения см. в <a href="https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unity/tutorials/unity-spatial-audio-ch1" target="_blank">учебниках по пространственному звуку</a>.
+>Настраивать свойство аудиоспатиалайзера необязательно, но это может упростить работу со звуком в проекте. Если задать для свойства значение MS HRTF Spatializer (Спатиалайзер MS HRTF), этот подключаемый модуль спатиалайзера будет использоваться при включенном свойстве AudioSource.spatialize в Unity. Дополнительные сведения см. в <a href="https://docs.microsoft.com/windows/mixed-reality/develop/unity/tutorials/unity-spatial-audio-ch1" target="_blank">учебниках по пространственному звуку</a>.
 
 В окне Project Settings (Параметры проекта) выберите **Player** > **XR Settings** (Проигрыватель > Параметры XR), а затем в раскрывающемся списке **Depth Format** (Формат глубины) выберите **16-bit depth** (16-разрядная глубина):
 
