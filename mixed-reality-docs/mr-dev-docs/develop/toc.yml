@@ -224,6 +224,8 @@
           href: unity/tracking-loss-in-unity.md
         - name: Ввод с клавиатуры
           href: unity/keyboard-input-in-unity.md
+        - name: Пакеты UDP в приложениях UWP
+          href: unity/udp-packets-in-unity.md
         - name: Использование пространства имен Windows с приложениями Unity для HoloLens
           href: unity/using-the-windows-namespace-with-unity-apps-for-hololens.md
         - name: Собственные объекты смешанной реальности
