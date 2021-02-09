@@ -3,16 +3,16 @@ title: Настройка намерения и распознавание ес�
 description: Пройдите этот курс, чтобы узнать, как настроить распознавание намерений и естественного языка в приложениях смешанной реальности.
 author: jessemcculloch
 ms.author: jemccull
-ms.date: 02/26/2019
+ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure, распознавание речи, Windows 10, LUIS, портал LUIS, намерение, сущности, речевые фрагменты, понимание естественного языка
 ms.localizationpriority: high
-ms.openlocfilehash: 8d840855321de5d4e055b944783649c9d8028f9a
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: 49e2b44000add22e924d9552f60b63ac1ac30288
+ms.sourcegitcommit: 68140e9ce84e69a99c2b3d970c7b8f2927a7fc93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98581476"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99590366"
 ---
 # <a name="4-setting-up-intent-and-natural-language-understanding"></a>4. Настройка намерения и распознавания естественного языка
 

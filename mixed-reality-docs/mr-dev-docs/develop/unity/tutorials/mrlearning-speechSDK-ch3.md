@@ -3,16 +3,16 @@ title: Добавление компонента перевода речи Azure
 description: Из этого курса вы узнаете, как добавить перевод речи с помощью Azure Cognitive Services в приложения смешанной реальности.
 author: jessemcculloch
 ms.author: jemccull
-ms.date: 02/26/2019
+ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure, распознавание речи, Windows 10, перевод речи
 ms.localizationpriority: high
-ms.openlocfilehash: 3c647ca841e51b707aae4171b31b0b045c79fb03
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: bcc966b63f4c3e5bb9e6d6a38dc7f0312b288402
+ms.sourcegitcommit: 68140e9ce84e69a99c2b3d970c7b8f2927a7fc93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009884"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99590146"
 ---
 # <a name="3-adding-the-azure-cognitive-services-speech-translation-component"></a>3. Добавление компонента перевода речи Azure Cognitive Services
 

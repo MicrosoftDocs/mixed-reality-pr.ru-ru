@@ -3,16 +3,16 @@ title: Предоставление общего доступа к сведен�
 description: В рамках этого курса вы узнаете, как предоставить доступ к движениям объектов нескольким пользователям в приложении HoloLens 2.
 author: jessemcculloch
 ms.author: jemccull
-ms.date: 07/01/2020
+ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, многопользовательские возможности, Photon, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure
 ms.localizationpriority: high
-ms.openlocfilehash: 872f33c3675f67d8afe47b0006aeff731751a7e4
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: d4dc943c8ca57331b4916e40db67df3cd3d6d2e6
+ms.sourcegitcommit: 68140e9ce84e69a99c2b3d970c7b8f2927a7fc93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98007174"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99590066"
 ---
 # <a name="4-sharing-object-movements-with-multiple-users"></a>4. Предоставление общего доступа к сведениям о перемещении объекта нескольким пользователям
 

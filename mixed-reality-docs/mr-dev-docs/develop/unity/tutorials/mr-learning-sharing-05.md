@@ -3,16 +3,16 @@ title: Интеграция Пространственных привязок Az
 description: Пройдите этот курс и узнайте, как использовать Пространственные привязки Azure для привязки объектов в общем многопользовательском приложении HoloLens 2.
 author: jessemcculloch
 ms.author: jemccull
-ms.date: 07/01/2020
+ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, многопользовательские возможности, Photon, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure
 ms.localizationpriority: high
-ms.openlocfilehash: 665979d860a2507fbf6cc9b962f5449c7d7d12f2
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 4eb7470487a584ef820be82f651ed9bd16392395
+ms.sourcegitcommit: 68140e9ce84e69a99c2b3d970c7b8f2927a7fc93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98010134"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99590226"
 ---
 # <a name="5-integrating-azure-spatial-anchors-into-a-shared-experience"></a>5. Интеграция Пространственных привязок Azure в общий интерфейс
 
