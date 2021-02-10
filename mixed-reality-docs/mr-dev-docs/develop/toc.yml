@@ -116,54 +116,56 @@
                   href: unity/tutorials/mr-learning-pc-holographic-remoting-02.md
         - name: Учебники по HoloLens (1-го поколения) и иммерсивным гарнитурам
           items:
-            - name: "100. Основы смешанной реальности\_— начало работы с Unity"
-              href: unity/tutorials/holograms-100.md
-            - name: "101. Основы смешанной реальности\_— полный проект с использованием устройства"
-              href: unity/tutorials/holograms-101.md
-            - name: "101E. Основы смешанной реальности\_— полный проект с использованием эмулятора"
-              href: unity/tutorials/holograms-101e.md
-            - name: "210. Ввод в смешанной реальности\_— взгляд"
-              href: unity/tutorials/holograms-210.md
-            - name: "211. Ввод в смешанной реальности\_— жест"
-              href: unity/tutorials/holograms-211.md
-            - name: "212. Ввод в смешанной реальности\_— голос"
-              href: unity/tutorials/holograms-212.md
-            - name: "220. Пространство в смешанной реальности\_— пространственный звук"
-              href: unity/tutorials/holograms-220.md
-            - name: "230. Пространство в смешанной реальности\_— пространственное сопоставление"
-              href: unity/tutorials/holograms-230.md
-            - name: "240. Общий доступ в смешанной реальности\_— несколько устройств HoloLens"
-              href: unity/tutorials/holograms-240.md
-        - name: Руководства по смешанной реальности и службам Azure
-          items:
-            - name: "301. Смешанная реальность и Azure\_— перевод на другие языки"
-              href: unity/tutorials/mr-azure-301.md
-            - name: "302. Смешанная реальность и Azure\_— компьютерное зрение"
-              href: unity/tutorials/mr-azure-302.md
-            - name: "302b. Смешанная реальность и Azure\_— пользовательское визуальное распознавание"
-              href: unity/tutorials/mr-azure-302b.md
-            - name: "303. Смешанная реальность и Azure\_— распознавание естественного языка"
-              href: unity/tutorials/mr-azure-303.md
-            - name: "304. Смешанная реальность и Azure\_— распознавание лиц"
-              href: unity/tutorials/mr-azure-304.md
-            - name: "305. Смешанная реальность и Azure\_— функции и хранилище"
-              href: unity/tutorials/mr-azure-305.md
-            - name: "306. Смешанная реальность и Azure\_— потоковая передача видео"
-              href: unity/tutorials/mr-azure-306.md
-            - name: "307. Смешанная реальность и Azure\_— машинное обучение"
-              href: unity/tutorials/mr-azure-307.md
-            - name: "308. Смешанная реальность и Azure\_— уведомления на разных устройствах"
-              href: unity/tutorials/mr-azure-308.md
-            - name: "309. Смешанная реальность и Azure\_— Application Insights"
-              href: unity/tutorials/mr-azure-309.md
-            - name: "310. Смешанная реальность и Azure\_— обнаружение объектов"
-              href: unity/tutorials/mr-azure-310.md
-            - name: "311. Смешанная реальность и Azure\_— Microsoft Graph"
-              href: unity/tutorials/mr-azure-311.md
-            - name: "312. Смешанная реальность и Azure\_— интеграция ботов"
-              href: unity/tutorials/mr-azure-312.md
-            - name: "313. Смешанная реальность и Azure\_— служба \"Центр Интернета вещей\""
-              href: unity/tutorials/mr-azure-301.md
+            - name: Функции Смешанной реальности
+              items:
+                - name: "100. Основы смешанной реальности\_— начало работы с Unity"
+                  href: unity/tutorials/holograms-100.md
+                - name: "101. Основы смешанной реальности\_— полный проект с использованием устройства"
+                  href: unity/tutorials/holograms-101.md
+                - name: "101E. Основы смешанной реальности\_— полный проект с использованием эмулятора"
+                  href: unity/tutorials/holograms-101e.md
+                - name: "210. Ввод в смешанной реальности\_— взгляд"
+                  href: unity/tutorials/holograms-210.md
+                - name: "211. Ввод в смешанной реальности\_— жест"
+                  href: unity/tutorials/holograms-211.md
+                - name: "212. Ввод в смешанной реальности\_— голос"
+                  href: unity/tutorials/holograms-212.md
+                - name: "220. Пространство в смешанной реальности\_— пространственный звук"
+                  href: unity/tutorials/holograms-220.md
+                - name: "230. Пространство в смешанной реальности\_— пространственное сопоставление"
+                  href: unity/tutorials/holograms-230.md
+                - name: "240. Общий доступ в смешанной реальности\_— несколько устройств HoloLens"
+                  href: unity/tutorials/holograms-240.md
+            - name: Смешанная реальность и службы Azure
+              items:
+                - name: "301. Смешанная реальность и Azure\_— перевод на другие языки"
+                  href: unity/tutorials/mr-azure-301.md
+                - name: "302. Смешанная реальность и Azure\_— компьютерное зрение"
+                  href: unity/tutorials/mr-azure-302.md
+                - name: "302b. Смешанная реальность и Azure\_— пользовательское визуальное распознавание"
+                  href: unity/tutorials/mr-azure-302b.md
+                - name: "303. Смешанная реальность и Azure\_— распознавание естественного языка"
+                  href: unity/tutorials/mr-azure-303.md
+                - name: "304. Смешанная реальность и Azure\_— распознавание лиц"
+                  href: unity/tutorials/mr-azure-304.md
+                - name: "305. Смешанная реальность и Azure\_— функции и хранилище"
+                  href: unity/tutorials/mr-azure-305.md
+                - name: "306. Смешанная реальность и Azure\_— потоковая передача видео"
+                  href: unity/tutorials/mr-azure-306.md
+                - name: "307. Смешанная реальность и Azure\_— машинное обучение"
+                  href: unity/tutorials/mr-azure-307.md
+                - name: "308. Смешанная реальность и Azure\_— уведомления на разных устройствах"
+                  href: unity/tutorials/mr-azure-308.md
+                - name: "309. Смешанная реальность и Azure\_— Application Insights"
+                  href: unity/tutorials/mr-azure-309.md
+                - name: "310. Смешанная реальность и Azure\_— обнаружение объектов"
+                  href: unity/tutorials/mr-azure-310.md
+                - name: "311. Смешанная реальность и Azure\_— Microsoft Graph"
+                  href: unity/tutorials/mr-azure-311.md
+                - name: "312. Смешанная реальность и Azure\_— интеграция ботов"
+                  href: unity/tutorials/mr-azure-312.md
+                - name: "313. Смешанная реальность и Azure\_— служба \"Центр Интернета вещей\""
+                  href: unity/tutorials/mr-azure-301.md
     - name: Настройка проекта
       items:
         - name: Знакомство с MRTK
