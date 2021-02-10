@@ -3,16 +3,16 @@ title: Использование речевых команд
 description: Из этого курса вы узнаете, как создать, настроить и использовать речевые команды в приложениях смешанной реальности с помощью Mixed Reality Toolkit (MRTK).
 author: jessemcculloch
 ms.author: jemccull
-ms.date: 07/01/2020
+ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, речевые команды, голосовой ввод
 ms.localizationpriority: high
-ms.openlocfilehash: c052c3501ab34811f33f1f6464c8394669eebe77
-ms.sourcegitcommit: 04927427226928bd9178da0049d4cef626a6b0bf
+ms.openlocfilehash: bb238ee6ca4c657d7e2cb8e3c41f2cdebc7fc0de
+ms.sourcegitcommit: 68140e9ce84e69a99c2b3d970c7b8f2927a7fc93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "98635452"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99590396"
 ---
 # <a name="9-using-speech-commands"></a>9. Использование речевых команд
 
@@ -59,7 +59,7 @@ ms.locfileid: "98635452"
 
 ## <a name="controlling-speech-commands"></a>Управление речевыми командами
 
-В окне Project (Проект) перейдите в папку **Assets** > **MRTK** > **SDK** > **Features** > **UX** > **Prefabs** > **ToolTip**, чтобы найти заготовки подсказок:
+В окне Project (Проект) перейдите к папке **Packages** > **Mixed Reality Toolkit Foundation** > **SDK** > **Features** > **UX** > **Prefabs** > **ToolTip**, чтобы найти заготовки подсказок:
 
 ![Открытие папки с подсказками](images/mr-learning-base/base-09-section3-step1-1.png)
 

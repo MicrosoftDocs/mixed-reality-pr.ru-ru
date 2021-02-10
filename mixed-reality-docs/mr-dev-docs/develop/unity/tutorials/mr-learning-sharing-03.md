@@ -3,16 +3,16 @@ title: Подключение нескольких пользователей
 description: В рамках этого курса вы узнаете, как подключить нескольких пользователей в приложении смешанной реальности HoloLens 2.
 author: jessemcculloch
 ms.author: jemccull
-ms.date: 07/01/2020
+ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, многопользовательские возможности, Photon, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure
 ms.localizationpriority: high
-ms.openlocfilehash: 0c6bf0871836ad7aae9c3906b2042f97ae003ebf
-ms.sourcegitcommit: 3dad2adfdb5bdb8100d8d864f7845e34a3ef912d
+ms.openlocfilehash: 58ea52332485a3e0ca460322f6af60266b119ede
+ms.sourcegitcommit: 68140e9ce84e69a99c2b3d970c7b8f2927a7fc93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98699068"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99590196"
 ---
 # <a name="3-connecting-multiple-users"></a>3. Подключение нескольких пользователей
 
@@ -69,7 +69,7 @@ ms.locfileid: "98699068"
 
 ### <a name="2-create-the-avatar"></a>2. Создание аватара
 
-В окне Project (Проект) перейдите к папке **Assets** > **MRTK** > **StandardAssets** > **Materials** (Активы > MRTK > Стандартные активы > Материалы), чтобы найти материалы MRTK.
+В окне Project (Проект) перейдите к папке **Packages** > **Mixed Reality Toolkit Foundation** > **SDK** > **StandardAssets** > **Materials**, чтобы найти материалы, связанные с MRTK.
 
 Затем щелкните правой кнопкой мыши объект **PhotonUser** в окне Hierarchy (Иерархия) и последовательно выберите **3D Object** > **Sphere** (Трехмерный объект > Сфера), чтобы создать сферический объект в качестве дочернего для объекта PhotonUser и настроить его следующим образом:
 

@@ -3,16 +3,16 @@ title: Учебники по MRTK — 4. Размещение объектов 
 description: Из этого курса вы узнаете, как размещать объекты в сцене и как использовать Mixed Reality Toolkit (MRTK) для упорядочивания объектов в сетке.
 author: jessemcculloch
 ms.author: jemccull
-ms.date: 07/01/2020
+ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, решатели, коллекция объектов сетки
 ms.localizationpriority: high
-ms.openlocfilehash: 27964cad03111a3f7dad89c66df0cb9a4f95a9e2
-ms.sourcegitcommit: a56a551ebc59529a3683fe6db90d59f982ab0b45
+ms.openlocfilehash: 9087800eca3536704ed4ef01a5d8178720b6a875
+ms.sourcegitcommit: 68140e9ce84e69a99c2b3d970c7b8f2927a7fc93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98579213"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99590528"
 ---
 # <a name="4-positioning-objects-in-the-scene"></a>4. Размещение объектов в сцене
 
@@ -27,16 +27,25 @@ ms.locfileid: "98579213"
 
 ## <a name="importing-the-tutorial-assets"></a>Импорт активов для руководства
 
-Скачайте и импортируйте следующий пользовательский пакет Unity:
+Скачайте следующий пользовательский пакет Unity:
 
 * [MRTK.HoloLens2.Unity.Tutorials.Assets.GettingStarted.2.4.0.unitypackage](https://github.com/microsoft/MixedRealityLearning/releases/download/getting-started-v2.4.0/MRTK.HoloLens2.Unity.Tutorials.Assets.GettingStarted.2.4.0.unitypackage).
 
-Когда вы завершите импорт активов для руководства, окно проекта должно выглядеть примерно так:
+Чтобы импортировать пользовательский пакет Unity, в меню Unity щелкните **Assets** > **Import Package** > **Custom Package** (Ресурсы > Импорт пакетов > Пользовательский пакет), чтобы открыть окно импорта пакетов:
 
 ![Unity с окнами Hierarchy (Иерархия), Scene (Сцена) и Project (Проект) после импорта ресурсов для руководства](images/mr-learning-base/base-04-section1-step1-1.png)
 
-> [!TIP]
-> Сведения о том, как правильно импортировать пользовательский пакет Unity, см. в разделе [Импорт набора средств для Смешанной реальности](mr-learning-base-02.md#importing-the-mixed-reality-toolkit).
+В окне Import package (Импорт пакета) выберите скачанный файл **MRTK.HoloLens2.Unity.Tutorials.Assets.GettingStarted.2.4.0.unitypackage** и нажмите кнопку Open (Открыть):
+
+![Unity с окнами Hierarchy (Иерархия), Scene (Сцена) и Project (Проект) после импорта ресурсов для руководства](images/mr-learning-base/base-04-section1-step1-2.png)
+
+В окне импорта пакета Unity нажмите кнопку All (Все), чтобы выбрать все ресурсы, а затем нажмите кнопку Import (Импорт), чтобы импортировать их.
+
+![Unity с окнами Hierarchy (Иерархия), Scene (Сцена) и Project (Проект) после импорта ресурсов для руководства](images/mr-learning-base/base-04-section1-step1-3.png)
+
+Когда вы завершите импорт активов для руководства, окно проекта должно выглядеть примерно так:
+
+![Unity с окнами Hierarchy (Иерархия), Scene (Сцена) и Project (Проект) после импорта ресурсов для руководства](images/mr-learning-base/base-04-section1-step1-4.png)
 
 ## <a name="creating-the-parent-object"></a>Создание родительского объекта
 

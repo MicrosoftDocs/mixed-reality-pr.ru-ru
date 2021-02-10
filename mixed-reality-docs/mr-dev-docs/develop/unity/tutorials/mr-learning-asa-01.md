@@ -3,16 +3,16 @@ title: Знакомство с руководствами по Простран�
 description: Пройдите этот курс и узнайте, как реализовать Пространственные привязки Azure в приложении смешанной реальности.
 author: jessemcculloch
 ms.author: jemccull
-ms.date: 07/01/2020
+ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure, iOS, Android, Windows 10, ARCore, macOS, Android Build Support, ARKit
 ms.localizationpriority: high
-ms.openlocfilehash: 9529b12968c5cbc985f4af8eb0053d277eb00c03
-ms.sourcegitcommit: 3dad2adfdb5bdb8100d8d864f7845e34a3ef912d
+ms.openlocfilehash: 6ef488dec38a918e0a3707b06644002a51c7d5e5
+ms.sourcegitcommit: 68140e9ce84e69a99c2b3d970c7b8f2927a7fc93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98699033"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99590696"
 ---
 # <a name="1-introduction-to-the-azure-spatial-anchors-tutorials"></a>1. Знакомство с руководствами по Пространственным привязкам Azure
 
@@ -50,7 +50,7 @@ ms.locfileid: "98699033"
   * <a href="https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html" target="_blank">Unity Hub</a> с Unity 2019 LTS и модулем iOS Build Support.
 
 > [!CAUTION]
-> Рекомендуемая версия набора средств для смешанной реальности для этой серии учебников — MRTK 2.5.1.
+> Для работы с этой серией руководств рекомендуется Набор средств для Смешанной реальности MRTK 2.5.3.
 
 > [!CAUTION]
 > Рекомендуемая версия Unity для этой серии учебников — Unity 2019 LTS. Это заменяет все требования к версии Unity, указанные в приведенных выше предварительных требованиях.

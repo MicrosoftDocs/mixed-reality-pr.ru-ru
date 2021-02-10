@@ -3,16 +3,16 @@ title: Создание пользовательских интерфейсов
 description: Из этого курса вы узнаете, как с помощью Mixed Reality Toolkit (MRTK) создавать статические и динамические пользовательские интерфейсы.
 author: jessemcculloch
 ms.author: jemccull
-ms.date: 07/01/2020
+ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, заготовки, голограммы, советы
 ms.localizationpriority: high
-ms.openlocfilehash: 4fe4b016be36e04abffeb415f690cc0c01a6f767
-ms.sourcegitcommit: 04927427226928bd9178da0049d4cef626a6b0bf
+ms.openlocfilehash: 3b32faab4be13d42f228659285244c206680466e
+ms.sourcegitcommit: 68140e9ce84e69a99c2b3d970c7b8f2927a7fc93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "98635556"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99590556"
 ---
 # <a name="6-creating-user-interfaces"></a>6. Создание пользовательских интерфейсов
 
@@ -86,7 +86,7 @@ ms.locfileid: "98635556"
 
 ## <a name="creating-a-dynamic-menu-that-follows-the-user"></a>Создание динамического меню, которое следует за пользователем
 
-В окне Project (Проект) перейдите к папке **Assets** > **MRTK** > **SDK** > **Features** > **UX** > **Prefabs** > **Menus**, перетащите заготовку **NearMenu4x1** в окно Hierarchy (Иерархия), установите для параметра преобразования **Position** (Позиция) значения X = 0, Y = -0,4, Z = 0 и настройте его следующим образом:
+В окне Project (Проект) перейдите к папке **Packages** > **Mixed Reality Toolkit Foundation** > **SDK** > **Features** > **UX** > **Prefabs** > **Menus**, щелкните и перетащите заготовку **NearMenu4x1** в окно Hierarchy (Иерархия), задайте для параметра преобразования **Position** (Позиция) значения X = 0, Y = -0.4, Z = 0 и укажите следующее:
 
 * Убедитесь, что для параметра **Tracked Target Type** (Тип отслеживаемой цели) компонента **SolverHandler** указано значение **Head** (Головной).
 * Установите флажок рядом с компонентом Solver **RadialView**, чтобы он был включен по умолчанию.
@@ -162,7 +162,7 @@ ms.locfileid: "98635556"
 
 ## <a name="adding-tooltips"></a>Добавление подсказок
 
-В окне Project (Проект) перейдите в папку **Assets** > **MRTK** > **SDK** > **Features** > **UX** > **Prefabs** > **ToolTip**, чтобы найти заготовки подсказок:
+В окне Project (Проект) перейдите к папке **Packages** > **Mixed Reality Toolkit Foundation** > **SDK** > **Features** > **UX** > **Prefabs** > **ToolTip**, чтобы найти заготовки подсказок:
 
 ![Окно проекта Unity с выбранной папкой ToolTips](images/mr-learning-base/base-06-section4-step1-1.png)
 

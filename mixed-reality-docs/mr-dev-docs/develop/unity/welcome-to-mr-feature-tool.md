@@ -7,12 +7,12 @@ ms.date: 01/27/2021
 ms.topic: article
 ms.localizationpriority: high
 keywords: актуальность, инструменты, начало работы, основы, Unity, Visual Studio, набор средств, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, установка, Windows, HoloLens, эмулятор, Unreal, OpenXR
-ms.openlocfilehash: b9d54edb251cfe22d4f5fbea6fa8c923f6ff2d69
-ms.sourcegitcommit: cef969ffd22dc1e5a1e9c3c32fbf0646206519a1
+ms.openlocfilehash: 0aad81ddd625467dd9159232d590b1a4bf68d06b
+ms.sourcegitcommit: d9f87635c87627adba7db37834e4627c149f9a28
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "99244069"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99570257"
 ---
 # <a name="welcome-to-the-mixed-reality-feature-tool"></a>Вас приветствует Mixed Reality Feature Tool
 
@@ -33,9 +33,11 @@ ms.locfileid: "99244069"
 > [!NOTE]
 > В настоящее время средство Mixed Reality Feature Tool работает только в Windows, но скоро станет доступна поддержка MacOS.
 
+## <a name="download"></a>Скачивание 
+
 После настройки среды выполните следующие действия:
 
-* Скачайте последнюю версию средства Mixed Reality Feature Tool из [Центра загрузки Майкрософт](https://aka.ms/MRFeatureTool).
+* [Скачайте последнюю версию средства Mixed Reality Feature Tool](https://aka.ms/MRFeatureTool) из Центра загрузки Майкрософт.
 * Когда скачивание завершится, распакуйте файл и сохраните его на рабочем столе.
     * Для упрощения доступа рекомендуется создать ярлык для исполняемого файла.
 

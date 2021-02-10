@@ -3,16 +3,16 @@ title: Создание приложения для голографическо
 description: Пройдите этот курс, чтобы узнать, как создать приложение для ПК с реализацией удаленного взаимодействия в режиме смешанной реальности между вашим компьютером и HoloLens 2.
 author: jessemcculloch
 ms.author: jemccull
-ms.date: 07/01/2020
+ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, голографическое удаленное взаимодействие с компьютером, Visual Studio
 ms.localizationpriority: high
-ms.openlocfilehash: fd357b0b487b948afb6ae15c9e84362e2bc1ef90
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 916a9396c0b29637d5619bac203718e05112b598
+ms.sourcegitcommit: 68140e9ce84e69a99c2b3d970c7b8f2927a7fc93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98007334"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99590306"
 ---
 # <a name="2-creating-a-holographic-remoting-pc-application"></a>2. Создание приложения для голографического удаленного взаимодействия с компьютером
 
@@ -53,11 +53,11 @@ ms.locfileid: "98007334"
 
 В меню Unity щелкните File (Файл) > Build Settings... (Параметры сборки...), чтобы открыть окно параметров сборки:
 
-В окне Build Settings (Параметры сборки) нажмите кнопку **_Add Open Scenes_* _ (Добавить открытые сцены), чтобы добавить текущую сцену в список Scenes (Сцены). В списке Build (Сборка) нажмите кнопку _*_Build_*_ (Сборка), чтобы открыть окно Build Universal Windows Platform (Создание приложений универсальной платформы Windows):
+В окне Build Settings (Параметры сборки) нажмите кнопку ***Add Open Scenes** _ (Добавить открытые сцены), чтобы добавить текущую сцену в список Scenes (Сцены). В списке Build (Сборка) нажмите кнопку _ *_Build_** (Сборка), чтобы открыть окно Build Universal Windows Platform (Создание приложений универсальной платформы Windows):
 
 ![Окно параметров сборки Unity с добавленной сценой](images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step2-1.png)
 
-В окне Build Universal Windows Platform (Создание приложений универсальной платформы Windows) выберите подходящее расположение для хранения своей сборки, например Documents\MixedRealityLearning. Создайте папку и присвойте ей подходящее имя, например PCHolographicRemoting. Затем нажмите кнопку _*_Select Folder_*_ (Выбрать папку), чтобы начать процесс сборки:
+В окне Build Universal Windows Platform (Создание приложений универсальной платформы Windows) выберите подходящее расположение для хранения своей сборки, например Documents\MixedRealityLearning. Создайте папку и присвойте ей подходящее имя, например PCHolographicRemoting. Затем нажмите кнопку ***Select Folder*** (Выбрать папку), чтобы начать процесс сборки:
 
 ![Окно параметров сборки Unity с окном выбора папки](images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step2-2.png)
 
@@ -78,7 +78,7 @@ ms.locfileid: "98007334"
 
 ![Среда Visual Studio, настроенная для локального компьютера](images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step3-2.png)
 
-Нажмите кнопку _*_Local Machine_*_ (Локальный компьютер). Запустится сборка и развертывание приложения на вашем компьютере. Приложение будет установлено на ваш компьютер по умолчанию.
+Нажмите кнопку ***Локальный компьютер***. Запустится сборка и развертывание приложения на вашем компьютере. Приложение будет установлено на ваш компьютер по умолчанию.
 
 ## <a name="testing-holographic-remoting-remote-application"></a>Проверка приложения для голографического удаленного взаимодействия
 
@@ -86,7 +86,7 @@ ms.locfileid: "98007334"
 
 ### <a name="1-install-the-remoting-player-application-on-hololens-2-device"></a>1. Установка приложения Remoting Player на устройство HoloLens 2.
 
-_На устройстве HoloLens 2 перейдите к приложению Store и выполните поиск по фразе "**Remoting Player**".
+* На устройстве HoloLens 2 перейдите к приложению Store и выполните поиск по фразе "**Remoting Player**".
 * Выберите приложение **Remoting Player**.
 * Коснитесь элемента **Install** (Установить), чтобы скачать и установить приложение.
 

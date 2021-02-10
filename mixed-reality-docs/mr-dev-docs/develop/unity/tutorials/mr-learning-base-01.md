@@ -3,16 +3,16 @@ title: Введение в учебники по MRTK
 description: Из этого курса вы узнаете, как с помощью набора Mixed Reality Toolkit (MRTK) создавать приложения смешанной реальности.
 author: jessemcculloch
 ms.author: jemccull
-ms.date: 07/01/2020
+ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, решатели, отслеживание взгляда, голосовые команды
 ms.localizationpriority: high
-ms.openlocfilehash: a917aea812c262e3589110a29e2399da4c1e5348
-ms.sourcegitcommit: a56a551ebc59529a3683fe6db90d59f982ab0b45
+ms.openlocfilehash: 8bae8b821e7ffe67b745bbbab763193612a58485
+ms.sourcegitcommit: 68140e9ce84e69a99c2b3d970c7b8f2927a7fc93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98579273"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99590416"
 ---
 # <a name="1-introduction-to-the-mrtk-tutorials"></a>1. Введение в учебники по MRTK
 
@@ -46,7 +46,7 @@ ms.locfileid: "98579273"
 * <a href="https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html" target="_blank">Unity Hub</a> с Unity 2019 LTS и модулем поддержки сборки универсальной платформы Windows
 
 > [!CAUTION]
-> Для работы с этой серии учебников рекомендуется MRTK 2.5.1.
+> Для работы с этой серии руководств рекомендуется MRTK 2.5.3.
 
 > [!CAUTION]
 > Рекомендуемая версия Unity для этой серии руководств — Unity 2019 LTS. Это заменяет все требования к версии Unity, указанные выше.

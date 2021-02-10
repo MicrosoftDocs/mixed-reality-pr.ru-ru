@@ -3,16 +3,16 @@ title: Руководства по использованию службы "Ре
 description: В рамках этого курса вы узнаете, как реализовать пакет SDK службы "Речь" в приложении смешанной реальности.
 author: jessemcculloch
 ms.author: jemccull
-ms.date: 02/26/2019
+ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure, распознавание речи, Windows 10
 ms.localizationpriority: high
-ms.openlocfilehash: c663bbf443c206750854c1b8f4cd8946eacd28b1
-ms.sourcegitcommit: 04927427226928bd9178da0049d4cef626a6b0bf
+ms.openlocfilehash: 818e4c7ab60a2b17b60bfc97f564a4a87bf33a9b
+ms.sourcegitcommit: 68140e9ce84e69a99c2b3d970c7b8f2927a7fc93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "98635460"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99590126"
 ---
 # <a name="1-integrating-and-using-speech-recognition-and-transcription"></a>1. Интеграция и использование средств распознавания и транскрибирования речи
 
@@ -63,7 +63,7 @@ ms.locfileid: "98635460"
 ![mrlearning-speech](images/mrlearning-speech/tutorial1-section2-step1-1.png)
 
 > [!TIP]
-> Сведения о том, как правильно клонировать и настраивать профили MRTK, см. в статье [Настройка профилей MRTK](mr-learning-base-03.md).
+> Сведения о том, как правильно импортировать пользовательский пакет Unity, см. в разделе [Импорт ресурсов для руководства](mr-learning-base-04.md#importing-the-tutorial-assets).
 
 ## <a name="configuring-the-capabilities"></a>Настройка функциональных возможностей
 
