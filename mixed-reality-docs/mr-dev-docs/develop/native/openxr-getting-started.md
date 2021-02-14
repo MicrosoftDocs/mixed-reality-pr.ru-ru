@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 2/28/2020
 ms.topic: article
 keywords: Опенкср, Кхронос, Басикксрапп, Windows Mixed Reality, Опенкср Средства для разработчиков, DirectX, машинный код, собственное приложение, настраиваемое подсистема, по промежуточного слоя, начало работы, 101, предварительный просмотр расширений, версия среды выполнения Опенкср, состояние системы
-ms.openlocfilehash: 918dfb1f336598548735b1699c61d1b350fed293
-ms.sourcegitcommit: 2bf79eef6a9b845494484f458443ef4f89d7efc0
+ms.openlocfilehash: 99bf2e19c0bd7708f8c2421d7a466e77a6a75d84
+ms.sourcegitcommit: 029f247a6c33068360d3a06f2a473a12586017e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97613198"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100496072"
 ---
 # <a name="getting-started-with-openxr"></a>Начало работы с OpenXR
 

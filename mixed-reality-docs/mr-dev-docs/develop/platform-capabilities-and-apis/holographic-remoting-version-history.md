@@ -6,17 +6,29 @@ ms.author: flbagar
 ms.date: 12/01/2020
 ms.topic: article
 keywords: HoloLens, удаленное взаимодействие, holographic удаленное взаимодействие, журнал версий, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: e1f80d0d2cbd02b78ed07e3ec60825ffe1059309
-ms.sourcegitcommit: 3dad2adfdb5bdb8100d8d864f7845e34a3ef912d
+ms.openlocfilehash: 8fa1671657a7cb057f88da24fe4cfe68b0401397
+ms.sourcegitcommit: 029f247a6c33068360d3a06f2a473a12586017e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98699013"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100496042"
 ---
 # <a name="holographic-remoting-version-history"></a>Журнал версий службы удаленного взаимодействия с holographic
 
 > [!IMPORTANT]
 > Это руководство относится к удаленному взаимодействию с HoloLens 2.
+
+## <a name="version-250-february-12-2021"></a>Версия 2.5.0 (12 февраля, 2021) <a name="v2.5.0"></a>
+* Holographic удаленное взаимодействие с помощью [API опенкср](../native/openxr.md) теперь поддерживает:
+  * Расширение XR_MSFT_spatial_anchor. Это расширение позволяет приложению создавать пространственные привязки, которые являются произвольными точками свободного места в физической среде пользователя, которые будут записаны средой выполнения.
+  * Расширение XR_MSFT_controller_model. Это расширение предоставляет механизм для загрузки моделей ГЛТФ для контроллеров.
+  * Пользовательские каналы данных как часть расширения XR_MSFT_holographic_remoting. Пример для этого показан в [опенкср Remote Sample](https://github.com/microsoft/MixedReality-HolographicRemoting-Samples).
+* Улучшенная синхронизация между проигрывателем и удаленной стороной. Это позволяет динамически изменять буферы объектов и буферизации, что обеспечивает непрерывное отображение удаленного отображения содержимого при ожидаемой частоте целевых кадров.
+* Улучшена производительность плеера holographic Remoting, доступного через Microsoft Store. В HoloLens 2 игрок теперь работает в 60 кадрах в секунду.
+* Оптимизированная передача сеток пространственных поверхностей, которые можно запрашивать через [спатиалсурфацеобсервер](https://docs.microsoft.com/uwp/api/windows.perception.spatial.surfaces.spatialsurfaceobserver) в удаленном приложении.
+* Исправлена проблема, при которой вызов методов Спатиаланчорманажер или освобождение привязок вызывали исключения при отключении.
+* Исправлена проблема с потоками, приводящая к сбоям при закрытии экземпляров Плайерконтекст или Ремотеконтекст.
+* Множество других исправлений и улучшений стабильности.
 
 ## <a name="version-241-january-22-2021"></a>Версия 2.4.1 (22 января, 2021) <a name="v2.4.1"></a>
 
@@ -128,11 +140,11 @@ ms.locfileid: "98699013"
 
 * Первый общедоступный выпуск holographic Remoting для HoloLens 2.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 * [Создание удаленного приложения holographic с удаленным взаимодействием с помощью API-интерфейсов Windows Mixed Reality](holographic-remoting-create-remote-wmr.md)
 * [Создание удаленного приложения holographic с удаленным взаимодействием с помощью API-интерфейсов Опенкср](holographic-remoting-create-remote-openxr.md)
 * [Создание пользовательского проигрывателя для голографического удаленного взаимодействия](holographic-remoting-create-player.md)
 * [Устранение неполадок и ограничения удаленного взаимодействия с holographic](holographic-remoting-troubleshooting.md)
 * [Условия лицензии на использование ПО для голографического удаленного взаимодействия](/legal/mixed-reality/microsoft-holographic-remoting-software-license-terms)
-* [Заявление о конфиденциальности Майкрософт](https://go.microsoft.com/fwlink/?LinkId=521839)
+* [Заявление Майкрософт о конфиденциальности](https://go.microsoft.com/fwlink/?LinkId=521839)
