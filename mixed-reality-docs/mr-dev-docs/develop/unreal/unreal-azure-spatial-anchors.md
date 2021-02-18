@@ -7,12 +7,12 @@ ms.date: 12/9/2020
 ms.topic: tutorial
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens 2, Azure, разработка Azure, пространственные привязки, смешанная реальность, разработка, функции, новый проект, эмулятор, документация, руководства, голограммы, разработка игр, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 5797cd48198b163b55f3724685126b1d4d85c69c
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: 01d7217f038519d68eabfbf4f273c7ff8cbe7193
+ms.sourcegitcommit: 029f247a6c33068360d3a06f2a473a12586017e1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98583020"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100496201"
 ---
 # <a name="azure-spatial-anchors-in-unreal"></a>Пространственные привязки Azure в Unreal
 
@@ -44,6 +44,12 @@ ms.locfileid: "98583020"
 
 > [!NOTE]
 > Пространственные привязки Azure в Unreal 4.25 не поддерживают маркеры аутентификации Azure AD, но мы добавим поддержку такой функции в последующих выпусках.
+
+## <a name="enabling-internet-access"></a>Включение доступа к Интернету
+
+Выберите **Project Settings > HoloLens** (Параметры проекта > HoloLens) и включите возможность использования **Интернет-клиента**:
+
+![Параметры проекта HoloLens с выделенными возможностями](images/asa-enable-wifi-connection.jpg)
 
 ## <a name="adding-azure-spatial-anchors-plugins"></a>Добавление подключаемых модулей службы "Пространственные привязки Azure"
 
