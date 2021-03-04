@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 12/1/2020
 ms.topic: article
 keywords: контроллеры движения, Unity, ввод, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: db103e674a369f13e62aac5e8c0513b2c2c17f9e
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: 6dee5f03ab5fe84ac11a4eb10ef0483fea6e0083
+ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98583507"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101759065"
 ---
 # <a name="motion-controllers-in-unity"></a>Контроллеры движения в Unity
 
@@ -152,11 +152,11 @@ Windows Mixed Reality поддерживает контроллеры движе
 <tr>
 <th> Состояние отслеживания </th><th> саурцелоссриск </th><th> поситионаккураци </th><th> трижетпоситион</th>
 </tr><tr>
-<td> <b>Высокая точность</b> </td><td style="background-color: green; color: white"> &lt; 1,0 </td><td style="background-color: green; color: white"> Высокий </td><td style="background-color: green; color: white"> Да</td>
+<td> <b>Высокая точность</b> </td><td style="background-color: green; color: white"> &lt; 1,0 </td><td style="background-color: green; color: white"> Высокий </td><td style="background-color: green; color: white"> true</td>
 </tr><tr>
-<td> <b>Высокая точность (при потере риска)</b> </td><td style="background-color: orange"> = = 1,0 </td><td style="background-color: green; color: white"> Высокий </td><td style="background-color: green; color: white"> Да</td>
+<td> <b>Высокая точность (при потере риска)</b> </td><td style="background-color: orange"> = = 1,0 </td><td style="background-color: green; color: white"> Высокий </td><td style="background-color: green; color: white"> true</td>
 </tr><tr>
-<td> <b>Приблизительная точность</b> </td><td style="background-color: orange"> = = 1,0 </td><td style="background-color: orange"> Приблизительна </td><td style="background-color: green; color: white"> Да</td>
+<td> <b>Приблизительная точность</b> </td><td style="background-color: orange"> = = 1,0 </td><td style="background-color: orange"> Приблизительна </td><td style="background-color: green; color: white"> true</td>
 </tr><tr>
 <td> <b>Без расположения</b> </td><td style="background-color: orange"> = = 1,0 </td><td style="background-color: orange"> Приблизительна </td><td style="background-color: orange"> false</td>
 </tr>
@@ -434,9 +434,9 @@ void InteractionManager_InteractionSourceUpdated(InteractionSourceUpdatedEventAr
 }
 ```
 
-## <a name="motion-controllers-in-mrtk-v2"></a>Контроллеры движения в МРТК v2
+## <a name="motion-controllers-in-mrtk"></a>Контроллеры движения в МРТК
 
-Вы можете получить доступ к [жестам и контроллеру движения](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Input/Controllers.html) из диспетчера ввода.
+Вы можете получить доступ к [жестам и контроллеру движения](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/input/controllers.md) из диспетчера ввода.
 
 ## <a name="follow-along-with-tutorials"></a>Обучение по руководствам
 

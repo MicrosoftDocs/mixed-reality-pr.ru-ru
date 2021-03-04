@@ -6,18 +6,18 @@ ms.author: kurtie
 ms.date: 10/22/2019
 ms.topic: article
 keywords: холотулкит, микседреалититулкит, микседреалититулкит-Unity, holographic, holographic, впечатляющий, захватывающий пункт, буфер глубины, только ориентация, Позиционированный, непрозрачный, прозрачный, зажим, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: ba42e8a384f62dddcf7b8e685859ddeff7b666bb
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: 865d19482e5f612eab95fa2f74cb2bad59171496
+ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98581121"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101759770"
 ---
 # <a name="camera-in-unity"></a>Камера в Unity
 
 При износе гарнитуры смешанной реальности он станет центром в holographic-мире. Компонент [камеры](https://docs.unity3d.com/Manual/class-Camera.html) Unity автоматически обрабатывает стереоскопикную визуализацию и поддерживайте свое головное перемещение и вращение. Однако, чтобы полностью оптимизировать качество визуальных элементов и [стабильность](../platform-capabilities-and-apis/hologram-stability.md), необходимо задать параметры камеры, описанные ниже.
 
-## <a name="setup"></a>Настройка
+## <a name="setup"></a>Установка
 
 1. В разделе " **другие параметры** " окна " **Параметры проигрывателя магазина Windows** "
 2. Выберите **Windows Mixed Reality** в качестве устройства, которое может быть указано как **Windows holographic** в более ранних версиях Unity.
@@ -93,7 +93,7 @@ ms.locfileid: "98581121"
 
 ## <a name="automatic-scene-and-camera-setup-with-mixed-reality-toolkit"></a>Автоматическая настройка сцены и камеры с помощью набора средств Mixed Reality 
 
-Следуйте [пошаговому руководству,](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/GettingStartedWithTheMRTK.html) чтобы добавить набор средств Mixed Reality в проект Unity, и он автоматически настроит проект. Можно также вручную настроить проект, не МРТК с руководством в разделе ниже.
+Следуйте [пошаговому руководству,](tutorials/mr-learning-base-01.md) чтобы добавить набор средств Mixed Reality в проект Unity, и он автоматически настроит проект. Можно также вручную настроить проект, не МРТК с руководством в разделе ниже.
 
 ## <a name="next-development-checkpoint"></a>Следующий этап разработки
 

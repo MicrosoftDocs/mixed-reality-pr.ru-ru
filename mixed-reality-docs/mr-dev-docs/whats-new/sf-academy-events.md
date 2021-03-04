@@ -6,12 +6,12 @@ ms.author: daescu
 ms.date: 10/12/2020
 ms.topic: article
 keywords: событие, календарь, Academy, расписание, SF, Сан Франциско, реактора
-ms.openlocfilehash: a7d592243f758415c0ca757f35567d80fbfc1f2f
-ms.sourcegitcommit: 44d0f2873c75003caf9d8d244ceaeb3faa89df63
+ms.openlocfilehash: 2e7cb5d06cb0903e3dc3f850f452ded6597cd929
+ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98110442"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101760060"
 ---
 # <a name="microsoft-mixed-reality-events"></a>События Microsoft Mixed Reality
 
@@ -28,7 +28,7 @@ ms.locfileid: "98110442"
 | Серия докладов по смешанной реальности|1 сентября 2020 г.|[Создание развлекательных символов для AR/VR](https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Creating-Entertaining-Characters-for-Mixed-Reality)|
 | Серия докладов по смешанной реальности|3 сентября 2020 г.|[Советы & рекомендации по использованию нереальных](https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Tips-and-Best-Practices-for-using-UE4-in-MR)|
 | HoloLens & Mixed Reality Meetup|8 сентября 2020 г.|[Человеческие восприятие и смешанная реальность](https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Human-Perception-and-Mixed-Reality)|
-| Серия докладов по смешанной реальности|22 сентября 2020 г.|[Escape-Киппи: введение в нереальном & МРТК для HoloLens 2]()|
+| Серия докладов по смешанной реальности|22 сентября 2020 г.|[Escape-Киппи: введение в нереальном & МРТК для HoloLens 2](../develop/unreal/unreal-kippys-escape.md)|
 | Серия докладов по смешанной реальности|22 октября 2020 г.|[Введение в Вебкср с Бабилонжс](https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Adding-Augmented-Reality-to-your-Typescript-Project)|
 | Серия докладов по смешанной реальности|17 ноября 2020 г.|[Создание будущего: что нового в МРТК](https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Building-the-Future-Whats-New-in-the-Mixed-Reality-Toolkit)|
 | Серия докладов по смешанной реальности|1 декабря 2020 г.|[Проектирование голограмм](https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Making-of-Designing-Holograms)|

@@ -6,12 +6,12 @@ ms.author: adlinv
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Windows Mixed Reality, Реклама на щитах, пометка, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: 92caa1bcd325cefecc6d3820b819cecfce6fc09c
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: f0a5c4fc66e287c04fe8fa42c0c671e895a26169
+ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009617"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101759410"
 ---
 # <a name="billboarding-and-tag-along"></a>Биллбординг и закрепление элемента в пространстве
 
@@ -49,7 +49,7 @@ Tag — это понятие поведения, которое можно до
 ## <a name="billboarding-and-tag-along-in-mrtk-mixed-reality-toolkit-for-unity"></a>Реклама и теги — вместе с МРТК (набор средств для смешанной реальности) для Unity
 **[Мртк](https://github.com/Microsoft/MixedRealityToolkit-Unity)** предоставляет скрипты для поведения на основе объявлений и тегов. Назначьте скрипт Billboard.cs любому объекту, чтобы добавить поведение при объявлении, и сделайте объект всегда лицом к вам. Чтобы добавить поведение тегов, используйте сценарий RadialView.cs. Можно настроить различные параметры, например время лерпинг, расстояние и степень.
 
-* [МРТК-радиальный просмотр решения](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_Solver.html#radialview)
+* [МРТК-радиальный просмотр решения](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/ux-building-blocks/solvers/solver.md#radialview)
 * [МРТК-сценарий для рекламы](https://github.com/microsoft/MixedRealityToolkit-Unity/blob/mrtk_release/Assets/MixedRealityToolkit.SDK/Features/UX/Scripts/Utilities/Billboard.cs)
 
 

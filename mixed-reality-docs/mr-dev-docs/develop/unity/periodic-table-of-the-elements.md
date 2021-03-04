@@ -6,12 +6,12 @@ ms.author: dongpark
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Windows Mixed Reality, проектирование, пример приложения, элементы управления, МРТК, набор средств для смешанной реальности, Unity, примеры приложений, примеры приложений, Открытый исходный код, Microsoft Store, HoloLens, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: fd525b0d41efa15ff55097456fb6b06dd3d60c25
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 19307b310d104f418e4f7739b0576c63407d83fd
+ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009364"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101759740"
 ---
 # <a name="periodic-table-of-the-elements"></a>Периодическая таблица элементов
 
@@ -55,13 +55,13 @@ ms.locfileid: "98009364"
 
 ### <a name="interactable-object-button"></a>Взаимодействующий объект (кнопка)
 
-[Взаимодействующий объект](../../design/interactable-object.md) — это объект, который может отвечать на базовые входные данные HoloLens. Он предоставляется в виде prefab или сценария, который можно легко применить к любому объекту. Например, можно сделать чашку кофе в сцене интерактивной и реагировать на такие входные данные, как взгляд, касание, Навигация и жесты манипуляции. [Подробнее](../../design/interactable-object.md)
+[Взаимодействующий объект](../../design/interactable-object.md) — это объект, который может отвечать на базовые входные данные HoloLens. Он предоставляется в виде prefab или сценария, который можно легко применить к любому объекту. Например, можно сделать чашку кофе в сцене интерактивной и реагировать на такие входные данные, как взгляд, касание, Навигация и жесты манипуляции. [Дополнительные сведения](../../design/interactable-object.md)
 
 ![Объект нтерактабле](images/640px-periodictable-interactableobject.jpg)
 
 ### <a name="object-collection"></a>Коллекция объектов
 
-[Коллекция объектов](../../design/object-collection.md) — это объект, который помогает размещать несколько объектов в различных фигурах. Он поддерживает плоскость, цилиндр, сферу и точечную диаграмму. Можно настроить дополнительные свойства, такие как радиус, число строк и расстояния. [Подробнее](../../design/object-collection.md)
+[Коллекция объектов](../../design/object-collection.md) — это объект, который помогает размещать несколько объектов в различных фигурах. Он поддерживает плоскость, цилиндр, сферу и точечную диаграмму. Можно настроить дополнительные свойства, такие как радиус, число строк и расстояния. [Дополнительные сведения](../../design/object-collection.md)
 
 ![Коллекция объектов](images/640px-periodictable-collections.jpg)
 
@@ -89,7 +89,7 @@ ms.locfileid: "98009364"
 
 ## <a name="see-also"></a>См. также раздел
 
-* [MRTK Examples Hub](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_ExampleHub.html) - [(скачайте из Microsoft Store в HoloLens 2)](https://www.microsoft.com/en-us/p/mrtk-examples-hub/9mv8c39l2sj4)
+* [MRTK Examples Hub](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/example-scenes/example-hub.md) - [(скачайте из Microsoft Store в HoloLens 2)](https://www.microsoft.com/en-us/p/mrtk-examples-hub/9mv8c39l2sj4)
 * [Surfaces](sampleapp-surfaces.md) - [(скачайте из Microsoft Store в HoloLens 2)](https://www.microsoft.com/en-us/p/surfaces/9nvkpv3sk3x0)
 * [Periodic Table of the Elements 2.0](https://medium.com/@dongyoonpark/bringing-the-periodic-table-of-the-elements-app-to-hololens-2-with-mrtk-v2-a6e3d8362158)
 * [Galaxy Explorer 2.0](galaxy-explorer-update.md)

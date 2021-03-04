@@ -6,12 +6,12 @@ ms.author: dongpark
 ms.date: 11/01/2019
 ms.topic: article
 keywords: Смешанная реальность, элементы управления, взаимодействие, Пользовательский интерфейс, UX, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, клавиатура, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: 8efb5446479e53569349eda302c7d4dcb844a137
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 9f42940b689a8fef77c9cf2f269100fccccfe6e0
+ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009734"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101759860"
 ---
 # <a name="keyboard"></a>Keyboard (Клавиатура)
 
@@ -25,7 +25,7 @@ ms.locfileid: "98009734"
 
 ## <a name="system-keyboard-in-mrtk-mixed-reality-toolkit-for-unity"></a>Системная клавиатура в МРТК (набор средств для смешанной реальности) для Unity
 
-* [МРТК-системная клавиатура](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_SystemKeyboard.html)
+* [МРТК-системная клавиатура](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/ux-building-blocks/system-keyboard.md)
 
 <br>
 

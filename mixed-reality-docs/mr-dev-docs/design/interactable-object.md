@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 06/06/2019
 ms.topic: article
 keywords: Смешанная реальность, элементы управления, взаимодействие, подсказки, Пользовательский интерфейс, UX, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств для смешанной реальности, аудио
-ms.openlocfilehash: d0dc8ce6425d597d04b47a6c8b08f72534488594
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: b93092b597d0267c1169cf823b1a5c1fa03c3c3f
+ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98007204"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101759880"
 ---
 # <a name="interactable-object"></a>Активный объект
 
@@ -41,19 +41,19 @@ ms.locfileid: "98007204"
 
 :::row:::
     :::column:::
-       ![интерактиблеобжект — состояния — по умолчанию](images/interactibleobject-states-default.jpg)<br>
+       ![Взаимодействующий объект с состоянием по умолчанию](images/interactibleobject-states-default.jpg)<br>
        **Состояние по умолчанию (наблюдение)**<br>
         Состояние простоя объекта по умолчанию.
     Курсор не находится на объекте. Рука не обнаружена.
     :::column-end:::
     :::column:::
-       ![интерактиблеобжект — целевое состояние](images/interactibleobject-states-targeted.jpg)<br>
+       ![Взаимодействующий объект с целевым объектом и состоянием наведения](images/interactibleobject-states-targeted.jpg)<br>
         **Целевое состояние (наведение указателя)**<br>
         Когда объект ориентирован на курсор «взгляд», указатель мыши на палец или контроллер движения.
     Курсор находится на объекте. Обнаружена, готова.
     :::column-end:::
     :::column:::
-       ![интерактиблеобжект-с нажатием состояния](images/interactibleobject-states-pressed.jpg)<br>
+       ![Взаимодействующий объект с состоянием нажатия](images/interactibleobject-states-pressed.jpg)<br>
        **Нажатое состояние**<br>
         Когда объект нажимается с помощью жеста касания, нажмите кнопку "выбрать" для сенсорного экрана.
     Курсор находится на объекте. Обнаружена рука, касание воздуха.
@@ -70,15 +70,15 @@ ms.locfileid: "98007204"
 
 :::row:::
     :::column:::
-       ![интерактиблеобжект — состояния — по умолчанию](images/MRTK_InteractableState-default.jpg)<br>
+       ![Кнопка "holographic" в состоянии по умолчанию](images/MRTK_InteractableState-default.jpg)<br>
        **Состояние по умолчанию (наблюдение)**<br>
     :::column-end:::
     :::column:::
-       ![интерактиблеобжект — целевое состояние](images/MRTK_InteractableState-targeted.jpg)<br>
+       ![Более Holographic. Кнопка в целевом состоянии и состояние наведения](images/MRTK_InteractableState-targeted.jpg)<br>
         **Целевое состояние (наведение указателя)**<br>
     :::column-end:::
     :::column:::
-       ![интерактиблеобжект-с нажатием состояния](images/MRTK_InteractableState-pressed.jpg)<br>
+       ![Кнопка holographic в состоянии нажатия](images/MRTK_InteractableState-pressed.jpg)<br>
        **Нажатое состояние**<br>
     :::column-end:::
 :::row-end:::
@@ -264,12 +264,12 @@ HoloLens 2 поддерживает вводные данные отслежив
 
 В **[мртк](https://github.com/Microsoft/MixedRealityToolkit-Unity)** можно использовать [**взаимодействие**](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/mrtk_release/Assets/MixedRealityToolkit.SDK/Features/UX/Interactable/Scripts) с скриптом, чтобы объекты отвечали на различные типы состояний взаимодействия. Он поддерживает различные типы тем, которые позволяют определять визуальные состояния, управляя свойствами объектов, такими как цвет, размер, материал и шейдер.
 
-* [Элементом](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_Interactable.html)
-* [Button](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_Button.html)
+* [Элементом](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/ux-building-blocks/interactable.md)
+* [Button](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/ux-building-blocks/button.md)
 * [Сцены с примерами взаимодействия руки](https://github.com/microsoft/MixedRealityToolkit-Unity/blob/mrtk_release/Documentation/README_HandInteractionExamples.md)
 
 Стандартный шейдер Микседреалититулкит предоставляет различные параметры, такие как **освещение** , позволяющее создавать визуальные и звуковые подсказки.
-* [Стандартный шейдер МРТК](https://github.com/microsoft/MixedRealityToolkit-Unity/blob/mrtk_development/Documentation/README_MRTKStandardShader.md)
+* [Стандартный шейдер МРТК](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/rendering/mrtk-standard-shader.md)
 
 
 <br>

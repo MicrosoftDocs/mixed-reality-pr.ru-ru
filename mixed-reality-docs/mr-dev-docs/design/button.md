@@ -6,12 +6,12 @@ ms.author: dongpark
 ms.date: 11/01/2019
 ms.topic: article
 keywords: Смешанная реальность, элементы управления, взаимодействие, Пользовательский интерфейс, UX, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности, кнопка
-ms.openlocfilehash: b4e8388c4e3ea855c191cbdfc06621018274ff86
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: 9e4d0637d8c10c3cd23bd2ee1369fd57137af795
+ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97847589"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101759430"
 ---
 # <a name="button"></a>Button
 
@@ -46,13 +46,13 @@ ms.locfileid: "97847589"
 ---
 
 ## <a name="button-in-mrtkmixed-reality-toolkit-for-unity"></a>Кнопка в МРТК (набор средств для смешанной реальности) для Unity
-**[Мртк](https://github.com/Microsoft/MixedRealityToolkit-Unity)** предоставляет различные типы кнопок Prefabs, включая кнопки в стиле оболочки для hololens 2 и hololens (1-й общий). Кнопка HoloLens 2 prefab содержит несколько подробных аффорданцес, помогающих повысить уверенность пользователей:
+**[Мртк для Unity](https://github.com/Microsoft/MixedRealityToolkit-Unity)** предоставляет различные типы кнопок Prefabs, включая кнопки в стиле оболочки для hololens 2 и hololens (1-й общий). Кнопка HoloLens 2 prefab содержит несколько подробных аффорданцес, помогающих повысить уверенность пользователей:
 
 * Выделение на основе близости
 * Сжатие передней части корпуса
 * Импульсный результат для триггера.
 
-* Чтобы получить дополнительные инструкции и настраиваемые примеры, ознакомьтесь с [мртк-кнопкой](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_Button.html) .
+* Чтобы получить дополнительные инструкции и настраиваемые примеры, ознакомьтесь с [мртк-кнопкой](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/ux-building-blocks/button.md) .
 
 <br>
 

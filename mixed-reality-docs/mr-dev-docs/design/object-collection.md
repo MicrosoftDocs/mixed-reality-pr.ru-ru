@@ -6,12 +6,12 @@ ms.author: dongpark
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Windows Mixed Reality, элементы управления, проектирование, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, коллекция объектов, 2D, 3D, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: a459d03246b8df4c17d523f57ece54997849c209
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: 53ec99b998f1c65fdd3ca8b5d935b43ff0070500
+ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97847213"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101759155"
 ---
 # <a name="object-collection"></a>Коллекция объектов
 
@@ -48,7 +48,7 @@ ms.locfileid: "97847213"
 
 ## <a name="object-collection-in-mrtk-mixed-reality-toolkit-for-unity"></a>Коллекция объектов в МРТК (набор средств для смешанной реальности) для Unity
 
-* [МРТК — коллекция объектов](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_ObjectCollection.html)
+* [МРТК — коллекция объектов](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/ux-building-blocks/object-collection.md)
 
 <br>
 

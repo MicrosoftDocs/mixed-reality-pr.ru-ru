@@ -6,12 +6,12 @@ ms.author: mazeller
 ms.date: 03/21/2018
 ms.topic: article
 keywords: 2D-приложение, UWP, неструктурированное приложение, HoloLens, закрепляемая гарнитура, модель приложения, кнопка "назад", панель приложений, dpi, разрешение, масштабирование, перенос, 1-еовый Gen, HoloLens 2, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, миграция, Windows 10
-ms.openlocfilehash: 2d6b03a8cca70ac2db810209263139ebdf3c22a7
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: 6e8e000f694b40f637c932ee9764415ec3a57698
+ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98583531"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101759800"
 ---
 # <a name="updating-2d-uwp-apps-for-windows-mixed-reality"></a>Обновление приложений UWP, работающих в двухмерном режиме, для Windows Mixed Reality
 
@@ -87,7 +87,7 @@ Windows Mixed Reality позволяет пользователям видеть
 
   ![Эмулятор HoloLens загружен с образцом UWP](images/hololensemulatorwithuwpsample-800px.png)<br>
 
-### <a name="next-steps"></a>Следующие шаги
+### <a name="next-steps"></a>Дальнейшие действия
 
 На этом этапе может произойти одно из двух действий:
 1. Приложение покажет свою заставку и начнет работать после его размещения в эмуляторе. Замечательно!

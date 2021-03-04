@@ -6,12 +6,12 @@ ms.author: glee
 ms.date: 09/25/2019
 ms.topic: article
 keywords: Windows Mixed Reality, проектирование, рука, увлекательная гарнитура, МРТК, руки, помощь в руки, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: 69afe767e01c57535b79575e4f25fabe4a9f6f39
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: ca23617e18c84f592ebd0575195b6bf4a98e80e5
+ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98582274"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101759480"
 ---
 # <a name="hand-coach"></a>Обучающая рука
 
@@ -169,7 +169,7 @@ ms.locfileid: "98582274"
 * Руки следует научиться только один раз. Чрезмерное обучение может привести к путанице и неправильной работе
 *   Загрузив его в Unity, скачайте последнюю версию МРТК здесь: https://github.com/microsoft/MixedRealityToolkit-Unity
     *   Материал: Teaching_Hand2
-    *   Сценарии. см. рекомендации по МРТК для <a href= "https://github.com/MixedRealityToolkit-Unity/blob/'HandCoachUX'/Documentation/README_HandCoach.md"> мртк </a>
+    *   Сценарии. см. рекомендации по МРТК для <a href= "https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/experimental/hand-coach.md"> мртк </a>
     *   Параметр для каждого проекта
         *   Для сцены задано значение UWP: инструкции см. в [проекте настройки Unity](../develop/unity/Configure-Unity-Project.md) для Windows Mixed Reality.
 

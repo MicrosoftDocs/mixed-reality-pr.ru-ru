@@ -6,12 +6,12 @@ ms.author: hakons
 ms.date: 10/03/2019
 ms.topic: article
 keywords: ГГВ, Voice, Кортана, речь, вход, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности, взгляд
-ms.openlocfilehash: 079a3d457da9403611d2f825dd6e599a4e9f0353
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: cc1ecd7d236748c3c4de77678e6f67c69a2c1af1
+ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98583228"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101759145"
 ---
 # <a name="voice-input"></a>Голосовой ввод
 
@@ -42,7 +42,7 @@ ms.locfileid: "98583228"
     <col width="25%" />
     </colgroup>
     <tr>
-        <td><strong>Возможность</strong></td>
+        <td><strong>Компонент</strong></td>
         <td><a href="/hololens/hololens1-hardware"><strong>HoloLens (1-го поколения)</strong></a></td>
         <td><a href="https://docs.microsoft.com/hololens/hololens2-hardware"><strong>HoloLens 2</strong></td>
         <td><a href="../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
@@ -290,7 +290,7 @@ HoloLens 2 [поддерживает несколько языков](/hololens/
 ## <a name="voice-input-in-mrtk-mixed-reality-toolkit-for-unity"></a>Ввод голоса в МРТК (набор средств для смешанной реальности) для Unity
 С помощью **[мртк](https://github.com/Microsoft/MixedRealityToolkit-Unity)** можно легко назначить голосовые команды для любых объектов. Используйте **профиль ввода речи** мртк для определения ключевых слов. Назначая сценарий **спичинпусандлер** , можно сделать так, чтобы любой объект отвечал на ключевые слова, определенные в профиле речевого ввода. Спичинпусандлер также предоставляет метку подтверждения речи для улучшения достоверности пользователя.
 
-* [Команда МРТК-Voice](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Input/Speech.html)
+* [Команда МРТК-Voice](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/input/speech.md)
 
 ---
 

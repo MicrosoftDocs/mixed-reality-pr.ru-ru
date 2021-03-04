@@ -6,12 +6,12 @@ ms.author: dongpark
 ms.date: 06/19/2020
 ms.topic: article
 keywords: Смешанная реальность, HoloLens, элементы управления ИП, взаимодействие, Пользовательский интерфейс, UX, проектирование UX, пространственный пользовательский интерфейс, пространственное взаимодействие, трехмерный Пользовательский интерфейс, трехмерный UI, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: 0f9cdc218c6fe54b8892c39a6a76f023e203d334
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 5e8ffbb90b1143cd4e11bf45a889c11c233232df
+ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009924"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101759810"
 ---
 # <a name="spatial-mesh"></a>Виртуальная сетка
 
@@ -35,7 +35,7 @@ ms.locfileid: "98009924"
 - **MRTK_SurfaceReconstruction.** материально. этот материал предоставляет анимированный импульсный результат для пространственной сетки. Этот материал можно использовать для визуализации среды на заданный момент времени или на входе пользователя в Air. Примеры см. в сцене **пулсешадерексамплес. Unity** .
 <br>
 <img src="images/MRTK_SRMesh_Pulse.jpg" alt="Pulse spatial mesh visualization" width="640px">
-* Дополнительные сведения см. в разделе [мртк-пространственное осведомленность](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/SpatialAwareness/SpatialAwarenessGettingStarted.html) и [Мртк-Pulse Shader](https://microsoft.github.io/MixedRealityToolkit-Unity/Assets/MRTK/SDK/Experimental/PulseShader/README.html).
+* Дополнительные сведения см. в разделе [мртк-пространственное осведомленность](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/spatial-awareness/spatial-awareness-getting-started.md) и [Мртк-Pulse Shader](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/experimental/pulse-shader.md).
 
 <br>
 

@@ -7,12 +7,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, устранение неполадок, ошибки, Справка, поддержка, производительность
 appliesto:
 - Windows 10
-ms.openlocfilehash: 60854785d526c7abff6327ddbb8d39d4eef23ae4
-ms.sourcegitcommit: c904d47ab2ce03d433d5eff394ec4078f404a0f7
+ms.openlocfilehash: 9b477042ebed33600a007778cd534d3074e34770
+ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "98242543"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101759289"
 ---
 # <a name="hp-reverb-g2-frequently-asked-questions"></a>Часто задаваемые вопросы о команде HP
 
@@ -102,3 +102,8 @@ HP рекомендует:
 ## <a name="how-can-i-power-down-the-headset-while-still-using-my-pc"></a>Как выключить гарнитуру, не применяя мой компьютер
 
 Отключите адаптер подключения AC от поля связи на шлейфе гарнитуры, чтобы удалить питание гарнитуры.
+
+## <a name="the-image-of-the-displays-of-the-reverb-g2-is-smaller-and-only-in-the-upper-left"></a>Изображение для отображения переглагола G2 меньше и доступно только в верхнем левом углу.
+
+При наличии графического процессора AMD необходимо отключить автоматическое масштабирование. Когда головная гарнитура подключена, перейдите в раздел Параметры-> Смешанная реальность, > разрешение > гарнитуры.
+В раскрывающемся меню выберите пункт "4320 x 2160 (наилучшее качество)". Если выбран параметр "автоматическое масштабирование (наилучшая производительность)", может возникнуть ошибка, связанная с отображением.

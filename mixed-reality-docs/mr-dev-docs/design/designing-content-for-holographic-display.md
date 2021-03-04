@@ -6,12 +6,12 @@ ms.author: dongpark
 ms.date: 06/18/2020
 ms.topic: article
 keywords: Проектирование пользовательского интерфейса, holographic, проектирование содержимого, темная тема, светлая тема, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств для смешанной реальности, дизайн, пикселы
-ms.openlocfilehash: 371d9aac610a765e7ecc6dd1f17401e5d7855672
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 6bf65b9e40e42f1609b1108b366ac65637fcf106
+ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009094"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101759279"
 ---
 # <a name="designing-content-for-holographic-display"></a>Проектирование содержимого для голографического дисплея
 
@@ -85,7 +85,7 @@ HoloLens позволяет отображать привлекательный 
 
 По умолчанию прозрачные или полупрозрачные объекты не записывают глубину, чтобы обеспечить правильное смешение. Способы устранения этой проблемы: использование непрозрачных объектов, обеспечение того, что прозрачные объекты появляются близко к непрозрачным объектам (например, полупрозрачную кнопку перед непрозрачной заменой), заставляя прозрачные объекты для записи глубины (неприменимы во всех сценариях) или выводят объекты прокси-сервера, которые вносят в конец фрейма только значения глубины.
 
-Решения в МРТК — Unity: https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/hologram-stabilization.html#depth-buffer-sharing-in-unity  
+Решения в МРТК — Unity: https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/performance/hologram-stabilization.md#depth-buffer-sharing-in-unity  
 
 Используя сплошную и непрозрачную форму, можно защититься от четкости и уверенности в взаимодействии.
 
@@ -103,9 +103,9 @@ HoloLens позволяет отображать привлекательный 
 
 **[Мртк](https://github.com/Microsoft/MixedRealityToolkit-Unity)** предоставляет множество примеров стандартных блоков пользовательского интерфейса на основе темных цветовых схем.
 
-* [Ближайшее меню](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_NearMenu.html)
-* [Диалоговое окно](https://microsoft.github.io/MixedRealityToolkit-Unity/Assets/MRTK/SDK/Experimental/Dialog/README_Dialog.html)
-* [Меню руки](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_HandMenu.html)
+* [Ближайшее меню](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/ux-building-blocks/near-menu.md)
+* [Диалоговое окно](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/experimental/dialog.md)
+* [Меню руки](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/ux-building-blocks/hand-menu.md)
 
 <br>
 

@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 12/9/2020
 ms.topic: article
 keywords: Перенос, Unity, по промежуточного слоя, ядро, UWP, Win32
-ms.openlocfilehash: 268d98b45aa659614e0266bfd1add7c7ed2f684a
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: 693891d67ae26098f0810a539059da8d34f4731c
+ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98583588"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101759115"
 ---
 # <a name="porting-overview"></a>Общие сведения о переносе
 
@@ -35,7 +35,7 @@ ms.locfileid: "98583588"
 > [!CAUTION]
 > Хотя пакет SDK для XR доступен в этой версии Unity, пространственные привязки Azure в настоящее время не совместимы с этой программой установки. Эта рекомендация будет обновлена в будущем выпуске пакета пространственных привязок Azure для Unity. 
 > 
-> * Если вы не хотите получать пространственные привязки Azure, вы можете [настроить проект Unity для XR](https://docs.unity3d.com/Manual/configuring-project-for-xr.html) и приступить [к работе с МРТК и XR SDK](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/GettingStartedWithMRTKAndXRSDK.html).
+> * Если вы не хотите получать пространственные привязки Azure, вы можете [настроить проект Unity для XR](https://docs.unity3d.com/Manual/configuring-project-for-xr.html) и приступить [к работе с МРТК и XR SDK](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/configuration/getting-started-with-mrtk-and-xrsdk.md).
 > 
 > * Если вы используете в проекте пакет SDK для XR и хотите использовать пространственные привязки Azure, удалите пакет SDK для XR и переустановите устаревший пакет XR, чтобы отменить параметры проекта.
 
