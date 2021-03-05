@@ -1,0 +1,40 @@
+- name: Панель приложения
+  href: app-bar.md
+- name: Ограничивающий прямоугольник
+  href: bounding-box.md
+- name: Элемент управления границами
+  href: bounds-control.md
+- name: Кнопка
+  href: button.md
+- name: Диспетчер ограничений
+  href: constraint-manager.md
+- name: Визуализация с использованием кончика пальца
+  href: fingertip-visualization.md
+- name: Меню руки
+  href: hand-menu.md
+- name: Интерактивный объект
+  href: interactable.md
+- name: ManipulationHandler
+  href: manipulation-handler.md
+- name: Быстрое меню
+  href: near-menu.md
+- name: Коллекция объектов
+  href: object-collection.md
+- name: ObjectManipulator
+  href: object-manipulator.md
+- name: Индикатор хода выполнения
+  href: progress-indicator.md
+- name: Прокрутка коллекции объектов
+  href: scrolling-object-collection.md
+- name: Планшет
+  href: slate.md
+- name: Ползунки
+  href: sliders.md
+- name: Системная клавиатура
+  href: system-keyboard.md
+- name: Панель элементов
+  href: toolbox.md
+- name: Подсказка
+  href: tooltip.md
+- name: Решатели
+  href: solvers/toc.yml

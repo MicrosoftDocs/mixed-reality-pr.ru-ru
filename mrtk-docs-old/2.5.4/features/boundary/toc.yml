@@ -1,0 +1,4 @@
+- name: Начало работы с системой границ
+  href: boundary-system-getting-started.md
+- name: Настройка визуализации границ
+  href: configuring-boundary-visualization.md

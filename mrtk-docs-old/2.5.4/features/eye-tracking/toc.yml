@@ -1,0 +1,18 @@
+- name: "Отслеживание взгляда\_— базовая настройка"
+  href: eye-tracking-basic-setup.md
+- name: Обзор примеров отслеживания взгляда
+  href: eye-tracking-examples-overview.md
+- name: "Отслеживание взгляда\_— поставщик данных о направлении взгляда"
+  href: eye-tracking-eye-gaze-provider.md
+- name: "Отслеживание взгляда\_— глаза и руки"
+  href: eye-tracking-eyes-and-hands.md
+- name: "Отслеживание взгляда\_— калибровка пользователя"
+  href: eye-tracking-is-user-calibrated.md
+- name: "Отслеживание взгляда\_— основное"
+  href: eye-tracking-main.md
+- name: "Отслеживание взгляда\_— навигация"
+  href: eye-tracking-navigation.md
+- name: "Отслеживание взгляда\_— позиционирование"
+  href: eye-tracking-positioning.md
+- name: "Отслеживание взгляда\_— выбор целевого объекта"
+  href: eye-tracking-target-selection.md

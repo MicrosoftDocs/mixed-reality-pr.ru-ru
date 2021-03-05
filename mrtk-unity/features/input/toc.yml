@@ -1,0 +1,30 @@
+- name: Контроллеры
+  href: controllers.md
+- name: Создание поставщика данных
+  href: create-data-provider.md
+- name: Диктовка
+  href: dictation.md
+- name: Взгляд
+  href: gaze.md
+- name: Жесты
+  href: gestures.md
+- name: Отслеживание рук
+  href: hand-tracking.md
+- name: Как добавить ближайшее интерактивное взаимодействие
+  href: how-to-add-near-interactivity.md
+- name: Действия ввода
+  href: input-actions.md
+- name: Входные события
+  href: input-events.md
+- name: Поставщики ввода
+  href: input-providers.md
+- name: Состояние ввода
+  href: input-state.md
+- name: Обзор
+  href: overview.md
+- name: Указатели
+  href: pointers.md
+- name: Речь
+  href: speech.md
+- name: Отслеживание взгляда
+  href: eye-tracking/toc.yml

@@ -1,0 +1,6 @@
+- name: Стабилизация голограмм
+  href: hologram-stabilization.md
+- name: Крупные проекты
+  href: large-projects.md
+- name: Начало работы с производительностью
+  href: perf-getting-started.md
