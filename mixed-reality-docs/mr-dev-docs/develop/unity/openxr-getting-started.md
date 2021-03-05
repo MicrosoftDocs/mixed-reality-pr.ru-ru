@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 01/11/2021
 ms.topic: article
 keywords: опенкср, Unity, hololens, hololens 2, Mixed Reality, МРТК, набор средств для смешанной реальности, дополненная реальность, виртуальная реальность, гарнитуры смешанной реальности, обучение, учебник, начало работы
-ms.openlocfilehash: a4606eeb1fa6c8dc0858653a196c1e536ae473d4
-ms.sourcegitcommit: e2228b9585302eeff1d853ddb54be8421a21c954
+ms.openlocfilehash: 9b95a0978522fb9fefaca3c4b96189131b88d0ec
+ms.sourcegitcommit: 4647712788a91a2b26d4b01e62285c2942bb0bd2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/05/2021
-ms.locfileid: "102189126"
+ms.locfileid: "102230869"
 ---
 # <a name="using-the-mixed-reality-openxr-plugin-for-unity"></a>Использование подключаемого модуля Опенкср в смешанной реальности для Unity
 
@@ -20,7 +20,7 @@ ms.locfileid: "102189126"
 ## <a name="prerequisites"></a>Предварительные требования
 
 * Unity 2020,2 или более поздней версии
-* Подключаемый модуль Unity Опенкср 0.1.3 или более поздней версии
+* Подключаемый модуль Unity Опенкср 0.1.4 или более поздней версии
 * Visual Studio 2019 или более поздней версии
 * Установка поддержки платформы **UWP** в Unity для приложений HoloLens 2
 

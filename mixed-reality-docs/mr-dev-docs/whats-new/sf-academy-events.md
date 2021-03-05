@@ -6,12 +6,12 @@ ms.author: daescu
 ms.date: 10/12/2020
 ms.topic: article
 keywords: событие, календарь, Academy, расписание, SF, Сан Франциско, реактора
-ms.openlocfilehash: 2e7cb5d06cb0903e3dc3f850f452ded6597cd929
-ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
+ms.openlocfilehash: f534a170594eb26e0d7f56e8694b9112cb0acbac
+ms.sourcegitcommit: 4647712788a91a2b26d4b01e62285c2942bb0bd2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101760060"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102230885"
 ---
 # <a name="microsoft-mixed-reality-events"></a>События Microsoft Mixed Reality
 
@@ -30,5 +30,7 @@ ms.locfileid: "101760060"
 | HoloLens & Mixed Reality Meetup|8 сентября 2020 г.|[Человеческие восприятие и смешанная реальность](https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Human-Perception-and-Mixed-Reality)|
 | Серия докладов по смешанной реальности|22 сентября 2020 г.|[Escape-Киппи: введение в нереальном & МРТК для HoloLens 2](../develop/unreal/unreal-kippys-escape.md)|
 | Серия докладов по смешанной реальности|22 октября 2020 г.|[Введение в Вебкср с Бабилонжс](https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Adding-Augmented-Reality-to-your-Typescript-Project)|
+| Серия докладов по смешанной реальности|3 ноября 2020 г.|[Визуальные эффекты в смешанной реальности](https://channel9.msdn.com/Shows/Mixed-Reality/Visual-Effects-in-Mixed-Reality)|
 | Серия докладов по смешанной реальности|17 ноября 2020 г.|[Создание будущего: что нового в МРТК](https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Building-the-Future-Whats-New-in-the-Mixed-Reality-Toolkit)|
 | Серия докладов по смешанной реальности|1 декабря 2020 г.|[Проектирование голограмм](https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Making-of-Designing-Holograms)|
+| Серия докладов по смешанной реальности|11 февраля, 2021|[Один день в г. принцип работы пространственных вычислений каждый день](https://channel9.msdn.com/Shows/Mixed-Reality/One-Day-In-MR-How-Spatial-Computing-Effects-Every-Day-Life)|

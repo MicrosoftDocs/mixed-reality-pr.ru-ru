@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 01/11/2021
 ms.topic: article
 keywords: опенкср, Unity, hololens, hololens 2, Mixed Reality, МРТК, набор средств для смешанной реальности, дополненная реальность, виртуальная реальность, гарнитуры смешанной реальности, обучение, учебник, начало работы
-ms.openlocfilehash: bad18c5f30465120bce370aa91c13ff3f229bef6
-ms.sourcegitcommit: 029f247a6c33068360d3a06f2a473a12586017e1
+ms.openlocfilehash: 0501abe5a417c17283347455ccea8ec6f49a6a45
+ms.sourcegitcommit: 4647712788a91a2b26d4b01e62285c2942bb0bd2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "100496156"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102230745"
 ---
 # <a name="mixed-reality-openxr-supported-features-in-unity"></a>Функции, поддерживаемые Опенкср Mixed Reality в Unity
 
@@ -34,6 +34,7 @@ ms.locfileid: "100496156"
 * Совместимо с МРТК Unity 2.5.3 и более поздней версии через [поддержку поставщика Мртк опенкср](openxr-getting-started.md#using-mrtk-with-openxr-support).
 * Совместимо с Unity [арфаундатион 4,0](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.1/manual/index.html) или более поздней версии.
 * (Добавлено в 0.1.3) Поддерживает [настольное приложение holographic удаленное взаимодействие](#holographic-remoting-in-desktop-app) из созданного и развернутого автономного приложения Windows.
+* (Добавлено в 0.1.4) Поддержка [отслеживания QR-кода](#qr-codes) в HoloLens2 через спатиалграфноде
 
 ## <a name="holographic-remoting-setup"></a>Настройка удаленного взаимодействия с holographic
 
@@ -205,13 +206,19 @@ public static readonly InputFeatureUsage<Vector3> PointerPosition = new InputFea
 
 Сведения об использовании хаптикс в системе ввода XR в Unity можно найти в [руководстве по Unity для Unity XR input-хаптикс](https://docs.unity3d.com/2020.2/Documentation/Manual/xr_input.html#Haptics).
 
+## <a name="qr-codes"></a>QR-коды
+
+HoloLens 2 может обнаруживать QR-коды в среде вокруг гарнитуры, определяя систему координат в реальном расположении каждого кода. Дополнительные сведения можно найти в документации по [отслеживанию QR-кода](../platform-capabilities-and-apis/qr-code-tracking.md) .  При использовании подключаемого модуля Опенкср Извлеките [ `SpatialGraphNodeId` из QR-интерфейса API](../platform-capabilities-and-apis/qr-code-tracking.md#qr-api-reference) и используйте `Microsoft.MixedReality.OpenXR.SpatialGraphNode` API для нахождение QR-кода.
+
+Для справки у нас есть [Пример проекта отслеживания QR](https://github.com/yl-msft/QRTracking) -кодов на сайте GitHub с более подробным описанием использования [ `SpatialGraphNode` API](https://github.com/yl-msft/QRTracking/blob/main/SampleQRCodes/Assets/Scripts/SpatialGraphNodeTracker.cs).
+
 ## <a name="whats-coming-soon"></a>Что ожидается в ближайшее время
 
 Следующие проблемы и отсутствующие функции известны с помощью Опенкср подключаемого модуля Mixed Reality **версии 0.1.0**. Мы работаем над этим и выпустили исправления и новые функции в будущих выпусках.
 
 * **Арпланесубсистем** еще не поддерживается. **Арпланеманажер**, **АРРАЙКАСТМАНАЖЕР** и связанный API, такие как **аранчорманажер. аттачанчор** , также не поддерживаются в HoloLens 2.
-* **Привязка** еще не поддерживается с помощью удаленного взаимодействия holographic, но в ближайшем будущем.
-* Отслеживание **сетки вручную** , **QR-коды** и **ксрмешсубсистем** пока не поддерживаются.
+* **Сохраняемость привязки** пока не поддерживается с помощью удаленного взаимодействия holographic, но в ближайшем будущем.
+* Отслеживание **сетки руки** и **ксрмешсубсистем** пока не поддерживаются.
 * Поддержка **пространственных привязок Azure** появилась в следующем выпуске.
 * **ARM64** — единственная поддерживаемая платформа для приложений HoloLens 2. Платформа **ARM** поступает в будущем выпуске.
 
