@@ -1,0 +1,12 @@
+- name: Диалог
+  href: dialog.md
+- name: Dock
+  href: dock.md
+- name: Обучающая рука
+  href: hand-coach.md
+- name: Служба физического взаимодействия с помощью рук
+  href: hand-physics-service.md
+- name: Клавиатура смешанной реальности
+  href: mixed-reality-keyboard.md
+- name: Шейдер импульсов
+  href: pulse-shader.md
