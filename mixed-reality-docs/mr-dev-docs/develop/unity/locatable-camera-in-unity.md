@@ -6,12 +6,12 @@ ms.author: wguyman
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Фото, видео, hololens, Камера, Unity, размещаемые, PVC, видеокамера, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, веб-камера, запись фотографий, видеозапись
-ms.openlocfilehash: 8916b332774185e4453b514ca7b6916947bdcd81
-ms.sourcegitcommit: be7473bbebc1872d8c9df6f2da837efd3279dee6
+ms.openlocfilehash: ccf0c17a5f419341e64a87fb9ef04ef0a40c2a33
+ms.sourcegitcommit: ad1e0c6a31f938a93daa2735cece24d676384f3f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "98226423"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102236905"
 ---
 # <a name="locatable-camera-in-unity"></a>Камера с определяемым местоположением в Unity
 
@@ -26,7 +26,8 @@ ms.locfileid: "98226423"
 
 ## <a name="photo-capture"></a>Запись фотографий
 
-**Пространство имен:** *UnityEngine. XR. WSA. веб-камера*<br>
+**Пространство имен:**  
+*UnityEngine. XR. WSA. веб-камера (Unity \~ 2018) UnityEngine. Windows. камере (unity 2019 \~ )*<br>
 **Тип:** *фотозапись*
 
 Тип *фотосъемки* позволяет вам по-прежнему иметь фотографии фотокамеры. Общий шаблон использования *фотосъемки* для получения фотографий выглядит следующим образом:

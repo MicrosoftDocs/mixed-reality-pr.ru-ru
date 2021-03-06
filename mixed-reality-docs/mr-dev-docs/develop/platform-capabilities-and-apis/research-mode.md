@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 07/31/2020
 ms.topic: article
 keywords: Режим исследований, ОПС, RS4, компьютерное зрение, исследование, HoloLens, HoloLens 2
-ms.openlocfilehash: c8e626969f87eda8b686ba759a167a2bf48e3277
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: 6737f9b668b73258e65f8d00e85dcd19c28ddfb5
+ms.sourcegitcommit: ad1e0c6a31f938a93daa2735cece24d676384f3f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98583132"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102237135"
 ---
 # <a name="hololens-research-mode"></a>Режим исследования в HoloLens
 
@@ -104,7 +104,7 @@ ms.locfileid: "98583132"
 *Окно режима исследований на портале устройств HoloLens*
 
 > [!IMPORTANT]
-> Режим исследования для HoloLens 2 доступен начиная с сборки 19041,1356. Если вам нужен доступ в более ранней сборке, зарегистрируйтесь для получения [предварительной версии программы предварительной оценки](/hololens/hololens-insider) .
+> Режим исследования для HoloLens 2 доступен начиная с сборки 19041,1364. Если вам нужен доступ в более ранней сборке, зарегистрируйтесь для получения [предварительной версии программы предварительной оценки](/hololens/hololens-insider) . Дополнительные сведения можно найти в [репозитории GitHub в режиме исследований](https://github.com/microsoft/HoloLens2ForCV).
 
 ### <a name="using-sensor-data-in-your-apps"></a>Использование данных датчика в приложениях
 

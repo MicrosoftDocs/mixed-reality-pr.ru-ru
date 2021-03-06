@@ -6,12 +6,12 @@ ms.author: ishitak
 ms.date: 08/03/2020
 ms.topic: article
 keywords: Смешанная реальность, VR, лбе, расположение, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, оборудование, HoloLens, несколько проигрывателей, облачные службы, Azure
-ms.openlocfilehash: 1cc54ad0ef4b9892c49e13c7437a4d5356093c79
-ms.sourcegitcommit: 63b7f6d5237327adc51486afcd92424b79e6118b
+ms.openlocfilehash: 49e96b99d3f74bd24a4a0e71f212018108148ad2
+ms.sourcegitcommit: ad1e0c6a31f938a93daa2735cece24d676384f3f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "98810105"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102236915"
 ---
 # <a name="location-based-entertainment-with-windows-mixed-reality"></a>Развлечения на основе расположения с использованием Windows Mixed Reality
 
@@ -68,7 +68,7 @@ HP только что запустила свой HP VR ранец G2, самы
 
 Предварительный просмотр в полноэкранном режиме. на портале Mixed Reality по умолчанию будет отображаться предварительный просмотр гарнитуры в полноэкранном режиме на настольном компьютере во время использования гарнитуры.  
 
-Скрыть новые для своей боковой панели — предотвращает расширение новой панели при запуске портала смешанной реальности.  
+Скрыть новый для боковой панели — не развертывать новую панель при запуске портала смешанной реальности.  
 
 #### <a name="how-to-configure"></a>Порядок настройки:  
 
