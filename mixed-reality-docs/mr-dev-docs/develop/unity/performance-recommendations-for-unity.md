@@ -7,12 +7,12 @@ ms.date: 03/26/2019
 ms.topic: article
 keywords: графика, ЦП, GPU, преобразование для просмотра, сборка мусора, hololens
 ms.localizationpriority: high
-ms.openlocfilehash: 738f9032b0e0500e0f5daa3b59cc1740ef570928
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: f8757e5a5f5c9163dc70d8c8d0e93848c49a6694
+ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98583186"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101759730"
 ---
 # <a name="performance-recommendations-for-unity"></a>Рекомендации по производительности для Unity
 
@@ -309,7 +309,7 @@ Unity поддерживает создание пакетов из нескол
 
 #### <a name="unity-standard-shader-alternatives"></a>Альтернативы стандартному шейдеру Unity
 
-Вместо отрисовки на основе физических параметров или другого шейдера высокого качества, попробуйте применить более производительный и более дешевый шейдер. В [наборе средств для смешанной реальности](https://github.com/Microsoft/MixedRealityToolkit-Unity) предоставляется [стандартный шейдер MRTK](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_MRTKStandardShader.html), который оптимизирован для проектов смешанной реальности.
+Вместо отрисовки на основе физических параметров или другого шейдера высокого качества, попробуйте применить более производительный и более дешевый шейдер. В [наборе средств для смешанной реальности](https://github.com/Microsoft/MixedRealityToolkit-Unity) предоставляется [стандартный шейдер MRTK](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/configuration/mrtk-standard-shader.md), который оптимизирован для проектов смешанной реальности.
 
 В Unity также доступны упрощенные версии шейдеров (без освещенности, с освещенностью вершин, диффузное освещение и т. д.), которые работают быстрее стандартного шейдера Unity. Дополнительные сведения см. в статье об [использовании и производительности встроенных шейдеров](https://docs.unity3d.com/Manual/shader-Performance.html).
 

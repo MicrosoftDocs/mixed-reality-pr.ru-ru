@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: e4eb106a92b953f7c16f5cf1fc9322d7103ad182
-ms.sourcegitcommit: 924f8c1ceb93c378f800cf88d82944cf80f092bc
+ms.openlocfilehash: 465229efca35a5ac3e254ac60481a447c8708ea1
+ms.sourcegitcommit: ad1e0c6a31f938a93daa2735cece24d676384f3f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96615548"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102244680"
 ---
 # <a name="unity"></a>[Unity](#tab/unity)
 
@@ -29,7 +29,7 @@ ms.locfileid: "96615548"
 
 ### <a name="hololens-2-open-source-sample-apps"></a>Примеры приложений с открытым кодом для HoloLens 2
 
-* [Пример для HoloLens 2.](https://github.com/microsoft/MixedReality-Unreal-Samples/tree/master/HoloLens2Example) 
+* [Пример для HoloLens 2.](https://github.com/microsoft/MixedReality-Unreal-Samples/tree/master/HoloLens2Example)
 * [HoloPipes](https://github.com/microsoft/MixedReality-Unreal-HoloPipes) — скачайте из [Microsoft Store](https://www.microsoft.com/p/holopipes/9mszb3nnrxn9) в HoloLens 2.
 
 ### <a name="made-with-the-mixed-reality-toolkit-for-unreal"></a>Создано с помощью Mixed Reality Toolkit для Unreal
@@ -41,10 +41,9 @@ ms.locfileid: "96615548"
 
 ### <a name="made-by-epic-games"></a>Создано Epic Games
 
-Наши партнеры в Epic Games выпустили отличный пример проекта для HoloLens 2 в Unreal Marketplace. 
+Наши партнеры в Epic Games выпустили отличный пример проекта для HoloLens 2 в Unreal Marketplace.
 
-> [!NOTE] 
+> [!NOTE]
 > Это взаимодействие должно передаваться в потоковом режиме с производительного ПК на гарнитуру.
 
 * [Mission AR](https://docs.unrealengine.com/Resources/Showcases/MissionAR/index.html)
-
