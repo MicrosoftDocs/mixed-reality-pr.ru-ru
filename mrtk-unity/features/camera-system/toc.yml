@@ -1,0 +1,8 @@
+- name: Обзор системы поддержки камер
+  href: camera-system-overview.md
+- name: Создание поставщика параметров
+  href: create-settings-provider.md
+- name: Параметры камеры дополненной реальности Unity
+  href: unity-ar-camera-settings.md
+- name: Параметры камеры Windows Mixed Reality
+  href: windows-mixed-reality-camera-settings.md

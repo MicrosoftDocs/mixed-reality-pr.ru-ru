@@ -1,0 +1,8 @@
+- name: Построение и Развертывание
+  href: build-and-deploy.md
+- name: Обновление с HTK
+  href: htk-to-mrtk-porting-guide.md
+- name: MRTK и удаление управляемого кода
+  href: mrtk-and-managed-code-stripping.md
+- name: Обновление с предыдущих версий
+  href: updating.md
