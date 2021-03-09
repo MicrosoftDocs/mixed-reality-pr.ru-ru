@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, взаимодействие с объектами, ограничивающие элементы управления
 ms.localizationpriority: high
-ms.openlocfilehash: f92eca294e2114207a5e28ebe80aa480b9029b66
-ms.sourcegitcommit: 68140e9ce84e69a99c2b3d970c7b8f2927a7fc93
+ms.openlocfilehash: 1ab7b3a334639be564717d77d3bbc478a25e8326
+ms.sourcegitcommit: ad1e0c6a31f938a93daa2735cece24d676384f3f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "99590458"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102237245"
 ---
 # <a name="7-interacting-with-3d-objects"></a>7. Взаимодействие с трехмерными объектами
 
@@ -113,7 +113,7 @@ ms.locfileid: "99590458"
 
 ![Разделенное представление Unity в режиме воспроизведения с нажатой кнопкой Reset](images/mr-learning-base/base-07-section1-step1-7.png)
 
-Дополнительные сведения о компоненте Object Manipulator (Манипулятор объектами) и его свойствах вы можете получить в [этом учебнике](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_ObjectManipulator.html) на [портале документации по MRTK](https://microsoft.github.io/MixedRealityToolkit-Unity/README.html).
+Дополнительные сведения о компоненте Object Manipulator (Манипулятор объектами) и его свойствах вы можете получить в [этом учебнике](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_ObjectManipulator.html) на [портале документации по MRTK](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/).
 
 ## <a name="adding-bounds-control"></a>Добавление ограничивающего элемента управления
 
@@ -132,9 +132,6 @@ ms.locfileid: "99590458"
 
 > [!NOTE]
 > Визуализация ограничивающего элемента управления создается только во время выполнения, поэтому вы не увидите его до переключения в игровой режим.
-
-> [!NOTE]
->Компонент BoundsControl автоматически добавит компонент NearInteractionGrabbable во время выполнения. Поэтому не нужно добавлять этот компонент для захвата вложенных объектов с помощью отслеживаемых рук.
 
 > [!NOTE]
 >Компонент Object Manipulator (Script) автоматически добавляет компонент Constraint Manager (Script)
@@ -171,7 +168,7 @@ ms.locfileid: "99590458"
 
 ![Разделенное представление Unity в режиме воспроизведения с изменением ограничивающего элемента управления](images/mr-learning-base/base-07-section2-step1-4.png)
 
-Дополнительные сведения о компоненте BoundsControl и его свойствах см. в [этом руководстве](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_BoundsControl.html) на [портале документации по MRTK](https://microsoft.github.io/MixedRealityToolkit-Unity/README.html).
+Дополнительные сведения о компоненте BoundsControl и его свойствах см. в [этом руководстве](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_BoundsControl.html) на [портале документации по MRTK](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/).
 
 ## <a name="congratulations"></a>Поздравляем!
 
