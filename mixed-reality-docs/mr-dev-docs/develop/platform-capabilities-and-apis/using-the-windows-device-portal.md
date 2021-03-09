@@ -7,12 +7,12 @@ ms.date: 08/03/2020
 ms.topic: article
 keywords: Портал устройств Windows, HoloLens
 ms.localizationpriority: high
-ms.openlocfilehash: c354a6f7c3afd6164182f915c39bbf1ce306ef39
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: 83bc2183d40f9dbfb00799475522606ff59ccfa0
+ms.sourcegitcommit: fd19bf57607c7ed94a849d4cf606bba2bb93e668
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98583242"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102117648"
 ---
 # <a name="using-the-windows-device-portal"></a>Использование портала устройств Windows
 
@@ -65,7 +65,7 @@ ms.locfileid: "98583242"
 > При возникновении проблем с подключением через USB внимательно проверьте, что необязательный компонент "Подключение USB-устройств" установлен в составе **[пакета средств Visual Studio](../install-the-tools.md#installation-checklist)** .
 
 2. Подключите HoloLens к компьютеру с помощью кабеля micro-USB для HoloLens (1-го поколения) или USB-C для HoloLens 2.
-3. В веб-браузере на своем компьютере перейдите по адресу [https://127.0.0.1:10080](https://127.0.0.1:10080).
+3. В веб-браузере на своем компьютере перейдите по адресу [http://127.0.0.1:10080](http://127.0.0.1:10080).
 
 ### <a name="moving-files-over-usb"></a>Перемещение файлов по USB
 

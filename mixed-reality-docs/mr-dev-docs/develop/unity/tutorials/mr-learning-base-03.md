@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, отслеживание пространственного положения
 ms.localizationpriority: high
-ms.openlocfilehash: 8a45037f7a73d9e74cd714ae4af49b58f44ce297
-ms.sourcegitcommit: 68140e9ce84e69a99c2b3d970c7b8f2927a7fc93
+ms.openlocfilehash: 0a8beb647516ebcb5bc07cb58d0193e8fe71e9fc
+ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "99590476"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101760020"
 ---
 # <a name="3-configuring-the-mrtk-profiles"></a>3. Настройка профилей MRTK
 
@@ -20,11 +20,11 @@ ms.locfileid: "99590476"
 
 Из этого руководства вы узнаете, как настраивать профили МRТК.
 
-<a href="https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Profiles/Profiles.html" target="_blank">Профили MRTK</a> — это дерево вложенных профилей, которые включают сведения конфигурации для инициализации систем и функций MRTK. Профиль верхнего уровня (профиль конфигурации) содержит вложенные профили для всех основных базовых систем. Каждый вложенный профиль отвечает за настройку поведения соответствующей системы.
+<a href="https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/profiles/profiles.md" target="_blank">Профили MRTK</a> — это дерево вложенных профилей, которые включают сведения конфигурации для инициализации систем и функций MRTK. Профиль верхнего уровня (профиль конфигурации) содержит вложенные профили для всех основных базовых систем. Каждый вложенный профиль отвечает за настройку поведения соответствующей системы.
 
 В этом конкретном примере показано, как скрыть сетку отслеживания пространственного положения, изменив параметры наблюдателя виртуальной сетки. Те же принципы вы можете применить, чтобы настроить любые параметры или значения в профилях MRTK.
 
-Как вы узнали при развертывании своего проекта на HoloLens 2 при работе с [предыдущим руководством](mr-learning-base-02.md#congratulations), сетка <a href="https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/SpatialAwareness/SpatialAwarenessGettingStarted.html" target="_blank">отслеживания пространственного положения</a> — это набор сеток, представляющих геометрию среды. На начальных этапах разработки она помогает в работе, но обычно ее визуализацию отключают, чтобы она не отвлекала внимание и не снижала производительность.
+Как вы узнали при развертывании своего проекта на HoloLens 2 при работе с [предыдущим руководством](mr-learning-base-02.md#congratulations), сетка <a href="https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/spatial-awareness/spatial-awareness-getting-started.md" target="_blank">отслеживания пространственного положения</a> — это набор сеток, представляющих геометрию среды. На начальных этапах разработки она помогает в работе, но обычно ее визуализацию отключают, чтобы она не отвлекала внимание и не снижала производительность.
 
 ## <a name="objectives"></a>Задачи
 
@@ -116,7 +116,7 @@ ms.locfileid: "99590476"
 > [!NOTE]
 > Хотя сетка пространственного картирования теперь не отображается, она по-прежнему присутствует и будет работать. Например, любая голограмма позади сетки пространственного картирования не будет отображаться, как будто она находится за реальной стеной.
 
-Вы только что узнали, как изменить параметр в профиле MRTK. Как вы уже поняли, для настройки параметров MRTK нужно создать копии профилей по умолчанию. Так как профили по умолчанию недоступны для редактирования, они всегда используются в качестве эталона, если вы захотите вернуться к параметрам по умолчанию. Дополнительные сведения о профилях МRТК и их архитектуре см. в [руководстве по настройке профиля MRTK](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/MixedRealityConfigurationGuide.html) на [портале документации по МRТК](https://microsoft.github.io/MixedRealityToolkit-Unity/README.html).
+Вы только что узнали, как изменить параметр в профиле MRTK. Как вы уже поняли, для настройки параметров MRTK нужно создать копии профилей по умолчанию. Так как профили по умолчанию недоступны для редактирования, они всегда используются в качестве эталона, если вы захотите вернуться к параметрам по умолчанию. Дополнительные сведения о профилях МRТК и их архитектуре см. в [руководстве по настройке профиля MRTK](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/configuration/mixed-reality-configuration-guide.md) на [портале документации по МRТК](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs).
 
 ## <a name="congratulations"></a>Поздравляем!
 
