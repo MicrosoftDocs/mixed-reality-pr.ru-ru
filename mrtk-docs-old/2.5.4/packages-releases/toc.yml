@@ -1,0 +1,6 @@
+- name: Создание модулей MRTK
+  href: mrtk-modularization.md
+- name: Пакеты MRTK
+  href: mrtk-packages.md
+- name: Заметки о выпуске
+  href: release-notes.md

@@ -1,0 +1,14 @@
+- name: Обзор
+  href: overview.md
+- name: Платформа и среда выполнения
+  href: framework-and-runtime.md
+- name: Система ввода
+  items:
+    - name: Терминология
+      href: terminology.md
+    - name: Базовая система
+      href: core-system.md
+    - name: Указатели контроллеров и фокус
+      href: controllers-pointers-and-focus.md
+- name: 'Системы, службы расширений и поставщики данных'
+  href: systems-extensions-providers.md

@@ -1,0 +1,14 @@
+- name: Общие сведения об участии в разработке
+  href: contributing.md
+- name: Рекомендации по кодированию
+  href: coding-guidelines.md
+- name: Написание и выполнение тестов
+  href: unit-tests.md
+- name: Руководство по документации
+  href: documentation-guide.md
+- name: Запросы на вытягивание
+  href: pull-requests.md
+- name: Экспериментальные возможности
+  href: experimental-features.md
+- name: Критические изменения
+  href: breaking-changes.md

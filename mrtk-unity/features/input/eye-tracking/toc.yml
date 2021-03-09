@@ -1,0 +1,14 @@
+- name: Обзор
+  href: eye-tracking-main.md
+- name: Базовая настройка
+  href: eye-tracking-basic-setup.md
+- name: Поставщик данных о направлении взгляда
+  href: eye-tracking-eye-gaze-provider.md
+- name: Глаза и руки
+  href: eye-tracking-eyes-and-hands.md
+- name: Калибровка глаз
+  href: eye-tracking-is-user-calibrated.md
+- name: Навигация
+  href: eye-tracking-navigation.md
+- name: Выбор целевого объекта
+  href: eye-tracking-target-selection.md
