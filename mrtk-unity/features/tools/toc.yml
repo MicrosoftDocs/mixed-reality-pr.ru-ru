@@ -1,0 +1,18 @@
+- name: Средство сопоставления контроллеров
+  href: controller-mapping-tool.md
+- name: Окно зависимости
+  href: dependency-window.md
+- name: Мастер создания службы расширений
+  href: extension-service-creation-wizard.md
+- name: Голографическое удаленное взаимодействие
+  href: holographic-remoting.md
+- name: Средство использования функции ввода
+  href: input-feature-usage-tool.md
+- name: Окно миграции
+  href: migration-window.md
+- name: Окно оптимизации
+  href: optimize-window.md
+- name: Служебная программа для создания снимков экрана
+  href: screenshot-utility.md
+- name: Обновление шейдера
+  href: update-mrtk-shaders.md
