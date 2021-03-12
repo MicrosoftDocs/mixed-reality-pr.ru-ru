@@ -1,3 +1,5 @@
+- name: Служебная программа переключения ресурсов
+  href: asset-swap-utility.md
 - name: Средство сопоставления контроллеров
   href: controller-mapping-tool.md
 - name: Окно зависимости
