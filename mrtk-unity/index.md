@@ -6,16 +6,20 @@ ms.author: kesemple
 ms.date: 03/03/2021
 ms.localizationpriority: high
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 3ac16a1aae6681ddd7e144679b76b4d2b778306f
-ms.sourcegitcommit: ad1e0c6a31f938a93daa2735cece24d676384f3f
+ms.openlocfilehash: a774a5c08cb2d8bbaeebeca19cec366504efba58
+ms.sourcegitcommit: 5c81c19905b26818882e49679bd71f5dd7bc6d3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102237255"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "103202866"
 ---
 # <a name="what-is-the-mixed-reality-toolkit"></a>Что такое Mixed Reality Toolkit
 
 ![Набор средств для смешанной реальности](features/images/Logo_MRTK_Unity_Banner.png)
+
+<br>
+
+<iframe width="940" height="530" src="https://www.youtube.com/embed/qfONlUCSWdg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 MRTK-Unity — это проект, управляемый Майкрософт, который предоставляет набор компонентов и функций для ускорения кроссплатформенной разработки приложений смешанной реальности в Unity. Ниже приведены некоторые его функции.
 
@@ -44,7 +48,7 @@ MRTK-Unity — это проект, управляемый Майкрософт
 Если вы не знакомы с MRTK или разработкой для смешанной реальности в Unity, рекомендуем установить необходимые инструменты и пройти серию учебников по HoloLens 2.
 
 > [!div class="nextstepaction"]
-> [Установить инструменты](install-the-tools.md)
+> [Установка средств](install-the-tools.md)
 
 > [!div class="nextstepaction"]
 > [Серия учебников по HoloLens 2](https://docs.microsoft.com/windows/mixed-reality/develop/unity/tutorials/mr-learning-base-02)
@@ -68,58 +72,73 @@ MRTK-Unity — это проект, управляемый Майкрософт
 
 :::row:::
     :::column:::
-       [![Система ввода](features/images/MRTK_Icon_InputSystem.png)](features/input/overview.md) **[Система ввода](features/input/overview.md)**<br>
+       [![Система ввода](features/images/MRTK_Icon_InputSystem.png)](features/input/overview.md)<br>
+        **[Система ввода](features/input/overview.md)**<br>
     :::column-end:::
     :::column:::
-        [![Отслеживание рук (HoloLens 2)](features/images/MRTK_Icon_HandTracking.png)](features/input/overview.md) **[Отслеживание рук <br> (HoloLens 2)](features/input/hand-tracking.md)**<br>
+        [![Отслеживание рук (HoloLens 2)](features/images/MRTK_Icon_HandTracking.png)](features/input/overview.md)<br>
+        **[Отслеживание рук <br> (HoloLens 2)](features/input/hand-tracking.md)**<br>
     :::column-end:::
     :::column:::
-        [![Отслеживание взгляда (HoloLens 2)](features/images/MRTK_Icon_EyeTracking.png)](features/input/eye-tracking/eye-tracking-Main.md) **[Отслеживание взгляда <br/> (HoloLens 2)](features/input/eye-tracking/eye-tracking-Main.md)**<br>
+        [![Отслеживание взгляда (HoloLens 2)](features/images/MRTK_Icon_EyeTracking.png)](features/input/eye-tracking/eye-tracking-Main.md)<br>
+        **[Отслеживание взгляда <br/> (HoloLens 2)](features/input/eye-tracking/eye-tracking-Main.md)**<br>
     :::column-end:::
     :::column:::
-        [![Профили](features/images/MRTK_Icon_Profiles.png)](configuration/mixed-reality-configuration-guide.md) **[Профили](configuration/mixed-reality-configuration-guide.md)**<br>
-    :::column-end:::
-:::row-end:::
-
-:::row:::
-    :::column:::
-       [![Отслеживание рук (Ultraleap)](features/images/MRTK_Icon_HandTracking.png)](features/cross-platform/leap-motion-mrtk.md) **[Отслеживание рук <br/> (Ultraleap)](features/cross-platform/leap-motion-mrtk.md)**<br>
-    :::column-end:::
-    :::column:::
-        [![Элементы управления пользовательским интерфейсом](features/images/MRTK_Icon_UIControls.png)](#ux-building-blocks) **[Элементы управления пользовательским интерфейсом](#ux-building-blocks)**<br>
-    :::column-end:::
-    :::column:::
-        [![Решатели](features/images/MRTK_Icon_Solver.png)](features/ux-building-blocks/solvers/solver.md) **[Решатели](features/ux-building-blocks/solvers/solver.md)**<br>
-    :::column-end:::
-    :::column:::
-        [![Диспетчер сцен](features/images/MRTK_Icon_SceneSystem.png)](features/scene-system/scene-system-getting-started.md) **[Диспетчер<br/> сцен](features/scene-system/scene-system-getting-started.md)**<br>
+        [![Профили](features/images/MRTK_Icon_Profiles.png)](configuration/mixed-reality-configuration-guide.md)<br>
+        **[Профили](configuration/mixed-reality-configuration-guide.md)**<br>
     :::column-end:::
 :::row-end:::
 
 :::row:::
     :::column:::
-       [![Отслеживание пространственного положения](features/images/MRTK_Icon_SpatialUnderstanding.png)](features/spatial-awareness/spatial-awareness-getting-started.md) **[Отслеживание <br/> пространственного положения](features/spatial-awareness/spatial-awareness-getting-started.md)**<br>
+       [![Отслеживание рук (Ultraleap)](features/images/MRTK_Icon_HandTracking.png)](features/cross-platform/leap-motion-mrtk.md)<br>
+        **[Отслеживание рук <br/> (Ultraleap)](features/cross-platform/leap-motion-mrtk.md)**<br>
     :::column-end:::
     :::column:::
-        [![Средство диагностики](features/images/MRTK_Icon_Diagnostics.png)](features/diagnostics/diagnostics-system-getting-started.md) **[Средство <br/> диагностики](features/diagnostics/diagnostics-system-getting-started.md)**<br>
+        [![Элементы управления пользовательским интерфейсом](features/images/MRTK_Icon_UIControls.png)](#ux-building-blocks)<br>
+        **[Элементы управления пользовательским интерфейсом](#ux-building-blocks)**<br>
     :::column-end:::
     :::column:::
-        [![Стандартное представление шейдеров MRTK](features/images/MRTK_Icon_StandardShader.png)](features/rendering/mrtk-standard-shader.md?q=shader) **[Пример стандартного представления шейдеров MRTK](features/rendering/mrtk-standard-shader.md?q=shader)**<br>
+        [![Решатели](features/images/MRTK_Icon_Solver.png)](features/ux-building-blocks/solvers/solver.md)<br>
+        **[Решатели](features/ux-building-blocks/solvers/solver.md)**<br>
     :::column-end:::
     :::column:::
-        [![Речь и диктовка](features/images/MRTK_Icon_VoiceCommand.png)](features/scene-system/scene-system-getting-started.md) **[Речь](features/input/speech.md)<br/>и[ диктовка](features/input/dictation.md)**<br>
+        [![Диспетчер нескольких сцен](features/images/MRTK_Icon_SceneSystem.png)](features/scene-system/scene-system-getting-started.md)<br>
+        **[Диспетчер <br/>нескольких сцен](features/scene-system/scene-system-getting-started.md)**<br>
     :::column-end:::
 :::row-end:::
 
 :::row:::
     :::column:::
-       [![Система границ](features/images/MRTK_Icon_Boundary.png)](features/boundary/boundary-system-getting-started.md) **[Система <br/>границ](features/boundary/boundary-system-getting-started.md)**<br>
+       [![Отслеживание пространственного положения](features/images/MRTK_Icon_SpatialUnderstanding.png)](features/spatial-awareness/spatial-awareness-getting-started.md)<br>
+        **[Отслеживание <br/> пространственного положения](features/spatial-awareness/spatial-awareness-getting-started.md)**<br>
     :::column-end:::
     :::column:::
-        [![Имитация в редакторе](features/images/MRTK_Icon_InputSystem.png)](features/diagnostics/diagnostics-system-getting-started.md) **[Имитация <br/> в редакторе](features/diagnostics/diagnostics-system-getting-started.md)**<br>
+        [![Средство диагностики](features/images/MRTK_Icon_Diagnostics.png)](features/diagnostics/diagnostics-system-getting-started.md)<br>
+        **[Средство <br/> диагностики](features/diagnostics/diagnostics-system-getting-started.md)**<br>
     :::column-end:::
     :::column:::
-        [![Экспериментальные функции](features/images/MRTK_Icon_Experimental.png)](contributing/experimental-features.md) **[Экспериментальные <br/> функции](contributing/experimental-features.md)**<br>
+        [![Отображение работы стандартного шейдера MRTK](features/images/MRTK_Icon_StandardShader.png)](features/rendering/mrtk-standard-shader.md?q=shader)<br>
+        **[Отображение примера работы стандартного шейдера MRTK](features/rendering/mrtk-standard-shader.md?q=shader)**<br>
+    :::column-end:::
+    :::column:::
+        [![Речь и диктовка](features/images/MRTK_Icon_VoiceCommand.png)](features/scene-system/scene-system-getting-started.md)<br>
+        **[Речь](features/input/speech.md)<br/> & [Диктовка](features/input/dictation.md)**<br>
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+       [![Система границ](features/images/MRTK_Icon_Boundary.png)](features/boundary/boundary-system-getting-started.md)<br>
+        **[Система<br/> границ](features/boundary/boundary-system-getting-started.md)**<br>
+    :::column-end:::
+    :::column:::
+        [![Имитация в редакторе](features/images/MRTK_Icon_InputSystem.png)](features/diagnostics/diagnostics-system-getting-started.md)<br>
+        **[Имитация <br/> в редакторе](features/diagnostics/diagnostics-system-getting-started.md)**<br>
+    :::column-end:::
+    :::column:::
+        [![Экспериментальные возможности](features/images/MRTK_Icon_Experimental.png)](contributing/experimental-features.md)<br>
+        **[Экспериментальные <br/> функции](contributing/experimental-features.md)**<br>
     :::column-end:::
     :::column:::
     :::column-end:::
