@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 01/11/2021
 ms.topic: article
 keywords: опенкср, Unity, hololens, hololens 2, Mixed Reality, МРТК, набор средств для смешанной реальности, дополненная реальность, виртуальная реальность, гарнитуры смешанной реальности, обучение, учебник, начало работы
-ms.openlocfilehash: 0501abe5a417c17283347455ccea8ec6f49a6a45
-ms.sourcegitcommit: 4647712788a91a2b26d4b01e62285c2942bb0bd2
+ms.openlocfilehash: 1c9e185c63d3efef66cdc2782d8d8d4e3692c705
+ms.sourcegitcommit: d5e4eb94c87b86a7774a639f11cd9e35a7050107
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102230745"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "103623634"
 ---
 # <a name="mixed-reality-openxr-supported-features-in-unity"></a>Функции, поддерживаемые Опенкср Mixed Reality в Unity
 
@@ -24,7 +24,7 @@ ms.locfileid: "102230745"
 * Поддерживает приложения UWP для HoloLens 2 и оптимизированы для модели приложений HoloLens 2.
 * Поддерживает приложения Win32 версий для гарнитуры Windows Mixed Reality с последними профилями контроллеров и удаленным взаимодействием с holographic приложениями.
 * Отслеживание масштаба мира с использованием привязок и неограниченного пространства.
-* [API-интерфейс хранилища привязки для сохранения привязок](#anchors-and-anchor-persistence) в локальном хранилище HoloLens 2.
+* [API-интерфейс хранилища привязки для сохранения привязок](spatial-anchors-in-unity.md) в локальном хранилище HoloLens 2.
 * [Взаимодействие контроллера движения и руки](#motion-controller-and-hand-interactions), включая новый контроллер HP REVERB G2.
 * Отслеживание с обобразованием с использованием 26 соединений и совместного входа RADIUS.
 * Взаимодействие взгляда на HoloLens 2.
@@ -33,7 +33,7 @@ ms.locfileid: "102230745"
 * Поддерживает ["Play" в HoloLens 2 с помощью приложения holographic, поддерживающего удаленное взаимодействие](#holographic-remoting-in-unity-editor-play-mode), что позволяет разработчикам выполнять отладку сценариев без создания и развертывания на устройстве.
 * Совместимо с МРТК Unity 2.5.3 и более поздней версии через [поддержку поставщика Мртк опенкср](openxr-getting-started.md#using-mrtk-with-openxr-support).
 * Совместимо с Unity [арфаундатион 4,0](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.1/manual/index.html) или более поздней версии.
-* (Добавлено в 0.1.3) Поддерживает [настольное приложение holographic удаленное взаимодействие](#holographic-remoting-in-desktop-app) из созданного и развернутого автономного приложения Windows.
+* (Добавлено в 0.1.3) Поддерживает [настольное приложение holographic удаленное взаимодействие](holographic-remoting-desktop.md) из созданного и развернутого автономного приложения Windows.
 * (Добавлено в 0.1.4) Поддержка [отслеживания QR-кода](#qr-codes) в HoloLens2 через спатиалграфноде
 
 ## <a name="holographic-remoting-setup"></a>Настройка удаленного взаимодействия с holographic
@@ -62,110 +62,6 @@ ms.locfileid: "102230745"
 
 > [!NOTE]
 > Начиная с версии 0.1.0, среда выполнения holographic Remoting не поддерживает привязки, а функции Аранчорманажер не будут работать через удаленное взаимодействие.  Эта функция появилась в будущих выпусках.
-
-## <a name="holographic-remoting-in-desktop-app"></a>Holographic удаленное взаимодействие в классическом приложении
-
-> [!NOTE]
-> В выпуске пакета 0.1.3 добавлена поддержка удаленного взаимодействия автономных приложений Windows.
-> Начиная с версии 0.1.3 Эта функция не поддерживает сборки UWP.
-
-1. Выполните действия, описанные в разделе [Настройка удаленного взаимодействия с holographic](#holographic-remoting-setup) .
-2. Откройте **Параметры проекта Edit->**, перейдите в **раздел Управление подключаемыми модулями XR** и установите флажок **набор функций Windows Mixed Reality** . Кроме того, снимите флажок **инициализировать XR при запуске**:
-
-    ![Снимок экрана: панель "Параметры проекта" открыта в редакторе Unity с снятым флажком "инициализировать XR при запуске"](images/openxr-features-img-02-app.png)
-
-3. Разверните раздел " **компоненты** " в разделе **опенкср** и выберите команду " **отобразить все** ".
-4. Установите флажок **удаленное взаимодействие с приложением holographic** .
-
-    ![Снимок экрана: панель "Параметры проекта", открытая в редакторе Unity с включенной удаленным взаимодействием приложений](images/openxr-features-img-03-app.png)
-
-5. Затем напишите некоторый код, чтобы задать конфигурацию удаленного взаимодействия и инициировать инициализацию XR. Пример приложения, распространяемый с помощью [подключаемого модуля Mixed Reality опенкср](openxr-getting-started.md#hololens-2-samples) , содержит AppRemoting.cs, в котором показан пример сценария для подключения к ОПРЕДЕЛЕННОМУ IP-адресу во время выполнения. При развертывании примера приложения на локальном компьютере в этом месте будет отображаться поле ввода IP-адреса с кнопкой подключения. Введите IP-адрес и нажмите кнопку Подключить, чтобы инициализировать XR и попытаться подключиться к целевому устройству:
-
-    ![Снимок экрана примера приложения, отображающего пример пользовательского интерфейса удаленного взаимодействия](images/openxr-sample-app-remoting.png)
-
-6. Чтобы написать пользовательский код соединения, вызовите `Microsoft.MixedReality.OpenXR.Remoting.AppRemoting.Connect` его с помощью заполнения `RemotingConfiguration` . Пример приложения предоставляет это в инспекторе и показывает, как заполнить IP-адрес из текстового поля. Вызов `Connect` задаст конфигурацию и автоматически инициализирует XR, поэтому ее необходимо вызвать как соподпрограмму:
-
-    ``` cs
-    StartCoroutine(Remoting.AppRemoting.Connect(remotingConfiguration));
-    ```
-
-7. Во время выполнения можно получить текущее состояние соединения с помощью `AppRemoting.TryGetConnectionState` API, а также при необходимости отключить и деинициализировать XR с помощью `AppRemoting.Disconnect()` . Это можно использовать для отключения и повторного подключения к другому устройству в рамках одного сеанса приложения. Пример приложения предоставляет управляемый куб, который отключает сеанс удаленного взаимодействия, если он нажат.
-
-### <a name="migration-from-previous-apis"></a>Миграция с предыдущих API
-
-#### <a name="unityenginexrwsaholographicremoting"></a>UnityEngine. XR. WSA. Холографикремотинг
-
-Из примера кода в [документах Unity](https://docs.unity3d.com/2018.4/Documentation/ScriptReference/XR.WSA.HolographicRemoting.html):
-
-| XR. Головк. холографикремотинг | Опенкср. Remoting. Аппремотинг |
-| ---- | ---- |
-| `HolographicRemoting.Connect(String)` | `AppRemoting.Connect(RemotingConfiguration)` |
-| `HolographicRemoting.ConnectionState` | `AppRemoting.TryGetConnectionState(out ConnectionState, out DisconnectReason)`|
-| `StartCoroutine(LoadDevice("WindowsMR"))`| [Н/д: автоматически происходит при вызове `AppRemoting.Connect` ]  |
-
-#### <a name="unityenginexrwindowsmrwindowsmrremoting"></a>UnityEngine. XR. Виндовсмр. Виндовсмрремотинг
-
-| XR. Виндовсмр. Виндовсмрремотинг | Опенкср. Remoting. Аппремотинг |
-| ---- | ---- |
-| `WindowsMRRemoting.Connect()` | `AppRemoting.Connect(RemotingConfiguration)` |
-| `WindowsMRRemoting.Disconnect()` | `AppRemoting.Disconnect()` |
-| `WindowsMRRemoting.TryGetConnectionState(out ConnectionState)` и `WindowsMRRemoting.TryGetConnectionFailureReason(out ConnectionFailureReason)`| `AppRemoting.TryGetConnectionState(out ConnectionState, out DisconnectReason)`|
-| `WindowsMRRemoting.isAudioEnabled`, `WindowsMRRemoting.maxBitRateKbps`, `WindowsMRRemoting.remoteMachineName` | Передается `AppRemoting.Connect` через `RemotingConfiguration` структуру |
-| `WindowsMRRemoting.isConnected` | `AppRemoting.TryGetConnectionState(out ConnectionState state, out _) && state == ConnectionState.Connected`
-
-## <a name="anchors-and-anchor-persistence"></a>Привязки и сохранение привязки
-
-Подключаемый модуль Mixed Reality Опенкср предоставляет базовые функции привязки с помощью реализации Арфаундатион **Аранчорманажер** Unity. Основные сведения о **аранчор** s в арфаундатион см. в руководстве по [Арфаундатион для AR Anchor Manager](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.1/manual/anchor-manager.html). Начиная с версии 0.1.0 этот подключаемый модуль поддерживает все функциональные возможности Аранчорманажер, за исключением создания привязок, присоединенных к плоскости, которая ожидается в будущем выпуске.
-
-### <a name="anchor-persistence-and-the-xranchorstore"></a>Сохранение привязки и Ксранчорсторе
-
-Дополнительный API, называемый **ксранчорсторе** , позволяет сохранять привязки между сеансами. Ксранчорсторе — это представление сохраненных привязок на устройстве. Привязки можно сохранять из **аранчорс** в сцене Unity, загружать из хранилища в новый **аранчорс** или удалять из хранилища.
-
-> [!NOTE]
-> Эти привязки должны быть сохранены и загружены на одном устройстве. Хранилище с привязкой между устройствами будет поддерживаться с помощью пространственных привязок Azure в следующем выпуске.
-
-``` cs
-public class Microsoft.MixedReality.ARSubsystems.XRAnchorStore
-{
-    // A list of all persisted anchors, which can be loaded.
-    public IReadOnlyList<string> PersistedAnchorNames { get; }
-
-    // Clear all persisted anchors
-    public void Clear();
-
-    // Load a single persisted anchor by name. The ARAnchorManager will create this new anchor and report it in
-    // the ARAnchorManager.anchorsChanged event. The TrackableId returned here is the same TrackableId the
-    // ARAnchor will have when it is instantiated.
-    public TrackableId LoadAnchor(string name);
-
-    // Attempts to persist an existing ARAnchor with the given TrackableId to the local store. Returns true if
-    // the storage is successful, false otherwise.
-    public bool TryPersistAnchor(string name, TrackableId trackableId);
-
-    // Removes a single persisted anchor from the anchor store. This will not affect any ARAnchors in the Unity
-    // scene, only the anchors in storage.
-    public void UnpersistAnchor(string name);
-}
-```
-
-Чтобы загрузить Ксранчорсторе, подключаемый модуль предоставляет метод расширения для Ксранчорсубсистем, подсистему Аранчорманажер:
-
-``` cs
-public static Task<XRAnchorStore> LoadAnchorStoreAsync(this XRAnchorSubsystem anchorSubsystem)
-```
-
-Чтобы использовать этот метод расширения, необходимо получить доступ к нему из подсистемы Аранчорманажер следующим образом:
-
-``` cs
-ARAnchorManager arAnchorManager = GetComponent<ARAnchorManager>();
-XRAnchorStore anchorStore = await arAnchorManager.subsystem.LoadAnchorStoreAsync();
-```
-
-Полный пример сохранения и несохраненных привязок см. в разделе привязки-> примеры привязок в образце [сцены подключаемого модуля Mixed Reality опенкср](openxr-getting-started.md#hololens-2-samples):
-
-![Снимок экрана: панель иерархии открыта в редакторе Unity с выделенным образцом "привязки"](images/openxr-features-img-04.png)
-
-![Снимок экрана: Панель инспектора открыта в редакторе Unity с выделенным образцом сценария "привязки"](images/openxr-features-img-05.png)
 
 ## <a name="motion-controller-and-hand-interactions"></a>Взаимодействие контроллера движения и руки
 
