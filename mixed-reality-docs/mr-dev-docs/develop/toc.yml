@@ -192,24 +192,24 @@
               href: unity/reviewing-changes.md
     - name: Основные стандартные блоки
       items:
-        - name: Камера
+        - name: Настройка камеры
           href: unity/camera-in-unity.md
-        - name: Системы координат
-          href: unity/coordinate-systems-in-unity.md
-        - name: Сохраняемость
-          href: unity/persistence-in-unity.md
-        - name: Направление головы
-          href: unity/gaze-in-unity.md
+        - name: Пространственные привязки
+          href: unity/spatial-anchors-in-unity.md
+        - name: Взаимодействия
+          items:
+            - name: Контроллеры движений
+              href: unity/motion-controllers-in-unity.md
+            - name: Жесты
+              href: unity/gestures-in-unity.md
+            - name: Отслеживание рук и взгляда
+              href: unity/hand-eye-in-unity.md
+            - name: Отслеживание направления головы
+              href: unity/gaze-in-unity.md
+            - name: Голосовой ввод
+              href: unity/voice-input-in-unity.md
         - name: Текст
           href: unity/text-in-unity.md
-        - name: Контроллеры движений
-          href: unity/motion-controllers-in-unity.md
-        - name: Жесты
-          href: unity/gestures-in-unity.md
-        - name: Отслеживание рук и взгляда
-          href: unity/hand-eye-in-unit.md
-        - name: Голосовой ввод
-          href: unity/voice-input-in-unity.md
         - name: пространственное сопоставление
           href: unity/spatial-mapping-in-unity.md
         - name: пространственный звук
@@ -220,6 +220,8 @@
           href: unity/shared-experiences-in-unity.md
         - name: Камера с определяемым местоположением
           href: unity/locatable-camera-in-unity.md
+        - name: Голографическое удаленное взаимодействие в классическом приложении
+          href: unity/holographic-remoting-desktop.md
         - name: точка фокусировки;
           href: unity/focus-point-in-unity.md
         - name: потеря слежения;
