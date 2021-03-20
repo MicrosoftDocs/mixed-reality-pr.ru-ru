@@ -1,19 +1,19 @@
 ---
-title: 240. Общий доступ в смешанной реальности — несколько устройств HoloLens
+title: Общий доступ к HoloLens (1 общий), 240-несколько устройств HoloLens
 description: Следуйте этому пошаговому руководству по созданию кода с помощью Unity, Visual Studio и HoloLens, чтобы получить сведения о голограммах общего доступа.
 author: keveleigh
 ms.author: kurtie
 ms.date: 10/22/2019
 ms.topic: article
 keywords: холотулкит, микседреалититулкит, микседреалититулкит-Unity, совместное использование, сеть, Academy, учебник, HoloLens, Academy в смешанной реальности, Unity, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, Windows 10
-ms.openlocfilehash: 97f2067c043912e7608361e73e54fdf769b8bf51
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: 8e3631c80702f04e9f7e50c98bed91d92c332841
+ms.sourcegitcommit: 35bd43624be33afdb1bf6ba4ddbe36d268eb9bda
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98582921"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104730151"
 ---
-# <a name="mr-sharing-240-multiple-hololens-devices"></a>240. Общий доступ в смешанной реальности: несколько устройств HoloLens
+# <a name="hololens-1st-gen-sharing-240-multiple-hololens-devices"></a>Общий доступ к HoloLens (1-й общий) 240: несколько устройств HoloLens
 
 >[!NOTE]
 >Руководства Mixed Reality Academy были разработаны для иммерсивных гарнитур HoloLens (1-го поколения) и иммерсивных гарнитур Mixed Reality.  Поэтому мы считаем, что важно оставить эти руководства для разработчиков, которые ищут рекомендации по разработке для этих устройств.  Данные руководства **_не_** будут обновляться с учетом последних наборов инструментов или возможностей взаимодействия для HoloLens 2.  Они будут сохранены для работы на поддерживаемых устройствах. Опубликован [новый цикл руководств](./mr-learning-base-01.md) для HoloLens 2.
@@ -69,7 +69,7 @@ ms.locfileid: "98582921"
 ### <a name="instructions"></a>Инструкции
 
 * Запустите Unity.
-* Выберите **Open** (Открыть).
+* Выберите **Открыть**.
 * Введите Location в качестве ранее неархивированной папки **шаредхолограмс** .
 * Выберите **имя проекта** и щелкните **выбрать папку**.
 * В **иерархии** щелкните правой кнопкой мыши **основную камеру** и выберите **Удалить**.

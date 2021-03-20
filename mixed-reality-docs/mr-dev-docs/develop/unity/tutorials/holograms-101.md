@@ -1,19 +1,19 @@
 ---
-title: 101. Основы смешанной реальности — полный проект с использованием устройства
+title: Основные сведения о HoloLens (1 Gen) основы 101 — завершение проекта с помощью устройства
 description: Для ознакомления с основами Windows Mixed Reality следуйте этому пошаговому руководству по созданию кода с помощью Unity, Visual Studio и HoloLens.
 author: keveleigh
 ms.author: kurtie
 ms.date: 10/22/2019
 ms.topic: article
 keywords: Смешанная реальность, Windows Mixed Reality, HoloLens, голограмма, Academy, учебник, HoloLens, Academy смешанной реальности, Unity, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, Windows 10
-ms.openlocfilehash: 4ca16542060e1cee746ba5095a7bf68ca8136267
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: 5015dff1487dce9ff761a4ca606657eca6f75406
+ms.sourcegitcommit: 35bd43624be33afdb1bf6ba4ddbe36d268eb9bda
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98583717"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104730341"
 ---
-# <a name="mr-basics-101-complete-project-with-device"></a>101. Основы смешанной реальности: полный проект с использованием устройства
+# <a name="hololens-1st-gen-basics-101-complete-project-with-device"></a>Основные сведения о HoloLens (1 Gen) 101: завершение проекта с устройством
 
 <br>
 
@@ -71,7 +71,7 @@ ms.locfileid: "98583717"
 ### <a name="instructions"></a>Инструкции
 
 * Запустите Unity.
-* Выберите **Open** (Открыть).
+* Выберите **Открыть**.
 * Введите Location в качестве папки **Origami** , которая была отменена для архивации.
 * Выберите **Origami** и щелкните **выбрать папку**.
 * Так как проект **Origami** не содержит сцены, сохраните пустую сцену по умолчанию в новом файле с помощью команды: **файл**  /  **сохранить сцену как**.
@@ -150,7 +150,7 @@ ms.locfileid: "98583717"
 * Выберите объект **курсора** на **панели Иерархия**.
 * Перетащите сценарий **ворлдкурсор** на **Панель инспектора**.
 * Дважды щелкните скрипт **ворлдкурсор** , чтобы открыть его в Visual Studio.
-* Скопируйте и вставьте этот код в **WorldCursor.CS** и **Сохраните все**.
+* Скопируйте и вставьте этот код в **ворлдкурсор. CS** и **Сохраните все**.
 
 ```cs
 using UnityEngine;
@@ -330,7 +330,7 @@ public class SphereCommands : MonoBehaviour
 * В папке **Scripts** создайте скрипт с именем **спичманажер**.
 * Перетащите скрипт **спичманажер** на объект **оригамиколлектион** в иерархии
 * Откройте скрипт **спичманажер** в Visual Studio.
-* Скопируйте и вставьте этот код в **SpeechManager.CS** и **Сохраните все**:
+* Скопируйте и вставьте этот код в **спичманажер. CS** и **Сохраните все**:
 
 ```cs
 using System.Collections.Generic;

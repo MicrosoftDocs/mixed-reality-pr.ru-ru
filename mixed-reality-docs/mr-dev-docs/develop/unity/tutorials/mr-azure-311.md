@@ -1,19 +1,19 @@
 ---
-title: 311. Смешанная реальность и Azure — Microsoft Graph
+title: HoloLens (1-й общий) и Azure 311 — Microsoft Graph
 description: Пройдите этот курс, чтобы узнать, как использовать Microsoft Graph и подключиться к данным, которые повышают производительность, в приложении смешанной реальности.
 author: drneil
 ms.author: jemccull
 ms.date: 07/04/2018
 ms.topic: article
 keywords: Azure, Mixed Reality, Academy, Unity, учебник, API, Microsoft Graph, hololens, иммерсивное, VR, Windows 10, Visual Studio
-ms.openlocfilehash: 699e520fb9db8d8d3b5bab8b98d92fa39f0acb2d
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: 6afa1e8c5d2baa2d46652901558b2917c5c43d70
+ms.sourcegitcommit: 35bd43624be33afdb1bf6ba4ddbe36d268eb9bda
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98583447"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104730251"
 ---
-# <a name="mr-and-azure-311---microsoft-graph"></a>311. Смешанная реальность и Azure — Microsoft Graph
+# <a name="hololens-1st-gen-and-azure-311---microsoft-graph"></a>HoloLens (1-й общий) и Azure 311 — Microsoft Graph
 
 >[!NOTE]
 >Руководства Mixed Reality Academy были разработаны для иммерсивных гарнитур HoloLens (1-го поколения) и иммерсивных гарнитур Mixed Reality.  Поэтому мы считаем, что важно оставить эти руководства для разработчиков, которые ищут рекомендации по разработке для этих устройств.  Данные руководства **_не_** будут обновляться с учетом последних наборов инструментов или возможностей взаимодействия для HoloLens 2.  Они будут сохранены для работы на поддерживаемых устройствах. Появится новая серия руководств, которые будут опубликованы в будущем, где будет показано, как разрабатывать данные для HoloLens 2.  Это уведомление будет обновлено ссылкой на эти учебники при их публикации.
@@ -234,7 +234,7 @@ ms.locfileid: "98583447"
 
         ![](images/AzureLabs-Lab311-23.png)
 
-7.  Нажмите кнопку **Применить**.
+7.  Щелкните **Применить**.
 
 ## <a name="chapter-4---camera-setup"></a>Глава 4. Настройка камеры
 
@@ -955,7 +955,7 @@ ms.locfileid: "98583447"
 
 Для развертывания на HoloLens выполните следующие действия.
 
-1.  Вам потребуется IP-адрес HoloLens (для удаленного развертывания) и убедитесь, что HoloLens находится в **режиме разработчика.** Выполните указанные ниже действия.
+1.  Вам потребуется IP-адрес HoloLens (для удаленного развертывания) и убедитесь, что HoloLens находится в **режиме разработчика.** Для этого выполните следующие действия.
 
     1.  Людьми HoloLens, откройте **Параметры**.
 
@@ -987,12 +987,12 @@ ms.locfileid: "98583447"
 
 ## <a name="bonus-exercises"></a>Дополнительные упражнения
 
-### <a name="exercise-1"></a>Упражнение 1
+### <a name="exercise-1"></a>Упражнение 1
 
 Использование Microsoft Graph для просмотра других сведений о пользователе
 
 -   Адрес электронной почты пользователя, номер телефона или изображение профиля
 
-### <a name="exercise-1"></a>Упражнение 1
+### <a name="exercise-1"></a>Упражнение 1
 
 Реализуйте голосовое управление для навигации по Microsoft Graph пользовательскому интерфейсу.
