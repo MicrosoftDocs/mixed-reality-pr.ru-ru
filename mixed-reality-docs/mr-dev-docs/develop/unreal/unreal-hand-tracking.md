@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 06/10/2020
 ms.topic: article
 keywords: Windows Mixed Reality, отслеживание, неreal, нереалное ядро 4, UE4, HoloLens, HoloLens 2, Смешанная реальность, разработка, функции, документация, руководства, голограммы, Разработка игр, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: ea4ba3ad5905e899eae474e4d571585fef77c0c2
-ms.sourcegitcommit: fd19bf57607c7ed94a849d4cf606bba2bb93e668
+ms.openlocfilehash: 415a0773586ab232e925fd0f18a3a8e6f8217e88
+ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "102117658"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "104695809"
 ---
 # <a name="hand-tracking-in-unreal"></a>Отслеживание рук в Unreal
 
@@ -21,7 +21,8 @@ ms.locfileid: "102117658"
 
 Рука руки позволяет относить и использовать руки и пальцы пользователей в качестве входных данных, к которым можно получить доступ как в чертежах, так и в C++. Нереалный API отправляет данные в виде системы координат с тактами, синхронизированными с нереальным механизмом.
 
-![Схема руки](images/hand-tracking-skeleton-update.png)
+![Схема с изображением руки с ](images/hand-tracking-img-02.png)
+ наложением ![ наложения соединений](images/hand-tracking-skeleton-update.png)
 
 [!INCLUDE[](includes/tabs-tracking-hand-pose.md)]
 

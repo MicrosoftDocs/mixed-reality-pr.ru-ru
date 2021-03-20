@@ -1,19 +1,19 @@
 ---
-title: 301. Смешанная реальность и Azure — перевод на другие языки
+title: HoloLens (1-й общий) и Azure 301 — перевод языка
 description: Пройдите этот курс, чтобы узнать, как реализовать API перевода текстов Azure в приложении смешанной реальности.
 author: drneil
 ms.author: jemccull
 ms.date: 07/04/2018
 ms.topic: article
 keywords: Azure, Mixed Reality, Academy, Unity, учебник, API, текст переводчика, hololens, иммерсивное, VR, языковой перевод, Windows 10, Visual Studio
-ms.openlocfilehash: 0b7e7c2e4146d3c60e62c25764aae48260fdf3ef
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: d02b86b6e62a46cd3ed4ebe7e6188cfda18e0d49
+ms.sourcegitcommit: 35bd43624be33afdb1bf6ba4ddbe36d268eb9bda
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98583290"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104730581"
 ---
-# <a name="mr-and-azure-301-language-translation"></a>301. Смешанная реальность и Azure: перевод с одного языка на другой
+# <a name="hololens-1st-gen-and-azure-301-language-translation"></a>HoloLens (1-й общий) и Azure 301: языковой перевод
 
 <br>
 
@@ -784,10 +784,10 @@ API перевода текстов — это служба перевода, к
 
 ## <a name="bonus-exercises"></a>Дополнительные упражнения
 
-### <a name="exercise-1"></a>Упражнение 1
+### <a name="exercise-1"></a>Упражнение 1
 
 Можно ли добавить в приложение функции преобразования текста в речь, чтобы возвращаемый текст был произнесен?
 
-### <a name="exercise-2"></a>Упражнение 2
+### <a name="exercise-2"></a>Упражнение 2
 
 Предоставление пользователю возможности изменять языки исходного и выходного кода ("с" и "на") в самом приложении, поэтому не требуется перестраивать приложение каждый раз, когда необходимо изменить языки.
