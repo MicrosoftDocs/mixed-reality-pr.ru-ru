@@ -1,19 +1,19 @@
 ---
-title: 302b. Смешанная реальность и Azure — пользовательское визуальное распознавание
+title: HoloLens (1-й общий) и Azure 302B — пользовательская концепция
 description: Пройдите этот курс, чтобы научиться обучить модель машинного обучения, а затем использовать обученную модель для распознавания похожих объектов в приложении смешанной реальности.
 author: drneil
 ms.author: jemccull
 ms.date: 07/03/2018
 ms.topic: article
 keywords: Azure, Mixed Reality, Academy, Unity, учебник, API, пользовательское видение, hololens, иммерсивное, VR, Windows 10, Visual Studio
-ms.openlocfilehash: cba2df5841911df6d60a7060a70f835975a21f62
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: 97fd0ae72401b67a83752cb2cf6799fa2b1ccc0c
+ms.sourcegitcommit: 35bd43624be33afdb1bf6ba4ddbe36d268eb9bda
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98583401"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104730531"
 ---
-# <a name="mr-and-azure-302b-custom-vision"></a>302b. Смешанная реальность и Azure: пользовательское визуальное распознавание
+# <a name="hololens-1st-gen-and-azure-302b-custom-vision"></a>HoloLens (1-й общий) и Azure 302B: пользовательское видение
 
 <br>
 
@@ -1662,7 +1662,7 @@ Azure Пользовательское визуальное распознава
 
 Для развертывания на HoloLens выполните следующие действия.
 
-1.  Вам потребуется IP-адрес HoloLens (для удаленного развертывания) и убедитесь, что HoloLens находится в **режиме разработчика**. Выполните указанные ниже действия.
+1.  Вам потребуется IP-адрес HoloLens (для удаленного развертывания) и убедитесь, что HoloLens находится в **режиме разработчика**. Для этого выполните следующие действия.
 
     1.  Людьми HoloLens, откройте **Параметры**.
 
@@ -1697,7 +1697,7 @@ Azure Пользовательское визуальное распознава
         // Change this flag to switch between Analysis mode and Training mode 
         AppMode = AppModes.Training;
 ```
-или
+или диспетчер конфигурации служб
 ```
         // Change this flag to switch between Analysis mode and Training mode 
         AppMode = AppModes.Analysis;
@@ -1750,11 +1750,11 @@ Azure Пользовательское визуальное распознава
 
 ## <a name="bonus-exercises"></a>Дополнительные упражнения
 
-### <a name="exercise-1"></a>Упражнение 1
+### <a name="exercise-1"></a>Упражнение 1
 
 Обучить **Пользовательская служба визуального распознавания** для распознавания большего числа объектов.
 
-### <a name="exercise-2"></a>Упражнение 2
+### <a name="exercise-2"></a>Упражнение 2
 
 Чтобы расширить свои знания, выполните следующие упражнения.
 

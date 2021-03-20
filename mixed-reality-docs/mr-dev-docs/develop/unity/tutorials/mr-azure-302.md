@@ -1,19 +1,19 @@
 ---
-title: 302. Смешанная реальность и Azure — компьютерное зрение
+title: HoloLens (1-й общий) и Azure 302 — концепция компьютера
 description: Пройдите этот курс, чтобы узнать, как распознать визуальное содержимое в предоставленном образе с помощью Компьютерное зрение Azure в приложении смешанной реальности.
 author: drneil
 ms.author: jemccull
 ms.date: 07/04/2018
 ms.topic: article
 keywords: Azure, Mixed Reality, Academy, Unity, учебник, API, компьютерное зрение, hololens, иммерсивное, VR, Windows 10, Visual Studio
-ms.openlocfilehash: 2ba5f01b0b14c655f8639f74590a511629350fbb
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: 119d83ec9fef97b4e4017b2226a9593404847a71
+ms.sourcegitcommit: 35bd43624be33afdb1bf6ba4ddbe36d268eb9bda
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98583285"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104730541"
 ---
-# <a name="mr-and-azure-302-computer-vision"></a>302. Смешанная реальность и Azure: компьютерное зрение
+# <a name="hololens-1st-gen-and-azure-302-computer-vision"></a>HoloLens (1-й общий) и Azure 302: компьютерное зрение
 
 <br>
 
@@ -709,7 +709,7 @@ Microsoft Компьютерное зрение — это набор интер
 
 Для развертывания на HoloLens выполните следующие действия.
 
-1.  Вам потребуется IP-адрес HoloLens (для удаленного развертывания) и убедитесь, что HoloLens находится в **режиме разработчика**. Выполните указанные ниже действия.
+1.  Вам потребуется IP-адрес HoloLens (для удаленного развертывания) и убедитесь, что HoloLens находится в **режиме разработчика**. Для этого выполните следующие действия.
 
     1. Людьми HoloLens, откройте **Параметры**.
     2. Последовательно выберите **сетевые & интернет > Wi-Fi > дополнительные параметры** .
@@ -737,10 +737,10 @@ Microsoft Компьютерное зрение — это набор интер
 
 ## <a name="bonus-exercises"></a>Дополнительные упражнения
 
-### <a name="exercise-1"></a>Упражнение 1
+### <a name="exercise-1"></a>Упражнение 1
 
 Так же, как вы использовали параметр *Tags* (как свидетельствует в *конечной точке* , используемой в *висионманажер*), расширьте приложение, чтобы обнаружить другие сведения. Ознакомьтесь с другими параметрами [, к которым](https://westus.dev.cognitive.microsoft.com/docs/services/56f91f2d778daf23d8ec6739/operations/56f91f2e778daf14a499e1fa)у вас есть доступ.
 
-### <a name="exercise-2"></a>Упражнение 2
+### <a name="exercise-2"></a>Упражнение 2
 
 Отображение возвращенных данных Azure в более удобном для общения и удобочитаемом виде, возможно, скрытия чисел. Хотя робот может говорить пользователю.

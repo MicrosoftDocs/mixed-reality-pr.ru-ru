@@ -1,19 +1,19 @@
 ---
-title: 100. Основы смешанной реальности — начало работы с Unity
+title: Основные сведения о HoloLens (1 Gen) основы 100 — начало работы с Unity
 description: Узнайте, как создать первое базовое приложение "Hello World" в смешанной реальности для устройств HoloLens и Windows Mixed Reality.
 author: keveleigh
 ms.author: kurtie
 ms.date: 10/22/2019
 ms.topic: article
 keywords: Смешанная реальность, Windows Mixed Reality, HoloLens, иммерсивное, VR, MR, начало работы, голограмма, Academy, учебник, Academy Mixed Reality, Unity, Смешанная реальность, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 86ac759cb73e39f88d62db5dab0c38108bb17d55
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: 999ab7dc87a639f10aad9eaf2a7ef8de2cf92633
+ms.sourcegitcommit: 35bd43624be33afdb1bf6ba4ddbe36d268eb9bda
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98583738"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104730361"
 ---
-# <a name="mr-basics-100-getting-started-with-unity"></a>100. Основы смешанной реальности: начало работы с Unity
+# <a name="hololens-1st-gen-basics-100-getting-started-with-unity"></a>Основные сведения о HoloLens (1 Gen) основы 100: Начало работы с Unity
 
 >[!IMPORTANT]
 >Руководства Mixed Reality Academy были разработаны для иммерсивных гарнитур HoloLens (1-го поколения) и иммерсивных гарнитур Mixed Reality.  Поэтому мы считаем, что важно оставить эти руководства для разработчиков, которые ищут рекомендации по разработке для этих устройств.  Данные руководства **_не_** будут обновляться с учетом последних наборов инструментов или возможностей взаимодействия для HoloLens 2.  Они будут сохранены для работы на поддерживаемых устройствах. Опубликован [новый цикл руководств](mrlearning-base.md) для HoloLens 2.
@@ -154,7 +154,7 @@ ms.locfileid: "98583738"
 2. Откройте **окно > XR > с эмуляцией holographic**.
 3. Измените **режим эмуляции** с **нет** на **Удаленный с устройством**.
 4. В поле **Удаленный компьютер** введите IP-адрес HoloLens, записанный ранее.
-5. Щелкните **Подключить**.
+5. Нажмите кнопку **Подключить**.
 6. Убедитесь, что **состояние подключения** изменено на зеленый **подключен**.
 7. Теперь можно нажать кнопку **воспроизвести** в редакторе Unity.
 

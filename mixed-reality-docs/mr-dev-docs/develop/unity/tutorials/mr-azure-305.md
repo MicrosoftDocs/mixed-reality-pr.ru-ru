@@ -1,19 +1,19 @@
 ---
-title: 305. Смешанная реальность и Azure — функции и хранилище
+title: HoloLens (1-й общий) и Azure 305 — функции и хранилище
 description: Пройдите этот курс, чтобы узнать, как реализовать службу хранилища Azure и функции в приложении смешанной реальности.
 author: drneil
 ms.author: jemccull
 ms.date: 07/04/2018
 ms.topic: article
 keywords: Azure, Mixed Reality, Academy, Unity, учебник, API, функции, хранилище, hololens, иммерсивное, VR, Windows 10, Visual Studio
-ms.openlocfilehash: 5c9784446923b3eae7a600b8e672574ce6465038
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: b55acaf003a1cdf50a5a78e48fdf05a9ab07d0d6
+ms.sourcegitcommit: 35bd43624be33afdb1bf6ba4ddbe36d268eb9bda
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98583428"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104730551"
 ---
-# <a name="mr-and-azure-305-functions-and-storage"></a>305. Смешанная реальность и Azure: функции и хранилище
+# <a name="hololens-1st-gen-and-azure-305-functions-and-storage"></a>HoloLens (1-й общий) и Azure 305: функции и хранилище
 
 <br>
 
@@ -1237,10 +1237,10 @@ ms.locfileid: "98583428"
 
 ## <a name="bonus-exercises"></a>Дополнительные упражнения
 
-### <a name="exercise-1"></a>Упражнение 1
+### <a name="exercise-1"></a>Упражнение 1
 
 Создайте вторую точку порождения и запишите, из какой порожденной точки был создан объект. При загрузке файла данных воспроизводите созданные фигуры из первоначально созданного расположения.
 
-### <a name="exercise-2"></a>Упражнение 2
+### <a name="exercise-2"></a>Упражнение 2
 
 Создайте способ перезапуска приложения, вместо того чтобы повторно открывать его каждый раз. **Загрузка сцен** — хорошее место для начала. После этого создайте способ очистки сохраненного списка в *службе хранилища Azure*, чтобы его можно было легко сбросить из приложения.
