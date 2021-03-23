@@ -8,10 +8,10 @@ ms.topic: article
 keywords: mixed reality, unity, tutorial, hololens
 ms.localizationpriority: high
 ms.openlocfilehash: b7e04a03f01beb1438f6f723c3938d05a60c9131
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
+ms.lasthandoff: 03/19/2021
 ms.locfileid: "98581166"
 ---
 # <a name="1-overview-and-objectives"></a>1. Общие сведения и цели

@@ -8,10 +8,10 @@ ms.topic: article
 ms.localizationpriority: high
 keywords: отслеживание взгляда, смешанная реальность, ввод, управление взглядом, отслеживание взглядом, HoloLens 2, выбор глазами, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, MRTK, Mixed Reality Toolkit, остановка взгляда
 ms.openlocfilehash: 1f337d3cbc1f82b4f69194d4b903687be067f9d6
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
+ms.lasthandoff: 03/19/2021
 ms.locfileid: "97847868"
 ---
 # <a name="eye-gaze-and-commit"></a>Определение направления взгляда и фиксация

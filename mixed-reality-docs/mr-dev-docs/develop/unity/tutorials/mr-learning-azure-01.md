@@ -8,10 +8,10 @@ ms.topic: article
 keywords: Azure, смешанная реальность, Unity, учебник, Hololens, Hololens 2, хранилище BLOB-объектов Azure, табличное хранилище Azure, Пространственные привязки Azure, Azure Bot Framework, облачные службы Azure, Пользовательское визуальное распознавание Azure, Windows 10
 ms.localizationpriority: high
 ms.openlocfilehash: 60ca15ebccaa8348ebd47f7d4bf6245ca1496775
-ms.sourcegitcommit: 68140e9ce84e69a99c2b3d970c7b8f2927a7fc93
+ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
+ms.lasthandoff: 03/19/2021
 ms.locfileid: "99590706"
 ---
 # <a name="1-azure-cloud-services-for-hololens-2"></a>1. Облачные службы Azure для HoloLens 2
@@ -87,7 +87,7 @@ ms.locfileid: "99590706"
 1. [Создание проекта Unity](mr-learning-base-02.md#creating-the-unity-project) и присвоение ему подходящего имени, например *Azure Cloud Tutorials*.
 2. [Переключение платформы сборки.](mr-learning-base-02.md#switching-the-build-platform)
 3. [Импорт требуемых ресурсов TextMeshPro.](mr-learning-base-02.md#importing-the-textmeshpro-essential-resources)
-4. [Импорт набора средств для смешанной реальности (MRTK).](mr-learning-base-02.md#importing-the-mixed-reality-toolkit)
+4. [Импорт набора средств для Смешанной реальности (MRTK).](mr-learning-base-02.md#importing-the-mixed-reality-toolkit)
 5. [Настройка проекта Unity.](mr-learning-base-02.md#configuring-the-unity-project)
 6. [Создание и настройка сцены](mr-learning-base-02.md#creating-and-configuring-the-scene) и назначение ей понятного имени, например *AzureCloudServices.*
 

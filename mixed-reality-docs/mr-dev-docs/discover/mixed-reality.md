@@ -8,10 +8,10 @@ ms.topic: article
 keywords: смешанная реальность, голографические возможности, AR, VR, MR, XR, дополненная реальность, виртуальная реальность, объяснение, пример внедрения, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, что такое виртуальная реальность, что такое дополненная реальность
 ms.localizationpriority: high
 ms.openlocfilehash: 2eac20b85ceeb9413dfc0b6820cceda2ddf335c5
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
+ms.lasthandoff: 03/19/2021
 ms.locfileid: "98583018"
 ---
 # <a name="what-is-mixed-reality"></a>Что такое смешанная реальность?

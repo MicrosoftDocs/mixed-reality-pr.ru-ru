@@ -118,53 +118,53 @@
           items:
             - name: Функции Смешанной реальности
               items:
-                - name: "100. Основы смешанной реальности\_— начало работы с Unity"
+                - name: "100. HoloLens (1-го поколения). Основы\_— начало работы с Unity"
                   href: unity/tutorials/holograms-100.md
-                - name: "101. Основы смешанной реальности\_— полный проект с использованием устройства"
+                - name: "101. HoloLens (1-го поколения). Основы\_— завершение проекта с использованием устройства"
                   href: unity/tutorials/holograms-101.md
-                - name: "101E. Основы смешанной реальности\_— полный проект с использованием эмулятора"
+                - name: "101E. HoloLens (1-го поколения). Основы\_— завершение проекта с использованием эмулятора"
                   href: unity/tutorials/holograms-101e.md
-                - name: "210. Ввод в смешанной реальности\_— взгляд"
+                - name: "210. HoloLens (1-го поколения). Ввод\_— взгляд"
                   href: unity/tutorials/holograms-210.md
-                - name: "211. Ввод в смешанной реальности\_— жест"
+                - name: "211. HoloLens (1-го поколения). Ввод\_— жест"
                   href: unity/tutorials/holograms-211.md
-                - name: "212. Ввод в смешанной реальности\_— голос"
+                - name: "212. HoloLens (1-го поколения). Ввод\_— голос"
                   href: unity/tutorials/holograms-212.md
-                - name: "220. Пространство в смешанной реальности\_— пространственный звук"
+                - name: "220. HoloLens (1-го поколения). Пространство\_—пространственный звук"
                   href: unity/tutorials/holograms-220.md
-                - name: "230. Пространство в смешанной реальности\_— пространственное сопоставление"
+                - name: "230. HoloLens (1-го поколения). Пространство\_—пространственное сопоставление"
                   href: unity/tutorials/holograms-230.md
-                - name: "240. Общий доступ в смешанной реальности\_— несколько устройств HoloLens"
+                - name: "240. HoloLens (1-го поколения). Совместный доступ\_— несколько устройств HoloLens"
                   href: unity/tutorials/holograms-240.md
             - name: Смешанная реальность и службы Azure
               items:
-                - name: "301. Смешанная реальность и Azure\_— перевод на другие языки"
+                - name: "301. HoloLens (1-го поколения) и Azure\_— перевод с одного языка на другой"
                   href: unity/tutorials/mr-azure-301.md
-                - name: "302. Смешанная реальность и Azure\_— компьютерное зрение"
+                - name: "302. HoloLens (1-го поколения) и Azure\_— компьютерное зрение"
                   href: unity/tutorials/mr-azure-302.md
-                - name: "302b. Смешанная реальность и Azure\_— пользовательское визуальное распознавание"
+                - name: "302b. HoloLens (1-го поколения) и Azure\_— пользовательское визуальное распознавание"
                   href: unity/tutorials/mr-azure-302b.md
-                - name: "303. Смешанная реальность и Azure\_— распознавание естественного языка"
+                - name: "303. HoloLens (1-го поколения) и Azure\_— распознавание естественного языка"
                   href: unity/tutorials/mr-azure-303.md
-                - name: "304. Смешанная реальность и Azure\_— распознавание лиц"
+                - name: "304. HoloLens (1-го поколения) и Azure\_— распознавание лиц"
                   href: unity/tutorials/mr-azure-304.md
-                - name: "305. Смешанная реальность и Azure\_— функции и хранилище"
+                - name: "305. HoloLens (1-го поколения) и Azure\_— функции и хранилище"
                   href: unity/tutorials/mr-azure-305.md
-                - name: "306. Смешанная реальность и Azure\_— потоковая передача видео"
+                - name: "306. HoloLens (1-го поколения) и Azure\_— потоковая передача видео"
                   href: unity/tutorials/mr-azure-306.md
-                - name: "307. Смешанная реальность и Azure\_— машинное обучение"
+                - name: "307. HoloLens (1-го поколения) и Azure\_— машинное обучение"
                   href: unity/tutorials/mr-azure-307.md
-                - name: "308. Смешанная реальность и Azure\_— уведомления на разных устройствах"
+                - name: "308. HoloLens (1-го поколения) и Azure\_— уведомления на разных устройствах"
                   href: unity/tutorials/mr-azure-308.md
-                - name: "309. Смешанная реальность и Azure\_— Application Insights"
+                - name: "309. HoloLens (1-го поколения) и Azure\_— Application Insights"
                   href: unity/tutorials/mr-azure-309.md
-                - name: "310. Смешанная реальность и Azure\_— обнаружение объектов"
+                - name: "310. HoloLens (1-го поколения) и Azure\_— обнаружение объектов"
                   href: unity/tutorials/mr-azure-310.md
-                - name: "311. Смешанная реальность и Azure\_— Microsoft Graph"
+                - name: "311. HoloLens (1-го поколения) и Azure\_— Microsoft Graph"
                   href: unity/tutorials/mr-azure-311.md
-                - name: "312. Смешанная реальность и Azure\_— интеграция ботов"
+                - name: "312. HoloLens (1-го поколения) и Azure\_— интеграция ботов"
                   href: unity/tutorials/mr-azure-312.md
-                - name: "313. Смешанная реальность и Azure\_— служба \"Центр Интернета вещей\""
+                - name: "313. HoloLens (1-го поколения) и Azure\_— служба Центра Интернета вещей"
                   href: unity/tutorials/mr-azure-301.md
     - name: Настройка проекта
       items:

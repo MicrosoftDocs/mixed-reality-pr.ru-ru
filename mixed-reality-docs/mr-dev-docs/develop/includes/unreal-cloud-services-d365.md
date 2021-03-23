@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: 905208a27e89f23e2ed7d755eede6a8e3d4ea181
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
+ms.lasthandoff: 03/19/2021
 ms.locfileid: "98580050"
 ---
 # <a name="azure-spatial-anchors"></a>[Пространственные привязки Azure.](#tab/asa)

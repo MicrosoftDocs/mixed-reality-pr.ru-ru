@@ -8,10 +8,10 @@ ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, решатели, коллекция объектов сетки
 ms.localizationpriority: high
 ms.openlocfilehash: 9087800eca3536704ed4ef01a5d8178720b6a875
-ms.sourcegitcommit: 68140e9ce84e69a99c2b3d970c7b8f2927a7fc93
+ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
+ms.lasthandoff: 03/19/2021
 ms.locfileid: "99590528"
 ---
 # <a name="4-positioning-objects-in-the-scene"></a>4. Размещение объектов в сцене

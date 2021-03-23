@@ -6,12 +6,12 @@ ms.author: thmignon
 ms.date: 04/30/2018
 ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, Главная, пользовательские среды, места, Клифф House, скилофт, пользователь, создание, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура Virtual Reality, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: ca6a41f8388a767b1191ddc3b377822567a603a6
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: 2a626b91b79eadb49c9da95c9d61f92a375015a0
+ms.sourcegitcommit: f74d33d50c1fbfebe8571695d631ce78dd599f74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98583307"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "104881221"
 ---
 # <a name="design-your-own-immersive-environments"></a>Разработка собственных иммерсивных сред
 
@@ -31,7 +31,7 @@ ms.locfileid: "98583307"
     <col width="33%" />
     </colgroup>
     <tr>
-        <td><strong>Возможность</strong></td>
+        <td><strong>Компонент</strong></td>
         <td><a href="/hololens/hololens2-hardware"><strong>HoloLens</strong></a></td>
         <td><a href="../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
     </tr>
@@ -82,7 +82,7 @@ Windows Mixed Reality использует двоичный Глтф (. GLBA) в
 
 Первый шаг в экспорте ресурсов для использования в качестве пользовательских домашних сред — создание модели Глтф 2,0. Рабочая группа Глтф содержит [список поддерживаемых экспортов и конвертеров](https://github.com/KhronosGroup/glTF/blob/master/README.md#converters-and-exporters) для создания модели глтф 2,0. Чтобы приступить к работе, используйте одну из программ, перечисленных на этой странице, для создания и экспорта модели Глтф 2,0 или преобразования существующей модели с помощью одного из поддерживаемых преобразователей.
 
-Кроме того, ознакомьтесь с разработкой [Эта статья поможет вам в обзоре рабочего процесса для экспорта моделей Глтф из Blend и 3DS Max напрямую. 
+<!-- Additionally, check out [this helpful article, which provides an overview of an art workflow for exporting glTF models from Blender and 3DS Max directly.  -->
 
 ### <a name="environment-limits"></a>Ограничения среды
 
