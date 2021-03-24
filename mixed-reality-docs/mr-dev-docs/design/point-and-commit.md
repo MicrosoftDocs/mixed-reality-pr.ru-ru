@@ -8,10 +8,10 @@ ms.topic: article
 ms.localizationpriority: high
 keywords: смешанная реальность, взаимодействие, проектирование, HoloLens, руки, дальность, наведение и фиксация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, телекинез, манипулирование объектами, MRTK, Mixed Reality Toolkit, степень свободы
 ms.openlocfilehash: 8196b67f103bae346ba4da065ee6045ff231b004
-ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
+ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
+ms.lasthandoff: 03/19/2021
 ms.locfileid: "101759870"
 ---
 # <a name="point-and-commit-with-hands"></a>Наведение и фиксация с использованием рук
