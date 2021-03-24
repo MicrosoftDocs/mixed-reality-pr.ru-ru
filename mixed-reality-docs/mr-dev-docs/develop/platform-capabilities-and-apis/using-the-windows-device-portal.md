@@ -8,10 +8,10 @@ ms.topic: article
 keywords: Портал устройств Windows, HoloLens
 ms.localizationpriority: high
 ms.openlocfilehash: 83bc2183d40f9dbfb00799475522606ff59ccfa0
-ms.sourcegitcommit: fd19bf57607c7ed94a849d4cf606bba2bb93e668
+ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
+ms.lasthandoff: 03/19/2021
 ms.locfileid: "102117648"
 ---
 # <a name="using-the-windows-device-portal"></a>Использование портала устройств Windows
