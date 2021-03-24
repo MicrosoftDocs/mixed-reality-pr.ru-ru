@@ -6,12 +6,12 @@ ms.author: grbury
 ms.date: 08/24/2019
 ms.topic: overview
 keywords: Windows Mixed Reality, HoloLens, пример внедрения, концепция, сценарии, примеры внедрения, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 7d3e2f3bbbc6a89bf4f136e2657f8a9abe7b9560
-ms.sourcegitcommit: 8d3b84d2aa01f078ecf92cec001a252e3ea7b24d
+ms.openlocfilehash: 696223d2c5d122a1b1c092a2769d27ac0e94046c
+ms.sourcegitcommit: cbfd1c37612aa6904fa41642ede6281d491e478d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "97757652"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "104895165"
 ---
 # <a name="case-study-gallery"></a>Коллекция примеров использования
 
@@ -19,23 +19,28 @@ ms.locfileid: "97757652"
 
 :::row:::
     :::column:::
-       [ ![ 3 холостудио пользовательского интерфейса и проектирования взаимодействия обучение](images/thought-bubble-500px.jpg)](../out-of-scope/case-study-3-holostudio-ui-and-interaction-design-learnings.md) **[3 холостудио пользовательского интерфейса и модели взаимодействия](../out-of-scope/case-study-3-holostudio-ui-and-interaction-design-learnings.md)**<br>
-        Холостудио был одним из первых приложений для HoloLens. Поэтому нам пришлось создавать новые рекомендации по трехмерному ИНТЕРФЕЙСу и проектированию взаимодействия. Мы сделали это с помощью тестирования пользователей, создания прототипов, проб и ошибок.<br>
-        *Июль 2016 г.*
+       [ ![ Форд GT40 Experience](../develop/unreal/images/ford-gt40-img-01.jpg)](../develop/unreal/unreal-ford-gt40.md) **[Форд GT40](../develop/unreal/unreal-ford-gt40.md)**<br>
+        В этом практическом примере вы можете приступить к работе с легендарном рацекар, в течение которых Феррари в течение 1966 24 ч Манс состязаний, так как Форд GT40 в начале работы над таблицей.<br>
+        *Февраль 2021 г.*
+    :::column-end:::
+    :::column:::
+       [ ![ Масштабирование датаскапе на разных устройствах с различным](images/cloud-steps-1-4-700px.jpg)](../out-of-scope/case-study-scaling-datascape-across-devices-with-different-performance.md) **[масштабированием производительности датаскапе на разных устройствах с различной производительностью](../out-of-scope/case-study-scaling-datascape-across-devices-with-different-performance.md)**<br>
+        В этом практическом примере представлено представление о том, как разработчики Майкрософт оптимизируют приложение Датаскапе, чтобы обеспечить привлекательную работу на устройствах с различными возможностями повышения производительности.<br>
+        *Август 2017 г.*
     :::column-end:::
     :::column:::
        [ ![ Создание холоскетч, пространственного макета и приложения для создания наброска](images/holosketch-image-01-640px.png)](../out-of-scope/case-study-building-holosketch,-a-spatial-layout-and-ux-sketching-app-for-hololens.md) , предназначенного для hololens **[здания холоскетч, пространственного макета и приложения наброска наметки UX для hololens](../out-of-scope/case-study-building-holosketch,-a-spatial-layout-and-ux-sketching-app-for-hololens.md)**<br>
         Холоскетч — это пространственный макет на устройстве и средство создания наброска UX для HoloLens, помогающее в создании Holographic.<br>
          *Июль 2017 г.*
     :::column-end:::
-    :::column:::
-       [ ![ Создание иммерсивного интерфейса в фрагментах](images/surfacereconstruction.jpg)](../out-of-scope/case-study-creating-an-immersive-experience-in-fragments.md) с **[помощью фрагментов](../out-of-scope/case-study-creating-an-immersive-experience-in-fragments.md)**<br>
-        Фрагменты — это интерактивные преступления, драма для Microsoft HoloLens, где вы подберете на себя подсказки для решения загадкы в реальной сфере.<br>
-        *Август 2016 г.*
-    :::column-end:::
 :::row-end:::
 
 :::row:::
+    :::column:::
+       [ ![ Использование плоскости стабилизации для уменьшения holographic турбуленце](images/holotour-stabilization-plane-500px.jpg)](../develop/platform-capabilities-and-apis/case-study-using-the-stabilization-plane-to-reduce-holographic-turbulence.md) **[с помощью плоскости стабилизации, чтобы сократить турбуленце](../develop/platform-capabilities-and-apis/case-study-using-the-stabilization-plane-to-reduce-holographic-turbulence.md)**<br>
+        Работа с голограммами может быть непростой. Тот факт, что вы можете перемещаться вокруг своего пространства и видеть самые голограммы из всех разных углов, обеспечивает уровень погружения, который нельзя получить с помощью обычного экрана компьютера.<br>
+        *Апрель 2017 г.*
+    :::column-end:::
     :::column:::
        [ ![ Расширение возможностей пространственных сопоставлений hololens](images/away-from-camera-position-500px.png)](../out-of-scope/case-study-expanding-the-spatial-mapping-capabilities-of-hololens.md) **[расширение возможностей пространственного сопоставления в hololens](../out-of-scope/case-study-expanding-the-spatial-mapping-capabilities-of-hololens.md)**<br>
         При создании наших первых приложений для Microsoft HoloLens мы затронули, насколько проводилась бы возможность отправки на устройстве границ пространственного сопоставления.<br>
@@ -46,20 +51,18 @@ ms.locfileid: "97757652"
         Группа HoloLens хочет поделиться некоторыми рекомендациями, полученными из проекта HoloLens Лоу.<br>
         *Сентябрь 2016 г.*
     :::column-end:::
-    :::column:::
-       [ ![ Использование плоскости стабилизации для уменьшения holographic турбуленце](images/holotour-stabilization-plane-500px.jpg)](../develop/platform-capabilities-and-apis/case-study-using-the-stabilization-plane-to-reduce-holographic-turbulence.md) **[с помощью плоскости стабилизации, чтобы сократить турбуленце](../develop/platform-capabilities-and-apis/case-study-using-the-stabilization-plane-to-reduce-holographic-turbulence.md)**<br>
-        Работа с голограммами может быть непростой. Тот факт, что вы можете перемещаться вокруг своего пространства и видеть самые голограммы из всех разных углов, обеспечивает уровень погружения, который нельзя получить с помощью обычного экрана компьютера.<br>
-        *Апрель 2017 г.*
-    :::column-end:::
 :::row-end:::
 
 :::row:::
     :::column:::
-       [ ![ Масштабирование датаскапе на разных устройствах с различным](images/cloud-steps-1-4-700px.jpg)](../out-of-scope/case-study-scaling-datascape-across-devices-with-different-performance.md) **[масштабированием производительности датаскапе на разных устройствах с различной производительностью](../out-of-scope/case-study-scaling-datascape-across-devices-with-different-performance.md)**<br>
-        В этом практическом примере представлено представление о том, как разработчики Майкрософт оптимизируют приложение Датаскапе, чтобы обеспечить привлекательную работу на устройствах с различными возможностями повышения производительности.<br>
-        *Август 2017 г.*
+       [ ![ Создание иммерсивного интерфейса в фрагментах](images/surfacereconstruction.jpg)](../out-of-scope/case-study-creating-an-immersive-experience-in-fragments.md) с **[помощью фрагментов](../out-of-scope/case-study-creating-an-immersive-experience-in-fragments.md)**<br>
+        Фрагменты — это интерактивные преступления, драма для Microsoft HoloLens, где вы подберете на себя подсказки для решения загадкы в реальной сфере.<br>
+        *Август 2016 г.*
     :::column-end:::
     :::column:::
+       [ ![ 3 холостудио пользовательского интерфейса и проектирования взаимодействия обучение](images/thought-bubble-500px.jpg)](../out-of-scope/case-study-3-holostudio-ui-and-interaction-design-learnings.md) **[3 холостудио пользовательского интерфейса и модели взаимодействия](../out-of-scope/case-study-3-holostudio-ui-and-interaction-design-learnings.md)**<br>
+        Холостудио был одним из первых приложений для HoloLens. Поэтому нам пришлось создавать новые рекомендации по трехмерному ИНТЕРФЕЙСу и проектированию взаимодействия. Мы сделали это с помощью тестирования пользователей, создания прототипов, проб и ошибок.<br>
+        *Июль 2016 г.*
     :::column-end:::
     :::column:::
     :::column-end:::
