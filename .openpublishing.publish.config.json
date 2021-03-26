@@ -43,6 +43,35 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
+    },
+    {
+      "docset_name": "mrtk-unity",
+      "build_source_folder": "mrtk-unity",
+      "build_output_subfolder": "mrtk-unity",
+      "locale": "ru-ru",
+      "monikers": [],
+      "moniker_ranges": [],
+      "xref_query_tags": [
+        "/dotnet"
+      ],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
+      }
+    },
+    {
+      "docset_name": "mrtk-unreal",
+      "build_source_folder": "mrtk-unreal",
+      "build_output_subfolder": "mrtk-unreal",
+      "locale": "ru-ru",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
     }
   ],
   "notification_subscribers": [],
@@ -54,7 +83,9 @@
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
-  "contribution_branch_mappings": {"live-sxs": "live"},
+  "contribution_branch_mappings": {
+    "live-sxs": "live"
+  },
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -74,7 +105,7 @@
       "branch": "live",
       "branch_mapping": {
         "live": "live",
-        "master": "master"
+        "main": "main"
       }
     }
   ],
