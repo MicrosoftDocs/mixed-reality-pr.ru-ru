@@ -1,18 +1,18 @@
 ---
 title: Обнаружение и получение функций
-description: Изучение и скачивание функций смешанной реальности.
+description: Обнаружение и скачивание функций смешанной реальности.
 author: davidkline-ms
 ms.author: v-hferrone
-ms.date: 01/27/2021
+ms.date: 03/04/2021
 ms.topic: article
 ms.localizationpriority: high
 keywords: актуальность, инструменты, начало работы, основы, Unity, Visual Studio, набор средств, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, установка, Windows, HoloLens, эмулятор, Unreal, OpenXR
-ms.openlocfilehash: 4da6b6fdfc0205d4fa7fb5bf4ae9e48993d7c1e6
-ms.sourcegitcommit: cef969ffd22dc1e5a1e9c3c32fbf0646206519a1
+ms.openlocfilehash: 859abd0c8e538392a7ba2a1adbb4387956c50028
+ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "99244024"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "102230723"
 ---
 # <a name="discovering-and-acquiring-features"></a>Обнаружение и получение функций
 
@@ -51,8 +51,7 @@ ms.locfileid: "99244024"
 
 ## <a name="refresh-the-feature-catalog"></a>Обновление каталога функций
 
-Чтобы проверить наличие новых функций и обновлений, нажмите кнопку "Обновить". ![кнопка "Обновить"](images/RefreshButton.png) . Это действие устанавливает подключение к сайту каталога и получает последние сведения.
-* После считывания каталога отобразятся дата и время последнего обновления.
+Чтобы проверить наличие новых функций и обновлений, нажмите кнопку "Обновить". ![кнопка "Обновить"](images/RefreshButton.png) . Это действие устанавливает подключение к сайту каталога и получает последние сведения. После считывания каталога отобразятся дата и время последнего обновления.
 
 ## <a name="select-features"></a>Выбор функций
 
@@ -73,7 +72,7 @@ ms.locfileid: "99244024"
 
 ## <a name="going-back-to-the-previous-step"></a>Переход к предыдущему шагу
 
-Из раздела **Обнаружение функций** в средстве Mixed Reality Feature Tool можно вернуться назад к началу процесса. Щелкните **Назад**, чтобы повторить этот процесс с начала.
+Из раздела **Обнаружение функций** в средстве Mixed Reality Feature Tool можно вернуться к выбору проекта. Щелкните **Назад**, чтобы повторить этот процесс с начала.
 
 ## <a name="see-also"></a>См. также
 

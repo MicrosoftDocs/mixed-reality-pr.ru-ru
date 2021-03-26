@@ -7,12 +7,12 @@ ms.date: 12/11/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unity, смешанная реальность, разработка, начало работы, новый проект, перенос, возможность, камера, имитация, эмуляция, документация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, что такое виртуальная реальность, что такое дополненная реальность, MRTK, Mixed Reality Toolkit, голосовой ввод, камера с определяемым местоположением, эмулятор, Azure, руководства
-ms.openlocfilehash: 65b45d448854f8903ed37466ebaa3c427dea3089
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: e80c5411c7d180e0d78e031599455235dabaceb7
+ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98582941"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "102237145"
 ---
 # <a name="unity-development-for-vr-and-windows-mixed-reality"></a>Разработка в Unity для виртуальной реальности и Windows Mixed Reality
 
@@ -74,7 +74,7 @@ ms.locfileid: "98582941"
 Прежде чем приступать к разработке приложений для смешанной реальности, изучите приведенную ниже документацию. 
 
 * [Руководство для энтузиастов виртуальной реальности](/windows/mixed-reality/enthusiast-guide/vr-journey)
-* [Магазин ресурсов Unity](https://www.assetstore.unity3d.com)
+* [Магазин ресурсов Unity](https://assetstore.unity.com)
 
 ## <a name="see-also"></a>См. также статью 
 

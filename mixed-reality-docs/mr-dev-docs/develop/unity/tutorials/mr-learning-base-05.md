@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, решатели
 ms.localizationpriority: high
-ms.openlocfilehash: 73fbbc64eadec1e3b83d6e10866bd227217f0c9c
-ms.sourcegitcommit: 68140e9ce84e69a99c2b3d970c7b8f2927a7fc93
+ms.openlocfilehash: 11d25a13e679308ef7f0f4302dd7df29e413a435
+ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "99590486"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "102237067"
 ---
 # <a name="5-creating-dynamic-content-using-solvers"></a>5. Создание динамического содержимого с помощью решателей
 
@@ -30,7 +30,7 @@ ms.locfileid: "99590486"
 
 ![Окно проекта Unity с выбранной папкой решателей](images/mr-learning-base/base-05-section1-step1-1.png)
 
-В этом учебнике мы рассмотрим реализацию решателя указателей направлений и решателя размещения касанием. Чтобы получить дополнительную информацию о полном наборе решателей, доступных в MRTK, просмотрите раздел [Solvers](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_Solver.html) (Решатели) на [портале документации по MRTK](https://microsoft.github.io/MixedRealityToolkit-Unity/README.html).
+В этом учебнике мы рассмотрим реализацию решателя указателей направлений и решателя размещения касанием. Чтобы получить дополнительную информацию о полном наборе решателей, доступных в MRTK, просмотрите раздел [Solvers](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/ux-building-blocks/solvers/solver.md) (Решатели) на [портале документации по MRTK](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs).
 
 > [!NOTE]
 > Решатель указателей направлений не расположен в папках решателей, указанных выше. Он расположен в папках Packages > Mixed Reality Toolkit Foundation > SDK > Experimental > Features > Utilities, так как это экспериментальная функция.
@@ -72,7 +72,7 @@ ms.locfileid: "99590486"
 > Если вы не видите в окне Scene (Сцена) луч направления камеры, проверьте, включено ли меню Gizmos (Манипуляторы), как показано на изображении выше.
 
 > [!TIP]
-> Сведения о том, как можно использовать встроенный имитатор ввода, см. в руководстве [по использованию имитации ввода с помощью рук в редакторе для тестирования сцены](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/GettingStartedWithTheMRTK.html#using-the-in-editor-hand-input-simulation-to-test-a-scene), размещенному на [портале документации MRTK](https://microsoft.github.io/MixedRealityToolkit-Unity/README.html).
+> Сведения о том, как можно использовать встроенный имитатор ввода, см. в руководстве [по использованию имитации ввода с помощью рук в редакторе для тестирования сцены](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/GettingStartedWithTheMRTK.html#using-the-in-editor-hand-input-simulation-to-test-a-scene), размещенному на [портале документации MRTK](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs).
 
 > [!TIP]
 > Если на компьютере установлен микрофон, можно легко переключить активное состояние панели Diagnostics (Диагностика), отображаемой в окне Game (Игра), с помощью голосовой команды toggle diagnostics (переключить диагностику). Кроме того, ее можно отключить в разделе MRTK Configuration Profile (Профиль конфигурации MRTK) > Diagnostics (Диагностика) > Enable Diagnostics System (Включить систему диагностики). Обычно рекомендуется оставлять систему диагностики активной во время разработки.
@@ -82,6 +82,7 @@ ms.locfileid: "99590486"
 В окне Hierarchy (Иерархия) выберите объект RoverExplorer > **RoverAssembly**, затем в окне Inspector (Инспектор) нажмите кнопку **Add Component** (Добавить компонент), чтобы добавить компонент **Tap To Place (Script)** (Размещение касанием — скрипт), и настройте его следующим образом:
 
 * Убедитесь, что для параметра **Tracked Target Type** (Тип отслеживаемой цели) компонента **SolverHandler** указано значение **Head** (Головной).
+* Снимите флажок **Use Default Surface Normal Offset** (Использовать стандартное смещение поверхности) и убедитесь, что для параметра **Surface Normal Offset** (Стандартное смещение нормали) установлено значение 0.
 * Установите флажок **Keep Orientation Vertical** (Оставить вертикальную ориентацию).
 * В выпадающем списке **Magnetic Surfaces** > **Element 0** (Магнитные поверхности > Элемент 0) снимите флажки всех параметров, кроме **Spatial Awareness** (Отслеживание пространственного положения).
 
@@ -139,7 +140,7 @@ ms.locfileid: "99590486"
 
 Из этого учебника вы узнали, как использовать решатель указателя направления MRTK, чтобы элемент пользовательского интерфейса интуитивно направлял пользователя к объектам. Вы также узнали, как использовать решатель размещения касанием, чтобы без проблем изменять расположение объектов.
 
-Чтобы получить дополнительные сведения об этих и других решателях в составе MRTK, ознакомьтесь с руководством [Решатели](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_Solver.html) на [портале документации по MRTK](https://microsoft.github.io/MixedRealityToolkit-Unity/README.html).
+Чтобы получить дополнительные сведения об этих и других решателях в составе MRTK, ознакомьтесь с руководством [Решатели](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/ux-building-blocks/solvers/solver.md) на [портале документации по MRTK](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/).
 
 > [!div class="nextstepaction"]
 >[Следующее руководство: 6. Создание пользовательских интерфейсов](mr-learning-base-06.md)
