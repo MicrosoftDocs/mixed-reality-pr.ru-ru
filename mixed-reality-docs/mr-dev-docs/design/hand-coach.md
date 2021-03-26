@@ -6,12 +6,12 @@ ms.author: glee
 ms.date: 09/25/2019
 ms.topic: article
 keywords: Windows Mixed Reality, проектирование, рука, увлекательная гарнитура, МРТК, руки, помощь в руки, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: ca23617e18c84f592ebd0575195b6bf4a98e80e5
-ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
+ms.openlocfilehash: 56a56893a7c5bc772268ab9980f25327eae83af5
+ms.sourcegitcommit: ac315c1d35f2b9c431e79bc3f1212215301bb867
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101759480"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105550074"
 ---
 # <a name="hand-coach"></a>Обучающая рука
 
@@ -85,7 +85,7 @@ ms.locfileid: "101759480"
 
 ## <a name="can-i-create-my-own"></a>Можно ли создать собственную?
 
-Да. Мы рекомендуем вам создать собственный уникальный жест для игры и участвовать в сообществе!
+Да! Мы рекомендуем вам создать собственный уникальный жест для игры и участвовать в сообществе!
 Мы предоставили Maya-файл с определенной нагрузкой, который можно использовать для приложения, который можно скачать здесь: <a href="files/HandCoach_MRTK.zip"> скачать HandCoach_MRTK.zip </a>
 
 ![Пример анимированных рук в Maya](images/HandCoach/MayaSelect_Gif.gif)<br>
@@ -169,7 +169,7 @@ ms.locfileid: "101759480"
 * Руки следует научиться только один раз. Чрезмерное обучение может привести к путанице и неправильной работе
 *   Загрузив его в Unity, скачайте последнюю версию МРТК здесь: https://github.com/microsoft/MixedRealityToolkit-Unity
     *   Материал: Teaching_Hand2
-    *   Сценарии. см. рекомендации по МРТК для <a href= "https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/experimental/hand-coach.md"> мртк </a>
+    *   Сценарии. см. рекомендации по МРТК для <a href= "/windows/mixed-reality/mrtk-docs/features/experimental/hand-coach.md"> мртк </a>
     *   Параметр для каждого проекта
         *   Для сцены задано значение UWP: инструкции см. в [проекте настройки Unity](../develop/unity/Configure-Unity-Project.md) для Windows Mixed Reality.
 
@@ -178,7 +178,7 @@ ms.locfileid: "101759480"
 * [Принципы взаимодействия](interaction-fundamentals.md)
 * [Процесс создания ресурсов](asset-creation-process.md)
 * [Жесты](./interaction-fundamentals.md)
-* [Установка инструментов](../develop/install-the-tools.md)
+* [Установка средств](../develop/install-the-tools.md)
 * [Настройка проекта Unity](../develop/unity/Configure-Unity-Project.md)
 * [Обзор разработки в Unity](../develop/unity/unity-development-overview.md)
-* [МРТК 101](../develop/unity/mrtk-101.md)
+* [МРТК 101](../out-of-scope/mrtk-101.md)

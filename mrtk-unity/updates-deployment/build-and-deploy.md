@@ -5,12 +5,12 @@ author: polar-kev
 ms.author: kesemple
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK, Visual Studio, Android, IOS
-ms.openlocfilehash: 235255dcb94f2df3c1ab4c8e8ccc71ba53992b2f
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: 6f014bbd1ffd5dc0214bc52e1d3d3861409f85f6
+ms.sourcegitcommit: ac315c1d35f2b9c431e79bc3f1212215301bb867
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "104690134"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105550864"
 ---
 # <a name="building-and-deploying-mrtk"></a>Сборка и развертывание MRTK
 
@@ -18,7 +18,7 @@ ms.locfileid: "104690134"
 
 ## <a name="building-and-deploying-mrtk-to-hololens-1-and-hololens-2-uwp"></a>Сборка и развертывание MRTK на HoloLens 1 и HoloLens 2 (UWP)
 
-Инструкции по сборке и развертыванию для HoloLens 1 и HoloLens 2 (UWP) можно найти в статье [о сборке приложения на устройстве](https://docs.microsoft.com/windows/mixed-reality/mrlearning-base-ch1#build-your-application-to-your-device).
+Инструкции по сборке и развертыванию для HoloLens 1 и HoloLens 2 (UWP) можно найти в статье [о сборке приложения на устройстве](/windows/mixed-reality/mrlearning-base-ch1#build-your-application-to-your-device).
 
 **Совет.** При сборке для платформы WMR, HoloLens 1 или HoloLens 2 мы рекомендуем использовать следующие параметры сборки для целевой версии пакета SDK и минимальной версии платформы:
 

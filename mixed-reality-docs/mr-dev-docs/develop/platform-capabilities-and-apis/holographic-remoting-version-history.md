@@ -6,12 +6,12 @@ ms.author: flbagar
 ms.date: 12/01/2020
 ms.topic: article
 keywords: HoloLens, удаленное взаимодействие, holographic удаленное взаимодействие, журнал версий, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 8fa1671657a7cb057f88da24fe4cfe68b0401397
-ms.sourcegitcommit: 029f247a6c33068360d3a06f2a473a12586017e1
+ms.openlocfilehash: 101061f69fcd4bd3885aa265f32ba2a8f93bf3dc
+ms.sourcegitcommit: ac315c1d35f2b9c431e79bc3f1212215301bb867
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "100496042"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105550134"
 ---
 # <a name="holographic-remoting-version-history"></a>Журнал версий службы удаленного взаимодействия с holographic
 
@@ -25,7 +25,7 @@ ms.locfileid: "100496042"
   * Пользовательские каналы данных как часть расширения XR_MSFT_holographic_remoting. Пример для этого показан в [опенкср Remote Sample](https://github.com/microsoft/MixedReality-HolographicRemoting-Samples).
 * Улучшенная синхронизация между проигрывателем и удаленной стороной. Это позволяет динамически изменять буферы объектов и буферизации, что обеспечивает непрерывное отображение удаленного отображения содержимого при ожидаемой частоте целевых кадров.
 * Улучшена производительность плеера holographic Remoting, доступного через Microsoft Store. В HoloLens 2 игрок теперь работает в 60 кадрах в секунду.
-* Оптимизированная передача сеток пространственных поверхностей, которые можно запрашивать через [спатиалсурфацеобсервер](https://docs.microsoft.com/uwp/api/windows.perception.spatial.surfaces.spatialsurfaceobserver) в удаленном приложении.
+* Оптимизированная передача сеток пространственных поверхностей, которые можно запрашивать через [спатиалсурфацеобсервер](/uwp/api/windows.perception.spatial.surfaces.spatialsurfaceobserver) в удаленном приложении.
 * Исправлена проблема, при которой вызов методов Спатиаланчорманажер или освобождение привязок вызывали исключения при отключении.
 * Исправлена проблема с потоками, приводящая к сбоям при закрытии экземпляров Плайерконтекст или Ремотеконтекст.
 * Множество других исправлений и улучшений стабильности.

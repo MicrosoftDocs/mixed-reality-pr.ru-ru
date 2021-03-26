@@ -6,17 +6,17 @@ ms.author: alexturn
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Речевой ввод, Кэйвордрекогнизер, Граммаррекогнизер, микрофон, Диктовка, речь, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: 7268a4df9c7fce03029937c72540ed274574067d
-ms.sourcegitcommit: 8c3af63fb49494f75c8ab46236fc3dd8533c1e9d
+ms.openlocfilehash: c062289a1a26365528a86761b6b68a9a24041f7c
+ms.sourcegitcommit: ac315c1d35f2b9c431e79bc3f1212215301bb867
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "99606119"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105550384"
 ---
 # <a name="voice-input-in-unity"></a>Голосовой ввод в Unity
 
 > [!CAUTION]
-> Прежде чем начать, рассмотрите возможность использования подключаемого модуля Unity для пакета SDK служб распознавания речи. У подключаемого модуля есть лучшие результаты для распознавания речи и простой доступ к декодированию речи в текст, а также расширенные функции речи, такие как диалоговое окно, взаимодействие на основе намерений, перевод, синтез текста в речь и распознавание речи на естественном языке. Чтобы приступить к работе, ознакомьтесь с [примером и документацией](https://docs.microsoft.com/azure/cognitive-services/speech-service/quickstart-csharp-unity).
+> Прежде чем начать, рассмотрите возможность использования подключаемого модуля Unity для пакета SDK служб распознавания речи. У подключаемого модуля есть лучшие результаты для распознавания речи и простой доступ к декодированию речи в текст, а также расширенные функции речи, такие как диалоговое окно, взаимодействие на основе намерений, перевод, синтез текста в речь и распознавание речи на естественном языке. Чтобы приступить к работе, ознакомьтесь с [примером и документацией](/azure/cognitive-services/speech-service/quickstart-csharp-unity).
 
 Unity предоставляет три способа добавления [речевого ввода](../../design/voice-input.md) в приложение Unity, первые два из которых являются типами фрасерекогнизер:
 * `KeywordRecognizer`Предоставляет приложению массив строковых команд для прослушивания
@@ -299,7 +299,7 @@ PhraseRecognitionSystem.Restart();
 ## <a name="voice-input-in-mixed-reality-toolkit"></a>Речевой ввод в наборе средств Mixed Reality
 
 Примеры МРТК для речевого ввода можно найти в следующих демонстрационных сценах:
-* [Диктофона](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/mrtk_development/Assets/MRTK/Examples/Demos/Input/Scenes/Dictation)
+* [Диктовка](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/mrtk_development/Assets/MRTK/Examples/Demos/Input/Scenes/Dictation)
 * [Речь](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/mrtk_development/Assets/MRTK/Examples/Demos/Input/Scenes/Speech)
 
 ## <a name="next-development-checkpoint"></a>Следующий этап разработки

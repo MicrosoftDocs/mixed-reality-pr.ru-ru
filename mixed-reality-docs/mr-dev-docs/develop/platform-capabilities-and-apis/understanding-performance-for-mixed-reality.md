@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 3/26/2019
 ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, производительность, оптимизация, ЦП, GPU
-ms.openlocfilehash: 5012c30dce1ca4149324c916355922086a33c258
-ms.sourcegitcommit: 6725b83adf13f6573faacb27db2bcaafe80df472
+ms.openlocfilehash: eabc151382652bc2588249ef78d2f9f3b0f8cd99
+ms.sourcegitcommit: ac315c1d35f2b9c431e79bc3f1212215301bb867
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98615130"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105550124"
 ---
 # <a name="understanding-performance-for-mixed-reality"></a>Основные сведения о производительности смешанной реальности
 
@@ -139,12 +139,12 @@ ms.locfileid: "98615130"
 
 Пул объектов — это популярная методика снижения затрат на непрерывное выделение и освобождение объектов. Для этого выделяется большой пул идентичных объектов, из которого извлекаются для повторного использования доступные и неактивные экземпляры. Это эффективнее, чем постоянный процесс создания и уничтожения объектов. Пулы объектов отлично подходят для многократно используемых компонентов с переменными периодами жизни в приложении.
 
-## <a name="see-also"></a>См. также статью
+## <a name="see-also"></a>См. также раздел
 - [Рекомендации по производительности для Unity](../unity/performance-recommendations-for-unity.md)
 - [Рекомендуемые параметры для Unity](../unity/recommended-settings-for-unity.md)
 - [Рекомендации по производительности для Unreal](../unreal/performance-recommendations-for-unreal.md)
 - [Рекомендации по использованию материалов в Unreal](../unreal/unreal-materials.md)
-- [Оптимизация трехмерных моделей](https://docs.microsoft.com/dynamics365/mixed-reality/import-tool/optimize-models#performance-targets)
-- [Рекомендации по преобразованию и оптимизации трехмерных моделей в режиме реального времени](https://docs.microsoft.com/dynamics365/mixed-reality/import-tool/best-practices)
+- [Оптимизация трехмерных моделей](/dynamics365/mixed-reality/import-tool/optimize-models#performance-targets)
+- [Рекомендации по преобразованию и оптимизации трехмерных моделей в режиме реального времени](/dynamics365/mixed-reality/import-tool/best-practices)
 - [Рекомендации по производительности для исполнителей и конструкторов в нереальном режиме](https://docs.unrealengine.com/en-US/TestingAndOptimization/PerformanceAndProfiling/Guidelines/index.html)
 - [Рекомендации по использованию VR для нереальных](https://docs.unrealengine.com/en-US/SharingAndReleasing/XRDevelopment/VR/DevelopVR/ContentSetup/index.html)
