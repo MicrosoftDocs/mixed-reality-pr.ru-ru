@@ -6,12 +6,12 @@ ms.author: kesemple
 ms.date: 03/03/2021
 ms.localizationpriority: high
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: a774a5c08cb2d8bbaeebeca19cec366504efba58
-ms.sourcegitcommit: 5c81c19905b26818882e49679bd71f5dd7bc6d3b
+ms.openlocfilehash: 85a203f22c62871265f7775c364f5388194b53a1
+ms.sourcegitcommit: ac315c1d35f2b9c431e79bc3f1212215301bb867
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "103202866"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105550974"
 ---
 # <a name="what-is-the-mixed-reality-toolkit"></a>Что такое Mixed Reality Toolkit
 
@@ -51,7 +51,7 @@ MRTK-Unity — это проект, управляемый Майкрософт
 > [Установка средств](install-the-tools.md)
 
 > [!div class="nextstepaction"]
-> [Серия учебников по HoloLens 2](https://docs.microsoft.com/windows/mixed-reality/develop/unity/tutorials/mr-learning-base-02)
+> [Серия учебников по HoloLens 2](/windows/mixed-reality/develop/unity/tutorials/mr-learning-base-02)
 
 Хотите узнать, как это работает?
 > [!div class="nextstepaction"]
@@ -59,7 +59,7 @@ MRTK-Unity — это проект, управляемый Майкрософт
 
 ## <a name="documentation"></a>Документация
 
-| [![Заметки о выпуске](features/images/MRTK_Icon_ReleaseNotes.png)](release-notes/mrtk-26-release-notes.md)<br/>[Заметки о выпуске](release-notes/mrtk-26-release-notes.md)| [![Обзор MRTK](features/images/MRTK_Icon_ArchitectureOverview.png)](architecture/overview.md)<br/>[Обзор MRTK](architecture/overview.md)|[![Справочник по API](features/images/MRTK_Icon_APIReference.png)](https://docs.microsoft.com/dotnet/api/Microsoft.MixedReality.Toolkit)<br/>[Справочник по интерфейсам API](https://docs.microsoft.com/dotnet/api/Microsoft.MixedReality.Toolkit)|
+| [![Заметки о выпуске](features/images/MRTK_Icon_ReleaseNotes.png)](release-notes/mrtk-26-release-notes.md)<br/>[Заметки о выпуске](release-notes/mrtk-26-release-notes.md)| [![Обзор MRTK](features/images/MRTK_Icon_ArchitectureOverview.png)](architecture/overview.md)<br/>[Обзор MRTK](architecture/overview.md)|[![Справочник по API](features/images/MRTK_Icon_APIReference.png)](/dotnet/api/Microsoft.MixedReality.Toolkit)<br/>[Справочник по интерфейсам API](/dotnet/api/Microsoft.MixedReality.Toolkit)|
 |:---|:---|:---|
 
 ## <a name="build-status"></a>Состояние сборки
@@ -296,7 +296,7 @@ MRTK-Unity — это проект, управляемый Майкрософт
 ## <a name="mrtk-examples-hub"></a>Центр примеров MRTK
 
 Центр примеров MRTK позволяет вам опробовать различные примеры сцен в MRTK.
-Вы можете скачать готовые пакеты приложений для HoloLens (x86), HoloLens 2 (ARM) и иммерсивных гарнитур Windows Mixed Reality (x64), выбрав пакет Mixed Reality Toolkit Examples в средстве [MR Feature Tool](https://docs.microsoft.com/windows/mixed-reality/develop/unity/welcome-to-mr-feature-tool). Обязательно [используйте портал устройств Windows для установки приложений в HoloLens (1-го поколения)](https://docs.microsoft.com/hololens/hololens-install-apps#use-the-windows-device-portal-to-install-apps-on-hololens). Для HoloLens 2 можно скачать и установить [Центр примеров MRTK с помощью приложения Microsoft Store](https://www.microsoft.com/p/mrtk-examples-hub/9mv8c39l2sj4).
+Вы можете скачать готовые пакеты приложений для HoloLens (x86), HoloLens 2 (ARM) и иммерсивных гарнитур Windows Mixed Reality (x64), выбрав пакет Mixed Reality Toolkit Examples в средстве [MR Feature Tool](/windows/mixed-reality/develop/unity/welcome-to-mr-feature-tool). Обязательно [используйте портал устройств Windows для установки приложений в HoloLens (1-го поколения)](/hololens/hololens-install-apps#use-the-windows-device-portal-to-install-apps-on-hololens). Для HoloLens 2 можно скачать и установить [Центр примеров MRTK с помощью приложения Microsoft Store](https://www.microsoft.com/p/mrtk-examples-hub/9mv8c39l2sj4).
 
 Дополнительные сведения о создании центра со сценами с помощью системы сцен и службы перехода между сценами MRTK см. на [странице сведений Центра примеров](features/example-scenes/example-hub.md).
 
@@ -304,9 +304,9 @@ MRTK-Unity — это проект, управляемый Майкрософт
 
 ## <a name="sample-apps-made-with-mrtk"></a>Примеры приложений, созданных с помощью MRTK
 
-| [![Периодическая таблица элементов](features/images/MRDL_PeriodicTable.jpg)](https://medium.com/@dongyoonpark/bringing-the-periodic-table-of-the-elements-app-to-hololens-2-with-mrtk-v2-a6e3d8362158)| [![Исследование галактики](features/images/MRTK_GalaxyExplorer.jpg)](https://docs.microsoft.com/windows/mixed-reality/galaxy-explorer-update)| [![Пример приложения Surfaces](features/images/MRDL_Surfaces.jpg)](https://docs.microsoft.com/windows/mixed-reality/sampleapp-surfaces)|
+| [![Периодическая таблица элементов](features/images/MRDL_PeriodicTable.jpg)](https://medium.com/@dongyoonpark/bringing-the-periodic-table-of-the-elements-app-to-hololens-2-with-mrtk-v2-a6e3d8362158)| [![Исследование галактики](features/images/MRTK_GalaxyExplorer.jpg)](/windows/mixed-reality/galaxy-explorer-update)| [![Пример приложения Surfaces](features/images/MRDL_Surfaces.jpg)](/windows/mixed-reality/sampleapp-surfaces)|
 |:--- | :--- | :--- |
-| [Periodic Table of the Elements](https://github.com/Microsoft/MRDL_Unity_PeriodicTable) — это пример приложения с открытым кодом, которое демонстрирует, как использовать систему ввода и стандартные блоки MRTK для создания интерфейса приложения для HoloLens и иммерсивных гарнитур. Прочитайте историю о [портировании приложения Periodic Table of the Elements на HoloLens 2 с помощью MRTK v2](https://medium.com/@dongyoonpark/bringing-the-periodic-table-of-the-elements-app-to-hololens-2-with-mrtk-v2-a6e3d8362158). |[Galaxy Explorer](https://github.com/Microsoft/GalaxyExplorer) — пример приложения с открытым кодом, которое изначально было разработано для HoloLens в марте 2016 г. в рамках кампании Share Your Idea. В Galaxy Explorer добавлены новые возможности для HoloLens 2 с помощью MRTK v2. Прочитайте историю о [создании Galaxy Explorer для HoloLens 2](https://docs.microsoft.com/windows/mixed-reality/galaxy-explorer-update). |[Surfaces](https://github.com/microsoft/MRDL_Unity_Surfaces) — это пример приложения с открытым кодом для HoloLens 2, которое демонстрирует, как мы можем вызвать тактильные ощущения с помощью визуализации, звуков и отслеживания свободных движений рук. Ознакомьтесь с докладом Microsoft MR Dev Days по [наработкам при разработке и использовании приложения Surfaces](https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Learnings-from-the-MR-Surfaces-App), чтобы узнать больше о проектировании и разработке. |
+| [Periodic Table of the Elements](https://github.com/Microsoft/MRDL_Unity_PeriodicTable) — это пример приложения с открытым кодом, которое демонстрирует, как использовать систему ввода и стандартные блоки MRTK для создания интерфейса приложения для HoloLens и иммерсивных гарнитур. Прочитайте историю о [портировании приложения Periodic Table of the Elements на HoloLens 2 с помощью MRTK v2](https://medium.com/@dongyoonpark/bringing-the-periodic-table-of-the-elements-app-to-hololens-2-with-mrtk-v2-a6e3d8362158). |[Galaxy Explorer](https://github.com/Microsoft/GalaxyExplorer) — пример приложения с открытым кодом, которое изначально было разработано для HoloLens в марте 2016 г. в рамках кампании Share Your Idea. В Galaxy Explorer добавлены новые возможности для HoloLens 2 с помощью MRTK v2. Прочитайте историю о [создании Galaxy Explorer для HoloLens 2](/windows/mixed-reality/galaxy-explorer-update). |[Surfaces](https://github.com/microsoft/MRDL_Unity_Surfaces) — это пример приложения с открытым кодом для HoloLens 2, которое демонстрирует, как мы можем вызвать тактильные ощущения с помощью визуализации, звуков и отслеживания свободных движений рук. Ознакомьтесь с докладом Microsoft MR Dev Days по [наработкам при разработке и использовании приложения Surfaces](https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Learnings-from-the-MR-Surfaces-App), чтобы узнать больше о проектировании и разработке. |
 
 ## <a name="session-videos-from-mixed-reality-dev-days-2020"></a>Видео докладов с Mixed Reality Dev Days 2020
 
@@ -314,7 +314,7 @@ MRTK-Unity — это проект, управляемый Майкрософт
 |:--- | :--- | :--- |
 | Учебник по созданию простого приложения MRTK с нуля. Узнайте больше о понятиях взаимодействия и мультиплатформенных возможностях MRTK. | Изучите стандартные блоки взаимодействий в MRTK, которые помогут вам создать великолепные среды смешанной реальности. | Вводная информация о встроенных и внешних средствах оценки производительности для MRTK, а также стандартного шейдера MRTK. |
 
-Другие видео с докладами см. на странице [Mixed Reality Dev Days](https://docs.microsoft.com/windows/mixed-reality/mr-dev-days-sessions).
+Другие видео с докладами см. на странице [Mixed Reality Dev Days](/windows/mixed-reality/mr-dev-days-sessions).
 
 ## <a name="engage-with-the-community"></a>Присоединяйтесь к сообществу
 
@@ -331,13 +331,13 @@ MRTK-Unity — это проект, управляемый Майкрософт
 
 ## <a name="useful-resources-on-the-mixed-reality-dev-center"></a>Полезные ресурсы в Центре разработки для смешанной реальности
 
-| ![Знания](features/images/mrdevcenter/icon-discover.png) [Знания](https://docs.microsoft.com/windows/mixed-reality/)| ![Проектирование](features/images/mrdevcenter/icon-design.png) [Проектирование](https://docs.microsoft.com/windows/mixed-reality/design)| ![Разработка](features/images/mrdevcenter/icon-develop.png) [Разработка](https://docs.microsoft.com/windows/mixed-reality/development)| ![Дистрибуция](features/images/mrdevcenter/icon-distribute.png) [Дистрибуция](https://docs.microsoft.com/windows/mixed-reality/implementing-3d-app-launchers)|
+| ![Знания](features/images/mrdevcenter/icon-discover.png) [Знания](/windows/mixed-reality/)| ![Проектирование](features/images/mrdevcenter/icon-design.png) [Проектирование](/windows/mixed-reality/design)| ![Разработка](features/images/mrdevcenter/icon-develop.png) [Разработка](/windows/mixed-reality/development)| ![Дистрибуция](features/images/mrdevcenter/icon-distribute.png) [Дистрибуция](/windows/mixed-reality/implementing-3d-app-launchers)|
 | :--------------------- | :----------------- | :------------------ | :------------------------ |
 | Узнайте, как создавать взаимодействия смешанной реальности для HoloLens и иммерсивных гарнитур (виртуальная реальность).          | Получите руководства по проектированию. Создайте пользовательский интерфейс. Узнайте о взаимодействиях и способах ввода.     | Получите руководства по разработке. Узнайте о технологиях. Изучите их научную основу.       | Подготовка приложения для других пользователей и создание средства для запуска трехмерных приложений. |
 
 ## <a name="useful-resources-on-azure"></a>Полезные ресурсы в Azure
 
-| ![Пространственные привязки](features/images/mrdevcenter/icon-azurespatialanchors.png)<br> [Пространственные привязки](https://docs.microsoft.com/azure/spatial-anchors/)| ![Службы распознавания речи](features/images/mrdevcenter/icon-azurespeechservices.png) [Службы распознавания речи](https://docs.microsoft.com/azure/cognitive-services/speech-service/)| ![Службы компьютерного зрения](features/images/mrdevcenter/icon-azurevisionservices.png) [Службы компьютерного зрения](https://docs.microsoft.com/azure/cognitive-services/computer-vision/)|
+| ![Пространственные привязки](features/images/mrdevcenter/icon-azurespatialanchors.png)<br> [Пространственные привязки](/azure/spatial-anchors/)| ![Службы распознавания речи](features/images/mrdevcenter/icon-azurespeechservices.png) [Службы распознавания речи](/azure/cognitive-services/speech-service/)| ![Службы компьютерного зрения](features/images/mrdevcenter/icon-azurevisionservices.png) [Службы компьютерного зрения](/azure/cognitive-services/computer-vision/)|
 | :------------------------| :--------------------- | :---------------------- |
 | Пространственные привязки — это кросс-платформенная служба, которая позволяет создавать взаимодействия смешанной реальности с использованием объектов, сохраняющих свое расположение на различных устройствах с течением времени.| Откройте для себя и интегрируйте в свое приложение возможности обработки речи на платформе Azure, такие как преобразование речи в текст, распознавание говорящего или перевод речи.| Идентифицируйте изображения или видео с помощью служб визуального распознавания с такими возможностями, как компьютерное зрение, определение лиц, распознавание эмоций или индексация видео. |
 

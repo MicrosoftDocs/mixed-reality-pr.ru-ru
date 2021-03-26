@@ -13,12 +13,12 @@ metadata:
   author: hferrone
   ms.author: v-haferr
   ms.date: 07/23/2020
-  ms.openlocfilehash: 2113307483f95901b061bb91ea8a91a68b3d5e1f
-  ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
+  ms.openlocfilehash: 61f51b3cfb76e42d869cffe327a14cccd4389afe
+  ms.sourcegitcommit: ac315c1d35f2b9c431e79bc3f1212215301bb867
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 03/03/2021
-  ms.locfileid: "101759900"
+  ms.lasthandoff: 03/25/2021
+  ms.locfileid: "105550624"
 highlightedContent:
   items:
   - title: Что такое смешанная реальность?
@@ -110,7 +110,7 @@ conceptualContent:
     - url: develop/unity/tutorials/mr-learning-base-01.md
       itemType: tutorial
       text: Серия руководств по HoloLens 2
-    - url: develop/unity/mrtk-101.md
+    - url: ./out-of-scope/mrtk-101.md
       itemType: concept
       text: Основные компоненты
     - url: develop/unity/shared-experiences-in-unity.md
