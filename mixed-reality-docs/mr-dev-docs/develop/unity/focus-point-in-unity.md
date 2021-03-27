@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Unity, точка фокусировки, плоскость фокусировки, стабилизации плоскость, стабилизации точка, репроект, ЛСР, буфер глубины, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 2ceb5f2b58cbd1571b2d9f4de79acfe45779bfea
-ms.sourcegitcommit: be7473bbebc1872d8c9df6f2da837efd3279dee6
+ms.openlocfilehash: 16f359e1742b86c5f12c0c5965ac9e818ea76aee
+ms.sourcegitcommit: 0db5777954697f1d738469363bbf385481204d24
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "98226403"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "105636226"
 ---
 # <a name="focus-point-in-unity"></a>Точка фокусировки в Unity
 
@@ -49,7 +49,7 @@ void Update()
 ```
 
 > [!NOTE]
-> Приведенный выше простой код может снизить стабильность, если объект, которым он нацелен, заканчивается за пользователем. Обычно рекомендуется задать параметр **[включить совместное использование буфера глубины](camera-in-unity.md#sharing-your-depth-buffers-with-windows)** вместо того, чтобы вручную указать точку фокусировки.
+> Приведенный выше простой код может снизить стабильность, если объект, которым он нацелен, заканчивается за пользователем. Обычно рекомендуется задать параметр **[включить совместное использование буфера глубины](camera-in-unity.md#sharing-depth-buffers)** вместо того, чтобы вручную указать точку фокусировки.
 
 ## <a name="next-development-checkpoint"></a>Следующий этап разработки
 

@@ -1,17 +1,17 @@
 ---
-title: Основные сведения о HoloLens (1 Gen) основы 100 — начало работы с Unity
+title: 100. HoloLens (1-го поколения). Основы — начало работы с Unity
 description: Узнайте, как создать первое базовое приложение "Hello World" в смешанной реальности для устройств HoloLens и Windows Mixed Reality.
 author: keveleigh
 ms.author: kurtie
 ms.date: 10/22/2019
 ms.topic: article
 keywords: Смешанная реальность, Windows Mixed Reality, HoloLens, иммерсивное, VR, MR, начало работы, голограмма, Academy, учебник, Academy Mixed Reality, Unity, Смешанная реальность, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 999ab7dc87a639f10aad9eaf2a7ef8de2cf92633
-ms.sourcegitcommit: 35bd43624be33afdb1bf6ba4ddbe36d268eb9bda
+ms.openlocfilehash: c764c28cea812314d9c83136fe771c5b4077adc5
+ms.sourcegitcommit: 0db5777954697f1d738469363bbf385481204d24
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "104730361"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "105636176"
 ---
 # <a name="hololens-1st-gen-basics-100-getting-started-with-unity"></a>Основные сведения о HoloLens (1 Gen) основы 100: Начало работы с Unity
 
@@ -30,7 +30,7 @@ ms.locfileid: "104730361"
 </tr>
 </table>
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Предварительные условия
 
 * КОМПЬЮТЕР с Windows 10, на котором [установлены правильные средства](../../install-the-tools.md).
 
@@ -77,7 +77,7 @@ ms.locfileid: "104730361"
 
 В-третьих, давайте рассмотрим близкую плоскость клипов в Unity и не допускайте, чтобы объекты были слишком близки к глазу пользователей, когда пользователь приближается к объекту или объект приближает пользователя.
 
-**Для приложений hololens** на ближайшей плоскости Clip можно установить значение hololens, [рекомендуемый](../camera-in-unity.md#clip-planes) 0,85 метров.
+**Для приложений hololens** на ближайшей плоскости Clip можно установить значение hololens, [рекомендуемый](../camera-in-unity.md#using-clipping-planes) 0,85 метров.
 
 1. Выбрав **основную камеру** на панели « **Иерархия** », найдите компонент **Камера** на панели **инспектора** и измените поле **ближней плоскости клипов** с **0,3** по умолчанию на HoloLens, рекомендованное **0,85**.
 
@@ -154,7 +154,7 @@ ms.locfileid: "104730361"
 2. Откройте **окно > XR > с эмуляцией holographic**.
 3. Измените **режим эмуляции** с **нет** на **Удаленный с устройством**.
 4. В поле **Удаленный компьютер** введите IP-адрес HoloLens, записанный ранее.
-5. Нажмите кнопку **Подключить**.
+5. Щелкните **Подключить**.
 6. Убедитесь, что **состояние подключения** изменено на зеленый **подключен**.
 7. Теперь можно нажать кнопку **воспроизвести** в редакторе Unity.
 
