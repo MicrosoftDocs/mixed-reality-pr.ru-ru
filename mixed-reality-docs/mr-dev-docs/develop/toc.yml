@@ -218,7 +218,7 @@
       items:
         - name: Общие возможности
           href: unity/shared-experiences-in-unity.md
-        - name: Камера с определяемым местоположением
+        - name: Фото- и видеокамера в Unity
           href: unity/locatable-camera-in-unity.md
         - name: Голографическое удаленное взаимодействие в классическом приложении
           href: unity/holographic-remoting-desktop.md
