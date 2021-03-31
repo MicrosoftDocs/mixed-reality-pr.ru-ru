@@ -26,7 +26,9 @@
           "**/*.gif",
           "**/*.pdf",
           "**/*.wav",
-          "**/*.zip"
+          "**/*.zip",
+          "**/*.jpeg",
+          "**/*.mp4"
         ],
         "exclude": [
           "**/obj/**",
@@ -37,7 +39,6 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "bilingual_type": "hover over",
       "breadcrumb_path": "/windows/mixed-reality/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "uhfHeaderId": "MSDocsHeader-Hololens",
@@ -45,11 +46,11 @@
       "ms.prod": "mixed-reality",
       "ms.technology": "mr-dev",
       "ms.date": "3/21/2018",
-      "keywords": "mixed reality, windows mixed reality, hololens, mr, vr, ar, xr, virtual reality, augmented reality, holographic, develop, design, documentation",
+      "keywords": "mixed reality, windows mixed reality, mixed reality technology, hololens, mr, vr, ar, xr, virtual reality, vr virtual reality, virtual reality games, augmented reality, augmented reality apps, holographic, develop, design, documentation",
       "searchScope": ["MixedReality"],
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/mixed-reality",
-      "feedback_product_url": "https://docs.microsoft.com/windows/mixed-reality/give-us-feedback"
+      "feedback_product_url": "aka.ms/mrsupport"
     },
     "fileMetadata": {
       "author" : {
