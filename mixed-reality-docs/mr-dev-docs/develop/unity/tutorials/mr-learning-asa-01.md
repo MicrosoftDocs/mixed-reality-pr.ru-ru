@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure, iOS, Android, Windows 10, ARCore, macOS, Android Build Support, ARKit
 ms.localizationpriority: high
-ms.openlocfilehash: 613aa50e1cfaadcf245b719d5a846f35e9e6159e
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: 263575653df8fe22f2c59a00443d788c6598721b
+ms.sourcegitcommit: ac315c1d35f2b9c431e79bc3f1212215301bb867
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "101883369"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105550344"
 ---
 # <a name="1-introduction-to-the-azure-spatial-anchors-tutorials"></a>1. Знакомство с руководствами по Пространственным привязкам Azure
 
@@ -39,7 +39,7 @@ ms.locfileid: "101883369"
 * Пакет SDK для Windows 10 версии 10.0.18362.0 и выше.
 * Устройство HoloLens 2, [настроенное для разработки](../../platform-capabilities-and-apis/using-visual-studio.md#enabling-developer-mode).
 * <a href="https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html" target="_blank">Unity Hub</a> с Unity 2019 LTS и модулем поддержки сборки универсальной платформы Windows
-* Выполненные инструкции из раздела [Создание ресурса Пространственных привязок](https://docs.microsoft.com/azure/spatial-anchors/quickstarts/get-started-unity-hololens#create-a-spatial-anchors-resource) статьи [Краткое руководство. Создание приложения Unity HoloLens, которое использует Пространственные привязки Azure](https://docs.microsoft.com/azure/spatial-anchors/quickstarts/get-started-unity-hololens).
+* Выполненные инструкции из раздела [Создание ресурса Пространственных привязок](/azure/spatial-anchors/quickstarts/get-started-unity-hololens#create-a-spatial-anchors-resource) статьи [Краткое руководство. Создание приложения Unity HoloLens, которое использует Пространственные привязки Azure](/azure/spatial-anchors/quickstarts/get-started-unity-hololens).
 * Знакомство с серией [руководств по началу работы](mr-learning-base-01.md) или базовый опыт работы с Unity и MRTK.
 * Если планируется развертывание на устройствах Android и HoloLens
   * Устройство Android с <a href="https://developer.android.com/studio/debug/dev-options" target="_blank">включенными возможностями разработки</a> и <a href="https://developers.google.com/ar/discover/supported-devices" target="_blank">поддержкой ARCore</a>, подключенное через USB к компьютеру Windows или macOS.

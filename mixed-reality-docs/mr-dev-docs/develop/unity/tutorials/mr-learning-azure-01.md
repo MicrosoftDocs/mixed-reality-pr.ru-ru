@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: Azure, смешанная реальность, Unity, учебник, Hololens, Hololens 2, хранилище BLOB-объектов Azure, табличное хранилище Azure, Пространственные привязки Azure, Azure Bot Framework, облачные службы Azure, Пользовательское визуальное распознавание Azure, Windows 10
 ms.localizationpriority: high
-ms.openlocfilehash: 60ca15ebccaa8348ebd47f7d4bf6245ca1496775
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: fbb48cfd3c2c9d5c48099f3dfe8ddca8c6136c87
+ms.sourcegitcommit: ac315c1d35f2b9c431e79bc3f1212215301bb867
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "99590706"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105550394"
 ---
 # <a name="1-azure-cloud-services-for-hololens-2"></a>1. Облачные службы Azure для HoloLens 2
 
@@ -104,7 +104,7 @@ ms.locfileid: "99590706"
 
 ## <a name="importing-the-tutorial-assets"></a>Импорт активов для руководства
 
-Добавьте пакет SDK AzurespatialAnchors 2.7.1 в свой проект Unity с помощью этого [учебника](https://docs.microsoft.com/en-us/azure/spatial-anchors/how-tos/setup-unity-project?tabs=UPMPackage).
+Добавьте пакет SDK AzurespatialAnchors 2.7.1 в свой проект Unity с помощью этого [учебника](/azure/spatial-anchors/how-tos/setup-unity-project?tabs=UPMPackage).
 
 Скачайте и **импортируйте** следующие пользовательские пакеты Unity **в указанном здесь порядке**:
 
