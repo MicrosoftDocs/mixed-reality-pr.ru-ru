@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, отслеживание пространственного положения
 ms.localizationpriority: high
-ms.openlocfilehash: 0a8beb647516ebcb5bc07cb58d0193e8fe71e9fc
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: 994d2d42d8b6939496e84a730c4a73eff39c72e3
+ms.sourcegitcommit: ac315c1d35f2b9c431e79bc3f1212215301bb867
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "101760020"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105550324"
 ---
 # <a name="3-configuring-the-mrtk-profiles"></a>3. Настройка профилей MRTK
 
@@ -20,11 +20,11 @@ ms.locfileid: "101760020"
 
 Из этого руководства вы узнаете, как настраивать профили МRТК.
 
-<a href="https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/profiles/profiles.md" target="_blank">Профили MRTK</a> — это дерево вложенных профилей, которые включают сведения конфигурации для инициализации систем и функций MRTK. Профиль верхнего уровня (профиль конфигурации) содержит вложенные профили для всех основных базовых систем. Каждый вложенный профиль отвечает за настройку поведения соответствующей системы.
+<a href="/windows/mixed-reality/mrtk-docs/features/profiles/profiles.md" target="_blank">Профили MRTK</a> — это дерево вложенных профилей, которые включают сведения конфигурации для инициализации систем и функций MRTK. Профиль верхнего уровня (профиль конфигурации) содержит вложенные профили для всех основных базовых систем. Каждый вложенный профиль отвечает за настройку поведения соответствующей системы.
 
 В этом конкретном примере показано, как скрыть сетку отслеживания пространственного положения, изменив параметры наблюдателя виртуальной сетки. Те же принципы вы можете применить, чтобы настроить любые параметры или значения в профилях MRTK.
 
-Как вы узнали при развертывании своего проекта на HoloLens 2 при работе с [предыдущим руководством](mr-learning-base-02.md#congratulations), сетка <a href="https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/spatial-awareness/spatial-awareness-getting-started.md" target="_blank">отслеживания пространственного положения</a> — это набор сеток, представляющих геометрию среды. На начальных этапах разработки она помогает в работе, но обычно ее визуализацию отключают, чтобы она не отвлекала внимание и не снижала производительность.
+Как вы узнали при развертывании своего проекта на HoloLens 2 при работе с [предыдущим руководством](mr-learning-base-02.md#congratulations), сетка <a href="/windows/mixed-reality/mrtk-docs/features/spatial-awareness/spatial-awareness-getting-started.md" target="_blank">отслеживания пространственного положения</a> — это набор сеток, представляющих геометрию среды. На начальных этапах разработки она помогает в работе, но обычно ее визуализацию отключают, чтобы она не отвлекала внимание и не снижала производительность.
 
 ## <a name="objectives"></a>Задачи
 

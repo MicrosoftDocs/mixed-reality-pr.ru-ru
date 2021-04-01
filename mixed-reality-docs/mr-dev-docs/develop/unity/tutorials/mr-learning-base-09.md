@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, речевые команды, голосовой ввод
 ms.localizationpriority: high
-ms.openlocfilehash: 65f989f6f587b236d7931c295e9375ad20a53218
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: c87f3bb801b2fc32ed1aa42f2a4754bc83320587
+ms.sourcegitcommit: ac315c1d35f2b9c431e79bc3f1212215301bb867
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "102237224"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105550254"
 ---
 # <a name="9-using-speech-commands"></a>9. Использование речевых команд
 
@@ -144,6 +144,6 @@ ms.locfileid: "102237224"
 Если вы следуете изложенным нами этапам разработки для Unity, вашей следующей задачей будет ознакомление с основными стандартными блоками приложений смешанной реальности.
 
 > [!div class="nextstepaction"]
-> [Базовые взаимодействия](../mrtk-101.md)
+> [Базовые взаимодействия](../../../out-of-scope/mrtk-101.md)
 
 Вы можете в любой момент вернуться к [этапам разработки для Unity](../unity-development-overview.md#1-getting-started).

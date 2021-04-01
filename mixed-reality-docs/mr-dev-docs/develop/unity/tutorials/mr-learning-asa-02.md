@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure
 ms.localizationpriority: high
-ms.openlocfilehash: ab216fc89c7161e4b3e7ee6fd9bcf9022b83c7fa
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: ca7eef92721afb24ae359ddf00e810ecc63c2eb4
+ms.sourcegitcommit: ac315c1d35f2b9c431e79bc3f1212215301bb867
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "103574960"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105550404"
 ---
 # <a name="2-getting-started-with-azure-spatial-anchors"></a>2. Начало работы с Пространственными привязками Azure
 
@@ -52,7 +52,7 @@ ms.locfileid: "103574960"
 
 ## <a name="importing-the-tutorial-assets"></a>Импорт активов для руководства
 
-Добавьте пакет SDK AzurespatialAnchors 2.7.1 в свой проект Unity с помощью этого [учебника](https://docs.microsoft.com/azure/spatial-anchors/how-tos/setup-unity-project?tabs=UPMPackage).
+Добавьте пакет SDK AzurespatialAnchors 2.7.1 в свой проект Unity с помощью этого [учебника](/azure/spatial-anchors/how-tos/setup-unity-project?tabs=UPMPackage).
 
 Скачайте и **импортируйте** следующие пользовательские пакеты Unity **в указанном здесь порядке**:
 

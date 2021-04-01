@@ -6,20 +6,20 @@ ms.author: kesemple
 ms.date: 03/02/2021
 ms.localizationpriority: high
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK, mixed reality toolkit, установить, актуальные, инструменты, начало работы, основы, unity, visual studio, набор средств, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности, установка, Windows, HoloLens, эмулятор
-ms.openlocfilehash: a22a032261f3734167b229618f40db112b43c0f7
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: 117b34ae858e789b1366ce5338e23b8f366377ae
+ms.sourcegitcommit: ac315c1d35f2b9c431e79bc3f1212215301bb867
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "102236965"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105550564"
 ---
 # <a name="install-the-tools"></a>Установка инструментов
 
 Получите инструменты, необходимые для создания приложений для иммерсивных гарнитур (гарнитур виртуальной реальности) Microsoft HoloLens и Windows Mixed Reality. Для разработки решений для Windows Mixed Reality не существует отдельного пакета SDK. Вы будете использовать Visual Studio с пакетом SDK для Windows 10.
 
-У вас нет устройства смешанной реальности? Вы можете установить [эмулятор HoloLens](https://docs.microsoft.com/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-hololens-emulator), чтобы протестировать отдельные функции приложений смешанной реальности без HoloLens. Вы также можете использовать [симулятор Windows Mixed Reality](https://docs.microsoft.com/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-windows-mixed-reality-simulator), чтобы протестировать приложения смешанной реальности для иммерсивных гарнитур.
+У вас нет устройства смешанной реальности? Вы можете установить [эмулятор HoloLens](/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-hololens-emulator), чтобы протестировать отдельные функции приложений смешанной реальности без HoloLens. Вы также можете использовать [симулятор Windows Mixed Reality](/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-windows-mixed-reality-simulator), чтобы протестировать приложения смешанной реальности для иммерсивных гарнитур.
 
-Инструкции на этой странице помогут вам установить инструменты, необходимые для работы с MRTK в Unity. Если вас интересуют другие платформы разработки для смешанной реальности, ознакомьтесь с [введением в разработку приложений смешанной реальности](https://docs.microsoft.com/windows/mixed-reality/develop/development?tabs=unity).
+Инструкции на этой странице помогут вам установить инструменты, необходимые для работы с MRTK в Unity. Если вас интересуют другие платформы разработки для смешанной реальности, ознакомьтесь с [введением в разработку приложений смешанной реальности](/windows/mixed-reality/develop/development?tabs=unity).
 
 Вы можете использовать имитацию ввода, предлагаемую [Mixed Reality Toolkit для Unity](https://github.com/Microsoft/MixedRealityToolkit-Unity), чтобы протестировать разные типы взаимодействий ввода, например с помощью отслеживания взгляда или движений рук.
 
@@ -30,10 +30,10 @@ ms.locfileid: "102236965"
 
 | Средство | Примечания |
 |---------|---------|
-| ![Логотип Windows](images/Windows10_logo.png)<br><br><a href="https://www.microsoft.com/software-download/windows10" target="_blank">**Windows 10** (ссылка для установки вручную)</a><br><br>Установите самую последнюю версию Windows 10, чтобы операционная система вашего компьютера соответствовала платформе, для которой вы создаете приложения смешанной реальности.  | **Установка Windows 10** <br> Вы можете установить последнюю версию Windows 10 с помощью клиентского компонента Центра обновления Windows, к которому можно перейти в разделе параметров, или путем создания установочного носителя (открыв ссылку, указанную в левом столбце). <br><br>Сведения о новых функциях смешанной реальности, доступных в каждом выпуске Windows 10, см. в [заметках о текущем выпуске](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/mixed-reality-software). **Включите режим разработчика на компьютере** в разделе "Параметры > Обновление и безопасность > Для разработчиков". <br><br> **Примечание, касающееся корпоративных компьютеров**<br>Если вашим компьютером управляет ИТ-отдел вашей организации, возможно, вам потребуется связаться с его сотрудниками для обновления. <br><br> **N-версии Windows**<br> Иммерсивные гарнитуры (виртуальная реальность) Windows Mixed Reality не поддерживаются в N-версиях Windows. |
+| ![Логотип Windows](images/Windows10_logo.png)<br><br><a href="https://www.microsoft.com/software-download/windows10" target="_blank">**Windows 10** (ссылка для установки вручную)</a><br><br>Установите самую последнюю версию Windows 10, чтобы операционная система вашего компьютера соответствовала платформе, для которой вы создаете приложения смешанной реальности.  | **Установка Windows 10** <br> Вы можете установить последнюю версию Windows 10 с помощью клиентского компонента Центра обновления Windows, к которому можно перейти в разделе параметров, или путем создания установочного носителя (открыв ссылку, указанную в левом столбце). <br><br>Сведения о новых функциях смешанной реальности, доступных в каждом выпуске Windows 10, см. в [заметках о текущем выпуске](/windows/mixed-reality/enthusiast-guide/mixed-reality-software). **Включите режим разработчика на компьютере** в разделе "Параметры > Обновление и безопасность > Для разработчиков". <br><br> **Примечание, касающееся корпоративных компьютеров**<br>Если вашим компьютером управляет ИТ-отдел вашей организации, возможно, вам потребуется связаться с его сотрудниками для обновления. <br><br> **N-версии Windows**<br> Иммерсивные гарнитуры (виртуальная реальность) Windows Mixed Reality не поддерживаются в N-версиях Windows. |
 | ![Изображение с логотипом Visual Studio](images/visualstudio_logo.png)<br><br><a href="https://visualstudio.microsoft.com/downloads/" target="_blank">**Visual Studio 2019 (версии 16.8 или выше)** (ссылка для установки)</a> <br><br>Полнофункциональная интегрированная среда разработки (IDE) для Windows и многое другое. Вы будете использовать Visual Studio для написания кода, отладки, тестирования и развертывания. | **Установка Visual Studio 2019** <br> Установите следующие рабочие нагрузки: <br><br>*● Разработка классических приложений на C++*<br>*● Разработка приложений универсальной платформы Windows (UWP)*<br><br>В рабочей нагрузке UWP обязательно проверьте следующий дополнительный компонент, если вы выполняете разработку для HoloLens:<br><br>*● Подключение USB-устройств*<br><br>**Примечание, касающееся Unity**<br>Если вам не нужно устанавливать более новую (не LTS) версию Unity для своих задач, мы рекомендуем *не* устанавливать рабочую нагрузку Unity в составе установки Visual Studio, а вместо этого установить версию **Unity 2019 LTS**, как показано ниже.<br><br>**Известные проблемы**<br>Сейчас в Visual Studio 2019 (версия 16.0) существует ряд известных проблем с отладкой приложений смешанной реальности.  Обновите **Visual Studio 2019 до версии не ниже 16.8**. |
 | ![Логотип Windows](images/Windows10_logo.png)<br><br><a href="https://developer.microsoft.com//windows/downloads/windows-10-sdk" target="_blank">**Пакет SDK для Windows 10 (10.0.18362.0)** (ссылка для установки вручную)</a> <br><br>Содержит новейшие заголовки, библиотеки, метаданные и средства для создания приложений для Windows 10 в HoloLens 2. | **Для создания приложений HoloLens 2 потребуется установить пакет Windows SDK сборки 18362 или более поздней.**<br> <br> Если вы разрабатываете приложения только для настольных гарнитур Windows Mixed Reality или HoloLens (1-го поколения), можно использовать пакет Windows SDK, установленный в Visual Studio 2019. |
-| ![Логотип Visual Studio](images/HoloLensIcon.jpg)<br><br><a href="https://go.microsoft.com/fwlink/?linkid=2154784" target="_blank">**Эмулятор HoloLens 2 (Windows Holographic, версия 20H2 с обновлением за февраль 2021 г.)** (ссылка для установки: 10.0.19041.1134)</a><br> <br><a href="https://go.microsoft.com/fwlink/?linkid=2065980" target="_blank">**Эмулятор HoloLens (1-го поколения)** (ссылка для установки: 10.0.17763.134)</a> <br><br>Эмулятор позволяет запускать приложения с помощью образа виртуальной машины HoloLens без физического устройства HoloLens.<br> <br> | Дополнительные сведения об использовании эмулятора HoloLens см. в [этой статье](https://docs.microsoft.com/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-hololens-emulator).<br> <br> Для успешной установки эмулятора **ваша система должна поддерживать Hyper-V**. Подробные сведения см. в разделе о системных требованиях. <br> <br> **Примечание по эмулятору HoloLens (1-го поколения)** <br>. Если вы устанавливаете эмулятор HoloLens (1-го поколения) с Visual Studio 2019, вам необходимо отменить выбор шаблонов VS и [установить их из Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=WindowsMixedRealityteam.WindowsMixedRealityAppTemplatesVSIX). |
+| ![Логотип Visual Studio](images/HoloLensIcon.jpg)<br><br><a href="https://go.microsoft.com/fwlink/?linkid=2154784" target="_blank">**Эмулятор HoloLens 2 (Windows Holographic, версия 20H2 с обновлением за февраль 2021 г.)** (ссылка для установки: 10.0.19041.1134)</a><br> <br><a href="https://go.microsoft.com/fwlink/?linkid=2065980" target="_blank">**Эмулятор HoloLens (1-го поколения)** (ссылка для установки: 10.0.17763.134)</a> <br><br>Эмулятор позволяет запускать приложения с помощью образа виртуальной машины HoloLens без физического устройства HoloLens.<br> <br> | Дополнительные сведения об использовании эмулятора HoloLens см. в [этой статье](/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-hololens-emulator).<br> <br> Для успешной установки эмулятора **ваша система должна поддерживать Hyper-V**. Подробные сведения см. в разделе о системных требованиях. <br> <br> **Примечание по эмулятору HoloLens (1-го поколения)** <br>. Если вы устанавливаете эмулятор HoloLens (1-го поколения) с Visual Studio 2019, вам необходимо отменить выбор шаблонов VS и [установить их из Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=WindowsMixedRealityteam.WindowsMixedRealityAppTemplatesVSIX). |
 
 ## <a name="unity"></a>Unity
 
@@ -44,18 +44,18 @@ ms.locfileid: "102236965"
 В качестве лучшей версии для запуска новых проектов мы рекомендуем [Unity LTS (долгосрочная поддержка)](https://unity3d.com/unity/qa/lts-releases). Затем ее можно обновить до последней версии, чтобы получить новые стабильные исправления.
 
 * В настоящее время мы рекомендуем использовать [Unity 2019.4 LTS](https://unity3d.com/unity/qa/lts-releases?version=2019.4). Unity 2018.4 LTS также поддерживается.
-* Если вы хотите использовать предварительные версии функций [OpenXR для смешанной реальности](https://docs.microsoft.com/windows/mixed-reality/develop/unity/openxr-getting-started) с MRTK, вам потребуется Unity 2020.2 или более поздней версии.
+* Если вы хотите использовать предварительные версии функций [OpenXR для смешанной реальности](/windows/mixed-reality/develop/unity/openxr-getting-started) с MRTK, вам потребуется Unity 2020.2 или более поздней версии.
 * Если вам по определенным причинам требуется использовать другую версию Unity, с этим не возникнет затруднений, так как Unity поддерживает параллельную установку различных версий.
 
 ### <a name="2-install-the-mixed-reality-feature-tool"></a>2. Установка Mixed Reality Feature Tool
 
-Средство [Mixed Reality Feature Tool](https://docs.microsoft.com/windows/mixed-reality/develop/unity/welcome-to-mr-feature-tool) предоставляет новый способ для обнаружения и добавления пакетов функций смешанной реальности в проекты Unity.
+Средство [Mixed Reality Feature Tool](/windows/mixed-reality/develop/unity/welcome-to-mr-feature-tool) предоставляет новый способ для обнаружения и добавления пакетов функций смешанной реальности в проекты Unity.
 
 Вы можете искать пакеты по имени или категории, просматривать их зависимости и даже проверять предлагаемые изменения в файле манифеста проектов перед импортом. Когда вы подтвердите список нужных пакетов, средство Mixed Reality Feature Tool скачает их в выбранный вами проект Unity.
 
 #### <a name="importing-the-mixed-reality-toolkit"></a>Импорт набора средств для смешанной реальности (MRTK)
 
-Скачайте пакет Mixed Reality Toolkit, следуя [инструкциям по установке и использованию](https://docs.microsoft.com/windows/mixed-reality/develop/unity/welcome-to-mr-feature-tool#system-requirements), и выберите пакет Mixed Reality Toolkit Foundation.
+Скачайте пакет Mixed Reality Toolkit, следуя [инструкциям по установке и использованию](/windows/mixed-reality/develop/unity/welcome-to-mr-feature-tool#system-requirements), и выберите пакет Mixed Reality Toolkit Foundation.
 
 Если вы хотите вручную скачать пакеты MRTK с Github, перейдите на страницу выпуска в репозитории [Mixed Reality Toolkit-Unity (GitHub)](https://github.com/microsoft/MixedRealityToolkit-Unity/releases).
 
@@ -68,9 +68,9 @@ ms.locfileid: "102236965"
 
 #### <a name="for-hololens-development"></a>Для разработки решений для HoloLens
 
-Настраивая компьютер для разработки решений для HoloLens, убедитесь, что он соответствует системным требованиям для [Unity](https://docs.unity3d.com/Manual/system-requirements.html) и Visual Studio. Если вы хотите запустить приложение на устройстве HoloLens, вам потребуется выполнить [инструкции по настройке портала устройств Windows](https://docs.microsoft.com/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-windows-device-portal#setting-up-hololens-to-use-windows-device-portal). Если вы планируете использовать [эмулятор HoloLens](https://docs.microsoft.com/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-hololens-emulator), убедитесь, что ваш компьютер соответствует [его системным требованиям](https://docs.microsoft.com/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-hololens-emulator#hololens-emulator-system-requirements).
+Настраивая компьютер для разработки решений для HoloLens, убедитесь, что он соответствует системным требованиям для [Unity](https://docs.unity3d.com/Manual/system-requirements.html) и Visual Studio. Если вы хотите запустить приложение на устройстве HoloLens, вам потребуется выполнить [инструкции по настройке портала устройств Windows](/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-windows-device-portal#setting-up-hololens-to-use-windows-device-portal). Если вы планируете использовать [эмулятор HoloLens](/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-hololens-emulator), убедитесь, что ваш компьютер соответствует [его системным требованиям](/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-hololens-emulator#hololens-emulator-system-requirements).
 
-Сведения о начале работы с эмулятором HoloLens см. в [этой статье](https://docs.microsoft.com/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-hololens-emulator).
+Сведения о начале работы с эмулятором HoloLens см. в [этой статье](/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-hololens-emulator).
 
 Если вы планируете разработку приложений для иммерсивных гарнитур (гарнитур виртуальной реальности) HoloLens и Windows Mixed Reality, ознакомьтесь с системными рекомендациями и требованиями в приведенном ниже разделе.
 
@@ -78,33 +78,33 @@ ms.locfileid: "102236965"
 
 Неактивная кнопка для включения режима разработчика
 
-Если вы сталкиваетесь с проблемами при включении режима разработчика на устройстве, возможно, у вас нет прав [владельца устройства](https://docs.microsoft.com/hololens/security-adminless-os). В многопользовательском режиме то лицо, которое использует устройство первым, назначается владельцем. Все последующие пользователи не будут иметь нужных разрешений для включения режима разработчика или внесения других изменений в конфигурацию. Однако существует исключение, при котором первый пользователь может не быть владельцем устройства в среде с Autopilot. Подробные сведения см. в [документации по безопасности HoloLens](https://docs.microsoft.com/hololens/hololens2-compliance).
+Если вы сталкиваетесь с проблемами при включении режима разработчика на устройстве, возможно, у вас нет прав [владельца устройства](/hololens/security-adminless-os). В многопользовательском режиме то лицо, которое использует устройство первым, назначается владельцем. Все последующие пользователи не будут иметь нужных разрешений для включения режима разработчика или внесения других изменений в конфигурацию. Однако существует исключение, при котором первый пользователь может не быть владельцем устройства в среде с Autopilot. Подробные сведения см. в [документации по безопасности HoloLens](/hololens/hololens2-compliance).
 
 Ниже представлены возможные решения.
 
 * Владелец устройства должен включить режим разработчика перед передачей устройства другим пользователям или разработчикам.
-* Рекомендация ИТ-администратору или администратору MDM включить параметр политики CSP [ApplicationManagement/AllowDeveloperUnlock](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-allowdeveloperunlock) для конкретного устройства или группы устройств, с которыми работают разработчики.
-Эту политику можно задать с помощью [пакетов подготовки](https://docs.microsoft.com/hololens/hololens-provisioning) или через [MDM для устройств HoloLens](https://docs.microsoft.com/hololens/hololens-mdm-configure)
-* Использование решения [Advanced Recovery Companion (ARC)](https://docs.microsoft.com/hololens/hololens-recovery).
+* Рекомендация ИТ-администратору или администратору MDM включить параметр политики CSP [ApplicationManagement/AllowDeveloperUnlock](/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-allowdeveloperunlock) для конкретного устройства или группы устройств, с которыми работают разработчики.
+Эту политику можно задать с помощью [пакетов подготовки](/hololens/hololens-provisioning) или через [MDM для устройств HoloLens](/hololens/hololens-mdm-configure)
+* Использование решения [Advanced Recovery Companion (ARC)](/hololens/hololens-recovery).
 
 | Дополнительные сведения об управлении устройствами HoloLens см. в соответствующем обзоре.|
 |---|
 
 Не удается выполнить развертывание по USB
 
-Если вы не можете развернуть приложение непосредственно по USB, убедитесь, что вы выполнили все приведенные выше требования к установке, и следуйте инструкциям из нашего [пошагового руководства](https://docs.microsoft.com/windows/mixed-reality/develop/unity/tutorials/mr-learning-base-02#building-your-application-to-your-hololens-2).
+Если вы не можете развернуть приложение непосредственно по USB, убедитесь, что вы выполнили все приведенные выше требования к установке, и следуйте инструкциям из нашего [пошагового руководства](/windows/mixed-reality/develop/unity/tutorials/mr-learning-base-02#building-your-application-to-your-hololens-2).
 
 Требования к иммерсивной гарнитуре виртуальной реальности
 
 | Примечание. Приведенные ниже рекомендации описывают текущие минимальные и рекомендуемые характеристики для компьютера, на котором будут разрабатываться приложения для иммерсивных гарнитур (гарнитур виртуальной реальности). Эти рекомендации регулярно обновляются.|
 |---|
 
-| Внимание! Не путайте их с [минимальными рекомендациями по совместимости аппаратного обеспечения компьютера](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines), которые описывают характеристики компьютера потребителя, на которые следует ориентироваться при запуске приложения или игры с иммерсивной гарнитурой (виртуальная реальность).|
+| Внимание! Не путайте их с [минимальными рекомендациями по совместимости аппаратного обеспечения компьютера](/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines), которые описывают характеристики компьютера потребителя, на которые следует ориентироваться при запуске приложения или игры с иммерсивной гарнитурой (виртуальная реальность).|
 |---|
 
-Если на компьютере для разработки решений для иммерсивных гарнитур отсутствуют полноразмерные порты HDMI и (или) USB 3.0, для подключения гарнитуры вам потребуются [адаптеры](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs).
+Если на компьютере для разработки решений для иммерсивных гарнитур отсутствуют полноразмерные порты HDMI и (или) USB 3.0, для подключения гарнитуры вам потребуются [адаптеры](/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs).
 
-Сейчас есть [известные проблемы](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/troubleshooting-windows-mixed-reality) с некоторыми аппаратными конфигурациями, особенно на ноутбуках с гибридной графикой.
+Сейчас есть [известные проблемы](/windows/mixed-reality/enthusiast-guide/troubleshooting-windows-mixed-reality) с некоторыми аппаратными конфигурациями, особенно на ноутбуках с гибридной графикой.
 
 . | Минимальные | Рекомендуется
 --- |--- |---
@@ -122,4 +122,4 @@ Bluetooth | Bluetooth 4.0 (для подключения периферийны
 
 Теперь, когда вы установили нужные инструменты, мы рекомендуем перейти к нашей серии руководств по работе с MRTK в HoloLens 2.
 > [!div class="nextstepaction"]
-> [Серия учебников по HoloLens 2](https://docs.microsoft.com/windows/mixed-reality/develop/unity/tutorials/mr-learning-base-02)
+> [Серия учебников по HoloLens 2](/windows/mixed-reality/develop/unity/tutorials/mr-learning-base-02)

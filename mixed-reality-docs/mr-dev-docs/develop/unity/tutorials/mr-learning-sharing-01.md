@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, многопользовательские возможности, Photon, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure
 ms.localizationpriority: high
-ms.openlocfilehash: 90c5b2ee3f25c39fc644aee0fbbf49643f7d2a59
-ms.sourcegitcommit: 68140e9ce84e69a99c2b3d970c7b8f2927a7fc93
+ms.openlocfilehash: 5b7ad27d41147a57d03f4a1b5a78b92e6e1234d4
+ms.sourcegitcommit: ac315c1d35f2b9c431e79bc3f1212215301bb867
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "99590176"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105550214"
 ---
 # <a name="1-introduction-to-the-multi-user-capabilities-tutorials"></a>1. Введение в руководства по многопользовательским возможностям
 
@@ -38,7 +38,7 @@ ms.locfileid: "99590176"
 * Пакет SDK для Windows 10 версии 10.0.18362.0 и выше.
 * Устройство HoloLens 2, [настроенное для разработки](../../platform-capabilities-and-apis/using-visual-studio.md#enabling-developer-mode).
 * <a href="https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html" target="_blank">Unity Hub</a> с Unity 2019 LTS и модулем поддержки сборки универсальной платформы Windows
-* Выполненные инструкции из раздела [Создание ресурса Пространственных привязок](https://docs.microsoft.com/azure/spatial-anchors/quickstarts/get-started-unity-hololens#create-a-spatial-anchors-resource) статьи [Краткое руководство. Создание приложения Unity HoloLens, которое использует Пространственные привязки Azure](https://docs.microsoft.com/azure/spatial-anchors/quickstarts/get-started-unity-hololens).
+* Выполненные инструкции из раздела [Создание ресурса Пространственных привязок](/azure/spatial-anchors/quickstarts/get-started-unity-hololens#create-a-spatial-anchors-resource) статьи [Краткое руководство. Создание приложения Unity HoloLens, которое использует Пространственные привязки Azure](/azure/spatial-anchors/quickstarts/get-started-unity-hololens).
 * Знакомство с серией [руководств по началу работы](mr-learning-base-01.md) или базовый опыт работы с Unity и MRTK.
 * Знакомство с серией [руководств по Пространственным привязкам Azure](mr-learning-asa-01.md) или опыт создания учетной записи Пространственных привязок Azure.
 * Если планируется развертывание на устройствах Android и HoloLens
@@ -50,7 +50,7 @@ ms.locfileid: "99590176"
   * <a href="https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html" target="_blank">Unity Hub</a> с Unity 2019 LTS и модулем iOS Build Support.
 
 > [!CAUTION]
-> Для работы с этой серией руководств рекомендуется Набор средств для Смешанной реальности MRTK 2.5.3.
+> Для работы с этой серией учебников рекомендуется Mixed Reality Toolkit версии 2.6.
 
 > [!CAUTION]
 > Рекомендуемая версия Unity для этой серии учебников — Unity 2019 LTS. Это заменяет все требования к версии Unity, указанные в приведенных выше предварительных требованиях.

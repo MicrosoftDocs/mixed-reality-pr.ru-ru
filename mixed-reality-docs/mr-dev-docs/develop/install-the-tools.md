@@ -7,12 +7,12 @@ ms.date: 02/09/2021
 ms.topic: article
 ms.localizationpriority: high
 keywords: актуальность, инструменты, начало работы, основы, Unity, Visual Studio, набор средств, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, установка, Windows, HoloLens, эмулятор, Unreal, OpenXR
-ms.openlocfilehash: ac8e4dab8b9d9021c834e0a9d673c81ac3b7f1dc
-ms.sourcegitcommit: f74d33d50c1fbfebe8571695d631ce78dd599f74
+ms.openlocfilehash: 28546e751d3d8001eb2fe69a74624215a6619d4c
+ms.sourcegitcommit: ac315c1d35f2b9c431e79bc3f1212215301bb867
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "104881241"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105550044"
 ---
 # <a name="install-the-tools"></a>Установка инструментов
 
@@ -42,7 +42,6 @@ ms.locfileid: "104881241"
 
 Теперь, когда вы настроили Windows 10, Visual Studio и Windows 10 SDK для работы, мы установим и настроим движок по вашему выбору. 
 
-Если вы еще не выбрали движок, см. статью [Введение в разработку приложений смешанной реальности](https://docs.microsoft.com/windows/mixed-reality/develop/development?tabs=unity#what-technology-path-are-you-interested-in). 
+Если вы еще не выбрали движок, см. статью [Введение в разработку приложений смешанной реальности](./development.md?tabs=unity#what-technology-path-are-you-interested-in). 
 
 [!INCLUDE[](includes/tools-overview.md)]
-
