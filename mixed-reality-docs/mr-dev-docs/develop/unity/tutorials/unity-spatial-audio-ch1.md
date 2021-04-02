@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 02/05/2021
 ms.topic: article
 keywords: Смешанная реальность, Unity, учебник, hololens2, Пространственный звук, МРТК, набор средств для смешанной реальности, UWP, Windows 10, ХРТФ, функция передачи, связанная с HEAD, переглагол, Microsoft Спатиализер
-ms.openlocfilehash: 7ed1355e3c522fcd94a96dd761a8a9ebb01c4c4c
-ms.sourcegitcommit: 68140e9ce84e69a99c2b3d970c7b8f2927a7fc93
+ms.openlocfilehash: 7964ecdc8adee7c61c4c7086b8d04983f6e3903f
+ms.sourcegitcommit: 4fb961beeebd158e2f65b7c714c5e471454400a3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "99590046"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "105982797"
 ---
 # <a name="1-adding-spatial-audio-to-your-unity-project"></a>1. Добавление пространственного звука в проект Unity
 
@@ -57,7 +57,7 @@ ms.locfileid: "99590046"
 
 1. [Импорт требуемых ресурсов TextMeshPro.](mr-learning-base-02.md#importing-the-textmeshpro-essential-resources)
 
-1. [Импорт набора средств для смешанной реальности (MRTK).](mr-learning-base-02.md#importing-the-mixed-reality-toolkit)
+1. [Импорт набора средств для Смешанной реальности (MRTK).](mr-learning-base-02.md#importing-the-mixed-reality-toolkit)
 
 1. [Настройка проекта Unity.](mr-learning-base-02.md#configuring-the-unity-project)
 
@@ -70,7 +70,7 @@ ms.locfileid: "99590046"
 Скачайте и импортируйте Microsoft Спатиализер  <a href="https://github.com/microsoft/spatialaudio-unity/releases/download/v1.0.18/Microsoft.SpatialAudio.Spatializer.Unity.1.0.18.unitypackage" target="_blank">Microsoft. спатиалаудио. спатиализер. Unity. 1.0.18. пакет unitypackage </a>
 
 >[!TIP]
-> Напоминание о том, как импортировать пользовательский пакет Unity, можно найти в разделе Импорт инструкций [учебных материалов](mr-learning-base-04.md#importing-the-tutorial-assets) .
+> Сведения о том, как правильно импортировать пользовательский пакет Unity, см. в разделе [Импорт ресурсов для руководства](mr-learning-base-02.md#importing-the-tutorial-assets).
 
 ## <a name="enable-the-microsoft-spatializer-plugin"></a>Включение подключаемого модуля Microsoft Спатиализер
 
