@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 03/26/2021
 ms.topic: article
 keywords: Unity, Mixed Reality, разработка, начало работы, новый проект, Windows Mixed Reality, UWP, XR, производительность, устаревший, мртк
-ms.openlocfilehash: 0860154034a63d5058da09a3b842e70bc3775dc5
-ms.sourcegitcommit: 6272d086a2856e8b514a719e1f9e3b78554be5be
+ms.openlocfilehash: 09989b3b2b7fa1d351235a2cc9b885d4795dc2b6
+ms.sourcegitcommit: 8d386bf6c82ec9860815e873e1f2870ea410f40f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "105938134"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106088533"
 ---
 # <a name="using-legacy-built-in-xr-support"></a>Использование устаревшей встроенной поддержки XR
 
@@ -20,7 +20,7 @@ ms.locfileid: "105938134"
 MRTK для Unity предоставляет кросс-платформенную систему ввода, базовые компоненты и общие строительные блоки для пространственных взаимодействий. MRTK версии 2 предназначен для ускорения разработки приложений для Microsoft HoloLens, иммерсивных гарнитур (гарнитур виртуальной реальности) Windows Mixed Reality и платформы OpenVR. Цель проекта — упростить разработку приложений смешанной реальности и вносить вклад в сообщество по мере развития навыков.
 
 > [!div class="nextstepaction"]
-> [Ознакомьтесь с нашими руководствами по МРТК](tutorials/mr-learning-base-01.md)
+> [Ознакомьтесь с нашими руководствами по МРТК](https://docs.microsoft.com/windows/mixed-reality/develop/unity/tutorials/mr-learning-base-02?tabs=wsa)
 
 Дополнительные сведения о функциях см. в [документации по мртк](/windows/mixed-reality/mrtk-unity) .
 

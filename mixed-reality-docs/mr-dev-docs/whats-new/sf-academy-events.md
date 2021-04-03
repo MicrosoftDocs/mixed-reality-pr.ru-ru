@@ -6,12 +6,12 @@ ms.author: daescu
 ms.date: 10/12/2020
 ms.topic: article
 keywords: событие, календарь, Academy, расписание, SF, Сан Франциско, реактора
-ms.openlocfilehash: f534a170594eb26e0d7f56e8694b9112cb0acbac
-ms.sourcegitcommit: 4647712788a91a2b26d4b01e62285c2942bb0bd2
+ms.openlocfilehash: 17db5ecac5953326eeb30c33693be18243579869
+ms.sourcegitcommit: 3236abcba27335fe3d52e38423d2b265ca883355
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102230885"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106270020"
 ---
 # <a name="microsoft-mixed-reality-events"></a>События Microsoft Mixed Reality
 
@@ -21,6 +21,7 @@ ms.locfileid: "102230885"
 
 |Событие|Дата|Тема|
 |-------------|-------------|-----|
+| Серия докладов по смешанной реальности|6 апреля, 2021 по @10 тихоокеанскому времени|[Создание приложений смешанной реальности с помощью Microsoft PowerApps](https://www.meetup.com/hololens-mr/events/277257132)|
 | Серия докладов по смешанной реальности|23 апреля 2020 г.|[Дополнение веб-узла](https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Augmenting-WebXR-Standards)|
 | Серия докладов по смешанной реальности|22 июня 2020 г.|[Создание обучающих приложений с помощью MR](https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Educational-Experiences-in-MR)|
 | [Событие Microsoft Virtual Reality](https://www.meetup.com/hololens-mr/events/272364822/)|20 августа 2020 г.|Мини-конференция VR|

@@ -1,19 +1,19 @@
 ---
-title: Начало работы с технологией виртуальной реальности
+title: Начните путешествие по VR
 description: Изучите наши проверенные контрольные точки, чтобы познакомиться с новыми пользователями устройств путем настройки и использования их впечатляющих устройств VR.
 author: hferrone
 ms.author: v-hferrone
 ms.date: 10/15/2020
 ms.topic: overview
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR,
-ms.openlocfilehash: 711c1b74b79ba510d29c17de0ec21270946ceb61
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: f373e0a55557fe38dfa598912296252293fa6d34
+ms.sourcegitcommit: b8a3367bf6dfed01de1ffa10f635385a92ca06b5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98007064"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106223935"
 ---
-# <a name="start-your-vr-journey"></a>Начало работы с технологией виртуальной реальности
+# <a name="start-your-vr-journey"></a>Начните путешествие по VR
 
 ![Стандартное изображение окружения VR](images/mr-win32-slates-pinspanel.png)
 
@@ -60,7 +60,7 @@ ms.locfileid: "98007064"
 
 <br>
 
-|  Контрольная точка  |  Компонент  |
+|  Контрольная точка  |  Функция  |
 | --- | --- |
 | [Знакомство со смешанной реальностью](learn-mixed-reality.md) | Узнайте, как использовать мышь, голоса, контроллеров, входные данные клавиатуры и мыши. |
 | [Переход на домашнюю страницу Windows Mixed Reality](your-mixed-reality-home.md) | Изучите виртуальную среду домашней страницы Windows Mixed Reality  |
@@ -76,12 +76,13 @@ ms.locfileid: "98007064"
 
 <br>
 
-|  Контрольная точка  |  Компонент  |
+|  Контрольная точка  |  Функция  |
 | --- | --- |
 | [Игры, видео 360 и приложения](using-games-and-apps-in-windows-mixed-reality.md) | Начало работы с первой увлекательной игрой, планшетами для 2D-магазинов, приложениями для настольных компьютеров и Вебвр |
 | [Использование SteamVR](using-steamvr-with-windows-mixed-reality.md) | Подключение устройства и воспроизведение Стеамвр игр и изучение программы предварительной оценки Windows |
 | [Использование Microsoft Edge](using-microsoft-edge.md) | Установите последнюю версию Microsoft ребра на иммерсивное устройство. |
 | [Использование Вебвр](webvr.md) | Получение программы установки для работы с VR в среде браузера |
+| [Знакомство с Алтспацевр](https://docs.microsoft.com/windows/mixed-reality/altspace-vr/journey) | Изучите расширение мира событий VR с помощью Алтспацевр |
 
 ## <a name="troubleshooting-tips--resources"></a>Устранение неполадок, советы & ресурсов
 
