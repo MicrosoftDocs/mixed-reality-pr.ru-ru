@@ -1,16 +1,16 @@
 ---
-ms.openlocfilehash: 8ca6c6b4eea1d49f98e7a04b091a4a08cb859ff3
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: 53cb83725bcc9f8f810ba40df5d08e81ec545f19
+ms.sourcegitcommit: ac315c1d35f2b9c431e79bc3f1212215301bb867
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "98583004"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105582265"
 ---
 # <a name="available-in-mrtk"></a>[Доступно в MRTK](#tab/mrtk)
 
 |  Функция  |  Возможности  |
 | --- | --- |
-| [Базовые взаимодействия](../unity/mrtk-101.md) | Базовые сведения о взаимодействии с объектами в иммерсивном пространстве |
+| [Базовые взаимодействия](../../out-of-scope/mrtk-101.md) | Базовые сведения о взаимодействии с объектами в иммерсивном пространстве |
 | [Камера](../unity/camera-in-unity.md) | Полная оптимизация визуального качества и стабильности голограммы в приложениях смешанной реальности |
 | [Взгляд](../unity/gaze-in-unity.md) | Предоставление пользователям возможности выбирать голограммы взглядом |
 | [Контроллеры движения](../unity/motion-controllers-in-unity.md) | Добавление пространственных действий в приложения смешанной реальности |

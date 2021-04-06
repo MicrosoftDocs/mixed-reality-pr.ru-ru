@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, отслеживание глаз
 ms.localizationpriority: high
-ms.openlocfilehash: 08793622917ca977c51be56267d8710e5abb78e8
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: bf7bd266eb471193979c588d97d14dd37aed175e
+ms.sourcegitcommit: 4fb961beeebd158e2f65b7c714c5e471454400a3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "102237184"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "105982901"
 ---
 # <a name="8-using-eye-tracking"></a>8. Использование функции отслеживания взгляда
 
@@ -26,14 +26,7 @@ ms.locfileid: "102237184"
 * Узнайте, как включить функцию отслеживания взгляда для HoleLens 2
 * Узнайте, как с помощью функции отслеживания взгляда активировать действие
 
-## <a name="ensuring-the-eye-gaze-input-capability-is-enabled"></a>Проверка того, включена ли функция ввода с использованием взгляда
-
-В меню Unity последовательно выберите элементы Mixed Reality Toolkit (Набор средств для смешанной реальности) > Utilities (Служебные программы) > **Configure Unity Project** (Настроить проект Unity), чтобы открыть окно **MRTK Project Configurator** (Конфигуратор проектов MRTK). Затем перейдите в раздел **UWP Capabilities** (Возможности UWP) и убедитесь, что раздел **Enable Eye Gaze Input Capability** (Включить ввод с использованием взгляда) выделен серым цветом.
-
-![Окно конфигурации проекта MRTK в Unity](images/mr-learning-base/base-08-section1-step1-1.png)
-
-> [!NOTE]
-> Функция ввода с использованием взгляда должна была быть включена в ходе выполнения инструкций, приведенных в разделе [Применение параметров конфигуратора проекта MRTK](mr-learning-base-02.md#creating-and-configuring-the-scene), при настройке проекта Unity в начале работы с этой серией руководств. Если функция отключена, включите ее сейчас.
+[!INCLUDE[](includes/ensuring-eye-gaze-capabality.md)]
 
 ## <a name="enabling-eye-based-gaze-in-the-gaze-provider"></a>Включение отслеживания взгляда в поставщике данных о направлении взгляда
 

@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, взаимодействие с объектами, ограничивающие элементы управления
 ms.localizationpriority: high
-ms.openlocfilehash: 1ab7b3a334639be564717d77d3bbc478a25e8326
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: c2cca67afe19665ea899eb56140011bd9c756a7f
+ms.sourcegitcommit: 4fb961beeebd158e2f65b7c714c5e471454400a3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "102237245"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "105982867"
 ---
 # <a name="7-interacting-with-3d-objects"></a>7. Взаимодействие с трехмерными объектами
 
@@ -113,7 +113,7 @@ ms.locfileid: "102237245"
 
 ![Разделенное представление Unity в режиме воспроизведения с нажатой кнопкой Reset](images/mr-learning-base/base-07-section1-step1-7.png)
 
-Дополнительные сведения о компоненте Object Manipulator (Манипулятор объектами) и его свойствах вы можете получить в [этом учебнике](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_ObjectManipulator.html) на [портале документации по MRTK](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/).
+Дополнительные сведения о компоненте Object Manipulator (Манипулятор объектами) и его свойствах вы можете получить в [этом учебнике](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_ObjectManipulator.html) на [портале документации по MRTK](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/).
 
 ## <a name="adding-bounds-control"></a>Добавление ограничивающего элемента управления
 
@@ -168,7 +168,7 @@ ms.locfileid: "102237245"
 
 ![Разделенное представление Unity в режиме воспроизведения с изменением ограничивающего элемента управления](images/mr-learning-base/base-07-section2-step1-4.png)
 
-Дополнительные сведения о компоненте BoundsControl и его свойствах см. в [этом руководстве](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_BoundsControl.html) на [портале документации по MRTK](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/).
+Дополнительные сведения о компоненте BoundsControl и его свойствах см. в [этом руководстве](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_BoundsControl.html) на [портале документации по MRTK](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/).
 
 ## <a name="congratulations"></a>Поздравляем!
 

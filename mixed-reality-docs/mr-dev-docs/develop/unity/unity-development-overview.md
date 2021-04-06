@@ -7,12 +7,12 @@ ms.date: 12/9/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unity, смешанная реальность, разработка, начало работы, новый проект, перенос, возможность, камера, имитация, эмуляция, документация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, что такое виртуальная реальность, что такое дополненная реальность, MRTK, Mixed Reality Toolkit, пространственное сопоставление, речевой ввод, камера с определяемым местоположением, эмулятор, Azure, учебники
-ms.openlocfilehash: 4979c6f0f88544b4f00cd0859e5c807ddef137e5
-ms.sourcegitcommit: 35bd43624be33afdb1bf6ba4ddbe36d268eb9bda
+ms.openlocfilehash: 52c6fb57473255e440d9c2f795cc228cca44ea32
+ms.sourcegitcommit: 4fb961beeebd158e2f65b7c714c5e471454400a3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "104730491"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "105982787"
 ---
 # <a name="unity-development-for-hololens"></a>Разработка в Unity для HoloLens
 
@@ -102,9 +102,9 @@ ms.locfileid: "104730491"
 
 |  Раздел  |  Описание  |
 | --- | --- |
-| [Обзор архитектуры MRTK](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Architecture/Overview.html) | Подробное описание того, как можно использовать пакет SDK MRTK в проектах. |
-| [Настройки и производительность](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Performance/PerfGettingStarted.html) | Сведения о профилировании приложения, изменении параметров Unity и обеспечении наивысшей производительности при стабилизации голограммы. |
-| [Начало работы с MRTK и смешанной реальностью](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/configuration/getting-started-with-mrtk-and-xrsdk.md) | Переход к альтернативному конвейеру смешанной реальности, предоставляемому Unity. |
+| [Обзор архитектуры MRTK](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/architecture/overview) | Подробное описание того, как можно использовать пакет SDK MRTK в проектах. |
+| [Настройки и производительность](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/performance/perf-getting-started) | Сведения о профилировании приложения, изменении параметров Unity и обеспечении наивысшей производительности при стабилизации голограммы. |
+| [Начало работы с MRTK и смешанной реальностью](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/configuration/getting-started-with-mrtk-and-xrsdk) | Переход к альтернативному конвейеру смешанной реальности, предоставляемому Unity. |
 
 ### <a name="unity-resources"></a>Ресурсы по Unity
 

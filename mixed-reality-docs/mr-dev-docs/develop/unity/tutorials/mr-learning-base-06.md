@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, заготовки, голограммы, советы
 ms.localizationpriority: high
-ms.openlocfilehash: 8e7ab83fa195fc48d8fe1c1daf8207c49e3ec71e
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: 4400ce669863b719b409e11076ceb5689e21893e
+ms.sourcegitcommit: 4fb961beeebd158e2f65b7c714c5e471454400a3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "101760030"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "105982977"
 ---
 # <a name="6-creating-user-interfaces"></a>6. Создание пользовательских интерфейсов
 
@@ -67,7 +67,7 @@ ms.locfileid: "101760030"
 ![Unity с настроенным событием OnClick для объекта кнопки Hints](images/mr-learning-base/base-06-section1-step1-5.png)
 
 > [!TIP]
-> Компонент Interactable — это общий контейнер, который позволяет сделать любой объект интерактивным с возможностью реагирования на ввод. Компонент Interactable выступает в качестве приемника всех типов ввода, в том числе прикосновений, движений руками, речи и т. д., а также передает такие взаимодействия в события и ответы визуальных тем. Чтобы узнать, как настроить его для разных типов ввода и изменить визуальную тему, см. руководство по [Interactable](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_Interactable.html) на [портале документации по MRTK](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/).
+> Компонент Interactable — это общий контейнер, который позволяет сделать любой объект интерактивным с возможностью реагирования на ввод. Компонент Interactable выступает в качестве приемника всех типов ввода, в том числе прикосновений, движений руками, речи и т. д., а также передает такие взаимодействия в события и ответы визуальных тем. Чтобы узнать, как настроить его для разных типов ввода и изменить визуальную тему, см. руководство по [Interactable](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_Interactable.html) на [портале документации по MRTK](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/).
 
 В окне Hierarchy (Иерархия) выберите объект кнопки **Explode** (Развернуть), затем в окне Inspector (Инспектор) настройте событие **Interactable.OnClick ()** следующим образом:
 

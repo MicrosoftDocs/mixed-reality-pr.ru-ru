@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, речевые команды, голосовой ввод
 ms.localizationpriority: high
-ms.openlocfilehash: c87f3bb801b2fc32ed1aa42f2a4754bc83320587
-ms.sourcegitcommit: ac315c1d35f2b9c431e79bc3f1212215301bb867
+ms.openlocfilehash: 3aea23d5a259e555f47ca9ea41d77f345c977aeb
+ms.sourcegitcommit: 4fb961beeebd158e2f65b7c714c5e471454400a3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105550254"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "105982951"
 ---
 # <a name="9-using-speech-commands"></a>9. Использование речевых команд
 
@@ -23,14 +23,7 @@ ms.locfileid: "105550254"
 * Узнать, как создавать речевые команды.
 * Узнать, как управлять речевыми командами на локальном и глобальном уровнях.
 
-## <a name="ensuring-the-microphone-capability-is-enabled"></a>Активация функции микрофона
-
-В меню Unity выберите Mixed Reality Toolkit (Набор средств для смешанной реальности) > Utilities (Служебные программы) > **Configure Unity Project** (Настроить проект Unity), чтобы открыть окно **MRTK Project Configurator** (Конфигуратор проекта MRTK). Затем в разделе **UWP Capabilities** (Возможности UWP) убедитесь, что параметр **Enable Microphone Capability** (Включить функцию микрофона) выделен серым цветом:
-
-![Включение поддержки микрофона](images/mr-learning-base/base-09-section1-step1-1.png)
-
-> [!NOTE]
-> Во время выполнения инструкций по настройке проекта Unity из раздела [Применение параметров конфигуратора проекта MRTK](mr-learning-base-02.md#creating-and-configuring-the-scene), приведенного в начале этого учебного курса, должна быть включена функция поддержки микрофона. Если функция отключена, включите ее сейчас.
+[!INCLUDE[](includes/ensuring-microphone-capabality.md)]
 
 ## <a name="creating-speech-commands"></a>Создание речевых команд
 
