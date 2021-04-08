@@ -7,16 +7,18 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, TextMeshPro
 ms.localizationpriority: high
-ms.openlocfilehash: 82551257339d41940075ee06a6e6937624b83900
-ms.sourcegitcommit: 08503cada8a29a34bcbd9fd955cb23adfe9b60a4
+ms.openlocfilehash: 4363d3280036ef2cd93e75233005c00db17eb59b
+ms.sourcegitcommit: 8d386bf6c82ec9860815e873e1f2870ea410f40f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "99627855"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106088667"
 ---
 # <a name="2-initializing-your-project-and-deploying-your-first-application"></a>2. Инициализация проекта и развертывание первого приложения
 
-Из этого учебника вы узнаете, как создать проект Unity, настроить его для разработки <a href="https://github.com/microsoft/MixedRealityToolkit-Unity" target="_blank">набора средств для смешанной реальности (MRTK)</a> и импортировать MRTK. Вы также узнаете, как настроить, создать и развернуть базовую сцену Unity из Visual Studio на HoloLens 2. Развернув ее на HoloLens 2, вы увидите, как виртуальная сетка сопоставления покрывает поверхности, воспринятые HoloLens. Кроме того, вы увидите на руках и пальцах индикаторы для отслеживания рук и счетчик частоты кадров для отслеживания производительности приложения.
+Из этого учебника вы узнаете, как создать проект Unity, настроить его для разработки <a href="https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/" target="_blank">набора средств для смешанной реальности (MRTK)</a> и импортировать MRTK. Вы также узнаете, как настроить, создать и развернуть базовую сцену Unity из Visual Studio на HoloLens 2. Развернув ее на HoloLens 2, вы увидите, как виртуальная сетка сопоставления покрывает поверхности, воспринятые HoloLens. Кроме того, вы увидите на руках и пальцах индикаторы для отслеживания рук и счетчик частоты кадров для отслеживания производительности приложения.
+
+![MRTK](../../../develop/images/Unity_MRTK_MRFT_Flow.png)
 
 ## <a name="objectives"></a>Задачи
 
@@ -55,21 +57,7 @@ ms.locfileid: "99627855"
 
 ## <a name="switching-the-build-platform"></a>Переключение платформы сборки
 
-В меню Unity щелкните **File** > **Build Settings...** (Файл > Параметры сборки...), чтобы открыть окно параметров сборки:
-
-![Выбор параметров сборки Unity в меню](images/mr-learning-base/base-02-section2-step1-1.png)
-
-В окне параметров сборки щелкните **Universal Windows Platform** (Универсальная платформа Windows) и нажмите кнопку **Switch Platform** (Переключить платформу):
-
-![Окно параметров сборки в Unity с выбранной платформой UWP](images/mr-learning-base/base-02-section2-step1-2.png)
-
-Подождите, пока Unity переключит платформу:
-
-![Unity выполняет переключение платформы](images/mr-learning-base/base-02-section2-step1-3.png)
-
-Когда Unity переключит платформу, щелкните красный значок **x**, чтобы закрыть окно параметров сборки:
-
-![Окно сборки Unity с выделенным значком закрытия](images/mr-learning-base/base-02-section2-step1-4.png)
+[!INCLUDE[](includes/switching-build-platform.md)]
 
 ## <a name="importing-the-textmeshpro-essential-resources"></a>Импорт требуемых ресурсов TextMeshPro
 
@@ -86,7 +74,7 @@ ms.locfileid: "99627855"
 
 ## <a name="importing-the-mixed-reality-toolkit"></a>Импорт набора средств для смешанной реальности (MRTK)
 
-Чтобы импортировать Mixed Reality Toolkit в проект Unity, необходимо использовать [Mixed Reality Feature Tool](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unity/welcome-to-mr-feature-tool), которое позволяет разработчикам обнаруживать, обновлять и добавлять пакеты компонентов Смешанной реальности в проекты Unity. Вы можете искать пакеты по имени или категории, просматривать их зависимости и даже проверять предлагаемые изменения в файле манифеста проектов перед импортом.
+Чтобы импортировать Mixed Reality Toolkit в проект Unity, необходимо использовать [Mixed Reality Feature Tool](../welcome-to-mr-feature-tool.md), которое позволяет разработчикам обнаруживать, обновлять и добавлять пакеты компонентов Смешанной реальности в проекты Unity. Вы можете искать пакеты по имени или категории, просматривать их зависимости и даже проверять предлагаемые изменения в файле манифеста проектов перед импортом.
 
 Скачайте последнюю версию средства Mixed Reality Feature Tool из [Центра загрузки Майкрософт](https://aka.ms/MRFeatureTool). По завершении скачивания разархивируйте файл и сохраните его на своем компьютере.
 
@@ -100,32 +88,8 @@ ms.locfileid: "99627855"
 
 ![Открытие MixedRealityFeatureTool](images/mr-learning-base/base-02-section4-step1-1.png)
 
-После открытия **MixedRealityFeatureTool** щелкните кнопку запуска, чтобы начать работу с Mixed Reality Feature Tool.
 
-![MixedRealityFeatureTool](images/mr-learning-base/base-02-section4-step1-2.png)
-
-Функции группируются по категориям. Чтобы упростить поиск, щелкните раскрывающийся список **Mixed Reality Toolkit**, чтобы найти пакеты, связанные с Набором средств для Смешанной реальности.
-
-![Окно MixedRealityFeatureTool](images/mr-learning-base/base-02-section4-step1-3.png)
-
-Установите флажок **Mixed Reality Toolkit Foundation** и щелкните раскрывающийся список рядом с ним, чтобы выбрать необходимую версию MRTK. Для этой серии руководств выберите **2.5.3**. Затем нажмите кнопку **Get features** (Получить компоненты), чтобы скачать выбранные пакеты.
-
-![Выбор Mixed Reality Foundation](images/mr-learning-base/base-02-section4-step1-4.png)
-
-Отобразится пакет **Mixed Reality Toolkit Foundation 2.5.3** с пакетом зависимостей **Mixed Reality Toolkit Standard Assets 2.5.3** в окне **Import Features** (Импорт компонентов).
-
-Вам также нужно указать расположение целевого проекта Unity, чтобы указать **путь к проекту**. Щелкните **три точки** рядом с полем Project path (Путь к проекту) и перейдите в обозревателе к папке проекта, например _D:\MixedRealityLearning\MRTK Tutorials_.
-
-> [!NOTE]
-> При просмотре папки проекта Unity отображается диалоговое окно, где в качестве имени файла указан символ "_". Чтобы получить возможность выбрать папку, для этого файла необходимо указать значение имени.
-
-Затем нажмите кнопку **Validate** (Проверить), чтобы проверить выбранный пакет. Отобразится всплывающее окно с сообщением **No validation issues were detected** (Проблемы с проверкой не обнаружены). Щелкните **ОК**, чтобы закрыть окно, и нажмите кнопку **Import** (Импорт).
-
-![Проверка Mixed Reality Foundation](images/mr-learning-base/base-02-section4-step1-5.png)
-
-Нажмите кнопку **Approve** (Утвердить), чтобы добавить **Mixed Reality Toolkit** в проект.
-
-![Утверждение Mixed Reality Foundation](images/mr-learning-base/base-02-section4-step1-6.png)
+[!INCLUDE[](includes/importing-mrtk.md)]
 
 ## <a name="configuring-the-unity-project"></a>Настройка проекта Unity
 
@@ -142,44 +106,14 @@ ms.locfileid: "99627855"
 > [!TIP]
 > Применять параметры MRTK по умолчанию необязательно, но настоятельно рекомендуется, так как это поможет настроить некоторые рекомендуемые параметры Unity:
 
-> * Set Single Pass Instanced rendering path (Задать путь однопроходной отрисовки экземпляра.): повышает производительность графики благодаря выполнению конвейера отрисовки для обоих глаз в одном вызове отрисовки. Дополнительные сведения см. в разделе [Однопроходная отрисовка экземпляра](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Performance/PerfGettingStarted.html#single-pass-instanced-rendering) в документации по [производительности MRTK](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Performance/PerfGettingStarted.html).
+> * Set Single Pass Instanced rendering path (Задать путь однопроходной отрисовки экземпляра.): повышает производительность графики благодаря выполнению конвейера отрисовки для обоих глаз в одном вызове отрисовки. Дополнительные сведения см. в разделе [Однопроходная отрисовка экземпляра](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/performance/perf-getting-started#single-pass-instanced-rendering) в документации по [производительности MRTK](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/performance/perf-getting-started#single-pass-instanced-rendering).
 > * Set default Spatial Awareness layer (Задать слой отслеживания пространственного положения по умолчанию): создает слой Unity с именем Spatial Awareness и настраивает MRTK для использования этого слоя для сетки отслеживания пространственного положения. Дополнительные сведения о слоях Unity см. в документации Unity <a href="https://docs.unity3d.com/Manual/Layers.html" target="_blank">Customizing Your Workspace</a> (Настройка рабочего пространства).
 
 ### <a name="2-configure-additional-project-settings"></a>2. Настройка дополнительных параметров проекта
 
-В меню Unity щелкните **Edit** > **Project Settings...** (Правка > Параметры проекта...), чтобы открыть окно параметров проекта:
+[!INCLUDE[](includes/configuring-additional-project-settings.md)]
 
-В окне Project Settings (Параметры проекта) выберите **Player** > **XR Settings** (Проигрыватель > Параметры XR), установите флажок **Virual Reality Supported** (Поддержка виртуальной реальности), щелкните значок **+** и выберите Windows Mixed Reality, чтобы добавить пакет SDK Windows Mixed Reality:
-
-![Параметры смешанной реальности Unity с выбранным меню для добавления пакета SDK Windows Mixed Reality](images/mr-learning-base/base-02-section5-step2-4.png)
-
-Когда Unity завершит импорт пакета SDK для Windows Mixed Reality, должно снова отобразиться окно конфигуратора проекта MRTK. В противном случае откройте это окно вручную из меню Unity, щелкнув **Mixed Reality Toolkit** > **Utilities** > **Configure Unity Project** (Набор средств для смешанной реальности > Служебные программы > Настроить проект Unity).
-
-В окне конфигуратора проектов MRTK откройте раскрывающийся список **Audio spatializer** (Аудио спатиалайзер), чтобы выбрать **MS HRTF Spatializer** (Спатиалайзер MS HRTF), а затем нажмите кнопку **Apply** (Применить), чтобы применить параметр:
-
-![Параметры смешанной реальности Unity с выбранным меню для добавления пакета SDK Windows Mixed Reality](images/mr-learning-base/base-02-section5-step2-5.png)
-
-> [!TIP]
->Настраивать свойство аудиоспатиалайзера необязательно, но это может упростить работу со звуком в проекте. Если задать для свойства значение MS HRTF Spatializer (Спатиалайзер MS HRTF), этот подключаемый модуль спатиалайзера будет использоваться при включенном свойстве AudioSource.spatialize в Unity. Дополнительные сведения см. в <a href="https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unity/tutorials/unity-spatial-audio-ch1" target="_blank">учебниках по пространственному звуку</a>.
-
-В окне Project Settings (Параметры проекта) выберите **Player** > **XR Settings** (Проигрыватель > Параметры XR), а затем в раскрывающемся списке **Depth Format** (Формат глубины) выберите **16-bit depth** (16-разрядная глубина):
-
-![Включение 16-разрядной глубины в Unity](images/mr-learning-base/base-02-section5-step2-6.png)
-
-> [!TIP]
-> Снижать разрядность глубины до 16 бит необязательно, но это может улучшить производительность графики в проекте. Дополнительные сведения см. в разделе <a href="https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Performance/PerfGettingStarted.html#depth-buffer-sharing-hololens" target="_blank">Depth buffer sharing (HoloLens)</a> (Совместное использование буфера глубины в HoloLens) в документации по <a href="https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Performance/PerfGettingStarted.html" target="_blank">производительности MRTK</a>.
-
-В окне Project Settings (Параметры проекта) выберите **Player** > **Publishing Settings** (Проигрыватель >Параметры публикации), затем в поле **Package name** (Имя пакета) введите подходящее имя, например _MRTKTutorials-GettingStarted_:
-
-![Параметры публикации Unity с настроенным именем пакета](images/mr-learning-base/base-02-section5-step2-7.png)
-
-> [!NOTE]
-> Package name (Имя пакета) — это уникальный идентификатор приложения. Измените этот идентификатор перед развертыванием приложения, чтобы избежать перезаписи установленных ранее приложений.
-
-> [!TIP]
-> Product Name (Название продукта) — это имя, отображаемое в меню запуска HoloLens. Чтобы упростить размещение приложения во время разработки, добавьте символ подчеркивания перед именем, чтобы при сортировке имя оказывалось вверху.
-
-## <a name="creating-and-configuring-the-scene"></a>Создание и настройка сцены
+## <a name="creating-the-scene-and-configuring-mrtk"></a>Создание сцены и настройка MRTK
 
 Чтобы создать сцену, в меню Unity выберите **File** > **New Scene** (Файл > Новая сцена):
 
@@ -189,17 +123,72 @@ ms.locfileid: "99627855"
 
 ![Выбор добавления в сцену и настройки в меню Unity](images/mr-learning-base/base-02-section6-step1-2.png)
 
-Выбрав объект **MixedRealityToolkit** в окне Hierarchy (Иерархия), убедитесь, что профиль конфигурации **MixedRealityToolkit** имеет значение **DefaultMixedRealityToolkitConfigurationProfile** в окне Inspector (Инспектор):
-
-![Компонент MixedRealityToolkit в Unity с выбранным профилем DefaultMixedRealityTookitConfigurationProfile](images/mr-learning-base/base-02-section6-step1-3.png)
+[!INCLUDE[](includes/changing-profile.md)]
 
 В меню Unity щелкните **File** > **Save As...** (Файл > Сохранить как), чтобы открыть окно сохранения сцены:
 
 ![Выбор пользовательского сохранения в меню Unity](images/mr-learning-base/base-02-section6-step1-4.png)
 
-В окне сохранения сцены перейдите к папке **Scenes** проекта, присвойте сцене понятное имя, например _GettingStarted_, и нажмите кнопку **Save** (Сохранить), чтобы сохранить сцену:
+> [!TIP]
+> Снижать разрядность глубины до 16 бит необязательно, но это может улучшить производительность графики в проекте. Дополнительные сведения см. в разделе <a href="/windows/mixed-reality/mrtk-unity/performance/perf-getting-started.md#single-pass-instanced-rendering" target="_blank">Depth buffer sharing (HoloLens)</a> (Совместное использование буфера глубины в HoloLens) в документации по <a href="/windows/mixed-reality/mrtk-unity/performance/perf-getting-started.md#single-pass-instanced-rendering" target="_blank">производительности MRTK</a>.
 
 ![Окно с запросом сохранения сцены в Unity](images/mr-learning-base/base-02-section6-step1-5.png)
+
+## <a name="importing-the-tutorial-assets"></a>Импорт активов для руководства
+
+Скачайте следующий пользовательский пакет Unity:
+
+* [MRTK.HoloLens2.Unity.Tutorials.Assets.GettingStarted.2.5.0.1.unitypackage](https://github.com/microsoft/MixedRealityLearning/releases/download/getting-started-v2.5.0/MRTK.HoloLens2.Unity.Tutorials.Assets.GettingStarted.2.5.0.1.unitypackage).
+
+Чтобы импортировать пользовательский пакет Unity, в меню Unity щелкните **Assets** > **Import Package** > **Custom Package** (Ресурсы > Импорт пакетов > Пользовательский пакет), чтобы открыть окно импорта пакетов:
+
+![Импорт настраиваемого пакета](images/mr-learning-base/base-02-section7-step1-1.png)
+
+В окне Import package (Импорт пакета) выберите скачанный файл **MRTK.HoloLens2.Unity.Tutorials.Assets.GettingStarted.2.5.0.1.unitypackage** и нажмите кнопку Open (Открыть):
+
+![Выбор пакета ресурсов](images/mr-learning-base/base-02-section7-step1-2.png)
+
+В окне импорта пакета Unity нажмите кнопку All (Все), чтобы выбрать все ресурсы, а затем нажмите кнопку Import (Импорт), чтобы импортировать их.
+
+![Выбор всех ресурсов для импорта](images/mr-learning-base/base-02-section7-step1-3.png)
+
+Когда вы завершите импорт активов для руководства, окно проекта должно выглядеть примерно так:
+
+![Окно проекта Unity после импорта ресурсов](images/mr-learning-base/base-02-section7-step1-4.png)
+
+## <a name="configuring-the-scene"></a>Настройка сцены
+
+В окне Project (Проект) перейдите к папке Assets (Ресурсы ) > MRTK.Tutorials.GettingStarted > Prefabs (Заготовки):
+
+В окне Project (Проект) щелкните и перетащите заготовку **Cube** в окно Hierarchy (Иерархия). Затем в окне Inspector (Инспектор) настройте ее компонент **Transform** (Трансформация) следующим образом:
+
+* **Position** (Положение): X = 0, Y = 0, Z = 0,5.
+* **Rotation** (Поворот): X = 0, Y = 0, Z = 0.
+* **Scale** (Масштаб): X = 1, Y = 1, Z = 1.
+
+![Добавление объекта Cube в сцену](images/mr-learning-base/base-02-section8-step1-1.png)
+
+Чтобы перенести фокус на объекты сцены, дважды щелкните объект **Cube**, а затем снова немного увеличьте масштаб представления:
+
+Чтобы вы могли взаимодействовать с объектом и захватывать его с поддержкой отслеживания рук, в объекте должен быть компонент Collider (Коллайдер), например **Box Collider** (Прямоугольный коллайдер), компонент **Object Manipulator (Script)** (Манипулятор объектами — скрипт) и компонент **Near Interaction Grabbable (Script)** (Возможность захвата при близком взаимодействии — скрипт).
+
+Оставив выбранным объект **Cube** в окне Hierarchy (Иерархия), нажмите кнопку **Add Component** (Добавить компонент) в окне Inspector (Инспектор). Затем найдите и выберите скрипт **Object Manipulator** (Манипулятор объектами), чтобы добавить его в объект Cube.
+
+![Добавление скрипта Object Manipulator (Манипулятор объектами) в объект Cube](images/mr-learning-base/base-02-section8-step1-2.png)
+
+Повторите те же действия, чтобы добавить в объект Cube скрипт **Near Interaction Grabbable** (Возможность захвата при близком взаимодействии).
+
+![Добавление скрипта Near Interaction Grabbable (Возможность захвата при близком взаимодействии) в объект Cube](images/mr-learning-base/base-02-section8-step1-3.png)
+
+> [!NOTE]
+> В нашем примере, когда добавляется компонент Object Manipulator (Script), автоматически добавляется и компонент Constraint Manager (Script), от которого тот зависит.
+
+> [!NOTE]
+> Для выполнения задач этого руководства в объект Cube уже добавлены коллайдеры. Чтобы получить дополнительные сведения о коллайдерах, воспользуйтесь <a href="https://docs.unity3d.com/Manual/CollidersOverview.html" target="_blank">этим разделом</a> из документации по Unity.
+
+Чтобы проверить это в редакторе Unity, можно перейти в режим воспроизведения и удерживать клавишу **SHIFT** слева или **ПРОБЕЛ** для включения контроллера. Контроллер можно перемещать, передвигая мышь, а приближать его к камере или удалять от нее вы можете с помощью колесика мыши. Наведите указатель на объект Cube, а затем нажмите и удерживайте **правую кнопку мыши**, чтобы переместить объект Cube.
+
+![Режим игры](images/mr-learning-base/base-02-section8-step1-4.png)
 
 ## <a name="building-your-application-to-your-hololens-2"></a>Создание приложения в HoloLens 2
 
@@ -209,28 +198,28 @@ ms.locfileid: "99627855"
 
 В окне параметров сборки нажмите кнопку **Add Open Scenes** (Добавить открытые сцены), чтобы добавить текущую сцену в список **Scenes In Build** (Сцены в сборке), а затем нажмите кнопку **Build** (Сборка), чтобы открыть окно сборки универсальной платформы Windows:
 
-![Окно параметров сборки Unity с выбранным вариантом UWP](images/mr-learning-base/base-02-section7-step1-1.png)
+![Окно параметров сборки Unity с выбранным вариантом UWP](images/mr-learning-base/base-02-section9-step1-1.png)
 
 В окне сборки универсальной платформы Windows выберите подходящее расположение для хранения сборки, например _D:\MixedRealityLearning\Builds_, создайте папку и присвойте ей понятное имя, например _GettingStarted_, а затем нажмите кнопку **Select Folder** (Выбрать папку), чтобы запустить процесс сборки:
 
-![Окно параметров сборки Unity с окном выбора папки](images/mr-learning-base/base-02-section7-step1-2.png)
+![Окно параметров сборки Unity с окном выбора папки](images/mr-learning-base/base-02-section9-step1-2.png)
 
 Подождите, пока Unity завершит сборку:
 
-![Unity выполняет сборку](images/mr-learning-base/base-02-section7-step1-3.png)
+![Unity выполняет сборку](images/mr-learning-base/base-02-section9-step1-3.png)
 
 ### <a name="2-build-and-deploy-the-application"></a>2. Сборка и развертывание приложения
 
 По завершении процесса сборки Unity запросит проводник Windows открыть расположение с сохраненной сборкой. Перейдите в папку и дважды щелкните файл решения, чтобы открыть его в Visual Studio:
 
-![Проводник Windows с выбранным созданным решением Visual Studio](images/mr-learning-base/base-02-section8-step1-1.png)
+![Проводник Windows с выбранным созданным решением Visual Studio](images/mr-learning-base/base-02-section10-step1-1.png)
 
 > [!NOTE]
 > Если в Visual Studio появится запрос на установку новых компонентов, проверьте, установлены ли все обязательные компоненты, как описано в документации по **[установке средств](../../install-the-tools.md)** .
 
 Настройте Visual Studio для устройства HoloLens, выбрав конфигурацию **Master** (Ведущий) или **Release** (Выпуск), архитектуру **ARM64** и целевой объект **Device** (Устройство):
 
-![Среда Visual Studio, настроенная для развертывания в HoloLens 2](images/mr-learning-base/base-02-section8-step1-2.png)
+![Среда Visual Studio, настроенная для развертывания в HoloLens 2](images/mr-learning-base/base-02-section10-step1-2.png)
 
 > [!TIP]
 > Если выполняется развертывание в HoloLens (первое поколение), выберите архитектуру **x86**.
@@ -243,13 +232,13 @@ ms.locfileid: "99627855"
 
 Подключите HoloLens к компьютеру, а затем выберите **Debug** > **Start Without Debugging** (Отладка >Запуск без отладки), чтобы выполнить сборку и развертывание на устройстве:
 
-![Выбор варианта Start Without Debugging (Начать без отладки) в меню Visual Studio](images/mr-learning-base/base-02-section8-step1-3.png)
+![Выбор варианта Start Without Debugging (Начать без отладки) в меню Visual Studio](images/mr-learning-base/base-02-section10-step1-3.png)
 
 > [!IMPORTANT]
 > Перед выполнением сборки устройство нужно перевести в режим разработчика и связать с компьютером разработки. Оба эти действия можно выполнить, следуя [этим инструкциям](../../platform-capabilities-and-apis/using-visual-studio.md).
 
 > [!TIP]
-> Кроме того, можно выполнить развертывание в [эмуляторе HoloLens](../../platform-capabilities-and-apis/using-the-hololens-emulator.md) или создать [пакет приложения](https://docs.microsoft.com/windows/uwp/packaging/packaging-uwp-apps) для загрузки неопубликованных приложений.
+> Кроме того, можно выполнить развертывание в [эмуляторе HoloLens](../../platform-capabilities-and-apis/using-the-hololens-emulator.md) или создать [пакет приложения](/windows/uwp/packaging/packaging-uwp-apps) для загрузки неопубликованных приложений.
 
 Использование параметра запуска без отладки автоматически запускает приложение на устройстве без присоединения отладчика Visual Studio.
 
@@ -260,7 +249,7 @@ ms.locfileid: "99627855"
 
 ## <a name="congratulations"></a>Поздравляем!
 
-Вы развернули свое первое приложение HoloLens. Перемещаясь, вы увидите, как пространственная сетка сопоставления покрывает поверхности, воспринятые HoloLens. Кроме того, вы увидите на руках и пальцах индикаторы для отслеживания рук и счетчик частоты кадров для отслеживания производительности приложения. Эти функции — лишь немногие из новых базовых компонентов, входящих в состав MRTK. В следующих учебниках вы добавите содержимое в сцену, чтобы исследовать возможности HoloLens и MRTK.
+Вы развернули свое первое приложение HoloLens. Когда приложение откроется, перед вами должен отобразиться объект Cube. С ним можно взаимодействовать, перемещая его. Кроме того, когда вы будете передвигаться, должна отображаться сетка пространственного сопоставления, которая покрывает поверхности, воспринимаемые HoloLens. Кроме того, вы увидите на руках и пальцах индикаторы для отслеживания рук и счетчик частоты кадров для отслеживания производительности приложения. Эти функции — лишь немногие из новых базовых компонентов, входящих в состав MRTK. В следующих учебниках вы добавите содержимое в сцену, чтобы исследовать возможности HoloLens и MRTK.
 
 > [!div class="nextstepaction"]
 > [Следующее руководство: 3. Настройка профилей MRTK](mr-learning-base-03.md)

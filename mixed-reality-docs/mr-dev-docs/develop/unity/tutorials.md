@@ -1,5 +1,4 @@
 ---
-layout: LandingPage
 title: Учебники
 description: Узнавайте первыми об учебниках по разработке смешанной реальности, доступным для HoloLens и служб Azure.
 author: keveleigh
@@ -8,12 +7,12 @@ ms.date: 07/30/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: mixedrealitytoolkit, mixedrealitytoolkit-unity, Academy, учебник, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, Unity, Unreal, HoloLens, Пространственные привязки Azure, служба "Речь" Azure
-ms.openlocfilehash: 76c8cdcddd9617df8e823b4967593c37fa1e6bb9
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: c64ceb918cfec31b7ac934d9a1f9c719a4dde244
+ms.sourcegitcommit: b8a3367bf6dfed01de1ffa10f635385a92ca06b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "98006524"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106223945"
 ---
 # <a name="tutorials"></a>Учебники
 
@@ -25,12 +24,13 @@ ms.locfileid: "98006524"
 
 Учебники по HoloLens 2 призваны помочь разработчикам в изучении методик и рекомендаций по разработке приложений смешанной реальности. Учебники по Unity основаны на [наборе средств для смешанной реальности (MRTK) версии 2.0](https://github.com/microsoft/MixedRealityToolkit-Unity), а в учебниках по Unreal используются [средства разработки пользовательского интерфейса (UX) для Unreal Engine 0.8](https://github.com/microsoft/MixedReality-UXTools-Unreal).
 
-* Руководства по началу работы
-    * Unity — [1 из 9. Введение](tutorials/mr-learning-base-01.md)
-    * Unreal — [1 из 6. Начало работы](../unreal/tutorials/unreal-uxt-ch1.md)
-* Руководства по Пространственным привязкам Azure — [1 из 5. Введение](tutorials/mr-learning-asa-01.md)
-* Руководства по многопользовательским возможностям — [1 из 5. Введение](tutorials/mr-learning-sharing-01.md)
-* Руководства по использованию службы "Речь" в Azure— [1 из 4, "Интеграция и использование средств распознавания и транскрибирования речи"](tutorials/mrlearning-speechSDK-ch1.md)
+* Руководства по MRTK для начинающих. [Введение (1 из 9)](tutorials/mr-learning-base-01.md).
+* Руководства по Пространственным привязкам Azure. [Введение (1 из 5)](tutorials/mr-learning-asa-01.md).
+* Руководства по многопользовательским возможностям. [Введение (1 из 5)](tutorials/mr-learning-sharing-01.md).
+* Руководства по использованию службы "Речь" Azure. [Интеграция и использование средств распознавания и транскрибирования речи (1 из 4)](tutorials/mrlearning-speechSDK-ch1.md).
+* Руководства по пространственному звуку. [Добавление пространственного звука (1 из 5)](tutorials/unity-spatial-audio-ch1.md).
+* Руководства по Облачным службам Azure. [Введение (1 из 5)](tutorials/mr-learning-azure-01.md).
+* Руководства по голографическому удаленному взаимодействию с компьютером. [Начало работы (1 из 2)](tutorials/mr-learning-pc-holographic-remoting-01.md).
 
 ## <a name="mixed-reality-academy"></a>Mixed Reality Academy 
 

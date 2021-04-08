@@ -1,20 +1,37 @@
 ---
-ms.openlocfilehash: c205e3b812eeb7a85bfe361d4fd83f9aec7b7999
-ms.sourcegitcommit: cef969ffd22dc1e5a1e9c3c32fbf0646206519a1
+ms.openlocfilehash: d7e248788d4c4976acbb9ff23177d354894f57dd
+ms.sourcegitcommit: 6272d086a2856e8b514a719e1f9e3b78554be5be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "99244962"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "105958037"
 ---
 # <a name="unity"></a>[Unity](#tab/unity)
 
 ![Баннер с логотипом Unity](../images/unity_logo_banner.png)<br>
 
-### <a name="1-download-the-latest-version"></a>1. Скачайте последнюю версию.
+### <a name="1-download-the-recommended-unity-version"></a>1. Скачайте рекомендуемую версию Unity 
 
-В качестве лучшей версии для запуска новых проектов мы рекомендуем [Unity LTS (долгосрочная поддержка)](https://unity3d.com/unity/qa/lts-releases). Затем ее можно обновить до последней версии, чтобы получить новые стабильные исправления.
-* Сейчас рекомендуем использовать сборку **[Unity 2019.4 LTS](https://unity3d.com/unity/qa/lts-releases?version=2019.4)** , необходимую для MRTK версии 2 (см. ниже).
-* Если вам по определенным причинам требуется использовать другую версию Unity, с этим не возникнет затруднений, так как Unity поддерживает параллельную установку различных версий.
+Текущая рекомендуемая версия для разработки смешанной реальности — **Unity 2019.4 LTS (долгосрочная поддержка)** . Лучший способ установки и администрирования Unity — с помощью **Unity Hub**. 
+
+> [!NOTE]
+>  Если вы используете Unity 2020 LTS, доступна поддержка смешанной реальности для разработки HoloLens 2. Но сейчас есть некоторые известные проблемы. Позже в этом году эта версия станет рекомендуемой версией Unity. 
+
+Ознакомьтесь со статьей [Выбор версии Unity и подключаемого модуля XR](../unity/choosing-unity-version.md), чтобы узнать, какая поддержка смешанной реальности доступна в разных версиях подсистемы Unity и подключаемого модуля XR.
+
+> [!div class="nextstepaction"]
+> [Скачать Unity Hub](https://unity3d.com/get-unity/download)
+
+При установке Unity обязательно проверьте следующие компоненты в разделе **Platforms** (Платформы):
+* **поддержка сборки для универсальной платформы Windows**; 
+* **поддержка сборки для Windows (IL2CPP)** .
+
+![Параметр Unity Universal Windows Platform Build Support (Поддержка сборки для универсальной платформы Windows)](../../develop/images/Unity_Install_Option_UWP.png)
+
+Если вы установили Unity без этих параметров, вы можете добавить их с помощью меню **Add Modules** (Добавить модули) в Unity Hub.
+
+![Параметр Unity Windows Build Support (Поддержка сборки для Windows)](../../develop/images/Unity_Install_Option_UWP2.png)
+
 
 ### <a name="2-install-the-mixed-reality-feature-tool"></a>2. Установка Mixed Reality Feature Tool
 
@@ -33,7 +50,7 @@ ms.locfileid: "99244962"
 Мы рекомендуем изучить раздел по началу работы, следуя нашим курируемым этапам разработки для[HoloLens](../unity/unity-development-overview.md#1-getting-started) или [виртуальной реальности](../unity/unity-development-wmr-overview.md#1-getting-started). Если вы уже работаете с этими этапами, выполните остальные шаги по настройке (см. ниже) и перейдите к [руководствам по началу работы с HoloLens 2](../unity/tutorials/mr-learning-base-01.md).
 
 > [!IMPORTANT]
-> Обратите внимание, что инструкции по установке приведены для последнего стабильного сочетания выпусков MRTK и Unity — **MRTK 2.5.1** и **Unity 2019.4 LTS**.
+> Обратите внимание, что инструкции по установке приведены для последнего стабильного сочетания выпусков MRTK и Unity — **MRTK 2.6.1** и **Unity 2019.4 LTS**.
 
 > [!NOTE]
 > Если вы не хотите использовать MRTK для Unity, вам придется [самостоятельно написать скрипты для всех взаимодействий и моделей поведения](../unity/configure-unity-project.md).
@@ -150,6 +167,9 @@ ms.locfileid: "99244962"
 ### <a name="1-download-the-latest-version"></a>1. Скачайте последнюю версию.
 
 Мы рекомендуем установить [Unreal Engine 4.25](https://docs.unrealengine.com//GettingStarted/Installation/index.html) или более поздней версии, чтобы воспользоваться всеми преимуществами встроенной поддержки HoloLens.
+
+Перейдите на вкладку **Library** (Библиотека) в Epic Games Launcher. Щелкните стрелку раскрывающегося списка рядом с полем **Launch** (Запуск) и выберите **Options** (Параметры). В разделе **Target Platforms** (Целевые платформы) выберите элемент **HoloLens 2** и щелкните команду **Apply** (Применить).
+![Параметр установки Unreal для HoloLens 2](../../develop/images/Unreal_Install_Option_HoloLens2.png)
 
 ### <a name="2-import-mixed-reality-toolkit-mrtk"></a>2. Импортируйте набор средств для смешанной реальности (MRTK).
 ![MRTK](../../design/images/MRTK_UX_Hero.png)
