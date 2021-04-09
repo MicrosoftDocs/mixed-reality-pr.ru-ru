@@ -409,7 +409,7 @@ public void SetButtonToAdjust()
 
 <img src="../images/button/MRTK_Button_Custom3.png" width="450" alt="Pressable Custom3">
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Интерактивный объект](interactable.md)
 * [Визуальные темы](visual-themes.md)
