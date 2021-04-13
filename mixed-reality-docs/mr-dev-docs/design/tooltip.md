@@ -6,48 +6,48 @@ ms.author: dongpark
 ms.date: 11/01/2019
 ms.topic: article
 keywords: Смешанная реальность, элементы управления, взаимодействие, Пользовательский интерфейс, UX, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, подсказка, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: ac8d12dbf681fb02df6fe70f3fd7b67615f4a5d6
-ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
+ms.openlocfilehash: 1ab3c00557329fbe53161cbb58c06ee7ede0b66b
+ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101759780"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107300319"
 ---
-# <a name="tooltip"></a><span data-ttu-id="0e354-104">Подсказка</span><span class="sxs-lookup"><span data-stu-id="0e354-104">Tooltip</span></span>
+# <a name="tooltip"></a><span data-ttu-id="f89a8-104">Подсказка</span><span class="sxs-lookup"><span data-stu-id="f89a8-104">Tooltip</span></span>
 
 ![Подсказка](images/UX_Hero_Tooltip.jpg)
 
-<span data-ttu-id="0e354-106">Подсказка — это короткое описание, связанное с каким-либо элементом управления или объектом.</span><span class="sxs-lookup"><span data-stu-id="0e354-106">A tooltip is a short description that is linked to another control or object.</span></span> <span data-ttu-id="0e354-107">Они используются для передачи подсказки или дополнительной информации при более близкой проверке.</span><span class="sxs-lookup"><span data-stu-id="0e354-107">They're used to convey a hint or extra information upon closer inspection.</span></span> <span data-ttu-id="0e354-108">Подсказки помогают пользователям понять незнакомые объекты в физической среде, которые не описаны напрямую.</span><span class="sxs-lookup"><span data-stu-id="0e354-108">Tooltips help users understand unfamiliar objects in the physical environment that aren't described directly.</span></span> 
+<span data-ttu-id="f89a8-106">Подсказка — это короткое описание, связанное с каким-либо элементом управления или объектом.</span><span class="sxs-lookup"><span data-stu-id="f89a8-106">A tooltip is a short description that is linked to another control or object.</span></span> <span data-ttu-id="f89a8-107">Они используются для передачи подсказки или дополнительной информации при более близкой проверке.</span><span class="sxs-lookup"><span data-stu-id="f89a8-107">They're used to convey a hint or extra information upon closer inspection.</span></span> <span data-ttu-id="f89a8-108">Подсказки помогают пользователям понять незнакомые объекты в физической среде, которые не описаны напрямую.</span><span class="sxs-lookup"><span data-stu-id="f89a8-108">Tooltips help users understand unfamiliar objects in the physical environment that aren't described directly.</span></span> 
 
 <br>
 
 ---
 
-## <a name="tooltip-in-mrtk-mixed-reality-toolkit-for-unity"></a><span data-ttu-id="0e354-109">Подсказка в МРТК (набор средств для смешанной реальности) для Unity</span><span class="sxs-lookup"><span data-stu-id="0e354-109">Tooltip in MRTK (Mixed Reality Toolkit) for Unity</span></span>
+## <a name="tooltip-in-mrtk-mixed-reality-toolkit-for-unity"></a><span data-ttu-id="f89a8-109">Подсказка в МРТК (набор средств для смешанной реальности) для Unity</span><span class="sxs-lookup"><span data-stu-id="f89a8-109">Tooltip in MRTK (Mixed Reality Toolkit) for Unity</span></span>
 
-* [<span data-ttu-id="0e354-110">МРТК — подсказка</span><span class="sxs-lookup"><span data-stu-id="0e354-110">MRTK - Tooltip</span></span>](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/ux-building-blocks/tooltip.md)
+* [<span data-ttu-id="f89a8-110">МРТК — подсказка</span><span class="sxs-lookup"><span data-stu-id="f89a8-110">MRTK - Tooltip</span></span>](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/tooltip)
 
 <br>
 
 ---
 
-## <a name="see-also"></a><span data-ttu-id="0e354-111">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="0e354-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f89a8-111">См. также</span><span class="sxs-lookup"><span data-stu-id="f89a8-111">See also</span></span>
 
-* [<span data-ttu-id="0e354-112">Курсоры</span><span class="sxs-lookup"><span data-stu-id="0e354-112">Cursors</span></span>](cursors.md)
-* [<span data-ttu-id="0e354-113">Телекинез</span><span class="sxs-lookup"><span data-stu-id="0e354-113">Hand ray</span></span>](point-and-commit.md)
-* [<span data-ttu-id="0e354-114">Кнопка</span><span class="sxs-lookup"><span data-stu-id="0e354-114">Button</span></span>](button.md)
-* [<span data-ttu-id="0e354-115">Активный объект</span><span class="sxs-lookup"><span data-stu-id="0e354-115">Interactable object</span></span>](interactable-object.md)
-* [<span data-ttu-id="0e354-116">Ограничивающая рамка и панель приложения</span><span class="sxs-lookup"><span data-stu-id="0e354-116">Bounding box and App bar</span></span>](app-bar-and-bounding-box.md)
-* [<span data-ttu-id="0e354-117">Оперирование</span><span class="sxs-lookup"><span data-stu-id="0e354-117">Manipulation</span></span>](direct-manipulation.md)
-* [<span data-ttu-id="0e354-118">Меню руки</span><span class="sxs-lookup"><span data-stu-id="0e354-118">Hand menu</span></span>](hand-menu.md)
-* [<span data-ttu-id="0e354-119">Быстрое меню</span><span class="sxs-lookup"><span data-stu-id="0e354-119">Near menu</span></span>](near-menu.md)
-* [<span data-ttu-id="0e354-120">Коллекция объектов</span><span class="sxs-lookup"><span data-stu-id="0e354-120">Object collection</span></span>](object-collection.md)
-* [<span data-ttu-id="0e354-121">Голосовая команда</span><span class="sxs-lookup"><span data-stu-id="0e354-121">Voice command</span></span>](voice-input.md)
-* [<span data-ttu-id="0e354-122">Клавиатура</span><span class="sxs-lookup"><span data-stu-id="0e354-122">Keyboard</span></span>](keyboard.md)
-* [<span data-ttu-id="0e354-123">Подсказка</span><span class="sxs-lookup"><span data-stu-id="0e354-123">Tooltip</span></span>](tooltip.md)
-* [<span data-ttu-id="0e354-124">Планшет</span><span class="sxs-lookup"><span data-stu-id="0e354-124">Slate</span></span>](slate.md)
-* [<span data-ttu-id="0e354-125">Ползунок</span><span class="sxs-lookup"><span data-stu-id="0e354-125">Slider</span></span>](slider.md)
-* [<span data-ttu-id="0e354-126">Шейдер</span><span class="sxs-lookup"><span data-stu-id="0e354-126">Shader</span></span>](shader.md)
-* [<span data-ttu-id="0e354-127">Биллбординг и закрепление элемента в пространстве</span><span class="sxs-lookup"><span data-stu-id="0e354-127">Billboarding and tag-along</span></span>](billboarding-and-tag-along.md)
-* [<span data-ttu-id="0e354-128">Индикация хода выполнения</span><span class="sxs-lookup"><span data-stu-id="0e354-128">Displaying progress</span></span>](progress.md)
-* [<span data-ttu-id="0e354-129">Притяжение к поверхности</span><span class="sxs-lookup"><span data-stu-id="0e354-129">Surface magnetism</span></span>](surface-magnetism.md)
+* [<span data-ttu-id="f89a8-112">Курсоры</span><span class="sxs-lookup"><span data-stu-id="f89a8-112">Cursors</span></span>](cursors.md)
+* [<span data-ttu-id="f89a8-113">Телекинез</span><span class="sxs-lookup"><span data-stu-id="f89a8-113">Hand ray</span></span>](point-and-commit.md)
+* [<span data-ttu-id="f89a8-114">Кнопка</span><span class="sxs-lookup"><span data-stu-id="f89a8-114">Button</span></span>](button.md)
+* [<span data-ttu-id="f89a8-115">Активный объект</span><span class="sxs-lookup"><span data-stu-id="f89a8-115">Interactable object</span></span>](interactable-object.md)
+* [<span data-ttu-id="f89a8-116">Ограничивающая рамка и панель приложения</span><span class="sxs-lookup"><span data-stu-id="f89a8-116">Bounding box and App bar</span></span>](app-bar-and-bounding-box.md)
+* [<span data-ttu-id="f89a8-117">Оперирование</span><span class="sxs-lookup"><span data-stu-id="f89a8-117">Manipulation</span></span>](direct-manipulation.md)
+* [<span data-ttu-id="f89a8-118">Меню руки</span><span class="sxs-lookup"><span data-stu-id="f89a8-118">Hand menu</span></span>](hand-menu.md)
+* [<span data-ttu-id="f89a8-119">Быстрое меню</span><span class="sxs-lookup"><span data-stu-id="f89a8-119">Near menu</span></span>](near-menu.md)
+* [<span data-ttu-id="f89a8-120">Коллекция объектов</span><span class="sxs-lookup"><span data-stu-id="f89a8-120">Object collection</span></span>](object-collection.md)
+* [<span data-ttu-id="f89a8-121">Голосовая команда</span><span class="sxs-lookup"><span data-stu-id="f89a8-121">Voice command</span></span>](voice-input.md)
+* [<span data-ttu-id="f89a8-122">Клавиатура</span><span class="sxs-lookup"><span data-stu-id="f89a8-122">Keyboard</span></span>](keyboard.md)
+* [<span data-ttu-id="f89a8-123">Подсказка</span><span class="sxs-lookup"><span data-stu-id="f89a8-123">Tooltip</span></span>](tooltip.md)
+* [<span data-ttu-id="f89a8-124">Планшет</span><span class="sxs-lookup"><span data-stu-id="f89a8-124">Slate</span></span>](slate.md)
+* [<span data-ttu-id="f89a8-125">Ползунок</span><span class="sxs-lookup"><span data-stu-id="f89a8-125">Slider</span></span>](slider.md)
+* [<span data-ttu-id="f89a8-126">Шейдер</span><span class="sxs-lookup"><span data-stu-id="f89a8-126">Shader</span></span>](shader.md)
+* [<span data-ttu-id="f89a8-127">Биллбординг и закрепление элемента в пространстве</span><span class="sxs-lookup"><span data-stu-id="f89a8-127">Billboarding and tag-along</span></span>](billboarding-and-tag-along.md)
+* [<span data-ttu-id="f89a8-128">Индикация хода выполнения</span><span class="sxs-lookup"><span data-stu-id="f89a8-128">Displaying progress</span></span>](progress.md)
+* [<span data-ttu-id="f89a8-129">Притяжение к поверхности</span><span class="sxs-lookup"><span data-stu-id="f89a8-129">Surface magnetism</span></span>](surface-magnetism.md)

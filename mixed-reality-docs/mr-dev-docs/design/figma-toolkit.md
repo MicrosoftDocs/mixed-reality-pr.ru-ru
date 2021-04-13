@@ -1,79 +1,88 @@
 ---
-title: Набор средств фигма
+title: Набор средств Figma
 description: Скачайте файл фигма, содержащий ресурсы для общих стандартных блоков пользовательского интерфейса.
 author: dongpark
 ms.author: dongpark
 ms.date: 03/29/2021
 ms.topic: article
 keywords: Фигма, эскиз, Adobe XD, проектирование, конструктор, файл проекта, проектирование UX, HoloLens, МРТК, набор средств для смешанной реальности
-ms.openlocfilehash: 4e5b28a08d52ddc0b3a1311e51d71581a31cb0c0
-ms.sourcegitcommit: e9a0ba97fd288479ad324cdaabee9b6abc9f4dc2
+ms.openlocfilehash: 1386ce6238a406c2e2b45c9a6a551ae57c52cc59
+ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "107222076"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107299959"
 ---
-# <a name="figma-toolkit"></a><span data-ttu-id="1ea0d-104">Набор средств фигма</span><span class="sxs-lookup"><span data-stu-id="1ea0d-104">Figma Toolkit</span></span>
+# <a name="figma-toolkit"></a><span data-ttu-id="7ea16-104">Набор средств Figma</span><span class="sxs-lookup"><span data-stu-id="7ea16-104">Figma Toolkit</span></span>
 
-![Набор средств фигма](images/UX_Tools_FigmaToolkit_Hero.png)<br>
+> [!VIDEO https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Figma-Toolkit-MRTK/player]
 
-<span data-ttu-id="1ea0d-106">Фигма Toolkit предоставляет ресурсы, которые можно использовать для наброска и верстки пользовательского интерфейса.</span><span class="sxs-lookup"><span data-stu-id="1ea0d-106">Figma Toolkit provides the assets that can be used for sketching and laying out UI.</span></span> <span data-ttu-id="1ea0d-107">Все элементы управления пользовательского интерфейса основаны на компонентах, доступных в МРТК.</span><span class="sxs-lookup"><span data-stu-id="1ea0d-107">All UI controls are based on the components available in MRTK.</span></span> 
+<span data-ttu-id="7ea16-105">Фигма Toolkit предоставляет ресурсы, которые можно использовать для наброска и верстки пользовательского интерфейса.</span><span class="sxs-lookup"><span data-stu-id="7ea16-105">Figma Toolkit provides the assets that can be used for sketching and laying out UI.</span></span> <span data-ttu-id="7ea16-106">Все элементы управления пользовательского интерфейса основаны на компонентах, доступных в МРТК.</span><span class="sxs-lookup"><span data-stu-id="7ea16-106">All UI controls are based on the components available in MRTK.</span></span> 
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="1ea0d-108">Скачать фигма Toolkit</span><span class="sxs-lookup"><span data-stu-id="1ea0d-108">Download Figma Toolkit</span></span>](https://1drv.ms/u/s!ArqCGDZ4bpk7gRIA9QbpoQ5ln90B?e=qgc6YX)
+> [<span data-ttu-id="7ea16-107">Просмотреть набор средств фигма</span><span class="sxs-lookup"><span data-stu-id="7ea16-107">View Figma Toolkit</span></span>](https://www.figma.com/file/ltLag9SxjUIyLQFsp7NNE7/Mixed-Reality-Toolkit-for-Figma?node-id=116%3A4)
 
-## <a name="how-to-use-figma-toolkit"></a><span data-ttu-id="1ea0d-109">Использование набора средств фигма</span><span class="sxs-lookup"><span data-stu-id="1ea0d-109">How to use Figma Toolkit</span></span>
-<span data-ttu-id="1ea0d-110">Импортируйте скачанный файл (. рисунок) в фигма с помощью кнопки **Импорт** в правом верхнем углу.</span><span class="sxs-lookup"><span data-stu-id="1ea0d-110">Import downloaded file (.fig) into Figma using the **Import** button on the upper right corner.</span></span>
+## <a name="how-to-use-figma-toolkit"></a><span data-ttu-id="7ea16-108">Использование набора средств фигма</span><span class="sxs-lookup"><span data-stu-id="7ea16-108">How to use Figma Toolkit</span></span>
+<span data-ttu-id="7ea16-109">Для создания копии используйте команду **дублировать в меню черновики** .</span><span class="sxs-lookup"><span data-stu-id="7ea16-109">Use **Duplicate to your drafts** menu to make a copy.</span></span>
+<img src="images/UX_Figma_Use1.png" width="500px" alt="Menu duplicate 1"><br>
+
+<span data-ttu-id="7ea16-110">Нажмите кнопку **назад к файлам** , чтобы увидеть копию копии.</span><span class="sxs-lookup"><span data-stu-id="7ea16-110">Click **Back to files** to see duplicated copy.</span></span> <span data-ttu-id="7ea16-111">Эту копию можно использовать для собственного создания.</span><span class="sxs-lookup"><span data-stu-id="7ea16-111">You can use this copy for your own creation.</span></span>
+
+<img src="images/UX_Figma_Use2.png" width="400px" alt="Menu duplicate 2"><br>
+
+<img src="images/UX_Figma_Use3.png" width="300px" alt="Menu duplicate 3"><br>
+
+<span data-ttu-id="7ea16-112">Для загрузки и работы в локальной среде используйте меню **файл > сохранить локальную копию** .</span><span class="sxs-lookup"><span data-stu-id="7ea16-112">To download and work locally, use **File > save local copy** menu.</span></span> <span data-ttu-id="7ea16-113">Импортируйте скачанный файл (. рисунок) в фигма с помощью кнопки **Импорт** в правом верхнем углу.</span><span class="sxs-lookup"><span data-stu-id="7ea16-113">Import downloaded file (.fig) into Figma using the **Import** button on the upper right corner.</span></span>
 
 <img src="images/UX_FigmaToolkit_Import.png" width="200px" alt="Import menu"><br>
 
-<span data-ttu-id="1ea0d-111">Можно использовать меню **страницы** слева, чтобы открыть различные страницы, включенные в файл.</span><span class="sxs-lookup"><span data-stu-id="1ea0d-111">You can use the **Pages** menus on the left to open different pages included in the file.</span></span>
+<span data-ttu-id="7ea16-114">Можно использовать меню **страницы** слева, чтобы открыть различные страницы, включенные в файл.</span><span class="sxs-lookup"><span data-stu-id="7ea16-114">You can use the **Pages** menus on the left to open different pages included in the file.</span></span>
 
 <img src="images/UX_FigmaToolkit_PageMenu.png" width="200px" alt="Page menu"><br>
 
-<span data-ttu-id="1ea0d-112">Откройте страницу **Введение** , чтобы узнать, как использовать компоненты и состояния.</span><span class="sxs-lookup"><span data-stu-id="1ea0d-112">Open **Introduction** page to learn about how to use components and states.</span></span>
+<span data-ttu-id="7ea16-115">Откройте страницу **Введение** , чтобы узнать, как использовать компоненты и состояния.</span><span class="sxs-lookup"><span data-stu-id="7ea16-115">Open **Introduction** page to learn about how to use components and states.</span></span>
 
-## <a name="ui-gallery--components"></a><span data-ttu-id="1ea0d-113">& компонентов коллекции пользовательского интерфейса</span><span class="sxs-lookup"><span data-stu-id="1ea0d-113">UI Gallery & Components</span></span>
-<span data-ttu-id="1ea0d-114">На странице коллекции и компонентов пользовательского интерфейса отображаются все доступные компоненты для вашего проекта.</span><span class="sxs-lookup"><span data-stu-id="1ea0d-114">UI Gallery and Components page show all available components for your design.</span></span>
+## <a name="ui-gallery--components"></a><span data-ttu-id="7ea16-116">& компонентов коллекции пользовательского интерфейса</span><span class="sxs-lookup"><span data-stu-id="7ea16-116">UI Gallery & Components</span></span>
+<span data-ttu-id="7ea16-117">На странице коллекции и компонентов пользовательского интерфейса отображаются все доступные компоненты для вашего проекта.</span><span class="sxs-lookup"><span data-stu-id="7ea16-117">UI Gallery and Components page show all available components for your design.</span></span>
 
 ![Пример набора средств фигма. Пользовательский интерфейс меню 1](images/UX_FigmaToolkit_Components_Menu1.png)<br>
 
 ![Пример набора средств фигма. Пользовательский интерфейс меню 2](images/UX_FigmaToolkit_Components_Menu2.png)<br>
 
-<span data-ttu-id="1ea0d-117">На вкладке **Assets (ресурсы** ) можно просмотреть эти компоненты и перетащить их на страницу.</span><span class="sxs-lookup"><span data-stu-id="1ea0d-117">Using **Assets** tab, you can browse these components and drag into your page.</span></span>
+<span data-ttu-id="7ea16-120">На вкладке **Assets (ресурсы** ) можно просмотреть эти компоненты и перетащить их на страницу.</span><span class="sxs-lookup"><span data-stu-id="7ea16-120">Using **Assets** tab, you can browse these components and drag into your page.</span></span>
 
 <img src="images/UX_FigmaToolkit_Components_Menu3.png" width="200px" alt="Assets tab"><br>
 
 
-## <a name="examples"></a><span data-ttu-id="1ea0d-118">Примеры</span><span class="sxs-lookup"><span data-stu-id="1ea0d-118">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="7ea16-121">Примеры</span><span class="sxs-lookup"><span data-stu-id="7ea16-121">Examples</span></span>
 
-<span data-ttu-id="1ea0d-119">Набор средств фигма может быть полезен для наброска пользовательского интерфейса меню.</span><span class="sxs-lookup"><span data-stu-id="1ea0d-119">Figma Toolkit could be useful to sketch menu UI.</span></span> 
+<span data-ttu-id="7ea16-122">Набор средств фигма может быть полезен для наброска пользовательского интерфейса меню.</span><span class="sxs-lookup"><span data-stu-id="7ea16-122">Figma Toolkit could be useful to sketch menu UI.</span></span> 
 
 ![Пример набора средств фигма. Пользовательский интерфейс меню 3](images/UX_FigmaToolkit_Examples_Menu.png)<br>
 
 
-<span data-ttu-id="1ea0d-121">Ресурсы могут использоваться для раскадровки.</span><span class="sxs-lookup"><span data-stu-id="1ea0d-121">Assets could be used for storyboarding.</span></span>
+<span data-ttu-id="7ea16-124">Ресурсы могут использоваться для раскадровки.</span><span class="sxs-lookup"><span data-stu-id="7ea16-124">Assets could be used for storyboarding.</span></span>
 
 ![Пример набора средств фигма. раскадровка](images/UX_FigmaToolkit_Examples_Storyboarding.png)<br>
 
 
-## <a name="see-also"></a><span data-ttu-id="1ea0d-123">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="1ea0d-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7ea16-126">См. также</span><span class="sxs-lookup"><span data-stu-id="7ea16-126">See also</span></span>
 
-* [<span data-ttu-id="1ea0d-124">Курсоры</span><span class="sxs-lookup"><span data-stu-id="1ea0d-124">Cursors</span></span>](cursors.md)
-* [<span data-ttu-id="1ea0d-125">Телекинез</span><span class="sxs-lookup"><span data-stu-id="1ea0d-125">Hand ray</span></span>](point-and-commit.md)
-* [<span data-ttu-id="1ea0d-126">Кнопка</span><span class="sxs-lookup"><span data-stu-id="1ea0d-126">Button</span></span>](button.md)
-* [<span data-ttu-id="1ea0d-127">Активный объект</span><span class="sxs-lookup"><span data-stu-id="1ea0d-127">Interactable object</span></span>](interactable-object.md)
-* [<span data-ttu-id="1ea0d-128">Ограничивающая рамка и панель приложения</span><span class="sxs-lookup"><span data-stu-id="1ea0d-128">Bounding box and App bar</span></span>](app-bar-and-bounding-box.md)
-* [<span data-ttu-id="1ea0d-129">Оперирование</span><span class="sxs-lookup"><span data-stu-id="1ea0d-129">Manipulation</span></span>](direct-manipulation.md)
-* [<span data-ttu-id="1ea0d-130">Меню руки</span><span class="sxs-lookup"><span data-stu-id="1ea0d-130">Hand menu</span></span>](hand-menu.md)
-* [<span data-ttu-id="1ea0d-131">Быстрое меню</span><span class="sxs-lookup"><span data-stu-id="1ea0d-131">Near menu</span></span>](near-menu.md)
-* [<span data-ttu-id="1ea0d-132">Коллекция объектов</span><span class="sxs-lookup"><span data-stu-id="1ea0d-132">Object collection</span></span>](object-collection.md)
-* [<span data-ttu-id="1ea0d-133">Голосовая команда</span><span class="sxs-lookup"><span data-stu-id="1ea0d-133">Voice command</span></span>](voice-input.md)
-* [<span data-ttu-id="1ea0d-134">Клавиатура</span><span class="sxs-lookup"><span data-stu-id="1ea0d-134">Keyboard</span></span>](keyboard.md)
-* [<span data-ttu-id="1ea0d-135">Подсказка</span><span class="sxs-lookup"><span data-stu-id="1ea0d-135">Tooltip</span></span>](tooltip.md)
-* [<span data-ttu-id="1ea0d-136">Планшет</span><span class="sxs-lookup"><span data-stu-id="1ea0d-136">Slate</span></span>](slate.md)
-* [<span data-ttu-id="1ea0d-137">Ползунок</span><span class="sxs-lookup"><span data-stu-id="1ea0d-137">Slider</span></span>](slider.md)
-* [<span data-ttu-id="1ea0d-138">Шейдер</span><span class="sxs-lookup"><span data-stu-id="1ea0d-138">Shader</span></span>](shader.md)
-* [<span data-ttu-id="1ea0d-139">Биллбординг и закрепление элемента в пространстве</span><span class="sxs-lookup"><span data-stu-id="1ea0d-139">Billboarding and tag-along</span></span>](billboarding-and-tag-along.md)
-* [<span data-ttu-id="1ea0d-140">Индикация хода выполнения</span><span class="sxs-lookup"><span data-stu-id="1ea0d-140">Displaying progress</span></span>](progress.md)
-* [<span data-ttu-id="1ea0d-141">Притяжение к поверхности</span><span class="sxs-lookup"><span data-stu-id="1ea0d-141">Surface magnetism</span></span>](surface-magnetism.md)
+* [<span data-ttu-id="7ea16-127">Курсоры</span><span class="sxs-lookup"><span data-stu-id="7ea16-127">Cursors</span></span>](cursors.md)
+* [<span data-ttu-id="7ea16-128">Телекинез</span><span class="sxs-lookup"><span data-stu-id="7ea16-128">Hand ray</span></span>](point-and-commit.md)
+* [<span data-ttu-id="7ea16-129">Кнопка</span><span class="sxs-lookup"><span data-stu-id="7ea16-129">Button</span></span>](button.md)
+* [<span data-ttu-id="7ea16-130">Активный объект</span><span class="sxs-lookup"><span data-stu-id="7ea16-130">Interactable object</span></span>](interactable-object.md)
+* [<span data-ttu-id="7ea16-131">Ограничивающая рамка и панель приложения</span><span class="sxs-lookup"><span data-stu-id="7ea16-131">Bounding box and App bar</span></span>](app-bar-and-bounding-box.md)
+* [<span data-ttu-id="7ea16-132">Оперирование</span><span class="sxs-lookup"><span data-stu-id="7ea16-132">Manipulation</span></span>](direct-manipulation.md)
+* [<span data-ttu-id="7ea16-133">Меню руки</span><span class="sxs-lookup"><span data-stu-id="7ea16-133">Hand menu</span></span>](hand-menu.md)
+* [<span data-ttu-id="7ea16-134">Быстрое меню</span><span class="sxs-lookup"><span data-stu-id="7ea16-134">Near menu</span></span>](near-menu.md)
+* [<span data-ttu-id="7ea16-135">Коллекция объектов</span><span class="sxs-lookup"><span data-stu-id="7ea16-135">Object collection</span></span>](object-collection.md)
+* [<span data-ttu-id="7ea16-136">Голосовая команда</span><span class="sxs-lookup"><span data-stu-id="7ea16-136">Voice command</span></span>](voice-input.md)
+* [<span data-ttu-id="7ea16-137">Клавиатура</span><span class="sxs-lookup"><span data-stu-id="7ea16-137">Keyboard</span></span>](keyboard.md)
+* [<span data-ttu-id="7ea16-138">Подсказка</span><span class="sxs-lookup"><span data-stu-id="7ea16-138">Tooltip</span></span>](tooltip.md)
+* [<span data-ttu-id="7ea16-139">Планшет</span><span class="sxs-lookup"><span data-stu-id="7ea16-139">Slate</span></span>](slate.md)
+* [<span data-ttu-id="7ea16-140">Ползунок</span><span class="sxs-lookup"><span data-stu-id="7ea16-140">Slider</span></span>](slider.md)
+* [<span data-ttu-id="7ea16-141">Шейдер</span><span class="sxs-lookup"><span data-stu-id="7ea16-141">Shader</span></span>](shader.md)
+* [<span data-ttu-id="7ea16-142">Биллбординг и закрепление элемента в пространстве</span><span class="sxs-lookup"><span data-stu-id="7ea16-142">Billboarding and tag-along</span></span>](billboarding-and-tag-along.md)
+* [<span data-ttu-id="7ea16-143">Индикация хода выполнения</span><span class="sxs-lookup"><span data-stu-id="7ea16-143">Displaying progress</span></span>](progress.md)
+* [<span data-ttu-id="7ea16-144">Притяжение к поверхности</span><span class="sxs-lookup"><span data-stu-id="7ea16-144">Surface magnetism</span></span>](surface-magnetism.md)
