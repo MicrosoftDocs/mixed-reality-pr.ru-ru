@@ -6,12 +6,12 @@ ms.author: dongpark
 ms.date: 11/01/2019
 ms.topic: article
 keywords: Смешанная реальность, элементы управления, взаимодействие, UI, UX, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств для смешанной реальности, магнит поверхности
-ms.openlocfilehash: e8a77d2fb1c147c353d74349961977f27aea71e0
-ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
+ms.openlocfilehash: c8e1c7e03f46992dd584f974c9573deb1d0e6474
+ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101759790"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107300339"
 ---
 # <a name="surface-magnetism"></a>Притяжение к поверхности
 
@@ -27,14 +27,14 @@ ms.locfileid: "101759790"
 
 **[Мртк](https://github.com/Microsoft/MixedRealityToolkit-Unity)** предоставляет сценарии и примеры сцен для методики магнитной плоскости. Вы можете использовать магниты поверхности с различными типами входных данных, такими как рука-Ray, взгляд глаз и контроллеры движения.
 
-* [МРТК — Поиск решения для магнитной плоскости](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/ux-building-blocks/solvers/solver.md#surfacemagnetism)
+* [МРТК — Поиск решения для магнитной плоскости](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/solvers/solver#surfacemagnetism)
 * [МРТК. примеры для пространственной осведомленности и монтажных магнитных поверхностей](https://github.com/microsoft/MixedRealityToolkit-Unity/blob/mrtk_development/Assets/MRTK/Examples/Demos/Solvers/Scenes/SurfaceMagnetismSpatialAwarenessExample.unity)
 
 <br>
 
 ---
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Курсоры](cursors.md)
 * [Телекинез](point-and-commit.md)

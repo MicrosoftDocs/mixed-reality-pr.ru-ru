@@ -6,12 +6,12 @@ ms.author: adlinv
 ms.date: 06/07/2019
 ms.topic: article
 keywords: Windows Mixed Reality, панель приложений, ограничивающий прямоугольник, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: aba2e318439fec2bbb9e986c2ff7cac7a8a5fb3a
-ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
+ms.openlocfilehash: 0ccec5240854de9a7db6a79d5b90b97f1e6b81de
+ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101759440"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107299909"
 ---
 # <a name="bounding-box-and-app-bar"></a>Ограничивающая рамка и панель приложения
 ![Это стандартный интерфейс для манипуляций с объектами в смешанной реальности.](images/UX_Hero_BoundingBox.jpg)<br>
@@ -93,9 +93,9 @@ ms.locfileid: "101759440"
 
 
 ## <a name="bounding-box-in-mrtk-mixed-reality-toolkit-for-unity"></a>Ограничивающий прямоугольник в МРТК (набор средств для смешанной реальности) для Unity
-**[Мртк](https://github.com/Microsoft/MixedRealityToolkit-Unity)** предоставляет скрипты и Prefabs для ограничивающего прямоугольника и панели приложений. Ограничивающий прямоугольник можно добавить, назначив сценарий BoundingBox.cs на любой объект.
+**[Мртк](https://github.com/Microsoft/MixedRealityToolkit-Unity)** предоставляет скрипты и Prefabs для ограничивающего прямоугольника и панели приложений. Ограничивающий прямоугольник можно добавить, назначив скрипт BoundingBox. cs на любой объект.
 
-* [МРТК-ограничивающий прямоугольник](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/ux-building-blocks/bounding-box.md)
+* [МРТК-ограничивающий прямоугольник](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/bounding-box)
 
 
 <br>
@@ -103,7 +103,7 @@ ms.locfileid: "101759440"
 ---
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Курсоры](cursors.md)
 * [Телекинез](point-and-commit.md)

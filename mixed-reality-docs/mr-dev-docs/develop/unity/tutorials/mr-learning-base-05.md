@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, решатели
 ms.localizationpriority: high
-ms.openlocfilehash: 5e231fe91c96dc8b6a7c07c6fdbc2c07286d6ab2
-ms.sourcegitcommit: 4fb961beeebd158e2f65b7c714c5e471454400a3
+ms.openlocfilehash: b2d23601419c36f2a79a0c6e19d06eda6dc54d09
+ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "105982987"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107300399"
 ---
 # <a name="5-creating-dynamic-content-using-solvers"></a>5. Создание динамического содержимого с помощью решателей
 
@@ -30,7 +30,7 @@ ms.locfileid: "105982987"
 
 ![Окно проекта Unity с выбранной папкой решателей](images/mr-learning-base/base-05-section1-step1-1.png)
 
-В этом учебнике мы рассмотрим реализацию решателя указателей направлений и решателя размещения касанием. Чтобы получить дополнительную информацию о полном наборе решателей, доступных в MRTK, просмотрите раздел [Solvers](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/solvers/solver.md) (Решатели) на [портале документации по MRTK](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity).
+В этом учебнике мы рассмотрим реализацию решателя указателей направлений и решателя размещения касанием. Чтобы получить дополнительную информацию о полном наборе решателей, доступных в MRTK, просмотрите раздел [Solvers](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/solvers/solver) (Решатели) на [портале документации по MRTK](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity).
 
 > [!NOTE]
 > Решатель указателей направлений не расположен в папках решателей, указанных выше. Он расположен в папках Packages > Mixed Reality Toolkit Foundation > SDK > Experimental > Features > Utilities, так как это экспериментальная функция.
@@ -140,7 +140,7 @@ ms.locfileid: "105982987"
 
 Из этого учебника вы узнали, как использовать решатель указателя направления MRTK, чтобы элемент пользовательского интерфейса интуитивно направлял пользователя к объектам. Вы также узнали, как использовать решатель размещения касанием, чтобы без проблем изменять расположение объектов.
 
-Чтобы получить дополнительные сведения об этих и других решателях в составе MRTK, ознакомьтесь с руководством [Решатели](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/solvers/solver.md) на [портале документации по MRTK](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/).
+Чтобы получить дополнительные сведения об этих и других решателях в составе MRTK, ознакомьтесь с руководством [Решатели](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/solvers/solver) на [портале документации по MRTK](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/).
 
 > [!div class="nextstepaction"]
 >[Следующее руководство: 6. Создание пользовательских интерфейсов](mr-learning-base-06.md)

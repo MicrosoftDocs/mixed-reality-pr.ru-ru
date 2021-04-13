@@ -6,12 +6,12 @@ ms.author: dongpark
 ms.date: 11/01/2019
 ms.topic: article
 keywords: Смешанная реальность, элементы управления, взаимодействие, Пользовательский интерфейс, UX, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, клавиатура, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: 9f42940b689a8fef77c9cf2f269100fccccfe6e0
-ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
+ms.openlocfilehash: d20fabb2536b028ce4c48aac84592bbdc3a0c291
+ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101759860"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107300439"
 ---
 # <a name="keyboard"></a>Keyboard (Клавиатура)
 
@@ -25,7 +25,7 @@ ms.locfileid: "101759860"
 
 ## <a name="system-keyboard-in-mrtk-mixed-reality-toolkit-for-unity"></a>Системная клавиатура в МРТК (набор средств для смешанной реальности) для Unity
 
-* [МРТК-системная клавиатура](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/ux-building-blocks/system-keyboard.md)
+* [МРТК-системная клавиатура](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/system-keyboard)
 
 <br>
 
@@ -33,12 +33,12 @@ ms.locfileid: "101759860"
 
 ## <a name="next-development-checkpoint"></a>Следующий этап разработки
 
-Если вы подготовились к расположению разработки Unity, то ваша следующая задача — развернуть приложение на устройстве или в эмуляторе. 
+Если вы подготовились к расположению разработки Unity, то ваша следующая задача — развернуть приложение на устройстве или в эмуляторе.
 
 > [!div class="nextstepaction"]
 > [Развертывание в HoloLens или в виде впечатляющих головных телефонов Windows Mixed Reality](../develop/platform-capabilities-and-apis/using-visual-studio.md)
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Курсоры](cursors.md)
 * [Телекинез](point-and-commit.md)

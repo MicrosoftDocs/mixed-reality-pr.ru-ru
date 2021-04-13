@@ -6,12 +6,12 @@ ms.author: dongpark
 ms.date: 06/19/2020
 ms.topic: article
 keywords: Смешанная реальность, HoloLens, элементы управления ИП, взаимодействие, Пользовательский интерфейс, UX, проектирование UX, пространственный пользовательский интерфейс, пространственное взаимодействие, трехмерный Пользовательский интерфейс, трехмерный UI, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: c9e1bf3e263214f9691f6c788f6115f93e690489
-ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
+ms.openlocfilehash: 18e446f6b35e8073f939d065de3572204e2967a1
+ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101759259"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107299999"
 ---
 # <a name="dialog"></a>Диалог
 
@@ -33,13 +33,13 @@ ms.locfileid: "101759259"
 ![Снимок экрана с разными наложением диалогового окна размера, выполняемым в HoloLens](images/MRTK_UX_Dialog_Types.jpg)
 
 
-* Дополнительные сведения см. в разделе [мртк-Dialog](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/experimental/dialog.md).
+* Дополнительные сведения см. в разделе [мртк-Dialog](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/dialog).
 
 <br>
 
 ---
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Курсоры](cursors.md)
 * [Телекинез](point-and-commit.md)

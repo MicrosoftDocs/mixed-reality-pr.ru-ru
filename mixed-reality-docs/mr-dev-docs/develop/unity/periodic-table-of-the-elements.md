@@ -6,12 +6,12 @@ ms.author: dongpark
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Windows Mixed Reality, проектирование, пример приложения, элементы управления, МРТК, набор средств для смешанной реальности, Unity, примеры приложений, примеры приложений, Открытый исходный код, Microsoft Store, HoloLens, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 19307b310d104f418e4f7739b0576c63407d83fd
-ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
+ms.openlocfilehash: 36491d230f9d236db77f34b9540f19609c7619ef
+ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101759740"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107300179"
 ---
 # <a name="periodic-table-of-the-elements"></a>Периодическая таблица элементов
 
@@ -31,7 +31,7 @@ ms.locfileid: "101759740"
 
 Периодическая таблица элементов визуализирует химические элементы и все их свойства в трехмерном пространстве. Он включает основные взаимодействия HoloLens, таких как взгляд и воздушный нажим. Пользователи могут узнать об элементах с анимированными трехмерными моделями. Они могут визуально понять электронную оболочку элемента и ее всегда, которая состоит из прочего и неутронс.
 
-## <a name="background"></a>Историческая справка
+## <a name="background"></a>Фон
 
 После первого изучения HoloLens я знал, что я хотел бы поэкспериментировать с периодическим табличным приложением в смешанной реальности. Поскольку каждый элемент имеет много точек данных, отображаемых с текстом, я думал, что это было бы очень удобно для изучения типографской композиции в трехмерном пространстве. Предоставление пользователям возможности визуализировать модель электронного представления элемента была еще одна интересная часть этого проекта.
 
@@ -55,13 +55,13 @@ ms.locfileid: "101759740"
 
 ### <a name="interactable-object-button"></a>Взаимодействующий объект (кнопка)
 
-[Взаимодействующий объект](../../design/interactable-object.md) — это объект, который может отвечать на базовые входные данные HoloLens. Он предоставляется в виде prefab или сценария, который можно легко применить к любому объекту. Например, можно сделать чашку кофе в сцене интерактивной и реагировать на такие входные данные, как взгляд, касание, Навигация и жесты манипуляции. [Дополнительные сведения](../../design/interactable-object.md)
+[Взаимодействующий объект](../../design/interactable-object.md) — это объект, который может отвечать на базовые входные данные HoloLens. Он предоставляется в виде prefab или сценария, который можно легко применить к любому объекту. Например, можно сделать чашку кофе в сцене интерактивной и реагировать на такие входные данные, как взгляд, касание, Навигация и жесты манипуляции. [Подробнее](../../design/interactable-object.md)
 
 ![Объект нтерактабле](images/640px-periodictable-interactableobject.jpg)
 
 ### <a name="object-collection"></a>Коллекция объектов
 
-[Коллекция объектов](../../design/object-collection.md) — это объект, который помогает размещать несколько объектов в различных фигурах. Он поддерживает плоскость, цилиндр, сферу и точечную диаграмму. Можно настроить дополнительные свойства, такие как радиус, число строк и расстояния. [Дополнительные сведения](../../design/object-collection.md)
+[Коллекция объектов](../../design/object-collection.md) — это объект, который помогает размещать несколько объектов в различных фигурах. Он поддерживает плоскость, цилиндр, сферу и точечную диаграмму. Можно настроить дополнительные свойства, такие как радиус, число строк и расстояния. [Подробнее](../../design/object-collection.md)
 
 ![Коллекция объектов](images/640px-periodictable-collections.jpg)
 
@@ -87,9 +87,9 @@ ms.locfileid: "101759740"
 </tr>
 </table>
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
-* [MRTK Examples Hub](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/example-scenes/example-hub.md) - [(скачайте из Microsoft Store в HoloLens 2)](https://www.microsoft.com/en-us/p/mrtk-examples-hub/9mv8c39l2sj4)
+* [MRTK Examples Hub](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/example-scenes/example-hub) - [(скачайте из Microsoft Store в HoloLens 2)](https://www.microsoft.com/en-us/p/mrtk-examples-hub/9mv8c39l2sj4)
 * [Surfaces](sampleapp-surfaces.md) - [(скачайте из Microsoft Store в HoloLens 2)](https://www.microsoft.com/en-us/p/surfaces/9nvkpv3sk3x0)
 * [Periodic Table of the Elements 2.0](https://medium.com/@dongyoonpark/bringing-the-periodic-table-of-the-elements-app-to-hololens-2-with-mrtk-v2-a6e3d8362158)
 * [Galaxy Explorer 2.0](galaxy-explorer-update.md)

@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 03/21/2018
 ms.topic: article
 keywords: взгляд на глаза, головной взгляд, Unity, голограмма, Смешанная реальность, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: 7602eb27da19dc77e4eab1c1a428dc9a1cf8b252
-ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
+ms.openlocfilehash: 98eb4445d04b236dea74917d9c51108b66d6df3b
+ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101759690"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107300369"
 ---
 # <a name="head-gaze-in-unity"></a>Головной взгляд в Unity
 
@@ -51,8 +51,9 @@ void Update()
 
 Как и в случае с указателем мыши на компьютере, необходимо реализовать [курсор](../../design/cursors.md) , представляющий голову пользователя. Знание содержимого, на которое нацелен пользователь, повышает уверенность в том, с чем они взаимодействуют.
 
-## <a name="head-gaze-in-the-mixed-reality-toolkit"></a>Руководитель-взгляд в наборе средств Mixed Reality 
-Вы можете получить доступ к Head с помощью [диспетчера ввода](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/input/overview.md) в мртк.
+## <a name="head-gaze-in-the-mixed-reality-toolkit"></a>Руководитель-взгляд в наборе средств Mixed Reality
+
+Вы можете получить доступ к Head с помощью [диспетчера ввода](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/input/overview) в мртк.
 
 ## <a name="next-development-checkpoint"></a>Следующий этап разработки
 

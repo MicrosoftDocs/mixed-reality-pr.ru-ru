@@ -7,12 +7,12 @@ ms.date: 04/02/2019
 ms.topic: article
 ms.localizationpriority: high
 keywords: смешанная реальность, взгляд, выбор целевого объекта взглядом, взаимодействие, проектирование, манипулирование руками, HoloLens, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, MRTK, Mixed Reality Toolkit, кнопка, коллайдеры, ограничивающий прямоугольник, двумерные объекты, инстинктивные жесты
-ms.openlocfilehash: 8316452b8308e159612a81d097c352cf1d935362
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: 555b27764d077332a2d8618672e6aed7def1dd3f
+ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "101759326"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107300099"
 ---
 # <a name="direct-manipulation-with-hands"></a>Непосредственное манипулирование руками
 
@@ -327,7 +327,7 @@ HoloLens 2 позволяет пользователям с помощью ру
 ## <a name="manipulation-in-mrtk-mixed-reality-toolkit-for-unity"></a>Манипуляции в MRTK (наборе средств для смешанной реальности) для Unity
 В **[MRTK](https://github.com/Microsoft/MixedRealityToolkit-Unity)** можно легко настроить типичное поведение при манипуляции, используя скрипт **ObjectManipulator**. Благодаря ObjectManipulator можно захватывать и перемещать объекты непосредственно руками или с помощью телекинеза. Этот скрипт также поддерживает манипуляции двумя руками для масштабирования и поворота объекта.
 
-* [MRTK — манипуляции](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/ux-building-blocks/object-manipulator.md)
+* [MRTK — манипуляции](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/object-manipulator)
 
 ---
 

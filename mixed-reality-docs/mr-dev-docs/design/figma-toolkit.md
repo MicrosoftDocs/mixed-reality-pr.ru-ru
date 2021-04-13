@@ -1,29 +1,38 @@
 ---
-title: Набор средств фигма
+title: Набор средств Figma
 description: Скачайте файл фигма, содержащий ресурсы для общих стандартных блоков пользовательского интерфейса.
 author: dongpark
 ms.author: dongpark
 ms.date: 03/29/2021
 ms.topic: article
 keywords: Фигма, эскиз, Adobe XD, проектирование, конструктор, файл проекта, проектирование UX, HoloLens, МРТК, набор средств для смешанной реальности
-ms.openlocfilehash: 4e5b28a08d52ddc0b3a1311e51d71581a31cb0c0
-ms.sourcegitcommit: e9a0ba97fd288479ad324cdaabee9b6abc9f4dc2
+ms.openlocfilehash: 1386ce6238a406c2e2b45c9a6a551ae57c52cc59
+ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "107222076"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107299959"
 ---
-# <a name="figma-toolkit"></a>Набор средств фигма
+# <a name="figma-toolkit"></a>Набор средств Figma
 
-![Набор средств фигма](images/UX_Tools_FigmaToolkit_Hero.png)<br>
+> [!VIDEO https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Figma-Toolkit-MRTK/player]
 
 Фигма Toolkit предоставляет ресурсы, которые можно использовать для наброска и верстки пользовательского интерфейса. Все элементы управления пользовательского интерфейса основаны на компонентах, доступных в МРТК. 
 
 > [!div class="nextstepaction"]
-> [Скачать фигма Toolkit](https://1drv.ms/u/s!ArqCGDZ4bpk7gRIA9QbpoQ5ln90B?e=qgc6YX)
+> [Просмотреть набор средств фигма](https://www.figma.com/file/ltLag9SxjUIyLQFsp7NNE7/Mixed-Reality-Toolkit-for-Figma?node-id=116%3A4)
 
 ## <a name="how-to-use-figma-toolkit"></a>Использование набора средств фигма
-Импортируйте скачанный файл (. рисунок) в фигма с помощью кнопки **Импорт** в правом верхнем углу.
+Для создания копии используйте команду **дублировать в меню черновики** .
+<img src="images/UX_Figma_Use1.png" width="500px" alt="Menu duplicate 1"><br>
+
+Нажмите кнопку **назад к файлам** , чтобы увидеть копию копии. Эту копию можно использовать для собственного создания.
+
+<img src="images/UX_Figma_Use2.png" width="400px" alt="Menu duplicate 2"><br>
+
+<img src="images/UX_Figma_Use3.png" width="300px" alt="Menu duplicate 3"><br>
+
+Для загрузки и работы в локальной среде используйте меню **файл > сохранить локальную копию** . Импортируйте скачанный файл (. рисунок) в фигма с помощью кнопки **Импорт** в правом верхнем углу.
 
 <img src="images/UX_FigmaToolkit_Import.png" width="200px" alt="Import menu"><br>
 
@@ -57,7 +66,7 @@ ms.locfileid: "107222076"
 ![Пример набора средств фигма. раскадровка](images/UX_FigmaToolkit_Examples_Storyboarding.png)<br>
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Курсоры](cursors.md)
 * [Телекинез](point-and-commit.md)

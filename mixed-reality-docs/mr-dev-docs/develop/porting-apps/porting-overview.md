@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 12/9/2020
 ms.topic: article
 keywords: Перенос, Unity, по промежуточного слоя, ядро, UWP, Win32
-ms.openlocfilehash: 693891d67ae26098f0810a539059da8d34f4731c
-ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
+ms.openlocfilehash: 5b89d3448a7baf12cc76dd3677140fcf6e297ee2
+ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101759115"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107299789"
 ---
 # <a name="porting-overview"></a>Общие сведения о переносе
 
@@ -33,14 +33,13 @@ ms.locfileid: "101759115"
 Текущая рекомендация по разработке Unity в смешанной реальности — **Unity 2019 LTS с использованием устаревшего пакета XR**. Если в проекте используется набор средств Mixed Reality, убедитесь, что вы используете последнюю версию, которая в настоящее время **мртк-Unity 2,5**.
 
 > [!CAUTION]
-> Хотя пакет SDK для XR доступен в этой версии Unity, пространственные привязки Azure в настоящее время не совместимы с этой программой установки. Эта рекомендация будет обновлена в будущем выпуске пакета пространственных привязок Azure для Unity. 
+> Хотя пакет SDK для XR доступен в этой версии Unity, пространственные привязки Azure в настоящее время не совместимы с этой программой установки. Эта рекомендация будет обновлена в будущем выпуске пакета пространственных привязок Azure для Unity.
 > 
-> * Если вы не хотите получать пространственные привязки Azure, вы можете [настроить проект Unity для XR](https://docs.unity3d.com/Manual/configuring-project-for-xr.html) и приступить [к работе с МРТК и XR SDK](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/configuration/getting-started-with-mrtk-and-xrsdk.md).
+> * Если вы не хотите получать пространственные привязки Azure, вы можете [настроить проект Unity для XR](https://docs.unity3d.com/Manual/configuring-project-for-xr.html) и приступить [к работе с МРТК и XR SDK](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/configuration/getting-started-with-mrtk-and-xrsdk).
 > 
 > * Если вы используете в проекте пакет SDK для XR и хотите использовать пространственные привязки Azure, удалите пакет SDK для XR и переустановите устаревший пакет XR, чтобы отменить параметры проекта.
 
-
-### <a name="unreal"></a>Unreal 
+### <a name="unreal"></a>Unreal
 
 Наша текущая рекомендация по нереальному развитию в смешанной реальности — это **нереалный механизм 4,26**. Если в проекте используются средства UX набора средств для смешанной реальности, убедитесь, что вы используете последнюю версию, которая в настоящее время **укст 0,10**.
 

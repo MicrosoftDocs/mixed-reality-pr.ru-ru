@@ -6,12 +6,12 @@ ms.author: dongpark
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Windows Mixed Reality, элементы управления, проектирование, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, коллекция объектов, 2D, 3D, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: 53ec99b998f1c65fdd3ca8b5d935b43ff0070500
-ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
+ms.openlocfilehash: 109dcd59a2b52a8eec82096c5aa88cd1070f5649
+ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101759155"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107299729"
 ---
 # <a name="object-collection"></a>Коллекция объектов
 
@@ -48,13 +48,13 @@ ms.locfileid: "101759155"
 
 ## <a name="object-collection-in-mrtk-mixed-reality-toolkit-for-unity"></a>Коллекция объектов в МРТК (набор средств для смешанной реальности) для Unity
 
-* [МРТК — коллекция объектов](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/ux-building-blocks/object-collection.md)
+* [МРТК — коллекция объектов](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/object-collection)
 
 <br>
 
 ---
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Курсоры](cursors.md)
 * [Телекинез](point-and-commit.md)

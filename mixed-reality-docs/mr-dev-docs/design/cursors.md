@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 02/24/2019
 ms.topic: article
 keywords: HoloLens (1-й общий), HoloLens 2, Смешанная реальность, курсоры, нацеленность, взгляд, жесты, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности, лучи, входные данные
-ms.openlocfilehash: 0b35c832e6d13ff10d14686909754de60b83fa23
-ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
+ms.openlocfilehash: 744e75f4212046b7c237a6c6634a4980e9148b0e
+ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101759420"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107300089"
 ---
 # <a name="cursors"></a>Курсоры
 
@@ -31,7 +31,7 @@ ms.locfileid: "101759420"
     <col width="25%" />
     </colgroup>
     <tr>
-        <td><strong>Компонент</strong></td>
+        <td><strong>Возможность</strong></td>
         <td><a href="/hololens/hololens1-hardware"><strong>HoloLens (1-го поколения)</strong></a></td>
         <td><a href="https://docs.microsoft.com/hololens/hololens2-hardware"><strong>HoloLens 2</strong></td>
         <td><a href="../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
@@ -141,7 +141,7 @@ ms.locfileid: "101759420"
 * Можно использовать курсор для отображения состояния или намерений ввода пользователя. Например, можно отобразить значок, сообщающий пользователю, что система видит свое состояние, и что приложение знает, что они готовы принять меры.
 * Можно также использовать курсор для отображения пользователей, которые система прослышала системой с помощью изменения цвета
 
-* Следующие состояния курсора могут быть реализованы различными способами. Вы можете реализовать эти различные состояния, моделирующие курсор как конечный автомат. Пример.
+* Следующие состояния курсора могут быть реализованы различными способами. Вы можете реализовать эти различные состояния, моделирующие курсор как конечный автомат. Пример:
     * Состояние простоя показывает курсор по умолчанию.
     * Состояние готовности — когда вы обнаружили руку пользователя в месте готовности.
     * Состояние взаимодействия — это когда пользователь выполняет определенное взаимодействие.
@@ -165,9 +165,9 @@ ms.locfileid: "101759420"
 
 По умолчанию [мртк](https://github.com/Microsoft/MixedRealityToolkit-Unity) предоставляет курсор prefab ([дефаулткурсор. prefab](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/mrtk_release/Assets/MixedRealityToolkit.SDK/Features/UX/Prefabs/Cursors)), который имеет то же визуальное состояние, что и системный курсор оболочки. Она назначается в профиле ввода данных в MRTK, в разделе "Указатели". Вы можете заменить или настроить этот курсор для работы. Для удобства ввода с отслеживанием взгляда МРТК также предоставляет Эйегазекурсор, который имеет тонкий визуальный элемент, позволяющий избежать вычитания.
 
-* [MRTK — профиль указателя](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/mixed-reality-configuration-guide.md#pointer-configuration)
-* [MRTK — система ввода](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/input/overview.md)
-* [MRTK — указатели](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/input/pointers.md)
+* [MRTK — профиль указателя](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/configuration/mixed-reality-configuration-guide#pointer-configuration)
+* [MRTK — система ввода](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/input/overview)
+* [MRTK — указатели](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/input/pointers)
 
 ---
 

@@ -6,12 +6,12 @@ ms.author: dongpark
 ms.date: 11/01/2019
 ms.topic: article
 keywords: Смешанная реальность, элементы управления, взаимодействие, Пользовательский интерфейс, UX, меню, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: 71e88ab94f9051d58b666f2b3c27c33564194e19
-ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
+ms.openlocfilehash: 2536652f78c0643f8b527878565c1a4f0328ce9a
+ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101759175"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107299699"
 ---
 # <a name="near-menu"></a>Быстрое меню
 
@@ -26,13 +26,13 @@ ms.locfileid: "101759175"
 ## <a name="near-menu-in-mrtk-mixed-reality-toolkit-for-unity"></a>Ближайшее меню в МРТК (набор средств для смешанной реальности) для Unity
 **[Мртк](https://github.com/Microsoft/MixedRealityToolkit-Unity)** предоставляет различные примеры ближайших prefab меню.
 
-* [МРТК — ближайшее меню](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/ux-building-blocks/near-menu.md)
+* [МРТК — ближайшее меню](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/near-menu)
 
 <br>
 
 ---
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Курсоры](cursors.md)
 * [Телекинез](point-and-commit.md)

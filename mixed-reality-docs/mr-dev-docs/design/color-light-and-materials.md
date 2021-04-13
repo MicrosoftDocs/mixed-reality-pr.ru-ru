@@ -6,12 +6,12 @@ ms.author: pinkb
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Windows Mixed Reality, проектирование, цвет, освещение, материалы, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: 6e5857436b0325537d0ea5d0321d296c58c09eae
-ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
+ms.openlocfilehash: b3ee769208bdcd0d86beb05760de377f2a776a47
+ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101759269"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107299749"
 ---
 # <a name="color-light-and-materials"></a>Цвет, свет и материалы
 
@@ -88,7 +88,7 @@ ms.locfileid: "101759269"
     :::column:::
 Материалы являются ключевыми элементами для создания реалистичных голограмм. Предоставляя правильные визуальные характеристики, вы можете создавать интересные объекты, которые могут легко сочетаться с физической средой. Материалы также важны для предоставления визуальной обратной связи для различных типов взаимодействий с данными, вводимых пользователем.  
 
-[Мртк](https://github.com/Microsoft/MixedRealityToolkit-Unity) предоставляет шейдер мртк Standard с различными параметрами визуальных эффектов, которые можно использовать для визуальной обратной связи. Например, можно использовать свойство «светлое близость», чтобы обеспечить эффекты освещения, когда палец пользователя приближается к поверхности объекта. Дополнительные сведения о [стандартном шейдере мртк](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/rendering/mrtk-standard-shader.md)
+[Мртк](https://github.com/Microsoft/MixedRealityToolkit-Unity) предоставляет шейдер мртк Standard с различными параметрами визуальных эффектов, которые можно использовать для визуальной обратной связи. Например, можно использовать свойство «светлое близость», чтобы обеспечить эффекты освещения, когда палец пользователя приближается к поверхности объекта. Дополнительные сведения о [стандартном шейдере мртк](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/rendering/mrtk-standard-shader)
     :::column-end:::
         :::column:::
     *Цикл видео. пример визуальной обратной связи на основе сходства с ограничивающим прямоугольником* 
@@ -100,7 +100,7 @@ ms.locfileid: "101759269"
 
 ---
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 * [Проектирование содержимого для голографического дисплея](designing-content-for-holographic-display.md)
 * [Разделение цветов](../develop/platform-capabilities-and-apis/hologram-stability.md#color-separation)
 * [Голограммы](../discover/hologram.md)

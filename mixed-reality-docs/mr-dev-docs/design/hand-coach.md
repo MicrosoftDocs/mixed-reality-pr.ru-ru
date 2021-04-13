@@ -6,12 +6,12 @@ ms.author: glee
 ms.date: 09/25/2019
 ms.topic: article
 keywords: Windows Mixed Reality, проектирование, рука, увлекательная гарнитура, МРТК, руки, помощь в руки, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: 56a56893a7c5bc772268ab9980f25327eae83af5
-ms.sourcegitcommit: ac315c1d35f2b9c431e79bc3f1212215301bb867
+ms.openlocfilehash: ec302cecb106b339828adf1c8777c2ea7ec7fa30
+ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105550074"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107300049"
 ---
 # <a name="hand-coach"></a>Обучающая рука
 
@@ -85,7 +85,7 @@ ms.locfileid: "105550074"
 
 ## <a name="can-i-create-my-own"></a>Можно ли создать собственную?
 
-Да! Мы рекомендуем вам создать собственный уникальный жест для игры и участвовать в сообществе!
+Да. Мы рекомендуем вам создать собственный уникальный жест для игры и участвовать в сообществе!
 Мы предоставили Maya-файл с определенной нагрузкой, который можно использовать для приложения, который можно скачать здесь: <a href="files/HandCoach_MRTK.zip"> скачать HandCoach_MRTK.zip </a>
 
 ![Пример анимированных рук в Maya](images/HandCoach/MayaSelect_Gif.gif)<br>
@@ -157,7 +157,7 @@ ms.locfileid: "105550074"
 *   Если вы научились по крайней мере один раз, повторяйте жест только в том случае, если обнаруживается, что пользователь зависает.
 *   Если конкретные положения пальца и руки являются критически важными, пользователи могут четко видеть эти особенности анимации. Попробуйте англинг в руки, чтобы наиболее важные части были четко видны. 
 * Если вы заметили искажения в руки, то необходимо переходить к параметрам качества Unity увеличить число костей. 
- Перейдите к параметру Изменить > проекта Unity > качество > другие > веса Blend. Убедитесь, что выбрано "четыре кости" для просмотра гладких соединений. 
+ Перейдите к параметру Изменить > проекта Unity > качество > другие > веса Blend. Убедитесь, что выбрано "четыре кости" для просмотра гладких соединений.
 
    ![Пример: окно "Параметры проекта"](images/HandCoach/ProjectSettings.png)<br>
 
@@ -167,13 +167,13 @@ ms.locfileid: "105550074"
 * Масштабирование слишком больших стрелок
 * поместив слишком близкое окно к пользователю
 * Руки следует научиться только один раз. Чрезмерное обучение может привести к путанице и неправильной работе
-*   Загрузив его в Unity, скачайте последнюю версию МРТК здесь: https://github.com/microsoft/MixedRealityToolkit-Unity
-    *   Материал: Teaching_Hand2
-    *   Сценарии. см. рекомендации по МРТК для <a href= "/windows/mixed-reality/mrtk-docs/features/experimental/hand-coach.md"> мртк </a>
-    *   Параметр для каждого проекта
-        *   Для сцены задано значение UWP: инструкции см. в [проекте настройки Unity](../develop/unity/Configure-Unity-Project.md) для Windows Mixed Reality.
+* Загрузив его в Unity, скачайте последнюю версию МРТК здесь: https://github.com/microsoft/MixedRealityToolkit-Unity
+  * Материал: Teaching_Hand2
+  * Сценарии. см. рекомендации по МРТК для <a href= "/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/hand-coach"> мртк </a>
+  * Параметр для каждого проекта
+    * Для сцены задано значение UWP: инструкции см. в [проекте настройки Unity](../develop/unity/Configure-Unity-Project.md) для Windows Mixed Reality.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Принципы взаимодействия](interaction-fundamentals.md)
 * [Процесс создания ресурсов](asset-creation-process.md)

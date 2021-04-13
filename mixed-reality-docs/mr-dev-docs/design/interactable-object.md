@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 06/06/2019
 ms.topic: article
 keywords: Смешанная реальность, элементы управления, взаимодействие, подсказки, Пользовательский интерфейс, UX, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств для смешанной реальности, аудио
-ms.openlocfilehash: b93092b597d0267c1169cf823b1a5c1fa03c3c3f
-ms.sourcegitcommit: 97815006c09be0a43b3d9b33c1674150cdfecf2b
+ms.openlocfilehash: 0e9f4dc09e3c4a4c38ffeb1a9042f39996918e36
+ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101759880"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107300469"
 ---
 # <a name="interactable-object"></a>Активный объект
 
@@ -140,7 +140,7 @@ HoloLens 2 поддерживает вводные данные отслежив
 :::row:::
     :::column:::
         ![по умолчанию](images/640px-interactibleobject-pressablebutton-default.jpg)<br>
-        **Default**<br>
+        **По умолчанию**<br>
     :::column-end:::
     :::column:::
         ![Наведение](images/640px-interactibleobject-pressablebutton-hover.jpg)<br>
@@ -214,13 +214,11 @@ HoloLens 2 поддерживает вводные данные отслежив
 
 ---
 
-
-## <a name="sizing-recommendations"></a>Рекомендации относительно размеров 
+## <a name="sizing-recommendations"></a>Рекомендации относительно размеров
 
 Чтобы можно было легко затронуть все взаимодействующие объекты, рекомендуется убедиться, что они соответствуют минимальному размеру в зависимости от того, какое расстояние он помещает от пользователя. Визуальный угол часто измеряется в градусах визуального дуги. Визуальный угол основан на расстоянии между глазами пользователя и объектом и остается постоянным, а физический размер целевого объекта может измениться по мере изменения расстояния от пользователя. Чтобы определить необходимый физический размер объекта на основе расстояния от пользователя, попробуйте использовать визуальный калькулятор [угла, такой как.](https://elvers.us/perception/visualAngle/)
 
 Ниже приведены рекомендации для минимального размера взаимодействующего содержимого.
-
 
 ### <a name="target-size-for-direct-hand-interaction"></a>Целевой размер для взаимодействия непосредственно с рукой
 
@@ -254,30 +252,27 @@ HoloLens 2 поддерживает вводные данные отслежив
 ![Целевой размер для взаимодействия "рука" или "взгляд"](images/TargetSizingFar.jpg)<br>
 *Целевой размер для взаимодействия "рука" или "взгляд"*
 
-
 <br>
 
 ---
-
 
 ## <a name="interactable-object-in-mrtk-mixed-reality-toolkit-for-unity"></a>Взаимодействующий объект в МРТК (набор средств для смешанной реальности) для Unity
 
 В **[мртк](https://github.com/Microsoft/MixedRealityToolkit-Unity)** можно использовать [**взаимодействие**](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/mrtk_release/Assets/MixedRealityToolkit.SDK/Features/UX/Interactable/Scripts) с скриптом, чтобы объекты отвечали на различные типы состояний взаимодействия. Он поддерживает различные типы тем, которые позволяют определять визуальные состояния, управляя свойствами объектов, такими как цвет, размер, материал и шейдер.
 
-* [Элементом](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/ux-building-blocks/interactable.md)
-* [Button](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/ux-building-blocks/button.md)
+* [Интерактивный объект](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/interactable)
+* [Кнопка](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/button)
 * [Сцены с примерами взаимодействия руки](https://github.com/microsoft/MixedRealityToolkit-Unity/blob/mrtk_release/Documentation/README_HandInteractionExamples.md)
 
 Стандартный шейдер Микседреалититулкит предоставляет различные параметры, такие как **освещение** , позволяющее создавать визуальные и звуковые подсказки.
-* [Стандартный шейдер МРТК](https://docs.microsoft.com/windows/mixed-reality/mrtk-docs/features/rendering/mrtk-standard-shader.md)
 
+* [Стандартный шейдер MRTK](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/rendering/mrtk-standard-shader)
 
 <br>
 
 ---
 
-
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Курсоры](cursors.md)
 * [Телекинез](point-and-commit.md)
