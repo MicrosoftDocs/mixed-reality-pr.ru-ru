@@ -1,6 +1,6 @@
 ### YamlMime:Hub
 title: Документация по смешанной реальности
-summary: Исследуйте расширяющийся мир приложений смешанной реальности с Windows Mixed Reality, набором средств для смешанной реальности (MRTK), Unity, Unreal, а также многими другими решениями для HoloLens и иммерсивных гарнитур Windows.
+summary: 'Исследуйте расширяющийся мир приложений смешанной реальности с Windows Mixed Reality, набором средств для смешанной реальности (MRTK), Unity, Unreal, а также многими другими решениями для HoloLens и иммерсивных гарнитур Windows.'
 brand: windows
 metadata:
   title: Документация по смешанной реальности
@@ -13,176 +13,170 @@ metadata:
   author: hferrone
   ms.author: v-haferr
   ms.date: 07/23/2020
-  ms.openlocfilehash: 61f51b3cfb76e42d869cffe327a14cccd4389afe
-  ms.sourcegitcommit: ac315c1d35f2b9c431e79bc3f1212215301bb867
-  ms.translationtype: HT
-  ms.contentlocale: ru-RU
-  ms.lasthandoff: 03/25/2021
-  ms.locfileid: "105550624"
 highlightedContent:
   items:
-  - title: Что такое смешанная реальность?
-    itemType: concept
-    url: discover/mixed-reality.md
-  - title: Знакомство с HoloLens 2
-    itemType: overview
-    url: /hololens/hololens2-hardware
-  - title: Приложения смешанной реальности Dynamics 365
-    itemType: reference
-    url: /dynamics365/mixed-reality/
-  - title: Облачные службы смешанной реальности Azure
-    itemType: whats-new
-    url: develop/mixed-reality-cloud-services.md
-  - title: Разработчикам
-    itemType: get-started
-    url: develop/development.md
-  - title: ИТ-администраторы
-    itemType: quickstart
-    url: /hololens/hololens-requirements
-  - title: Любители виртуальной реальности
-    itemType: how-to-guide
-    url: /windows/mixed-reality/enthusiast-guide/vr-journey
-  - title: Microsoft Mesh (предварительная версия)
-    itemType: whats-new
-    url: /mesh/overview
+    - title: Что такое смешанная реальность?
+      itemType: concept
+      url: discover/mixed-reality.md
+    - title: "Знакомство с HoloLens\_2"
+      itemType: overview
+      url: /hololens/hololens2-hardware
+    - title: "Приложения смешанной реальности Dynamics\_365"
+      itemType: reference
+      url: /dynamics365/mixed-reality/
+    - title: Разработчикам
+      itemType: get-started
+      url: develop/development.md
+    - title: ИТ-администраторы
+      itemType: quickstart
+      url: /hololens/hololens-requirements
+    - title: Любители виртуальной реальности
+      itemType: how-to-guide
+      url: /windows/mixed-reality/enthusiast-guide/vr-journey
+    - title: Microsoft Mesh (предварительная версия)
+      itemType: whats-new
+      url: /mesh/overview
+    - title: AltspaceVR
+      itemType: whats-new
+      url: 'https://docs.microsoft.com/windows/mixed-reality/altspace-vr/journey'
 productDirectory:
   title: Углубленное изучение смешанной реальности
-  summary: У нас есть специализированные курируемые схемы развития основных навыков работы со смешанной реальностью для проектировщиков, разработчиков и ИТ-специалистов.
+  summary: 'У нас есть специализированные курируемые схемы развития основных навыков работы со смешанной реальностью для проектировщиков, разработчиков и ИТ-специалистов.'
   items:
-  - title: Проектирование
-    imageSrc: images/icon-design.png
-    links:
-    - url: design/design.md
-      text: Проектирование и создание прототипа
-    - url: design/types-of-mixed-reality-apps.md
-      text: Выбор типа приложения смешанной реальности
-    - url: discover/case-study-expanding-the-design-process-for-mixed-reality.md
-      text: Расширение процесса проектирования
-    - url: design/app-patterns-landingpage.md
-      text: Сведения об элементах пользовательского интерфейса
-    - url: design/comfort.md
-      text: Сведения об удобстве работы пользователя
-    - url: design/interaction-fundamentals.md
-      text: Объяснение основ взаимодействия
-  - title: Разработка
-    imageSrc: design/images/icon-developer.png
-    links:
-    - url: develop/development.md
-      text: Выбор технологии
-    - url: develop/features-and-samples.md
-      text: Поиск примеров и рекомендуемых приложений
-    - url: develop/unity/unity-development-overview.md
-      text: Начало работы с Unity
-    - url: develop/unreal/unreal-development-overview.md
-      text: Начало работы с Unreal
-    - url: develop/porting-apps/porting-overview.md
-      text: Перенос существующих приложений
-    - url: distribute/distribute-overview.md
-      text: Публикация приложений
-  - title: Развертывание
-    imageSrc: images/icon-distribution.jpg
-    links:
-    - url: /hololens/hololens-requirements
-      text: Подготовка к коммерческому развертыванию
-    - url: /hololens/hololens-identity
-      text: Управление удостоверениями пользователей и входом в систему
-    - url: /hololens/hololens-enroll-mdm
-      text: Регистрация устройств
-    - url: /hololens/hololens-updates
-      text: Управление обновлениями HoloLens
-    - url: /hololens/hololens2-cloud-connected-overview
-      text: Подключенное к облаку развертывание с помощью Remote Assist
-    - url: /hololens/hololens-troubleshooting
-      text: Устранение неполадок и поддержка
+    - title: Проектирование
+      imageSrc: images/icon-design.png
+      links:
+        - url: design/design.md
+          text: Проектирование и создание прототипа
+        - url: design/types-of-mixed-reality-apps.md
+          text: Выбор типа приложения смешанной реальности
+        - url: discover/case-study-expanding-the-design-process-for-mixed-reality.md
+          text: Расширение процесса проектирования
+        - url: design/app-patterns-landingpage.md
+          text: Сведения об элементах пользовательского интерфейса
+        - url: design/comfort.md
+          text: Сведения об удобстве работы пользователя
+        - url: design/interaction-fundamentals.md
+          text: Объяснение основ взаимодействия
+    - title: Разработка
+      imageSrc: design/images/icon-developer.png
+      links:
+        - url: develop/development.md
+          text: Выбор технологии
+        - url: develop/features-and-samples.md
+          text: Поиск примеров и рекомендуемых приложений
+        - url: develop/unity/unity-development-overview.md
+          text: Начало работы с Unity
+        - url: develop/unreal/unreal-development-overview.md
+          text: Начало работы с Unreal
+        - url: develop/porting-apps/porting-overview.md
+          text: Перенос существующих приложений
+        - url: distribute/distribute-overview.md
+          text: Публикация приложений
+    - title: Развертывание
+      imageSrc: images/icon-distribution.jpg
+      links:
+        - url: /hololens/hololens-requirements
+          text: Подготовка к коммерческому развертыванию
+        - url: /hololens/hololens-identity
+          text: Управление удостоверениями пользователей и входом в систему
+        - url: /hololens/hololens-enroll-mdm
+          text: Регистрация устройств
+        - url: /hololens/hololens-updates
+          text: Управление обновлениями HoloLens
+        - url: /hololens/hololens2-cloud-connected-overview
+          text: Подключенное к облаку развертывание с помощью Remote Assist
+        - url: /hololens/hololens-troubleshooting
+          text: Устранение неполадок и поддержка
 conceptualContent:
   title: Платформы
-  summary: Если для разработки вы используете предпочитаемый язык, подсистему или определенное оборудование, у нас есть все необходимые вам инструменты.
+  summary: 'Если для разработки вы используете предпочитаемый язык, подсистему или определенное оборудование, у нас есть все необходимые вам инструменты.'
   items:
-  - title: Unity
-    summary: Создание, настройка и развертывание приложений в Unity с помощью пакета SDK для смешанной реальности.
-    links:
-    - url: develop/unity/unity-development-overview.md
-      itemType: overview
-      text: Обзор разработки в Unity
-    - url: develop/unity/mrtk-getting-started.md
-      itemType: overview
-      text: Что такое MRTK?
-    - url: develop/unity/tutorials/mr-learning-base-01.md
-      itemType: tutorial
-      text: Серия руководств по HoloLens 2
-    - url: ./out-of-scope/mrtk-101.md
-      itemType: concept
-      text: Основные компоненты
-    - url: develop/unity/shared-experiences-in-unity.md
-      itemType: concept
-      text: Возможности и интерфейсы API платформы
-    - url: develop/unity/exporting-and-building-a-unity-visual-studio-solution.md
-      itemType: deploy
-      text: Развертывание на устройстве или в эмуляторе
-    footerLink:
-      url: develop/unity/unity-development-overview.md
-      text: Дополнительные сведения
-  - title: Unreal
-    summary: Сборка, настройка и развертывание приложений в Unreal с помощью пакета SDK для смешанной реальности.
-    links:
-    - url: develop/unreal/unreal-development-overview.md
-      itemType: overview
-      text: Обзор разработки для Unreal
-    - url: develop/unreal/tutorials/unreal-uxt-ch1.md
-      itemType: tutorial
-      text: Серия руководств по созданию приложения для игры в шахматы
-    - url: develop/unreal/unreal-gaze-input.md
-      itemType: concept
-      text: Основные компоненты
-    - url: develop/unreal/unreal-hololens-camera.md
-      itemType: concept
-      text: Возможности и интерфейсы API платформы
-    - url: develop/unreal/performance-recommendations-for-unreal.md
-      itemType: concept
-      text: Рекомендации по повышению производительности
-    - url: develop/unreal/unreal-deploying.md
-      itemType: deploy
-      text: Развертывание на устройстве или в эмуляторе
-    footerLink:
-      url: develop/unreal/unreal-development-overview.md
-      text: Дополнительные сведения
-  - title: Собственный
-    summary: Создавайте нативные голографические интерфейсы с помощью OpenXR, WinRT и DirectX.
-    links:
-    - url: develop/native/directx-development-overview.md
-      itemType: overview
-      text: Обзор разработки для собственной платформы
-    - url: develop/native/openxr.md
-      itemType: overview
-      text: Что такое OpenXR?
-    - url: develop/native/openxr-getting-started.md
-      itemType: get-started
-      text: Начало работы с OpenXR
-    - url: develop/native/openxr-best-practices.md
-      itemType: concept
-      text: Рекомендации по работе с OpenXR
-    - url: develop/native/openxr-troubleshooting.md
-      itemType: reference
-      text: Устранение неполадок с OpenXR
-    footerLink:
-      url: develop/native/directx-development-overview.md
-      text: Дополнительные сведения
+    - title: Unity
+      summary: 'Создание, настройка и развертывание приложений в Unity с помощью пакета SDK для смешанной реальности.'
+      links:
+        - url: develop/unity/unity-development-overview.md
+          itemType: overview
+          text: Обзор разработки в Unity
+        - url: develop/unity/mrtk-getting-started.md
+          itemType: overview
+          text: Что такое MRTK?
+        - url: develop/unity/tutorials/mr-learning-base-01.md
+          itemType: tutorial
+          text: "Серия руководств по HoloLens\_2"
+        - url: ./out-of-scope/mrtk-101.md
+          itemType: concept
+          text: Основные компоненты
+        - url: develop/unity/shared-experiences-in-unity.md
+          itemType: concept
+          text: Возможности и интерфейсы API платформы
+        - url: develop/unity/exporting-and-building-a-unity-visual-studio-solution.md
+          itemType: deploy
+          text: Развертывание на устройстве или в эмуляторе
+      footerLink:
+        url: develop/unity/unity-development-overview.md
+        text: Дополнительные сведения
+    - title: Unreal
+      summary: 'Сборка, настройка и развертывание приложений в Unreal с помощью пакета SDK для смешанной реальности.'
+      links:
+        - url: develop/unreal/unreal-development-overview.md
+          itemType: overview
+          text: Обзор разработки для Unreal
+        - url: develop/unreal/tutorials/unreal-uxt-ch1.md
+          itemType: tutorial
+          text: Серия руководств по созданию приложения для игры в шахматы
+        - url: develop/unreal/unreal-gaze-input.md
+          itemType: concept
+          text: Основные компоненты
+        - url: develop/unreal/unreal-hololens-camera.md
+          itemType: concept
+          text: Возможности и интерфейсы API платформы
+        - url: develop/unreal/performance-recommendations-for-unreal.md
+          itemType: concept
+          text: Рекомендации по повышению производительности
+        - url: develop/unreal/unreal-deploying.md
+          itemType: deploy
+          text: Развертывание на устройстве или в эмуляторе
+      footerLink:
+        url: develop/unreal/unreal-development-overview.md
+        text: Дополнительные сведения
+    - title: Собственный
+      summary: 'Создавайте нативные голографические интерфейсы с помощью OpenXR, WinRT и DirectX.'
+      links:
+        - url: develop/native/directx-development-overview.md
+          itemType: overview
+          text: Обзор разработки для собственной платформы
+        - url: develop/native/openxr.md
+          itemType: overview
+          text: Что такое OpenXR?
+        - url: develop/native/openxr-getting-started.md
+          itemType: get-started
+          text: Начало работы с OpenXR
+        - url: develop/native/openxr-best-practices.md
+          itemType: concept
+          text: Рекомендации по работе с OpenXR
+        - url: develop/native/openxr-troubleshooting.md
+          itemType: reference
+          text: Устранение неполадок с OpenXR
+      footerLink:
+        url: develop/native/directx-development-overview.md
+        text: Дополнительные сведения
 tools:
   title: Пакеты SDK и API
   summary: Начните работу с пакетом SDK для смешанной реальности на любом игровом движке.
   items:
-  - title: MRTK для Unity
-    imageSrc: images/Final_mrtk-small_logo.png
-    url: https://github.com/microsoft/MixedRealityToolkit-Unity
-  - title: MRTK для Unreal
-    imageSrc: images/Final_mrtk-small_logo.png
-    url: https://github.com/microsoft/MixedRealityToolkit-Unreal
-  - title: Подключаемый модуль XR для Unity
-    imageSrc: images/icon-plugin.png
-    url: https://docs.unity3d.com/Manual/com.unity.xr.windowsmr.html
-  - title: Характеристики OpenXR
-    imageSrc: images/Final_mrdl_logo.png
-    url: https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html
-  - title: API OpenXR
-    imageSrc: images/Final_mrdl_logo.png
-    url: https://www.khronos.org/registry/OpenXR/specs/1.0/man/html/openxr.html
+    - title: MRTK для Unity
+      imageSrc: images/Final_mrtk-small_logo.png
+      url: 'https://github.com/microsoft/MixedRealityToolkit-Unity'
+    - title: MRTK для Unreal
+      imageSrc: images/Final_mrtk-small_logo.png
+      url: 'https://github.com/microsoft/MixedRealityToolkit-Unreal'
+    - title: Подключаемый модуль XR для Unity
+      imageSrc: images/icon-plugin.png
+      url: 'https://docs.unity3d.com/Manual/com.unity.xr.windowsmr.html'
+    - title: Характеристики OpenXR
+      imageSrc: images/Final_mrdl_logo.png
+      url: 'https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html'
+    - title: API OpenXR
+      imageSrc: images/Final_mrdl_logo.png
+      url: 'https://www.khronos.org/registry/OpenXR/specs/1.0/man/html/openxr.html'

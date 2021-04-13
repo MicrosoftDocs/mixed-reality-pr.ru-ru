@@ -150,3 +150,5 @@
       href: asset-creation-process.md
     - name: Разработка собственных иммерсивных сред
       href: add-custom-home-environments.md
+    - name: Набор средств Figma
+      href: figma-toolkit.md
