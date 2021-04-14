@@ -3,15 +3,15 @@ title: Архив эмулятора HoloLens
 description: Следите за актуальными сведениями о архивном списке выпущенных сборок для эмуляторов Microsoft HoloLens (1-го поколения) и HoloLens 2.
 author: hamalawi
 ms.author: moelhama
-ms.date: 02/09/2021
+ms.date: 04/13/2021
 ms.topic: article
 keywords: HoloLens, Emulator, сборки, версии, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, Архив
-ms.openlocfilehash: 0466ebe84388164e1c29f6f93325987118bb80b4
-ms.sourcegitcommit: 55dab2b9f2d9b98fdb1cb9f26d3d075bb8f95dcd
+ms.openlocfilehash: fcf53ddc5514103955452fc620962d3db0b031b5
+ms.sourcegitcommit: be79d8e9ebac553aabec7c57c44eee56123aa00e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "102526021"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107369867"
 ---
 # <a name="hololens-2-emulator-archive"></a>Архив эмулятора HoloLens 2
 
@@ -19,15 +19,17 @@ ms.locfileid: "102526021"
 
 |  Сборка |  Дата выпуска |  Примечания |
 |----------|----------|----------|
-|  [10.0.19041.1140 сборки эмулятора HoloLens 2](https://go.microsoft.com/fwlink/?linkid=2156684) | 9 марта 2021 г. | Обновление для Windows holographic, версия 20H2 2021 марта.  Общие заметки о выпуске HoloLens 2 см. в разделе https://docs.microsoft.com/hololens/hololens-release-notes |
-|  [10.0.18362.1102 сборки эмулятора HoloLens 2](https://go.microsoft.com/fwlink/?linkid=2156989) | 9 марта 2021 г. | Обновление Windows holographic, версия 1903, Март 2021 марта.  Общие заметки о выпуске HoloLens 2 см. в разделе https://docs.microsoft.com/hololens/hololens-release-notes |
+|  [10.0.19041.1144 сборки эмулятора HoloLens 2](https://go.microsoft.com/fwlink/?linkid=2160829) | 13 апреля 2021 г. | Windows holographic, версия 20H2, апрель 2021, обновление.  Общие заметки о выпуске HoloLens 2 см. в разделе https://docs.microsoft.com/hololens/hololens-release-notes |
+|  [10.0.18362.1108 сборки эмулятора HoloLens 2](https://go.microsoft.com/fwlink/?linkid=2160820) | 13 апреля 2021 г. | Обновление до Windows holographic, версия 1903 апреля 2021.  Общие заметки о выпуске HoloLens 2 см. в разделе https://docs.microsoft.com/hololens/hololens-release-notes |
+|  [10.0.19041.1140 сборки эмулятора HoloLens 2](https://go.microsoft.com/fwlink/?linkid=2156684) | 9 марта 2021 г. | Обновление для Windows holographic, версия 20H2 2021 марта.  Общие заметки о выпуске HoloLens 2 см. в разделе https://docs.microsoft.com/hololens/hololens-release-notes |
+|  [10.0.18362.1102 сборки эмулятора HoloLens 2](https://go.microsoft.com/fwlink/?linkid=2156989) | 9 марта 2021 г. | Обновление Windows holographic, версия 1903, Март 2021 марта.  Общие заметки о выпуске HoloLens 2 см. в разделе https://docs.microsoft.com/hololens/hololens-release-notes |
 |  [10.0.19041.1136 сборки эмулятора HoloLens 2](https://go.microsoft.com/fwlink/?linkid=2154784) | 9 февраля 2021 г. | Обновление Windows holographic, 20H2 Февраль 2021.  Общие заметки о выпуске HoloLens 2 см. в разделе https://docs.microsoft.com/hololens/hololens-release-notes |
 |  [10.0.18362.1098 сборки эмулятора HoloLens 2](https://go.microsoft.com/fwlink/?linkid=2154381) | 9 февраля 2021 г. | Обновление для Windows holographic, версия 1903 февраля 2021.  Общие заметки о выпуске HoloLens 2 см. в разделе https://docs.microsoft.com/hololens/hololens-release-notes |
 |  [10.0.19041.1134 сборки эмулятора HoloLens 2](https://go.microsoft.com/fwlink/?linkid=2152389) | 13 января 2021 г. | Windows holographic, версия 20H2, 2021 января, обновление.  Общие заметки о выпуске HoloLens 2 см. в разделе https://docs.microsoft.com/hololens/hololens-release-notes |
 |  [10.0.18362.1091 сборки эмулятора HoloLens 2](https://go.microsoft.com/fwlink/?linkid=2152388) | 13 января 2021 г. | Обновление для Windows holographic, 1903 января 2021.  Общие заметки о выпуске HoloLens 2 см. в разделе https://docs.microsoft.com/hololens/hololens-release-notes |
 |  [10.0.19041.1131 сборки эмулятора HoloLens 2](https://go.microsoft.com/fwlink/?linkid=2151523) | 8 декабря 2020 г. | Обновление Windows holographic, 20H2 декабря 2020.  Общие заметки о выпуске HoloLens 2 см. в разделе https://docs.microsoft.com/hololens/hololens-release-notes |
 |  [10.0.18362.1088 сборки эмулятора HoloLens 2](https://go.microsoft.com/fwlink/?linkid=2151522) | 8 декабря 2020 г. | Обновление для Windows holographic, 1903 декабря 2020.  Общие заметки о выпуске HoloLens 2 см. в разделе https://docs.microsoft.com/hololens/hololens-release-notes |
-|  [10.0.18362.1081 сборки эмулятора HoloLens 2](https://go.microsoft.com/fwlink/?linkid=2148612) | 10 ноября 2020 г. | Обновление для Windows holographic, 1903 ноября 2020.  Общие заметки о выпуске HoloLens 2 см. в разделе https://docs.microsoft.com/hololens/hololens-release-notes |
+|  [10.0.18362.1081 сборки эмулятора HoloLens 2](https://go.microsoft.com/fwlink/?linkid=2148612) | 10 ноября 2020 г. | Обновление для Windows holographic, 1903 ноября 2020.  Общие заметки о выпуске HoloLens 2 см. в разделе https://docs.microsoft.com/hololens/hololens-release-notes |
 |  [10.0.19041.1124 сборки эмулятора HoloLens 2](https://go.microsoft.com/fwlink/?linkid=2145829) | 13 октября 2020 г. | Обновление до Windows holographic, версия 2004 октября 2020.  Общие заметки о выпуске HoloLens 2 см. в разделе https://docs.microsoft.com/hololens/hololens-release-notes |
 |  [10.0.18362.1081 сборки эмулятора HoloLens 2](https://go.microsoft.com/fwlink/?linkid=2145828) | 13 октября 2020 г. | Обновление до Windows holographic, версия 1903 октября 2020.  Общие заметки о выпуске HoloLens 2 см. в разделе https://docs.microsoft.com/hololens/hololens-release-notes |
 |  [10.0.19041.1117 сборки эмулятора HoloLens 2](https://go.microsoft.com/fwlink/?linkid=2141987) | 07 сентября 2007 г., 2020 | Обновление до Windows holographic, версия 2004 сентября 2020.  Общие заметки о выпуске HoloLens 2 см. в разделе https://docs.microsoft.com/hololens/hololens-release-notes |
@@ -45,7 +47,7 @@ ms.locfileid: "102526021"
 |  [10.0.18362.1053 сборки эмулятора HoloLens 2](https://go.microsoft.com/fwlink/?linkid=2118321) | 11 февраля 2020 г. | Обновление для Windows holographic, версия 1903 февраля 2020.  Общие заметки о выпуске HoloLens 2 см. в разделе https://docs.microsoft.com/hololens/hololens-release-notes |
 |  [10.0.18362.1044 сборки эмулятора HoloLens 2](https://go.microsoft.com/fwlink/?linkid=2114824) | 13 января 2020 г. | Обновление для Windows holographic, 1903 января 2020.  Общие заметки о выпуске HoloLens 2 см. в разделе https://docs.microsoft.com/hololens/hololens-release-notes |
 |  [10.0.18362.1042 сборки эмулятора HoloLens 2](https://go.microsoft.com/fwlink/?linkid=2112589) | 6 декабря 2019 г. | Обновление для Windows holographic, 1903 декабря 2019.  Решается, что при отображении панели ПИН-кодов в эмуляторе будет неожиданно приостановлена работа приложения Holographic.  Включает подключение к удаленному эмулятору при использовании API имитации восприятия или приложения управления имитацией восприятия.  Общие заметки о выпуске HoloLens 2 см. в разделе https://docs.microsoft.com/hololens/hololens-release-notes |
-|  [10.0.18362.1034 сборки эмулятора HoloLens 2](https://go.microsoft.com/fwlink/?linkid=2106649) | 8 октября 2019 г. | Обновление до Windows holographic, версия 1903 октября 2019.  Эмулятор выводит запрос на обновление до новой версии при запуске версии, которая старше последней доступной.  При использовании эмулятора в Windows 10 может 2019 или более поздней версии, Новая вкладка конфигурации NAT позволяет разработчикам открывать порты для приложений, выполняющихся на разных устройствах, для подключения к эмулятору, а на вкладке обновления отображаются доступные версии эмулятора.  Дополнительные сведения см. в [документации по эмулятору HoloLens](using-the-hololens-emulator.md) . |
+|  [10.0.18362.1034 сборки эмулятора HoloLens 2](https://go.microsoft.com/fwlink/?linkid=2106649) | 8 октября 8, 2019 г. | Обновление до Windows holographic, версия 1903 октября 2019.  Эмулятор выводит запрос на обновление до новой версии при запуске версии, которая старше последней доступной.  При использовании эмулятора в Windows 10 может 2019 или более поздней версии, Новая вкладка конфигурации NAT позволяет разработчикам открывать порты для приложений, выполняющихся на разных устройствах, для подключения к эмулятору, а на вкладке обновления отображаются доступные версии эмулятора.  Дополнительные сведения см. в [документации по эмулятору HoloLens](using-the-hololens-emulator.md) . |
 |  [10.0.18362.1031 сборки эмулятора HoloLens 2](https://go.microsoft.com/fwlink/?linkid=2103724) | 11 сентября 2019 г. | Обновление до Windows holographic, версия 1903 сентября 2019.  Вкладка Сеть появится в окне средства эмулятора при запуске эмулятора в Windows 10, возможно, 2019 или более поздней версии. |
 |  [10.0.18362.1028 сборки эмулятора HoloLens 2](https://go.microsoft.com/fwlink/?linkid=2101019) | 14 августа 2019 г. | Обновление до Windows holographic, версия 1903 августа 2019.  Шаблоны holographic приложений больше не включены, но доступны в Visual Studio Marketplace.  Теперь эмулятор будет работать при установке пакетов SDK в пользовательском расположении. |
 |  [10.0.18362.1021 сборки эмулятора HoloLens 2](https://go.microsoft.com/fwlink/?linkid=2098508) | 8 июля 2019 г. | Обновление для Windows holographic, версия 1903 июля 2019.  Устраняет проблемы с подписыванием DiskStream.dll |
