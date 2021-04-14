@@ -7,12 +7,12 @@ ms.date: 12/9/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: смешанная реальность, обнаружение, распространение, указатель, целевая страница, проектирование, разработка, учебники, примеры приложений, основы, примеры использования, ресурсы, практические руководства по HoloLens, проекты с открытым кодом, основные понятия, взаимодействие, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, MRTK, Mixed Reality Toolkit
-ms.openlocfilehash: f4a4ea50c45263f18079da76dd8dfd5f31e2af44
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: 36af6b1c439c47eef2126408d1185ecfe151cf8b
+ms.sourcegitcommit: e9a0ba97fd288479ad324cdaabee9b6abc9f4dc2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "98110452"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "107221566"
 ---
 # <a name="start-designing-and-prototyping"></a>Начните проектировать и создавать прототипы
 
@@ -40,6 +40,7 @@ ms.locfileid: "98110452"
 | [Типы приложений смешанной реальности](types-of-mixed-reality-apps.md) | Определение того, какого именно типа приложение вы хотите создать. |
 | [Приложение для создания голограмм](https://www.microsoft.com/p/designing-holograms/9nxwnjklrzwd) | Изучите основные принципы разработки пользовательского интерфейса смешанной реальности на практике, а также получите советы и рекомендации для создания впечатляющих приложений HoloLens (доступно для скачивания в Microsoft Store в разделе HoloLens 2). |
 | [Центр с примерами MRTK](https://www.microsoft.com/en-us/p/mrtk-examples-hub/9mv8c39l2sj4) | Изучите популярные пространственные взаимодействия и базовые блоки пользовательского интерфейса для смешанной реальности (доступно для скачивания из Microsoft Store в HoloLens 2). |
+| **Необязательно** [Скачивание набора средств Figma](figma-toolkit.md) | Набор средств Figma предоставляет ресурсы, с помощью которых можно создавать эскизы и макеты пользовательского интерфейса на основе компонентов, доступных в МРТК |
 
 ### <a name="2-core-concepts"></a>2. Основные понятия
 
