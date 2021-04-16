@@ -6,18 +6,18 @@ ms.author: alexturn
 ms.date: 02/24/2019
 ms.topic: article
 keywords: система координат, пространственный система координат, только ориентация, установленный масштаб, фиксированный масштаб, комната. масштабирование, мировое масштабирование, 360 градусов, помещение, размещение, помещение, мир, масштабирование, положение, ориентация, Unity, привязка, пространственное привязку, прикрепление, блокировка мира, блокировка по всему миру, блокировки текста, Блокировка текста, блокировка в мире, с потерей данных, локатабилити, границы, перецентрирование, гарнитура смешанной реальности, головной телефон
-ms.openlocfilehash: aa68ae44e09dfe579f8ab8924d1b300506a1f00e
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: 91b1adf6dcf1c54d0d29a02bfb97ac4674a87c88
+ms.sourcegitcommit: 3e36b2fbbcc250c49aaf8ca1b6133cf0e9db69fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98581061"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "107528747"
 ---
 # <a name="coordinate-systems-in-unity"></a>Системы координат в Unity
 
-Windows Mixed Reality поддерживает приложения в различных [масштабах](../../design/coordinate-systems.md), начиная с приложений с ориентацией на страницы и до крупномасштабных приложений. В HoloLens вы можете создавать приложения для мирового уровня, которые позволяют пользователям проходить более чем за 5 метров, изучая целый ряд здания и выходят за рамки.
+Windows Mixed Reality поддерживает приложения в различных масштабах, начиная с приложений с ориентацией на страницы и до крупномасштабных приложений. В HoloLens вы можете создавать приложения для мирового уровня, которые позволяют пользователям проходить более чем за 5 метров, изучая целый ряд здания и выходят за рамки.
 
-Первым шагом в создании смешанной реальности в Unity является определение того, для чего будет работать [масштабирование](../../design/coordinate-systems.md) приложения.
+Первым шагом в создании смешанной реальности в Unity является понимание [систем координат и выбор масштаба работы](../../design/coordinate-systems.md) приложения.
 
 ## <a name="building-an-orientation-only-or-seated-scale-experience"></a>Создание интерфейса, поддерживающего только ориентацию, или с возможностями масштабирования
 
@@ -183,12 +183,12 @@ Anchor_OnTrackingChanged(anchor, anchor.isLocated);
 
 Вы можете в любой момент вернуться к [этапам разработки для Unity](unity-development-overview.md#2-core-building-blocks).
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 * [Масштабирование работы](../../design/coordinate-systems.md#mixed-reality-experience-scales)
 * [Пространственный этап](../../design/coordinate-systems.md#stage-frame-of-reference)
 * [Потеря слежения в Unity](tracking-loss-in-unity.md)
 * [Пространственные привязки](../../design/spatial-anchors.md)
 * [Сохраняемость в Unity](persistence-in-unity.md)
 * [Общий доступ в Unity](shared-experiences-in-unity.md)
-* <a href="/azure/spatial-anchors" target="_blank">Пространственные привязки Azure</a>
+* <a href="/azure/spatial-anchors" target="_blank">Пространственные привязки Azure.</a>
 * <a href="/dotnet/api/Microsoft.Azure.SpatialAnchors" target="_blank">Пакет SDK для пространственных привязок Azure для Unity</a>
