@@ -168,11 +168,13 @@
                   href: unity/tutorials/mr-azure-301.md
     - name: Настройка проекта
       items:
-        - name: Знакомство с MRTK
-          href: unity/mrtk-getting-started.md
-        - name: Настройка проекта без МРТК
-          href: unity/configure-unity-project.md
-        - name: Использование подключаемого модуля Смешанной реальности OpenXR
+        - name: Выбор версии Unity и подключаемого модуля XR
+          href: unity/choosing-unity-version.md
+        - name: Использование встроенной поддержки XR прежних версий
+          href: unity/legacy-xr-support.md
+        - name: "Использование подключаемого модуля Windows\_XR"
+          href: unity/windows-xr-plugin.md
+        - name: Использование подключаемого модуля OpenXR
           href: unity/openxr-getting-started.md
         - name: Поддерживаемые функции подключаемого модуля OpenXR
           href: unity/openxr-supported-features.md
@@ -194,8 +196,10 @@
       items:
         - name: Настройка камеры
           href: unity/camera-in-unity.md
-        - name: Пространственные привязки
+        - name: Фиксация в мировой системе координат и пространственные привязки
           href: unity/spatial-anchors-in-unity.md
+        - name: Общие возможности
+          href: unity/shared-experiences-in-unity.md
         - name: Взаимодействия
           items:
             - name: Контроллеры движений
@@ -216,8 +220,6 @@
           href: unity/spatial-sound-in-unity.md
     - name: Дополнительные функции
       items:
-        - name: Общие возможности
-          href: unity/shared-experiences-in-unity.md
         - name: Фото- и видеокамера в Unity
           href: unity/locatable-camera-in-unity.md
         - name: Голографическое удаленное взаимодействие в классическом приложении
