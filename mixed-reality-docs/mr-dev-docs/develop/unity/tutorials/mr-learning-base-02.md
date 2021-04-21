@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, TextMeshPro
 ms.localizationpriority: high
-ms.openlocfilehash: c9cf580b1123002e9e8cdfd5c3914c3aa39e2825
-ms.sourcegitcommit: 848b4b7bb8514c2e088a3a55512b1a8075d29093
+ms.openlocfilehash: b0b8d97471dfae9d6dc6bbee26079af04f97de62
+ms.sourcegitcommit: 94ae851f78e5b861af601b445f8f0a3405197c40
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "107003133"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "107716025"
 ---
 # <a name="2-initializing-your-project-and-deploying-your-first-application"></a>2. Инициализация проекта и развертывание первого приложения
 
@@ -186,7 +186,7 @@ ms.locfileid: "107003133"
 > [!NOTE]
 > Для выполнения задач этого руководства в объект Cube уже добавлены коллайдеры. Чтобы получить дополнительные сведения о коллайдерах, воспользуйтесь <a href="https://docs.unity3d.com/Manual/CollidersOverview.html" target="_blank">этим разделом</a> из документации по Unity.
 
-Чтобы проверить это в редакторе Unity, можно перейти в режим воспроизведения и удерживать клавишу **SHIFT** слева или **ПРОБЕЛ** для включения контроллера. Контроллер можно перемещать, передвигая мышь, а приближать его к камере или удалять от нее вы можете с помощью колесика мыши. Наведите указатель на объект Cube, а затем нажмите и удерживайте **правую кнопку мыши**, чтобы переместить объект Cube.
+Чтобы проверить это в редакторе Unity, можно перейти в режим воспроизведения и удерживать клавишу **SHIFT** слева или **ПРОБЕЛ** для включения контроллера. Контроллер можно перемещать, передвигая мышь, а приближать его к камере или удалять от нее вы можете с помощью колесика мыши. Наведите указатель на объект Cube, а затем нажмите и удерживайте **левую кнопку мыши**, чтобы переместить объект Cube.
 
 ![Режим игры](images/mr-learning-base/base-02-section8-step1-4.png)
 
