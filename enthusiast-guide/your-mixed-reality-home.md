@@ -3,12 +3,12 @@ title: Домашняя страница смешанной реальности
 description: Как перемещаться и телепортируйтесь в домашней папке Windows Mixed Reality, запускать приложения и игры, персонализировать домашнюю страницу и изменять параметры визуального, звукового и голосового ввода.
 ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, Домашняя страница, навигация, обход приложений, игры
-ms.openlocfilehash: 4fd4fb70edf9aadb9b34187f4d8fd421ca1e8a95
-ms.sourcegitcommit: 1b90f27af091dffd4fba63d69a89873aa0f75079
+ms.openlocfilehash: 440660b12b92e0c818cd3601be486d6fd1dfdb92
+ms.sourcegitcommit: 95fbb851336b6c5977a2ce4d4ac10f0eeb0df31f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97725545"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "107944695"
 ---
 # <a name="your-windows-mixed-reality-home"></a>Ваш дом с Windows Mixed Reality
 
@@ -82,9 +82,9 @@ Windows Mixed Reality является первой пространственн
 > [!NOTE]
 > Эта функция отключена на компьютерах с интегрированной графикой из-за нагрузки на GPU.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
-* [Устранение неполадок домашней страницы Windows Mixed Reality](wmr-setup-faq.md#my-motion-controllers-arent-working)
+* [Устранение неполадок домашней страницы Windows Mixed Reality](wmr-setup-faq.yml#my-motion-controllers-aren-t-working)
 * [Использование игр и приложений в Windows Mixed Reality](using-games-and-apps-in-windows-mixed-reality.md)
 * [Как работает отслеживание Inside-out](tracking-system.md)
 * [Как работают контроллеры движений](controllers-in-wmr.md)

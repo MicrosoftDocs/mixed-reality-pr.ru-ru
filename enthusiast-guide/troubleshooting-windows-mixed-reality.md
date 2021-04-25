@@ -3,12 +3,12 @@ title: Устранение неполадок Windows Mixed Reality
 description: Получайте актуальные сведения об устранении неполадок Windows Mixed Reality, которые выходят за рамки стандартной документации по поддержке пользователей.
 ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, устранение неполадок, ошибки, Справка, поддержка
-ms.openlocfilehash: 6e685aac0919d920f47c2bd8954706da79dbc8c4
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 2fbdb434eb3ccc0a327af990b4f4854faafbdf85
+ms.sourcegitcommit: 95fbb851336b6c5977a2ce4d4ac10f0eeb0df31f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009484"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "107944645"
 ---
 # <a name="troubleshooting-windows-mixed-reality-faqs"></a>Устранение неполадок Windows Mixed Reality (FAQ)
 
@@ -16,7 +16,7 @@ ms.locfileid: "98009484"
 
 ## <a name="whats-new"></a>Новые возможности!
 
-Учитывая недавно выпущенную новую гарнитуру и контроллеры, мы скомпилированы [выделенную страницу с часто ЗАдаваемыми вопросами](reverbG2-faq.md) для всех элементов G2. В этой статье рассматриваются все проблемы с подключением и четкость изображений, связанные с контроллерами движения и выполнением смешанной реальности.
+Учитывая недавно выпущенную новую гарнитуру и контроллеры, мы скомпилированы [выделенную страницу с часто ЗАдаваемыми вопросами](reverbG2-faq.yml) для всех элементов G2. В этой статье рассматриваются все проблемы с подключением и четкость изображений, связанные с контроллерами движения и выполнением смешанной реальности.
 
 ## <a name="troubleshooting-topics"></a>Разделы по устранению неполадок
 
@@ -27,7 +27,7 @@ ms.locfileid: "98009484"
 Для проблем с установкой, запуская Windows Mixed Reality, ошибок установки, минимальных требований к компьютеру или административных разрешений, ознакомьтесь с этими двумя часто задаваемыми вопросами.
 
 - [Ошибки установки](installation_errors.md)
-- [Установка](wmr-setup-faq.md)
+- [Установка](wmr-setup-faq.yml)
 
 ### <a name="hardware-issues"></a>Проблемы с оборудованием
 
@@ -58,5 +58,5 @@ ms.locfileid: "98009484"
 
 - [Производительность](performance-questions.md)
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Другие вопросы](other-questions.md)

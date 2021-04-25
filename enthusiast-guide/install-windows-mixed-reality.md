@@ -8,12 +8,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, начало работы, Настройка, портал смешанной реальности
 appliesto:
 - Windows 10
-ms.openlocfilehash: 72782d14218e0a95b5a88297310f791c977fe094
-ms.sourcegitcommit: 1b90f27af091dffd4fba63d69a89873aa0f75079
+ms.openlocfilehash: a0ce559372d854e5f0bd51d25d112ba285e4d81e
+ms.sourcegitcommit: 95fbb851336b6c5977a2ce4d4ac10f0eeb0df31f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97726075"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "107944745"
 ---
 # <a name="install-windows-mixed-reality-software"></a>Установка программного обеспечения Windows Mixed Reality
 
@@ -91,10 +91,10 @@ Windows Mixed Reality имеет размер 1 ГБ, и время загруз
 
 ![Подготовка к настройке](images/1050px-gettingsetup.png)
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Спросить у сообщества](https://answers.microsoft.com)
 * [Свяжитесь с нами для получения поддержки](https://support.microsoft.com/contactus/)
 * [Устранение неполадок установки](installation_errors.md)
-* [Устранение неполадок установки](wmr-setup-faq.md)
+* [Устранение неполадок установки](wmr-setup-faq.yml)
 * [Настройка Windows Mixed Reality](set-up-windows-mixed-reality.md)

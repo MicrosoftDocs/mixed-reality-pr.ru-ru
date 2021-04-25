@@ -6,12 +6,12 @@ ms.author: flbagar
 ms.date: 12/01/2020
 ms.topic: article
 keywords: HoloLens, удаленное взаимодействие, holographic удаленное взаимодействие, журнал версий, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 101061f69fcd4bd3885aa265f32ba2a8f93bf3dc
-ms.sourcegitcommit: ac315c1d35f2b9c431e79bc3f1212215301bb867
+ms.openlocfilehash: 93ab38108d5ad557d61ad366ebb7aebd8cb65ab7
+ms.sourcegitcommit: 95fbb851336b6c5977a2ce4d4ac10f0eeb0df31f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105550134"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "107944706"
 ---
 # <a name="holographic-remoting-version-history"></a>Журнал версий службы удаленного взаимодействия с holographic
 
@@ -28,6 +28,7 @@ ms.locfileid: "105550134"
 * Оптимизированная передача сеток пространственных поверхностей, которые можно запрашивать через [спатиалсурфацеобсервер](/uwp/api/windows.perception.spatial.surfaces.spatialsurfaceobserver) в удаленном приложении.
 * Исправлена проблема, при которой вызов методов Спатиаланчорманажер или освобождение привязок вызывали исключения при отключении.
 * Исправлена проблема с потоками, приводящая к сбоям при закрытии экземпляров Плайерконтекст или Ремотеконтекст.
+* Удаленный плеер holographic на рабочем столе: отображает сообщение об ошибке, когда Windows Mixed Reality не устанавливается, а не закрывается автоматически.
 * Множество других исправлений и улучшений стабильности.
 
 ## <a name="version-241-january-22-2021"></a>Версия 2.4.1 (22 января, 2021) <a name="v2.4.1"></a>

@@ -8,18 +8,18 @@ ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, обратная связь, центр обратной связи, ошибки
 appliesto:
 - Windows 10
-ms.openlocfilehash: 9c1863a3fb0c7d8681f82aa6e0d93400bef578c9
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 0254b7c4ac6a9602517adb3d9e5c024ebd69db4e
+ms.sourcegitcommit: 95fbb851336b6c5977a2ce4d4ac10f0eeb0df31f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98007674"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "107944681"
 ---
 # <a name="using-speech-in-windows-mixed-reality"></a>Использование речи в Windows Mixed Reality
 
 Вы можете использовать свой голоса для ускорения работы с Windows Mixed Reality. Благодаря быстрому фото, открытию приложения, даже при переносе без контроллера, все слова не удаляются. Чтобы легко вводить текст, попробуйте использовать режим диктовки на клавиатуре Mixed Reality. 
 
-Возникли проблемы с голосовыми функциями? [Получить помощь](using-wmr-faq.md#speech-commands-arent-working)
+Возникли проблемы с голосовыми функциями? [Получить помощь](using-wmr-faq.yml#speech-commands-aren-t-working)
 
 <!-- NEED VIDEO: https://support.microsoft.com/en-us/help/4041322/windows-10-speech-in-windows-mixed-reality -->
 
@@ -152,7 +152,7 @@ ms.locfileid: "98007674"
 
 Чтобы отключить диктовку, нажмите кнопку **Готово**.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Спросить у сообщества](https://answers.microsoft.com)
 * [Свяжитесь с нами для получения поддержки](https://support.microsoft.com/contactus/)

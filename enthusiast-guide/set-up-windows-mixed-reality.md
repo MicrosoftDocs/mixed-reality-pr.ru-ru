@@ -3,12 +3,12 @@ title: Настройка Windows Mixed Reality
 description: Как настроить контроллеры движения Windows Mixed Reality, речь и звук, а затем определить границу комнаты для безопасного воспроизведения.
 ms.topic: article
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, начало работы, установка, контроллер движения, контроллер, речь, аудио, задвижное, пограничная, граница, графические драйверы, Microsoft ребр, Chromium
-ms.openlocfilehash: 8cd313651665fe2e50deb21e2ba2434883dc873a
-ms.sourcegitcommit: 1b90f27af091dffd4fba63d69a89873aa0f75079
+ms.openlocfilehash: a08982112fea4d1b67b690233ae387b76afc2f90
+ms.sourcegitcommit: 95fbb851336b6c5977a2ce4d4ac10f0eeb0df31f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97725945"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "107944755"
 ---
 # <a name="set-up-windows-mixed-reality"></a>Настройка Windows Mixed Reality
 
@@ -16,7 +16,7 @@ ms.locfileid: "97725945"
 
 Для запуска Windows Mixed Reality потребуются:
 
-* Совместимая иммерсивное поработающая гарнитура смешанной реальности. [Дополнительные сведения](https://www.microsoft.com/mixed-reality/windows-mixed-reality?rtc=1)
+* Совместимая иммерсивное поработающая гарнитура смешанной реальности. [Подробнее](https://www.microsoft.com/mixed-reality/windows-mixed-reality?rtc=1)
 * [Готовый ПК Windows Mixed Reality](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md) с правильными портами для вашей гарнитуры
 * [Контроллеры](controllers-in-wmr.md)движения, контроллер Xbox, мышь и клавиатура
 * Наушники с микрофоном (если у вашей гарнитуры нет встроенных)
@@ -177,12 +177,12 @@ Windows Mixed Reality автоматически выбирает парамет
 
 Переход на смешанную реальность осуществляется еще раз, так же как и при подключении гарнитуры к компьютеру. Приложение портала Mixed Reality также можно запустить вручную, открыв его из меню "Пуск". Входные и звуковые данные будут автоматически передаваться на гарнитуру, если вы его поместили, или активировать вручную, нажав клавиши **Windows + Y** на клавиатуре.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Спросить у сообщества](https://answers.microsoft.com)
 * [Свяжитесь с нами для получения поддержки](https://support.microsoft.com/contactus/)
 * [Устранение неполадок установки](installation_errors.md)
-* [Устранение неполадок установки](wmr-setup-faq.md)
+* [Устранение неполадок установки](wmr-setup-faq.yml)
 * [Знакомство со смешанной реальностью](learn-mixed-reality.md)
 * [Контроллеры движения](controllers-in-wmr.md)
 * [Как работает отслеживание Inside-out](tracking-system.md)

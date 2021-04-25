@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 10/15/2020
 ms.topic: overview
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR,
-ms.openlocfilehash: f373e0a55557fe38dfa598912296252293fa6d34
-ms.sourcegitcommit: b8a3367bf6dfed01de1ffa10f635385a92ca06b5
+ms.openlocfilehash: c238ec41c75e565cc3eb2bb8bcb9b68eff015f59
+ms.sourcegitcommit: 95fbb851336b6c5977a2ce4d4ac10f0eeb0df31f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106223935"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "107944655"
 ---
 # <a name="start-your-vr-journey"></a>Начните путешествие по VR
 
@@ -47,7 +47,7 @@ ms.locfileid: "106223935"
 |  Контрольная точка  |  Результат  |
 | --- | --- |
 | [Настройка Windows Mixed Reality](set-up-windows-mixed-reality.md) | Познакомьтесь с контроллерами, границами комнаты, речевым входом и Microsoft ребром на новом устройстве VR. |
-| [Вопросы и ответы по настройке Windows Mixed Reality](wmr-setup-faq.md) | Получение ответов и устранение неполадок с известными проблемами при настройке Windows Mixed Reality |
+| [Вопросы и ответы по настройке Windows Mixed Reality](wmr-setup-faq.yml) | Получение ответов и устранение неполадок с известными проблемами при настройке Windows Mixed Reality |
 | [Требования к работоспособности, безопасности и комфорту](wmr-health-safety-comfort.md) | Рекомендации для поддержания безопасности при использовании Windows Mixed Reality перед использованием гарнитуры  |
 
 ### <a name="3-using-windows-mixed-reality"></a>3. Использование Windows Mixed Reality
@@ -60,7 +60,7 @@ ms.locfileid: "106223935"
 
 <br>
 
-|  Контрольная точка  |  Функция  |
+|  Контрольная точка  |  Компонент  |
 | --- | --- |
 | [Знакомство со смешанной реальностью](learn-mixed-reality.md) | Узнайте, как использовать мышь, голоса, контроллеров, входные данные клавиатуры и мыши. |
 | [Переход на домашнюю страницу Windows Mixed Reality](your-mixed-reality-home.md) | Изучите виртуальную среду домашней страницы Windows Mixed Reality  |
@@ -68,7 +68,7 @@ ms.locfileid: "106223935"
 | [Использование речевого ввода](using-speech-in-wmr.md) | Ознакомьтесь с различными голосовыми командами, которые могут взаимодействовать с трехмерными объектами, панелью приложений, меню "Пуск" и Кортане. |
 
 > [!NOTE]
-> Если у вас возникают проблемы с любым из перечисленных выше функций, ознакомьтесь **[с вопросами и ответами на вопросы об использовании Windows Mixed Reality](using-wmr-faq.md)**.
+> Если у вас возникают проблемы с любым из перечисленных выше функций, ознакомьтесь **[с вопросами и ответами на вопросы об использовании Windows Mixed Reality](using-wmr-faq.yml)**.
 
 ## <a name="4-discover-apps-and-content"></a>4. Обнаружение приложений и содержимого
 
@@ -76,7 +76,7 @@ ms.locfileid: "106223935"
 
 <br>
 
-|  Контрольная точка  |  Функция  |
+|  Контрольная точка  |  Компонент  |
 | --- | --- |
 | [Игры, видео 360 и приложения](using-games-and-apps-in-windows-mixed-reality.md) | Начало работы с первой увлекательной игрой, планшетами для 2D-магазинов, приложениями для настольных компьютеров и Вебвр |
 | [Использование SteamVR](using-steamvr-with-windows-mixed-reality.md) | Подключение устройства и воспроизведение Стеамвр игр и изучение программы предварительной оценки Windows |
