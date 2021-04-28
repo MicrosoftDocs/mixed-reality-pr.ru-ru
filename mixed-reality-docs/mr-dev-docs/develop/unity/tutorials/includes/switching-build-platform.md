@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 2a2dcb6ec9133eb5efa0dc04e4d757cabd48461a
-ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
+ms.openlocfilehash: d7232ca645c2a8cfb2508b090fdb7ae02c2ab010
+ms.sourcegitcommit: 95fbb851336b6c5977a2ce4d4ac10f0eeb0df31f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107327144"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "107984407"
 ---
 # <a name="unity-20192020--windows-xr-plugin"></a>[Подключаемый модуль Unity 2019/2020 + Windows XR](#tab/winxr)
 
@@ -33,11 +33,13 @@ ms.locfileid: "107327144"
 В окне параметров сборки щелкните элемент **Universal Windows Platform** (Универсальная платформа Windows). Затем сделайте следующее:
 1.  Задайте для параметра **Target device** (Целевое устройство) значение **HoloLens**.
 2.  Задайте для параметра **Architecture** (Архитектура) значение **ARM 64**.
-3.  Задайте для параметра **Build Type** (Тип сборки) значение **D3D**.
-4.  Задайте для параметра **Minimum Platform Version** (Минимальная версия платформы) значение **10.0.18362**.
-5.  Задайте для параметра **UWP SDK** (Пакет SDK для UWP) значение **Latest installed** (Последняя установленная версия).
-6.  Задайте для параметра **Build configuration** (Конфигурация сборки) значение **Release** (Выпуск), так как есть известные проблемы с производительностью при отладке.
-7.  Нажмите кнопку Switch Platform (Сменить платформу).
+3.  Для параметра **Build Type** (Тип сборки) выберите **D3D Project** (Проект D3D).
+4.  Задайте для параметра **Target SDK Version** (Целевая версия пакета SDK) значение **Latest Installed** (Последняя установленная версия).
+5.  Задайте для параметра **Minimum Platform Version** (Минимальная версия платформы) значение **10.0.18362**.
+6.  Задайте для параметра **Visual Studio Version** (Версия Visual Studio) значение **Latest Installed** (Последняя установленная версия).
+7.  Задайте для параметра **Build and Run on** (Устройство для сборки и выполнения) значение **USB Device** (USB-устройство).
+8.  Задайте для параметра **Build configuration** (Конфигурация сборки) значение **Release** (Выпуск), так как есть известные проблемы с производительностью при отладке.
+9.  Нажмите кнопку Switch Platform (Сменить платформу).
 
 
 ![Окно параметров сборки Unity с заданным параметром Universal Windows Platform (Универсальная платформа Windows)](../images/mr-learning-base/base-02-section2-step1-2-openxr.png)

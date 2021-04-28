@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 63a1435c1a0e01ef3bf8fbcedb175a16035db65b
-ms.sourcegitcommit: 8d386bf6c82ec9860815e873e1f2870ea410f40f
+ms.openlocfilehash: 7c86356a960929839f36cf326c5dd1a1005e64d2
+ms.sourcegitcommit: 95fbb851336b6c5977a2ce4d4ac10f0eeb0df31f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "106088732"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "107984298"
 ---
 # <a name="unity-20192020--windows-xr-plugin"></a>[Подключаемый модуль Unity 2019/2020 + Windows XR](#tab/winxr)
 
@@ -39,7 +39,7 @@ ms.locfileid: "106088732"
 
 ![MixedRealityFeatureTool](../images/mr-learning-base/base-02-section4-step1-2.png)
 
-В разделе **Feature Seetings** (Параметры функций) установите флажок **Include preview releases** (Включить выпуски предварительных версий) и нажмите кнопку **ОК**.
+В разделе **Feature Settings** (Параметры функций) установите флажок **Include preview releases** (Включить выпуски предварительных версий) и нажмите кнопку **ОК**.
 
 ![Окно параметров MixedRealityFeatureTool](../images/mrft-settings.png)
 
