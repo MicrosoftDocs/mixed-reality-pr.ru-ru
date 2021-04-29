@@ -9,7 +9,7 @@
 - name: Расширение процесса проектирования
   href: case-study-expanding-the-design-process-for-mixed-reality.md
 - name: Запуск центра примеров MRTK
-  href: running-examples-hub.md
+  href: 'https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/running-examples-hub'
 - name: Создание голограмм
   href: designing-holograms.md
 - name: Обзор примеров
