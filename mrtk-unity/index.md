@@ -6,12 +6,12 @@ ms.author: kesemple
 ms.date: 03/03/2021
 ms.localizationpriority: high
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 85a203f22c62871265f7775c364f5388194b53a1
-ms.sourcegitcommit: ac315c1d35f2b9c431e79bc3f1212215301bb867
+ms.openlocfilehash: 6576eaedbfba11fae62e59fa9777fe928f0c6a69
+ms.sourcegitcommit: 728f4523188628950478cc03ec7145e89569e0d3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105550974"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108172566"
 ---
 # <a name="what-is-the-mixed-reality-toolkit"></a>Что такое Mixed Reality Toolkit
 
@@ -26,32 +26,31 @@ MRTK-Unity — это проект, управляемый Майкрософт
 * Предоставляет **кросс-платформенную систему ввода и стандартные блоки для пространственных взаимодействий и пользовательского интерфейса**.
 * Поддерживает **быстрое создание прототипов** с помощью имитации в редакторе, позволяющей сразу просматривать изменения.
 * Работает как **расширяемая платформа**, предоставляющая разработчикам возможность менять основные компоненты.
-* **Поддерживает широкий ряд платформ**, в том числе следующие:
-  * OpenXR (Unity 2020.2 или более поздней версии):
-    * Microsoft HoloLens 2;
-    * гарнитуры смешанной реальности Windows Mixed Reality;
-  * Windows Mixed Reality
-    * Microsoft HoloLens;
-    * Microsoft HoloLens 2;
-    * гарнитуры смешанной реальности Windows Mixed Reality;
-  * Oculus (Unity 2019.3 или более поздней версии):
-    * Oculus Quest.
-  * OpenVR:
-    * гарнитуры смешанной реальности Windows Mixed Reality;
-    * HTC Vive;
-    * Oculus Rift;
-  * отслеживание рук Ultraleap.
-  * Мобильные устройства, например iOS и Android.
+* **Поддерживает широкий ряд платформ**:
+
+| Платформа | Поддерживаемые устройства |
+|---|---|
+| OpenXR (Unity 2020.2 или более поздней версии): | Microsoft HoloLens 2; <br> гарнитуры смешанной реальности Windows Mixed Reality; |
+| Windows Mixed Reality | Microsoft HoloLens; <br> Microsoft HoloLens 2; <br> гарнитуры смешанной реальности Windows Mixed Reality;  |
+| Oculus (Unity 2019.3 или более поздней версии): | Oculus Quest. |
+| OpenVR: |  гарнитуры смешанной реальности Windows Mixed Reality; <br> HTC Vive; <br> Oculus Rift; |
+| отслеживание рук Ultraleap. | Leap Motion Controller (Ultraleap) |
+| Мобильные службы | iOS и Android |
 
 ## <a name="getting-started-with-mrtk"></a>Начало работы с MRTK
 
-Если вы не знакомы с MRTK или разработкой для смешанной реальности в Unity, рекомендуем установить необходимые инструменты и пройти серию учебников по HoloLens 2.
+Если вы не знакомы с MRTK или разработкой для Смешанной реальности в Unity, мы рекомендуем установить и изучить пример приложения из центра примеров MRTK на устройстве или в эмуляторе. 
 
 > [!div class="nextstepaction"]
-> [Установка средств](install-the-tools.md)
+> [Скачайте приложение в центре примеров MRTK](running-examples-hub.md)
+
+Ознакомившись с MRTK и Смешанной реальностью, установите необходимые средства и следуйте инструкциям из серии руководств по HoloLens 2 для начинающих.
 
 > [!div class="nextstepaction"]
-> [Серия учебников по HoloLens 2](/windows/mixed-reality/develop/unity/tutorials/mr-learning-base-02)
+> [Установка средств](https://docs.microsoft.com/windows/mixed-reality/develop/install-the-tools?tabs=unity)
+
+> [!div class="nextstepaction"]
+> [Серия учебников по HoloLens 2](https://docs.microsoft.com/windows/mixed-reality/develop/unity/tutorials/mr-learning-base-02)
 
 Хотите узнать, как это работает?
 > [!div class="nextstepaction"]
