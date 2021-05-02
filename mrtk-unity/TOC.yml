@@ -1,22 +1,22 @@
 - name: Добро пожаловать в MRTK
   href: index.md
-- name: Заметки о выпуске
-  href: release-notes/toc.yml
-- name: Стратегия
-  href: roadmap.md
-- name: Установка средств
-  href: install-the-tools.md
+- name: Попробуйте центр примеров
+  href: running-examples-hub.md
 - name: Конфигурация
   href: configuration/toc.yml
+- name: Архитектура
+  href: architecture/toc.yml
+- name: Обзор возможностей
+  href: features/toc.yml
+- name: Рекомендации по повышению производительности
+  href: performance/toc.yml
 - name: Обновления и развертывание
   href: updates-deployment/toc.yml
 - name: Пакеты
   href: packages/toc.yml
-- name: Рекомендации по повышению производительности
-  href: performance/toc.yml
-- name: Architecture
-  href: architecture/toc.yml
-- name: Обзор возможностей
-  href: features/toc.yml
+- name: Заметки о выпуске
+  href: release-notes/toc.yml
+- name: Стратегия
+  href: roadmap.md
 - name: Участие
   href: contributing/toc.yml
