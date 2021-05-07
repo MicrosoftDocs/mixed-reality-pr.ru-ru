@@ -44,8 +44,8 @@
     "globalMetadata": {
       "breadcrumb_path": "/windows/mixed-reality/enthusiast-guide/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/mixedreality-enthusiast-guide",
+      "feedback_system": "None",
+      "feedback_github_repo": "",
       "feedback_product_url": "https://developer.microsoft.com/en-us/windows/mixed-reality/give_us_feedback",
       "titleSuffix": "Enthusiast Guide",
       "author": "hferrone",
