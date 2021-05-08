@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Речевой ввод, Кэйвордрекогнизер, Граммаррекогнизер, микрофон, Диктовка, речь, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: c062289a1a26365528a86761b6b68a9a24041f7c
-ms.sourcegitcommit: ac315c1d35f2b9c431e79bc3f1212215301bb867
+ms.openlocfilehash: 6b040443606e05843f85b2f74f5ea812daafba31
+ms.sourcegitcommit: e89431d12b5fe480c9bc40e176023798fc35001b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105550384"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "109489204"
 ---
 # <a name="voice-input-in-unity"></a>Голосовой ввод в Unity
 
@@ -299,8 +299,8 @@ PhraseRecognitionSystem.Restart();
 ## <a name="voice-input-in-mixed-reality-toolkit"></a>Речевой ввод в наборе средств Mixed Reality
 
 Примеры МРТК для речевого ввода можно найти в следующих демонстрационных сценах:
-* [Диктовка](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/mrtk_development/Assets/MRTK/Examples/Demos/Input/Scenes/Dictation)
-* [Речь](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/mrtk_development/Assets/MRTK/Examples/Demos/Input/Scenes/Speech)
+* [Диктовка](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/main/Assets/MRTK/Examples/Demos/Input/Scenes/Dictation)
+* [Речь](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/main/Assets/MRTK/Examples/Demos/Input/Scenes/Speech)
 
 ## <a name="next-development-checkpoint"></a>Следующий этап разработки
 

@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 11/02/2019
 ms.topic: article
 keywords: Windows Mixed Reality, Пространственный звук, проектирование, стиль, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств для смешанной реальности, жесты, взаимодействия, ослабление
-ms.openlocfilehash: fe77d62bcdfc67579deee619fc7f4949676aaed6
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+ms.openlocfilehash: d51fbdf16d7186c386f124c773f75dacc8c157fd
+ms.sourcegitcommit: e89431d12b5fe480c9bc40e176023798fc35001b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97848186"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "109489214"
 ---
 # <a name="how-to-use-sound-in-mixed-reality-applications"></a>Использование звука в приложениях смешанной реальности
 
@@ -52,8 +52,8 @@ ms.locfileid: "97848186"
 ### <a name="gesture-interactions"></a>Взаимодействия жестов
 
 В смешанной реальности пользователи могут взаимодействовать с кнопками с помощью мыши. Действия кнопок обычно возникают, когда пользователь выдает, а не нажимает кнопку, чтобы дать пользователю возможность отменить взаимодействие. Используйте звуки, чтобы прикрепить эти этапы. Чтобы помочь пользователям в нацеливании на отдаленные кнопки, рассмотрите возможность использования звука с наведением указателя.
-* Нажатие кнопки "звуки" должно быть коротким, тактиле "нажатием".<br/>Пример: [MRTK_ButtonPress. wav](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/mrtk_development/Assets/MRTK/SDK/StandardAssets/Audio/MRTK_ButtonPress.wav)
-* Кнопка — "нажимать" звуковое сопровождение должно иметь похожий вид тактиле. Более высокие тона, чем при нажатии клавиши "звук", применяют смысл завершения.<br/>Пример: [MRTK_ButtonUnpress. wav](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/mrtk_development/Assets/MRTK/SDK/StandardAssets/Audio/MRTK_ButtonUnpress.wav)
+* Нажатие кнопки "звуки" должно быть коротким, тактиле "нажатием".<br/>Пример: [MRTK_ButtonPress. wav](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/main/Assets/MRTK/SDK/StandardAssets/Audio/MRTK_ButtonPress.wav)
+* Кнопка — "нажимать" звуковое сопровождение должно иметь похожий вид тактиле. Более высокие тона, чем при нажатии клавиши "звук", применяют смысл завершения.<br/>Пример: [MRTK_ButtonUnpress. wav](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/main/Assets/MRTK/SDK/StandardAssets/Audio/MRTK_ButtonUnpress.wav)
 * Для наведения звуков рассмотрите возможность использования тонкого и запугивание звука, например суд низкой частоты или выпуклости.
 
 ### <a name="direct-manipulation"></a>Непосредственное манипулирование
@@ -61,12 +61,12 @@ ms.locfileid: "97848186"
 В HoloLens 2 отслеживание с обработкой с формулировкой поддерживает прямую манипуляцию с элементами пользовательского интерфейса. Звук имеет важное значение, если нет других физических отзывов.
 
 Нажатие кнопки «звук *»* имеет большое значение, так как пользователь не получает никаких других индикаторов при достижении конца штриха. Звуковые индикаторы перемещения ключей могут быть небольшими, слабыми и перекрыто. Как и при взаимодействии с жестами, нажатия кнопки должны получить короткий, тактиленый звук, например щелчок. Нажатия клавиш должен иметь аналогичный звук щелчка, но с вызываемым шагом.
-* Пример: [MRTK_ButtonPress. wav](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/mrtk_development/Assets/MRTK/SDK/StandardAssets/Audio/MRTK_ButtonPress.wav)
-* Пример: [MRTK_ButtonUnpress. wav](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/mrtk_development/Assets/MRTK/SDK/StandardAssets/Audio/MRTK_ButtonUnpress.wav)
+* Пример: [MRTK_ButtonPress. wav](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/main/Assets/MRTK/SDK/StandardAssets/Audio/MRTK_ButtonPress.wav)
+* Пример: [MRTK_ButtonUnpress. wav](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/main/Assets/MRTK/SDK/StandardAssets/Audio/MRTK_ButtonUnpress.wav)
 
 Трудно визуально подтвердить действие захвата или освобождения. Руки пользователя часто встречаются на любом визуальном элементе, а воплощающего объекты не имеют реального визуального аналога «захвата». Звук может эффективно обмениваться успешными взаимодействиями при захвате и выпуске.
-* Действия при захвате должны иметь короткий, частично-муффлед тактиленый звук, который запрашивает идею пальцы, закрывающ вокруг объекта. Иногда есть также «ухая» звук, который ведет к извлечению звука, чтобы сообщить о движении руки.<br/>Пример: [MRTK_Move_Start. wav](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/mrtk_development/Assets/MRTK/SDK/StandardAssets/Audio/MRTK_Move_Start.wav)
-* Действия выпуска должны иметь похожий короткий и тактиленый звук. Обычно это более низкий тон, чем при захвате звука и в обратном порядке, а затем «ухая», чтобы сообщить, что объект связан с разделом.<br/>Пример: [MRTK_Move_End. wav](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/mrtk_development/Assets/MRTK/SDK/StandardAssets/Audio/MRTK_Move_End.wav)
+* Действия при захвате должны иметь короткий, частично-муффлед тактиленый звук, который запрашивает идею пальцы, закрывающ вокруг объекта. Иногда есть также «ухая» звук, который ведет к извлечению звука, чтобы сообщить о движении руки.<br/>Пример: [MRTK_Move_Start. wav](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/main/Assets/MRTK/SDK/StandardAssets/Audio/MRTK_Move_Start.wav)
+* Действия выпуска должны иметь похожий короткий и тактиленый звук. Обычно это более низкий тон, чем при захвате звука и в обратном порядке, а затем «ухая», чтобы сообщить, что объект связан с разделом.<br/>Пример: [MRTK_Move_End. wav](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/main/Assets/MRTK/SDK/StandardAssets/Audio/MRTK_Move_End.wav)
 
 Взаимодействие с *рисованием* должно получить постоянный и циклический перебор звука с объемом, определяемым перемещением руки пользователя. Он должен быть скрытым, когда рука пользователя остается и громкее, когда рука перемещается быстро.
 

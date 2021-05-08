@@ -5,12 +5,12 @@ author: polar-kev
 ms.author: kesemple
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK, запрос на вытягивание
-ms.openlocfilehash: c49934139ae23b714addcb9c015e95377f47900e
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
-ms.translationtype: HT
+ms.openlocfilehash: 008e719cd2fd3c854cbbe6876090b2de96f369be
+ms.sourcegitcommit: e89431d12b5fe480c9bc40e176023798fc35001b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "104693291"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "109489234"
 ---
 # <a name="pull-requests"></a>Запросы на вытягивание
 
@@ -24,7 +24,7 @@ ms.locfileid: "104693291"
 
 ## <a name="creating-a-pull-request"></a>Создание запроса на включение изменений
 
-Когда вы будете готовы отправить запрос на вытягивание, [создайте запрос на вытягивание](https://github.com/microsoft/MixedRealityToolkit-Unity/compare/mrtk_development...mrtk_development?expand=1) для ветви [mrtk_development](https://github.com/microsoft/mixedrealitytoolkit-unity/tree/mrtk_development).
+Когда вы будете готовы отправить запрос на вытягивание, [Создайте запрос на вытягивание](https://github.com/microsoft/MixedRealityToolkit-Unity/compare/main...main?expand=1) , предназначенный для [основной](https://github.com/microsoft/mixedrealitytoolkit-unity/tree/main) ветви. Чтобы устранить ошибки в течение периода выпуска стабилизации, найдите последнюю `prerelease/*` ветвь. Новые функции всегда должны приступать к `main` .
 
 Ознакомьтесь с рекомендациями и убедитесь, что ваш запрос на вытягивание соответствует им.
 
