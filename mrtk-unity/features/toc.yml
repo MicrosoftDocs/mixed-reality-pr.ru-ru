@@ -2,8 +2,6 @@
   href: boundary/toc.yml
 - name: Система камер
   href: camera-system/toc.yml
-- name: Кроссплатформенные
-  href: cross-platform/toc.yml
 - name: Диагностика
   href: diagnostics/toc.yml
 - name: Примеры сцен

@@ -5,12 +5,12 @@ author: polar-kev
 ms.author: kesemple
 ms.date: 03/17/2021
 keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, отчет об ошибках,
-ms.openlocfilehash: 525e704ae2f09580c8c19ca7e8a25dad4aed2647
-ms.sourcegitcommit: e89431d12b5fe480c9bc40e176023798fc35001b
+ms.openlocfilehash: 11a62708b4cb1a5acc3d230f933be2e88e0ac87b
+ms.sourcegitcommit: 8e1a1d48d9c7cd94dab4ce6246aa2c0f49ff5308
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "109489264"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109850370"
 ---
 # <a name="contributing"></a>Участие
 
@@ -51,7 +51,7 @@ ms.locfileid: "109489264"
 
 При добавлении исправления или компонента ошибки выполните следующие действия.
 
-1. Реализуйте исправление ошибки или функцию. Инструкции по созданию и развертыванию МРТК находятся в [буилданддеплой](../updates-deployment/build-and-deploy.md). Не забывайте следовать [рекомендациям по написанию кода](../contributing/coding-guidelines.md).
+1. Реализуйте исправление ошибки или функцию. Инструкции по созданию и развертыванию МРТК развертываются [на устройствах Hololens и ВМР](../supported-devices/wmr-mrtk.md). Не забывайте следовать [рекомендациям по написанию кода](../contributing/coding-guidelines.md).
 1. При добавлении функции также добавьте пример сцены, демонстрирующий эту функцию.
 1. При добавлении экспериментальной функции написание тестов и документации не требуется. Вместо этого следуйте [экспериментальным рекомендациям](../contributing/experimental-features.md).
 1. Добавьте тесты для проверки исправления или компонента ошибки. Инструкции по написанию и выполнению тестов находятся на сайте [UnitTests](../contributing/unit-tests.md).

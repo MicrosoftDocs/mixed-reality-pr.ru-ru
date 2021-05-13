@@ -6,12 +6,12 @@ ms.author: kesemple
 ms.date: 03/03/2021
 ms.localizationpriority: high
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: cb8b95cf9e563e8a277fa0d4b253639a763f5ad5
-ms.sourcegitcommit: e89431d12b5fe480c9bc40e176023798fc35001b
+ms.openlocfilehash: cef4bcf671caaaf8d5cb7cdc639446c6c6e91fa0
+ms.sourcegitcommit: 8e1a1d48d9c7cd94dab4ce6246aa2c0f49ff5308
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "109489304"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109850440"
 ---
 # <a name="what-is-the-mixed-reality-toolkit"></a>Что такое Mixed Reality Toolkit
 
@@ -47,10 +47,10 @@ MRTK-Unity — это проект, управляемый Майкрософт
 Ознакомившись с MRTK и Смешанной реальностью, установите необходимые средства и следуйте инструкциям из серии руководств по HoloLens 2 для начинающих.
 
 > [!div class="nextstepaction"]
-> [Установка средств](https://docs.microsoft.com/windows/mixed-reality/develop/install-the-tools?tabs=unity)
+> [Установка средств](/windows/mixed-reality/develop/install-the-tools?tabs=unity)
 
 > [!div class="nextstepaction"]
-> [Серия учебников по HoloLens 2](https://docs.microsoft.com/windows/mixed-reality/develop/unity/tutorials/mr-learning-base-02)
+> [Серия учебников по HoloLens 2](/windows/mixed-reality/develop/unity/tutorials/mr-learning-base-02)
 
 Хотите узнать, как это работает?
 > [!div class="nextstepaction"]
@@ -90,8 +90,8 @@ MRTK-Unity — это проект, управляемый Майкрософт
 
 :::row:::
     :::column:::
-       [![Отслеживание рук (Ultraleap)](features/images/MRTK_Icon_HandTracking.png)](features/cross-platform/leap-motion-mrtk.md)<br>
-        **[Отслеживание рук <br/> (Ultraleap)](features/cross-platform/leap-motion-mrtk.md)**<br>
+       [![Отслеживание рук (Ultraleap)](features/images/MRTK_Icon_HandTracking.png)](supported-devices/leap-motion-mrtk.md)<br>
+        **[Отслеживание рук <br/> (Ultraleap)](supported-devices/leap-motion-mrtk.md)**<br>
     :::column-end:::
     :::column:::
         [![Элементы управления пользовательским интерфейсом](features/images/MRTK_Icon_UIControls.png)](#ux-building-blocks)<br>

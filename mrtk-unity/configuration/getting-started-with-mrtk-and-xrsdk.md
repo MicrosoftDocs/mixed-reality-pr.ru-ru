@@ -5,12 +5,12 @@ author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, Mixed Reality, разработка, МРТК, КСРСДК,
-ms.openlocfilehash: d5ab9bf51828c84759b72e87e1c41f885c7d6738
-ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
+ms.openlocfilehash: fe50de31ae24b415738db64073822b2aff061636
+ms.sourcegitcommit: 8e1a1d48d9c7cd94dab4ce6246aa2c0f49ff5308
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107300425"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109850430"
 ---
 # <a name="getting-started-with-mrtk-and-xr-sdk"></a>Приступая к работе с МРТК и XR SDK
 
@@ -47,7 +47,7 @@ ms.locfileid: "107300425"
 
 ### <a name="oculus"></a>окулус
 
-1. Выполните [инструкции по настройке Окулус Quest в мртк с помощью руководства по конвейеру XR SDK](../features/cross-platform/oculus-quest-mrtk.md) . В руководстве описаны действия, необходимые для настройки Unity и МРТК для использования конвейера XR SDK для Окулус Quest.
+1. Выполните [инструкции по настройке Окулус Quest в мртк с помощью руководства по конвейеру XR SDK](../supported-devices/oculus-quest-mrtk.md) . В руководстве описаны действия, необходимые для настройки Unity и МРТК для использования конвейера XR SDK для Окулус Quest.
 
 ### <a name="openxr-preview"></a>Опенкср (Предварительная версия)
 
@@ -151,7 +151,7 @@ __Windows Mixed Reality__:
 
 Если вы используете настраиваемые профили сопоставления контроллеров, откройте один из них и запустите команду меню "служебные программы" набора средств для управления смешанной реальности — > Utilities-> обновление->, чтобы убедиться, что определены новые типы контроллеров SDK для XR.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 * [Начало работы с AR Development в Unity](https://docs.unity3d.com/Manual/AROverview.html)
 * [Начало работы с разработкой VR в Unity](https://docs.unity3d.com/Manual/VROverview.html)
