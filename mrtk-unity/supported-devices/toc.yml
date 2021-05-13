@@ -1,0 +1,10 @@
+- name: Развертывание на HoloLens и в WMR
+  href: wmr-mrtk.md
+- name: Развертывание в Oculus Quest
+  href: oculus-quest-mrtk.md
+- name: Использование Leap Motion
+  href: leap-motion-mrtk.md
+- name: Использование AR Foundation
+  href: using-ar-foundation.md
+- name: Обнаружение возможностей платформы
+  href: detecting-platform-capabilities.md
