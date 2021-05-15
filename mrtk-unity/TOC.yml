@@ -4,13 +4,15 @@
   href: running-examples-hub.md
 - name: Конфигурация
   href: configuration/toc.yml
-- name: Архитектура
+- name: Обзор поддерживаемых устройств
+  href: supported-devices/toc.yml
+- name: Architecture
   href: architecture/toc.yml
 - name: Обзор возможностей
   href: features/toc.yml
 - name: Рекомендации по повышению производительности
   href: performance/toc.yml
-- name: Обновления и развертывание
+- name: Обновление и переход на новую версию
   href: updates-deployment/toc.yml
 - name: Пакеты
   href: packages/toc.yml
