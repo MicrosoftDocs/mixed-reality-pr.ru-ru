@@ -6,12 +6,12 @@ ms.author: daescu
 ms.date: 11/24/2020
 ms.topic: article
 keywords: МРТК, набор средств для смешанной реальности, голограммы, проектирование голограмм, обучение, пример приложения, гарнитура смешанной реальности, гарнитура виртуальной реальности, что такое виртуальная реальность
-ms.openlocfilehash: 2480b5e0b4dca502c746dad6f070226ffa8cd1f9
-ms.sourcegitcommit: 8d3b84d2aa01f078ecf92cec001a252e3ea7b24d
+ms.openlocfilehash: 6e37c3f1ba98f202addb9c323632bca8bffae3b6
+ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "97757762"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110143637"
 ---
 # <a name="the-making-of-designing-holograms"></a>Создание голограмм
 
@@ -124,6 +124,18 @@ ms.locfileid: "97757762"
 ![Анимированный GIF-файл в интерактивной системе «holographic»](images/designing-holograms/creative-process.gif)
 
 ## <a name="core-concepts"></a>Основные понятия
+
+**Отслеживание головного и отслеживания взгляда**
+
+> [!VIDEO https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Microsofts-Designing-Holograms-Head-Tracking-and-Eye-Tracking-Chapter/player]
+
+**Отслеживание вручную**
+
+> [!VIDEO https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Microsofts-Designing-Holograms-Hand-Tracking-Chapter/player]
+
+**Поддержка пространственных сведений**
+
+> [!VIDEO https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Microsofts-Designing-Holograms-Spatial-Awareness-Chapter/player]
 
 **Голографический кадр**
 

@@ -6,12 +6,12 @@ ms.author: alexpf
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Windows Mixed Reality, шаблоны приложений, проектирование, HoloLens, Просмотр комнаты, пространственное сопоставление, сетка, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens
-ms.openlocfilehash: 0bef09d7f023127f1f5eedf28065758b4a438f3e
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: 8c7f1ae95cfdb520e84835f7fd5d78522e62e341
+ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98583604"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110143617"
 ---
 # <a name="room-scan-visualization"></a>Визуализация при сканировании комнаты
 
@@ -22,7 +22,9 @@ ms.locfileid: "98583604"
 * Попросите пользователя использовать жест раскрытия для перехода на домашнюю страницу Windows Mixed Reality, а затем изучите область, которую хотите использовать для работы. Они могут использовать воздушное касание для подтверждения того, что все необходимые области известны устройству.
 * Создание пользовательского интерфейса для просмотра в собственном приложении.
 
-Во всех этих случаях фактические данные, собранные во время исследования, хранятся в системе, и приложению не нужно делать это.
+Во всех этих случаях фактические данные, собранные во время исследования, хранятся в системе, и приложению не нужно делать это. Если вы хотите просмотреть представление "Просмотр комнаты" в действии, ознакомьтесь с нашими [голограммами по проектированию —]() демонстрационный видеоролик о поддержке пространственных данных ниже:
+
+> [!VIDEO https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Microsofts-Designing-Holograms-Spatial-Awareness-Chapter/player]
 
 ## <a name="device-support"></a>Поддержка устройств
 
@@ -33,7 +35,7 @@ ms.locfileid: "98583604"
     <col width="33%" />
     </colgroup>
     <tr>
-        <td><strong>Возможность</strong></td>
+        <td><strong>Компонент</strong></td>
         <td><a href="/hololens/hololens1-hardware"><strong>HoloLens</strong></a></td>
         <td><a href="../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
     </tr>
@@ -43,8 +45,6 @@ ms.locfileid: "98583604"
         <td>❌</td>
     </tr>
 </table>
-
-
 
 ## <a name="building-a-custom-scanning-experience"></a>Создание пользовательского интерфейса сканирования
 

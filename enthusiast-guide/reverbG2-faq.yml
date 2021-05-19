@@ -8,12 +8,12 @@ metadata:
   keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Troubleshoot, Errors, Help, Support, Performance
   appliesto:
   - Windows 10
-  ms.openlocfilehash: 7715af5f2a94378a0c56ddcdcb83d1d21fc83700
-  ms.sourcegitcommit: 95fbb851336b6c5977a2ce4d4ac10f0eeb0df31f
+  ms.openlocfilehash: a15a29f36d4ad053f9f76016239c94365695d7c3
+  ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 04/24/2021
-  ms.locfileid: "107953794"
+  ms.lasthandoff: 05/19/2021
+  ms.locfileid: "110143265"
 title: Часто задаваемые вопросы о команде HP
 summary: ''
 sections:
@@ -66,8 +66,6 @@ sections:
 
 
       > [!NOTE]
-
-      > HP рекомендует использовать только контроллеры USB, встроенные в материнскую плату, с переглаголом G2.
 
       > Если вы не можете подключиться к устройству, обратитесь в [службу поддержки HP](https://support.hp.com/us-en) .
   - question: >

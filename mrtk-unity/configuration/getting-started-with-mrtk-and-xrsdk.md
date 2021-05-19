@@ -1,16 +1,16 @@
 ---
-title: жеттингстартедвисмрткандксрсдк
+title: начало работы с МРТК и КСРСДК
 description: Целевая страница для МРТК с КСРСДК
 author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, Mixed Reality, разработка, МРТК, КСРСДК,
-ms.openlocfilehash: fe50de31ae24b415738db64073822b2aff061636
-ms.sourcegitcommit: 8e1a1d48d9c7cd94dab4ce6246aa2c0f49ff5308
+ms.openlocfilehash: ef6d8c9205a9d801e8cb0ec2690d77b74c72b5fb
+ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "109850430"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110143526"
 ---
 # <a name="getting-started-with-mrtk-and-xr-sdk"></a>Приступая к работе с МРТК и XR SDK
 
@@ -151,7 +151,7 @@ __Windows Mixed Reality__:
 
 Если вы используете настраиваемые профили сопоставления контроллеров, откройте один из них и запустите команду меню "служебные программы" набора средств для управления смешанной реальности — > Utilities-> обновление->, чтобы убедиться, что определены новые типы контроллеров SDK для XR.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Начало работы с AR Development в Unity](https://docs.unity3d.com/Manual/AROverview.html)
 * [Начало работы с разработкой VR в Unity](https://docs.unity3d.com/Manual/VROverview.html)

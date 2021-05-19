@@ -1,16 +1,16 @@
 ---
-title: Голограмма-стабилизации
+title: Стабилизация голограмм
 description: Производительность голограмм в разных условиях и частоте кадров.
 author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, Mixed Reality, разработка, МРТК, отслеживание среды, TMP,
-ms.openlocfilehash: 4ea3f62153676154188584221c83ac97b5589e05
-ms.sourcegitcommit: 3e36b2fbbcc250c49aaf8ca1b6133cf0e9db69fa
+ms.openlocfilehash: e2c83e7e4ca909e31803d55aabbc0c2344e89139
+ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "107528725"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110143898"
 ---
 # <a name="hologram-stabilization"></a>Голограмма стабилизации
 

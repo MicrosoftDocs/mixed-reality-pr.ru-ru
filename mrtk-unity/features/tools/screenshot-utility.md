@@ -1,16 +1,16 @@
 ---
-title: ScreenshotUtility
+title: Служебная программа для создания снимков экрана
 description: Документация по использованию средства для создания снимков экрана в MRTK.
 author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 4fbd5457dd0af502ddedf30a10482690cd8e1a1d
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
-ms.translationtype: HT
+ms.openlocfilehash: 59bf0df2a32030281c8bf0a1a8574b4dd9bf4607
+ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "104693071"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110143794"
 ---
 # <a name="screenshot-utility"></a>Служебная программа для создания снимков экрана
 

@@ -1,16 +1,16 @@
 ---
-title: ховтоадднеаринтерактивити
+title: Как добавить ближнее взаимодействие
 description: Документация по ближайшему взаимодействию в МРТК
 author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, близкое взаимодействие,
-ms.openlocfilehash: fc6fbb33e5a8e9aa6930f56f292f8ded51c53ff0
-ms.sourcegitcommit: 0c717ed0043c7a65e2caf1452eb0f49059cdf154
+ms.openlocfilehash: fc0d6d4013392db74e5c8637574c258bee857865
+ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "108644850"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110144187"
 ---
 # <a name="how-to-add-near-interaction-in-mrtk"></a>Как добавить близкое взаимодействие в МРТК
 
@@ -202,7 +202,7 @@ public static void MakeNearDraggable(GameObject target)
 * [`IMixedRealityTouchHandler`](xref:Microsoft.MixedReality.Toolkit.Input.IMixedRealityTouchHandler)
 * [`IMixedRealityPointerHandler`](xref:Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointerHandler)
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Общие сведения о входных данных](overview.md)
 * [Указатели](pointers.md)

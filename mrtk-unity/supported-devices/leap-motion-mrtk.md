@@ -1,16 +1,16 @@
 ---
-title: леапмотионмртк
+title: Leap Motion — MRTK
 description: Документация по настройке LEAP
 author: CDiaz-ms
 ms.author: cadia
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, LEAP Motion,
-ms.openlocfilehash: ea9e257815116c364fe2f1e37ca3477ec56262cb
-ms.sourcegitcommit: 8e1a1d48d9c7cd94dab4ce6246aa2c0f49ff5308
+ms.openlocfilehash: 285328b1248f04504f30192f1294e9ae665b3fc9
+ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "109852488"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110145197"
 ---
 # <a name="how-to-configure-leap-motion-by-ultraleap-hand-tracking-in-mrtk"></a>Как настроить отслеживание движения с помощью LEAP (by Ултралеап) в МРТК
 
@@ -197,7 +197,7 @@ Copying assembly from 'Temp/com.unity.multiplayer-hlapi.Runtime.dll' to 'Library
 
 Пример сцены содержится в пакете **Microsoft. микседреалити. Toolkit. examples** в **мртк/examples/демонстрации/хандтраккинг/** Directory.  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 -Поставщики входных [данных](../features/input/input-providers.md) 
 - [Отслеживание вручную](../features/input/hand-tracking.md)

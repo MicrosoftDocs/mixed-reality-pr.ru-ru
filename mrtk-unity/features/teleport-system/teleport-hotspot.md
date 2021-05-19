@@ -1,17 +1,17 @@
 ---
-title: телепорсотспот
+title: Хотская точка телепортируйтесь
 description: Документация по компоненту HotSpot для телепортируйтесь в МРТК
 author: RogPodge
 ms.author: roliu
 ms.date: 03/25/2021
 ms.localizationpriority: medium
 keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, система телепортируйтесь, хотная точка телепортируйтесь
-ms.openlocfilehash: 986105dd771c38b1e26fd9f86df90224110591a4
-ms.sourcegitcommit: 4be6f36df9063ccfdce2662e299accc7406b6779
+ms.openlocfilehash: 0cbdad3c038d457109077b742d3f453d63436ae4
+ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105582978"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110144437"
 ---
 # <a name="teleport-hotspot-experimental"></a>Хот — гиперобъект [экспериментальная версия]
 

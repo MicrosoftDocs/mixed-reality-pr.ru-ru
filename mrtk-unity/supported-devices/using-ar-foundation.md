@@ -1,16 +1,16 @@
 ---
-title: усингарфаундатион
+title: Использование AR Foundation
 description: Документация по использованию Арфаундатион в Unity
 author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, AR Core, AR Kit
-ms.openlocfilehash: d96c5cab2439b581c0de9d59a1a349abccf34fb5
-ms.sourcegitcommit: 8e1a1d48d9c7cd94dab4ce6246aa2c0f49ff5308
+ms.openlocfilehash: 1c39950e8b64968e182ddc551ef344dee42060e9
+ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "109852432"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110143942"
 ---
 # <a name="how-to-configure-mrtk-for-ios-and-android-experimental"></a>Настройка МРТК для iOS и Android [экспериментальная версия]
 
@@ -22,7 +22,7 @@ ms.locfileid: "109852432"
 
     **Unity 2018.4.x**
 
-    | **Android** | **iOS** | Комментарии |
+    | **Android** | **iOS** | Примечания |
     | --- | --- | --- |
     | AR Foundation  <br/> Версия: 1.5.0-Preview 6 | AR Foundation  <br/> Версия: 1.5.0-Preview 6 | Для Unity 2018,4 этот пакет включен в качестве предварительной версии. Чтобы просмотреть пакет, выполните следующие действия. `Window` > `Package Manager` > `Advanced` > `Show Preview Packages` |
     | Подключаемый модуль Аркоре XR <br/> Версия: 2.1.2 | Подключаемый модуль ARKit XR <br/> Версия: 2.1.2 | |
@@ -101,6 +101,6 @@ ms.locfileid: "109852432"
 
 1. Сборка и запуск сцены
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Параметры камеры Unity AR](../features/camera-system/unity-ar-camera-settings.md)
