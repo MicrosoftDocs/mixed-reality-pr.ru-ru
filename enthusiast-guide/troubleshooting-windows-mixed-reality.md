@@ -2,21 +2,46 @@
 title: Устранение неполадок Windows Mixed Reality
 description: Получайте актуальные сведения об устранении неполадок Windows Mixed Reality, которые выходят за рамки стандартной документации по поддержке пользователей.
 ms.topic: article
+ms.author: rajhawar
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, устранение неполадок, ошибки, Справка, поддержка
-ms.openlocfilehash: 2fbdb434eb3ccc0a327af990b4f4854faafbdf85
-ms.sourcegitcommit: 95fbb851336b6c5977a2ce4d4ac10f0eeb0df31f
+ms.openlocfilehash: b347145e73c3e3f96d9a387edbfdb6dc0360b094
+ms.sourcegitcommit: 8f141a843bcfc57e1b18cc606292186b8ac72641
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "107944645"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110196649"
 ---
-# <a name="troubleshooting-windows-mixed-reality-faqs"></a>Устранение неполадок Windows Mixed Reality (FAQ)
+# <a name="troubleshooting-in-windows-mixed-reality"></a>Устранение неполадок в Windows Mixed Reality
 
 ![Устранение проблемы логотипа заголовка](images/1050px-Mixedrealityportal.png)
 
-## <a name="whats-new"></a>Новые возможности!
+При возникновении проблем с используемым оборудованием важно диагностировать общую область проблем, а затем обратиться к следующим статьям для получения более подробной справки.
 
-Учитывая недавно выпущенную новую гарнитуру и контроллеры, мы скомпилированы [выделенную страницу с часто ЗАдаваемыми вопросами](reverbG2-faq.yml) для всех элементов G2. В этой статье рассматриваются все проблемы с подключением и четкость изображений, связанные с контроллерами движения и выполнением смешанной реальности.
+Здесь вы найдете варианты поддержки для следующих параметров, гарантируя, что вы будете направлены на нужные сведения с минимальными усилиями. Мы также расскажем о ресурсах сообщества и вариантах самостоятельного содержимого для изучения:
+
+>[!Note]
+>Учитывая недавно выпущенную новую гарнитуру и контроллеры, мы скомпилированы [выделенную страницу с часто ЗАдаваемыми вопросами](reverbG2-faq.yml) для всех элементов G2. В этой статье рассматриваются все проблемы с подключением и четкость изображений, связанные с контроллерами движения и выполнением смешанной реальности.
+
+- [Получите параметры справки сообщества](#community-help-options)
+- [Получение параметров самостоятельной справки](#troubleshooting-topics)
+
+## <a name="community-help-options"></a>Параметры справки сообщества
+
+Для получения ответов на вопросы разработчиков из экосистемы разработчиков сообщества задавайте свой вопрос на Stack Overflow или Reddit.
+
+### <a name="post-a-question-on-reddit"></a>Публикация вопроса в Reddit
+<div class='icon is-large'>
+    <img alt='Reddit' src='https://docs.microsoft.com/media/logos/logo_reddit.svg'>
+</div><br/>
+
+- [Windows Mixed Reality на Reddit](https://www.reddit.com/r/WindowsMR/)
+
+### <a name="post-a-question-on-stack-overflow"></a>Публикация вопроса на Stack Overflow
+<div class='icon is-large'>
+    <img alt='Stack Overflow' src='https://docs.microsoft.com/media/logos/logo_stackoverflow.svg'>
+</div><br/>
+
+- [Windows Mixed Reality на Stack Overflow](https://stackoverflow.com/questions/tagged/windows-mixed-reality)
 
 ## <a name="troubleshooting-topics"></a>Разделы по устранению неполадок
 
@@ -27,7 +52,7 @@ ms.locfileid: "107944645"
 Для проблем с установкой, запуская Windows Mixed Reality, ошибок установки, минимальных требований к компьютеру или административных разрешений, ознакомьтесь с этими двумя часто задаваемыми вопросами.
 
 - [Ошибки установки](installation_errors.md)
-- [Установка](wmr-setup-faq.yml)
+- [Настройка проблем связанные](wmr-setup-faq.yml)
 
 ### <a name="hardware-issues"></a>Проблемы с оборудованием
 
@@ -41,22 +66,20 @@ ms.locfileid: "107944645"
 
 Если у вас возникли проблемы с созданием границ, звуковым сигналом или отсутствием слуха, аудио по Bluetooth или с помощью наушников, ознакомьтесь со следующими вопросами и ответами:
 
-- [границы,](boundary-questions.md)
-- [Речь и аудио](speech-and-audio.md)
+- [Справка по границам](boundary-questions.md)
+- [Супппрт для большинства распространенных проблем с речью и аудио](speech-and-audio.md)
 - [Система отслеживания](tracking.md)
 
 ### <a name="vr-experience-issues"></a>Проблемы с возможностями VR
 
 Если у вас возникли проблемы с Стеамвр играми, установкой режима разработчика Windows или просмотром содержимого Вебвр в браузере, ниже приведены следующие статьи:
 
-- [SteamVR](steamvr-questions.md)
-- [WebVR](webvr-questions.md)
+- [Поддержка с Стеамвр](steamvr-questions.md)
+- [Поддержка с Вебвр](webvr-questions.md)
 
-### <a name="performance-issues"></a>Проблемы с производительностью 
+### <a name="performance-issues-and-immersice-hardware-related-issues"></a>Проблемы с производительностью и проблемы, связанные с оборудованием иммерсице
 
 Если компьютер работает медленно, чрезмерно повышено, или просто возникают непрерывистые визуальные элементы, мы рассмотрели следующее:
 
-- [Производительность](performance-questions.md)
-
-## <a name="see-also"></a>См. также
-- [Другие вопросы](other-questions.md)
+- [Общие проблемы, связанные с производительностью](performance-questions.md)
+- [Впечатляющие проблемы с оборудованием](other-questions.md)

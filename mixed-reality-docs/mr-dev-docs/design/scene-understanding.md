@@ -6,12 +6,12 @@ ms.author: szymons
 ms.date: 07/08/2019
 ms.topic: article
 keywords: Основные сведения о сцене, пространственное сопоставление, Windows Mixed Reality, Unity, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, перекрытия, пакет SDK
-ms.openlocfilehash: 06a4fdb6f3ad777c47151950acbd4ccdec9935ca
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: dd54be85ed71c3359408c02914470e97ab42b90e
+ms.sourcegitcommit: 8f141a843bcfc57e1b18cc606292186b8ac72641
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/19/2021
-ms.locfileid: "110143590"
+ms.locfileid: "110196399"
 ---
 # <a name="scene-understanding"></a>Интерпретация сцены
 
@@ -23,9 +23,11 @@ ms.locfileid: "110143590"
 
 ![Сетка пространственных сопоставлений, помеченные плоские поверхности, ватертигхтная сеть](images/SUScenarios.png)
 
-Этот документ предназначен для предоставления общих сведений о сценариях и для уточнения отношений, с которыми понимается сцена и общая папка пространственного сопоставления. Если вы хотите увидеть сцену в действии, ознакомьтесь с нашими [голограммами по проектированию —]() демонстрационные видеоролики с пространственными сведениями:
+Этот документ предназначен для предоставления общих сведений о сценариях и для уточнения отношений, с которыми понимается сцена и общая папка пространственного сопоставления. Если вы хотите увидеть сцену в действии, ознакомьтесь с нашими **голограммами по проектированию —** демонстрационные видеоролики с пространственными сведениями:
 
 > [!VIDEO https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Microsofts-Designing-Holograms-Spatial-Awareness-Chapter/player]
+
+*Это видео было взято из приложения HoloLens "Проектирование голограмм". Загрузите [и воспользуйтесь всеми возможностями.](https://aka.ms/dhapp)*
 
 ## <a name="developing-with-scene-understanding"></a>Общие сведения о разработке с использованием сцены
 
@@ -57,7 +59,7 @@ ms.locfileid: "110143590"
     <col width="25%" />
     </colgroup>
     <tr>
-        <td><strong>Компонент</strong></td>
+        <td><strong>Возможность</strong></td>
         <td><a href="/hololens/hololens1-hardware"><strong>HoloLens (1-го поколения)</strong></a></td>
         <td><a href="https://docs.microsoft.com/hololens/hololens2-hardware"><strong>HoloLens 2</strong></td>
         <td><a href="../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>

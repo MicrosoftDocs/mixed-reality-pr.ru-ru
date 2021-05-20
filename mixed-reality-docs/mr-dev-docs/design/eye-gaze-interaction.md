@@ -6,12 +6,12 @@ ms.author: sostel
 ms.date: 10/29/2019
 ms.topic: article
 keywords: Отслеживание взгляда, Смешанная реальность, ввод, глаз-взгляд, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств для смешанной реальности, проектирование, взаимодействия
-ms.openlocfilehash: db3cb774d72de13c2f1e51d446969ee7a4cdf2b7
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: 207f8d0f179f722a2e4dd6d6e2bdd9cbf75b2250
+ms.sourcegitcommit: 8f141a843bcfc57e1b18cc606292186b8ac72641
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98582381"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110196579"
 ---
 # <a name="eye-gaze-based-interaction-on-hololens-2"></a>Взгляд на основе взгляда на HoloLens 2
 
@@ -47,6 +47,13 @@ ms.locfileid: "98582381"
 </tr>
 </table>
 
+## <a name="head-and-eye-tracking-design-concepts-demo"></a>Демонстрация основных принципов проектирования и отслеживания взглядов
+
+Если вы хотите увидеть основные понятия проектирования и отслеживания взгляда в действии, ознакомьтесь с нашими материалами по **проектированию — отслеживание и отслеживание взгляда на голове** ниже. По завершении продолжите работу, чтобы подробно изучить конкретные темы.
+
+> [!VIDEO https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Microsofts-Designing-Holograms-Head-Tracking-and-Eye-Tracking-Chapter/player]
+
+*Это видео было взято из приложения HoloLens "Проектирование голограмм". Загрузите [и воспользуйтесь всеми возможностями.](https://aka.ms/dhapp)*
 
 ## <a name="eye-gaze-input-design-guidelines"></a>Рекомендации по проектированию ввода взгляда
 
