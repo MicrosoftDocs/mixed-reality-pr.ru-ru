@@ -4,6 +4,8 @@
   href: oculus-quest-mrtk.md
 - name: Использование Leap Motion
   href: leap-motion-mrtk.md
+- name: Обнаружение контроллеров в MRTK
+  href: controllers-mrtk.md
 - name: Использование AR Foundation
   href: using-ar-foundation.md
 - name: Обнаружение возможностей платформы

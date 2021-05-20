@@ -1,99 +1,93 @@
 ### YamlMime:Hub
 title: 'Windows Mixed Reality: документация по виртуальной реальности'
-summary: Оцените возможности виртуальной реальности в играх, путешествиях и потоковой передаче. Узнайте, как начать работу с виртуальной реальностью в Windows Mixed Reality.
+summary: 'Оцените возможности виртуальной реальности в играх, путешествиях и потоковой передаче. Узнайте, как начать работу с виртуальной реальностью в Windows Mixed Reality.'
 brand: windows
 metadata:
   title: 'Windows Mixed Reality: документация по виртуальной реальности'
-  description: Оцените возможности виртуальной реальности в играх, путешествиях и потоковой передаче. Узнайте, как начать работу с виртуальной реальностью в Windows Mixed Reality
+  description: 'Оцените возможности виртуальной реальности в играх, путешествиях и потоковой передаче. Узнайте, как начать работу с виртуальной реальностью в Windows Mixed Reality'
   ms.topic: hub-page
   ms.prod: mixed-reality
   ms.technology: enthusiast-guide
   author: mattwojo
   ms.author: mattwoj
-  ms.openlocfilehash: ebe77df574235b7ddee2a4b65392836a39642d6c
-  ms.sourcegitcommit: 753f0ee94cf86be645cad8efd60f1b43ac529c96
-  ms.translationtype: HT
-  ms.contentlocale: ru-RU
-  ms.lasthandoff: 01/25/2021
-  ms.locfileid: "98758364"
 highlightedContent:
   items:
-  - title: О виртуальной реальности Windows Mixed Reality
-    itemType: overview
-    url: vr-journey.md
-  - title: Как приобрести гарнитуру
-    itemType: learn
-    url: https://www.microsoft.com/en-us/mixed-reality/windows-mixed-reality?rtc=1
-  - title: Требования к оборудованию
-    itemType: learn
-    url: windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md
-  - title: Начало работы с виртуальной реальностью
-    itemType: get-started
-    url: set-up-windows-mixed-reality.md
-  - title: Руководство по обеспечению работоспособности и безопасности
-    itemType: concept
-    url: wmr-health-safety-comfort.md
-  - title: Обзор программного обеспечения смешанной реальности и история выпусков
-    itemType: concept
-    url: mixed-reality-software.md
+    - title: О виртуальной реальности Windows Mixed Reality
+      itemType: overview
+      url: vr-journey.md
+    - title: Как приобрести гарнитуру
+      itemType: learn
+      url: 'https://www.microsoft.com/en-us/mixed-reality/windows-mixed-reality?rtc=1'
+    - title: Требования к оборудованию
+      itemType: learn
+      url: windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md
+    - title: Начало работы с виртуальной реальностью
+      itemType: get-started
+      url: set-up-windows-mixed-reality.md
+    - title: Руководство по обеспечению работоспособности и безопасности
+      itemType: concept
+      url: wmr-health-safety-comfort.md
+    - title: Знакомство с AltspaceVR
+      itemType: whats-new
+      url: 'https://docs.microsoft.com/windows/mixed-reality/altspace-vr/journey?tabs=application'
 conceptualContent:
   title: Начало работы с Windows Mixed Reality
   summary: 'Дополнительные сведения о смешанной реальности: программное обеспечение, оборудование и устранение неполадок.'
   items:
-  - title: Руководства
-    links:
-    - url: plug-in-your-headset.md
-      itemType: quickstart
-      text: Подключение гарнитуры
-    - url: install-windows-mixed-reality.md
-      itemType: quickstart
-      text: Установка программного обеспечения Windows Mixed Reality
-    - url: learn-mixed-reality.md
-      itemType: quickstart
-      text: Запуск обучающего процесса
-    - url: using-games-and-apps-in-windows-mixed-reality.md
-      itemType: quickstart
-      text: Использование игр и приложений
-  - title: Ссылки
-    links:
-    - url: your-mixed-reality-home.md
-      itemType: concept
-      text: Ваш дом в смешанной реальности
-    - url: controllers-in-wmr.md
-      itemType: concept
-      text: Контроллеры движений в Windows Mixed Reality
-    - url: using-steamvr-with-windows-mixed-reality.md
-      itemType: concept
-      text: Использование SteamVR с Windows Mixed Reality
-    - url: using-speech-in-wmr.md
-      itemType: concept
-      text: Использование Речи с Windows Mixed Reality
-  - title: Устранение неполадок
-    links:
-    - url: troubleshooting-windows-mixed-reality.md
-      itemType: concept
-      text: Общие вопросы и ответы
-    - url: filing-feedback.md
-      itemType: concept
-      text: Отправка сведений об ошибках и отзывов
-    - url: error-codes.md
-      itemType: concept
-      text: Коды ошибок
-    - url: installation_errors.md
-      itemType: concept
-      text: Ошибки установки
+    - title: Руководства
+      links:
+        - url: plug-in-your-headset.md
+          itemType: quickstart
+          text: Подключение гарнитуры
+        - url: install-windows-mixed-reality.md
+          itemType: quickstart
+          text: Установка программного обеспечения Windows Mixed Reality
+        - url: learn-mixed-reality.md
+          itemType: quickstart
+          text: Запуск обучающего процесса
+        - url: using-games-and-apps-in-windows-mixed-reality.md
+          itemType: quickstart
+          text: Использование игр и приложений
+    - title: Ссылки
+      links:
+        - url: your-mixed-reality-home.md
+          itemType: concept
+          text: Ваш дом в смешанной реальности
+        - url: controllers-in-wmr.md
+          itemType: concept
+          text: Контроллеры движений в Windows Mixed Reality
+        - url: using-steamvr-with-windows-mixed-reality.md
+          itemType: concept
+          text: Использование SteamVR с Windows Mixed Reality
+        - url: using-speech-in-wmr.md
+          itemType: concept
+          text: Использование Речи с Windows Mixed Reality
+    - title: Устранение неполадок
+      links:
+        - url: troubleshooting-windows-mixed-reality.md
+          itemType: concept
+          text: Возможности получения поддержки и справки
+        - url: filing-feedback.md
+          itemType: concept
+          text: Отправка сведений об ошибках и отзывов
+        - url: error-codes.md
+          itemType: concept
+          text: Коды ошибок
+        - url: installation_errors.md
+          itemType: concept
+          text: Ошибки установки
 additionalContent:
   sections:
-  - title: Дополнительные ресурсы
-    summary: Найдите связанные ссылки на дополнительные ресурсы, документацию и форумы по разработке.
-    items:
-    - title: Отслеживание inside-out
-      summary: Как работает отслеживание inside-out
-      url: tracking-system.md
-    - title: Обзор программного обеспечения смешанной реальности
-      summary: Обзор программного обеспечения смешанной реальности и история выпусков
-      url: mixed-reality-software.md
-    - title: Разработка в Windows Mixed Reality
-      summary: Документация по разработке и проектированию
-      url: /windows/mixed-reality/develop/development?tabs=unity
-  footer: Обнаружили ошибку на нашем сайте? [Поделитесь своим мнением!](https://forums.hololens.com/categories/using-windows-mixed-reality)
+    - title: Дополнительные ресурсы
+      summary: 'Найдите связанные ссылки на дополнительные ресурсы, документацию и форумы по разработке.'
+      items:
+        - title: Отслеживание inside-out
+          summary: Как работает отслеживание inside-out
+          url: tracking-system.md
+        - title: Обзор программного обеспечения смешанной реальности
+          summary: Обзор программного обеспечения смешанной реальности и история выпусков
+          url: mixed-reality-software.md
+        - title: Разработка в Windows Mixed Reality
+          summary: Документация по разработке и проектированию
+          url: /windows/mixed-reality/develop/development?tabs=unity
+  footer: 'Found a problem on our site? [Let us know!](https://forums.hololens.com/categories/using-windows-mixed-reality)'

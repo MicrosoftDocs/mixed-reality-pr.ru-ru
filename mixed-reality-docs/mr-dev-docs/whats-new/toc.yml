@@ -18,6 +18,8 @@
   href: new-microsoft-edge.md
 - name: Программы и мероприятия
   items:
+    - name: "Build\_2021: cмешанная реальность"
+      href: mr-build.md
     - name: Серия докладов по смешанной реальности
       href: sf-academy-events.md
     - name: Mixed Reality Dev Days
