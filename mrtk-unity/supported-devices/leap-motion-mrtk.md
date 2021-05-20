@@ -5,12 +5,12 @@ author: CDiaz-ms
 ms.author: cadia
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, LEAP Motion,
-ms.openlocfilehash: 285328b1248f04504f30192f1294e9ae665b3fc9
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: 44593713f08a00fa53325eebfae2cf9042d386be
+ms.sourcegitcommit: 62beb626b2db6ce7df86014bd22bf1946b8906b9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110145197"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "110207476"
 ---
 # <a name="how-to-configure-leap-motion-by-ultraleap-hand-tracking-in-mrtk"></a>Как настроить отслеживание движения с помощью LEAP (by Ултралеап) в МРТК
 
@@ -22,15 +22,16 @@ ms.locfileid: "110145197"
 
 Этот поставщик можно использовать в редакторе и на устройстве на автономной платформе.  Его также можно использовать в редакторе на платформе UWP, но не в сборке UWP.
 
-|Поддерживаемые версии модулей Unity для LEAP|
-|---|
-|4.5.0|
-|4.5.1|
+| Версия МРТК | Поддерживаемые версии модулей Unity для LEAP |
+| --- | --- |
+|2.6. x | 4.5.0, 4.5.1|
+|2.7. x| 4.5.0, 4.5.1, 4.6.0, 4.7.0, 4.7.1|
+
 
 ## <a name="using-leap-motion-by-ultraleap-hand-tracking-in-mrtk"></a>Отслеживание движения с помощью LEAP (by Ултралеап) в МРТК
 
 1. Импорт модулей Unity МРТК и LEAP Motion
-    - Установите [пакет SDK для LEAP Motion 4.0.0](https://developer.leapmotion.com/releases/?category=orion) , если он еще не установлен.
+    - Установите последнюю версию [пакета SDK для LEAP](https://developer.leapmotion.com/releases/?category=orion) , если она еще не установлена
     - Импортируйте пакет **Microsoft. микседреалити. Toolkit. Foundation** в проект Unity.
     - Скачайте и импортируйте в проект последнюю версию [модулей Unity Motion](https://developer.leapmotion.com/unity) .
         - Импортировать **основной** пакет только в пределах модулей Unity
@@ -197,7 +198,7 @@ Copying assembly from 'Temp/com.unity.multiplayer-hlapi.Runtime.dll' to 'Library
 
 Пример сцены содержится в пакете **Microsoft. микседреалити. Toolkit. examples** в **мртк/examples/демонстрации/хандтраккинг/** Directory.  
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
--Поставщики входных [данных](../features/input/input-providers.md) 
+- [Поставщики входных данных](../features/input/input-providers.md)
 - [Отслеживание вручную](../features/input/hand-tracking.md)

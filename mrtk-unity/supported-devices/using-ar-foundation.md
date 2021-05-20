@@ -4,13 +4,13 @@ description: Документация по использованию Арфау
 author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
-keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, AR Core, AR Kit
-ms.openlocfilehash: 1c39950e8b64968e182ddc551ef344dee42060e9
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+keywords: Unity, HoloLens, HoloLens 2, Mixed Reality, разработка, МРТК, AR Core, AR Kit, iOS, IOS, Android, AR Foundation
+ms.openlocfilehash: 0f02eb94d95c2900348adaa9e1a02c3e54832a96
+ms.sourcegitcommit: 62beb626b2db6ce7df86014bd22bf1946b8906b9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110143942"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "110207460"
 ---
 # <a name="how-to-configure-mrtk-for-ios-and-android-experimental"></a>Настройка МРТК для iOS и Android [экспериментальная версия]
 
@@ -22,7 +22,7 @@ ms.locfileid: "110143942"
 
     **Unity 2018.4.x**
 
-    | **Android** | **iOS** | Примечания |
+    | **Android** | **iOS** | Комментарии |
     | --- | --- | --- |
     | AR Foundation  <br/> Версия: 1.5.0-Preview 6 | AR Foundation  <br/> Версия: 1.5.0-Preview 6 | Для Unity 2018,4 этот пакет включен в качестве предварительной версии. Чтобы просмотреть пакет, выполните следующие действия. `Window` > `Package Manager` > `Advanced` > `Show Preview Packages` |
     | Подключаемый модуль Аркоре XR <br/> Версия: 2.1.2 | Подключаемый модуль ARKit XR <br/> Версия: 2.1.2 | |
@@ -41,7 +41,10 @@ ms.locfileid: "110143942"
     | AR Foundation  <br/> Версия: 3.1.3 |  AR Foundation  <br/> Версия: 3.1.3 |
     | Подключаемый модуль Аркоре XR <br/> Версия: 3.1.4 | Подключаемый модуль ARKit XR <br/> Версия: 3.1.3 |
 
-1. Обновите скрипты МРТК Унитяр, вызвав пункт меню: **Mixed Reality Toolkit > служебные программы > унитяр > определения сценариев обновления**
+1. Обновление скриптов МРТК Унитяр определяется путем вызова пункта меню: " **Смешанная реальность > набор средств > служебные программы > унитяр > обновление сценариев** "
+
+    ![Обновление определений скриптов](../features/images/UpdateScriptingDefineUnityAR.png)
+
 
 ## <a name="enabling-the-unity-ar-camera-settings-provider"></a>Включение поставщика параметров для камеры Unity AR
 
@@ -84,23 +87,12 @@ ms.locfileid: "110143942"
 
 1. Переключение платформы на Android или iOS в параметрах сборки Unity
 
-    При переключении платформы вы увидите окно конфигуратора проектов МРТК с параметрами для выбранной платформы.  Нажмите кнопку Применить, чтобы включить параметры, зависящие от платформы.
+1. Убедитесь, что связанный поставщик управления подключаемым модулем XR включен.
 
-    Параметры конфигуратора проектов iOS
-
-    ![Конфигуратор проектов iOS](../features/images/camera-system/MRTKProjectConfigurator.png)
-
-1. После переключения платформы для Android дополнительные действия не выполняются.
-
-1. Если платформа является iOS, измените параметры > проекта > проигрыватель > другие параметры в заголовке оптимизации, **снимите флажок** код обработчика полосковых систем.
-
-    ![Параметры iOS](../features/images/camera-system/UncheckStripEngineCodeiOS.png)
-
-    > [!NOTE]
-    > Непроверяемый код механизма полоскового ядра — это краткосрочное решение ошибки в Xcode [#6646](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/6646).  Мы работаем над долгосрочным решением.
+    Управление подключаемыми модулями iOS XR:  ![ Управление подключаемыми модулями XR iOS](../features/images/XRManagementiOS.png)
 
 1. Сборка и запуск сцены
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 - [Параметры камеры Unity AR](../features/camera-system/unity-ar-camera-settings.md)
