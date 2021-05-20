@@ -1,3 +1,5 @@
+- name: Окно сборки
+  href: build-window.md
 - name: Служебная программа переключения ресурсов
   href: asset-swap-utility.md
 - name: Средство сопоставления контроллеров
