@@ -22,8 +22,8 @@
 ### [Что такое WebVR](webvr.md)
 ### [Вопросы и ответы по использованию Windows Mixed Reality](using-wmr-faq.yml)
 
-## Устранение неполадок и часто задаваемые вопросы
-### [Общий обзор часто задаваемых вопросов](troubleshooting-windows-mixed-reality.md)
+## Возможности получения поддержки и справки
+### [Устранение неполадок в Windows Mixed Reality](troubleshooting-windows-mixed-reality.md)
 ### [Отправка сведений об ошибках и отзывов](filing-feedback.md)
 ### [Коды ошибок](error-codes.md)
 ### [Ошибки установки](installation_errors.md)
@@ -37,7 +37,7 @@
 ### [SteamVR](steamvr-questions.md)
 ### [Система отслеживания](tracking.md)
 ### [WebVR](webvr-questions.md)
-### [Другие вопросы](other-questions.md)
+### [Вопросы и ответы по иммерсивному оборудованию](other-questions.md)
 ### [HP Reverb G2 — вопросы и ответы](reverbG2-faq.yml)
 
 ## Ресурсы
