@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 01/11/2021
 ms.topic: article
 keywords: опенкср, Unity, hololens, hololens 2, Mixed Reality, МРТК, набор средств для смешанной реальности, дополненная реальность, виртуальная реальность, гарнитуры смешанной реальности, обучение, учебник, начало работы
-ms.openlocfilehash: e6756df7f082e56b029b6e82e06d960ba39ed04a
-ms.sourcegitcommit: aca5fddb98fbbd9aa22bdf8174d7fdcdb9d4c08a
+ms.openlocfilehash: e622cd617ccf67c0877b9064efe791743e4c34b6
+ms.sourcegitcommit: b195b82f7e83e2ac4f5d8937d169e9dcb865d46d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107894004"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110333376"
 ---
 # <a name="mixed-reality-openxr-supported-features-in-unity"></a>Функции, поддерживаемые Опенкср Mixed Reality в Unity
 
@@ -30,7 +30,7 @@ ms.locfileid: "107894004"
 * Взаимодействие взгляда на HoloLens 2.
 * Поиск камеры фото/Video (ПС) в HoloLens 2.
 * Запись смешанной реальности с помощью визуализации с третьим глазом через камеру ПС.
-* Поддерживает ["Play" в HoloLens 2 с помощью приложения holographic, поддерживающего удаленное взаимодействие](#holographic-remoting-in-unity-editor-play-mode), что позволяет разработчикам выполнять отладку сценариев без создания и развертывания на устройстве.
+* Поддерживает ["Play" в HoloLens 2 с помощью приложения holographic, поддерживающего удаленное взаимодействие](unity-play-mode.md#holographic-remoting-in-unity-editor-play-mode), что позволяет разработчикам выполнять отладку сценариев без создания и развертывания на устройстве.
 * Совместимо с МРТК Unity 2.5.3 и более поздней версии через [поддержку поставщика Мртк опенкср](openxr-getting-started.md#using-mrtk-with-openxr-support).
 * Совместимо с Unity [арфаундатион 4,0](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.1/manual/index.html) или более поздней версии.
 * (Добавлено в 0.1.3) Поддерживает [настольное приложение holographic удаленное взаимодействие](holographic-remoting-desktop.md) из созданного и развернутого автономного приложения Windows.
@@ -41,33 +41,7 @@ ms.locfileid: "107894004"
 * (0.9.0) поддерживает **ксрмешсубсистем** и **армешманажер** для пространственного сопоставления.
 * (Добавлено в 0.9.0) Поддерживает подключаемый модуль пакета SDK для пространственных привязок Azure для Windows. Дополнительные сведения см. в [примере проекта "смешанная работа с опенксрами Azure" в GitHub](https://github.com/microsoft/OpenXR-Unity-MixedReality-Samples/tree/main/AzureSpatialAnchorsSample).
 * (Добавлено в 0.9.1) Поддерживает настольное приложение holographic удаленное взаимодействие из созданного и развернутого приложения Windows UWP.
-
-## <a name="holographic-remoting-setup"></a>Настройка удаленного взаимодействия с holographic
-
-1. Сначала необходимо [установить приложение с удаленным проигрывателем holographic](https://www.microsoft.com/store/productId/9NBLGGH4SV40) из Microsoft Store в HoloLens 2.
-2. Запустите приложение удаленного проигрывателя holographic в HoloLens 2, и вы увидите номер версии и IP-адрес для подключения.
-    * Для работы с подключаемым модулем Опенкср потребуется v версии 2.4 или более поздней.
-
-    ![Снимок экрана удаленного проигрывателя holographic, работающего в HoloLens](images/openxr-features-img-01.png)
-
-## <a name="holographic-remoting-in-unity-editor-play-mode"></a>Holographic удаленное взаимодействие в режиме воспроизведения редактора Unity
-
-Создание проекта Unity для UWP в проекте Visual Studio, а затем упаковка и развертывание на устройстве HoloLens 2 может занять некоторое время. Одним из решений является включение функции удаленного взаимодействия в holographic Editor, которая позволяет выполнять отладку сценария C# с помощью режима Play непосредственно на устройстве HoloLens 2 по сети. Этот сценарий позволяет избежать издержек при создании и развертывании пакета UWP на удаленном устройстве.
-
-1. Выполните действия, описанные в разделе [Настройка удаленного взаимодействия с holographic](#holographic-remoting-setup) .
-2. Откройте **Параметры проекта Edit->**, перейдите в **раздел Управление подключаемыми модулями XR** и установите флажок **набор функций Windows Mixed Reality** :
-
-    ![Снимок экрана: панель "Параметры проекта", открытая в редакторе Unity с выделенным подключаемым модулем управления XR](images/openxr-features-img-02.png)
-
-3. Разверните раздел " **компоненты** " в разделе **опенкср** и выберите команду " **отобразить все** ".
-4. Установите флажок **удаленное взаимодействие с помощью редактора holographic** и введите IP-адрес, полученный из приложения holographic Remoting:
-
-    ![Снимок экрана: панель "Параметры проекта", открытая в редакторе Unity с выделенными компонентами](images/openxr-features-img-03.png)
-
-Теперь можно нажать кнопку "Воспроизвести", чтобы воспроизвести приложение Unity в удаленном приложении holographic на HoloLens. Вы также можете [присоединить Visual Studio к Unity](/visualstudio/gamedev/unity/get-started/using-visual-studio-tools-for-unity?pivots=windows) для отладки скриптов C# в режиме воспроизведения.
-
-> [!NOTE]
-> Начиная с версии 0.1.0, среда выполнения holographic Remoting не поддерживает привязки, а функции Аранчорманажер не будут работать через удаленное взаимодействие.  Эта функция появилась в будущих выпусках.
+* (Добавлено в 0.9.4) Поддерживает платформу ARM в дополнение к ARM64 для приложения HoloLens 2.
 
 ## <a name="motion-controller-and-hand-interactions"></a>Взаимодействие контроллера движения и руки
 
@@ -113,12 +87,6 @@ public static readonly InputFeatureUsage<Vector3> PointerPosition = new InputFea
 HoloLens 2 может обнаруживать QR-коды в среде вокруг гарнитуры, определяя систему координат в реальном расположении каждого кода. Дополнительные сведения можно найти в документации по [отслеживанию QR-кода](../platform-capabilities-and-apis/qr-code-tracking.md) .  При использовании подключаемого модуля Опенкср Извлеките [ `SpatialGraphNodeId` из QR-интерфейса API](../platform-capabilities-and-apis/qr-code-tracking.md#qr-api-reference) и используйте `Microsoft.MixedReality.OpenXR.SpatialGraphNode` API для нахождение QR-кода.
 
 Для справки у нас есть [Пример проекта отслеживания QR](https://github.com/yl-msft/QRTracking) -кодов на сайте GitHub с более подробным описанием использования [ `SpatialGraphNode` API](https://github.com/yl-msft/QRTracking/blob/main/SampleQRCodes/Assets/Scripts/SpatialGraphNodeTracker.cs).
-
-## <a name="whats-coming-soon"></a>Что ожидается в ближайшее время
-
-Следующие проблемы и отсутствующие функции известны с помощью Опенкср подключаемого модуля Mixed Reality **версии 0.9.2**. Мы работаем над этим и выпустили исправления и новые функции в будущих выпусках.
-
-* **ARM64** — единственная поддерживаемая платформа для приложений HoloLens 2. Платформа **ARM** поступает в будущем выпуске.
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 

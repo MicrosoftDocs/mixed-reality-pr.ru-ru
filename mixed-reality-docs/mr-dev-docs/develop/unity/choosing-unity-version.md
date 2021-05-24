@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 03/26/2021
 ms.topic: article
 keywords: микседреалититулкит, микседреалититулкит-Unity, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, Unity
-ms.openlocfilehash: 3bdaa35f495d7a647a7cbf37ddcd4f85e96d74d0
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: febeb46972935a02d9c945e2a0cafabebedd0715
+ms.sourcegitcommit: b195b82f7e83e2ac4f5d8937d169e9dcb865d46d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110143673"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110333386"
 ---
 # <a name="choosing-a-unity-version-and-xr-plugin"></a>Выбор версии Unity и подключаемого модуля XR
 
@@ -57,7 +57,7 @@ ms.locfileid: "110143673"
 * Приложения с удаленным взаимодействием holographic, использующие целевой объект сборки универсальная платформа Windows, не работают.
 * Система заданий графики Unity по умолчанию включена, несмотря на то, что она несовместима с проектами HoloLens.
 
-Если вы решили запустить новый проект в Unity 2020 уже сегодня, перед отправкой приложения убедитесь, что в ближайшие месяцы для обновленных сборок Unity и сборки подключаемых модулей Windows XR.  Это обеспечит надлежащую стабильность работы пользователей.
+Если вы решили использовать Unity 2020, не забудьте выполнить обновление до Unity 2020.3.6 F1 или более поздней версии, чтобы обеспечить надлежащую стабильность работы пользователя.
 
 > [!div class="nextstepaction"]
 > [Использование подключаемого модуля Windows XR](windows-xr-plugin.md)
