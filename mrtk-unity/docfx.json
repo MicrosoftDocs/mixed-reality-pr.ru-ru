@@ -48,6 +48,8 @@
       "extendBreadcrumb": true,
       "uhfHeaderId": "MSDocsHeader-Hololens",
       "ms.prod": "mixed-reality",
+      "ms.topic": "conceptual",
+      "titleSuffix": "Mixed Reality Toolkit",
       "feedback_system": "None",
       "feedback_github_repo": "",
       "feedback_product_url": "https://docs.microsoft.com/windows/mixed-reality/give-us-feedback"
