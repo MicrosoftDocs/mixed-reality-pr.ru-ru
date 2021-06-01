@@ -47,13 +47,15 @@
       "ms.technology": "mr-dev",
       "ms.date": "3/21/2018",
       "keywords": "mixed reality, windows mixed reality, mixed reality technology, hololens, mr, vr, ar, xr, virtual reality, vr virtual reality, virtual reality games, augmented reality, augmented reality apps, holographic, develop, design, documentation",
-      "searchScope": ["MixedReality"],
+      "searchScope": [
+        "MixedReality"
+      ],
       "feedback_system": "None",
       "feedback_github_repo": "",
-      "feedback_product_url": "aka.ms/mrsupport"
+      "feedback_product_url": "https://docs.microsoft.com/windows/mixed-reality/give-us-feedback"
     },
     "fileMetadata": {
-      "author" : {
+      "author": {
         "mixed-reality-docs/enthusiast-guide/**/*.md": "paaron301"
       },
       "keywords": {
@@ -80,4 +82,3 @@
     "markdownEngineName": "markdig"
   }
 }
-
