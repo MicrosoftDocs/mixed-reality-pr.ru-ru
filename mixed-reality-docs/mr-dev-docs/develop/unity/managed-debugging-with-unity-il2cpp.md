@@ -1,19 +1,19 @@
 ---
-title: Управляемая отладка с помощью Unity IL2CPP
+title: Управляемая отладка с помощью Unity
 description: В этой статье описывается, как запустить управляемый отладчик в проекте UWP для Unity IL2CPP.
 author: keveleigh
 ms.author: kurtie
 ms.date: 10/22/2019
 ms.topic: article
 keywords: Unity, Visual Studio, отладка, il2cpp, HoloLens, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, UWP
-ms.openlocfilehash: 4b21e4888e467e6bd5f1938024a1b8312d8ecbcb
-ms.sourcegitcommit: 87b54c75044f433cfadda68ca71c1165608e2f4b
+ms.openlocfilehash: 8e3967971220fa453f4e60639bd08f2554a8dd7e
+ms.sourcegitcommit: 5617575cf550dd03fba0bfd5263e97972dcc646b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97010245"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "111547081"
 ---
-# <a name="managed-debugging-with-unity-il2cpp"></a>Управляемая отладка с помощью Unity IL2CPP
+# <a name="managed-debugging-with-unity"></a>Управляемая отладка с помощью Unity
 
 Выполните следующие действия, чтобы подключить управляемый отладчик к сборке UWP в Unity IL2CPP для HoloLens и HoloLens 2.
 

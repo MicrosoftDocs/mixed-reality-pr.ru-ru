@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 12/1/2020
 ms.topic: article
 keywords: контроллеры движения, Unity, ввод, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: d3df49c2f6c626e9f4eb47c38f4a8e61059a8438
-ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
+ms.openlocfilehash: ff1eedcc337edd2d7edfe8d961bb88bcb859cd23
+ms.sourcegitcommit: 719682f70a75f732b573442fae8987be1acaaf19
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107300479"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "110743485"
 ---
 # <a name="motion-controllers-in-unity"></a>Контроллеры движения в Unity
 
@@ -138,11 +138,11 @@ Windows Mixed Reality поддерживает контроллеры движе
 
 На этом этапе система будет блокировать контроллер для пользователя, отслеживая положение пользователя по мере его перемещения, сохраняя при этом ориентацию на уровне true, используя внутренние датчики ориентации. Многие приложения, использующие контроллеры для указания и активации элементов пользовательского интерфейса, могут нормально работать при приближенной точности, не закрывая пользователю.
 
-Лучший способ сделать это — попробовать. Просмотрите это видео с примерами впечатляющих материалов, которые работают с контроллерами движения в различных состояниях отслеживания:
+<!-- The best way to get a feel for this is to try it yourself. Check out this video with examples of immersive content that works with motion controllers across various tracking states:
 
 <br>
 
- >[!VIDEO https://www.youtube.com/embed/QK_fOFDHj0g]
+ >[!VIDEO https://www.youtube.com/embed/QK_fOFDHj0g] -->
 
 ### <a name="reasoning-about-tracking-state-explicitly"></a>Явное объяснение состояния отслеживания
 
@@ -436,7 +436,7 @@ void InteractionManager_InteractionSourceUpdated(InteractionSourceUpdatedEventAr
 
 ## <a name="motion-controllers-in-mrtk"></a>Контроллеры движения в МРТК
 
-Вы можете получить доступ к [жестам и контроллеру движения](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/input/controllers) из диспетчера ввода.
+Вы можете получить доступ к [жестам и контроллеру движения](/windows/mixed-reality/mrtk-unity/features/input/controllers) из диспетчера ввода.
 
 ## <a name="follow-along-with-tutorials"></a>Обучение по руководствам
 

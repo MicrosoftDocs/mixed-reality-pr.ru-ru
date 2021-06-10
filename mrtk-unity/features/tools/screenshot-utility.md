@@ -5,12 +5,12 @@ author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 59bf0df2a32030281c8bf0a1a8574b4dd9bf4607
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: a0c66969a9058adc790919f0054783b7368da8f6
+ms.sourcegitcommit: a5afc24a4887880e394ef57216b8fd9de9760004
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110143794"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "110647075"
 ---
 # <a name="screenshot-utility"></a>Служебная программа для создания снимков экрана
 
@@ -20,7 +20,7 @@ ms.locfileid: "110143794"
 
 ## <a name="taking-screenshots"></a>Создание снимков экрана
 
-Создавать снимки экрана очень легко: выберите в редакторе *Mixed Reality Toolkit->Utilities->Take Screenshot* (Mixed Reality Toolkit -> Средства -> Сделать снимок экрана) и выберите нужный вариант. Если вы создаете снимок экрана не во время игры, убедитесь, что вкладка с окном игры отображается. В противном случае снимок экрана не будет сохранен.
+Снимки экрана можно легко захватить в редакторе, выбрав   >    >  **Служебные программы** Mixed Reality Toolkit  >  **сделать снимок экрана** и выбрав нужный вариант. Если вы создаете снимок экрана не во время игры, убедитесь, что вкладка с окном игры отображается. В противном случае снимок экрана не будет сохранен.
 
 По умолчанию все снимки экрана сохраняются по [пути временного кэша](https://docs.unity3d.com/ScriptReference/Application-temporaryCachePath.html), а путь к самому снимку экрана отобразится в консоли Unity.
 

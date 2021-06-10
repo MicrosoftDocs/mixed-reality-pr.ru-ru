@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 12/1/2020
 ms.topic: article
 keywords: жесты, Unity, Взгляните, ввод, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: 523f05f9b3dd05a140bb40168b654a2dc0b00bb5
-ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
+ms.openlocfilehash: 87666c120686547b1a07f6da41519219d4a47720
+ms.sourcegitcommit: 9ae76b339968f035c703d9c1fe57ddecb33198e3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107299719"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110600643"
 ---
 # <a name="gestures-in-unity"></a>Жесты в Unity
 
@@ -135,8 +135,8 @@ void OnDestroy()
 
 Вы можете получить доступ к жестам и контроллеру движения из диспетчера ввода.
 
-* [Жест в МРТК](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/input/gestures)
-* [Контроллер движения в МРТК](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/input/controllers)
+* [Жест в МРТК](/windows/mixed-reality/mrtk-unity/features/input/gestures)
+* [Контроллер движения в МРТК](/windows/mixed-reality/mrtk-unity/features/input/controllers)
 
 ## <a name="follow-along-with-tutorials"></a>Обучение по руководствам
 

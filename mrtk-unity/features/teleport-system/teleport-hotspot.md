@@ -6,14 +6,15 @@ ms.author: roliu
 ms.date: 03/25/2021
 ms.localizationpriority: medium
 keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, система телепортируйтесь, хотная точка телепортируйтесь
-ms.openlocfilehash: 0cbdad3c038d457109077b742d3f453d63436ae4
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+monikerRange: '>= mrtkunity-2021-05'
+ms.openlocfilehash: 2d6160570b43ca931d46f4ec04c604b53b18d731
+ms.sourcegitcommit: a5afc24a4887880e394ef57216b8fd9de9760004
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110144437"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "110647043"
 ---
-# <a name="teleport-hotspot-experimental"></a>Хот — гиперобъект [экспериментальная версия]
+# <a name="teleport-hotspot"></a>Хотская точка телепортируйтесь
 
 Хот-спот телепортируйтесь — это компонент, который можно добавить в gameobject, чтобы обеспечить пользователю определенную позицию и ориентацию при телепортироваться к этому расположению.
 

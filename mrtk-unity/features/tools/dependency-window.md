@@ -5,12 +5,12 @@ author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 22ecbb09ebf759e15f1f21085a7b7696cb24bc6e
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: fd17db3f365d8bd97b8cd9c43a6111e2b82a61fe
+ms.sourcegitcommit: a5afc24a4887880e394ef57216b8fd9de9760004
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110144441"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "110647034"
 ---
 # <a name="dependency-window"></a>Окно зависимости
 
@@ -20,7 +20,7 @@ ms.locfileid: "110144441"
 
 ## <a name="usage"></a>Использование
 
-Чтобы открыть окно, выберите *набор средств для смешанной реальности — >служебные программы — >окно зависимостей* , которое откроет окно и автоматически начнет создавать граф зависимостей проекта. После построения графа зависимостей можно выбрать ресурсы на вкладке "проект", чтобы проверить их зависимости.
+Чтобы открыть это окно, выберите пункт  >    >  окно зависимостей **служебных программ** для смешанной реальности,  >   которое откроет окно и автоматически начнет создавать граф зависимостей проекта. После построения графа зависимостей можно выбрать ресурсы на вкладке "проект", чтобы проверить их зависимости.
 
 ![Окно зависимости](../images/dependency-window/MRTK_Dependency_Window.png)
 

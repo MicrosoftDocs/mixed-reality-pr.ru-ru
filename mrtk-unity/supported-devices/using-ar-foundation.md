@@ -1,16 +1,16 @@
 ---
-title: Использование AR Foundation
-description: Документация по использованию Арфаундатион в Unity
+title: Конфигурация Android и iOS МРТК (Арфаундатион)
+description: Документация по настройке МРТК для Android и iOS (Арфаундатион) в Unity
 author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, Mixed Reality, разработка, МРТК, AR Core, AR Kit, iOS, IOS, Android, AR Foundation
-ms.openlocfilehash: 0f02eb94d95c2900348adaa9e1a02c3e54832a96
-ms.sourcegitcommit: 62beb626b2db6ce7df86014bd22bf1946b8906b9
+ms.openlocfilehash: 9f621008db76e3f8e443545b795db442d7c17dda
+ms.sourcegitcommit: bb9f54f3e872a5464a5d9ba88b7ab5b8896efd82
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "110207460"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110345137"
 ---
 # <a name="how-to-configure-mrtk-for-ios-and-android-experimental"></a>Настройка МРТК для iOS и Android [экспериментальная версия]
 

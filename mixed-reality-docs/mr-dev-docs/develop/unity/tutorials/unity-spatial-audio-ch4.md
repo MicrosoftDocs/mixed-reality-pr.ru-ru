@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 02/05/2021
 ms.topic: article
 keywords: Смешанная реальность, Unity, учебник, hololens2, Пространственный звук, МРТК, набор средств для смешанной реальности, UWP, Windows 10, ХРТФ, функция передачи, связанная с HEAD, переглагол, Microsoft Спатиализер
-ms.openlocfilehash: 26143975707b2cd6141803a6335cec89db5bbd26
-ms.sourcegitcommit: 68140e9ce84e69a99c2b3d970c7b8f2927a7fc93
+ms.openlocfilehash: 9d0fa432f2e653cdd6820cb6c779cc1acc5c4b15
+ms.sourcegitcommit: 4a6c26615d52776bdc4faab70391592092a471fc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "99590736"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "110712759"
 ---
 # <a name="4-enabling-and-disabling-spatialization-at-run-time"></a>4. Включение и отключение функции пространственности во время выполнения
 
@@ -28,7 +28,7 @@ ms.locfileid: "99590736"
 
  Щелкните правой кнопкой мыши в окне проекта и выберите **создать**  >  **Скрипт c#** , чтобы создать новый скрипт c#, введите подходящее имя для скрипта, например _спатиализеонофф_:
 
-![Создать скрипт](images/spatial-audio/spatial-audio-04-section1-step1-1.png)
+![Создать сценарий](images/spatial-audio/spatial-audio-04-section1-step1-1.PNG)
 
 Дважды щелкните скрипт в окне проекта, чтобы открыть его в Visual Studio. Замените содержимое скрипта по умолчанию следующим:
 
@@ -98,13 +98,13 @@ public class SpatializeOnOff : MonoBehaviour
 
 Выберите « **четыре** » в иерархии и в окне инспектора нажмите кнопку Добавить компонент, чтобы добавить **спатиализеонофф (сценарий)** .
 
-![Добавить сценарий к четырем](images/spatial-audio/spatial-audio-04-section2-step1-1.png)
+![Добавить сценарий к четырем](images/spatial-audio/spatial-audio-04-section2-step1-1.PNG)
 
 В иерархии откройте **PressableButtonHoloLens2**  >  **иконандтекст**  >  **текстмешпро**.
 
 Если объект **Quad** по-прежнему выбран в иерархии, в окне инспектора выберите компонент **спатиализе On Off (скрипт)** и перетащите компонент **текстмешпро** в PressableButtonHoloLens2.
 
-![Поиск объекта PressableButtonHoloLens2 в иерархии](images/spatial-audio/spatial-audio-04-section2-step1-2.png)
+![Поиск объекта PressableButtonHoloLens2 в иерархии](images/spatial-audio/spatial-audio-04-section2-step1-2.PNG)
 
 Чтобы установить для кнопки вызов скрипта **спатиализеонофф** при отпускании кнопки, необходимо настроить взаимодействующий скрипт.
 
@@ -114,7 +114,7 @@ public class SpatializeOnOff : MonoBehaviour
 
 * Откройте раскрывающийся список **No Function** (Нет функции) того же события. Затем выберите **спатиализеонофф**  >  **свапспатиализатион ()** , чтобы включить и отключить Пространственный звук.
 
-![Параметры действия кнопки](images/spatial-audio/spatial-audio-04-section2-step1-3.png)
+![Параметры действия кнопки](images/spatial-audio/spatial-audio-04-section2-step1-3.PNG)
 
 ## <a name="congratulations"></a>Поздравляем!
 

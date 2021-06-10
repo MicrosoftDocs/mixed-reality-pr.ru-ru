@@ -6,12 +6,12 @@ ms.author: dongpark
 ms.date: 11/01/2019
 ms.topic: article
 keywords: Смешанная реальность, элементы управления, взаимодействие, UI, UX, шейдер, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности, визуальные эффекты
-ms.openlocfilehash: 4bf8205ac9dfbd22a0deb9ffe796fd4e33a96f89
-ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
+ms.openlocfilehash: 9a60c5065ddb5bcf410bb43b318575da50f7ccf8
+ms.sourcegitcommit: 9ae76b339968f035c703d9c1fe57ddecb33198e3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107300389"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110600183"
 ---
 # <a name="shader"></a>Шейдер
 
@@ -38,13 +38,13 @@ ms.locfileid: "107300389"
 
 ## <a name="standard-shader-in-mrtk-for-unity"></a>Стандартный шейдер в МРТК для Unity
 
-* [МРТК — Стандартный шейдер](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/rendering/mrtk-standard-shader)
+* [МРТК — Стандартный шейдер](/windows/mixed-reality/mrtk-unity/features/rendering/mrtk-standard-shader)
 
 <br>
 
 ---
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 * [Курсоры](cursors.md)
 * [Телекинез](point-and-commit.md)

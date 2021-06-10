@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 7/29/2019
 ms.topic: article
 keywords: Опенкср, Путеводитель, расширения, Кхронос, Басикксрапп, DirectX, Native, собственное приложение, настраиваемое подсистема, по промежуточного слоя
-ms.openlocfilehash: cf2613bcd7c31ee5fc09d2708688d8f7356433be
-ms.sourcegitcommit: 848b4b7bb8514c2e088a3a55512b1a8075d29093
+ms.openlocfilehash: 98b75f8b6059e6537d4cb4a10ecf8d057ad19a07
+ms.sourcegitcommit: 4a6c26615d52776bdc4faab70391592092a471fc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "107003093"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "110711543"
 ---
 # <a name="openxr"></a>OpenXR
 
@@ -37,7 +37,7 @@ API Опенкср предоставляет основные функции п
 
 Опенкср не является механизмом смешанной реальности.  Вместо этого Опенкср позволяет использовать такие модули, как Unity и Нереал, для написания переносимого кода, который затем может получить доступ к функциям собственной платформы в holographic или иммерсивное устройство пользователя, независимо от поставщика, созданного этой платформой.
 
-## <a name="roadmap"></a>Стратегия
+## <a name="roadmap"></a>Схема действий
 
 Спецификация Опенкср определяет механизм расширения, позволяющий разработчикам среды выполнения предоставлять дополнительные функциональные возможности за пределами [основных функций](#what-is-openxr) , определенных в <a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html" target="_blank">базовой спецификации опенкср 1,0</a>.
 
@@ -89,7 +89,7 @@ API Опенкср предоставляет основные функции п
 
 Сегодня поддерживаемый путь разработки Unity для гарнитур 2, HoloLens (1 Gen) и Windows Mixed Reality — **Unity 2019 LTS** с существующей серверной частью API WinRT.  Вы можете перейти к [опенкср с помощью Unity](../unity/openxr-getting-started.md). Если вы используете новый контроллер HP REVERB G2 в приложении Unity 2019, см. статью [входные документы с помощью команды HP](../unity/unity-reverb-g2-controllers.md).
 
-Начиная с **Unity 2020 LTS**, [Unity поставляется с серверной частью опенкср](https://forum.unity.com/threads/unitys-plans-for-openxr.993225/) , поддерживающей гарнитуры HoloLens 2 и Windows Mixed Reality.  Сюда входит поддержка расширений Опенкср, которая включает [все возможности гарнитуры HoloLens 2 и Windows Mixed Reality](#roadmap), в том числе отслеживание типа «рука/глаз», пространственные привязки и контроллеры HP с переглаголом G2.  MRTK-Unity поддерживает Опенкср в [мртк 2,7](../unity/tutorials/mr-learning-base-02.md?tabs=openxr#importing-the-mixed-reality-toolkit).  Дополнительные сведения о текущем состоянии поддержки Unity 2020 LTS для HoloLens 2 см. в разделе [Выбор версии Unity](../unity/choosing-unity-version.md).
+Начиная с **Unity 2020 LTS**, [Unity поставляется с серверной частью опенкср](https://forum.unity.com/threads/unitys-plans-for-openxr.993225/) , поддерживающей гарнитуры HoloLens 2 и Windows Mixed Reality.  Сюда входит поддержка расширений Опенкср, которая включает [все возможности гарнитуры HoloLens 2 и Windows Mixed Reality](#roadmap), в том числе отслеживание типа «рука/глаз», пространственные привязки и контроллеры HP с переглаголом G2.  MRTK-Unity поддерживает Опенкср в [мртк 2,7](../unity/tutorials/mr-learning-base-02.md?tabs=openxr#importing-the-mixed-reality-toolkit-and-configuring-the-unity-project).  Дополнительные сведения о текущем состоянии поддержки Unity 2020 LTS для HoloLens 2 см. в разделе [Выбор версии Unity](../unity/choosing-unity-version.md).
 
 Начиная с **Unity 2021**, опенкср будет стать единственной поддерживаемой серверной частью Unity, предназначенной для конечных телефонов HoloLens 2 и Windows Mixed Reality.
 

@@ -6,12 +6,12 @@ ms.author: nobarr
 ms.date: 08/27/2019
 ms.topic: article
 keywords: рука, меню, кнопка, быстрый доступ, макет, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: e222d792d883ccacc71b177fbde21979c8dfcc77
-ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
+ms.openlocfilehash: f007ada2d7a594f141d30a3619d4d80ac74621d8
+ms.sourcegitcommit: 9ae76b339968f035c703d9c1fe57ddecb33198e3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107299919"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110600333"
 ---
 # <a name="hand-menu"></a>Меню руки
 
@@ -21,7 +21,7 @@ ms.locfileid: "107299919"
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4AJAg]
 
-Рекомендации по работе с меню можно найти в списке ниже. Вы также можете найти пример сцены, демонстрирующий меню руки в [мртк](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/hand-menu).
+Рекомендации по работе с меню можно найти в списке ниже. Вы также можете найти пример сцены, демонстрирующий меню руки в [мртк](/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/hand-menu).
 
 <br>
 
@@ -170,7 +170,7 @@ ms.locfileid: "107299919"
 
 **[Мртк](https://github.com/Microsoft/MixedRealityToolkit-Unity)** предоставляет сценарии и примеры сцен для меню руки. Сценарий поиска решения Хандконстраинтпалмуп позволяет вкладывать любые объекты в руки с различными настраиваемыми параметрами. Примеры меню "руки" МРТК включают в себя такие полезные параметры, как плоское карманное ПК и взгляните на необходимость предотвращения ложных активаций.
 
-* [Документы меню "руки"](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/hand-menu)
+* [Документы меню "руки"](/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/hand-menu)
 * [Пример сцены меню руки](https://github.com/microsoft/MixedRealityToolkit-Unity/blob/main/Assets/MRTK/Examples/Demos/HandTracking/Scenes/HandMenuExamples.unity)
 
 Вы можете испытать примеры меню в HoloLens 2 с помощью приложения центра МРТК examples.
@@ -181,7 +181,7 @@ ms.locfileid: "107299919"
 
 ---
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 * [Курсоры](cursors.md)
 * [Телекинез](point-and-commit.md)

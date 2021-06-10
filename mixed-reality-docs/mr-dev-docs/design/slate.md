@@ -6,12 +6,12 @@ ms.author: dongpark
 ms.date: 11/01/2019
 ms.topic: article
 keywords: Смешанная реальность, элементы управления, взаимодействие, Пользовательский интерфейс, UX, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, планшет, МРТК, набор средств для смешанной реальности
-ms.openlocfilehash: 30d5e63eecb45aa8eb1a59d1a288f084a6937764
-ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
+ms.openlocfilehash: 2988419e44b21f6655a71d726dabd5091569f7ac
+ms.sourcegitcommit: 9ae76b339968f035c703d9c1fe57ddecb33198e3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107299689"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110600133"
 ---
 # <a name="slate"></a>Планшет
 
@@ -25,13 +25,13 @@ ms.locfileid: "107299689"
 
 ## <a name="slate-in-mrtk-mixed-reality-toolkit-for-unity"></a>Содержание в МРТК (набор средств для смешанной реальности) для Unity
 
-* [МРТК-планшет](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/slate)
+* [МРТК-планшет](/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/slate)
 
 <br>
 
 ---
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 * [Курсоры](cursors.md)
 * [Телекинез](point-and-commit.md)

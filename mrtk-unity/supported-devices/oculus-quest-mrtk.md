@@ -5,24 +5,23 @@ author: RogPodge
 ms.author: roliu
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, Окулус Quest,
-ms.openlocfilehash: c0eccd0b366d39529eafc51d23031fc30144b1ae
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: 0892e0d416cd07d1bedbeea0ddb316e3eb012b94
+ms.sourcegitcommit: 4c1dd5c22af69eeb192425118c2bfb95344b8dd9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110143959"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110441177"
 ---
-# <a name="how-to-configure-oculus-quest-in-mrtk-using-the-xr-sdk-pipeline"></a>Настройка Окулус Quest в МРТК с помощью конвейера XR SDK
+# <a name="building-and-deploying-mrtk-to-oculus-quest-using-the-xr-sdk-pipeline"></a>Создание и развертывание МРТК в Окулус Quest с помощью конвейера XR SDK
 
 Требуется [окулусный Quest](https://www.oculus.com/quest/) .
 
-Поддержка МРТК для Окулус Quest предоставляется через два разных источника: конвейер XR Unity и пакет интеграции Окулус для Unity. **Поставщик данных Окулус ксрсдк** позволяет использовать оба источника и должен использоваться для использования Мртк в Окулус Quest.
+Поддержка МРТК для Окулус Quest предоставляется через два разных источника: конвейер XR пакета SDK Unity и пакет Unity интеграции Окулус. **Поставщик данных Окулус ксрсдк** позволяет использовать оба источника и должен использоваться для развертывания Мртк в Окулус Quest.
 
-[Конвейер XR Unity](https://docs.unity3d.com/Manual/XR.html) позволяет использовать сенсорные контроллеры Окулус и головное отслеживание с помощью Окулус Quest.
-Этот конвейер является стандартом для разработки XR приложений в Unity 2019,3 и более поздних версиях. Чтобы использовать этот конвейер, убедитесь, что используется **Unity 2019,3 или более поздней версии**.
+[Конвейер пакета SDK для Unity XR](https://docs.unity3d.com/Manual/XR.html) позволяет использовать сенсорные контроллеры Окулус и головное отслеживание с помощью Окулус Quest.
+Этот конвейер является стандартом для разработки XR приложений в Unity 2019,3 и более поздних версиях. Чтобы использовать этот конвейер, убедитесь, что используется **Unity 2019,3 или более поздней версии**. **Это необходимо для развертывания** мртк приложений в Окулус Quest. 
 
-[Пакет Unity для интеграции Окулус](https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022) позволяет использовать **Отслеживание вручную** с помощью Окулус Quest.
-Этот поставщик данных **не** использует **конвейер XR** для Unity или **устаревший конвейер XR**, но поскольку контроллеры и ХЕАДТРАККИНГ обрабатываются конвейером XR Unity, необходимо выполнить действия, описанные в разделе **Настройка проекта для Окулус Quest** , чтобы убедиться, что вы используете **конвейер XR** , а не **устаревший конвейер XR**.
+[Пакет Unity для интеграции Окулус](https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022) позволяет использовать **Отслеживание вручную** с помощью Окулус Quest. Этот поставщик данных **не** использует **конвейер пакета SDK для XR** Unity или **устаревший конвейер XR**.
 
 ## <a name="setting-up-project-for-the-oculus-quest"></a>Настройка проекта для Окулус Quest
 
@@ -30,7 +29,7 @@ ms.locfileid: "110143959"
 
 1. Убедитесь, что на устройстве включен [режим разработчика](https://developer.oculus.com/documentation/native/android/mobile-device-setup/) . Установка драйверов Окулус ADB является необязательной.
 
-## <a name="setting-up-the-xr-pipeline-for-oculus-quest"></a>Настройка конвейера XR для Окулус Quest
+## <a name="setting-up-the-xr-sdk-pipeline-for-oculus-quest"></a>Настройка конвейера XR SDK для Окулус Quest
 
 1. Убедитесь, что **подключаемый модуль Окулус XR** установлен в **окне "окно" — > диспетчер пакетов**
 

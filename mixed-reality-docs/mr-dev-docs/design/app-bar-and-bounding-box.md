@@ -6,12 +6,12 @@ ms.author: adlinv
 ms.date: 06/07/2019
 ms.topic: article
 keywords: Windows Mixed Reality, панель приложений, ограничивающий прямоугольник, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: 0ccec5240854de9a7db6a79d5b90b97f1e6b81de
-ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
+ms.openlocfilehash: 750fb238e5b7f22998a86f71607498c8f6982076
+ms.sourcegitcommit: 9ae76b339968f035c703d9c1fe57ddecb33198e3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107299909"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110600523"
 ---
 # <a name="bounding-box-and-app-bar"></a>Ограничивающая рамка и панель приложения
 ![Это стандартный интерфейс для манипуляций с объектами в смешанной реальности.](images/UX_Hero_BoundingBox.jpg)<br>
@@ -95,7 +95,7 @@ ms.locfileid: "107299909"
 ## <a name="bounding-box-in-mrtk-mixed-reality-toolkit-for-unity"></a>Ограничивающий прямоугольник в МРТК (набор средств для смешанной реальности) для Unity
 **[Мртк](https://github.com/Microsoft/MixedRealityToolkit-Unity)** предоставляет скрипты и Prefabs для ограничивающего прямоугольника и панели приложений. Ограничивающий прямоугольник можно добавить, назначив скрипт BoundingBox. cs на любой объект.
 
-* [МРТК-ограничивающий прямоугольник](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/bounding-box)
+* [МРТК-ограничивающий прямоугольник](/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/bounding-box)
 
 
 <br>
@@ -103,7 +103,7 @@ ms.locfileid: "107299909"
 ---
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 * [Курсоры](cursors.md)
 * [Телекинез](point-and-commit.md)

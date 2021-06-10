@@ -4,12 +4,12 @@ description: Получайте актуальные сведения об ус�
 ms.topic: article
 ms.author: rajhawar
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR, устранение неполадок, ошибки, Справка, поддержка
-ms.openlocfilehash: b347145e73c3e3f96d9a387edbfdb6dc0360b094
-ms.sourcegitcommit: 8f141a843bcfc57e1b18cc606292186b8ac72641
+ms.openlocfilehash: 24120e9c1bb34b8b32c00e2b677f530c4ba563ab
+ms.sourcegitcommit: bb9f54f3e872a5464a5d9ba88b7ab5b8896efd82
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110196649"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110345087"
 ---
 # <a name="troubleshooting-in-windows-mixed-reality"></a>Устранение неполадок в Windows Mixed Reality
 
@@ -52,7 +52,7 @@ ms.locfileid: "110196649"
 Для проблем с установкой, запуская Windows Mixed Reality, ошибок установки, минимальных требований к компьютеру или административных разрешений, ознакомьтесь с этими двумя часто задаваемыми вопросами.
 
 - [Ошибки установки](installation_errors.md)
-- [Настройка проблем связанные](wmr-setup-faq.yml)
+- [Проблемы, связанные с установкой](wmr-setup-faq.yml)
 
 ### <a name="hardware-issues"></a>Проблемы с оборудованием
 

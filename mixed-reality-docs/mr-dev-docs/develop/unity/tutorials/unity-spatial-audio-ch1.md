@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 02/05/2021
 ms.topic: article
 keywords: Смешанная реальность, Unity, учебник, hololens2, Пространственный звук, МРТК, набор средств для смешанной реальности, UWP, Windows 10, ХРТФ, функция передачи, связанная с HEAD, переглагол, Microsoft Спатиализер
-ms.openlocfilehash: 7964ecdc8adee7c61c4c7086b8d04983f6e3903f
-ms.sourcegitcommit: 4fb961beeebd158e2f65b7c714c5e471454400a3
+ms.openlocfilehash: 112531a3248461a5b380ad4b93de34545a2f2c3f
+ms.sourcegitcommit: b4fd969b9c2e6313aa728b0dbee4b25014668720
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "105982797"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111403365"
 ---
 # <a name="1-adding-spatial-audio-to-your-unity-project"></a>1. Добавление пространственного звука в проект Unity
 
@@ -37,13 +37,12 @@ ms.locfileid: "105982797"
 * Компьютер с Windows 10, настроенный с помощью требуемых [установленных инструментов](../../install-the-tools.md).
 * Базовые навыки работы с C#.
 * Устройство HoloLens 2, [настроенное для разработки](../../platform-capabilities-and-apis/using-visual-studio.md#enabling-developer-mode).
-* <a href="https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html" target="_blank">Unity Hub</a> с Unity 2019 LTS и модулем поддержки сборки универсальной платформы Windows.
+* <a href="https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html" target="_blank">Центр Unity</a> с Unity 2020/2019 LTS, подключенный, и добавлен модуль поддержки универсальная платформа Windows сборки
 
 Прежде чем продолжить, мы **настоятельно рекомендуем** завершить серию руководств по [началу](mr-learning-base-01.md) работы или выполнить некоторые базовые опыт работы с Unity и мртк.
 
-> [!IMPORTANT]
->
-> * Рекомендуемая версия Unity для этой серии руководств — Unity 2019 LTS. Это заменяет все требования к версии Unity и рекомендации, указанные выше.
+> [!Important]
+> Эта серия руководств также поддерживает Unity 2020 LTS (в настоящее время 2020.3. x), если вы используете Open XR или подключаемый модуль Windows XR и Unity 2019 LTS (в настоящее время 2019.4. x), если используете устаревший подключаемый модуль WSA или Windows XR. Это заменяет все требования к версии Unity, указанные выше.
 
 ## <a name="creating-and-preparing-the-unity-project"></a>Создание и подготовка проекта Unity
 
@@ -57,11 +56,9 @@ ms.locfileid: "105982797"
 
 1. [Импорт требуемых ресурсов TextMeshPro.](mr-learning-base-02.md#importing-the-textmeshpro-essential-resources)
 
-1. [Импорт набора средств для Смешанной реальности (MRTK).](mr-learning-base-02.md#importing-the-mixed-reality-toolkit)
+1. [Импорт набора средств Mixed Reality и Настройка проекта Unity](mr-learning-base-02.md#importing-the-mixed-reality-toolkit-and-configuring-the-unity-project)
 
-1. [Настройка проекта Unity.](mr-learning-base-02.md#configuring-the-unity-project)
-
-1. [Создание и настройка сцены](mr-learning-base-02.md#creating-and-configuring-the-scene) и присвойте сцене подходящее имя, например *спатиалаудио*
+1. [Создание и настройка сцены](mr-learning-base-02.md#creating-the-scene-and-configuring-mrtk) и присвойте сцене подходящее имя, например *спатиалаудио*
 
 Затем выполните инструкции по [изменению параметра "Показать сведения о пространственной поддержке](mr-learning-base-03.md#changing-the-spatial-awareness-display-option) ", чтобы убедиться, что профиль конфигурации мртк для сцены **DefaultHoloLens2ConfigurationProfile** , и измените параметры экрана для сетки пространственной поддержки на **перекрытия**.
 
@@ -74,15 +71,19 @@ ms.locfileid: "105982797"
 
 ## <a name="enable-the-microsoft-spatializer-plugin"></a>Включение подключаемого модуля Microsoft Спатиализер
 
-После импорта **Microsoft спатиализер** необходимо включить его. Откройте **> параметры проекта-> аудио** и измените **подключаемый модуль Спатиализер** на "Microsoft спатиализер".
+После импорта Microsoft Спатиализер в проект Unity откроется окно **конфигуратора проекта мртк** , в раскрывающемся списке " **Audio Спатиализер** " выберите **Microsoft спатиализер**, а затем нажмите кнопку "Применить", чтобы применить этот параметр:
 
-![Параметры проекта, отображающие подключаемый модуль спатиализер](images/spatial-audio/spatial-audio-01-section3-step1-1.png)
+![Конфигуратор проектов МРТК](images/spatial-audio/spatial-audio-01-section3-step1-1.PNG)
+
+можно также вручную включить Microsoft Спатиализер: Open **Edit-> Project Settings-> Audio**, а также изменить **подключаемый модуль Спатиализер** на "Microsoft спатиализер".
+
+![Параметры проекта, отображающие подключаемый модуль спатиализер](images/spatial-audio/spatial-audio-01-section3-step1-2.PNG)
 
 ## <a name="enable-spatial-audio-on-your-workstation"></a>Включение пространственного звука на рабочей станции
 
 В настольных версиях Windows Пространственный звук по умолчанию отключен. Включите его, щелкнув значок тома правой кнопкой мыши на панели задач. Чтобы получить лучшее представление о том, что вы услышите в HoloLens 2, выберите **Пространственный звук — > Windows Sonic для наушников**.
 
-![Параметры пространственного звука рабочего стола](images/spatial-audio/spatial-audio-01-section4-step1-1.png)
+![Параметры пространственного звука рабочего стола](images/spatial-audio/spatial-audio-01-section4-step1-1.PNG)
 
 > [!NOTE]
 > Этот параметр требуется только в том случае, если планируется тестирование проекта в редакторе Unity.

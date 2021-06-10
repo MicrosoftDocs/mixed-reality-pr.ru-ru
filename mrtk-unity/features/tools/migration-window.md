@@ -5,12 +5,12 @@ author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 8e03848097c313a518f638de591f692ab71f0985
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: a6e268dd28be2a3d485f937ec5b5ce6b1f29851f
+ms.sourcegitcommit: a5afc24a4887880e394ef57216b8fd9de9760004
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110143870"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "110647125"
 ---
 # <a name="migration-window"></a>Окно миграции
 
@@ -21,7 +21,7 @@ ms.locfileid: "110143870"
 
 ## <a name="usage"></a>Использование
 
-Чтобы открыть это окно, выберите средство  >  *переноса служебных программ* для набора средств для смешанной реальности  >  . После открытия окна миграции можно включить вкладки навигации режима выбора, выбрав конкретную реализацию обработчика миграции для компонента.  
+Чтобы открыть это окно, выберите средство  >    >  **переноса служебных программ** для набора средств для смешанной реальности  >  . После открытия окна миграции можно включить вкладки навигации режима выбора, выбрав конкретную реализацию обработчика миграции для компонента.  
 
 ![Режимы выбора миграции](../images/migration-window/MRTK_Migration_Modes.png)
 
@@ -46,7 +46,7 @@ ms.locfileid: "110143870"
 
 ![Перенос завершенного проекта](../images/migration-window/MRTK_Project_Migration.png)
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 - [Обновление с предыдущих версий](../../updates-deployment/updating.md)
 - [Выпуски Microsoft Mixed Reality Toolkit](../../release-notes/mrtk-26-release-notes.md)

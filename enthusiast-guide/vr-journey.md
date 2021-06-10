@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 10/15/2020
 ms.topic: overview
 keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR,
-ms.openlocfilehash: c238ec41c75e565cc3eb2bb8bcb9b68eff015f59
-ms.sourcegitcommit: 95fbb851336b6c5977a2ce4d4ac10f0eeb0df31f
+ms.openlocfilehash: 88aab47a943fd004ef0a90a8c6749da1a403ff2f
+ms.sourcegitcommit: 9ae76b339968f035c703d9c1fe57ddecb33198e3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "107944655"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110600513"
 ---
 # <a name="start-your-vr-journey"></a>Начните путешествие по VR
 
@@ -82,7 +82,7 @@ ms.locfileid: "107944655"
 | [Использование SteamVR](using-steamvr-with-windows-mixed-reality.md) | Подключение устройства и воспроизведение Стеамвр игр и изучение программы предварительной оценки Windows |
 | [Использование Microsoft Edge](using-microsoft-edge.md) | Установите последнюю версию Microsoft ребра на иммерсивное устройство. |
 | [Использование Вебвр](webvr.md) | Получение программы установки для работы с VR в среде браузера |
-| [Знакомство с Алтспацевр](https://docs.microsoft.com/windows/mixed-reality/altspace-vr/journey) | Изучите расширение мира событий VR с помощью Алтспацевр |
+| [Знакомство с AltspaceVR](/windows/mixed-reality/altspace-vr/journey) | Изучите расширение мира событий VR с помощью Алтспацевр |
 
 ## <a name="troubleshooting-tips--resources"></a>Устранение неполадок, советы & ресурсов
 

@@ -1,16 +1,16 @@
 ---
-title: начало работы с МРТК и КСРСДК
-description: Целевая страница для МРТК с КСРСДК
+title: Приступая к работе с МРТК и XR SDK
+description: Целевая страница для МРТК с пакетом SDK для XR
 author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
-keywords: Unity, HoloLens, HoloLens 2, Mixed Reality, разработка, МРТК, КСРСДК,
-ms.openlocfilehash: ef6d8c9205a9d801e8cb0ec2690d77b74c72b5fb
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, КСРСДК, XR SDK
+ms.openlocfilehash: d3ff4306205cc6548bc5617d727f32a780855439
+ms.sourcegitcommit: a5afc24a4887880e394ef57216b8fd9de9760004
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110143526"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "110647211"
 ---
 # <a name="getting-started-with-mrtk-and-xr-sdk"></a>Приступая к работе с МРТК и XR SDK
 
@@ -76,7 +76,73 @@ ms.locfileid: "110143526"
 > В первоначальном выпуске МРТК и Опенкср поддерживаются только контроллеры движения HoloLens 2 с четкой и Windows Mixed Reality. В будущих выпусках будет добавлена поддержка дополнительного оборудования.
 
 ## <a name="configuring-mrtk-for-the-xr-sdk-pipeline"></a>Настройка МРТК для конвейера XR SDK
+::: moniker range=">= mrtkunity-2021-05" 
+При использовании Опенкср выберите "Дефаултопенксрконфигуратионпрофиле" в качестве активного профиля или клонировать его для внесения настроек.
 
+При использовании других сред выполнения XR в конфигурации управления подключаемыми модулями XR, например Windows Mixed Reality или Окулус, выберите "Дефаултксрсдкконфигуратионпрофиле" в качестве активного профиля или клонировать его для внесения настроек.
+
+При необходимости эти профили устанавливаются с правильными системами и поставщиками. Дополнительные сведения о профилировании и примерах поддержки с помощью пакета SDK для XR см. [в](../features/profiles/profiles.md#xr-sdk) документации по профилям.
+
+Чтобы перенести существующий профиль в пакет SDK для XR, необходимо добавить следующие службы и поставщики данных. Новые поставщики данных будут доступны на вкладке XR SDK.
+
+![Вкладка XR SDK](../features/images/xrsdk/XrsdkTabView.png)
+
+### <a name="camera"></a>Камера
+
+Добавление следующих поставщиков данных 
+
+| OpenXR | Windows Mixed Reality |
+|--------|-----------------------|
+| [`GenericXRSDKCameraSettings`](xref:Microsoft.MixedReality.Toolkit.XRSDK.GenericXRSDKCameraSettings) | [`XRSDK.WindowsMixedReality.WindowsMixedRealityCameraSettings`](xref:Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.WindowsMixedRealityCameraSettings)**и**[`GenericXRSDKCameraSettings`](xref:Microsoft.MixedReality.Toolkit.XRSDK.GenericXRSDKCameraSettings) |
+
+![Параметры камеры пакета SDK XR](../features/images/xrsdk/CameraSystemXRSDK.png)
+
+### <a name="input"></a>Входные данные
+
+Добавление следующих поставщиков данных 
+
+| OpenXR | Windows Mixed Reality |
+|--------|-----------------------|
+| [`OpenXRDeviceManager`](xref:Microsoft.MixedReality.Toolkit.XRSDK.OpenXR.OpenXRDeviceManager) | [`XRSDK.WindowsMixedReality.WindowsMixedRealityDeviceManager`](xref:Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.WindowsMixedRealityDeviceManager) |
+
+__Опенкср__:
+
+![Параметры ввода Опенкср](../features/images/xrsdk/InputSystemOpenXR.png)
+
+__Windows Mixed Reality__:
+
+![Входные параметры пакета SDK для XR](../features/images/xrsdk/InputSystemWMRXRSDK.png)
+
+### <a name="boundary"></a>Граница
+
+Добавление следующих поставщиков данных 
+
+| OpenXR | Windows Mixed Reality |
+|--------|-----------------------|
+| [`XRSDKBoundarySystem`](xref:Microsoft.MixedReality.Toolkit.XRSDK.XRSDKBoundarySystem) | [`XRSDKBoundarySystem`](xref:Microsoft.MixedReality.Toolkit.XRSDK.XRSDKBoundarySystem) |
+
+![Параметры границ пакета SDK для XR](../features/images/xrsdk/BoundarySystemXRSDK.png)
+
+### <a name="spatial-awareness"></a>Поддержка пространственных сведений
+
+Добавление следующих поставщиков данных 
+
+| OpenXR | Windows Mixed Reality |
+|--------|-----------------------|
+| Выполняется | [`XRSDK.WindowsMixedReality.WindowsMixedRealitySpatialMeshObserver`](xref:Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.WindowsMixedRealitySpatialMeshObserver) |
+
+![Параметры пространственной осведомленности пакета SDK XR](../features/images/xrsdk/SpatialAwarenessXRSDK.png)
+
+### <a name="controller-mappings"></a>Сопоставления контроллеров
+
+Если вы используете настраиваемые профили сопоставления контроллеров, откройте один из них и запустите команду меню "служебные программы" набора средств для управления смешанной реальности — > Utilities-> обновление->, чтобы убедиться, что определены новые типы контроллеров SDK для XR.
+
+## <a name="see-also"></a>См. также раздел
+
+* [Начало работы с AR Development в Unity](https://docs.unity3d.com/Manual/AROverview.html)
+* [Начало работы с разработкой VR в Unity](https://docs.unity3d.com/Manual/VROverview.html)
+::: moniker-end
+::: moniker range="< mrtkunity-2021-05"
 При использовании Опенкср выберите "Дефаултопенксрконфигуратионпрофиле" в качестве активного профиля или клонировать его для внесения настроек.
 
 При использовании других сред выполнения XR в конфигурации управления подключаемыми модулями XR, например Windows Mixed Reality или Окулус, выберите "Дефаултксрсдкконфигуратионпрофиле" в качестве активного профиля или клонировать его для внесения настроек.
@@ -151,7 +217,8 @@ __Windows Mixed Reality__:
 
 Если вы используете настраиваемые профили сопоставления контроллеров, откройте один из них и запустите команду меню "служебные программы" набора средств для управления смешанной реальности — > Utilities-> обновление->, чтобы убедиться, что определены новые типы контроллеров SDK для XR.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 * [Начало работы с AR Development в Unity](https://docs.unity3d.com/Manual/AROverview.html)
 * [Начало работы с разработкой VR в Unity](https://docs.unity3d.com/Manual/VROverview.html)
+::: moniker-end

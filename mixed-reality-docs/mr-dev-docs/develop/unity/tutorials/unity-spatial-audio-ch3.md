@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 02/05/2021
 ms.topic: article
 keywords: Mixed Reality, Unity, учебник, hololens2, Пространственный звук, МРТК, набор средств для смешанной реальности, UWP, Windows 10, ХРТФ, функция передачи, связанная с HEAD, переглагол, Microsoft Спатиализер, импорт видео, проигрыватель видео
-ms.openlocfilehash: 876918c3e886fae6cd2066d84c55a6e158e4c773
-ms.sourcegitcommit: 68140e9ce84e69a99c2b3d970c7b8f2927a7fc93
+ms.openlocfilehash: 60b70fc3b7f49f5b39138a218f93c0b37f29b9d9
+ms.sourcegitcommit: 4a6c26615d52776bdc4faab70391592092a471fc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "99590056"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "110712920"
 ---
 # <a name="3-spatializing-audio-from-a-video"></a>3. Придание пространственной формы звуку из видео
 
@@ -30,11 +30,11 @@ ms.locfileid: "99590056"
 В этом руководстве вы можете использовать [это видео](https://github.com/microsoft/spatialaudio-unity/blob/develop/Samples/MicrosoftSpatializerSample/Assets/Microsoft%20HoloLens%20-%20Spatial%20Sound-PTPvx7mDon4.mp4?raw=true) из примера проекта пространственного звука.
 
 Для импорта видео в проект Unity. в меню Unity выберите **ресурс**  >  **Импорт нового актива** 
- ![ Импорт ресурса.](images/spatial-audio/spatial-audio-03-section1-step1-1.png)
+ ![ Импорт ресурса.](images/spatial-audio/spatial-audio-03-section1-step1-1.PNG)
 
 В окне **Импорт нового актива...** выберите скачанный файл **Microsoft HoloLens-пространственный Sound-PTPvx7mDon4** и нажмите кнопку **Открыть** , чтобы импортировать ресурс в проект:
 
-![Выбор актива](images/spatial-audio/spatial-audio-03-section1-step1-2.png)
+![Выбор актива](images/spatial-audio/spatial-audio-03-section1-step1-2.PNG)
 
 Настройка параметров качества видеоклипа обеспечивает плавное воспроизведение в HoloLens 2. Выберите видеофайл в окне **проекта** и в окне инспектора видеофайла, **Переопределите** параметры для **приложений Магазина Windows** и:
 
@@ -45,11 +45,11 @@ ms.locfileid: "99590056"
 
 После выполнения этих корректировок нажмите кнопку Применить, чтобы изменить параметр качества видеоклипа.
 
-![Изменение свойства видео](images/spatial-audio/spatial-audio-03-section1-step1-3.png)
+![Изменение свойства видео](images/spatial-audio/spatial-audio-03-section1-step1-3.PNG)
 
 Щелкните правой кнопкой мыши иерархию, выберите **видео**  >  **видеопроигрыватель** , чтобы добавить компонент видеопроигрывателя.
 
-![Добавить проигрыватель видео](images/spatial-audio/spatial-audio-03-section1-step1-4.png)
+![Добавить проигрыватель видео](images/spatial-audio/spatial-audio-03-section1-step1-4.PNG)
 
 ## <a name="play-video-onto-a-quadrangle"></a>Воспроизведение видео на куадрангле
 
@@ -61,22 +61,22 @@ ms.locfileid: "99590056"
 * **Rotation** (Поворот): X = 0, Y = 0, Z = 0.
 * **Scale**: X = 1,28, Y = 0,72, Z = 1
 
-![Добавление четырех](images/spatial-audio/spatial-audio-03-section2-step1-1.png)
+![Добавление четырех](images/spatial-audio/spatial-audio-03-section2-step1-1.PNG)
 
 Теперь необходимо создать текстуру с **помощью** видео, в окне **проекта** , щелкнуть правой кнопкой мыши и выбрать команду **создать**  >  **текстуру рендеринга** для создания компонента текстуры рендеринга, ввести подходящее имя для текстуры рендеринга, например, _текстуру пространственного звука_:
 
-![Создать текстуру рендеринга](images/spatial-audio/spatial-audio-03-section2-step1-2.png)
+![Создать текстуру рендеринга](images/spatial-audio/spatial-audio-03-section2-step1-2.PNG)
 
 Выберите **текстуру рендеринга** и в окне инспектора установите свойство **size** в соответствии с разрешением 1280 x 720 в собственном разрешении видео. Затем, чтобы обеспечить хорошую производительность отрисовки в HoloLens 2, задайте для свойства **буфера глубины** значение не **менее 16 бит**.
 
-![Прорисовка свойств текстуры](images/spatial-audio/spatial-audio-03-section2-step1-3.png)
+![Прорисовка свойств текстуры](images/spatial-audio/spatial-audio-03-section2-step1-3.PNG)
 
 Затем используйте созданную текстуру для текстурированной текстуры рендеринга **в качестве текстуры** для **четырех**:
 
 1. Перетащите **пространственный рисунок** из окна **проекта** на **четыре** в иерархии, чтобы добавить текстуру рендеринга к четырем
 2. Чтобы обеспечить хорошую производительность в HoloLens 2, выберите «четыре» в иерархии, а в окне инспектора для шейдера выберите Стандартный шейдер **набора средств Mixed Reality**  >   .
 
-![Свойства с четырьмя текстурами](images/spatial-audio/spatial-audio-03-section2-step1-4.png)
+![Свойства с четырьмя текстурами](images/spatial-audio/spatial-audio-03-section2-step1-4.PNG)
 
 Чтобы задать **видеопроигрыватель** и **текстуру прорисовки** для воспроизведения видеоклипа, выберите **видеопроигрыватель** в **иерархии** и в окне **инспектора**
 
@@ -84,7 +84,7 @@ ms.locfileid: "99590056"
 * Установите флажок " **цикл** "
 * Задать **целевую текстуру** для текстуры с **текстурной** текстурой рендеринга
 
-![Свойства проигрывателя видео](images/spatial-audio/spatial-audio-03-section2-step1-5.png)
+![Свойства проигрывателя видео](images/spatial-audio/spatial-audio-03-section2-step1-5.PNG)
 
 ## <a name="spatialize-the-audio-from-the-video"></a>Спатиализе звук из видео
 
@@ -96,14 +96,14 @@ ms.locfileid: "99590056"
 * Установите флажок **спатиализе**
 * Переместить ползунок **пространственного смешения** в 1 (объемный)
 
-![Проводник с четырьмя звуковыми источниками](images/spatial-audio/spatial-audio-03-section3-step1-1.png)
+![Проводник с четырьмя звуковыми источниками](images/spatial-audio/spatial-audio-03-section3-step1-1.PNG)
 
 Чтобы настроить видеопроигрыватель для направления звука в **источник аудио**, выберите **видеопроигрыватель** в окне "иерархия", а в объекте видео Player в инспекторе выполните следующие изменения.
 
 * Установка в качестве **режима вывода звука** **звукового источника**
 * Установите для свойства **источник звука** значение **четыре**
 
-![Выбор источника звука видеопроигрывателя](images/spatial-audio/spatial-audio-03-section3-step1-2.png)
+![Выбор источника звука видеопроигрывателя](images/spatial-audio/spatial-audio-03-section3-step1-2.PNG)
 
 > [!TIP]
 > Сведения о том, как правильно скомпилировать проект Unity и развернуть его в HoloLens 2, см. в разделе [Создание приложения для HoloLens 2](mr-learning-base-02.md#building-your-application-to-your-hololens-2).

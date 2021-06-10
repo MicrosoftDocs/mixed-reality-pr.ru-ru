@@ -5,18 +5,18 @@ author: RogPodge
 ms.author: roliu
 ms.date: 05/13/2021
 keywords: Unity, HoloLens, HoloLens 2, Mixed Reality, разработка, МРТК, контроллеры, HP REVERB, Окулус, HTC Naopak, руки
-ms.openlocfilehash: 953b1cd56dbf7d7a548a3aba8da07ce5875fec74
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: 111ebf2b1eb26bbef8cde16832f780acfa758595
+ms.sourcegitcommit: 719682f70a75f732b573442fae8987be1acaaf19
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110145489"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "110743582"
 ---
 # <a name="controllers-in-mrtk"></a>Контроллеры в МРТК
 
 МРТК поддерживает множество различных контроллеров. Многие контроллеры, такие как HTC Naopak Кнукклес и HTC Naopak, будут работать изначально, как только приложение, созданное с помощью МРТК, будет запущено на совместимом устройстве. Другие контроллеры, например, наокулусные руки и контроллеры HP, G2, потребовали дополнительных пакетов, прежде чем они будут распознаны МРТК.
 
-В этом документе описаны распространенные сценарии, в которых необходимо установить дополнительные пакеты. Дополнительные сведения об контроллерах см. на [**странице функций**](../features/input/controllers.md). Сведения об отладке проблем с контроллерами см. в разделе [ **средство сопоставления контроллеров** .](../features/tools/controller-mapping-tool.md)
+В этом документе описаны распространенные сценарии, в которых необходимо установить дополнительные пакеты. Инструкции по развертыванию на устройстве см. на страницах, посвященных развертыванию [**Hololens/ВМР**](./wmr-mrtk.md) или [**Окулус Quest**](/windows/mixed-reality/mrtk-unity/supported-devices/oclus-quest-mrtk) . Дополнительные сведения об контроллерах см. на [**странице функций**](../features/input/controllers.md). Сведения об отладке проблем с контроллерами см. в разделе [ **средство сопоставления контроллеров** .](../features/tools/controller-mapping-tool.md)
 
 ## <a name="hp-reverb-g2-controllers"></a>HP reverbы G2 контроллеры
 

@@ -6,12 +6,12 @@ ms.author: dongpark
 ms.date: 11/01/2019
 ms.topic: article
 keywords: Смешанная реальность, элементы управления, взаимодействие, Пользовательский интерфейс, UX, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности, кнопка
-ms.openlocfilehash: 177ccfc1c07df9a9523c9ed6733d3da61bdb7921
-ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
+ms.openlocfilehash: ddad8b23950bddd03dd4024497c212d1cc950fb0
+ms.sourcegitcommit: 9ae76b339968f035c703d9c1fe57ddecb33198e3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107299759"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110600373"
 ---
 # <a name="button"></a>Button
 
@@ -52,13 +52,13 @@ ms.locfileid: "107299759"
 * Сжатие передней части корпуса
 * Импульсный результат для триггера.
 
-* Чтобы получить дополнительные инструкции и настраиваемые примеры, ознакомьтесь с [мртк-кнопкой](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/button) .
+* Чтобы получить дополнительные инструкции и настраиваемые примеры, ознакомьтесь с [мртк-кнопкой](/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/button) .
 
 <br>
 
 ---
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 * [Курсоры](cursors.md)
 * [Телекинез](point-and-commit.md)

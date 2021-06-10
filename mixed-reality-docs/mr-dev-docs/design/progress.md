@@ -6,12 +6,12 @@ ms.author: dongpark
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Windows Mixed Reality, проектирование, элементы управления, Пользовательский интерфейс, UX, индикатор выполнения, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: e949d8805446429d3853a3fedb1b776c50c710dd
-ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
+ms.openlocfilehash: 01f032efb887ecfc6f8d66683fb954cd0574a4f3
+ms.sourcegitcommit: 9ae76b339968f035c703d9c1fe57ddecb33198e3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107299739"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110600553"
 ---
 # <a name="progress-indicator"></a>Индикатор хода выполнения
 
@@ -92,14 +92,14 @@ ms.locfileid: "107299739"
 ## <a name="progress-indicator-in-mrtk-mixed-reality-toolkit-for-unity"></a>Индикатор выполнения в МРТК (набор средств для смешанной реальности) для Unity
 
 * [МРТК — индикатор выполнения Prefabs](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/main/Assets/MRTK/SDK/Features/UX/Prefabs/ProgressIndicators)
-* [МРТК — служба перехода на сцену](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/extensions/scene-transition-service)
+* [МРТК — служба перехода на сцену](/windows/mixed-reality/mrtk-unity/features/extensions/scene-transition-service)
 
 
 <br>
 
 ---
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 * [Курсоры](cursors.md)
 * [Телекинез](point-and-commit.md)

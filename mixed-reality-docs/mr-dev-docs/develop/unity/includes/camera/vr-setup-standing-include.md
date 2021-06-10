@@ -1,15 +1,15 @@
 ---
-ms.openlocfilehash: 5f990569ae4052377cba717b5526bb8ba51b8016
-ms.sourcegitcommit: 0db5777954697f1d738469363bbf385481204d24
+ms.openlocfilehash: 61fe8754192c1fbd0634fd9d1e1994327599321b
+ms.sourcegitcommit: 719682f70a75f732b573442fae8987be1acaaf19
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "105636386"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "110748545"
 ---
 # <a name="mrtk"></a>[MRTK](#tab/mrtk)
 <!-- NEVER CHANGE THE ABOVE LINE! -->
 
-Используйте класс [микседреалитиплайспаце](https://docs.microsoft.com/dotnet/api/microsoft.mixedreality.toolkit.mixedrealityplayspace) из Мртк для Unity и задайте **масштаб целевого объекта** **:** 
+Используйте класс [микседреалитиплайспаце](/dotnet/api/microsoft.mixedreality.toolkit.mixedrealityplayspace) из Мртк для Unity и задайте **масштаб целевого объекта** **:** 
 
 ![Окно параметров МРТК](../../images/mrtk-target-scale.png)
 
@@ -33,7 +33,7 @@ xrInputSubsystem.TrySetTrackingOriginMode(TrackingOriginModeFlags.Floor);
 
 ![XRная платформа в иерархии](../../images/xrsdk-xrrig.png)
 
-# <a name="legacy-wsa"></a>[Устаревший WSA](#tab/wsa)
+# <a name="legacy-wsa"></a>[Устаревшая версия WSA](#tab/wsa)
 <!-- NEVER CHANGE THE ABOVE LINE! -->
 
 1. В разделе " **другие параметры** " окна " **Параметры проигрывателя магазина Windows** "

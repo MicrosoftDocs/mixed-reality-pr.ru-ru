@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: d9b8bc79859ab74c799188326731b3c8722bc49a
-ms.sourcegitcommit: b9d0155ae0d37a9f55f2cf0bcd954a2b148a26e0
+ms.openlocfilehash: 3f65fa90279e9a10c1aad9bd46f02233808936b8
+ms.sourcegitcommit: a5afc24a4887880e394ef57216b8fd9de9760004
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98181741"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "110647007"
 ---
 ![Виртуальная колибри и рука человека](mixed-reality-docs/mr-dev-docs/discover/images/01_MixedReality.png)
 
@@ -12,10 +12,10 @@ ms.locfileid: "98181741"
 
 ## <a name="contributing"></a>Участие
 
-Если вы собираетесь обновлять содержимое документов или обновляете его, сделайте запросы на вытягивание правильными подdocsetми (MR-dev-документация, энтузиаст-Guide и т. д.). Новые участники должны просмотреть подробные рекомендации по каждому субдоксету:
+Если вы создаете или обновляете содержимое документов, убедитесь, что ваши запросы на вытягивание нацелены на правильные вложенные docset (MR-dev-документацию, энтузиаст-Guide и т. д.). Новые участники должны просмотреть подробные рекомендации по каждому субдоксету:
 
 * [Участники смешанной реальности](mixed-reality-docs/mr-dev-docs/CONTRIBUTING.md)
-* [Участники программы VR](mixed-reality-docs/enthusiast-guide/CONTRIBUTING.md)
+* [Участники программы VR](enthusiast-guide/CONTRIBUTING.md)
 
 Для проблем, связанных с документами, используйте нижние колонтитулы в нижней части каждого документа или отправьте их непосредственно в [MicrosoftDocs/Mixed-Reality/проблемы](https://github.com/MicrosoftDocs/mixed-reality/issues).
 

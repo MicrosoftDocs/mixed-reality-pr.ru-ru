@@ -6,12 +6,12 @@ ms.author: glee
 ms.date: 09/25/2019
 ms.topic: article
 keywords: Windows Mixed Reality, проектирование, рука, увлекательная гарнитура, МРТК, руки, помощь в руки, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: ec302cecb106b339828adf1c8777c2ea7ec7fa30
-ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
+ms.openlocfilehash: 0fe0d87e26d06838c0d1b7935573d9bd8ce258ee
+ms.sourcegitcommit: 9ae76b339968f035c703d9c1fe57ddecb33198e3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107300049"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110600433"
 ---
 # <a name="hand-coach"></a>Обучающая рука
 
@@ -85,7 +85,7 @@ ms.locfileid: "107300049"
 
 ## <a name="can-i-create-my-own"></a>Можно ли создать собственную?
 
-Да. Мы рекомендуем вам создать собственный уникальный жест для игры и участвовать в сообществе!
+Да! Мы рекомендуем вам создать собственный уникальный жест для игры и участвовать в сообществе!
 Мы предоставили Maya-файл с определенной нагрузкой, который можно использовать для приложения, который можно скачать здесь: <a href="files/HandCoach_MRTK.zip"> скачать HandCoach_MRTK.zip </a>
 
 ![Пример анимированных рук в Maya](images/HandCoach/MayaSelect_Gif.gif)<br>
@@ -173,7 +173,7 @@ ms.locfileid: "107300049"
   * Параметр для каждого проекта
     * Для сцены задано значение UWP: инструкции см. в [проекте настройки Unity](../develop/unity/Configure-Unity-Project.md) для Windows Mixed Reality.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 * [Принципы взаимодействия](interaction-fundamentals.md)
 * [Процесс создания ресурсов](asset-creation-process.md)
@@ -181,4 +181,4 @@ ms.locfileid: "107300049"
 * [Установка средств](../develop/install-the-tools.md)
 * [Настройка проекта Unity](../develop/unity/Configure-Unity-Project.md)
 * [Обзор разработки в Unity](../develop/unity/unity-development-overview.md)
-* [МРТК 101](../out-of-scope/mrtk-101.md)
+* [МРТК 101](/windows/mixed-reality/mrtk-unity/)

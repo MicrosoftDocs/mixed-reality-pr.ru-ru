@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 02/05/2021
 ms.topic: article
 keywords: Смешанная реальность, Unity, учебник, hololens2, пространственный аудио, МРТК, набор средств для смешанной реальности, UWP, Windows 10, ХРТФ, функция передачи, связанная с HEAD, переглагол, Microsoft Спатиализер, Prefabs, кривая тома
-ms.openlocfilehash: 12d159cb162cbf136483f7be94b0d297319a0737
-ms.sourcegitcommit: 68140e9ce84e69a99c2b3d970c7b8f2927a7fc93
+ms.openlocfilehash: f3f2faf8220eaebcc674bcf02a45d99d58169076
+ms.sourcegitcommit: 4a6c26615d52776bdc4faab70391592092a471fc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "99590766"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "110712811"
 ---
 # <a name="2-spatializing-button-interaction-sounds"></a>2. Придание пространственной формы звуку при взаимодействии с кнопками
 
@@ -27,7 +27,7 @@ ms.locfileid: "99590766"
 
 Чтобы добавить кнопку prefab, в окне **проекта** выберите **пакеты** и введите в строке поиска "PressableButtonHoloLens2".
 
-![Кнопка "prefab" в активах](images/spatial-audio/spatial-audio-02-section1-step1-1.png)
+![Кнопка "prefab" в активах](images/spatial-audio/spatial-audio-02-section1-step1-1.PNG)
 
 Кнопка prefab — это запись, представленная синим значком. Щелкните и перетащите **PressableButtonHoloLens2** prefab в иерархию. Если объект **PressableButtonHoloLens2** все еще выбран, в окне инспектора настройте компонент **преобразования** следующим образом:
 
@@ -35,7 +35,7 @@ ms.locfileid: "99590766"
 * **Rotation** (Поворот): X = 0, Y = 0, Z = 0.
 * **Scale** (Масштаб): X = 1, Y = 1, Z = 1.
 
-![Преобразование кнопки](images/spatial-audio/spatial-audio-02-section1-step1-2.png)
+![Преобразование кнопки](images/spatial-audio/spatial-audio-02-section1-step1-2.PNG)
 
 Чтобы сосредоточиться на объектах в сцене, можно дважды щелкнуть объект **PressableButtonHoloLens2** , а затем немного увеличить масштаб.
 
@@ -45,11 +45,11 @@ ms.locfileid: "99590766"
 
 В окне **микшера звука** будут определены назначения, называемые **группами микшера**, для воспроизведения звука из компонентов **источника аудио** .
 
-Чтобы открыть окно " **звук микшера** ", в меню Unity выберите пункт **окно**  >  **аудио**  >  **аудио микшера**: ![ открыть окно микшера звука.](images/spatial-audio/spatial-audio-02-section2-step1-1.png)
+Чтобы открыть окно " **звук микшера** ", в меню Unity выберите пункт **окно**  >  **аудио**  >  **аудио микшера**: ![ открыть окно микшера звука.](images/spatial-audio/spatial-audio-02-section2-step1-1.PNG)
 
  Создайте **микшер** , щелкнув значок "+" рядом с **миксерс** и введите подходящее имя для микшера, например " _пространственный звуковой микшер_". Новый микшер будет включать в себя **группу** по умолчанию с именем **master**.
 
-![Панель микшера с первым микшером](images/spatial-audio/spatial-audio-02-section2-step1-2.png)
+![Панель микшера с первым микшером](images/spatial-audio/spatial-audio-02-section2-step1-2.PNG)
 
 > [!NOTE]
 > Пока в 5-й главе не будет включена команда переглагола [: для добавления расстояния к пространственному звуку](unity-spatial-audio-ch5.md), индикатор громкости микшера не отображает действия для звуков, воспроизводимых через Microsoft спатиализер
@@ -60,7 +60,7 @@ ms.locfileid: "99590766"
 2. Установите флажок **спатиализе** .
 3. Переместите ползунок **пространственный Blend** в 3D (1).
 
-![Источник звука кнопки](images/spatial-audio/spatial-audio-02-section2-step1-3.png)
+![Источник звука кнопки](images/spatial-audio/spatial-audio-02-section2-step1-3.PNG)
 
 > [!NOTE]
 > Если вы перемещаете **пространственное смешение** в 1 (3D) без проверки флажка **спатиализе** , Unity будет использовать Спатиализер панорамирования вместо **Microsoft спатиализер** с хртфс.
@@ -77,7 +77,7 @@ ms.locfileid: "99590766"
 2. Перетащите конечную точку на кривой **тома** (красную кривую) из "0" на оси y до "1"
 3. Чтобы изменить форму кривой **тома** на плоскую, перетащите элемент управления "фигурная кривая", чтобы он был параллельно с осью X.
 
-![Параметры трехмерного звука кнопки](images/spatial-audio/spatial-audio-02-section3-step1-1.png)
+![Параметры трехмерного звука кнопки](images/spatial-audio/spatial-audio-02-section3-step1-1.PNG)
 
 ## <a name="testing-the-spatialize-audio"></a>Тестирование звука спатиализе
 

@@ -5,12 +5,12 @@ author: CDiaz-ms
 ms.author: cadia
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, LEAP Motion,
-ms.openlocfilehash: 44593713f08a00fa53325eebfae2cf9042d386be
-ms.sourcegitcommit: 62beb626b2db6ce7df86014bd22bf1946b8906b9
+ms.openlocfilehash: 8ef5d26512d50a93691932789e84c099c6246bc3
+ms.sourcegitcommit: b4bdac2c4d7315902712ce74fd909fb8383d4bfd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "110207476"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110543240"
 ---
 # <a name="how-to-configure-leap-motion-by-ultraleap-hand-tracking-in-mrtk"></a>Как настроить отслеживание движения с помощью LEAP (by Ултралеап) в МРТК
 
@@ -25,7 +25,7 @@ ms.locfileid: "110207476"
 | Версия МРТК | Поддерживаемые версии модулей Unity для LEAP |
 | --- | --- |
 |2.6. x | 4.5.0, 4.5.1|
-|2.7. x| 4.5.0, 4.5.1, 4.6.0, 4.7.0, 4.7.1|
+|2.7. x| 4.5.0, 4.5.1, 4.6.0, 4.7.0, 4.7.1, 4.8.0|
 
 
 ## <a name="using-leap-motion-by-ultraleap-hand-tracking-in-mrtk"></a>Отслеживание движения с помощью LEAP (by Ултралеап) в МРТК
@@ -91,7 +91,7 @@ ms.locfileid: "110207476"
 1. Сборка проекта
     - Выберите **файл > параметры сборки**
     - При использовании поставщика данных о движении LEAP поддерживаются только автономные сборки.
-    - Инструкции по использованию головного телефона Windows Mixed Reality для автономных сборок см. в статье [Создание и развертывание мртк (автономной)](wmr-mrtk.md#building-and-deploying-mrtk-standalone).
+    - Инструкции по использованию головного телефона Windows Mixed Reality для автономных сборок см. в статье [Создание и развертывание мртк в вмрных гарнитурах (автономных)](wmr-mrtk.md#building-and-deploying-mrtk-to-wmr-headsets-standalone).
 
 ## <a name="getting-the-hand-joints"></a>Получение соединений с рукой
 

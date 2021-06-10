@@ -1,16 +1,16 @@
 ---
-title: Руководство по настройке смешанной реальности
+title: Рекомендации по настройке смешанной реальности
 description: Документация по настройке МРТК в Unity.
 author: RogPodge
 ms.author: roliu
 ms.date: 01/12/2021
-keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: fc97a2d7c6182b4836d644d91be237e2aef01feb
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК,
+ms.openlocfilehash: b714e01a0969b88a4ca7a3a5047bc5d61516e3f3
+ms.sourcegitcommit: bb9f54f3e872a5464a5d9ba88b7ab5b8896efd82
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110143575"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110345147"
 ---
 # <a name="mixed-reality-toolkit-profile-configuration-guide"></a>Рекомендации по настройке профиля набора средств Mixed Reality
 
@@ -193,8 +193,8 @@ ms.locfileid: "110143575"
 
 | Ограничение оси | Тип данных | Описание | Пример использования |
 | :--- | :--- | :--- | :--- |
-| None | Нет данных | Используется для пустого действия или события | Триггер события |
-| Необработанный (зарезервированный) | object | Зарезервировано для использования в будущем. | Недоступно |
+| Нет | Нет данных | Используется для пустого действия или события | Триггер события |
+| Необработанный (зарезервированный) | объект | Зарезервировано для использования в будущем. | Н/Д |
 | Цифровой | bool | Логическое значение ON или Off типа Data | Кнопка контроллера |
 | Одна ось | FLOAT | Одно значение данных точности | Входной диапазон, например триггер |
 | Двойная ось | Vector2 | Тип данных Dual float для нескольких осей | Dpad или аналоговый стик |
@@ -395,6 +395,6 @@ MixedRealityToolkit.Instance.ActiveProfile = profileToUse;
 
 В процессе переключения профиля существующая Камера интерфейса пользователя останется без изменений, гарантируя, что компоненты пользовательского интерфейса Unity, требующие Canvas, по-прежнему будут работать после параметра.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 - [Стабилизация голограмм](../performance/hologram-stabilization.md)

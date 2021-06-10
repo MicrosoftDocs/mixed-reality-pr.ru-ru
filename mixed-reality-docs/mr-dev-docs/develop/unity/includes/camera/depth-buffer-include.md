@@ -1,15 +1,15 @@
 ---
-ms.openlocfilehash: 3306a9925c55c24c4d72ecb58d7c744dd64b283e
-ms.sourcegitcommit: 0db5777954697f1d738469363bbf385481204d24
+ms.openlocfilehash: 481a063cac3cb4d7e5ef7521ad19af43cb68e2cf
+ms.sourcegitcommit: 9ae76b339968f035c703d9c1fe57ddecb33198e3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "105636317"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110631177"
 ---
 # <a name="mrtk"></a>[MRTK](#tab/mrtk)
 <!-- NEVER CHANGE THE ABOVE LINE! -->
 
-В [диалоговом окне настройки мртк](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/configuration/mrtk-configuration-dialog) будет предпринята попытка задать параметры буфера глубины для XR SDK и устаревшей версии WSA, но рекомендуется проверить эти вкладки и проверить параметры в Unity.
+В [диалоговом окне настройки мртк](/windows/mixed-reality/mrtk-unity/configuration/mrtk-configuration-dialog) будет предпринята попытка задать параметры буфера глубины для XR SDK и устаревшей версии WSA, но рекомендуется проверить эти вкладки и проверить параметры в Unity.
 
 # <a name="xr-sdk"></a>[Пакет SDK для XR](#tab/xr)
 <!-- NEVER CHANGE THE ABOVE LINE! -->
@@ -28,7 +28,7 @@ ms.locfileid: "105636317"
 > [!NOTE]
 > Обычно для повышения производительности рекомендуется использовать 16 битовых буферов глубины. Однако при использовании 16-разрядного формата глубины требуемые эффекты буфера элементов (например, панели прокрутки пользовательского интерфейса Unity) не будут работать, так как [Unity не создает буфер шаблона](https://docs.unity3d.com/ScriptReference/RenderTexture-depth.html) в этом параметре. Если выбрать *24-разрядный формат глубины* , то, как правило, будет создавать [8-разрядный буфер трафаретов](https://docs.unity3d.com/Manual/SL-Stencil.html) , если это применимо на графической платформе конечной платформы.
 
-# <a name="legacy-wsa"></a>[Устаревший WSA](#tab/wsa)
+# <a name="legacy-wsa"></a>[Устаревшая версия WSA](#tab/wsa)
 <!-- NEVER CHANGE THE ABOVE LINE! -->
 
 Чтобы задать, будет ли приложение Unity предоставлять буфер глубины для Windows:

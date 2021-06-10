@@ -3,14 +3,14 @@ title: Основные сведения о сцене
 description: Описание принципов работы с сценами в МРТК
 author: MaxWang-MS
 ms.author: wangmax
-ms.date: 03/02/2021
+ms.date: 05/27/2021
 keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, основные сведения о сцене
-ms.openlocfilehash: ac90359a71267dc64e659f446f35ec2510c42599
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: 1ed6f93216fc90e7c6332f2b9c40911d25d96d2a
+ms.sourcegitcommit: 719682f70a75f732b573442fae8987be1acaaf19
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110143888"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "110743556"
 ---
 # <a name="scene-understanding"></a>Основные сведения о сцене
 
@@ -22,7 +22,10 @@ ms.locfileid: "110143888"
 * Предоставление понятных геометрических объектов с четырьмя подсистемами
 * Ускорение разработки за счет предотвращения необходимости написания аналогичных алгоритмов
 
-Основные сведения о сцене доступны в качестве __экспериментальной__ функции, начиная с мртк 2,6. Он интегрируется в МРТК как [пространственный наблюдатель](spatial-awareness-getting-started.md#register-observers) с именем [`WindowsSceneUnderstandingObserver`](xref:Microsoft.MixedReality.Toolkit.WindowsSceneUnderstanding.Experimental.WindowsSceneUnderstandingObserver) . Понятие "сцены" работает как с устаревшим конвейером XR, так и с конвейером пакета SDK XR. В обоих случаях `WindowsSceneUnderstandingObserver` используется.
+Основные сведения о сцене представлены в виде __экспериментальной__ функции в мртк 2,6. Он интегрируется в МРТК как [пространственный наблюдатель](spatial-awareness-getting-started.md#register-observers) с именем [`WindowsSceneUnderstandingObserver`](xref:Microsoft.MixedReality.Toolkit.WindowsSceneUnderstanding.Experimental.WindowsSceneUnderstandingObserver) . Понятие "сцены" работает как с устаревшим конвейером XR, так и с конвейером пакета SDK XR (Опенкср (начиная с МРТК 2,7) и подключаемым модулем Windows XR). В обоих случаях `WindowsSceneUnderstandingObserver` используется.
+
+> [!NOTE] 
+> Использование сцены в удаленном взаимодействии не поддерживается.
 
 ## <a name="observer-overview"></a>Общие сведения об наблюдателе
 
@@ -44,9 +47,11 @@ ms.locfileid: "110143888"
 
 В Unity используйте обозреватель проектов, чтобы открыть файл сцены в `Examples/Experimental/SceneUnderstanding/Scenes/SceneUnderstandingExample.unity` , и нажмите кнопку Воспроизвести.
 
+::: moniker range="< mrtkunity-2021-05"
 > [!IMPORTANT]
-> При использовании средства «функция Mixed Reality» или при импорте с помощью УПМ импортируйте пример демонстрационной версии Спатиалаваренесс перед импортом примера экспериментального Сценеундерстандинг из-за проблемы с зависимостью. Дополнительные сведения см. в [этой ошибке GitHub](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/9431) .
+> Применяется только к МРТК 2.6.0 — при использовании средства "функция Mixed Reality" или при импорте через УПМ. Импортируйте пример "демонстрационные версии-Спатиалаваренесс" перед импортом примера "экспериментальный-Сценеундерстандинг" из-за проблемы с зависимостью. Дополнительные сведения см. в [этой ошибке GitHub](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/9431) .
 
+::: moniker-end
 Сцена демонстрирует следующее:
 
 * Визуализация наблюдаемых объектов сцены в пользовательском интерфейсе приложения для настройки наблюдателя
@@ -54,8 +59,18 @@ ms.locfileid: "110143888"
 * Сохранение данных сцены на устройстве для автономной разработки
 * Загрузка ранее сохраненных данных сцены (байт-файлов) для поддержки рабочего процесса разработки в редакторе
 
+> [!IMPORTANT]
+> По умолчанию `ShouldLoadFromFile` свойство наблюдателя имеет значение false. Чтобы увидеть визуализацию сериализованного примера комнаты, ознакомьтесь с разделом [Настройка службы наблюдателя](#configuring-the-observer-service) ниже и задайте для свойства значение true в редакторе.
+::: moniker range="< mrtkunity-2021-05"
+
 > [!NOTE] 
 > Пример сцены основан на устаревшем конвейере XR. При использовании конвейера пакета SDK для XR необходимо соответствующим образом изменить профили. Указанная сцена, посвященная системному профилю пространственной информации ( `DemoSceneUnderstandingSystemProfile` ) и сцене, посвященной профилям наблюдателя ( `DefaultSceneUnderstandingObserverProfile` и `DemoSceneUnderstandingObserverProfile` ), работает для обоих конвейеров.
+::: moniker-end
+::: moniker range="= mrtkunity-2021-05"
+
+> [!NOTE] 
+> Пример сцены регистрирует `There is no active AsyncCoroutineRunner when an action is posted.` предупреждение при определенных обстоятельствах из-за инициализации или порядка выполнения потока. Если вы можете подтвердить, что `AsyncCoroutineRunner` компонент подключен к "демонстрационному контроллеру" GameObject, а компонент или GameObject остается включенным/активным в сцене (вариант по умолчанию), это предупреждение можно спокойно проигнорировать.
+::: moniker-end
 
 #### <a name="configuring-the-observer-service"></a>Настройка службы наблюдателя
 
@@ -93,7 +108,7 @@ ms.locfileid: "110143888"
 
 ![Байты сериализованной сцены в наблюдателе](../images/spatial-awareness/BytesLocationInObserver.png)
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
-* [Общие сведения о пространственном сопоставлении ВМР](/windows/mixed-reality/scene-understanding)
-* [Общие сведения о пространственном сопоставлении ВМР](/windows/mixed-reality/scene-understanding-sdk)
+* [Общие сведения о сцене](/windows/mixed-reality/scene-understanding)
+* [Общие сведения о пакете SDK для сцены](/windows/mixed-reality/scene-understanding-sdk)

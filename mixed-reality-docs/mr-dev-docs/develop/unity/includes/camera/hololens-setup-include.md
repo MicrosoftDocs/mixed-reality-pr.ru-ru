@@ -1,15 +1,15 @@
 ---
-ms.openlocfilehash: 7470690a96380184ead7319d4461005042c6db82
-ms.sourcegitcommit: 0db5777954697f1d738469363bbf385481204d24
+ms.openlocfilehash: 6e751f5376110ddc6ae92c75b4182fba8240a356
+ms.sourcegitcommit: 719682f70a75f732b573442fae8987be1acaaf19
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "105636320"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "110748500"
 ---
 # <a name="mrtk"></a>[MRTK](#tab/mrtk)
 <!-- NEVER CHANGE THE ABOVE LINE! -->
 
-Следуйте этому пошаговому [руководству, чтобы](../../tutorials/mr-learning-base-01.md) добавить и автоматически настроить набор средств смешанной реальности в проекте Unity. Кроме того, можно напрямую работать с классом [микседреалитиплайспаце](https://docs.microsoft.com/dotnet/api/microsoft.mixedreality.toolkit.mixedrealityplayspace) из Мртк для Unity и задать для **целевого масштаба** значение **World**:
+Следуйте этому пошаговому [руководству, чтобы](../../tutorials/mr-learning-base-01.md) добавить и автоматически настроить набор средств смешанной реальности в проекте Unity. Кроме того, можно напрямую работать с классом [микседреалитиплайспаце](/dotnet/api/microsoft.mixedreality.toolkit.mixedrealityplayspace) из Мртк для Unity и задать для **целевого масштаба** значение **World**:
 
 ![Окно параметров МРТК](../../images/mrtk-target-scale.png)
 
@@ -47,7 +47,7 @@ xrInputSubsystem.TrySetTrackingOriginMode(TrackingOriginModeFlags.Unbounded); //
 
 1. Добавление **траккедпоседривер** к **основной камере**
 
-# <a name="legacy-wsa"></a>[Устаревший WSA](#tab/wsa)
+# <a name="legacy-wsa"></a>[Устаревшая версия WSA](#tab/wsa)
 <!-- NEVER CHANGE THE ABOVE LINE! -->
 
 1. На панели **Иерархия** выберите **Главная камера** .

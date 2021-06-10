@@ -6,12 +6,12 @@ ms.author: adlinv
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Windows Mixed Reality, Реклама на щитах, пометка, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: 48c7aa28217a38c6c226b65a6e16ed7c950cec59
-ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
+ms.openlocfilehash: 0bd1ac2168284d714240c6775468a61ed3e665b8
+ms.sourcegitcommit: 9ae76b339968f035c703d9c1fe57ddecb33198e3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107299889"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110600343"
 ---
 # <a name="billboarding-and-tag-along"></a>Биллбординг и закрепление элемента в пространстве
 
@@ -49,7 +49,7 @@ Tag — это понятие поведения, которое можно до
 ## <a name="billboarding-and-tag-along-in-mrtk-mixed-reality-toolkit-for-unity"></a>Реклама и теги — вместе с МРТК (набор средств для смешанной реальности) для Unity
 **[Мртк](https://github.com/Microsoft/MixedRealityToolkit-Unity)** предоставляет скрипты для поведения на основе объявлений и тегов. Назначьте скрипт объявления. cs для любого объекта, чтобы добавить поведение объявления и сделать объект всегда лицом к вам. Чтобы добавить поведение тегов, используйте сценарий Радиалвиев. cs. Можно настроить различные параметры, например время лерпинг, расстояние и степень.
 
-* [МРТК-радиальный просмотр решения](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/solvers/solver#radialview)
+* [МРТК-радиальный просмотр решения](/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/solvers/solver#radialview)
 * [МРТК-сценарий для рекламы](https://github.com/microsoft/MixedRealityToolkit-Unity/blob/mrtk_release/Assets/MixedRealityToolkit.SDK/Features/UX/Scripts/Utilities/Billboard.cs)
 
 
@@ -57,7 +57,7 @@ Tag — это понятие поведения, которое можно до
 
 ---
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 * [Курсоры](cursors.md)
 * [Телекинез](point-and-commit.md)

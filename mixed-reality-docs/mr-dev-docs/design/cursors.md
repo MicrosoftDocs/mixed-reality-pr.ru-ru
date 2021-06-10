@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 02/24/2019
 ms.topic: article
 keywords: HoloLens (1-й общий), HoloLens 2, Смешанная реальность, курсоры, нацеленность, взгляд, жесты, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности, лучи, входные данные
-ms.openlocfilehash: 744e75f4212046b7c237a6c6634a4980e9148b0e
-ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
+ms.openlocfilehash: 829d7b3f766f848228946ee0a623f9f3013adca3
+ms.sourcegitcommit: 9ae76b339968f035c703d9c1fe57ddecb33198e3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107300089"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110600383"
 ---
 # <a name="cursors"></a>Курсоры
 
@@ -33,7 +33,7 @@ ms.locfileid: "107300089"
     <tr>
         <td><strong>Возможность</strong></td>
         <td><a href="/hololens/hololens1-hardware"><strong>HoloLens (1-го поколения)</strong></a></td>
-        <td><a href="https://docs.microsoft.com/hololens/hololens2-hardware"><strong>HoloLens 2</strong></td>
+        <td><a href="/hololens/hololens2-hardware"><strong>HoloLens 2</strong></td>
         <td><a href="../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
     </tr>
      <tr>
@@ -165,9 +165,9 @@ ms.locfileid: "107300089"
 
 По умолчанию [мртк](https://github.com/Microsoft/MixedRealityToolkit-Unity) предоставляет курсор prefab ([дефаулткурсор. prefab](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/mrtk_release/Assets/MixedRealityToolkit.SDK/Features/UX/Prefabs/Cursors)), который имеет то же визуальное состояние, что и системный курсор оболочки. Она назначается в профиле ввода данных в MRTK, в разделе "Указатели". Вы можете заменить или настроить этот курсор для работы. Для удобства ввода с отслеживанием взгляда МРТК также предоставляет Эйегазекурсор, который имеет тонкий визуальный элемент, позволяющий избежать вычитания.
 
-* [MRTK — профиль указателя](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/configuration/mixed-reality-configuration-guide#pointer-configuration)
-* [MRTK — система ввода](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/input/overview)
-* [MRTK — указатели](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/input/pointers)
+* [MRTK — профиль указателя](/windows/mixed-reality/mrtk-unity/configuration/mixed-reality-configuration-guide#pointer-configuration)
+* [MRTK — система ввода](/windows/mixed-reality/mrtk-unity/features/input/overview)
+* [MRTK — указатели](/windows/mixed-reality/mrtk-unity/features/input/pointers)
 
 ---
 
