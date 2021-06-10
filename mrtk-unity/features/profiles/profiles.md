@@ -5,12 +5,12 @@ author: RogPodge
 ms.author: roliu
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK, профили
-ms.openlocfilehash: 384614f27c099af197ea8a9aedc72c711f0c099e
-ms.sourcegitcommit: f74d33d50c1fbfebe8571695d631ce78dd599f74
-ms.translationtype: HT
+ms.openlocfilehash: 785d402e924a534627dfd1d742d2019d9ce9dd5a
+ms.sourcegitcommit: 2f69fb62eb81f91e655d7b55306b0550a1162496
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "104881231"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111908238"
 ---
 # <a name="profiles"></a>Профили
 
@@ -31,9 +31,14 @@ ms.locfileid: "104881231"
 
 ## <a name="xr-sdk"></a>Пакет SDK для XR
 
+::: moniker range=">= mrtkunity-2021-05"
+Используйте любой из профилей МРТК по умолчанию, которые настроены для всех конвейеров XR Unity. Предыдущие "Дефаултопенксрконфигуратионпрофиле" и "Дефаултксрсдкконфигуратионпрофиле" теперь помечены как устаревшие.
+::: moniker-end
+::: moniker range="< mrtkunity-2021-05"
 В настоящее время существует два профиля, предоставляемых для пакета SDK для XR: `DefaultXRSDKConfigurationProfile` и `DefaultHoloLens2XRSDKConfigurationProfile`. Поэтому не все примеры сцен поддерживаются полностью (из-за специфических конфигураций сцен и сценариев). Для всех примеров, которые используют `DefaultMixedRealityToolkitConfigurationProfile` и `DefaultHoloLens2ConfigurationProfile`, _можно_ выполнить замену на соответствующие профили SDK для XR. Если вы используете OpenXR с SDK для XR, используйте `DefaultOpenXRConfigurationProfile`.
 
 Мы работаем над упрощением настройки и включением поддержки для всех примеров сцен, что позволит одновременно настраивать устаревшие версии XR и SDK для XR. Отслеживать этот процесс можно в проблеме [№ 9419](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/9419).
+::: moniker-end
 
 Дополнительные сведения о преобразовании профилей устаревших версий XR в профили SDK для XR и наоборот см. в статье [Настройка MRTK для конвейера SDK для XR](../../configuration/getting-started-with-mrtk-and-xrsdk.md#configuring-mrtk-for-the-xr-sdk-pipeline).
 
