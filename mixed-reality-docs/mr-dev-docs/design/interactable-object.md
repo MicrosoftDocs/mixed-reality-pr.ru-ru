@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 06/06/2019
 ms.topic: article
 keywords: Смешанная реальность, элементы управления, взаимодействие, подсказки, Пользовательский интерфейс, UX, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств для смешанной реальности, аудио
-ms.openlocfilehash: 8a68006d68b985f8d26a3d1a11e4d52fcfb5acb5
-ms.sourcegitcommit: 9ae76b339968f035c703d9c1fe57ddecb33198e3
+ms.openlocfilehash: b25c25a6dd48bcc85a556787099734d147d18df2
+ms.sourcegitcommit: c65759b8d6465b6b13925cacab5af74443f7e6bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110600443"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "112110220"
 ---
 # <a name="interactable-object"></a>Активный объект
 
@@ -135,7 +135,7 @@ HoloLens 2 поддерживает вводные данные отслежив
 
 ---
 
-[Кнопка в HoloLens 2](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_Button.html) представляет собой пример визуализации различных состояний взаимодействия.
+[Кнопка в HoloLens 2](/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/button) представляет собой пример визуализации различных состояний взаимодействия.
 
 :::row:::
     :::column:::

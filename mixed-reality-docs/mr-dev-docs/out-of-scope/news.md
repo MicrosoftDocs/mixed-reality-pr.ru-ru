@@ -6,12 +6,12 @@ ms.author: grbury
 ms.date: 10/21/2019
 ms.topic: article
 keywords: Смешанная реальность, разработка, разработка, проектирование, HoloLens, службы Azure, Новости, HoloLens 2
-ms.openlocfilehash: d0955d85c3f7496c28f858657cafeebbb7dbb146
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: 8fc2f7c54cdc941150558aac59dd240ee293d1f8
+ms.sourcegitcommit: c65759b8d6465b6b13925cacab5af74443f7e6bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91683037"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "112110082"
 ---
 # <a name="mixed-reality-news-and-notes"></a>Новости и примечания в смешанной реальности
 
@@ -32,13 +32,13 @@ ms.locfileid: "91683037"
 <tr>
 <td><b>Руководства по переносу</b> <br>1. Из набора средств HoloToolKit (HTK)/Mixed Reality Toolkit Mixed Reality (MRTK) в MRTK версии 2
 <br>2. Из HoloLens (1-го поколения) в HoloLens 2 (из x86 в ARM, рекомендации по взаимодействию и разработке)
-</td></td><td>Май 2019 г.</td><td> <ul><li><a href=https://docs.microsoft.com/windows/mixed-reality/mrtk-porting-guide>Подготовка существующего приложения к использованию с HoloLens 2</a><li><a href=https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/HTKToMRTKPortingGuide.html>Переход с HoloToolKit на API-интерфейсы MRTK </a></td>
+</td></td><td>Май 2019 г.</td><td> <ul><li><a href=https://docs.microsoft.com/windows/mixed-reality/mrtk-porting-guide>Подготовка существующего приложения к использованию с HoloLens 2</a><li><a href=/windows/mixed-reality/mrtk-unity/updates-deployment/htk-to-mrtk-porting-guide>Переход с HoloToolKit на API-интерфейсы MRTK </a></td>
 </tr>
 <tr>
 <td>Выпускаемые ежемесячно модули по разработке с открытым кодом (руководства и примеры приложений)</td><td>Июнь 2019 г.</td><td> <ul><li><a href=https://docs.microsoft.com/windows/mixed-reality/mrlearning-base-ch1>Основной модуль обучения работе со смешанной реальностью</a><li><a href=https://docs.microsoft.com/windows/mixed-reality/mrlearning-asa-ch1>Руководства по Пространственным привязкам Azure</a><li><a href=https://docs.microsoft.com/windows/mixed-reality/mrlearning-speechsdk-ch1>Руководства по использованию службы "Речь" в Azure</a><li><a href=https://docs.microsoft.com/windows/mixed-reality/mrlearning-sharing(photon)-ch1>Руководства по многопользовательским возможностям</a></td>
 </tr>
 <tr>
-<td>МРТК для HoloLens 2</td><td>Октябрь 2019 г.</td><td> <ul><li><a href=https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/GettingStartedWithTheMRTK.html>Документация по MRTK</a><li><a href=https://github.com/Microsoft/MixedRealityToolkit-Unity/releases>МРТК Release 2.1.0</a><li><a href=https://docs.microsoft.com/windows/mixed-reality/mrtk-getting-started>Приступая к работе с MRTK версии 2</a></td>
+<td>МРТК для HoloLens 2</td><td>Октябрь 2019 г.</td><td> <ul><li><a href=/windows/mixed-reality/mrtk-unity>Документация по MRTK</a><li><a href=https://github.com/Microsoft/MixedRealityToolkit-Unity/releases>МРТК Release 2.1.0</a><li><a href=https://docs.microsoft.com/windows/mixed-reality/mrtk-getting-started>Приступая к работе с MRTK версии 2</a></td>
 </tr>
 <tr>
 <td>Служебные программы для приложений с несколькими пользователями</td><td>Октябрь 2019 г.</td><td> <ul><li><a href=https://docs.microsoft.com/windows/mixed-reality/spectator-view>Спектаторвиев для демонстраций</a><li><a href=https://github.com/microsoft/MixedReality-WebRTC>WebRTC, оптимизированный для HoloLens</a>></td>

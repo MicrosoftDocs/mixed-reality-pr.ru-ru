@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 03/21/2018
 ms.topic: article
 keywords: жесты, контроллеры движения, Unity, взгляд, вход, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, МРТК, набор средств для смешанной реальности
-ms.openlocfilehash: ff4c4b064e11e0cad45f4b0c1aaa90c61eda51d7
-ms.sourcegitcommit: 9ae76b339968f035c703d9c1fe57ddecb33198e3
+ms.openlocfilehash: 2daa02a0681fe4f3da24fa32379e10877750af7e
+ms.sourcegitcommit: c65759b8d6465b6b13925cacab5af74443f7e6bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110600663"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "112110225"
 ---
 # <a name="articulated-hand-and-eye-tracking-in-unity"></a>Взгляд на руки и отслеживание глаз в Unity
 
@@ -35,12 +35,12 @@ ms.locfileid: "110600663"
 | Различные поведения позиционирования объектов, такие как тег, блокировка тела, размер представления константы и магнит поверхностей | Скрипт для размещения массива объектов в трехмерной фигуре | Пользовательский интерфейс заметки с гибкой системой привязки и сведениями, который можно использовать для пометки контроллеров движения и объекта. |
 |  [![Панель приложения](images/MRTK_AppBar_Main.png)](/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/app-bar) [Панель приложения](/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/app-bar) | [![Указатели](images/MRTK_Pointer_Main.png)](/windows/mixed-reality/mrtk-unity/features/input/pointers) [Указатели](/windows/mixed-reality/mrtk-unity/features/input/pointers) | [![Визуализация с использованием кончика пальца](images/MRTK_FingertipVisualization_Main.png)](/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/fingertip-visualization) [Визуализация с использованием кончика пальца](/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/fingertip-visualization) |
 | Пользовательский интерфейс для активации ограничивающего прямоугольника вручную | Сведения о различных типах указателей. | Визуальное взаимодействие с учетом того, что повышает уверенность в прямом взаимодействии |
-|  [![Отслеживание взгляда: выбор цели](images/mrtk_et_targetselect.png)](/windows/mixed-reality/mrtk-unity/features/input/eye-tracking/eye-tracking-target-selection) [Отслеживание взгляда: выбор цели](/windows/mixed-reality/mrtk-unity/features/input/eye-tracking/eye-tracking-target-selection) | [![Отслеживание взгляда: навигация](images/mrtk_et_navigation.png)](/windows/mixed-reality/mrtk-unity/features/input/eye-tracking/eye-tracking-navigation) [Отслеживание взгляда: навигация](/windows/mixed-reality/mrtk-unity/features/input/eye-tracking/eye-tracking-navigation) | [![Отслеживание взгляда: тепловая карта](images/mrtk_et_heatmaps.png)](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/EyeTracking/EyeTracking_Visualization.html) [Отслеживание взгляда: тепловая карта](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/EyeTracking/EyeTracking_Visualization.html) |
+|  [![Отслеживание взгляда: выбор цели](images/mrtk_et_targetselect.png)](/windows/mixed-reality/mrtk-unity/features/input/eye-tracking/eye-tracking-target-selection) [Отслеживание взгляда: выбор цели](/windows/mixed-reality/mrtk-unity/features/input/eye-tracking/eye-tracking-target-selection) | [![Отслеживание взгляда: навигация](images/mrtk_et_navigation.png)](/windows/mixed-reality/mrtk-unity/features/input/eye-tracking/eye-tracking-navigation) [Отслеживание взгляда: навигация](/windows/mixed-reality/mrtk-unity/features/input/eye-tracking/eye-tracking-navigation) |
 | Объедините глаза, голоса и руки, чтобы быстро и легко выбирать голограммы в сцене. | Узнайте, как выполнять автоматическую прокрутку текста или увеличить содержимое с учетом того, что вы ищете| Примеры ведения журнала, загрузки и визуализации того, что пользователи просматривают в приложении |
 
 ## <a name="example-scenes"></a>Примеры сцен
 
-Узнайте о различных типах взаимодействий и элементов управления пользовательского интерфейса MRTK с помощью [этого примера сцены](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_HandInteractionExamples.html).
+Узнайте о различных типах взаимодействий и элементов управления пользовательского интерфейса MRTK с помощью [этого примера сцены](/windows/mixed-reality/mrtk-unity/features/example-scenes/hand-interaction-examples).
 
 Другие примеры сцен можно найти в разделе **Assets/микседреалититулкит. examples/демонстрационные материалы** в [GitHub с набором средств для смешанной реальности](https://github.com/Microsoft/MixedRealityToolkit-Unity) .
 
