@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 12/9/2020
 ms.topic: article
 keywords: порт, Unity, Нереал, по промежуточного слоя, ядро, UWP, Win32, перенос, 1-й Gen, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, миграция, Windows 10, сопоставление входных данных
-ms.openlocfilehash: dd09c6479bfcf3659b3e9355be898d77bccc6dc6
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: bb76325c0a2d10150cff6604e29c7ead8a97df8e
+ms.sourcegitcommit: 6ade7e8ebab7003fc24f9e0b5fa81d091369622c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98580582"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112394468"
 ---
 # <a name="porting-vr-apps-to-windows-mixed-reality"></a>Перенос приложений VR в Windows Mixed Reality
 
@@ -30,7 +30,7 @@ Windows 10 включает поддержку для впечатляющих �
 
 ### <a name="1-make-sure-you-have-the-right-development-hardware"></a>1. Убедитесь, что у вас есть правильное оборудование для разработки
 
-На странице [Установка средств](../install-the-tools.md#immersive-vr-headset-requirements) перечислены рекомендуемые средства разработки.
+На странице с [руководством по VR](/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines) .
 
 ### <a name="2-upgrade-to-the-latest-flight-of-windows-10"></a>2. обновление до последнего рейса Windows 10
 
@@ -56,7 +56,7 @@ Windows 10 включает поддержку для впечатляющих �
 > [!IMPORTANT]
 > Если вы используете контроллеры HP reverbы G2, обратитесь к [этой статье](../unreal/unreal-reverb-g2-controllers.md) для получения дополнительных инструкций по сопоставлению входных данных.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 * [Минимальные рекомендации по совместимости Windows Mixed Reality с оборудованием ПК](/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines)
 * [Основные сведения о производительности смешанной реальности](../platform-capabilities-and-apis/understanding-performance-for-mixed-reality.md)
 * [Рекомендации по повышению производительности для Unity](../unity/performance-recommendations-for-unity.md)

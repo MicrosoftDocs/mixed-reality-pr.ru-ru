@@ -6,12 +6,12 @@ ms.author: dobrown
 ms.date: 01/21/2021
 ms.topic: article
 keywords: VR, лбе, развлечения на основе расположения, VR Аркадные, Аркадные, иммерсивное, QR, QR-код, hololens2
-ms.openlocfilehash: 2617d5f811b9d437ece0d5ba2e7dbc909eb16988
-ms.sourcegitcommit: e51e18e443d73a74a9c0b86b3ca5748652cd1b24
+ms.openlocfilehash: 9d3a5d9696fbf875b2e6a890ed837efc055a9e6e
+ms.sourcegitcommit: 6ade7e8ebab7003fc24f9e0b5fa81d091369622c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "103574950"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112394338"
 ---
 # <a name="qr-code-tracking"></a>Отслеживание QR-кода
 
@@ -21,7 +21,7 @@ HoloLens 2 может обнаруживать QR-коды в среде вок�
 
 <table>
 <tr>
-<th>Признак</th><th style="width:150px"> <a href="/hololens/hololens1-hardware">HoloLens (первый общий)</a></th><th style="width:150px">HoloLens 2</th><th style="width:150px"> <a href="../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></th>
+<th>Компонент</th><th style="width:150px"> <a href="/hololens/hololens1-hardware">HoloLens (первый общий)</a></th><th style="width:150px">HoloLens 2</th><th style="width:150px"> <a href="../../discover/immersive-headset-hardware-details.md">Иммерсивные гарнитуры</a></th>
 </tr><tr>
 <td> Обнаружение QR-кода</td><td style="text-align: center;">️</td><td style="text-align: center;"> ✔️</td><td style="text-align: center;">✔️</td>
 </tr>
@@ -33,6 +33,12 @@ HoloLens 2 может обнаруживать QR-коды в среде вок�
 ## <a name="getting-the-qr-package"></a>Получение QR-пакета
 
 Пакет NuGet для обнаружения QR-кода можно скачать [здесь](https://nuget.org/Packages/Microsoft.MixedReality.QR).
+
+## <a name="using-openxr"></a>Использование Опенкср
+
+При использовании подключаемого модуля Опенкср Извлеките [ `SpatialGraphNodeId` из QR-интерфейса API](../platform-capabilities-and-apis/qr-code-tracking.md#qr-api-reference) и используйте `Microsoft.MixedReality.OpenXR.SpatialGraphNode` API для нахождение QR-кода.
+
+Для справки у нас есть [Пример проекта отслеживания QR](https://github.com/yl-msft/QRTracking) -кодов на сайте GitHub с более подробным описанием использования [ `SpatialGraphNode` API](https://github.com/yl-msft/QRTracking/blob/main/SampleQRCodes/Assets/Scripts/SpatialGraphNodeTracker.cs).
 
 ## <a name="detecting-qr-codes"></a>Обнаружение QR-кодов
 
@@ -459,6 +465,6 @@ namespace Microsoft.MixedReality.QR
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 * [Системы координат](../../design/coordinate-systems.md)
 * <a href="/azure/spatial-anchors/overview" target="_blank">Пространственные привязки Azure.</a>
