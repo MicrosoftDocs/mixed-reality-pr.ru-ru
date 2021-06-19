@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 01/11/2021
 ms.topic: article
 keywords: опенкср, Unity, hololens, hololens 2, Mixed Reality, МРТК, набор средств для смешанной реальности, дополненная реальность, виртуальная реальность, гарнитуры смешанной реальности, обучение, учебник, начало работы
-ms.openlocfilehash: e622cd617ccf67c0877b9064efe791743e4c34b6
-ms.sourcegitcommit: b195b82f7e83e2ac4f5d8937d169e9dcb865d46d
+ms.openlocfilehash: 371815d6410a7add8ee9c62f72d746d74ad397b0
+ms.sourcegitcommit: bdf4babd13e021f41fb04cdb3611bb759bd77537
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110333376"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112392672"
 ---
 # <a name="mixed-reality-openxr-supported-features-in-unity"></a>Функции, поддерживаемые Опенкср Mixed Reality в Unity
 
@@ -30,7 +30,7 @@ ms.locfileid: "110333376"
 * Взаимодействие взгляда на HoloLens 2.
 * Поиск камеры фото/Video (ПС) в HoloLens 2.
 * Запись смешанной реальности с помощью визуализации с третьим глазом через камеру ПС.
-* Поддерживает ["Play" в HoloLens 2 с помощью приложения holographic, поддерживающего удаленное взаимодействие](unity-play-mode.md#holographic-remoting-in-unity-editor-play-mode), что позволяет разработчикам выполнять отладку сценариев без создания и развертывания на устройстве.
+* Поддерживает ["Play" в HoloLens 2 с помощью приложения holographic, поддерживающего удаленное взаимодействие](unity-play-mode.md#unity-play-mode-with-holographic-remoting), что позволяет разработчикам выполнять отладку сценариев без создания и развертывания на устройстве.
 * Совместимо с МРТК Unity 2.5.3 и более поздней версии через [поддержку поставщика Мртк опенкср](openxr-getting-started.md#using-mrtk-with-openxr-support).
 * Совместимо с Unity [арфаундатион 4,0](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.1/manual/index.html) или более поздней версии.
 * (Добавлено в 0.1.3) Поддерживает [настольное приложение holographic удаленное взаимодействие](holographic-remoting-desktop.md) из созданного и развернутого автономного приложения Windows.

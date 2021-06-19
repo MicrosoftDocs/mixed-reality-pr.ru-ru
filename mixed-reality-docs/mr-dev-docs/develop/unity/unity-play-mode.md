@@ -6,12 +6,12 @@ ms.author: kurtie
 ms.date: 05/21/2021
 ms.topic: article
 keywords: Unity, удаленное взаимодействие, удаленное взаимодействие с holographic, holographic удаленное взаимодействие, HoloLens, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, режим воспроизведения Unity
-ms.openlocfilehash: caa9d7bf11104ee168fda24fc369de490feb7817
-ms.sourcegitcommit: 5617575cf550dd03fba0bfd5263e97972dcc646b
+ms.openlocfilehash: b998233fda34beee0c98795a1efa2c86a53541ba
+ms.sourcegitcommit: bdf4babd13e021f41fb04cdb3611bb759bd77537
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "111547099"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112392299"
 ---
 # <a name="unity-play-mode"></a>Режим воспроизведения в Unity
 
@@ -24,24 +24,6 @@ ms.locfileid: "111547099"
     * Для работы с подключаемым модулем Опенкср потребуется v версии 2.4 или более поздней.
 
     ![Снимок экрана удаленного проигрывателя holographic, работающего в HoloLens](images/openxr-features-img-01.png)
-
-## <a name="holographic-remoting-in-unity-editor-play-mode"></a>Holographic удаленное взаимодействие в режиме воспроизведения редактора Unity
-
-Создание проекта Unity для UWP в проекте Visual Studio, а затем упаковка и развертывание на устройстве HoloLens 2 может занять некоторое время. Одним из решений является включение функции удаленного взаимодействия в holographic Editor, которая позволяет выполнять отладку сценария C# с помощью режима Play непосредственно на устройстве HoloLens 2 по сети. Этот сценарий позволяет избежать издержек при создании и развертывании пакета UWP на удаленном устройстве.
-
-1. Выполните действия, описанные в разделе [Настройка удаленного взаимодействия с holographic](#holographic-remoting-setup) .
-2. Откройте **Windows > XR > редактор Опенкср удаленное взаимодействие**:
-
-    ![Снимок экрана: панель "Параметры проекта", открытая в редакторе Unity с выделенным подключаемым модулем управления XR](images/openxr-features-img-02.png)
-
-3. Введите IP-адрес, полученный из приложения holographic удаленного взаимодействия, и выберите **включить удаленное взаимодействие редактора** .
-
-    ![Снимок экрана: панель "Параметры проекта", открытая в редакторе Unity с выделенными компонентами](images/openxr-features-img-03.png)
-
-Теперь можно нажать кнопку "Воспроизвести", чтобы воспроизвести приложение Unity в удаленном приложении holographic на HoloLens. Вы также можете [присоединить Visual Studio к Unity](/visualstudio/gamedev/unity/get-started/using-visual-studio-tools-for-unity?pivots=windows) для отладки скриптов C# в режиме воспроизведения.
-
-> [!NOTE]
-> Начиная с версии 0.1.0, среда выполнения holographic Remoting не поддерживает привязки, а функции Аранчорманажер не будут работать через удаленное взаимодействие.  Эта функция появилась в будущих выпусках.
 
 ## <a name="unity-play-mode-with-holographic-remoting"></a>Режим воспроизведения Unity с holographic удаленное взаимодействие
 
