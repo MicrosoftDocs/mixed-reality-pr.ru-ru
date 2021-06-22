@@ -5,12 +5,12 @@ author: MaxWang-MS
 ms.author: wangmax
 ms.date: 05/27/2021
 keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, основные сведения о сцене
-ms.openlocfilehash: 1ed6f93216fc90e7c6332f2b9c40911d25d96d2a
-ms.sourcegitcommit: 719682f70a75f732b573442fae8987be1acaaf19
+ms.openlocfilehash: 67a8b99a281b6deecd621edb5600578806812d8a
+ms.sourcegitcommit: 86fafb3a7ac6a5f60340ae5041619e488223f4f0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "110743556"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "112449753"
 ---
 # <a name="scene-understanding"></a>Основные сведения о сцене
 
@@ -69,7 +69,7 @@ ms.locfileid: "110743556"
 ::: moniker range="= mrtkunity-2021-05"
 
 > [!NOTE] 
-> Пример сцены регистрирует `There is no active AsyncCoroutineRunner when an action is posted.` предупреждение при определенных обстоятельствах из-за инициализации или порядка выполнения потока. Если вы можете подтвердить, что `AsyncCoroutineRunner` компонент подключен к "демонстрационному контроллеру" GameObject, а компонент или GameObject остается включенным/активным в сцене (вариант по умолчанию), это предупреждение можно спокойно проигнорировать.
+> Пример сцены регистрирует `There is no active AsyncCoroutineRunner when an action is posted.` предупреждение при определенных обстоятельствах из-за инициализации или порядка выполнения потока. Если вы можете подтвердить, что `AsyncCoroutineRunner` компонент подключен к "демонстрационному контроллеру" GameObject, а компонент или GameObject остается включенным/активным в сцене (вариант по умолчанию), это предупреждение можно спокойно проигнорировать. **Однако при создании сцены с пониманием сцены необходимо создать пустую GameObject в корне и присоединить `AsyncCoroutineRunner` к ней скрипт, иначе понимание сцены может работать неправильно.**
 ::: moniker-end
 
 #### <a name="configuring-the-observer-service"></a>Настройка службы наблюдателя

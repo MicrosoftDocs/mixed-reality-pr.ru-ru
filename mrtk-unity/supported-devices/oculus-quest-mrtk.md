@@ -1,18 +1,18 @@
 ---
-title: Oculus Quest — MRTK
+title: Сборка и развертывание в Окулус Quest
 description: Документация по настройке Окулус Quest в МРТК
 author: RogPodge
 ms.author: roliu
 ms.date: 01/12/2021
-keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, Окулус Quest,
-ms.openlocfilehash: 6b9c3a8f51388785f685714ef02be680bb98e14c
-ms.sourcegitcommit: 2f69fb62eb81f91e655d7b55306b0550a1162496
+keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, Окулус Quest
+ms.openlocfilehash: 96b4b5b8a68c3b61d54b6796ba01c9e2516ba959
+ms.sourcegitcommit: 86fafb3a7ac6a5f60340ae5041619e488223f4f0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111908392"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "112449763"
 ---
-# <a name="building-and-deploying-mrtk-to-oculus-quest-using-the-xr-sdk-pipeline"></a>Создание и развертывание МРТК в Окулус Quest с помощью конвейера XR SDK
+# <a name="building-and-deploying-to-oculus-quest-using-the-xr-sdk-pipeline"></a>Сборка и развертывание в Окулус Quest с помощью конвейера XR SDK
 
 Требуется [окулусный Quest](https://www.oculus.com/quest/) .
 

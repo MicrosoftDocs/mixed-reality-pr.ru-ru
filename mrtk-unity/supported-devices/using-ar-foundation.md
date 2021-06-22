@@ -1,22 +1,22 @@
 ---
-title: Конфигурация Android и iOS МРТК (Арфаундатион)
+title: Создание и развертывание в Android и iOS с помощью AR Foundation
 description: Документация по настройке МРТК для Android и iOS (Арфаундатион) в Unity
 author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, Mixed Reality, разработка, МРТК, AR Core, AR Kit, iOS, IOS, Android, AR Foundation
-ms.openlocfilehash: 9f621008db76e3f8e443545b795db442d7c17dda
-ms.sourcegitcommit: bb9f54f3e872a5464a5d9ba88b7ab5b8896efd82
+ms.openlocfilehash: 352afbbc11c7cc6fcd2557395c5dd36d956f396d
+ms.sourcegitcommit: 86fafb3a7ac6a5f60340ae5041619e488223f4f0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110345137"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "112449743"
 ---
-# <a name="how-to-configure-mrtk-for-ios-and-android-experimental"></a>Настройка МРТК для iOS и Android [экспериментальная версия]
+# <a name="building-and-deploying-to-android-and-ios-via-ar-foundation-experimental"></a>Создание и развертывание в Android и iOS с помощью AR Foundation [экспериментальная версия]
 
 ## <a name="install-required-packages"></a>Установка необходимых пакетов
 
-1. Скачайте и импортируйте пакет **Microsoft. микседреалити. Toolkit. Unity. Foundation** из [GitHub](https://github.com/microsoft/MixedRealityToolkit-Unity/releases/tag/v2.3.0) или [диспетчера пакетов Unity](../configuration/usingupm.md) .
+1. Скачайте и импортируйте пакет **Microsoft. микседреалити. Toolkit. Unity. Foundation** из [GitHub](https://github.com/microsoft/MixedRealityToolkit-Unity/releases/) или [диспетчера пакетов Unity](../configuration/usingupm.md) .
 
 1. В диспетчере пакетов Unity (УПМ) установите следующие пакеты:
 
@@ -34,12 +34,12 @@ ms.locfileid: "110345137"
     | AR Foundation  <br/> Версия: 2.1.8 |  AR Foundation  <br/> Версия: 2.1.8 |
     | Подключаемый модуль Аркоре XR <br/> Версия: 2.1.11 | Подключаемый модуль ARKit XR <br/> Версия: 2.1.9 |
 
-    **Unity 2020.1. x (в настоящее время не формально поддерживается), включается только в информационных целях.**
+    **Unity 2020.3. x**
 
     | **Android** | **iOS** |
     | --- | --- |
-    | AR Foundation  <br/> Версия: 3.1.3 |  AR Foundation  <br/> Версия: 3.1.3 |
-    | Подключаемый модуль Аркоре XR <br/> Версия: 3.1.4 | Подключаемый модуль ARKit XR <br/> Версия: 3.1.3 |
+    | AR Foundation  <br/> Версия: 3.1.3 |  AR Foundation  <br/> Версия: 4.0.12 |
+    | Подключаемый модуль Аркоре XR <br/> Версия: 3.1.4 | Подключаемый модуль ARKit XR <br/> Версия: 4.1.7 |
 
 1. Обновление скриптов МРТК Унитяр определяется путем вызова пункта меню: " **Смешанная реальность > набор средств > служебные программы > унитяр > обновление сценариев** "
 
@@ -93,6 +93,6 @@ ms.locfileid: "110345137"
 
 1. Сборка и запуск сцены
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Параметры камеры Unity AR](../features/camera-system/unity-ar-camera-settings.md)
