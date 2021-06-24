@@ -1,16 +1,16 @@
 ---
 title: Заметки о выпуске МРТК 2,6
-description: Заметки о выпуске МРТК версии 2,6
+description: Заметки о выпуске для МРТК версии 2,6
 author: polar-kev
 ms.author: kesemple
 ms.date: 05/27/2021
-keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 4ac82f7e07135e840886fef810844ff00ef1ac1e
-ms.sourcegitcommit: a5afc24a4887880e394ef57216b8fd9de9760004
+keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК,
+ms.openlocfilehash: c172e5d071bba22626e9c35b2b4318f1ff779335
+ms.sourcegitcommit: f7839221c9549e60a2c3ac2dbd39f07a6851dcd2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "110647193"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "112562514"
 ---
 # <a name="microsoft-mixed-reality-toolkit-26-release-notes"></a>Заметки о выпуске Microsoft Mixed Reality Toolkit 2,6
 
@@ -40,6 +40,7 @@ ms.locfileid: "110647193"
 Обновляет сцену примера диалогового окна, чтобы правильно описать текущие сценарии диалогового окна.
 
 ## <a name="whats-new-in-260"></a>Новые возможности в 2.6.0
+
 <iframe width="940" height="530" src="https://www.youtube.com/embed/qfONlUCSWdg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
 
@@ -66,7 +67,7 @@ ms.locfileid: "110647193"
 
 ![интерактивилементаддкорестате](../features/images/interactive-element/InEditor/Gifs/InspectorHighlightEditor.gif)
 
-Визуализатор состояния — это компонент анимации, который зависит от интерактивного элемента.  Этот компонент создает анимированные фрагменты, устанавливает опорные кадры и создает конечный автомат аниматор. Дополнительные сведения см. в [документации по визуализатору состояния](../features/experimental/interactive-element.md#state-visualizer-experimental) .
+Визуализатор состояния — это компонент анимации, который зависит от интерактивного элемента. Этот компонент создает анимированные фрагменты, устанавливает опорные кадры и создает конечный автомат аниматор. Дополнительные сведения см. в [документации по визуализатору состояния](../features/experimental/interactive-element.md#state-visualizer-experimental) .
 
 ![статевисуализерколорчанжеонфокус](../features/images/interactive-element/InEditor/Gifs/FocusColorChange.gif)
 
@@ -74,7 +75,7 @@ ms.locfileid: "110647193"
 
 Теперь пользователи могут использовать жест телепортируйтесь, чтобы перемещаться вокруг пространства воспроизведения на всех платформах. Чтобы телепортируйтесь с контроллером на устройствах MR с конфигурациями по умолчанию, используйте аналоговый стик. Чтобы телепортируйтесь с поднятыми руки, нарисуйте жест с помощью своего карманного ПК с помощью индекса и пальца, чтобы выполнить телепортироваться через фигуру указателя. Чтобы телепортируйтесь с моделированием ввода, ознакомьтесь с нашей обновленной [документацией по службе моделирования ввода](../features/input-simulation/input-simulation-service.md).
 
-  ![Жест телепортируйтесь](../features/images/teleport/handteleport.gif)
+![Жест телепортируйтесь](../features/images/teleport/handteleport.gif)
 
 ### <a name="scene-understanding-now-available-in-mrtk-as-an-experimental-spatial-awareness-observer"></a>Основные сведения о сцене теперь доступны в МРТК как экспериментальный наблюдатель пространственной информации
 
@@ -86,7 +87,7 @@ ms.locfileid: "110647193"
 > Для этой функции требуется представление "пакет" для сцены, которое теперь доступно через [инструмент "функция" смешанной реальности](https://aka.ms/MRFeatureTool).
 > При использовании средства «функция Mixed Reality» или при импорте с помощью УПМ импортируйте пример демонстрационной версии Спатиалаваренесс перед импортом примера экспериментального Сценеундерстандинг из-за проблемы с зависимостью. Дополнительные сведения см. в [этой ошибке GitHub](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/9431) .
 
-  ![Основные сведения о сцене](images/SceneUnderstanding.gif)
+![Основные сведения о сцене](images/SceneUnderstanding.gif)
 
 ### <a name="runtime-profile-switching-support"></a>Поддержка переключения профилей среды выполнения
 
@@ -96,18 +97,19 @@ ms.locfileid: "110647193"
 
 Два новых решения для работы с магистральными МРТКми готовы.
 
-  ![Поиск решения для индикатора направления](images/DirectionalIndicatorExampleScene.gif)
+![Поиск решения для индикатора направления](images/DirectionalIndicatorExampleScene.gif)
 
 ### <a name="hand-coach-graduated-from-experimental"></a>Обучение от экспериментального учебного заведения
 
 Теперь функция подготовки к работе уже готова к использованию в магистральной МРТК.
-  ![Пример подготовки к рукой](/windows/mixed-reality/design/images/handcoach/airtap.gif)
+
+![Пример подготовки к рукой](/windows/mixed-reality/design/images/handcoach/airtap.gif)
 
 ### <a name="dialog-controls-graduated-from-experimental"></a>Элементы управления диалогового окна, постепенные от экспериментальных
 
 Элементы управления диалогового окна теперь готовы к использованию в магистральной МРТК.
 
-  ![Элементы управления диалогового окна](https://user-images.githubusercontent.com/13754172/101927792-3326e200-3c18-11eb-88d3-44b4b50c7f7d.png)
+![Элементы управления диалогового окна](https://user-images.githubusercontent.com/13754172/101927792-3326e200-3c18-11eb-88d3-44b4b50c7f7d.png)
 
 ### <a name="pulse-shader-graduated-from-experimental"></a>Постепенной шейдер с экспериментальным выпуском
 
@@ -123,13 +125,13 @@ ms.locfileid: "110647193"
 
 Добавлена поддержка [режима чтения](/hololens/hololens2-display#what-improvements-are-coming-that-will-improve-hololens-2-image-quality) в HoloLens 2. Режим чтения уменьшает поле представления системы, но устраняет масштабирование выходных данных Unity. Пиксель, отображаемый Unity, будет соответствовать прогнозируемому пикселю в HoloLens 2. Авторы приложений должны выполнять тесты с несколькими пользователями, чтобы убедиться в том, что это будет компромисс в своем приложении.
 
-  ![Режим чтения Windows Mixed Reality](images/WMRReadingMode.gif)
+![Режим чтения Windows Mixed Reality](images/WMRReadingMode.gif)
 
 ### <a name="support-for-3d-app-launchers-on-uwp"></a>Поддержка запуска трехмерных приложений в UWP
 
 Добавляет возможность настройки средства [запуска 3D-приложений](/windows/mixed-reality/distribute/3d-app-launcher-design-guidance) для UWP. Этот параметр доступен как в окне сборка МРТК, так и в параметрах проекта МРТК в разделе параметры сборки. Он автоматически записывается в проект во время сборки в Unity.
 
-  ![Параметры сборки](images/ProjectBuildSettings.png)
+![Параметры сборки](images/ProjectBuildSettings.png)
 
 ## <a name="breaking-changes"></a>Критические изменения
 
@@ -150,7 +152,7 @@ ms.locfileid: "110647193"
 ### <a name="openxr"></a>OpenXR
 
 В настоящее время существует известная ситуация с holographic удаленным взаимодействием и Опенкср, в которой соединения не являются постоянно доступными.
-Кроме того, в настоящее время *не* поддерживается отслеживание глаз.
+Кроме того, в настоящее время _не_ поддерживается отслеживание глаз.
 
 ### <a name="some-mixed-reality-toolkit-standard-shader-features-require-the-foundation-package"></a>Для некоторых функций шейдера "Стандартный" набора средств смешанной реальности требуется пакет Foundation
 
@@ -189,7 +191,7 @@ ms.locfileid: "110647193"
 
 ### <a name="oculus-quest"></a>Oculus Quest.
 
-В настоящее время существует известная ошибка при использовании [подключаемого модуля Окулус XR с целью использования изолированных платформ](https://forum.unity.com/threads/unable-to-start-oculus-xr-plugin.913883/).  Ознакомьтесь с разметкой об ошибках Окулус, а также с заметками о выпуске для обновлений.
+В настоящее время существует известная ошибка при использовании [подключаемого модуля Окулус XR с целью использования изолированных платформ](https://forum.unity.com/threads/unable-to-start-oculus-xr-plugin.913883/). Ознакомьтесь с разметкой об ошибках Окулус, а также с заметками о выпуске для обновлений.
 
 Ошибка указывает на этот набор из трех ошибок:
 
