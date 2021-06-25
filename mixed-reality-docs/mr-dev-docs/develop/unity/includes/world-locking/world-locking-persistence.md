@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 96da41f28533c227fb106d8842907747f34098ec
-ms.sourcegitcommit: b195b82f7e83e2ac4f5d8937d169e9dcb865d46d
+ms.openlocfilehash: f937b705f10cc4a287600349283ecaed4ae44666
+ms.sourcegitcommit: 72970dbe6674e28c250f741e50a44a238bb162d4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110349894"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112908007"
 ---
 # <a name="world-locking-tools-recommended"></a>[Средства блокировки по всему миру (рекомендуется)](#tab/wlt)
 
@@ -99,7 +99,7 @@ ARAnchorManager arAnchorManager = GetComponent<ARAnchorManager>();
 XRAnchorStore anchorStore = await arAnchorManager.subsystem.TryGetAnchorStoreAsync();
 ```
 
-Полный пример сохранения и несохраненных привязок см. в примере привязок-> привязок образец GameObject и скрипт Анчорссампле. cs в [примере сцены подключаемого модуля Mixed Reality опенкср](../../openxr-getting-started.md#unity-sample-projects-for-openxr-and-hololens-2):
+Полный пример сохранения и несохраненных привязок см. в примере привязок-> привязок образец GameObject и скрипт Анчорссампле. cs в [примере сцены подключаемого модуля Mixed Reality опенкср](../../xr-project-setup.md#unity-sample-projects-for-openxr-and-hololens-2):
 
 ![Снимок экрана: панель иерархии открыта в редакторе Unity с выделенным образцом "привязки"](../../images/openxr-features-img-04.png)
 
