@@ -6,12 +6,12 @@ ms.author: sostel
 ms.date: 10/29/2019
 ms.topic: article
 keywords: Отслеживание взгляда, Смешанная реальность, ввод, глаз-взгляд, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств для смешанной реальности, проектирование, взаимодействия
-ms.openlocfilehash: 207f8d0f179f722a2e4dd6d6e2bdd9cbf75b2250
-ms.sourcegitcommit: 8f141a843bcfc57e1b18cc606292186b8ac72641
+ms.openlocfilehash: 3067f5533dbe70d4decb6b5cf94a3f1c5029115a
+ms.sourcegitcommit: 72970dbe6674e28c250f741e50a44a238bb162d4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110196579"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112906870"
 ---
 # <a name="eye-gaze-based-interaction-on-hololens-2"></a>Взгляд на основе взгляда на HoloLens 2
 
@@ -123,13 +123,13 @@ ms.locfileid: "110196579"
   
 <br>
 
-На этой странице предоставлен хороший обзор, чтобы приступить к пониманию взгляда в качестве входных данных в смешанной реальности. Чтобы приступить к разработке, ознакомьтесь со сведениями об [глаза в Unity](https://aka.ms/mrtk-eyes) и [глаза-взгляде в DirectX](../develop/native/gaze-in-directx.md).
+На этой странице предоставлен хороший обзор, чтобы приступить к пониманию взгляда в качестве входных данных в смешанной реальности. Чтобы приступить к разработке, ознакомьтесь со сведениями об [глаза в Unity](/windows/mixed-reality/mrtk-unity/features/input/eye-tracking/eye-tracking-main) и [глаза-взгляде в DirectX](../develop/native/gaze-in-directx.md).
 
 
 ## <a name="see-also"></a>См. также статью
 * [Комфорт](comfort.md)
 * [Глаза. Взгляните на DirectX](../develop/native/gaze-in-directx.md)
-* [Взгляд — Взгляните на Unity (набор средств Mixed Reality)](https://aka.ms/mrtk-eyes)
+* [Взгляд — Взгляните на Unity (набор средств Mixed Reality)](/windows/mixed-reality/mrtk-unity/features/input/eye-tracking/eye-tracking-main)
 * [Отслеживание глаз в HoloLens 2](eye-tracking.md)
 * [Взгляд и фиксация](gaze-and-commit.md)
 * [Взгляд и остановка](gaze-and-dwell.md)

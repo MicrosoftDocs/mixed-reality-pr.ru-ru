@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 04/22/2021
 ms.topic: article
 keywords: микседреалититулкит, микседреалититулкит-Unity, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, Unity
-ms.openlocfilehash: df7c5039c6cdcfa1e39dc96f0829611dd5209772
-ms.sourcegitcommit: 6ade7e8ebab7003fc24f9e0b5fa81d091369622c
+ms.openlocfilehash: d265725caf95379dfa01baa6dad1b7927fbeca5c
+ms.sourcegitcommit: 72970dbe6674e28c250f741e50a44a238bb162d4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112394568"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112906948"
 ---
 # <a name="setting-up-your-xr-configuration"></a>Настройка конфигурации XR
 
@@ -27,7 +27,7 @@ ms.locfileid: "112394568"
 MRTK для Unity предоставляет кросс-платформенную систему ввода, базовые компоненты и общие строительные блоки для пространственных взаимодействий. MRTK версии 2 предназначен для ускорения разработки приложений для Microsoft HoloLens, иммерсивных гарнитур (гарнитур виртуальной реальности) Windows Mixed Reality и платформы OpenVR. Цель проекта — упростить разработку приложений смешанной реальности и вносить вклад в сообщество по мере развития навыков.
 
 > [!div class="nextstepaction"]
-> [Ознакомьтесь с нашими руководствами по МРТК](/windows/mixed-reality/develop/unity/tutorials/mr-learning-base-02?tabs=winxr)
+> [Ознакомьтесь с нашими руководствами по МРТК](./tutorials/mr-learning-base-02.md?tabs=winxr)
 
 Дополнительные сведения о функциях см. в [документации по MRTK ](/windows/mixed-reality/mrtk-unity).
 

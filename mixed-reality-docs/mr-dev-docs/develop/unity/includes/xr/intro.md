@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: ca3589364fb27c3f8087572113f09e48d30e087e
-ms.sourcegitcommit: 6ade7e8ebab7003fc24f9e0b5fa81d091369622c
+ms.openlocfilehash: d39f6032eaf9a59ca52a6e7ae9b8e4d227175738
+ms.sourcegitcommit: 72970dbe6674e28c250f741e50a44a238bb162d4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112394578"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112906951"
 ---
 # <a name="openxr"></a>[OpenXR](#tab/openxr)
 
@@ -12,9 +12,9 @@ ms.locfileid: "112394578"
 
 Подключаемый модуль Mixed Reality Опенкср полностью поддерживает AR Foundation 4,0, предоставляя реализации Арпланеманажер и Аррайкастманажер. Это позволяет написать райкастингный код, который затем охватывает телефоны и Аркореы HoloLens 2 и ARKit.
 
-### <a name="prerequisites"></a>Обязательные условия 
+### <a name="prerequisites"></a>Предварительные требования 
 
-* Новейшие [средства для разработки HoloLens 2](/windows/mixed-reality/develop/install-the-tools?tabs=unity#installation-checklist)
+* Новейшие [средства для разработки HoloLens 2](../../../install-the-tools.md?tabs=unity#installation-checklist)
 * Новейшая версия Unity 2020,3 LTS (рекомендуется 2020.3.8 F1 или выше).
 
 ### <a name="minimum-versions"></a>Минимальные версии
