@@ -5,12 +5,12 @@ author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, Mixed Reality, разработка, МРТК, расширения системы,
-ms.openlocfilehash: add1f443edb687edfc387a316d83443779e079f9
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: 358294702971b7d9e8de1b842d3bc1844e5dc9bf
+ms.sourcegitcommit: 8b4c2b1aac83bc8adf46acfd92b564f899ef7735
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110143502"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113121472"
 ---
 # <a name="systems-extension-services-and-data-providers"></a>Системы, службы расширений и поставщики данных
 
@@ -30,7 +30,7 @@ ms.locfileid: "110143502"
 
 Каждая из перечисленных систем отображается в [профиле](../features/profiles/profiles.md)конфигурации компонента микседреалититулкит.
 
-## <a name="extensions"></a>Модули
+## <a name="extensions"></a>Расширения
 
 Службы расширения — это компоненты, расширяющие функциональные возможности набора средств Mixed Reality. Все службы расширений должны указывать, что они реализуют [`IMixedRealityExtensionService`](xref:Microsoft.MixedReality.Toolkit.IMixedRealityExtensionService) интерфейс.
 

@@ -1,16 +1,16 @@
 ---
-title: Экспериментальные возможности
+title: Экспериментальные функции
 description: Документ, относящийся к экспериментальным функциям в МРТК.
 author: polar-kev
 ms.author: kesemple
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 705b7ab96d22c5c94c04476de30e5524095c1ce2
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: 341ba0ee3e5900cc52f1ef715232f49064102309
+ms.sourcegitcommit: 8b4c2b1aac83bc8adf46acfd92b564f899ef7735
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110144780"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113121382"
 ---
 # <a name="experimental-features"></a>Экспериментальные функции
 
@@ -56,7 +56,7 @@ ms.locfileid: "110144780"
 
 ### <a name="menus-for-experimental-features-should-go-under-experimental-sub-menu"></a>Меню экспериментальных функций следует открывать в подменю "экспериментальные"
 
-Убедитесь, что экспериментальные функции находятся в подменю "экспериментальные" при добавлении команд в меню редактора. Вот несколько примеров:
+Убедитесь, что экспериментальные функции находятся в подменю "экспериментальные" при добавлении команд в меню редактора. Вот несколько таких случаев.
 
 Добавление команды меню верхнего уровня:
 

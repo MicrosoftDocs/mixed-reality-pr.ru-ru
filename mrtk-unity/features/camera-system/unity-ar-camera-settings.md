@@ -5,12 +5,12 @@ author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, AR Camera,
-ms.openlocfilehash: baa54f4a7c6238b136a108cf5adcbddd29c3ee1b
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: e1c032805bc4b733cfcc51e1ceac5096c73715cf
+ms.sourcegitcommit: 8b4c2b1aac83bc8adf46acfd92b564f899ef7735
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110143464"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113121202"
 ---
 # <a name="unity-ar-camera-settings-provider"></a>Поставщик параметров камеры Unity AR
 
@@ -32,7 +32,7 @@ ms.locfileid: "110143464"
 
 Доступные параметры описаны в следующей таблице.
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --- | --- |
 | Center | Центр видимости головного подключенного устройства. |
 | Цветовая Камера | Цветовая камера мобильного устройства. |
@@ -50,7 +50,7 @@ ms.locfileid: "110143464"
 
 Доступные параметры описаны в следующей таблице.
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --- | --- |
 | Положение | Расположение устройства. |
 | Поворот | Поворот устройства. |
@@ -64,7 +64,7 @@ ms.locfileid: "110143464"
 
 Доступные параметры описаны в следующей таблице.
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --- | --- |
 | Перед отрисовкой | Непосредственно перед отрисовкой. |
 | Update | На этапе обновления рамки. |

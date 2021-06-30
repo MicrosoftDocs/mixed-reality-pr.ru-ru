@@ -1,16 +1,16 @@
 ---
-title: Рекомендации по кодированию
-description: принципы программирования и соглашения, которым следует следовать при участии в МРТК.
+title: Рекомендации по программированию
+description: Принципы программирования и соглашения, которым следует следовать при участии в МРТК.
 author: polar-kev
 ms.author: kesemple
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, C#,
-ms.openlocfilehash: 8887e248bd550bdd7a59f19c16df1ec3647ceff7
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: 122c51962c55796c037302c7b79cc4df643a47b7
+ms.sourcegitcommit: 8b4c2b1aac83bc8adf46acfd92b564f899ef7735
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110145240"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113121442"
 ---
 # <a name="coding-guidelines"></a>Рекомендации по программированию
 
@@ -195,7 +195,7 @@ public override void OnInspectorGUI()
 public class MyNewProfile : ScriptableObject
 ```
 
-### <a name="logging"></a>Logging
+### <a name="logging"></a>Ведение журнала
 
 При добавлении новых или обновлении существующих компонентов рекомендуется добавить журналы Дебугутилитиес. Логвербосе в интересный код, который может быть полезен для последующей отладки. Существует компромисс между добавлением журналов и дополнительными помехами и недостаточным протоколированием (что затрудняет диагностику).
 
@@ -682,12 +682,12 @@ public class MyClass
 
 |Платформа | IL2CPP UWP | UWP .NET | Редактор |
 | --- | --- | --- | --- |
-| `UNITY_EDITOR` | False | False | True |
-| `UNITY_WSA` | True | True | True |
-| `WINDOWS_UWP` | True | True | False |
-| `UNITY_WSA && !UNITY_EDITOR` | True | True | False |
-| `ENABLE_WINMD_SUPPORT` | True | True | False |
-| `NETFX_CORE` | False | True | False |
+| `UNITY_EDITOR` | Неверно | False | Да |
+| `UNITY_WSA` | Да | Да | Да |
+| `WINDOWS_UWP` | Да | Да | False |
+| `UNITY_WSA && !UNITY_EDITOR` | Да | Да | False |
+| `ENABLE_WINMD_SUPPORT` | Да | Да | Неверно |
+| `NETFX_CORE` | False | Да | Неверно |
 
 ### <a name="prefer-datetimeutcnow-over-datetimenow"></a>Предпочитать DateTime. UtcNow через DateTime. Now
 

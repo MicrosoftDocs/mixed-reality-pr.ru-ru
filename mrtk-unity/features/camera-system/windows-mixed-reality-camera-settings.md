@@ -1,16 +1,16 @@
 ---
 title: Параметры камеры Windows Mixed Reality
-description: Документация по использованию камеры Windows Mixed Reality в МРТК
+description: Документация по использованию параметров камеры Windows Mixed Reality в МРТК
 author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, Камера,
-ms.openlocfilehash: 94e00f47dc565af0824ef6acf5c08a9e99d4529f
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: 49b178b7ebd1fbcdaab9648baeaa6abfa9e885ea
+ms.sourcegitcommit: 8b4c2b1aac83bc8adf46acfd92b564f899ef7735
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110145160"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113121642"
 ---
 # <a name="windows-mixed-reality-camera-settings-provider"></a>Поставщик параметров камеры Windows Mixed Reality
 

@@ -1,16 +1,16 @@
 ---
-title: Настройка системы диагностики
+title: Настройка диагностики
 description: Документация по настройке диагностики в МРТК
 author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 2ff761baa728017eb011cb9105cf203e6e3a72e4
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: 211ee2ed06ba9b13bd90169bcc7ee50da4594034
+ms.sourcegitcommit: 8b4c2b1aac83bc8adf46acfd92b564f899ef7735
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110144172"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113121802"
 ---
 # <a name="configuring-the-diagnostics-system"></a>Настройка системы диагностики
 

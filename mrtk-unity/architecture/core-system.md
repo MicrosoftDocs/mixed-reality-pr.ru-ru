@@ -1,16 +1,16 @@
 ---
-title: Базовая система
+title: Основная система
 description: Система ввода, диспетчеры устройств и поставщики данных в МРТК
 author: cDiaz-MS
 ms.author: cadia
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, события
-ms.openlocfilehash: 12719a6c749a03648d4f75e9e6461b85cc9ab275
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: 79ebd3855cd991db168233f00058ab5d42f87d83
+ms.sourcegitcommit: 8b4c2b1aac83bc8adf46acfd92b564f899ef7735
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110144290"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113121602"
 ---
 # <a name="core-system"></a>Основная система
 

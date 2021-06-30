@@ -5,12 +5,12 @@ author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, система границ,
-ms.openlocfilehash: 36717493107b129a7200dd3f912bcbdc3337b9a1
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: 0f1a9edd9f9a31e7ba20f630406b299909a4864c
+ms.sourcegitcommit: 8b4c2b1aac83bc8adf46acfd92b564f899ef7735
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110144494"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113121252"
 ---
 # <a name="configuring-the-boundary-visualization"></a>Настройка визуализации границ
 
@@ -82,7 +82,7 @@ ms.locfileid: "110144494"
 
 **Показать**
 
-Указывает, должны ли создаваться и добавляться на сцену граничные плоскости. Значением по умолчанию является false.
+Указывает, должны ли создаваться и добавляться на сцену граничные плоскости. Значение по умолчанию — false.
 
 **Материал**
 
@@ -101,7 +101,7 @@ ms.locfileid: "110144494"
 
 **Показать**
 
-Указывает, следует ли создать плоскость границы и добавить ее в сцену. Значением по умолчанию является false.
+Указывает, следует ли создать плоскость границы и добавить ее в сцену. Значение по умолчанию — false.
 
 **Материал**
 

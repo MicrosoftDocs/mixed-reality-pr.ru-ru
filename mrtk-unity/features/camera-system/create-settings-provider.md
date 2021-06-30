@@ -1,16 +1,16 @@
 ---
 title: Создание поставщика параметров
-description: поставщик данных для параметров камеры в МРТК
+description: Поставщик данных для параметров камеры в МРТК
 author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 6ec3fc1c88c1a32334cb2869ad1994863e55bf9a
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: d07b84c3cf550f9a235e58286b4cd239ac43b649
+ms.sourcegitcommit: 8b4c2b1aac83bc8adf46acfd92b564f899ef7735
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110144896"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113121192"
 ---
 # <a name="creating-a-camera-settings-provider"></a>Создание поставщика параметров камеры
 

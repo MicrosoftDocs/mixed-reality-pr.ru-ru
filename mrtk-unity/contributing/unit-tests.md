@@ -1,16 +1,16 @@
 ---
 title: Модульные тесты
-description: UnitTests проверить надежность МРТК.
+description: Модульные тесты для проверки надежности МРТК.
 author: RogPodge
 ms.author: roliu
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, Mixed Reality, разработка, МРТК, UnitTest,
-ms.openlocfilehash: 76d246634cf190787fcfd78c849a0bd6da3a2135
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: a915b005a69de1864a5674bbb0363f18d1c74b19
+ms.sourcegitcommit: 8b4c2b1aac83bc8adf46acfd92b564f899ef7735
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110144712"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113121352"
 ---
 # <a name="writing-and-running-tests-in-mrtk"></a>Написание и выполнение тестов в МРТК
 
@@ -270,7 +270,7 @@ namespace Microsoft.MixedReality.Toolkit.Tests.Input
 ```
 
 Рассмотрите возможность размещения теста в иерархии папок, похожей на соответствующий файл, не являющийся тестом.
-Пример:
+Пример.
 
 ```md
 Non-Test: Assets/MRTK/Core/Utilities/InterestingUtilityClass.cs
