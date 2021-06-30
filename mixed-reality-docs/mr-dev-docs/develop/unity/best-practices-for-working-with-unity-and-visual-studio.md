@@ -6,12 +6,12 @@ ms.author: mazeller
 ms.date: 03/21/2018
 ms.topic: article
 keywords: развертывание, Unity, Visual Studio, HoloLens, HoloLens 2, закрепляемая гарнитура, лучшие методики, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, UWP, Инструменты Visual Studio, Windows SDK
-ms.openlocfilehash: 6940382af605c28686cec862cf2d9b6cb8411387
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: edd79b95d02cfeb1da4effc485fc57078e3d24a3
+ms.sourcegitcommit: 12ea3fb2df4664c5efd07dcbb9040c2ff173afb6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98583461"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "113042265"
 ---
 # <a name="best-practices-for-working-with-unity-and-visual-studio"></a>Рекомендации по работе с Unity и Visual Studio
 
@@ -19,7 +19,7 @@ ms.locfileid: "98583461"
 
 ## <a name="improving-iteration-time"></a>Увеличение времени итерации
 
-Поддержка серверной части сценариев .NET в Unity является устаревшей в Unity 2018 и удалена в Unity 2019 +. Поэтому мы рекомендуем переключиться на [IL2CPP](https://docs.unity3d.com/Manual/IL2CPP.html). Однако время от Unity до Visual Studio может происходить дольше. Чтобы улучшить для ускорения итерации, настройте среду для достижения наилучших результатов компиляции:
+Поддержка серверной части сценариев .NET в Unity была признана устаревшей в Unity 2018 и удалена из Unity 2019 +, поэтому мы рекомендуем перейти на [IL2CPP](https://docs.unity3d.com/Manual/IL2CPP.html). Однако время от Unity до Visual Studio может происходить дольше. Чтобы улучшить для ускорения итерации, настройте среду для достижения наилучших результатов компиляции:
 
 1) Используйте добавочное построение, создав проект в одном каталоге каждый раз, повторно используя предварительно созданные файлы
 2) Отключить сканирование антивредоносного по для проекта & папок сборки
@@ -57,7 +57,7 @@ ms.locfileid: "98583461"
 
 Хранение ресурсов в текстовом формате упрощает проверку различий изменений содержимого в Visual Studio. Ресурсы можно хранить в текстовом формате, выбрав **изменить > параметры проекта > редактор** и изменить режим **сериализации ресурсов** для **принудительного ввода текста**. Однако слияние изменений в файлах с текстовыми ресурсами является подверженным ошибкам и не рекомендуется, поэтому рекомендуется включить эксклюзивное двоичное извлечение в системе управления версиями.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Набор средств Visual Studio для Unity](https://visualstudiogallery.msdn.microsoft.com/8d26236e-4a64-4d64-8486-7df95156aba9)
 - [Оптимизация времени сборки для IL2CPP](https://docs.unity3d.com/Manual/IL2CPP-OptimizingBuildTimes.html)
 - [*Унитискриптанализер* Расширение Visual Studio](https://github.com/Microsoft/MixedRealityCompanionKit/tree/master/UnityScriptAnalyzer)

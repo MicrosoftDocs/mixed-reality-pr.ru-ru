@@ -1,18 +1,18 @@
 ---
-title: Развертывание в Hololens и ВМР гарнитурах
+title: Развертывание в HoloLens и ВМР гарнитурах
 description: Документация по сборке и развертыванию приложений на разных устройствах.
 author: polar-kev
 ms.author: kesemple
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, Visual Studio
-ms.openlocfilehash: 1547f0630d307e9e87505890adef4cad366d6c00
-ms.sourcegitcommit: 4c1dd5c22af69eeb192425118c2bfb95344b8dd9
+ms.openlocfilehash: 12384c3d3c0c2208d86a9a946580d0311f8a8955
+ms.sourcegitcommit: 12ea3fb2df4664c5efd07dcbb9040c2ff173afb6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110441160"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "113042305"
 ---
-# <a name="deploying-to-hololens-and-wmr-headsets"></a>Развертывание в Hololens и ВМР гарнитурах
+# <a name="deploying-to-hololens-and-wmr-headsets"></a>Развертывание в HoloLens и ВМР гарнитурах
 
 Существует два способа развертывания приложений, созданных с помощью МРТК, на устройстве Windows, на платформе универсальной Windows (UWP) и на автономной платформе. Приложения, созданные для HoloLens 1 или HoloLens 2, должны ориентироваться на UWP, а приложения, созданные для гарнитур ВМР, могут ориентироваться либо на UWP, либо на изолированный.
 
@@ -37,17 +37,17 @@ ms.locfileid: "110441160"
 
 Убедитесь, что раскрывающийся список "Target SDK Version" (Целевая версия пакета SDK) содержит вариант "10.0.18362.0". Если он отсутствует, необходимо установить [последнюю версию Windows SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk).
 
-### <a name="unity-20193-and-hololens"></a>Unity 2019.3 и HoloLens
+### <a name="unity-20192020-and-hololens"></a>Unity 2019/2020 и HoloLens
 
-Если приложение HoloLens отображается на устройстве в формате двухмерной панели, перед развертыванием приложения UWP убедитесь, что в Unity 2019.3. x были настроены следующие параметры.
+Если приложение HoloLens отображается в виде двухмерной панели на устройстве, перед развертыванием приложения UWP убедитесь, что в Unity были настроены следующие параметры.
 
-При использовании старой версии XR выполните следующие действия:
+При использовании встроенной поддержки XR (только для Unity 2019):
 
 1. Последовательно выберите Edit > Project Settings, Player (Правка — Параметры проекта — Средство воспроизведения).
 1. В разделе **XR Settings** (Параметры смешанной реальности) на вкладке UWP убедитесь, что включен параметр **Virtual Reality Supported** (Поддержка виртуальной реальности), а в список пакетов SDK добавлен SDK **Windows Mixed Reality**.
 1. Выполните сборку и развертывание в Visual Studio.
 
-При использовании подключаемого модуля смешанной реальности выполните следующие действия:
+При использовании подключаемых модулей Опенкср или Windows XR:
 
 1. Выполните шаги, описанные в статье [Начало работы с XRSDK](../configuration/getting-started-with-mrtk-and-xrsdk.md).
 1. Убедитесь, что **DefaultXRSDKConfigurationProfile** выбран в качестве профиля конфигурации.
@@ -55,9 +55,11 @@ ms.locfileid: "110441160"
 1. Выполните сборку и развертывание в Visual Studio.
 
 >[!IMPORTANT]
-> При использовании Unity 2019.3.x в качестве архитектуры сборки в Visual Studio выберите **ARM64**, а не **ARM**. При стандартных параметрах Unity для версии Unity 2019.3.x из-за ошибки Unity приложение Unity не сможет развернуться на HoloLens, если выбрана архитектура ARM. Подробнее об этой проблеме см. в [системе контроля проблем Unity](https://issuetracker.unity3d.com/issues/enabling-graphics-jobs-in-2019-dot-3-x-results-in-a-crash-or-nothing-rendering-on-hololens-2).
+> При использовании Unity 2019.3.x в качестве архитектуры сборки в Visual Studio выберите **ARM64**, а не **ARM**. При стандартных параметрах Unity для версии Unity 2019.3.x из-за ошибки Unity приложение Unity не сможет развернуться на HoloLens, если выбрана архитектура ARM.
 >
 > Если архитектура ARM является обязательной, выберите **Edit > Project Settings, Player** (Правка — Параметры проекта — Средство воспроизведения), а затем в меню **Other Settings** (Другие настройки) отключите параметр **Graphics Jobs** (Графические задания). Отключение параметра **Graphics Jobs** (Графические задания) позволит развернуть приложение с архитектурой сборки ARM в Unity 2019.3.x, но мы рекомендуем использовать ARM64.
+>
+> Эта проблема была исправлена в Unity 2019,4 и Unity 2020,3.
 
 ## <a name="building-and-deploying-mrtk-to-wmr-headsets-standalone"></a>Создание и развертывание МРТК на ВМРные гарнитуры (изолированные)
 
