@@ -1,22 +1,22 @@
 ---
-title: HoverLight
+title: Светлое наведение
 description: Документация по Ховерлигхт с примерами в МРТК
 author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
-keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, светлое наведение,
-ms.openlocfilehash: b98dff0dd3ff0312f6ce607a5fb8a26f94959ff2
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, светлое наведение,
+ms.openlocfilehash: ed45d3345931376283cfca2372ac57459c777f6e
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110145175"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113176732"
 ---
-# <a name="hover-light"></a>HoverLight
+# <a name="hover-light"></a>Светлое наведение
 
-[`HoverLight`](xref:Microsoft.MixedReality.Toolkit.Utilities.HoverLight)— Это [Простая](https://docs.unity3d.com/Manual/Lighting.html) парадигма [системы разработки](https://www.microsoft.com/design/fluent/) , которая имитирует точку, наведя курсор мыши на поверхность объекта. Как правило, для далекого взаимодействия приложение может управлять свойствами светлого наведения с помощью [`HoverLight`](xref:Microsoft.MixedReality.Toolkit.Utilities.HoverLight) компонента.
+[`HoverLight`](xref:Microsoft.MixedReality.Toolkit.Utilities.HoverLight)— это [система Fluent Design](https://www.microsoft.com/design/fluent/) парадигма, которая имитирует [точку](https://docs.unity3d.com/Manual/Lighting.html) , наведя на нее курсор мыши рядом с поверхностью объекта. Как правило, для далекого взаимодействия приложение может управлять свойствами светлого наведения с помощью [`HoverLight`](xref:Microsoft.MixedReality.Toolkit.Utilities.HoverLight) компонента.
 
-Чтобы получить доступ к материалам, [`HoverLight`](xref:Microsoft.MixedReality.Toolkit.Utilities.HoverLight) необходимо использовать шейдер *набора средств "смешанная реальность" или "Стандартный* ", а свойство " *светлое" наведение* должно быть включено.
+чтобы на материал повлияло [`HoverLight`](xref:Microsoft.MixedReality.Toolkit.Utilities.HoverLight) использование шейдера " *смешанная реальность" набор средств/Standard* , необходимо использовать построитель текстуры, а свойство « *светлое* » должно быть включено.
 
 > [!Note]
 > Шейдер МРТК/Standard поддерживает [`HoverLights`](xref:Microsoft.MixedReality.Toolkit.Utilities.HoverLight) по умолчанию до двух, но будет масштабироваться для поддержки четырех, а затем десять раз по мере добавления источников света в сцену.
@@ -61,6 +61,6 @@ private const int hoverLightCountHigh = 12;
 >
 > `Property (_HoverLightData) exceeds previous array size (24 vs 20). Cap to previous >size.`
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 * [Стандартный шейдер MRTK](mrtk-standard-shader.md)

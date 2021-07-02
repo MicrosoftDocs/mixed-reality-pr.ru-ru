@@ -5,16 +5,16 @@ author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: c3238aed60f6bbf824c74c034ddf506f49f436c7
-ms.sourcegitcommit: 8b4c2b1aac83bc8adf46acfd92b564f899ef7735
+ms.openlocfilehash: 018d6bf2087b73697a1e1f43e206c96ae25e1f21
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113121652"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113177223"
 ---
 # <a name="using-the-visual-profiler"></a>Использование Visual Profiler
 
-Висуалпрофилер предоставляет простое в использовании представление производительности приложения смешанной реальности в приложении. Профилировщик поддерживается на всех платформах набора средств смешанной реальности, включая:
+Висуалпрофилер предоставляет простое в использовании представление производительности приложения смешанной реальности в приложении. профилировщик поддерживается на всех платформах набор средств смешанной реальности, в том числе:
 
 - Microsoft HoloLens (1-й общий)
 - Microsoft HoloLens 2;
@@ -34,7 +34,7 @@ ms.locfileid: "113121652"
 
 - [Частота кадров](#frame-rate)
 - [Время кадра](#frame-time)
-- [Граф кадров](#frame-graph)
+- [Graph кадров](#frame-graph)
 - [Использование памяти](#memory-utilization)
 
 ### <a name="frame-rate"></a>Частота кадров
@@ -47,7 +47,7 @@ ms.locfileid: "113121652"
 - Windows Mixed Reality Ultra: 90
 
 > [!NOTE]
-> Из-за [регулирования частоты кадров в HoloLens при активном ограничении по умолчанию](/windows/mixed-reality/mixed-reality-capture-for-developers#what-to-expect-when-mrc-is-enabled-on-hololens)Визуальный профилировщик скрывает себя во время записи видео и фотографий. Этот параметр можно переопределить в системном профиле диагностики.
+> из-за [регулирования частоты кадров в HoloLens при активной норме соблюдения требований по умолчанию](/windows/mixed-reality/mixed-reality-capture-for-developers#what-to-expect-when-mrc-is-enabled-on-hololens)визуальный профилировщик скрывает себя во время записи видео и фотографий. Этот параметр можно переопределить в системном профиле диагностики.
 
 ### <a name="frame-time"></a>Время кадра
 
@@ -62,7 +62,7 @@ ms.locfileid: "113121652"
 
 Граф кадров обеспечивает графическое отображение журнала частоты кадров приложения.
 
-![График пропущенного фрейма Visual Profiler](../images/diagnostics/VisualProfilerMissedFrames.png)
+![Пропуск кадров Visual Profiler Graph](../images/diagnostics/VisualProfilerMissedFrames.png)
 
 При использовании приложения найдите пропущенные кадры, указывающие на то, что приложение не достигает его целевой частоты кадров и может потребовать оптимизации.
 
@@ -70,7 +70,7 @@ ms.locfileid: "113121652"
 
 Отображение использования памяти позволяет легко понять, как текущее представление влияет на потребление памяти приложением.
 
-![Граф памяти Visual Profiler](../images/diagnostics/VisualProfilerMemory.png)
+![Graph памяти Visual Profiler](../images/diagnostics/VisualProfilerMemory.png)
 
 При использовании приложения найдите общий объем используемой памяти. Ключевые индикаторы включают в себя приближается к пределу памяти и быстрое изменение в использовании.
 
@@ -78,7 +78,7 @@ ms.locfileid: "113121652"
 
 Внешний вид и поведение визуального профилировщика можно настраивать с помощью системного профиля диагностики. Дополнительные сведения см. [в разделе Настройка системы диагностики](configuring-diagnostics.md) .
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 - [Система диагностики](diagnostics-system-getting-started.md)
 - [Настройка системы диагностики](configuring-diagnostics.md)

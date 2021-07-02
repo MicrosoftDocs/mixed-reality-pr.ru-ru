@@ -1,22 +1,22 @@
 ---
-title: ProximityLight
+title: Неблизкое освещение
 description: Документация по неблизкому освещению с примерами в МРТК
 author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 1adf4d1d70313c917d63224b91a14d995d1888c1
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: 6e57a76d54d0f3f63ce8dcb80582e178effa39d9
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110145008"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113176387"
 ---
-# <a name="proximity-light"></a>ProximityLight
+# <a name="proximity-light"></a>Неблизкое освещение
 
-[`ProximityLight`](xref:Microsoft.MixedReality.Toolkit.Utilities.ProximityLight)— Это простая парадигма [системы разработки](https://www.microsoft.com/design/fluent/) , которая имитирует «градиент инверсии точки», наведя указатель мыши на поверхность объекта. Часто используется для практических взаимодействий, поэтому приложение может управлять свойствами светлого объекта с помощью [`ProximityLight`](xref:Microsoft.MixedReality.Toolkit.Utilities.ProximityLight) компонента.
+[`ProximityLight`](xref:Microsoft.MixedReality.Toolkit.Utilities.ProximityLight)— это [система Fluent Design](https://www.microsoft.com/design/fluent/) парадигма, которая имитирует "градиентная точка инверсии", наведя указатель мыши на поверхность объекта. Часто используется для практических взаимодействий, поэтому приложение может управлять свойствами светлого объекта с помощью [`ProximityLight`](xref:Microsoft.MixedReality.Toolkit.Utilities.ProximityLight) компонента.
 
-Чтобы получить доступ к материалам, [`ProximityLight`](xref:Microsoft.MixedReality.Toolkit.Utilities.ProximityLight) необходимо использовать шейдер *набора средств "смешанная реальность" или "Стандартный* ", а свойство " *светлое* " должно быть включено.
+чтобы получить материал, на который влияет [`ProximityLight`](xref:Microsoft.MixedReality.Toolkit.Utilities.ProximityLight) использование шейдера *смешанной реальности набор средств/Standard* , необходимо включить построитель текстуры, а свойство « *освещение* » должно быть включено.
 
 > [!NOTE]
 > [`ProximityLights`](xref:Microsoft.MixedReality.Toolkit.Utilities.ProximityLight)По умолчанию поддерживаются до двух.
@@ -57,6 +57,6 @@ private const int proximityLightCount = 4;
 >
 >`Property (_ProximityLightData) exceeds previous array size (24 vs 12). Cap to previous size.`
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 * [Стандартный шейдер MRTK](mrtk-standard-shader.md)

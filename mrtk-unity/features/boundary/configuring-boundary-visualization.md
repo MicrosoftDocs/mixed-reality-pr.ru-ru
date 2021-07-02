@@ -4,21 +4,21 @@ description: Сведения о настройке системы границ 
 author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
-keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, система границ,
-ms.openlocfilehash: 0f1a9edd9f9a31e7ba20f630406b299909a4864c
-ms.sourcegitcommit: 8b4c2b1aac83bc8adf46acfd92b564f899ef7735
+keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, система границ,
+ms.openlocfilehash: 77bdaedb60700bac27643ae718c795c02e5ee7e7
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113121252"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113177092"
 ---
-# <a name="configuring-the-boundary-visualization"></a>Настройка визуализации границ
+# <a name="configuring-boundary-visualization"></a>Настройка визуализации границ
 
 *Профиль визуализации границ* предоставляет параметры для настройки визуального эстетичность и других связанных параметров для системы границ. Визуализации границ присоединяются к объекту Mixed Reality Плайспаце в сцене и телепортируйтесь с пользователем.
 
 ## <a name="general-settings"></a>Общие параметры
 
-![Общие параметры визуализации границ](../images/boundary/BoundaryVisualizationGeneralSettings.png)
+![общие Параметры визуализации границ](../images/boundary/BoundaryVisualizationGeneralSettings.png)
 
 ### <a name="boundary-height"></a>Высота границы
 
@@ -46,7 +46,7 @@ ms.locfileid: "113121252"
 
 ## <a name="play-area-settings"></a>Параметры области воспроизведения
 
-![Параметры области воспроизведения границы](../images/boundary/BoundaryVisualizationPlayAreaSettings.png)
+![Параметры области визуализации границы](../images/boundary/BoundaryVisualizationPlayAreaSettings.png)
 
 **Показать**
 
@@ -62,7 +62,7 @@ ms.locfileid: "113121252"
 
 ## <a name="tracked-area-settings"></a>Параметры отслеживающей области
 
-![Параметры отслеживающей области визуализации границ](../images/boundary/BoundaryVisualizationTrackedAreaSettings.png)
+![Параметры области с отслеживанием границ](../images/boundary/BoundaryVisualizationTrackedAreaSettings.png)
 
 **Показать**
 
@@ -97,7 +97,7 @@ ms.locfileid: "113121252"
 
 ## <a name="boundary-ceiling-settings"></a>Параметры потолка границ
 
-![Параметры потолка границы визуализации границы](../images/boundary/BoundaryVisualizationCeilingSettings.png)
+![Параметры границы визуализации границы](../images/boundary/BoundaryVisualizationCeilingSettings.png)
 
 **Показать**
 
@@ -114,7 +114,7 @@ ms.locfileid: "113121252"
 > [!NOTE]
 > Установка компонента граничного потолка на физический уровень, отличный от *Ignore райкаст* , может препятствовать взаимодействию пользователей с объектами в сцене.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 - [Документация по API границ](xref:Microsoft.MixedReality.Toolkit.Boundary)
 - [Система границ](boundary-system-getting-started.md)

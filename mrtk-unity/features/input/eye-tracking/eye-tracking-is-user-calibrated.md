@@ -4,13 +4,13 @@ description: Как настроить калибровку глаз польз�
 author: CDiaz-MS
 ms.author: cadia
 ms.date: 01/12/2021
-keywords: Unity, HoloLens, HoloLens 2, Mixed Reality, разработка, МРТК, Эйетраккинг, калибровка,
-ms.openlocfilehash: d7ae9885b77798b44b3d63bb7f92283658e05411
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, эйетраккинг, калибровка,
+ms.openlocfilehash: a2023a2d7f6a0254e8fef32f4faf09def956e94f
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110144007"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113177201"
 ---
 # <a name="eye-calibration"></a>Калибровка глаз
 
@@ -87,9 +87,9 @@ ms.locfileid: "110144007"
    }
 ```
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 - [Общие сведения об отслеживании МРТКных глаз](eye-tracking-main.md)
 - [Настройка отслеживания МРТКных глаз](eye-tracking-basic-setup.md)
 - [Отслеживание взгляда МРТК с помощью кода](eye-tracking-eye-gaze-provider.md)
-- [Документация по отслеживания взгляда HoloLens 2](/windows/mixed-reality/eye-tracking)
+- [HoloLens 2 Документация по отслеживанию глаз](/windows/mixed-reality/eye-tracking)

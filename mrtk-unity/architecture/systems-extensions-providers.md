@@ -1,24 +1,24 @@
 ---
-title: Поставщик системных расширений
+title: Системы, службы расширений и поставщики данных
 description: Расширения МРТК и поставщики данных
 author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
-keywords: Unity, HoloLens, HoloLens 2, Mixed Reality, разработка, МРТК, расширения системы,
-ms.openlocfilehash: 358294702971b7d9e8de1b842d3bc1844e5dc9bf
-ms.sourcegitcommit: 8b4c2b1aac83bc8adf46acfd92b564f899ef7735
+keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, расширения системы,
+ms.openlocfilehash: 668df40cec9b9443b37f63d80fcf8a1ca2e0bcbc
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113121472"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113177426"
 ---
 # <a name="systems-extension-services-and-data-providers"></a>Системы, службы расширений и поставщики данных
 
-В наборе средств Mixed Reality многие функции предоставляются в виде служб. Службы группируются по трем основным категориям: системам, службам расширений и поставщикам данных.
+в набор средств смешанной реальности многие функции предоставляются в виде служб. Службы группируются по трем основным категориям: системам, службам расширений и поставщикам данных.
 
 ## <a name="systems"></a>системы
 
-Системы — это службы, которые предоставляют основные функциональные возможности набора средств Mixed Reality. Все системы являются реализациями [`IMixedRealityService`](xref:Microsoft.MixedReality.Toolkit.IMixedRealityService) интерфейса.
+системы — это службы, которые предоставляют основные функции набор средств смешанной реальности. Все системы являются реализациями [`IMixedRealityService`](xref:Microsoft.MixedReality.Toolkit.IMixedRealityService) интерфейса.
 
 - [баундарисистем](../features/boundary/boundary-system-getting-started.md)
 - [камерасистем](../features/camera-system/camera-system-overview.md)
@@ -32,7 +32,7 @@ ms.locfileid: "113121472"
 
 ## <a name="extensions"></a>Расширения
 
-Службы расширения — это компоненты, расширяющие функциональные возможности набора средств Mixed Reality. Все службы расширений должны указывать, что они реализуют [`IMixedRealityExtensionService`](xref:Microsoft.MixedReality.Toolkit.IMixedRealityExtensionService) интерфейс.
+службы расширения — это компоненты, расширяющие функциональные возможности набор средств смешанной реальности. Все службы расширений должны указывать, что они реализуют [`IMixedRealityExtensionService`](xref:Microsoft.MixedReality.Toolkit.IMixedRealityExtensionService) интерфейс.
 
 Сведения о создании служб расширения см. в статье [службы расширений](../features/extensions/extension-services.md) .
 
@@ -42,10 +42,10 @@ ms.locfileid: "113121472"
 
 ## <a name="data-providers"></a>Поставщики данных
 
-Поставщики данных — это компоненты, которые по имени предоставляют данные для службы набора средств смешанной реальности. Все поставщики данных должны указывать, что они реализуют [`IMixedRealityDataProvider`](xref:Microsoft.MixedReality.Toolkit.IMixedRealityDataProvider) интерфейс.
+поставщики данных — это компоненты, которые по имени предоставляют данные для службы набор средств смешанной реальности. Все поставщики данных должны указывать, что они реализуют [`IMixedRealityDataProvider`](xref:Microsoft.MixedReality.Toolkit.IMixedRealityDataProvider) интерфейс.
 
 > [!NOTE]
-> Не все службы потребует поставщиков данных. Систем, появляющихся системами набора средств смешанной реальности, являются единственной службой для использования поставщиков данных.
+> Не все службы потребует поставщиков данных. в системах набор средств смешанной реальности системы ввода и пространственного доступа являются единственными службами для использования поставщиков данных.
 
 Для доступа к конкретной службе МРТК поставщики данных регистрируются в профиле конфигурации службы.
 
@@ -136,7 +136,7 @@ if (dataProvider != null)
 
 Сведения о написании поставщика данных для системы поддержки пространственной информации МРТК см. в разделе [Создание системного поставщика данных с](../features/spatial-awareness/create-data-provider.md)поддержкой пространственного доступа.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 - [Службы расширений](../features/extensions/extension-services.md)
 - [Создание поставщика входных системных данных](../features/input/create-data-provider.md)

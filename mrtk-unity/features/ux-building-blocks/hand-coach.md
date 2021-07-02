@@ -1,16 +1,16 @@
 ---
-title: README_HandCoach
+title: Обучающая рука
 description: Описание и примеры для подготовки к сдаче.
 author: CDiaz-MS
 ms.author: cadia
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 8b4069f25692c4058c912ccd06ae678d67882fcd
-ms.sourcegitcommit: e89431d12b5fe480c9bc40e176023798fc35001b
+ms.openlocfilehash: f6042fce7c95c106de9c72adc854e2b7112da63c
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "109489274"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113177155"
 ---
 # <a name="hand-coach"></a>Обучающая рука
 
@@ -40,8 +40,8 @@ ms.locfileid: "109489274"
 ## <a name="quality"></a>Качество
 
 Если вы заметили искажения в сетке с обложками, необходимо убедиться, что в проекте используется правильный объем соединений.
-Перейдите к параметру Изменить > проекта Unity > качество > другие > веса Blend. Убедитесь, что выбрано "четыре кости" для просмотра гладких соединений.
-![Параметр проекта](../images/hand-coach/MRTK_ProjectSettings.png)
+последовательно выберите изменения > в Unity Project Параметры > качества > других > веса смешения. Убедитесь, что выбрано "четыре кости" для просмотра гладких соединений.
+![Project Задав](../images/hand-coach/MRTK_ProjectSettings.png)
 
 ## <a name="scripts"></a>Скрипты
 

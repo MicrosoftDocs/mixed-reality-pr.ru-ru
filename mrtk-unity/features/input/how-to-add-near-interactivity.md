@@ -1,18 +1,18 @@
 ---
-title: Как добавить ближнее взаимодействие
+title: Как добавить ближайшее интерактивное взаимодействие
 description: Документация по ближайшему взаимодействию в МРТК
 author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
-keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, близкое взаимодействие,
-ms.openlocfilehash: fc0d6d4013392db74e5c8637574c258bee857865
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, близкое взаимодействие,
+ms.openlocfilehash: 241425f0c158d684cad6dad8c88c8d692cbec42f
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110144187"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113176877"
 ---
-# <a name="how-to-add-near-interaction-in-mrtk"></a>Как добавить близкое взаимодействие в МРТК
+# <a name="how-to-add-near-interactivity"></a>Как добавить ближайшее интерактивное взаимодействие
 
 Близкие взаимодействия приходят в виде касаний и захватов. События касания и захвата создаются как события указателя [покепоинтер](pointers.md#pokepointer) и [сферепоинтер](pointers.md#spherepointer)соответственно.
 
@@ -26,7 +26,7 @@ ms.locfileid: "110144187"
 
 1. Убедитесь, что [сферепоинтер](pointers.md#spherepointer) зарегистрирован в *профиле указателя мртк*.
 
-    Профиль МРТК по умолчанию и профиль HoloLens 2 по умолчанию уже содержат *сферепоинтер*. Можно подтвердить, что сферепоинтер будет создан, выбрав профиль конфигурации мртк и перейдя к   >    >  **параметрам указателя** входных указателей. По умолчанию для `GrabPointer` prefab (Assets/мртк/SDK/Features/UX/Prefabs/указатели) должен быть указан *тип контроллера* с установленной *рукой*. Пользовательское prefab можно использовать при условии, что он реализует [`SpherePointer`](xref:Microsoft.MixedReality.Toolkit.Input.SpherePointer) класс.
+    профиль мртк по умолчанию и профиль HoloLens 2 по умолчанию уже содержат *сферепоинтер*. Можно подтвердить, что сферепоинтер будет создан, выбрав профиль конфигурации мртк и перейдя к   >    >  **параметрам указателя** входных указателей. По умолчанию для `GrabPointer` prefab (Assets/мртк/SDK/Features/UX/Prefabs/указатели) должен быть указан *тип контроллера* с установленной *рукой*. Пользовательское prefab можно использовать при условии, что он реализует [`SpherePointer`](xref:Microsoft.MixedReality.Toolkit.Input.SpherePointer) класс.
 
     ![Пример профиля курсора захвата](../images/input/Pointers/GrabPointer_MRTKProfile.png)
 
@@ -71,7 +71,7 @@ public class PrintPointerEvents : MonoBehaviour, IMixedRealityPointerHandler
 
 Однако для **обоих** типов элементов UX убедитесь, что [покепоинтер](pointers.md#pokepointer) зарегистрирован в *профиле указателя мртк*.
 
-Профиль МРТК по умолчанию и профиль HoloLens 2 по умолчанию уже содержат *покепоинтер*. Можно подтвердить, что покепоинтер будет создан, выбрав профиль конфигурации мртк и перейдя к   >    >  **параметрам указателя** входных указателей. По умолчанию `PokePointer` (Assets/мртк/SDK/Features/UX/Prefabs/указатели) prefab должен быть указан *тип контроллера* с установленной *рукой*. Пользовательское prefab можно использовать при условии, что он реализует [`PokePointer`](xref:Microsoft.MixedReality.Toolkit.Input.PokePointer) класс.
+профиль мртк по умолчанию и профиль HoloLens 2 по умолчанию уже содержат *покепоинтер*. Можно подтвердить, что покепоинтер будет создан, выбрав профиль конфигурации мртк и перейдя к   >    >  **параметрам указателя** входных указателей. По умолчанию `PokePointer` (Assets/мртк/SDK/Features/UX/Prefabs/указатели) prefab должен быть указан *тип контроллера* с установленной *рукой*. Пользовательское prefab можно использовать при условии, что он реализует [`PokePointer`](xref:Microsoft.MixedReality.Toolkit.Input.PokePointer) класс.
 
 ![Пример профиля указателя для примера](../images/input/Pointers/PokePointer_MRTKProfile.png)
 
@@ -84,16 +84,16 @@ public class PrintPointerEvents : MonoBehaviour, IMixedRealityPointerHandler
 
 Это полезно для случаев, когда только один человек должен быть сенсорным. Этот параметр предполагает, что у игрового объекта есть Боксколлидер. его можно использовать с объектами, не являющимися Боксколлидер. в этом случае свойства "Bounds" и "Local Center" настраиваются вручную для настройки сенсорной плоскости (т. е. для границ следует задать ненулевое нулевое значение).
 
-1. В GameObject, который должен быть сенсорным, добавьте компонент Боксколлидер и [ `NearInteractionTouchable` ] (xref: Microsoft. микседреалити. Toolkit. input. неаринтерактионтаучабле).
+1. в GameObject, который должен быть сенсорным, добавьте боксколлидер и [ `NearInteractionTouchable` ] (xref: Microsoft. микседреалити. набор средств. Input. Неаринтерактионтаучабле).
 
-    1. Задайте **события, которые должны быть получены** *при использовании* `IMixedRealityTouchHandler` интерфейса [] (xref: Microsoft. микседреалити. Toolkit. input. имикседреалититаучхандлер) в скрипте компонента ниже.
+    1. задайте **события для получения** *касания* при использовании [ `IMixedRealityTouchHandler` ] (xref: Microsoft. микседреалити. набор средств. Input. Имикседреалититаучхандлер) в скрипте компонента ниже.
 
     1. Щелкните **исправить границы** и **центр исправлений** .
 
     ![Установка Неаринтерактионтаучабле](../images/input/Pointers/NearInteractionTouchableSetup.gif)
 
 1. Для этого объекта или одного из его предков добавьте компонент скрипта, реализующий [`IMixedRealityTouchHandler`](xref:Microsoft.MixedReality.Toolkit.Input.IMixedRealityTouchHandler)
-   . Все предки объекта с [ `NearInteractionTouchable` ] (xref: Microsoft. микседреалити. Toolkit. input. неаринтерактионтаучабле) смогут также получать события указателя.
+   . любой предок объекта с [ `NearInteractionTouchable` ] (xref: Microsoft. микседреалити. набор средств. Input. Неаринтерактионтаучабле) также смогут получать события указателя.
 
 > [!NOTE]
 > В представлении сцены редактора с выбранным *неаринтерактионтаучабле* GameObject Обратите внимание на белый квадрат и стрелку. Стрелка указывает на "лицевой" сенсорной панели. Конфликтующие будет осуществляться только из этого направления. Дополнительные сведения о том, как сделать набор для противоречию от всех направлений, см. в разделе о [произвольном касании](#arbitrary-collider-touch).
@@ -103,12 +103,12 @@ public class PrintPointerEvents : MonoBehaviour, IMixedRealityPointerHandler
 
 Это полезно для случаев, когда объект игры должен быть сенсорным для всего себя. Например, это можно использовать для включения взаимодействия касания для объекта с Сфереколлидер, где весь конфликт должен быть сенсорным.
 
-1. В GameObject, который должен быть сенсорным, добавьте компонент и [ `NearInteractionTouchableVolume` ] (xref: Microsoft. микседреалити. Toolkit. input. неаринтерактионтаучаблеволуме).
+1. в GameObject, который должен быть сенсорным, добавьте объект "" и [ `NearInteractionTouchableVolume` ] (xref: Microsoft. микседреалити. набор средств. Input. Неаринтерактионтаучаблеволуме).
 
-    1. Задайте **события, которые должны быть получены** *при использовании* `IMixedRealityTouchHandler` интерфейса [] (xref: Microsoft. микседреалити. Toolkit. input. имикседреалититаучхандлер) в скрипте компонента ниже.
+    1. задайте **события для получения** *касания* при использовании [ `IMixedRealityTouchHandler` ] (xref: Microsoft. микседреалити. набор средств. Input. Имикседреалититаучхандлер) в скрипте компонента ниже.
 
 1. Для этого объекта или одного из его предков добавьте компонент скрипта, реализующий [`IMixedRealityTouchHandler`](xref:Microsoft.MixedReality.Toolkit.Input.IMixedRealityTouchHandler)
-   . Все предки объекта с [ `NearInteractionTouchable` ] (xref: Microsoft. микседреалити. Toolkit. input. неаринтерактионтаучабле) смогут также получать события указателя.
+   . любой предок объекта с [ `NearInteractionTouchable` ] (xref: Microsoft. микседреалити. набор средств. Input. Неаринтерактионтаучабле) также смогут получать события указателя.
 
 ### <a name="unity-ui"></a>ИНТЕРФЕЙС Unity
 
@@ -202,7 +202,7 @@ public static void MakeNearDraggable(GameObject target)
 * [`IMixedRealityTouchHandler`](xref:Microsoft.MixedReality.Toolkit.Input.IMixedRealityTouchHandler)
 * [`IMixedRealityPointerHandler`](xref:Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointerHandler)
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 * [Общие сведения о входных данных](overview.md)
 * [Указатели](pointers.md)

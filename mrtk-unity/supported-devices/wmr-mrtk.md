@@ -1,27 +1,27 @@
 ---
-title: Развертывание в HoloLens и ВМР гарнитурах
+title: развертывание на гарнитурах HoloLens и вмр
 description: Документация по сборке и развертыванию приложений на разных устройствах.
 author: polar-kev
 ms.author: kesemple
 ms.date: 01/12/2021
-keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, Visual Studio
-ms.openlocfilehash: 12384c3d3c0c2208d86a9a946580d0311f8a8955
-ms.sourcegitcommit: 12ea3fb2df4664c5efd07dcbb9040c2ff173afb6
+keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, Visual Studio
+ms.openlocfilehash: 137e1b699e9a0cda1e8a454a6c3219b581fa71b4
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "113042305"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113176370"
 ---
-# <a name="deploying-to-hololens-and-wmr-headsets"></a>Развертывание в HoloLens и ВМР гарнитурах
+# <a name="deploying-to-hololens-and-wmr-headsets"></a>развертывание на гарнитурах HoloLens и вмр
 
-Существует два способа развертывания приложений, созданных с помощью МРТК, на устройстве Windows, на платформе универсальной Windows (UWP) и на автономной платформе. Приложения, созданные для HoloLens 1 или HoloLens 2, должны ориентироваться на UWP, а приложения, созданные для гарнитур ВМР, могут ориентироваться либо на UWP, либо на изолированный.
+существует два способа развертывания приложений, созданных с помощью мртк, на устройстве windows, на платформе универсальной Windows platform (UWP) и на автономной платформе. приложения, созданные для HoloLens 1 или HoloLens 2, должны быть нацелены на uwp, тогда как приложения, созданные для гарнитур вмр, могут ориентироваться на uwp или Standalone.
 
-## <a name="building-and-deploying-mrtk-to-hololens-1-hololens-2-and-wmr-headsets-uwp"></a>Создание и развертывание МРТК в HoloLens 1, HoloLens 2 и ВМР (UWP)
+## <a name="building-and-deploying-mrtk-to-hololens-1-hololens-2-and-wmr-headsets-uwp"></a>создание и развертывание мртк для HoloLens 1, HoloLens 2 и вмрных гарнитур (UWP)
 
-Инструкции по созданию и развертыванию для **hololens 1** и **hololens 2** (UWP) можно найти в статье [Создание приложения на устройстве](/windows/mixed-reality/mrlearning-base-ch1#build-your-application-to-your-device). Эти шаги также позволяют развертывать на **ВМР гарнитурах**.
+инструкции по созданию и развертыванию для **HoloLens 1** и **HoloLens 2** (UWP) можно найти в статье [создание приложения на устройстве](/windows/mixed-reality/mrlearning-base-ch1#build-your-application-to-your-device). Эти шаги также позволяют развертывать на **ВМР гарнитурах**.
 
 > [!NOTE]
-> При развертывании приложения на устройстве в Visual Studio необходимо настроить Visual Studio немного по-разному в зависимости от устройства. Используются следующие конфигурации
+> при развертывании приложения на устройстве в Visual Studio необходимо настроить Visual Studio несколько по-разному в зависимости от устройства. Используются следующие конфигурации
 >
 >| Платформа | Конфигурация | Архитектура | Целевой объект |
 |---|---|---|---|
@@ -29,7 +29,7 @@ ms.locfileid: "113042305"
 | HoloLens 1 | Выпуск или образец | x86 | Устройство |
 | ВМР гарнитуры | Выпуск или образец | X64 | Локальный компьютер |
 
-**Совет.** При создании для HoloLens 1, HoloLens 2 или ВМР рекомендуется, чтобы параметры сборки "Целевая версия пакета SDK" и "минимальная версия платформы" были показаны на рисунке ниже:
+**Совет.** при создании HoloLens 1, HoloLens 2 или вмр рекомендуется, чтобы параметры сборки "целевая версия пакета SDK" и "минимальная версия платформы" были показаны на рисунке ниже:
 
 ![Окно сборки](../features/images/getting-started/BuildWindow.png)
 
@@ -39,7 +39,7 @@ ms.locfileid: "113042305"
 
 ### <a name="unity-20192020-and-hololens"></a>Unity 2019/2020 и HoloLens
 
-Если приложение HoloLens отображается в виде двухмерной панели на устройстве, перед развертыванием приложения UWP убедитесь, что в Unity были настроены следующие параметры.
+если HoloLens приложение отображается в виде двухмерной панели на устройстве, перед развертыванием приложения UWP убедитесь, что в Unity были настроены следующие параметры.
 
 При использовании встроенной поддержки XR (только для Unity 2019):
 
@@ -47,7 +47,7 @@ ms.locfileid: "113042305"
 1. В разделе **XR Settings** (Параметры смешанной реальности) на вкладке UWP убедитесь, что включен параметр **Virtual Reality Supported** (Поддержка виртуальной реальности), а в список пакетов SDK добавлен SDK **Windows Mixed Reality**.
 1. Выполните сборку и развертывание в Visual Studio.
 
-При использовании подключаемых модулей Опенкср или Windows XR:
+при использовании подключаемых модулей опенкср или Windows XR:
 
 1. Выполните шаги, описанные в статье [Начало работы с XRSDK](../configuration/getting-started-with-mrtk-and-xrsdk.md).
 1. Убедитесь, что **DefaultXRSDKConfigurationProfile** выбран в качестве профиля конфигурации.

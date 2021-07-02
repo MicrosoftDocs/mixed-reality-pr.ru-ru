@@ -5,16 +5,16 @@ author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 0de7b904a48453d6021cf7aed5835412c19b7884
-ms.sourcegitcommit: 8b4c2b1aac83bc8adf46acfd92b564f899ef7735
+ms.openlocfilehash: a31b88f661c141941cae2d0b01668b26c0bed7d7
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113121782"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113177245"
 ---
-# <a name="diagnostic-system"></a>Диагностическая система
+# <a name="diagnostics-system-overview"></a>Обзор системы диагностики
 
-Система диагностики набора средств Mixed Reality предоставляет средства диагностики, которые выполняются в приложении, чтобы обеспечить анализ проблем приложений.
+система диагностики смешанной реальности набор средств предоставляет средства диагностики, которые выполняются в приложении, чтобы обеспечить анализ проблем приложений.
 
 Первый выпуск системы диагностики содержит [Визуальный профилировщик](using-visual-profiler.md) , позволяющий анализировать проблемы производительности при использовании приложения.
 
@@ -55,7 +55,7 @@ ms.locfileid: "113121782"
 >
 > Диагностика производительности, например, [Визуальный профилировщик](using-visual-profiler.md), может не точно отражать фактическую производительность приложения при запуске в редакторе.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 - [Документация по API диагностики](xref:Microsoft.MixedReality.Toolkit.Diagnostics)
 - [Настройка системы диагностики](configuring-diagnostics.md)

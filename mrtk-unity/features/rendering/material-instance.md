@@ -1,16 +1,16 @@
 ---
-title: MaterialInstance
+title: Экземпляр материала
 description: Документация по экземпляру материала и его применению в МРТК
 author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
-keywords: Unity, HoloLens, HoloLens 2, Mixed Reality, разработка, МРТК, Материалинстанце,
-ms.openlocfilehash: 216fa72af6bb6caaf47e30c156f7caf1b1dab71e
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, материалинстанце,
+ms.openlocfilehash: ecd8f9e14564cbd03cb6faa848b06ca55a024207
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110145212"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113176727"
 ---
 # <a name="material-instance"></a>Экземпляр материала
 
@@ -105,6 +105,6 @@ public class MyBehaviour : MonoBehaviour,  IMaterialInstanceOwner
 
 Дополнительные сведения см. в примере использования, продемонстрированном в описании [`ClippingPrimitive`](xref:Microsoft.MixedReality.Toolkit.Utilities.ClippingPrimitive) поведения.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 * [Стандартный шейдер MRTK](mrtk-standard-shader.md)

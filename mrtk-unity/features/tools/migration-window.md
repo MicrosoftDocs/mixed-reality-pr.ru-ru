@@ -5,12 +5,12 @@ author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: a6e268dd28be2a3d485f937ec5b5ce6b1f29851f
-ms.sourcegitcommit: a5afc24a4887880e394ef57216b8fd9de9760004
+ms.openlocfilehash: 9d960d01e738736edd452a124db5c306b5d752ce
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "110647125"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113176131"
 ---
 # <a name="migration-window"></a>Окно миграции
 
@@ -21,7 +21,7 @@ ms.locfileid: "110647125"
 
 ## <a name="usage"></a>Использование
 
-Чтобы открыть это окно, выберите средство  >    >  **переноса служебных программ** для набора средств для смешанной реальности  >  . После открытия окна миграции можно включить вкладки навигации режима выбора, выбрав конкретную реализацию обработчика миграции для компонента.  
+чтобы открыть это окно, выберите " **смешанная реальность**  >  **набор средств**  >  **средства**  >  **миграции**". После открытия окна миграции можно включить вкладки навигации режима выбора, выбрав конкретную реализацию обработчика миграции для компонента.  
 
 ![Режимы выбора миграции](../images/migration-window/MRTK_Migration_Modes.png)
 
@@ -40,14 +40,14 @@ ms.locfileid: "110647125"
 
 ![Выбор сцен для миграции](../images/migration-window/MRTK_Scene_Selection.png)
 
-### <a name="project-mode"></a>Режим проекта
+### <a name="project-mode"></a>режим Project
 
 Нажатие кнопки " *Миграция* " приведет к обновлению компонента, предназначенного для реализации обработчика миграции, для всех Prefabs и сцен в проекте.
 
 ![Перенос завершенного проекта](../images/migration-window/MRTK_Project_Migration.png)
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также:
 
 - [Обновление с предыдущих версий](../../updates-deployment/updating.md)
-- [Выпуски Microsoft Mixed Reality Toolkit](../../release-notes/mrtk-26-release-notes.md)
+- [выпуски набор средств Microsoft Mixed Reality](../../release-notes/mrtk-26-release-notes.md)
 - [Стратегия МРТК](../../roadmap.md)

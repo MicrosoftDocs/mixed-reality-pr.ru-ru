@@ -4,13 +4,13 @@ description: Документация по использованию служе
 author: hferrone
 ms.author: v-hferrone
 ms.date: 03/9/2021
-keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК
-ms.openlocfilehash: c277cadffb356b93ffc359233b0b8307f43e8d57
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк
+ms.openlocfilehash: 50ef252913575988b5f377dd9ff92f9e9ade3a72
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110144137"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113176164"
 ---
 # <a name="asset-swap-utility"></a>Служебная программа переключения ресурсов
 
@@ -22,7 +22,7 @@ ms.locfileid: "110144137"
 
 После создания можно легко поменять местами ресурсы `AssetSwapCollection` . Давайте продемонстрируем использование, переключая два красных Куба с двумя голубыми шарик в сцене. Сначала добавьте два Красного Куба в сцену, в которых используется куб Unity по умолчанию и `MRTK_Standard_Red` материал.
 
-Чтобы создать `AssetSwapCollection` , перейдите к **набору средств смешанной реальности > служебные программы > создать коллекцию переключения ресурсов**. Выбрав параметр `AssetSwapCollection` заполните свойства, как показано на рисунке ниже:
+чтобы создать `AssetSwapCollection` , перейдите в раздел **смешанная реальность набор средств > служебные программы > создать коллекцию переключения ресурсов**. Выбрав параметр `AssetSwapCollection` заполните свойства, как показано на рисунке ниже:
 
 ![Коллекция переключения ресурсов в редакторе Unity](images/asset-swap-img-01.png)
 

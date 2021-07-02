@@ -1,5 +1,5 @@
 ---
-title: експериенцесеттингс
+title: Параметры работы
 description: Документация по различным параметрам интерфейса для МРТК
 author: RogPodge
 ms.author: roliu
@@ -7,12 +7,12 @@ ms.date: 04/13/2021
 ms.localizationpriority: medium
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
 monikerRange: '>= mrtkunity-2021-05'
-ms.openlocfilehash: 1c93e2ee703eb5dad43bb51236b9991d17e1d58d
-ms.sourcegitcommit: a5afc24a4887880e394ef57216b8fd9de9760004
+ms.openlocfilehash: ab3a449b064d4a1c8f2bf76154f7a25c688693e1
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "110647894"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113177355"
 ---
 # <a name="experience-settings"></a>Параметры работы
 
@@ -21,7 +21,7 @@ ms.locfileid: "110647894"
 - Содержимое сцены смешанной реальности
 - Система границ
 
-  ![Параметры интерфейса в профиле конфигурации МРТК](../images/experience-settings/ExperienceSettings.png)
+  ![Параметры опыта в профиле конфигурации мртк](../images/experience-settings/ExperienceSettings.png)
 
 ## <a name="target-experience-scale"></a>Целевая шкала производительности
 

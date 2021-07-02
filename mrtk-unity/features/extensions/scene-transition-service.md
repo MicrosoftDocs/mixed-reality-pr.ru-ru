@@ -1,16 +1,16 @@
 ---
-title: Обзор службы смены сцены
+title: Служба смены сцены
 description: Документация по переходу на сцену в МРТК
 author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
-keywords: Unity, HoloLens, HoloLens 2, Mixed Reality, разработка, МРТК, Сценетранситион,
-ms.openlocfilehash: 5ea76b572b3cddc097e8266d3c31f152b63a13aa
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, сценетранситион,
+ms.openlocfilehash: b645012a055f693fdac794b79e24fd20154fdb65
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110144286"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113176214"
 ---
 # <a name="scene-transition-service"></a>Служба смены сцены
 

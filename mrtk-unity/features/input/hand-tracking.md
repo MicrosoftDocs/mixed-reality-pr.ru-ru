@@ -4,13 +4,13 @@ description: Документация по использованию Хандт
 author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
-keywords: Unity, HoloLens, HoloLens 2, Mixed Reality, разработка, МРТК, отслеживание вручную
-ms.openlocfilehash: 6cd55bc76d9fba42640954bcbf50e62f66454a94
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, отслеживание вручную
+ms.openlocfilehash: 68e936cb4121027008f37aae72496fe59445b636
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110143350"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113176890"
 ---
 # <a name="hand-tracking"></a>Отслеживание рук
 
@@ -187,9 +187,9 @@ public class MyHandMeshEventHandler : IMixedRealityHandMeshHandler
 
 ### <a name="net-native"></a>.NET Native
 
-В настоящее время существует известная ошибка с основными сборками, использующими серверную часть .NET. В .NET Native `IInspectable` нельзя маршалировать указатели из машинного кода в управляемый с помощью `Marshal.GetObjectForIUnknown` . МРТК использует этот метод для получения `SpatialCoordinateSystem` данных, чтобы получать данные о руки и глаз с платформы.
+В настоящее время существует известная ошибка с основными сборками, использующими серверную часть .NET. в .NET Native `IInspectable` нельзя маршалировать указатели из машинного кода в управляемый с помощью `Marshal.GetObjectForIUnknown` . МРТК использует этот метод для получения `SpatialCoordinateSystem` данных, чтобы получать данные о руки и глаз с платформы.
 
-Мы предоставили источник DLL в качестве обходного решения для этой проблемы в [репозитории машинного кода Mixed Reality](https://github.com/microsoft/MixedRealityToolkit/tree/master/DotNetNativeWorkaround). Следуйте инструкциям в файле сведений и скопируйте полученные двоичные файлы в папку plugins в ресурсах Unity. После этого сценарий Виндовсмикседреалитютилитиес, указанный в МРТК, решит проблему.
+мы предоставили источник DLL в качестве обходного решения для этой проблемы в [собственном репозитории набор средств смешанной реальности](https://github.com/microsoft/MixedRealityToolkit/tree/master/DotNetNativeWorkaround). Следуйте инструкциям в файле сведений и скопируйте полученные двоичные файлы в папку plugins в ресурсах Unity. После этого сценарий Виндовсмикседреалитютилитиес, указанный в МРТК, решит проблему.
 
 Если вы хотите создать собственную библиотеку DLL или включить в нее этот обходной путь, то основным решением этой проблемы является:
 

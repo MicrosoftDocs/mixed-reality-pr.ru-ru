@@ -1,22 +1,22 @@
 ---
-title: Настройка диагностики
+title: Настройка системы диагностики
 description: Документация по настройке диагностики в МРТК
 author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 211ee2ed06ba9b13bd90169bcc7ee50da4594034
-ms.sourcegitcommit: 8b4c2b1aac83bc8adf46acfd92b564f899ef7735
+ms.openlocfilehash: d81b441cd9bcd40846eb94320f6f7de1bbd2f0a8
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113121802"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113177249"
 ---
 # <a name="configuring-the-diagnostics-system"></a>Настройка системы диагностики
 
 ## <a name="general-settings"></a>Общие параметры
 
-![Общие параметры диагностики](../images/diagnostics/DiagnosticsGeneralSettings.png)
+![общие Параметры диагностики](../images/diagnostics/DiagnosticsGeneralSettings.png)
 
 ### <a name="enable-verbose-logging"></a>Включить подробное ведение журнала
 
@@ -68,7 +68,7 @@ CoreServices.DiagnosticsSystem.ShowDiagnostics = false;
 CoreServices.DiagnosticsSystem.ShowProfiler = false;
 ```
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 - [Система диагностики](diagnostics-system-getting-started.md)
 - [Использование Visual Profiler](using-visual-profiler.md)

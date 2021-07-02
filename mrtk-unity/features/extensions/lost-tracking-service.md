@@ -1,22 +1,22 @@
 ---
-title: Служба прерывания отслеживания
+title: Потеря службы отслеживания
 description: Обзор службы Лосттраккинг в МРТК
 author: CDiaz-MS
 ms.author: cadia
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 96090b05c60cfaa6ff5d8c5e1dc7a58cc2658b71
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: 70274639326563b1f3c3a2061dcdbf824fd43709
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110144524"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113176219"
 ---
-# <a name="lost-tracking-visualization"></a>Потеря визуализации отслеживания
+# <a name="lost-tracking-service"></a>Потеря службы отслеживания
 
 ![Отслеживание потерянных](../images/lost-tracking/LostTrackingVisualization.jpg)
 
-Потерянная служба расширения отслеживания предоставляет анимированный визуальный элемент стиля оболочки HoloLens для потерянного состояния отслеживания.
+потерянная служба расширения отслеживания предоставляет HoloLens анимированный визуальный элемент стиля оболочки для потерянного состояния отслеживания.
 
 ## <a name="how-to-use-lost-tracking-extensions"></a>Использование потерянных расширений отслеживания
 

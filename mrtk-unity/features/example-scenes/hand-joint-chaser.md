@@ -1,18 +1,18 @@
 ---
-title: Средство отслеживания суставов руки
+title: Часер муфта
 description: Часер муфта в МРТК
 author: CDiaz-MS
 ms.author: cadia
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: f9db1c4a2ca1959a35c541e87c9a4a01bc41637e
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: 0beac2dae5aa12cf07f193dab9a6db7bc7ddf2e5
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110144623"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113175358"
 ---
-# <a name="hand-joint-chaser-example"></a>Пример однопользовательского соединения Часер
+# <a name="hand-joint-chaser"></a>Часер муфта
 
 ![Геосоединения ](../images/hand-joint-chaser/MRTK_HandJointChaser_Main.jpg) . в этом примере сцены показано, как использовать поиск решения для присоединения объектов к стыкам.
 

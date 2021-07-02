@@ -5,12 +5,12 @@ author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: f00dc01555ef158dab21334761bd23ef6a70dba4
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: 8c1da7ae6a46bd00599a77b1c4cbb0b2f7baa632
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110144080"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113176172"
 ---
 # <a name="controller-mapping-tool"></a>Средство сопоставления контроллеров
 
@@ -32,7 +32,7 @@ ms.locfileid: "110144080"
 - Обновление сопоставлений элементов управления в поставщике входных системных данных для контроллера
 
 > [!NOTE]
-> Средство сопоставления контроллеров не использует компоненты набора средств Microsoft Mixed Reality. Он напрямую взаимодействует с Unity для определения и отображения сопоставлений элементов управления.
+> средство сопоставления контроллеров не использует компоненты набор средств Microsoft Mixed Reality. Он напрямую взаимодействует с Unity для определения и отображения сопоставлений элементов управления.
 
 ### <a name="all-controls-display"></a>Все элементы управления отображаются
 
@@ -46,7 +46,7 @@ ms.locfileid: "110144080"
 
 ![Отображение активных элементов управления](../images/controller-mapping-tool/ActiveControls.png)
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 - [Создание поставщика входных системных данных](../input/create-data-provider.md)
 - [Средство Инпутфеатуреусаже](input-feature-usage-tool.md)

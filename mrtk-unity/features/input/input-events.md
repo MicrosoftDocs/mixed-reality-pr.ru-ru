@@ -1,16 +1,16 @@
 ---
-title: Входные события
+title: События ввода
 description: Документация по Инпутевентс в МРТК
 author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
-keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, события
-ms.openlocfilehash: 450c6dbbed8fc9bbb1a648b7a22f0de66747cbaf
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, события
+ms.openlocfilehash: c8871aa575e2aa4507e9dbbdcc8bdf0fc0604633
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110145220"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113176780"
 ---
 # <a name="input-events"></a>События ввода
 
@@ -182,7 +182,7 @@ public class GlobalHandListenerExample : MonoBehaviour,
 > [!NOTE]
 > Компонент, вызывающий `Use()` метод, будет прекращать объекты gameobject от его получения. Однако другие компоненты текущего GameObject будут по-прежнему принимать входные события и срабатывать на любые связанные функции интерфейса.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 - [Указатели](pointers.md)
 - [Речь](speech.md)

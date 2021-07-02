@@ -1,20 +1,20 @@
 ---
-title: Основные сведения о сцене
+title: Наблюдатель "Основные сведения о сцене"
 description: Описание принципов работы с сценами в МРТК
 author: MaxWang-MS
 ms.author: wangmax
 ms.date: 05/27/2021
-keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, основные сведения о сцене
-ms.openlocfilehash: 67a8b99a281b6deecd621edb5600578806812d8a
-ms.sourcegitcommit: 86fafb3a7ac6a5f60340ae5041619e488223f4f0
+keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, основные сведения о сцене
+ms.openlocfilehash: d5430e7885055a550347c4ccebc1452f68125922
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "112449753"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113176232"
 ---
-# <a name="scene-understanding"></a>Основные сведения о сцене
+# <a name="scene-understanding-observer"></a>Наблюдатель "Основные сведения о сцене"
 
-[Понятие "сцена](/windows/mixed-reality/scene-understanding) " возвращает семантическое представление сущностей сцены, а также их геометрические формы в __HoloLens 2__ (не поддерживается Hololens 1-го поколения).
+[понятие сцены](/windows/mixed-reality/scene-understanding) возвращает семантическое представление сущностей сцены, а также их геометрические формы на __HoloLens 2__ (HoloLens 1-й Gen не поддерживается).
 
 Ниже перечислены некоторые ожидаемые варианты использования этой технологии.
 * Размещение объектов на ближайшей поверхности определенного вида (например, стены и этажа)
@@ -22,7 +22,7 @@ ms.locfileid: "112449753"
 * Предоставление понятных геометрических объектов с четырьмя подсистемами
 * Ускорение разработки за счет предотвращения необходимости написания аналогичных алгоритмов
 
-Основные сведения о сцене представлены в виде __экспериментальной__ функции в мртк 2,6. Он интегрируется в МРТК как [пространственный наблюдатель](spatial-awareness-getting-started.md#register-observers) с именем [`WindowsSceneUnderstandingObserver`](xref:Microsoft.MixedReality.Toolkit.WindowsSceneUnderstanding.Experimental.WindowsSceneUnderstandingObserver) . Понятие "сцены" работает как с устаревшим конвейером XR, так и с конвейером пакета SDK XR (Опенкср (начиная с МРТК 2,7) и подключаемым модулем Windows XR). В обоих случаях `WindowsSceneUnderstandingObserver` используется.
+Основные сведения о сцене представлены в виде __экспериментальной__ функции в мртк 2,6. Он интегрируется в МРТК как [пространственный наблюдатель](spatial-awareness-getting-started.md#register-observers) с именем [`WindowsSceneUnderstandingObserver`](xref:Microsoft.MixedReality.Toolkit.WindowsSceneUnderstanding.Experimental.WindowsSceneUnderstandingObserver) . понятие "сцены" работает как с устаревшим конвейером XR, так и с конвейером пакета SDK XR (опенкср (начиная с мртк 2,7) и Windows подключаемым модулем XR). В обоих случаях `WindowsSceneUnderstandingObserver` используется.
 
 > [!NOTE] 
 > Использование сцены в удаленном взаимодействии не поддерживается.
@@ -34,7 +34,7 @@ ms.locfileid: "112449753"
 ## <a name="setup"></a>Настройка
 
 > [!IMPORTANT]
-> Понимание сцены поддерживается только в HoloLens 2 и Unity 2019,4 и более поздних версиях.
+> понимание сцены поддерживается только в HoloLens 2 и Unity 2019,4 и более поздних версиях.
 
 1. Убедитесь, что платформа имеет значение UWP в параметрах сборки.
 1. Получите представление о пакете с помощью [средства "функция смешанной реальности](https://aka.ms/MRFeatureTool)".
@@ -45,11 +45,11 @@ ms.locfileid: "112449753"
 
 ### <a name="scene-understanding-sample-scene"></a>Пример сцены "сцена"
 
-В Unity используйте обозреватель проектов, чтобы открыть файл сцены в `Examples/Experimental/SceneUnderstanding/Scenes/SceneUnderstandingExample.unity` , и нажмите кнопку Воспроизвести.
+в Unity используйте проводник Project, чтобы открыть файл сцены в `Examples/Experimental/SceneUnderstanding/Scenes/SceneUnderstandingExample.unity` и нажмите кнопку воспроизвести.
 
 ::: moniker range="< mrtkunity-2021-05"
 > [!IMPORTANT]
-> Применяется только к МРТК 2.6.0 — при использовании средства "функция Mixed Reality" или при импорте через УПМ. Импортируйте пример "демонстрационные версии-Спатиалаваренесс" перед импортом примера "экспериментальный-Сценеундерстандинг" из-за проблемы с зависимостью. Дополнительные сведения см. в [этой ошибке GitHub](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/9431) .
+> Применяется только к МРТК 2.6.0 — при использовании средства "функция Mixed Reality" или при импорте через УПМ. Импортируйте пример "демонстрационные версии-Спатиалаваренесс" перед импортом примера "экспериментальный-Сценеундерстандинг" из-за проблемы с зависимостью. дополнительные сведения см. в [этой GitHub проблемы](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/9431) .
 
 ::: moniker-end
 Сцена демонстрирует следующее:
@@ -98,7 +98,7 @@ ms.locfileid: "112449753"
 
 ### <a name="built-app-notes"></a>Заметки о построении приложения
 
-Создавайте и развертывайте в HoloLens стандартным способом. После запуска для воспроизведения этих функций должно отобразиться несколько кнопок.
+создавайте и развертывайте их в HoloLens стандартным образом. После запуска для воспроизведения этих функций должно отобразиться несколько кнопок.
 
 Обратите внимание, что некоторые отчасти отправляют запросы наблюдателю. Неверная настройка результата запроса выборки в полезных данных события, не содержащих ожидаемые данные. Например, если один из них не запрашивает четыре числа, текстуры маски перекрытия не будут отображаться. Как и в разумных случаях, универсальные сети не отображаются, если наблюдатель не настроен на запрос сеток. Сценарий позаботится `DemoSceneUnderstandingController` о некоторых из этих зависимостей, но не на всех.
 
@@ -108,7 +108,7 @@ ms.locfileid: "112449753"
 
 ![Байты сериализованной сцены в наблюдателе](../images/spatial-awareness/BytesLocationInObserver.png)
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 * [Общие сведения о сцене](/windows/mixed-reality/scene-understanding)
 * [Общие сведения о пакете SDK для сцены](/windows/mixed-reality/scene-understanding-sdk)

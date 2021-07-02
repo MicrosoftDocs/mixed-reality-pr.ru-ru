@@ -5,16 +5,16 @@ author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: ad4a643d0fb46cdb15cee3c37edaffb4f51ed44b
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: f53932b5e12e60b3638c1d6c31e569016de983ee
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110145262"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113176753"
 ---
 # <a name="input-providers"></a>Поставщики входных данных
 
-Поставщики входных данных регистрируются в **профиле зарегистрированных поставщиков служб**, который находится в компоненте набора средств Mixed Reality:
+поставщики входных данных зарегистрированы в **профиле зарегистрированных поставщиков служб**, который находится в компоненте набор средств смешанной реальности:
 
 <img src="../images/input/RegisteredServiceProviders.PNG" width="650px" style="display:block;" alt="Service providers">
 
@@ -24,7 +24,7 @@ ms.locfileid: "110145262"
 | --- | --- |
 | [`Input Simulation Service`](xref:Microsoft.MixedReality.Toolkit.Input.InputSimulationService) | Имитация руки |
 | [`Mouse Device Manager`](xref:Microsoft.MixedReality.Toolkit.Input.UnityInput.MouseDeviceManager) | Мышь  |
-| [`OpenVR Device Manager`](xref:Microsoft.MixedReality.Toolkit.OpenVR.Input.OpenVRDeviceManager) | Generic Опенвр, Naopak палочка, Naopak Кнукклес, Окулус Touch, Окулус Remote, Windows Mixed Reality Опенвр  |
+| [`OpenVR Device Manager`](xref:Microsoft.MixedReality.Toolkit.OpenVR.Input.OpenVRDeviceManager) | Generic опенвр, naopak палочка, naopak кнукклес, окулус Touch, окулус Remote, Windows Mixed Reality опенвр  |
 | [`Unity Joystick Manager`](xref:Microsoft.MixedReality.Toolkit.Input.UnityInput.UnityJoystickManager) | Универсальный джойстик  |
 | [`Unity Touch Device Manager`](xref:Microsoft.MixedReality.Toolkit.Input.UnityInput.UnityTouchDeviceManager) | Сенсорный контроллер Unity  |
 | [`Windows Dictation Input Provider`](xref:Microsoft.MixedReality.Toolkit.Windows.Input.WindowsDictationInputProvider) | *Нет*  |

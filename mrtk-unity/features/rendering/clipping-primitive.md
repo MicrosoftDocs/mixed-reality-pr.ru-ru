@@ -1,18 +1,18 @@
 ---
-title: ClippingPrimitive
+title: Примитив обрезки
 description: Документация по примитивам обрезки с примерами в МРТК
 author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
-keywords: Unity, HoloLens, HoloLens 2, Mixed Reality, разработка, МРТК, отсеченный примитив,
-ms.openlocfilehash: 35b7166045986df34eaf2c23161efc6379160ead
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, отсеченный примитив,
+ms.openlocfilehash: c3331084f87ccc57208426910d84ed7bef457bc1
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110145207"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113176739"
 ---
-# <a name="clipping-primitive"></a>ClippingPrimitive
+# <a name="clipping-primitive"></a>Примитив обрезки
 
 [`ClippingPrimitive`](xref:Microsoft.MixedReality.Toolkit.Utilities.ClippingPrimitive)Поведения позволяют выполнять [`plane`](xref:Microsoft.MixedReality.Toolkit.Utilities.ClippingPlane) [`sphere`](xref:Microsoft.MixedReality.Toolkit.Utilities.ClippingSphere) [`box`](xref:Microsoft.MixedReality.Toolkit.Utilities.ClippingBox) обрезание, и фигурную обрезку с возможностью указать, какая сторона примитива будет обрезаться (внутри или снаружи) при использовании с шейдерами мртк.
 
@@ -23,9 +23,9 @@ ms.locfileid: "110145207"
 
 [`ClippingPlane.cs`](xref:Microsoft.MixedReality.Toolkit.Utilities.ClippingPlane), [`ClippingSphere.cs`](xref:Microsoft.MixedReality.Toolkit.Utilities.ClippingSphere) и [`ClippingBox.cs`](xref:Microsoft.MixedReality.Toolkit.Utilities.ClippingBox) можно использовать для простого управления обрезкими свойств примитивов. Используйте эти компоненты со следующими шейдерами, чтобы использовать сценарии обрезки.
 
-- *Набор средств для смешанной реальности и Стандартный*
-- *Набор средств для смешанной реальности или Текстмешпро*
-- *Набор средств для смешанной реальности или Text3DShader*
+- *смешанная реальность набор средств/Standard*
+- *смешанная реальность набор средств/текстмешпро*
+- *смешанная реальность набор средств/Text3DShader*
 
 ## <a name="examples"></a>Примеры
 
@@ -123,6 +123,6 @@ public class SecondClippingBox : ClippingBox
 
 Наконец, добавьте [`ClippingBox`](xref:Microsoft.MixedReality.Toolkit.Utilities.ClippingBox) компонент и секондклиппингбокс в сцену и укажите тот же модуль отрисовки для обоих полей. Теперь модуль подготовки отчетов должен быть обрезан обоими полями одновременно.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 - [Стандартный шейдер MRTK](mrtk-standard-shader.md)

@@ -1,16 +1,16 @@
 ---
-title: Крупные проекты
-description: Советы для потребителей МРТК с большими проектами.
+title: Использование МРТК в больших проектах
+description: Советы для потребителей мртк с большими проектами.
 author: polar-kev
 ms.author: kesemple
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 5db750048cf996b10062e638572b578ba383d5ee
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: 28ba272a48b0a0c524185ac7114a09cf8e0e91f8
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110144556"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113177126"
 ---
 # <a name="using-mrtk-in-large-projects"></a>Использование МРТК в больших проектах
 
@@ -101,7 +101,7 @@ crashlytics-build.properties
 
 ## <a name="projectpreferencesasset-file"></a>Файл Прожектпреференцес. Asset
 
-Параметры МРТК в масштабе проекта можно найти в разделе "> изменение параметров проекта" — > "набор инструментов смешанной реальности". Эти параметры будут сохранены в файл в этом расположении в папке Assets:
+параметры мртк на уровне Project можно найти в расположении > "изменить > Project Параметры-набор средств Mixed Reality". Эти параметры будут сохранены в файл в этом расположении в папке Assets:
 
 ```
 Assets/MixedRealityToolkit.Generated/ProjectPreferences.asset

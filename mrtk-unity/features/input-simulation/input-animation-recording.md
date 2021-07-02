@@ -1,16 +1,16 @@
 ---
-title: Запись анимации входных данных
+title: Запись анимации ввода
 description: Документация по системе записи анимации ввода в МРТК
 author: CDiaz-MS
 ms.author: cadia
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 81e49178a9f218e5d3be796ec6253ccabe5d44fc
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: 6bdb764c5905352b9aec7c1512a73e727b60573a
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110143915"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113176938"
 ---
 # <a name="input-animation-recording"></a>Запись анимации ввода
 
@@ -64,7 +64,7 @@ ms.locfileid: "110143915"
 
 ### <a name="editor-tools-for-recording-and-playing-input-animation"></a>Средства редактора для записи и воспроизведения анимации ввода
 
-В редакторе Unity существует ряд средств для записи и изучения анимации ввода. Доступ к этим средствам можно получить в [окне средства моделирования ввода](input-simulation-service.md#input-simulation-tools-window), которое можно открыть из _набора средств для смешанной реальности > служебные программы > меню моделирования ввода_ .
+В редакторе Unity существует ряд средств для записи и изучения анимации ввода. доступ к этим средствам можно получить в [окне средства моделирования ввода](input-simulation-service.md#input-simulation-tools-window), которое можно открыть из меню " _смешанная реальность набор средств > служебные программы" > "имитация входа_ ".
 
 > [!NOTE]
 > Запись и воспроизведение входных данных работают только в режиме воспроизведения.

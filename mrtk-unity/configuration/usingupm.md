@@ -1,20 +1,20 @@
 ---
 title: Использование диспетчера пакетов Unity
-description: Использование МРТК в диспетчере пакетов Unity
+description: использование мртк в Unity диспетчер пакетов
 author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
-keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК пакеты,
-ms.openlocfilehash: e3e7a2d06cd38d7a9e8daf579f1a312904a86280
-ms.sourcegitcommit: bb9f54f3e872a5464a5d9ba88b7ab5b8896efd82
+keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк пакеты,
+ms.openlocfilehash: 524783c48b82722aec26648ea54477a6c7bcd4ae
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110345077"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113177321"
 ---
-# <a name="mixed-reality-toolkit-and-unity-package-manager"></a>Набор средств для смешанной реальности и диспетчер пакетов Unity
+# <a name="using-the-unity-package-manager"></a>Использование диспетчера пакетов Unity
 
-Начиная с версии 2.5.0, с помощью [средства смешанной реальности](/windows/mixed-reality/develop/unity/welcome-to-mr-feature-tool)набор средств Microsoft Mixed Reality интегрируется с диспетчером пакетов Unity (УПМ) при использовании Unity 2019,4 и более поздних версий.
+начиная с версии 2.5.0, используя [средство "функция смешанной реальности](/windows/mixed-reality/develop/unity/welcome-to-mr-feature-tool)", набор средств Microsoft Mixed reality интегрируется с диспетчер пакетов unity (упм) при использовании unity 2019,4 и более поздних версий.
 
 ## <a name="using-the-mixed-reality-feature-tool"></a>Использование Mixed Reality Feature Tool
 
@@ -35,16 +35,16 @@ ms.locfileid: "110345077"
 
 ![Необходимые зависимости](../features/images/packaging/RequiredDependencies.png)
 
-## <a name="managing-mixed-reality-features-with-the-unity-package-manager"></a>Управление функциями смешанной реальности с помощью диспетчера пакетов Unity
+## <a name="managing-mixed-reality-features-with-the-unity-package-manager"></a>управление функциями смешанной реальности с помощью Unity диспетчер пакетов
 
-После добавления пакета набора средств Mixed Reality в манифест пакета его можно управлять с помощью пользовательского интерфейса диспетчера пакетов Unity.
+после добавления пакета набор средств смешанной реальности в манифест пакета можно управлять им с помощью пользовательского интерфейса Unity диспетчер пакетов.
 
 ![Пакет УПМ МРТК Foundation](../features/images/packaging/MRTK_FoundationUPM.png)
 
 > [!NOTE]
-> Если пакет набора средств для смешанной реальности удаляется с помощью диспетчера пакетов Unity, его необходимо добавить повторно с помощью [описанных выше действий](#using-the-mixed-reality-feature-tool).
+> если пакет набор средств смешанной реальности удаляется с помощью диспетчер пакетов Unity, его необходимо добавить повторно с помощью [описанных выше действий](#using-the-mixed-reality-feature-tool).
 
-### <a name="using-mixed-reality-toolkit-examples"></a>Примеры использования набора средств для смешанной реальности
+### <a name="using-mixed-reality-toolkit-examples"></a>примеры использования смешанной реальности набор средств
 
 В отличие от использования файлов пакета ресурсов (. пакет unitypackage) `com.microsoft.mixedreality.toolkit.examples` и `com.microsoft.mixedreality.toolkit.handphysicsservice` не импортируйте примеры сцен и ресурсов автоматически.
 
@@ -62,6 +62,6 @@ ms.locfileid: "110345077"
 > [!NOTE]
 > При обновлении импортированного образца будут перезаписаны все изменения, внесенные в этот образец и связанные ресурсы.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
-- [Пакеты набора средств для смешанной реальности](../packages/mrtk-packages.md)
+- [пакеты набор средств смешанной реальности](../packages/mrtk-packages.md)

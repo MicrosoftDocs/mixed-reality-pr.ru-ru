@@ -4,17 +4,17 @@ description: Список авторов МРТК
 author: cadia
 ms.author: cadia
 ms.date: 05/27/2021
-keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, C#, участники, сообщество
-ms.openlocfilehash: e952926f067cb6be10621b2914372aaa47af5b7d
-ms.sourcegitcommit: a5afc24a4887880e394ef57216b8fd9de9760004
+keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, C#, участники, Community
+ms.openlocfilehash: ae8cc8b1ab26a12188622a2c846dddd381491dc2
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "110647882"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113177291"
 ---
 # <a name="authors"></a>Авторы
 
-Набор средств Microsoft Mixed Reality Toolkit — это совместный проект, который содержит вклады пользователей по всему миру. Наш подтверждаемую Спасибо всем, кто имеет и продолжает участвовать.
+набор средств Microsoft Mixed Reality — это совместный проект, который содержит вклады пользователей по всему миру. Наш подтверждаемую Спасибо всем, кто имеет и продолжает участвовать.
 
 - ачаперон
 - Адам Митчелл (Адаммитчелл-MS)

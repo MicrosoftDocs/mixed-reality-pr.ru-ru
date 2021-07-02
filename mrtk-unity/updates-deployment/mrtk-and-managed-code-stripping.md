@@ -1,23 +1,23 @@
 ---
-title: MRTK и удаление управляемого кода
+title: МРТК и удаление управляемого кода
 description: Удаление кода в МРТК и Unity
 author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 09e5140fd9585c19eacac5ba937eaf4ea8f2a8ea
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: 8b8e0f4488a6e955e599084c0b59d8c80f553a78
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110143738"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113176289"
 ---
-# <a name="mrtk-and-unity-managed-code-stripping"></a>Удаление управляемого кода МРТК и Unity
+# <a name="mrtk-and-managed-code-stripping"></a>МРТК и удаление управляемого кода
 
 При использовании серверной части скриптов IL2CPP для Unity (необязательно в Unity 2018,4, обязательное в 2019 и более поздних версиях) происходит удаление [управляемого кода](https://docs.unity3d.com/Manual/ManagedCodeStripping.html) .
 Компоновщик Unity выполняет этот процесс для уменьшения двоичного размера, а также для уменьшения времени сборки.
 
-Набор средств Mixed Reality использует файл, `link.xml` чтобы влиять на то, как компоновщик Unity обрабатывает сборки мртк. Этот файл, описанный в [документации Unity](https://docs.unity3d.com/Manual/ManagedCodeStripping.html#LinkXML), содержит инструкции по сохранению кода, когда его использование не может быть определено (например, используется через отражение).
+набор средств смешанной реальности использует файл, `link.xml` чтобы влиять на то, как компоновщик Unity обрабатывает сборки мртк. Этот файл, описанный в [документации Unity](https://docs.unity3d.com/Manual/ManagedCodeStripping.html#LinkXML), содержит инструкции по сохранению кода, когда его использование не может быть определено (например, используется через отражение).
 
 Как гибкая и настраиваемая платформа, МРТК создает `link.xml` файл в при `Assets/MixedRealityToolkit.Generated` импорте, если он найден, если он не существует. Существовавшие ранее файлы link.xml не перезаписываются. Его рекомендуется `link.xml` `link.xml.meta` Добавить в систему управления версиями. Разработчики должны иметь возможность настроить `Assets/MixedRealityToolkit.Generated/link.xml` в соответствии с потребностями проекта.
 
@@ -63,7 +63,7 @@ ms.locfileid: "110143738"
 
 Дополнительные сведения о link.xml формате файлов см. в документации по Unity.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 - [Unity: обрезает управляемый код](https://docs.unity3d.com/Manual/ManagedCodeStripping.html)
 - [Unity: компоновка XML-файла](https://docs.unity3d.com/Manual/ManagedCodeStripping.html#LinkXML)

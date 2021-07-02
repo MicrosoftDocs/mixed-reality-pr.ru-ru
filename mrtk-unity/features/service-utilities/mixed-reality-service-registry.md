@@ -1,20 +1,20 @@
 ---
-title: Реестр службы Mixed Reality и Имикседреалитисервицерегистрар
+title: Реестр службы Mixed Reality
 description: Документация по Микседреалитисервицерегистри и Имикседреалитисервицерегистрар
 author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 09b20537824af42d241b6c33496cedcb4f530bc7
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: 061e4233d61de817b1aaed7faaa6d461427d6f07
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110145230"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113176705"
 ---
-# <a name="what-are-the-mixedrealityserviceregistry-and-imixedrealityserviceregistrar"></a>Что такое Микседреалитисервицерегистри и Имикседреалитисервицерегистрар?
+# <a name="mixed-reality-service-registry"></a>Реестр службы Mixed Reality
 
-В наборе средств Mixed Reality есть два очень схожих именованных компонента, выполняющих связанные задачи: Микседреалитисервицерегистри и Имикседреалитисервицерегистрар.
+в набор средств смешанной реальности есть два очень схожих именованных компонента, которые выполняют связанные задачи: микседреалитисервицерегистри и имикседреалитисервицерегистрар.
 
 ## <a name="mixedrealityserviceregistry"></a>микседреалитисервицерегистри
 
@@ -55,7 +55,7 @@ if (!MixedRealityServiceRegistry.TryGetService<IMixedRealityInputSystem>(out inp
 
 Как правило, методы, определенные Имикседреалитисервицерегистрар, вызываются внутренне компонентами управления службами или вызываются службами, требующими правильной работы дополнительных компонентов службы. Код приложения, как правило, не вызывает эти методы, так как это может привести к непредсказуемому поведению приложения (например, кэшированный экземпляр службы может стать недопустимым).
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 - [Документация по API Имикседреалитисервицерегистрар](xref:Microsoft.MixedReality.Toolkit.IMixedRealityServiceRegistrar)
 - [Документация по API Микседреалитисервицерегистри](xref:Microsoft.MixedReality.Toolkit.MixedRealityServiceRegistry)

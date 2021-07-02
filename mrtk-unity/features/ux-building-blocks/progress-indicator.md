@@ -1,18 +1,18 @@
 ---
-title: прогрессиндикатор
+title: Индикатор хода выполнения
 description: Обзор индикатора выполнения в МРТК
 author: CDiaz-MS
 ms.author: cadia
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 9170a376812901cb063038a5513d4fbf79ad0a28
-ms.sourcegitcommit: c65759b8d6465b6b13925cacab5af74443f7e6bd
+ms.openlocfilehash: 268d13d00bc0bcf1d522eaa6809dab9892624e11
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "112110123"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113176572"
 ---
-# <a name="progress-indicators"></a>Индикаторы хода выполнения
+# <a name="progress-indicator"></a>Индикатор хода выполнения
 
 ![Индикаторы хода выполнения](../images/progress-indicator/MRTK_ProgressIndicator_Main.png)
 

@@ -1,18 +1,18 @@
 ---
-title: Контроллеры в МРТК
+title: Обнаружение контроллеров в МРТК
 description: Документация по использованию различных контроллеров с МРТК
 author: RogPodge
 ms.author: roliu
 ms.date: 05/13/2021
-keywords: Unity, HoloLens, HoloLens 2, Mixed Reality, разработка, МРТК, контроллеры, HP REVERB, Окулус, HTC Naopak, руки
-ms.openlocfilehash: 111ebf2b1eb26bbef8cde16832f780acfa758595
-ms.sourcegitcommit: 719682f70a75f732b573442fae8987be1acaaf19
+keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, контроллеры, HP reverb, окулус, HTC naopak, руки
+ms.openlocfilehash: 2bb749f4e2f6294c4feb74f97af55ecb857d5f76
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "110743582"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113175589"
 ---
-# <a name="controllers-in-mrtk"></a>Контроллеры в МРТК
+# <a name="detecting-controllers-in-mrtk"></a>Обнаружение контроллеров в МРТК
 
 МРТК поддерживает множество различных контроллеров. Многие контроллеры, такие как HTC Naopak Кнукклес и HTC Naopak, будут работать изначально, как только приложение, созданное с помощью МРТК, будет запущено на совместимом устройстве. Другие контроллеры, например, наокулусные руки и контроллеры HP, G2, потребовали дополнительных пакетов, прежде чем они будут распознаны МРТК.
 
