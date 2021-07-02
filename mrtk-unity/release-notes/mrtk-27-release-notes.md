@@ -1,155 +1,199 @@
 ---
-title: Заметки о выпуске МРТК 2,7
-description: Заметки о выпуске МРТК версии 2,7
+title: Заметки о выпуске MRTK 2.7
+description: Заметки о выпуске для MRTK версии 2.7
 author: RogPodge
 ms.author: roliu
-ms.date: 05/27/2021
-ms.localizationpriority: medium
-keywords: Unity, HoloLens, HoloLens 2, Mixed Reality, разработка, МРТК, КСРСДК, устаревший XR, LEAP Motion, Ултралеап
+ms.date: 06/16/2021
+keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK, XRSDK, устаревшая смешанная реальность, Leap Motion, Ultraleap, OpenXR
+ms.localizationpriority: high
 monikerRange: '>= mrtkunity-2021-05'
-ms.openlocfilehash: 92c8705c70a2a6c1e25f1ed6b1f87eac1e5726e0
-ms.sourcegitcommit: 11d5d7c3fdd59c1ebcfca34dbb6d84c05b481e5f
-ms.translationtype: MT
+ms.openlocfilehash: 8f6c68c067df735761dd9c162c71fd85f1f3e132
+ms.sourcegitcommit: 72970dbe6674e28c250f741e50a44a238bb162d4
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111897407"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112906980"
 ---
-# <a name="microsoft-mixed-reality-toolkit-27-release-notes"></a>Заметки о выпуске Microsoft Mixed Reality Toolkit 2,7
+# <a name="microsoft-mixed-reality-toolkit-27-release-notes"></a>Заметки о выпуске Microsoft Mixed Reality Toolkit 2.7
 
-## <a name="whats-new-in-270"></a>Новые возможности в 2.7.0
+## <a name="whats-new-in-272"></a>Новые возможности версии 2.7.2
 
-### <a name="openxr-is-now-officially-supported-in-mrtk"></a>Опенкср теперь официально поддерживается в МРТК
+### <a name="fixed-a-upm-package-dependency-issue"></a>Исправлена проблема с зависимостью пакета UPM
 
-Так как новые подключаемые модули Опенкср становятся более и более зрелыми МРТК, теперь официально поддерживает Опенкср. По сравнению с предыдущими выпусками мы добавили в проекты следующие возможности с помощью Опенкср:
+С пакетами UPM в MRTK 2.7.1 возникала проблема, из-за которой зависимости настраивались неправильно. Эта проблема приводила к тому, что Mixed Reality Feature Tool не удавалось правильно импортировать пакеты MRTK 2.7.1. В версии 2.7.2 эта проблема устранена. В этой версии по сравнению с версией 2.7.1 отсутствуют изменения кода.
 
-- [Поддержка модели контроллера движения, предоставляемой системой](#support-for-the-system-provided-motion-controller-model-on-openxr)
-- Поддержка жестов Винмр (выбор, удержание, манипуляция и навигация) [#9843](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9843)
-- [Поддержка хаптикс контроллера](#support-for-controller-haptics-across-legacy-wmr-windows-xr-plugin-and-openxr)
-- [Поддержка сочлененной сетки в HoloLens 2](#support-for-hololens-2-articulated-hand-mesh-on-openxr)
-- Поддержка пространственного сопоставления в HoloLens 2 [#9567](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9567), [#9827](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9827)
-- Поддержка сцены на сценах в HoloLens 2 [#9744](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9744)
 
-### <a name="legacy-xr-and-xr-sdk-data-providers-can-now-be-used-within-the-same-profile"></a>Устаревшие поставщики данных XR и XR SDK теперь можно использовать в одном и том же профиле.
+## <a name="whats-new-in-271"></a>Новые возможности версии 2.7.1
 
-Поставщики данных теперь также будут загружаться только при выборе соответствующего конвейера, что позволяет использовать как устаревшие поставщики данных XR и XR SDK в одном профиле. В соответствии с этим устаревшие поставщики данных XR и XR SDK теперь организованы на разных вкладках в представлении профиля, помогая пользователям определить, есть ли у них правильный профиль для целевого конвейера XR.
+### <a name="show-version"></a>Show version (Показать версию)
 
-![Поставщики данных предыдущих версий и XR SDK теперь могут быть объединены в одном профиле.](../features/images/xrsdk/LegacyAndXrsdkUnified.png)
+Меню `Mixed Reality` > `Toolkit` теперь содержит запись `Show version...` (Показать версию), которая позволяет изучить пакет Mixed Reality Toolkit Foundation и определить, какая версия MRTK используется проектом.
 
-Для этого поставщики данных, имеющие значение null, теперь больше не будут загружаться и отображаться в инспекторе профилей. Пользователи могут переключаться `Show null data providers in the profile inspector` в разделе **Edit-> Project Settings (> Mixed Reality Toolkit)** для отладки непредвиденных поведений с отсутствующими поставщиками данных.
+![Меню Show version (Показать версию)](images/ShowVersionMenu.png)
 
-![Поставщики данных со значением NULL теперь скрыты по умолчанию. ](https://user-images.githubusercontent.com/39840334/115093658-ead24600-9ecf-11eb-91c2-486a37f69aba.png)
- ![ переключатель Показать поставщики данных со значением NULL в инспекторе профилей](https://user-images.githubusercontent.com/39840334/115093670-f6257180-9ecf-11eb-96ec-ffe44a225a55.png)
+![Диалоговое окно с версией MRTK](images/VersionDialog.png)
 
-### <a name="added-experience-settings-and-an-associated-mixed-reality-scene-content-behavior"></a>Добавлены параметры интерфейса и связанное поведение содержимого сцены смешанной реальности.
+> [!NOTE]
+> Если MRTK был клонирован из [репозитория GitHub](https://aka.ms/mrtk), сведения о версии будут отсутствовать.
+>
+> ![Не удается определить версию](images/CannotDetermineVersion.png)
 
-Теперь пользователи могут настроить [Параметры взаимодействия](../features/experience-settings/experience-settings.md), что позволит Мртк отображать [содержимое сцены смешанной реальности](../features/experience-settings/scene-content.md) в соответствии с целевым интерфейсом.
+### <a name="authors-list"></a>Список авторов
 
-Если параметры масштабирования пользователя, указанные выше, не соответствуют новому профилю параметров интерфейса, им будет предложено исправить его в инспекторе
+Начиная с MRTK версии 2.7.1, файл со списком авторов включается в пакет Mixed Reality Toolkit Foundation.
 
-![Масштабирование возможностей миграции](https://user-images.githubusercontent.com/39840334/114946863-d70bde80-9e00-11eb-9859-fa40d40d2b36.gif)
+### <a name="integrated-openxr-project-setup-into-the-configurator-setup-flow"></a>Настройка проекта OpenXR интегрирована в процесс настройки конфигуратора
 
-### <a name="the-redesigned-configurator-now-guides-the-user-through-the-setup-process"></a>Переработанный Конфигуратор теперь помогает пользователю выполнить процесс установки.
+Начиная с MRTK версии 2.7.1, пользователи подключаемого модуля OpenXR для смешанной реальности получают инструкции по настройке такого модуля в MRTK. Для пользователей, которые будут использовать HoloLens 2, доступен вариант с автоматическим применением рекомендуемых параметров.
 
-Новое конфигуратор МРТК предоставляет пользователям пошаговые инструкции для правильной настройки проекта для разработки XR и использования с МРТК. Он охватывает выбор конвейера XR, получение подключаемых модулей для платформы, импорт Текстмешпро, отображение примеров (при использовании УПМ) и других ранее рекомендованных параметров для проекта.
+![Окно конфигуратора с инструкциями по настройке OpenXR](images/configuratorMROpenXR.png)
 
-![Конфигуратор, отображающий список конвейеров](images/Configurator.png)
+### <a name="notable-bugfixes-and-changes"></a>Важные исправления и изменения
 
-### <a name="graduated-teleport-hotspot"></a>Активная точка телепортируйтесь с градиентом
+- Класс Unity Joystick Manager помечен как поддерживаемый в конвейере пакета SDK смешанной реальности [№ 9954](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9954), [№ 9994](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9994).
+- Добавлены проверки в код интерактивного инспектора, чтобы предотвратить появление ошибок со значением NULL [№ 9943](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9943).
+- Добавлен поставщик сеток OpenXR в пример сцены с шейдером пульса [№ 9902](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9902).
+- Восстановлен профиль физического взаимодействия с помощью рук в примере сцены [№ 9915](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9915).
+- Скрипты HandConstraint* были оптимизированы [№ 9935](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9935).
+- Исправлены некоторые ошибки, влияющие на создание и клонирование профилей [№ 9982](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9982).
 
-В новом [компоненте хот-спота телепортируйтесь](../features/teleport-system/teleport-hotspot.md) был установлен градиент. Вы можете добавить хот-спот телепортируйтесь в GameObject, чтобы обеспечить пользователю определенную позицию и ориентацию при телепортироваться к этому расположению.
 
-![Пример хот HotSpot для телепортируйтесь](images/TeleportHotspot.gif)
+## <a name="whats-new-in-270"></a>Новые возможности в версии 2.7.0
 
-### <a name="graduated-dwell"></a>Вдаваясь с градиентом
+### <a name="openxr-is-now-officially-supported-in-mrtk"></a>OpenXR теперь официально поддерживается в MRTK
 
-Теперь функция и пример вдаваясь перестали быть экспериментальными. В образец сцены включены новые примеры кнопок стиля объемные HoloLens 2.
+Так как функциональность новых подключаемых модулей OpenXR постоянно совершенствуется, MRTK теперь официально поддерживает OpenXR. По сравнению с прошлыми выпусками мы добавили следующие возможности в проекты, использующие OpenXR:
 
-![Вдаваясь Hero](../features/images/dwell/MRTK_UX_Dwell.png)
+- [Поддержка предоставляемой системой модели контроллера движений](#support-for-the-system-provided-motion-controller-model-on-openxr).
+- Поддержка жестов WinMR (выбор, удержание, манипулирование и навигация) [№ 9843](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9843).
+- [Поддержка тактильной обратной связи контроллера](#support-for-controller-haptics-across-legacy-wmr-windows-xr-plugin-and-openxr).
+- [Поддержка суставной виртуальной руки в HoloLens 2](#support-for-hololens-2-articulated-hand-mesh-on-openxr).
+- Поддержка пространственного сопоставления в HoloLens 2 [№ 9567](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9567), [№ 9827](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9827).
+- Поддержка интерпретации сцены в HoloLens 2 [№ 9744](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9744).
 
-### <a name="added-support-for-leap-motion-unity-modules-version-460-470-471-and-480"></a>Добавлена поддержка модулей Unity для Motion версии 4.6.0, 4.7.0, 4.7.1 и 4.8.0
+Если вы планируете использовать HoloLens 2 или гарнитуры смешанной реальности Windows с OpenXR, обязательно установите **подключаемый модуль OpenXR для смешанной реальности версии 0.9.5 или выше** с помощью [Mixed Reality Feature Tool](https://aka.ms/MRFeatureTool). В противном случае вы не сможете использовать некоторые из описанных выше возможностей.
 
-Поддержка последних версий [модулей Unity в LEAP](https://developer.leapmotion.com/unity) теперь СОВМЕСТИМА с мртк 2.7.0.  Дополнительные сведения см. [в статье Настройка мртк для LEAP Motion](../supported-devices/leap-motion-mrtk.md) .
+### <a name="legacy-xr-and-xr-sdk-data-providers-can-now-be-used-within-the-same-profile"></a>Поставщики данных устаревшей смешанной реальности и пакета SDK смешанной реальности теперь можно использовать в одном профиле
 
-Большое спасибо @jackyangzzh за участие в новой леапмотионориентатионексампле сцене!
+Поставщики данных теперь также будут загружаться при выборе соответствующего конвейера, что позволяет поставщикам данных устаревшей смешанной реальности и пакета SDK смешанной реальности параллельно существовать в одном профиле. Для этого поставщики данных устаревшей смешанной реальности и пакета SDK смешанной реальности теперь разнесены на разные вкладки в представлении профиля, благодаря чему пользователи могут определить, выбран ли у них правильный профиль для нужного конвейера смешанной реальности.
 
-### <a name="targeted-speech-events-raised-no-longer-restricted-to-gaze-pointers"></a>Целевые события речи больше не ограничены для указателей взгляда
+![Поставщиков данных устаревшей смешанной реальности и пакета SDK смешанной реальности теперь можно объединить в одном профиле](../features/images/xrsdk/LegacyAndXrsdkUnified.png)
 
-Ранее целевые события распознавания речи могли быть вызваны только для объектов, которые были сосредоточены на указателе взгляда. Теперь объекты могут получить события распознавания речи, если они связаны любым указателем.
+Для этого поставщики данных со значениями NULL теперь не будут загружаться в инспектор профилей и отображаться в нем. Пользователи могут переключить параметр `Show null data providers in the profile inspector` (Показывать поставщики данных со значениями NULL в инспекторе профилей), выбрав **Edit -> Project Settings -> Mixed Reality Toolkit** (Правка -> Параметры проекта -> Mixed Reality Toolkit), чтобы выполнить отладку неожиданного поведения с отсутствующими поставщиками данных.
 
-![События речи с дальней указателем](https://user-images.githubusercontent.com/39840334/117516612-6fa00500-af4e-11eb-94ba-d5fb2ed4e7de.gif)
+![Поставщики данных со значениями NULL теперь скрыты по умолчанию](https://user-images.githubusercontent.com/39840334/115093658-ead24600-9ecf-11eb-91c2-486a37f69aba.png)
+![Переключение отображения поставщиков данных со значениями NULL в инспекторе профилей](https://user-images.githubusercontent.com/39840334/115093670-f6257180-9ecf-11eb-96ec-ffe44a225a55.png)
 
-### <a name="ported-texttospeech-from-htk-to-mrtk"></a>Перенос Тексттоспич из ХТК в МРТК
+### <a name="added-experience-settings-and-an-associated-mixed-reality-scene-content-behavior"></a>Добавлены параметры взаимодействия и связанное поведение содержимого сцены смешанной реальности
 
-Видеомагнитофон Тексттоспич Script теперь доступен в МРТК, чтобы помочь вам создавать речь из текста на платформе UWP с помощью [`SpeechSynthesizer`](/uwp/api/windows.media.speechsynthesis.speechsynthesizer) . Также добавлен пример сцены для демонстрации этой функции.
+Пользователи теперь могут настроить [параметры взаимодействия](../features/experience-settings/experience-settings.md), которые позволяют MRTK отображать [содержимое сцены смешанной реальности](../features/experience-settings/scene-content.md) с учетом целевого взаимодействия.
 
-### <a name="support-for-the-system-provided-motion-controller-model-on-openxr"></a>Поддержка предоставляемой системой модели контроллера движения на Опенкср
+Если предыдущие параметры шкалы взаимодействия пользователя не соответствуют новому профилю параметров взаимодействия, в инспекторе отобразится запрос на их исправление
 
-Добавлена поддержка, как в редакторе, так и во время выполнения, для предоставляемой системой модели контроллера движения на Опенкср.
+![Перенос шкалы взаимодействия](https://user-images.githubusercontent.com/39840334/114946863-d70bde80-9e00-11eb-9859-fa40d40d2b36.gif)
 
-![Окно редактора, отображающее две модели контроллеров движения](https://user-images.githubusercontent.com/3580640/116493405-89a55d80-a853-11eb-95ae-d430e6fdc8b4.png)
+### <a name="the-redesigned-configurator-now-guides-the-user-through-the-setup-process"></a>Обновленный конфигуратор теперь помогает пользователю выполнить настройку
 
-### <a name="support-for-hololens-2-articulated-hand-mesh-on-openxr"></a>Поддержка сетки с сочленением HoloLens 2 в Опенкср
+Новый конфигуратор MRTK предоставляет пошаговые рекомендации по надлежащей настройке проекта для разработки смешанной реальности и ее использования с MRTK. Он включает такие действия, как выбор конвейера смешанной реальности, получение подключаемых модулей для платформы, импорт TextMeshPro, отображение примеров (при использовании UPM) и других ранее включенных рекомендуемых параметров для проекта.
 
-![Сетка "рука", выполняющаяся на устройстве в МРТК примере сцены](https://user-images.githubusercontent.com/3580640/112909923-32bb3580-90a7-11eb-925d-464b135edc61.png)
+![Конфигуратор отображает список конвейеров](images/Configurator.png)
 
-### <a name="support-for-controller-haptics-across-legacy-wmr-windows-xr-plugin-and-openxr"></a>Поддержка хаптикс контроллера в устаревших ВМР, подключаемом модуле Windows XR и Опенкср
+### <a name="graduated-teleport-hotspot"></a>Точка телепорта улучшена
 
-Добавлена поддержка хаптикс контроллера для устаревших ВМР, подключаемого модуля Windows XR и Опенкср. [#9735](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9735)
+Новый [компонент точки телепорта](../features/teleport-system/teleport-hotspot.md) улучшен. Вы можете добавить точку телепорта в GameObject, чтобы настроить для пользователя расположение и ориентацию в определенной позиции при телепорте.
+
+![Пример точки телепорта](images/TeleportHotspot.gif)
+
+### <a name="graduated-dwell"></a>Остановка взгляда улучшена
+
+Функция остановки взгляда и ее пример теперь вышли из экспериментальной версии. Новые примеры объемных кнопок в стиле HoloLens 2 теперь включены в пример сцены.
+
+![Карточка остановки взгляда](../features/images/dwell/MRTK_UX_Dwell.png)
+
+### <a name="added-support-for-leap-motion-unity-modules-version-460-470-471-and-480"></a>Добавлена поддержка для модулей Unity Leap Motion версий 4.6.0, 4.7.0, 4.7.1 и 4.8.0
+
+Поддержка для последних версий [модулей Unity Leap Motion](https://developer.leapmotion.com/unity) теперь совместима с MRTK 2.7.0. Дополнительные сведения см. в статье [Как настроить MRTK для Leap Motion](../supported-devices/leap-motion-mrtk.md).
+
+Благодарим @jackyangzzh за новую сцену LeapMotionOrientationExample!
+
+### <a name="targeted-speech-events-raised-no-longer-restricted-to-gaze-pointers"></a>Вызванные заданные события речи больше не ограничены указателями взгляда
+
+Ранее заданные события речи могли быть вызваны только для объектов, на которых был установлен фокус указателя взгляда. Теперь объекты могут получать события речи, если на них установлен фокус любого указателя.
+
+![События речи с дальними указателями](https://user-images.githubusercontent.com/39840334/117516612-6fa00500-af4e-11eb-94ba-d5fb2ed4e7de.gif)
+
+### <a name="ported-texttospeech-from-htk-to-mrtk"></a>Выполнено портирование TextToSpeech из HTK в MRTK
+
+Популярный скрипт TextToSpeech наконец доступен в MRTK. Он упрощает создание речи из текста на платформе UWP с помощью [`SpeechSynthesizer`](/uwp/api/windows.media.speechsynthesis.speechsynthesizer). Также добавлен пример сцены для демонстрации этой функции.
+
+### <a name="support-for-the-system-provided-motion-controller-model-on-openxr"></a>Поддержка предоставляемой системой модели контроллера движений в OpenXR
+
+Включена поддержка (в редакторе и среде выполнения) предоставляемой системой модели контроллера в OpenXR.
+
+![Окно редактора с отображением двух моделей контроллера движений](https://user-images.githubusercontent.com/3580640/116493405-89a55d80-a853-11eb-95ae-d430e6fdc8b4.png)
+
+### <a name="support-for-hololens-2-articulated-hand-mesh-on-openxr"></a>Поддержка суставной виртуальной руки HoloLens 2 в OpenXR
+
+![Виртуальная рука, выполняющаяся на устройстве в примере сцены MRTK](https://user-images.githubusercontent.com/3580640/112909923-32bb3580-90a7-11eb-925d-464b135edc61.png)
+
+### <a name="support-for-controller-haptics-across-legacy-wmr-windows-xr-plugin-and-openxr"></a>Поддержка тактильной обратной связи контроллера в устаревшем модуле WMR, подключаемом модуле Windows XR и OpenXR
+
+Включена поддержка тактильной обратной связи контроллера в устаревшем модуле WMR, подключаемом модуле Windows XR и OpenXR. [№ 9735](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9735)
 
 ### <a name="support-for-eye-tracking-on-windows-xr-plugin"></a>Поддержка отслеживания взгляда в подключаемом модуле Windows XR
 
-Добавлена поддержка глаза при использовании минимальных версий подключаемого модуля Windows XR 2.7.0 (Unity 2019), 4.4.2 (Unity 2020) и 5.2.2 (Unity 2021). [#9609](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9609)
+Включена поддержка отслеживания взгляда при использовании минимальных версий подключаемого модуля Windows XR 2.7.0 (Unity 2019), 4.4.2 (Unity 2020) и 5.2.2 (Unity 2021). [№ 9609](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9609)
 
-### <a name="notable-bugfixes-and-changes"></a>Важные исправлений и изменения
+### <a name="notable-bugfixes-and-changes"></a>Важные исправления и изменения
 
-- Обнаружение сжатия стало более гладким. Теперь нельзя случайно удалить жест сжатия. [#9576](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9576)
-- Объекты с компонентом манипулятора объекта теперь постоянно поддерживают скорость выпуска при установке флага. [#9733](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9733)
-- Обратная страфинг теперь проверяет наличие пола, помогая предотвратить ситуации, когда камера может обрезать окружение или когда пользователь наводит указатель мыши на пустое место. [#9697](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9697)
-- Иснеаробжект теперь является виртуальным свойством, что обеспечивает большую гибкость при расширении сферы или указателя. [#9803](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9803)
-- Теперь на кнопках отображается правильное ключевое слово при отображении команды распознавания речи. [#9824](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9824)
-- Контроллеры Окулус теперь используют собственный автономный визуализатор, предотвращая конфликт визуализации МРТК с визуализацией пакета интеграции Окулус. [#9589](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9589)
-- Сценарии, связанные с клавиатурой, были изменены в соответствии с поведением в последних версиях Unity (2019.4.25 + & 2020.3.2 +). В выпуске по-прежнему есть ошибка автоматического завершения и поле ввода TMP (они являются внешними по МРТК), влияющие на HoloLens. Дополнительные сведения см. в разделе [#9056](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9056) и [#9724](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9724).
-- Улучшена производительность прокрутки коллекции объектов. Также исправлена проблема, из – за которой GameObject в коллекции теряет материалы при дублировании. [#9813](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9813), [#9718](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9718)
-- В демонстрационном сценарии демонстрации сцены добавлена `GetSceneObjectsOfType` функция для получения всех наблюдаемых объектов сцены определенного типа. [#9524](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9524), [#9744](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9744)
-- В средстве сборки командной строки в сборку будут включаться только сцены, заданные `sceneList` `sceneListFile` флагами или (при наличии любого флага). [#9695](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9695)
-- В средстве сборки имеется новый параметр для указания пути к `nuget.exe` и использования для выполнения восстановления пакета вместо `msbuild` параметра (по умолчанию). [#9556](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9556)
-- Исправлена проблема, при которой использование подключаемого модуля XR для Windows может привести к устаревшим соединениям и удвоенным сеткам руки. [#9890](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9890)
-- Исправлена проблема, при которой при использовании функции автоматического удаленного взаимодействия подключаемого модуля Windows XR отсутствует возможность входа и взаимодействия. [#9868](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9868)
-- Исправлена проблема, при которой Буилддеплойвиндов попытается запросить недопустимый ключ реестра для пути Windows SDK. [#9664](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9664)
-- Средства импорта Глтф для МРТК теперь являются необязательными. Если имеется несколько Глтф импортеров, МРТК можно отключить, добавив `MRTK_GLTF_IMPORTER_OFF` в пользовательский скрипт символы. [#9658](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9658)
-- Исправлена проблема, когда контроллеры Кнукклес в Опенвр не были правильно обнаружены. [#9881](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9881)
-- Уменьшите число распределений по кадрам при визуализации сетки "рука" [#9756](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9756)
-- Добавлен пункт меню для запуска пакета примеров МРТК (в диспетчере пакетов Unity), чтобы упростить импорт примеров [#9798](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9798)
-- Сокращение количества предупреждений во время загрузки при использовании Unity 2020,3.
-- Добавлена документация по функциям окна сборки: [посетите страницу](/windows/mixed-reality/mrtk-unity/features/tools/build-window) .
+- Обнаружение уменьшения стало более плавным. Теперь сложнее случайно прервать жест уменьшения. [№ 9576](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9576)
+- Объекты с компонентом Object Manipulator теперь стабильно поддерживают скорость при отпускании, если задан флаг. [№ 9733](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9733)
+- При движении назад теперь выполняется проверка на наличие пола, что позволяет предотвратить ситуации, в которых камера может застрять в объектах окружения или над пустым пространством.[№ 9697](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9697)
+- IsNearObject теперь является виртуальным свойством, что повышает гибкость при расширении указателя сферы или указателя тычка. [№ 9803](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9803)
+- Кнопки теперь отображают правильное ключевое слово при отображении доступной речевой команды. [№ 9824](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9824)
+- Контроллеры Oculus теперь используют собственный автономный визуализатор, что предотвращает конфликты визуализаций MRTK с визуализацией пакета интеграции Oculus. [№ 9589](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9589)
+- Скрипты, связанные с клавиатурой, были изменены в соответствии с поведением в последних версиях Unity (2019.4.25 и выше и 2020.3.2 и выше). На момент выпуска все еще существует ошибка с автозавершением и ошибка с полем ввода (которые не зависят от MRTK), влияющие на работу HoloLens. Дополнительные сведения см. в описании проблемы [№ 9056](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9056) и [№ 9724](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9724).
+- Улучшена производительность прокрутки коллекции объектов. Также исправлена проблема, из-за которой GameObject в коллекции утрачивал материал при копировании. [№ 9813](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9813), [№ 9718](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9718)
+- В демонстрационный скрипт интерпретации сцены добавлена функция `GetSceneObjectsOfType` для получения всех наблюдаемых объектов сцены определенного вида. [№ 9524](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9524), [№ 9744](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9744)
+- В средстве сборки командной строки в сборку будут включены только сцены, указанные с помощью флагов `sceneList` или `sceneListFile` (при наличии каких-либо флагов). [№ 9695](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9695)
+- В средстве сборки доступна новая возможность для указания пути к файлу `nuget.exe` и его использования для восстановления пакета (вместо использования `msbuild` по умолчанию). [№ 9556](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9556)
+- Исправлена проблема, из-за которой использование подключаемого модуля Windows XR Plugin могло приводить к неподвижности сочленений руки и дублированию виртуальных рук. [№ 9890](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9890)
+- Исправлена проблема, из-за которой использование функции автоматического удаленного взаимодействия в подключаемом модуле Windows XR приводило к отсутствующим входным данным и взаимодействиям. [№ 9868](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9868)
+- Исправлена проблема, из-за которой класс BuildDeployWindow пытался отправить запрос к недопустимому разделу реестра для пути пакета SDK Windows. [№ 9664](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9664)
+- Средства импорта glTF в MRTK теперь необязательны. Если доступно несколько средств импорта glTF, средства импорта MRTK теперь можно отключить, добавив `MRTK_GLTF_IMPORTER_OFF` в пользовательские символы определения скрипта (Scripting Define Symbols). [№ 9658](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9658)
+- Исправлена проблема, из-за которой контроллеры Knuckles в OpenVR не обнаруживались надлежащим образом. [№ 9881](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9881)
+- Уменьшено число покадровых размещений при визуализации виртуальной руки [№ 9756](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9756)
+- Добавлен пункт меню для запуска пакета с примерами MRTK (в диспетчере пакетов Unity), чтобы упростить импорт примеров [№ 9798](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/9798)
+- Уменьшено число предупреждений о времени загрузки при использовании Unity 2020.3.
+- Добавлена документация по функции окна сборки: [посетить страницу](../features/tools/build-window.md)
 
 ## <a name="known-issues"></a>Известные проблемы
 
-### <a name="audio-demos-are-missing-an-asmdef-file-upm-package"></a>В демонстрациях аудио отсутствует файл асмдеф (пакет УПМ)
+### <a name="audio-demos-are-missing-an-asmdef-file-upm-package"></a>В аудиодемонстрациях отсутствует ASMDEF-файл (пакет UPM)
 
-При импорте МРТК с помощью средства "функция смешанной реальности" образцы и демонстрации добавляются в проект с помощью пользовательского интерфейса диспетчера пакетов Unity. После импорта демонстрационных аудио `WindowsMicrophoneStreamDemo.unity` сцены будут работать неправильно. Это результат отсутствующего асмдеф-файла для образца.
+При импорте MRTK через Mixed Reality Feature Tool примеры и демонстрации добавляются в проект с помощью пользовательского интерфейса диспетчера пакетов Unity. После импорта аудиодемонстраций сцена `WindowsMicrophoneStreamDemo.unity` не будет работать надлежащим образом. Это вызвано отсутствием ASMDEF-файла для примера.
 
-Чтобы обойти эту [ошибку](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/9908), выполните следующие действия.
+Чтобы устранить эту [проблему](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/9908), выполните следующие шаги:
 
-- Копировать библиотеку, Паккажекаче/com.microsoft.mixedreality.toolkit.examples@ [...] /мртк. Примеры. асмдеф в папку "Assets/Samples/примеры набора средств смешанной реальности"
-- Переименование скопированного файла в примеры
-- Открытие файла примеров
-- В поле Имя замените содержимое примерами.
-- Нажмите кнопку Применить.
+- Скопируйте файл Library/PackageCache/com.microsoft.mixedreality.toolkit.examples@[...]/MRTK.Examples.asmdef в свою папку Assets/Samples/Mixed Reality Toolkit Examples.
+- Переименуйте скопированный файл в Examples.
+- Откройте файл Examples.
+- В поле Name (Имя) замените содержимое на Examples.
+- Нажмите кнопку Apply (Применить).
 - Сборка и развертывание
 
-Эта проблема будет исправлена в предстоящем выпуске МРТК.
+Эта проблема будет исправлена в следующем выпуске MRTK.
 
-### <a name="mrtk-build-window-triggers-indefinite-importing-assets-dialog-in-unity-20203"></a>Окно сборки МРТК активирует неопределенное диалоговое окно "Импорт ресурсов" в Unity 2020,3
+### <a name="mrtk-build-window-triggers-indefinite-importing-assets-dialog-in-unity-20203"></a>Окно сборки MRTK вызывает бесконечный запуск диалогового окна Importing assets (Импорт активов) в Unity 2020.3
 
-Существует известная [Ошибка](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/9723) в окне сборки Мртк в Unity 2020,3, где после успешного выполнения сборки UWP диалоговое окно "Импорт ресурсов" не завершается. Эта проблема изучается в связи с Unity.
+Существует известная [проблема](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/9723) с окном сборки MRTK в Unity 2020.3, из-за которой после успешной сборки UWP диалоговое окно Importing assets (Импорт активов) не закрывается. Мы изучаем эту проблему совместно с командой Unity.
 
-### <a name="text-mesh-pro-canvas-renderer-warnings-in-unity-2020"></a>Предупреждения модуля подготовки холста для визуализации текста в Unity 2020
+### <a name="text-mesh-pro-canvas-renderer-warnings-in-unity-2020"></a>Предупреждения Text Mesh Pro Canvas Renderer в Unity 2020
 
-Следующее предупреждение регистрируется в большинстве МРТК примеров сцен при использовании Unity 2020:
+Следующее предупреждение отображается в большинстве примеров сцен MRTK при использовании Unity 2020:
 
 ```txt
 Please remove the CanvasRenderer component from the [TextMeshPro] GameObject as this component is no longer necessary.
 ```
 
-Предупреждение модуля подготовки холста Добавлено в [текстмешпро версии 3.0.3](https://docs.unity3d.com/Packages/com.unity.textmeshpro@3.0/changelog/CHANGELOG.html#changes-3).  Эти предупреждения не влияют на примеры сцен МРТК и могут быть удалены из консоли. Дополнительные сведения см. в описании [проблемы 9811](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/9811) .
+Предупреждение Canvas Renderer было добавлено в [TextMeshPro версии 3.0.3](https://docs.unity3d.com/Packages/com.unity.textmeshpro@3.0/changelog/CHANGELOG.html#changes-3). Эти предупреждения не влияют на работу примеров сцен MRTK, поэтому их можно удалять из консоли. Дополнительные сведения см. в описании [проблемы 9811](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/9811).
