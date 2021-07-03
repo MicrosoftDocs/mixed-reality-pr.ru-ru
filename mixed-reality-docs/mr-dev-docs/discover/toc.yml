@@ -8,29 +8,29 @@
   href: mr-learning-overview.md
 - name: Расширение процесса проектирования
   href: case-study-expanding-the-design-process-for-mixed-reality.md
-- name: Запуск центра примеров MRTK
-  href: 'https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/running-examples-hub'
 - name: Создание голограмм
   href: designing-holograms.md
 - name: Обзор примеров
   href: case-studies-overview.md
-- name: Оборудование HoloLens
+- name: Оборудование
   items:
-    - name: "Сведения об оборудовании HoloLens\_2"
-      href: /hololens/hololens2-hardware
-    - name: Сведения об оборудовании HoloLens (1-го поколения)
-      href: /hololens/hololens1-hardware
-- name: Иммерсивные гарнитуры
-  items:
-    - name: Сведения об оборудовании иммерсивных гарнитур
-      href: immersive-headset-hardware-details.md
-    - name: Навигация по дому с технологией Windows Mixed Reality
-      href: navigating-the-windows-mixed-reality-home.md
-    - name: Руководство для энтузиастов виртуальной реальности
-      href: /windows/mixed-reality/enthusiast-guide/
-    - name: Развлечения на основе местоположения
-      href: location-based-experiences.md
+    - name: HoloLens
+      items:
+        - name: "Сведения об оборудовании HoloLens\_2"
+          href: /hololens/hololens2-hardware
+        - name: Сведения об оборудовании HoloLens (1-го поколения)
+          href: /hololens/hololens1-hardware
+    - name: Иммерсивные гарнитуры
+      items:
+        - name: Сведения об оборудовании иммерсивных гарнитур
+          href: immersive-headset-hardware-details.md
+        - name: Навигация по дому с технологией Windows Mixed Reality
+          href: navigating-the-windows-mixed-reality-home.md
+        - name: Руководство для энтузиастов виртуальной реальности
+          href: /windows/mixed-reality/enthusiast-guide/
+        - name: Развлечения на основе местоположения
+          href: location-based-experiences.md
+    - name: Accessories
+      href: hardware-accessories.md
 - name: Ресурсы сообщества
   href: community.md
-- name: Аксессуары к оборудованию
-  href: hardware-accessories.md

@@ -5,7 +5,7 @@
 - name: Подробнее об облачных службах смешанной реальности в Azure
   href: ../develop/mixed-reality-cloud-services.md
 - name: Начало работы с OpenXR в Unity
-  href: ../develop/unity/openxr-getting-started.md
+  href: ../develop/unity/xr-project-setup.md
 - name: Использование новых контроллеров HP Reverb G2
   items:
     - name: Unity

@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: ee466c65bd6de166b15042f93989b5d8829c8d59
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: 2f7424bc25e358bd368e651af7d906930afe6ccc
+ms.sourcegitcommit: 62e5909b837c9c7ecedd040164f2308868db4723
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "98582981"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "111741973"
 ---
 # <a name="azure-remote-rendering"></a>[Удаленная отрисовка Azure](#tab/arr)
 
@@ -27,14 +27,3 @@ ms.locfileid: "98582981"
 * [Обнаружение ближайших привязок](/azure/spatial-anchors/how-tos/set-up-coarse-reloc-unity)
 * [Руководство. Совместное использование привязок в сеансах и на устройствах](/azure/spatial-anchors/tutorials/tutorial-share-anchors-across-devices?tabs=VS%2cAndroid)  
 * [Примеры пространственных привязок Azure (GitHub)](https://github.com/Azure/azure-spatial-anchors-samples) 
-
-# <a name="dynamics-365"></a>[Dynamics 365](#tab/D365)
-
-Microsoft Dynamics 365 Guides — это приложение смешанной реальности для Microsoft HoloLens, которое позволяет операторам обучаться в ходе работы, предоставляя при необходимости голографические инструкции. Такие карточки инструкций визуально привязаны к месту выполнения работы и могут включать изображения, видео и трехмерные голографические модели.
-
-* [Обзор](/dynamics365/mixed-reality/guides/) 
-* [Начало работы](/dynamics365/mixed-reality/guides/get-started) 
-* [Я являюсь администратором](/dynamics365/mixed-reality/guides/setup)
-* [Я являюсь автором](/dynamics365/mixed-reality/guides/authoring-overview) 
-* [Я являюсь оператором](/dynamics365/mixed-reality/guides/operator-overview) 
-* [Справка по сущностям для разработчиков](/dynamics365/mixed-reality/guides/developer-entity-reference)

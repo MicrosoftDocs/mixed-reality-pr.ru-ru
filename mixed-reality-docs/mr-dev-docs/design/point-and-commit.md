@@ -7,12 +7,12 @@ ms.date: 04/05/2019
 ms.topic: article
 ms.localizationpriority: high
 keywords: смешанная реальность, взаимодействие, проектирование, HoloLens, руки, дальность, наведение и фиксация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, телекинез, манипулирование объектами, MRTK, Mixed Reality Toolkit, степень свободы
-ms.openlocfilehash: 78a3ff87a48bbff838df4ee8baab7f8ea80203c0
-ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
+ms.openlocfilehash: a33927396d0d9a349d655245355733d24ea7d9ad
+ms.sourcegitcommit: 9ae76b339968f035c703d9c1fe57ddecb33198e3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107299809"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110600613"
 ---
 # <a name="point-and-commit-with-hands"></a>Наведение и фиксация с использованием рук
 
@@ -32,7 +32,7 @@ ms.locfileid: "107299809"
 <tr>
      <td><strong>Модель ввода</strong></td>
      <td><a href="/hololens/hololens1-hardware"><strong>HoloLens (1-го поколения)</strong></a></td>
-     <td><a href="https://docs.microsoft.com/hololens/hololens2-hardware"><strong>HoloLens 2</strong></td>
+     <td><a href="/hololens/hololens2-hardware"><strong>HoloLens 2</strong></td>
      <td><a href="../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
 </tr>
 <tr>
@@ -204,9 +204,9 @@ _Наведение и фиксация_ — одна из новых возм�
 
 По умолчанию в MRTK предоставляется заготовка для телекинеза ([DefaultControllerPointer.prefab](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/main/Assets/MixedRealityToolkit.SDK/Features/UX/Prefabs/Pointers)), которая имеет то же визуальное состояние, что и телекинез в системе оболочки. Она назначается в профиле ввода данных в MRTK, в разделе "Указатели". В иммерсивной гарнитуре для контроллеров движений используются такие же лучи.
 
-* [MRTK — профиль указателя](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/configuration/mixed-reality-configuration-guide#pointer-configuration)
-* [MRTK — система ввода](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/input/overview)
-* [MRTK — указатели](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/input/pointers)
+* [MRTK — профиль указателя](/windows/mixed-reality/mrtk-unity/configuration/mixed-reality-configuration-guide#pointer-configuration)
+* [MRTK — система ввода](/windows/mixed-reality/mrtk-unity/features/input/overview)
+* [MRTK — указатели](/windows/mixed-reality/mrtk-unity/features/input/pointers)
 
 ---
 

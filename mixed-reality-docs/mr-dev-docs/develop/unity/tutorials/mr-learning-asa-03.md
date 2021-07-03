@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure, сеансы приложений
 ms.localizationpriority: high
-ms.openlocfilehash: 91f1139181a5a77123e003fc0c64d0661220a143
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: 4a435702e87dc34ed96d5493a67905b8ab372a38
+ms.sourcegitcommit: b4fd969b9c2e6313aa728b0dbee4b25014668720
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "99590686"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111403355"
 ---
 # <a name="3-saving-retrieving-and-sharing-azure-spatial-anchors"></a>3. Сохранение, получение и совместное использование Пространственных привязок Azure
 

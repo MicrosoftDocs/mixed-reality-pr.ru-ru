@@ -7,12 +7,12 @@ ms.date: 03/26/2019
 ms.topic: article
 keywords: графика, ЦП, GPU, преобразование для просмотра, сборка мусора, hololens
 ms.localizationpriority: high
-ms.openlocfilehash: 2ff766c3fb2c9f8a91c3c8cc81bb21adae9956e8
-ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
+ms.openlocfilehash: 7d672af0c9309e4dd2965cc3cb315671a720a58a
+ms.sourcegitcommit: 719682f70a75f732b573442fae8987be1acaaf19
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107300159"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "110743434"
 ---
 # <a name="performance-recommendations-for-unity"></a>Рекомендации по производительности для Unity
 
@@ -309,7 +309,7 @@ Unity поддерживает создание пакетов из нескол
 
 #### <a name="unity-standard-shader-alternatives"></a>Альтернативы стандартному шейдеру Unity
 
-Вместо отрисовки на основе физических параметров или другого шейдера высокого качества, попробуйте применить более производительный и более дешевый шейдер. В [наборе средств для смешанной реальности](https://github.com/Microsoft/MixedRealityToolkit-Unity) предоставляется [стандартный шейдер MRTK](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/rendering/mrtk-standard-shader), который оптимизирован для проектов смешанной реальности.
+Вместо отрисовки на основе физических параметров или другого шейдера высокого качества, попробуйте применить более производительный и более дешевый шейдер. В [наборе средств для смешанной реальности](https://github.com/Microsoft/MixedRealityToolkit-Unity) предоставляется [стандартный шейдер MRTK](/windows/mixed-reality/mrtk-unity/features/rendering/mrtk-standard-shader), который оптимизирован для проектов смешанной реальности.
 
 В Unity также доступны упрощенные версии шейдеров (без освещенности, с освещенностью вершин, диффузное освещение и т. д.), которые работают быстрее стандартного шейдера Unity. Дополнительные сведения см. в статье об [использовании и производительности встроенных шейдеров](https://docs.unity3d.com/Manual/shader-Performance.html).
 
