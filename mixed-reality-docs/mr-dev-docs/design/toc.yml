@@ -141,7 +141,7 @@
     - name: Дополнительные сведения о Unity
       href: 'https://learn.unity.com/'
     - name: Набор средств для смешанной реальности
-      href: 'https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/'
+      href: /windows/mixed-reality/mrtk-unity/
     - name: Лаборатории проектирования смешанной реальности
       href: 'https://github.com/microsoft/MixedRealityDesignLabs_Unity'
     - name: Microsoft Maquette
