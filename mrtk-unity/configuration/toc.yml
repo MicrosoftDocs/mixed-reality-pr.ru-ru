@@ -2,7 +2,7 @@
   href: usingupm.md
 - name: Диалоговое окно конфигурации MRTK
   href: mrtk-configuration-dialog.md
-- name: Начало работы с MRTK и XRSDK
+- name: Начало работы с MRTK и SDK смешанной реальности
   href: getting-started-with-mrtk-and-xrsdk.md
-- name: Руководство по настройке смешанной реальности
+- name: Руководство по настройке профиля MRTK
   href: mixed-reality-configuration-guide.md

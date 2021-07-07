@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Документация по смешанной реальности
-summary: 'Исследуйте расширяющийся мир приложений смешанной реальности с Windows Mixed Reality, набором средств для смешанной реальности (MRTK), Unity, Unreal, а также многими другими решениями для HoloLens и иммерсивных гарнитур Windows.'
+summary: 'Исследуйте расширяющийся мир приложений смешанной реальности с Mixed Reality Toolkit (MRTK), Windows Mixed Reality, Unity, Unreal, а также многими другими решениями для HoloLens и иммерсивных гарнитур Windows.'
 brand: windows
 metadata:
   title: Документация по смешанной реальности
-  description: Погрузитесь в постоянно расширяющийся мир приложений смешанной реальности для HoloLens и иммерсивных гарнитур Windows.
+  description: 'Исследуйте расширяющийся мир приложений смешанной реальности с Mixed Reality Toolkit (MRTK), Windows Mixed Reality, Unity, Unreal, а также многими другими решениями для HoloLens и иммерсивных гарнитур Windows.'
   services: service
   ms.service: service
   ms.subservice: subservice
@@ -38,10 +38,10 @@ highlightedContent:
       url: /mesh/overview
     - title: AltspaceVR
       itemType: whats-new
-      url: 'https://docs.microsoft.com/windows/mixed-reality/altspace-vr/journey'
+      url: /windows/mixed-reality/altspace-vr/journey
 productDirectory:
   title: Углубленное изучение смешанной реальности
-  summary: 'У нас есть специализированные курируемые схемы развития основных навыков работы со смешанной реальностью для проектировщиков, разработчиков и ИТ-специалистов.'
+  summary: 'Независимо от того, проектируете ли вы, разрабатываете или развертывание приложение смешанной реальности, мы предоставим вам все необходимые знания для выполнения таких задач.'
   items:
     - title: Проектирование
       imageSrc: images/icon-design.png
@@ -89,8 +89,8 @@ productDirectory:
         - url: /hololens/hololens-troubleshooting
           text: Устранение неполадок и поддержка
 conceptualContent:
-  title: Платформы
-  summary: 'Если для разработки вы используете предпочитаемый язык, подсистему или определенное оборудование, у нас есть все необходимые вам инструменты.'
+  title: Среды разработки
+  summary: 'Узнайте, как создавать приложения смешанной реальности на разных движках, языках и для различных рабочих сред.'
   items:
     - title: Unity
       summary: 'Создание, настройка и развертывание приложений в Unity с помощью пакета SDK для смешанной реальности.'
@@ -104,7 +104,7 @@ conceptualContent:
         - url: develop/unity/tutorials/mr-learning-base-01.md
           itemType: tutorial
           text: "Серия руководств по HoloLens\_2"
-        - url: ./out-of-scope/mrtk-101.md
+        - url: /windows/mixed-reality/mrtk-unity/
           itemType: concept
           text: Основные компоненты
         - url: develop/unity/shared-experiences-in-unity.md
@@ -163,7 +163,7 @@ conceptualContent:
         text: Дополнительные сведения
 tools:
   title: Пакеты SDK и API
-  summary: Начните работу с пакетом SDK для смешанной реальности на любом игровом движке.
+  summary: Начните работу с Mixed Reality Toolkit для Unity и Unreal и ознакомьтесь с возможностями Windows XR и OpenXR.
   items:
     - title: MRTK для Unity
       imageSrc: images/Final_mrtk-small_logo.png

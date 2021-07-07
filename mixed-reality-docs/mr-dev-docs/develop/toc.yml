@@ -1,11 +1,15 @@
 - name: Введение в разработку приложений смешанной реальности
-  href: development.md
+  items:
+    - name: Начало работы
+      href: development.md
+    - name: Установка инструментов
+      href: install-the-tools.md
+    - name: Выбор движка
+      href: choosing-an-engine.md
 - name: Обзор облачных служб смешанной реальности Azure
   href: mixed-reality-cloud-services.md
 - name: Примеры приложений и возможностей
   href: features-and-samples.md
-- name: Установка инструментов
-  href: install-the-tools.md
 - name: Перенос приложений
   items:
     - name: Общие сведения о переносе
@@ -170,14 +174,8 @@
       items:
         - name: Выбор версии Unity и подключаемого модуля XR
           href: unity/choosing-unity-version.md
-        - name: Использование встроенной поддержки XR прежних версий
-          href: unity/legacy-xr-support.md
-        - name: "Использование подключаемого модуля Windows\_XR"
-          href: unity/windows-xr-plugin.md
-        - name: Использование подключаемого модуля OpenXR
-          href: unity/openxr-getting-started.md
-        - name: Поддерживаемые функции подключаемого модуля OpenXR
-          href: unity/openxr-supported-features.md
+        - name: Настройка конфигурации смешанной реальности
+          href: unity/xr-project-setup.md
         - name: Mixed Reality Feature Tool
           items:
             - name: Добро пожаловать в MR Feature Tool
@@ -234,7 +232,7 @@
           href: unity/udp-packets-in-unity.md
         - name: Использование пространства имен Windows с приложениями Unity для HoloLens
           href: unity/using-the-windows-namespace-with-unity-apps-for-hololens.md
-        - name: Собственные объекты смешанной реальности
+        - name: Собственное взаимодействие смешанной реальности в Unity
           href: unity/unity-xrdevice-advanced.md
         - name: Использование Vuforia
           href: unity/vuforia-development-overview.md
@@ -262,7 +260,7 @@
               href: unity/lunar-module.md
     - name: Отладка и производительность
       items:
-        - name: "Управляемая отладка с помощью Unity\_IL2CPP"
+        - name: Управляемая отладка с помощью Unity
           href: unity/managed-debugging-with-unity-il2cpp.md
         - name: Рекомендуемые параметры для Unity
           href: unity/recommended-settings-for-unity.md
@@ -274,12 +272,18 @@
           href: unity/exporting-and-building-a-unity-visual-studio-solution.md
         - name: Рекомендации по работе с Unity и Visual Studio
           href: unity/best-practices-for-working-with-unity-and-visual-studio.md
+    - name: Заметки о выпуске
+      items:
+        - name: Подключаемый OpenXR для смешанной реальности
+          href: unity/openxr-release-notes.md
 - name: Unreal
   items:
     - name: Обзор разработки для Unreal
       href: unreal/unreal-development-overview.md
     - name: Знакомство с MRTK
       href: unreal/unreal-mrtk-introduction.md
+    - name: Настройка проекта
+      href: unreal/unreal-project-setup.md
     - name: Обновление проектов в Unreal
       href: unreal/unreal-porting.md
     - name: Краткие руководства
@@ -361,12 +365,10 @@
 - name: JavaScript
   items:
     - name: Обзор разработки в JavaScript
-      href: javascript/javascript-development-overview.md
-    - name: WebXR
       href: javascript/webxr-overview.md
     - name: Учебники
       items:
-        - name: Hello World с использованием BabylonJS
+        - name: Hello World для виртуальной реальности с использованием BabylonJS
           items:
             - name: 1. Введение
               href: javascript/tutorials/babylonjs-webxr-helloworld/introduction-01.md
@@ -374,9 +376,9 @@
               href: javascript/tutorials/babylonjs-webxr-helloworld/prepare-scene-02.md
             - name: 3. Взаимодействие с трехмерным объектом
               href: javascript/tutorials/babylonjs-webxr-helloworld/interact-03.md
-- name: Собственный
+- name: Собственный движок
   items:
-    - name: Обзор разработки для собственной платформы
+    - name: Общие сведения о разработке собственного движка
       href: native/directx-development-overview.md
     - name: OpenXR
       items:
@@ -469,9 +471,9 @@
         - name: Условия лицензии на использование ПО для голографического удаленного взаимодействия
           href: /legal/mixed-reality/microsoft-holographic-remoting-software-license-terms
         - name: "Голографическое удаленное взаимодействие для HoloLens\_(1-го поколения)"
-          href: null
-        - name: Добавление голографического удаленного взаимодействия
-          href: platform-capabilities-and-apis/add-holographic-remoting.md
+          items:
+            - name: Добавление голографического удаленного взаимодействия
+              href: platform-capabilities-and-apis/add-holographic-remoting.md
     - name: Проверка качества и тестирование приложений
       items:
         - name: Критерии качества приложения

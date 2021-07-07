@@ -2,6 +2,8 @@
   href: index.md
 - name: Попробуйте центр примеров
   href: running-examples-hub.md
+- name: Примеры сцен
+  href: running-example-scenes.md
 - name: Конфигурация
   href: configuration/toc.yml
 - name: Обзор поддерживаемых устройств

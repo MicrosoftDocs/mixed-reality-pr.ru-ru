@@ -2,5 +2,5 @@
   href: perf-getting-started.md
 - name: Стабилизация голограмм
   href: hologram-stabilization.md
-- name: Использование MRTK в больших проектах
+- name: Использование MRTK в крупных проектах
   href: large-projects.md

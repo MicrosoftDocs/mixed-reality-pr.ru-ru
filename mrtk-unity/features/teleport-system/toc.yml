@@ -1,2 +1,4 @@
 - name: Система телепортирования
   href: teleport-system.md
+- name: Точка телепорта
+  href: teleport-hotspot.md

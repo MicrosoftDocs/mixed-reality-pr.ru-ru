@@ -1,4 +1,4 @@
-- name: Обзор решателей
+- name: Обзор решателя
   href: solver.md
 - name: Касание для размещения
   href: tap-to-place.md
