@@ -1,6 +1,8 @@
+- name: Авторы
+  href: authors.md
 - name: Общие сведения об участии в разработке
   href: contributing.md
-- name: Рекомендации по кодированию
+- name: Рекомендации по программированию
   href: coding-guidelines.md
 - name: Написание и выполнение тестов
   href: unit-tests.md
@@ -8,7 +10,7 @@
   href: documentation-guide.md
 - name: Запросы на вытягивание
   href: pull-requests.md
-- name: Экспериментальные возможности
+- name: Экспериментальные функции
   href: experimental-features.md
 - name: Критические изменения
   href: breaking-changes.md

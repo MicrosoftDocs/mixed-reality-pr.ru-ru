@@ -2,11 +2,11 @@
   href: wmr-mrtk.md
 - name: Развертывание в Oculus Quest
   href: oculus-quest-mrtk.md
+- name: Развертывание в Android и iOS (AR Foundation)
+  href: using-ar-foundation.md
 - name: Использование Leap Motion
   href: leap-motion-mrtk.md
 - name: Обнаружение контроллеров в MRTK
   href: controllers-mrtk.md
-- name: Использование AR Foundation
-  href: using-ar-foundation.md
 - name: Обнаружение возможностей платформы
   href: detecting-platform-capabilities.md

@@ -1,6 +1,6 @@
-- name: Формат файла анимации ввода
+- name: Формат файла анимации входных данных
   href: input-animation-file-format.md
-- name: Запись анимации ввода
+- name: Запись анимации входных данных
   href: input-animation-recording.md
 - name: Служба имитации ввода
   href: input-simulation-service.md

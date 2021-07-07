@@ -10,6 +10,8 @@
   href: constraint-manager.md
 - name: Диалог
   href: dialog.md
+- name: Остановка взгляда
+  href: dwell.md
 - name: Визуализация с использованием кончика пальца
   href: fingertip-visualization.md
 - name: Обучающая рука

@@ -10,15 +10,15 @@
   href: gestures.md
 - name: Отслеживание рук
   href: hand-tracking.md
-- name: Как добавить ближайшее интерактивное взаимодействие
+- name: Как добавить ближнее взаимодействие
   href: how-to-add-near-interactivity.md
 - name: Действия ввода
   href: input-actions.md
-- name: Входные события
+- name: События ввода
   href: input-events.md
-- name: Поставщики ввода
+- name: Поставщики входных данных
   href: input-providers.md
-- name: Состояние ввода
+- name: Состояние входных данных
   href: input-state.md
 - name: Обзор
   href: overview.md

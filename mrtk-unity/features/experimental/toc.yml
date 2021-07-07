@@ -1,7 +1,7 @@
 - name: Dock
   href: dock.md
-- name: Служба физического взаимодействия с помощью рук
-  href: hand-physics-service.md
+- name: Эластичная система
+  href: elastic-system.md
 - name: Интерактивный элемент
   href: interactive-element.md
 - name: Клавиатура смешанной реальности

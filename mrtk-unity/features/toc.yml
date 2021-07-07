@@ -6,13 +6,15 @@
   href: diagnostics/toc.yml
 - name: Примеры сцен
   href: example-scenes/toc.yml
+- name: Параметры работы
+  href: experience-settings/toc.yml
 - name: Экспериментальный
   href: experimental/toc.yml
 - name: Модули
   href: extensions/toc.yml
 - name: Входные данные
   href: input/toc.yml
-- name: Имитация ввода
+- name: имитация ввода;
   href: input-simulation/toc.yml
 - name: Профили
   href: profiles/toc.yml
