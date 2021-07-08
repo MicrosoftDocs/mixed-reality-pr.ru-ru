@@ -5,18 +5,18 @@ author: CDiaz-MS
 ms.author: cadia
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 9fa81db9a71f1d0ce32bdd80a123eb072fc26fc5
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: 6a33ed5b021e90cba56344f32a9c9a33e8fcc476
+ms.sourcegitcommit: c260aed8a37855faf9575d968e615959a56a13fc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110143394"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113466234"
 ---
-# <a name="mixed-reality-and-hololens-keyboard-helper-classes"></a>Вспомогательные классы клавиатуры для смешанной реальности и HoloLens
+# <a name="mixed-reality-and-hololens-keyboard-helper-classes"></a>вспомогательные классы клавиатуры для смешанной реальности и HoloLens
 
 МРТК предоставляет несколько экспериментальных вспомогательных компонентов для помощи при запуске и чтении текста с [системной клавиатуры](../ux-building-blocks/system-keyboard.md).
 
-Обратите внимание, что системная клавиатура будет работать в соответствии с возможностями целевой платформы. Например, клавиатура в HoloLens 2 будет поддерживать прямые взаимодействия, а клавиатура на HoloLens (1-й) будет поддерживать ГГВ<sup>[1](/windows/mixed-reality/gaze)</sup>. Кроме того, системная клавиатура не будет отображаться при выполнении [удаленного взаимодействия Unity](../tools/holographic-remoting.md) из редактора с HoloLens.
+обратите внимание, что системная клавиатура будет вести себя в соответствии с возможностями целевой платформы, например, клавиатура на HoloLens 2 будет поддерживать прямое взаимодействие, а клавиатура на HoloLens (1-й общий) будет поддерживать ггв<sup>[1](/windows/mixed-reality/gaze)</sup>. Кроме того, системная клавиатура не будет отображаться при выполнении [удаленного взаимодействия Unity](../tools/holographic-remoting.md) из редактора с HoloLens.
 
 ## <a name="mixedrealitykeyboard"></a>микседреалитикэйбоард
 
@@ -25,7 +25,7 @@ ms.locfileid: "110143394"
 ### <a name="how-to-use"></a>Использование
 
 1. Присоедините [`MixedRealityKeyboard`](xref:Microsoft.MixedReality.Toolkit.Experimental.UI.MixedRealityKeyboard) компонент к любому объекту.
-2. Вызовите функцию, `Show()` `Hide()` чтобы показать и скрыть клавиатуру, а также обработайте `OnShowKeyboard` события и, чтобы обрабатывались `OnHideKeyboard` `OnCommitText` , когда клавиатура отображается, скрыта и когда нажата клавиша ВВОД.
+2. Вызовите функцию, `ShowKeyboard(string text = "", bool multiLine = false)` `HideKeyboard()` чтобы показать и скрыть клавиатуру, а также обработайте `OnShowKeyboard` события и, чтобы обрабатывались `OnHideKeyboard` `OnCommitText` , когда клавиатура отображается, скрыта и когда нажата клавиша ВВОД.
 
 ## <a name="input-fields-tmp_keyboardinputfield-and-ui_keyboardinputfield"></a>Поля ввода TMP_KeyboardInputField и UI_KeyboardInputField
 
