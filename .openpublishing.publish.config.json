@@ -43,6 +43,33 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
+    },
+    {
+      "docset_name": "mrtk-unity",
+      "build_source_folder": "mrtk-unity",
+      "build_output_subfolder": "mrtk-unity",
+      "xref_query_tags": [
+        "/dotnet"
+      ],
+      "monikers": [],
+      "moniker_ranges": [
+        ">= mrtkunity-2021-01"
+      ],
+      "type_mapping": {
+        "Conceptual": "Content"
+      }
+    },
+    {
+      "docset_name": "mrtk-unreal",
+      "build_source_folder": "mrtk-unreal",
+      "build_output_subfolder": "mrtk-unreal",
+      "monikers": [],
+      "moniker_ranges": [],
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
     }
   ],
   "notification_subscribers": [],
@@ -62,12 +89,6 @@
       "branch_mapping": {}
     },
     {
-      "path_to_root": "_themes.pdf",
-      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
-      "branch": "master",
-      "branch_mapping": {}
-    },
-    {
       "path_to_root": "_repo.en-us",
       "url": "https://github.com/MicrosoftDocs/mixed-reality-pr",
       "branch": "live",
@@ -75,6 +96,12 @@
         "live": "live",
         "master": "master"
       }
+    },
+    {
+      "path_to_root": "_themes.pdf",
+      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
+      "branch": "master",
+      "branch_mapping": {}
     }
   ],
   "branch_target_mapping": {
