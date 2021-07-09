@@ -7,12 +7,12 @@ ms.date: 12/9/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: смешанная реальность, обнаружение, распространение, указатель, целевая страница, проектирование, разработка, учебники, примеры приложений, основы, примеры использования, ресурсы, практические руководства по HoloLens, проекты с открытым кодом, основные понятия, взаимодействие, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, MRTK, Mixed Reality Toolkit
-ms.openlocfilehash: 36af6b1c439c47eef2126408d1185ecfe151cf8b
-ms.sourcegitcommit: e9a0ba97fd288479ad324cdaabee9b6abc9f4dc2
+ms.openlocfilehash: c4d9f9b4c4be1c5012ac8dc84fb55e6c5fa9eaee
+ms.sourcegitcommit: 85ba3af69ec2a9056f759bab7b66f79f09a016b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "107221566"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111454774"
 ---
 # <a name="start-designing-and-prototyping"></a>Начните проектировать и создавать прототипы
 
@@ -89,20 +89,20 @@ ms.locfileid: "107221566"
 
 :::row:::   
     :::column:::    
-       [![Дополнительные сведения о Unity](images/logo-unity.png)](https://learn.unity.com/)<br>
+        [![Набор средств MRTK Figma](images/74-13.png)](https://github.com/Microsoft/MRDL_Unity_PeriodicTable)<br>
+        **[Набор средств Figma](figma-toolkit.md)**<br>   
+        Набор средств Figma предоставляет ресурсы, с помощью которых можно создавать эскизы и макеты пользовательского интерфейса. Все элементы управления пользовательского интерфейса основаны на компонентах, доступных в MRTK.
+    :::column-end:::        
+    :::column:::    
+       [![Дополнительные сведения о Unity](../images/Final_unity_logo.png)](https://learn.unity.com/)<br>
         **[Дополнительные сведения о Unity](https://learn.unity.com/)**<br>
         Узнайте, как создавать интерактивные интерфейсы с помощью Unity. Научитесь этому, выполнив процесс с начала и до конца.
     :::column-end:::    
     :::column:::    
         [![Mixed Reality Toolkit (MRTK)](images/74-12.png)](https://github.com/Microsoft/MixedRealityToolkit-Unity)<br>
-        **[Mixed Reality Toolkit (MRTK)](https://github.com/Microsoft/MixedRealityToolkit-Unity)**<br>  
+        **[Mixed Reality Toolkit (MRTK)](/windows/mixed-reality/mrtk-unity/)**<br>  
         Благодаря пространственному взаимодействию и стандартным блокам пользовательского интерфейса, вы можете быстро начать проектирование и разработку смешанной реальности с помощью Unity.   
     :::column-end:::
-    :::column:::    
-        [![Лаборатории проектирования смешанной реальности](images/74-13.png)](https://github.com/Microsoft/MRDL_Unity_PeriodicTable)<br>
-        **[Лаборатории проектирования смешанной реальности](https://github.com/Microsoft/MRDL_Unity_PeriodicTable)**<br>  
-        Получите примеры приложений, демонстрирующие использование стандартных блоков МРТК для создания привлекательных интерфейсов смешанной реальности.
-    :::column-end:::        
     :::column:::    
         [![Microsoft Maquette](images/74-14.png)](https://www.maquette.ms/)<br>
         **[Microsoft Maquette](https://www.maquette.ms/)**<br>  

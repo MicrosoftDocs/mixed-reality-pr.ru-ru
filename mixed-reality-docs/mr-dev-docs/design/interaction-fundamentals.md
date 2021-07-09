@@ -7,12 +7,12 @@ ms.date: 04/11/2019
 ms.topic: article
 ms.localizationpriority: high
 keywords: смешанная реальность, взгляд, нацеливание взглядом, взаимодействие, проектирование, hololens, ММR, мультимодальный, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens
-ms.openlocfilehash: 37ac7475172977c8741c17817568cc9b5ad2a4e5
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: 55e23ac2fb802af599fb9cc7d771d89d6ba36c47
+ms.sourcegitcommit: 8f141a843bcfc57e1b18cc606292186b8ac72641
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "97847287"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110196419"
 ---
 # <a name="introducing-instinctual-interactions"></a>Знакомство с инстинктивным взаимодействием
 
@@ -28,6 +28,14 @@ ms.locfileid: "97847287"
 * Специальные указания по трем основным моделям взаимодействия, а также по компонентам и шаблонам, необходимым для каждого.
 * Дополнительное описание других преимуществ, которые предоставляет наша платформа.
 * Общие инструкции по выбору подходящей модели взаимодействия для конкретного сценария разработки.
+
+## <a name="basic-hand-tracking-and-instinctual-interactions-demo"></a>Основы отслеживания рук и инстинктивное взаимодействие — демонстрация
+
+Ознакомьтесь с видеороликом **Designing Holograms - Head Tracking and Eye Tracking** (Создание голограмм — отслеживание головы и взгляда) ниже, а затем перейдите к более конкретным темам:
+
+> [!VIDEO https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Microsofts-Designing-Holograms-Hand-Tracking-Chapter/player]
+
+*Это видео из приложения Designing Holograms для HoloLens 2. Скачайте и воспользуйтесь всеми его возможностями [здесь](https://aka.ms/dhapp).*
 
 ## <a name="multimodal-interaction-models"></a>Модели мультимодальных взаимодействий
 

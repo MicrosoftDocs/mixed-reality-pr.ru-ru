@@ -7,12 +7,12 @@ ms.date: 04/02/2019
 ms.topic: article
 ms.localizationpriority: high
 keywords: смешанная реальность, взгляд, выбор целевого объекта взглядом, взаимодействие, проектирование, манипулирование руками, HoloLens, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, MRTK, Mixed Reality Toolkit, кнопка, коллайдеры, ограничивающий прямоугольник, двумерные объекты, инстинктивные жесты
-ms.openlocfilehash: 555b27764d077332a2d8618672e6aed7def1dd3f
-ms.sourcegitcommit: 1c9035487270af76c6eaba11b11f6fc56c008135
+ms.openlocfilehash: 7a689f887bfd358b0d6e0826d41ef409bf887042
+ms.sourcegitcommit: 9ae76b339968f035c703d9c1fe57ddecb33198e3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107300099"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110600473"
 ---
 # <a name="direct-manipulation-with-hands"></a>Непосредственное манипулирование руками
 
@@ -50,6 +50,14 @@ ms.locfileid: "107300099"
 <br>
 
 ---
+
+## <a name="basic-hand-tracking-and-instinctual-interactions-demo"></a>Основы отслеживания рук и инстинктивное взаимодействие — демонстрация
+
+Если вы хотите посмотреть, как работает отслеживание головы и взгляда, ознакомьтесь с нашей видеодемонстрацией **Designing Holograms - Head Tracking and Eye Tracking** (Создание голограмм — отслеживание головы и взгляда) ниже. По завершении продолжите изучать другие темы.
+
+> [!VIDEO https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Microsofts-Designing-Holograms-Hand-Tracking-Chapter/player]
+
+*Это видео из приложения Designing Holograms для HoloLens 2. Скачайте и воспользуйтесь всеми его возможностями [здесь](https://aka.ms/dhapp).*
 
 ## <a name="collidable-fingertip"></a>Кончик пальца с обратной связью
 
@@ -327,7 +335,7 @@ HoloLens 2 позволяет пользователям с помощью ру
 ## <a name="manipulation-in-mrtk-mixed-reality-toolkit-for-unity"></a>Манипуляции в MRTK (наборе средств для смешанной реальности) для Unity
 В **[MRTK](https://github.com/Microsoft/MixedRealityToolkit-Unity)** можно легко настроить типичное поведение при манипуляции, используя скрипт **ObjectManipulator**. Благодаря ObjectManipulator можно захватывать и перемещать объекты непосредственно руками или с помощью телекинеза. Этот скрипт также поддерживает манипуляции двумя руками для масштабирования и поворота объекта.
 
-* [MRTK — манипуляции](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/object-manipulator)
+* [MRTK — манипуляции](/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/object-manipulator)
 
 ---
 

@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, речевые команды, голосовой ввод
 ms.localizationpriority: high
-ms.openlocfilehash: 3aea23d5a259e555f47ca9ea41d77f345c977aeb
-ms.sourcegitcommit: 4fb961beeebd158e2f65b7c714c5e471454400a3
+ms.openlocfilehash: 9422c16781af33fa3d68d7f6046e3a86c4b36b44
+ms.sourcegitcommit: b4fd969b9c2e6313aa728b0dbee4b25014668720
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "105982951"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111403375"
 ---
 # <a name="9-using-speech-commands"></a>9. Использование речевых команд
 
@@ -23,7 +23,14 @@ ms.locfileid: "105982951"
 * Узнать, как создавать речевые команды.
 * Узнать, как управлять речевыми командами на локальном и глобальном уровнях.
 
-[!INCLUDE[](includes/ensuring-microphone-capabality.md)]
+## <a name="ensuring-the-microphone-capability-is-enabled"></a>Активация функции микрофона
+
+В меню Unity выберите Mixed Reality (Смешанная реальность) > Toolkit (Набор средств) > Utilities (Служебные программы) > **Configure Project for MRTK** (Настроить проект для MRTK), чтобы открыть окно **MRTK Project Configurator** (Конфигуратор проекта MRTK). Затем в разделе **UWP Capabilities** (Возможности UWP) проверьте, что параметр **Enable Microphone Capability** (Включить функцию микрофона) выделен серым цветом:
+
+![Включение поддержки микрофона](images/mr-learning-base/base-09-section1-step1-1.png)
+
+> [!NOTE]
+> Во время выполнения инструкций по настройке проекта Unity из раздела [Применение параметров конфигуратора проекта MRTK](mr-learning-base-02.md#creating-the-scene-and-configuring-mrtk), приведенного в начале этого учебного курса, должна быть включена функция поддержки микрофона. Если функция отключена, включите ее сейчас.
 
 ## <a name="creating-speech-commands"></a>Создание речевых команд
 
@@ -137,6 +144,6 @@ ms.locfileid: "105982951"
 Если вы следуете изложенным нами этапам разработки для Unity, вашей следующей задачей будет ознакомление с основными стандартными блоками приложений смешанной реальности.
 
 > [!div class="nextstepaction"]
-> [Базовые взаимодействия](../../../out-of-scope/mrtk-101.md)
+> [Базовые взаимодействия](/windows/mixed-reality/mrtk-unity/)
 
 Вы можете в любой момент вернуться к [этапам разработки для Unity](../unity-development-overview.md#1-getting-started).

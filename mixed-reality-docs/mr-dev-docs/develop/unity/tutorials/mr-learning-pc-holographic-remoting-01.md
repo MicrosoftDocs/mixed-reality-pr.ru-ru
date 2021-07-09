@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, Hololens, удаленное взаимодействие с компьютером, подсказки, отслеживание глаз
 ms.localizationpriority: high
-ms.openlocfilehash: 3c564c28485ca7e0595b9fd438af961dc5bc5986
-ms.sourcegitcommit: 4fb961beeebd158e2f65b7c714c5e471454400a3
+ms.openlocfilehash: 05831ff19a998bd5e99ab5d20c3fb045a09c55e9
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "105982967"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113175445"
 ---
 # <a name="1-getting-started-with-pc-holographic-remoting"></a>1. Начало работы с голографическим удаленным взаимодействием с ПК
 
@@ -34,13 +34,12 @@ ms.locfileid: "105982967"
 * Компьютер с Windows 10, настроенный с помощью требуемых [установленных инструментов](../../install-the-tools.md).
 * Базовые навыки работы с C#.
 * Устройство HoloLens 2, [настроенное для разработки](../../platform-capabilities-and-apis/using-visual-studio.md#enabling-developer-mode).
-* <a href="https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html" target="_blank">Unity Hub</a> с Unity 2019 LTS и модулем поддержки сборки универсальной платформы Windows.
+* <a href="https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html" target="_blank">Unity Hub</a> с Unity 2020/2019 LTS и модулем поддержки сборки универсальной платформы Windows.
 
 Мы **настоятельно рекомендуем** предварительно ознакомиться с серией учебников [по началу работы](mr-learning-base-01.md) или иметь хотя бы базовый опыт работы с Unity и MRTK.
 
 > [!IMPORTANT]
-> * Рекомендуемая версия Unity для этой серии руководств — Unity 2019 LTS. Это заменяет все требования к версии Unity и рекомендации, указанные выше.
-> * Голографическое удаленное взаимодействие с проектами MRTK будет работать только с устаревшими API XR. Паке SDK XR в настоящее время не поддерживается.
+> * В этой серии руководств учитывается поддержка Unity 2020 LTS (в настоящее время 2020.3.x), если вы используете Open XR, и Unity 2019 LTS (в настоящее время 2019.4.x), если вы используете устаревшую версию WSA. Это заменяет любые требования к версии Unity, указанные выше.
 
 ## <a name="creating-and-preparing-the-unity-project"></a>Создание и подготовка проекта Unity
 
@@ -49,29 +48,16 @@ ms.locfileid: "105982967"
 Для этого сначала выполните инструкции из руководства [Инициализация проекта и первое приложение](mr-learning-base-02.md), за исключением раздела [Разработка приложения для устройства](mr-learning-base-02.md#building-your-application-to-your-hololens-2), то есть следующие действия:
 
 1. [Создание проекта Unity](mr-learning-base-02.md#creating-the-unity-project) и присвоение ему подходящего имени, например *MRTK Tutorials*.
-
 2. [Переключение платформы сборки.](mr-learning-base-02.md#switching-the-build-platform)
-
-3. [Импорт требуемых ресурсов TextMeshPro.](mr-learning-base-02.md#importing-the-textmeshpro-essential-resources)
-
-4. [Импорт набора средств для Смешанной реальности (MRTK).](mr-learning-base-02.md#importing-the-mixed-reality-toolkit)
-
-5. [Настройка проекта Unity.](mr-learning-base-02.md#configuring-the-unity-project)
-
-6. [Создание и настройка сцены](mr-learning-base-02.md#creating-and-configuring-the-scene) и присвоение ей подходящего имени, например **Голографическое удаленное взаимодействие с ПК**.
+3. [Импорт требуемых ресурсов TextMeshPro.](mr-learning-base-04.md#importing-the-textmeshpro-essential-resources)
+4. [Импорт набора средств для смешанной реальности (MRTK) и настройка проекта Unity](mr-learning-base-02.md#importing-the-mixed-reality-toolkit-and-configuring-the-unity-project)
+5. [Создание и настройка сцены](mr-learning-base-02.md#creating-the-scene-and-configuring-mrtk) и присвоение ей подходящего имени, например **Голографическое удаленное взаимодействие с ПК**.
 
 Затем следуйте инструкциям по [изменению параметра отображения для отслеживания пространственного положения](mr-learning-base-03.md#changing-the-spatial-awareness-display-option), чтобы указать профиль конфигурации MRTK **DefaultHoloLens2ConfigurationProfile** для сцены. Измените параметры отображения сетки отслеживания в пространстве на **Occlusion** (Загораживание).
 
 ## <a name="importing-the-tutorial-assets"></a>Импорт активов для руководства
 
-Скачайте и **импортируйте** пакет [MRTK.Tutorials.PCHolographicRemoting.unitypackage](https://github.com/microsoft/MixedRealityLearning/releases/download/pc-holographic-remoting-v2.4.0/MRTK.Tutorials.PCHolographicRemoting.unitypackage).
-
->[!TIP]
-> Сведения о том, как правильно импортировать пользовательский пакет Unity, см. в разделе [Импорт ресурсов для руководства](mr-learning-base-02.md#importing-the-tutorial-assets).
-
-Когда вы завершите импорт активов для учебника, окно проекта должно выглядеть примерно так:
-
-![Unity с окнами Hierarchy (Иерархия), Scene (Сцена) и Project (Проект) после импорта ресурсов для руководства](images/mrlearning-pc-holographic-remoting/Tutorial1-Section2-Step1-1.png)
+[!INCLUDE[](includes/importing-tutorial-assets-pc-holographic-remoting.md)]
 
 ## <a name="configuring-and-preparing-the-scene"></a>Настройка и подготовка сцены
 

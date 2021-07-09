@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, многопользовательские возможности, Photon, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure, PUN
 ms.localizationpriority: high
-ms.openlocfilehash: 4b81ed3a78cc47f4ad0463cab085621102060dc8
-ms.sourcegitcommit: 4fb961beeebd158e2f65b7c714c5e471454400a3
+ms.openlocfilehash: 2b925457128989933615686ee45ffa6eaa7d20ef
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "105982767"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113175422"
 ---
 # <a name="2-setting-up-photon-unity-networking"></a>2. Настройка Photon Unity Networking
 
@@ -28,14 +28,13 @@ ms.locfileid: "105982767"
 
 В рамках этого раздела вы создадите новый проект Unity и подготовите его к разработке MRTK.
 
-Для этого сначала выполните инструкции из руководства [Инициализация проекта и развертывание первого приложения](mr-learning-base-02.md) (исключая раздел [Разработка приложения для устройства](mr-learning-base-02.md#building-your-application-to-your-hololens-2)), в том числе следующие действия:
+Для этого сначала выполните инструкции из руководства [Инициализация проекта и развертывание первого приложения](mr-learning-base-02.md) (исключая разделы [Добавление взаимодействия с рукой к объекту](mr-learning-base-02.md#adding-hand-interaction-to-an-object) и [Разработка приложения для устройства](mr-learning-base-02.md#building-your-application-to-your-hololens-2)), в том числе следующие действия:
 
 1. [Создание проекта Unity](mr-learning-base-02.md#creating-the-unity-project) и присвоение ему подходящего имени, например *MRTK Tutorials*.
 2. [Переключение платформы сборки.](mr-learning-base-02.md#switching-the-build-platform)
-3. [Импорт требуемых ресурсов TextMeshPro.](mr-learning-base-02.md#importing-the-textmeshpro-essential-resources)
-4. [Импорт набора средств для Смешанной реальности (MRTK).](mr-learning-base-02.md#importing-the-mixed-reality-toolkit)
-5. [Настройка проекта Unity.](mr-learning-base-02.md#configuring-the-unity-project)
-6. [Создание и настройка сцены](mr-learning-base-02.md#creating-and-configuring-the-scene) и присвоение ей понятного имени, например *MultiUserCapabilities*.
+3. [Импорт требуемых ресурсов TextMeshPro.](mr-learning-base-04.md#importing-the-textmeshpro-essential-resources)
+4. [Импорт набора средств для смешанной реальности (MRTK) и настройка проекта Unity](mr-learning-base-02.md#importing-the-mixed-reality-toolkit-and-configuring-the-unity-project)
+5. [Создание сцены и настройка MRTK](mr-learning-base-02.md#creating-the-scene-and-configuring-mrtk) и присвоение ей понятного имени, например *MultiUserCapabilities*
 
 Затем выполните инструкции из раздела [Изменение параметра отображения отслеживания пространственного положения](mr-learning-base-03.md#changing-the-spatial-awareness-display-option):
 
@@ -82,7 +81,7 @@ ms.locfileid: "105982767"
 ![Unity с окнами Hierarchy (Иерархия), Scene (Сцена) и Project (Проект) после импорта ресурсов для руководства](images/mr-learning-sharing/sharing-02-section4-step1-1.png)
 
 > [!TIP]
-> Сведения о том, как правильно импортировать пользовательский пакет Unity, см. в разделе [Импорт ресурсов для руководства](mr-learning-base-02.md#importing-the-tutorial-assets).
+> Сведения о том, как правильно импортировать пользовательский пакет Unity, см. в разделе [Импорт ресурсов для руководства](mr-learning-base-04.md#importing-the-tutorial-assets).
 
 > [!NOTE]
 > После импорта пакета учебных активов MultiUserCapabilities в окне консоли появятся несколько ошибок [CS0246](/dotnet/csharp/language-reference/compiler-messages/cs0246). Они указывают на отсутствие типа или пространства имен. Это ожидаемое поведение, и ошибки будут устранены при работе со следующим разделом при импорте активов PUN.

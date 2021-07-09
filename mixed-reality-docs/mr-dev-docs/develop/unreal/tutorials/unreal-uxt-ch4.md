@@ -7,12 +7,12 @@ ms.date: 11/18/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, учебник, начало работы, MRTK, UXT, UX Tools, документация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 2ceb16d31c793629e93c3dca00cb215fcbe38c6a
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: 771dd4028adfacb27544e632aa0f355d3bc91c66
+ms.sourcegitcommit: 4a6c26615d52776bdc4faab70391592092a471fc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "102237155"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "110712609"
 ---
 # <a name="4-making-your-scene-interactive"></a>4. Настройка интерактивной сцены
 
@@ -20,26 +20,28 @@ ms.locfileid: "102237155"
 
 ## <a name="objectives"></a>Задачи
 
-* Установка подключаемого модуля Mixed Reality UX Tools из GitHub
+* Установка подключаемого модуля Mixed Reality UX Tools
 * Добавление субъектов взаимодействия с руками.
 * Создание и добавление манипуляторов для физического взаимодействия с объектами в сцене.
 * Применение имитации ввода для проверки проекта.
 
 ## <a name="downloading-the-mixed-reality-ux-tools-plugin"></a>Скачивание подключаемого модуля Mixed Reality UX Tools
-Прежде чем приступить к работе с пользовательским вводом, необходимо добавить подключаемый модуль в проект.
+Прежде чем приступить к работе с пользовательским вводом, необходимо добавить подключаемый модуль Mixed Reality UX Tools в проект. Чтобы узнать больше о средствах UX Tools, ознакомьтесь с проектом на [GitHub](https://aka.ms/uxt-unreal).
 
-1. На [странице выпусков](https://github.com/microsoft/MixedReality-UXTools-Unreal/releases) Mixed Reality UX Tools на GitHub перейдите к выпуску средств пользовательского интерфейса для Unreal версии 0.10.0 и скачайте файл **UXTools.0.10.0.zip**. Распакуйте файл.
+1. Откройте средство запуска Epic Games. Перейдите в Unreal Engine Marketplace и выполните поиск по запросу [Mixed Reality UX Tools](https://www.unrealengine.com/marketplace/en-US/product/mixed-reality-ux-tools). Установите подключаемый модуль в подсистему.
 
-2.  В корневой папке проекта создайте папку с именем **Plugins**. Скопируйте распакованный подключаемый модуль UXTools в эту папку и перезапустите редактор Unreal.
+![Unreal Marketplace](images/unreal-uxt/2-uxt-plugin.PNG)
 
-![Создание папки для подключаемых модулей в проекте](images/unreal-uxt/4-plugins.PNG)
+2. Вернувшись в редактор Unreal, перейдите в раздел **Project Settings** (Параметры проекта)  >  **Plugins** (Подключаемые модули) и выполните поиск по запросу "Mixed Reality UX Tools". Проверьте, что подключаемый модуль включен, и перезапустите редактор, если появится соответствующий запрос.
 
-3.  Подключаемый модуль UX Tools содержит папку Content с вложенными папками для компонентов, в том числе **кнопок**, **функции имитации ввода** и **указателей**, а также папку с классами C++ с дополнительным кодом.  
+![Включение подключаемого модуля Mixed Reality UX Tools](images/unreal-uxt/2-enable-uxt.PNG)
+
+3.  Подключаемый модуль UX Tools содержит папку Content с вложенными папками для компонентов, в том числе **кнопок**, **симуляции XR** и **указателей**, а также папку с классами C++ с дополнительным кодом.  
 
 > [!NOTE]
-> Если в обозревателе контента (**Content Browser**) не виден раздел **UXTools Content** (Контент UXTools), выберите **View Options > Show Plugin Content** (Параметры просмотра > Показывать содержимое подключаемых модулей).
+> Если в обозревателе контента (**Content Browser**) не виден раздел **UXTools Content** (Контент UXTools), выберите **View Options > Show Engine Content** (Параметры просмотра > Показывать содержимое движка).
 
-![Отображение содержимого подключаемого модуля](images/unreal-uxt/4-showplugincontent.PNG)
+![Отображение содержимого движка](images/unreal-uxt/4-showenginecontent.PNG)
 
 Дополнительную документацию по подключаемым модулям можно найти в [репозитории](https://aka.ms/uxt-unreal) Mixed Reality UX Tools на GitHub.
 

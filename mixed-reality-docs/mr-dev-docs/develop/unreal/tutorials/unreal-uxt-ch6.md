@@ -7,12 +7,12 @@ ms.date: 06/10/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, учебник, начало работы, MRTK, UXT, UX Tools, документация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 7b706cf2a8685954ed916c825c3617ade190f1e0
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: 7dbf72a477f376e338d346965b5276eba00ab543
+ms.sourcegitcommit: 4a6c26615d52776bdc4faab70391592092a471fc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "98583651"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "110711563"
 ---
 # <a name="6-packaging--deploying-to-device-or-emulator"></a>6. Упаковка и развертывание на устройстве или в эмуляторе
 
@@ -34,7 +34,7 @@ ms.locfileid: "98583651"
 
 ![RHI по умолчанию](../images/unreal/performance-recommendations-img-09.png)
 
-2.  В редакторе Unreal выберите **Edit > Project Settings** (Правка > Параметры проекта) и в разделе **Holographic Remoting** (Голографическое удаленное взаимодействие) установите флажок **Enable Remoting** (Включить удаленное взаимодействие).
+2.  В редакторе Unreal выберите **Edit > Project Settings** (Правка > Параметры проекта) и в разделе **Open XR Holographic Remoting** (Голографическое удаленное взаимодействие Open XR) установите флажок **Enable Remoting** (Включить удаленное взаимодействие).
 
 3.  Перезапустите редактор, а затем введите IP-адрес устройства (как показано в приложении Holographic Remoting Player), а затем нажмите кнопку **Connect** (Подключить).
 

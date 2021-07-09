@@ -7,12 +7,12 @@ ms.date: 04/13/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Visual Studio, HoloLens, смешанная реальность, отладка, развертывание
-ms.openlocfilehash: 2ab89311163a48ee3c14511446a1498ce883a232
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: 5510646c058f683babff5e9e34dd296f88cd06c3
+ms.sourcegitcommit: b4bdac2c4d7315902712ce74fd909fb8383d4bfd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "100496100"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110543230"
 ---
 # <a name="using-visual-studio-to-deploy-and-debug"></a>Развертывание и отладка с помощью Visual Studio
 
@@ -37,7 +37,7 @@ ms.locfileid: "100496100"
 3. Щелкните плитку **Параметры**, чтобы запустить приложение в среде.
 4. Выберите пункт меню **Обновить**.
 5. Выберите пункт меню **Для разработчиков**.
-6. Включите **Режим разработчика**, чтобы развертывать приложения из Visual Studio в HoloLens.
+6. Включите **Использование функций разработчика**, чтобы развертывать приложения из Visual Studio в HoloLens. Если на устройстве установлена платформа Windows Holographic версии 21H1 или более поздней, также включите **Обнаружение устройств**.
 7. Дополнительно Прокрутите вниз и включите **Портал устройств**, чтобы подключаться к [порталу устройств Windows](using-the-windows-device-portal.md) на HoloLens с помощью веб-браузера.
 
 ### <a name="windows-pc"></a>Компьютер с Windows

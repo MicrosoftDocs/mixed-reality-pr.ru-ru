@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, голографическое удаленное взаимодействие с компьютером, Visual Studio
 ms.localizationpriority: high
-ms.openlocfilehash: 916a9396c0b29637d5619bac203718e05112b598
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: ca0efe13acac4408a05ab89eb98b508e9993c5a4
+ms.sourcegitcommit: bdf4babd13e021f41fb04cdb3611bb759bd77537
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "99590306"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112392543"
 ---
 # <a name="2-creating-a-holographic-remoting-pc-application"></a>2. Создание приложения для голографического удаленного взаимодействия с компьютером
 
@@ -24,61 +24,22 @@ ms.locfileid: "99590306"
 * Научиться создать и развертывать приложения с использованием Visual Studio.
 * Научиться развертывать приложения для голографического удаленного взаимодействия и подключение к HoloLens.
 
-## <a name="configuring-your-scene-for-holographic-remoting"></a>Настройка сцены для голографического удаленного взаимодействия
+## <a name="configuring-the-capabilities"></a>Настройка функциональных возможностей
 
-В рамках этого раздела вы настроите проект для потоковой передачи данных смешанной реальности на устройство HoloLens 2 с компьютера в режиме реального времени с помощью подключения Wi-Fi.
+В окне **Project Settings** (Параметры проекта) разверните пункт **Publishing Settings** (Параметры публикации), прокрутите вниз к разделу Capabilities (Возможности) и установите приведенный ниже флажок возможности (в дополнение к существующим).
 
-В окне Project (Проект) перейдите к папке **Assets (Активы)**  > **MRTK.Tutorials.PCHolograhicRemoting** > **Prefabs (Заготовки)** . Затем перетащите заготовку **HolographicRemoting** в свою сцену.
+* Интернет (клиент и сервер)
+* Частная сеть (клиент и сервер)
 
-![Unity с выбранной добавленной заготовкой HolographicRemoting](images/mrlearning-pc-holographic-remoting/Tutorial2-Section1-Step1-1.png)
+![Включение возможностей](images/mrlearning-pc-holographic-remoting/tutorial2-section0-step1-1.png)
+
+[!INCLUDE[](includes/configuring-scene-for-holographic-remoting.md)]
 
 ## <a name="build-your-application-to-pc"></a>Разработка приложения для компьютера
 
 Ваше приложение для голографического удаленного взаимодействия готово к сборке на компьютере. Выполните приведенные ниже инструкции и внесите необходимые изменения, чтобы выполнить сборку этого приложения на своем компьютере.
 
-### <a name="1-set-the-player-settings"></a>1. Настройка параметров проигрывателя.
-
-В меню Unity последовательно выберите элементы Edit (Правка) > Project Settings... (Параметры проекта...), чтобы открыть окно параметров проигрывателя.
-
-В окне Project Settings (Параметры проекта) разверните пункт **Publishing Settings** (Параметры публикации), прокрутите вниз к разделу **Capabilities** (Возможности) и установите приведенный ниже флажок возможности (в дополнение к существующим).
-
-* Интернет (клиент и сервер)
-* Частная сеть (клиент и сервер)
-
-В разделе **XR Settings** (Параметры XR) установите флажок **WSA Holographic Remoting Supported** (Поддержка голографического удаленного взаимодействия WSA) и включите функцию голографического удаленного взаимодействия.
-
-![Окно параметров смешанной реальности Unity с включенной поддержкой удаленного голографического взаимодействия WSA](images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step1-1.png)
-
-### <a name="2-build-the-unity-project"></a>2. Создание проекта Unity.
-
-В меню Unity щелкните File (Файл) > Build Settings... (Параметры сборки...), чтобы открыть окно параметров сборки:
-
-В окне Build Settings (Параметры сборки) нажмите кнопку ***Add Open Scenes** _ (Добавить открытые сцены), чтобы добавить текущую сцену в список Scenes (Сцены). В списке Build (Сборка) нажмите кнопку _ *_Build_** (Сборка), чтобы открыть окно Build Universal Windows Platform (Создание приложений универсальной платформы Windows):
-
-![Окно параметров сборки Unity с добавленной сценой](images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step2-1.png)
-
-В окне Build Universal Windows Platform (Создание приложений универсальной платформы Windows) выберите подходящее расположение для хранения своей сборки, например Documents\MixedRealityLearning. Создайте папку и присвойте ей подходящее имя, например PCHolographicRemoting. Затем нажмите кнопку ***Select Folder*** (Выбрать папку), чтобы начать процесс сборки:
-
-![Окно параметров сборки Unity с окном выбора папки](images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step2-2.png)
-
-Подождите, пока Unity завершит сборку.
-
-![Unity выполняет сборку](images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step2-3.png)
-
-### <a name="3-build-and-deploy-the-application"></a>3. Сборка и развертывание приложения
-
-По завершении процесса сборки Unity запросит проводник Windows открыть расположение с сохраненной сборкой. Перейдите к папке и дважды щелкните файл SLN, чтобы открыть его в Visual Studio:
-
-![Проводник Windows с выбранным созданным решением Visual Studio](images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step3-1.png)
-
-> [!NOTE]
-> Если в Visual Studio появится запрос на установку новых компонентов, проверьте, установлены ли все обязательные компоненты, как описано в документации по установке средств.
-
-Настройте Visual Studio для компьютера, выбрав конфигурацию "Выпуск" архитектуру x64 и целевой объект "Локальный компьютер":
-
-![Среда Visual Studio, настроенная для локального компьютера](images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step3-2.png)
-
-Нажмите кнопку ***Локальный компьютер***. Запустится сборка и развертывание приложения на вашем компьютере. Приложение будет установлено на ваш компьютер по умолчанию.
+[!INCLUDE[](includes/build-your-application-to-pc.md)]
 
 ## <a name="testing-holographic-remoting-remote-application"></a>Проверка приложения для голографического удаленного взаимодействия
 

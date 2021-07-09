@@ -1,18 +1,18 @@
 ---
 title: Что такое смешанная реальность?
-description: В этой статье приведено определение смешанной реальности и показано, в какой точке спектра смешанной реальности находятся устройства дополненной и виртуальной реальности.
+description: Обсуждение смешанной реальности с демонстрацией работы устройств AR и VR в спектре смешанной реальности.
 author: brandonbray
 ms.author: branbray
 ms.date: 08/26/2020
 ms.topic: article
 keywords: смешанная реальность, голографические возможности, AR, VR, MR, XR, дополненная реальность, виртуальная реальность, объяснение, пример внедрения, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, что такое виртуальная реальность, что такое дополненная реальность
 ms.localizationpriority: high
-ms.openlocfilehash: 2eac20b85ceeb9413dfc0b6820cceda2ddf335c5
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: e524312b2e479b1c3d05039403aba10de864ae18
+ms.sourcegitcommit: 5603dc9f6511707cb8b215f20f6c6485ef480538
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "98583018"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "112230208"
 ---
 # <a name="what-is-mixed-reality"></a>Что такое смешанная реальность?
 

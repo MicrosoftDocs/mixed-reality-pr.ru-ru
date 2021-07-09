@@ -7,12 +7,12 @@ ms.date: 06/10/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, учебник, начало работы, MRTK, UXT, UX Tools, документация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 9e02ea6cb2710b4661e97dc8b0d5f4f48ab09fa7
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: f7cf43e8f1c040660b6a2688e234a271bc071b00
+ms.sourcegitcommit: 4a6c26615d52776bdc4faab70391592092a471fc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "98583902"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "110712657"
 ---
 # <a name="2-initializing-your-project-and-first-application"></a>2. Инициализация проекта и первое приложение
 
@@ -52,22 +52,17 @@ ms.locfileid: "98583902"
 
 ## <a name="enabling-required-plugins"></a>Включение необходимых подключаемых модулей
 
-Вам потребуется активировать два подключаемых модуля, прежде чем вы сможете добавлять объекты в сцену.
+Чтобы использовать функции, доступные на платформе Microsoft Mixed Reality, сначала необходимо установить и включить модуль Microsoft OpenXR. Чтобы узнать больше о подключаемом модуле, ознакомьтесь с проектом на [GitHub](https://github.com/microsoft/Microsoft-OpenXR-Unreal).
 
-1. Выберите **Edit > Plugins** (Правка > Подключаемые модули) и выберите вариант **Augmented Reality** (Дополненная реальность) в списке встроенных категорий. 
-    * Прокрутите список до пункта **HoloLens** и установите флажок **Enabled** (Включено). 
+1. Откройте средство запуска Epic Games. Перейдите в Unreal Engine Marketplace и выполните поиск по запросу [Microsoft OpenXR](https://www.unrealengine.com/marketplace/product/ef8930ca860148c498b46887da196239). Установите подключаемый модуль в подсистему.
 
-![Включение подключаемых модулей HoloLens](images/unreal-uxt/2-plugins.PNG)
+![Unreal Marketplace](images/unreal-uxt/2-openxr-plugin.PNG)
 
-2. Выберите вариант **Virtual Reality** (Виртуальная реальность) в списке встроенных категорий. 
-    * Прокрутите список до пункта **Microsoft Windows Mixed Reality**, установите для него флажок **Enabled** (Включено) и перезапустите редактор. 
+2. Вернувшись в редактор Unreal, перейдите в раздел **Project Settings** (Параметры проекта)  >  **Plugins** (Подключаемые модули) и выполните поиск по запросу "Microsoft OpenXR". Проверьте, что подключаемый модуль включен, и перезапустите редактор, если появится соответствующий запрос.
 
-![Включение подключаемого модуля Windows Mixed Reality](images/unreal-uxt/2-virtual-reality-plugin.PNG)
+![Включение модуля Microsoft OpenXR](images/unreal-uxt/2-enable-plugin.PNG)
 
-> [!NOTE]
-> Оба подключаемых модуля обязательны при разработке для HoloLens 2.
-
-Теперь, после включения подключаемых модулей, у вас есть пустой уровень, который можно чем-нибудь заполнить.
+При включении модуля Microsoft OpenXR автоматически включатся все другие подключаемые модули, необходимые для разработки смешанной реальности. Обратите внимание, что для использования OpenXR необходимо отключить подключаемый модуль Microsoft Windows Mixed Reality. 
 
 ## <a name="creating-a-level"></a>Создание уровня
 Следующая задача — создать игровую обстановку с начальной точкой и кубом, задающим начало отсчета и масштаб.

@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure
 ms.localizationpriority: high
-ms.openlocfilehash: 5f16d3c12e6dbb977ecedc1598a28073cfb39222
-ms.sourcegitcommit: 4fb961beeebd158e2f65b7c714c5e471454400a3
+ms.openlocfilehash: eddde9b827dcf2a2f054f48a50f38946e5d98533
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "105983147"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113175571"
 ---
 # <a name="2-getting-started-with-azure-spatial-anchors"></a>2. Начало работы с Пространственными привязками Azure
 
@@ -31,43 +31,15 @@ ms.locfileid: "105983147"
 
 1. [Создание проекта Unity](mr-learning-base-02.md#creating-the-unity-project) и присвоение ему подходящего имени, например *MRTK Tutorials*.
 2. [Переключение платформы сборки.](mr-learning-base-02.md#switching-the-build-platform)
-3. [Импорт требуемых ресурсов TextMeshPro.](mr-learning-base-02.md#importing-the-textmeshpro-essential-resources)
-4. [Импорт набора средств для Смешанной реальности (MRTK).](mr-learning-base-02.md#importing-the-mixed-reality-toolkit)
-5. [Настройка проекта Unity.](mr-learning-base-02.md#configuring-the-unity-project)
-6. [Создание и настройка сцены](mr-learning-base-02.md#creating-and-configuring-the-scene) и присвоение ей понятного имени, например *AzureSpatialAnchors.*
+3. [Импорт требуемых ресурсов TextMeshPro.](mr-learning-base-04.md#importing-the-textmeshpro-essential-resources)
+4. [Импорт набора средств для смешанной реальности (MRTK) и настройка проекта Unity](mr-learning-base-02.md#importing-the-mixed-reality-toolkit-and-configuring-the-unity-project)
+5. [Создание и настройка сцены](mr-learning-base-02.md#creating-the-scene-and-configuring-mrtk) и присвоение ей понятного имени, например *AzureSpatialAnchors.*
 
-Затем выполните инструкции из раздела [Изменение параметра отображения отслеживания пространственного положения](mr-learning-base-03.md#changing-the-spatial-awareness-display-option):
+Затем следуйте инструкциям по [изменению параметра отображения для отслеживания пространственного положения](mr-learning-base-03.md#changing-the-spatial-awareness-display-option), чтобы указать профиль конфигурации MRTK **DefaultHoloLens2ConfigurationProfile** для сцены и значение **Occlusion** (Загораживание) для параметра отображения сетки отслеживания пространственного положения.
 
-1. Измените **профиль конфигурации MRTK** на **DefaultHoloLens2ConfigurationProfile**.
-1. Измените **параметры отображения сетки отслеживания пространственного положения** на **Occlusion** (Загораживание).
+## <a name="installing-inbuilt-unity-packages-and-importing-the-tutorial-assets"></a>Установка встроенных пакетов Unity и импорт учебных ресурсов
 
-## <a name="installing-inbuilt-unity-packages"></a>Установка встроенных пакетов Unity
-
-В меню Unity выберите **Window** > **Package Manager** (Окно > Диспетчер пакетов), чтобы открыть окно диспетчера пакетов, а затем щелкните **AR Foundation** и нажмите кнопку **Install** (Установить) для установки пакета.
-
-![Диспетчер пакетов Unity с выбранным пакетом AR Foundation](images/mr-learning-asa/asa-02-section2-step1-1.png)
-
-> [!NOTE]
-> Пакет AR Foundation необходимо установить, так как он требуется для пакета SDK Пространственных привязок Azure, который вы будете импортировать при работе со следующим разделом.
-
-## <a name="importing-the-tutorial-assets"></a>Импорт активов для руководства
-
-Добавьте пакет SDK AzurespatialAnchors 2.7.1 в свой проект Unity с помощью этого [учебника](/azure/spatial-anchors/how-tos/setup-unity-project?tabs=UPMPackage).
-
-Скачайте и **импортируйте** следующие пользовательские пакеты Unity **в указанном здесь порядке**:
-
-* [MRTK.HoloLens2.Unity.Tutorials.Assets.GettingStarted.2.4.0.unitypackage](https://github.com/microsoft/MixedRealityLearning/releases/download/getting-started-v2.4.0/MRTK.HoloLens2.Unity.Tutorials.Assets.GettingStarted.2.4.0.unitypackage);
-* [MRTK.HoloLens2.Unity.Tutorials.Assets.AzureSpatialAnchors.2.5.3.unitypackage](https://github.com/microsoft/MixedRealityLearning/releases/download/azure-spatial-anchors-v2.5.3/MRTK.HoloLens2.Unity.Tutorials.Assets.AzureSpatialAnchors.2.5.3.unitypackage)
-
-Когда вы завершите импорт активов для руководства, окно проекта должно выглядеть примерно так:
-
-![Unity с окнами Hierarchy (Иерархия), Scene (Сцена) и Project (Проект) после импорта ресурсов для руководства](images/mr-learning-asa/asa-02-section3-step1-1.png)
-
-> [!NOTE]
-> Если вы видите предупреждение CS0618 о том, что параметр WorldAnchor.SetNativeSpatialAnchorPtr(IntPtr) устарел, его можно игнорировать.
-
-> [!TIP]
-> Сведения о том, как правильно импортировать пользовательский пакет Unity, см. в разделе [Импорт ресурсов для руководства](mr-learning-base-02.md#importing-the-tutorial-assets).
+[!INCLUDE[](includes/installing-packages-for-asa.md)]
 
 ## <a name="preparing-the-scene"></a>Подготовка сцены
 
@@ -84,6 +56,20 @@ ms.locfileid: "105983147"
 
 > [!TIP]
 > Если вы считаете, что большие значки в сцене (например, большие значки "Т" в рамках в нашем примере) отвлекают внимание, их можно спрятать. Для этого <a href="https://docs.unity3d.com/2019.1/Documentation/Manual/GizmosMenu.html" target="_blank">переведите манипуляторы</a> в отключенное положение, как показано на рисунке выше.
+
+Выберите объект **MixedRealityToolkit** в окне Hierarchy (Иерархия) и нажмите кнопку **Add Component** (Добавить компонент) в окне Inspector (Инспектор), чтобы добавить следующие компоненты:
+
+* диспетчер привязок AR (скрипт);
+* DisableDiagnosticsSystem (скрипт).
+
+![Объект MixedRealityToolkit в Unity с добавленными компонентами AR Anchor Manager и DisableDiagnosticsSystem ](images/mr-learning-asa/asa-02-section4-step1-2.PNG)
+
+> [!WARNING]
+> Существует известная ошибка в ASA v2.9.0 и v2.10.0-preview.1, которая требует размещения в сцене двух дополнительных объектов. Нажмите кнопку **Add Component** (Добавить компонент) в окне инспектора, чтобы добавить в объект **MixedRealityToolkit** диспетчер камер AR Camera Manager (скрипт) и сеанс AR Session (скрипт). Не забудьте отключить камеру, которая создается автоматически при добавлении диспетчера AR Camera Manager (скрипт), сняв флажок рядом с объектом Camera в окне инспектора. Эта проблема будет устранена в полном выпуске ASA v2.10.0.
+> 
+
+> [!NOTE]
+> При добавлении компонента диспетчера привязок AR Anchor Manager (скрипт) автоматически добавляется компонент источника сеанса AR Session Origin (скрипт), так как он необходим компоненту диспетчера привязок AR (скрипт).
 
 ## <a name="configuring-the-buttons-to-operate-the-scene"></a>Настройка кнопок для управления сценой
 
@@ -153,15 +139,15 @@ ms.locfileid: "105983147"
 Запустив приложение на устройстве, выполните инструкции, отображаемые на панели с инструкциями из руководства по Пространственным привязкам Azure.
 
 1. Переместите куб в другое расположение.
-1. Запустите сеанс Azure.
-1. Создайте привязку Azure (она создается в расположении, где находится куб).
-1. Завершите сеанс Azure.
-1. Удалите локальную привязку (позволяет пользователю перемещать куб).
-1. Переместите куб в другое место.
-1. Запустите сеанс Azure.
-1. Выполните поиск привязки Azure (размещение куба в расположении, которое мы настроили на шаге 3).
-1. Удалите привязку Azure.
-1. Завершите сеанс Azure.
+2. Запустите сеанс Azure.
+3. Создайте привязку Azure (она создается в расположении, где находится куб).
+4. Завершите сеанс Azure.
+5. Удалите локальную привязку (позволяет пользователю перемещать куб).
+6. Переместите куб в другое место.
+7. Запустите сеанс Azure.
+8. Выполните поиск привязки Azure (размещение куба в расположении, которое мы настроили на шаге 3).
+9. Удалите привязку Azure.
+10. Завершите сеанс Azure.
 
 ![Unity с выбранным объектом Instructions](images/mr-learning-asa/asa-02-section7-step1-1.png)
 

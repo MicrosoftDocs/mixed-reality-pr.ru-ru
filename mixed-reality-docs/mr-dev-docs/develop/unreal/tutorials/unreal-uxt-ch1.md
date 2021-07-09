@@ -7,12 +7,12 @@ ms.date: 06/10/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, учебник, начало работы, MRTK, UXT, UX Tools, документация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: a46b9fef96f75f3d80b9ebbd5cbd724730374b41
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: efa0bc210fc20b9e639954a06e97eb78661d87e5
+ms.sourcegitcommit: 4a6c26615d52776bdc4faab70391592092a471fc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "98580559"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "110712583"
 ---
 # <a name="1-getting-started"></a>1. Начало работы
 
@@ -32,7 +32,7 @@ ms.locfileid: "98580559"
 Прежде чем приступать, убедитесь, что вы установили следующие компоненты:
 * Windows 10 1809 или более поздней версии.
 * Пакет SDK для Windows 10 версии 10.0.18362.0 и выше.
-* [Unreal Engine](https://www.unrealengine.com/en-US/get-now) версии 4.25 и выше.
+* [Unreal Engine](https://www.unrealengine.com/en-US/get-now) 4.26 или более поздней версии
 * Устройство Microsoft HoloLens 2, [настроенное для разработки](../../platform-capabilities-and-apis/using-visual-studio.md#enabling-developer-mode), или [эмулятор](../../platform-capabilities-and-apis/using-the-hololens-emulator.md#hololens-2-emulator-overview).
 * Visual Studio 2019 с указанными ниже рабочими нагрузками
 

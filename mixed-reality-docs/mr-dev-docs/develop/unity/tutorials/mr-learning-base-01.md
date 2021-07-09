@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, решатели, отслеживание взгляда, голосовые команды
 ms.localizationpriority: high
-ms.openlocfilehash: 8bae8b821e7ffe67b745bbbab763193612a58485
-ms.sourcegitcommit: 68140e9ce84e69a99c2b3d970c7b8f2927a7fc93
+ms.openlocfilehash: abee2163c3b92897396ea35cc43ae025e8e7b804
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "99590416"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113175482"
 ---
 # <a name="1-introduction-to-the-mrtk-tutorials"></a>1. Введение в учебники по MRTK
 
@@ -43,13 +43,24 @@ ms.locfileid: "99590416"
 * [Пакет SDK для Windows 10](https://developer.microsoft.com/windows/downloads/windows-10-sdk/) версии 10.0.18362.0 и выше.
 * Устройство HoloLens 2, [настроенное для разработки](../../platform-capabilities-and-apis/using-visual-studio.md#enabling-developer-mode).
 
-* <a href="https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html" target="_blank">Unity Hub</a> с Unity 2019 LTS и модулем поддержки сборки универсальной платформы Windows
+* <a href="https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html" target="_blank">Unity Hub</a> с Unity 2020.3 LTS или Unity 2019.4 LTS (**для исправной работы OpenXR требуется версия 2020.3.8 или более поздняя**).
 
-> [!CAUTION]
-> Для работы с этой серии руководств рекомендуется MRTK 2.5.3.
+При установке Unity обязательно проверьте следующие компоненты в разделе **Platforms** (Платформы):
 
-> [!CAUTION]
-> Рекомендуемая версия Unity для этой серии руководств — Unity 2019 LTS. Это заменяет все требования к версии Unity, указанные выше.
+* **поддержка сборки для универсальной платформы Windows**;
+* **поддержка сборки для Windows (IL2CPP)** .
+
+<img src="../../../develop/images/Unity_Install_Option_UWP.png" alt="Unity Universal Windows Platform Build Support option" width="600px">
+
+Если вы установили Unity без этих параметров, вы можете добавить их с помощью меню **Add Modules** (Добавить модули) в Unity Hub.
+
+<img src="../../../develop/images/Unity_Install_Option_UWP2.png" alt="Unity Hub - Add Module" width="600px">
+
+> [!Important]
+> Для работы с этой серии руководств рекомендуется MRTK 2.7.2
+
+> [!Important]
+> В этой серии руководств учитывается поддержка Unity 2020 LTS (в настоящее время 2020.3.x), если вы используете Open XR или подключаемый модуль Windows XR, а также Unity 2019 LTS (в настоящее время 2019.4.x), если вы используете устаревшую версию WSA или подключаемый модуль Windows XR. Это заменяет все требования к версии Unity, указанные выше.
 
 > [!div class="nextstepaction"]
 > [Следующее руководство: 2. Инициализация проекта и развертывание первого приложения](mr-learning-base-02.md)

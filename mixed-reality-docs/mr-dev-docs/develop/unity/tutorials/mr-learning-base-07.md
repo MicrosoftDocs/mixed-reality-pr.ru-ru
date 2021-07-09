@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, взаимодействие с объектами, ограничивающие элементы управления
 ms.localizationpriority: high
-ms.openlocfilehash: c2cca67afe19665ea899eb56140011bd9c756a7f
-ms.sourcegitcommit: 4fb961beeebd158e2f65b7c714c5e471454400a3
+ms.openlocfilehash: cbf2bbf78a34cfdd4856b7b8d192e4ac7c2f0154
+ms.sourcegitcommit: c65759b8d6465b6b13925cacab5af74443f7e6bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "105982867"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "112110270"
 ---
 # <a name="7-interacting-with-3d-objects"></a>7. Взаимодействие с трехмерными объектами
 
@@ -88,7 +88,7 @@ ms.locfileid: "105982867"
 
 ![Unity с выбранными всеми частями лунохода и добавленным и настроенным компонентом Audio Source](images/mr-learning-base/base-07-section1-step1-4.png)
 
-В окне Hierarchy (Иерархия) разверните объект RoverAssembly > RoverModel_PlacementHints_XRay > **Parts_PlacementHints**, чтобы отобразить все объекты указания расположения, а затем выберите первую деталь лунохода, RoverParts > **Camera_Part** и настройте компонент **Part Assembly Controller (Script)** (Элемент управления сборкой деталей — скрипт) следующим образом:
+В окне Hierarchy (Иерархия) разверните объект RoverAssembly > RoverModel_PlacementHints_XRay > **Parts_PlacementHints**, чтобы отобразить все объекты указания расположения, а затем выберите деталь Camera_part лунохода (RoverParts > **Camera_Part**) и настройте компонент **Part Assembly Controller (Script)** (Элемент управления сборкой деталей — скрипт) следующим образом:
 
 * В поле **Location To Place** (Расположение для размещения) укажите объект **Camera_PlacementHint**.
 
@@ -113,7 +113,7 @@ ms.locfileid: "105982867"
 
 ![Разделенное представление Unity в режиме воспроизведения с нажатой кнопкой Reset](images/mr-learning-base/base-07-section1-step1-7.png)
 
-Дополнительные сведения о компоненте Object Manipulator (Манипулятор объектами) и его свойствах вы можете получить в [этом учебнике](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_ObjectManipulator.html) на [портале документации по MRTK](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/).
+Дополнительные сведения о компоненте Object Manipulator (Манипулятор объектами) и его свойствах вы можете получить в [этом учебнике](/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/object-manipulator) на [портале документации по MRTK](/windows/mixed-reality/mrtk-unity/).
 
 ## <a name="adding-bounds-control"></a>Добавление ограничивающего элемента управления
 
@@ -134,7 +134,7 @@ ms.locfileid: "105982867"
 > Визуализация ограничивающего элемента управления создается только во время выполнения, поэтому вы не увидите его до переключения в игровой режим.
 
 > [!NOTE]
->Компонент Object Manipulator (Script) автоматически добавляет компонент Constraint Manager (Script)
+> Компонент Object Manipulator (Script) автоматически добавляет компонент Constraint Manager (Script)
 
 В окне Hierarchy (Иерархия) разверните в меню объект **ButtonCollection**, чтобы отобразить четыре кнопки и переименовать третью кнопку на **BoundsControl_Enable**. Затем в окне Inspector (Инспектор) настройте компонент **Button Config Helper (Script)** (Помощник настройки кнопки — скрипт) следующим образом:
 
@@ -168,7 +168,7 @@ ms.locfileid: "105982867"
 
 ![Разделенное представление Unity в режиме воспроизведения с изменением ограничивающего элемента управления](images/mr-learning-base/base-07-section2-step1-4.png)
 
-Дополнительные сведения о компоненте BoundsControl и его свойствах см. в [этом руководстве](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_BoundsControl.html) на [портале документации по MRTK](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/).
+Дополнительные сведения о компоненте BoundsControl и его свойствах см. в [этом руководстве](/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/bounds-control) на [портале документации по MRTK](/windows/mixed-reality/mrtk-unity/).
 
 ## <a name="congratulations"></a>Поздравляем!
 

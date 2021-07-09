@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure, распознавание речи, Windows 10, LUIS, портал LUIS, намерение, сущности, речевые фрагменты, понимание естественного языка
 ms.localizationpriority: high
-ms.openlocfilehash: 49e2b44000add22e924d9552f60b63ac1ac30288
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: ab9c1db7ca90a59e4ef688a8faa3d294e433cff6
+ms.sourcegitcommit: b4fd969b9c2e6313aa728b0dbee4b25014668720
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "99590366"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111403465"
 ---
 # <a name="4-setting-up-intent-and-natural-language-understanding"></a>4. Настройка намерения и распознавания естественного языка
 
@@ -27,18 +27,18 @@ ms.locfileid: "99590366"
 
 В окне Hierarchy (Иерархия) выберите объект **Lunarcom**, а затем в окне Inspector (Инспектор) с помощью кнопки **Добавить компонент** добавьте компонент **Lunarcom Intent Recognizer (Script)** (Распознаватель намерений Lunarcom — скрипт) к объекту Lunarcom.
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section1-step1-1.png)
+![учебник по смешанной реальности — распознавание речи 1](images/mrlearning-speech/tutorial4-section1-step1-1.png)
 
 В окне проекта перейдите к папке **Assets** (Активы) > **MRTK.Tutorials.GettingStarted** > **Prefabs** (Заготовки) > **RocketLauncher**, перетащите заготовку **RocketLauncher_Complete** в окно Hierarchy (Иерархия) и поместите ее в приемлемое положение перед камерной, например так:
 
 * для параметра преобразования **Position** (Положение) укажите значения X = 0, Y = 0,4, Z = 1;
 * для параметра преобразования **Rotation** (Поворот) укажите значения X = 0, Y = 90, Z = 0.
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section1-step1-2.png)
+![учебник по смешанной реальности — распознавание речи 2](images/mrlearning-speech/tutorial4-section1-step1-2.png)
 
 В окне Hierarchy (Иерархия) снова выберите объект **Lunarcom**, затем разверните объект **RocketLauncher_Complete** > **Button** и назначьте каждый из дочерних объектов объекта **Button** в соответствующем поле **Lunar Launcher Buttons**:
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section1-step1-3.png)
+![учебник по смешанной реальности — распознавание речи 3](images/mrlearning-speech/tutorial4-section1-step1-3.png)
 
 ## <a name="creating-the-azure-language-understanding-resource"></a>Создание ресурса распознавания речи в Azure
 
@@ -46,18 +46,18 @@ ms.locfileid: "99590366"
 
 Войдите в <a href="https://portal.azure.com" target="_blank">Azure</a> и щелкните **Создать ресурс**. Теперь найдите и выберите **Распознавание речи**:
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section2-step1-1.png)
+![учебник по смешанной реальности — распознавание речи 4](images/mrlearning-speech/tutorial4-section2-step1-1.png)
 
 Нажмите кнопку **Создать**, чтобы создать экземпляр этой службы.
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section2-step1-2.png)
+![учебник по смешанной реальности — распознавание речи 5](images/mrlearning-speech/tutorial4-section2-step1-2.png)
 
 На странице "Создание" щелкните вариант **Прогнозирование** и введите следующие значения:
 
 * Для параметра **Подписка** выберите **Бесплатная пробная версия**, если вы используете пробную версию подписки. Либо выберите любую другую из существующих подписок.
 * В разделе **Группа ресурсов** щелкните ссылку **Создать**, введите подходящее имя, например *MRKT-Tutorials*, а затем щелкните **ОК**.
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section2-step1-3.png)
+![учебник по смешанной реальности — распознавание речи 6](images/mrlearning-speech/tutorial4-section2-step1-3.png)
 
 > [!NOTE]
 > На момент написания этой статьи не нужно было создавать ресурс разработки, так как пробный ключ разработки автоматически создается в LUIS при создании службы LUIS, как описывается в следующем разделе.
@@ -71,18 +71,18 @@ ms.locfileid: "99590366"
 * В поле **Расположение прогноза** выберите расположение, ближайшее к физическому расположению пользователей приложения, например *(США) Западная часть США*.
 * В поле **Ценовая категория прогнозирование** для работы с этим руководством выберите уровень **F0 (5 вызовов в секунду, 10 000 вызовов в месяц).**
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section2-step1-4.png)
+![учебник по смешанной реальности — распознавание речи 7](images/mrlearning-speech/tutorial4-section2-step1-4.png)
 
 Затем щелкните вкладку **Проверка и создание**, просмотрите сведения и нажмите кнопку **Создать** в нижней части страницы, чтобы создать ресурс и новую группу ресурсов, если вы выбрали такой вариант:
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section2-step1-5.png)
+![учебник по смешанной реальности — распознавание речи 8](images/mrlearning-speech/tutorial4-section2-step1-5.png)
 
 > [!NOTE]
 > После нажатия кнопки "Создать" вам придется подождать, пока завершится создание службы, что может занять несколько минут.
 
 Когда завершится создание ресурса, вы увидите сообщение **Развертывание выполнено**:
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section2-step1-6.png)
+![учебник по смешанной реальности — распознавание речи 9](images/mrlearning-speech/tutorial4-section2-step1-6.png)
 
 ## <a name="creating-the-language-understanding-intelligent-service-luis"></a>Создание Интеллектуальной службы распознавания речи (LUIS)
 
@@ -118,11 +118,11 @@ ms.locfileid: "99590366"
 
 Теперь нажмите кнопку **Готово**, чтобы создать приложение.
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step1-1.png)
+![учебник по смешанной реальности — распознавание речи 10](images/mrlearning-speech/tutorial4-section3-step1-1.png)
 
 Когда создание приложения завершится, вы автоматически перейдете на страницу **Панель мониторинга** этого приложения.
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step1-2.png)
+![учебник по смешанной реальности — распознавание речи 11](images/mrlearning-speech/tutorial4-section3-step1-2.png)
 
 ### <a name="2-create-intents"></a>2. Создание намерений
 
@@ -132,14 +132,14 @@ ms.locfileid: "99590366"
 
 Теперь нажмите кнопку **Готово**, чтобы создать намерение.
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step2-1.png)
+![учебник по смешанной реальности — распознавание речи 12](images/mrlearning-speech/tutorial4-section3-step2-1.png)
 
 > [!CAUTION]
 > В рамках этого руководства проект Unity будет ссылаться на это намерение по имени, вот так: "PressButton". Следовательно, крайне важно присвоить намерению точно такое же имя.
 
 Когда создание намерения завершится, вы автоматически перейдете на страницу этого намерения.
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step2-2.png)
+![учебник по смешанной реальности — распознавание речи 14](images/mrlearning-speech/tutorial4-section3-step2-2.png)
 
 ### <a name="3-create-example-utterances"></a>3. Создание примеров речевых фрагментов
 
@@ -158,7 +158,7 @@ ms.locfileid: "99590366"
 
 Когда вы завершите добавление примеров речевых фрагментов, страница намерения PressButton будет выглядеть примерно так:
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step3-1.png)
+![учебник по смешанной реальности — распознавание речи 15](images/mrlearning-speech/tutorial4-section3-step3-1.png)
 
 > [!CAUTION]
 > В рамках этого руководства в проекте Unity будут использоваться слова hint, hints, reset и launch. Следовательно, крайне важно правильно и точно внести эти слова в список.
@@ -172,11 +172,11 @@ ms.locfileid: "99590366"
 
 Затем нажмите кнопку **Create** (Создать), чтобы создать новую сущность:
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step4-1.png)
+![учебник по смешанной реальности — распознавание речи 16](images/mrlearning-speech/tutorial4-section3-step4-1.png)
 
 **Повторите** описанный выше шаг, чтобы создать еще одну сущность с именем **Target**. Теперь у вас будет две сущности с именами Action и Target:
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step4-2.png)
+![учебник по смешанной реальности — распознавание речи 17](images/mrlearning-speech/tutorial4-section3-step4-2.png)
 
 > [!CAUTION]
 > В рамках этого руководства проект Unity будет ссылаться на эти сущности по именам, вот так: Action и Target. Следовательно, крайне важно присвоить точно такие же имена.
@@ -187,22 +187,22 @@ ms.locfileid: "99590366"
 
 На странице намерения PressButton щелкните слово **go**, а затем слово **ahead**, и выберите **Action (Простая)** из контекстного всплывающего меню, чтобы обозначить **go ahead** как значение сущности **Action**:
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step5-1.png)
+![учебник по смешанной реальности — распознавание речи 18](images/mrlearning-speech/tutorial4-section3-step5-1.png)
 
 Теперь речевой фрагмент **go ahead** определен как значение сущности **Action**. Вы увидите значение сущности действия под фразой "Go ahead" (Вперед):
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step5-2.png)
+![учебник по смешанной реальности — распознавание речи 19](images/mrlearning-speech/tutorial4-section3-step5-2.png)
 
 > [!NOTE]
 > Красная черта под меткой на изображении выше обозначает, что это значение сущности еще не было спрогнозировано, этим вопросом мы займемся на этапе обучения модели, описанном в следующем разделе.
 
 Теперь щелкните слово **launch** и выберите **Target (Простая)** из контекстного всплывающего меню, чтобы обозначить **launch** как значение сущности **Target**:
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step5-3.png)
+![учебник по смешанной реальности — распознавание речи 20](images/mrlearning-speech/tutorial4-section3-step5-3.png)
 
 Теперь слово **launch** определено как значение для сущности **Target**. Вы увидите новое значение сущности Target под словом "launch" (Запуск):
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step5-4.png)
+![учебник по смешанной реальности — распознавание речи 21](images/mrlearning-speech/tutorial4-section3-step5-4.png)
 
 Теперь для намерения PressButton пример речевого фрагмента "go ahead and launch the rocket" будет спрогнозирован следующим образом:
 
@@ -219,20 +219,20 @@ ms.locfileid: "99590366"
 
 Когда вы завершите пометку примеров речевых фрагментов, страница намерения PressButton будет выглядеть примерно так:
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step5-5.png)
+![учебник по смешанной реальности — распознавание речи 22](images/mrlearning-speech/tutorial4-section3-step5-5.png)
 
 ### <a name="6-train-test-and-publish-the-app"></a>6. Обучение, тестирование и публикация приложения
 
 Чтобы обучить приложение, щелкните кнопку **Обучить** и дождитесь завершения процесса обучения:
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step6-1.png)
+![учебник по смешанной реальности — распознавание речи 23](images/mrlearning-speech/tutorial4-section3-step6-1.png)
 
 > [!NOTE]
 > Как видно на изображении выше, красные линии под метками исчезли, а значит, все эти значения сущностей теперь прогнозируются. Также вы можете обратить внимание на значок состояния слева от кнопки "Обучение", который теперь сменил цвет с красного на зеленый.
 
 Когда завершится процесс обучения, щелкните кнопку **Тест** и введите фразу **go ahead and launch the rocket**, а затем нажмите клавишу ВВОД:
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step6-2.png)
+![учебник по смешанной реальности — распознавание речи 24](images/mrlearning-speech/tutorial4-section3-step6-2.png)
 
 Когда завершится обработка тестового речевого фрагмента, щелкните **Проверить** и оцените результат:
 
@@ -240,41 +240,41 @@ ms.locfileid: "99590366"
 * Сущность Action: go ahead
 * Сущность Target: launch
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step6-3.png)
+![учебник по смешанной реальности — распознавание речи 25](images/mrlearning-speech/tutorial4-section3-step6-3.png)
 
 Чтобы опубликовать приложение, нажмите кнопку **Опубликовать** справа вверху, затем во всплывающем окне **Choose your publishing slot and settings** (Выберите слот и параметры публикации) выберите пункт **Production** (Рабочий) и нажмите кнопку **Done** (Готово):
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step6-4.png)
+![учебник по смешанной реальности — распознавание речи 26](images/mrlearning-speech/tutorial4-section3-step6-4.png)
 
 Дождитесь окончания процесса публикации.
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step6-5.png)
+![учебник по смешанной реальности — распознавание речи 27](images/mrlearning-speech/tutorial4-section3-step6-5.png)
 
 Перейдите к странице Manage > Application Settings > **Azure Resources** (Управление > Параметры приложения > Ресурсы Azure), которая должна выглядеть примерно так:
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section3-step6-6.png)
+![учебник по смешанной реальности — распознавание речи 28](images/mrlearning-speech/tutorial4-section3-step6-6.png)
 
 ## <a name="connecting-the-unity-project-to-the-luis-app"></a>Подключение проекта Unity к приложению LUIS
 
 На странице "Управление" > "Параметры приложения" > **Ресурсы Azure** щелкните значок **копирования**, чтобы скопировать значение в поле **Пример запроса**:
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section4-step1-1.png)
+![учебник по смешанной реальности — распознавание речи 29](images/mrlearning-speech/tutorial4-section4-step1-1.png)
 
 Вернитесь в проект Unity, в окне Hierarchy (Иерархия) выберите объект **Lunarcom**, а затем в окне Inspector (Инспектор) найдите компонент **Lunarcom Intent Recognizer (Script)** (Распознаватель намерений Lunarcom — скрипт) и настройте его, как описано ниже.
 
 * В поле **LUIS Endpoint** (Конечная точка LUIS) вставьте значение **примера запроса**, которое вы скопировали на предыдущем шаге:
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section4-step1-2.png)
+![учебник по смешанной реальности — распознавание речи 30](images/mrlearning-speech/tutorial4-section4-step1-2.png)
 
 ## <a name="testing-and-improving-the-intent-recognition"></a>Тестирование и улучшение распознавания намерений
 
 Чтобы применить распознавание намерений прямо в редакторе Unity, необходимо разрешить использовать диктовку на компьютере разработке. Чтобы проверить эту настройку, откройте **Параметры** Windows, выберите **Конфиденциальность** > **Речь** и убедитесь, что здесь включен параметр **Распознавание речи в сети**:
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section5-step1-1.png)
+![учебник по смешанной реальности — распознавание речи 31](images/mrlearning-speech/tutorial4-section5-step1-1.png)
 
 Теперь, войдя в игровой режим, вы сможете проверить распознавание намерений. Для начала нажмите кнопку ракеты. Если к вашему компьютеру подключен микрофон, при произнесении первого примера речевого фрагмента **go ahead and launch the rocket** объект LunarModule будет запущен в космос:
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section5-step1-2.png)
+![учебник по смешанной реальности — распознавание речи 32](images/mrlearning-speech/tutorial4-section5-step1-2.png)
 
 Проверьте все **примеры речевых фрагментов**, потом попробуйте **немного изменять эти примеры**, а также произнесите несколько **произвольных речевых фрагментов**.
 
@@ -286,7 +286,7 @@ ms.locfileid: "99590366"
 
 Завершив изучение речевых фрагментов в удобном для вас темпе, нажмите кнопку **Обучение**, чтобы повторно обучить модель, а затем кнопку **Опубликовать**, чтобы еще раз опубликовать обновленное приложение:
 
-![mrlearning-speech](images/mrlearning-speech/tutorial4-section5-step1-3.png)
+![учебник по смешанной реальности — распознавание речи 33](images/mrlearning-speech/tutorial4-section5-step1-3.png)
 
 > [!NOTE]
 > Если речевой фрагмент конечной точки не соответствует намерению PressButton и вы хотите, чтобы модель знала об отсутствии намерений в этом речевом фрагменте, измените значение сопоставленного намерения на "Нет".

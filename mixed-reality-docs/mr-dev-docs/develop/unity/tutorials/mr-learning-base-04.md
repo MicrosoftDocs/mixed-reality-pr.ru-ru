@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, решатели, коллекция объектов сетки
 ms.localizationpriority: high
-ms.openlocfilehash: 28cebe871e1046e8668a079affabf6167632cfa4
-ms.sourcegitcommit: 4fb961beeebd158e2f65b7c714c5e471454400a3
+ms.openlocfilehash: d5d10893ba8274139c6e09b8cd426d58a0b3a0cb
+ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "105983039"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113175473"
 ---
 # <a name="4-positioning-objects-in-the-scene"></a>4. Размещение объектов в сцене
 
@@ -24,6 +24,37 @@ ms.locfileid: "105983039"
 
 * Научиться размещать объекты в сцене.
 * Научиться использовать функцию коллекции объектов сетки в MRTK.
+
+## <a name="importing-the-textmeshpro-essential-resources"></a>Импорт требуемых ресурсов TextMeshPro
+Ресурсы TextMeshPro требуются для элементов пользовательского интерфейса MRTK. В меню Unity выберите **Window** > **TextMeshPro** > **Import TMP Essential Resources** (Окно > TextMeshPro > Импорт требуемых ресурсов TMP), чтобы открыть окно Import Unity Package (Импорт пакета Unity):
+
+![Выбор Import TMP Essential Resources (Импорт требуемых ресурсов TMP) в меню](images/mr-learning-base/base-02-section3-step1-1.png)
+
+В окне импорта пакета Unity нажмите кнопку **All** (Все), чтобы выбрать все ресурсы, а затем нажмите кнопку **Import** (Импорт), чтобы импортировать их.
+
+![Окно импорта требуемых ресурсов TMP в Unity](images/mr-learning-base/base-02-section3-step1-2.png)
+
+## <a name="importing-the-tutorial-assets"></a>Импорт активов для руководства
+
+Скачайте приведенный ниже пользовательский пакет Unity. Этот пакет включает трехмерные ресурсы, такие как Mars Rover, которые будут использоваться в этом руководстве.
+
+* [MRTK.HoloLens2.Unity.Tutorials.Assets.GettingStarted.2.5.0.1.unitypackage](https://github.com/microsoft/MixedRealityLearning/releases/download/getting-started-v2.5.0/MRTK.HoloLens2.Unity.Tutorials.Assets.GettingStarted.2.5.0.1.unitypackage).
+
+Чтобы импортировать пользовательский пакет Unity, в меню Unity щелкните **Assets** > **Import Package** > **Custom Package** (Ресурсы > Импорт пакетов > Пользовательский пакет), чтобы открыть окно импорта пакетов:
+
+![Импорт настраиваемого пакета](images/mr-learning-base/base-02-section7-step1-1.png)
+
+В окне Import package (Импорт пакета) выберите скачанный файл **MRTK.HoloLens2.Unity.Tutorials.Assets.GettingStarted.2.5.0.1.unitypackage** и нажмите кнопку Open (Открыть):
+
+![Выбор пакета ресурсов](images/mr-learning-base/base-02-section7-step1-2.png)
+
+В окне импорта пакета Unity нажмите кнопку All (Все), чтобы выбрать все ресурсы, а затем нажмите кнопку Import (Импорт), чтобы импортировать их.
+
+![Выбор всех ресурсов для импорта](images/mr-learning-base/base-02-section7-step1-3.png)
+
+Когда вы завершите импорт активов для руководства, окно проекта должно выглядеть примерно так:
+
+![Окно проекта Unity после импорта ресурсов](images/mr-learning-base/base-02-section7-step1-4.png)
 
 ## <a name="creating-the-parent-object"></a>Создание родительского объекта
 

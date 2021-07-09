@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, многопользовательские возможности, Photon, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure
 ms.localizationpriority: high
-ms.openlocfilehash: 58ea52332485a3e0ca460322f6af60266b119ede
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: 976593fd2f107d456da4f04da19621dd253f2ae1
+ms.sourcegitcommit: 943489923c69c3a28bc152f1cb516dcdcea2880a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "99590196"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111772427"
 ---
 # <a name="3-connecting-multiple-users"></a>3. Подключение нескольких пользователей
 
@@ -69,7 +69,7 @@ ms.locfileid: "99590196"
 
 ### <a name="2-create-the-avatar"></a>2. Создание аватара
 
-В окне Project (Проект) перейдите к папке **Packages** > **Mixed Reality Toolkit Foundation** > **SDK** > **StandardAssets** > **Materials**, чтобы найти материалы, связанные с MRTK.
+В окне Project (Проект) перейдите к папке **Packages** (Пакеты)  >  **Mixed Reality Toolkit Standard Assets** (Стандартные активы набора средств для смешанной реальности)  >  **Materials** (Материалы), чтобы найти материалы, связанные с MRTK.
 
 Затем щелкните правой кнопкой мыши объект **PhotonUser** в окне Hierarchy (Иерархия) и последовательно выберите **3D Object** > **Sphere** (Трехмерный объект > Сфера), чтобы создать сферический объект в качестве дочернего для объекта PhotonUser и настроить его следующим образом:
 
