@@ -28,6 +28,8 @@
       href: unity/unity-development-overview.md
     - name: Разработка в Unity для виртуальной реальности
       href: unity/unity-development-wmr-overview.md
+    - name: Mixed Reality Toolkit (MRTK)
+      href: /windows/mixed-reality/mrtk-unity/
     - name: Учебники
       items:
         - name: Обзор
