@@ -1,16 +1,16 @@
 ---
-title: Создание поставщика параметров
+title: Создание поставщика параметров камеры
 description: Поставщик данных для параметров камеры в МРТК
 author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: d07b84c3cf550f9a235e58286b4cd239ac43b649
-ms.sourcegitcommit: 8b4c2b1aac83bc8adf46acfd92b564f899ef7735
+ms.openlocfilehash: 2151887a6162239e993634d5d346065362f1c428
+ms.sourcegitcommit: 912fa204ef79e9b973eab9b862846ba5ed5cd69f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113121192"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "114282034"
 ---
 # <a name="creating-a-camera-settings-provider"></a>Создание поставщика параметров камеры
 
@@ -24,7 +24,7 @@ ms.locfileid: "113121192"
 Поставщики данных могут распространяться одним из двух способов:
 
 1. Сторонние надстройки
-1. Часть набора средств Microsoft Mixed Reality
+1. в составе Microsoft Mixed Reality набор средств
 
 Процесс утверждения для отправки новых поставщиков данных в МРТК будет изменяться в зависимости от конкретного случая и будет передан на момент начального предложения. Предложения можно отправлять, создавая новый [тип *запроса функции*](https://github.com/microsoft/MixedRealityToolkit-Unity/issues).
 
@@ -37,7 +37,7 @@ ms.locfileid: "113121192"
 - Название компании, создающее надстройку
 - Область применения компонента
 
-Например, поставщик параметров камеры, созданный и поставляемый компанией Contoso, может иметь значение *"contoso. микседреалити. Toolkit. Camera"*.
+например, поставщик параметров камеры, созданный и поставляемый компанией contoso, может иметь значение *Contoso. микседреалити. набор средств. Camera»*.
 
 **Структура папок**
 
@@ -51,7 +51,7 @@ ms.locfileid: "113121192"
 
 **Пространство имен**
 
-Если поставщик параметров камеры отправляется в [репозиторий Mixed Reality Toolkit](https://github.com/Microsoft/MixedRealityToolkit-Unity), пространство имен **должно** начинаться с Microsoft. микседреалити. Toolkit (ex: *Microsoft. микседреалити. Toolkit. камерасистем*).
+если поставщик параметров камеры отправляется в [репозиторий "смешанная реальность" набор средств](https://github.com/Microsoft/MixedRealityToolkit-Unity), пространство имен **должно** начинаться с Microsoft. микседреалити. набор средств (например: *Microsoft. микседреалити. набор средств. Камерасистем*).
 
 **Структура папок**
 
@@ -117,7 +117,7 @@ namespace namespace Microsoft.MixedReality.Toolkit.Experimental.UnityAR
 
 ## <a name="create-the-profile-and-inspector"></a>Создание профиля и инспектора
 
-В наборе средств для смешанной реальности поставщики данных настраиваются с помощью [профилей](../profiles/profiles.md).
+в набор средств смешанной реальности поставщики данных настраиваются с помощью [профилей](../profiles/profiles.md).
 
 ### <a name="define-the-profile"></a>Определение профиля
 
@@ -164,7 +164,7 @@ namespace namespace Microsoft.MixedReality.Toolkit.Experimental.UnityAR
 }
 ```
 
-`CreateAssetMenu`Атрибут можно применить к классу Profile, чтобы клиенты могли создавать экземпляры профиля с помощью меню **Создание**  >    >  **профилей набора средств Mixed Reality**  >   .
+`CreateAssetMenu`атрибут можно применить к классу profile, чтобы клиенты могли создавать экземпляры профиля с помощью меню " **создание**  >  **ресурсов**" в набор средств "профили"  >  **смешанной реальности**  >   .
 
 ### <a name="implement-the-inspector"></a>Реализация инспектора
 
@@ -183,19 +183,19 @@ namespace namespace Microsoft.MixedReality.Toolkit.Experimental.UnityAR
 
 ## <a name="create-assembly-definitions"></a>Создание определений сборок
 
-Набор средств Mixed Reality использует файлы определения сборки ([. асмдеф](https://docs.unity3d.com/Manual/ScriptCompilationAssemblyDefinitionFiles.html)) для указания зависимостей между компонентами, а также для помощи Unity при сокращении времени компиляции.
+набор средств смешанной реальности использует файлы определения сборки ([. асмдеф](https://docs.unity3d.com/Manual/ScriptCompilationAssemblyDefinitionFiles.html)) для указания зависимостей между компонентами, а также для помощи Unity при сокращении времени компиляции.
 
 Рекомендуется создавать файлы определения сборки для всех поставщиков данных и их компонентов редактора.
 
 Используя [структуру папок](#namespace-and-folder-structure) в предыдущем примере, для поставщика данных контосокамера требуется два асмдеф файла.
 
-Первое определение сборки предназначено для поставщика данных. В этом примере он будет называться Контосокамера и будет находиться в папке *контосокамера* в примере. Это определение сборки должно задавать зависимость от Microsoft. Микседреалити. Toolkit и других сборок, от которых он зависит.
+Первое определение сборки предназначено для поставщика данных. В этом примере он будет называться Контосокамера и будет находиться в папке *контосокамера* в примере. Это определение сборки должно задавать зависимость от Microsoft. Микседреалити. набор средств и другие сборки, от которых он зависит.
 
 В определении сборки Контосокамераедитор будет указан инспектор профилей и код конкретного редактора. Этот файл должен находиться в корневой папке кода редактора. В этом примере файл будет находиться в папке *контосокамера\едитор* Это определение сборки будет содержать ссылку на сборку Контосокамера, а также:
 
-- Microsoft. Микседреалити. Toolkit
-- Microsoft. Микседреалити. Toolkit. Editor. Инспекторы
-- Microsoft. Микседреалити. Toolkit. Editor. Utilities
+- Microsoft. Микседреалити. набор средств
+- Microsoft. Микседреалити. набор средств. Редактор. Инспекторы
+- Microsoft. Микседреалити. набор средств. Редактор. Utilities
 
 ## <a name="register-the-data-provider"></a>Регистрация поставщика данных
 
@@ -207,11 +207,11 @@ namespace namespace Microsoft.MixedReality.Toolkit.Experimental.UnityAR
 
 Поставщики данных, распространяемые в виде компонентов третьих лиц, имеют конкретные сведения о упаковке и распределении в соответствии с предпочтениями разработчика. Скорее всего, наиболее распространенным решением будет создание. пакет unitypackage и распространение через хранилище активов Unity.
 
-Если поставщик данных отправлен и принят как часть пакета Microsoft Mixed Reality Toolkit, группа Microsoft МРТК будет упаковывать и распространять ее в рамках предложений МРТК.
+если поставщик данных отправлен и принят как часть пакета microsoft Mixed Reality набор средств, группа microsoft мртк будет упаковывать и распространять ее в рамках предложений мртк.
 
 ## <a name="see-also"></a>См. также
 
-- [Обзор системы поддержки камер](camera-system-overview.md)
+- [Обзор системы камеры](camera-system-overview.md)
 - [Класс `BaseCameraSettingsProvider`](xref:Microsoft.MixedReality.Toolkit.CameraSystem.BaseCameraSettingsProvider)
 - [`IMixedRealityCameraSettingsProvider` взаимодействия](xref:Microsoft.MixedReality.Toolkit.CameraSystem.IMixedRealityCameraSettingsProvider)
 - [`IMixedRealityDataProvider` взаимодействия](xref:Microsoft.MixedReality.Toolkit.IMixedRealityDataProvider)

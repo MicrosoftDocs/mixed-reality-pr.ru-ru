@@ -1,18 +1,18 @@
 ---
-title: Импульсный шейдер
+title: Шейдер пульса
 description: Описание для импульсных шейдеров в МРТК.
 author: CDiaz-MS
 ms.author: cadia
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 087806d48c7304d43f8383285cbaa2a12d8bf99a
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 0b26242d71bbe080e440f9c52a009e29000ab00b
+ms.sourcegitcommit: 114c304a416bfe9d9b294c4adbb4c23cbe60ea4e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113176317"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "114224212"
 ---
-# <a name="pulse-shader"></a>Импульсный шейдер
+# <a name="pulse-shader"></a>Шейдер пульса
 
 ![MRTK_SpatialMesh_Pulse](https://user-images.githubusercontent.com/13754172/68261851-3489e200-fff6-11e9-9f6c-5574a7dd8db7.gif)
 
@@ -29,9 +29,9 @@ ms.locfileid: "113176317"
 
 ## <a name="prerequisites"></a>Предварительные требования
 
-для примера пространственной сетки убедитесь, что MRTK_Pulse_ArticulatedHandMeshBlue. material или MRTK_Pulse_ArticulatedHandMeshPurple. material назначены в разделе мртк Параметры-> пространственной осведомленности > отображение Параметры-> видимый материал.
+для примера пространственной сети убедитесь, что MRTK_Pulse_SpatialMeshBlue. material или MRTK_Pulse_SpatialMeshPurple. доступ назначен в разделе микседреалититулкит object-> профиль пространственной осведомленности — > отображение Параметры — > видимый материал.
 
-в примере с сеткой > данных убедитесь, что в артикулатедхандмеш. > Параметры prefab назначено значение MRTK_Pulse_SpatialMeshBlue........ или MRTK_Pulse_SpatialMeshPurple.
+в примере с сеткой > данных убедитесь, что в артикулатедхандмеш. > Параметры prefab назначено значение MRTK_Pulse_ArticulatedHandMeshBlue........ или MRTK_Pulse_ArticulatedHandMeshPurple.
 
 ## <a name="how-it-works"></a>Принцип работы
 

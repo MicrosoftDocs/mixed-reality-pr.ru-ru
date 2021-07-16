@@ -5,24 +5,24 @@ author: dongpark
 ms.author: dongpark
 ms.date: 03/29/2021
 ms.topic: article
-keywords: Фигма, эскиз, Adobe XD, проектирование, конструктор, файл проекта, проектирование UX, HoloLens, МРТК, набор средств для смешанной реальности
-ms.openlocfilehash: a24f06b29accaa64a9095054f1e6f8df13a9162e
-ms.sourcegitcommit: 0c717ed0043c7a65e2caf1452eb0f49059cdf154
+keywords: фигма, эскиз, Adobe XD, проектирование, конструктор, файл проекта, проектирование UX, HoloLens, мртк, смешанная реальность набор средств
+ms.openlocfilehash: ef36e68e7340bc0a1500a9468db35d1e0b417ed6
+ms.sourcegitcommit: 114c304a416bfe9d9b294c4adbb4c23cbe60ea4e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "108644860"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "114224334"
 ---
 # <a name="figma-toolkit"></a>Набор средств Figma
 
-> [!VIDEO https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Figma-Toolkit-MRTK/player]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWGqke]
 
-Фигма Toolkit предоставляет ресурсы, которые можно использовать для наброска и верстки пользовательского интерфейса. Все элементы управления пользовательского интерфейса основаны на компонентах, доступных в МРТК. 
+мртк фигма набор средств предоставляет 2d-версии элементов управления пользовательского интерфейса стилей HoloLens 2, которые можно найти в мртк для Unity или мртк для нереального. Это можно использовать в процессе разработки для создания макетов пользовательского интерфейса и раскадровок.
 
 > [!div class="nextstepaction"]
-> [Просмотреть набор средств фигма](https://www.figma.com/file/ltLag9SxjUIyLQFsp7NNE7/Mixed-Reality-Toolkit-for-Figma?node-id=116%3A4)
+> [просмотреть набор средств фигма](https://www.figma.com/file/ltLag9SxjUIyLQFsp7NNE7/Figma-Toolkit-for-MRTK-%2F-HoloLens%2C-Windows-Mixed-Reality?node-id=116%3A4)
 
-## <a name="how-to-use-figma-toolkit"></a>Использование набора средств фигма
+## <a name="how-to-use-figma-toolkit"></a>использование фигма набор средств
 Для создания копии используйте команду **дублировать в меню черновики** .
 
 <img src="images/UX_Figma_Use1.png" width="500px" alt="Menu duplicate 1"><br>
@@ -46,9 +46,12 @@ ms.locfileid: "108644860"
 ## <a name="ui-gallery--components"></a>& компонентов коллекции пользовательского интерфейса
 На странице коллекции и компонентов пользовательского интерфейса отображаются все доступные компоненты для вашего проекта.
 
-![Пример набора средств фигма. Пользовательский интерфейс меню 1](images/UX_FigmaToolkit_Components_Menu1.png)<br>
+![фигма набор средств пример — пользовательский интерфейс меню 1](images/UX_FigmaToolkit_Components_Menu1.png)<br>
 
-![Пример набора средств фигма. Пользовательский интерфейс меню 2](images/UX_FigmaToolkit_Components_Menu2.png)<br>
+![пример набор средств фигма — пользовательский интерфейс меню 2](images/UX_FigmaToolkit_Components_Menu2.png)<br>
+
+
+![пример набор средств фигма — пользовательский интерфейс меню 4](images/UX_FigmaToolkit_Components_Menu3a.png)<br>
 
 На вкладке **Assets (ресурсы** ) можно просмотреть эти компоненты и перетащить их на страницу.
 
@@ -57,17 +60,17 @@ ms.locfileid: "108644860"
 
 ## <a name="examples"></a>Примеры
 
-Набор средств фигма может быть полезен для наброска пользовательского интерфейса меню. 
+фигма набор средств может быть полезна для наброска пользовательского интерфейса меню. 
 
-![Пример набора средств фигма. Пользовательский интерфейс меню 3](images/UX_FigmaToolkit_Examples_Menu.png)<br>
+![пример набор средств фигма. пользовательский интерфейс меню 5](images/UX_FigmaToolkit_Examples_Menu.png)<br>
 
 
 Ресурсы могут использоваться для раскадровки.
 
-![Пример набора средств фигма. раскадровка](images/UX_FigmaToolkit_Examples_Storyboarding.png)<br>
+![пример набор средств фигма. раскадровка](images/UX_FigmaToolkit_Examples_Storyboarding.png)<br>
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Курсоры](cursors.md)
 * [Телекинез](point-and-commit.md)

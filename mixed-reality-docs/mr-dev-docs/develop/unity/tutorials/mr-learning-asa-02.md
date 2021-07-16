@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure
 ms.localizationpriority: high
-ms.openlocfilehash: eddde9b827dcf2a2f054f48a50f38946e5d98533
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 9c3ae23c39bf4d0b32d8a5d82716f93fee48b6db
+ms.sourcegitcommit: fd1964ec6c645e8088ec120661f73739bb7775a9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113175571"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "113656644"
 ---
 # <a name="2-getting-started-with-azure-spatial-anchors"></a>2. Начало работы с Пространственными привязками Azure
 
@@ -66,7 +66,7 @@ ms.locfileid: "113175571"
 
 > [!WARNING]
 > Существует известная ошибка в ASA v2.9.0 и v2.10.0-preview.1, которая требует размещения в сцене двух дополнительных объектов. Нажмите кнопку **Add Component** (Добавить компонент) в окне инспектора, чтобы добавить в объект **MixedRealityToolkit** диспетчер камер AR Camera Manager (скрипт) и сеанс AR Session (скрипт). Не забудьте отключить камеру, которая создается автоматически при добавлении диспетчера AR Camera Manager (скрипт), сняв флажок рядом с объектом Camera в окне инспектора. Эта проблема будет устранена в полном выпуске ASA v2.10.0.
-> 
+>
 
 > [!NOTE]
 > При добавлении компонента диспетчера привязок AR Anchor Manager (скрипт) автоматически добавляется компонент источника сеанса AR Session Origin (скрипт), так как он необходим компоненту диспетчера привязок AR (скрипт).
@@ -77,21 +77,21 @@ ms.locfileid: "113175571"
 
 В окне иерархии разверните объект **ButtonParent** и выберите первый дочерний объект с именем **StartAzureSession**. Затем в окне инспектора настройте событие **On Click ()** компонента **Button Config Helper (Script)** (Вспомогательная конфигурация кнопки — скрипт) следующим образом.
 
-* В поле **None (Object)** (Отсутствует (объект)) укажите объект **ParentAnchor**.
+* Назначьте объект **ParentAnchor** в качестве прослушивателя для события On Click (), перетащив его из окна Hierarchy (Иерархия) в поле **None (Object)** (Отсутствует (объект)).
 * В раскрывающемся списке **No Function** (Функция отсутствует) выберите **AnchorModuleScript** > **StartAzureSession ()** , чтобы задать эту функцию как действие, выполняемое при активации события.
 
 ![Unity с настроенным событием OnClick для кнопки StartAzureSession](images/mr-learning-asa/asa-02-section5-step1-1.png)
 
 В окне иерархии выберите следующую кнопку с именем **StopAzureSession**. Затем в окне инспектора настройте событие **On Click ()** компонента **Button Config Helper (Script)** (Вспомогательная конфигурация кнопки — скрипт) следующим образом.
 
-* В поле **None (Object)** (Отсутствует (объект)) укажите объект **ParentAnchor**.
+* Назначьте объект **ParentAnchor** в качестве прослушивателя для события On Click (), перетащив его из окна Hierarchy (Иерархия) в поле **None (Object)** (Отсутствует (объект)).
 * В раскрывающемся списке **No Function** (Функция отсутствует) выберите **AnchorModuleScript** > **StopAzureSession ()** , чтобы задать эту функцию как действие, выполняемое при активации события.
 
 ![Unity с настроенным событием OnClick для кнопки StopAzureSession](images/mr-learning-asa/asa-02-section5-step1-2.png)
 
 В окне иерархии выберите следующую кнопку с именем **CreateAzureAnchor**. Затем в окне инспектора настройте событие **On Click ()** компонента **Button Config Helper (Script)** (Вспомогательная конфигурация кнопки — скрипт) следующим образом.
 
-* В поле **None (Object)** (Отсутствует (объект)) укажите объект **ParentAnchor**.
+* Назначьте объект **ParentAnchor** в качестве прослушивателя для события On Click (), перетащив его из окна Hierarchy (Иерархия) в поле **None (Object)** (Отсутствует (объект)).
 * В раскрывающемся списке **No Function** (Функция отсутствует) выберите **AnchorModuleScript** > **CreateAzureAnchor ()** , чтобы задать эту функцию как действие, выполняемое при активации события.
 * В поле **None (Game Object)** (Отсутствует (игровой объект)) укажите объект **ParentAnchor**, чтобы сделать его аргументом функции CreateAzureAnchor ().
 
@@ -99,7 +99,7 @@ ms.locfileid: "113175571"
 
 В окне иерархии выберите следующую кнопку с именем **RemoveLocalAnchor**. Затем в окне инспектора настройте событие **On Click ()** компонента **Button Config Helper (Script)** (Вспомогательная конфигурация кнопки — скрипт) следующим образом.
 
-* В поле **None (Object)** (Отсутствует (объект)) укажите объект **ParentAnchor**.
+* Назначьте объект **ParentAnchor** в качестве прослушивателя для события On Click (), перетащив его из окна Hierarchy (Иерархия) в поле **None (Object)** (Отсутствует (объект)).
 * В раскрывающемся списке **No Function** (Функция отсутствует) выберите **AnchorModuleScript** > **RemoveLocalAnchor ()** , чтобы задать эту функцию как действие, выполняемое при активации события.
 * В поле **None (Game Object)** (Отсутствует (игровой объект)) укажите объект **ParentAnchor**, чтобы сделать его аргументом функции RemoveLocalAnchor ().
 
@@ -107,14 +107,14 @@ ms.locfileid: "113175571"
 
 В окне иерархии выберите следующую кнопку с именем **FindAzureAnchor**. Затем в окне инспектора настройте событие **On Click ()** компонента **Button Config Helper (Script)** (Вспомогательная конфигурация кнопки — скрипт) следующим образом.
 
-* В поле **None (Object)** (Отсутствует (объект)) укажите объект **ParentAnchor**.
+* Назначьте объект **ParentAnchor** в качестве прослушивателя для события On Click (), перетащив его из окна Hierarchy (Иерархия) в поле **None (Object)** (Отсутствует (объект)).
 * В раскрывающемся списке **No Function** (Функция отсутствует) выберите **AnchorModuleScript** > **FindAzureAnchor ()** , чтобы задать эту функцию как действие, выполняемое при активации события.
 
 ![Unity с настроенным событием OnClick для кнопки FindAzureAnchor](images/mr-learning-asa/asa-02-section5-step1-5.png)
 
 В окне иерархии выберите следующую кнопку с именем **DeleteAzureAnchor**. Затем в окне инспектора настройте событие **On Click ()** компонента **Button Config Helper (Script)** (Вспомогательная конфигурация кнопки — скрипт) следующим образом.
 
-* В поле **None (Object)** (Отсутствует (объект)) укажите объект **ParentAnchor**.
+* Назначьте объект **ParentAnchor** в качестве прослушивателя для события On Click (), перетащив его из окна Hierarchy (Иерархия) в поле **None (Object)** (Отсутствует (объект)).
 * В раскрывающемся списке **No Function** (Функция отсутствует) выберите **AnchorModuleScript** > **DeleteAzureAnchor ()** , чтобы задать эту функцию как действие, выполняемое при активации события.
 
 ![Unity с настроенным событием OnClick для кнопки DeleteAzureAnchor](images/mr-learning-asa/asa-02-section5-step1-6.png)

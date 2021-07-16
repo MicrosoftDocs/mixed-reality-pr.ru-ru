@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure, распознавание речи, Windows 10
 ms.localizationpriority: high
-ms.openlocfilehash: a728e3520539723c4b38849eeb60524995e572eb
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 39eaa8a17d4616dc9c044f9bff7522dde41cffb7
+ms.sourcegitcommit: fd1964ec6c645e8088ec120661f73739bb7775a9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113175454"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "113656630"
 ---
 # <a name="1-integrating-and-using-speech-recognition-and-transcription"></a>1. Интеграция и использование средств распознавания и транскрибирования речи
 
@@ -166,4 +166,4 @@ ms.locfileid: "113175454"
 В следующем учебнике вы узнаете, как выполнять команды с помощью распознавания речи Azure.
 
 > [!div class="nextstepaction"]
-> [Следующее руководство: 2. Использование функции распознавания речи для выполнения команд](mrlearning-speechSDK-ch2.md)
+> [Следующий учебник: 2. Выполнение команд с помощью распознавания речи Azure](mrlearning-speechSDK-ch2.md)

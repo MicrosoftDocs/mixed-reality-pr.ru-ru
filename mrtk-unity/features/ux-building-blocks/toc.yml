@@ -4,7 +4,7 @@
   href: bounding-box.md
 - name: Элемент управления границами
   href: bounds-control.md
-- name: Кнопка
+- name: Кнопки
   href: button.md
 - name: Диспетчер ограничений
   href: constraint-manager.md

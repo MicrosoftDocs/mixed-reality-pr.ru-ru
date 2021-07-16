@@ -1,21 +1,21 @@
 ---
-title: Начните путешествие по VR
+title: Начало работы с технологией виртуальной реальности
 description: Изучите наши проверенные контрольные точки, чтобы познакомиться с новыми пользователями устройств путем настройки и использования их впечатляющих устройств VR.
 author: hferrone
 ms.author: v-hferrone
 ms.date: 10/15/2020
 ms.topic: overview
-keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR,
-ms.openlocfilehash: 88aab47a943fd004ef0a90a8c6749da1a403ff2f
-ms.sourcegitcommit: 9ae76b339968f035c703d9c1fe57ddecb33198e3
+keywords: Windows Mixed Reality, смешанная реальность, Virtual reality, VR, MR,
+ms.openlocfilehash: 333da855b7fc995fa40ff66d9da59a38000bf133
+ms.sourcegitcommit: f98884074db7cf334efbaa396059566843c73d56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110600513"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "114225136"
 ---
-# <a name="start-your-vr-journey"></a>Начните путешествие по VR
+# <a name="start-your-vr-journey"></a>Начало работы с технологией виртуальной реальности
 
-![Стандартное изображение окружения VR](images/mr-win32-slates-pinspanel.png)
+![Стандартное изображение окружения VR](images/vr-journey-hero.png)
 
 ## <a name="setup--usability-checkpoints"></a>Настройка контрольных точек использования &
 
@@ -34,25 +34,25 @@ ms.locfileid: "110600513"
 |  Контрольная точка  |  Результат  |
 | --- | --- |
 | [Перед началом работы](before-you-start.md) | Убедитесь, что у вас есть все, что нужно для начала пути к VR. |
-| [Минимальные рекомендации по оборудованию ПК](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md) | Все, что необходимо знать о работе Windows Mixed Reality, Windows Mixed Reality и приложение портала Windows Mixed Reality |
-| [Получение справки по совместимости ПК](get-help-with-pc-compatibility.md) | Сведения о созданном отчете из проверки компьютера Windows Mixed Reality |
+| [Минимальные рекомендации по оборудованию ПК](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md) | все, что необходимо знать о запуске Windows Mixed Reality, Windows Mixed Reality Ultra и приложении портала Windows Mixed Reality |
+| [Получение справки по совместимости ПК](get-help-with-pc-compatibility.md) | изучите созданный отчет на основе проверки Windows Mixed Reality пк |
 | [Приобретение часто задаваемых вопросов](before-you-buy-faqs.md) | Получите ответы на все вопросы о приобретении технических спецификаций, устройств и контроллеров |
 
 ### <a name="2-getting-started"></a>2. Приступая к работе
 
-После установки устройства необходимо правильно настроить и настроить его для использования. К концу этого раздела вы получите все требования к программному обеспечению и готовы начать использовать Windows Mixed Reality.
+После установки устройства необходимо правильно настроить и настроить его для использования. В конце этого раздела будут установлены все требования к программному обеспечению и готовы начать использовать Windows Mixed Reality.
 
 <br>
 
 |  Контрольная точка  |  Результат  |
 | --- | --- |
-| [Настройка Windows Mixed Reality](set-up-windows-mixed-reality.md) | Познакомьтесь с контроллерами, границами комнаты, речевым входом и Microsoft ребром на новом устройстве VR. |
-| [Вопросы и ответы по настройке Windows Mixed Reality](wmr-setup-faq.yml) | Получение ответов и устранение неполадок с известными проблемами при настройке Windows Mixed Reality |
-| [Требования к работоспособности, безопасности и комфорту](wmr-health-safety-comfort.md) | Рекомендации для поддержания безопасности при использовании Windows Mixed Reality перед использованием гарнитуры  |
+| [Настройка Windows Mixed Reality](set-up-windows-mixed-reality.md) | познакомьтесь с контроллерами, границами комнаты, речевым входом и Microsoft Edge на новом устройстве VR |
+| [вопросы и ответы по настройке Windows Mixed Reality](wmr-setup-faq.yml) | Получение ответов и устранение неполадок с известными проблемами при настройке Windows Mixed Reality |
+| [Требования к работоспособности, безопасности и комфорту](wmr-health-safety-comfort.md) | Рекомендации сохранить безопасность при использовании Windows Mixed Reality перед использованием гарнитуры  |
 
 ### <a name="3-using-windows-mixed-reality"></a>3. Использование Windows Mixed Reality
 
-В Windows Mixed Reality и впечатляющих головных гарнитурах доступны различные функции и службы. К концу этого раздела вы будете знакомы:
+с помощью Windows Mixed Reality и впечатляющих головных телефонов VR доступны различные функции и службы. К концу этого раздела вы будете знакомы:
 
 * Навигация по среде виртуальной домашней среды
 * Использование контроллеров и речи в качестве входных данных
@@ -60,15 +60,15 @@ ms.locfileid: "110600513"
 
 <br>
 
-|  Контрольная точка  |  Компонент  |
+|  Контрольная точка  |  Функция  |
 | --- | --- |
 | [Знакомство со смешанной реальностью](learn-mixed-reality.md) | Узнайте, как использовать мышь, голоса, контроллеров, входные данные клавиатуры и мыши. |
-| [Переход на домашнюю страницу Windows Mixed Reality](your-mixed-reality-home.md) | Изучите виртуальную среду домашней страницы Windows Mixed Reality  |
+| [переход к домашней странице Windows Mixed Reality](your-mixed-reality-home.md) | изучение виртуальной среды Windows Mixed Reality home  |
 | [Использование контроллеров](controllers-in-wmr.md) | Установка, понимание и использование контроллеров движения |
-| [Использование речевого ввода](using-speech-in-wmr.md) | Ознакомьтесь с различными голосовыми командами, которые могут взаимодействовать с трехмерными объектами, панелью приложений, меню "Пуск" и Кортане. |
+| [Использование речевого ввода](using-speech-in-wmr.md) | ознакомьтесь с различными голосовыми командами, которые могут взаимодействовать с трехмерными объектами, панелью приложений, меню и Кортана |
 
 > [!NOTE]
-> Если у вас возникают проблемы с любым из перечисленных выше функций, ознакомьтесь **[с вопросами и ответами на вопросы об использовании Windows Mixed Reality](using-wmr-faq.yml)**.
+> если у вас возникают проблемы с любым из перечисленных выше функций, ознакомьтесь **[с Windows Mixed Reality часто задаваемыми](using-wmr-faq.yml)**.
 
 ## <a name="4-discover-apps-and-content"></a>4. Обнаружение приложений и содержимого
 
@@ -76,11 +76,11 @@ ms.locfileid: "110600513"
 
 <br>
 
-|  Контрольная точка  |  Компонент  |
+|  Контрольная точка  |  Функция  |
 | --- | --- |
 | [Игры, видео 360 и приложения](using-games-and-apps-in-windows-mixed-reality.md) | Начало работы с первой увлекательной игрой, планшетами для 2D-магазинов, приложениями для настольных компьютеров и Вебвр |
-| [Использование SteamVR](using-steamvr-with-windows-mixed-reality.md) | Подключение устройства и воспроизведение Стеамвр игр и изучение программы предварительной оценки Windows |
-| [Использование Microsoft Edge](using-microsoft-edge.md) | Установите последнюю версию Microsoft ребра на иммерсивное устройство. |
+| [Использование SteamVR](using-steamvr-with-windows-mixed-reality.md) | Подключение устройства, играть в игры стеамвр и изучать программу Windowsной программы предварительной оценки |
+| [Использование Microsoft Edge](using-microsoft-edge.md) | установите последнюю версию Microsoft Edge на иммерсивное устройство. |
 | [Использование Вебвр](webvr.md) | Получение программы установки для работы с VR в среде браузера |
 | [Знакомство с AltspaceVR](/windows/mixed-reality/altspace-vr/journey) | Изучите расширение мира событий VR с помощью Алтспацевр |
 
@@ -95,7 +95,7 @@ ms.locfileid: "110600513"
 Мы всегда lookoutся на наличие новых проблем и ошибок, поэтому, если вы будете работать с недокументированными, отправьте нам [отзыв](filing-feedback.md).
 
 > [!NOTE]
-> Полный журнал выпусков Windows Mixed Reality доступен [здесь](mixed-reality-software.md).
+> полный журнал выпусков Windows Mixed Reality доступен [здесь](mixed-reality-software.md).
 
 > [!div class="nextstepaction"]
 > [Минимальные рекомендации по оборудованию ПК](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md)

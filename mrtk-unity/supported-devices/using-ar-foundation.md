@@ -1,24 +1,24 @@
 ---
-title: Создание и развертывание в Android и iOS с помощью AR Foundation
+title: Развертывание в Android и iOS (AR Foundation) [экспериментальная версия]
 description: Документация по настройке МРТК для Android и iOS (Арфаундатион) в Unity
 author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
-keywords: Unity, HoloLens, HoloLens 2, Mixed Reality, разработка, МРТК, AR Core, AR Kit, iOS, IOS, Android, AR Foundation
-ms.openlocfilehash: 352afbbc11c7cc6fcd2557395c5dd36d956f396d
-ms.sourcegitcommit: 86fafb3a7ac6a5f60340ae5041619e488223f4f0
+keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, ar Core, ar Kit, ios, ios, Android, ar Foundation
+ms.openlocfilehash: d127b9b39cbaa90f0c8c5a8a6ac7955f33404cbf
+ms.sourcegitcommit: 912fa204ef79e9b973eab9b862846ba5ed5cd69f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "112449743"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "114281948"
 ---
-# <a name="building-and-deploying-to-android-and-ios-via-ar-foundation-experimental"></a>Создание и развертывание в Android и iOS с помощью AR Foundation [экспериментальная версия]
+# <a name="deploying-to-android-and-ios-ar-foundation-experimental"></a>Развертывание в Android и iOS (AR Foundation) [экспериментальная версия]
 
 ## <a name="install-required-packages"></a>Установка необходимых пакетов
 
-1. Скачайте и импортируйте пакет **Microsoft. микседреалити. Toolkit. Unity. Foundation** из [GitHub](https://github.com/microsoft/MixedRealityToolkit-Unity/releases/) или [диспетчера пакетов Unity](../configuration/usingupm.md) .
+1. скачайте и импортируйте файл **Microsoft. микседреалити. набор средств. пакет unity. Foundation** из [GitHub](https://github.com/microsoft/MixedRealityToolkit-Unity/releases/) или [Unity диспетчер пакетов](../configuration/usingupm.md)
 
-1. В диспетчере пакетов Unity (УПМ) установите следующие пакеты:
+1. в диспетчер пакетов Unity (упм) установите следующие пакеты:
 
     **Unity 2018.4.x**
 
@@ -41,7 +41,7 @@ ms.locfileid: "112449743"
     | AR Foundation  <br/> Версия: 3.1.3 |  AR Foundation  <br/> Версия: 4.0.12 |
     | Подключаемый модуль Аркоре XR <br/> Версия: 3.1.4 | Подключаемый модуль ARKit XR <br/> Версия: 4.1.7 |
 
-1. Обновление скриптов МРТК Унитяр определяется путем вызова пункта меню: " **Смешанная реальность > набор средств > служебные программы > унитяр > обновление сценариев** "
+1. обновление скриптов мртк унитяр определяется путем вызова пункта меню: **Mixed Reality > набор средств > служебные программы > унитяр > определения сценариев обновления**
 
     ![Обновление определений скриптов](../features/images/UpdateScriptingDefineUnityAR.png)
 
@@ -62,15 +62,15 @@ ms.locfileid: "112449743"
 
     ![Клонировать профиль камеры МРТК](../features/images/camera-system/CloneCameraProfileARFoundation.png)
 
-1. Перейдите на панель инспектора к разделу система камеры и разверните раздел **поставщики параметров камеры** .
+1. перейдите на панель инспектора к разделу система камеры и разверните раздел **поставщики Параметры камеры** .
 
     ![Разверните узел Параметры поставщики.](../features/images/camera-system/ExpandProviders.png)
 
-1. Нажмите кнопку **Добавить поставщик параметров камеры** и разверните добавленную **новую запись параметров камеры** .
+1. щелкните **добавить камера Параметры поставщик** и разверните добавленную **новую запись параметров камеры** .
 
     ![Развернуть поставщик новых параметров](../features/images/camera-system/ExpandNewProvider.png)
 
-1. Выбор поставщика параметров для камеры Unity AR
+1. выбор поставщика Параметры Unity AR Camera
 
     ![Выбор поставщика параметров Unity AR](../features/images/camera-system/SelectUnityArSettings.png)
 
@@ -83,9 +83,9 @@ ms.locfileid: "112449743"
 
 ## <a name="building-a-scene-for-android-and-ios-devices"></a>Создание сцены для устройств Android и iOS
 
-1. Убедитесь, что в сцену добавлен поставщик параметров камеры Унитяр.
+1. убедитесь, что в сцену добавлен поставщик Параметры камеры унитяр.
 
-1. Переключение платформы на Android или iOS в параметрах сборки Unity
+1. переключение платформы на Android или iOS в сборке Unity Параметры
 
 1. Убедитесь, что связанный поставщик управления подключаемым модулем XR включен.
 

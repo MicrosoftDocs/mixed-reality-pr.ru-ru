@@ -1,20 +1,20 @@
 ---
-title: Центр примеров
+title: Центр с примерами MRTK
 description: Обзор примера сцен в МРТК
 author: polar-kev
 ms.author: kesemple
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 212fc6e1489a22995241368a9bf4db96d206c44a
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: b7a55e46b2c283b5a75395b9e99874af6020a171
+ms.sourcegitcommit: 912fa204ef79e9b973eab9b862846ba5ed5cd69f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110144750"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "114282007"
 ---
-# <a name="mrtk-examples-hub"></a>Центр примеров МРТК
+# <a name="mrtk-examples-hub"></a>Центр с примерами MRTK
 
-![Центр примеров МРТК](../images/examples-hub/MRTK_ExamplesHub.png)
+![Центр с примерами MRTK](../images/examples-hub/MRTK_ExamplesHub.png)
 
 Центр примеров МРТК — это сцена Unity, которая упрощает работу в нескольких сценах. Для загрузки & выгрузки сцены используется система сцены МРТК.
 
@@ -22,7 +22,7 @@ ms.locfileid: "110144750"
 
 ## <a name="prerequisite"></a>Предварительное требование
 
-В центре примеров МРТК используется [Служба переходов сцены](../extensions/scene-transition-service.md) и связанные сценарии. Если вы используете МРТК через пакеты Unity, импортируйте **Microsoft. микседреалити. Toolkit. Unity. Extensions. x. x. x. пакет unitypackage** , который входит в состав [пакетов выпуска](https://github.com/microsoft/MixedRealityToolkit-Unity/releases). Если вы используете МРТК через клон репозитория, в проекте уже должна быть папка **мртк/Extensions** .
+В центре примеров МРТК используется [Служба переходов сцены](../extensions/scene-transition-service.md) и связанные сценарии. если вы используете мртк через пакеты Unity, импортируйте **Microsoft. микседреалити. набор средств. Unity. Extensions. x. x. x. пакет unitypackage** , который является частью [пакетов выпуска](https://github.com/microsoft/MixedRealityToolkit-Unity/releases). Если вы используете МРТК через клон репозитория, в проекте уже должна быть папка **мртк/Extensions** .
 
 ## <a name="mrtkexampleshub-scene-and-the-scene-system"></a>Мрткексамплешуб сцены и система сцен
 
@@ -41,7 +41,7 @@ ms.locfileid: "110144750"
 
 ## <a name="running-the-scene"></a>Запуск сцены
 
-Сцена работает как в игровом режиме Unity, так и на устройстве. Запустите сцену **мрткексамплешуб** в редакторе Unity и используйте имитацию ввода мртк для взаимодействия с содержимым сцены. Для сборки и развертывания просто создайте **мрткексамплешуб** сцену с другими сценами, которые включены в список системы сцены. Инспектор также упрощает добавление сцен в параметры сборки. В параметрах здания убедитесь, что **мрткексамплешуб** сцена находится в верхней части списка с индексом 0.
+Сцена работает как в игровом режиме Unity, так и на устройстве. Запустите сцену **мрткексамплешуб** в редакторе Unity и используйте имитацию ввода мртк для взаимодействия с содержимым сцены. Для сборки и развертывания просто создайте **мрткексамплешуб** сцену с другими сценами, которые включены в список системы сцены. инспектор также упрощает добавление сцен в Параметры сборки. в Параметры сборки убедитесь, что сцена **мрткексамплешуб** находится в верхней части списка с индексом 0.
 
 <img src="../images/examples-hub/MRTK_ExamplesHub_BuildSettings.png" width="450" alt="Build settings">
 

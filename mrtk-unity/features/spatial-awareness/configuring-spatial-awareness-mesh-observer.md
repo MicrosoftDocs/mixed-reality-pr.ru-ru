@@ -1,20 +1,20 @@
 ---
-title: Настройка наблюдателя сетки отслеживания пространственного положения
+title: Настройка наблюдателей сетки для устройства
 description: Настройка наблюдателя для встроенной пространственной сетки в МРТК
 author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 0d71a32d76624698e78b8123f427ddefc08f3d0b
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: aba49e88d4fc555a88fe42e4b09858f1d2453ddc
+ms.sourcegitcommit: 912fa204ef79e9b973eab9b862846ba5ed5cd69f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110144966"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "114281932"
 ---
 # <a name="configuring-mesh-observers-for-device"></a>Настройка наблюдателей сетки для устройства
 
-В этом руководстве рассматривается настройка встроенного наблюдателя пространственной сетки в МРТК, который поддерживает платформу Windows Mixed Reality (например, HoloLens). Реализация по умолчанию, предоставляемая набором средств Mixed Reality, является классом [виндовсмикседреалитиспатиалмешобсервер](xref:Microsoft.MixedReality.Toolkit.WindowsMixedReality.SpatialAwareness.WindowsMixedRealitySpatialMeshObserver) . Многие свойства в этой статье применимы для других [пользовательских реализаций наблюдателя](create-data-provider.md).
+в этом руководстве рассматривается настройка встроенного наблюдателя пространственной сетки в мртк, поддерживающего Windows Mixed Realityную платформу (например, HoloLens). реализацией по умолчанию, предоставляемой в набор средств смешанной реальности, является класс [виндовсмикседреалитиспатиалмешобсервер](xref:Microsoft.MixedReality.Toolkit.WindowsMixedReality.SpatialAwareness.WindowsMixedRealitySpatialMeshObserver) . Многие свойства в этой статье применимы для других [пользовательских реализаций наблюдателя](create-data-provider.md).
 
 ## <a name="profile-settings"></a>Параметры профиля
 
@@ -26,11 +26,11 @@ ms.locfileid: "110144966"
 > [!NOTE]
 > Все наблюдатели должны расширять интерфейс [имикседреалитиспатиалаваренессобсервер](xref:Microsoft.MixedReality.Toolkit.SpatialAwareness.IMixedRealitySpatialAwarenessObserver) .
 
-![Общие параметры наблюдателя сети. типы платформ](../images/spatial-awareness/SpatialAwarenessMeshObserverProfile_TypesPlatforms.png)
+![общие типы Параметры платформы наблюдателя сети](../images/spatial-awareness/SpatialAwarenessMeshObserverProfile_TypesPlatforms.png)
 
 ### <a name="general-settings"></a>Общие параметры
 
-![Общие параметры наблюдателя Женрал параметры](../images/spatial-awareness/MeshObserverGeneralSettings.png)
+![общие параметры Параметры женрал для наблюдателя сетки](../images/spatial-awareness/MeshObserverGeneralSettings.png)
 
 **Поведение при запуске**
 
@@ -65,14 +65,14 @@ ms.locfileid: "110144966"
 
 ### <a name="physics-settings"></a>Параметры физикы
 
-![Параметры Физикы для наблюдателя сетки](../images/spatial-awareness/MeshObserverPhysicsSettings.png)
+![физика Параметры наблюдателя сетки](../images/spatial-awareness/MeshObserverPhysicsSettings.png)
 
 **Физический слой**
 
 Уровень физических объектов, на котором будут размещаться объекты пространственной сетки, чтобы взаимодействовать с системами Unity физика и Райкаст.
 
 > [!NOTE]
-> Набор средств Mixed Reality по умолчанию резервирует *уровень 31* для использования наблюдателями по пространственной осведомленности.
+> смешанная реальность набор средств резервирует *уровень 31* по умолчанию для использования наблюдателями с поддержкой пространственного отслеживания.
 
 **Пересчитать нормали**
 
@@ -80,7 +80,7 @@ ms.locfileid: "110144966"
 
 ### <a name="level-of-detail-settings"></a>Уровень подробных параметров
 
-![Подробные параметры уровня наблюдателя сети](../images/spatial-awareness/MeshObserverLevelOfDetailSettings.png)
+![детализация уровня наблюдателя сети Параметры](../images/spatial-awareness/MeshObserverLevelOfDetailSettings.png)
 
 **Уровень детализации**
 
@@ -103,7 +103,7 @@ ms.locfileid: "110144966"
 
 ### <a name="display-settings"></a>Параметры отображения
 
-![Параметры экрана наблюдателя сетки](../images/spatial-awareness/MeshObserverDisplaySettings.png)
+![отображение Параметры наблюдателя сетки](../images/spatial-awareness/MeshObserverDisplaySettings.png)
 
 **Параметр "Показать"**
 
