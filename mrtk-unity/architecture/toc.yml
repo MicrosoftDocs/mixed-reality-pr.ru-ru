@@ -1,4 +1,4 @@
-- name: Обзор
+- name: Обзор архитектуры
   href: overview.md
 - name: Платформа и среда выполнения
   href: framework-and-runtime.md
