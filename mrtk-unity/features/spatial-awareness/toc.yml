@@ -1,6 +1,6 @@
 - name: Начало работы с отслеживанием пространственного положения
   href: spatial-awareness-getting-started.md
-- name: Обозреватель сетки отслеживания пространственного положения
+- name: Настройка наблюдателей сетки для устройства
   href: configuring-spatial-awareness-mesh-observer.md
 - name: Наблюдатель сетки пространственных объектов
   href: spatial-object-mesh-observer.md
@@ -8,5 +8,5 @@
   href: scene-understanding.md
 - name: Рекомендации по использованию
   href: usage-guide.md
-- name: Создание поставщика данных
+- name: Создание поставщика данных отслеживания пространственного положения
   href: create-data-provider.md

@@ -1,4 +1,4 @@
-- name: Обновление с HTK
+- name: Обновление с HoloToolkit
   href: htk-to-mrtk-porting-guide.md
 - name: MRTK и удаление управляемого кода
   href: mrtk-and-managed-code-stripping.md

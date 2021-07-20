@@ -1,4 +1,4 @@
-- name: Настройка диагностики
+- name: Настройка системы диагностики
   href: configuring-diagnostics.md
 - name: Обзор системы диагностики
   href: diagnostics-system-getting-started.md

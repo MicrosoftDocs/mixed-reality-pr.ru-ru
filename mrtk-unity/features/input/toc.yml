@@ -1,6 +1,6 @@
 - name: Контроллеры
   href: controllers.md
-- name: Создание поставщика данных
+- name: Создание поставщика входных системных данных
   href: create-data-provider.md
 - name: Диктовка
   href: dictation.md
