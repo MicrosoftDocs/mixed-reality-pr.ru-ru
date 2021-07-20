@@ -1,6 +1,6 @@
 - name: Авторы
   href: authors.md
-- name: Общие сведения об участии в разработке
+- name: Участие в разработке MRTK
   href: contributing.md
 - name: Рекомендации по программированию
   href: coding-guidelines.md

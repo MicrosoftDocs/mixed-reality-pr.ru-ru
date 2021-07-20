@@ -1,8 +1,8 @@
-- name: Развертывание на HoloLens и в WMR
+- name: Развертывание на HoloLens и гарнитурах смешанной реальности Windows
   href: wmr-mrtk.md
 - name: Развертывание в Oculus Quest
   href: oculus-quest-mrtk.md
-- name: Развертывание в Android и iOS (AR Foundation)
+- name: 'Развертывание в Android и iOS (AR Foundation) [экспериментальная возможность]'
   href: using-ar-foundation.md
 - name: Использование Leap Motion
   href: leap-motion-mrtk.md

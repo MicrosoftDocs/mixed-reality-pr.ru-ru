@@ -1,6 +1,6 @@
 - name: Добро пожаловать в MRTK
   href: index.md
-- name: Попробуйте центр примеров
+- name: Опробуйте Центр примеров MRTK
   href: running-examples-hub.md
 - name: Примеры сцен
   href: running-example-scenes.md

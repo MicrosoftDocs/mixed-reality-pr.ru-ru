@@ -1,6 +1,6 @@
 - name: Обзор системы поддержки камер
   href: camera-system-overview.md
-- name: Создание поставщика параметров
+- name: Создание поставщика параметров камеры
   href: create-settings-provider.md
 - name: Параметры камеры дополненной реальности Unity
   href: unity-ar-camera-settings.md
