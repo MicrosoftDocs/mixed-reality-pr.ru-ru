@@ -7,16 +7,16 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, HoloLens 2, служба Azure Bot, LUIS, естественный язык, чат-бот, облачные службы Azure, Пользовательское визуальное распознавание Azure, Windows 10
 ms.localizationpriority: high
-ms.openlocfilehash: 66737f798ef87e756cf1935b12a368bbd22a3423
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: bade124dff639e6f30fb67039debfddef54a22db
+ms.sourcegitcommit: 114c304a416bfe9d9b294c4adbb4c23cbe60ea4e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "99590586"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "114224528"
 ---
 # <a name="5-integrating-azure-bot-service"></a>5. Интеграция Службы Azure Bot
 
-Из этого учебника вы узнаете, как использовать **Службу Azure Bot** в демонстрационном приложении **HoloLens 2**, чтобы добавить возможность распознавания речи (LUIS) и разрешить боту помогать пользователю во время поиска **отслеживаемых объектов**. Этот учебник состоит из двух частей. В первой части вы создадите бота с помощью приложения [Bot Composer](https://docs.microsoft.com/composer/introduction) в качестве решения без кода и выполните краткий обзор Функции Azure, которая предоставляет боту необходимые данные. Во второй части вы будете использовать компонент **BotManager (script)** (Диспетчер ботов — скрипт) в проекте Unity для использования размещенной Службы Bot.
+Из этого учебника вы узнаете, как использовать **Службу Azure Bot** в демонстрационном приложении **HoloLens 2**, чтобы добавить возможность распознавания речи (LUIS) и разрешить боту помогать пользователю во время поиска **отслеживаемых объектов**. Этот учебник состоит из двух частей. В первой части вы создадите бота с помощью приложения [Bot Composer](/composer/introduction) в качестве решения без кода и выполните краткий обзор Функции Azure, которая предоставляет боту необходимые данные. Во второй части вы будете использовать компонент **BotManager (script)** (Диспетчер ботов — скрипт) в проекте Unity для использования размещенной Службы Bot.
 
 ## <a name="objectives"></a>Задачи
 
@@ -33,9 +33,9 @@ ms.locfileid: "99590586"
 
 ## <a name="understanding-azure-bot-service"></a>Общие сведения о Службе Azure Bot
 
-**Служба Azure Bot** позволяет разработчикам создавать интеллектуальных ботов, которые могут поддерживать естественное общение с пользователями благодаря **LUIS**. Чат-бот — это отличный способ расширить возможности взаимодействия пользователя с приложением. Бот можно использовать в качестве базы знаний с помощью [QnA Maker](https://docs.microsoft.com/azure/bot-service/bot-builder-howto-qna?view=azure-bot-service-4.0&tabs=cs&preserve-view=true) для поддержания сложного разговора с использованием службы [распознавания речи (LUIS)](https://docs.microsoft.com/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0&tabs=csharp&preserve-view=true).
+**Служба Azure Bot** позволяет разработчикам создавать интеллектуальных ботов, которые могут поддерживать естественное общение с пользователями благодаря **LUIS**. Чат-бот — это отличный способ расширить возможности взаимодействия пользователя с приложением. Бот можно использовать в качестве базы знаний с помощью [QnA Maker](/azure/bot-service/bot-builder-howto-qna?preserve-view=true&tabs=cs&view=azure-bot-service-4.0) для поддержания сложного разговора с использованием службы [распознавания речи (LUIS)](/azure/bot-service/bot-builder-howto-v4-luis?preserve-view=true&tabs=csharp&view=azure-bot-service-4.0).
 
-Дополнительные сведения о [Службе Azure Bot](https://docs.microsoft.com/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0&preserve-view=true)
+Дополнительные сведения о [Службе Azure Bot](/azure/bot-service/bot-service-overview-introduction?preserve-view=true&view=azure-bot-service-4.0)
 
 ## <a name="part-1---creating-the-bot"></a>Часть 1. Создание бота
 
@@ -50,50 +50,57 @@ ms.locfileid: "99590586"
 
 Эта функция Azure может выполнять действия **подсчета** и **поиска**, которые можно вызвать с помощью базовых вызовов *HTTP* *GET*. Код можно проверить в **Visual Studio**.
 
-Дополнительные сведения о [функциях Azure](https://docs.microsoft.com/azure/azure-functions/functions-overview).
+Дополнительные сведения о [функциях Azure](/azure/azure-functions/functions-overview).
 
 Функция **Count** запрашивает из **хранилища таблиц** все **отслеживаемые объекты**. С другой стороны, функция **Find** принимает параметр запроса *имени* из запроса *GET* и запрашивает **хранилище таблиц** для сопоставления **отслеживаемых объектов** и возвращает DTO в виде JSON.
 
-Чтобы развернуть эту **Функцию Azure** непосредственно из **Visual Studio**, перейдите в скачанную папку AzureFunction_TrackedObjectsService и откройте размещенный в ней файл **.sln** в разделе ![Bot Framework Composer — домашняя страница](images/mr-learning-azure/tutorial5-section3-step1-1.png) в Visual Studio.
+Чтобы развернуть эту **Функцию Azure** непосредственно из **Visual Studio**, перейдите к скачанной папке AzureFunction_TrackedObjectsService и откройте размещенный в ней файл **.sln** в Visual Studio. ![Папка AzureFunction_TrackedObjectsService](images/mr-learning-azure/tutorial5-section3-step1-1.png)
 
-Когда завершится отправка файла в Visual Studio, щелкните **Служба отслеживаемого объекта** в обозревателе решений и выберите "Опубликовать" в разделе ![Bot Framework Composer — домашняя страница](images/mr-learning-azure/tutorial5-section3-step1-2.png).
+Когда завершится отправка файла в Visual Studio, щелкните раздел **Служба отслеживаемого объекта** в обозревателе решений и выберите элемент "Опубликовать". ![Элемент "Опубликовать" в разделе "Служба отслеживаемого объекта"](images/mr-learning-azure/tutorial5-section3-step1-2.png)
 
 Появится всплывающее окно публикации, в котором вы можете выбрать целевую платформу. Выберите здесь "Azure" и щелкните **Далее**.
 
-![Bot Framework Composer — домашняя страница](images/mr-learning-azure/tutorial5-section3-step1-3.png)
+![Выбор целевой платформы](images/mr-learning-azure/tutorial5-section3-step1-3.png)
 
 В качестве целевого объекта выберите **Приложение-функция Azure (Windows)** и щелкните **Далее**.
 
-![Bot Framework Composer — домашняя страница](images/mr-learning-azure/tutorial5-section3-step1-4.png)
+![Выбор целевого узла](images/mr-learning-azure/tutorial5-section3-step1-4.png)
 
 Если вы еще не вошли в Azure, выполните вход с помощью Visual Studio, чтобы открыть следующее окно:
 
-![Bot Framework Composer — домашняя страница](images/mr-learning-azure/tutorial5-section3-step1-5.png)
+![Выбор или создание функции Azure](images/mr-learning-azure/tutorial5-section3-step1-5.png)
 
 Нажмите мигающую кнопку, чтобы создать новое приложение-функцию в учетной записи Azure.
 
-![Bot Framework Composer — домашняя страница](images/mr-learning-azure/tutorial5-section3-step1-6.png)
+![Создание приложения-функции](images/mr-learning-azure/tutorial5-section3-step1-6.png)
 
 * В поле **Имя** введите имя службы, например *TrackedObjectsService*.
 * В поле **Тип плана** выберите план потребления.
 * В поле **Расположение** выберите расположение, ближайшее к физическому расположению пользователей приложения, например *(США) Западная часть США*.
 * В полях **Группа ресурсов** и **Хранилище** выберите группу ресурсов и учетную запись хранения Azure, которые вы создали ранее.
 
-Когда завершится создание приложение-функции, нажмите кнопку **Завершить**. 
+Когда завершится создание приложение-функции, нажмите кнопку **Завершить**.
 
-![Bot Framework Composer — домашняя страница](images/mr-learning-azure/tutorial5-section3-step1-7.png)
+![Завершение создания приложения-функции](images/mr-learning-azure/tutorial5-section3-step1-7.png)
 
-Когда процесс завершится, откроется всплывающее окно публикации. Нажмите здесь кнопку **Опубликовать**, чтобы опубликовать функцию, и дождитесь завершения публикации.
+Чтобы обновить строку подключения, щелкните **три точки** на вкладке **Размещение** и выберите элемент **Изменить параметры Службы приложений Azure**.
 
-![Bot Framework Composer — домашняя страница](images/mr-learning-azure/tutorial5-section3-step1-8.png)
+![Открытие параметров приложений](images/mr-learning-azure/tutorial5-section3-step1-8.png)
+
+Откроется окно **Параметры приложений**. Замените AzureStorageConnectionString как для параметра **Локально**, так и для параметра **Удаленно** собственным значением AzureStorageConnectionString. После замены однократно нажмите кнопку ОК.
+
+![Обновление строки подключения](images/mr-learning-azure/tutorial5-section3-step1-8a.png)
+
+Теперь нажмите кнопку **Опубликовать**, чтобы опубликовать функцию и дождитесь публикации.
 
 После завершения публикации щелкните **Управление на портале Azure** в разделе "Действия". Откроется страница функции на портале Azure, где вам нужно щелкнуть элемент **Конфигурация** в разделе *Параметры*. На вкладке **Параметры приложения** необходимо предоставить *строку подключения* для **хранилища Azure**, где хранятся **отслеживаемые объекты**. Щелкните элемент **Новый параметр приложения** и в качестве имени введите: **AzureStorageConnectionString**, а в качестве значения предоставьте правильную *строку подключения*. После этого нажмите на кнопку **Сохранить**, и **Функция Azure** будет готова к размещению *бота* на сервере, который вы создадите далее.
 
-Чтобы получить URL-адреса функций Count и Find, выберите **Функции** в разделе *Функции*. Здесь вы найдете обе функции: Count и Find. Выберите функцию Count, и вверху найдите кнопку *Получить URL-адрес функции*. Выполните ту же процедуру, чтобы получить URL-адрес функции Find.
+Чтобы получить URL-адреса функций Count и Find, выберите **Функции** в разделе *Функции*. Здесь вы найдете обе функции: Count и Find. Выберите функцию Count, и вверху найдите кнопку *Получить URL-адрес функции*.
+Выполните ту же процедуру, чтобы получить URL-адрес функции Find.
 
 ### <a name="creating-a-conversation-bot"></a>Создание чат-бота
 
-Есть несколько способов разрабатывать чат-боты на платформе Bot Framework. На этом уроке вы будете использовать классическое приложение [Bot Framework Composer](https://docs.microsoft.com/composer/), которое является визуальным конструктором и идеально подходит для быстрой разработки.
+Есть несколько способов разрабатывать чат-боты на платформе Bot Framework. На этом уроке вы будете использовать классическое приложение [Bot Framework Composer](/composer/), которое является визуальным конструктором и идеально подходит для быстрой разработки.
 
 Последние выпуски можно скачать из [репозитория GitHub](https://github.com/microsoft/BotFramework-Composer/releases). Он доступен для Windows, Mac и Linux.
 
@@ -109,7 +116,7 @@ ms.locfileid: "99590586"
 
 Обратите внимание на **панель диалогов** в левой части страницы. Здесь расположено диалоговое окно **TrackedObjectsBot**, в котором можно увидеть несколько **триггеров**.
 
-Дополнительные сведения об [основных понятиях Bot Framework](https://docs.microsoft.com/composer/concept-dialog).
+Дополнительные сведения об [основных понятиях Bot Framework](/composer/concept-dialog).
 
 Эти триггеры выполняют следующие действия:
 
@@ -129,7 +136,7 @@ ms.locfileid: "99590586"
 
 ![Диалоговое окно проекта TrackedObjectsBot — AskForCount](images/mr-learning-azure/tutorial5-section4-step1-4.png)
 
-Благодаря [LUIS](https://docs.microsoft.com/composer/how-to-use-luis) *пользователю* не нужно запрашивать фразы естественным для *пользователя* способом.
+Благодаря [LUIS](/composer/how-to-use-luis) *пользователю* не нужно запрашивать фразы естественным для *пользователя* способом.
 
 В этом диалоговом окне *бот* также будет обращаться к Функции Azure **Count**. Дополнительные сведения об этом см. ниже.
 
@@ -162,7 +169,7 @@ ms.locfileid: "99590586"
 
 Теперь все готово к развертыванию бота. Так как у вас установлена программа Bot Framework Composer, его можно опубликовать непосредственно из нее.
 
-Дополнительные сведения о [публикации бота с помощью программы Bot Composer](https://docs.microsoft.com/composer/how-to-publish-bot).
+Дополнительные сведения о [публикации бота с помощью программы Bot Composer](/composer/how-to-publish-bot).
 
 > [!TIP]
 > Вы можете поэкспериментировать с ботом, добавив дополнительные триггерные фразы, новые ответы или ветвление диалога.

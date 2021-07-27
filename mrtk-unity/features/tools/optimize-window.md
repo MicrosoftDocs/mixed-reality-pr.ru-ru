@@ -5,16 +5,19 @@ author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: f9f8ad638b8f7cb1007c923f6b568dffc4340360
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 8b8928e9c723ffa9fd08d22866b8ee5748e38ace
+ms.sourcegitcommit: 78746bef0e1ffe1480e89fed8cd30f6f8b389e8d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113177561"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "114713574"
 ---
 # <a name="optimize-window"></a>Окно оптимизации
 
 Окно Оптимизация МРТК — это служебная программа, которая помогает автоматизировать и информировать процесс настройки проекта смешанной реальности для лучшей [производительности](../../performance/perf-getting-started.md) в Unity. Обычно это средство нацелено на конфигурации подготовки к просмотру, которые при задании правильной предустановки могут сэкономить миллисекунды обработки.
+
+> [!NOTE]
+> **Окно оптимизировать** можно открыть, перейдя в окно Оптимизация служебных программ **смешанной реальности**  >    >   из меню верхнего уровня в редакторе Unity.
 
 *Активный целевой объект сборки* — это [платформа сборки, которая в настоящее время является целевой](https://docs.unity3d.com/Manual/BuildSettings.html) для проекта для компиляции.
 
@@ -87,4 +90,4 @@ ms.locfileid: "113177561"
 ## <a name="see-also"></a>См. также статью
 
 - [Производительность](../../performance/perf-getting-started.md)
-- [Стабилизация голограмм](../../performance/hologram-stabilization.md)
+- [Голограмма стабилизации](../../performance/hologram-stabilization.md)

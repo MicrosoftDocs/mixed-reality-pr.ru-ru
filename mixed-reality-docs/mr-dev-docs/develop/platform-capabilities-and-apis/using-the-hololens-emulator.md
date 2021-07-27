@@ -7,12 +7,12 @@ ms.date: 05/11/2021
 ms.topic: article
 ms.localizationpriority: high
 keywords: HoloLens, emulator
-ms.openlocfilehash: db6d2675f4ca4ab1c85ef2581ebe35de53ceebfd
-ms.sourcegitcommit: 943489923c69c3a28bc152f1cb516dcdcea2880a
+ms.openlocfilehash: a9ecb121652dde39be0f91a24a4d57856a874071
+ms.sourcegitcommit: eb39526f9620f0459bd30e4484307892f4609334
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111772357"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "114201635"
 ---
 # <a name="using-the-hololens-emulator"></a>Использование эмулятора HoloLens
 
@@ -28,7 +28,7 @@ ms.locfileid: "111772357"
 Скачайте эмулятор HoloLens.
 
 Доступные версии:
-* [Эмулятор HoloLens 2 (Windows Holographic, версия 21H1 с обновлением за июнь 2021 г.)](https://go.microsoft.com/fwlink/?linkid=2165258).
+* [Эмулятор HoloLens 2 (Windows Holographic, версия 21H1 с обновлением за июль 2021 г.)](https://go.microsoft.com/fwlink/?linkid=2167725).
 * [Эмулятор HoloLens (1-го поколения) и шаблоны голографических проектов](https://go.microsoft.com/fwlink/?linkid=2065980).
 
 Более ранние сборки эмулятора HoloLens и заметки о выпусках можно найти на странице [архива эмулятора HoloLens](hololens-emulator-archive.md).

@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: Azure, смешанная реальность, Unity, учебник, Hololens, Hololens 2, хранилище BLOB-объектов Azure, табличное хранилище Azure, Пространственные привязки Azure, Azure Bot Framework, облачные службы Azure, Пользовательское визуальное распознавание Azure, Windows 10
 ms.localizationpriority: high
-ms.openlocfilehash: c38f3102adfb5178a4d2b5429eeb24c0733db50a
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 3c52384b118a72b1c2f2dfaa2205e4f890e2e5a7
+ms.sourcegitcommit: 114c304a416bfe9d9b294c4adbb4c23cbe60ea4e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113175531"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "114224405"
 ---
 # <a name="1-azure-cloud-services-for-hololens-2"></a>1. Облачные службы Azure для HoloLens 2
 
@@ -73,10 +73,10 @@ ms.locfileid: "113175531"
 * Базовые навыки программирования на C#.
 * Устройство HoloLens 2, [настроенное для разработки](../../platform-capabilities-and-apis/using-visual-studio.md#enabling-developer-mode).
 * Подключенная веб-камера, если вы хотите выполнить тестирование из редактора Unity.
-* <a href="https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html" target="_blank">Unity Hub</a> с Unity 2019 LTS и модулем поддержки сборки универсальной платформы Windows
+* <a href="https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html" target="_blank">Unity Hub</a> с Unity 2020/2019 LTS и модулем поддержки сборки универсальной платформы Windows
 
-> [!CAUTION]
-> Рекомендуемая версия Unity для этой серии руководств — Unity 2019 LTS. Это заменяет все требования к версии Unity и рекомендации, указанные выше.
+> [!Important]
+> В этой серии руководств учитывается поддержка Unity 2020 LTS (в настоящее время 2020.3.x), если вы используете Open XR или подключаемый модуль Windows XR, а также Unity 2019 LTS (в настоящее время 2019.4.x), если вы используете устаревшую версию WSA. Это заменяет все требования к версии Unity, указанные выше.
 
 ## <a name="creating-and-preparing-the-unity-project"></a>Создание и подготовка проекта Unity
 
@@ -90,38 +90,13 @@ ms.locfileid: "113175531"
 4. [Импорт набора средств для смешанной реальности (MRTK) и настройка проекта Unity](mr-learning-base-02.md#importing-the-mixed-reality-toolkit-and-configuring-the-unity-project)
 5. [Создание и настройка сцены](mr-learning-base-02.md#creating-the-scene-and-configuring-mrtk) и назначение ей понятного имени, например *AzureCloudServices.*
 
-Затем следуйте инструкциям по [изменению параметра отображения для отслеживания пространственного положения](mr-learning-base-03.md#changing-the-spatial-awareness-display-option), чтобы указать профиль конфигурации MRTK **DefaultXRSDKConfigurationProfile** для сцены и значение **Occlusion** (Загораживание) для параметра отображения сетки отслеживания пространственного положения.
+Затем следуйте инструкциям по [изменению параметра отображения для отслеживания пространственного положения](mr-learning-base-03.md#changing-the-spatial-awareness-display-option), чтобы указать профиль конфигурации MRTK **DefaultHololens2ConfigurationProfile** для сцены и значение **Occlusion** (Загораживание) для параметра отображения сетки отслеживания пространственного положения.
 
-## <a name="installing-inbuilt-unity-packages"></a>Установка встроенных пакетов Unity
+## <a name="installing-inbuilt-unity-packages-and-importing-the-tutorial-assets"></a>Установка встроенных пакетов Unity и импорт учебных ресурсов
 
-В меню Unity выберите **Window** > **Package Manager** (Окно > Диспетчер пакетов), чтобы открыть окно диспетчера пакетов, а затем щелкните **AR Foundation** и нажмите кнопку **Install** (Установить) для установки пакета.
-
-![Окно диспетчера пакетов Unity с выбранным пакетом AR Foundation](images/mr-learning-asa/asa-02-section2-step1-1.png)
-
-> [!NOTE]
-> Пакет AR Foundation необходимо установить, так как он требуется для пакета SDK Пространственных привязок Azure, который вы будете импортировать при работе со следующим разделом.
-
-## <a name="importing-the-tutorial-assets"></a>Импорт активов для руководства
-
-Добавьте пакет SDK AzurespatialAnchors 2.7.1 в свой проект Unity с помощью этого [учебника](/azure/spatial-anchors/how-tos/setup-unity-project?tabs=UPMPackage).
-
-Скачайте и **импортируйте** следующие пользовательские пакеты Unity **в указанном здесь порядке**:
-
-* [AzureStorageForUnity.unitypackage](https://github.com/microsoft/MixedRealityLearning/releases/download/azure-cloud-services-v2.4.0/AzureStorageForUnity.unitypackage)
-* [MRTK.Tutorials.AzureCloudServices.unitypackage](https://github.com/microsoft/MixedRealityLearning/releases/download/azure-cloud-services-v2.4.0/MRTK.Tutorials.AzureCloudServices.unitypackage)
-
-> [!TIP]
-> Сведения о том, как правильно импортировать пользовательский пакет Unity, см. в разделе [Импорт ресурсов для руководства](mr-learning-base-04.md#importing-the-tutorial-assets).
-
-Когда вы завершите импорт активов для руководства, окно проекта должно выглядеть примерно так:
-
-![Unity с окнами Hierarchy (Иерархия), Scene (Сцена) и Project (Проект) после импорта ресурсов для руководства](images/mr-learning-azure/tutorial1-section4-step1-1.png)
-
-> [!NOTE]
-> Если вы видите предупреждение CS0618 об устаревании WorldAnchor.SetNativeSpatialAnchorPtr(IntPtr) и WorldAnchor.GetNativeSpatialAnchorPtr(), такое предупреждение можно игнорировать.
+[!INCLUDE[](includes/installing-packages-for-azure-cloud-services.md)]
 
 ## <a name="creating-and-preparing-the-scene"></a>Создание и подготовка сцены
-<!-- TODO: Consider renaming to 'Preparing the scene' -->
 
 В рамках этого раздела вы подготовите сцену, добавив в нее несколько заготовок для руководства.
 
@@ -129,7 +104,7 @@ ms.locfileid: "113175531"
 
 ![Unity с выбранными заготовками SceneController, RootMenu и DataManager](images/mr-learning-azure/tutorial1-section5-step1-1.png)
 
-**SceneController (prefab)** (SceneController — заготовка) содержит два скрипта: **SceneController (script)** (SceneController — скрипт) и **UnityDispatcher (script)** (UnityDispatcher — скрипт). Компонент скрипта **SceneController** содержит несколько функций взаимодействия с пользователем и упрощает использование функции фотозахвата. **UnityDispatcher** является вспомогательным классом, позволяющим выполнять действия в основном потоке Unity.
+**SceneController (prefab)** (SceneController — заготовка) содержит два скрипта: **SceneController (script)** (SceneController — скрипт) и **AppDispatcher (script)** (AppDispatcher — скрипт). Компонент скрипта **SceneController** содержит несколько функций взаимодействия с пользователем и упрощает использование функции фотозахвата. **AppDispatcher** является вспомогательным классом, позволяющим выполнять действия в основном потоке Unity.
 
 **RootMenu (prefab)** (RootMenu — заготовка) является основной заготовкой пользовательского интерфейса, которая содержит все окна пользовательского интерфейса, подключенные друг к другу через различные небольшие компоненты скрипта и управляющие общим потоком интерфейса приложения.
 
