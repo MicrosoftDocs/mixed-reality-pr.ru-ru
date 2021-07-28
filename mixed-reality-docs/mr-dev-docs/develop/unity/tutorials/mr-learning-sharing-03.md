@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, многопользовательские возможности, Photon, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure
 ms.localizationpriority: high
-ms.openlocfilehash: 976593fd2f107d456da4f04da19621dd253f2ae1
-ms.sourcegitcommit: 943489923c69c3a28bc152f1cb516dcdcea2880a
+ms.openlocfilehash: 207c451ee616ee4065e948ca78c17ad59f7dd190
+ms.sourcegitcommit: cf8df1720ddb8236207ab581bc149edcc76e6199
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111772427"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "114702465"
 ---
 # <a name="3-connecting-multiple-users"></a>3. Подключение нескольких пользователей
 
@@ -39,63 +39,9 @@ ms.locfileid: "111772427"
 
 ![Unity с выбранной добавленной заготовкой DebugWindow](images/mr-learning-sharing/sharing-03-section1-step1-2.png)
 
-## <a name="creating-the-user-prefab"></a>Создание заготовки пользователя
-
-В рамках этого раздела вы создадите заготовку, которая будет использоваться для представления пользователей в общем интерфейсе.
-
-### <a name="1-create-and-configure-the-user"></a>1. Создание и настройка пользователя
-
-Щелкните правой кнопкой мыши пустое место в окне "Иерархия" и выберите **Create Empty** (Создать пустой), чтобы добавить пустой объект в сцену. Присвойте объекту имя **PhotonUser** и настройте его, как описано ниже.
-
-* Убедитесь, что для свойства **Позиция** в области "Преобразование" установлены такие значения: X = 0, Y = 0, Z = 0.
-
-![Unity с выбранным созданным объектом PhotonUser](images/mr-learning-sharing/sharing-03-section2-step1-1.png)
-
-В окне Hierarchy (Иерархия) выберите **PhotonUser**, перейдите в окно Inspector (Инспектор) и нажмите кнопку **Add component** (Добавить компонент), чтобы добавить в объект PhotonUser компонент **Photon User (Script)** (Пользователь Photon — скрипт).
-
-![Unity с добавленным компонентом PhotonUser](images/mr-learning-sharing/sharing-03-section2-step1-2.png)
-
-В окне "Инспектор" нажмите кнопку **Добавить компонент**, чтобы добавить в объект PhotonUser компонент **Generic Net Sync (Script)** (Generic Net Sync — скрипт) и настроить его, как описано ниже.
-
-* Установите флажок **Is User** (Пользователь).
-
-![Unity с добавленным и настроенным компонентом Generic Net Sync](images/mr-learning-sharing/sharing-03-section2-step1-3.png)
-
-В окне "Инспектор" нажмите кнопку **Добавить компонент**, чтобы добавить в объект PhotonUser компонент **Photon View (Script)** (Photon View — скрипт) и настроить его, как описано ниже.
-
-* Убедитесь, что поле **Observed Components** (Наблюдаемые компоненты) назначено с компонентом **Generic Net Sync (Script)** (Generic Net Sync — скрипт).
-
-![Unity с добавленным и настроенным компонентом Photon View](images/mr-learning-sharing/sharing-03-section2-step1-4.png)
-
-### <a name="2-create-the-avatar"></a>2. Создание аватара
-
-В окне Project (Проект) перейдите к папке **Packages** (Пакеты)  >  **Mixed Reality Toolkit Standard Assets** (Стандартные активы набора средств для смешанной реальности)  >  **Materials** (Материалы), чтобы найти материалы, связанные с MRTK.
-
-Затем щелкните правой кнопкой мыши объект **PhotonUser** в окне Hierarchy (Иерархия) и последовательно выберите **3D Object** > **Sphere** (Трехмерный объект > Сфера), чтобы создать сферический объект в качестве дочернего для объекта PhotonUser и настроить его следующим образом:
-
-* Убедитесь, что для свойства **Позиция** в области "Преобразование" установлены такие значения: X = 0, Y = 0, Z = 0.
-* Измените для преобразования свойство **Масштаб** до нормального размера, например X = 0,15, Y = 0,15 и Z = 0,15.
-* Перейдите к полю MeshRenderer > Materials (Материалы) > **Element 0** (Элемент 0) и укажите материал **MRTK_Standard_White**.
-
-![Unity с созданной и настроенной сферой аватара](images/mr-learning-sharing/sharing-03-section2-step2-1.png)
-
-### <a name="3-create-the-prefab"></a>3. Создание заготовки
-
-В окне "Проект" перейдите к папке **Assets** (Активы) > **MRTK.Tutorials.MultiUserCapabilities** > **Resources** (Ресурсы).
-
-![Окно проекта Unity с выбранной папкой Resource](images/mr-learning-sharing/sharing-03-section2-step3-1.png)
-
-Сохраняя выделение папки Resources (Ресурсы), **щелкните и перетащите** объект **PhotonUser** из окна "Иерархия" в папку **Resources** (Ресурсы), чтобы сделать заготовку из объекта PhotonUser.
-
-![Unity с выбранной созданной заготовкой PhotonUser](images/mr-learning-sharing/sharing-03-section2-step3-2.png)
-
-Щелкните правой кнопкой мыши объект **PhotonUser** в окне "Иерархия" и выберите **Удалить**, чтобы удалить его из сцены.
-
-![Unity с созданным объектом заготовки PhotonUser, удаленным из сцены](images/mr-learning-sharing/sharing-03-section2-step3-3.png)
-
 ## <a name="configuring-pun-to-instantiate-the-user-prefab"></a>Настройка PUN для создания заготовки пользователя
 
-В рамках этого раздела вы настроите проект для использования заготовки PhotonUser, созданной в предыдущем разделе.
+В рамках этого раздела вы настроите проект для использования заготовки PhotonUser.
 
 В окне "Проект" перейдите к папке **Assets** (Активы) > **MRTK.Tutorials.MultiUserCapabilities** > **Resources** (Ресурсы).
 

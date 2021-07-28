@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, многопользовательские возможности, Photon, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure
 ms.localizationpriority: high
-ms.openlocfilehash: d4dc943c8ca57331b4916e40db67df3cd3d6d2e6
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: 4be0fc30b6d1b401bf137be4060704f54515ceb1
+ms.sourcegitcommit: cf8df1720ddb8236207ab581bc149edcc76e6199
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "99590066"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "114702477"
 ---
 # <a name="4-sharing-object-movements-with-multiple-users"></a>4. Предоставление общего доступа к сведениям о перемещении объекта нескольким пользователям
 
@@ -27,9 +27,17 @@ ms.locfileid: "99590066"
 
 В рамках этого раздела вы подготовите сцену, добавив в нее заготовку для учебника.
 
+В окне Hierarchy (Иерархия) разверните объект **MixedRealityPlayspace** и выберите дочерний объект **Main Camera** (Главная камера), а затем в окне Inspector (Инспектор) нажмите кнопку **Add Component** (Добавить компонент), чтобы добавить компонент **AR Camera Manager (Script)** (Диспетчер камеры дополненной реальности (скрипт)) к объекту **Main Camera**:
+
+![Unity с частично настроенным компонентом диспетчера камеры дополненной реальности](images/mr-learning-sharing/sharing-04-section1-step1-0.png)
+
 В окне Project (Проект) перейдите к папке **Assets** (Активы) > **MRTK.Tutorials.MultiUserCapabilities** > **Prefabs** (Заготовки) и перетащите заготовку **TableAnchor** на объект **SharedPlayground** в окне Hierarchy (Иерархия), чтобы добавить ее в сцену в качестве дочернего элемента объекта SharedPlayground.
 
 ![Unity с выбранной созданной заготовкой TableAnchor](images/mr-learning-sharing/sharing-04-section1-step1-1.png)
+
+В окне Hierarchy (Иерархия) убедитесь, что объект **MixedRealityPlayspace** развернут, а объект **TableAnchor** выбран. Перетащите компонент **Main Camera** (Главная камера) в поле **Camera** (Камера) компонента **AR Session Origin** (Источник сеанса дополненной реальности) для **TableAnchor**:
+
+![Unity с настроенным назначением главной камеры для источника сеанса дополненной реальности](images/mr-learning-sharing/sharing-04-section1-step1-2.png)
 
 ## <a name="configuring-pun-to-instantiate-the-objects"></a>Настройка PUN для создания объектов
 

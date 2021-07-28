@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, многопользовательские возможности, Photon, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure
 ms.localizationpriority: high
-ms.openlocfilehash: 5b7ad27d41147a57d03f4a1b5a78b92e6e1234d4
-ms.sourcegitcommit: ac315c1d35f2b9c431e79bc3f1212215301bb867
+ms.openlocfilehash: dc8f495bc620eca3539b48f38fa15d089c0e28f4
+ms.sourcegitcommit: cf8df1720ddb8236207ab581bc149edcc76e6199
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105550214"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "114702455"
 ---
 # <a name="1-introduction-to-the-multi-user-capabilities-tutorials"></a>1. Введение в руководства по многопользовательским возможностям
 
@@ -37,23 +37,23 @@ ms.locfileid: "105550214"
 * Компьютер с Windows 10, настроенный с помощью требуемых [установленных инструментов](../../install-the-tools.md).
 * Пакет SDK для Windows 10 версии 10.0.18362.0 и выше.
 * Устройство HoloLens 2, [настроенное для разработки](../../platform-capabilities-and-apis/using-visual-studio.md#enabling-developer-mode).
-* <a href="https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html" target="_blank">Unity Hub</a> с Unity 2019 LTS и модулем поддержки сборки универсальной платформы Windows
+* <a href="https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html" target="_blank">Unity Hub</a> с Unity 2020 LTS и модулем поддержки сборки универсальной платформы Windows.
 * Выполненные инструкции из раздела [Создание ресурса Пространственных привязок](/azure/spatial-anchors/quickstarts/get-started-unity-hololens#create-a-spatial-anchors-resource) статьи [Краткое руководство. Создание приложения Unity HoloLens, которое использует Пространственные привязки Azure](/azure/spatial-anchors/quickstarts/get-started-unity-hololens).
 * Знакомство с серией [руководств по началу работы](mr-learning-base-01.md) или базовый опыт работы с Unity и MRTK.
 * Знакомство с серией [руководств по Пространственным привязкам Azure](mr-learning-asa-01.md) или опыт создания учетной записи Пространственных привязок Azure.
 * Если планируется развертывание на устройствах Android и HoloLens
   * Устройство Android с <a href="https://developer.android.com/studio/debug/dev-options" target="_blank">включенными возможностями разработки</a> и <a href="https://developers.google.com/ar/discover/supported-devices" target="_blank">поддержкой ARCore</a>, подключенное через USB к компьютеру Windows или macOS.
-  * <a href="https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html" target="_blank">Unity Hub</a> с Unity 2019 LTS и модулем Android Build Support.
+  * <a href="https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html" target="_blank">Unity Hub</a> с Unity 2020 LTS и модулем Android Build Support.
 * Если планируется развертывание на устройствах iOS и HoloLens
   * Компьютер macOS с последней версией <a href="https://geo.itunes.apple.com/us/app/xcode/id497799835?mt=12" target="_blank">Xcode</a> и <a href="https://cocoapods.org" target="_blank">CocoaPods</a>.
   * <a href="https://developer.apple.com/documentation/arkit/verifying_device_support_and_user_permission" target="_blank">Совместимое с ARKit</a> устройство iOS, подключенное через USB к компьютеру macOS.
-  * <a href="https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html" target="_blank">Unity Hub</a> с Unity 2019 LTS и модулем iOS Build Support.
+  * <a href="https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html" target="_blank">Unity Hub</a> с Unity 2020 LTS и модулем iOS Build Support.
 
-> [!CAUTION]
-> Для работы с этой серией учебников рекомендуется Mixed Reality Toolkit версии 2.6.
+> [!IMPORTANT]
+> Для работы с этой серией учебников рекомендуется Mixed Reality Toolkit версии 2.7.
 
-> [!CAUTION]
-> Рекомендуемая версия Unity для этой серии учебников — Unity 2019 LTS. Это заменяет все требования к версии Unity, указанные в приведенных выше предварительных требованиях.
+> [!IMPORTANT]
+> Рекомендуемая версия Unity для этой серии учебников — Unity 2020 LTS. Это заменяет все требования к версии Unity, указанные выше.
 
 > [!div class="nextstepaction"]
 > [Следующее руководство: 2. Настройка Photon Unity Networking](mr-learning-sharing-02.md)
