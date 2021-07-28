@@ -7,12 +7,12 @@ ms.date: 05/11/2021
 ms.topic: article
 ms.localizationpriority: high
 keywords: HoloLens, emulator
-ms.openlocfilehash: a9ecb121652dde39be0f91a24a4d57856a874071
-ms.sourcegitcommit: eb39526f9620f0459bd30e4484307892f4609334
+ms.openlocfilehash: 701cffbe576c64333874fc88c3cd6a6b821bc458
+ms.sourcegitcommit: 78746bef0e1ffe1480e89fed8cd30f6f8b389e8d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "114201635"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "114713586"
 ---
 # <a name="using-the-hololens-emulator"></a>Использование эмулятора HoloLens
 
@@ -283,20 +283,6 @@ ms.locfileid: "114201635"
 
 Если система зависает при запуске эмулятора, отключите аппаратное ускорение для графики эмулятора.
 * Создайте значение реестра с типом DWORD и именем DisableGPU в разделе HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\XDE\10.0 и присвойте ему значение 1.
-
-## <a name="next-development-checkpoint"></a>Следующий этап разработки
-
-Если вы следуете изложенным нами этапам разработки для Unity, вы как раз прошли половину. Вы можете перейти к следующей статье:
-
-> [!div class="nextstepaction"]
-> [Развертывание на эмуляторе HoloLens](using-the-hololens-emulator.md)
-
-Или сразу перейдите к добавлению расширенных служб:
-
-> [!div class="nextstepaction"]
-> [Расширенные службы](../../develop/unity/unity-development-overview.md#5-adding-services)
-
-Вы можете в любой момент вернуться к [этапам разработки для Unity](../../develop/unity/unity-development-overview.md#4-deploying-to-a-device-or-emulator).
 
 ## <a name="see-also"></a>См. также статью
 * [Сложный ввод с помощью эмулятора HoloLens и симулятора Windows Mixed Reality](advanced-hololens-emulator-and-mixed-reality-simulator-input.md)
