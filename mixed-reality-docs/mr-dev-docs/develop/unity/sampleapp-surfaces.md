@@ -5,32 +5,37 @@ author: cre8ivepark
 ms.author: dongpark
 ms.date: 06/18/2020
 ms.topic: article
-keywords: Windows Mixed Reality, проектирование, пример приложения, элементы управления, МРТК, набор средств для смешанной реальности, Unity, примеры приложений, примеры приложений, Открытый исходный код, Microsoft Store, HoloLens, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 28f8bc1e1f30573936067a83b1ad26133c23c5b8
-ms.sourcegitcommit: 719682f70a75f732b573442fae8987be1acaaf19
+keywords: Windows Mixed Reality, проектирование, пример приложения, элементы управления, мртк, набор средств смешанной реальности, Unity, примеры приложений, примеры приложений, открытый исходный код, Microsoft Store, HoloLens, гарнитура смешанной реальности, гарнитура Windows Mixed reality, гарнитура виртуальной реальности
+ms.openlocfilehash: a4259148926ec20bca53a23074a6d1ea285f0aa2
+ms.sourcegitcommit: 9831b89a1641ba1b5df14419ee2a4f29d3fa2d64
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "110743392"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "114757010"
 ---
 # <a name="surfaces"></a>Surfaces
+
+![Surfaces](images/MRDL_Surfaces_1.jpg)
 
 >[!NOTE]
 >В этой статье рассматривается исследовательская выборка, созданная в [лабораторных занятиях по смешанной реальности](https://github.com/Microsoft/MRDesignLabs_Unity), где мы предоставляем наши знания и предложения по разработке приложений для смешанной реальности. Наши статьи и код, относящиеся к проектированию, будут развиваться по мере внесения новых обнаружений.
 
 [Surfaces — это](https://github.com/microsoft/MRDL_Unity_Surfaces)  пример приложения с открытым исходным кодом от лабораторных занятий корпорации Майкрософт по проектированию смешанной реальности. Он изучает, как можно создать тактиле неожиданностью с визуальным, звуковым и полноценным отслеживанием вручную.
 
-![Surfaces](images/MRDL_Surfaces_1.jpg)
+## <a name="download-app-from-microsoft-store-in-hololens-2"></a>скачать приложение из Microsoft Store в HoloLens 2
+если у вас HoloLens 2 устройство, вы можете напрямую скачать и установить приложение на устройстве.
+
+<a href='//www.microsoft.com/store/apps/9nvkpv3sk3x0?cid=storebadge&ocid=badge'><img src='https://developer.microsoft.com/store/badges/images/English_get-it-from-MS.png' alt='English badge' width="284px" height="104px" style='width: 284px; height: 104px;'/></a>
 
 ## <a name="demo-video"></a>Демонстрационное видео 
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4IhWQ]
 
-Записано с помощью HoloLens 2 с записью смешанной реальности
+записано с HoloLens 2 с помощью записи смешанной реальности
 
 ## <a name="about-the-app"></a>Сведения о приложении
 
-На поверхностях показано, как использовать систему ввода и стандартные блоки набора средств Mixed Reality Toolkit (МРТК) для создания приложений для HoloLens 2. В этом проекте можно найти примеры:
+на поверхностях показано, как использовать входную систему смешанной реальности набор средств (мртк) и стандартные блоки для создания приложений для HoloLens 2. В этом проекте можно найти примеры:
 
 - Используйте [входную систему](/windows/mixed-reality/mrtk-unity/features/input/overview)мртк, в частности отслеживание вручную или совместно.
 - Используйте [стандартный ШЕЙДЕР](/windows/mixed-reality/mrtk-unity/features/rendering/mrtk-standard-shader) мртк для работы с графикой.
@@ -43,22 +48,17 @@ ms.locfileid: "110743392"
 
 С Симкинс, старший дизайнер, лежащий в основе приложения МРДЛ Surfaces, рассказывает о статье о проектировании и технических возможностях приложения.
 
-## <a name="project-repository-on-github"></a>Репозиторий проекта в GitHub
+## <a name="project-repository-on-github"></a>Project репозиторий на GitHub
 
 [https://github.com/microsoft/MRDL_Unity_Surfaces](https://github.com/microsoft/MRDL_Unity_Surfaces)
 
-## <a name="download-app-from-microsoft-store-in-hololens-2"></a>Скачать приложение из Microsoft Store в HoloLens 2
-
-https://www.microsoft.com/en-us/p/surfaces/9nvkpv3sk3x0#activetab=pivot:overviewtab
-
-(Приложение доступно только в HoloLens 2)
 
 ## <a name="about-the-author"></a>Об авторе
 
 <table style="border-collapse:collapse" padding-left="0px">
 <tr>
 <td style="border-style: none" width="60px"><img alt="Picture of Dong Yoon Park" width="60" height="60" src="images/dongyoonpark.jpg"></td>
-<td style="border-style: none"><b>Дон Юн Парк</b> (Dong Yoon Park)<br>Разработчик средств взаимодействия с пользователем @Microsoft</td>
+<td style="border-style: none"><a href="http://dongyoonpark.com" target="_blank"><b>Йоон парк</b></a><br>Разработчик средств взаимодействия с пользователем @Microsoft</td>
 </tr>
 </table>
 

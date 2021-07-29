@@ -5,12 +5,12 @@ author: polar-kev
 ms.author: kesemple
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: b7a55e46b2c283b5a75395b9e99874af6020a171
-ms.sourcegitcommit: 912fa204ef79e9b973eab9b862846ba5ed5cd69f
+ms.openlocfilehash: 2b7e1234ed79a99e826184e42c319f84582ff23a
+ms.sourcegitcommit: 9831b89a1641ba1b5df14419ee2a4f29d3fa2d64
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "114282007"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "114757060"
 ---
 # <a name="mrtk-examples-hub"></a>Центр с примерами MRTK
 
@@ -19,6 +19,11 @@ ms.locfileid: "114282007"
 Центр примеров МРТК — это сцена Unity, которая упрощает работу в нескольких сценах. Для загрузки & выгрузки сцены используется система сцены МРТК.
 
 **Мрткексамплешуб. Unity** — это сцена контейнера, в которой есть общие компоненты, включая ``MixedRealityToolkit`` и ``MixedRealityPlayspace`` . В сцене **мрткексамплешубмаинмену. Unity** есть кнопки Куба.
+
+## <a name="download-app-from-microsoft-store-in-hololens-2"></a>скачать приложение из Microsoft Store в HoloLens 2
+если у вас HoloLens 2 устройство, вы можете напрямую скачать и установить приложение на устройстве.
+
+<a href='//www.microsoft.com/store/apps/9mv8c39l2sj4?cid=storebadge&ocid=badge'><img src='https://developer.microsoft.com/store/badges/images/English_get-it-from-MS.png' alt='English badge' width="284px" height="104px" style='width: 284px; height: 104px;'/></a>
 
 ## <a name="prerequisite"></a>Предварительное требование
 
