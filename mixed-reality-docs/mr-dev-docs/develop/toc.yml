@@ -222,8 +222,6 @@
       items:
         - name: Фото- и видеокамера в Unity
           href: unity/locatable-camera-in-unity.md
-        - name: Голографическое удаленное взаимодействие в классическом приложении
-          href: unity/holographic-remoting-desktop.md
         - name: точка фокусировки;
           href: unity/focus-point-in-unity.md
         - name: потеря слежения;
@@ -249,7 +247,7 @@
             - name: Surfaces
               href: unity/sampleapp-surfaces.md
             - name: Periodic Table of the Elements 2.0
-              href: 'https://medium.com/@dongyoonpark/bringing-the-periodic-table-of-the-elements-app-to-hololens-2-with-mrtk-v2-a6e3d8362158'
+              href: unity/periodic-table-of-the-elements-2.md
             - name: "Galaxy Explorer\_2.0."
               href: unity/galaxy-explorer-update.md
             - name: Quality Fundamentals
@@ -268,8 +266,8 @@
           href: unity/managed-debugging-with-unity-il2cpp.md
         - name: Рекомендуемые параметры для Unity
           href: unity/recommended-settings-for-unity.md
-        - name: Режим воспроизведения в Unity
-          href: unity/unity-play-mode.md
+        - name: Предварительный просмотр работы с помощью голографического удаленного взаимодействия
+          href: unity/holographic-remoting-in-unity.md
     - name: Решения Visual Studio
       items:
         - name: Экспорт и разработка решения Visual Studio для Unity
@@ -454,6 +452,8 @@
           href: platform-capabilities-and-apis/installing-pix-hololens.md
     - name: Голографическое удаленное взаимодействие
       items:
+        - name: Общие сведения
+          href: platform-capabilities-and-apis/holographic-remoting-overview.md
         - name: Holographic Remoting Player
           href: platform-capabilities-and-apis/holographic-remoting-player.md
         - name: Создание приложения с голографическим удаленным взаимодействием
@@ -475,9 +475,7 @@
         - name: Условия лицензии на использование ПО для голографического удаленного взаимодействия
           href: /legal/mixed-reality/microsoft-holographic-remoting-software-license-terms
         - name: "Голографическое удаленное взаимодействие для HoloLens\_(1-го поколения)"
-          items:
-            - name: Добавление голографического удаленного взаимодействия
-              href: platform-capabilities-and-apis/add-holographic-remoting.md
+          href: platform-capabilities-and-apis/add-holographic-remoting.md
     - name: Проверка качества и тестирование приложений
       items:
         - name: Критерии качества приложения
