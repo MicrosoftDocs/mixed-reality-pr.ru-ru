@@ -7,16 +7,16 @@ ms.date: 03/04/2021
 ms.topic: article
 ms.localizationpriority: high
 keywords: актуальность, инструменты, начало работы, основы, Unity, Visual Studio, набор средств, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, установка, Windows, HoloLens, эмулятор, Unreal, OpenXR
-ms.openlocfilehash: 4e822f2dda2a314ce06bc394a4d92b1aa6953af3
-ms.sourcegitcommit: 943489923c69c3a28bc152f1cb516dcdcea2880a
+ms.openlocfilehash: 1244f9cd4da0d6ae0b5c6f92698f87f0edd812e2
+ms.sourcegitcommit: 9831b89a1641ba1b5df14419ee2a4f29d3fa2d64
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111772417"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "114757100"
 ---
 # <a name="welcome-to-the-mixed-reality-feature-tool"></a>Вас приветствует Mixed Reality Feature Tool
 
-![Изображение баннера Mixed Reality Feature Tool](images/feature-tool-banner.png)
+![Изображение баннера Mixed Reality Feature Tool](images/feature-tool-banner.jpg)
 
 > [!IMPORTANT]
 > В данный момент средство Mixed Reality Feature Tool доступно только для платформы Unity. Если вы ведете разработку в Unreal, перейдите к документации по [установке средств](../install-the-tools.md) для этого движка.
