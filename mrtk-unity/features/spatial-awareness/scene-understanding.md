@@ -1,18 +1,18 @@
 ---
-title: Наблюдатель "Основные сведения о сцене"
+title: Наблюдатель сведений о сцене
 description: Описание принципов работы с сценами в МРТК
 author: MaxWang-MS
 ms.author: wangmax
 ms.date: 05/27/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, основные сведения о сцене
-ms.openlocfilehash: d5430e7885055a550347c4ccebc1452f68125922
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: bf6ceaf98f239e725de3e084bd1ca96a63abc6c28f2434e8ae84ba3f70ee025b
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113176232"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115214366"
 ---
-# <a name="scene-understanding-observer"></a>Наблюдатель "Основные сведения о сцене"
+# <a name="scene-understanding-observer"></a>Наблюдатель сведений о сцене
 
 [понятие сцены](/windows/mixed-reality/scene-understanding) возвращает семантическое представление сущностей сцены, а также их геометрические формы на __HoloLens 2__ (HoloLens 1-й Gen не поддерживается).
 
@@ -31,7 +31,7 @@ ms.locfileid: "113176232"
 
 При запросе [`WindowsSceneUnderstandingObserver`](xref:Microsoft.MixedReality.Toolkit.WindowsSceneUnderstanding.Experimental.WindowsSceneUnderstandingObserver) будет возвращено [спатиалаваренесссценеобжект](xref:Microsoft.MixedReality.Toolkit.Experimental.SpatialAwareness.SpatialAwarenessSceneObject) с атрибутами, полезными для приложения, чтобы понять его окружение. Частота наблюдения, возвращаемый тип объекта (например, стена, Floor) и другие поведения наблюдателя, зависит от конфигурации наблюдателя с помощью профиля. Например, если требуется маска перекрытия, наблюдатель должен быть настроен для формирования четырех чисел. Наблюдаемая сцена может быть сохранена в виде сериализованного файла, который впоследствии можно загрузить, чтобы воссоздать сцену в редакторе в режиме воспроизведения.
 
-## <a name="setup"></a>Настройка
+## <a name="setup"></a>Установка
 
 > [!IMPORTANT]
 > понимание сцены поддерживается только в HoloLens 2 и Unity 2019,4 и более поздних версиях.

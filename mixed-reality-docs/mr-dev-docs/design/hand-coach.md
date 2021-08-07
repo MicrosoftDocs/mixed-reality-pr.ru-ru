@@ -5,13 +5,13 @@ author: grayclee
 ms.author: glee
 ms.date: 09/25/2019
 ms.topic: article
-keywords: Windows Mixed Reality, проектирование, рука, увлекательная гарнитура, МРТК, руки, помощь в руки, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: 0fe0d87e26d06838c0d1b7935573d9bd8ce258ee
-ms.sourcegitcommit: 9ae76b339968f035c703d9c1fe57ddecb33198e3
+keywords: Windows Mixed Reality, проектирование, разработка, иммерсивное головной телефон, мртк, руки, помощь в руки, гарнитура смешанной реальности, гарнитура Windows mixed reality, гарнитура виртуальной реальности, HoloLens, мртк, смешанная реальность набор средств
+ms.openlocfilehash: baf1dab7d73f4e5fca9078717b43dab7b71632f4aa7c36dcac280c029b05d58b
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110600433"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115208605"
 ---
 # <a name="hand-coach"></a>Обучающая рука
 
@@ -94,7 +94,7 @@ ms.locfileid: "110600433"
 
 **Рекомендуемое средство разработки**
 
-Многие из трехмерных исполнителей выбирают использование [Maya Autodesk, которое может использовать HoloLens](https://www.youtube.com/watch?v=q0K3n0Gf8mA) для преобразования способа создания ресурсов. Файл руки — это двоичный файл Maya, поэтому рекомендуется использовать Maya для анимации и экспорта стрелок. Если вы предпочитаете использовать другую трехмерную программу, вот что <b>. FBX</b>: <a href="files/HandCoachMRTK_FBX.zip"> Скачайте HandCoachMRTK_FBX.zip </a> , чтобы создать собственную установку контроллера. 
+многие из трехмерных исполнителей выбирают использование [Maya Autodesk, которое может использовать HoloLens](https://www.youtube.com/watch?v=q0K3n0Gf8mA) для преобразования способа создания ресурсов. Файл руки — это двоичный файл Maya, поэтому рекомендуется использовать Maya для анимации и экспорта стрелок. Если вы предпочитаете использовать другую трехмерную программу, вот что <b>. FBX</b>: <a href="files/HandCoachMRTK_FBX.zip"> Скачайте HandCoachMRTK_FBX.zip </a> , чтобы создать собственную установку контроллера. 
 
 Если вы используете доступный для загрузки файл руки Maya, мы рекомендуем масштабировать руки в Unity до 0,6.
 
@@ -140,8 +140,8 @@ ms.locfileid: "110600433"
 
  При экспорте в виде FBX и внесении в Unity масштабирование осуществляется до 0,6. Мы обнаружили, что это был идеальный баланс для отображения рук. 
 
-![Пример: параметры Unity](images/HandCoach/HandHintScale.png)<br>
-*Параметры Unity для HandCoach_R prefab найдены в МРТК*
+![пример: Unity Параметры](images/HandCoach/HandHintScale.png)<br>
+*Параметры Unity для HandCoach_R prefab, найденный в мртк*
 
 
 ## <a name="implementing-hands-into-your-unity-project"></a>Реализация руки в проекте Unity
@@ -157,9 +157,9 @@ ms.locfileid: "110600433"
 *   Если вы научились по крайней мере один раз, повторяйте жест только в том случае, если обнаруживается, что пользователь зависает.
 *   Если конкретные положения пальца и руки являются критически важными, пользователи могут четко видеть эти особенности анимации. Попробуйте англинг в руки, чтобы наиболее важные части были четко видны. 
 * Если вы заметили искажения в руки, то необходимо переходить к параметрам качества Unity увеличить число костей. 
- Перейдите к параметру Изменить > проекта Unity > качество > другие > веса Blend. Убедитесь, что выбрано "четыре кости" для просмотра гладких соединений.
+ последовательно выберите изменения > в Unity Project Параметры > качества > других > веса смешения. Убедитесь, что выбрано "четыре кости" для просмотра гладких соединений.
 
-   ![Пример: окно "Параметры проекта"](images/HandCoach/ProjectSettings.png)<br>
+   ![пример: Project Параметры окно](images/HandCoach/ProjectSettings.png)<br>
 
 
 ### <a name="what-to-avoid"></a>Чего следует избегать
@@ -171,7 +171,7 @@ ms.locfileid: "110600433"
   * Материал: Teaching_Hand2
   * Сценарии. см. рекомендации по МРТК для <a href= "/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/hand-coach"> мртк </a>
   * Параметр для каждого проекта
-    * Для сцены задано значение UWP: инструкции см. в [проекте настройки Unity](../develop/unity/Configure-Unity-Project.md) для Windows Mixed Reality.
+    * для сцены задано значение UWP: инструкции можно найти на странице [настройка Project Unity](../develop/unity/Configure-Unity-Project.md) для Windows Mixed Reality
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -179,6 +179,6 @@ ms.locfileid: "110600433"
 * [Процесс создания ресурсов](asset-creation-process.md)
 * [Жесты](./interaction-fundamentals.md)
 * [Установка средств](../develop/install-the-tools.md)
-* [Настройка проекта Unity](../develop/unity/Configure-Unity-Project.md)
+* [Настройка Project Unity](../develop/unity/Configure-Unity-Project.md)
 * [Обзор разработки в Unity](../develop/unity/unity-development-overview.md)
 * [МРТК 101](/windows/mixed-reality/mrtk-unity/)

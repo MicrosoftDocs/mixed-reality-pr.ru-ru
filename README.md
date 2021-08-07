@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 3f65fa90279e9a10c1aad9bd46f02233808936b8
-ms.sourcegitcommit: a5afc24a4887880e394ef57216b8fd9de9760004
+ms.openlocfilehash: 97ef4f466355f39e01ce0b916b4d0f45fb4c40f3fd6f0cb001b1bcccb35740eb
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "110647007"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115188024"
 ---
 ![Виртуальная колибри и рука человека](mixed-reality-docs/mr-dev-docs/discover/images/01_MixedReality.png)
 
@@ -19,7 +19,7 @@ ms.locfileid: "110647007"
 
 Для проблем, связанных с документами, используйте нижние колонтитулы в нижней части каждого документа или отправьте их непосредственно в [MicrosoftDocs/Mixed-Reality/проблемы](https://github.com/MicrosoftDocs/mixed-reality/issues).
 
-Вы можете бесплатно отправлять вопросы о политиках и процессах участия в Харрисон Ферроне или Керавала с помощью команд или электронной почты. 
+вы можете бесплатно отправлять вопросы о политиках и процессах участия в харрисон ферроне или керавала с помощью Teams или электронной почты. 
 
 ## <a name="getting-started"></a>Начало работы 
 

@@ -1,25 +1,25 @@
 ---
 title: Общие сведения о переносе
-description: Общие сведения о различных вариантах переноса для использования существующих приложений в смешанной реальности для HoloLens и VR.
+description: общие сведения о различных вариантах переноса для переноса существующих приложений в смешанную реальность для HoloLens и VR.
 author: hferrone
 ms.author: v-hferrone
 ms.date: 12/9/2020
 ms.topic: article
 keywords: Перенос, Unity, по промежуточного слоя, ядро, UWP, Win32
-ms.openlocfilehash: 167559d69cc4e65f971a8970b56e41e6e3ca8b22
-ms.sourcegitcommit: 12ea3fb2df4664c5efd07dcbb9040c2ff173afb6
+ms.openlocfilehash: 519dae088e689e0a6e617bf5e2b34f81cc2e265256c4844df7dd34e99172d536
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "113042275"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115189424"
 ---
 # <a name="porting-overview"></a>Общие сведения о переносе
 
-Когда речь идет о переносе или обновлении существующих проектов для смешанной реальности, ваш путь переноса зависит от того, создано ли приложение с помощью Unity или нереального механизма, и целевые объекты HoloLens (1 Gen) или HoloLens 2 или Стеамвр. На этой странице обзора приведены текущие рекомендации для каждой платформы и устройства. Убедитесь, что эти процессы постоянно изменяются.
+когда дело доходит до переноса или обновления существующих проектов для смешанной реальности, процесс переноса зависит от того, создано ли ваше приложение с помощью Unity или нереального модуля, а цели HoloLens (1 Gen), HoloLens 2 или стеамвр. На этой странице обзора приведены текущие рекомендации для каждой платформы и устройства. Убедитесь, что эти процессы постоянно изменяются.
 
 Сначала настройте целевой объект проекта на основе нашего [Unity](#unity) и [нереальных](#unreal) рекомендаций, а затем выполните один или несколько сценариев переноса:
 
-- [HoloLens (1-й общий) в HoloLens 2](#hololens-1st-gen-unity-apps-to-hololens-2)
+- [HoloLens (1-й общий) для HoloLens 2](#hololens-1st-gen-unity-apps-to-hololens-2)
 - [Иммерсивные гарнитуры виртуальной реальности](#immersive-vr-headsets)
 - [Двумерные приложения UWP](#2d-universal-windows-applications)
 
@@ -37,16 +37,16 @@ ms.locfileid: "113042275"
 
 ## <a name="porting-scenarios"></a>Сценарии переноса
 
-### <a name="hololens-1st-gen-unity-apps-to-hololens-2"></a>Приложения Unity (1-го поколения) для HoloLens 2
+### <a name="hololens-1st-gen-unity-apps-to-hololens-2"></a>HoloLens (1-го поколения) приложений Unity для HoloLens 2
 
-При наличии существующего приложения Unity (1-го поколения), которое вы хотите перенести в HoloLens 2, следуйте инструкциям в [статье о переносе hololens](./porting-hl1-hl2.md).
+если у вас есть существующее приложение Unity HoloLens (первое поколение), которое вы хотите перенести в HoloLens 2, следуйте инструкциям в [статье о переносе в HoloLens](./porting-hl1-hl2.md).
 
 ### <a name="immersive-vr-headsets"></a>Иммерсивные гарнитуры виртуальной реальности
 
 Если вы создали содержимое для других устройств версии VR, вам потребуется перенацелить пакеты SDK для версий VR, относящиеся к конкретному поставщику, и потенциальные API-интерфейсы сопоставления ввода. Сведения о сценариях Unity и нереальном переносе можно найти в статье о [переносе приложений в иммерсивное приложение](porting-guides.md).
 
-Сведения о Стеамврх, которые вы хотите обновить для головных телефонов Windows Mixed Reality, см. в нашем [руководстве по обновлению стеамвр](updating-your-steamvr-application-for-windows-mixed-reality.md).
+сведения о стеамврх, которые вы хотите обновить для гарнитур Windows Mixed Reality, см. в нашем [руководстве по обновлению стеамвр](updating-your-steamvr-application-for-windows-mixed-reality.md).
 
-### <a name="2d-universal-windows-applications"></a>Двумерные универсальные приложения Windows
+### <a name="2d-universal-windows-applications"></a>двумерные универсальные Windows приложения
 
-Если у вас есть приложение 2D-приложения UWP, которое вы хотите перенести на иммерсивное или HoloLens Windows Mixed Reality, следуйте инструкциям по [переносу двумерных приложений UWP для Windows Mixed Reality](building-2d-apps.md) .
+если у вас есть приложение 2d-приложения uwp, которое вы хотите перенести на Windows Mixed Reality иммерсивное головной или HoloLens, следуйте инструкциям по [переносу для приложений 2d универсального кода Windows Mixed Reality приложения uwp](building-2d-apps.md) .

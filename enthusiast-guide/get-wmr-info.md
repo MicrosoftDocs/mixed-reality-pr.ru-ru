@@ -1,21 +1,21 @@
 ---
-title: Получение сведений о Windows Mixed Reality
+title: Получить сведения о Windows Mixed Reality
 description: Найдите ресурсы и полезные сведения о Windows Mixed Reality.
 author: hferrone
 ms.author: v-hferrone
 ms.date: 6/7/2021
 ms.topic: overview
-keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR,
-ms.openlocfilehash: dbe140b8634583d910f8c076700aba57a648002f
-ms.sourcegitcommit: 1d8fa82b5ca6d17cf03a5cf11d0669f32a31e5d0
+keywords: Windows Mixed Reality, смешанная реальность, Virtual reality, VR, MR,
+ms.openlocfilehash: da63ebe48f22635c9f8eb8e9a687c22f5c627354e483fcaca1eebe2fb8f57480
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "111579054"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115189404"
 ---
-# <a name="get-info-about-windows-mixed-reality"></a>Получение сведений о Windows Mixed Reality
+# <a name="get-info-about-windows-mixed-reality"></a>Получить сведения о Windows Mixed Reality
 
-Если у вас есть гарнитура Windows Mixed Reality и вы ищете помощь, вот некоторые ресурсы, которые помогут вам приступить к работе:
+если у вас есть Windows Mixed Reality гарнитура и вы ищете помощь, вот некоторые ресурсы, которые помогут вам приступить к работе:
 
 * [Общая справка по смешанной реальности](index.yml)
 * [Узнайте, как настроить](set-up-windows-mixed-reality.md)

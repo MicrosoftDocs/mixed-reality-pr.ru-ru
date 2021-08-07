@@ -1,16 +1,16 @@
 ---
-ms.openlocfilehash: 612168d7a1e56f74350ee8244e26e5ad886503c2
-ms.sourcegitcommit: 441ef99e6090081c6cd3aa88ed21e13e941f0cc6
+ms.openlocfilehash: 78296dd4e6667c34926c954774547b21a223c5f4b6635476c51046c7ca22cdc3
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "102475082"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115208408"
 ---
 # <a name="mrtk"></a>[MRTK](#tab/mrtk)
 
 ## <a name="windowsmixedrealityutilities"></a>виндовсмикседреалитютилитиес
 
-**Пространство имен:** *Microsoft. микседреалити. Toolkit. виндовсмикседреалити*<br>
+**пространство имен:** *Microsoft. микседреалити. набор средств. Виндовсмикседреалити*<br>
 **Тип:** *виндовсмикседреалитютилитиес*
 
 МРТК предоставляет уже Упакованные типы как в устаревших пакетах WSA, так и в пакете SDK XR с помощью класса **виндовсмикседреалитютилитиес** .
@@ -21,7 +21,7 @@ public static SpatialCoordinateSystem SpatialCoordinateSystem { get; }
 public static SpatialInteractionManager SpatialInteractionManager { get; }
 ```
 
-# <a name="xr-sdk"></a>[ПАКЕТ SDK ДЛЯ XR](#tab/xr)
+# <a name="xr-sdk"></a>[Пакет SDK для XR](#tab/xr)
 
 ## <a name="windowsmrenvironment"></a>виндовсмренвиронмент
 
@@ -36,14 +36,14 @@ public static IntPtr HolographicSpace { get; } // Windows::Graphics::Holographic
 public static IntPtr OriginSpatialCoordinateSystem { get; } // Windows::Perception::Spatial::ISpatialCoordinateSystem
 ```
 
-# <a name="legacy-wsa"></a>[Устаревший WSA](#tab/wsa)
+# <a name="legacy-wsa"></a>[Устаревшая версия WSA](#tab/wsa)
 
 ## <a name="xrdevice"></a>ксрдевице
 
 **Пространство имен:** *UnityEngine. XR*<br>
 **Тип:** *ксрдевице*
 
-Тип <a href="https://docs.unity3d.com/ScriptReference/XR.XRDevice.html" target="_blank">**ксрдевице**</a> позволяет получить доступ к базовым машинным объектам с помощью метода <a href="https://docs.unity3d.com/ScriptReference/XR.XRDevice.GetNativePtr.html" target="_blank">жетнативептр</a> . Возвращаемые Жетнативептр различаются между различными платформами. На универсальная платформа Windows при нацеливании на Windows Mixed Reality функция Ксрдевице. Жетнативептр возвращает указатель (IntPtr) в следующую структуру:
+Тип <a href="https://docs.unity3d.com/ScriptReference/XR.XRDevice.html" target="_blank">**ксрдевице**</a> позволяет получить доступ к базовым машинным объектам с помощью метода <a href="https://docs.unity3d.com/ScriptReference/XR.XRDevice.GetNativePtr.html" target="_blank">жетнативептр</a> . Возвращаемые Жетнативептр различаются между различными платформами. в универсальная платформа Windows при нацеливании на Windows Mixed Reality ксрдевице. жетнативептр возвращает указатель (IntPtr) в следующую структуру:
 
 ```cs
 using System;

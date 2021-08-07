@@ -6,14 +6,14 @@ ms.author: vladkol
 ms.date: 02/25/2021
 ms.topic: article
 keywords: Unity, Mixed Reality, Native, ксрдевице, спатиалкурдинатесистем, холографикфраме, холографиккамера, испатиалкурдинатесистем, iholographicframe, iholographiccamera, getnativeptr, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: c202c698fe55bcd3215850579166ebcb8d4b8910
-ms.sourcegitcommit: 441ef99e6090081c6cd3aa88ed21e13e941f0cc6
+ms.openlocfilehash: 63ee9c33a972cb918f141df3b4c1608a561b96dc5c37910deb77b089f7be69b8
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "102475081"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115208409"
 ---
-# <a name="mixed-reality-native-interop-in-unity"></a>Встроенное взаимодействие смешанной реальности в Unity
+# <a name="mixed-reality-native-interop-in-unity"></a>Собственное взаимодействие смешанной реальности в Unity
 
 Каждое приложение смешанной реальности [получает холографикспаце,](../native/getting-a-holographicspace.md) прежде чем оно начнет получать данные камеры и кадры визуализации. В Unity подсистема выполняет эти действия для вас, обрабатывая holographic и внутренне обновление как часть цикла подготовки к просмотру.
 
@@ -25,7 +25,7 @@ ms.locfileid: "102475081"
 
 После получения `IntPtr` из одного из методов, приведенных выше (не требуется для мртк), используйте приведенные ниже фрагменты кода, чтобы маршалировать их в управляемые объекты.
 
-При использовании [Microsoft. Windows. микседреалити. дотнетвинрт](https://www.nuget.org/packages/Microsoft.Windows.MixedReality.DotNetWinRT)можно создать управляемый объект из собственного указателя с помощью `FromNativePtr()` метода:
+Если используется [Microsoft. Windows. Микседреалити. Дотнетвинрт](https://www.nuget.org/packages/Microsoft.Windows.MixedReality.DotNetWinRT)можно создать управляемый объект из собственного указателя с помощью `FromNativePtr()` метода:
 
 ```cs
 var worldOrigin = Microsoft.Windows.Perception.Spatial.SpatialCoordinateSystem.FromNativePtr(spatialCoordinateSystemPtr);
@@ -41,7 +41,7 @@ var worldOrigin = Marshal.GetObjectForIUnknown(spatialCoordinateSystemPtr) as Wi
 
 ### <a name="converting-between-coordinate-systems"></a>Преобразование между системами координат
 
-Unity использует левую систему координат, а API-интерфейсы восприятия Windows — для использования правильных систем координат. Для преобразования между этими двумя соглашениями можно использовать следующие вспомогательные методы:
+Unity использует левую систему координат, в то время как api-интерфейсы восприятия Windows используют системы координат, которые правильно передаются. Для преобразования между этими двумя соглашениями можно использовать следующие вспомогательные методы:
 
 ```cs
 namespace NumericsConversion
@@ -70,7 +70,7 @@ namespace NumericsConversion
 ### <a name="using-holographicframe-native-data"></a>Использование собственных данных Холографикфраме
 
 > [!NOTE]
-> Изменение состояния собственных объектов, полученных через Холографикфраменативедата, может привести к непредсказуемому поведению и артефактам отрисовки, особенно если Unity также является причиной того же состояния.  Например, не следует вызывать Холографикфраме. Упдатекуррентпредиктион, или, в противном случае прогнозирование, которое Unity визуализирует с этим кадром, будет не синхронизировано с объектом, который ожидается Windows, что снизит [стабильность](../platform-capabilities-and-apis/hologram-stability.md).
+> Изменение состояния собственных объектов, полученных через Холографикфраменативедата, может привести к непредсказуемому поведению и артефактам отрисовки, особенно если Unity также является причиной того же состояния.  например, не следует вызывать холографикфраме. упдатекуррентпредиктион или, в противном случае прогнозирование, которое Unity визуализирует с этим кадром, будет не синхронизировано с объектом, который Windows ожидается, что снизит [стабильность](../platform-capabilities-and-apis/hologram-stability.md).
 
 Если вам нужен доступ к собственным интерфейсам для подготовки к просмотру или отладке, используйте данные из Холографикфраменативедата в собственных подключаемых модулях или коде C#.
 
@@ -98,7 +98,7 @@ public static bool GetCurrentFrameDateTime(out DateTime frameDateTime)
 }
 ```
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 * [Использование пространства имен Windows с приложениями Unity для HoloLens](using-the-windows-namespace-with-unity-apps-for-hololens.md)
 * <a href="/uwp/api/windows.perception.spatial.spatialcoordinatesystem" target="_blank">спатиалкурдинатесистем</a>

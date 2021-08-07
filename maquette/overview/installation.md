@@ -5,13 +5,13 @@ author: hferrone
 ms.author: v-hferrone
 ms.date: 10/26/2020
 ms.topic: article
-keywords: Windows Mixed Reality, Макуетте, создание прототипов, Смешанная реальность, виртуальная реальность, VR, MR, обратная связь, центр обратной связи, ошибки
-ms.openlocfilehash: ba0064326e83f04b056c0baa2f86f718e41bedfe
-ms.sourcegitcommit: fae413a2b0420e787671af90f14ee39cde51640f
+keywords: Windows Mixed Reality, макуетте, создание прототипов, смешанная реальность, виртуальная реальность, VR, MR, отзыв, центр обратной связи, ошибки
+ms.openlocfilehash: c31f461adbe553a5c10e7acfff3037ea0c2b65caf2bbe63bfc234e067a6369e8
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "94935553"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115214778"
 ---
 # <a name="installing-maquette"></a>Установка Макуетте
 
@@ -25,7 +25,7 @@ ms.locfileid: "94935553"
 
 * Скачайте и установите [VSCode](https://code.visualstudio.com). 
 
-Расширение JavaScript Макуетте находится в [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-maquette.vscode-maquette-javascript).
+расширение javascript макуетте находится в [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-maquette.vscode-maquette-javascript).
 
 * Запустите [процедуру установки расширения](vscode:extension/ms-maquette.vscode-maquette-javascript).
 

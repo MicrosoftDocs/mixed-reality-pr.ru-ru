@@ -5,12 +5,12 @@ author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, события
-ms.openlocfilehash: c8871aa575e2aa4507e9dbbdcc8bdf0fc0604633
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 25ac5bd4a4f5d5678a80ec362512ce7daac791a17e93944aa4832d9d09c02ee2
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113176780"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115208336"
 ---
 # <a name="input-events"></a>События ввода
 
@@ -27,7 +27,7 @@ ms.locfileid: "113176780"
 | [`IMixedRealityInputHandler<T>`](xref:Microsoft.MixedReality.Toolkit.Input.IMixedRealityInputHandler`1) | Ввод изменен | Возникает при изменениях входных данных заданного типа. **T** может принимать следующие значения: <br/> - *float* (например, возвращает Аналоговый триггер)<br/> - *Vector2* (например, Возвращает направление аналогового стика планшета) <br/> - *Vector3* (например, возвращаемое расположение отслеживания устройства) <br/> - *Кватернион* (например, возвращает ориентацию отслеживающего устройства)<br/> - [Микседреалитипосе](xref:Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose) (например, возвращает полностью отслеживание устройства) |
 | [`IMixedRealitySpeechHandler`](xref:Microsoft.MixedReality.Toolkit.Input.IMixedRealitySpeechHandler) | Распознанное ключевое слово речи | Возникает при распознавании одного из ключевых слов, настроенных в *профиле голосовых команд*. |
 | [`IMixedRealityDictationHandler`](xref:Microsoft.MixedReality.Toolkit.Input.IMixedRealityDictationHandler) | Диктовка<br/> Гипотеза <br/> Результат <br/> Завершить <br/> Ошибка | Вызывается системами диктовки для передачи результатов сеанса диктовки. |
-| [`IMixedRealityGestureHandler`](xref:Microsoft.MixedReality.Toolkit.Input.IMixedRealityGestureHandler) | События жестов в: <br/> Запуск <br/> Обновлено <br/> Завершено <br/> Отменено | Вызывается при обнаружении жеста. |
+| [`IMixedRealityGestureHandler`](xref:Microsoft.MixedReality.Toolkit.Input.IMixedRealityGestureHandler) | События жестов в: <br/> Запуск <br/> Обновленные возможности <br/> Завершено <br/> Отменено | Вызывается при обнаружении жеста. |
 | [`IMixedRealityGestureHandler<T>`](xref:Microsoft.MixedReality.Toolkit.Input.IMixedRealityGestureHandler`1) | Жест обновлен или завершен | Возникает при обнаружении жестов, содержащих дополнительные данные заданного типа. Дополнительные сведения о возможных значениях для **T** см. в разделе [**события жестов**](gestures.md#gesture-events) . |
 | [`IMixedRealityHandJointHandler`](xref:Microsoft.MixedReality.Toolkit.Input.IMixedRealityHandJointHandler) | Обновлено соединений с руки | Генерируется с помощью манипуляторов контроллеров, когда обновляются соединения. |
 | [`IMixedRealityHandMeshHandler`](xref:Microsoft.MixedReality.Toolkit.Input.IMixedRealityHandMeshHandler) | Сетка "руки" обновлена | Вызывается контроллерами с выявлением руки при обновлении сетки типа "рука". |
@@ -182,8 +182,8 @@ public class GlobalHandListenerExample : MonoBehaviour,
 > [!NOTE]
 > Компонент, вызывающий `Use()` метод, будет прекращать объекты gameobject от его получения. Однако другие компоненты текущего GameObject будут по-прежнему принимать входные события и срабатывать на любые связанные функции интерфейса.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также раздел
 
 - [Указатели](pointers.md)
 - [Речь](speech.md)
-- [Состояние входных данных](input-state.md)
+- [Входное состояние](input-state.md)

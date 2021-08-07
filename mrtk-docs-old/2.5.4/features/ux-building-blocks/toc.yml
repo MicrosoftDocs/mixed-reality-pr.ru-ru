@@ -14,13 +14,13 @@
   href: hand-menu.md
 - name: Интерактивный объект
   href: interactable.md
-- name: ManipulationHandler
+- name: Обработчик манипуляции
   href: manipulation-handler.md
 - name: Быстрое меню
   href: near-menu.md
 - name: Коллекция объектов
   href: object-collection.md
-- name: ObjectManipulator
+- name: Манипулятор объектов
   href: object-manipulator.md
 - name: Индикатор хода выполнения
   href: progress-indicator.md

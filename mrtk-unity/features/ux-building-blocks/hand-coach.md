@@ -5,12 +5,12 @@ author: CDiaz-MS
 ms.author: cadia
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: f6042fce7c95c106de9c72adc854e2b7112da63c
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 3e5a56f7498288e79963acea6fca223421fee2607004a9a2bae639f81441e0d9
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113177155"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115209032"
 ---
 # <a name="hand-coach"></a>Обучающая рука
 
@@ -43,7 +43,7 @@ ms.locfileid: "113177155"
 последовательно выберите изменения > в Unity Project Параметры > качества > других > веса смешения. Убедитесь, что выбрано "четыре кости" для просмотра гладких соединений.
 ![Project Задав](../images/hand-coach/MRTK_ProjectSettings.png)
 
-## <a name="scripts"></a>Скрипты
+## <a name="scripts"></a>Сценарии
 
 ### <a name="interaction-hint"></a>Указание взаимодействия
 

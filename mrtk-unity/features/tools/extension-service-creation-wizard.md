@@ -1,18 +1,18 @@
 ---
-title: Мастер создания службы расширения
+title: Мастер создания службы расширений
 description: Документация по мастеру для перехода с Singleton на службы МРТК
 author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 4be9a58c7d63ab3bc93bcc326a90260cf6a3366b
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 6b4efa39a99755f3c031757c7298465886d0c39512c93750f4653200edce9e17
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113176614"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115214300"
 ---
-# <a name="extension-service-creation-wizard"></a>Мастер создания службы расширения
+# <a name="extension-service-creation-wizard"></a>Мастер создания службы расширений
 
 Переход от Singleton к службам может быть трудной задачей. Этот мастер может дополнить нашу другую документацию и пример кода, позволяя разработчики создавать новые службы с помощью (примерно) той же простоты, что и создание нового сценария с использованием режима «без применения». Чтобы узнать о создании служб с нуля, ознакомьтесь [с нашим руководством по созданию зарегистрированных служб](../../configuration/mixed-reality-configuration-guide.md) (ожидается в ближайшее время).
 

@@ -1,18 +1,18 @@
 ---
-title: развертывание на гарнитурах HoloLens и вмр
+title: Развертывание на HoloLens и гарнитурах смешанной реальности Windows
 description: Документация по сборке и развертыванию приложений на разных устройствах.
 author: polar-kev
 ms.author: kesemple
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, Visual Studio
-ms.openlocfilehash: 137e1b699e9a0cda1e8a454a6c3219b581fa71b4
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 622c7ca4b9c527630b5677fe377d1d3108bdfe08c9dc616bfd4d3256b83b9ab0
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113176370"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115209481"
 ---
-# <a name="deploying-to-hololens-and-wmr-headsets"></a>развертывание на гарнитурах HoloLens и вмр
+# <a name="deploying-to-hololens-and-wmr-headsets"></a>Развертывание на HoloLens и гарнитурах смешанной реальности Windows
 
 существует два способа развертывания приложений, созданных с помощью мртк, на устройстве windows, на платформе универсальной Windows platform (UWP) и на автономной платформе. приложения, созданные для HoloLens 1 или HoloLens 2, должны быть нацелены на uwp, тогда как приложения, созданные для гарнитур вмр, могут ориентироваться на uwp или Standalone.
 
@@ -26,7 +26,7 @@ ms.locfileid: "113176370"
 >| Платформа | Конфигурация | Архитектура | Целевой объект |
 |---|---|---|---|
 | HoloLens 2 | Выпуск или образец | ARM64 | Устройство |
-| HoloLens 1 | Выпуск или образец | x86 | Устройство |
+| HoloLens 1 | Выпуск или образец | x86. | Устройство |
 | ВМР гарнитуры | Выпуск или образец | X64 | Локальный компьютер |
 
 **Совет.** при создании HoloLens 1, HoloLens 2 или вмр рекомендуется, чтобы параметры сборки "целевая версия пакета SDK" и "минимальная версия платформы" были показаны на рисунке ниже:

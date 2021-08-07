@@ -5,13 +5,13 @@ author: hferrone
 ms.author: safarooq
 ms.date: 09/18/2020
 ms.topic: article
-keywords: Нереал, Нереал. 4, UE4, HoloLens, HoloLens 2, разработка, материалы, документация, руководства, функции, голограммы, Разработка игр, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: bfe70e730c5fbd6e5d103737b03e76bfd0ab65f6
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+keywords: нереал, нереалистичное ядро 4, UE4 HoloLens, HoloLens 2, разработка, материалы, документация, руководства, функции, голограммы, разработка игр, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности
+ms.openlocfilehash: d5ce702495c95e8ca6d07a0209a4bc7d02f5d4d682415b028d63995e8910a7e6
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98580790"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115187739"
 ---
 # <a name="material-recommendations-in-unreal"></a>Рекомендации по использованию материалов в Unreal
 
@@ -88,7 +88,7 @@ ms.locfileid: "98580790"
 
 ![Сложность материала в нереальном режиме](images/unreal-materials-img-10.png)
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 * [Мобильные материалы](https://docs.unrealengine.com/Platforms/Mobile/Materials/index.html)
 * [Режимы представления](https://docs.unrealengine.com/Engine/UI/LevelEditor/Viewports/ViewModes/index.html)
 * [Экземпляры материалов](https://docs.unrealengine.com/Engine/Rendering/Materials/MaterialInstances/index.html)

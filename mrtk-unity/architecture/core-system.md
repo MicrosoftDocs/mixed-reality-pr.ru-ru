@@ -1,18 +1,18 @@
 ---
-title: Основная система
+title: Базовая система
 description: Система ввода, диспетчеры устройств и поставщики данных в МРТК
 author: cDiaz-MS
 ms.author: cadia
 ms.date: 01/12/2021
-keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, события
-ms.openlocfilehash: 79ebd3855cd991db168233f00058ab5d42f87d83
-ms.sourcegitcommit: 8b4c2b1aac83bc8adf46acfd92b564f899ef7735
+keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, события
+ms.openlocfilehash: ff4c23b796374940de1a1de6b72e08702d6fd24f79234e8ef80dc1210d13d103
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113121602"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115190184"
 ---
-# <a name="core-system"></a>Основная система
+# <a name="core-system"></a>Базовая система
 
 Основой входной системы является [инпутсистем](../features/input/overview.md), который отвечает за инициализацию и эксплуатацию всех функций ввода, связанных с мртк.
 
@@ -23,7 +23,7 @@ ms.locfileid: "113121602"
 
 - Чтение [входного системного профиля](../configuration/mixed-reality-configuration-guide.md#input-system-settings)
 - Запуск настроенных [поставщиков данных](../features/input/input-providers.md) (например, `Windows Mixed Reality Device Manager` и `OpenVR Device Manager` ).
-- Создание экземпляра [газепровидер](xref:Microsoft.MixedReality.Toolkit.Input.IMixedRealityGazeProvider), который является компонентом, отвечающим за предоставление сведений о головном стиле hololens (1 поколение) в дополнение к сведениям о взгляде на hololens в виде 2.
+- создание экземпляра [газепровидер](xref:Microsoft.MixedReality.Toolkit.Input.IMixedRealityGazeProvider), который является компонентом, который отвечает за предоставление HoloLens (первого поколения) сведений о заголовке стиля в дополнение к HoloLens 2 сведениям о взгляде в стиле.
 - Создание экземпляра [фокуспровидер](xref:Microsoft.MixedReality.Toolkit.Input.IMixedRealityFocusProvider), который является компонентом, отвечающим за определение объектов, имеющих фокус. Это подробно описано в разделе [указатели и фокус](controllers-pointers-and-focus.md#pointers-and-focus) в документации.
 - Предоставление точек регистрации для всех событий ввода (в виде [глобальных прослушивателей](#global-listeners)).
 - Предоставление возможностей диспетчеризации событий для этих событий ввода.
@@ -56,11 +56,11 @@ ms.locfileid: "113121602"
 
 ## <a name="device-managers-and-data-providers"></a>Диспетчеры устройств и поставщики данных
 
-Эти сущности отвечают за взаимодействие с интерфейсами API более низкого уровня (например, с API-интерфейсами Windows Mixed Reality или Опенвр API) и переводом данных из этих систем в объекты, соответствующие МРТКным абстракциям на более высоком уровне. Они отвечают за обнаружение, создание и управление временем существования [контроллеров](controllers-pointers-and-focus.md#controllers).
+эти сущности отвечают за взаимодействие с интерфейсами api более низкого уровня (например, Windows Mixed Reality api-интерфейсы или опенвр api) и переводом данных из этих систем в объекты, соответствующие мрткным абстракциям на более высоком уровне. Они отвечают за обнаружение, создание и управление временем существования [контроллеров](controllers-pointers-and-focus.md#controllers).
 
 Основной поток диспетчера устройств включает в себя следующее:
 
 1. Экземпляр диспетчера устройств создается во входной системной службе.
-2. Диспетчер устройств регистрируется в своей базовой системе (например, диспетчер устройств Windows Mixed Reality будет зарегистрирован для [входа](../features/input/input-events.md) и событий [жестов](../features/input/gestures.md#gesture-events) .
+2. диспетчер устройств регистрируется в своей базовой системе (например, диспетчер устройств Windows Mixed Reality будет зарегистрирован для [входа](../features/input/input-events.md) и событий [жестов](../features/input/gestures.md#gesture-events) .
 3. Он создает контроллеры, которые он обнаруживает из базовой системы (например, поставщик может обнаружить наличие четко сформулированных рук).
 4. В своем цикле Update () вызовите Упдатеконтроллер (), чтобы опросить новое состояние базовой системы и обновить его представление контроллера.

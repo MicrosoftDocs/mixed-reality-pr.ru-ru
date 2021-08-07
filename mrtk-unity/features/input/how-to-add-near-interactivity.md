@@ -1,18 +1,18 @@
 ---
-title: Как добавить ближайшее интерактивное взаимодействие
+title: Как добавить ближнее взаимодействие
 description: Документация по ближайшему взаимодействию в МРТК
 author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, близкое взаимодействие,
-ms.openlocfilehash: 241425f0c158d684cad6dad8c88c8d692cbec42f
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 174623ebf340e800848c15e22dc2299aaf997b484a1329d67c28540acd79515a
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113176877"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115212600"
 ---
-# <a name="how-to-add-near-interactivity"></a>Как добавить ближайшее интерактивное взаимодействие
+# <a name="how-to-add-near-interactivity"></a>Как добавить ближнее взаимодействие
 
 Близкие взаимодействия приходят в виде касаний и захватов. События касания и захвата создаются как события указателя [покепоинтер](pointers.md#pokepointer) и [сферепоинтер](pointers.md#spherepointer)соответственно.
 
@@ -202,7 +202,7 @@ public static void MakeNearDraggable(GameObject target)
 * [`IMixedRealityTouchHandler`](xref:Microsoft.MixedReality.Toolkit.Input.IMixedRealityTouchHandler)
 * [`IMixedRealityPointerHandler`](xref:Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointerHandler)
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также раздел
 
 * [Общие сведения о входных данных](overview.md)
 * [Указатели](pointers.md)

@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 18ccbf3e28eaa2f61157bd9585d633c987e9af48
-ms.sourcegitcommit: 13ef9f89ee61fbfe547ecf5fdfdb97560a0de833
+ms.openlocfilehash: fb8b5b509ef83e2a4f9d978dbf0faebbf3e0be1d10d6697f16cfb9366d7a2edb
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97717780"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115187512"
 ---
 # <a name="426"></a>[4.26](#tab/426)
 
@@ -16,7 +16,7 @@ ms.locfileid: "97717780"
 
 # <a name="425"></a>[4.25](#tab/425)
 
-Чтобы использовать лучи в схемах, выполните поиск любых действий в **Windows Mixed Reality ХМД**:
+чтобы использовать лучи в схемах, выполните поиск любых действий в разделе **Windows Mixed Reality хмд**:
 
 ![BP](../images/unreal/hand-rays-bp.png)
 
@@ -41,9 +41,9 @@ enum class EHMDInputControllerButtons : uint8
 Ниже приведена разбивка двух применимых вариантов перечисления.
 
 * **SELECT** — пользователь активировал событие SELECT.
-    * Активируется в HoloLens 2, выполняя касание, взгляните и зафиксировать, или выполнив команду "Select" с включенным [голосовым входом](../unreal-voice-input.md) .
+    * активируется в HoloLens 2е air, выберем, взгляните, зафиксируйте или выполнив команду "Select" с включенным [голосовым входом](../unreal-voice-input.md) .
 * Пользовательское событие **, активируемое с** учетом продачи.
-    * Активируется в HoloLens 2, закрывая пальцы пользователя на голограмме.
+    * активируется в HoloLens 2, закрывая пальцы пользователя на голограмме.
 
 Вы можете получить доступ к состоянию отслеживания сетки руки в C++ с помощью `EHMDTrackingStatus` перечисления, показанного ниже:
 

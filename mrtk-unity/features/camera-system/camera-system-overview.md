@@ -1,18 +1,18 @@
 ---
-title: Обзор системы камеры
+title: Обзор системы поддержки камер
 description: Целевая страница для системы камеры в МРТК
 author: polar-kev
 ms.author: kesemple
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, камера,
-ms.openlocfilehash: cfb40b00d81133ad40e0e4d7a7b2ad87ee645e36
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 3c9bdbc96688c4df6ee2f39be2c8bb2023817f9081b5366308ba8b4c2590568d
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113177039"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115211465"
 ---
-# <a name="camera-system-overview"></a>Обзор системы камеры
+# <a name="camera-system-overview"></a>Обзор системы поддержки камер
 
 система камеры позволяет набор средств Microsoft Mixed reality настраивать и оптимизировать камеру приложения для использования в приложениях смешанной реальности. используя систему камеры, приложения можно писать для поддержки как непрозрачных (например, виртуальных реальность), так и прозрачных (Microsoft HoloLens) устройств без необходимости написания кода для различения и размещения каждого типа дисплея.
 
@@ -77,7 +77,7 @@ ms.locfileid: "113177039"
 
 Значение параметров качества указывает качество графики, которое Unity должно использовать при отрисовке сцены. Уровень качества является параметром уровня проекта и не относится к одной камере. Дополнительные сведения см. в статье о [контроле качества](https://docs.unity3d.com/Manual/class-QualitySettings.html) в документации Unity.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также раздел
 
 - [Документация по API системы камеры](xref:Microsoft.MixedReality.Toolkit.CameraSystem)
 - [создание поставщика Параметры камеры](create-settings-provider.md)

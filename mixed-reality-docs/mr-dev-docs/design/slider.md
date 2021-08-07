@@ -1,17 +1,17 @@
 ---
 title: Ползунок
-description: Узнайте, как использовать компонент пользовательского интерфейса Slider для установки значения путем перемещения бегунка или рычага на дорожке с помощью набора средств Mixed Reality.
+description: узнайте, как использовать компонент пользовательского интерфейса Slider для установки значения путем перемещения бегунка или рычага на дорожке с помощью набор средств смешанной реальности.
 author: cre8ivepark
 ms.author: dongpark
 ms.date: 11/01/2019
 ms.topic: article
-keywords: Смешанная реальность, элементы управления, взаимодействие, Пользовательский интерфейс, UX, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, ползунок, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: c1619a90b7df1a34fa1541663a3f521ba5e75662
-ms.sourcegitcommit: 9ae76b339968f035c703d9c1fe57ddecb33198e3
+keywords: смешанная реальность, элементы управления, взаимодействие, пользовательский интерфейс, ux, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности, HoloLens, ползунок, мртк, смешанная реальность набор средств
+ms.openlocfilehash: 5d07960566630afac0addd10585d885f33a80b46613c1a9f19374c9afa71bd7e
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110600163"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115186922"
 ---
 # <a name="slider"></a>Slider
 
@@ -23,7 +23,7 @@ ms.locfileid: "110600163"
 
 ---
 
-## <a name="slider-in-mrtk-mixed-reality-toolkit-for-unity"></a>Ползунок в МРТК (набор средств для смешанной реальности) для Unity
+## <a name="slider-in-mrtk-mixed-reality-toolkit-for-unity"></a>ползунок в мртк (смешанная реальность набор средств) для Unity
 
 * [МРТК — ползунок](/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/sliders)
 
@@ -31,7 +31,7 @@ ms.locfileid: "110600163"
 
 ---
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Курсоры](cursors.md)
 * [Телекинез](point-and-commit.md)

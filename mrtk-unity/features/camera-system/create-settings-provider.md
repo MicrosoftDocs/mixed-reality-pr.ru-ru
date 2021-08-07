@@ -5,12 +5,12 @@ author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 2151887a6162239e993634d5d346065362f1c428
-ms.sourcegitcommit: 912fa204ef79e9b973eab9b862846ba5ed5cd69f
+ms.openlocfilehash: 5efab728905cd9885bf49f54b1939f3957cc5815af00dc816a4044a3f659b3bb
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "114282034"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115210708"
 ---
 # <a name="creating-a-camera-settings-provider"></a>Создание поставщика параметров камеры
 
@@ -209,7 +209,7 @@ namespace namespace Microsoft.MixedReality.Toolkit.Experimental.UnityAR
 
 если поставщик данных отправлен и принят как часть пакета microsoft Mixed Reality набор средств, группа microsoft мртк будет упаковывать и распространять ее в рамках предложений мртк.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 - [Обзор системы камеры](camera-system-overview.md)
 - [Класс `BaseCameraSettingsProvider`](xref:Microsoft.MixedReality.Toolkit.CameraSystem.BaseCameraSettingsProvider)

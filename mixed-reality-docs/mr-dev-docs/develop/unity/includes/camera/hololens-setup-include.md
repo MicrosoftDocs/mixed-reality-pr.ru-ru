@@ -1,15 +1,15 @@
 ---
-ms.openlocfilehash: 6e751f5376110ddc6ae92c75b4182fba8240a356
-ms.sourcegitcommit: 719682f70a75f732b573442fae8987be1acaaf19
+ms.openlocfilehash: 78596197af6c2e7c329e7a7c99281f8debee13b973a212709f5be1ec34e04eea
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "110748500"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115212298"
 ---
 # <a name="mrtk"></a>[MRTK](#tab/mrtk)
 <!-- NEVER CHANGE THE ABOVE LINE! -->
 
-Следуйте этому пошаговому [руководству, чтобы](../../tutorials/mr-learning-base-01.md) добавить и автоматически настроить набор средств смешанной реальности в проекте Unity. Кроме того, можно напрямую работать с классом [микседреалитиплайспаце](/dotnet/api/microsoft.mixedreality.toolkit.mixedrealityplayspace) из Мртк для Unity и задать для **целевого масштаба** значение **World**:
+выполните это пошаговое [руководство](../../tutorials/mr-learning-base-01.md) , чтобы добавить и автоматически настроить набор средств смешанной реальности в проекте Unity. Кроме того, можно напрямую работать с классом [микседреалитиплайспаце](/dotnet/api/microsoft.mixedreality.toolkit.mixedrealityplayspace) из Мртк для Unity и задать для **целевого масштаба** значение **World**:
 
 ![Окно параметров МРТК](../../images/mrtk-target-scale.png)
 
@@ -30,7 +30,7 @@ xrInputSubsystem.TrySetTrackingOriginMode(TrackingOriginModeFlags.Device);
 xrInputSubsystem.TrySetTrackingOriginMode(TrackingOriginModeFlags.Unbounded); // Recommendation for OpenXR
 ```
 
-[Арсессион](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@2.1/manual/index.html#installing-ar-foundation) можно использовать для приложений HoloLens, которые работают лучше с привязками и ARKit/Аркоре.
+[арсессион](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@2.1/manual/index.html#installing-ar-foundation) можно использовать для приложений HoloLens, которые работают лучше с привязками и ARKit/аркоре.
 
 ![Сеанс AR в иерархии](../../images/xrsdk-arsession.png)
 
@@ -56,8 +56,8 @@ xrInputSubsystem.TrySetTrackingOriginMode(TrackingOriginModeFlags.Unbounded); //
    ![Камера на панели инспектора в Unity](../../images/maincamera-350px.png)  
    *Камера на панели инспектора в Unity*
 
-1. В разделе " **другие параметры** " окна " **Параметры проигрывателя магазина Windows** "
-1. Выберите **Windows Mixed Reality** в качестве устройства, которое может быть указано как **Windows holographic** в более ранних версиях Unity.
+1. перейдите в раздел **другие Параметры** **проигрывателя магазина Windows Параметры**
+1. выберите **Windows Mixed Reality** в качестве устройства, которое может быть указано как **Windows holographic** в более ранних версиях Unity.
 1. Выбрать **поддерживаемую виртуальную реальность**
 
 Так как основной объект Camera автоматически помечается как камера, Unity перемещает все движения и перевод.

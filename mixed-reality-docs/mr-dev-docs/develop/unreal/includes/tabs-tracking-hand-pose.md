@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 21c29b2c8d540378259200cc834f7a36065f8ab3
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: ec1246085989b4b157504e9b8551694d6116e6f08789fa669200e5425ef75cc6
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98581103"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115187509"
 ---
 # <a name="426"></a>[4.26](#tab/426)
 
@@ -57,11 +57,11 @@ enum class EWMRHandKeypoint : uint8
 };
 ```
 
-Числовые значения для каждого варианта перечисления можно найти в таблице [Windows. восприятие. People. ханджоинткинд](/uwp/api/windows.perception.people.handjointkind) .
+Числовые значения для каждого варианта перечисления можно найти в [Windows. Таблица восприятия. People. Ханджоинткинд](/uwp/api/windows.perception.people.handjointkind) .
 
 ### <a name="supporting-hand-tracking"></a>Поддержка отслеживания
 
-Вы можете использовать отслеживание вручную в схемах, добавив **поддержку отслеживания вручную** для **отслеживания > Windows Mixed Reality**:
+Вы можете использовать отслеживание вручную в схемах, добавив **поддержку отслеживания вручную** с **отслеживания > Windows Mixed Reality**:
 
 ![BP для отслеживания](../images/unreal/hand-tracking-bp.png)
 

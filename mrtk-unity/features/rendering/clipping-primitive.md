@@ -1,18 +1,18 @@
 ---
-title: Примитив обрезки
+title: ClippingPrimitive
 description: Документация по примитивам обрезки с примерами в МРТК
 author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, отсеченный примитив,
-ms.openlocfilehash: c3331084f87ccc57208426910d84ed7bef457bc1
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 1feecbbd51eb80ff6113e66d053f032acb3005b9c7d1debbd5dfd46da0925798
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113176739"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115214420"
 ---
-# <a name="clipping-primitive"></a>Примитив обрезки
+# <a name="clipping-primitive"></a>ClippingPrimitive
 
 [`ClippingPrimitive`](xref:Microsoft.MixedReality.Toolkit.Utilities.ClippingPrimitive)Поведения позволяют выполнять [`plane`](xref:Microsoft.MixedReality.Toolkit.Utilities.ClippingPlane) [`sphere`](xref:Microsoft.MixedReality.Toolkit.Utilities.ClippingSphere) [`box`](xref:Microsoft.MixedReality.Toolkit.Utilities.ClippingBox) обрезание, и фигурную обрезку с возможностью указать, какая сторона примитива будет обрезаться (внутри или снаружи) при использовании с шейдерами мртк.
 
@@ -123,6 +123,6 @@ public class SecondClippingBox : ClippingBox
 
 Наконец, добавьте [`ClippingBox`](xref:Microsoft.MixedReality.Toolkit.Utilities.ClippingBox) компонент и секондклиппингбокс в сцену и укажите тот же модуль отрисовки для обоих полей. Теперь модуль подготовки отчетов должен быть обрезан обоими полями одновременно.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также раздел
 
-- [Стандартный шейдер MRTK](mrtk-standard-shader.md)
+- [Стандартный шейдер МРТК](mrtk-standard-shader.md)

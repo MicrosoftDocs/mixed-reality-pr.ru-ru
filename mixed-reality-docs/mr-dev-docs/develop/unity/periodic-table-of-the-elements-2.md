@@ -6,12 +6,12 @@ ms.author: dongpark
 ms.date: 07/27/2021
 ms.topic: article
 keywords: Windows Mixed Reality, проектирование, пример приложения, элементы управления, мртк, набор средств смешанной реальности, Unity, примеры приложений, примеры приложений, открытый исходный код, Microsoft Store, HoloLens, гарнитура смешанной реальности, гарнитура Windows Mixed reality, гарнитура виртуальной реальности, опенкср, open XR, Unity
-ms.openlocfilehash: 29dc4c99505d3f8e2d9bab70e54da25c1ab6c87b
-ms.sourcegitcommit: 9831b89a1641ba1b5df14419ee2a4f29d3fa2d64
+ms.openlocfilehash: 78961c73ee01efcd097d2dcc4456bce156287691fa6dc8e2121c817e4812bfac
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "114757430"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115211860"
 ---
 # <a name="periodic-table-of-the-elements-20"></a>Periodic Table of the Elements 2.0
 ![Таблица периодов приложения элементов](../images/MRDL_PeriodicTable.jpg)

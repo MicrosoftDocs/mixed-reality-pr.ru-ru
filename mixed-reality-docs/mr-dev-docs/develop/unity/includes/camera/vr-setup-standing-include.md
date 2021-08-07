@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 61fe8754192c1fbd0634fd9d1e1994327599321b
-ms.sourcegitcommit: 719682f70a75f732b573442fae8987be1acaaf19
+ms.openlocfilehash: 47dfba0fe2b64e3b7e03ae62af3de1e1e24bd70b8b1e7e6b2cb40995428dbda2
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "110748545"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115212342"
 ---
 # <a name="mrtk"></a>[MRTK](#tab/mrtk)
 <!-- NEVER CHANGE THE ABOVE LINE! -->
@@ -36,8 +36,8 @@ xrInputSubsystem.TrySetTrackingOriginMode(TrackingOriginModeFlags.Floor);
 # <a name="legacy-wsa"></a>[Устаревшая версия WSA](#tab/wsa)
 <!-- NEVER CHANGE THE ABOVE LINE! -->
 
-1. В разделе " **другие параметры** " окна " **Параметры проигрывателя магазина Windows** "
-2. Выберите **Windows Mixed Reality** в качестве устройства, которое может быть указано как **Windows holographic** в более ранних версиях Unity.
+1. перейдите в раздел **другие Параметры** **проигрывателя магазина Windows Параметры**
+2. выберите **Windows Mixed Reality** в качестве устройства, которое может быть указано как **Windows holographic** в более ранних версиях Unity.
 3. Выбрать **поддерживаемую виртуальную реальность**
 
 Так как основной объект Camera автоматически помечается как камера, Unity перемещает все движения и перевод.

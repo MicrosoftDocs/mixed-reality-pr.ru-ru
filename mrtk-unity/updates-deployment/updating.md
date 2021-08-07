@@ -5,12 +5,12 @@ author: polar-kev
 ms.author: kesemple
 ms.date: 04/19/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 5a914d6408d346dac0bf6c683f401564e875f4d8
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: a5d1e914fcbc44572e06c1fc3cbaba7ea0363287b9e670a423a4e63b17cb20a6
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113175104"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115210629"
 ---
 # <a name="updating-from-earlier-versions"></a>Обновление с предыдущих версий
 
@@ -306,7 +306,7 @@ if (CoreServices.InputSystem.GazeProvider is GazeProvider gazeProvider)
 
 **имикседреалитимауседевицеманажер**
 
-**_Добавлено_**
+**_Добавлен_**
 
 `IMixedRealityMouseDeviceManager` были добавлены `CursorSpeed` Свойства и `WheelSpeed` . Эти свойства позволяют приложениям указать значение множителя, на которое будут масштабироваться скорость курсора и колесика соответственно.
 
@@ -472,7 +472,7 @@ GameObject playAreaVisualization = CoreServices.BoundarySystem?.GetPlayAreaVisua
 - Предоставляет явный и детализированный контроль над тем, какие входные события следует прослушивать глобально, а какие — на основе фокуса.
 - Позволяет нескольким компонентам одного и того же объекта прослушивать глобальные события независимо друг от друга.
 
-**_Как выполнить миграцию_**
+**_Как осуществить перенос_**
 
 - Если ранее вы вызывали `Register` / `Unregister` API непосредственно, замените эти вызовы вызовами метода `RegisterHandler` / `UnregisterHandler` . Используйте интерфейсы обработчика, которые реализуются как универсальные параметры. Если вы реализуете несколько интерфейсов и несколько из них прослушивают глобальные события ввода, вызывайте их `RegisterHandler` несколько раз.
 - Если вы наследуете от `InputSystemGlobalListener` , измените наследование на `InputSystemGlobalHandlerListener` . Реализуйте `RegisterHandlers` и `UnregisterHandlers` абстрактные методы. В вызове реализации `inputSystem.RegisterHandler` ( `inputSystem.UnregisterHandler` ) для регистрации всех интерфейсов обработчика, для которых требуется прослушивать глобальные события.
@@ -555,11 +555,11 @@ class SampleHandler2 : MonoBehaviour, IMixedRealitySpeechHandler
 }
 ```
 
-**Поддержка пространственных сведений**
+**Отслеживание пространственного положения**
 
 Интерфейсы Имикседреалитиспатиалаваренесссистем и Имикседреалитиспатиалаваренессобсервер использовали несколько критических изменений, как описано ниже.
 
-**_Изменения_**
+**_Изменениями_**
 
 Следующие методы были переименованы для лучшего описания их использования.
 
@@ -583,12 +583,12 @@ class SampleHandler2 : MonoBehaviour, IMixedRealitySpeechHandler
 - `TrackedObjectToReference` общедоступное свойство устарело и было переименовано в `TrackedTargetType`
 - `TrackedObjectType` устаревшие левые & правильные значения контроллера. Вместо этого `MotionController` Используйте `HandJoint` значения или и обновите новое `TrackedHandedness` свойство, чтобы ограничить отслеживание до левого или правого контроллера.
 
-**_Промежуточное_**
+**_InBetween_**
 
 - `TrackedObjectForSecondTransform` общедоступное свойство устарело и было переименовано в `SecondTrackedObjectType`
 - `AttachSecondTransformToNewTrackedObject()` был удален. Чтобы обновить Поиск решения, измените открытые свойства (т. е. `SecondTrackedObjectType`)
 
-**_сурфацемагнетисм_**
+**_SurfaceMagnetism_**
 
 - `MaxDistance` общедоступное свойство устарело и было переименовано в `MaxRaycastDistance`
 - `CloseDistance` общедоступное свойство устарело и было переименовано в `ClosestDistance`

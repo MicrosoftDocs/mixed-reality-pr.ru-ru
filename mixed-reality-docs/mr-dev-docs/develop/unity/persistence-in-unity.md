@@ -5,13 +5,13 @@ author: thetuvix
 ms.author: alexturn
 ms.date: 02/24/2019
 ms.topic: article
-keywords: HoloLens, сохраняемость, Unity, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 7d12764dac2259388fe57d3924165783eab3dac5
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+keywords: HoloLens, сохраняемость, Unity, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности
+ms.openlocfilehash: 9283191c024cbe33ecda3946a4e9bcbd5f3708c21a3578484b547207ee70a49b
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98583490"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115208974"
 ---
 # <a name="persistence-in-unity"></a>Сохраняемость в Unity
 
@@ -101,7 +101,7 @@ for (int index = 0; index < ids.Length; index++)
 
 ## <a name="persisting-holograms-for-multiple-devices"></a>Сохранение голограмм для нескольких устройств
 
-<a href="/azure/spatial-anchors/overview" target="_blank">Пространственные привязки Azure</a> можно использовать для создания надежной облачной привязки на основе локальной ворлданчор, которая может быть размещена на нескольких устройствах HoloLens, iOS и Android, даже если эти устройства не находятся одновременно.  Так как облачные привязки являются постоянными, несколько устройств с течением времени могут видеть содержимое, отображаемое относительно этой привязки в том же физическом расположении.
+<a href="/azure/spatial-anchors/overview" target="_blank">пространственные привязки Azure</a> можно использовать для создания надежной облачной привязки на основе локальной ворлданчор, которая может быть размещена на нескольких устройствах HoloLens, iOS и Android, даже если эти устройства не находятся одновременно.  Так как облачные привязки являются постоянными, несколько устройств с течением времени могут видеть содержимое, отображаемое относительно этой привязки в том же физическом расположении.
 
 Чтобы приступить к созданию общих интерфейсов в Unity, ознакомьтесь с пошаговыми руководствами Unity по 5-минутной <a href="/azure/spatial-anchors/unity-overview" target="_blank">пространственной привязке Azure</a>.
 
@@ -123,5 +123,5 @@ for (int index = 0; index < ids.Length; index++)
 
 ## <a name="see-also"></a>См. также:
 * [Сохраняемость пространственной привязки](../../design/coordinate-systems.md#spatial-anchor-persistence)
-* <a href="/azure/spatial-anchors" target="_blank">Пространственные привязки Azure</a>
+* <a href="/azure/spatial-anchors" target="_blank">Пространственные привязки Azure.</a>
 * <a href="/dotnet/api/Microsoft.Azure.SpatialAnchors" target="_blank">Пакет SDK для пространственных привязок Azure для Unity</a>

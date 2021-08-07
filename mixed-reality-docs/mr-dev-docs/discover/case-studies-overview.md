@@ -5,13 +5,13 @@ author: grbury
 ms.author: grbury
 ms.date: 08/24/2019
 ms.topic: overview
-keywords: Windows Mixed Reality, HoloLens, пример внедрения, концепция, сценарии, примеры внедрения, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 696223d2c5d122a1b1c092a2769d27ac0e94046c
-ms.sourcegitcommit: cbfd1c37612aa6904fa41642ede6281d491e478d
+keywords: Windows Mixed Reality, HoloLens, пример внедрения, концепция, сценарии, примеры внедрения, гарнитура смешанной реальности, гарнитура Windows Mixed reality, гарнитура виртуальной реальности
+ms.openlocfilehash: a9a2cc3ed32d6a0f28a639fbbbb468930941e47afc5b8a0d35bb43b2c86144ff
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "104895165"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115209949"
 ---
 # <a name="case-study-gallery"></a>Коллекция примеров использования
 
@@ -29,8 +29,8 @@ ms.locfileid: "104895165"
         *Август 2017 г.*
     :::column-end:::
     :::column:::
-       [ ![ Создание холоскетч, пространственного макета и приложения для создания наброска](images/holosketch-image-01-640px.png)](../out-of-scope/case-study-building-holosketch,-a-spatial-layout-and-ux-sketching-app-for-hololens.md) , предназначенного для hololens **[здания холоскетч, пространственного макета и приложения наброска наметки UX для hololens](../out-of-scope/case-study-building-holosketch,-a-spatial-layout-and-ux-sketching-app-for-hololens.md)**<br>
-        Холоскетч — это пространственный макет на устройстве и средство создания наброска UX для HoloLens, помогающее в создании Holographic.<br>
+       [ ![ создание холоскетч, пространственного макета и приложения для наброска](images/holosketch-image-01-640px.png)](../out-of-scope/case-study-building-holosketch,-a-spatial-layout-and-ux-sketching-app-for-hololens.md) , предназначенного для HoloLens **[создания холоскетч, пространственного макета и приложения для наброска](../out-of-scope/case-study-building-holosketch,-a-spatial-layout-and-ux-sketching-app-for-hololens.md) , предназначенного для HoloLens**<br>
+        холоскетч — это пространственный макет на устройстве и средство создания наброска UX для HoloLens, чтобы помочь вам в создании holographic.<br>
          *Июль 2017 г.*
     :::column-end:::
 :::row-end:::
@@ -39,16 +39,16 @@ ms.locfileid: "104895165"
     :::column:::
        [ ![ Использование плоскости стабилизации для уменьшения holographic турбуленце](images/holotour-stabilization-plane-500px.jpg)](../develop/platform-capabilities-and-apis/case-study-using-the-stabilization-plane-to-reduce-holographic-turbulence.md) **[с помощью плоскости стабилизации, чтобы сократить турбуленце](../develop/platform-capabilities-and-apis/case-study-using-the-stabilization-plane-to-reduce-holographic-turbulence.md)**<br>
         Работа с голограммами может быть непростой. Тот факт, что вы можете перемещаться вокруг своего пространства и видеть самые голограммы из всех разных углов, обеспечивает уровень погружения, который нельзя получить с помощью обычного экрана компьютера.<br>
-        *Апрель 2017 г.*
+        *Апрель 2017 г.*
     :::column-end:::
     :::column:::
-       [ ![ Расширение возможностей пространственных сопоставлений hololens](images/away-from-camera-position-500px.png)](../out-of-scope/case-study-expanding-the-spatial-mapping-capabilities-of-hololens.md) **[расширение возможностей пространственного сопоставления в hololens](../out-of-scope/case-study-expanding-the-spatial-mapping-capabilities-of-hololens.md)**<br>
-        При создании наших первых приложений для Microsoft HoloLens мы затронули, насколько проводилась бы возможность отправки на устройстве границ пространственного сопоставления.<br>
+       [ ![ расширение возможностей пространственного сопоставления HoloLens](images/away-from-camera-position-500px.png)](../out-of-scope/case-study-expanding-the-spatial-mapping-capabilities-of-hololens.md) **[расширение возможностей пространственного сопоставления HoloLens](../out-of-scope/case-study-expanding-the-spatial-mapping-capabilities-of-hololens.md)**<br>
+        когда вы создаете наши первые приложения для Microsoft HoloLens, мы с самого начала смогли понять, насколько всего можно было бы передать границы пространственного сопоставления на устройстве.<br>
         *Декабрь 2016 г.*
     :::column-end:::
     :::column:::
        [ ![ Уроки из Лоу кухни](images/lowes.jpg)](../out-of-scope/case-study-lessons-from-the-lowes-kitchen.md) **[с кухни на лоу](../out-of-scope/case-study-lessons-from-the-lowes-kitchen.md)**<br>
-        Группа HoloLens хочет поделиться некоторыми рекомендациями, полученными из проекта HoloLens Лоу.<br>
+        группа HoloLens хочет поделиться некоторыми рекомендациями, полученными из проекта HoloLens лоу.<br>
         *Сентябрь 2016 г.*
     :::column-end:::
 :::row-end:::
@@ -56,12 +56,12 @@ ms.locfileid: "104895165"
 :::row:::
     :::column:::
        [ ![ Создание иммерсивного интерфейса в фрагментах](images/surfacereconstruction.jpg)](../out-of-scope/case-study-creating-an-immersive-experience-in-fragments.md) с **[помощью фрагментов](../out-of-scope/case-study-creating-an-immersive-experience-in-fragments.md)**<br>
-        Фрагменты — это интерактивные преступления, драма для Microsoft HoloLens, где вы подберете на себя подсказки для решения загадкы в реальной сфере.<br>
+        фрагменты — это интерактивные преступления, драма для Microsoft HoloLens, где вы подберете на себя подсказки для решения загадкы в реальной сфере.<br>
         *Август 2016 г.*
     :::column-end:::
     :::column:::
-       [ ![ 3 холостудио пользовательского интерфейса и проектирования взаимодействия обучение](images/thought-bubble-500px.jpg)](../out-of-scope/case-study-3-holostudio-ui-and-interaction-design-learnings.md) **[3 холостудио пользовательского интерфейса и модели взаимодействия](../out-of-scope/case-study-3-holostudio-ui-and-interaction-design-learnings.md)**<br>
-        Холостудио был одним из первых приложений для HoloLens. Поэтому нам пришлось создавать новые рекомендации по трехмерному ИНТЕРФЕЙСу и проектированию взаимодействия. Мы сделали это с помощью тестирования пользователей, создания прототипов, проб и ошибок.<br>
+       [ ![ 3 HoloStudio пользовательский интерфейс и руководство по проектированию для разработки](images/thought-bubble-500px.jpg)](../out-of-scope/case-study-3-holostudio-ui-and-interaction-design-learnings.md) и изучения **[3 HoloStudio пользовательского интерфейса и взаимодействия](../out-of-scope/case-study-3-holostudio-ui-and-interaction-design-learnings.md)**<br>
+        HoloStudio был одним из первых приложений для HoloLens. Поэтому нам пришлось создавать новые рекомендации по трехмерному ИНТЕРФЕЙСу и проектированию взаимодействия. Мы сделали это с помощью тестирования пользователей, создания прототипов, проб и ошибок.<br>
         *Июль 2016 г.*
     :::column-end:::
     :::column:::
@@ -72,17 +72,17 @@ ms.locfileid: "104895165"
 
 ## <a name="galaxy-explorer"></a>Galaxy Explorer
 
-Прежде чем приступить к работе с Microsoft HoloLens, мы спросили наше сообщество разработчиков, какого рода приложение хотели бы видеть для нового устройства опытную внутреннюю сборку. Было предоставлено более 5000 идей, и после опроса Twitter за 24 часа победителем является идея Galaxy Explorer.
+прежде чем приступать к Microsoft HoloLens, мы запросили наше сообщество разработчиков, какого рода приложение хотели бы видеть опытную внутреннюю сборку для нового устройства. Было предоставлено более 5000 идей, и после опроса Twitter за 24 часа победителем является идея Galaxy Explorer.
 
 :::row:::
     :::column:::
        Создание [ ![ Galaxy в смешанной реальности](images/full-galaxy-500px.png)](../out-of-scope/case-study-creating-a-galaxy-in-mixed-reality.md) **[Создание Galaxy в смешанной реальности](../out-of-scope/case-study-creating-a-galaxy-in-mixed-reality.md)**<br>
-        Прежде чем приступить к работе с Microsoft HoloLens, мы спросили наше сообщество разработчиков, какого рода приложение хотели бы видеть для нового устройства опытную внутреннюю сборку. Было предоставлено более 5000 идей, и после опроса Twitter за 24 часа победителем является идея Galaxy Explorer.<br>
+        прежде чем приступать к Microsoft HoloLens, мы запросили наше сообщество разработчиков, какого рода приложение хотели бы видеть опытную внутреннюю сборку для нового устройства. Было предоставлено более 5000 идей, и после опроса Twitter за 24 часа победителем является идея Galaxy Explorer.<br>
          *Февраль 2016 г.*
     :::column-end:::
     :::column:::
-       [ ![ Создание обозревателя Galaxy для hololens 2](../develop/unity/images/ge-update-interactions-concept-force-grab.png)](../develop/unity/galaxy-explorer-update.md) **[Создание Galaxy Explorer для hololens 2](../develop/unity/galaxy-explorer-update.md)**<br>
-        Добро пожаловать в то, как мы обновляем обозреватель Galaxy для HoloLens 2. Обозреватель Galaxy изначально разрабатывался как приложение с открытым исходным кодом для HoloLens (1-го поколения) с помощью программы поделиться своими идеями, и это одна из самых разных возможностей смешанной реальности. Теперь мы обновляем его для новых возможностей HoloLens 2.<br>
+       [ ![ создание обозревателя Galaxy для HoloLens 2](../develop/unity/images/ge-update-interactions-concept-force-grab.png)](../develop/unity/galaxy-explorer-update.md) **[создания Galaxy explorer для HoloLens 2](../develop/unity/galaxy-explorer-update.md)**<br>
+        Добро пожаловать в то, как мы обновляем Galaxy Explorer для HoloLens 2. Galaxy Explorer изначально разрабатывался в качестве приложения с открытым исходным кодом для HoloLens (1-го поколения) с помощью программы поделиться своими идеями и является одной из первых пользователей смешанной реальности. Теперь мы обновляем его для новых возможностей HoloLens 2.<br>
         *Июнь 2019 г.*
     :::column-end:::
     :::column:::
@@ -93,17 +93,17 @@ ms.locfileid: "104895165"
 
 ## <a name="holotour"></a>холотаур
 
-Холотаур для Microsoft HoloLens предоставляет впечатляющие трехмерные обзоры значков по всему миру. По мере того, как дизайнеры, исполнители, производители, проектировщики аудио и разработчики работают над этим проектом, создание убедительной трехмерной отрисовки хорошо известного расположения берет на себя уникальную смесь мастеров творческих и технологических решений.
+холотаур для Microsoft HoloLens предоставляет впечатляющие трехмерные обзоры значков по всему миру. По мере того, как дизайнеры, исполнители, производители, проектировщики аудио и разработчики работают над этим проектом, создание убедительной трехмерной отрисовки хорошо известного расположения берет на себя уникальную смесь мастеров творческих и технологических решений.
 
 :::row:::
     :::column:::
        [ ![ Проектирование пространственного звука для](../out-of-scope/images/recreated-colosseum-holotour-500px.png)](../design/case-study-spatial-sound-design-for-holotour.md) **[холотаурного](../design/case-study-spatial-sound-design-for-holotour.md) холотаурного звука**<br>
-        Чтобы создать полноценный трехмерный виртуальный обзор для Microsoft HoloLens, панорамные видео и holographic пейзажей являются частью формулы.<br>
+        чтобы создать полноценный трехмерный виртуальный обзор для Microsoft HoloLens, панорамные видео и holographic пейзажей являются частью формулы.<br>
          *Август 2016 г.*
     :::column-end:::
     :::column:::
        [ ![ Создание невозможнай перспективы для холотаур](../out-of-scope/images/rome-colosseum-overlay-500px.png)](../out-of-scope/case-study-creating-impossible-perspectives-for-holotour.md) **[Создание невозможнай перспективы для холотаур](../out-of-scope/case-study-creating-impossible-perspectives-for-holotour.md)**<br>
-        Мы хотели, чтобы ваш опыт в Холотаур для HoloLens был унфоржеттабле. Помимо традиционных таурист, мы планировали некоторые «невозможные перспективы».<br>
+        мы хотели, чтобы ваш опыт в холотаур HoloLens унфоржеттабле. Помимо традиционных таурист, мы планировали некоторые «невозможные перспективы».<br>
         *Август 2016 г.*
     :::column-end:::
     :::column:::
@@ -122,12 +122,12 @@ ms.locfileid: "104895165"
 :::row:::
     :::column:::
        [ ![ Использование пространственного звука в робораид](../design/images/successful-dodge-roboraid-500px.jpg)](../design/case-study-using-spatial-sound-in-roboraid.md) **[с использованием пространственного звука в робораид](../design/case-study-using-spatial-sound-in-roboraid.md)**<br>
-        Пространственный звук — одна из самых интересных возможностей Microsoft HoloLens, которая позволяет пользователям воспринимать все, что происходит, когда объекты находятся за пределами.<br>
+        пространственный звук — одна из наиболее интересных функций Microsoft HoloLens, предоставляющая пользователям возможность воспринимать их, когда объекты выходят из линии анализа.<br>
          *Февраль 2016 г.*
     :::column-end:::
     :::column:::
        [ ![ Взгляд](../develop/unity/images/roboraid-640px.png)](../out-of-scope/case-study-looking-through-holes-in-your-reality.md) на бреши в реальности с помощью брешей **[в реальности](../out-of-scope/case-study-looking-through-holes-in-your-reality.md)**<br>
-        В этом практическом примере объясняется, как реализовать воздействие "волшебное окно" на HoloLens, что позволяет пользователю видеть позади стен, в пол и в виртуальных вакансиях в реальной среде.<br>
+        в этом практическом примере объясняется, как реализовать "магическое окно" на HoloLens, позволяя пользователю видеть за стенки, в пол и в виртуальных вакансиях в реальной среде.<br>
         *Февраль 2016 г.*
     :::column-end:::
     :::column:::
@@ -147,8 +147,8 @@ ms.locfileid: "104895165"
          *Ноябрь 2017 г.*
     :::column-end:::
     :::column:::
-       [ ![ Мой первый год в группе проектирования hololens](../develop/unity/images/MotionController.jpg)](../out-of-scope/case-study-my-first-year-on-the-hololens-design-team.md) в **[первый год в группе проектирования hololens](../out-of-scope/case-study-my-first-year-on-the-hololens-design-team.md)**<br>
-        Мой путешествие от 2D-Флатланд к трехмерному миру начинается, когда я присоединился к группе проектирования HoloLens в январе 2016.<br>
+       [ ![ мой первый год в группе разработки HoloLens](../develop/unity/images/MotionController.jpg)](../out-of-scope/case-study-my-first-year-on-the-hololens-design-team.md) в **[первый год в группе разработки HoloLens](../out-of-scope/case-study-my-first-year-on-the-hololens-design-team.md)**<br>
+        мой путешествие от 2d-флатланд к трехмерному миру начался, когда я присоединился к группе проектирования HoloLens в январе 2016.<br>
         *Январь 2016 г.*
     :::column-end:::
     :::column:::
@@ -162,7 +162,7 @@ ms.locfileid: "104895165"
     :::column:::
        [ ![ Афтернов процесс — выработка, создание прототипов](../out-of-scope/images/whatisenvisioning-640px.png)](../out-of-scope/case-study-afternows-process-envisioning,-prototyping,-building.md) , **[формирование афтернов процессов, создание прототипов, разработка](../out-of-scope/case-study-afternows-process-envisioning,-prototyping,-building.md)**<br>
         В Афтернов мы работаем над тем, чтобы превратить свои идеи и стремлений в конкретные, полностью операционные продукты и готовую среду для рынка. Но прежде чем писать одну строку кода, мы создадим проект с помощью процесса, который называется представлением.<br>
-        *Апрель 2017 г.*
+        *Апрель 2017 г.*
     :::column-end:::
     :::column:::
     :::column-end:::

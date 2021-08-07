@@ -6,12 +6,12 @@ ms.author: dongpark
 ms.date: 06/07/2021
 ms.topic: article
 keywords: набор средств для смешанной реальности, мртк, примеры, HoloLens, HoloLens 2, шейдеры, подсказки, взаимодействие с руки, обрезка, ограничивающие прямоугольники, кнопки, меню руки, планшет, ползунок
-ms.openlocfilehash: d8d2bb40ff1c95e01cb051f36de04beb93829ba1
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 0797657f6863acafce70914b58581e5f83ec5ada7b2595801936dec337dd9024
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113177471"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115214817"
 ---
 # <a name="example-scenes"></a>Примеры сцен
 

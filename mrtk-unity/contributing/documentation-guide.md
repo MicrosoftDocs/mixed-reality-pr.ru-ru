@@ -1,18 +1,18 @@
 ---
-title: Руководства по документации
+title: Руководство по документации
 description: руководства и стандарты документации для МРТК.
 author: polar-kev
 ms.author: kesemple
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 95af19b71a9fe06dabad058e75f78d951262ba4a
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: aa583876d4ca9e115d4ea4507638eebab838207230693cb7c24b781d8f0b020b
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113175351"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115210728"
 ---
-# <a name="documentation-guidelines"></a>Руководства по документации
+# <a name="documentation-guidelines"></a>Руководство по документации
 
 <img src="../features/images/MRTK_Logo_Rev.png" alt="MRTK">
 
@@ -303,7 +303,7 @@ int SampleFunction(int i)
 
 Некоторые важные функции имеют стоимость производительности. Часто этот код будет очень в зависимости от того, как они настроены.
 
-Пример.
+Пример:
 
 ```md
 When using the spatial mapping component, the performance impact will increase with the level of detail requested.  
@@ -318,7 +318,7 @@ It is recommended to use the least detail possible for the desired experience.
 
 Файлы в области функций breaking-changes.md содержат список всех известных критических изменений для данного выпуска **,** а также историю критических изменений из прошлых выпусков.
 
-Пример.
+Пример:
 
 ```md
 Spatial sound breaking changes
@@ -350,6 +350,6 @@ No known breaking changes
 
 Оба эти пакета поставляются в пакет создания опубликованных документов Майкрософт.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также раздел
 
 - [Пример "см. также" ссылку на документацию](https://www.microsoft.com)

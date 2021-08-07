@@ -5,12 +5,12 @@ author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, расширения системы,
-ms.openlocfilehash: 668df40cec9b9443b37f63d80fcf8a1ca2e0bcbc
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 347c4b7603c58a09c98bce738beff02a751a3e47549154109bd2b661ba13e9a6
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113177426"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115211528"
 ---
 # <a name="systems-extension-services-and-data-providers"></a>Системы, службы расширений и поставщики данных
 
@@ -96,7 +96,7 @@ if (inputSimulationService != null)
 
 Сведения о создании поставщика данных для входной системы МРТК см. в разделе [Создание входного системного поставщика данных](../features/input/create-data-provider.md).
 
-### <a name="spatial-awareness"></a>Поддержка пространственных сведений
+### <a name="spatial-awareness"></a>Отслеживание пространственного положения
 
 Система пространственной осведомленности МРТК использует только поставщики данных, реализующие [`IMixedRealitySpatialAwarenessObserver`](xref:Microsoft.MixedReality.Toolkit.SpatialAwareness.IMixedRealitySpatialAwarenessObserver) интерфейс.
 
@@ -136,9 +136,9 @@ if (dataProvider != null)
 
 Сведения о написании поставщика данных для системы поддержки пространственной информации МРТК см. в разделе [Создание системного поставщика данных с](../features/spatial-awareness/create-data-provider.md)поддержкой пространственного доступа.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также раздел
 
-- [Службы расширений](../features/extensions/extension-services.md)
+- [Службы расширения](../features/extensions/extension-services.md)
 - [Создание поставщика входных системных данных](../features/input/create-data-provider.md)
 - [Создание поставщика системных системных данных для пространственного отслеживания](../features/spatial-awareness/create-data-provider.md)
 - [Интерфейс Имикседреалитисервице](xref:Microsoft.MixedReality.Toolkit.IMixedRealityService)

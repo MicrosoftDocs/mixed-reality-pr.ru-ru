@@ -5,12 +5,12 @@ author: CDiaz-MS
 ms.author: cadia
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, манипуляция
-ms.openlocfilehash: 179ef40ba054b0fda3b13e9d578905eb064a58ab
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 24034c43bf8ce1f1ef463e894e9ca5293c2b0d2a146284535b161f8b4277dfa9
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113176635"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115190214"
 ---
 # <a name="manipulation-handler"></a>Обработчик манипуляции
 
@@ -74,7 +74,7 @@ ms.locfileid: "113176635"
 
 **Ограничения при повороте** Указывает, на какой оси объект будет вращаться при взаимодействии с.
 
-* *Нет*
+* *None*
 * *Только ось X*
 * *Только ось Y*
 * *Только ось Z*
@@ -83,7 +83,7 @@ ms.locfileid: "113176635"
 
 **Ограничения на перемещение**
 
-* *Нет*
+* *None*
 * *Исправление расстояния от головного заголовков*
 
 **Сглаживание активно** Указывает, активно ли сглаживание.

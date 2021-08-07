@@ -5,12 +5,12 @@ author: polar-kev
 ms.author: kesemple
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, C#,
-ms.openlocfilehash: c14f5f72d391c5474a01c798bfdaa5529700a509
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: fe54a9fe1f906a31ac7ed0417dd3a57fee167314b4b2db29eadcd1eaa22f97b7
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113175332"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115210740"
 ---
 # <a name="coding-guidelines"></a>Рекомендации по программированию
 
@@ -682,12 +682,12 @@ public class MyClass
 
 |Платформа | IL2CPP UWP | UWP .NET | Редактор |
 | --- | --- | --- | --- |
-| `UNITY_EDITOR` | Неверно | False | Да |
-| `UNITY_WSA` | Да | Да | Да |
-| `WINDOWS_UWP` | Да | Да | False |
-| `UNITY_WSA && !UNITY_EDITOR` | Да | Да | False |
-| `ENABLE_WINMD_SUPPORT` | Да | Да | Неверно |
-| `NETFX_CORE` | False | Да | Неверно |
+| `UNITY_EDITOR` | False | False | True |
+| `UNITY_WSA` | True | True | True |
+| `WINDOWS_UWP` | True | True | False |
+| `UNITY_WSA && !UNITY_EDITOR` | True | True | False |
+| `ENABLE_WINMD_SUPPORT` | True | True | False |
+| `NETFX_CORE` | False | True | False |
 
 ### <a name="prefer-datetimeutcnow-over-datetimenow"></a>Предпочитать DateTime. UtcNow через DateTime. Now
 
@@ -699,6 +699,6 @@ DateTime. UtcNow работает быстрее, чем DateTime. Now. В пр�
 
 Подмножество базы кода МРТК использует PowerShell для инфраструктуры конвейера и различных сценариев и служебных программ. Новый код PowerShell должен соответствовать [стилю пошкоде](https://poshcode.gitbooks.io/powershell-practice-and-style/).
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также раздел
 
  [Соглашения о написании кода на C# из MSDN](/dotnet/csharp/programming-guide/inside-a-program/coding-conventions)

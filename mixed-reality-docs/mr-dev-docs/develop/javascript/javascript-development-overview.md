@@ -5,13 +5,13 @@ author: yonet
 ms.author: ayyonet
 ms.date: 04/10/2020
 ms.topic: article
-keywords: JavaScript, Вебкср, Винмр, Вебар, Вебвр, Виндовсмикседреалити, HoloLens, Windows Mixed Reality, веб-VR, Web XR, Web MR, Web AR, 360, 360 Video, 360 видео, 360 Photo, 360 фотографии, 360 Content, иммерсивное Интернет, иммерсивное веб-сайт, IW, иммерсивевеб
-ms.openlocfilehash: 311241d9dec6f5d086a45766c040b1b2b9eb4128
-ms.sourcegitcommit: 6ade7e8ebab7003fc24f9e0b5fa81d091369622c
+keywords: JavaScript, вебкср, винмр, вебар, вебвр, виндовсмикседреалити, HoloLens, windows mixed reality, веб-vr, web xr, web mr, web ar, 360, 360 video, 360 видео, 360 photo, 360 фотографии, 360 content, иммерсивное интернет, иммерсивное веб-сайт, IW, иммерсивевеб
+ms.openlocfilehash: de6314b5651740eca23a9078d4b05e1d92344d1742ea433d7b924cbde4457b8c
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112394348"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115210510"
 ---
 # <a name="javascript-development-overview"></a>Обзор разработки в JavaScript
 
@@ -35,14 +35,14 @@ JavaScript — один из самых популярных языков про
 |[**Three.js**](https://threejs.org) <br/><br/>Three.js — популярная трехмерная библиотека для создания впечатляющих возможностей. Дополнительные сведения о [three.js](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene) на странице документации и о [примерах](https://threejs.org/examples/#webgl_animation_cloth)см. здесь. |![Three.js](images/three.js.example.png)  |
 |[**WebGL**](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)  <br/><br/>Доступ к API устройства Вебкср можно получить непосредственно с помощью API-интерфейсов WebGL. WebGL (Библиотека веб-графики) — это API JavaScript для визуализации высокопроизводительной интерактивной трехмерной и двухмерной графики в любом совместимом веб-браузере без использования подключаемых модулей. |![WebGL](images/webgl.example.png)  |
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Узнайте, как приступить к работе с нашими учебниками.
 
 > [!div class="nextstepaction"]
 > [Создайте свое первое приложение "Hello World!"](tutorials/babylonjs-webxr-helloworld/introduction-01.md)
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 * [Обзор Вебкср](webxr-overview.md)
 * [Спецификация API устройства Вебкср](https://immersive-web.github.io/webxr/)
@@ -50,7 +50,7 @@ JavaScript — один из самых популярных языков про
 * [Immersiveweb.dev](https://immersiveweb.dev/)
 * [Примеры Вебкср](https://immersive-web.github.io/webxr-samples/)
 * [Использование Babylon.js для создания Вебксрных возможностей](https://doc.babylonjs.com/how_to/introduction_to_webxr)
-* [Windows Mixed Reality и новая Microsoft ребро](/windows/mixed-reality/new-microsoft-edge#introducing-the-new-microsoft-edge)
+* [Windows Mixed Reality и новый Microsoft Edge](/windows/mixed-reality/new-microsoft-edge#introducing-the-new-microsoft-edge)
 * [Иммерсивное веб-сайт W3C GitHub](https://github.com/immersive-web)
 * [API WebGL](/previous-versions/windows/internet-explorer/ie-developer/dev-guides/bg182648(v=vs.85))
 * Расширения [API](https://msdn.microsoft.com/library/dn743630(v=vs.85).aspx) и [игровой](https://w3c.github.io/gamepad/extensions.html) планшета

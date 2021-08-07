@@ -8,12 +8,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, смешанная реальность, виртуальная реальность, VR, MR, Ultra, совместимая, совместимость, требования к системе, пк
 appliesto:
 - Windows 10
-ms.openlocfilehash: b7c2b4b84440e7cdd22c2c0cd7d5f9830d55625f
-ms.sourcegitcommit: 9831b89a1641ba1b5df14419ee2a4f29d3fa2d64
+ms.openlocfilehash: ed9113c5aa54d74678fcd6f888fa96007533d0d27e921f91aa6feeda459d11b7
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "114757040"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115187860"
 ---
 # <a name="windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines"></a>Windows Mixed Reality минимальные рекомендации по совместимости оборудования пк
 
@@ -168,7 +168,7 @@ Windows 10 включает Windows Mixed Reality на различных гар
 * Для продуктов Surface требуется, чтобы обновления драйверов были совместимы с Windows Mixed Reality. эти драйверы можно установить на вашем компьютере, перейдя в **Параметры > Update и Security > проверить наличие обновлений**.
 * для устройств surface требуется [адаптер](Recommended-adapters-for-Windows-Mixed-Reality-Capable-PCs.md) из видеопортов (Mini дисплайпорт или USB-C, в зависимости от компьютера Surface) с HDMI 2,0 для головных телефонов Windows Mixed Reality. Последняя версия Mini-DisplayPort Surface для адаптера HDMI AV совместима с HDMI 2,0 (старая версия не поддерживается). Аналогичным образом, <a href="https://www.microsoft.com/en-us/store/d/surface-usb-c-to-hdmi-adapter/94chb2m80s54/4gj5">карта USB-C и HDMI</a> также СОВМЕСТИМА с HDMI 2,0.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Спросить у сообщества](https://answers.microsoft.com)
 * [Свяжитесь с нами для получения поддержки](https://support.microsoft.com/contactus/)

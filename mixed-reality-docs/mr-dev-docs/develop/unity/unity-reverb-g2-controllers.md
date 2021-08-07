@@ -1,29 +1,29 @@
 ---
-title: HP reverbы G2 Controllers в Unity
-description: Узнайте, как настроить и использовать новые контроллеры HP reverbы G2 в приложениях Unity Стеамвр и Windows Mixed Reality.
+title: HP Reverb G2 — контроллеры в Unity
+description: узнайте, как настроить и использовать новые контроллеры HP reverb G2 в стеамвр и Windows Mixed Reality приложениях Unity.
 author: hferrone
 ms.author: v-hferrone
 ms.date: 10/14/2020
 ms.topic: article
 keywords: Unity, переглагол, переглаголы G2, HP reverbы G2, Mixed Reality, разработка, контроллеры движения, ввод данных, функции, новый проект, эмулятор, документация, руководства, функции, голограммы, Разработка игр
-ms.openlocfilehash: 26435ef57c9baf59b1008fb4750aedd913a19814
-ms.sourcegitcommit: 1304f8f0a838290c1ae3db34670b67c75ea9bdaa
+ms.openlocfilehash: 4e561cb1e46fe487f1b25ed526f0adeafc2de6c525835ffe3b1871d7516b233e
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "99421401"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115215628"
 ---
-# <a name="hp-reverb-g2-controllers-in-unity"></a>HP reverbы G2 Controllers в Unity
+# <a name="hp-reverb-g2-controllers-in-unity"></a>HP Reverb G2 — контроллеры в Unity
 
-HP Motion Controllers — это новый тип контроллеров Windows Mixed Reality: все те же технологии отслеживания с слегка отличающимся набором доступных входных данных: 
+HP Motion controllers — это новый тип контроллеров Windows Mixed Reality: все технологии отслеживания с слегка отличающимся набором доступных входных данных: 
 
 * Сенсорная панель была заменена двумя кнопками: A и B для правильного контроллера, а также X и Y для левого контроллера. 
 * Теперь это триггер, который публикует поток значений между 0,0 и 1,0 вместо кнопки с нажатыми и не нажимаемыми состояниями. 
 
-Так как новые входные данные недоступны через существующие API-интерфейсы Windows и Unity, необходим выделенный пакет **Microsoft. микседреалити. Input** УПМ. 
+так как новые входные данные недоступны через существующие интерфейсы api Windows и Unity, необходим выделенный пакет **Microsoft. микседреалити. Input** упм. 
 
 > [!IMPORTANT]
-> **Классы в этом пакете не заменяют существующие интерфейсы API Windows и Unity, но дополняют их.** Функции, которые обычно доступны как классическим контроллерам Windows Mixed Reality, так и HP Motion Controller, доступны через один и тот же путь кода с помощью существующих API. Только новые входные данные должны использовать дополнительный пакет Microsoft. Микседреалити. input. 
+> **классы в этом пакете не заменяют существующие интерфейсы api Windows и Unity, но дополняют их.** функции, которые обычно доступны как классическим контроллерам Windows Mixed Reality, так и HP Motion controller, доступны через один и тот же путь кода с помощью существующих api. Только новые входные данные должны использовать дополнительный пакет Microsoft. Микседреалити. input. 
 
 ## <a name="hp-motion-controller-overview"></a>Обзор контроллера движения HP
 
@@ -33,7 +33,7 @@ HP Motion Controllers — это новый тип контроллеров Wind
 
 ## <a name="installing-microsoftmixedrealityinput-with-the-mixed-reality-feature-tool"></a>Установка Microsoft. Микседреалити. input с помощью инструмента "функция смешанной реальности"
 
-Установите подключаемый модуль Microsoft. Микседреалити. input, используя новое приложение средства "функция смешанной реальности". Следуйте [инструкциям по установке и использованию](welcome-to-mr-feature-tool.md) и выберите **входной пакет Mixed Reality** в категории "набор средств смешанной реальности":
+Установите подключаемый модуль Microsoft. Микседреалити. input, используя новое приложение средства "функция смешанной реальности". следуйте [инструкциям по установке и использованию](welcome-to-mr-feature-tool.md) и выберите **входной пакет mixed reality** в категории набор средств смешанной реальности:
 
 ![Окно пакетов инструмента "функция смешанной реальности" с выделенным входом смешанной реальности](images/feature-tool-mrinput.png)
 
@@ -478,7 +478,7 @@ private void stateCache_InputPressed(object sender, MotionControllerStateCache.M
 } 
 ```
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <!-- ## Getting started
 

@@ -5,19 +5,19 @@ author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: a44e5f32cda2803091e27ae1a2c30a1976385a2f
-ms.sourcegitcommit: 8b4c2b1aac83bc8adf46acfd92b564f899ef7735
+ms.openlocfilehash: f2391ab0c67880c8902092be6fcecefcf30f008c7f31ea76879d399e35e1491b
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113121612"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115212675"
 ---
 # <a name="framework-and-runtime"></a>Платформа и среда выполнения
 
 ## <a name="changes-to-the-scene"></a>Изменения сцены
 
 Чтобы использовать набор средств, экземпляр скрипта Микседреалититулкит должен находиться в сцене.
-Чтобы добавить его, используйте пункт меню: набор средств для смешанной реальности — > добавить в сцену и настроить. Этот экземпляр отвечает за регистрацию, обновление и уничтожение служб. Здесь также выбран профиль конфигурации.
+чтобы добавить его, используйте пункт меню: Mixed Reality набор средств-> добавить в сцену и настроить. Этот экземпляр отвечает за регистрацию, обновление и уничтожение служб. Здесь также выбран профиль конфигурации.
 
 Помимо добавления МРТК GameObject к сцене, команда меню также будет:
 

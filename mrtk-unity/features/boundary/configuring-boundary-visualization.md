@@ -5,12 +5,12 @@ author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, система границ,
-ms.openlocfilehash: 77bdaedb60700bac27643ae718c795c02e5ee7e7
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 29ffe7826d797fd32387fab42f24232f98ab283740848b7fce928718f95f0fc9
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113177092"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115211556"
 ---
 # <a name="configuring-boundary-visualization"></a>Настройка визуализации границ
 
@@ -114,7 +114,7 @@ ms.locfileid: "113177092"
 > [!NOTE]
 > Установка компонента граничного потолка на физический уровень, отличный от *Ignore райкаст* , может препятствовать взаимодействию пользователей с объектами в сцене.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также раздел
 
 - [Документация по API границ](xref:Microsoft.MixedReality.Toolkit.Boundary)
 - [Система границ](boundary-system-getting-started.md)

@@ -1,18 +1,18 @@
 ---
-title: Пакеты МРТК
+title: Пакеты MRTK
 description: Пакеты в МРТК, поддерживающие оборудование и платформы смешанной реальности.
 author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, Unity диспетчер пакетов,
-ms.openlocfilehash: 3c2a11dd4036a78ccb96aa2c640ef8324181c1e0
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 13f18c0a43d8b0cf6cc8eb66949b506c51ca9bbaa733e74cd38de110f70d8ee1
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113176502"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115212572"
 ---
-# <a name="mrtk-packages"></a>Пакеты МРТК
+# <a name="mrtk-packages"></a>Пакеты MRTK
 
 набор средств "mixed reality" (мртк) — это набор пакетов, которые позволяют выполнять разработку приложений смешанной среды с разными платформами, обеспечивая поддержку оборудования и платформ смешанной реальности.
 
@@ -43,7 +43,7 @@ ms.locfileid: "113176502"
 
 Доступны следующие пакеты:
 
-- [Базовый](#foundation-package)
+- [Foundation](#foundation-package)
 - [Расширения](#extensions-package)
 - [Инструменты](#tools-package)
 - [Служебные программы тестирования](#test-utilities-package)
@@ -305,7 +305,7 @@ ms.locfileid: "113176502"
 - Foundation ( `com.microsoft.mixedreality.toolkit.foundation` )
 - Расширения (`com.microsoft.mixedreality.toolkit.extensions`)
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также раздел
 
 - [Общие сведения об архитектуре](../architecture/overview.md)
 - [Системы, службы расширений и поставщики данных](../architecture/systems-extensions-providers.md)

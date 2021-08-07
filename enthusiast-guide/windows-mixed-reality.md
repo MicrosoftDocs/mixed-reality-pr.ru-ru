@@ -1,17 +1,17 @@
 ---
 title: Что такое Windows Mixed Reality?
-description: Общие сведения о ключевых понятиях, функциях и использовании Windows Mixed Reality.
+description: общие сведения о Windows Mixed Reality основных понятиях, функциях и использовании.
 author: hferrone
 ms.author: v-hferrone
 ms.date: 10/15/2020
 ms.topic: overview
-keywords: Windows Mixed Reality, Смешанная реальность, виртуальная реальность, VR, MR,
-ms.openlocfilehash: 7e4d1fd89047154ae91107aef5f86aa4164744e8
-ms.sourcegitcommit: 2cdc2e38990fff24972d98f9e74f0dabacbffa7d
+keywords: Windows Mixed Reality, смешанная реальность, Virtual reality, VR, MR,
+ms.openlocfilehash: 66af3039c152330cfc9e5df933f86595b42e5d43c8a4a28d035c5e53d23c42c1
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "92156615"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115187824"
 ---
 # <a name="what-is-windows-mixed-reality"></a>Что такое Windows Mixed Reality?
 

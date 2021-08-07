@@ -6,13 +6,13 @@ author: jessemcculloch
 ms.author: jemccull
 ms.date: 02/21/2020
 ms.topic: article
-keywords: Смешанная реальность, Конференция, встреча, разработчик, HoloLens, HoloLens 2, Kinect
-ms.openlocfilehash: 9ff4d53b277f23a0b9abc6de7531db11240b800b
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+keywords: смешанная реальность, конференция, встреча, разработчик, HoloLens, HoloLens 2, Kinect
+ms.openlocfilehash: b456455b95dc225a012133d22fc5fb04c5a6d0cfe81ea91e016b79712f80d449
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91692688"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115209438"
 ---
 ![Mixed Reality Dev Days](../whats-new/images/MRDD/MRDevDaysBanner.png)  
 

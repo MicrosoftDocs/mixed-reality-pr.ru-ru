@@ -1,18 +1,18 @@
 ---
-title: Экземпляр материала
+title: MaterialInstance
 description: Документация по экземпляру материала и его применению в МРТК
 author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, материалинстанце,
-ms.openlocfilehash: ecd8f9e14564cbd03cb6faa848b06ca55a024207
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 6d9a2a35a009bfce1fcfae15000ea02c47be637a8c5a483254ea30d9948922e5
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113176727"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115210054"
 ---
-# <a name="material-instance"></a>Экземпляр материала
+# <a name="material-instance"></a>MaterialInstance
 
 [`MaterialInstance`](xref:Microsoft.MixedReality.Toolkit.Rendering.MaterialInstance)Поведение АИДЕС в процессе отслеживания времени существования материала экземпляра и автоматически уничтожает экземпляры материалов для пользователя. Этот служебный компонент можно использовать в качестве замены для модуля [подготовки. материалов](https://docs.unity3d.com/ScriptReference/Renderer-material.html) или модуля подготовки отчетов. [материалы](https://docs.unity3d.com/ScriptReference/Renderer-materials.html).
 
@@ -105,6 +105,6 @@ public class MyBehaviour : MonoBehaviour,  IMaterialInstanceOwner
 
 Дополнительные сведения см. в примере использования, продемонстрированном в описании [`ClippingPrimitive`](xref:Microsoft.MixedReality.Toolkit.Utilities.ClippingPrimitive) поведения.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также раздел
 
-* [Стандартный шейдер MRTK](mrtk-standard-shader.md)
+* [Стандартный шейдер МРТК](mrtk-standard-shader.md)

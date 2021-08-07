@@ -5,13 +5,13 @@ author: hferrone
 ms.author: v-hferrone
 ms.date: 10/26/2020
 ms.topic: article
-keywords: Windows Mixed Reality, Макуетте, создание прототипов, Смешанная реальность, виртуальная реальность, VR, MR, обратная связь, центр обратной связи, ошибки
-ms.openlocfilehash: 2082352ddc8b3c1b635c60e76a7b45453710b95a
-ms.sourcegitcommit: fae413a2b0420e787671af90f14ee39cde51640f
+keywords: Windows Mixed Reality, макуетте, создание прототипов, смешанная реальность, виртуальная реальность, VR, MR, отзыв, центр обратной связи, ошибки
+ms.openlocfilehash: 30cc8a033b266e8f17822df799b53a1373a1b540187c155f829c399328f6588a
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "94935557"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115189206"
 ---
 # <a name="working-with-excel-data"></a>Работа с данными Excel
 

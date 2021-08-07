@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: f937b705f10cc4a287600349283ecaed4ae44666
-ms.sourcegitcommit: 72970dbe6674e28c250f741e50a44a238bb162d4
+ms.openlocfilehash: ad45cf8df4e51d17533c8e57b9ffe67738676d2af5398dd320cc86be469d5803
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "112908007"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115208890"
 ---
 # <a name="world-locking-tools-recommended"></a>[Средства блокировки по всему миру (рекомендуется)](#tab/wlt)
 
@@ -29,7 +29,7 @@ ms.locfileid: "112908007"
 using Microsoft.MixedReality.ARSubsystems.XRAnchorStore
 ```
 
-или **Unity 2019/2020 + Windows XR подключаемый модуль**: 
+или **подключаемый модуль XR для Unity 2019/2020 + Windows**: 
 
 ```cs 
 using UnityEngine.XR.WindowsMR.XRAnchorStore
@@ -68,7 +68,7 @@ using UnityEngine.XR.WindowsMR.XRAnchorStore
 public static Task<XRAnchorStore> LoadAnchorStoreAsync(this XRAnchorSubsystem anchorSubsystem)
 ```
 
-Чтобы загрузить Ксранчорсторе с **Unity 2019/2020 и подключаемым модулем Windows XR**, используйте метод расширения в Ксрреференцепоинтсубсистем (Unity 2019) или Ксранчорсубсистем (Unity 2020), подсистему Арреференцепоинтманажер/ARAnchorManager:
+чтобы загрузить ксранчорсторе с **Unity 2019/2020 и подключаемым модулем Windows XR**, используйте метод расширения в ксрреференцепоинтсубсистем (unity 2019) или ксранчорсубсистем (unity 2020), подсистему арреференцепоинтманажер/ARAnchorManager:
 
 ```cs
 // Unity 2019 + Windows XR Plugin
@@ -87,7 +87,7 @@ ARAnchorManager arAnchorManager = GetComponent<ARAnchorManager>();
 XRAnchorStore anchorStore = await arAnchorManager.subsystem.LoadAnchorStoreAsync();
 ```
 
-или с **Unity 2019/2020 и подключаемым модулем Windows XR**:
+или с **Unity 2019/2020 и Windows подключаемым модулем XR**:
 
 ``` cs
 // Unity 2019
@@ -193,7 +193,7 @@ for (int index = 0; index < ids.Length; index++)
 
 ## <a name="persisting-holograms-for-multiple-devices"></a>Сохранение голограмм для нескольких устройств
 
-<a href="/azure/spatial-anchors/overview" target="_blank">Пространственные привязки Azure</a> можно использовать для создания надежной облачной привязки на основе локальной ворлданчор, которая может быть размещена на нескольких устройствах HoloLens, iOS и Android, даже если эти устройства не находятся одновременно.  Так как облачные привязки являются постоянными, несколько устройств с течением времени могут видеть содержимое, отображаемое относительно этой привязки в том же физическом расположении.
+<a href="/azure/spatial-anchors/overview" target="_blank">пространственные привязки Azure</a> можно использовать для создания надежной облачной привязки на основе локальной ворлданчор, которая может быть размещена на нескольких устройствах HoloLens, iOS и Android, даже если эти устройства не находятся одновременно.  Так как облачные привязки являются постоянными, несколько устройств с течением времени могут видеть содержимое, отображаемое относительно этой привязки в том же физическом расположении.
 
 Чтобы приступить к созданию общих интерфейсов в Unity, ознакомьтесь с пошаговыми руководствами Unity по 5-минутной <a href="/azure/spatial-anchors/unity-overview" target="_blank">пространственной привязке Azure</a>.
 

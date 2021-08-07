@@ -1,26 +1,26 @@
 ---
-title: Основы качества
+title: Quality Fundamentals
 description: Узнайте о принципах разработки приложений смешанной реальности.
 author: qianw211
 ms.author: v-qianwen
 ms.date: 07/15/2021
 ms.topic: article
 keywords: основы качества, пример внедрения, проект, образец, мртк, смешанная реальность набор средств, Unity, примеры приложений, примеры приложений, открытый исходный код, Microsoft Store, HoloLens, гарнитура смешанной реальности, гарнитура windows Mixed reality, гарнитура виртуальной реальности
-ms.openlocfilehash: e91ea1c69aeafaafa9c9bae30af6e5a288754764
-ms.sourcegitcommit: cf8df1720ddb8236207ab581bc149edcc76e6199
+ms.openlocfilehash: a8189ca8cb161bb792ad298535c32eac1a47260d8d5559c2383e0322b2cbeb03
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "114702951"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115211995"
 ---
-# <a name="quality-fundamentals"></a>Основы качества
+# <a name="quality-fundamentals"></a>Quality Fundamentals
 
 основы качества — это HoloLens 2ное приложение, демонстрирующее основы создания отличной среды смешанной реальности.  Вместо того чтобы изучать и читать сведения о проблемах с качеством в смешанной реальности, мы можем использовать распространенные проблемы с окружающей средой, проектированием и производительностью и решениями на практике, выбрав параметры, предоставленные в приложении.
 
 Чтобы скачать и установить приложение, перейдите на страницу загрузки приложения:
 
 > [!div class="nextstepaction"]
-> [Основы качества](https://www.microsoft.com/p/quality-fundamentals/9mwz852q88fw?activetab=pivot:overviewtab)
+> [Quality Fundamentals](https://www.microsoft.com/p/quality-fundamentals/9mwz852q88fw?activetab=pivot:overviewtab)
 
 ![Домашняя страница основы качества](images\qf-homepage.jpg)
 

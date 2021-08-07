@@ -1,17 +1,17 @@
 ---
-ms.openlocfilehash: 76f72ac81b677acabf98444f626b7a6b908c29fb
-ms.sourcegitcommit: 719682f70a75f732b573442fae8987be1acaaf19
+ms.openlocfilehash: 73aba70497323d406b5138eca9c7d2054b8d8b3cea6e82ef67e962a21876c280
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "110748496"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115212299"
 ---
 # <a name="mrtk"></a>[MRTK](#tab/mrtk)
 <!-- NEVER CHANGE THE ABOVE LINE! -->
 
 МРТК будет автоматически выполнять определенные настройки камеры в зависимости от [конфигурации в профиле системы камеры](/windows/mixed-reality/mrtk-unity/features/camera-system/camera-system-overview#display-settings).
 
-**Пространство имен:** *Microsoft. микседреалити. Toolkit. камерасистем*<br>
+**пространство имен:** *Microsoft. микседреалити. набор средств. Камерасистем*<br>
 **Тип:** *микседреалитикамерасистем*
 
 Чтобы проверить непрозрачность камеры, система Микседреалитикамера имеет [ `IsOpaque` свойство](/dotnet/api/microsoft.mixedreality.toolkit.camerasystem.mixedrealitycamerasystem.isopaque).

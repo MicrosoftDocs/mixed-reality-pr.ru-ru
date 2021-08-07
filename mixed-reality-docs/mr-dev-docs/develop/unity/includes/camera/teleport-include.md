@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 0a4f6f1262bcaa69a8755223d738bbd88bd7a6a8
-ms.sourcegitcommit: 719682f70a75f732b573442fae8987be1acaaf19
+ms.openlocfilehash: 879d8083f832e716389e4b4598aa0fffe6930ff1c06d7a07fe9e4dacc98e7937
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "110748487"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115212338"
 ---
 # <a name="mrtk"></a>[MRTK](#tab/mrtk)
 <!-- NEVER CHANGE THE ABOVE LINE! -->
@@ -15,7 +15,7 @@ ms.locfileid: "110748487"
 <!-- NEVER CHANGE THE ABOVE LINE! -->
 
 Мы рекомендуем использовать МРТКную реализацию для переноса.
-Если вы решили не использовать МРТК, Unity предоставляет реализацию телетранспорта в [наборе средств XR для взаимодействия](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@1.0/manual/locomotion.html).
+если вы решили не использовать мртк, Unity предоставляет реализацию телетранспорта в [набор средств взаимодействия XR](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@1.0/manual/locomotion.html).
 Если вы решили реализовать собственное, то помните, что вы не можете перемещать камеру напрямую. Из-за управления камерой с помощью камеры для отслеживания головок необходимо предоставить камере родительский элемент в иерархии и переместить этот GameObject. Это эквивалентно Плайспаце МРТК.
 
 # <a name="legacy-wsa"></a>[Устаревшая версия WSA](#tab/wsa)

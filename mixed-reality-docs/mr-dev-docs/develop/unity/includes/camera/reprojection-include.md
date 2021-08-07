@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: c5775d29fb3934d324cceb6dc451e6588d15fe6d
-ms.sourcegitcommit: 0db5777954697f1d738469363bbf385481204d24
+ms.openlocfilehash: d30bf4b5c382ca953314996dd51087427224e872158b607fd1c5f4c85c62a124
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "105636362"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115212337"
 ---
 # <a name="mrtk"></a>[MRTK](#tab/mrtk)
 <!-- NEVER CHANGE THE ABOVE LINE! -->
@@ -18,7 +18,7 @@ ms.locfileid: "105636362"
 
 Например, если вы создаете [интерфейс только для ориентации](../../../../design/coordinate-systems.md#building-an-orientation-only-or-seated-scale-experience) с содержимым, защищенным телом (например, видео с 360-градусами), можно явно задать для режима РЕПРОЕКЦИИ значение только ориентация, задав для него значение [репрожектионмоде. ориентатиононли](https://docs.unity3d.com/ScriptReference/XR.XRDisplaySubsystem.ReprojectionMode.html).
 
-# <a name="legacy-wsa"></a>[Устаревший WSA](#tab/wsa)
+# <a name="legacy-wsa"></a>[Устаревшая версия WSA](#tab/wsa)
 <!-- NEVER CHANGE THE ABOVE LINE! -->
 
 Режим перепроекции можно настроить, задав для [холографиксеттингс. репрожектионмоде](https://docs.unity3d.com/2018.4/Documentation/ScriptReference/XR.WSA.HolographicSettings.ReprojectionMode.html) соответствующее значение.

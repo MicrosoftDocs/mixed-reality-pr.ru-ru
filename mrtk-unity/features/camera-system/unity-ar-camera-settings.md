@@ -1,16 +1,16 @@
 ---
-title: Параметры камеры Unity AR
+title: Параметры камеры дополненной реальности Unity
 description: Документация по использованию камеры AR в МРТК
 author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
-keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, AR Camera,
-ms.openlocfilehash: e1c032805bc4b733cfcc51e1ceac5096c73715cf
-ms.sourcegitcommit: 8b4c2b1aac83bc8adf46acfd92b564f899ef7735
+keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, AR Camera,
+ms.openlocfilehash: a2d145823557b473bd7d34170b283e782151c24277b8f16586516ffe78f8e735
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113121202"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115210072"
 ---
 # <a name="unity-ar-camera-settings-provider"></a>Поставщик параметров камеры Unity AR
 
@@ -72,7 +72,7 @@ ms.locfileid: "113121202"
 
 Значение по умолчанию для типа отслеживания — **Update и перед отрисовкой**, чтобы обеспечить наименьшую задержку отслеживания.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
-- [Обзор системы поддержки камер](camera-system-overview.md)
-- [Создание поставщика параметров камеры](create-settings-provider.md)
+- [Обзор системы камеры](camera-system-overview.md)
+- [создание поставщика Параметры камеры](create-settings-provider.md)
