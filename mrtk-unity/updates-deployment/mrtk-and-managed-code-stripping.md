@@ -1,18 +1,18 @@
 ---
-title: МРТК и удаление управляемого кода
+title: MRTK и удаление управляемого кода
 description: Удаление кода в МРТК и Unity
 author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 8b8e0f4488a6e955e599084c0b59d8c80f553a78
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 4348adf1d9cb2e7fc74cf5258e3272baaac96a5fc34565873cf35ae93225bdbe
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113176289"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115221874"
 ---
-# <a name="mrtk-and-managed-code-stripping"></a>МРТК и удаление управляемого кода
+# <a name="mrtk-and-managed-code-stripping"></a>MRTK и удаление управляемого кода
 
 При использовании серверной части скриптов IL2CPP для Unity (необязательно в Unity 2018,4, обязательное в 2019 и более поздних версиях) происходит удаление [управляемого кода](https://docs.unity3d.com/Manual/ManagedCodeStripping.html) .
 Компоновщик Unity выполняет этот процесс для уменьшения двоичного размера, а также для уменьшения времени сборки.
@@ -63,7 +63,7 @@ ms.locfileid: "113176289"
 
 Дополнительные сведения о link.xml формате файлов см. в документации по Unity.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также раздел
 
 - [Unity: обрезает управляемый код](https://docs.unity3d.com/Manual/ManagedCodeStripping.html)
 - [Unity: компоновка XML-файла](https://docs.unity3d.com/Manual/ManagedCodeStripping.html#LinkXML)

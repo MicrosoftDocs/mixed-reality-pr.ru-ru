@@ -4,13 +4,13 @@ description: Документация по Интерактивилемент М
 author: CDiaz-MS
 ms.author: cadia
 ms.date: 02/22/2021
-keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК, интерактивный элемент, взаимодействие
-ms.openlocfilehash: 65f518c53414d68d3a9d2093cb427140cc65560b
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, интерактивный элемент, взаимодействие
+ms.openlocfilehash: 6d8f36c4780844e991eb32943645402503fab8340c6843dbb607f1c11033d912
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110144767"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115220606"
 ---
 # <a name="interactive-element-experimental"></a>Interactive, элемент [экспериментальный]
 
@@ -30,7 +30,7 @@ ms.locfileid: "110144767"
 
 ### <a name="current-core-states"></a>Текущие основные состояния
 
-- [Default](#default-state) 
+- [По умолчанию](#default-state) 
 
 Основные состояния в ближайшем и дальнем взаимодействии:
 - [Фокус](#focus-state) 
@@ -580,7 +580,7 @@ myNewStateEvents.OnStateOn.AddListener(() =>
 
 ## <a name="animatable-properties"></a>Свойства с анимацией
 
-Основным назначением свойств, которые можно анимировать, является упрощение настройки опорного кадра анимации.  Если пользователь знаком с системой анимации Unity и предпочитает непосредственно задавать опорные кадры на созданных роликах анимации, они могут просто не добавлять анимированные свойства в целевой объект и открывать клип в окне анимации Unity (анимация Windows > анимации >). 
+Основным назначением свойств, которые можно анимировать, является упрощение настройки опорного кадра анимации.  если пользователь знаком с системой анимации Unity и предпочитает непосредственно задавать опорные кадры на созданных роликах анимации, они могут просто не добавлять анимированные свойства в целевой объект и открывать клип в окне анимации Unity (Windows > анимации > анимации). 
 
 Если для анимации используются анимированные свойства, для типа кривой устанавливается значение Еасеинаут.
 
@@ -604,7 +604,7 @@ myNewStateEvents.OnStateOn.AddListener(() =>
 
 ![Смещение позиции с помощью взаимодействия виртуальной руки](../images/interactive-element/InEditor/Gifs/PositionOffset.gif)
 
-### <a name="color"></a>Цвет
+### <a name="color"></a>Color
 
 Свойство "анимация цвета" представляет основной цвет материала, если материал имеет свойство основного цвета. Это свойство анимирует `material._Color` свойство.
 
@@ -642,9 +642,9 @@ myNewStateEvents.OnStateOn.AddListener(() =>
 
     ![Свойства анимации модуля подготовки сетки в окне аниматор](../images/interactive-element/StateVisualizer/MeshRendererProperties.png)
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 - [**Кнопки**](../ux-building-blocks/button.md)
-- [**Элемент управления границами**](../ux-building-blocks/bounds-control.md)
+- [**Элемент управления Bounds**](../ux-building-blocks/bounds-control.md)
 - [**Коллекция объектов Grid**](../ux-building-blocks/object-collection.md)
 - [**Поиск решения Радиалвиев**](../ux-building-blocks/solvers/solver.md)

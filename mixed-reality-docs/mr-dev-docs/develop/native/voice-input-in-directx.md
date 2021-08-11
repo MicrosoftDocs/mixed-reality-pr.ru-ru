@@ -1,24 +1,24 @@
 ---
 title: Голосовой ввод в DirectX
-description: В этой статье объясняется, как реализовать голосовые команды и небольшие фразы и распознавание предложений в приложении DirectX для Windows Mixed Reality.
+description: Объясняется, как реализовать голосовые команды и небольшие фразы и распознавание предложений в приложении DirectX для Windows Mixed Reality.
 author: mikeriches
 ms.author: mriches
 ms.date: 08/04/2020
 ms.topic: article
 keywords: Пошаговое руководство, голосовая команда, фраза, распознавание, речь, DirectX, платформа, Кортана, Windows Mixed Reality
-ms.openlocfilehash: 5f7ed587b474d147c0b13e4896a89f655f8dc30b
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: e30d5c2101bed4b613111b6131a3e94d654c3ff5b1e913f4d8e275ffc1a2776a
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98583742"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115221844"
 ---
 # <a name="voice-input-in-directx"></a>Голосовой ввод в DirectX
 
 > [!NOTE]
 > Эта статья связана с устаревшими собственными API-интерфейсами WinRT.  Для новых проектов собственных приложений рекомендуется использовать **[API опенкср](openxr-getting-started.md)**.
 
-В этой статье объясняется, как реализовать [голосовые команды](../../design/voice-input.md) , а также распознавание строчных фраз и предложений в приложении DirectX для Windows Mixed Reality.
+В этой статье объясняется, как реализовать [голосовые команды](../../design/voice-input.md) , а также распознавание строчных и прописных выражений в приложении DirectX для Windows Mixed Reality.
 
 >[!NOTE]
 >В фрагментах кода в этой статье используется C++/CX вместо C + +17, совместимого с C++/WinRT, который используется в [шаблоне проекта C++ holographic](creating-a-holographic-directx-project.md).  Понятия эквивалентны для проекта C++/WinRT, но необходимо преобразовать код.
@@ -27,7 +27,7 @@ ms.locfileid: "98583742"
 
 В этом разделе описывается использование непрерывного распознавания речи для включения голосовых команд в приложении. В этом пошаговом руководстве используется код из примера [холографиквоицеинпут](https://go.microsoft.com/fwlink/p/?LinkId=844964) . При запуске образца говорите с именем одной из команд зарегистрированного цвета, чтобы изменить цвет вращающегося куба.
 
-Сначала создайте новый экземпляр *Windows:: Media:: спичрекогнитион:: спичрекогнизер* .
+сначала создайте новый экземпляр *Windows:: Media:: спичрекогнитион:: спичрекогнизер* .
 
 Из *холографиквоицеинпутсамплемаин:: креатеспичконстраинтсфоркуррентстате*:
 
@@ -284,7 +284,7 @@ catch (Exception^ exception)
 
 ## <a name="use-continuous-recognition"></a>Использовать непрерывное распознавание
 
-Сведения о сценарии непрерывной диктовки см. в [примере кода речи Windows 10 UWP](https://github.com/Microsoft/Windows-universal-samples/blob/master/Samples/SpeechRecognitionAndSynthesis/cpp/Scenario_ContinuousDictation.xaml.cpp).
+сведения о сценарии непрерывной диктовки см. в подразделе [пример кода речи Windows 10 UWP](https://github.com/Microsoft/Windows-universal-samples/blob/master/Samples/SpeechRecognitionAndSynthesis/cpp/Scenario_ContinuousDictation.xaml.cpp).
 
 ## <a name="handle-quality-degradation"></a>Обработано снижение качества
 

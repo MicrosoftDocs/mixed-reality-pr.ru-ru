@@ -6,12 +6,12 @@ ms.author: kkennedy
 ms.date: 03/21/2018
 ms.topic: article
 keywords: образ объемные, подготовка тома, производительность, Смешанная реальность
-ms.openlocfilehash: 2a76be80d786aea0c8bc1bd364155fa37d37e151
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+ms.openlocfilehash: 3843f0f4e49a0564b41d834231630d281aa9e874df8d35c4feaa4fe5bba0ed68
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98008784"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115220936"
 ---
 # <a name="volume-rendering"></a>Объемная отрисовка
 

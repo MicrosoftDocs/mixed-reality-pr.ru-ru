@@ -1,23 +1,23 @@
 ---
 title: Технический документ о фотокамере — ИССКК 2018
-description: Технический документ, в котором обсуждается камера с глубиной, которая будет использоваться в Project Kinect для Azure и следующей версии HoloLens.
+description: технический документ, в котором обсуждается использование камеры с глубиной использования в Project Kinect для Azure и следующей версии HoloLens.
 author: mattzmsft
 ms.author: mazeller
 ms.date: 7/5/2018
 ms.topic: article
 keywords: Event, ИСКК, компьютерное зрение, исследование, Kinect, hololens, глубина, ТОФ
-ms.openlocfilehash: b692f9deeb7768e57ab6161b2c356a6610f18ed9
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+ms.openlocfilehash: b2d8107dcbe9c2b23ba05cd660e207b69334ad5917041304bcad5ddb578e56eb
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91695153"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115219844"
 ---
 # <a name="depth-camera-whitepaper---isscc-2018"></a>Технический документ о фотокамере — ИССКК 2018
 
 **Title:** 1MPIXEL 65Nm BSI 320MHz демодуляциовый датчик изображения тоф с 3,5 μм глобальные Пиксели затвора и аналоговый группирования
 
-**Участники:** Цирус S Бамжи, Свати Мехта, Барри Thompson, Тамер Елкхатиб, Стефан Вурстер, Онур Аккайа, Эндрю Пайне, Джон Годбаз, Mike Фентон, Виджай Ражасекаран, Ларри Прасер, Сатья Nagaraja, Vishali Mogallapu, область «данные снег, Rich McCauley, Mustansir Mukadam, ISKENDER AGI, (Shaun, McCarthy Zhanping, Xu Travis, Перри Уильям, Qian-, VEI Prabhu, Adepu Ali, Gazi Muneeb, Ахмед Aditya, Mukherjee Sheethal, Nayak Дейв
+**Участники:** Цирус S Бамжи, Свати Мехта, Барри Thompson, Тамер Елкхатиб, Стефан Вурстер, Онур Аккайа, Эндрю Пайне, Джон Годбаз, Mike Фентон, Виджай Ражасекаран, Ларри Прасер, Сатья Nagaraja, Vishali Mogallapu, область «данные снег, Rich McCauley, Mustansir Mukadam, ISKENDER AGI, (Shaun McCarthy, Zhanping XU, Travis Перри, уильям Qian, Prabhu Adepu, Gazi Muneeb, Ахмед Ali, Aditya Mukherjee, Vei-Han Sheethal, Nayak Дейв, Gampell Сунила
 
 **Представлено в ИССКК 2018 и Опубликовано в ИССКК град. Tech. papers, Фев 2018.**
 

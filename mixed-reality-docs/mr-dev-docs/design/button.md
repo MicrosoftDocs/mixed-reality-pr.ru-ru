@@ -5,24 +5,24 @@ author: cre8ivepark
 ms.author: dongpark
 ms.date: 11/01/2019
 ms.topic: article
-keywords: Смешанная реальность, элементы управления, взаимодействие, Пользовательский интерфейс, UX, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности, кнопка
-ms.openlocfilehash: ddad8b23950bddd03dd4024497c212d1cc950fb0
-ms.sourcegitcommit: 9ae76b339968f035c703d9c1fe57ddecb33198e3
+keywords: смешанная реальность, элементы управления, взаимодействие, пользовательский интерфейс, ux, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности, HoloLens, мртк, смешанная реальность набор средств, кнопка
+ms.openlocfilehash: 602d5b8784c97676e29574e4a5b0ffb7b240f07c2c43bbe68e0f8bc49db9dd1f
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110600373"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115219325"
 ---
 # <a name="button"></a>Button
 
 ![Button](images/UX_Hero_Button.jpg)
 
-Кнопка позволяет пользователям запускать немедленные действия в смешанной реальности. В HoloLens 2 кнопки имеют визуальные подсказки и аффорданцес, помогающие повысить степень взаимодействия с пользователями. 
+Кнопка позволяет пользователям запускать немедленные действия в смешанной реальности. в HoloLens 2 кнопки имеют визуальные подсказки и аффорданцес, помогающие повысить степень взаимодействия с пользователями. 
 
 :::row:::
     :::column:::
        ![Кнопка с отображаемым рядом эффектов](images/UX_Button_Affordance_ProximityLight.jpg)<br>
-       **Неблизкое освещение**<br>
+       **ProximityLight**<br>
     :::column-end:::
     :::column:::
        ![Кнопка, выбранная с отображаемым результатом выделения фокуса](images/UX_Button_Affordance_FocusHighlight.jpg)<br>
@@ -45,8 +45,8 @@ ms.locfileid: "110600373"
 
 ---
 
-## <a name="button-in-mrtkmixed-reality-toolkit-for-unity"></a>Кнопка в МРТК (набор средств для смешанной реальности) для Unity
-**[Мртк для Unity](https://github.com/Microsoft/MixedRealityToolkit-Unity)** предоставляет различные типы кнопок Prefabs, включая кнопки в стиле оболочки для hololens 2 и hololens (1-й общий). Кнопка HoloLens 2 prefab содержит несколько подробных аффорданцес, помогающих повысить уверенность пользователей:
+## <a name="button-in-mrtkmixed-reality-toolkit-for-unity"></a>кнопка в мртк (Mixed Reality набор средств) для Unity
+**[мртк для Unity](https://github.com/Microsoft/MixedRealityToolkit-Unity)** предоставляет различные типы кнопок prefabs, включая кнопки в стиле оболочки для HoloLens 2 и HoloLens (1-й общий). кнопка HoloLens 2 prefab содержит несколько подробных аффорданцес, помогающих повысить уверенность пользователей.
 
 * Выделение на основе близости
 * Сжатие передней части корпуса

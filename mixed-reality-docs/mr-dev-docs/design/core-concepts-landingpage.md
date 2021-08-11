@@ -5,17 +5,17 @@ author: grbury
 ms.author: grbury
 ms.date: 10/02/2019
 ms.topic: overview
-keywords: Windows Mixed Reality, проектирование, шаблоны приложений, элементы управления, стиль, HoloLens, взаимодействие, элементы UX, поведения, стандартные блоки, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности, комфорт, модель приложений, координата, holographic
-ms.openlocfilehash: 60fa024769ee0f81e4c2cc1c16550d296b4f646f
-ms.sourcegitcommit: d340303cda71c31e6c3320231473d623c0930d33
+keywords: Windows Mixed Reality, проектирование, шаблоны приложений, элементы управления, стиль HoloLens, взаимодействие, элементы UX, поведения, стандартные блоки, гарнитура смешанной реальности, гарнитура Windows Mixed reality, гарнитура виртуальной реальности, HoloLens, мртк, набор средств смешанной реальности, комфорт, модель приложений, координата, holographic
+ms.openlocfilehash: 2cac725c62cb435b458deb2716edb7a07aa450ae9e0295a6bfe0cb7c1fabceb8
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97847573"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115219367"
 ---
 # <a name="core-concepts-overview"></a>Обзор основных принципов
 
-![Непосредственное манипулирование с помощью рук](images/05_CoreConcepts.png)
+![Непосредственное манипулирование руками](images/05_CoreConcepts.png)
 
 Прежде чем углубляться в разработку, полезно понять несколько основных концепций. В каждом разделе ниже приводится базовый фактор, который влияет на качество создаваемой смешанной реальности. 
 

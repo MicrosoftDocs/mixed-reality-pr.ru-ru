@@ -5,12 +5,12 @@ author: CDiaz-MS
 ms.author: cadia
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, эйетраккинг,
-ms.openlocfilehash: 4cdeaa10725e00ac1a041c3692d64c1bd6488854
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 32ae64a470572dda71578948d5091887bea9e0e084d97ede7f2f14af596b5a6b
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113175547"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115223222"
 ---
 # <a name="eye-tracking-examples-overview"></a>Обзор примеров отслеживания взгляда
 

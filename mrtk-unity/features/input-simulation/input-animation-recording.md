@@ -1,18 +1,18 @@
 ---
-title: Запись анимации ввода
+title: Запись анимации входных данных
 description: Документация по системе записи анимации ввода в МРТК
 author: CDiaz-MS
 ms.author: cadia
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 6bdb764c5905352b9aec7c1512a73e727b60573a
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 1a900b7b419a0aca45c3601ed583ef6c2e326574cb9e732edd0474afe117b895
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113176938"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115223075"
 ---
-# <a name="input-animation-recording"></a>Запись анимации ввода
+# <a name="input-animation-recording"></a>Запись анимации входных данных
 
 МРТК включает в себя систему записи, с помощью которой можно хранить данные отслеживания головного и ручного хранения в файлах анимации. Затем записанные данные можно воспроизводить с помощью [системы имитации ввода](input-simulation-service.md).
 

@@ -5,12 +5,12 @@ author: vaoliva
 ms.author: vaolivaa
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, прокрутка объекта
-ms.openlocfilehash: a724b9fb4a0f72910e16353a6c76b9e31005a76e
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: a97ea9919cf484cf5240dde027f38baca37ba9570588bca032bee9c116aed873
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113176601"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115221756"
 ---
 # <a name="scrolling-object-collection"></a>Прокрутка коллекции объектов
 
@@ -73,7 +73,7 @@ ms.locfileid: "113176601"
 
 ### <a name="testing-the-scrolling-object-collection-in-the-editor"></a>Тестирование коллекции объектов с прокруткой в редакторе
 
-1. Нажмите кнопку Воспроизвести и удерживайте пробел, чтобы отобразить руки имитации ввода.
+1. Нажмите кнопку воспроизведения и удерживайте пробел, чтобы отобразить руку имитации ввода.
 1. Передвиньте руку до тех пор, пока не прокручивается прокрутка или интерактивное содержимое с прокруткой не станет активным и активируйте перемещение с прокруткой, щелкнув и перетащив левую кнопку мыши.
 
 ## <a name="controlling-the-scrolling-object-from-code"></a>Управление объектом прокрутки из кода
@@ -97,7 +97,7 @@ public class ScrollablePagination : MonoBehaviour
 
 ## <a name="scrolling-object-collection-properties"></a>Прокрутка свойств коллекции объектов
 
-| Общие сведения          | Описание                                   |
+| Общие          | Описание                                   |
 | :--------------- | :-------------------------------------------- |
 | Направление прокрутки | Направление прокрутки содержимого. |
 
@@ -152,9 +152,9 @@ public class ScrollablePagination : MonoBehaviour
 
 ![Прокрутка коллекции объектов Prefabs](../images/scrolling-collection/ScrollingObjectCollection_Prefabs.png)
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также раздел
 
-* [ClippingPrimitive](../rendering/clipping-primitive.md)
-* [MaterialInstance](../rendering/material-instance.md)
+* [Примитив обрезки](../rendering/clipping-primitive.md)
+* [Экземпляр материала](../rendering/material-instance.md)
 * [Стандартный шейдер](../rendering/MRTK-standard-shader.md)
 * [Коллекция объектов](object-collection.md)

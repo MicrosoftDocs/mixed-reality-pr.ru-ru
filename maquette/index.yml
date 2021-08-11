@@ -9,12 +9,12 @@ metadata:
   author: hferrone
   ms.author: v-hferrone
   ms.date: 10/26/2020
-  ms.openlocfilehash: 8993c77e1fce0948f7dd5ea05085089851f0f6c6
-  ms.sourcegitcommit: fae413a2b0420e787671af90f14ee39cde51640f
+  ms.openlocfilehash: bd075217fb90f76c92663401a7bcd6baf535b7b6b16318b14bd7619c1cbbc144
+  ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 11/19/2020
-  ms.locfileid: "94935276"
+  ms.lasthandoff: 08/05/2021
+  ms.locfileid: "115221864"
 landingContent:
 - title: О Maquette
   linkLists:

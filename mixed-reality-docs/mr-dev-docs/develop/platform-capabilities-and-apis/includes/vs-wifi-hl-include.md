@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 74ea48401290fdefc23b6db46125c4281757dfe3
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: 2ba8064a23af044211644d39cf07427c3c2896b2a8ffdacf20c1a96db713e78f
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "100496101"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115221137"
 ---
 # <a name="hololens-2"></a>[HoloLens 2](#tab/hl2)
 

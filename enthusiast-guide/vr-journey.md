@@ -6,12 +6,12 @@ ms.author: v-hferrone
 ms.date: 10/15/2020
 ms.topic: overview
 keywords: Windows Mixed Reality, смешанная реальность, Virtual reality, VR, MR,
-ms.openlocfilehash: 333da855b7fc995fa40ff66d9da59a38000bf133
-ms.sourcegitcommit: f98884074db7cf334efbaa396059566843c73d56
+ms.openlocfilehash: 43926de06badda7861825eb343991c67942b38a59c670e7142862116322465a4
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "114225136"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115221358"
 ---
 # <a name="start-your-vr-journey"></a>Начало работы с технологией виртуальной реальности
 

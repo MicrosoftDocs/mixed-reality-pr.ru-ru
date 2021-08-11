@@ -5,12 +5,12 @@ author: cadia
 ms.author: cadia
 ms.date: 05/27/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, C#, участники, Community
-ms.openlocfilehash: ae8cc8b1ab26a12188622a2c846dddd381491dc2
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: b80b61549d4780dcbc2dace411beba2d268caf94fc38939bbce39eadffc8077c
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113177291"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115228724"
 ---
 # <a name="authors"></a>Авторы
 

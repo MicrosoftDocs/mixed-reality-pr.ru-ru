@@ -7,12 +7,12 @@ ms.date: 04/11/2019
 ms.topic: article
 ms.localizationpriority: high
 keywords: смешанная реальность, взгляд, нацеливание взглядом, взаимодействие, проектирование, hololens, ММR, мультимодальный, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens
-ms.openlocfilehash: 55e23ac2fb802af599fb9cc7d771d89d6ba36c47
-ms.sourcegitcommit: 8f141a843bcfc57e1b18cc606292186b8ac72641
+ms.openlocfilehash: 6fddec8b0ed9b8f2230b963d1a795b7309473d7f91e32dd8382b747b6f3655da
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110196419"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115222790"
 ---
 # <a name="introducing-instinctual-interactions"></a>Знакомство с инстинктивным взаимодействием
 

@@ -5,12 +5,12 @@ author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 9d960d01e738736edd452a124db5c306b5d752ce
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 9e657e0b90f8087670b72c993ab1dcf78ae9e6680873139c6867d7c551a41895
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113176131"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115220052"
 ---
 # <a name="migration-window"></a>Окно миграции
 
@@ -46,7 +46,7 @@ ms.locfileid: "113176131"
 
 ![Перенос завершенного проекта](../images/migration-window/MRTK_Project_Migration.png)
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также раздел
 
 - [Обновление с предыдущих версий](../../updates-deployment/updating.md)
 - [выпуски набор средств Microsoft Mixed Reality](../../release-notes/mrtk-26-release-notes.md)

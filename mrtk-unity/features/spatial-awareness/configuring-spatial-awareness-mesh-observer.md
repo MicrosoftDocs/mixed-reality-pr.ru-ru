@@ -5,12 +5,12 @@ author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: aba49e88d4fc555a88fe42e4b09858f1d2453ddc
-ms.sourcegitcommit: 912fa204ef79e9b973eab9b862846ba5ed5cd69f
+ms.openlocfilehash: 00a3b9afe1970239f52b1ead4f87f930c5826ba75522b99a52cf368249c9fd83
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "114281932"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115228461"
 ---
 # <a name="configuring-mesh-observers-for-device"></a>Настройка наблюдателей сетки для устройства
 
@@ -128,7 +128,7 @@ ms.locfileid: "114281932"
 
 Указывает материал, который будет использоваться для окклуде голограмм.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 * [Система пространственной осведомленности](spatial-awareness-getting-started.md)
 * [Настройка системы пространственной осведомленности с помощью кода](usage-guide.md)

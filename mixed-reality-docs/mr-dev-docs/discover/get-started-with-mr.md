@@ -7,12 +7,12 @@ ms.date: 12/9/2020
 ms.topic: overview
 ms.localizationpriority: high
 keywords: смешанная реальность, обнаружение, распространение, указатель, целевая страница, проектирование, разработка, учебники, примеры приложений, основы, примеры использования, ресурсы, практические руководства по HoloLens, проекты с открытым кодом, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: e3c30429109de367993357701092154741ca571b
-ms.sourcegitcommit: b4fd969b9c2e6313aa728b0dbee4b25014668720
+ms.openlocfilehash: 7d875b1e4aa31c7131f8154b1d4a0d2027dbd022791d8daa06169aa0fcb51b55
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111403385"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115228826"
 ---
 # <a name="get-started-with-mixed-reality"></a>Приступая к работе со смешанной реальностью
 
