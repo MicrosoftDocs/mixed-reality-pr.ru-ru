@@ -1,22 +1,22 @@
 ---
-title: Калибровка глаз
+title: Калибровка взгляда
 description: Как настроить калибровку глаз пользователя в МРТК
 author: CDiaz-MS
 ms.author: cadia
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, эйетраккинг, калибровка,
-ms.openlocfilehash: a2023a2d7f6a0254e8fef32f4faf09def956e94f
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 02b173bbc7a6bf410d3521b37660f292b8e3340de6b1a98007fdbc200f26bc49
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113177201"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115199776"
 ---
-# <a name="eye-calibration"></a>Калибровка глаз
+# <a name="eye-calibration"></a>Калибровка взгляда
 
 ![Снимок экрана с уведомлением об калибровке глаз](../../images/eye-tracking/mrtk_et_calibration_notification_example.jpg)
 
-## <a name="overview"></a>Обзор
+## <a name="overview"></a>Общие сведения
 
 Если отслеживание взгляда является фундаментальной частью работы приложения, то может потребоваться обеспечить правильную калибровку пользователя.
 Основная причина, по которой она будет недействительной, заключается в том, что пользователь решил пропустить калибровку отслеживания взгляда при размещении на устройстве.
@@ -87,7 +87,7 @@ ms.locfileid: "113177201"
    }
 ```
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также раздел
 
 - [Общие сведения об отслеживании МРТКных глаз](eye-tracking-main.md)
 - [Настройка отслеживания МРТКных глаз](eye-tracking-basic-setup.md)

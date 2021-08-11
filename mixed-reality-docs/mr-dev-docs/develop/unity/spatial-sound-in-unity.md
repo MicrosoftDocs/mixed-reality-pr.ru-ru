@@ -5,13 +5,13 @@ author: kegodin
 ms.author: v-hferrone
 ms.date: 11/07/2019
 ms.topic: article
-keywords: Unity, Пространственный звук, ХРТФ, размер комнаты, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, МРТК, набор средств смешанной реальности, спатиализер, переглагол
-ms.openlocfilehash: ec2703aa89925cb68860670f574a1e43f672e247
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+keywords: Unity, пространственный звук, хртф, размер комнаты, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности, мртк, смешанная реальность набор средств, спатиализер, переглагол
+ms.openlocfilehash: e6e56732a888fd096335a114fceba557519b01bf8df84a7670b9265f46c75a34
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009274"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115228230"
 ---
 # <a name="spatial-sound-in-unity"></a>Пространственный звук в Unity
 
@@ -20,30 +20,30 @@ ms.locfileid: "98009274"
 ## <a name="spatializer-options"></a>Параметры спатиализер
 
 Параметры спатиализер для приложений смешанной реальности включают:
-* Unity предоставляет *Спатиализер MS хртф* в составе дополнительного пакета *Windows Mixed Reality* .
+* Unity предоставляет *спатиализер MS хртф* в составе дополнительного пакета *Windows Mixed Reality* .
   * Работает на ЦП в архитектуре с одним источником с более высоким значением.
-  * Предоставляется для обеспечения обратной совместимости с исходными приложениями HoloLens.
-* *Microsoft спатиализер* доступен в [репозитории Microsoft спатиализер GitHub](https://github.com/microsoft/spatialaudio-unity).
+  * предоставляется для обеспечения обратной совместимости с исходными приложениями HoloLens.
+* *microsoft спатиализер* доступен в [репозитории microsoft спатиализер GitHub](https://github.com/microsoft/spatialaudio-unity).
   * Использует более экономичную архитектуру с несколькими источниками.
-  * Разгружается на аппаратный ускоритель в HoloLens 2. 
+  * Перегружается на аппаратный ускоритель на HoloLens 2. 
 
 Для новых приложений мы рекомендуем использовать *Microsoft спатиализер*.
 
 ## <a name="enable-spatialization"></a>Включить пространственность
 
-Используйте [NuGet для Unity](https://github.com/GlitchEnzo/NuGetForUnity/releases/latest) , чтобы установить _Microsoft. спатиалаудио. спатиализер. Unity_ , и выберите **Microsoft спатиализер** в параметрах звука проекта. Затем сделайте следующее:
+используйте [NuGet для Unity](https://github.com/GlitchEnzo/NuGetForUnity/releases/latest) , чтобы установить _microsoft. спатиалаудио. спатиализер. Unity_ , и выберите **microsoft спатиализер** в параметрах звука проекта. Затем сделайте следующее:
 * Присоединение **звукового источника** к объекту в иерархии
 * Установите флажок " **включить пространственность** "
 * Переместить ползунок **пространственного смешения** в "1"
 * Убедитесь, что на рабочей станции разработчика включен Пространственный звук. 
     * Щелкните значок тома на панели задач правой кнопкой мыши и убедитесь, что для пространственного звука задано значение, отличное от "Выкл.". 
-    * Выберите **Windows Sonic для наушников** , чтобы получить лучшее представление о том, что вы услышите в HoloLens 2.
+    * выберите **Windows Sonic для наушников** , чтобы получить лучшее представление о том, что вы слышите HoloLens 2.
 
 >[!NOTE]
->Если в Unity появляется сообщение об отсутствии возможности загрузить подключаемый модуль Microsoft. Спатиалаудио. Спатиализер. Unity, поскольку отсутствует одна из его зависимостей, убедитесь, что на компьютере установлена последняя версия [распространяемого Microsoft Visual C++](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads) .
+>если в Unity появляется сообщение об отсутствии возможности загрузить подключаемый модуль Microsoft. спатиалаудио. спатиализер. unity, поскольку отсутствует одна из его зависимостей, убедитесь, что на компьютере установлена последняя версия [распространяемого Microsoft Visual C++](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads) .
 
 Дополнительные сведения см. в разделе:
-* [Репозиторий Microsoft спатиализер GitHub](https://github.com/microsoft/spatialaudio-unity)
+* [репозиторий Microsoft спатиализер GitHub](https://github.com/microsoft/spatialaudio-unity)
 * [Руководство Майкрософт по спатиализер](tutorials/unity-spatial-audio-ch1.md)
 * [Документация по источнику аудио в Unity](https://docs.unity3d.com/2019.3/Documentation/Manual/class-AudioSource.html)
 * [Документация по спатиализер Unity](https://docs.unity3d.com/Manual/VRAudioSpatializer.html)
@@ -73,7 +73,7 @@ ms.locfileid: "98009274"
 Если вы пойдете из процесса разработки Unity, который мы собрали, то будете изучать основные строительные блоки в смешанной реальности. Отсюда вы можете перейти к следующему стандартному блоку:
 
 > [!div class="nextstepaction"]
-> [Текстовые](text-in-unity.md)
+> [Text](text-in-unity.md)
 
 Или перейдите к возможностям и API платформы смешанной реальности:
 

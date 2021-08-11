@@ -5,12 +5,12 @@ author: CDiaz-MS
 ms.author: cadia
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 0b26242d71bbe080e440f9c52a009e29000ab00b
-ms.sourcegitcommit: 114c304a416bfe9d9b294c4adbb4c23cbe60ea4e
+ms.openlocfilehash: add3aaa2a98ca2ddc1f60b0307a3defed3236d9a2c09aa70ea2d12b2d9638eba
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "114224212"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115228392"
 ---
 # <a name="pulse-shader"></a>Шейдер пульса
 

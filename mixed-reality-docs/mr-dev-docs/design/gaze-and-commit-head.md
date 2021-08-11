@@ -5,13 +5,13 @@ author: caseymeekhof
 ms.author: cmeekhof
 ms.date: 03/31/2019
 ms.topic: article
-keywords: Смешанная реальность, взгляд, определение целевой платформы, взаимодействие, проектирование, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств для смешанной реальности, цель, фокус, сглаживание
-ms.openlocfilehash: 74f963a6b450d1fb7f1302886a01c12cf79ce28a
-ms.sourcegitcommit: 8f141a843bcfc57e1b18cc606292186b8ac72641
+keywords: смешанная реальность, взгляд, определение целевой платформы, взаимодействие, проектирование, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности, HoloLens, мртк, смешанная реальность набор средств, цель, фокус, сглаживание
+ms.openlocfilehash: 641e403df23b2559429ca80aa06f384c4845ee347518adca2cfde1b3dbe874dd
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110196519"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115223667"
 ---
 # <a name="head-gaze-and-commit"></a>Направление головы и фиксация
 
@@ -34,7 +34,7 @@ ms.locfileid: "110196519"
     </tr>
      <tr>
         <td>Направление головы и фиксация</td>
-        <td>✔ Рекомендуется</td>
+        <td>✔️ Рекомендуется</td>
         <td>✔ Рекомендуется (третий вариант <a href="interaction-fundamentals.md">см. в разделе других возможностей</a>)</td>
         <td>➕ Альтернативный вариант</td>
     </tr>
@@ -42,13 +42,13 @@ ms.locfileid: "110196519"
 
 ---
 
-## <a name="head-and-eye-tracking-design-concepts-demo"></a>Демонстрация основных принципов проектирования и отслеживания взглядов
+## <a name="head-and-eye-tracking-design-concepts-demo"></a>Демонстрация основных принципов разработки технологии отслеживания взгляда и головы
 
-Если вы хотите увидеть основные понятия проектирования и отслеживания взгляда в действии, ознакомьтесь с нашими материалами по **проектированию — отслеживание и отслеживание взгляда на голове** ниже. По завершении продолжите работу, чтобы подробно изучить конкретные темы.
+Если вы хотите посмотреть, как работает отслеживание головы и взгляда, ознакомьтесь с нашей видеодемонстрацией **Designing Holograms - Head Tracking and Eye Tracking** (Создание голограмм — отслеживание головы и взгляда) ниже. По завершении продолжите изучать другие темы.
 
 > [!VIDEO https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Microsofts-Designing-Holograms-Head-Tracking-and-Eye-Tracking-Chapter/player]
 
-*Это видео было взято из приложения HoloLens "Проектирование голограмм". Загрузите [и воспользуйтесь всеми возможностями.](https://aka.ms/dhapp)*
+*Это видео из приложения Designing Holograms для HoloLens 2. Скачайте и воспользуйтесь всеми его возможностями [здесь](https://aka.ms/dhapp).*
 
 ## <a name="target-sizing-and-feedback"></a>Изменение размера цели и обратная связь
 

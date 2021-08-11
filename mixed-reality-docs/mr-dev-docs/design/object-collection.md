@@ -5,19 +5,19 @@ author: cre8ivepark
 ms.author: dongpark
 ms.date: 03/21/2018
 ms.topic: article
-keywords: Windows Mixed Reality, элементы управления, проектирование, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, коллекция объектов, 2D, 3D, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: fd5629f58e092b33410c833885037582ba5ca4a1
-ms.sourcegitcommit: c65759b8d6465b6b13925cacab5af74443f7e6bd
+keywords: Windows Mixed Reality, элементы управления, проектирование, гарнитура смешанной реальности, гарнитура Windows Mixed reality, гарнитура виртуальной реальности, HoloLens, коллекция объектов, 2d, трехмерная, мртк, смешанная реальность набор средств
+ms.openlocfilehash: be8f175ac58163eedfbf5fdee88c489f81abb90acbf4a9e04710be8443f070f0
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "112110138"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115225732"
 ---
 # <a name="object-collection"></a>Коллекция объектов
 
 ![Коллекция объектов, используемая в периодической таблице приложения Elements](images/UX_Hero_ObjectCollection.jpg)<br>
 
-Коллекция объектов — это элемент управления макета, который помогает размещать массив объектов в предопределенной трехмерной форме. Он поддерживает различные стили поверхности — * * плоскость, цилиндр, шар и **радиальный**. Вы можете настроить радиус и размер объектов, а также пространство между ними. Коллекция объектов поддерживает любой объект из Unity — как 2D, так и 3D. В **[наборе средств для смешанной реальности](/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/object-collection)** мы создали скрипт Unity и примеры, которые помогут создать коллекцию объектов.
+Коллекция объектов — это элемент управления макета, который помогает размещать массив объектов в предопределенной трехмерной форме. Он поддерживает различные стили поверхности — * * плоскость, цилиндр, шар и **радиальный**. Вы можете настроить радиус и размер объектов, а также пространство между ними. Коллекция объектов поддерживает любой объект из Unity — как 2D, так и 3D. в **[набор средств смешанной реальности](/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/object-collection)** мы создали скрипт Unity и примеры, которые помогут создать коллекцию объектов.
 
 ## <a name="object-collection-examples"></a>Примеры коллекции объектов
 
@@ -46,7 +46,7 @@ ms.locfileid: "112110138"
 
 ---
 
-## <a name="object-collection-in-mrtk-mixed-reality-toolkit-for-unity"></a>Коллекция объектов в МРТК (набор средств для смешанной реальности) для Unity
+## <a name="object-collection-in-mrtk-mixed-reality-toolkit-for-unity"></a>коллекция объектов в мртк (Mixed Reality набор средств) для Unity
 
 * [МРТК — коллекция объектов](/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/object-collection)
 

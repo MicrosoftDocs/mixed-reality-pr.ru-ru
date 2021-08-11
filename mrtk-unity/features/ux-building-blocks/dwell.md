@@ -1,21 +1,21 @@
 ---
-title: Вдаваясь
+title: Остановка взгляда
 description: Взаимодействие вдаваясь
 author: cre8ivepark
 ms.author: dongpark
 ms.date: 05/20/2021
-keywords: Вдаваясь, Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК
+keywords: вдаваясь, Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк
 monikerRange: '>= mrtkunity-2021-05'
-ms.openlocfilehash: 18e69f001c8989234d1b75fb713796f079cacbdf
-ms.sourcegitcommit: a5afc24a4887880e394ef57216b8fd9de9760004
+ms.openlocfilehash: 8ac63ee723cdd524ee7abbad7fd2658b446156adbd5ddee06ae1795edb3b68d1
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "110647864"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115226913"
 ---
-# <a name="dwell"></a>Вдаваясь
+# <a name="dwell"></a>Остановка взгляда
 
-![Вдаваясь Hero](../images/dwell/MRTK_UX_Dwell.png)
+![Карточка остановки взгляда](../images/dwell/MRTK_UX_Dwell.png)
 
 Head-взгляд и вдаваясь являются великолепной в ситуациях, когда руки человека заняты другими задачами. Эта функция также полезна, если речь не 100% надежности или доступности в связи с ограничениями на окружающую среду или социальные сети.
 В примерах вдаваясь МРТК демонстрируются различные типы компонентов пользовательского интерфейса с настраиваемым временем отклика и визуальным отзывом.
@@ -38,7 +38,7 @@ Head-взгляд и вдаваясь являются великолепной 
 
 ## <a name="prefabs"></a>Prefabs
 
-Эти Prefabs являются вариантами кнопки Prefabs в стиле HoloLens 2, которые имеют дополнительные компоненты для поддержки взаимодействий вдаваясь.
+эти prefabs являются вариантами HoloLens 2 стиля с нажатой кнопкой prefabs, которые имеют дополнительные компоненты для поддержки взаимодействий вдаваясь.
 
 - **PressableButtonHoloLens2_Dwell. prefab**
 - **PressableButtonHoloLens2_32x96_Dwell. prefab**

@@ -1,19 +1,19 @@
 ---
-title: Предварительный просмотр работы с помощью holographic Remoting
+title: Предварительный просмотр работы с помощью голографического удаленного взаимодействия
 description: Используйте holographic удаленное взаимодействие в режиме воспроизведения для предварительного просмотра изменений приложения на устройстве без развертывания приложения.
 author: keveleigh
 ms.author: v-vtieto
 ms.date: 07/26/2021
 ms.topic: article
 keywords: Unity, удаленное взаимодействие, holographic удаленное взаимодействие, удаленный плеер holographic, HoloLens, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности, режим воспроизведения unity
-ms.openlocfilehash: 0c71791c80a5e84ee48241baa756064a800e5a41
-ms.sourcegitcommit: 9831b89a1641ba1b5df14419ee2a4f29d3fa2d64
+ms.openlocfilehash: cd9dca9d1ddf17b78e8c317fa3a58093c9b5837de379510148c6e645b31120ca
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "114757216"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115226236"
 ---
-# <a name="preview-your-work-with-holographic-remoting"></a>Предварительный просмотр работы с помощью holographic Remoting
+# <a name="preview-your-work-with-holographic-remoting"></a>Предварительный просмотр работы с помощью голографического удаленного взаимодействия
 
 с помощью удаленного взаимодействия holographic можно передавать данные в HoloLens 2 в режиме реального времени. Это отличный способ быстрой отладки приложения без создания и развертывания полного проекта. 
 
@@ -37,6 +37,6 @@ ms.locfileid: "114757216"
 
 Для достижения лучших результатов убедитесь, что приложение правильно устанавливает [фокусную точку](focus-point-in-unity.md). Это помогает более удачному удаленному взаимодействию лучше адаптировать сцену к задержке беспроводного подключения.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 * [Holographic Remoting Player](../platform-capabilities-and-apis/holographic-remoting-player.md)

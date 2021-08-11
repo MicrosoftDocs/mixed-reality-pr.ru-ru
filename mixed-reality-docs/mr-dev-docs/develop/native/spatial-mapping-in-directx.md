@@ -1,24 +1,24 @@
 ---
 title: Пространственное сопоставление в DirectX
-description: Узнайте, как реализовать пространственное сопоставление в приложении DirectX и как использовать пример приложения для пространственного сопоставления в универсальная платформа Windows SDK.
+description: узнайте, как реализовать пространственное сопоставление в приложении DirectX и как использовать пример приложения для пространственного сопоставления в универсальная платформа Windows SDK.
 author: mikeriches
 ms.author: mriches
 ms.date: 08/04/2020
 ms.topic: article
-keywords: Windows Mixed Reality, пространственное сопоставление, среда, взаимодействие, DirectX, WinRT, API, пример кода, UWP, пакет SDK, пошаговое руководство
-ms.openlocfilehash: 19479a4efb577bad629e46b59334f0d23b0b2db4
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+keywords: Windows смешанной реальности, пространственное сопоставление, среда, взаимодействие, directx, winrt, api, пример кода, UWP, пакет SDK, пошаговое руководство
+ms.openlocfilehash: e7f0735ea28703d3a9f18198901ffa5f06676f78b7b8962bf20824e05f793061
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98583772"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115198850"
 ---
 # <a name="spatial-mapping-in-directx"></a>Пространственное сопоставление в DirectX
 
 > [!NOTE]
 > Эта статья связана с устаревшими собственными API-интерфейсами WinRT.  Для новых проектов собственных приложений рекомендуется использовать **[API опенкср](openxr-getting-started.md)**.
 
-В этом разделе описывается реализация [пространственного сопоставления](../../design/spatial-mapping.md) в приложении DirectX, включая подробное описание примера приложения пространственного сопоставления, упакованного с помощью пакета SDK для универсальная платформа Windows.
+в этом разделе описывается реализация [пространственного сопоставления](../../design/spatial-mapping.md) в приложении DirectX, включая подробное описание примера приложения пространственного сопоставления, упакованного с помощью пакета SDK для универсальная платформа Windows.
 
 В этом разделе используется код из примера кода UWP для [холографикспатиалмаппинг](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/HolographicSpatialMapping) .
 
@@ -35,7 +35,7 @@ ms.locfileid: "98583772"
     <col width="25%" />
     </colgroup>
     <tr>
-        <td><strong>Возможность</strong></td>
+        <td><strong>Компонент</strong></td>
         <td><a href="/hololens/hololens1-hardware"><strong>HoloLens (1-го поколения)</strong></a></td>
         <td><a href="https://docs.microsoft.com/hololens/hololens2-hardware"><strong>HoloLens 2</strong></td>
         <td><a href="../../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
@@ -50,7 +50,7 @@ ms.locfileid: "98583772"
 
 ## <a name="directx-development-overview"></a>Обзор разработки в DirectX
 
-При разработке собственного приложения для пространственного сопоставления используются API-интерфейсы в пространстве имен [Windows. восприятие. пространственный.](/uwp/api/Windows.Perception.Spatial) Эти API предоставляют полный контроль над функциями пространственного сопоставления, точно так же, как интерфейсы API пространственного сопоставления предоставляются [Unity](../unity/spatial-mapping-in-unity.md).
+При разработке собственного приложения для пространственного сопоставления используются API-интерфейсы в [Windows. Пространство имен "восприятие. пространственный](/uwp/api/Windows.Perception.Spatial) ". Эти API предоставляют полный контроль над функциями пространственного сопоставления, точно так же, как интерфейсы API пространственного сопоставления предоставляются [Unity](../unity/spatial-mapping-in-unity.md).
 
 ### <a name="perception-apis"></a>API-интерфейсы восприятия
 
@@ -84,11 +84,11 @@ ms.locfileid: "98583772"
 
 Пример кода для [пространственного сопоставления holographic](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/HolographicSpatialMapping) включает в себя код, который можно использовать для начала загрузки сеток поверхности в приложение, включая инфраструктуру для управления и визуализации сеток поверхности.
 
-Теперь мы пошаговым инструкциями по добавлению функции сопоставления поверхности в приложение DirectX. Этот код можно добавить в проект [шаблона приложения Windows holographic](creating-a-holographic-directx-project.md) . Кроме того, можно выполнить действия, просмотрев приведенный выше пример кода. Этот пример кода основан на шаблоне приложения Windows Holographic.
+Теперь мы пошаговым инструкциями по добавлению функции сопоставления поверхности в приложение DirectX. вы можете добавить этот код в проект [шаблона приложения Windows holographic](creating-a-holographic-directx-project.md) или перейти к нему, просмотрев приведенный выше пример кода. этот пример кода основан на шаблоне Windows holographic приложение.
 
 ### <a name="set-up-your-app-to-use-the-spatialperception-capability"></a>Настройка приложения для использования возможности Спатиалперцептион
 
-Приложение может использовать возможность пространственного сопоставления. Это необходимо потому, что пространственный сетчатый объект представляет собой представление среды пользователя, которое может считаться частными данными. Объявите эту возможность в файле Package. appxmanifest для приложения. Ниже приведен пример:
+Приложение может использовать возможность пространственного сопоставления. Это необходимо потому, что пространственный сетчатый объект представляет собой представление среды пользователя, которое может считаться частными данными. Объявите эту возможность в файле Package. appxmanifest для приложения. Приведем пример:
 
 ```xml
 <Capabilities>
@@ -96,7 +96,7 @@ ms.locfileid: "98583772"
 </Capabilities>
 ```
 
-Эта возможность поступает из пространства имен **uap2** . Чтобы получить доступ к этому пространству имен в манифесте, включите его в качестве атрибута *кслмнс* в &lt; элемент Package>. Ниже приведен пример:
+Эта возможность поступает из пространства имен **uap2** . Чтобы получить доступ к этому пространству имен в манифесте, включите его в качестве атрибута *кслмнс* в &lt; элемент Package>. Приведем пример:
 
 ```xml
 <Package
@@ -159,7 +159,7 @@ initSurfaceObserverTask.then([this, coordinateSystem](Windows::Perception::Spati
 
 ### <a name="create-a-surface-observer"></a>Создание наблюдателя Surface
 
-Пространство имен **Windows::P ерцептион:: spatial::** Surfaces включает класс [спатиалсурфацеобсервер](/uwp/api/Windows.Perception.Spatial.Surfaces.SpatialSurfaceObserver) , который следит за одним или несколькими томами, указанными в [спатиалкурдинатесистем](/uwp/api/Windows.Perception.Spatial.SpatialCoordinateSystem). Используйте экземпляр [спатиалсурфацеобсервер](/uwp/api/Windows.Perception.Spatial.Surfaces.SpatialSurfaceObserver) для доступа к данным сетки Surface в режиме реального времени.
+пространство имен **Windows::P ерцептион:: Spatial::** surfaces включает класс [спатиалсурфацеобсервер](/uwp/api/Windows.Perception.Spatial.Surfaces.SpatialSurfaceObserver) , который отслеживает один или несколько томов, указанных в [спатиалкурдинатесистем](/uwp/api/Windows.Perception.Spatial.SpatialCoordinateSystem). Используйте экземпляр [спатиалсурфацеобсервер](/uwp/api/Windows.Perception.Spatial.Surfaces.SpatialSurfaceObserver) для доступа к данным сетки Surface в режиме реального времени.
 
 Из **аппмаин. h**:
 
@@ -372,7 +372,7 @@ Windows::Storage::Streams::IBuffer^ positions = m_surfaceMesh->VertexPositions->
     Windows::Storage::Streams::IBuffer^ indices   = m_surfaceMesh->TriangleIndices->Data;
 ```
 
-Затем мы создадим буферы устройств Direct3D с данными сетки, предоставляемыми HoloLens:
+Затем мы создаем буферы устройств Direct3D с данными сетки, предоставленными HoloLens:
 
 ```cpp
 CreateDirectXBuffer(device, D3D11_BIND_VERTEX_BUFFER, positions, m_vertexPositions.GetAddressOf());
@@ -517,7 +517,7 @@ for (auto& pair : m_meshCollection)
 }
 ```
 
-Отдельные сети отвечают за настройку буферов вершин и индексов, а также буфера констант и преобразования модели. Как и в случае вращающегося куба в шаблоне приложения Windows holographic, мы подготавливаем буферы стереоскопик с помощью создания экземпляров.
+Отдельные сети отвечают за настройку буферов вершин и индексов, а также буфера констант и преобразования модели. как и в случае вращающегося куба в шаблоне Windows holographic, мы подготавливаем буферы стереоскопик с помощью создания экземпляров.
 
 Из **сурфацемеш::D RAW**:
 
@@ -678,4 +678,4 @@ m_meshCollection->Render(pCameraResources->IsRenderingStereoscopic(), false);
 
 ## <a name="see-also"></a>См. также раздел
 * [Создание голографического проекта в DirectX](creating-a-holographic-directx-project.md)
-* [API Windows. восприятие. пространственный](/uwp/api/Windows.Perception.Spatial)
+* [Windows. Восприятие. пространственный API](/uwp/api/Windows.Perception.Spatial)

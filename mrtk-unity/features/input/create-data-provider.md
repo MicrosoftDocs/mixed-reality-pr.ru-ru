@@ -5,12 +5,12 @@ author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 0b6012871a4d4988fdb70336a3c33455f479bcac
-ms.sourcegitcommit: 912fa204ef79e9b973eab9b862846ba5ed5cd69f
+ms.openlocfilehash: 391aa477bb09fa2dec2b3bcb26bad813c715ee03eeb0dc03dcbc9048ae318295
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "114281924"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115223996"
 ---
 # <a name="creating-an-input-system-data-provider"></a>Создание поставщика входных системных данных
 
@@ -259,7 +259,7 @@ public class MixedRealityInputSimulationProfileInspector : BaseMixedRealityToolk
 
 если поставщик данных отправлен и принят как часть пакета microsoft Mixed Reality набор средств, группа microsoft мртк будет упаковывать и распространять ее в рамках предложений мртк.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 - [Входная система](overview.md)
 - [Класс `BaseInputDeviceManager`](xref:Microsoft.MixedReality.Toolkit.Input.BaseInputDeviceManager)

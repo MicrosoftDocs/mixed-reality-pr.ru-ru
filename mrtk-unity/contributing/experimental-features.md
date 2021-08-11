@@ -5,12 +5,12 @@ author: polar-kev
 ms.author: kesemple
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 341ba0ee3e5900cc52f1ef715232f49064102309
-ms.sourcegitcommit: 8b4c2b1aac83bc8adf46acfd92b564f899ef7735
+ms.openlocfilehash: 9b7ef7564e0e4f84ba70c034b1bcc33a29498432620a002c8509de518dde479c
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113121382"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115228393"
 ---
 # <a name="experimental-features"></a>Экспериментальные функции
 
@@ -98,7 +98,7 @@ public static void MyCommand()
 
 Использование компонента не должно прерывать кнопки, Манипулатионхандлер, BoundingBox или взаимодействовать.
 
-Например, в [этом скроллаблеобжектколлектионе](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/6001), добавление скроллаблеобжектколлектион привело к тому, что пользователи не смогут использовать кнопку HoloLens Prefabs. Несмотря на то, что это не было вызвано ошибкой в запросе на вытягивание (но, в своюмся случае, уже имеющей существующую ошибку), это не позволило получить запрос на возврат.
+например, в [этом скроллаблеобжектколлектионе](https://github.com/microsoft/MixedRealityToolkit-Unity/pull/6001), добавление скроллаблеобжектколлектион привело к тому, что пользователи не смогут использовать кнопку HoloLens prefabs. Несмотря на то, что это не было вызвано ошибкой в запросе на вытягивание (но, в своюмся случае, уже имеющей существующую ошибку), это не позволило получить запрос на возврат.
 
 ### <a name="provide-an-example-scene-that-demonstrates-how-to-use-the-feature"></a>Укажите пример сцены, демонстрирующий использование этой функции
 

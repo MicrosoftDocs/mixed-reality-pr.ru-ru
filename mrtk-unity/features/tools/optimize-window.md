@@ -5,12 +5,12 @@ author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 8b8928e9c723ffa9fd08d22866b8ee5748e38ace
-ms.sourcegitcommit: 78746bef0e1ffe1480e89fed8cd30f6f8b389e8d
+ms.openlocfilehash: f87b0742afcf2c270d1060742ad0945132b4998cc055b1908b8a1ef17c9a0fe4
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "114713574"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115199732"
 ---
 # <a name="optimize-window"></a>Окно оптимизации
 

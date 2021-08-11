@@ -5,16 +5,16 @@ author: cre8ivepark
 ms.author: dongpark
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, хандмену,
-ms.openlocfilehash: 9bb0276c048912b4f463dd93d3303c9a3af8fe29
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: ecf05b687c52dab68302b9b66b3890aca31b5635b803084abd6845f31de974e0
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113177526"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115226509"
 ---
 # <a name="hand-menu"></a>Меню руки
 
-![Пример UX меню руки](../images/solver/MRTK_UX_HandMenu.png)
+![Пример интерфейса меню руки](../images/solver/MRTK_UX_HandMenu.png)
 
 Меню руки позволяют пользователям быстро открыть пользовательский интерфейс, подключенный вручную, для часто используемых функций. Чтобы предотвратить ложную активацию при взаимодействии с другими объектами, меню руки предоставляет такие параметры, как "требовать использование плоской руки" и "использовать активацию с помощью взгляда". Рекомендуется использовать эти параметры для предотвращения нежелательной активации.
 
@@ -46,9 +46,9 @@ Prefabs меню можно найти в ``MRTK/Examples/Demos/HandTracking/Pre
 
 Этот пример похож на HandMenu_Large_WorldLock_On_GrabAndPull. Единственное отличие заключается в том, что меню автоматически будет заблокировано по всему миру. Это делается просто без скрытия события Менуконтент для **онлассандлост ()** . Режим извлечения & извлечение выполняется так же, как HandMenu_Large_WorldLock_On_GrabAndPull примере.
 
-## <a name="scripts"></a>Скрипты
+## <a name="scripts"></a>Сценарии
 
-Это [`HandConstraint`](xref:Microsoft.MixedReality.Toolkit.Utilities.Solvers.HandConstraint) поведение предоставляет поисковый механизм, который ограничивает объект, защищенный объектом, на регион с ограниченным содержимым (например, Пользовательский интерфейс, меню и т. д.). Сейф регионы считаются областями, которые не пересекаются с рукой. Производный класс, [`HandConstraint`](xref:Microsoft.MixedReality.Toolkit.Utilities.Solvers.HandConstraint) вызываемый, [`HandConstraintPalmUp`](xref:Microsoft.MixedReality.Toolkit.Utilities.Solvers.HandConstraintPalmUp) также включается, чтобы продемонстрировать типичное поведение активации объекта, отслеживающего Поиск решения, когда пользователь переводит себя в карманный ПК.
+[`HandConstraint`](xref:Microsoft.MixedReality.Toolkit.Utilities.Solvers.HandConstraint) предоставляет решатель, который ограничивает отслеживаемый объект областью, безопасной для содержимого, ограничиваемого руками (например, пользовательский интерфейс, меню и т. д.). Безопасными считаются области, которые не пересекаются с рукой. Производный класс [`HandConstraint`](xref:Microsoft.MixedReality.Toolkit.Utilities.Solvers.HandConstraint), вызываемый [`HandConstraintPalmUp`](xref:Microsoft.MixedReality.Toolkit.Utilities.Solvers.HandConstraintPalmUp), также включен для демонстрации общего поведения активации объекта, отслеживаемого решателем, когда ладонь обращена к пользователю.
 
 Дополнительные сведения см. в подсказках, доступных для каждого [`HandConstraint`](xref:Microsoft.MixedReality.Toolkit.Utilities.Solvers.HandConstraint) Свойства. Некоторые свойства более подробно описаны ниже.
 
@@ -75,7 +75,7 @@ Prefabs меню можно найти в ``MRTK/Examples/Demos/HandTracking/Pre
 
 * **Повторное присоединение логики**. в настоящее время [`HandConstraintPalmUp`](xref:Microsoft.MixedReality.Toolkit.Utilities.Solvers.HandConstraintPalmUp) можно автоматически повторно присоединить целевой объект к отслеживающей точке независимо от того, имеет ли Упдатесолвер солверхандлер значение true или нет. Это делается с помощью вызова функции Стартворлдлоккреаттаччекккораутине () Хандконстраинтпалмуп после того, как она была заблокирована в мире (в данном случае фактически устанавливается значение Солверхандлер Упдатесолвер равным false).
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также раздел
 
-* [Button](button.md)
+* [Кнопка](button.md)
 * [Ближайшее меню](near-menu.md)

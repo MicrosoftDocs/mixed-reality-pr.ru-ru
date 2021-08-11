@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, многопользовательские возможности, Photon, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure
 ms.localizationpriority: high
-ms.openlocfilehash: 4be0fc30b6d1b401bf137be4060704f54515ceb1
-ms.sourcegitcommit: cf8df1720ddb8236207ab581bc149edcc76e6199
+ms.openlocfilehash: c9a37dd94083b796da6d5fba2727d739112e411b494af5882ad08525e733a722
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "114702477"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115200791"
 ---
 # <a name="4-sharing-object-movements-with-multiple-users"></a>4. Предоставление общего доступа к сведениям о перемещении объекта нескольким пользователям
 

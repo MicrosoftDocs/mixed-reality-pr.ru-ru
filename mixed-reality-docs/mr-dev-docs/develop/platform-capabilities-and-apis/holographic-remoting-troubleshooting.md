@@ -1,17 +1,17 @@
 ---
 title: Устранение неполадок и ограничения удаленного взаимодействия с holographic
-description: Найдите материалы по устранению неполадок и инструкции для функции holographic Remoting на устройствах HoloLens 2.
+description: найдите материалы по устранению неполадок и инструкции для функции holographic remoting на HoloLens 2 устройствах.
 author: florianbagarmicrosoft
 ms.author: flbagar
 ms.date: 12/01/2020
 ms.topic: article
-keywords: Windows Mixed Reality, голограммы, удаленное взаимодействие, удаленная подготовка к просмотру сети, HoloLens, удаленные голограммы, устранение неполадок, Справка, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 429ca7364d82e1713af059aa3c6da01852283120
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+keywords: Windows Mixed Reality, голограммы, удаленное взаимодействие, дистанционная визуализация, подготовка к просмотру сети, HoloLens, удаленные голограммы, устранение неполадок, помощь, гарнитура смешанной реальности, гарнитура Windows mixed reality, гарнитура виртуальной реальности
+ms.openlocfilehash: fa984e89fb6eb770917d9a1d62ce7c1007d45fab7fbcb2723f9642ac81814054
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98583834"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115223574"
 ---
 # <a name="holographic-remoting-troubleshooting"></a>Устранение неполадок удаленного взаимодействия с holographic
 
@@ -22,7 +22,7 @@ ms.locfileid: "98583834"
 
 В примере приложений с удаленным взаимодействием с устранением рисков Spectre (/Qspectre) включено устранение рисков в конфигурации выпуска.
 
-Если вы получаете *vccorlib. lib не удается открыть* неустранимую ошибку, убедитесь, что Рабочая нагрузка Visual Studio включает [библиотеки, снижающие опасность устранением рисков Spectre](/cpp/build/reference/qspectre) .
+если вы получаете *vccorlib. lib не удается открыть* неустранимую ошибку, убедитесь, что ваша рабочая нагрузка Visual Studio включает [библиотеки, снижающие опасность устранением рисков spectre](/cpp/build/reference/qspectre) .
 
 ## <a name="speech"></a>Речь
 
@@ -30,11 +30,11 @@ ms.locfileid: "98583834"
 
 ## <a name="h265-video-codec-not-available"></a>Кодек H265 Video недоступен
 
-Установите [расширения видео HEVC](https://www.microsoft.com/p/hevc-video-extensions/9nmzlz57r3t7) при использовании видеокодека H265 в удаленном приложении. При возникновении проблем, когда кодек установлен, но не может использоваться, ознакомьтесь с руководством по [устранению неполадок](/azure/remote-rendering/resources/troubleshoot#h265-codec-not-available) .
+установите [Расширения для видео HEVC](https://www.microsoft.com/p/hevc-video-extensions/9nmzlz57r3t7) при использовании видеокодека H265 в удаленном приложении. При возникновении проблем, когда кодек установлен, но не может использоваться, ознакомьтесь с руководством по [устранению неполадок](/azure/remote-rendering/resources/troubleshoot#h265-codec-not-available) .
 
 ## <a name="limitations"></a>Ограничения
 
-В настоящее время следующие API **не** поддерживаются при использовании удаленного взаимодействия holographic для HoloLens 2 и вызывают ошибку, ```ERROR_NOT_SUPPORTED``` если не указано иное:
+в настоящее время следующие api **не** поддерживаются при использовании удаленного взаимодействия holographic для HoloLens 2 и вызовут ```ERROR_NOT_SUPPORTED``` ошибку, если не указано иное:
 
 [Windows.Graphics.Holographic](/uwp/api/windows.graphics.holographic)
 
@@ -105,8 +105,8 @@ ms.locfileid: "98583834"
 
 ## <a name="see-also"></a>См. также:
 * [Журнал версий службы удаленного взаимодействия с holographic](holographic-remoting-version-history.md)
-* [Создание удаленного приложения holographic с удаленным взаимодействием с помощью API-интерфейсов Windows Mixed Reality](holographic-remoting-create-remote-wmr.md)
+* [создание удаленного приложения holographic с удаленным взаимодействием с помощью Windows Mixed Reality api](holographic-remoting-create-remote-wmr.md)
 * [Создание удаленного приложения holographic с удаленным взаимодействием с помощью API-интерфейсов Опенкср](holographic-remoting-create-remote-openxr.md)
 * [Создание пользовательского проигрывателя для голографического удаленного взаимодействия](holographic-remoting-create-player.md)
 * [Условия лицензии на использование ПО для голографического удаленного взаимодействия](/legal/mixed-reality/microsoft-holographic-remoting-software-license-terms)
-* [Заявление о конфиденциальности Майкрософт](https://go.microsoft.com/fwlink/?LinkId=521839)
+* [Заявление Майкрософт о конфиденциальности](https://go.microsoft.com/fwlink/?LinkId=521839)

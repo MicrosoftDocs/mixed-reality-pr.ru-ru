@@ -1,16 +1,16 @@
 ---
 title: Запросы на вытягивание
-description: Сведения, связанные с запросами на вытягивание GitHub.
+description: сведения, относящиеся к запросам на вытягивание GitHub.
 author: polar-kev
 ms.author: kesemple
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK, запрос на вытягивание
-ms.openlocfilehash: 580a57972f3356143fa796ae6ff4b08db2eb447a
-ms.sourcegitcommit: 8b4c2b1aac83bc8adf46acfd92b564f899ef7735
+ms.openlocfilehash: ffaba25a42566d6e48be7db2c5b599443b24831f8f353fe1bd59beb062a7b87e
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113121372"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115200121"
 ---
 # <a name="pull-requests"></a>Запросы на вытягивание
 

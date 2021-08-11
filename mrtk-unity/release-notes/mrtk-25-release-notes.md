@@ -5,12 +5,12 @@ author: polar-kev
 ms.author: kesemple
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк,
-ms.openlocfilehash: c9458e5236cc7de18eb27c3c3e13221a366c89a4
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 7d3e158bc7e4b0125f264aa9abc8f369a6e825562266891b0528066d8b8b9b71
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113177508"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115198129"
 ---
 # <a name="microsoft-mixed-reality-toolkit-25-release-notes"></a>заметки о выпуске Microsoft Mixed Reality набор средств 2,5
 
@@ -170,7 +170,7 @@ yield return leftHand.SetGesture(ArticulatedHandPose.GestureId.Open);
 
 ### <a name="bounds-control-graduated"></a>Элемент управления границами с градиентом
 
-![Элемент управления Bounds](../features/images/bounds-control/MRTK_BoundsControl_Main.png)
+![Элемент управления границами](../features/images/bounds-control/MRTK_BoundsControl_Main.png)
 
 [Управление границами](../features/ux-building-blocks/bounds-control.md) выходит за пределы экспериментального и включает целый ряд новых функций и тонн исправлений ошибок.
 Ниже приведен список основных особенностей этого обновления.
@@ -223,8 +223,8 @@ yield return leftHand.SetGesture(ArticulatedHandPose.GestureId.Open);
 
 В настоящее время следующие компоненты МРТК, поддерживающие [Диспетчер эластичных](xref:Microsoft.MixedReality.Toolkit.Experimental.Physics.ElasticsManager) баз данных, могут использовать функциональные возможности эластичных БД:
 
-- [Элемент управления Bounds](../features/ux-building-blocks/bounds-control.md#elastics-experimental)
-- [Манипулятор объекта](../features/ux-building-blocks/object-manipulator.md#elastics-experimental)
+- [Элемент управления границами](../features/ux-building-blocks/bounds-control.md#elastics-experimental)
+- [Манипулятор объектов](../features/ux-building-blocks/object-manipulator.md#elastics-experimental)
 
 <img src="https://user-images.githubusercontent.com/5544935/88151572-568cba00-cbaf-11ea-91c2-d6b51829b638.gif" width="38%" alt="Expanding an elastic menu">
 <img src="https://user-images.githubusercontent.com/5544935/88151578-58567d80-cbaf-11ea-8f96-d24f2cf0d6e9.gif" width="45.7%" alt="Grabbing an elastic coffee cup">

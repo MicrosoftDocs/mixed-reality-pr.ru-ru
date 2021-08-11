@@ -1,19 +1,19 @@
 ---
-title: О Макуетте
+title: О Maquette
 description: Общие сведения о Макуетте и его возможностях.
 author: hferrone
 ms.author: v-hferrone
 ms.date: 10/26/2020
 ms.topic: article
-keywords: Windows Mixed Reality, Макуетте, создание прототипов, Смешанная реальность, виртуальная реальность, VR, MR, обратная связь, центр обратной связи, ошибки
-ms.openlocfilehash: fbc2aee7472a26e508937fa1dedfdac08fadfa10
-ms.sourcegitcommit: fae413a2b0420e787671af90f14ee39cde51640f
+keywords: Windows Mixed Reality, макуетте, создание прототипов, смешанная реальность, виртуальная реальность, VR, MR, отзыв, центр обратной связи, ошибки
+ms.openlocfilehash: 81c09bf22ea531a76156c9264e127593b6302ad5d0bcb248de9518bfb647717b
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "94935621"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115197896"
 ---
-# <a name="about-maquette"></a>О Макуетте
+# <a name="about-maquette"></a>О Maquette
 
 <!-- TODO(Harrison): Need consolidated logo with text -->
 ![](../images/MaquetteIcon.png)Общие сведения о макуеттескрипт логотипа

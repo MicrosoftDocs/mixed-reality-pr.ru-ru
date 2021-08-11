@@ -4,13 +4,13 @@ description: Документация по входным состояниям �
 author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
-keywords: Unity, HoloLens, HoloLens 2, Mixed Reality, разработка, МРТК, Инпутстате,
-ms.openlocfilehash: 4c1bd115c63e25decf73c082546e75b0f276a7ef
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, инпутстате,
+ms.openlocfilehash: 7d5e008ae3e43d227b90a563dd74e65a89527bd7ddf1720e26577042ce0d545f
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110145251"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115228364"
 ---
 # <a name="accessing-input-state-in-mrtk"></a>Доступ к входному состоянию в МРТК
 
@@ -63,7 +63,7 @@ foreach(var controller in CoreServices.InputSystem.DetectedControllers)
 }
 ```
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 - [InputEvents](input-events.md)
 - [Указатели](pointers.md)

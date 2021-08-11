@@ -5,12 +5,12 @@ author: CDiaz-MS
 ms.author: cadia
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 7036bb552952a0e45a8ba465d769a8952e48bc36
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: f32f7321ec30f337e03d006f47fa92639796a74156483917331304811ea86a45
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113177554"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115198520"
 ---
 # <a name="constraint-manager"></a>Диспетчер ограничений
 
@@ -20,8 +20,8 @@ ms.locfileid: "113177554"
 
 В настоящее время следующие элементы UX МРТК поддерживают диспетчер ограничений:
 
-- [Элемент управления Bounds](bounds-control.md)
-- [Манипулятор объекта](object-manipulator.md)
+- [Элемент управления границами](bounds-control.md)
+- [Манипулятор объектов](object-manipulator.md)
 
 ## <a name="inspector-properties-and-fields"></a>Свойства и поля инспектора
 

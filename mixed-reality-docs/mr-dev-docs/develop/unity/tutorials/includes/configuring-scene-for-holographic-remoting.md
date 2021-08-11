@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: dec77c3a3693a3003517a3a88e7c71983d20b526
-ms.sourcegitcommit: bdf4babd13e021f41fb04cdb3611bb759bd77537
+ms.openlocfilehash: 32c24dab255a892d7ffa9822aa5371e63eceab27482cbf9a2a0c8c8066f841a9
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112392662"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115198098"
 ---
 # <a name="unity-2020--openxr"></a>[Unity 2020 + OpenXR](#tab/openxr)
 

@@ -6,12 +6,12 @@ ms.author: grbury
 ms.date: 06/30/2019
 ms.topic: article
 keywords: galaxy explorer, пример внедрения, проект, пример, мртк, смешанная реальность набор средств, Unity, примеры приложений, примеры приложений, открытый исходный код, Microsoft Store, HoloLens, гарнитура смешанной реальности, гарнитура windows Mixed reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 1e19f63f493eba2559cf60ef7c1224b7323ec825
-ms.sourcegitcommit: 9831b89a1641ba1b5df14419ee2a4f29d3fa2d64
+ms.openlocfilehash: c3d9c6da13446816f3fd75f83e5a9088661c9604ef4d86ea805202f538d395b5
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "114757080"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115200508"
 ---
 # <a name="the-making-of-galaxy-explorer-for-hololens-2"></a>Создание обозревателя Galaxy для HoloLens 2
 

@@ -5,12 +5,12 @@ author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: d81b441cd9bcd40846eb94320f6f7de1bbd2f0a8
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 521ef71abd1ddf920863530a2a423c1080a135e5a404a26f1611fc14f92c2796
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113177249"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115198249"
 ---
 # <a name="configuring-the-diagnostics-system"></a>Настройка системы диагностики
 
@@ -68,7 +68,7 @@ CoreServices.DiagnosticsSystem.ShowDiagnostics = false;
 CoreServices.DiagnosticsSystem.ShowProfiler = false;
 ```
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также раздел
 
 - [Система диагностики](diagnostics-system-getting-started.md)
 - [Использование Visual Profiler](using-visual-profiler.md)

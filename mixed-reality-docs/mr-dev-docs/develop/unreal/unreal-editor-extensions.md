@@ -7,12 +7,12 @@ ms.date: 01/08/2021
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, расширения редактора, редактор Unreal, UE4, HoloLens, HoloLens 2, смешанная реальность, разработка, документация, руководства, функции, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, перенос, обновление
-ms.openlocfilehash: ee0ba5d1d60b83dc334204e12283c76a877b4ec8
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: 91d9a84e4e19cb7f0f2bf54060b45da1767b8d50cdfeb5655f5e58a29d45a702
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "98584919"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115226626"
 ---
 # <a name="editor-extensions-in-unreal"></a>Расширения редактора в Unreal
 

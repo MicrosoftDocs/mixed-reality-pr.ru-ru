@@ -5,13 +5,13 @@ author: cre8ivepark
 ms.author: dongpark
 ms.date: 06/19/2020
 ms.topic: overview
-keywords: Проектирование UX, UX в смешанной реальности, UX, шаблоны приложений, элементы управления, стиль, HoloLens, взаимодействие, пространственное взаимодействие, пространственный пользовательский интерфейс, элементы UX, варианты поведения, стандартные блоки, типографские цвета, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: a1b087230b5a744cb6194c5cb791e4085aa791c6
-ms.sourcegitcommit: 2329db5a76dfe1b844e21291dbc8ee3888ed1b81
+keywords: проектирование ux, ux в смешанной реальности, ux, шаблоны приложений, элементы управления, стиль, HoloLens, взаимодействие, пространственное взаимодействие, пространственный пользовательский интерфейс, элементы UX, варианты поведения, стандартные блоки, типографские цвета, гарнитура смешанной реальности, гарнитура windows Mixed reality, гарнитура виртуальной реальности, HoloLens, мртк, смешанная реальность набор средств
+ms.openlocfilehash: d6f5193c7863f44f6f8b55f874f5f4339396b6c7d1dcef8ae9f8839cb2b8c26e
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98009704"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115225861"
 ---
 # <a name="ux-elements-overview"></a>Общие сведения об элементах UX
 
@@ -51,7 +51,7 @@ ms.locfileid: "98009704"
        [ ![ Луч луча,](images/UX_Hero_HandRay.jpg)](point-and-commit.md) **[рука](point-and-commit.md)**
     :::column-end:::
     :::column:::
-       [ ![](images/UX_Hero_Button.jpg)](button.md) **[Кнопка](button.md) кнопки**
+       [![Кнопка](images/UX_Hero_Button.jpg)](button.md) **[Кнопка](button.md)**
     :::column-end:::
 :::row-end:::
 
@@ -87,16 +87,16 @@ ms.locfileid: "98009704"
        Клавиатура [ ![ клавиатуры](images/UX_Hero_Keyboard.jpg)](keyboard.md) **[](keyboard.md)**
     :::column-end:::
     :::column:::
-       [ ![](images/UX_Hero_Tooltip.jpg)](tooltip.md) **[Подсказка](tooltip.md) подсказки**
+       [![Подсказка](images/UX_Hero_Tooltip.jpg)](tooltip.md) **[Подсказка](tooltip.md)**
     :::column-end:::
 :::row-end:::
 
 :::row:::
     :::column:::
-       [ ![](images/UX_Hero_Slate.jpg)](slate.md) **[Содержание](slate.md) планшета**
+       [![Грифель](images/UX_Hero_Slate.jpg)](slate.md) **[Грифель](slate.md)**
     :::column-end:::
     :::column:::
-       Ползунок [ ![ ползунка](images/UX_Hero_Slider.jpg)](slider.md) **[](slider.md)**
+       [![Ползунок](images/UX_Hero_Slider.jpg)](slider.md) **[Ползунок](slider.md)**
     :::column-end:::
     :::column:::
         Шейдер [ ![ шейдера](images/UX_Hero_StandardShader.jpg)](shader.md) **[](shader.md)**
@@ -105,7 +105,7 @@ ms.locfileid: "98009704"
 
 :::row:::
     :::column:::
-       [ ![ Диалоговое](images/MRTK_UX_Dialog.jpg)](dialog-ui.md) **[окно](dialog-ui.md)**
+       [![Диалоговое окно](images/MRTK_UX_Dialog.jpg)](dialog-ui.md) **[Диалоговое окно](dialog-ui.md)**
     :::column-end:::
     :::column:::
        Обучение [ ![ вручную](images/HandCoach/MRTK_handCoach.jpg)](hand-coach.md) **[](hand-coach.md)**

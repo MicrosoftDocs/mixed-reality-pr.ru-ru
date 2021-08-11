@@ -5,13 +5,13 @@ author: grbury
 ms.author: grbury
 ms.date: 10/21/2019
 ms.topic: article
-keywords: Смешанная реальность, разработка, разработка, проектирование, HoloLens, службы Azure, Новости, HoloLens 2
-ms.openlocfilehash: 8fc2f7c54cdc941150558aac59dd240ee293d1f8
-ms.sourcegitcommit: c65759b8d6465b6b13925cacab5af74443f7e6bd
+keywords: смешанная реальность, разработка, разработка, проектирование, HoloLens, службы Azure, новости, HoloLens 2
+ms.openlocfilehash: 0144a4ed804dacf2f6120b1e93ee054a71dbadf3efe6689d19ded3f14233c31f
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "112110082"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115226224"
 ---
 # <a name="mixed-reality-news-and-notes"></a>Новости и примечания в смешанной реальности
 
@@ -27,7 +27,7 @@ ms.locfileid: "112110082"
 
 <table>
 <tr>
-<th style="width: 400px; text-align:left;">Содержимое</th><th style="width: 125px; text-align:left;">Доставка</th><th style="width: 125px; text-align:left;">УЖЕ ДОСТУПНО</th>
+<th style="width: 400px; text-align:left;">Content</th><th style="width: 125px; text-align:left;">Доставка</th><th style="width: 125px; text-align:left;">УЖЕ ДОСТУПНО</th>
 </tr> 
 <tr>
 <td><b>Руководства по переносу</b> <br>1. Из набора средств HoloToolKit (HTK)/Mixed Reality Toolkit Mixed Reality (MRTK) в MRTK версии 2
@@ -50,6 +50,6 @@ ms.locfileid: "112110082"
   <td>Новые сведения о нереальном</td><td>Октябрь 2019 г.</td><td> <ul><li><a href=https://docs.microsoft.com/windows/mixed-reality/unreal-development-overview>Обзор разработки для Unreal</a></td>
 </tr>
 <tr>
-  <td>Проектирование Microsoft Fluent</td><td>Октябрь 2019 г.</td><td> <ul><li><a href=https://www.microsoft.com/design/fluent/>Страница проектирования смешанной реальности</a></td>
+  <td>разработка Fluent майкрософт</td><td>Октябрь 2019 г.</td><td> <ul><li><a href=https://www.microsoft.com/design/fluent/>Страница проектирования смешанной реальности</a></td>
 </tr>
 </table>

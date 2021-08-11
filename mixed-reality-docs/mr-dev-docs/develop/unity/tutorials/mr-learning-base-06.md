@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, заготовки, голограммы, советы
 ms.localizationpriority: high
-ms.openlocfilehash: 0abfb4ea2fac3a2e50837c219a465c4ab002e69d
-ms.sourcegitcommit: c65759b8d6465b6b13925cacab5af74443f7e6bd
+ms.openlocfilehash: 605379be0e2f3238ddb5de5c47b6df005c4bf2eb82a2e04156f1317e0e7659fe
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "112110277"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115227853"
 ---
 # <a name="6-creating-user-interfaces"></a>6. Создание пользовательских интерфейсов
 

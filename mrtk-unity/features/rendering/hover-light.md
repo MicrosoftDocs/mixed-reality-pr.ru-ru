@@ -1,18 +1,18 @@
 ---
-title: Светлое наведение
+title: HoverLight
 description: Документация по Ховерлигхт с примерами в МРТК
 author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, светлое наведение,
-ms.openlocfilehash: ed45d3345931376283cfca2372ac57459c777f6e
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 948a0772cd2fad667984d8d5507664e4346a507e84b03c873eccf8d3f1e66532
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113176732"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115198586"
 ---
-# <a name="hover-light"></a>Светлое наведение
+# <a name="hover-light"></a>HoverLight
 
 [`HoverLight`](xref:Microsoft.MixedReality.Toolkit.Utilities.HoverLight)— это [система Fluent Design](https://www.microsoft.com/design/fluent/) парадигма, которая имитирует [точку](https://docs.unity3d.com/Manual/Lighting.html) , наведя на нее курсор мыши рядом с поверхностью объекта. Как правило, для далекого взаимодействия приложение может управлять свойствами светлого наведения с помощью [`HoverLight`](xref:Microsoft.MixedReality.Toolkit.Utilities.HoverLight) компонента.
 
@@ -61,6 +61,6 @@ private const int hoverLightCountHigh = 12;
 >
 > `Property (_HoverLightData) exceeds previous array size (24 vs 20). Cap to previous >size.`
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также раздел
 
-* [Стандартный шейдер MRTK](mrtk-standard-shader.md)
+* [Стандартный шейдер МРТК](mrtk-standard-shader.md)

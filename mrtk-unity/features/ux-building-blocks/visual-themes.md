@@ -5,12 +5,12 @@ author: CDiaz-MS
 ms.author: cadia
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, мртк темы
-ms.openlocfilehash: d97c470bf1d77299c6848990cdc69d886d432ecb
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: f7e0b10f51947884c4d23191fd147315084c5295e9b48953bb5de10b7cbc0d22
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113177170"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115223976"
 ---
 # <a name="visual-themes"></a>Визуальные темы
 
@@ -296,6 +296,6 @@ public class MeshVisibilityController : MonoBehaviour
 }
 ```
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также раздел
 
 - [Интерактивный объект](interactable.md)

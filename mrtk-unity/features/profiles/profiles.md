@@ -5,12 +5,12 @@ author: RogPodge
 ms.author: roliu
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK, профили
-ms.openlocfilehash: 785d402e924a534627dfd1d742d2019d9ce9dd5a
-ms.sourcegitcommit: 2f69fb62eb81f91e655d7b55306b0550a1162496
+ms.openlocfilehash: b3ba5aa9ac08dcfe0eecdb479db075b39b43a0e376239822432df872b0775d27
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111908238"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115225664"
 ---
 # <a name="profiles"></a>Профили
 

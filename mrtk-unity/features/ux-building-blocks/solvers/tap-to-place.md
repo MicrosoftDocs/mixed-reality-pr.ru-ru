@@ -6,12 +6,12 @@ ms.author: cadia
 ms.date: 01/12/2021
 ms.localizationpriority: high
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK, размещение касанием, Tap to Place,
-ms.openlocfilehash: 1664509a08c2d589d22b71df580328f3f3655c61
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 98408312ec2637dc3fa137e7d51cce1f37e816f9a21b703ec9216bf90251661f
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113176405"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115198322"
 ---
 # <a name="tap-to-place"></a>Размещение касанием
 

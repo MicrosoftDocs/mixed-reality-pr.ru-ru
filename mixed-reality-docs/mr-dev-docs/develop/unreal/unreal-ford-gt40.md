@@ -8,12 +8,12 @@ ms.topic: article
 keywords: нереал, нереал. 4, UE4 HoloLens, HoloLens 2, смешанная реальность, развертывание на устройстве, пк, документация, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: e634d75af92509372209d8e7c0cde2833127c128
-ms.sourcegitcommit: 9831b89a1641ba1b5df14419ee2a4f29d3fa2d64
+ms.openlocfilehash: 17314cca69148e73ee11fcd4cdc5359a5dbae4cf84b609bafb6cc75d477ec26f
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "114757204"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115200620"
 ---
 # <a name="the-making-of-the-ford-gt40-experience"></a>Создание интерфейса Форд GT40
 ![Образ Форд GT40 Hero](images/ford-gt40-hero_1920.jpg)

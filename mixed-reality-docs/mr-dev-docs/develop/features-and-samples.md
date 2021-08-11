@@ -7,12 +7,12 @@ ms.date: 6/7/2021
 ms.topic: article
 keywords: смешанная реальность, unity, руководство, hololens, обучение, примеры, mrtk, режим исследований, hololens 2, qr-коды, webrtc, запись смешанной реальности, удаленное взаимодействие, средства пользовательского интерфейса
 ms.localizationpriority: high
-ms.openlocfilehash: 78a9e343fde4a6cbc23268f0be353577498d67b6
-ms.sourcegitcommit: 72970dbe6674e28c250f741e50a44a238bb162d4
+ms.openlocfilehash: 1c713604f3a73620c4b7314afe7b70e0b2a59bef1c4e0ae0482c7f0143c38e71
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "112906900"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115227676"
 ---
 # <a name="samples-and-feature-apps"></a>Примеры приложений и возможностей
 

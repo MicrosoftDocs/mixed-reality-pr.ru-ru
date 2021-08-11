@@ -1,21 +1,21 @@
 ---
 title: Пример использования. Создание невозможнай перспективы для Холотаур
-description: Мы хотели, чтобы ваш опыт в Холотаур для Microsoft HoloLens был унфоржеттабле. Помимо традиционных таурист, мы планировали некоторые «невозможные перспективы».
+description: мы хотели, чтобы ваш опыт в холотаур Microsoft HoloLens унфоржеттабле. Помимо традиционных таурист, мы планировали некоторые «невозможные перспективы».
 author: dannyaskew
 ms.author: daaske
 ms.date: 03/21/2018
 ms.topic: article
-keywords: Холотаур, HoloLens, Windows Mixed Reality
-ms.openlocfilehash: f3ca07dfab1e4477039481c268e418aac9034bc5
-ms.sourcegitcommit: 09599b4034be825e4536eeb9566968afd021d5f3
+keywords: холотаур, HoloLens Windows Mixed Reality
+ms.openlocfilehash: bf1f2b3c9c82e4b649a75efc0275a063ea5a2363dfa15b818c0159b947f6b515
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "91695029"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115199953"
 ---
 # <a name="case-study---creating-impossible-perspectives-for-holotour"></a>Пример использования. Создание невозможнай перспективы для Холотаур
 
-Мы хотели, чтобы ваш опыт в Холотаур для Microsoft HoloLens был унфоржеттабле. В дополнение к традиционным тауристм, мы планировали некоторые «невозможные перспективы» — время, которое было бы невозможным в работе с любым обзором, но с помощью технологии в HoloLens мы можем напрямую перейти к своей гостиной. Создание содержимого для этих функций требовало некоторых других методик, чем стандартный процесс записи.
+мы хотели, чтобы ваш опыт в холотаур Microsoft HoloLens унфоржеттабле. в дополнение к традиционным тауристм, мы планировали некоторые «невозможные перспективы» — время, которое было бы невозможным в работе с любыми курсами, но с помощью технологии в HoloLens можно напрямую перейти к своей гостиной. Создание содержимого для этих функций требовало некоторых других методик, чем стандартный процесс записи.
 
 ## <a name="the-content-challenge"></a>Запрос содержимого
 
@@ -98,4 +98,4 @@ ms.locfileid: "91695029"
 
 
 ## <a name="see-also"></a>См. также раздел
-* [Видео: Microsoft HoloLens: Холотаур](https://www.youtube.com/watch?v=pLd9WPlaMpY)
+* [видео: Microsoft HoloLens: холотаур](https://www.youtube.com/watch?v=pLd9WPlaMpY)

@@ -7,12 +7,12 @@ ms.date: 12/9/2020
 ms.topic: tutorial
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens 2, Azure, разработка Azure, пространственные привязки, смешанная реальность, разработка, функции, новый проект, эмулятор, документация, руководства, голограммы, разработка игр, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 01d7217f038519d68eabfbf4f273c7ff8cbe7193
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: ed8062436bccb1fe818075bde626e2e50b13b7ae200580d0084521ca6dde5cff
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "100496201"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115227232"
 ---
 # <a name="azure-spatial-anchors-in-unreal"></a>Пространственные привязки Azure в Unreal
 

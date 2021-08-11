@@ -5,12 +5,12 @@ author: maxwang-ms
 ms.author: wangmax
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, системная клавиатура,
-ms.openlocfilehash: 9b1db512a1a4e27a2c41e8e8b5752200c461ee6e
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 4fc7023f6f39d9794011a09810e078f2ebbfc1c01c22e7003d5a3742e4c85921
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113176491"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115224740"
 ---
 # <a name="system-keyboard"></a>Системная клавиатура
 

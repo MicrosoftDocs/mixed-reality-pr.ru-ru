@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, многопользовательские возможности, Photon, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure
 ms.localizationpriority: high
-ms.openlocfilehash: 4eb7470487a584ef820be82f651ed9bd16392395
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: 9c542d9319d53af049f79222102ccfe5c9a7167600f237f327800946a3c62e60
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "99590226"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115200908"
 ---
 # <a name="5-integrating-azure-spatial-anchors-into-a-shared-experience"></a>5. Интеграция Пространственных привязок Azure в общий интерфейс
 

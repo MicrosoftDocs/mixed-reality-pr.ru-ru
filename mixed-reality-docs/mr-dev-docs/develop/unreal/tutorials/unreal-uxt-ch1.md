@@ -7,12 +7,12 @@ ms.date: 06/10/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, учебник, начало работы, MRTK, UXT, UX Tools, документация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: efa0bc210fc20b9e639954a06e97eb78661d87e5
-ms.sourcegitcommit: 4a6c26615d52776bdc4faab70391592092a471fc
+ms.openlocfilehash: 26493f48418e36c2441eada17a764dc18d73e90bf34e0c35b4412e7a38c9fe41
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "110712583"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115226691"
 ---
 # <a name="1-getting-started"></a>1. Начало работы
 

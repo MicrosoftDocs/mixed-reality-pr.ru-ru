@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: f89699972d1df9175d158ed86d441ee4d3a0771d
-ms.sourcegitcommit: 6ade7e8ebab7003fc24f9e0b5fa81d091369622c
+ms.openlocfilehash: bde9d132d4e2c6ee90295f202d8a3f006e77c655b1dbc2bc6fa9da1aed9d6e33
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112394538"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115227558"
 ---
 # <a name="unity"></a>[Unity](#tab/unity)
 

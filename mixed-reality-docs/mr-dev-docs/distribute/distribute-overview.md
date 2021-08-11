@@ -5,13 +5,13 @@ author: hferrone
 ms.author: v-hferrone
 ms.date: 12/9/2020
 ms.topic: article
-keywords: HoloLens, Mixed Reality, впечатляющие гарнитуры, приложение, UWP, отправка, отправка, фильтры, метаданные, требования к системе, ключевые слова, wack, сертификация, пакет, appx, товары
-ms.openlocfilehash: eb06ff46be6fbe6e480f9b43fa7f23ee47982192
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+keywords: HoloLens, смешанная реальность, впечатляющие головные телефоны, приложение, uwp, отправка, отправка, фильтры, метаданные, требования к системе, ключевые слова, wack, сертификация, пакет, appx, товары
+ms.openlocfilehash: 7d4fbc1a7a5767ad8276017c7cdc38e9bb436bc83b12a4d8caeb9a8d84f1caca
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98582849"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115198793"
 ---
 # <a name="distributing-your-apps"></a>Распространение приложений
 
@@ -28,7 +28,7 @@ ms.locfileid: "98582849"
 >     * Если вы используете установщик приложения, вам также потребуется предоставить сертификат пользователю.
 > 
 > * Если вы используете совместно с Организацией, вам потребуется рабочая или учебная учетная запись и доступ к инфраструктуре [MDM (Управление мобильными устройствами)](/hololens/hololens-enroll-mdm) .  
->    * Если вы являетесь субъектом общего доступа, необходимо быть администратором клиента и использовать [центр администрирования Microsoft Endpoint Manager](/mem/intune/apps/apps-deploy) , чтобы сделать приложение доступным. Другим вариантом является совместное использование appx-файла и зависимостей приложения с конечным пользователем.
+>    * если вы являетесь субъектом общего доступа, вам нужно быть администратором в клиенте и использовать [центр администрирования Microsoft Endpoint Manager](/mem/intune/apps/apps-deploy) , чтобы сделать приложение доступным. Другим вариантом является совместное использование appx-файла и зависимостей приложения с конечным пользователем.
 >    * Если вы являетесь конечным пользователем, приложение будет автоматически скачиваться или быть доступным для скачивания после регистрации в клиенте организации общего доступа. 
 
 <table>
@@ -51,7 +51,7 @@ ms.locfileid: "98582849"
     <td>❌</td>
 </tr>
 <tr>
-    <td><a href="/hololens/app-deploy-app-installer"><strong>MDM — корпоративный портал</strong></a></td>
+    <td><a href="/hololens/app-deploy-app-installer"><strong>MDM — Корпоративный портал</strong></a></td>
     <td>❌</td>
     <td>❌</td>
     <td>✔️</td>
@@ -75,13 +75,13 @@ ms.locfileid: "98582849"
     <td>✔️</td>
 </tr>
 <tr>
-    <td><a href="/hololens/app-deploy-provisioning-package"><strong>Подготовка пакета</strong></a></td>
+    <td><a href="/hololens/app-deploy-provisioning-package"><strong>Пакет подготовки</strong></a></td>
     <td>✔️</td>
     <td>✔️</td>
     <td>✔️</td>
 </tr>
 <tr>
-    <td><a href="#other-scenarios"><strong>Пользовательское развертывание Win32</strong></a> (недоступно для устройств HoloLens — см. ниже)</td>
+    <td><a href="#other-scenarios"><strong>пользовательское развертывание Win32</strong></a> (недоступно для устройств HoloLens — см. ниже)</td>
     <td>✔️</td>
     <td>✔️</td>
     <td>❌</td>
@@ -89,15 +89,15 @@ ms.locfileid: "98582849"
 </table>
 
 > [!IMPORTANT]
-> Установщик приложения сейчас недоступен для управляемых устройств или устройств HoloLens (1-го поколения).
+> установщик приложения сейчас недоступен для управляемых устройств или HoloLens (1-го поколения) устройств.
 
 ## <a name="other-scenarios"></a>Другие сценарии
 
-* Вы можете создать Win32. EXE, используя целевой объект автономной сборки ПК из Unity для развертывания приложений Win32, включая Steam и Pass. После получения. EXE, вы можете отправить свои приложения обычным образом на выбранную платформу. 
+* Вы можете создать файл .EXE Win32 с помощью автономного целевого объекта сборки на компьютере из Unity для развертывания приложений Win32, включая Steam и Game Pass. Получив .EXE, вы можете отправить свои приложения как обычные на выбранную платформу. 
 
-* Если вы хотите установить приложение HoloLens 2 в автономном режиме, обратитесь к инструкциям в [автономном режиме безопасности HoloLens 2](/hololens/hololens-common-scenarios-offline-secure) или установите приложение с помощью пакета подготовки без включения режима разработчика.
+* если необходимо установить HoloLens 2 приложение в автономном режиме, см. инструкции в [автономном HoloLens 2](/hololens/hololens-common-scenarios-offline-secure) и установите приложение с помощью пакета подготовки без включения режима разработчика.
 
-* Вы также можете развернуть сборки на устройстве и предоставить к ним доступ другим разработчикам, использующим режим разработчика, путем [развертывания и отладки в Visual Studio](../develop/platform-capabilities-and-apis/using-visual-studio.md) или [установки пакета приложения с помощью портала устройств](../develop/platform-capabilities-and-apis/using-the-windows-device-portal.md#sideloading-applications).
+* вы также можете развернуть сборки на устройстве и предоставить к ним доступ другим разработчикам, использующим режим разработчика, путем [развертывания и отладки с Visual Studio](../develop/platform-capabilities-and-apis/using-visual-studio.md) или [установки пакета приложения с помощью портала устройств](../develop/platform-capabilities-and-apis/using-the-windows-device-portal.md#sideloading-applications).
 
 ## <a name="see-also"></a>См. также раздел
 * [Поиск, установка и удаление приложений из Microsoft Store](/hololens/holographic-store-apps)

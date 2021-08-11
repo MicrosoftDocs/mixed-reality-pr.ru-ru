@@ -5,17 +5,17 @@ author: thetuvix
 ms.author: alexturn
 ms.date: 03/21/2018
 ms.topic: article
-keywords: жесты, контроллеры движения, Unity, взгляд, вход, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, МРТК, набор средств для смешанной реальности
-ms.openlocfilehash: 2daa02a0681fe4f3da24fa32379e10877750af7e
-ms.sourcegitcommit: c65759b8d6465b6b13925cacab5af74443f7e6bd
+keywords: жесты, контроллеры движения, unity, взгляд, вход, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности, мртк, смешанная реальность набор средств
+ms.openlocfilehash: 005b817574e6d3600b9c43e443432203418b58a2258e2938614cc549ab7539c2
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "112110225"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115223840"
 ---
 # <a name="articulated-hand-and-eye-tracking-in-unity"></a>Взгляд на руки и отслеживание глаз в Unity
 
-В HoloLens 2 появились новые и интересные возможности, такие как отслеживание с учетом особенностей и глаз.
+в HoloLens 2 появились некоторые новые и интересные возможности, такие как отслеживание с учетом особенностей и глаз.
 
 Самый простой способ использовать новую возможность в Unity — МРТК. Также есть несколько примеров сцен, которые помогут вам приступить к работе.
 
@@ -42,7 +42,7 @@ ms.locfileid: "112110225"
 
 Узнайте о различных типах взаимодействий и элементов управления пользовательского интерфейса MRTK с помощью [этого примера сцены](/windows/mixed-reality/mrtk-unity/features/example-scenes/hand-interaction-examples).
 
-Другие примеры сцен можно найти в разделе **Assets/микседреалититулкит. examples/демонстрационные материалы** в [GitHub с набором средств для смешанной реальности](https://github.com/Microsoft/MixedRealityToolkit-Unity) .
+другие примеры сцен можно найти в [смешанной реальности набор средств GitHub](https://github.com/Microsoft/MixedRealityToolkit-Unity) в папке **assets/микседреалититулкит. examples/демонстрации**.
 
 [![Пример сцены](images/MRTK_Examples.png)](/windows/mixed-reality/mrtk-unity/features/example-scenes/hand-interaction-examples)
 

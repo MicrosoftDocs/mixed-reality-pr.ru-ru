@@ -5,12 +5,12 @@ author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 8c1da7ae6a46bd00599a77b1c4cbb0b2f7baa632
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: a5ebf85e3f45e622aaa05311d78066bf8b762108af81cff5292772b92cce0900
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113176172"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115200227"
 ---
 # <a name="controller-mapping-tool"></a>Средство сопоставления контроллеров
 
@@ -46,7 +46,7 @@ ms.locfileid: "113176172"
 
 ![Отображение активных элементов управления](../images/controller-mapping-tool/ActiveControls.png)
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также раздел
 
 - [Создание поставщика входных системных данных](../input/create-data-provider.md)
 - [Средство Инпутфеатуреусаже](input-feature-usage-tool.md)
