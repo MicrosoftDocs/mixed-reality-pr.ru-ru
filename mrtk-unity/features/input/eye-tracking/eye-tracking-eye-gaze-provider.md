@@ -4,13 +4,13 @@ description: Документация для поставщика взгляда
 author: CDiaz-MS
 ms.author: cadia
 ms.date: 01/12/2021
-keywords: Unity, HoloLens, HoloLens 2, Mixed Reality, разработка, МРТК, Эйетраккинг, Эйегазе,
-ms.openlocfilehash: ef50a55d52a5dad9f424c8af8139565e02542b6c
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, эйетраккинг, эйегазе,
+ms.openlocfilehash: 9a62bdba0bc4bb2985e6c2ffc4e8e66a8f867681a5e51c9e5f235b29f3baaf50
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110144025"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115193196"
 ---
 # <a name="accessing-eye-tracking-data-in-your-unity-script"></a>Доступ к данным отслеживания взгляда в скрипте Unity
 
@@ -63,9 +63,9 @@ CoreServices.InputSystem.EyeGazeProvider.GazeOrigin +
 CoreServices.InputSystem.EyeGazeProvider.GazeDirection.normalized * defaultDistanceInMeters;
 ```
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 - [Общие сведения об отслеживании МРТКных глаз](eye-tracking-main.md)
 - [Настройка отслеживания МРТКных глаз](eye-tracking-basic-setup.md)
 - [Калибровка отслеживания МРТКных глаз](eye-tracking-is-user-calibrated.md)
-- [Документация по отслеживания взгляда HoloLens 2](/windows/mixed-reality/eye-tracking)
+- [HoloLens 2 Документация по отслеживанию глаз](/windows/mixed-reality/eye-tracking)

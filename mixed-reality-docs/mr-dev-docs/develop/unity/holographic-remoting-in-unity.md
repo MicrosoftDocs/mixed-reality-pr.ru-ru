@@ -6,12 +6,12 @@ ms.author: v-vtieto
 ms.date: 07/26/2021
 ms.topic: article
 keywords: опенкср, unity, hololens, hololens 2, mixed reality, мртк, смешанная реальность набор средств, дополненная реальность, виртуальная реальность, гарнитуры смешанной реальности, обучение, учебник, начало работы, holographic удаленное взаимодействие, настольный компьютер
-ms.openlocfilehash: 51244a94fb7e54f2eee41d9d1b7f65b0ba373138
-ms.sourcegitcommit: 9831b89a1641ba1b5df14419ee2a4f29d3fa2d64
+ms.openlocfilehash: 0b18bf4a187190da3ef9d17fd87f2c42feaa271210345330887ce618b49a0442
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "114757421"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115192186"
 ---
 # <a name="holographic-remoting-in-unity"></a>Holographic удаленное взаимодействие в Unity
 
@@ -19,7 +19,7 @@ ms.locfileid: "114757421"
 > Windows В выпуске пакета 0.1.3 добавлена поддержка удаленного взаимодействия автономных приложений.
 > Начиная с версии 0.1.3 Эта функция не поддерживает сборки UWP.
 
-[Изучите основы удаленного взаимодействия с Holographic.](../platform-capabilities-and-apis/holographic-remoting-overview.md)
+[Изучите основы голографического удаленного взаимодействия.](../platform-capabilities-and-apis/holographic-remoting-overview.md)
 
 с помощью удаленного взаимодействия holographic можно передавать данные в HoloLens 2 в режиме реального времени. Это отличный способ быстрой отладки приложения без создания и развертывания полного проекта. 
 

@@ -6,12 +6,12 @@ ms.author: dongpark
 ms.date: 07/27/2021
 ms.topic: article
 keywords: Windows Mixed Reality, проектирование, пример приложения, элементы управления, мртк, набор средств смешанной реальности, Unity, примеры приложений, примеры приложений, открытый исходный код, Microsoft Store, HoloLens, гарнитура смешанной реальности, гарнитура Windows Mixed reality, гарнитура виртуальной реальности, опенкср, open XR, Unity
-ms.openlocfilehash: 78961c73ee01efcd097d2dcc4456bce156287691fa6dc8e2121c817e4812bfac
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: ccfd443bb103f6ac051de84d3a321f3ffd5be2f5bafdc6479e9f67a03771d386
+ms.sourcegitcommit: 5977109661a1db4ee2be8ed532479342093303d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115211860"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "116862599"
 ---
 # <a name="periodic-table-of-the-elements-20"></a>Periodic Table of the Elements 2.0
 ![Таблица периодов приложения элементов](../images/MRDL_PeriodicTable.jpg)
@@ -26,6 +26,8 @@ ms.locfileid: "115211860"
 
 записано с HoloLens 2 с помощью записи смешанной реальности
 
+## <a name="download-the-app-package-from-github"></a>Скачать пакет приложения из GitHub
+Извлеките страницу <a href="https://github.com/microsoft/MRDL_Unity_PeriodicTable/releases" target="_blank">**выпуска**</a>на GitHub.
 
 ## <a name="upgrading-the-project-for-hololens-2-with-mrtk"></a>обновление проекта для HoloLens 2 с помощью мртк
 вы можете найти историю HoloLens 2 переносу из статьи: <a href="https://dongyoonpark.medium.com/bringing-the-periodic-table-of-the-elements-app-to-hololens-2-with-mrtk-v2-a6e3d8362158" target="_blank"> **переводить периодическую таблицу приложения elements на HoloLens 2 с мртк v2 (2019)** .</a>
@@ -45,7 +47,7 @@ ms.locfileid: "115211860"
 </tr>
 </table>
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [MRTK Examples Hub](/windows/mixed-reality/mrtk-unity/features/example-scenes/example-hub) - [(скачайте из Microsoft Store в HoloLens 2)](https://www.microsoft.com/en-us/p/mrtk-examples-hub/9mv8c39l2sj4)
 * [Surfaces](sampleapp-surfaces.md) - [(скачайте из Microsoft Store в HoloLens 2)](https://www.microsoft.com/en-us/p/surfaces/9nvkpv3sk3x0)

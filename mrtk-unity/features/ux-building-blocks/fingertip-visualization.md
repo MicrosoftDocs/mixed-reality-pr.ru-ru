@@ -1,18 +1,18 @@
 ---
-title: Удобное графическое представление
+title: Визуализация с использованием кончика пальца
 description: Обзор поправной визуализации в МРТК
 author: CDiaz-MS
 ms.author: cadia
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, под рукой
-ms.openlocfilehash: af23fdb9b618e276b7442405e54b7dccd141e4ee
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 1df1740692a2c24213f34ffa6e52c135c7e7d14f96e7d99668feab82f879f756
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113177536"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115193305"
 ---
-# <a name="fingertip-visualization"></a>Удобное графическое представление
+# <a name="fingertip-visualization"></a>Визуализация с использованием кончика пальца
 
 ![Основной визуальный образ](../images/fingertip/MRTK_FingertipVisualization_Main.png)
 

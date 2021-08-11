@@ -1,26 +1,26 @@
 ---
-title: Набор средств Figma
+title: Набор средств MRTK Figma
 description: Скачайте файл фигма, содержащий ресурсы для общих стандартных блоков пользовательского интерфейса.
 author: dongpark
 ms.author: dongpark
 ms.date: 03/29/2021
 ms.topic: article
 keywords: фигма, эскиз, Adobe XD, проектирование, конструктор, файл проекта, проектирование UX, HoloLens, мртк, смешанная реальность набор средств
-ms.openlocfilehash: ef36e68e7340bc0a1500a9468db35d1e0b417ed6
-ms.sourcegitcommit: 114c304a416bfe9d9b294c4adbb4c23cbe60ea4e
+ms.openlocfilehash: e72dfece3252a35a8da2b1dc72a1476bbf174b36bf01b731b4f0be5af21f2a33
+ms.sourcegitcommit: 5977109661a1db4ee2be8ed532479342093303d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "114224334"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "116862629"
 ---
-# <a name="figma-toolkit"></a>Набор средств Figma
+# <a name="mrtk-figma-toolkit"></a>Набор средств MRTK Figma
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWGqke]
 
 мртк фигма набор средств предоставляет 2d-версии элементов управления пользовательского интерфейса стилей HoloLens 2, которые можно найти в мртк для Unity или мртк для нереального. Это можно использовать в процессе разработки для создания макетов пользовательского интерфейса и раскадровок.
 
 > [!div class="nextstepaction"]
-> [просмотреть набор средств фигма](https://www.figma.com/file/ltLag9SxjUIyLQFsp7NNE7/Figma-Toolkit-for-MRTK-%2F-HoloLens%2C-Windows-Mixed-Reality?node-id=116%3A4)
+> [просмотреть набор средств фигма мртк](https://www.figma.com/file/zeGez3Phuzel9JrU1o20nn/Figma-Toolkit-for-MRTK-HoloLens-Windows-Mixed-Reality?node-id=116%3A4)
 
 ## <a name="how-to-use-figma-toolkit"></a>использование фигма набор средств
 Для создания копии используйте команду **дублировать в меню черновики** .

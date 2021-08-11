@@ -5,12 +5,12 @@ author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк пакеты,
-ms.openlocfilehash: 524783c48b82722aec26648ea54477a6c7bcd4ae
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: fb96a910b86e8ec9f6d73b8239e0ae008ea021c65f2c52edc613d2fe02719e58
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113177321"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115194470"
 ---
 # <a name="using-the-unity-package-manager"></a>Использование диспетчера пакетов Unity
 

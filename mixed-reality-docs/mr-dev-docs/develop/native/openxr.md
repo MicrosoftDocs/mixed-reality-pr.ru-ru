@@ -1,17 +1,17 @@
 ---
 title: OpenXR
-description: Создайте подсистему с помощью переносимого стандарта API Опенкср и разверните его на гарнитурах Windows Mixed Reality и HoloLens 2.
+description: создайте подсистему с помощью переносимого стандарта API опенкср и разверните его, чтобы Windows Mixed Reality и HoloLens 2 гарнитуры.
 author: thetuvix
 ms.author: alexturn
 ms.date: 7/29/2019
 ms.topic: article
 keywords: Опенкср, Путеводитель, расширения, Кхронос, Басикксрапп, DirectX, Native, собственное приложение, настраиваемое подсистема, по промежуточного слоя
-ms.openlocfilehash: e9071f8b15f19be564b7c246244a5b7561aa5968
-ms.sourcegitcommit: 12ea3fb2df4664c5efd07dcbb9040c2ff173afb6
+ms.openlocfilehash: 66ef972e09617e596a7d1d097073183943037e29b462ed3070d4defac91ca6b6
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "113042245"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115193755"
 ---
 # <a name="openxr"></a>OpenXR
 
@@ -19,13 +19,13 @@ ms.locfileid: "113042245"
 
 Опенкср — это общедоступный Стандарт API из <a href="https://www.khronos.org/" target="_blank">кхронос</a>, предоставляющий модули с собственным доступом к диапазону устройств в разных [спектрах смешанной реальности](../../discover/mixed-reality.md).
 
-Вы можете разрабатывать приложения с помощью Опенкср на головном компьютере HoloLens 2 или Windows Mixed Reality на рабочем столе.  Если у вас нет доступа к гарнитуре, можно использовать эмулятор HoloLens 2 или симулятор Windows Mixed Reality.
+вы можете разрабатывать с помощью опенкср HoloLens 2 или Windows Mixed Reality на рабочем столе головной телефон VR.  если у вас нет доступа к гарнитуре, вы можете использовать HoloLens 2 Emulator или симулятор Windows Mixed Reality.
 
 ## <a name="why-openxr"></a>Зачем Опенкср?
 
-С помощью Опенкср можно создавать модули, предназначенные для таких устройств, как HoloLens 2, и впечатляющие устройства VR, например гарнитуры Windows Mixed Reality для настольных ПК. Опенкср позволяет написать код, который затем будет переносимым на широком диапазоне аппаратных платформ.
+с помощью опенкср можно создавать модули, предназначенные для таких устройств, как HoloLens 2 и впечатляющие устройства VR, такие как Windows Mixed Reality гарнитуры для настольных пк. Опенкср позволяет написать код, который затем будет переносимым на широком диапазоне аппаратных платформ.
 
-API Опенкср использует загрузчик для подключения приложения непосредственно к собственной поддержке платформы вашей гарнитуры. Конечные пользователи получают максимальную производительность и минимальную задержку независимо от того, используете ли они Windows Mixed Reality или другие гарнитуры.
+API Опенкср использует загрузчик для подключения приложения непосредственно к собственной поддержке платформы вашей гарнитуры. конечные пользователи получают максимальную производительность и минимальную задержку независимо от того, используете ли они Windows Mixed Reality или другие гарнитуры.
 
 ## <a name="what-is-openxr"></a>Что такое OpenXR?
 
@@ -33,11 +33,11 @@ API Опенкср предоставляет основные функции п
 
 Чтобы узнать об API Опенкср, ознакомьтесь со <a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html" target="_blank">спецификацией</a>опенкср 1,0, <a href="https://www.khronos.org/registry/OpenXR/specs/1.0/man/html/openxr.html" target="_blank">справочником по API</a>и <a href="https://www.khronos.org/files/openxr-10-reference-guide.pdf" target="_blank">кратким справочником</a>.  Дополнительные сведения см. на <a href="https://www.khronos.org/openxr/" target="_blank">странице Кхронос опенкср</a>.
 
-Чтобы ориентироваться на полный набор функций HoloLens 2, вы также будете использовать расширения Опенкср, относящиеся к поставщику и поставщику, которые предоставляют дополнительные функции за пределами ядра Опенкср 1,0, такие как отслеживание, отслеживание глаз, пространственное сопоставление и пространственные привязки. Дополнительные сведения см. в [разделе "планы](#roadmap) " ниже на расширениях, которые появятся позже в этом году.
+чтобы воспользоваться полным набором функций HoloLens 2, вы также будете использовать расширения опенкср, относящиеся к поставщику и поставщику, которые предоставляют дополнительные возможности за пределами ядра опенкср 1,0, такие как отслеживание, отслеживание глаз, пространственное сопоставление и пространственные привязки. Дополнительные сведения см. в [разделе "планы](#roadmap) " ниже на расширениях, которые появятся позже в этом году.
 
 Опенкср не является механизмом смешанной реальности.  Вместо этого Опенкср позволяет использовать такие модули, как Unity и Нереал, для написания переносимого кода, который затем может получить доступ к функциям собственной платформы в holographic или иммерсивное устройство пользователя, независимо от поставщика, созданного этой платформой.
 
-## <a name="roadmap"></a>Схема действий
+## <a name="roadmap"></a>Стратегия
 
 Спецификация Опенкср определяет механизм расширения, позволяющий разработчикам среды выполнения предоставлять дополнительные функциональные возможности за пределами [основных функций](#what-is-openxr) , определенных в <a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html" target="_blank">базовой спецификации опенкср 1,0</a>.
 
@@ -47,7 +47,7 @@ API Опенкср предоставляет основные функции п
 * **Расширения кросс-поставщика `EXT` :** расширения кросс-поставщика, которые определяются и реализуются несколькими компаниями.  Группы заинтересованных компаний могут в любое время внедрять расширения EXT.
 * **Официальные `KHR` расширения:** официальные расширения кхронос ратифицирован в рамках основной версии спецификации.  Расширения КХР охватываются той же лицензией, что и Основная спецификация.
 
-Среда выполнения Опенкср в Windows Mixed Reality поддерживает набор `MSFT` расширений и `EXT` , которые переносят полный набор функций HoloLens 2 в приложения опенкср:
+Windows Mixed Reality среда выполнения опенкср поддерживает набор `MSFT` `EXT` расширений и, который предоставляет полный набор функций HoloLens 2 приложениям опенкср:
 
 | Область применения компонента | Доступность расширения |
 |--------------|------------------------|
@@ -61,15 +61,15 @@ API Опенкср предоставляет основные функции п
 | Интеграция Direct3D 12 | **`KHR`Выпущено официальное расширение:**<br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_KHR_D3D12_enable" target="_blank">XR_KHR_D3D12_enable</a></code> |
 | [Несвязанное пространство ссылок <br /> (возможности мирового масштаба)](../../design/coordinate-systems.md#building-a-world-scale-experience) | **`MSFT` выпущенное расширение:**<br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_MSFT_unbounded_reference_space" target="_blank">XR_MSFT_unbounded_reference_space</a></code> |
 | [Пространственные привязки](../../design/spatial-anchors.md) | <p>**`MSFT` выпущенное расширение:**<br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_MSFT_spatial_anchor">XR_MSFT_spatial_anchor</a></code></p><p>**`MSFT_preview` расширение в [среде выполнения предварительной версии 107](openxr-getting-started.md#using-preview-extensions):**<br /><code><a href="https://microsoft.github.io/OpenXR-MixedReality/openxr_preview/specs/openxr.html#XR_MSFT_spatial_anchor_persistence_preview">XR_MSFT_spatial_anchor_persistence_preview</a></code></p> |
-| [Взаимодействие <br /> с рукой (захват/AIM, воздушный нажим, посвятка)](../../design/hands-and-tools.md)<p>*Только HoloLens 2*</p> | **`MSFT` выпущенное расширение:**<br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_MSFT_hand_interaction">XR_MSFT_hand_interaction</a></code> |
-| [Сетка руки артикулатион +](../../design/hands-and-tools.md)<p>*Только HoloLens 2*</p> | <p>**`EXT` выпущенное расширение:**<code><br /><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_EXT_hand_tracking">XR_EXT_hand_tracking</a></code></p>**`MSFT` выпущенное расширение:**<br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_MSFT_hand_tracking_mesh">XR_MSFT_hand_tracking_mesh</a></code> |
-| [Отслеживание глаз](../../design/eye-tracking.md)<p>*Только HoloLens 2*</p> | **`EXT` выпущенное расширение:**<br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_EXT_eye_gaze_interaction" target="_blank">XR_EXT_eye_gaze_interaction</a></code> |
-| [Запись смешанной реальности <br /> (третья Визуализация с камеры PV)](../platform-capabilities-and-apis/mixed-reality-capture-for-developers.md#render-from-the-pv-camera-opt-in)<p>*Только HoloLens 2*</p> | **`MSFT` выпущенные расширения:**<br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_MSFT_secondary_view_configuration">XR_MSFT_secondary_view_configuration</a></code><br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_MSFT_first_person_observer">XR_MSFT_first_person_observer</a></code> |
+| [Взаимодействие <br /> с рукой (захват/AIM, воздушный нажим, посвятка)](../../design/hands-and-tools.md)<p>*только HoloLens 2*</p> | **`MSFT` выпущенное расширение:**<br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_MSFT_hand_interaction">XR_MSFT_hand_interaction</a></code> |
+| [Сетка руки артикулатион +](../../design/hands-and-tools.md)<p>*только HoloLens 2*</p> | <p>**`EXT` выпущенное расширение:**<code><br /><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_EXT_hand_tracking">XR_EXT_hand_tracking</a></code></p>**`MSFT` выпущенное расширение:**<br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_MSFT_hand_tracking_mesh">XR_MSFT_hand_tracking_mesh</a></code> |
+| [Отслеживание глаз](../../design/eye-tracking.md)<p>*только HoloLens 2*</p> | **`EXT` выпущенное расширение:**<br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_EXT_eye_gaze_interaction" target="_blank">XR_EXT_eye_gaze_interaction</a></code> |
+| [Запись смешанной реальности <br /> (третья Визуализация с камеры PV)](../platform-capabilities-and-apis/mixed-reality-capture-for-developers.md#render-from-the-pv-camera-opt-in)<p>*только HoloLens 2*</p> | **`MSFT` выпущенные расширения:**<br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_MSFT_secondary_view_configuration">XR_MSFT_secondary_view_configuration</a></code><br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_MSFT_first_person_observer">XR_MSFT_first_person_observer</a></code> |
 | Взаимодействие с другими пакетами SDK смешанной реальности<br />(например, [QR](../platform-capabilities-and-apis/qr-code-tracking.md)) | <p>**`MSFT` выпущенное расширение:**<br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_MSFT_spatial_graph_bridge">XR_MSFT_spatial_graph_bridge</a></code></p><p>**`MSFT` расширение, выпущенное в среде выполнения 105:**<br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_MSFT_perception_anchor_interop">XR_MSFT_perception_anchor_interop</a></code></p> |
 | Взаимодействие с API CoreWindow UWP<br />(например, для клавиатуры или мыши) | **`MSFT` расширение, выпущенное в среде выполнения 103:**<br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_MSFT_holographic_window_attachment">XR_MSFT_holographic_window_attachment</a></code>
 | Профили взаимодействия контроллера движения<br />(Samsung Одиссэй и HP, команда G2) | **`MSFT` расширения, выпущенные в среде выполнения 103:**<br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_EXT_samsung_odyssey_controller">XR_EXT_samsung_odyssey_controller</a></code><br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_EXT_hp_mixed_reality_controller">XR_EXT_hp_mixed_reality_controller</a></code> |
 | [Модели отрисовки контроллера движения](../../design/motion-controllers.md#rendering-the-motion-controller-model) | **`MSFT` расширение, выпущенное в среде выполнения 104:**<br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_MSFT_controller_model">XR_MSFT_controller_model</a></code> |
-| [Основные сведения о сцене (плоскости, сетки)](../../design/scene-understanding.md)<p>*Только HoloLens 2*</p> | <p>**`MSFT` расширение, выпущенное в среде выполнения 106:**<br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_MSFT_scene_understanding">XR_MSFT_scene_understanding</a></code><br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_MSFT_scene_understanding_serialization">XR_MSFT_scene_understanding_serialization</a></code></p> |
+| [Основные сведения о сцене (плоскости, сетки)](../../design/scene-understanding.md)<p>*только HoloLens 2*</p> | <p>**`MSFT` расширение, выпущенное в среде выполнения 106:**<br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_MSFT_scene_understanding">XR_MSFT_scene_understanding</a></code><br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_MSFT_scene_understanding_serialization">XR_MSFT_scene_understanding_serialization</a></code></p> |
 | [Режимы РЕПРОЕКЦИИ слоя композиции <br /> (автоматическое плоское или перестроение только ориентации)](../platform-capabilities-and-apis/hologram-stability.md#reprojection) | **`MSFT` расширение, выпущенное в среде выполнения 106:**<br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_MSFT_composition_layer_reprojection">XR_MSFT_composition_layer_reprojection</a></code> |
 | Другие расширения кросс-поставщика | <p>**`KHR`Выпущены официальные расширения:**<br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_KHR_composition_layer_depth" target="_blank">XR_KHR_composition_layer_depth</a></code><br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_KHR_visibility_mask" target="_blank">XR_KHR_visibility_mask</a></code><br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_KHR_win32_convert_performance_counter_time" target="_blank">XR_KHR_win32_convert_performance_counter_time</a></code><br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_KHR_composition_layer_color_scale_bias" target="_blank">XR_KHR_composition_layer_color_scale_bias</a></code></p><p>**`EXT` выпущенные расширения:**<br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_EXT_win32_appcontainer_compatible" target="_blank">XR_EXT_win32_appcontainer_compatible</a></code><br /><code><a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#XR_EXT_debug_utils" target="_blank">XR_EXT_debug_utils</a></code></p> |
 
@@ -77,37 +77,37 @@ API Опенкср предоставляет основные функции п
 
 ## <a name="getting-started-with-openxr"></a>Начало работы с OpenXR
 
-![Снимок экрана Minecraft, который пользователь людьми на гарнитуру смешанной реальности](images/openxr-minecraft.jpg)
+![снимок экрана Minecraft, воспроизводимого пользователем, людьми гарнитуру смешанной реальности](images/openxr-minecraft.jpg)
 
-*Новая система Рендердрагон Minecraft разработана с поддержкой настольных систем с помощью Опенкср!*
+*новая подсистема рендердрагон Minecraft создала свою настольную службу поддержки версий VR с помощью опенкср!*
 
-Корпорация Майкрософт приработала к играм Unity и в рабочей ситуации, чтобы убедиться в том, что будущее смешанной реальности открыта, а не только для HoloLens 2, но в полной мере в мире, включая [Новый переглаголы G2](https://www.microsoft.com/mixed-reality/windows-mixed-reality?rtc=1).  Опенкср включает поддержку стабилизатора напряжения для основных наименований, например Minecraft и имитатора рейсов Майкрософт!  Дополнительные сведения о разработке для HoloLens (1-го поколения) см. в [заметках о выпуске](/hololens/hololens1-release-notes).
+корпорация майкрософт приработала к играм Unity и в рабочей ситуации, чтобы убедиться в том, что будущее смешанной реальности открыта, а не только для HoloLens 2, но в полном объеме для пк, включая [новую переглаголную гарнитуру G2](https://www.microsoft.com/mixed-reality/windows-mixed-reality?rtc=1).  опенкср включает поддержку стабилизатора напряжения для основных наименований на сегодняшний день, например Minecraft и имитатора рейсов майкрософт!  дополнительные сведения о разработке для HoloLens (1-го поколения) см. в [заметках о выпуске](/hololens/hololens1-release-notes).
 
 Чтобы узнать, как можно приступить к работе с Опенкср в Unity, нереальном модулем или собственной подсистемой, читайте здесь!
 
 ### <a name="openxr-in-unity"></a>Опенкср в Unity
 
-Текущая Рекомендуемая конфигурация Unity корпорации Майкрософт для HoloLens 2 и Windows Mixed Reality — **Unity 2020,3 LTS** с последним подключаемым модулем опенкср смешанной реальности.  Этот подключаемый модуль включает поддержку расширений Опенкср, которые включают в себя [все возможности головных телефонов HoloLens 2 и Windows Mixed Reality](#roadmap), в том числе отслеживание типа «рука/глаз», пространственные привязки и контроллеры HP с переглаголом G2.  MRTK-Unity поддерживает Опенкср в [мртк 2,7](../unity/tutorials/mr-learning-base-02.md?tabs=openxr#importing-the-mixed-reality-toolkit-and-configuring-the-unity-project).  Дополнительные сведения о начале работы с Unity 2020 и Опенкср см. [в разделе Выбор версии Unity](../unity/choosing-unity-version.md).
+текущая рекомендуемая конфигурация Unity майкрософт для разработки HoloLens 2 и Windows Mixed Reality — **Unity 2020,3 LTS** с последним подключаемым модулем опенкср смешанной реальности.  этот подключаемый модуль включает поддержку расширений опенкср, которые включают [все возможности HoloLens 2 и Windows Mixed Reality гарнитуры](#roadmap), в том числе отслеживание типа «рука/глаз», пространственные привязки и контроллеры HP reverbы G2.  MRTK-Unity поддерживает Опенкср в [мртк 2,7](../unity/tutorials/mr-learning-base-02.md?tabs=openxr#importing-the-mixed-reality-toolkit-and-configuring-the-unity-project).  Дополнительные сведения о начале работы с Unity 2020 и Опенкср см. [в разделе Выбор версии Unity](../unity/choosing-unity-version.md).
 
-При разработке для HoloLens (1-го поколения) необходимо продолжить использовать **Unity 2019,4 LTS** с устаревшей серверной частью API WinRT.  Если вы используете новый контроллер HP REVERB G2 в приложении Unity 2019, см. статью [входные документы с помощью команды HP](../unity/unity-reverb-g2-controllers.md).
+при разработке для HoloLens (1-го поколения) необходимо продолжить использовать **Unity 2019,4 LTS** с устаревшей серверной частью API WinRT.  Если вы используете новый контроллер HP REVERB G2 в приложении Unity 2019, см. статью [входные документы с помощью команды HP](../unity/unity-reverb-g2-controllers.md).
 
-Начиная с **Unity 2021,2**, опенкср будет единственной поддерживаемой серверной частью Unity для головных телефонов HoloLens 2 и Windows Mixed Reality.
+начиная с **Unity 2021,2**, опенкср будет единственной поддерживаемой внутренней частью unity для нацеливания на HoloLens 2 и Windows Mixed Reality гарнитуры.
 
 ### <a name="openxr-in-unreal-engine"></a>Опенкср в нереальном ядре
 
-Нереальный механизм 4,23 был первым основным выпуском игр для отправки поддержки предварительной версии Опенкср 1,0!  Теперь в **нереальном ядре 4,26** поддержка HoloLens 2, Windows Mixed Reality и других головных телефонов настольных систем можно получить с помощью встроенной поддержки опенкср в нереальном модуле.  Нереалный механизм 4,26 также поддерживает [подключаемый модуль расширения Опенкср корпорации Майкрософт](https://github.com/microsoft/Microsoft-OpenXR-Unreal), обеспечивая взаимодействие с рукой и поддержку КОНТРОЛЛЕРов HP reverbов G2, [выполняя весь набор функций для головных телефонов HoloLens 2 и Windows Mixed Reality](#roadmap).  В настоящее время в средстве [запуска игр](https://www.unrealengine.com/download/creators)для моделирования выпущена неreal-подсистема 4,26 с MRTK-Unreal 0,12, поддерживающими проекты опенкср.
+Нереальный механизм 4,23 был первым основным выпуском игр для отправки поддержки предварительной версии Опенкср 1,0!  теперь в **нереальном подсистеме 4,26** поддержка HoloLens 2, Windows Mixed Reality и других головных телефонов настольных систем доступна через встроенную поддержку опенкср.  нереалный механизм 4,26 также поддерживает [подключаемый модуль расширения опенкср корпорации майкрософт](https://github.com/microsoft/Microsoft-OpenXR-Unreal), обеспечивая взаимодействие с рукой и поддержку контроллеров HP reverbов G2, [выполняя весь набор функций HoloLens 2 и Windows Mixed Reality гарнитуры](#roadmap).  В настоящее время в средстве [запуска игр](https://www.unrealengine.com/download/creators)для моделирования выпущена неreal-подсистема 4,26 с MRTK-Unreal 0,12, поддерживающими проекты опенкср.
 
 ### <a name="openxr-for-native-development"></a>Опенкср для разработки машинного кода
 
-Вы можете разрабатывать приложения с помощью Опенкср на головном компьютере HoloLens 2 или Windows Mixed Reality на рабочем столе.  Если у вас нет доступа к гарнитуре, можно использовать эмулятор HoloLens 2 или симулятор Windows Mixed Reality.
+вы можете разрабатывать с помощью опенкср HoloLens 2 или Windows Mixed Reality на рабочем столе головной телефон VR.  если у вас нет доступа к гарнитуре, вы можете использовать HoloLens 2 Emulator или симулятор Windows Mixed Reality.
 
-Чтобы приступить к разработке приложений Опенкср для головных телефонов с HoloLens 2 или Windows Mixed Reality, см. статью как приступить к разработке [опенкср](openxr-getting-started.md).
+чтобы приступить к разработке опенкср приложений для HoloLens 2 или Windows Mixed Realityных гарнитур VR, см. статью как приступить к [разработке опенкср](openxr-getting-started.md).
 
 Для ознакомления со всеми основными компонентами API Опенкср и примерами реальных приложений, использующих Опенкср сегодня, ознакомьтесь с этим видео в 60-минутном пошаговом руководстве:
 
 >[!VIDEO https://channel9.msdn.com/Shows/Docs-Mixed-Reality/OpenXR-Cross-platform-native-mixed-reality/player?format=ny]
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 * <a href="https://www.khronos.org/openxr/" target="_blank">Дополнительные сведения о Опенкср</a>
 * <a href="https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html" target="_blank">Спецификация Опенкср 1,0</a>

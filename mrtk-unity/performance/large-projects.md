@@ -1,18 +1,18 @@
 ---
-title: Использование МРТК в больших проектах
+title: Использование MRTK в крупных проектах
 description: Советы для потребителей мртк с большими проектами.
 author: polar-kev
 ms.author: kesemple
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 28ba272a48b0a0c524185ac7114a09cf8e0e91f8
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 9547b6bdcf4c0f4bc179dd266b14c853c1bf81a7e6531d2e68ca2e26188424c8
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113177126"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115196098"
 ---
-# <a name="using-mrtk-in-large-projects"></a>Использование МРТК в больших проектах
+# <a name="using-mrtk-in-large-projects"></a>Использование MRTK в крупных проектах
 
 На этой странице содержатся полезные советы для потребителей МРТК, которые изменяют их на существующие крупные проекты, или настраиваете что-то новое, которое будет управляться источником и иметь несколько разработчиков.
 

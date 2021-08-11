@@ -1,17 +1,17 @@
 ---
 title: Планшет
-description: Познакомьтесь с материалами, элементом управления "тонкий стиль окна" для отображения 2D-содержимого с помощью набора средств Mixed Reality.
+description: познакомьтесь с материалами, элементом управления "тонкий стиль окна" для отображения 2d-содержимого с помощью набор средств смешанной реальности.
 author: cre8ivepark
 ms.author: dongpark
 ms.date: 11/01/2019
 ms.topic: article
-keywords: Смешанная реальность, элементы управления, взаимодействие, Пользовательский интерфейс, UX, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, планшет, МРТК, набор средств для смешанной реальности
-ms.openlocfilehash: 2988419e44b21f6655a71d726dabd5091569f7ac
-ms.sourcegitcommit: 9ae76b339968f035c703d9c1fe57ddecb33198e3
+keywords: смешанная реальность, элементы управления, взаимодействие, пользовательский интерфейс, ux, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности, HoloLens, планшет, мртк, смешанная реальность набор средств
+ms.openlocfilehash: 57a1e39528bb758b948f44ebea114798458591713b90e7b3db4bf0188969961f
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110600133"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115193536"
 ---
 # <a name="slate"></a>Планшет
 
@@ -23,7 +23,7 @@ ms.locfileid: "110600133"
 
 ---
 
-## <a name="slate-in-mrtk-mixed-reality-toolkit-for-unity"></a>Содержание в МРТК (набор средств для смешанной реальности) для Unity
+## <a name="slate-in-mrtk-mixed-reality-toolkit-for-unity"></a>содержание мртк (Mixed Reality набор средств) для Unity
 
 * [МРТК-планшет](/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/slate)
 

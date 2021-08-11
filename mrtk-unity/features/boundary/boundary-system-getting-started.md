@@ -1,18 +1,18 @@
 ---
-title: Общие сведения о системе границ
+title: Обзор системы границ
 description: Целевая страница для системы границ в МРТК
 author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, система границ,
-ms.openlocfilehash: fd70479e5183e9a7557de5c5a532cc87161be017
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 134c92d8b3019ea8114f5bf50b7c4e3a19b0061f59a8266f6218a25f73c76449
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113177084"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115194420"
 ---
-# <a name="boundary-system-overview"></a>Общие сведения о системе границ
+# <a name="boundary-system-overview"></a>Обзор системы границ
 
 Система границ обеспечивает поддержку визуализации компонентов границ виртуальной реальности в приложениях смешанной реальности. Границы определяют область, в которой пользователи могут безопасно перемещаться, людьми гарнитуру VR. Границы являются важным компонентом смешанной реальности, чтобы помочь пользователям избежать незамеченных препятствий при людьмие гарнитуры VR.
 
@@ -75,7 +75,7 @@ CoreServices.BoundarySystem.ShowBoundaryWalls = false;
 GameObject floorVisual = CoreServices.BoundarySystem.GetFloorVisualization();
 ```
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также раздел
 
 - [Документация по API границ](xref:Microsoft.MixedReality.Toolkit.Boundary)
 - [Настройка визуализации границ](configuring-boundary-visualization.md)
