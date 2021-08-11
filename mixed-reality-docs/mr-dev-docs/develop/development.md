@@ -7,12 +7,12 @@ ms.date: 12/9/2020
 ms.topic: overview
 ms.localizationpriority: high
 keywords: смешанная реальность, процессы разработки, разработка, HoloLens, Unity, Unreal, DirectX, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, что такое виртуальная реальность, что такое дополненная реальность, разработка для виртуальной реальности, разработка для дополненной реальности
-ms.openlocfilehash: b47970de15451ea3bd0c121edd7dc61438fa115c
-ms.sourcegitcommit: 6ade7e8ebab7003fc24f9e0b5fa81d091369622c
+ms.openlocfilehash: 2020ceb898f6badaec56a599348c8633c4cb90ba22eaf53df0e097d4fc3e110e
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112394328"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115195964"
 ---
 # <a name="introduction-to-mixed-reality-development"></a>Введение в разработку приложений смешанной реальности
 

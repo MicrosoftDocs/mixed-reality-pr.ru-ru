@@ -5,12 +5,12 @@ author: CDiaz-MS
 ms.author: cadia
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 6a33ed5b021e90cba56344f32a9c9a33e8fcc476
-ms.sourcegitcommit: c260aed8a37855faf9575d968e615959a56a13fc
+ms.openlocfilehash: 068d88483eff8db5466c6b5ff0d2ca8bbc0b5dddee549bb3d87c82fa740bc8fe
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "113466234"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115197014"
 ---
 # <a name="mixed-reality-and-hololens-keyboard-helper-classes"></a>вспомогательные классы клавиатуры для смешанной реальности и HoloLens
 

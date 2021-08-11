@@ -5,13 +5,13 @@ author: cre8ivepark
 ms.author: dongpark
 ms.date: 03/21/2018
 ms.topic: article
-keywords: Windows Mixed Reality, проектирование, элементы управления, Пользовательский интерфейс, UX, индикатор выполнения, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: 01f032efb887ecfc6f8d66683fb954cd0574a4f3
-ms.sourcegitcommit: 9ae76b339968f035c703d9c1fe57ddecb33198e3
+keywords: Windows Mixed Reality, проектирование, элементы управления, пользовательский интерфейс, ux, индикатор хода выполнения, гарнитура смешанной реальности, гарнитура Windows Mixed reality, гарнитура виртуальной реальности, HoloLens, мртк, смешанная реальность набор средств
+ms.openlocfilehash: 8d397f627b55409d640ac6925a72d6bf169e207c27cb2a90bcee990c7a8d7683
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110600553"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115207888"
 ---
 # <a name="progress-indicator"></a>Индикатор хода выполнения
 
@@ -55,7 +55,7 @@ ms.locfileid: "110600553"
     :::column-end:::
         :::column:::
         ![space](images/spacer-20x582.png)<br>
-       ![Пример круга хода выполнения на устройстве HoloLens](images/640px-progressring.jpg)<br>
+       ![пример круга хода выполнения на устройстве HoloLens](images/640px-progressring.jpg)<br>
     :::column-end:::
 :::row-end:::
 
@@ -68,11 +68,11 @@ ms.locfileid: "110600553"
         ### <a name="progress-with-a-custom-objectbr"></a>Ход выполнения с пользовательским объектом<br>
         Вы можете добавить в свое собственное удостоверение приложения и фирменную символику, настроив управление ходом выполнения с помощью собственных двумерных или трехмерных объектов.<br>
         <br>
-        *Изображение: ход выполнения с примером настраиваемой сетки в HoloLens*
+        *Изображение: ход выполнения в примере пользовательской сетки в HoloLens*
     :::column-end:::
         :::column:::
         ![space](images/spacer-20x582.png)<br>
-       ![Пример нестандартной сетки в HoloLens](images/640px-progresscustom.jpg)<br>
+       ![Пример работы с пользовательской сеткой в HoloLens](images/640px-progresscustom.jpg)<br>
     :::column-end:::
 :::row-end:::
 
@@ -83,13 +83,13 @@ ms.locfileid: "110600553"
 ## <a name="best-practices"></a>Рекомендации
 
 * Тесное связывание [объявления или тега](billboarding-and-tag-along.md) с отображением хода выполнения, так как пользователь может легко переместить свой заголовок в пустое место и потерять контекст. Приложение может выглядеть аварийно, если пользователь не увидит ничего. Всплывающие окна и теги встроены в prefab хода выполнения.
-* Всегда удобно предоставлять сведения о состоянии, что происходит с пользователем. Prefab выполнения предоставляет различные визуальные стили, включая ход выполнения стандартного звонка Windows для предоставления состояния. Вы также можете использовать настраиваемую сетку с анимацией, если хотите, чтобы стиль выполнения совпадал с торговой маркой приложения.
+* Всегда удобно предоставлять сведения о состоянии, что происходит с пользователем. prefab хода выполнения предоставляет различные визуальные стили, в том числе Windows стандартный ход выполнения звонка для предоставления состояния. Вы также можете использовать настраиваемую сетку с анимацией, если хотите, чтобы стиль выполнения совпадал с торговой маркой приложения.
 
 <br>
 
 ---
 
-## <a name="progress-indicator-in-mrtk-mixed-reality-toolkit-for-unity"></a>Индикатор выполнения в МРТК (набор средств для смешанной реальности) для Unity
+## <a name="progress-indicator-in-mrtk-mixed-reality-toolkit-for-unity"></a>индикатор выполнения в мртк (Mixed Reality набор средств) для Unity
 
 * [МРТК — индикатор выполнения Prefabs](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/main/Assets/MRTK/SDK/Features/UX/Prefabs/ProgressIndicators)
 * [МРТК — служба перехода на сцену](/windows/mixed-reality/mrtk-unity/features/extensions/scene-transition-service)

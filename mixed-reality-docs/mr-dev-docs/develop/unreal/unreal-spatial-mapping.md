@@ -7,12 +7,12 @@ ms.date: 12/9/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, разработка, функции, документация, руководства, голограммы, пространственное сопоставление, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 3f07acc5bb4ad85084f6eb178fd1c33d94224408
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: 570618aa28d56d63d4c09ff6c29203d94df037945fc5267e28dc6d0be91c1041
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "98009964"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115214532"
 ---
 # <a name="spatial-mapping-in-unreal"></a>Пространственное сопоставление в Unreal
 

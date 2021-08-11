@@ -5,13 +5,13 @@ author: hferrone
 ms.author: v-hferrone
 ms.date: 10/26/2020
 ms.topic: article
-keywords: Windows Mixed Reality, Макуетте, создание прототипов, Смешанная реальность, виртуальная реальность, VR, MR, обратная связь, центр обратной связи, ошибки
-ms.openlocfilehash: e0c0b2f204aa32245cc13aff4c64fa641313de51
-ms.sourcegitcommit: fae413a2b0420e787671af90f14ee39cde51640f
+keywords: Windows Mixed Reality, макуетте, создание прототипов, смешанная реальность, виртуальная реальность, VR, MR, отзыв, центр обратной связи, ошибки
+ms.openlocfilehash: 290b1442c3cc7fed10b315f4beeebfe2eab4a775d4909d5411c651362e24d94e
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "94935627"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115197404"
 ---
 # <a name="maquettescript-core-language-details"></a>Сведения о языке Макуеттескрипт Core
 
@@ -53,5 +53,5 @@ ms.locfileid: "94935627"
 
 Расширение `.mqjs` используется для различения макуетте файлов JavaScript от обычных сценариев JavaScript.
 
-## <a name="see-also"></a>См. также 
+## <a name="see-also"></a>См. также раздел 
 <!-- TODO(Stefan): Add any additional JS related links that may help with troubleshooting or issues? -->

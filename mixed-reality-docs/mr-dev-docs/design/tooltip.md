@@ -5,13 +5,13 @@ author: cre8ivepark
 ms.author: dongpark
 ms.date: 11/01/2019
 ms.topic: article
-keywords: Смешанная реальность, элементы управления, взаимодействие, Пользовательский интерфейс, UX, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, подсказка, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: cd490a260c5caedc3f315d72f9a47bce563695a0
-ms.sourcegitcommit: 9ae76b339968f035c703d9c1fe57ddecb33198e3
+keywords: смешанная реальность, элементы управления, взаимодействие, пользовательский интерфейс, ux, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности, HoloLens, подсказка, мртк, смешанная реальность набор средств
+ms.openlocfilehash: 3bf9230f89ebac3ad14e1e383c0f51a5a8d61c1c498c0a242e4dffbd1488bdbf
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110600594"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115196862"
 ---
 # <a name="tooltip"></a>Подсказка
 
@@ -23,7 +23,7 @@ ms.locfileid: "110600594"
 
 ---
 
-## <a name="tooltip-in-mrtk-mixed-reality-toolkit-for-unity"></a>Подсказка в МРТК (набор средств для смешанной реальности) для Unity
+## <a name="tooltip-in-mrtk-mixed-reality-toolkit-for-unity"></a>подсказка в мртк (Mixed Reality набор средств) для Unity
 
 * [МРТК — подсказка](/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/tooltip)
 

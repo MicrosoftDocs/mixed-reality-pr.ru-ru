@@ -7,12 +7,12 @@ ms.date: 03/05/2021
 ms.topic: article
 keywords: смешанная реальность, javascript, учебник, BabylonJS, hololens, mixed reality, UWP, Windows 10, WebXR, иммерсивное веб-приложение
 ms.localizationpriority: high
-ms.openlocfilehash: a3dbab0572cd50105dac3d877a0d72c5cbc504b6
-ms.sourcegitcommit: 29a43366d5969f1a895bd184ebe272168d9be1e2
+ms.openlocfilehash: 9aa044789c5d9d331677206dbc7ef7170bfa592075819ae73bd46aa14116122a
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110584523"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115196926"
 ---
 # <a name="tutorial-interact-with-3d-object"></a>Руководство. Взаимодействие с трехмерным объектом
 

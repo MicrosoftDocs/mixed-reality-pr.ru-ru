@@ -5,13 +5,13 @@ author: hferrone
 ms.author: v-hferrone
 ms.date: 10/26/2020
 ms.topic: article
-keywords: Windows Mixed Reality, Макуетте, создание прототипов, Смешанная реальность, виртуальная реальность, VR, MR, обратная связь, центр обратной связи, ошибки
-ms.openlocfilehash: 43a5c465fcc546a09444396cbcaefa6b65e08de4
-ms.sourcegitcommit: fae413a2b0420e787671af90f14ee39cde51640f
+keywords: Windows Mixed Reality, макуетте, создание прототипов, смешанная реальность, виртуальная реальность, VR, MR, отзыв, центр обратной связи, ошибки
+ms.openlocfilehash: 9e91a1cefccb15fd5c454f981c4959748ff4d63ee277da85f21a4e5043a9bf07
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "94935591"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115196249"
 ---
 # <a name="support"></a>Поддержка
 
@@ -20,7 +20,7 @@ ms.locfileid: "94935591"
 ## <a name="support"></a>Поддержка
 
 Ссылки на:
-* Обзор
+* Общие сведения
 * Базовый язык
 * Справочник по API
   * Объекты
@@ -45,7 +45,7 @@ ms.locfileid: "94935591"
 * Крестикиный нолики
 * тетрис
 
-## <a name="maquette-community"></a>Сообщество макуетте
+## <a name="maquette-community"></a>Макуетте Community
 
 * [Форумы макуетте](https://steamcommunity.com/app/967490/discussions/)
 * Форумы по созданию сценариев макуетте — раздел "подлежит внесению"
@@ -55,7 +55,7 @@ ms.locfileid: "94935591"
 * [Instagram](https://www.instagram.com/microsoftmaquette/)
 * [Facebook](https://www.facebook.com/MicrosoftMaquette/)
 
-## <a name="faq"></a>ВОПРОСЫ И ОТВЕТЫ
+## <a name="faq"></a>Вопросы и ответы
 
 * JS и МКЖС
   * Что можно включить или внедрить в МКЖС? Node.js? 123?

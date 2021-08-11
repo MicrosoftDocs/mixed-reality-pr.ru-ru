@@ -5,12 +5,12 @@ author: polar-kev
 ms.author: kesemple
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, возможности
-ms.openlocfilehash: 70d320e178f4635d74b5be6a1874eb4254801719
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 0a3ad248e418e10ad1a7105ca5f9ece3e02c62bd7679cfd22d9c4396016d09a7
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113175524"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115207612"
 ---
 # <a name="detecting-platform-capabilities"></a>Обнаружение возможностей платформы
 
@@ -67,7 +67,7 @@ if (capabilityCheck != null)
 }
 ```
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также раздел
 
 - [Документация по API Имикседреалитикапабилитичекк](xref:Microsoft.MixedReality.Toolkit.IMixedRealityCapabilityCheck)
 - [Документация по перечислению Микседреалитикапабилити](xref:Microsoft.MixedReality.Toolkit.MixedRealityCapability)

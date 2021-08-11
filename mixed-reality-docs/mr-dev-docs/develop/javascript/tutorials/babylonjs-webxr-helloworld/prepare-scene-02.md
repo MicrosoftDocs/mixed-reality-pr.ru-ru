@@ -7,12 +7,12 @@ ms.date: 03/05/2021
 ms.topic: article
 keywords: смешанная реальность, javascript, учебник, BabylonJS, hololens, mixed reality, UWP, Windows 10, WebXR, иммерсивное веб-приложение
 ms.localizationpriority: high
-ms.openlocfilehash: 8213c445da9c1bbf0eeb591b7995fb61bc6d5b5f
-ms.sourcegitcommit: 29a43366d5969f1a895bd184ebe272168d9be1e2
+ms.openlocfilehash: 9d74104924aa859f5ab18248a487a7e80392809adb09361e84c5ad386f1321c4
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110584512"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115212395"
 ---
 # <a name="tutorial-prepare-a-scene"></a>Руководство. Подготовка сцены
 

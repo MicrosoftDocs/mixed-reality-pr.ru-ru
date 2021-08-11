@@ -7,12 +7,12 @@ ms.date: 11/23/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, разработка, документация, руководства, функции, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, перенос, обновление
-ms.openlocfilehash: 27fb726bc0ca9c51b4e7b68ad28b76f89312262e
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: 88b3f12bf32c81e39e622a7766119ca4d1b087f80cfc774148853926b6446dbc
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "98010054"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115197316"
 ---
 # <a name="upgrading-projects-in-unreal"></a>Обновление проектов в Unreal
 
