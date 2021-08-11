@@ -6,12 +6,12 @@ ms.author: daescu
 ms.date: 10/12/2020
 ms.topic: article
 keywords: событие, календарь, Academy, расписание, SF, Сан Франциско, реактора
-ms.openlocfilehash: 17db5ecac5953326eeb30c33693be18243579869
-ms.sourcegitcommit: 3236abcba27335fe3d52e38423d2b265ca883355
+ms.openlocfilehash: 68d530c44c5897f854e6201ac4484cb2e8c5fd85053accb4c8ee79a97686fa57
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106270020"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115204390"
 ---
 # <a name="microsoft-mixed-reality-events"></a>События Microsoft Mixed Reality
 
@@ -33,5 +33,5 @@ ms.locfileid: "106270020"
 | Серия докладов по смешанной реальности|22 октября 2020 г.|[Введение в Вебкср с Бабилонжс](https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Adding-Augmented-Reality-to-your-Typescript-Project)|
 | Серия докладов по смешанной реальности|3 ноября 2020 г.|[Визуальные эффекты в смешанной реальности](https://channel9.msdn.com/Shows/Mixed-Reality/Visual-Effects-in-Mixed-Reality)|
 | Серия докладов по смешанной реальности|17 ноября 2020 г.|[Создание будущего: что нового в МРТК](https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Building-the-Future-Whats-New-in-the-Mixed-Reality-Toolkit)|
-| Серия докладов по смешанной реальности|1 декабря 2020 г.|[Проектирование голограмм](https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Making-of-Designing-Holograms)|
-| Серия докладов по смешанной реальности|11 февраля, 2021|[Один день в г. принцип работы пространственных вычислений каждый день](https://channel9.msdn.com/Shows/Mixed-Reality/One-Day-In-MR-How-Spatial-Computing-Effects-Every-Day-Life)|
+| Серия докладов по смешанной реальности|1 декабря 2020 г.|[проектирование Голограммы](https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Making-of-Designing-Holograms)|
+| Серия докладов по смешанной реальности|11 февраля 2021 г.|[Один день в г. принцип работы пространственных вычислений каждый день](https://channel9.msdn.com/Shows/Mixed-Reality/One-Day-In-MR-How-Spatial-Computing-Effects-Every-Day-Life)|

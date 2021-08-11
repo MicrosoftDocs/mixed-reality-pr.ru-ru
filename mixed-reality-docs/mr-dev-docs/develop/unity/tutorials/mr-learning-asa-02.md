@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure
 ms.localizationpriority: high
-ms.openlocfilehash: 9c3ae23c39bf4d0b32d8a5d82716f93fee48b6db
-ms.sourcegitcommit: fd1964ec6c645e8088ec120661f73739bb7775a9
+ms.openlocfilehash: 414788d5410614c341b10ddefb6b99896c403f2e6232c9cec77987f1417e8743
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "113656644"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115216122"
 ---
 # <a name="2-getting-started-with-azure-spatial-anchors"></a>2. Начало работы с Пространственными привязками Azure
 

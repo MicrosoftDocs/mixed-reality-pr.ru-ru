@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 230fcfdb4bd9ea158bbdee6f53c56ca77d75dfa3
-ms.sourcegitcommit: b4fd969b9c2e6313aa728b0dbee4b25014668720
+ms.openlocfilehash: 437a8d4924edbf0d5b41ab6936f92551455ebe1161f826c6ebaf849465a10bcd
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111403423"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115215952"
 ---
 # <a name="unity-2020--windows-xr-plugin"></a>[Подключаемый модуль Unity 2020 + Windows XR](#tab/winxr)
 

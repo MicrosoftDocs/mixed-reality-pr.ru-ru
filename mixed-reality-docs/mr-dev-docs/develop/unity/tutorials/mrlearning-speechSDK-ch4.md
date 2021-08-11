@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure, распознавание речи, Windows 10, LUIS, портал LUIS, намерение, сущности, речевые фрагменты, понимание естественного языка
 ms.localizationpriority: high
-ms.openlocfilehash: ab9c1db7ca90a59e4ef688a8faa3d294e433cff6
-ms.sourcegitcommit: b4fd969b9c2e6313aa728b0dbee4b25014668720
+ms.openlocfilehash: fab521f51f653f3d7f381468cfc045c8c8c0f0c79354c5bf41f9531d0178a193
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111403465"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115207135"
 ---
 # <a name="4-setting-up-intent-and-natural-language-understanding"></a>4. Настройка намерения и распознавания естественного языка
 

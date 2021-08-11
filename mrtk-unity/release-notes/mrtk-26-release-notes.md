@@ -4,18 +4,18 @@ description: Заметки о выпуске для МРТК версии 2,6
 author: polar-kev
 ms.author: kesemple
 ms.date: 05/27/2021
-keywords: Unity, HoloLens, HoloLens 2, Смешанная реальность, разработка, МРТК,
-ms.openlocfilehash: c172e5d071bba22626e9c35b2b4318f1ff779335
-ms.sourcegitcommit: f7839221c9549e60a2c3ac2dbd39f07a6851dcd2
+keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк,
+ms.openlocfilehash: 452f0f352443620dea70b1680859bab4e2b3a0818de5f130accdb84c2798cfe0
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "112562514"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115206707"
 ---
-# <a name="microsoft-mixed-reality-toolkit-26-release-notes"></a>Заметки о выпуске Microsoft Mixed Reality Toolkit 2,6
+# <a name="microsoft-mixed-reality-toolkit-26-release-notes"></a>заметки о выпуске Microsoft Mixed Reality набор средств 2,6
 
 > [!IMPORTANT]
-> Существует известная ошибка компилятора, влияющая на приложения, созданные для Microsoft HoloLens 2 с помощью ARM64. Эта проблема устранена путем обновления Visual Studio 2019 до версии 16,8 или более поздней. Если не удается обновить Visual Studio, импортируйте `com.microsoft.mixedreality.toolkit.tools` пакет, чтобы применить обходной путь.
+> существует известная ошибка компилятора, влияющая на приложения, созданные для Microsoft HoloLens 2 с помощью ARM64. эта проблема устранена путем обновления Visual Studio 2019 до версии 16,8 или более поздней. если не удается обновить Visual Studio, импортируйте `com.microsoft.mixedreality.toolkit.tools` пакет, чтобы применить обходной путь.
 
 ## <a name="whats-new-in-262"></a>Новые возможности в 2.6.2
 
@@ -25,7 +25,7 @@ ms.locfileid: "112562514"
 
 ## <a name="whats-new-in-261"></a>Новые возможности в 2.6.1
 
-### <a name="fixes-openxr-not-running-on-hololens-2--uwp"></a>Исправления Опенкср не выполняются в HoloLens 2/UWP
+### <a name="fixes-openxr-not-running-on-hololens-2--uwp"></a>исправления опенкср не выполняются в HoloLens 2 или UWP
 
 Устраняется регрессия, препятствующая выполнению поддержки Опенкср МРТК в UWP.
 
@@ -79,13 +79,13 @@ ms.locfileid: "112562514"
 
 ### <a name="scene-understanding-now-available-in-mrtk-as-an-experimental-spatial-awareness-observer"></a>Основные сведения о сцене теперь доступны в МРТК как экспериментальный наблюдатель пространственной информации
 
-Экспериментальная поддержка [понимания сцены](/windows/mixed-reality/scene-understanding) представлена в мртк 2,6. Пользователи могут внедрить сцену, чтобы понять возможности HoloLens 2 в проектах на основе МРТК. Дополнительные сведения см. в [документации по монтажному кадру](../features/spatial-awareness/scene-understanding.md) .
+Экспериментальная поддержка [понимания сцены](/windows/mixed-reality/scene-understanding) представлена в мртк 2,6. пользователи могут внедрить сцену, посвященную возможностям HoloLens 2 как наблюдатель пространственной осведомленности в проектах на основе мртк. Дополнительные сведения см. в [документации по монтажному кадру](../features/spatial-awareness/scene-understanding.md) .
 
 > [!IMPORTANT]
-> Понимание сцены поддерживается только в HoloLens 2 и Unity 2019,4 и более поздних версиях.
+> понимание сцены поддерживается только в HoloLens 2 и Unity 2019,4 и более поздних версиях.
 >
 > Для этой функции требуется представление "пакет" для сцены, которое теперь доступно через [инструмент "функция" смешанной реальности](https://aka.ms/MRFeatureTool).
-> При использовании средства «функция Mixed Reality» или при импорте с помощью УПМ импортируйте пример демонстрационной версии Спатиалаваренесс перед импортом примера экспериментального Сценеундерстандинг из-за проблемы с зависимостью. Дополнительные сведения см. в [этой ошибке GitHub](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/9431) .
+> При использовании средства «функция Mixed Reality» или при импорте с помощью УПМ импортируйте пример демонстрационной версии Спатиалаваренесс перед импортом примера экспериментального Сценеундерстандинг из-за проблемы с зависимостью. дополнительные сведения см. в [этой GitHub проблемы](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/9431) .
 
 ![Основные сведения о сцене](images/SceneUnderstanding.gif)
 
@@ -123,13 +123,13 @@ ms.locfileid: "112562514"
 
 ### <a name="reading-mode"></a>Режим чтения
 
-Добавлена поддержка [режима чтения](/hololens/hololens2-display#what-improvements-are-coming-that-will-improve-hololens-2-image-quality) в HoloLens 2. Режим чтения уменьшает поле представления системы, но устраняет масштабирование выходных данных Unity. Пиксель, отображаемый Unity, будет соответствовать прогнозируемому пикселю в HoloLens 2. Авторы приложений должны выполнять тесты с несколькими пользователями, чтобы убедиться в том, что это будет компромисс в своем приложении.
+Добавлена поддержка [режима чтения](/hololens/hololens2-display#what-improvements-are-coming-that-will-improve-hololens-2-image-quality) для HoloLens 2. Режим чтения уменьшает поле представления системы, но устраняет масштабирование выходных данных Unity. Пиксель, отображаемый Unity, будет соответствовать прогнозируемому пикселю на HoloLens 2. Авторы приложений должны выполнять тесты с несколькими пользователями, чтобы убедиться в том, что это будет компромисс в своем приложении.
 
-![Режим чтения Windows Mixed Reality](images/WMRReadingMode.gif)
+![режим чтения Windows Mixed Reality](images/WMRReadingMode.gif)
 
 ### <a name="support-for-3d-app-launchers-on-uwp"></a>Поддержка запуска трехмерных приложений в UWP
 
-Добавляет возможность настройки средства [запуска 3D-приложений](/windows/mixed-reality/distribute/3d-app-launcher-design-guidance) для UWP. Этот параметр доступен как в окне сборка МРТК, так и в параметрах проекта МРТК в разделе параметры сборки. Он автоматически записывается в проект во время сборки в Unity.
+Добавляет возможность настройки средства [запуска 3D-приложений](/windows/mixed-reality/distribute/3d-app-launcher-design-guidance) для UWP. этот параметр доступен как в окне сборки мртк, так и в Параметры Project мртк в разделе сборка Параметры. Он автоматически записывается в проект во время сборки в Unity.
 
 ![Параметры сборки](images/ProjectBuildSettings.png)
 
@@ -143,9 +143,9 @@ ms.locfileid: "112562514"
 
 Двоичный файл анимации ввода, используемый `InputRecordingService` и `InputPlaybackService` , теперь имеет обновленный формат файла для включения оптимизации для этих двух служб. Дополнительные сведения о новых спецификациях версии 1,1 см. [здесь](../features/input-simulation/input-animation-file-format.md) .
 
-### <a name="msbuild-for-unity-support"></a>Поддержка MSBuild для поддержки Unity
+### <a name="msbuild-for-unity-support"></a>MSBuild поддержки Unity
 
-Поддержка MSBuild для Unity была удалена в 2.5.2 выпуске для согласования с [новым руководством по пакетам Unity](https://forum.unity.com/threads/updates-to-our-terms-of-service-and-new-package-guidelines.999940/).
+поддержка MSBuild для Unity была удалена в выпуске 2.5.2 для согласования с [новым руководством по пакетам unity](https://forum.unity.com/threads/updates-to-our-terms-of-service-and-new-package-guidelines.999940/).
 
 ## <a name="known-issues"></a>Известные проблемы
 
@@ -154,17 +154,17 @@ ms.locfileid: "112562514"
 В настоящее время существует известная ситуация с holographic удаленным взаимодействием и Опенкср, в которой соединения не являются постоянно доступными.
 Кроме того, в настоящее время _не_ поддерживается отслеживание глаз.
 
-### <a name="some-mixed-reality-toolkit-standard-shader-features-require-the-foundation-package"></a>Для некоторых функций шейдера "Стандартный" набора средств смешанной реальности требуется пакет Foundation
+### <a name="some-mixed-reality-toolkit-standard-shader-features-require-the-foundation-package"></a>для некоторых функций шейдера смешанной реальности набор средств стандартный, необходим пакет Foundation
 
-При импорте с помощью диспетчера пакетов Unity скрипты служебных программ для стандартных шейдеров МРТК (например, Ховерлигхт. cs) не располагаются совместно с шейдером в пакете стандартных активов. Для доступа к этой функции приложениям потребуется импортировать пакет Foundation.
+при импорте с помощью Unity диспетчер пакетов скрипты служебных программ для стандартных шейдеров мртк (например: ховерлигхт. cs) не располагаются вместе с шейдером в пакете стандартных активов. Для доступа к этой функции приложениям потребуется импортировать пакет Foundation.
 
 ### <a name="cameracache-may-create-a-new-camera-on-shutdown"></a>Камеракаче может создать новую камеру при завершении работы
 
 В некоторых ситуациях (например, при использовании поставщика Леапмотион в редакторе Unity) Камеракаче может повторно создать Маинкамера при завершении работы. Дополнительные сведения см. в [этой статье](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/8459) .
 
-### <a name="filenotfoundexception-when-examples-are-imported-via-unity-package-manager"></a>FileNotFoundException при импорте примеров с помощью диспетчера пакетов Unity
+### <a name="filenotfoundexception-when-examples-are-imported-via-unity-package-manager"></a>FileNotFoundException при импорте примеров с помощью Unity диспетчер пакетов
 
-В зависимости от длины пути проекта Импорт примеров через диспетчер пакетов Unity может создавать сообщения FileNotFoundException в консоли Unity. Причина в том, что путь к файлу "Missing" превышает MAX_PATH (256 символов). Чтобы устранить проблему, Сократите длину пути к проекту.
+в зависимости от длины пути проекта импорт примеров через Unity диспетчер пакетов может создавать сообщения FileNotFoundException в консоли unity. Причина в том, что путь к файлу "Missing" превышает MAX_PATH (256 символов). Чтобы устранить проблему, Сократите длину пути к проекту.
 
 ### <a name="no-spatializer-was-specified-the-application-will-not-support-spatial-sound"></a>Спатиализер не указан. Приложение не будет поддерживать Пространственный звук
 
@@ -172,8 +172,8 @@ ms.locfileid: "112562514"
 
 Чтобы устранить эту проблему, убедитесь, что:
 
-- **Окно**  >  В **диспетчере пакетов** установлен один или несколько пакетов XR
-- **Набор средств**  >  для смешанной реальности **Служебные программы**  >  **Настройка проекта Unity** и выбор для **спатиализер звука**
+- **Окно**  >  на **диспетчер пакетов** установлен один или несколько пакетов XR
+- набор средств смешанной **реальности**  >  **Служебные программы**  >  **настройте Project Unity** и сделайте выбор для **аудио спатиализер**
 
   ![Выберите Audio Спатиализер](images/SpatializerSelection.png)
 

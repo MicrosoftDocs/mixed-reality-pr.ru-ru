@@ -1,18 +1,18 @@
 ---
-title: Начало работы с пространственными сведениями
+title: Начало работы с отслеживанием пространственного положения
 description: сведения о пространственной осведомленности в МРТК
 author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: 46bb78bc4e2574fd4da14f19edf52624b7b301c2
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: bbe5b923ea7da965424e7fac98adca180c6f91d0c9b4c4ca7a0477e301c362f9
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113176710"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115204332"
 ---
-# <a name="spatial-awareness-getting-started"></a>Начало работы с пространственными сведениями
+# <a name="spatial-awareness-getting-started"></a>Начало работы с отслеживанием пространственного положения
 
 ![Отслеживание пространственного положения](../images/spatial-awareness/MRTK_SpatialAwareness_Main.png)
 
@@ -37,9 +37,9 @@ ms.locfileid: "113176710"
 
 | Профиль | Система включена по умолчанию |
 | --- | --- |
-| `DefaultHoloLens1ConfigurationProfile` (Assets/МРТК/SDK/Profiles/HoloLens1) | Неверно |
-| `DefaultHoloLens2ConfigurationProfile` (Assets/МРТК/SDK/Profiles/HoloLens2) | Неверно |
-| `DefaultMixedRealityToolkitConfigurationProfile` (Assets/МРТК/SDK/Profiles) | Верно |
+| `DefaultHoloLens1ConfigurationProfile` (Assets/МРТК/SDK/Profiles/HoloLens1) | False |
+| `DefaultHoloLens2ConfigurationProfile` (Assets/МРТК/SDK/Profiles/HoloLens2) | False |
+| `DefaultMixedRealityToolkitConfigurationProfile` (Assets/МРТК/SDK/Profiles) | True |
 
 1. Выберите объект Микседреалититулкит в иерархии сцены, чтобы открыть его на панели инспектора.
 
@@ -97,7 +97,7 @@ ms.locfileid: "113176710"
 - [Настройка наблюдателей с помощью кода](usage-guide.md)
 - [Создание пользовательского наблюдателя](create-data-provider.md)
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также раздел
 
 - [Документация по API пространственной осведомленности](xref:Microsoft.MixedReality.Toolkit.SpatialAwareness)
 - [Общие сведения о пространственном сопоставлении ВМР](/windows/mixed-reality/spatial-mapping)

@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 212aa75ae91a7beebbfa609af6cc47106ba34b55
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: 283ef0bedc96a63d34a66fa0d88dee97420957c7744ad3702c6ac3bc34c14310
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "96855889"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115218865"
 ---
 # <a name="windows-mixed-reality"></a>[Windows Mixed Reality](#tab/wmr)
 

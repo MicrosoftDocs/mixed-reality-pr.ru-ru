@@ -1,19 +1,19 @@
 ---
-title: HP reverbы G2 контроллеров в нереальном режиме
+title: HP Reverb G2 — контроллеры в Unreal
 description: Узнайте, как использовать новые контроллеры HP REVERB G2 в Опенкср и Стеамвр для нереальных приложений смешанной реальности.
 author: hferrone
 ms.author: jacksonf
 ms.date: 10/9/2020
 ms.topic: article
 keywords: Нереал, нереалистичное ядро 4, UE4, переглаголы, переглаголы G2, HP reverbы G2, Смешанная реальность, разработка, контроллеры движения, ввод данных, функции, новый проект, эмулятор, документация, руководства, функции, голограммы, Разработка игр, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 006c70208ec0eaa45447caecf39f799c4be1bfeb
-ms.sourcegitcommit: d3a3b4f13b3728cfdd4d43035c806c0791d3f2fe
+ms.openlocfilehash: b287a5c7de1ea086b76228d9109cc07a4e1569f5f926cb42dc3e37cc2a3bb916
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98582685"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115204212"
 ---
-# <a name="hp-reverb-g2-controllers-in-unreal"></a>HP reverbы G2 контроллеров в нереальном режиме 
+# <a name="hp-reverb-g2-controllers-in-unreal"></a>HP Reverb G2 — контроллеры в Unreal 
 
 ## <a name="getting-started"></a>Начало работы
 

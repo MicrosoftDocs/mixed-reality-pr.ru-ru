@@ -7,12 +7,12 @@ ms.date: 04/13/2021
 ms.localizationpriority: medium
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
 monikerRange: '>= mrtkunity-2021-05'
-ms.openlocfilehash: ab3a449b064d4a1c8f2bf76154f7a25c688693e1
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 19d812ccfa9c0317e40dee2b7d03220848782cef955ba859a150b4f4adc8aa99
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113177355"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115203254"
 ---
 # <a name="experience-settings"></a>Параметры работы
 

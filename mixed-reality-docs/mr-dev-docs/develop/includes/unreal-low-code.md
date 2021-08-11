@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 9ccadecd529e2eebf4fa9e69e2429991b535fd83
-ms.sourcegitcommit: 62e5909b837c9c7ecedd040164f2308868db4723
+ms.openlocfilehash: ae5c01ea7b71b769c4aa911f70485432ac801a93c5a8a4c100da83776c9ee535
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "111742003"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115203459"
 ---
 # <a name="dynamics-365"></a>[Dynamics 365](#tab/D365)
 

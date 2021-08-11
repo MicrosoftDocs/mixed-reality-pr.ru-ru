@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, HoloLens 2, служба Azure Bot, LUIS, естественный язык, чат-бот, облачные службы Azure, Пользовательское визуальное распознавание Azure, Windows 10
 ms.localizationpriority: high
-ms.openlocfilehash: bade124dff639e6f30fb67039debfddef54a22db
-ms.sourcegitcommit: 114c304a416bfe9d9b294c4adbb4c23cbe60ea4e
+ms.openlocfilehash: 109befea299ba2539e3ab8ee616d3321f89660cd30a831a6833e7bbf51029f98
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "114224528"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115206603"
 ---
 # <a name="5-integrating-azure-bot-service"></a>5. Интеграция Службы Azure Bot
 

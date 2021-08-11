@@ -6,12 +6,12 @@ ms.author: cadia
 ms.date: 01/12/2021
 ms.localizationpriority: high
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK, решатели Solver,
-ms.openlocfilehash: bf9bbfe578ace576fca8870f038f145037a6838d
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 28e961aa20fb15b533f369ed436e2d8178d682801f6f6ce6a703e53a0c26ac01
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113176449"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115206915"
 ---
 # <a name="solver-overview"></a>Обзор решателя
 

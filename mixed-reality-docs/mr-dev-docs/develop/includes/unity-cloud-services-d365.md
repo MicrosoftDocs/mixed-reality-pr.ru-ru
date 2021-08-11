@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 2f7424bc25e358bd368e651af7d906930afe6ccc
-ms.sourcegitcommit: 62e5909b837c9c7ecedd040164f2308868db4723
+ms.openlocfilehash: bd3182eddba975be7a60b7949909c52b32ae2642c3fd4040ba0019f51d53d33e
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "111741973"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115202860"
 ---
 # <a name="azure-remote-rendering"></a>[Удаленная отрисовка Azure](#tab/arr)
 

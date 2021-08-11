@@ -1,19 +1,19 @@
 ---
-title: Ознакомьтесь с центром примеров МРТК
+title: Опробуйте Центр примеров MRTK
 description: узнайте, как загрузить и использовать приложение центра "примеры смешанной реальности набор средств" на устройствах HoloLens.
 author: polar-kev
 ms.author: v-hferrone
 ms.date: 01/14/2021
 ms.topic: article
 keywords: набор средств для смешанной реальности, мртк, примеры, HoloLens, HoloLens 2, шейдеры, подсказки, взаимодействие с руки, обрезка, ограничивающие прямоугольники, кнопки, меню руки, планшет, ползунок
-ms.openlocfilehash: c748b0cc87e1f25ee3de62ef4f5c056f82db74ad
-ms.sourcegitcommit: 912fa204ef79e9b973eab9b862846ba5ed5cd69f
+ms.openlocfilehash: 724d9b2c4886d6a6f7de74c4393809f8075ca15e584336b89d339cb8c0bcd610
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "114281904"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115203294"
 ---
-# <a name="try-out-the-mrtk-examples-hub"></a>Ознакомьтесь с центром примеров МРТК
+# <a name="try-out-the-mrtk-examples-hub"></a>Опробуйте Центр примеров MRTK
 
 приложение мртк examples Hub позволяет поработать с мрткным примером сцен на устройстве HoloLens, не создавая и не развертывая их. Приложение содержит примеры взаимодействий отслеживания, взаимодействия с отслеживанием глаз, обрезки, подсказки, построители текстур, ограничивающие прямоугольники, нажатия кнопок, меню руки, планшетов, ползунков и т. д.
 

@@ -6,16 +6,16 @@ ms.author: v-vtieto
 ms.date: 07/27/2021
 ms.topic: article
 keywords: HoloLens, удаленное взаимодействие, удаленное взаимодействие, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности, диагностика, производительность
-ms.openlocfilehash: f467b32ddab231286fc916916b0a40f210a66eb1
-ms.sourcegitcommit: 9831b89a1641ba1b5df14419ee2a4f29d3fa2d64
+ms.openlocfilehash: 1e286612035a34c1bac174a620c350a91eb2b0fd59c3e808fe3a99368e03f43c
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "114757022"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115217153"
 ---
 # <a name="holographic-remoting-player"></a>Holographic Remoting Player
 
-[Изучите основы удаленного взаимодействия с Holographic.](platform-capabilities-and-apis/holographic-remoting-overview.md)
+[Изучите основы голографического удаленного взаимодействия.](platform-capabilities-and-apis/holographic-remoting-overview.md)
 
 >[!IMPORTANT]
 >holographic удаленное взаимодействие для HoloLens 2 является основным изменением версии. [удаленные приложения для **HoloLens (1-го поколения)**](add-holographic-remoting.md) должны использовать NuGet пакета версии **1. x.** x и [удаленные приложения для **HoloLens 2**](holographic-remoting-create-remote-wmr.md) должны использовать версию **2. x. x**. это означает, что удаленные приложения, написанные для HoloLens 2, несовместимы с HoloLens (1-го поколения) и наоборот.
@@ -77,7 +77,7 @@ ms.locfileid: "114757022"
 * Мы рекомендуем использовать графическую видеокарту GeForce ГТКС 970 или AMD Radeon R9 290.
 * Мы рекомендуем подключить компьютер к сети через Ethernet, чтобы уменьшить число прыжков беспроводной связи.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 * [HoloLens (первая общая): добавление удаленного взаимодействия holographic](add-holographic-remoting.md)
 * [создание удаленного приложения holographic с удаленным взаимодействием с помощью Windows Mixed Reality api](holographic-remoting-create-remote-wmr.md)
 * [Создание удаленного приложения holographic с удаленным взаимодействием с помощью API-интерфейсов Опенкср](holographic-remoting-create-remote-openxr.md)

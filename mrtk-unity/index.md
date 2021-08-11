@@ -6,12 +6,12 @@ ms.author: kesemple
 ms.date: 03/03/2021
 ms.localizationpriority: high
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: cf2aa536087af659abe7d124a4dd35ff0175de49
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: ecd12cb6fbed305f1a2532f0b55a6d0441df43fa537c63d9919ae9bc91a675c0
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113177359"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115204826"
 ---
 # <a name="what-is-the-mixed-reality-toolkit"></a>Что такое Mixed Reality Toolkit
 

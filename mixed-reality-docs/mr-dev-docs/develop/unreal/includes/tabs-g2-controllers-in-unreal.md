@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: dcbeceb4cbe6b87cd6458afa789f9e09abaf7f3d
-ms.sourcegitcommit: 4bb5544a0c74ac4e9766bab3401c9b30ee170a71
+ms.openlocfilehash: ce1f02bd2846cadc4e970fef738fb4b46bc3a09f10742b820a0998491c590c80
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92638736"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115204287"
 ---
 # <a name="all-platforms"></a>[Все платформы](#tab/all)
 
@@ -18,7 +18,7 @@ ms.locfileid: "92638736"
 
 ### <a name="configuring-startup-and-hmdpluginpriority"></a>Настройка запуска и Хмдплугинприорити
 
-Входные данные в нереальном использовании Стеамвр имеют несколько отличий.  При настройке проекта сначала убедитесь, что он использует новую входную систему Стеамвр, добавив **VR. Стеамвр. Енаблевринпут = 1** в раздел **Startup** в **Engine/config/ConsoleVariables.ini** .  Этот ini-каталог находится в каталоге установки Engine, а не в каталоге проекта.
+Входные данные в нереальном использовании Стеамвр имеют несколько отличий.  При настройке проекта сначала убедитесь, что он использует новую входную систему Стеамвр, добавив **VR. Стеамвр. Енаблевринпут = 1** в раздел **Startup** в **Engine/config/ConsoleVariables.ini**.  Этот ini-каталог находится в каталоге установки Engine, а не в каталоге проекта.
 
 ![Обновление конфигурации запуска](../images/reverb-g2-img-07.png)
 

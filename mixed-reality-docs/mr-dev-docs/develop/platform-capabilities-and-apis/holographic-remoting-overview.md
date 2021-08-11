@@ -6,12 +6,12 @@ ms.author: v-vtieto
 ms.date: 07/26/2021
 ms.topic: article
 keywords: опенкср, unity, hololens, hololens 2, mixed reality, мртк, смешанная реальность набор средств, дополненная реальность, виртуальная реальность, гарнитуры смешанной реальности, обучение, учебник, начало работы, holographic удаленное взаимодействие, настольный, предварительный просмотр
-ms.openlocfilehash: 6eb3b9e9fe8811ab4666ef1beda0e48668bedbe6
-ms.sourcegitcommit: 9831b89a1641ba1b5df14419ee2a4f29d3fa2d64
+ms.openlocfilehash: 1b20590429b7df209e805ed8e94de5a6010bdbb609edc10fc5854cd4df86f64c
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "114757411"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115217120"
 ---
 # <a name="holographic-remoting-overview"></a>Обзор удаленного взаимодействия с holographic
 
@@ -21,7 +21,7 @@ ms.locfileid: "114757411"
 
 Если вы являетесь разработчиком Unity, вы также можете использовать holographic удаленное взаимодействие, запустив приложение в редакторе Unity в режиме воспроизведения.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 * [Holographic Remoting Player](holographic-remoting-player.md)
 * [создание удаленного приложения holographic с удаленным взаимодействием с помощью Windows Mixed Reality api](holographic-remoting-create-remote-wmr.md)
 * [Создание удаленного приложения holographic с удаленным взаимодействием с помощью API-интерфейсов Опенкср](holographic-remoting-create-remote-openxr.md)

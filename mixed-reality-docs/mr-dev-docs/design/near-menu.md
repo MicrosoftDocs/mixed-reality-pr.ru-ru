@@ -5,13 +5,13 @@ author: cre8ivepark
 ms.author: dongpark
 ms.date: 11/01/2019
 ms.topic: article
-keywords: Смешанная реальность, элементы управления, взаимодействие, Пользовательский интерфейс, UX, меню, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens, МРТК, набор средств смешанной реальности
-ms.openlocfilehash: ecee6182d64ab1c843a9948984565d49ae313923
-ms.sourcegitcommit: 9ae76b339968f035c703d9c1fe57ddecb33198e3
+keywords: смешанная реальность, элементы управления, взаимодействие, пользовательский интерфейс, ux, меню, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности, HoloLens, мртк, смешанная реальность набор средств
+ms.openlocfilehash: ab035c195824d987b397676e946633734b0f1af6a983bada4ea9145ff7d07b1e
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110600173"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115201774"
 ---
 # <a name="near-menu"></a>Быстрое меню
 
@@ -23,7 +23,7 @@ ms.locfileid: "110600173"
 
 ---
 
-## <a name="near-menu-in-mrtk-mixed-reality-toolkit-for-unity"></a>Ближайшее меню в МРТК (набор средств для смешанной реальности) для Unity
+## <a name="near-menu-in-mrtk-mixed-reality-toolkit-for-unity"></a>ближайшее меню в мртк (Mixed Reality набор средств) для Unity
 **[Мртк](https://github.com/Microsoft/MixedRealityToolkit-Unity)** предоставляет различные примеры ближайших prefab меню.
 
 * [МРТК — ближайшее меню](/windows/mixed-reality/mrtk-unity/features/ux-building-blocks/near-menu)

@@ -1,20 +1,20 @@
 ---
-title: Элемент управления Bounds
+title: Элемент управления границами
 description: Общие сведения об элементе управления Bounds в МРТК
 author: thalbern
 ms.author: bethalha
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, управление границами,
-ms.openlocfilehash: f5f5e1f463f741eb23f75c9826034b8974baf947
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 3abefd142753c34c9126d71cde77ebca0b40f1f9b7a81b5815777b9e938e172a
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113176461"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115217223"
 ---
-# <a name="bounds-control"></a>Элемент управления Bounds
+# <a name="bounds-control"></a>Элемент управления границами
 
-![Элемент управления Bounds](../images/bounds-control/MRTK_BoundsControl_Main.png)
+![Элемент управления границами](../images/bounds-control/MRTK_BoundsControl_Main.png)
 
 *Баундсконтрол* — это новый компонент для поведения манипуляции, ранее обнаруженный в *BoundingBox*. Элемент управления "границы" делает ряд улучшений и упрощений в программе установки и добавляет новые функции. Этот компонент является заменой для ограничивающего прямоугольника, который будет устаревшим.
 
@@ -314,9 +314,9 @@ private void PutABoundsControlAroundIt(GameObject target)
 
 <img src="../images/bounds-control/MRTK_BoundsControl_Migrate.png" width="450" alt="Bounds control Migrate">
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также раздел
 
-* [Манипулятор объекта](object-manipulator.md)
+* [Манипулятор объектов](object-manipulator.md)
 * [Диспетчер ограничений](constraint-manager.md)
 * [Окно миграции](../tools/migration-window.md)
 * [Система эластичных БД (экспериментальная)](../experimental/elastic-system.md)

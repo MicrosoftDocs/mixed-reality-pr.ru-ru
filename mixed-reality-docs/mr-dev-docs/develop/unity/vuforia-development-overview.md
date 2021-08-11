@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 12/20/2019
 ms.topic: article
 keywords: вуфориа, маркеры, координаты, кадр ссылки, отслеживание, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности, unity, HoloLens, отслеживание устройств, режим производительности, портал разработчика вуфориа
-ms.openlocfilehash: 1a21f4bb441a1ab0706b5916feaac0d691486626
-ms.sourcegitcommit: 7160843723ccd6567490e2f4222219603f184d76
+ms.openlocfilehash: dd5153b5e4986ebf1ecc2c133f3d431de08ce5b923cc7d2327d9cbda4f4df61c
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "114232174"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115216420"
 ---
 # <a name="using-vuforia-engine-with-unity"></a>Использование подсистемы Вуфориа с Unity
 

@@ -7,12 +7,12 @@ ms.date: 04/19/2021
 ms.topic: article
 ms.localizationpriority: high
 keywords: актуальность, инструменты, начало работы, основы, Unity, Visual Studio, набор средств, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, установка, Windows, HoloLens, эмулятор, Unreal, OpenXR
-ms.openlocfilehash: 9f12a1eba0c28b89000f1541ba62747a03e3564b
-ms.sourcegitcommit: 286384e6e255135939bce2ab0267a62558837562
+ms.openlocfilehash: fef1edd9e7257985a30739794f4b40164345254e3e76cfa740b3fe9699de79f2
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "107732012"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115203726"
 ---
 # <a name="discovering-and-acquiring-features"></a>Обнаружение и получение функций
 

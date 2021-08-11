@@ -5,12 +5,12 @@ author: polar-kev
 ms.author: kesemple
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: fa7442bc968710a31ce3ca379c7fd73928e6e324
-ms.sourcegitcommit: c0ba7d7bb57bb5dda65ee9019229b68c2ee7c267
+ms.openlocfilehash: 407813f52044d3405e5045f64817d87c4f3e4b59ddfd87308586ac2d81924674
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110144410"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115202572"
 ---
 # <a name="lighting-scene-operations"></a>Операции освещения сцены
 
@@ -34,7 +34,7 @@ sceneSystem.SetLightingScene("MiddayLighting", LightingSceneTransitionType.Cross
 
 Доступны следующие стили:
 
-Тип | Описание: | Duration
+Тип | Описание | Duration
 --- | --- | ---
 None | Предыдущая сцена освещения выгружена, будет загружена новая сцена освещения. Нет перехода. | Не учитывается
 фадетоблакк | Предыдущая сцена освещения плавно уменьшается до черного цвета. Загружается новая сцена освещения, затем она проявляется черным. Полезно для плавного перехода между расположениями. | Используется
@@ -44,6 +44,6 @@ None | Предыдущая сцена освещения выгружена, б
 
 Параметр | Плавный переход Фадетоблакк | Плавный плавный переход
 --- | --- | ---
-скибокс | нет | нет
-Пользовательские отражения | нет | нет
-Тени в режиме реального времени Sun | Да | нет
+скибокс | Нет | Нет
+Пользовательские отражения | Нет | Нет
+Тени в режиме реального времени Sun | Да | Нет

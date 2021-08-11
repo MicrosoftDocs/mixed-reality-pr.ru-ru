@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, HoloLens 2, Пространственные привязки Azure, облачные службы Azure, Пользовательское визуальное распознавание Azure, Windows 10
 ms.localizationpriority: high
-ms.openlocfilehash: ab5bcfe92e5de2149e844fc02164f5079e215142
-ms.sourcegitcommit: 114c304a416bfe9d9b294c4adbb4c23cbe60ea4e
+ms.openlocfilehash: 7f85efae0ee24e4785d862873b8b1723460791d2d6a00406a3fd81f465c6faa7
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "114224287"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115218570"
 ---
 # <a name="4-integrating-azure-spatial-anchors"></a>4. Интеграция Пространственных привязок Azure
 

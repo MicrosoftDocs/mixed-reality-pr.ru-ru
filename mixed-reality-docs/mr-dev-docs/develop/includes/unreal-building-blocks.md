@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: f4f9a04a2de5e2c10bc43770bb1bfe9d00f3a4b6
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: 604c25ded2fcb39910efe762eb7c9212ee568248346f74966940d363b2dc4a8e
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "96564081"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115203432"
 ---
 # <a name="available-in-mrtk"></a>[Доступно в MRTK](#tab/mrtk)
 

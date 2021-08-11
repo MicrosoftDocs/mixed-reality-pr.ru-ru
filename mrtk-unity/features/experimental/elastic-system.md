@@ -5,12 +5,12 @@ author: CDiaz-MS
 ms.author: cadia
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, еластикссистем,
-ms.openlocfilehash: 44110cac9ac5aadb7b5e680f18a5e93f43efce12
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: e34b9ea68bfbdc7b7f285686565a1e049ba58ad8677b16e915a2db8272ec1cbe
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113177800"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115217906"
 ---
 # <a name="elastic-system"></a>Эластичная система
 
@@ -20,8 +20,8 @@ ms.locfileid: "113177800"
 
 В настоящее время следующие компоненты МРТК, поддерживающие [Диспетчер эластичных](xref:Microsoft.MixedReality.Toolkit.Experimental.Physics.ElasticsManager) баз данных, могут использовать функциональные возможности эластичных БД:
 
-- [Элемент управления Bounds](../ux-building-blocks/bounds-control.md)
-- [Манипулятор объекта](../ux-building-blocks/object-manipulator.md)
+- [Элемент управления границами](../ux-building-blocks/bounds-control.md)
+- [Манипулятор объектов](../ux-building-blocks/object-manipulator.md)
 
 ## <a name="elastics-manager"></a>Диспетчер эластичных баз данных
 

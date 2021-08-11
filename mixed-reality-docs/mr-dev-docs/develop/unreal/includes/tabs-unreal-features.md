@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 2ccad1adee0098233d08c6694dbb84d9fc1df6ff
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: 0d23f68ff65ba24cc1c3362a420e94bd2db7ec7f95b93b1ec9714b5bbe9e8a11
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "98580055"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115203435"
 ---
 # <a name="426"></a>[4.26](#tab/ue426)
 

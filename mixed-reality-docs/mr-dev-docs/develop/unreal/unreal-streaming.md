@@ -10,12 +10,12 @@ keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанна
 appliesto:
 - HoloLens
 - HoloLens 2
-ms.openlocfilehash: bbae1170850ec4bbb41bc9274223d19102adddae
-ms.sourcegitcommit: 59c91f8c70d1ad30995fba6cf862615e25e78d10
+ms.openlocfilehash: 4b3be99f699c7c1d40d3ea98aacecde6f60e4d2db759448f84c820a43d89bb0a
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "98580338"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115218864"
 ---
 # <a name="streaming-in-unreal"></a>Потоковая передача в Unreal
 

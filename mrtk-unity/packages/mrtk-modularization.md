@@ -1,18 +1,18 @@
 ---
-title: Модульная МРТК
+title: Создание модулей MRTK
 description: Описывает компоненты в МРТК.
 author: davidkline-ms
 ms.author: davidkl
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: eac96e309afc21f9a2b6efe9c3aef5975e4f0dff
-ms.sourcegitcommit: f338b1f121a10577bcce08a174e462cdc86d5874
+ms.openlocfilehash: 1c32486c83eda9b99540d1719753977b6cdb2d18735e799dcd6c2ca3fcf200ce
+ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113177012"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115203633"
 ---
-# <a name="mrtk-modularization"></a>Модульная МРТК
+# <a name="mrtk-modularization"></a>Создание модулей MRTK
 
 одной из замечательных новых функций смешанной реальности набор средств v2 является улучшение компонентов. Везде, где это возможно, отдельные компоненты изолированы от всех основных уровней фундамента.
 
