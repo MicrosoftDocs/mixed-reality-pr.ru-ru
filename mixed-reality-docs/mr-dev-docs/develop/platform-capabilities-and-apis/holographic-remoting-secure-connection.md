@@ -6,14 +6,14 @@ ms.author: flbagar
 ms.date: 12/01/2020
 ms.topic: article
 keywords: HoloLens, удаленное взаимодействие, удаленное взаимодействие, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности, безопасность, аутентификация, сервер-клиент
-ms.openlocfilehash: fa23994ff4ab49d313fe24a67974bf4d90454e511658e0663c61d7b129b10f9e
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 6ac5284bdf9e5984fcf091b6502fb62a494e4fe8
+ms.sourcegitcommit: 820f2dfe98065298f6978a651f838de12620dd45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115223584"
+ms.lasthandoff: 08/14/2021
+ms.locfileid: "122184651"
 ---
-# <a name="enabling-connection-security-for-holographic-remoting"></a>Включение безопасности подключения для удаленного взаимодействия holographic
+# <a name="enabling-connection-security-for-holographic-remoting-c"></a>Включение безопасности подключений для удаленного взаимодействия с holographic (C++)
 
 >[!IMPORTANT]
 >Это руководство относится к удаленному взаимодействию с HoloLens 2.
@@ -189,6 +189,7 @@ Holographic удаленное взаимодействие обменивает
 Этот API похож на API на основе IDL, описанный в статье [Реализация безопасности удаленного взаимодействия holographic](#implementing-holographic-remoting-security). Однако вместо реализации интерфейсов вы должны предоставлять реализации обратного вызова. Подробный пример можно найти в [примере приложения опенкср](https://github.com/microsoft/MixedReality-HolographicRemoting-Samples).
 
 ## <a name="see-also"></a>См. также:
+* [Обзор удаленного взаимодействия с holographic](holographic-remoting-overview.md)
 * [создание удаленного приложения holographic с удаленным взаимодействием с помощью Windows Mixed Reality api](holographic-remoting-create-remote-wmr.md)
 * [Создание удаленного приложения holographic с удаленным взаимодействием с помощью API-интерфейсов Опенкср](holographic-remoting-create-remote-openxr.md)
 * [Создание пользовательского проигрывателя для голографического удаленного взаимодействия](holographic-remoting-create-player.md)

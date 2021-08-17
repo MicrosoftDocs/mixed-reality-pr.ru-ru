@@ -6,12 +6,12 @@ ms.author: flbagar
 ms.date: 12/01/2020
 ms.topic: article
 keywords: HoloLens, удаленное взаимодействие, удаленное взаимодействие, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности, NuGet
-ms.openlocfilehash: 6cf44bd031aec4b475d7496a999a3c7d4d40cae7cc921ff39cfe61698f3dd532
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 3fd210db1b179cbceff057e25bf451be0e7ca843
+ms.sourcegitcommit: 820f2dfe98065298f6978a651f838de12620dd45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115212072"
+ms.lasthandoff: 08/14/2021
+ms.locfileid: "122184595"
 ---
 # <a name="writing-a-holographic-remoting-remote-app-using-the-openxr-api"></a>Создание удаленного приложения holographic с удаленным взаимодействием с помощью API Опенкср
 
@@ -22,7 +22,7 @@ ms.locfileid: "115212072"
 
 Весь код на этой странице и рабочих проектах можно найти в [репозитории GitHub с примерами удаленного взаимодействия](https://github.com/microsoft/MixedReality-HolographicRemoting-Samples).
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Необходимые компоненты
 
 Хорошей отправной точкой является работающая Рабочая станция или приложение UWP на основе Опенкср. Дополнительные сведения см. [в статье Приступая к работе с опенкср](../native/openxr-getting-started.md).
 
@@ -206,6 +206,7 @@ m_window->PresentSwapchain();
 Если удаленное приложение использует DX12, вместо XrRemotingFrameMirrorImageD3D11MSFT используйте XrRemotingFrameMirrorImageD3D12MSFT.
 
 ## <a name="see-also"></a>См. также:
+* [Обзор удаленного взаимодействия с holographic](holographic-remoting-overview.md)
 * [Создание пользовательского проигрывателя для голографического удаленного взаимодействия](holographic-remoting-create-player.md)
 * [Установка безопасного подключения с использованием голографического удаленного взаимодействия](holographic-remoting-secure-connection.md)
 * [Устранение неполадок и ограничения удаленного взаимодействия с holographic](holographic-remoting-troubleshooting.md)

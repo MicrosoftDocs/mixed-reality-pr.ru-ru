@@ -6,12 +6,12 @@ ms.author: flbagar
 ms.date: 12/01/2020
 ms.topic: article
 keywords: Windows Mixed Reality, голограммы, удаленное взаимодействие, дистанционная визуализация, подготовка к просмотру сети, HoloLens, удаленные голограммы, гарнитура смешанной реальности, гарнитура Windows Mixed reality, гарнитура виртуальной реальности
-ms.openlocfilehash: ecfc49477e202b08303160e54ce986577a9d79eb387dc1edb1bc33c63644615f
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 3f9d3d23d18f680ce1001310e4ce49089edaae6a
+ms.sourcegitcommit: 820f2dfe98065298f6978a651f838de12620dd45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115198860"
+ms.lasthandoff: 08/14/2021
+ms.locfileid: "122184625"
 ---
 # <a name="add-holographic-remoting-hololens-first-gen"></a>добавить удаленное взаимодействие с holographic (HoloLens (первые поколения))
 
@@ -261,3 +261,11 @@ internal:
 **Пример кода:** Доступен полный [пример кода с удаленным взаимодействием holographic](https://github.com/Microsoft/HoloLensCompanionKit) , включающий представление приложения holographic, совместимое с удаленным взаимодействием и проектами удаленного взаимодействия для настольных приложений Win32, UWP DirectX и UWP с XAML. 
 
 **Примечание к отладке:** Библиотека holographic Remoting может создавать исключения с первого шанса. эти исключения могут отображаться в сеансах отладки в зависимости от Visual Studio параметров исключений, которые активны в момент времени. Эти исключения захватываются внутри библиотеки holographic Remoting и могут быть пропущены.
+
+## <a name="see-also"></a>См. также:
+* [Обзор удаленного взаимодействия с holographic](holographic-remoting-overview.md)
+* [Создание пользовательского проигрывателя для голографического удаленного взаимодействия](holographic-remoting-create-player.md)
+* [Установка безопасного подключения с использованием голографического удаленного взаимодействия](holographic-remoting-secure-connection.md)
+* [Устранение неполадок и ограничения удаленного взаимодействия с holographic](holographic-remoting-troubleshooting.md)
+* [Условия лицензии на использование ПО для голографического удаленного взаимодействия](/legal/mixed-reality/microsoft-holographic-remoting-software-license-terms)
+* [Заявление Майкрософт о конфиденциальности](https://go.microsoft.com/fwlink/?LinkId=521839)

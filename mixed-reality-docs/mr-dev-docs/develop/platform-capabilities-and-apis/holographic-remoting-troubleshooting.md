@@ -6,12 +6,12 @@ ms.author: flbagar
 ms.date: 12/01/2020
 ms.topic: article
 keywords: Windows Mixed Reality, голограммы, удаленное взаимодействие, дистанционная визуализация, подготовка к просмотру сети, HoloLens, удаленные голограммы, устранение неполадок, помощь, гарнитура смешанной реальности, гарнитура Windows mixed reality, гарнитура виртуальной реальности
-ms.openlocfilehash: fa984e89fb6eb770917d9a1d62ce7c1007d45fab7fbcb2723f9642ac81814054
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: d49f73f4cbe205e71cb2f76ab02769ddad5f3ed2
+ms.sourcegitcommit: 820f2dfe98065298f6978a651f838de12620dd45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115223574"
+ms.lasthandoff: 08/14/2021
+ms.locfileid: "122184615"
 ---
 # <a name="holographic-remoting-troubleshooting"></a>Устранение неполадок удаленного взаимодействия с holographic
 
@@ -24,7 +24,7 @@ ms.locfileid: "115223574"
 
 если вы получаете *vccorlib. lib не удается открыть* неустранимую ошибку, убедитесь, что ваша рабочая нагрузка Visual Studio включает [библиотеки, снижающие опасность устранением рисков spectre](/cpp/build/reference/qspectre) .
 
-## <a name="speech"></a>Речь
+## <a name="speech"></a>Speech
 
 Проигрыватель holographic Remoting поддерживает наложение диагностики, которую можно включить, произнося ```Enable Diagnostics``` и отключая с помощью ```Disable Diagnostics``` . Если у вас возникли проблемы с этими голосовыми командами, можно также запустить проигрыватель holographic Remoting через веб-браузер, используя ```ms-holographic-remoting:?stats``` в качестве URL-адреса.
 
@@ -104,6 +104,7 @@ ms.locfileid: "115223574"
 * [SpatialGraphInteropPreview.TryCreateFrameOfReference](/uwp/api/windows.perception.spatial.preview.spatialgraphinteroppreview.trycreateframeofreference)
 
 ## <a name="see-also"></a>См. также:
+* [Обзор удаленного взаимодействия с holographic](holographic-remoting-overview.md)
 * [Журнал версий службы удаленного взаимодействия с holographic](holographic-remoting-version-history.md)
 * [создание удаленного приложения holographic с удаленным взаимодействием с помощью Windows Mixed Reality api](holographic-remoting-create-remote-wmr.md)
 * [Создание удаленного приложения holographic с удаленным взаимодействием с помощью API-интерфейсов Опенкср](holographic-remoting-create-remote-openxr.md)

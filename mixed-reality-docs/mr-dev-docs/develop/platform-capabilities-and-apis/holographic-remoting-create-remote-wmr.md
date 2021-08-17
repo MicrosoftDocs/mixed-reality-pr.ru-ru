@@ -6,12 +6,12 @@ ms.author: flbagar
 ms.date: 12/01/2020
 ms.topic: article
 keywords: HoloLens, удаленное взаимодействие, удаленное взаимодействие, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности, NuGet
-ms.openlocfilehash: 0d8f7149533de7f3f095761b13feeb91c319cda711c99b9101a13300a591fc2c
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 0c5943ff92ce797e39ec0d2d98c129fa91eb3f14
+ms.sourcegitcommit: 820f2dfe98065298f6978a651f838de12620dd45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115219218"
+ms.lasthandoff: 08/14/2021
+ms.locfileid: "122184725"
 ---
 # <a name="writing-a-holographic-remoting-remote-app-using-the-holographicspace-api"></a>Создание удаленного приложения holographic с удаленным взаимодействием с помощью API Холографикспаце
 
@@ -22,7 +22,7 @@ ms.locfileid: "115219218"
 
 Весь код на этой странице и рабочих проектах можно найти в [репозитории GitHub с примерами удаленного взаимодействия](https://github.com/microsoft/MixedReality-HolographicRemoting-Samples).
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Необходимые компоненты
 
 Хорошей отправной точкой является работающая Рабочая станция на основе DirectX или приложение UWP, которое предназначено для [API холографикспаце](../native/getting-a-holographicspace.md). Дополнительные сведения см. в статье [Общие сведения о разработке DirectX](../native/directx-development-overview.md). [Шаблон проекта с + + holographic](../native/creating-a-holographic-directx-project.md) является хорошей отправной точкой.
 
@@ -358,6 +358,7 @@ void SampleRemoteMain::Render(HolographicFrame holographicFrame)
 Пользовательские каналы данных можно использовать для отправки пользовательских данных через уже установленное удаленное соединение. Дополнительные сведения см. в разделе [пользовательские каналы данных](holographic-remoting-custom-data-channels.md) .
 
 ## <a name="see-also"></a>См. также:
+* [Обзор удаленного взаимодействия с holographic](holographic-remoting-overview.md)
 * [Создание пользовательского проигрывателя для голографического удаленного взаимодействия](holographic-remoting-create-player.md)
 * [Пользовательские каналы данных с голографическим удаленным взаимодействием](holographic-remoting-custom-data-channels.md)
 * [Установка безопасного подключения с использованием голографического удаленного взаимодействия](holographic-remoting-secure-connection.md)

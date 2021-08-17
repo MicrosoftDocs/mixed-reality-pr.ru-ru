@@ -1,19 +1,19 @@
 ---
-title: Создание пользовательского проигрывателя для голографического удаленного взаимодействия
+title: Написание пользовательского плеера holographic (C++)
 description: Создайте пользовательское приложение удаленного взаимодействия Хологафик для отображения содержимого, отображаемого на удаленном компьютере, в HoloLens 2.
 author: florianbagarmicrosoft
-ms.author: flbagar
-ms.date: 12/01/2020
+ms.author: v-vtieto
+ms.date: 7/30/2021
 ms.topic: article
 keywords: HoloLens, удаленное взаимодействие, удаленное взаимодействие, NuGet, манифест приложения, контекст проигрывателя, удаленное приложение, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности
-ms.openlocfilehash: b395f94f6c98b20f7c0c188f11a718e6da9394de5df3404e7c703558daf526f2
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 37388dc9cbf70cb7fccd742fb45e1e29c0ceb971
+ms.sourcegitcommit: 820f2dfe98065298f6978a651f838de12620dd45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115190175"
+ms.lasthandoff: 08/14/2021
+ms.locfileid: "122184735"
 ---
-# <a name="writing-a-custom-holographic-remoting-player-app"></a>Создание пользовательского проигрывателя для голографического удаленного взаимодействия
+# <a name="writing-a-custom-holographic-remoting-player-app-c"></a>Написание пользовательского приложения для удаленного взаимодействия holographic (C++)
 
 >[!IMPORTANT]
 >В этом документе описывается создание пользовательского приложения проигрывателя для HoloLens 2. пользовательские проигрыватели, написанные для HoloLens 2, несовместимы с удаленными приложениями, написанными для HoloLens 1. это означает, что оба приложения должны использовать пакет NuGet версии **2. x. x**.
@@ -22,7 +22,7 @@ ms.locfileid: "115190175"
 
 с помощью удаленного плеера holographic приложение отображает holographic-содержимое, [отображаемое](rendering.md) на настольном компьютере или устройстве UWP, например Xbox One с доступом к дополнительным системным ресурсам. Приложение с удаленным проигрывателем holographic передает входные данные удаленному приложению holographic Remoting и получает иммерсивное представление в виде видео-и звукового потока. Подключение устанавливается с использованием стандартного Wi-Fi. чтобы создать приложение проигрывателя, используйте пакет NuGet, чтобы добавить holographic удаленное взаимодействие в приложение UWP. Затем напишите код, обрабатывающий соединение и отображающий иммерсивное представление. 
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Необходимые компоненты
 
 хорошей отправной точкой является рабочее приложение UWP на основе DirectX, которое уже предназначено для Windows Mixed Reality API. Дополнительные сведения см. в статье [Общие сведения о разработке DirectX](../native/directx-development-overview.md). Если у вас нет существующего приложения и вы хотите начать с нуля, [шаблон проекта C++ holographic](../native/creating-a-holographic-directx-project.md) является хорошей отправной точкой.
 
@@ -251,6 +251,7 @@ winrt::Microsoft::Holographic::AppRemoting::PlayerFrameStatistics statistics = m
 Пользовательские каналы данных можно использовать для отправки пользовательских данных через уже установленное удаленное соединение. Дополнительные сведения см. в разделе [пользовательские каналы данных](holographic-remoting-custom-data-channels.md) .
 
 ## <a name="see-also"></a>См. также:
+* [Обзор удаленного взаимодействия с holographic](holographic-remoting-overview.md)
 * [создание удаленного приложения holographic с удаленным взаимодействием с помощью Windows Mixed Reality api](holographic-remoting-create-remote-wmr.md)
 * [Создание удаленного приложения holographic с удаленным взаимодействием с помощью API-интерфейсов Опенкср](holographic-remoting-create-remote-openxr.md)
 * [Пользовательские каналы данных с голографическим удаленным взаимодействием](holographic-remoting-custom-data-channels.md)

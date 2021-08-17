@@ -6,12 +6,12 @@ ms.author: adlinv
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Windows Mixed Reality, примеры приложений, проектирование, мртк, набор средств смешанной реальности, Unity, примеры приложений, примеры приложений, открытый исходный код, Microsoft Store, HoloLens, гарнитура смешанной реальности, гарнитура Windows Mixed reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 50ca50acd2960ac7bfbd3a3595d7a3dfa4e69f06848919afe7c8f430c41aeaaf
-ms.sourcegitcommit: 5977109661a1db4ee2be8ed532479342093303d5
+ms.openlocfilehash: a75ec87cb41345a8a4bec26eddf70a79d12fb399
+ms.sourcegitcommit: 191c3d89c034714377d09fa91c07cbaa81301bae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "116862618"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121905737"
 ---
 # <a name="lunar-module"></a>Лунный модуль
 ![Лунный модуль](../images/MRDL_LunarModule.jpg)

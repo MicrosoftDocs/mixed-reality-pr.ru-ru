@@ -5,20 +5,20 @@ author: keveleigh
 ms.author: kurtie
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, ксрсдк, XR SDK
-ms.openlocfilehash: 1560188d1a69f0083940a37da8c378691ee75a9d569c2c5088e0e3f614a44858
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 681352ff854598ab34bd9521b46ae9f4e6f42f02
+ms.sourcegitcommit: 191c3d89c034714377d09fa91c07cbaa81301bae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115188275"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121905756"
 ---
 # <a name="getting-started-with-mrtk-and-xr-sdk"></a>Начало работы с MRTK и SDK смешанной реальности
 
 Пакет SDK для XR — это [Новый конвейер XR Unity в unity 2019,3 и более поздних версиях](https://blogs.unity3d.com/2020/01/24/unity-xr-platform-updates/). В Unity 2019 он предоставляет альтернативу существующему конвейеру XR. В Unity 2020 это единственный конвейер XR в Unity.
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Необходимые компоненты
 
-чтобы начать работу с набор средств смешанной реальности, выполните указанные [шаги](../install-the-tools.md#importing-the-mixed-reality-toolkit) , чтобы добавить мртк в проект.
+чтобы начать работу с набор средств смешанной реальности, выполните указанные [шаги](/windows/mixed-reality/develop/install-the-tools#importing-the-mixed-reality-toolkit) , чтобы добавить мртк в проект.
 
 ## <a name="configuring-unity-for-the-xr-sdk-pipeline"></a>Настройка Unity для конвейера SDK XR
 

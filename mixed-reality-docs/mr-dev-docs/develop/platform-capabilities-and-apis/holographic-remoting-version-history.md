@@ -6,12 +6,12 @@ ms.author: flbagar
 ms.date: 07/20/2021
 ms.topic: article
 keywords: HoloLens, удаленное взаимодействие, удаленное взаимодействие, журнал версий, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 21ba89e477872f5dfa41468f1a7f2d7507affd681556d79843c195d7d5839e7b
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: c474583aacf3872095eaf151f5ab47b617fe0252
+ms.sourcegitcommit: 820f2dfe98065298f6978a651f838de12620dd45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115223560"
+ms.lasthandoff: 08/14/2021
+ms.locfileid: "122184755"
 ---
 # <a name="holographic-remoting-version-history"></a>Журнал версий службы удаленного взаимодействия с holographic
 
@@ -166,7 +166,7 @@ ms.locfileid: "115223560"
 * Первый общедоступный выпуск holographic Remoting для HoloLens 2.
 
 ## <a name="see-also"></a>См. также:
-
+* [Обзор удаленного взаимодействия с holographic](holographic-remoting-overview.md)
 * [создание удаленного приложения holographic с удаленным взаимодействием с помощью Windows Mixed Reality api](holographic-remoting-create-remote-wmr.md)
 * [Создание удаленного приложения holographic с удаленным взаимодействием с помощью API-интерфейсов Опенкср](holographic-remoting-create-remote-openxr.md)
 * [Создание пользовательского проигрывателя для голографического удаленного взаимодействия](holographic-remoting-create-player.md)
