@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 78296dd4e6667c34926c954774547b21a223c5f4b6635476c51046c7ca22cdc3
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: c3775dc73f41b822c233d8fc4ec62459e789b89f
+ms.sourcegitcommit: 191c3d89c034714377d09fa91c07cbaa81301bae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115208408"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "122264803"
 ---
 # <a name="mrtk"></a>[MRTK](#tab/mrtk)
 
@@ -21,7 +21,7 @@ public static SpatialCoordinateSystem SpatialCoordinateSystem { get; }
 public static SpatialInteractionManager SpatialInteractionManager { get; }
 ```
 
-# <a name="xr-sdk"></a>[Пакет SDK для XR](#tab/xr)
+# <a name="windows-xr-plugin"></a>[Windows Подключаемый модуль XR](#tab/xr)
 
 ## <a name="windowsmrenvironment"></a>виндовсмренвиронмент
 

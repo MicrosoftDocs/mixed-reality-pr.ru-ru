@@ -7,12 +7,12 @@ ms.date: 08/03/2020
 ms.topic: article
 keywords: Портал устройств Windows, HoloLens
 ms.localizationpriority: high
-ms.openlocfilehash: edcd1796598b558f42232bf54ae3d40d3c509bb9515d8dcbe7f3cf9f2b7dfd62
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 92f8c67297a33c4c8e72de802ceb8a3080d904d9
+ms.sourcegitcommit: 191c3d89c034714377d09fa91c07cbaa81301bae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115221594"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121905728"
 ---
 # <a name="using-the-windows-device-portal"></a>Использование портала устройств Windows
 
