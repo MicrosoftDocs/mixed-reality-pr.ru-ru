@@ -2,22 +2,24 @@
 title: Потоковая передача в Unreal
 description: Сведения о том, как осуществлять потоковую передачу приложений Unreal на устройства HoloLens 2, а также об ограничениях потоковой передачи и параметрах командной строки.
 author: sw5813
-ms.author: suwu
-ms.date: 12/7/2020
+ms.author: v-vtieto
+ms.date: 08/04/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, потоковая передача, компьютер, голографическое удаленное взаимодействие с приложением, проигрыватель для голографического удаленного взаимодействия, документация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
 appliesto:
 - HoloLens
 - HoloLens 2
-ms.openlocfilehash: 4b3be99f699c7c1d40d3ea98aacecde6f60e4d2db759448f84c820a43d89bb0a
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 77f32cafa84233654ad9e5754d0db9f7b6f9437a
+ms.sourcegitcommit: 820f2dfe98065298f6978a651f838de12620dd45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115218864"
+ms.lasthandoff: 08/14/2021
+ms.locfileid: "122184637"
 ---
 # <a name="streaming-in-unreal"></a>Потоковая передача в Unreal
+
+Иногда "потоковая передача" называется "голографическим удаленным взаимодействием." Дополнительные сведения см. в статье [Обзор голографического удаленного взаимодействия](../platform-capabilities-and-apis/holographic-remoting-overview.md).
 
 Потоковая передача с компьютера в HoloLens обеспечивает два основных преимущества: 
 * Ваше приложение смешанной реальности может использовать вычислительные мощности компьютера. 
