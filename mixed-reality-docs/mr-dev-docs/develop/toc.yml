@@ -220,7 +220,7 @@
           href: unity/spatial-sound-in-unity.md
     - name: Дополнительные функции
       items:
-        - name: Фото- и видеокамера в Unity
+        - name: Фото- и видеокамера
           href: unity/locatable-camera-in-unity.md
         - name: точка фокусировки;
           href: unity/focus-point-in-unity.md
@@ -234,6 +234,8 @@
           href: unity/using-the-windows-namespace-with-unity-apps-for-hololens.md
         - name: Собственное взаимодействие смешанной реальности в Unity
           href: unity/unity-xrdevice-advanced.md
+        - name: Использование ресурсов ПК для работы приложения
+          href: unity/use-pc-resources.md
         - name: Использование Vuforia
           href: unity/vuforia-development-overview.md
     - name: Иммерсивная виртуальная реальность
@@ -266,8 +268,8 @@
           href: unity/managed-debugging-with-unity-il2cpp.md
         - name: Рекомендуемые параметры для Unity
           href: unity/recommended-settings-for-unity.md
-        - name: Предварительный просмотр работы с помощью голографического удаленного взаимодействия
-          href: unity/holographic-remoting-in-unity.md
+        - name: Предварительный просмотр и отладка приложения с помощью голографического удаленного взаимодействия
+          href: unity/preview-and-debug-your-app.md
     - name: Решения Visual Studio
       items:
         - name: Экспорт и разработка решения Visual Studio для Unity
@@ -452,21 +454,21 @@
           href: platform-capabilities-and-apis/installing-pix-hololens.md
     - name: Голографическое удаленное взаимодействие
       items:
-        - name: Общие сведения
+        - name: Обзор удаленного голографического взаимодействия
           href: platform-capabilities-and-apis/holographic-remoting-overview.md
-        - name: Holographic Remoting Player
+        - name: Проигрыватель для голографического удаленного взаимодействия
           href: platform-capabilities-and-apis/holographic-remoting-player.md
-        - name: Создание приложения с голографическим удаленным взаимодействием
+        - name: Создание приложения с голографическим удаленным взаимодействием (C++)
           items:
             - name: API HolographicSpace
               href: platform-capabilities-and-apis/holographic-remoting-create-remote-wmr.md
             - name: API OpenXR
               href: platform-capabilities-and-apis/holographic-remoting-create-remote-openxr.md
-        - name: Создание пользовательского проигрывателя для голографического удаленного взаимодействия
+        - name: Создание пользовательского проигрывателя для голографического удаленного взаимодействия (C++)
           href: platform-capabilities-and-apis/holographic-remoting-create-player.md
-        - name: Пользовательские каналы данных с голографическим удаленным взаимодействием
+        - name: Пользовательские каналы данных с голографическим удаленным взаимодействием (C++)
           href: platform-capabilities-and-apis/holographic-remoting-custom-data-channels.md
-        - name: Безопасное подключение с использованием голографического удаленного взаимодействия
+        - name: Безопасное подключение с использованием голографического удаленного взаимодействия (C++)
           href: platform-capabilities-and-apis/holographic-remoting-secure-connection.md
         - name: Устранение неполадок и ограничения
           href: platform-capabilities-and-apis/holographic-remoting-troubleshooting.md
