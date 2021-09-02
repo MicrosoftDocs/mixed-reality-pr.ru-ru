@@ -218,6 +218,8 @@
           href: unity/spatial-mapping-in-unity.md
         - name: пространственный звук
           href: unity/spatial-sound-in-unity.md
+        - name: Интерпретация сцены
+          href: unity/scene-understanding-sdk.md
     - name: Дополнительные функции
       items:
         - name: Фото- и видеокамера
@@ -264,6 +266,8 @@
               href: unity/lunar-module.md
     - name: Отладка и производительность
       items:
+        - name: Рекомендации по производительности для Unity
+          href: unity/performance-recommendations-for-unity.md
         - name: Управляемая отладка с помощью Unity
           href: unity/managed-debugging-with-unity-il2cpp.md
         - name: Рекомендуемые параметры для Unity
@@ -422,15 +426,13 @@
   items:
     - name: Основные компоненты
       items:
-        - name: Интерпретация сцены
-          href: platform-capabilities-and-apis/scene-understanding-sdk.md
         - name: Общие пространственные привязки
           href: platform-capabilities-and-apis/shared-spatial-anchors-in-directx.md
-        - name: 'Ввод с помощью клавиатуры, мыши и контроллеров'
+        - name: 'Ввод с помощью клавиатуры, мыши и контроллера (с примерами на C++)'
           href: platform-capabilities-and-apis/keyboard-mouse-and-controller-input-in-directx.md
         - name: Использование XAML с голографическими приложениями DirectX
           href: platform-capabilities-and-apis/using-xaml-with-holographic-directx-apps.md
-        - name: Отслеживание QR-кода
+        - name: Отслеживание QR-кода (с примерами на C# и C++)
           href: platform-capabilities-and-apis/qr-code-tracking.md
     - name: Общие возможности в смешанной реальности
       items:
@@ -440,13 +442,13 @@
           href: /azure/spatial-anchors/
         - name: Зрительское представление
           href: platform-capabilities-and-apis/spectator-view.md
-        - name: WebRTC
+        - name: 'WebRTC (C#, C++, Unity)'
           href: 'https://github.com/microsoft/MixedReality-WebRTC'
     - name: Камера и съемка
       items:
-        - name: Камера с определяемым местоположением
+        - name: Камера с определяемым местоположением (с примерами на C++)
           href: platform-capabilities-and-apis/locatable-camera.md
-        - name: Съемка смешанной реальности для разработчиков
+        - name: Приложение "Съемка смешанной реальности" для разработчиков (с примерами на C# и C++)
           href: platform-capabilities-and-apis/mixed-reality-capture-for-developers.md
         - name: 'Студия съемки смешанной реальности: принцип работы'
           href: platform-capabilities-and-apis/how-it-works-mixed-reality-capture-studios.md
@@ -484,12 +486,10 @@
           href: platform-capabilities-and-apis/app-quality-criteria.md
         - name: Голографическая отрисовка
           href: platform-capabilities-and-apis/rendering.md
-        - name: Объемная отрисовка
+        - name: Объемная отрисовка (с примерами на C++)
           href: platform-capabilities-and-apis/volume-rendering.md
-        - name: Стабильность голограммы
+        - name: Стабильность голограммы (с примерами на C#)
           href: platform-capabilities-and-apis/hologram-stability.md
-        - name: Использование плоскости стабилизации для уменьшения голографической турбулентности
-          href: platform-capabilities-and-apis/case-study-using-the-stabilization-plane-to-reduce-holographic-turbulence.md
         - name: Understanding performance for Mixed Reality (Основные сведения о производительности для Смешанной реальности)
           href: platform-capabilities-and-apis/understanding-performance-for-mixed-reality.md
         - name: Рекомендации по производительности для Unity
@@ -506,13 +506,13 @@
           href: platform-capabilities-and-apis/advanced-hololens-emulator-and-mixed-reality-simulator-input.md
         - name: Архив эмулятора HoloLens
           href: platform-capabilities-and-apis/hololens-emulator-archive.md
-        - name: Моделирование восприятия
+        - name: Моделирование восприятия (с примерами на C#)
           href: platform-capabilities-and-apis/perception-simulation.md
     - name: Портал устройств
       items:
         - name: Использование портала устройств Windows
           href: platform-capabilities-and-apis/using-the-windows-device-portal.md
-        - name: Справочник по API портала устройств
+        - name: Справочные материалы по API портала устройств (REST)
           href: platform-capabilities-and-apis/device-portal-api-reference.md
     - name: Инструменты для исследования
       items:
