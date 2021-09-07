@@ -2,16 +2,16 @@
 title: Основные сведения о производительности смешанной реальности
 description: дополнительные сведения и сведения для анализа и оптимизации производительности Windows Mixed Reality приложений.
 author: hferrone
-ms.author: v-hferrone
-ms.date: 3/26/2019
+ms.author: v-vtieto
+ms.date: 08/16/2021
 ms.topic: article
 keywords: Windows Mixed Reality, смешанная реальность, виртуальная реальность, VR, MR, производительность, оптимизация, цп, GPU
-ms.openlocfilehash: 394198011c40f0b90e2c5579f7e0ad8c4019b2a8cefcb1859c544afcbce47df6
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 9304e4cd80f0929b87a29873ad07329700ec463f
+ms.sourcegitcommit: 6f3b3aa31cc3acefba5fa3ac3ba579d9868a4fe4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115193566"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "123244212"
 ---
 # <a name="understanding-performance-for-mixed-reality"></a>Основные сведения о производительности смешанной реальности
 
@@ -30,7 +30,7 @@ ms.locfileid: "115193566"
 | [Windows Mixed Reality Ultra Штук](../../discover/immersive-headset-hardware-details.md) | 90 КАДРОВ/С |
 | [Windows Mixed Reality Штук](../../discover/immersive-headset-hardware-details.md) | 60 кадров/с |
 
-В приведенной ниже структуре представлены рекомендации по использованию ставок целевых кадров. Мы рекомендуем ознакомиться со [статьей рекомендации по производительности для Unity](../unity/performance-recommendations-for-unity.md) , чтобы получить советы по измерению и улучшению частоты кадров в среде Unity.
+В приведенной ниже структуре представлены рекомендации по использованию ставок целевых кадров. Для получения советов по измерению и улучшению частоты кадров в среде Unity рекомендуется ознакомиться со [статьей рекомендации по производительности для Unity](../unity/performance-recommendations-for-unity.md) . 
 
 ## <a name="understanding-performance-bottlenecks"></a>Основные сведения о узких местах производительности
 

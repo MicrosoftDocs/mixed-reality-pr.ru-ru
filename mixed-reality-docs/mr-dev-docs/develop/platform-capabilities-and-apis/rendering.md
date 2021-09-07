@@ -6,14 +6,14 @@ ms.author: alexturn
 ms.date: 02/24/2019
 ms.topic: article
 keywords: отрисовка, голограмма
-ms.openlocfilehash: d01a5911ad8b479197bd38e8ed7825feef1f69dc51d2c2dc2f8e500e93880955
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 5bd06b9ca521e489a8944a1813b735a0fe1d60a5
+ms.sourcegitcommit: 6f3b3aa31cc3acefba5fa3ac3ba579d9868a4fe4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115193670"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "123244225"
 ---
-# <a name="rendering"></a>Отрисовка
+# <a name="holographic-rendering"></a>Holographic
 
 С помощью подготовки к просмотру в приложении можно нарисовать голограмму в определенном месте мира по всему миру, независимо от того, размещается ли оно в физическом мире или в пределах созданной виртуальной области. [Голограммы](../../discover/hologram.md) — это объекты со звуком и освещением. Подготовка к просмотру позволяет приложению добавить источник освещения.
 
@@ -27,7 +27,7 @@ ms.locfileid: "115193670"
     <col width="25%" />
     </colgroup>
     <tr>
-        <td><strong>Компонент</strong></td>
+        <td><strong>Возможность</strong></td>
         <td><a href="/hololens/hololens1-hardware"><strong>HoloLens (первый общий)</strong></a></td>
         <td><a href="https://docs.microsoft.com/hololens/hololens2-hardware"><strong>HoloLens 2</strong></td>
         <td><a href="../../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>

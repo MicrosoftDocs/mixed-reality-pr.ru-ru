@@ -6,12 +6,12 @@ ms.author: mriches
 ms.date: 08/04/2020
 ms.topic: article
 keywords: Windows Mixed Reality, клавиатура, мышь, игровой контроллер, контроллер xbox, HoloLens, настольный компьютер, пошаговое руководство, пример кода
-ms.openlocfilehash: 2e83fa0a14a24eb98001c7dc88af062202a2ef9a5eee7cd53e9702dbe4eedc8e
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: e7ae65e660fe0348205fabc1c292328912fb1cdc
+ms.sourcegitcommit: 6f3b3aa31cc3acefba5fa3ac3ba579d9868a4fe4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115192028"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "123244178"
 ---
 # <a name="keyboard-mouse-and-controller-input-in-directx"></a>Ввод с помощью клавиатуры, мыши и контроллера в DirectX
 
@@ -21,7 +21,7 @@ ms.locfileid: "115192028"
 клавиатуры, мыши и игровые контроллеры могут быть полезными формами ввода для Windows Mixed Reality устройств. Bluetooth клавиатуры и мыши поддерживаются в HoloLens, для использования с отладкой приложения или в качестве альтернативной формы ввода. Windows Mixed Reality также поддерживает впечатляющие головные телефоны, подключенные к компьютерам. это значит, что мышь, клавиатуры и игровые контроллеры были исторически.
 
 чтобы использовать ввод с клавиатуры на HoloLens, свяжите Bluetoothную клавиатуру с устройством или используйте виртуальный ввод через портал Windows устройств. чтобы использовать ввод с клавиатуры во время людьми Windows Mixed Reality иммерсивное гарнитуру, присвойте фокус ввода смешанной реальности, поместив устройство или используя сочетание клавиш Windows ключ + Y. помните, что приложения, предназначенные для HoloLens, должны предоставлять функциональные возможности без подключения к этим устройствам.
-
+<!--Unity Note: the paragraph below explains that the article provides C++ code snippets. -->
 >[!NOTE]
 >Фрагменты кода в этой статье в настоящее время демонстрируют использование C++/CX вместо C + +17, совместимого с C++/WinRT, как используется в [шаблоне C++ holographic](../native/creating-a-holographic-directx-project.md).  Понятия эквивалентны для проекта C++/WinRT, хотя код необходимо преобразовать.
 

@@ -6,13 +6,14 @@ ms.author: alexturn
 ms.date: 08/04/2020
 ms.topic: article
 keywords: HoloLens, синхронизация, пространственный якорь, перемещение, многопрограммный, просмотр, сценарий, пошаговое руководство, пример кода, Azure, пространственные привязки azure, ASA
-ms.openlocfilehash: df78d9e2477fe377d61d2f2c13fc35e0a25b0b2cc37eeb883a69d2041fe42f9b
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 6b1b98539c05849064f1c33ed859bc925ed5fd31
+ms.sourcegitcommit: 6f3b3aa31cc3acefba5fa3ac3ba579d9868a4fe4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115193548"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "123244326"
 ---
+<!--Unity Note: No Unity specific content in this article. -->
 # <a name="shared-experiences-in-directx"></a>Общие возможности DirectX
 
 > [!NOTE]
