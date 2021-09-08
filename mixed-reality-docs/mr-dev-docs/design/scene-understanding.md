@@ -6,12 +6,12 @@ ms.author: szymons
 ms.date: 07/08/2019
 ms.topic: article
 keywords: основные сведения о сцене, пространственное сопоставление, Windows Mixed Reality, Unity, гарнитура смешанной реальности, гарнитура Windows mixed, гарнитура виртуальной реальности, HoloLens, перекрытия, пакет SDK
-ms.openlocfilehash: 4dd5a2c96478e50b2e9eda35be22c15c1db07f88cfc4d25d753c4860a1283f55
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 6d950fca4211aef659b1f957ca5e7135ac9764ac
+ms.sourcegitcommit: 6b8ccb881fbbdaa5119841eac528e29d7b49bd04
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115213473"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "123557326"
 ---
 # <a name="scene-understanding"></a>Интерпретация сцены
 
@@ -33,7 +33,7 @@ ms.locfileid: "115213473"
 
 Эта статья предназначена только для знакомства со средой выполнения и концепциями. Если вы ищете документацию по разработке с использованием сцены, возможно, вас интересуют следующие статьи:
 
-[Общие сведения о пакете SDK для сцены](../develop/platform-capabilities-and-apis/scene-understanding-SDK.md)
+[Общие сведения о пакете SDK для сцены](../develop/unity/scene-understanding-SDK.md)
 
 вы можете скачать пример приложения из примера GitHub сайта:
 
@@ -45,7 +45,7 @@ ms.locfileid: "115213473"
 
 ### <a name="sdk"></a>SDK
 
-Дополнительные сведения о разработке с помощью концепции сцены см. в обзорной документации по [пакету SDK](../develop/platform-capabilities-and-apis/scene-understanding-SDK.md) .
+Дополнительные сведения о разработке с помощью концепции сцены см. в обзорной документации по [пакету SDK](../develop/unity/scene-understanding-SDK.md) .
 
 ### <a name="sample"></a>Образец
 
@@ -59,7 +59,7 @@ ms.locfileid: "115213473"
     <col width="25%" />
     </colgroup>
     <tr>
-        <td><strong>Компонент</strong></td>
+        <td><strong>Возможность</strong></td>
         <td><a href="/hololens/hololens1-hardware"><strong>HoloLens (1-го поколения)</strong></a></td>
         <td><a href="https://docs.microsoft.com/hololens/hololens2-hardware"><strong>HoloLens 2</strong></td>
         <td><a href="../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
@@ -101,7 +101,7 @@ ms.locfileid: "115213473"
 <br>
 
 
-Если приложение планирует размещать плоские или трехмерные голограммы в жестких структурах вашей среды, простота и удобство Сценекуадс для размещения предпочтительнее для вычисления этой информации из сетки [пространственного сопоставления](spatial-mapping.md) . Дополнительные сведения по этой теме см. в статье [Справочник по пакету SDK для сцены](../develop/platform-capabilities-and-apis/scene-understanding-SDK.md) .
+Если приложение планирует размещать плоские или трехмерные голограммы в жестких структурах вашей среды, простота и удобство Сценекуадс для размещения предпочтительнее для вычисления этой информации из сетки [пространственного сопоставления](spatial-mapping.md) . Дополнительные сведения по этой теме см. в статье [Справочник по пакету SDK для сцены](../develop/unity/scene-understanding-SDK.md) .
 
 **Примечание** . Для устаревшего кода размещения, который зависит от сетки пространственных сопоставлений, можно вычислить сетку пространственных сопоставлений вместе с Сценекуадс, задав параметр Енаблеворлдмеш. Если интерфейс API для сцены не удовлетворяет требованиям к задержке приложения, мы рекомендуем продолжить использовать API- [интерфейс пространственного сопоставления](spatial-mapping.md#placement).
 
@@ -129,5 +129,5 @@ ms.locfileid: "115213473"
 
 ### <a name="see-also"></a>См. также:
 
-* [Пакет SDK для понимания сцены](../develop/platform-capabilities-and-apis/scene-understanding-SDK.md)
+* [Пакет SDK для понимания сцены](../develop/unity/scene-understanding-SDK.md)
 * [Пространственное сопоставление](spatial-mapping.md)
