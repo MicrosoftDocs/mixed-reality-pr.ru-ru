@@ -2,20 +2,18 @@
 title: Использование Вебкср с Windows Mixed Reality
 description: изучите основы использования и разработки для приложений вебкср, работающих на Windows Mixed Reality впечатляющих гарнитурах.
 author: yonet
-ms.author: ayyonet
-ms.date: 04/10/2020
+ms.author: v-vtieto
+ms.date: 09/16/2021
 ms.topic: article
 keywords: вебкср, винмр, вебар, вебвр, виндовсмикседреалити, HoloLens, windows mixed reality, веб-vr, web xr, web mr, web ar, 360, 360 video, 360 видео, 360 photo, 360 фотографии, 360 content, иммерсивное веб-, иммерсивевеб, IW
-ms.openlocfilehash: e670135cb00db26082b73f8465390a686de6a3e946bbffa561f9df90085970f8
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: f99637c79d1147d940bb6a72d68969c99a2482ec
+ms.sourcegitcommit: 645608f33d2d02625484c29586f42d21c442aaa9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115216270"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "127932532"
 ---
-# <a name="webxr-overview"></a>Обзор Вебкср
-
-## <a name="javascript-development"></a>Разработка на JavaScript
+# <a name="javascript-development-with-webxr"></a>Разработка JavaScript с помощью Вебкср
 
 JavaScript — один из самых популярных языков программирования в мире! Это просто, упрощенное и широко используемое в Интернете. Используйте возможности JavaScript и веб-навыков для создания более привлекательных возможностей смешанной реальности.
 
@@ -60,3 +58,11 @@ JavaScript — один из самых популярных языков про
 * [glTF](https://www.khronos.org/gltf)
 * [Группа иммерсивного веб-сообщества](https://www.w3.org/community/immersive-web/)
 * [Иммерсивное веб-сайт W3C GitHub](https://github.com/immersive-web)
+
+## <a name="next-steps--tutorials"></a>Дальнейшие действия — учебники
+
+> [!div class="nextstepaction"]
+> [Создание первого приложения Вебкср с помощью Babylon.js](tutorials/babylonjs-webxr-helloworld/introduction-01.md)
+> [!div class="nextstepaction"]
+
+> [Создание пианино в Вебкср с помощью Babylon.js](tutorials/babylonjs-webxr-piano/introduction-01.md)
