@@ -150,5 +150,7 @@
       href: asset-creation-process.md
     - name: Разработка собственных иммерсивных сред
       href: add-custom-home-environments.md
-    - name: Набор средств Figma
+    - name: Набор средств MRTK Figma
       href: figma-toolkit.md
+    - name: Figma Bridge для Unity
+      href: figma-unity-bridge.md
