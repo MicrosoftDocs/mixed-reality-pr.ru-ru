@@ -7,14 +7,19 @@ ms.date: 02/11/2019
 ms.topic: article
 ms.localizationpriority: high
 keywords: Spectator View, iPhone, iOS, iPad, OpenCV, камера, ARKit, HoloLens, смешанная реальность, MixedRealityToolkit, демонстрация, запись
-ms.openlocfilehash: 23f5dce85bdcd15e8950f5682814dec042bc604d7e983b17a5528949e51e844a
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: f30c745154056cda6b5ccf052efbbd0bb7f094ea
+ms.sourcegitcommit: 5d13ff165f4d08a3b028935fb39539a45a30f7e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115190518"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "127779470"
 ---
 # <a name="spectator-view-for-hololens-and-hololens-2"></a>Spectator View для HoloLens и HoloLens 2
+
+> [!WARNING]
+> Корпорация Майкрософт объявит пример Spectator View нерекомендуемым из-за несовместимости с используемой этим примером версией пакета SDK Пространственных привязок Azure. Кроме того, пример может не работать из-за других изменений в среде Unity после перехода клиентов на поддерживаемые сборки 2019 LTS.
+>
+> Хотя корпорация Майкрософт в настоящее время не выделяет ресурсы на устранение приведенных выше проблем, функциональность Пространственных привязок Azure, возможно, удастся удалить из примера и использовать для согласования другие технологии, например QR-коды.   Если участники сообщества отправят запросы на вытягивание по таким проблемам, мы рассмотрим и примем их (на данный момент).
 
 ![Marker](images/SpecViewPhoneHero.jpg)
 

@@ -3,16 +3,16 @@ title: Развертывание и отладка с помощью Visual Stu
 description: Узнайте, как создавать, отлаживать и развертывать приложения для HoloLens и Windows Mixed Reality с помощью Visual Studio.
 author: pbarnettms
 ms.author: pbarnett
-ms.date: 04/13/2020
+ms.date: 09/15/2021
 ms.topic: article
 ms.localizationpriority: high
 keywords: Visual Studio, HoloLens, смешанная реальность, отладка, развертывание
-ms.openlocfilehash: 43abf7b512d6b01695e2c953df821a608359918c461614e3f94710b57f241db0
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 948ec52dcfe738a28316e9906d473b32454f6d59
+ms.sourcegitcommit: 7dad5bde71d429bb23c72a4074e60b6668a7f091
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115221138"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "127857526"
 ---
 # <a name="using-visual-studio-to-deploy-and-debug"></a>Развертывание и отладка с помощью Visual Studio
 
@@ -117,21 +117,25 @@ ms.locfileid: "115221138"
 
 5. При первом развертывании приложения с компьютера на HoloLens будет предложено ввести ПИН-код. Выполните приведенные ниже инструкции по **связыванию устройства**.
 
-> [!NOTE]
-> Если при развертывании приложения по USB возникает значительная задержка, мы рекомендуем воспользоваться [инструкциями для удаленного компьютера](#deploying-a-hololens-app-over-wi-fi) из предыдущего раздела.
+## <a name="deploying-an-app-to-the-hololens-1st-gen-emulator"></a>Развертывание приложения в эмуляторе HoloLens (1-го поколения)
 
-## <a name="deploying-an-app-to-the-hololens-emulator"></a>Развертывание приложения в эмуляторе HoloLens
+1. Убедитесь, что у вас **[установлен эмулятор HoloLens](../install-the-tools.md)** .
+2. Выберите для приложения конфигурацию сборки **x86**.</br>
+![Конфигурация сборки x86 в Visual Studio](images/x86setting.png)</br>
+3. Выберите **HoloLens Emulator** (Эмулятор HoloLens) в раскрывающемся меню цели развертывания.</br>
+![Эмулятор в качестве цели развертывания в Visual Studio](images/deployemulator.png)</br>
+4. Выберите **Отладка > Начать отладку**, чтобы развернуть приложение и начать отладку.</br>
+![Запуск без отладки в Visual Studio](images/deploywithdebugging.png)</br>
 
-1. Убедитесь, что вы **[установили эмулятор HoloLens 2 или HoloLens (1-го поколения)](../install-the-tools.md#installation-checklist)** .
-2. Выберите конфигурацию сборки и эмулятор в зависимости от устройства.
+## <a name="deploying-an-app-to-the-hololens-2-emulator"></a>Развертывание приложения в эмуляторе HoloLens 2
 
-[!INCLUDE[](includes/vs-wifi-hl-include.md)]
-
-3. Выполните сборку, развертывание и отладку приложения в соответствии со своими потребностями.
-    * Выберите **Отладка > Начать отладку**, чтобы развернуть приложение и начать отладку.
-    * Выберите **Build > Deploy** (Сборка > Развернуть), чтобы выполнить сборку и развертывание без отладки.
-
-![Запуск без отладки в Visual Studio](images/deploywithdebugging.png)
+1. Убедитесь, что у вас **[установлен эмулятор HoloLens](../install-the-tools.md)** .
+2. Выберите для приложения конфигурацию сборки **x86** или **x64**.</br>
+![Конфигурация сборки x86 в Visual Studio](images/x86setting.png)</br>
+3. Выберите **HoloLens 2 Emulator** (Эмулятор HoloLens 2) в раскрывающемся меню цели развертывания.</br>
+![Эмулятор в качестве цели развертывания в приложении Visual Studio](images/deployemulator2.png)</br>
+4. Выберите **Отладка > Начать отладку**, чтобы развернуть приложение и начать отладку.</br>
+![Запуск без отладки в Visual Studio](images/deploywithdebugging.png)</br>
 
 ## <a name="deploying-a-vr-app-to-your-local-pc"></a>Развертывание приложения виртуальной реальности на локальном компьютере 
 
