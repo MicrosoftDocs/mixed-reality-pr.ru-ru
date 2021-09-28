@@ -2,16 +2,16 @@
 title: Windows Mixed Reality и новый Microsoft Edge
 description: узнайте о новых Microsoft Edge для смешанной реальности, в том числе о предполагаемых возможностях, обновлениях для поиска и известных проблемах.
 author: mattzmsft
-ms.author: mazeller
-ms.date: 08/04/2020
+ms.author: v-vtieto
+ms.date: 09/24/2021
 ms.topic: article
 keywords: Пограничная, новая, впечатляющие веб-приложения, Microsoft ребро, браузер, VR, 360, 360 видео, средство просмотра 360, вебкср, вебвр
-ms.openlocfilehash: 51efc5c4d3afb4d46ba7722867514f740a9f60a4280652fdbd665134f83af23d
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: ca849f63d2a755639bedba68c47e419528006a6d
+ms.sourcegitcommit: 3176df29fb0c9508751bd370f1211031d50d2c14
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115218826"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "129148663"
 ---
 # <a name="the-new-microsoft-edge-for-windows-mixed-reality"></a>новый Microsoft Edge для Windows Mixed Reality
 
@@ -81,7 +81,8 @@ Windows Mixed Reality пользователи гарнитуры VR, желаю
 
 ### <a name="other-known-issues"></a>Другие известные проблемы
 
--   веб-сайты, открытые в Windows Mixed Reality будут потеряны, когда портал смешанной реальности закроется. Microsoft Edge окна будут оставаться в размещенных на главном деле местах.
-- Возможности Вебкср, включая расширение средства просмотра 360, могут неправильно запускаться на компьютерах с гибридными настройками GPU. Эту ошибку можно обойти, включив предварительную версию функции в новом Microsoft Edge. Перейдите к `edge://flags` , выполните поиск по фразе "несколько GPU" и установите флаг, именуемый **ВЕБКСР Multi GPU support**.
 -   звук из Microsoft Edge windows не является пространственным.
--   **исправлено в расширении средства просмотра 360 версии 2.3.8**: открытие видео 360 из YouTube в Windows Mixed Reality может привести к искажению видео на гарнитуре. Перезапуск пограничной программы должен незаметно обновить расширение средства просмотра 360, чтобы устранить эту проблему. Вы можете проверить, какая версия расширения имеется, введя ее `edge://system/` в адресной строке и нажав кнопку **развернуть** рядом с расширением.
+
+## <a name="see-also"></a>См. также:
+
+* [Обзор Вебкср](../develop/javascript/webxr-overview.md)

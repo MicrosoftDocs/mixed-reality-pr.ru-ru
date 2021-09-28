@@ -5,12 +5,12 @@ author: RogPodge
 ms.author: roliu
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, UnitTest,
-ms.openlocfilehash: d528b5c16ab39271f9984bdd9e23ebca091efd53ed563149f3933ed31ed656dd
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 85c8a330d9af5b0d91c2b1b838ead7d10d97f981
+ms.sourcegitcommit: 3176df29fb0c9508751bd370f1211031d50d2c14
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115216260"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "129148669"
 ---
 # <a name="writing-and-running-tests"></a>Написание и выполнение тестов
 
@@ -41,13 +41,13 @@ ms.locfileid: "115216260"
 Выполнение тестов в проекте, расположенном по адресу Х:\мртк.Дев, с Unity 2018,4 (например, Unity 2018.4.26 F1)
 
 ```ps
-.\run_playmode_tests.ps1 H:\mrtk.dev -unityExePath = "C:\Program Files\Unity\Hub\Editor\2018.4.26f1\Editor\Unity.exe"
+.\run_playmode_tests.ps1 H:\mrtk.dev -unityExePath "C:\Program Files\Unity\Hub\Editor\2018.4.26f1\Editor\Unity.exe"
 ```
 
 Выполнение тестов в проекте, расположенном по адресу Х:\мртк.Дев, с Unity 2018,4, вывод результатов в C:\ playmode_test_out
 
 ```ps
-.\run_playmode_tests.ps1 H:\mrtk.dev -unityExePath = "C:\Program Files\Unity\Hub\Editor\2018.4.26f1\Editor\Unity.exe" -outFolder "C:\playmode_test_out\"
+.\run_playmode_tests.ps1 H:\mrtk.dev -unityExePath "C:\Program Files\Unity\Hub\Editor\2018.4.26f1\Editor\Unity.exe" -outFolder "C:\playmode_test_out\"
 ```
 
 Можно также выполнять тесты плаймоде несколько раз с помощью `run_repeat_tests.ps1` скрипта. Все параметры, используемые в `run_playmode_tests.ps1` , могут использоваться.
