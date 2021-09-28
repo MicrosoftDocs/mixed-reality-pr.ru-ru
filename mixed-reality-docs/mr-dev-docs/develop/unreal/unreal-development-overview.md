@@ -7,12 +7,12 @@ ms.date: 12/9/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, потоковая передача, удаленное взаимодействие, смешанная реальность, разработка, начало работы, функции, новый проект, эмулятор, документация, руководства, функции, голограммы, разработка игр, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, OpenXR
-ms.openlocfilehash: fd9eec18e865910ef4899dfda75661d1edb57eed25a55641cde3ca7ac3f0b3a8
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 90dfb113008e6f8b1162c068ebfc967ed74fd6b4
+ms.sourcegitcommit: 71c2a4884bd83599e35dd894771a5e43e951b574
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115203462"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "128184675"
 ---
 # <a name="unreal-development-overview"></a>Обзор разработки в Unreal
 
@@ -110,11 +110,9 @@ ms.locfileid: "115203462"
 | Доступ к камере | 4.23 | ✔️ |
 | QR-коды | 4.23 | ✔️ |
 | Пространственный звук | 4.23 | ✔️ |
-| Поддержка потоковой передачи на экран для зрителей | 4.24 |
 | Планарные координаты LSR при потоковой передаче | 4.24 |
 | [Примеры приложений](../features-and-samples.md) | 4.24 | ✔️ |
 | Просмотр на нескольких мобильных устройствах: Производительность до 60 кадров/с | 4.25 | ✔️ |
-| Отрисовка для третьей камеры | 4.25 | ✔️ |
 | Потоковая передача из упакованного классического приложения | 4.25.1 | ✔️ |
 | Пространственные привязки Azure для HoloLens 2 | 4.25 | ✔️ |
 | Поддержка Mixed Reality UX Tools | 4.25 | ✔️ |
