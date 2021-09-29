@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 283ef0bedc96a63d34a66fa0d88dee97420957c7744ad3702c6ac3bc34c14310
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 12634c1fc18366e28a51688b19fc739ea69d37ec
+ms.sourcegitcommit: 71c2a4884bd83599e35dd894771a5e43e951b574
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115218865"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "128184637"
 ---
 # <a name="windows-mixed-reality"></a>[Windows Mixed Reality](#tab/wmr)
 
@@ -15,6 +15,7 @@ ms.locfileid: "115218865"
 | `-HoloLensRemotingListen` | (Необязательно) Запуск сервера прослушивания. |
 | `-HoloLensRemotingListenPort=<port>` | (Необязательно) Принимает порт для прослушивания. Используется для подключения к компьютеру или виртуальной машины с устройства HoloLens. |
 | `-HoloLens1Remoting=<IP address>` | (Не рекомендуется с версии 4.26) Принимает IP-адрес для подключения к устройству HoloLens 1. |
+| `-eyetracking=WindowsMixedRealityEyeTracker` | (Необязательно.) Используйте отслеживание глаз Windows Mixed Reality |
 
 # <a name="openxr"></a>[OpenXR](#tab/openxr)
 
@@ -25,3 +26,4 @@ ms.locfileid: "115218865"
 | `-Listen` | (Необязательно) Запуск сервера прослушивания. |
 | `-RemotingBitrate=<bitrate>` | (Необязательно) Значение по умолчанию: 8000. Максимальная скорость передачи данных по сети (КБ/с). |
 | `-RemotingCodec=<codec>` | (Необязательно) Кодек подключения.  |
+| `-eyetracking=OpenXREyeTracker` | (Необязательно.) Используйте отслеживание глаз OpenXR |

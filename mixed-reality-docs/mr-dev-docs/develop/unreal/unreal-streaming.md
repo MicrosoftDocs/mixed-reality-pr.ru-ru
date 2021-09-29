@@ -10,12 +10,12 @@ keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанна
 appliesto:
 - HoloLens
 - HoloLens 2
-ms.openlocfilehash: 77f32cafa84233654ad9e5754d0db9f7b6f9437a
-ms.sourcegitcommit: 820f2dfe98065298f6978a651f838de12620dd45
+ms.openlocfilehash: 091f0876c37756fad47d2d78520adbd526aab24d
+ms.sourcegitcommit: 71c2a4884bd83599e35dd894771a5e43e951b574
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2021
-ms.locfileid: "122184637"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "128184638"
 ---
 # <a name="streaming-in-unreal"></a>Потоковая передача в Unreal
 
@@ -93,6 +93,9 @@ Unreal 4.26 на OpenXR поддерживает потоковую переда
 
 > [!NOTE]
 > Имя приложения в параметрах проекта должно быть автоматически использовано для создания пакета Windows. Если по какой-либо причине имена отличаются, используйте имя исполняемого файла Windows в командной строке.
+
+> [!NOTE]
+> Если отслеживание глаз не работает при потоковой передаче из упакованного исполняемого файла, отключите любые другие плагины с устройствами отслеживания глаз (например, Magic Leap), которые поддерживаются компьютером, или запустите приложение из командной строки с соответствующим аргументом отслеживания глаз (см. [параметры командной строки](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unreal/unreal-streaming?tabs=wmr#command-line-options)).
 
 Нажмите клавишу ВВОД, и ваше приложение начнет потоковую передачу.
 
