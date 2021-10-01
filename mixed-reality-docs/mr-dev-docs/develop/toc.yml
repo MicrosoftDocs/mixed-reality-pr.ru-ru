@@ -36,6 +36,8 @@
           href: unity/tutorials.md
         - name: "Руководства по HoloLens\_2"
           items:
+            - name: "Руководства по основам работы с HoloLens\_2"
+              href: /learn/paths/beginner-hololens-2-tutorials/
             - name: Руководства по многопользовательским возможностям
               items:
                 - name: 1. Введение
