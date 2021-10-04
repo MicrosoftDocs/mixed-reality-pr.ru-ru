@@ -1,14 +1,17 @@
 ---
 title: Вопросы и ответы по Стеамвр
 description: стеамвр Windows Mixed Reality устранять неполадки, которые выходят за рамки стандартной документации по поддержке пользователей.
+author: qianwen
+ms.author: v-qianwen
+ms.date: 09/24/2021
 ms.topic: article
 keywords: Windows Mixed Reality, смешанная реальность, виртуальная реальность, VR, MR, устранение неполадок, ошибки, справка, поддержка, стеамвр
-ms.openlocfilehash: 0fb9c07dda8fe354966403bc9c6a21acb600e61cb943c270eb9c87f5ec2fb89a
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 17ab1709e8a2fc7e3eee70082aef64f0dc23d318
+ms.sourcegitcommit: c159bdcf2ada1f45606b10d41ea3adf95109c979
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115199500"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "129436806"
 ---
 # <a name="steamvr-faqs"></a>Вопросы и ответы по Стеамвр
 
@@ -21,7 +24,7 @@ ms.locfileid: "115199500"
 
 ## <a name="a-message-says-to-use-steamvr-with-windows-mixed-reality-you-need-to-install-the-latest-windows-update-or-windows-developer-mode-required"></a>появится сообщение "чтобы использовать стеамвр с Windows Mixed Reality, необходимо установить последнюю Центр обновления Windows" или "Windows требуется режим разработчика".
 
-1. Убедитесь, что на компьютере установлена последняя версия Windows 10. последовательно выберите **Параметры > система > о программе** и в разделе "спецификации Windows" убедитесь, что для "сборка ос" установлено значение 16299,64 или выше.
+1. убедитесь, что на компьютере установлена последняя версия Windows 10 или Windows 11. последовательно выберите **Параметры > система > о программе** и в разделе "спецификации Windows" убедитесь, что для "сборка ос" установлено значение 16299,64 или выше.
 2. Убедитесь, что у вас нет обновлений, ожидающих скачивания или установки. перейдите в раздел **Параметры > обновление & безопасность > Центр обновления Windows** и выберите пункт "проверить наличие обновлений". Может потребоваться проверить несколько раз, пока не будут доступны дополнительные обновления, а затем перезапустить компьютер.
 
 ## <a name="steamvr-is-crashing-after-updating-windows"></a>Сбой Стеамвр после обновления Windows

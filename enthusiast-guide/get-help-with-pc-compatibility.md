@@ -1,19 +1,19 @@
 ---
 title: Получение справки по совместимости ПК
 description: используйте ресурсы для решения проблем совместимости пк при работе с Windows Mixed Reality приложениями и устройствами.
-author: hferrone
-ms.author: v-hferrone
-ms.date: 01/07/2021
+author: qianw211
+ms.author: v-qianwen
+ms.date: 9/24/2021
 ms.topic: article
 keywords: Windows Mixed Reality, смешанная реальность, виртуальная реальность, VR, MR, обратная связь, центр обратной связи, ошибки
 appliesto:
-- Windows 10
-ms.openlocfilehash: cd5598147823670d1aa00eddda844bea21d7da262339624613f3724cbc5157fa
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+- Windows 10 and Windows 11
+ms.openlocfilehash: 1a07326da871eead6b13fe8350f37a22f8d27c23
+ms.sourcegitcommit: c159bdcf2ada1f45606b10d41ea3adf95109c979
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115189216"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "129436568"
 ---
 # <a name="get-help-with-pc-compatibility-in-windows-mixed-reality"></a>Получение справки по совместимости ПК в Windows Mixed Reality
 
@@ -51,6 +51,7 @@ ms.locfileid: "115189216"
 * [На этом компьютере недостаточно свободного дискового пространства для запуска Windows Mixed Reality](#this-pc-doesnt-have-enough-free-disk-space-to-run-windows-mixed-reality)
 * [на этом компьютере работает выпуск Windows, который не поддерживает Windows Mixed Reality](#this-pc-is-running-an-edition-of-windows-that-doesnt-support-windows-mixed-reality)
 * [На этом компьютере не установлена последняя версия Windows 10](#this-pc-isnt-running-the-latest-version-of-windows-10)
+* [на этом компьютере не установлена последняя версия Windows 11](#this-pc-isnt-running-the-latest-version-of-windows-11)
 * [Этот компьютер не имеет порта USB 3,0](#this-pc-has-no-usb-30-port)
 * [Невозможно запустить это приложение через удаленный рабочий стол](#you-cant-run-this-app-via-remote-desktop)
 
@@ -73,7 +74,7 @@ PCIe означает подключение *периферийных комп�
 
 > [!div class="checklist"]
 > * выберите **пуск > Параметры > обновление & безопасность > проверить наличие обновлений** или перейти на веб-сайт изготовителя пк или графической платы
-> * [Проверка обновлений](ms-settings:windowsupdate?activationSource=SMC-Article-4045777)
+> * [Проверить наличие обновлений](ms-settings:windowsupdate?activationSource=SMC-Article-4045777)
 
 Если это не сработает, вам потребуется:
 
@@ -140,7 +141,7 @@ PCIe означает подключение *периферийных комп�
 
 > [!div class="checklist"]
 > * выберите **пуск > Параметры > обновление & безопасность > проверить наличие обновлений** или перейти на веб-сайт изготовителя пк или графической платы
-> * [Проверка обновлений](ms-settings:windowsupdate?activationSource=SMC-Article-4045777)
+> * [Проверить наличие обновлений](ms-settings:windowsupdate?activationSource=SMC-Article-4045777)
 
 Если это не сработает, вам потребуется:
 
@@ -162,11 +163,15 @@ Windows Mixed Reality требуется 10 гб свободного диско
 
 ### <a name="this-pc-is-running-an-edition-of-windows-that-doesnt-support-windows-mixed-reality"></a>на этом компьютере работает выпуск Windows, который не поддерживает Windows Mixed Reality
 
-Windows Mixed Reality работает в [Windows 10 Домашняя](https://www.microsoft.com/p/windows-10-home/d76qx4bznwk4?activetab=pivot:overviewtab) и [Windows 10 Pro](https://www.microsoft.com/p/windows-10-pro/DF77X4D43RKT?icid=W10Pro_upsell_071817&activetab=pivot:overviewtab). Для использования Windows Mixed Reality необходимо установить один из этих выпусков.
+Windows Mixed Reality работает с [Windows 10 Домашняя](https://www.microsoft.com/p/windows-10-home/d76qx4bznwk4?activetab=pivot:overviewtab), [Windows 10 Pro](https://www.microsoft.com/p/windows-10-pro/DF77X4D43RKT?icid=W10Pro_upsell_071817&activetab=pivot:overviewtab)и [Windows 11](https://www.microsoft.com/software-download/windows11). Для использования Windows Mixed Reality необходимо установить один из этих выпусков.
 
 ### <a name="this-pc-isnt-running-the-latest-version-of-windows-10"></a>На этом компьютере не установлена последняя версия Windows 10
 
 для Windows Mixed Reality требуется Windows 10 Fall Creators Update. [Обновите свой ПК](https://support.microsoft.com/help/4028685) и повторите попытку.
+
+### <a name="this-pc-isnt-running-the-latest-version-of-windows-11"></a>на этом компьютере не установлена последняя версия Windows 11
+
+для Windows Mixed Reality требуется последний выпуск Windows 11. [Обновите свой ПК](https://www.microsoft.com/software-download/windows11) и повторите попытку.
 
 ### <a name="this-pc-has-no-usb-30-port"></a>Этот компьютер не имеет порта USB 3,0
 

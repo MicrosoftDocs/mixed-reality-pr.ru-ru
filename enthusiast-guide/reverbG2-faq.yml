@@ -2,140 +2,141 @@
 metadata:
   title: Часто задаваемые вопросы о команде HP G2
   description: узнайте о часто задаваемых вопросах по использованию головной гарнитуры HP с Windows Mixed Reality иммерсивное гарнитуры.
-  ms.author: v-hferrone
-  ms.date: 09/15/2020
+  author: qianwen
+  ms.author: v-qianwen
+  ms.date: 09/24/2021
   ms.topic: article
-  keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Troubleshoot, Errors, Help, Support, Performance
+  keywords: Windows Mixed Reality, смешанная реальность, виртуальная реальность, VR, MR, устранение неполадок, ошибки, справка, поддержка, производительность
   appliesto:
   - Windows 10
-  ms.openlocfilehash: 73c4761a35e679bccc8430ae7860aef71f015f25946ee709393980cf5f064148
-  ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+  ms.openlocfilehash: e8ba390b255b0f364e36a4f366b0da427e39c8fb
+  ms.sourcegitcommit: c159bdcf2ada1f45606b10d41ea3adf95109c979
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 08/05/2021
-  ms.locfileid: "115219944"
+  ms.lasthandoff: 10/04/2021
+  ms.locfileid: "129436823"
 title: Часто задаваемые вопросы о команде HP
 summary: ''
 sections:
 - name: Не учитывается
   questions:
   - question: >
-      Существует ли Специальный порядок для подключения шлейфов гарнитуры к ПК
+      Is there a specific order I should follow to connect my headset cables to a PC
     answer: >
-      HP рекомендует:
+      HP Recommends:
 
 
-      - перед подключением к компьютеру или источнику питания необходимо сначала Подключение 6-м кабелем для гарнитуры.
+      - Connect the 6-meter cable to the headset first before connecting to the PC or power supply.
 
-      - После первоначальной установки оставьте 6-метровый кабель, подключенный к гарнитуре.
+      - Leave the 6-meter cable connected to the headset after initial installation.
 
-      - Если гарнитура не используется, отключите адаптер питания от 6-метрного кабеля.
+      - When the headset isn't in use, disconnect the power adapter from the 6-meter cable.
   - question: >
-      Что делать, чтобы получить более четкое изображение
+      What should I do to get a crisper image
     answer: >
-      Если вы считаете, что экран выглядит немного размытым, можно попробовать несколько вещей:
+      There are a few things you can try if you feel that your display looks a little blurry:
 
 
-      - Убедитесь, что ваша головная гарнитура правильно подключена к lenses.
+      - Make sure that your headset is on your head correctly with your eyes centered to the lenses.
 
-      - Попробуйте настроить IPD (интерпупиллари distance). В переглаголе G2 используется аппаратная IPD. Чтобы изменить его, найдите настройку IPD на гарнитуре.
+      - Try to adjust the IPD (interpupillary distance). Reverb G2 uses a hardware IPD. To change it, look for IPD adjustment on your headset.
 
-      - Если вам нужны очков или контакты, их необходимо будет использовать при использовании устройства.
+      - If you need glasses or contacts, you'll need to wear them when using the device.
 
-      - Убедитесь, что ваша lensesа (микрофиберная ткань — нет жидкости).
+      - Check that your lenses are clean (microfiber cloth only – no fluids).
 
-      - Из-за использования расширенной гарнитуры в течение первых нескольких минут при запуске устройства может возникнуть незначительное дублирование изображений, пока у LCDs есть возможность прогрева.
+      - Because of the advanced headset design, there may be some minor image ghosting in the first few minutes when starting the device while cold until the LCDs have the opportunity to warm up.
   - question: >
-      Я получаю сообщение об ошибке 7-14 "что-то пошло не так" при подключении гарнитуры
+      I am getting a 7-14 “Something Went Wrong” error when I plug in my headset
     answer: >
-      7-14 что-то пошло не так: код означает, что некоторые из требуемых компонентов USB2 не найдены.  Из-за очень длинного кабеля команды HP переглагола G2 некоторые из отклонений сигналов USB являются более строгими.  Это означает, что один порт на компьютере может работать более надежно, чем другой.
+      The 7-14 Something Went Wrong code means that some of the required USB2 components weren’t found.  Because of the extra-long cable of the HP Reverb G2, some of the tolerances for the USB signals are tighter.  This means that one port on your computer may work more reliably than another.
 
 
-      Если вы видите ошибку 7-14 "что-то пошло не так", попробуйте выполнить следующие действия:
+      If you're seeing a 7-14 “something went wrong” error, try the following steps:
 
 
-      - Убедитесь, что установлены последние версии драйверов для гарнитуры и контроллера USB.
+      - Make sure that you have the most recent drivers installed for your headset and your USB controller.
 
-      - Убедитесь, что вы используете драйвер USB для Microsoft. В имени устройства "расширяемого хост-контроллера" должно быть "Майкрософт".
+      - Make sure you're using a Microsoft USB driver. There should be a “Microsoft” in the name of the "eXtensible Host Controller" device.
 
-      - Попробуйте подключить кабель к другому порту USB-3,0 на компьютере. (Попробуйте использовать USB типа-C и Type-A Ports.)
+      - Try plugging the cable into a different USB-3.0 port on your computer. (Try USB Type-C and Type-A ports)
 
-      - Используйте подключенный USB C к адаптеру, чтобы использовать разные порты.
+      - Use the included USB C to A adapter to try different ports.
 
-      - Попробуйте подключить гарнитуру через USB-концентратор к компьютеру.
+      - Try plugging the headset in through a USB Hub to your computer.
 
 
       > [!NOTE]
 
-      > Если вы не можете подключиться к устройству, обратитесь в [службу поддержки HP](https://support.hp.com/us-en) .
+      > If you are unable to connect your device, please contact [HP Support](https://support.hp.com/us-en)
   - question: >
-      Я получаю сообщение об ошибке 13-14 "что-то пошло не так" при выходе компьютера из режима гибернации (S4)
+      I am getting a 13-14 “Something Went Wrong” error when my PC resumes from hibernate (S4)
     answer: >
-      Иногда в процессе возобновления видеоадаптер не может установить подключение, поэтому отключив тип USB C компьютера и подключив его обратно, можно установить подключение.
+      Sometimes during the resume process, the video card can't establish a connection, so unplugging the USB Type C from your PC and plugging it back in may help to establish a connection.
   - question: >
-      Джойстик устройства HP Motion может иногда работать на одной стороне
+      My HP Motion Controller joystick will sometimes stick to one side
     answer: >
-      Эта проблема устранена путем полного нажатия джойстика до тех пор, пока он не нажмет его, и он будет свободно перемещаться.
+      This issue is corrected by fully depressing the joystick until it clicks and it will move freely.
   - question: >
-      Другие состояния я громко или что мой звук обрезается, пока я использую микрофон с некоторыми приложениями
+      Others state I am loud or that my audio is clipping while I am using the microphone with some applications
     answer: >
-      уровни громкости входных данных автоматически устанавливаются в 100% при первом распознавании микрофона HP reverbа G2 с помощью Windows пк. из-за переглаголов высококачественных микрофонов на входе в G2'sе учетные данные значительно выше, чем заданные по умолчанию параметры Windows 10. Рекомендуется задать входной уровень переглагола G2, начиная с 50%, и масштабировать его. Оптимальный параметр зависит от пользователя, особенно при использовании приложений, у которых нет параметра микрофона "автоматическое усиление". примерами приложений с "автоматической усилением" являются Skype, масштабирование, Teams и Cisco WebEx, но не все приложения для социальных сетей и широковещательных приложений используют эту функцию.
+      The input volume levels are automatically set to 100% when the HP Reverb G2 microphone is first recognized by a Windows PC. Because of the Reverb G2's high-quality microphones, input sensitivity is much higher than the default Windows 10 and Windows 11 settings expect. We recommend setting the Reverb G2 microphone input level starting at 50% and scale up from there. An optimal setting is specific to the user, especially when using applications that don't have an “auto-gain” microphone setting. Examples of applications that have “auto-gain” are Skype, Zoom, Teams, and Cisco WebEx, but not all VR social or broadcasting applications have this feature.
   - question: >
-      На портале Mixed Reality появляется сообщение "не удается запустить смешанную реальность на этой гарнитуре", но это работало с моей предыдущей гарнитурой ВМР
+      The Mixed Reality Portal says “Can't run mixed reality on this headset” but this worked fine with my previous WMR headset
     answer: >
-      Это может произойти из-за того, что для обеспечения оптимальной работы требуется более мощный ПК с переглаголом HP. Дополнительные сведения см. в требованиях к минимальным [требованиям к ПК](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md)
+      This may happen because your HP Reverb G2 requires a more powerful PC to ensure the best experience. For more information, please review the minimum [PC requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md)
   - question: >
-      Похоже, левый экран растягивается, и правый дисплей не находится в центре и половина черного
+      It looks like my left display is stretched, and the right display is off-centered and half black
     answer: >
-      Это может произойти, если гарнитура не работает в собственном разрешении. Из-за особенностей отображения высокого разрешения в команде HP ХМД G2 не все системы могут визуализировать собственное разрешение. в будущих Центр обновления Windows есть исправление, которое будет решать проблему отрисовки, когда гарнитура не находится в собственном разрешении.
+      This can happen when your headset isn't running at the native resolution. Because of the nature of the high-resolution displays in the HP Reverb G2 HMD, not all systems can render the native resolution. There's a fix coming in a future Windows Update that will address the rendering issue when the headset isn't at the native resolution.
 
 
-      Существует несколько причин, по которым система не может визуализироваться в собственном разрешении:
+      There are a few reasons why your system isn't able to render at the native resolution:
 
 
-      - Дисплайпорт в системе может быть несовместимым с 1,3 или не поддерживать все четыре желоба.
+      - The DisplayPort on the system might not be 1.3 compatible, or it might not support all four lanes.
 
-      - Если вы используете адаптер, он может не поддерживать совместимость с HBR3 или не поддерживать все четыре желоба.
+      - If you're using an adapter, it might not support be HBR3 compatible, or it might not support all four lanes.
 
-      - Если в системе есть гибридный графический процессор, это может ограничить пропускную способность, доступную для Дисплайпорт.
+      - If your system has a hybrid GPU, that might be limiting the bandwidth available to the DisplayPort.
   - question: >
-      Почему модели контроллера движения HP неверно отображаются в игре
+      Why are my HP Motion Controller models not showing up correctly in a game
     answer: >
-      Хотя большинство игр не отображают контроллеры или используют модели, установленные драйвером, некоторые игры используют собственные версии моделей контроллеров, для их настройки или для вывода контекстной справки по доступным входным данным. Обычно это не блокирует функции игр, но может привести к путанице или даже к визуальным артефактам. Это можно исправить только с помощью обновления самой игры.
+      While most games don't display the controllers or use the models installed by the driver, some games use their own versions of the controller models, either to customize them or to display contextual help for the available inputs. Usually, this doesn't block any features of the games but might lead to confusion or even visual artifacts. This can only be fixed with an update of the game itself.
   - question: >
-      Мои игры Стеамвр не работают правильно с моим контроллером HP Motion
+      My SteamVR games don't appear to work correctly with my HP Motion controllers
     answer: >
-      Хотя разработчики работают над обновлением игр для обеспечения совместимости с контроллером движения HP, мы предоставили пользовательские привязки контроллеров для многих популярных игр на Steam. при полном обновлении "Windows Mixed Reality для стеамвр" до версии 1.2.444 эти привязки должны автоматически выбираться при запуске игры. однако если в настоящее время ваша игра не регистрирует ваши действия, можно вручную выполнить поиск пользовательских профилей привязки с помощью меню стеамвр Параметры.
+      While developers are working to update their games for HP Motion Controller compatibility, we have provided custom controller bindings for many of the most popular games on Steam. With "Windows Mixed Reality for SteamVR" fully updated to version 1.2.444, these bindings should be picked up automatically when your game is running. However, if your game doesn't seem to register your actions at this time, you can manually search for custom binding profiles using the SteamVR Settings menu.
 
-      Требуемое действие
-
-
-      - Откройте меню Стеамвр, нажав кнопку меню "правый контроллер движения".
-
-      - выберите значок "Параметры" в правом нижнем углу меню "стеамвр"
-
-      - Выберите вкладку Controllers (контроллеры).
-
-      - Выберите параметр "управление привязками контроллера".
+      To do this
 
 
-      Здесь можно изменить привязку активного контроллера на "настраиваемый", что откроет возможность попробовать привязку к общим играм сообщества.
+      - Open the SteamVR menu by pressing the right motion controller's menu button
 
-      Если для этой игры не предоставлен общий доступ к пользовательским привязкам игр (или если вы не удовлетворены всеми предустановленными пользователями), можно также создать собственные пользовательские привязки игр и даже помочь остальным участникам сообщества поделиться ими после нескольких сеансов игры.
+      - Select the "Settings" icon in the bottom-right corner of the SteamVR menu
+
+      - Select the "Controllers" tab
+
+      - Select the "Manage Controller Bindings" option
+
+
+      From here, you can change your active controller binding to "Custom", which will open up the option to try community-shared game bindings.
+
+      If no custom game bindings have been shared for this game yet (or if you aren't fully satisfied with the ones you've tried), you can also create your own custom game bindings, and even help the rest of the community by sharing them after a few game sessions.
   - question: >
-      Все кабели подключены к гарнитуре и компьютеру, но не будут включены
+      I have all cables connected to the headset and PC but it won’t turn on
     answer: >
-      Убедитесь, что кабель, подключенный к гарнитуре, полностью установлен. В верхней части кабеля есть небольшая точка, которая будет выровняться рядом с верхней границей гарнитуры, когда она была полностью вставлена:
+      Verify the cable connected to the headset is fully seated. There is a small dot on the top of the cable that will line up next to the top edge of the headset when it has been fully inserted:
 
 
-      ![Маленькая точка в верхней части кабеля](images/small-dot.jpg)
+      ![Small dot on the top of the cable](images/small-dot.jpg)
   - question: >
-      Как выключить гарнитуру, не применяя мой компьютер
+      How can I power down the headset while still using my PC
     answer: >
-      Отключите адаптер подключения AC от поля связи на шлейфе гарнитуры, чтобы удалить питание гарнитуры.
+      Unplug the AC connection adapter from the link box on the headset cable to remove power to the headset.
   - question: >
-      Изображение для отображения переглагола G2 меньше и доступно только в верхнем левом углу.
+      The image of the displays of the Reverb G2 is smaller and only in the upper left
     answer: >-
-      При наличии графического процессора AMD необходимо отключить автоматическое масштабирование. когда головная гарнитура подключена, перейдите в раздел Параметры-> смешанная реальность > разрешение > гарнитуры.
+      If you have an AMD power GPU, you'll need to disable the automatic upscaling. While your headset is connected, navigate to Settings -> Mixed Reality -> Headset -> Resolution.
 
-      В раскрывающемся меню выберите пункт "4320 x 2160 (наилучшее качество)". Если выбран параметр "автоматическое масштабирование (наилучшая производительность)", может возникнуть ошибка, связанная с отображением.
+      In the drop down menu select  “4320 x 2160 (best quality)” option. When “Automatic upscaling (best performance)” is selected, you may experience the issue with display.

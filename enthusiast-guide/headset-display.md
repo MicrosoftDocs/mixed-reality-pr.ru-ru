@@ -1,19 +1,19 @@
 ---
 title: Часто задаваемые вопросы о гарнитуре
 description: отображение Windows Mixed Reality устранение неполадок, связанных с отображением гарнитуры, которые выходят за пределы стандартной документации по поддержке пользователей.
-author: hferrone
-ms.author: v-hferrone
-ms.date: 09/15/2020
+author: qianw211
+ms.author: v-qianwen
+ms.date: 09/30/2020
 ms.topic: article
 keywords: Windows Mixed Reality, смешанная реальность, виртуальная реальность, VR, MR, устранение неполадок, ошибки, справка, поддержка
 appliesto:
-- Windows 10
-ms.openlocfilehash: 811b5160c739c8b19fde737e7a61bcef84e0cf60a87927adbe21241e229f3f22
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+- Windows 10 and Windows 11
+ms.openlocfilehash: 5a7c7979c9d93d917633cbfed23dc82597368a43
+ms.sourcegitcommit: c159bdcf2ada1f45606b10d41ea3adf95109c979
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115189394"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "129436687"
 ---
 # <a name="headset-display-faqs"></a>Часто задаваемые вопросы о гарнитуре
 
@@ -97,7 +97,7 @@ ms.locfileid: "115189394"
 
 ## <a name="im-getting-a-the-install-class-is-not-present-or-is-invalid-error-in-device-manager"></a>Возникла ошибка "класс Install отсутствует или является недопустимым" в диспетчер устройств
 
-если вы видите "датчики HoloLens" с желтым восклицательным знаком в диспетчер устройств, выберите устройство для получения дополнительных сведений. Если появится сообщение "драйверы для этого устройства не установлены. (Код 28) — класс Install отсутствует или является недопустимым. обычно это происходит потому, что компьютер работает под управлением [Windows 10 N](https://support.microsoft.com/en-us/help/4039813/media-feature-pack-for-windows-10-n-october-2017). N выпусков Windows 10 не поддерживают Windows Mixed Reality, и вам потребуется установить версию Windows 10, которая не является N.
+если вы видите "датчики HoloLens" с желтым восклицательным знаком в диспетчер устройств, выберите устройство для получения дополнительных сведений. Если появится сообщение "драйверы для этого устройства не установлены. (Код 28) — класс Install отсутствует или является недопустимым. обычно это происходит потому, что компьютер работает под управлением [Windows 10 N](https://support.microsoft.com/en-us/help/4039813/media-feature-pack-for-windows-10-n-october-2017). N выпуски Windows 10 и Windows 11 не поддерживают Windows Mixed Reality, и вам потребуется установить версию Windows 10 или Windows 11 (не N).
 
 ## <a name="my-wmr-environment-is-jittery-or-stutters-when-i-move-my-head-and-displays-double-vision"></a>Мой ВМР окружение является нарушением или стуттерсом при перемещении головной панели и отображении двойного представления
 

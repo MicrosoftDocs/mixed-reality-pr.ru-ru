@@ -1,19 +1,19 @@
 ---
 title: Windows Mixed Reality Рекомендации по совместимости ПК
 description: В обзорной диаграмме представлены минимальные требования к системе ПК для обеспечения совместимости с Windows Mixed Reality.
-author: hferrone
-ms.author: v-hferrone
-ms.date: 09/16/2020
+author: qianw211
+ms.author: v-qianwen
+ms.date: 09/22/2021
 ms.topic: article
 keywords: Windows Mixed Reality, смешанная реальность, виртуальная реальность, VR, MR, Ultra, совместимая, совместимость, требования к системе, пк
 appliesto:
-- Windows 10
-ms.openlocfilehash: ed9113c5aa54d74678fcd6f888fa96007533d0d27e921f91aa6feeda459d11b7
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+- Windows 10 and Windows 11
+ms.openlocfilehash: af3228e76bc9ce54ef877b67e8e85a3bde25e140
+ms.sourcegitcommit: c159bdcf2ada1f45606b10d41ea3adf95109c979
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115187860"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "129436738"
 ---
 # <a name="windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines"></a>Windows Mixed Reality минимальные рекомендации по совместимости оборудования пк
 
@@ -21,7 +21,7 @@ ms.locfileid: "115187860"
 
 ## <a name="features-and-experiences"></a>Функции и возможности
 
-Windows 10 включает Windows Mixed Reality на различных гарнитурах в различных наборах оборудования для пк.  Мощь ПК определит, какие возможности у вас есть.
+Windows 10 и Windows 11 powers Windows Mixed Reality на различных гарнитурах в различных наборах оборудования пк.  Мощь ПК определит, какие возможности у вас есть.
 Благодаря более высоким конечным компьютерам вы получаете ряд дополнительных возможностей и функций:
 
 * Более четкие визуальные элементы и более высокая скорость обновления.
@@ -51,17 +51,11 @@ Windows 10 включает Windows Mixed Reality на различных гар
 Затем вы получите анализ вашего компьютера в соответствии с требуемым оборудованием, драйверами и операционной системой.
 ![снимок экрана: проверка Windows Mixed Reality пк](images/screenshot-mr-pc-check.jpg)
 
-<table>
-<tr>
-<th>Значок</th><th>Что это означает</th>
-</tr><tr>
-<td> <img alt="Succeeded" width="30" height="30" src="images/glyph-succeeded.png" /></td><td style="vertical-align: middle">Ваш компьютер передает требуемый элемент.</td>
-</tr><tr>
-<td> <img alt="Warning" width="30" height="30" src="images/glyph-warning.png" /></td><td style="vertical-align: middle">Возможны проблемы с вашим компьютером для данного требования. Если возникают проблемы, может потребоваться устранение неполадок или обновление компьютера.</td>
-</tr><tr>
-<td> <img alt="Error" width="30" height="30" src="images/glyph-error.png" /></td><td style="vertical-align: middle">Ваш компьютер не соответствует требованиям для указанного элемента.</td>
-</tr>
-</table>
+| Значок | Что это означает |
+| --- | --- |
+| <img alt="Succeeded" width="30" height="30" src="images/glyph-succeeded.png" /> | Ваш компьютер передает требуемый элемент. |
+| <img alt="Warning" width="30" height="30" src="images/glyph-warning.png" /> | Возможны проблемы с вашим компьютером для данного требования. Если возникают проблемы, может потребоваться устранение неполадок или обновление компьютера. 
+| <img alt="Error" width="30" height="30" src="images/glyph-error.png" /> | Ваш компьютер не соответствует требованиям для указанного элемента. |
 
  [Получение справки по результатам портала смешанной реальности](get-help-with-pc-compatibility.md)
 
@@ -74,80 +68,30 @@ Windows 10 включает Windows Mixed Reality на различных гар
 
 Из-за более высокого разрешения следующие требования применимы к линиям продуктов HP Re, G2 и Омницепт, чтобы обеспечить оптимальную работу в 90 Гц, полное разрешение:
 
-<ul>
-<li> Intel Core i5, i7, Intel Xeon E3-1240 V5, что эквивалентно или лучше. Эквивалент или выше AMD ризен 5. </li>
-<li> NVIDIA GeForce ГТКС 1080, AMD Radeon RX 5700, эквивалентная или более высокая </li>
-<li> Память: 8 ГБ ОЗУ или больше </li>
-<li> Номер монитора 1x 1,3 </li>
-<li> 1x USB 3,0 Type-C с поддержкой доставки питания (или включенным адаптером питания)</li>
-<li> Windows 10 Май 2019 обновления или более поздней версии </li>
-</ul>
-
+- Intel Core i5, i7, Intel Xeon E3-1240 V5, что эквивалентно или лучше. Эквивалент или выше AMD ризен 5.  
+- NVIDIA GeForce ГТКС 1080, AMD Radeon RX 5700, эквивалентная или более высокая  
+- Память: 8 ГБ ОЗУ или больше  
+- Номер монитора 1x 1,3  
+- 1x USB 3,0 Type-C с поддержкой доставки питания (или включенным адаптером питания) 
+- Windows 10 Май 2019 обновления или более поздней версии  
+ 
 **Все остальные ВМР совместимые гарнитуры** <br>
 Для всех остальных ХМДС см. следующие требования.
 
-<table>
-<tr>
-    <th style="width:10%"></th><th style="vertical-align: middle; text-align: center; width:30%">Windows Mixed Reality 90Hz пк</th>
-    <th style="vertical-align: middle; text-align: center; width:30%">Windows Mixed Reality 60 гц пк</th>
-</tr><tr>
-    <td style="vertical-align: middle">Операционная система</td><td colspan="2" style="vertical-align: middle; text-align: center;">Windows 10 Fall Creators Update (RS3) или более поздней версии — домашняя, Pro, бизнес, образование.<br/>    (<b>примечание</b>. не поддерживается в N версий или Windows 10 Pro в режиме S)</td>
-</tr><tr>
-    <td style="vertical-align: middle">Процессор</td>
-    <td style="vertical-align: middle; text-align: center;">Intel Core i5 4590 (4-го поколения), четырехъядерный (или более эффективный) <br>AMD ризен 5 1400 3.4 ГГц (Настольный), четырехъядерный (или более подходящий)</td>
-    <td style="vertical-align: middle; text-align: center;">Intel Core i5 7200U (мобильное поколение с 7-го поколения), Двухъядерная с включенной технологией Intel Hyper-Threading (или выше) <br>AMD ризен 5 1400 3.4 ГГц (Настольный), четырехъядерный (или более подходящий)</td>
-</tr><tr>
-    <td style="vertical-align: middle">ОЗУ</td>
-    <td style="vertical-align: middle; text-align: center;">8 ГБ DDR3 (или более)</td>
-    <td style="vertical-align: middle; text-align: center;">8 ГБ двухканальной памяти DDR3 (или выше)</td>
-</tr><tr>
-    <td style="vertical-align: middle">Свободное пространство на диске</td>
-    <td style="vertical-align: middle; text-align: center;">Не менее 10 ГБ</td>
-    <td style="vertical-align: middle; text-align: center;">Не менее 10 ГБ</td>
-</tr><tr>
-    <td style="vertical-align: middle">Графическая карта</td>
-    <td style="vertical-align: middle; text-align: middle;">
-            <ul>
-            <li>NVIDIA ГТКС 1060 (или более поздней версии) дискретный GPU с поддержкой DX12</li>
-            <li>Отдельный GPU AMD RX 470/570 (или более поздней версии) с поддержкой DX12 </li>
-            </ul>
-            <b>Примечание.</b> GPU должен размещаться в слоте связи PCIe 3,0 X4 + </td>
-    <td style="vertical-align: middle; text-align: middle;">
-            <li>Встроенный графический процессор Intel HD Graphics 620 (или более поздней версии) с поддержкой DX12 <a href="https://en.wikipedia.org/wiki/List_of_Intel_graphics_processing_units">(проверяет, больше ли ваша модель)</a></li>
-        <li>Дискретный GPU NVIDIA MX150 (или более поздней версии)</li>
-        <li>Дискретный GPU NVIDIA GeForce ГТКС 1050</li>
-        <li>Дискретный GPU NVIDIA 965M</li>
-        <li>AMD Radeon RX 460/560</li>
-        </ul>
-        <b>Примечание.</b> Более старые графические процессоры Intel, такие как HD Graphics 4xx, 5xx, 2xxx, 3xxx, 4xxx, 5xxx и 6ххх, не поддерживаются.
-    </td>
-</tr><tr>
-    <td style="vertical-align: middle">Драйвер графики</td>
-    <td colspan="3" td style="vertical-align: middle; text-align: center;">Windows Модель видеодрайверов (WDDM) 2,2</td>
-</tr><tr>
-    <td style="vertical-align: middle"><a href="Recommended-adapters-for-Windows-Mixed-Reality-Capable-PCs.md">Графический порт изображения</a></td>
-    <td style="vertical-align: middle; text-align: center;">HDMI 2,0 или Дисплайпорт 1,2</td>
-    <td style="vertical-align: middle; text-align: center;">HDMI 1,4 или Дисплайпорт 1,2</td>
-</tr><tr>
-    <td style="vertical-align: middle">Отображение</td>
-    <td colspan="3" style="vertical-align: middle; text-align: center;">Подключенный внешний или интегрированный монитор VGA (800x600) (или более высокий)</td>
-</tr><tr>
-    <td style="vertical-align: middle"><a href="Recommended-adapters-for-Windows-Mixed-Reality-Capable-PCs.md">USB-подключение</a></td>
-    <td colspan="2" style="vertical-align: middle; text-align: center;">USB 3.0 </td>
-</tr><tr>
-    <td style="vertical-align: middle">подключение к Bluetooth (для <a href="controllers-in-wmr.md">контроллеров движения</a>)</td>
-    <td colspan="3" style="vertical-align: middle; text-align: center;">Bluetooth 4,0</td>
-</tr><tr>
-    <td style="vertical-align: middle">Ожидаемая частота кадров гарнитуры</td>
-    <td style="vertical-align: middle; text-align: center;">90 Гц</td>
-    <td style="vertical-align: middle; text-align: center;">60 Гц</td>
-</tr>
-<tr>
-    <td style="vertical-align: middle">Мощный</td>
-    <td style="vertical-align: middle; text-align: center;">Порты USB 3,0</td>
-    <td style="vertical-align: middle; text-align: center;">Порты USB 3,0</td>
-</tr>
-</table>
+| | Windows Mixed Reality 90Hz пк | Windows Mixed Reality 60 гц пк |
+| --- | --- | --- |
+| Операционная система | Windows 10 Fall Creators Update (RS3) или более поздней версии — домашняя, Pro, бизнес, образование. <br/>    (<b>примечание</b>. не поддерживается в N версий или Windows 10 Pro в режиме S) |
+| Процессор | Intel Core i5 4590 (4-го поколения), четырехъядерный (или более эффективный) <br> AMD ризен 5 1400 3.4 ГГц (Настольный), четырехъядерный (или более подходящий) | Intel Core i5 7200U (мобильное поколение с 7-го поколения), Двухъядерная с включенной технологией Intel Hyper-Threading (или выше) <br> AMD ризен 5 1400 3.4 ГГц (Настольный), четырехъядерный (или более подходящий) |
+| ОЗУ | 8 ГБ DDR3 (или более) | 8 ГБ двухканальной памяти DDR3 (или выше) |
+| Свободное пространство на диске | Не менее 10 ГБ | Не менее 10 ГБ |
+| Графическая карта| <ul> <li>NVIDIA ГТКС 1060 (или более поздней версии) дискретный GPU с поддержкой DX12 </li> <li>Отдельный GPU AMD RX 470/570 (или более поздней версии) с поддержкой DX12 </li> </ul> <br> <b>Примечание.</b> GPU должен размещаться в слоте связи PCIe 3,0 X4 + |  <ul>  <li>Встроенный графический процессор Intel HD Graphics 620 (или более поздней версии) с поддержкой DX12 <a href="https://en.wikipedia.org/wiki/List_of_Intel_graphics_processing_units">(проверяет, больше ли ваша модель)</a></li> <li>Дискретный GPU NVIDIA MX150 (или более поздней версии)</li> <li>Дискретный GPU NVIDIA GeForce ГТКС 1050</li> <li>Дискретный GPU NVIDIA 965M</li> <li>AMD Radeon RX 460/560</li> </ul> <b>Примечание.</b> Более старые графические процессоры Intel, такие как HD Graphics 4xx, 5xx, 2xxx, 3xxx, 4xxx, 5xxx и 6ххх, не поддерживаются. |
+| Драйвер графики | Windows Модель видеодрайверов (WDDM) 2,2 |  |
+| [Графический порт изображения](Recommended-adapters-for-Windows-Mixed-Reality-Capable-PCs.md) | HDMI 2,0 или Дисплайпорт 1,2 | HDMI 1,4 или Дисплайпорт 1,2 |
+| Отображение | Подключенный внешний или интегрированный монитор VGA (800x600) (или более высокий) | 
+| [USB-подключение](Recommended-adapters-for-Windows-Mixed-Reality-Capable-PCs.md) | USB 3.0 | |
+| подключение к Bluetooth (для [контроллеров движения](controllers-in-wmr.md) | Bluetooth 4,0 | |
+| Ожидаемая частота кадров гарнитуры | 90 Гц | 60 Гц |
+| Мощный | Порты USB 3,0 | Порты USB 3,0 |
 
 **Дополнительные сведения:**
 
@@ -168,7 +112,7 @@ Windows 10 включает Windows Mixed Reality на различных гар
 * Для продуктов Surface требуется, чтобы обновления драйверов были совместимы с Windows Mixed Reality. эти драйверы можно установить на вашем компьютере, перейдя в **Параметры > Update и Security > проверить наличие обновлений**.
 * для устройств surface требуется [адаптер](Recommended-adapters-for-Windows-Mixed-Reality-Capable-PCs.md) из видеопортов (Mini дисплайпорт или USB-C, в зависимости от компьютера Surface) с HDMI 2,0 для головных телефонов Windows Mixed Reality. Последняя версия Mini-DisplayPort Surface для адаптера HDMI AV совместима с HDMI 2,0 (старая версия не поддерживается). Аналогичным образом, <a href="https://www.microsoft.com/en-us/store/d/surface-usb-c-to-hdmi-adapter/94chb2m80s54/4gj5">карта USB-C и HDMI</a> также СОВМЕСТИМА с HDMI 2,0.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 * [Спросить у сообщества](https://answers.microsoft.com)
 * [Свяжитесь с нами для получения поддержки](https://support.microsoft.com/contactus/)

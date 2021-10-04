@@ -1,14 +1,17 @@
 ---
 title: Настройка Windows Mixed Reality
 description: настройка Windows Mixed Reality контроллеров движения, речи и аудио и определение границ комнаты для безопасного воспроизведения.
+author: qianw211
+ms.author: v-qianwen
+ms.date: 9/24/2021
 ms.topic: article
 keywords: Windows Mixed Reality, смешанная реальность, виртуальная реальность, VR, MR, начало работы, установка, контроллер движения, контроллер, речь, аудио, задвижное, пограничный, граница, графические драйверы, Microsoft Edge, chromium
-ms.openlocfilehash: 436818ee662f9beb1c445ea5b22c5d168bb4142a7b49a116a4f5fa138e3a5595
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: e30fe5919bbd1345f413902f8f7acd36eed76bb5
+ms.sourcegitcommit: c159bdcf2ada1f45606b10d41ea3adf95109c979
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115221092"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "129436840"
 ---
 # <a name="set-up-windows-mixed-reality"></a>Настройка Windows Mixed Reality
 
@@ -122,7 +125,7 @@ Windows Mixed Reality автоматически выбирает парамет
     * Компьютер не соответствует минимальным требованиям к графическому оборудованию для вашей гарнитуры с более высоким разрешением экрана
     * Вы видите проблемы с производительностью графики
 
-этот параметр доступен в Windows 10, версии 1903 или более поздней.
+этот параметр доступен на Windows 10, версии 1903 и более поздних версиях, а также на Windows 11.
 
 ### <a name="calibration"></a>Калибровка
 
@@ -146,11 +149,11 @@ Windows Mixed Reality автоматически выбирает парамет
 * **автоматически переключаться с помощью датчика присутствия в гарнитуре** (по умолчанию): Windows автоматически направит ввод (клавиатура, мышь...) Windows Mixed Reality каждый раз, когда вы людьми гарнитуру. Это можно переопределить в любое время с помощью Win + Y.
 * **переключение вручную с помощью Windows ключ логотипа + Y**: Windows не будет использовать датчик присутствия гарнитуры, чтобы определить, когда вы людьми гарнитуру. Необходимо использовать Win + Y для переключения входных данных между рабочим столом компьютера и Windows Mixed Reality.
 
-этот параметр доступен в Windows 10, версии 1903 или более поздней.
+этот параметр доступен на Windows 10, версии 1903 и более поздних версиях, а также на Windows 11.
 
 ## <a name="installing-microsoft-edge"></a>Установка Microsoft Edge 
 
-чтобы использовать новые Microsoft Edge на основе Chromium в Windows Mixed Reality home, выполните обновление до Windows 10 версии 1903 или более поздней для поддержки собственных приложений Win32 (например, нового Microsoft Edge) в Windows Mixed Reality home. проверьте Центр обновления Windows или [вручную установите последнюю версию Windows 10](https://www.microsoft.com/software-download/windows10).
+чтобы использовать новые Microsoft Edge на основе Chromium в Windows Mixed Reality home, выполните обновление до Windows 10 версии 1903 или более поздней или Windows 11 для собственной поддержки приложений Win32 (например, нового Microsoft Edge) в Windows Mixed Reality домашняя страница. установите флажок Центр обновления Windows, [установите последнюю версию Windows 10 вручную](https://www.microsoft.com/software-download/windows10)или [установите последнюю версию Windows 11](https://www.microsoft.com/software-download/windows11).
 
 >[!IMPORTANT]
 >новая Microsoft Edge запустится с поддержкой вебкср, нового стандарта для создания впечатляющих веб-интерфейсов для головных телефонов VR. вы больше не сможете воспроизводить вебвр в Microsoft Edge при установке нового Microsoft Edge.

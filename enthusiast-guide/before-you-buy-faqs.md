@@ -1,19 +1,19 @@
 ---
 title: Перед покупкой — вопросы и ответы
 description: ответы на часто задаваемые вопросы, которые могут возникнуть у потенциальных покупателей, прежде чем приобрести Windows гарнитуру смешанной реальности и совместимый компьютер.
-author: hferrone
-ms.author: v-hferrone
-ms.date: 09/16/2020
+author: qianw211
+ms.author: v-qianwen
+ms.date: 09/30/2021
 ms.topic: article
 keywords: Windows Mixed Reality, смешанная реальность, виртуальная реальность, VR, MR, предварительная продажа, исследование, покупка, перед покупкой
 appliesto:
-- Windows 10
-ms.openlocfilehash: 180269a86bbe5133944411b42c79018ca1e81d07d407bcbc11a9787408674740
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+- Windows 10 and Windows 11
+ms.openlocfilehash: baf7ff061e9818a97db58e1f3f65700b537506cd
+ms.sourcegitcommit: c159bdcf2ada1f45606b10d41ea3adf95109c979
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115188014"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "129436670"
 ---
 # <a name="before-you-buy-frequently-asked-questions"></a>Перед покупкой часто задаваемых вопросов
 
@@ -45,11 +45,11 @@ ms.locfileid: "115188014"
 
 **Быстрый ответ:** Смешанная реальность относится к полному спектру пространственных вычислений, от дополнений и голограмм к Virtual Reality. платформа Windows Mixed Reality поддерживает устройства в виртуальной реальности (VR) и дополненной реальности (AR). сейчас мы поддерживаем два типа устройств с аналогичной технологией на этом спектре: HoloLens (AR) и Windows Mixed Reality (VR) гарнитуры с контроллерами движения.
 
-Дополнительные сведения о смешанной реальности см. здесь: <https://docs.microsoft.com/windows/mixed-reality/mixed-reality>
+Дополнительные сведения о смешанной реальности см. здесь: </Виндовс/миксед-реалити/миксед-реалити>
 
 ### <a name="what-is-the-difference-between-windows-mixed-reality-and-other-vr-headsets"></a>в чем разница между Windows Mixed Reality и другими гарнитурами VR
 
-**быстрый ответ:** Windows Mixed Reality гарнитуры функция внутреннего отслеживания (отслеживание камер в гарнитуре) и установка plug-and-play с Windows 10.
+**быстрый ответ:** Windows Mixed Reality гарнитуры функция внутреннего отслеживания (отслеживание камер находится на гарнитуре) и установка plug-and-play с Windows 10 и Windows 11.
 
 **дополнительные сведения**. Windows Mixed Reality предлагает несколько функций, в том числе простую установку (отсутствие необходимости в внешних датчиках для мониторинга вашего и ваших контроллеров), выбор гарнитур для соответствия вашим предпочтениям и ценам, гарнитурам, имеющим конкурентные решения, и, наконец, уникальный пользовательский интерфейс, в котором используются тысячи приложений из Microsoft Store.
 
@@ -73,181 +73,27 @@ ms.locfileid: "115188014"
 
 **Быстрый ответ:** Все продукты для версий на смартфонах, включая Samsung шестеренки и Google Дайдреам, используют три уровня свободы (3DOF) для отслеживания позиционирования. системы на основе 3DOF позволяют перемещать головной компьютер **только** из горловины в виртуальном мире. Windows С другой стороны, MR использует шесть степеней свободы (6DOF), а также системы отслеживания размещения контроллеров. системы на основе 6DOF позволяют перемещать весь текст в виртуальном мире; Поэтому можно обойти объект и просмотреть его с разных перспектив, как в физическом мире. Рифт и Naopak также являются системами на основе 6DOF.
 
-* Дополнительные сведения о 3DOF и 6DOF см. здесь: <https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/tracking-system#what-is-the-difference-between-3dof-and-6dof> 
+* Дополнительные сведения о 3DOF и 6DOF см. здесь: </Виндовс/миксед-реалити/енсусиаст-гуиде/траккинг-систем # What-in-a-Difference-from-3DOF-and-6DOF> 
 * Дополнительные сведения о позиционированном отслеживании и степени свободы (ДОФ) можно узнать здесь: <https://www.roadtovr.com/introduction-positional-tracking-degrees-freedom-dof/>
 
 ## <a name="technical-specifications"></a>Технические характеристики
 
-<table>
-<tr>
-<th style="width:25%"> Headset </th>
-<th style="width:15%"> Решение </th>
-<th style="width:10%"> Отображение </th>
-<th style="width:10%"> Частота обновления </th>
-<th style="width:10%"> фов </th>
-<th style="width:15%"> звук; </th>
-<th style="width:10%"> Bluetooth </th>
-<th style="width:10%"> Настройка IPD </th>
-<th style="width:10%"> Дата выпуска </th>
-<th style="width:25%"> Дополнительные сведения </th>
-</tr>
-
-<tr>
-<td> Acer AH101 </td>
-<td> 2880x1440 </td>
-<td> ЖК-экрана </td>
-<td> До 90 Гц </td>
-<td> 100 ° </td>
-<td> 3,5-мм гнездо </td>
-<td> Нет </td>
-<td style="text-align: center;">Программное обеспечение</td>
-<td> Попадают 2017 </td>
-<td> <a href="https://www.acer.com/ac/en/US/content/windows-mixed-reality-home">Асер</a> </td>
-</tr>
-
-<tr>
-<td> Acer OJO 500 </td>
-<td> 2880x1440 </td>
-<td> ЖК-экрана </td>
-<td> До 90 Гц </td>
-<td> 100 ° </td>
-<td> Интегрированный разъем + 3,5-mm </td>
-<td> Встроено </td>
-<td style="text-align: center;">Механический</td>
-<td> Попадают 2018 </td>
-<td> <a href="https://www.acer.com/ac/en/US/press/2018/427890">Асер</a> </td>
-</tr>
-
-<tr>
-<td> ПЛАТА ASUS HC102 </td>
-<td> 2880x1440 </td>
-<td> ЖК-экрана </td>
-<td> До 90 Гц </td>
-<td> 95 ° </td>
-<td> 3,5-мм гнездо </td>
-<td> Нет </td>
-<td style="text-align: center;">Программное обеспечение</td>
-<td> Попадают 2017 </td>
-<td> <a href="https://www.asus.com/us/Headset/ASUS-Windows-Mixed-Reality-Headset-HC102/">АДАПТЕР</a> </td>
-</tr>
-
-<tr>
-<td> Dell Visor </td>
-<td> 2880x1440 </td>
-<td> ЖК-экрана </td>
-<td> До 90 Гц </td>
-<td> 105 ° </td>
-<td> 3,5-мм гнездо </td>
-<td> Нет </td>
-<td style="text-align: center;">Программное обеспечение</td>
-<td> Попадают 2017 </td>
-<td> <a href="https://www.dell.com/en-us/shop/accessories/apd/536-bbbr?~ck=mn">Оборудования</a> </td>
-</tr>
-
-<tr>
-<td> ФМВая гарнитура Fujitsu </td>
-<td> 2880x1440 </td>
-<td> ЖК-экрана </td>
-<td> До 90 Гц </td>
-<td> 105 ° </td>
-<td> 3,5-мм гнездо </td>
-<td> Нет </td>
-<td style="text-align: center;">Программное обеспечение</td>
-<td> Попадают 2017 </td>
-<td> <a href="http://pr.fujitsu.com/jp/news/2017/10/17.html">Fujitsu</a> </td>
-</tr>
-
-<tr>
-<td> HP, команда </td>
-<td> 4320x2160 </td>
-<td> ЖК-экрана </td>
-<td> До 90 Гц </td>
-<td> 114 ° </td>
-<td> Интегрированный разъем + 3,5-mm </td>
-<td> Встроено </td>
-<td style="text-align: center;">Программное обеспечение</td>
-<td> Пружинный 2019 </td>
-<td> <a href="https://www8.hp.com/us/en/workstations/mixed-reality-headset/index.html">КОМПАНИИ</a> </td>
-</tr>
-
-<tr>
-<td> HP VR1000 </td>
-<td> 2880x1440 </td>
-<td> ЖК-экрана </td>
-<td> До 90 Гц </td>
-<td> 105 ° </td>
-<td> 3,5-мм гнездо </td>
-<td> Нет </td>
-<td style="text-align: center;">Программное обеспечение</td>
-<td> Попадают 2017 </td>
-<td> <a href="https://store.hp.com/us/en/pdp/hp-windows-mixed-reality-headset-vr1000-100">КОМПАНИИ</a> </td>
-</tr>
-
-<tr>
-<td> Lenovo Explorer </td>
-<td> 2880x1440 </td>
-<td> ЖК-экрана </td>
-<td> До 90 Гц </td>
-<td> 105 ° </td>
-<td> 3,5-мм гнездо </td>
-<td> Нет </td>
-<td style="text-align: center;">Программное обеспечение</td>
-<td> Попадают 2017 </td>
-<td> <a href="https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/virtual-and-augmented-reality/lenovo-explorer/Lenovo-Explorer/p/G10NREAG0A2">Адаптер</a> </td>
-</tr>
-
-<tr>
-<td> Медион ЕРАЗЕР MR X1000 </td>
-<td> 2880x1440 </td>
-<td> ЖК-экрана </td>
-<td> До 90 Гц </td>
-<td> 105 ° </td>
-<td> 3,5-мм гнездо </td>
-<td> Нет </td>
-<td style="text-align: center;">Программное обеспечение</td>
-<td> Попадают 2017 </td>
-<td> <a href="https://www.medion.com/be/shop/monitoren-medion-erazer-mr-x1000-vr-headset-controllers-30023616a1.html">медион</a> </td>
-</tr>
-
-<tr>
-<td> Samsung ХМД Одиссэй</td>
-<td> 2880x1600 </td>
-<td> амолед </td>
-<td> До 90 Гц </td>
-<td> 110 ° </td>
-<td> Интегрированная </td>
-<td> Нет </td>
-<td style="text-align: center;">Механический</td>
-<td> Попадают 2017 </td>
-<td> <a href="https://www.samsung.com/us/computing/hmd/windows-mixed-reality/xe800zaa-hc1us-xe800zaa-hc1us/?redir=windows%20mixed%20reality">Samsung</a> </td>
-</tr>
-
-<tr>
-<td> Samsung HMD Odyssey+</td>
-<td> 2880x1600 </td>
-<td> амолед </td>
-<td> До 90 Гц </td>
-<td> 110 ° </td>
-<td> Интегрированная </td>
-<td> Встроено </td>
-<td style="text-align: center;">Механический</td>
-<td> Попадают 2018 </td>
-<td> <a href="https://www.samsung.com/us/computing/hmd/windows-mixed-reality/hmd-odyssey-windows-mixed-reality-headset-xe800zba-hc1us/">Samsung</a> </td>
-</tr>
-
-<tr>
-<td> 3Glasses Блубур S2</td>
-<td> 2880x1440 </td>
-<td> ЖК-экрана </td>
-<td> До 90 Гц </td>
-<td> 105 ° </td>
-<td> 3,5-мм гнездо </td>
-<td> Нет </td>
-<td style="text-align: center;">Программное обеспечение</td>
-<td> Попадают 2017 </td>
-<td> <a href="http://3glasses.com/goods.action?gid=30">3Glasses</a> </td>
-</tr>
-</table>
+| Headset | Решение | Отображение | Частота обновления | фов | Аудио | Bluetooth | Настройка IPD | Дата выпуска | Дополнительные сведения |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Acer AH101 | 2880x1440 | ЖК-экрана | До 90 Гц | 100 ° | 3,5-мм гнездо | Нет | Программное обеспечение | Попадают 2017 | [Acer](https://www.acer.com/ac/en/US/content/model/VD.R05AP.002) |
+| Acer OJO 500 | 2880x1440 | ЖК-экрана | До 90 Гц | 100 ° | Интегрированный разъем + 3,5-mm | Встроено | Механический | Попадают 2018 | [Acer](https://www.acer.com/ac/en/US/content/acerdesign-ojo-500) |
+| ПЛАТА ASUS HC102 | 2880x1440 | ЖК-экрана | До 90 Гц | 95 ° | 3,5-мм гнездо | Нет | Программное обеспечение | Попадают 2017 | [ASUS](https://www.vr-compare.com/headset/asushc102) |
+| Dell Visor | 2880x1440 | ЖК-экрана | До 90 Гц | 105 ° | 3,5-мм гнездо | Нет | Программное обеспечение| Попадают 2017 | [Dell](https://www.vr-compare.com/headset/dellvisor) |
+| ФМВая гарнитура Fujitsu | 2880x1440 | ЖК-экрана | До 90 Гц | 105 ° | 3,5-мм гнездо | Нет |Программное обеспечение | Попадают 2017 | [Fujitsu](http://pr.fujitsu.com/jp/news/2017/10/17.html) |
+| HP, команда | 4320x2160 | ЖК-экрана | До 90 Гц | 114 ° | Интегрированный разъем + 3,5-mm | Встроено |Программное обеспечение | Пружинный 2019| [HP](https://www.vr-compare.com/headset/hpreverb) |
+| HP VR1000 | 2880x1440 | ЖК-экрана | До 90 Гц | 105 ° | 3,5-мм гнездо | Нет | Программное обеспечение | Попадают 2017 | [HP](https://www.hp.com/us-en/shop/cv/mixed-reality-headset) |
+| HP, команда G2 | 2160x2160 | ЖК-экрана | До 90 Гц | 107 ° | Интегрированная | Встроено | Механический | Попадают 2020 | [HP](https://www.hp.com/us-en/shop/pdp/hp-reverb-g2-virtual-reality-headset) |
+| HP, команда G2 Омницепт | 2160x2160 | ЖК-экрана | До 90 Гц | 107 ° | Интегрированная | Встроено | Механический | Пружинный 2021 | [HP](https://www.hp.com/us-en/shop/pdp/hp-reverb-g2-omnicept-edition-%282e5q4av%29) |
+| Lenovo Explorer | 2880x1440 | ЖК-экрана | До 90 Гц | 105 ° | 3,5-мм гнездо | Нет | Программное обеспечение | Попадают 2017 | [Lenovo](https://support.lenovo.com/us/en/solutions/pd500067-overview-for-lenovo-explorer) |
+| Медион ЕРАЗЕР MR X1000 | 2880x1440 | ЖК-экрана | До 90 Гц | 105 ° | 3,5-мм гнездо | Нет | Программное обеспечение | Попадают 2017 | [медион](https://www.medion.com/de/shop/p/gaming-zubehoer-medion-erazer-x1000-mr-glasses-inkl-2-motion-controller-7-34-cm-2-89--lc-display-gaming-zubehoer-bis-zu-105-sichtfeld-2-kameras-zur-bewegungserfassung-30023616A1?clear=true#specs) |
+| Samsung ХМД Одиссэй | 2880x1600 | амолед | До 90 Гц | 110 ° | Интегрированная | Нет | Механический | Попадают 2017 | [Samsung](https://www.samsung.com/us/support/computing/hmd/hmd-odyssey/hmd-odyssey-mixed-reality/) |
+| Samsung HMD Odyssey+ | 2880x1600 | амолед | До 90 Гц | 110 ° | Интегрированная | Встроено | Механический | Попадают 2018 | [Samsung](https://www.samsung.com/us/support/computing/hmd/hmd-odyssey/hmd-odyssey-plus-mixed-reality//hmd-odyssey-windows-mixed-reality-headset-xe800zba-hc1us/)  |
+| 3Glasses Блубур S2 | 2880x1440 | ЖК-экрана | До 90 Гц | 105 ° | 3,5-мм гнездо | Нет | Программное обеспечение | Попадают 2017 | [3Glasses](http://3glasses.com/goods.action?gid=30) |
 
 Указанные выше технические сведения приведены в спецификации производителя и могут быть изменены.
 
@@ -287,19 +133,19 @@ ms.locfileid: "115188014"
 
 ### <a name="will-my-pc-work-with-windows-mixed-reality-what-are-the-minimum-specs"></a>Будет ли мой компьютер работать с Windows Mixed Reality? Каковы минимальные спецификации?
 
-**Быстрый ответ:** Минимальные спецификации можно найти [здесь](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md) , или можно скачать и запустить [портал смешанной реальности](https://www.microsoft.com/en-us/p/mixed-reality-portal/9ng1h8b3zc7m?activetab=pivot:overviewtab) , чтобы узнать, будет ли ваш компьютер работать с Windows Mixed Reality.
+**Быстрый ответ:** Минимальные спецификации можно найти [здесь](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md) , или можно скачать и запустить [портал смешанной реальности](https://www.microsoft.com/p/mixed-reality-portal/9ng1h8b3zc7m?activetab=pivot:overviewtab) , чтобы узнать, будет ли ваш компьютер работать с Windows Mixed Reality.
 
 ### <a name="will-windows-mixed-reality-work-with-my-xbox"></a>будет ли Windows Mixed Reality работать с Xbox?
 
-**Быстрый ответ:** нет, Windows Mixed Reality работает только с компьютерами. Скачайте и запустите [портал смешанной реальности](https://www.microsoft.com/en-us/p/mixed-reality-portal/9ng1h8b3zc7m?activetab=pivot:overviewtab) , чтобы узнать, готов ли ваш компьютер к ВМР.
+**Быстрый ответ:** нет, Windows Mixed Reality работает только с компьютерами. Скачайте и запустите [портал смешанной реальности](https://www.microsoft.com/p/mixed-reality-portal/9ng1h8b3zc7m?activetab=pivot:overviewtab) , чтобы узнать, готов ли ваш компьютер к ВМР.
 
 ### <a name="what-pcs-have-been-badged-for-windows-mixed-reality"></a>На какие компьютеры были добавлены эмблемы для Windows Mixed Reality?
 
-**Быстрый ответ:** Полный список компьютеров с эмблемой еще не опубликован, но будет позднее в этом году. Скачайте и запустите [портал смешанной реальности](https://www.microsoft.com/en-us/p/mixed-reality-portal/9ng1h8b3zc7m?activetab=pivot:overviewtab) , чтобы узнать, готов ли ваш компьютер к ВМР.
+**Быстрый ответ:** Полный список компьютеров с эмблемой еще не опубликован, но будет позднее в этом году. Скачайте и запустите [портал смешанной реальности](https://www.microsoft.com/p/mixed-reality-portal/9ng1h8b3zc7m?activetab=pivot:overviewtab) , чтобы узнать, готов ли ваш компьютер к ВМР.
 
 ### <a name="what-windows-version-supports-windows-mixed-reality"></a>какая версия Windows поддерживает Windows Mixed Reality?
 
-**Быстрый ответ:** необходимо установить Windows 10 Fall Creators Update (версия 1709) или более поздней версии. Скачайте и запустите [портал смешанной реальности](https://www.microsoft.com/en-us/p/mixed-reality-portal/9ng1h8b3zc7m?activetab=pivot:overviewtab) , чтобы узнать, готов ли ваш компьютер к ВМР.
+**Быстрый ответ:** необходимо установить Windows 10 Fall Creators Update (версия 1709) или более поздней версии или Windows 11. Скачайте и запустите [портал смешанной реальности](https://www.microsoft.com/p/mixed-reality-portal/9ng1h8b3zc7m?activetab=pivot:overviewtab) , чтобы узнать, готов ли ваш компьютер к ВМР.
 
 ### <a name="does-the-windows-mixed-reality-platform-support-rift-and-vive-hardware"></a>поддерживает ли платформа Windows Mixed Realityа оборудование рифт и naopak?
 
@@ -324,7 +170,7 @@ ms.locfileid: "115188014"
 
 ### <a name="will-the-controllers-work-with-bluetooth-31-or-do-i-need-bluetooth-40"></a>будет ли контроллер работать с Bluetooth 3,1 или требуется Bluetooth 4,0?
 
-**Быстрый ответ:** минимальная поддерживаемая спецификация для Windows Mixed Reality — Bluetooth 4,0. если на компьютере установлено Bluetooth 3,1, вы не будете блокировать использование контроллеров, но лучше работать в BT 4,0. Скачайте и запустите [портал смешанной реальности](https://www.microsoft.com/en-us/p/mixed-reality-portal/9ng1h8b3zc7m?activetab=pivot:overviewtab) , чтобы узнать, готов ли ваш компьютер к ВМР.
+**Быстрый ответ:** минимальная поддерживаемая спецификация для Windows Mixed Reality — Bluetooth 4,0. если на компьютере установлено Bluetooth 3,1, вы не будете блокировать использование контроллеров, но лучше работать в BT 4,0. Скачайте и запустите [портал смешанной реальности](https://www.microsoft.com/p/mixed-reality-portal/9ng1h8b3zc7m?activetab=pivot:overviewtab) , чтобы узнать, готов ли ваш компьютер к ВМР.
 
 ### <a name="will-windows-mixed-reality-controllers-work-with-hololens"></a>будет ли контроллер Windows Mixed Reality работать с HoloLens?
 
@@ -332,11 +178,11 @@ ms.locfileid: "115188014"
 
 ### <a name="will-windows-mixed-reality-work-with-my-oculus-touch-controllers-or-htc-vive-headsets--controllers"></a>будет ли Windows Mixed Reality работать с окулус сенсорными контроллерами или naopakами или головными гарнитурами или контроллерами HTC.
 
-**Быстрый ответ:** нет, Windows Mixed Reality будет работать только с утвержденными гарнитурами и контроллерами. См. раздел <https://www.microsoft.com/en-us/store/collections/VRandMixedrealityheadsets>
+**Быстрый ответ:** нет, Windows Mixed Reality будет работать только с утвержденными гарнитурами и контроллерами. См. раздел <https://www.microsoft.com/store/collections/VRandMixedrealityheadsets>
 
 ### <a name="will-windows-mixed-reality-work-with-my-steamvr-knuckle-controllers"></a>будет Windows Mixed Reality работать с контроллерами кнуккле стеамвр?
 
-**Быстрый ответ:** нет, Windows Mixed Reality будет работать только с утвержденными гарнитурами и контроллерами. См. раздел <https://www.microsoft.com/en-us/store/collections/VRandMixedrealityheadsets>
+**Быстрый ответ:** нет, Windows Mixed Reality будет работать только с утвержденными гарнитурами и контроллерами. См. раздел <https://www.microsoft.com/store/collections/VRandMixedrealityheadsets>
 
 ### <a name="will-windows-mixed-reality-support-my-xbox-one-controller-with-the-wireless-xbox-adapter"></a>будет ли Windows Mixed Reality поддерживать контроллер Xbox One с беспроводным адаптером Xbox?
 
@@ -354,7 +200,7 @@ ms.locfileid: "115188014"
 
 ### <a name="can-i-see-my-keyboard-from-inside-a-windows-mixed-reality-headset"></a>можно ли увидеть клавиатуру в Windows Mixed Reality гарнитуре?
 
-**Быстрый ответ:** Вы не видите свою физическую клавиатуру на гарнитуре, но можете использовать нашу клавиатуру. кроме того, многие гарнитуры Windows Mixed Reality имеют внешний экран, поэтому вы можете перевернуть гарнитуру во время работы. Дополнительные сведения: <https://www.microsoft.com/en-us/windows/windows-mixed-reality#specs>
+**Быстрый ответ:** Вы не видите свою физическую клавиатуру на гарнитуре, но можете использовать нашу клавиатуру. кроме того, многие гарнитуры Windows Mixed Reality имеют внешний экран, поэтому вы можете перевернуть гарнитуру во время работы. Дополнительные сведения: <https://www.microsoft.com/windows/windows-mixed-reality#specs>
 
 ### <a name="what-games-require-a-gamepad-as-opposed-to-motion-controllers"></a>Для каких игр требуется игровой планшет, а не контроллеры Motion?
 
@@ -368,11 +214,11 @@ ms.locfileid: "115188014"
 
 **Быстрый ответ:** да, Windows Mixed Reality будет работать, даже если у вас нет большого места. Это можно настроить во время установки, выбрав вариант "Настольный".
 
-## <a name="content"></a>Content
+## <a name="content"></a>Содержимое
 
 ### <a name="what-games-and-apps-run-on-windows-mixed-reality"></a>Какие игры и приложения работают на Windows Mixed Reality?
 
-**быстрый ответ.** Windows Mixed Reality совместим с библиотекой стеамвр и с содержимым, доступным в [Microsoft store](https://www.microsoft.com/en-us/store/collections/MR-All-ImmersiveContent/pc?rtc=2). найдите логотип Windows Mixed Reality в Steam для обеспечения совместимости игр.  
+**быстрый ответ.** Windows Mixed Reality совместим с библиотекой стеамвр и с содержимым, доступным в [Microsoft store](https://www.microsoft.com/store/collections/MR-All-ImmersiveContent/pc?rtc=2). найдите логотип Windows Mixed Reality в Steam для обеспечения совместимости игр.  
 
 ### <a name="will-vive-be-able-to-run-windows-mixed-reality-content"></a>сможет ли naopak работать с Windows Mixed Reality содержимым?
 
@@ -380,7 +226,7 @@ ms.locfileid: "115188014"
 
 ### <a name="can-i-play-my-xbox-one-games-in-windows-mixed-reality"></a>можно ли играть в мои Xbox One игры в Windows Mixed Reality?
 
-**Быстрый ответ:** вы можете воспроизводить все любимые Xbox One игры в Windows Mixed Reality с помощью функции потоковой передачи приложение Xbox для Windows 10. вы можете изменить размер приложения в Windows Mixed Reality home для заполнения стены. чтобы узнать, как настроить Xbox Oneную потоковую передачу, ознакомьтесь с нашими инструкциями:<http://support.xbox.com/en-US/games/game-setup/how-to-use-game-streaming>
+**Быстрый ответ:** вы можете воспроизводить все любимые Xbox One игры в Windows Mixed Reality с помощью функции потоковой передачи приложение Xbox для Windows 10 и Windows 11. вы можете изменить размер приложения в Windows Mixed Reality home для заполнения стены. чтобы узнать, как настроить Xbox Oneную потоковую передачу, ознакомьтесь с нашими инструкциями:<http://support.xbox.com/games/game-setup/how-to-use-game-streaming>
 
 ## <a name="steamvr"></a>SteamVR
 

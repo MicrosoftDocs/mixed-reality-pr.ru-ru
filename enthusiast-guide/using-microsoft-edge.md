@@ -1,17 +1,17 @@
 ---
 title: использование Microsoft Edge в Windows Mixed Reality
 description: подготовьтесь к новому Microsoft Edge в Windows Mixed Reality. Сюда входят изменения, которые необходимо выполнить, обновления для поиска и известные проблемы.
-author: mattzmsft
-ms.author: mazeller
-ms.date: 11/11/2020
+author: qianw211
+ms.author: v-qianwen
+ms.date: 9/24/2021
 ms.topic: article
 keywords: Windows Mixed Reality, смешанная реальность, виртуальная реальность, VR, MR, домашняя страница, навигация, обход, приложения, игры, Microsoft Edge, chromium, ребро, 360, 360 видео, средство просмотра 360
-ms.openlocfilehash: 3cdb051e9925338a5f0145e106e2213712eb611e575b9f5d7dd29342a52ff38d
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 2834adc7325f6b600a5cf5f65c74948e0feb2c57
+ms.sourcegitcommit: c159bdcf2ada1f45606b10d41ea3adf95109c979
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115199490"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "129436704"
 ---
 # <a name="windows-mixed-reality-and-the-new-microsoft-edge"></a>Windows Mixed Reality и новый Microsoft Edge
 
@@ -20,13 +20,13 @@ ms.locfileid: "115199490"
 новый Microsoft Edge принимает [Chromium проект с открытым исходным кодом](https://blogs.windows.com/windowsexperience/2018/12/06/microsoft-edge-making-the-web-better-through-more-open-source-collaboration/) на рабочем столе. Это обеспечивает лучшую совместимость для клиентов и меньше фрагментации для веб-разработчиков. Он также поддерживает Вебкср при запуске, который является новым стандартом для создания впечатляющих веб-интерфейсов для головных телефонов VR вместо Вебвр.
 
 >[!IMPORTANT]
->при установке Microsoft Edge на Windows 10 устройстве будет заменена предыдущая (устаревшая) версия на компьютере.
+>при установке Microsoft Edge на обновленное Windows 10 или на устройстве с Windows 11 оно заменит предыдущую (старую) версию на компьютере.
 
 ## <a name="installing-the-new-microsoft-edge"></a>Установка нового Microsoft Edge 
 
-перед установкой нового Microsoft Edge **обновите версию до Windows 10 версии 1903 или более поздней для поддержки собственных приложений Win32, например новой Microsoft Edge** в Windows Mixed Reality. проверьте Центр обновления Windows или [вручную установите последнюю версию Windows 10](https://www.microsoft.com/software-download/windows10).
+перед установкой нового Microsoft Edge **обновите версию до Windows 10 версии 1903 или более поздней или Windows 11 для встроенной поддержки приложений Win32, подобной новой Microsoft Edge** в Windows Mixed Reality. установите флажок Центр обновления Windows или [вручную установите последнюю версию Windows 10](https://www.microsoft.com/software-download/windows10) или Windows 11.
 
-после Windows 10 версии 1903 или более поздней вы будете готовы к новому Microsoft Edge! новая Microsoft Edge развертывается с помощью Центр обновления Windows, но вы можете вручную установить новую Microsoft Edge с [веб-сайта Microsoft Edge](https://www.microsoft.com/edge) , если хотите это сделать быстрее.
+после Windows 10 версии 1903 или более поздней или Windows 11 вы можете приступать к новым Microsoft Edge! новая Microsoft Edge развертывается с помощью Центр обновления Windows, но вы можете вручную установить новую Microsoft Edge с [веб-сайта Microsoft Edge](https://www.microsoft.com/edge) , если хотите это сделать быстрее.
 
 >[!IMPORTANT]
 >новая Microsoft Edge запустится с поддержкой вебкср, нового стандарта для создания впечатляющих веб-интерфейсов для головных телефонов VR. при установке нового Microsoft Edge вы больше не сможете воспроизводить вебвр в Microsoft Edge. 
