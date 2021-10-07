@@ -6,12 +6,12 @@ ms.author: v-qianwen
 ms.date: 07/15/2021
 ms.topic: article
 keywords: основы качества, пример внедрения, проект, образец, мртк, смешанная реальность набор средств, Unity, примеры приложений, примеры приложений, открытый исходный код, Microsoft Store, HoloLens, гарнитура смешанной реальности, гарнитура windows Mixed reality, гарнитура виртуальной реальности
-ms.openlocfilehash: a8189ca8cb161bb792ad298535c32eac1a47260d8d5559c2383e0322b2cbeb03
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 69c6a55b95937c0c6af4920f6ffe0929eebe76ee
+ms.sourcegitcommit: 82f7db75d8ecc7ac89c76b0db504126cbcb8f16d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115211995"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "129647537"
 ---
 # <a name="quality-fundamentals"></a>Quality Fundamentals
 
@@ -60,7 +60,7 @@ ms.locfileid: "115211995"
 > * Совместное использование пространственной привязки между несколькими участниками совместной работы с помощью QR-кода.
 > * Размещение привязок для очень больших объектов в пространстве.
 
-Дополнительные сведения см. в разделе [Пространственные привязки](/windows/mixed-reality/design/spatial-anchors) в документации по [Mixed Reality](/windows/mixed-reality/design/spatial-anchors) .
+Дополнительные сведения см. в разделе [Пространственные привязки](../../design/spatial-anchors.md) в документации по [Mixed Reality](../../design/spatial-anchors.md) .
 
 ## <a name="stability-and-fidelity"></a>Стабильность и точность
 
@@ -80,7 +80,7 @@ ms.locfileid: "115211995"
 
 ![Оптимизация числа треугольников](images\qf-triangle-count-optimization.png)
 
-Дополнительные сведения см. в разделе [Частота кадров](/windows/mixed-reality/develop/platform-capabilities-and-apis/hologram-stability#frame-rate) в статье о [стабильности в голограммах](/windows/mixed-reality/develop/platform-capabilities-and-apis/hologram-stability) .
+Дополнительные сведения см. в разделе [Частота кадров](../platform-capabilities-and-apis/hologram-stability.md#frame-rate) в статье о [стабильности в голограммах](../platform-capabilities-and-apis/hologram-stability.md) .
 
 ### <a name="late-stage-reprojection-lsr"></a>Перепроецирование с поздним этапом (ЛСР)
 
@@ -88,7 +88,7 @@ ms.locfileid: "115211995"
 
 ![Попробуйте изменить параметры РЕПРОЕКЦИИ, чтобы ознакомиться с этими различиями.](images\qf-lsr-modes.jpg)
 
-Дополнительные сведения см. в статье о [перепроецировании](/windows/mixed-reality/develop/platform-capabilities-and-apis/hologram-stability#reprojection) в [голограмме о стабильности](/windows/mixed-reality/develop/platform-capabilities-and-apis/hologram-stability) .
+Дополнительные сведения см. в статье о [перепроецировании](../platform-capabilities-and-apis/hologram-stability.md#reprojection) в [голограмме о стабильности](../platform-capabilities-and-apis/hologram-stability.md) .
 
 ### <a name="z-fighting"></a>Z-конфликт
 
@@ -96,7 +96,7 @@ ms.locfileid: "115211995"
 
 ![Приборьба к z за счет размещения объектов.](images\qf-z-fighting.jpg)
 
-Подробные сведения об отходе отправности z см. в статье [Включение общего доступа к буферу глубины](/windows/mixed-reality/develop/unity/recommended-settings-for-unity#enable-depth-buffer-sharing) в разделе [Рекомендуемые параметры для Unity](/windows/mixed-reality/develop/unity/recommended-settings-for-unity) .
+Подробные сведения об отходе отправности z см. в статье [Включение общего доступа к буферу глубины](./recommended-settings-for-unity.md#enable-depth-buffer-sharing) в разделе [Рекомендуемые параметры для Unity](./recommended-settings-for-unity.md) .
 
 ### <a name="anti-aliasing"></a>Сглаживание
 
@@ -120,7 +120,7 @@ ms.locfileid: "115211995"
 
 ![Выберите другие параметры счетчика треугольников, чтобы увидеть влияние на частоту кадров.](images\qf-3d-asset-visible-triangles.jpg)
 
-Дополнительные сведения см. в разделе [процесс создания ресурсов](/windows/mixed-reality/design/asset-creation-process).
+Дополнительные сведения см. в разделе [процесс создания ресурсов](../../design/asset-creation-process.md).
 
 ### <a name="shader-passes"></a>Передача шейдера
 
@@ -136,7 +136,7 @@ ms.locfileid: "115211995"
 
 ![Вызовы Draw должны быть оптимизированы для повышения производительности.](images\qf-3d-asset-draw-calls.jpg)
 
-См. статью [рекомендации по производительности ЦП и GPU](/windows/mixed-reality/develop/unity/performance-recommendations-for-unity#cpu-to-gpu-performance-recommendations).
+См. статью [рекомендации по производительности ЦП и GPU](./performance-recommendations-for-unity.md#cpu-to-gpu-performance-recommendations).
 
 ### <a name="finale"></a>Окончательное завершение
 
