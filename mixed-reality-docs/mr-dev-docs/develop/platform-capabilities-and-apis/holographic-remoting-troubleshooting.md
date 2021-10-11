@@ -6,17 +6,17 @@ ms.author: flbagar
 ms.date: 12/01/2020
 ms.topic: article
 keywords: Windows Mixed Reality, голограммы, удаленное взаимодействие, дистанционная визуализация, подготовка к просмотру сети, HoloLens, удаленные голограммы, устранение неполадок, помощь, гарнитура смешанной реальности, гарнитура Windows mixed reality, гарнитура виртуальной реальности
-ms.openlocfilehash: d49f73f4cbe205e71cb2f76ab02769ddad5f3ed2
-ms.sourcegitcommit: 820f2dfe98065298f6978a651f838de12620dd45
+ms.openlocfilehash: ef7d77321902c9db9ee2cd4769a8c4f23e8ffff3
+ms.sourcegitcommit: 018a6edbab5011dd3b44ebf1dca017a731fcfca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2021
-ms.locfileid: "122184615"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "129745038"
 ---
 # <a name="holographic-remoting-troubleshooting"></a>Устранение неполадок удаленного взаимодействия с holographic
 
-> [!IMPORTANT]
-> Это руководство относится к удаленному взаимодействию с HoloLens 2.
+> [!NOTE]
+> это руководство относится к удаленному взаимодействию с HoloLens 2 и Windows пк под управлением [Windows Mixed Reality](../../discover/navigating-the-windows-mixed-reality-home.md).
 
 ## <a name="spectre-mitigated-libraries-not-found"></a>Не найдены библиотеки, снижающие опасность устранением рисков Spectre.
 
@@ -24,7 +24,7 @@ ms.locfileid: "122184615"
 
 если вы получаете *vccorlib. lib не удается открыть* неустранимую ошибку, убедитесь, что ваша рабочая нагрузка Visual Studio включает [библиотеки, снижающие опасность устранением рисков spectre](/cpp/build/reference/qspectre) .
 
-## <a name="speech"></a>Speech
+## <a name="speech"></a>Речь
 
 Проигрыватель holographic Remoting поддерживает наложение диагностики, которую можно включить, произнося ```Enable Diagnostics``` и отключая с помощью ```Disable Diagnostics``` . Если у вас возникли проблемы с этими голосовыми командами, можно также запустить проигрыватель holographic Remoting через веб-браузер, используя ```ms-holographic-remoting:?stats``` в качестве URL-адреса.
 
@@ -40,7 +40,7 @@ ms.locfileid: "122184615"
 
 * [HolographicCamera.ViewConfiguration](/uwp/api/windows.graphics.holographic.holographiccamera.viewconfiguration)
   - Поддерживается начиная с версии [2.0.18](holographic-remoting-version-history.md#v2.0.18)
-  - В предыдущих версиях всегда вызывает ошибку.
+  - В предыдущих версиях всегда вызывайте ошибку.
 * [HolographicCamera.IsHardwareContentProtectionEnabled](/uwp/api/windows.graphics.holographic.holographiccamera.ishardwarecontentprotectionenabled#Windows_Graphics_Holographic_HolographicCamera_IsHardwareContentProtectionEnabled)
 * [HolographicViewConfiguration.RequestRenderTargetSize](/uwp/api/windows.graphics.holographic.holographicviewconfiguration.requestrendertargetsize#Windows_Graphics_Holographic_HolographicViewConfiguration_RequestRenderTargetSize_Windows_Foundation_Size_)
   - Поддерживается начиная с версии [2.2.0](holographic-remoting-version-history.md#v2.2.0)
@@ -50,12 +50,11 @@ ms.locfileid: "122184615"
 * [Холографиккамерапосе. Оверридевиевтрансформ](/uwp/api/windows.graphics.holographic.holographiccamerapose.overrideviewtransform)
   - Поддерживается начиная с версии [2.2.0](holographic-remoting-version-history.md#v2.2.0)
 * [Холографиккамерарендерингпараметерс. CommitDirect3D11DepthBuffer](/uwp/api/windows.graphics.holographic.holographiccamerarenderingparameters.commitdirect3d11depthbuffer#Windows_Graphics_Holographic_HolographicCameraRenderingParameters_CommitDirect3D11DepthBuffer_Windows_Graphics_DirectX_Direct3D11_IDirect3DSurface_)
-  - Петров.
   - Поддерживается начиная с версии [2.1.0](holographic-remoting-version-history.md#v2.1.0)
 * [HolographicDisplay.TryGetViewConfiguration](/uwp/api/windows.graphics.holographic.holographicdisplay.trygetviewconfiguration)
   - Запрос Холографиквиевконфигуратионкинд. Фотовидеокамера всегда будет возвращать ```nullptr``` .
   - Поддерживается начиная с версии [2.0.18](holographic-remoting-version-history.md#v2.0.18)
-  - В предыдущих версиях всегда вызывает ошибку.
+  - В предыдущих версиях всегда вызывайте ошибку.
 * [Холографикспаце. Креатефрамепресентатионмонитор](/uwp/api/windows.graphics.holographic.holographicspace.createframepresentationmonitor)
 * [Холографикдисплай. по умолчанию](/uwp/api/windows.graphics.holographic.holographicdisplay.getdefault#Windows_Graphics_Holographic_HolographicDisplay_GetDefault)
   - Сообщает об ошибке, если она вызвана до установления соединения.
