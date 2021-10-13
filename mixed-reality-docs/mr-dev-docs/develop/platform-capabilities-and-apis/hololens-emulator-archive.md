@@ -3,15 +3,15 @@ title: Архив эмулятора HoloLens
 description: следите за актуальными сведениями в архивном списке выпущенных сборок для эмуляторов Microsoft HoloLens (1-го поколения) и HoloLens 2.
 author: hamalawi
 ms.author: moelhama
-ms.date: 09/15/2021
+ms.date: 10/12/2021
 ms.topic: article
 keywords: HoloLens, Emulator, сборки, версии, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности, архив
-ms.openlocfilehash: 8b5bb6de3b8ed2da83d93d3c8614f372a83033fc
-ms.sourcegitcommit: 7dad5bde71d429bb23c72a4074e60b6668a7f091
+ms.openlocfilehash: 04c0bdfa44b2259c313b5caa0a2307cf5e39b9d3
+ms.sourcegitcommit: 8df8e2dc933c418ccd53aeea317e5ae1c972885e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "127857472"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "129924557"
 ---
 # <a name="hololens-2-emulator-archive"></a>HoloLens 2 архив Emulator
 
@@ -19,8 +19,10 @@ HoloLens Emulator (first gen) и HoloLens 2 Emulator сборки устанав
 
 |  Сборка |  Дата выпуска |  Примечания |
 |----------|----------|----------|
-|  [HoloLens 2 Emulator сборки 10.0.20348.1018](https://go.microsoft.com/fwlink/?linkid=2172762) | 15 сентября 2021 г. | Windows Holographic, версия 21H1, 2021 сентября Update.  общие заметки о выпуске HoloLens 2 см. в разделеhttps://docs.microsoft.com/hololens/hololens-release-notes |
-|  [HoloLens 2 Emulator сборки 10.0.19041.1165](https://go.microsoft.com/fwlink/?linkid=2172868) | 15 сентября 2021 г. | Windows Holographic, версия 20H2, 2021 сентября Update.  общие заметки о выпуске HoloLens 2 см. в разделеhttps://docs.microsoft.com/hololens/hololens-release-notes |
+|  [HoloLens 2 Emulator сборки 10.0.20348.1432](https://go.microsoft.com/fwlink/?linkid=2174356) | 12 октября 2021 г. | Windows Holographic, версия 21H2, Октябрь 2021 обновление.  общие заметки о выпуске HoloLens 2 см. в разделеhttps://docs.microsoft.com/hololens/hololens-release-notes |
+|  [HoloLens 2 Emulator сборки 10.0.19041.1168](https://go.microsoft.com/fwlink/?linkid=2174359) | 12 октября 2021 г. | Windows Holographic, версия 20H2, Октябрь 2021 обновление.  общие заметки о выпуске HoloLens 2 см. в разделеhttps://docs.microsoft.com/hololens/hololens-release-notes |
+|  [HoloLens 2 Emulator сборки 10.0.20348.1018](https://go.microsoft.com/fwlink/?linkid=2172762) | 15 сентября 2021 г. | Windows Holographic, версия 21H1, 2021 сентября Update.  общие заметки о выпуске HoloLens 2 см. в разделеhttps://docs.microsoft.com/hololens/hololens-release-notes |
+|  [HoloLens 2 Emulator сборки 10.0.19041.1165](https://go.microsoft.com/fwlink/?linkid=2172868) | 15 сентября 2021 г. | Windows Holographic, версия 20H2, 2021 сентября Update.  общие заметки о выпуске HoloLens 2 см. в разделеhttps://docs.microsoft.com/hololens/hololens-release-notes |
 |  [HoloLens 2 Emulator сборки 10.0.20348.1014](https://go.microsoft.com/fwlink/?linkid=2169418) | 10 августа 2021 г. | Windows Holographic, версия 21H1, 2021 августа, обновление.  общие заметки о выпуске HoloLens 2 см. в разделеhttps://docs.microsoft.com/hololens/hololens-release-notes |
 |  [HoloLens 2 Emulator сборки 10.0.19041.1161](https://go.microsoft.com/fwlink/?linkid=2169166) | 10 августа 2021 г. | Windows Holographic, версия 20H2, 2021 августа, обновление.  общие заметки о выпуске HoloLens 2 см. в разделеhttps://docs.microsoft.com/hololens/hololens-release-notes |
 | [HoloLens 2 Emulator сборки 10.0.20348.1010](https://go.microsoft.com/fwlink/?linkid=2167725) | 13 июля 2021 г. | Windows Holographic, версия 21H1, Июль 2021, обновление. <br> при использовании Emulator HoloLens 2 на компьютере с интегрированными и дискретными графическими адаптерами, в большинстве случаев эмулятор будет иметь возможность включить аппаратное ускорение графики, хотя он может использовать менее мощный интегрированный адаптер. Ранее аппаратное ускорение не было включено, часто сообщает о сбое графики с кодом 43. В некоторых случаях эмулятор не загрузится успешно, но теперь будет. <br> общие заметки о выпуске HoloLens 2 см. в разделеhttps://docs.microsoft.com/hololens/hololens-release-notes |
@@ -39,7 +41,7 @@ HoloLens Emulator (first gen) и HoloLens 2 Emulator сборки устанав
 |  [HoloLens 2 Emulator сборки 10.0.18362.1091](https://go.microsoft.com/fwlink/?linkid=2152388) | 13 января 2021 г. | Windows Holographic, версия 1903, Январь, обновление 2021.  общие заметки о выпуске HoloLens 2 см. в разделеhttps://docs.microsoft.com/hololens/hololens-release-notes |
 |  [HoloLens 2 Emulator сборки 10.0.19041.1131](https://go.microsoft.com/fwlink/?linkid=2151523) | 8 декабря 2020 г. | Windows Holographic, версия 20H2, Декабрь 2020, обновление.  общие заметки о выпуске HoloLens 2 см. в разделеhttps://docs.microsoft.com/hololens/hololens-release-notes |
 |  [HoloLens 2 Emulator сборки 10.0.18362.1088](https://go.microsoft.com/fwlink/?linkid=2151522) | 8 декабря 2020 г. | Windows Holographic, версия 1903, декабрьское обновление 2020.  общие заметки о выпуске HoloLens 2 см. в разделеhttps://docs.microsoft.com/hololens/hololens-release-notes |
-|  [HoloLens 2 Emulator сборки 10.0.18362.1081](https://go.microsoft.com/fwlink/?linkid=2148612) | 10 ноября 2020 г. | Windows Holographic, версия 1903 ноября 2020, обновление.  общие заметки о выпуске HoloLens 2 см. в разделеhttps://docs.microsoft.com/hololens/hololens-release-notes |
+|  [HoloLens 2 Emulator сборки 10.0.18362.1081](https://go.microsoft.com/fwlink/?linkid=2148612) | 10 ноября 2020 г. | Windows Holographic, версия 1903 ноября 2020, обновление.  общие заметки о выпуске HoloLens 2 см. в разделеhttps://docs.microsoft.com/hololens/hololens-release-notes |
 |  [HoloLens 2 Emulator сборки 10.0.19041.1124](https://go.microsoft.com/fwlink/?linkid=2145829) | 13 октября 2020 г. | Windows Holographic, версия 2004, Октябрь 2020, обновление.  общие заметки о выпуске HoloLens 2 см. в разделеhttps://docs.microsoft.com/hololens/hololens-release-notes |
 |  [HoloLens 2 Emulator сборки 10.0.18362.1081](https://go.microsoft.com/fwlink/?linkid=2145828) | 13 октября 2020 г. | Windows Holographic, версия 1903, Октябрь 2020, обновление.  общие заметки о выпуске HoloLens 2 см. в разделеhttps://docs.microsoft.com/hololens/hololens-release-notes |
 |  [HoloLens 2 Emulator сборки 10.0.19041.1117](https://go.microsoft.com/fwlink/?linkid=2141987) | 07 сентября 2007 г., 2020 | Windows Holographic, версия 2004 сентября 2020, обновление.  общие заметки о выпуске HoloLens 2 см. в разделеhttps://docs.microsoft.com/hololens/hololens-release-notes |
@@ -57,11 +59,11 @@ HoloLens Emulator (first gen) и HoloLens 2 Emulator сборки устанав
 |  [HoloLens 2 Emulator сборки 10.0.18362.1053](https://go.microsoft.com/fwlink/?linkid=2118321) | 11 февраля 2020 г. | Windows Holographic, версия 1903 февраля 2020, обновление.  общие заметки о выпуске HoloLens 2 см. в разделеhttps://docs.microsoft.com/hololens/hololens-release-notes |
 |  [HoloLens 2 Emulator сборки 10.0.18362.1044](https://go.microsoft.com/fwlink/?linkid=2114824) | 13 января 2020 г. | Windows Holographic, версия 1903, Январь, обновление 2020.  общие заметки о выпуске HoloLens 2 см. в разделеhttps://docs.microsoft.com/hololens/hololens-release-notes |
 |  [HoloLens 2 Emulator сборки 10.0.18362.1042](https://go.microsoft.com/fwlink/?linkid=2112589) | 6 декабря 2019 г. | Windows Holographic, версия 1903, декабрьское обновление 2019.  Решается, что при отображении панели ПИН-кодов в эмуляторе будет неожиданно приостановлена работа приложения Holographic.  Включает подключение к удаленному эмулятору при использовании API имитации восприятия или приложения управления имитацией восприятия.  общие заметки о выпуске HoloLens 2 см. в разделеhttps://docs.microsoft.com/hololens/hololens-release-notes |
-|  [HoloLens 2 Emulator сборки 10.0.18362.1034](https://go.microsoft.com/fwlink/?linkid=2106649) | 8 октября 8, 2019 г. | Windows Holographic, версия 1903, Октябрь 2019, обновление.  Эмулятор выводит запрос на обновление до новой версии при запуске версии, которая старше последней доступной.  при использовании эмулятора на обновление Windows 10 за май 2019 г. или более новой вкладке конфигурация NAT позволяет разработчикам открывать порты для приложений, выполняющихся на отдельных устройствах для подключения к эмулятору, а на вкладке обновления — доступные версии эмулятора.  дополнительные сведения см. в [документации по эмулятору HoloLens](using-the-hololens-emulator.md) . |
+|  [HoloLens 2 Emulator сборки 10.0.18362.1034](https://go.microsoft.com/fwlink/?linkid=2106649) | 8 октября 2019 г. | Windows Holographic, версия 1903, Октябрь 2019, обновление.  Эмулятор выводит запрос на обновление до новой версии при запуске версии, которая старше последней доступной.  при использовании эмулятора на обновление Windows 10 за май 2019 г. или более новой вкладке конфигурация NAT позволяет разработчикам открывать порты для приложений, выполняющихся на отдельных устройствах для подключения к эмулятору, а на вкладке обновления — доступные версии эмулятора.  дополнительные сведения см. в [документации по эмулятору HoloLens](using-the-hololens-emulator.md) . |
 |  [HoloLens 2 Emulator сборки 10.0.18362.1031](https://go.microsoft.com/fwlink/?linkid=2103724) | 11 сентября 2019 г. | Windows Holographic, версия 1903 сентября 2019, обновление.  вкладка сеть появится в окне средства эмулятора при запуске эмулятора на обновление Windows 10 за май 2019 г. или более новой версии. |
 |  [HoloLens 2 Emulator сборки 10.0.18362.1028](https://go.microsoft.com/fwlink/?linkid=2101019) | 14 августа 2019 г. | Windows Holographic, версия 1903, обновление до 2019 августа.  шаблоны holographic приложений больше не включены, но доступны в Visual Studio Marketplace.  Теперь эмулятор будет работать при установке пакетов SDK в пользовательском расположении. |
 |  [HoloLens 2 Emulator сборки 10.0.18362.1021](https://go.microsoft.com/fwlink/?linkid=2098508) | 8 июля 2019 г. | Windows Holographic, версия 1903, обновление за Июль 2019.  Устраняет проблемы с подписыванием DiskStream.dll |
-|  [HoloLens 2 Emulator сборки 10.0.18362.1019](https://go.microsoft.com/fwlink/?linkid=2095316) | 11 июня 2019 г. | Windows Holographic, версия 1903, июньское обновление 2019.  Больше не требуется запускать от имени администратора.  добавлен ярлык меню. |
+|  [HoloLens 2 Emulator сборки 10.0.18362.1019](https://go.microsoft.com/fwlink/?linkid=2095316) | 11 июня 2019 г. | Windows Holographic, версия 1903, июньское обновление 2019.  Больше не требуется запускать от имени администратора.  добавлен ярлык меню. |
 |  [HoloLens 2 Emulator сборки 10.0.18362.1005](https://go.microsoft.com/fwlink/?linkid=2087187) | 16 апреля 2019 г. |  Windows Holographic, версия 1903. |
 
 ## <a name="hololens-emulator-first-gen-archive"></a>HoloLens Emulator (первый общий) архив

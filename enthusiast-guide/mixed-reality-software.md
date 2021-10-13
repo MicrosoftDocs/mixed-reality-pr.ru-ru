@@ -8,12 +8,12 @@ ms.topic: article
 keywords: Windows Mixed Reality, смешанная реальность, виртуальная реальность, VR, MR, программные компоненты, журнал выпусков, заметки о выпуске, журнал версий
 appliesto:
 - Windows 10 and Windows 11
-ms.openlocfilehash: 3db83480a229c4398d199af0ca259a1265330e70
-ms.sourcegitcommit: 018a6edbab5011dd3b44ebf1dca017a731fcfca3
+ms.openlocfilehash: 25c16517a54cb7daf6430e37dbe08f3463b7746b
+ms.sourcegitcommit: 8df8e2dc933c418ccd53aeea317e5ae1c972885e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "129745174"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "129924585"
 ---
 # <a name="mixed-reality-software-overview-and-release-history"></a>Обзор программного обеспечения смешанной реальности и история выпусков
 
@@ -83,6 +83,7 @@ Windows Mixed Reality состоит из следующих основных п
 
    | Версия          | Дата выпуска          | Основные изменения                                                 |
    |------------------|-----------------------|---------------------------------------------------------------|
+   | [10.0.19041.2054](https://www.microsoft.com/en-us/download/details.aspx?id=103551)  | 23 марта 2021 г.  | совместимо с Windows 11, Windows 10, версии 1903 и более поздних версий.<br/><ul><li>поддержка Windows 11.</li>|
    | [10.0.19041.2041](https://www.microsoft.com/download/details.aspx?id=102903)  | 23 марта 2021 г.  | совместимо с Windows 10, версия 1903 и более поздние версии.<br/><ul><li>Обновите порядок поворота скрытой сетки областей для переглагола G2 команды HP, чтобы она соответствовала другим гарнитурам.</li><li>Улучшения качества визуальных элементов для головных телефонов G2.</li><li>Windows Mixed Realityная платформа и улучшения надежности.</li>|
    | [10.0.19041.2037](https://www.microsoft.com/en-us/download/details.aspx?id=102527)  | 10 декабря 2020 г.  | совместимо с Windows 10, версия 1903 и более поздние версии.<br/><ul><li>Новое встроенное по контроллера для контроллера HP для решения проблемы, при которой некоторые контроллеры имеют неработоспособные триггеры.</li>|
    | [10.0.19041.2034](https://www.microsoft.com/en-us/download/details.aspx?id=102156)  | 8 октября 2020 г.  | совместимо с Windows 10, версия 1903 и более поздние версии.<br/><ul><li>Официальная поддержка для переглагола, HP Омницепт и нового контроллера HP.</li><li>Незначительные изображения для переглагола HP и Samsung Одиссэй +. (Требуется [Сборка ос 19041,546](https://support.microsoft.com/en-us/help/4577063/windows-10-update-kb4577063) или более поздней версии или [сборки ос 18362,1110 и 18363,1110](https://support.microsoft.com/en-us/help/4577062/windows-10-update-kb4577062) или более поздней версии).</li><li>Улучшения в переходе из спящего режима в состояние электропитания компьютера для уменьшения свв ошибок 1-4.</li><li>Windows Mixed Reality небольшие исправления и улучшения надежности платформы гарнитуры.|
