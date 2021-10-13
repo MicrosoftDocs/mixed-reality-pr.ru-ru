@@ -394,30 +394,48 @@
           href: platform-capabilities-and-apis/installing-pix-hololens.md
     - name: Голографическое удаленное взаимодействие
       items:
-        - name: Обзор удаленного голографического взаимодействия
+        - name: Общие сведения
           href: platform-capabilities-and-apis/holographic-remoting-overview.md
-        - name: Проигрыватель для голографического удаленного взаимодействия
+        - name: Проигрыватель из Store
           href: platform-capabilities-and-apis/holographic-remoting-player.md
-        - name: Создание приложения с голографическим удаленным взаимодействием (C++)
+        - name: API OpenXR
           items:
-            - name: API HolographicSpace
-              href: platform-capabilities-and-apis/holographic-remoting-create-remote-wmr.md
-            - name: API OpenXR
+            - name: Создание удаленного приложения (C++)
               href: platform-capabilities-and-apis/holographic-remoting-create-remote-openxr.md
-        - name: Создание пользовательского проигрывателя для голографического удаленного взаимодействия (C++)
-          href: platform-capabilities-and-apis/holographic-remoting-create-player.md
-        - name: Пользовательские каналы данных с голографическим удаленным взаимодействием (C++)
-          href: platform-capabilities-and-apis/holographic-remoting-custom-data-channels.md
-        - name: Безопасное подключение с использованием голографического удаленного взаимодействия (C++)
-          href: platform-capabilities-and-apis/holographic-remoting-secure-connection.md
+            - name: Пользовательские каналы данных (C++)
+              href: platform-capabilities-and-apis/holographic-remoting-custom-data-channels-openxr.md
+            - name: Безопасное подключение (C++)
+              href: platform-capabilities-and-apis/holographic-remoting-secure-connection.md
+            - name: Синхронизация системы координат (C++)
+              items:
+                - name: Общие сведения
+                  href: platform-capabilities-and-apis/holographic-remoting-coordinate-system-synchronization.md
+                - name: Синхронизация системы координат API OpenXR
+                  href: platform-capabilities-and-apis/holographic-remoting-coordinate-system-synchronization-openxr.md
+        - name: API для Windows Mixed Reality
+          items:
+            - name: Создание удаленного приложения (C++)
+              href: platform-capabilities-and-apis/holographic-remoting-create-remote-wmr.md
+            - name: Создание пользовательского проигрывателя (C++)
+              href: platform-capabilities-and-apis/holographic-remoting-create-player.md
+            - name: Пользовательские каналы данных (C++)
+              href: platform-capabilities-and-apis/holographic-remoting-custom-data-channels.md
+            - name: Безопасное подключение (C++)
+              href: platform-capabilities-and-apis/holographic-remoting-secure-connection.md
+            - name: Синхронизация системы координат (C++)
+              items:
+                - name: Общие сведения
+                  href: platform-capabilities-and-apis/holographic-remoting-coordinate-system-synchronization.md
+                - name: Синхронизация системы координат с помощью API Windows Mixed Reality
+                  href: platform-capabilities-and-apis/holographic-remoting-coordinate-system-synchronization-wmr.md
+            - name: "Голографическое удаленное взаимодействие для HoloLens\_(1-го поколения)"
+              href: platform-capabilities-and-apis/add-holographic-remoting.md
         - name: Устранение неполадок и ограничения
           href: platform-capabilities-and-apis/holographic-remoting-troubleshooting.md
         - name: Журнал версий
           href: platform-capabilities-and-apis/holographic-remoting-version-history.md
-        - name: Условия лицензии на использование ПО для голографического удаленного взаимодействия
+        - name: Условия лицензионного соглашения на использование программного обеспечения
           href: /legal/mixed-reality/microsoft-holographic-remoting-software-license-terms
-        - name: "Голографическое удаленное взаимодействие для HoloLens\_(1-го поколения)"
-          href: platform-capabilities-and-apis/add-holographic-remoting.md
     - name: Проверка качества и тестирование приложений
       items:
         - name: Критерии качества приложения

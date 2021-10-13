@@ -3,26 +3,26 @@ title: Учебники
 description: Узнавайте первыми об учебниках по разработке смешанной реальности, доступным для HoloLens и служб Azure.
 author: keveleigh
 ms.author: kurtie
-ms.date: 07/30/2020
+ms.date: 09/30/2021
 ms.topic: article
 ms.localizationpriority: high
 keywords: mixedrealitytoolkit, mixedrealitytoolkit-unity, Academy, учебник, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, Unity, Unreal, HoloLens, Пространственные привязки Azure, служба "Речь" Azure
-ms.openlocfilehash: 2748347528db925132b597fd11168030cc3c3c4c
-ms.sourcegitcommit: b5cda95ed24e51ca9e348e8c4f908e9f4156a1a4
+ms.openlocfilehash: 4e9a8d0f7af5b7a60d8cd250c87d364f895ba61c
+ms.sourcegitcommit: 852645d5bfd5ca0a272f428540464de468ee3a3f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "129249759"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "129792803"
 ---
-# <a name="tutorials"></a>Учебники
+# <a name="unity-tutorials"></a>Руководства по Unity
 
 ![Пользователь HoloLens 2](images/08_Tutorials.png)
 
-Сейчас все наши руководства и примеры приложений основаны на Unity или Unreal. По мере разработки содержимого для других движков и платформ вы сможете находить соответствующие руководства по заголовку в содержании.
+Сейчас все наши руководства, учебные модули и примеры приложений основаны на Unity или Unreal. По мере разработки содержимого для других движков и платформ вы сможете находить соответствующие руководства по заголовку в содержании.
 
 ## <a name="hololens-2-tutorials"></a>Руководства по HoloLens 2
 
-Учебники по HoloLens 2 призваны помочь разработчикам в изучении методик и рекомендаций по разработке приложений смешанной реальности. Учебники по Unity основаны на [наборе средств для смешанной реальности (MRTK) версии 2.0](https://github.com/microsoft/MixedRealityToolkit-Unity), а в учебниках по Unreal используются [средства разработки пользовательского интерфейса (UX) для Unreal Engine 0.8](https://github.com/microsoft/MixedReality-UXTools-Unreal).
+Руководства по основам работы с HoloLens 2 для Unity призваны помочь разработчикам в изучении методик и рекомендаций по разработке приложений смешанной реальности. Эти руководства основаны на [наборе средств для смешанной реальности 2.7 (MRTK 2.7) или более поздней версии](https://github.com/microsoft/MixedRealityToolkit-Unity).
 
 > [!div class="nextstepaction"]
 > [Руководства по основам работы с HoloLens 2](/learn/paths/beginner-hololens-2-tutorials/)
@@ -34,4 +34,3 @@ ms.locfileid: "129249759"
 
 > [!div class="nextstepaction"]
 > [Руководства по службам Azure для HoloLens 1](tutorials/mr-azure-301.md)
-

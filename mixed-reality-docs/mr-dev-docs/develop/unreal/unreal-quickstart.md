@@ -7,12 +7,12 @@ ms.date: 01/19/2021
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, редактор Unreal, UE4, HoloLens, HoloLens 2, смешанная реальность, разработка, документация, руководства, функции, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, перенос, обновление
-ms.openlocfilehash: 07ec2760d691938015619d097d214d205cdbab78f250ff9dd8a793dd27f10c4a
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: e6c22a526e0dcd4d038e6e3c237e18395d90038d
+ms.sourcegitcommit: b008a7dae76e021c4356662b95af6fee97998a20
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115209686"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "129747218"
 ---
 # <a name="creating-your-first-hololens-unreal-application"></a>Создание первого приложения для HoloLens в Unreal
 
@@ -67,7 +67,7 @@ ms.locfileid: "115209686"
 3. Перезапустите редактор
 
 > [!NOTE]
-> В этом руководстве используется OpenXR, но два установленных ранее подключаемых модуля в настоящее время не предоставляют полный набор возможностей для разработки решений для HoloLens. Подключаемый модуль HandInteraction обеспечит поддержку для жеста "сжатия", который вы примените далее, но для более сложного взаимодействия потребуется [скачать подключаемый модуль OpenXR](https://github.com/microsoft/Microsoft-OpenXR-Unreal).
+> В этом руководстве используется OpenXR, но два установленных ранее подключаемых модуля в настоящее время не предоставляют полный набор возможностей для разработки решений для HoloLens. Подключаемый модуль HandInteraction обеспечит поддержку для жеста "сжатия", который вы примените далее, но для более сложного взаимодействия потребуется [скачать подключаемый модуль Microsoft OpenXR](https://github.com/microsoft/Microsoft-OpenXR-Unreal).
 
 Завершив настройку подключаемых модулей, переходите к созданию содержимого.
 
