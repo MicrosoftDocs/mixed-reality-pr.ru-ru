@@ -5,12 +5,12 @@ author: CDiaz-MS
 ms.author: cadia
 ms.date: 01/12/2021
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, мртк, коллекция объектов
-ms.openlocfilehash: 6705bd7093dbcd81912153872e4fd07c703fc5c0b9c081e0287589a7c8e959ac
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: d9956ec7069b8351f4493bc50a41498a245a91d1
+ms.sourcegitcommit: 3c7d44efd7d7ac02a36e830b28d75fd0e0502349
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115197559"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "130058419"
 ---
 # <a name="object-collection"></a>Коллекция объектов
 
@@ -24,10 +24,32 @@ ms.locfileid: "115197559"
 - [`ScatterObjectCollection`](xref:Microsoft.MixedReality.Toolkit.Utilities.ScatterObjectCollection) поддерживает коллекцию с разбросанными стилями  
 - [`TileGridObjectCollection`](xref:Microsoft.MixedReality.Toolkit.Utilities.TileGridObjectCollection) предоставляет некоторые дополнительные параметры для Гридобжектколлектион. **Примечание.** Тилегридобжектколлектион не расширяется [`GridObjectCollection`](xref:Microsoft.MixedReality.Toolkit.Utilities.GridObjectCollection) и содержит несколько ошибок (см. [выпуск 6237](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/6237)). Поэтому рекомендуется использовать [`GridObjectCollection`](xref:Microsoft.MixedReality.Toolkit.Utilities.GridObjectCollection) .
 
-|![Коллекция объектов Grid — цилиндр](../images/object-collection/MRTK_ObjectCollectionCylinder.png) Коллекция объектов Grid — цилиндр | ![Коллекция объектов Grid — сфера](../images/object-collection/MRTK_ObjectCollectionSphere.png) Коллекция объектов Grid — сфера |
-|:--- | :--- |
-|![Коллекция объектов Grid — радиальная](../images/object-collection/MRTK_ObjectCollectionRadial.png) Коллекция объектов Grid — радиальная | ![Коллекция объектов Grid — плоскость](../images/object-collection/MRTK_ObjectCollectionPlane.png) Коллекция объектов Grid — плоскость |
-|![Коллекция разбросанных объектов](../images/object-collection/MRTK_ObjectCollectionScattered.png) Коллекция разбросанных объектов | ![Коллекция объектов сетки мозаики](../images/object-collection/MRTK_ObjectCollectionTileGrid.png) Коллекция объектов сетки мозаики |
+:::row:::
+    :::column:::  
+    ![Коллекция объектов Grid — цилиндр](../images/object-collection/MRTK_ObjectCollectionCylinder.png) Коллекция объектов Grid — цилиндр
+    :::column-end:::
+    :::column:::
+    ![Коллекция объектов Grid — сфера](../images/object-collection/MRTK_ObjectCollectionSphere.png) Коллекция объектов Grid — сфера
+    :::column-end:::
+:::row-end:::
+:::row:::
+    :::column:::  
+    ![Коллекция объектов Grid — радиальная](../images/object-collection/MRTK_ObjectCollectionRadial.png) Коллекция объектов Grid — радиальная
+    :::column-end:::
+    :::column:::
+    ![Коллекция объектов Grid — плоскость](../images/object-collection/MRTK_ObjectCollectionPlane.png) Коллекция объектов Grid — плоскость
+    :::column-end:::
+:::row-end:::
+:::row:::
+    :::column:::  
+    ![Коллекция разбросанных объектов](../images/object-collection/MRTK_ObjectCollectionScattered.png) Коллекция разбросанных объектов
+    :::column-end:::
+    :::column:::
+    ![Коллекция объектов сетки мозаики](../images/object-collection/MRTK_ObjectCollectionTileGrid.png) Коллекция объектов сетки мозаики
+    :::column-end:::
+:::row-end:::
+
+
 
 ## <a name="how-to-use-an-object-collection"></a>Использование коллекции объектов
 

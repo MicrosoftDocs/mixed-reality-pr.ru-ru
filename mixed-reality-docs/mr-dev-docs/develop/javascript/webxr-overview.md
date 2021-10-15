@@ -6,14 +6,14 @@ ms.author: v-vtieto
 ms.date: 09/24/2021
 ms.topic: article
 keywords: вебкср, винмр, вебар, вебвр, виндовсмикседреалити, HoloLens, windows mixed reality, веб-vr, web xr, web mr, web ar, 360, 360 video, 360 видео, 360 photo, 360 фотографии, 360 content, иммерсивное веб-, иммерсивевеб, IW
-ms.openlocfilehash: b0ab1eab5f1c3e546dde367c2cdb992fba7b452d
-ms.sourcegitcommit: 3176df29fb0c9508751bd370f1211031d50d2c14
+ms.openlocfilehash: 86155fe617c5bfaf6b8a603316a9d9f827fb0d72
+ms.sourcegitcommit: 3c7d44efd7d7ac02a36e830b28d75fd0e0502349
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "129148704"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "130058402"
 ---
-# <a name="javascript-development-with-webxr"></a>Разработка на JavaScript с помощью WebXR
+# <a name="webxr-development-with-javascript"></a>Разработка Вебкср с помощью JavaScript
 
 JavaScript — один из самых популярных языков программирования в мире! Это просто, упрощенное и широко используемое в Интернете. Используйте возможности JavaScript и веб-навыков для создания более привлекательных возможностей смешанной реальности.
 
@@ -50,7 +50,7 @@ JavaScript — один из самых популярных языков про
 |[**Three.js**](https://threejs.org) <br/><br/>Three.js — популярная трехмерная библиотека для создания впечатляющих возможностей. Узнайте больше о [three.js](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene) и [Изучите примеры](https://threejs.org/examples/#webgl_animation_cloth). |![Three.js](images/three.js.example.png)  |
 |[**WebGL**](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)  <br/><br/>Доступ к API устройства Вебкср можно получить непосредственно с помощью API-интерфейсов WebGL. WebGL (Библиотека веб-графики) — это API JavaScript для визуализации высокопроизводительной интерактивной трехмерной и двухмерной графики в любом совместимом веб-браузере без использования подключаемых модулей. |![WebGL](images/webgl.example.png)  |
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 * [Спецификация API устройства Вебкср](https://immersive-web.github.io/webxr/)
 * [Документация по API устройства Вебкср](https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API)
