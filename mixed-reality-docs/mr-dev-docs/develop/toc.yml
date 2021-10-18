@@ -302,7 +302,7 @@
           href: unreal/unreal-publishing-to-store.md
 - name: JavaScript
   items:
-    - name: Разработка на JavaScript с помощью WebXR
+    - name: Разработка с использованием WebXR и JavaScript
       href: javascript/webxr-overview.md
     - name: Учебники
       items:
@@ -314,7 +314,7 @@
               href: javascript/tutorials/babylonjs-webxr-helloworld/prepare-scene-02.md
             - name: 3. Взаимодействие с трехмерным объектом
               href: javascript/tutorials/babylonjs-webxr-helloworld/interact-03.md
-        - name: Создание модели пианино в WebXR с помощью babylon.js
+        - name: Создание пианино в WebXR с помощью Babylon.js
           items:
             - name: 1. Введение
               href: javascript/tutorials/babylonjs-webxr-piano/introduction-01.md
