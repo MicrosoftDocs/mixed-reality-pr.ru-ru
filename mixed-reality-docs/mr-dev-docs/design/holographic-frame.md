@@ -6,12 +6,12 @@ ms.author: dongpark
 ms.date: 06/25/2020
 ms.topic: article
 keywords: HoloLens, Windows Mixed Reality, holographic кадр, поле зрения, фов, гарнитура смешанной реальности, гарнитура Windows Mixed reality, гарнитура виртуальной реальности, HoloLens, мртк, набор средств смешанной реальности, взаимодействия, навигация, меню
-ms.openlocfilehash: be24f2b583541e6ed0adff25b3d8edd6c3fe5285aea93d0a4d6df8ee61e5c070
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 68473a9685cf8bb42ef0315ab16d8fa1c31e57c3
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115226389"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130154321"
 ---
 # <a name="holographic-frame"></a>Голографический кадр
 
@@ -77,9 +77,7 @@ ms.locfileid: "115226389"
 
 ## <a name="performance"></a>Производительность
 
-Правильное использование holographic-кадра является фундаментальным [показателем качества производительности](../develop/platform-capabilities-and-apis/understanding-performance-for-mixed-reality.md) . Распространенная техническая и практическая задача — перегрузка пользовательского фрейма с цифровым содержимым, что приводит к ухудшению производительности визуализации. Вместо этого рекомендуется использовать все пространство вокруг пользователя для упорядочения цифрового содержимого с помощью описанных выше методик, чтобы уменьшить нагрузку на отрисовку и обеспечить оптимальное качество отображения.
-
-цифровое содержимое в holographic HoloLens также можно связать с [плоскостью стабилизации](../develop/platform-capabilities-and-apis/case-study-using-the-stabilization-plane-to-reduce-holographic-turbulence.md) для обеспечения оптимальной производительности и [стабильности](../develop/platform-capabilities-and-apis/hologram-stability.md).
+Правильное использование holographic-кадра является фундаментальным [показателем качества производительности](../develop/advanced-concepts/understanding-performance-for-mixed-reality.md) . Распространенная техническая и практическая задача — перегрузка пользовательского фрейма с цифровым содержимым, что приводит к ухудшению производительности визуализации. Вместо этого рекомендуется использовать все пространство вокруг пользователя для упорядочения цифрового содержимого с помощью описанных выше методик, чтобы уменьшить нагрузку на отрисовку и обеспечить оптимальное качество отображения.
 
 <br>
 
@@ -150,4 +148,4 @@ ms.locfileid: "115226389"
 * [Комфорт](comfort.md)
 * [Масштабирование](scale.md)
 * [Направление головы и остановка](gaze-and-dwell.md)
-* [Стабильность голограммы](../develop/platform-capabilities-and-apis/hologram-stability.md)
+* [Стабильность голограммы](../develop/advanced-concepts/hologram-stability.md)

@@ -6,12 +6,12 @@ ms.author: mriches
 ms.date: 08/04/2020
 ms.topic: article
 keywords: Windows Mixed Reality, holographic приложение, новое приложение, приложение UWP, шаблонное приложение, голограммы, новый проект, пошаговое руководство, загрузка, пример кода, гарнитура смешанной реальности, гарнитура Windows Mixed reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 7de7d73ec1e5fd8abde6d4822c86628e090fdf0cf89769fc9ef21311ff1aff15
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: f8ab131f563771599173ed141195bc4f19497df1
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115200177"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130154970"
 ---
 # <a name="creating-a-holographic-directx-project"></a>Создание голографического проекта в DirectX
 
@@ -47,7 +47,7 @@ ms.locfileid: "115200177"
    *шаблон проекта приложения UWP для DirectX 11/WinRT с + + в Visual Studio 2019*
    >[!IMPORTANT]
    >Убедитесь, что имя шаблона проекта содержит "(C++/WinRT)".  Если нет, то у вас установлена старая версия шаблонов проектов Holographic.  чтобы получить последние шаблоны проектов, [установите их](../install-the-tools.md) в качестве расширения Visual Studio 2019.
-5. Выберите **Далее**.
+5. Нажмите кнопку **Далее**.
 5. заполните поля **Project имя** и **расположение** , а затем выберите или нажмите кнопку **создать**. Создается проект holographic приложения.
 6. для целей разработки, предназначенных только для HoloLens 2, убедитесь, что для **целевой версии** и **минимальной версии** задано значение **Windows 10, версия 1903**.  если вы также настраиваете гарнитуры HoloLens (1-й номер) или настольные Windows Mixed Reality, можно задать для параметра **минимальная версия** значение **Windows 10, версия 1809**. Это потребует некоторых <a href="/windows/uwp/debug-test-perf/version-adaptive-code" target="_blank">адаптивных проверок версии</a> в коде при использовании новых функций HoloLens 2.
    ![снимок экрана: установка Windows 10, версия 1903 в качестве целевой и минимальной версий](images/new-uwp-project.png)<br>
@@ -75,7 +75,7 @@ ms.locfileid: "115200177"
 
 Вы также можете создать новый проект с помощью шаблона проекта **Visual C#** holographic, который основан на шарпдкс.  если проект с более holographic по C# не был запущен из шаблона Windows holographic, необходимо скопировать файл ms. фкскомпиле. targets из Windows Mixed Reality проекта шаблона C# и импортировать его в csproj-файл, чтобы скомпилировать файлы HLSL, добавленные в проект. шаблон Direct3D 12 также предоставляется в расширении Windows Mixed Realityных шаблонов приложений для Visual Studio.
 
-ознакомьтесь [с использованием Visual Studio для развертывания и отладки](../platform-capabilities-and-apis/using-visual-studio.md) для получения сведений о том, как создать и развернуть пример на HoloLens, пк с подключенным иммерсивное устройство или эмулятором.
+ознакомьтесь [с использованием Visual Studio для развертывания и отладки](../advanced-concepts/using-visual-studio.md) для получения сведений о том, как создать и развернуть пример на HoloLens, пк с подключенным иммерсивное устройство или эмулятором.
 
 В остальных инструкциях ниже предполагается, что вы используете C++ для создания приложения.
 
@@ -185,6 +185,6 @@ int APIENTRY wWinMain(
 * [Получение HolographicSpace](getting-a-holographicspace.md)
 * <a href="/uwp/api/windows.graphics.holographic.holographicspaceh" target="_blank">HolographicSpace</a>
 * [Отрисовка в DirectX](rendering-in-directx.md)
-* [Развертывание и отладка с помощью Visual Studio](../platform-capabilities-and-apis/using-visual-studio.md)
-* [Использование эмулятора HoloLens](../platform-capabilities-and-apis/using-the-hololens-emulator.md)
-* [Использование XAML с голографическими приложениями DirectX](../platform-capabilities-and-apis/using-xaml-with-holographic-directx-apps.md)
+* [Развертывание и отладка с помощью Visual Studio](../advanced-concepts/using-visual-studio.md)
+* [Использование эмулятора HoloLens](../advanced-concepts/using-the-hololens-emulator.md)
+* [Использование XAML с голографическими приложениями DirectX](using-xaml-with-holographic-directx-apps.md)

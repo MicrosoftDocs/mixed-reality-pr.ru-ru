@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: e7f298b9d587df2243601670e187c109bb674a278deb67862b517568ca5198d7
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: e84290bb2fcbdefa3a6c29d4f79c2cbb307ce439
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115213524"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130153285"
 ---
 # <a name="project-settings"></a>[Параметры проекта](#tab/project)
 
@@ -41,7 +41,7 @@ ms.locfileid: "115213524"
 ### <a name="5-setup-your-windows-mixed-reality-hardware"></a>5. настройка оборудования Windows Mixed Reality
 1. Ознакомьтесь с этапами [настройки иммерсивного головного телефона](/windows/mixed-reality/enthusiast-guide/before-you-start
 )
-2. сведения об [использовании симулятора Windows Mixed Reality](../../platform-capabilities-and-apis/using-the-windows-mixed-reality-simulator.md) и [навигации по Windows Mixed Reality домой](../../../discover/navigating-the-windows-mixed-reality-home.md)
+2. сведения об [использовании симулятора Windows Mixed Reality](../../advanced-concepts/using-the-windows-mixed-reality-simulator.md) и [навигации по Windows Mixed Reality домой](../../../discover/navigating-the-windows-mixed-reality-home.md)
 
 ### <a name="6-target-your-application-to-run-on-windows-mixed-reality"></a>6. Настройка приложения для запуска на Windows Mixed Reality
 1. Во-первых, необходимо удалить или условно откомпилировать любую другую поддержку библиотеки, относящуюся к конкретному пакету SDK для VR. Эти активы часто изменяют параметры и свойства проекта способами, несовместимыми с другими пакетами SDK для VR, например Windows Mixed Reality.
@@ -101,7 +101,7 @@ else
 
 Windows Mixed Reality будут доступны на широком классе устройств, от высокопроизводительных компьютерных пк до широкого спектра основных пк на рынке. В зависимости от того, на каком рынке ориентирован целевой объект, существует существенная разница в доступных вычислениях и графических бюджетах для вашего приложения. Во время этого упражнения по переносу вы, скорее всего, используете ПК уровня "Премиум" и имели значительные бюджетные и графические графики, доступные для вашего приложения. Если вы хотите сделать приложение доступным более широкой аудитории, следует протестировать и профилировать приложение на [целевом оборудовании, которое вы хотите](/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines)использовать.
 
-[Unity](https://docs.unity3d.com/Manual/Profiler.html) и [Visual Studio](/visualstudio/profiling/index) включают в себя профилировщики производительности, а как [корпорация майкрософт](../../platform-capabilities-and-apis/understanding-performance-for-mixed-reality.md) , так и [корпорация Intel](https://software.intel.com/articles/vr-content-developer-guide) публикуют рекомендации по профилированию и оптимизации производительности. Существует подробное обсуждение производительности, доступное [для понимания производительности смешанной реальности](../../platform-capabilities-and-apis/understanding-performance-for-mixed-reality.md). кроме того, в разделе [Performance Рекомендации для unity](../../unity/performance-recommendations-for-unity.md)есть определенные сведения о unity.
+[Unity](https://docs.unity3d.com/Manual/Profiler.html) и [Visual Studio](/visualstudio/profiling/index) включают в себя профилировщики производительности, а как [корпорация майкрософт](../../advanced-concepts/understanding-performance-for-mixed-reality.md) , так и [корпорация Intel](https://software.intel.com/articles/vr-content-developer-guide) публикуют рекомендации по профилированию и оптимизации производительности. Существует подробное обсуждение производительности, доступное [для понимания производительности смешанной реальности](../../advanced-concepts/understanding-performance-for-mixed-reality.md). кроме того, в разделе [Performance Рекомендации для unity](../../unity/performance-recommendations-for-unity.md)есть определенные сведения о unity.
 
 # <a name="input-mapping"></a>[сопоставление входных данных;](#tab/input)
 

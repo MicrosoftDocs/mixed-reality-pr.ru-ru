@@ -6,12 +6,12 @@ ms.author: wangmax
 ms.date: 03/30/2021
 ms.topic: article
 keywords: клавиатура, вход, unity, таучскринкэйбоард, гарнитура смешанной реальности, гарнитура windows mixed, гарнитура виртуальной реальности, HoloLens, HoloLens 2
-ms.openlocfilehash: a7bd392036ca548fdd1f25581c8fc1910308909253f9c8df763e2039a32d3e9a
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 00f27ea898f12345ecc2323cf2cc81bc9738fa03
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115203856"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130155222"
 ---
 # <a name="keyboard-input-in-unity"></a>Ввод с клавиатуры в Unity
 
@@ -64,4 +64,4 @@ keyboardText = keyboard.text;
 Если вы подготовились к расположению разработки Unity, мы собрались изучить возможности и API платформы смешанной реальности. Здесь можно перейти к любому [разделу](unity-development-overview.md#3-advanced-features) или перейти непосредственно к развертыванию приложения на устройстве или в эмуляторе.
 
 > [!div class="nextstepaction"]
-> [развертывание в HoloLens или Windows Mixed Reality впечатляющих головных телефонов](../platform-capabilities-and-apis/using-visual-studio.md)
+> [развертывание в HoloLens или Windows Mixed Reality впечатляющих головных телефонов](../advanced-concepts/using-visual-studio.md)

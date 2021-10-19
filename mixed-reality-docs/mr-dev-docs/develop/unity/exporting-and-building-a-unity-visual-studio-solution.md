@@ -6,12 +6,12 @@ ms.author: mazeller
 ms.date: 03/21/2018
 ms.topic: article
 keywords: unity, visual studio, экспорт, сборка, развертывание, HoloLens, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности, UWP, развертывание
-ms.openlocfilehash: 78410da352b1cce1377b35737376437608f3017c00334c1a489ede26d5170d2d
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: b39954d7845bac1e2c77ab0bf2a0d8340a6534d8
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115203624"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130155500"
 ---
 # <a name="exporting-and-building-a-unity-visual-studio-solution"></a>Экспорт и разработка решения Visual Studio для Unity
 
@@ -56,13 +56,13 @@ ms.locfileid: "115203624"
 
 ## <a name="building-and-deploying-a-unity-visual-studio-solution"></a>создание и развертывание решения Visual Studio Unity
 
-Оставшаяся часть сборки и развертывания приложений происходит в [Visual Studio](../platform-capabilities-and-apis/using-visual-studio.md). Необходимо указать конфигурацию сборки Unity. Соглашения об именовании Unity могут отличаться от используемых в Visual Studio:
+Оставшаяся часть сборки и развертывания приложений происходит в [Visual Studio](../advanced-concepts/using-visual-studio.md). Необходимо указать конфигурацию сборки Unity. Соглашения об именовании Unity могут отличаться от используемых в Visual Studio:
 
 |  Конфигурация  |  Объяснение | 
 |----------|----------|
 |  Отладка  |  Все оптимизации отключены и профилировщик включен. Используется для отладки скриптов. | 
 |  master.  |  Все оптимизации включены и профилировщик отключен. Используется для отправки приложений в магазин. | 
-|  Release  |  Все оптимизации включены и профилировщик включен. Используется для оценки производительности приложения. | 
+|  Выпуск  |  Все оптимизации включены и профилировщик включен. Используется для оценки производительности приложения. | 
 
 обратите внимание, что приведенный выше список является подмножеством общих триггеров, которые приведут к созданию Visual Studio проекта. как правило, редактирование файлов. cs из Visual Studio не требует повторного создания проекта в Unity.
 

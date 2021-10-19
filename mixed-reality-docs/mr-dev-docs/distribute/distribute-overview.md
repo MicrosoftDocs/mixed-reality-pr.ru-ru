@@ -2,16 +2,16 @@
 title: Распространение приложений
 description: Обзор различных вариантов распространения для различных поддерживаемых платформ и хранилищ публикаций.
 author: hferrone
-ms.author: v-hferrone
+ms.author: v-vtieto
 ms.date: 12/9/2020
 ms.topic: article
 keywords: HoloLens, смешанная реальность, впечатляющие головные телефоны, приложение, uwp, отправка, отправка, фильтры, метаданные, требования к системе, ключевые слова, wack, сертификация, пакет, appx, товары
-ms.openlocfilehash: 7d4fbc1a7a5767ad8276017c7cdc38e9bb436bc83b12a4d8caeb9a8d84f1caca
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: bb4188eaba247730a80c40f669eb498b9d8ef83a
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115198793"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130155572"
 ---
 # <a name="distributing-your-apps"></a>Распространение приложений
 
@@ -45,7 +45,7 @@ ms.locfileid: "115198793"
     <td><strong>Поделиться с Организацией</strong></td>
 </tr>
 <tr>
-    <td><a href="https://docs.microsoft.com/hololens/app-deploy-app-installer"><strong>Установщик приложения</strong></td>
+    <td><a href="/hololens/app-deploy-app-installer"><strong>Установщик приложения</strong></td>
     <td>✔️</td>
     <td>✔️</td>
     <td>❌</td>
@@ -97,7 +97,7 @@ ms.locfileid: "115198793"
 
 * если необходимо установить HoloLens 2 приложение в автономном режиме, см. инструкции в [автономном HoloLens 2](/hololens/hololens-common-scenarios-offline-secure) и установите приложение с помощью пакета подготовки без включения режима разработчика.
 
-* вы также можете развернуть сборки на устройстве и предоставить к ним доступ другим разработчикам, использующим режим разработчика, путем [развертывания и отладки с Visual Studio](../develop/platform-capabilities-and-apis/using-visual-studio.md) или [установки пакета приложения с помощью портала устройств](../develop/platform-capabilities-and-apis/using-the-windows-device-portal.md#sideloading-applications).
+* вы также можете развернуть сборки на устройстве и предоставить к ним доступ другим разработчикам, использующим режим разработчика, путем [развертывания и отладки с Visual Studio](../develop/advanced-concepts/using-visual-studio.md) или [установки пакета приложения с помощью портала устройств](../develop/advanced-concepts/using-the-windows-device-portal.md#sideloading-applications).
 
 ## <a name="see-also"></a>См. также раздел
 * [Поиск, установка и удаление приложений из Microsoft Store](/hololens/holographic-store-apps)

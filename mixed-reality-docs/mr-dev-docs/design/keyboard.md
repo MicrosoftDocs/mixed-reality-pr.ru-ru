@@ -6,12 +6,12 @@ ms.author: dongpark
 ms.date: 11/01/2019
 ms.topic: article
 keywords: смешанная реальность, элементы управления, взаимодействие, пользовательский интерфейс, ux, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности, HoloLens, клавиатура, мртк, смешанная реальность набор средств
-ms.openlocfilehash: f0045f6008384f5ed709597d625dc4526723921df51a6a1c6d25641ac95f0b34
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 6ccc6e07e331a8845546325f90f1043fc3ba76b4
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115208354"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130153921"
 ---
 # <a name="keyboard"></a>Keyboard (Клавиатура)
 
@@ -36,7 +36,7 @@ ms.locfileid: "115208354"
 Если вы подготовились к расположению разработки Unity, то ваша следующая задача — развернуть приложение на устройстве или в эмуляторе.
 
 > [!div class="nextstepaction"]
-> [развертывание в HoloLens или Windows Mixed Reality впечатляющих головных телефонов](../develop/platform-capabilities-and-apis/using-visual-studio.md)
+> [развертывание в HoloLens или Windows Mixed Reality впечатляющих головных телефонов](../develop/advanced-concepts/using-visual-studio.md)
 
 ## <a name="see-also"></a>См. также раздел
 

@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 03/21/2018
 ms.topic: article
 keywords: иммерсивное головной телефон, оптимизация производительности, VR, пример использования
-ms.openlocfilehash: d1c54f5fbe6843f9bf61af20b611c6aeb22b0704c209bfdb555fe57b95805cf9
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 8c0da633c33a8cbb862a3fc7c089b2ae080bce4d
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115195799"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130155802"
 ---
 # <a name="case-study---scaling-datascape-across-devices-with-different-performance"></a>Пример использования. масштабирование Датаскапе на разных устройствах с различной производительностью
 
@@ -316,7 +316,7 @@ protected void Update()
 
 
 ## <a name="see-also"></a>См. также раздел
-* [Основные сведения о производительности смешанной реальности](../develop/platform-capabilities-and-apis/understanding-performance-for-mixed-reality.md)
+* [Основные сведения о производительности смешанной реальности](../develop/advanced-concepts/understanding-performance-for-mixed-reality.md)
 * [Рекомендации производительности для Unity](../develop/unity/performance-recommendations-for-unity.md)
 
  

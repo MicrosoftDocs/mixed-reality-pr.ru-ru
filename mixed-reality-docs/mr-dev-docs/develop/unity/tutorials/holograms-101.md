@@ -6,12 +6,12 @@ ms.author: kurtie
 ms.date: 10/22/2019
 ms.topic: article
 keywords: смешанная реальность, Windows Mixed Reality, HoloLens, голограмма, academy, учебник, HoloLens, academy смешанной реальности, unity, гарнитура смешанной реальности, гарнитура Windows mixed reality, гарнитура виртуальной реальности, Windows 10
-ms.openlocfilehash: 63219edebeb63dbf4589e8162f8dc1bab83275c38f29b106db9bae234cdabde0
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 755479f2f670ed939d0e6ef4a718129312b600a7
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115200964"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130154065"
 ---
 # <a name="hololens-1st-gen-basics-101-complete-project-with-device"></a>основные сведения о HoloLens (1 gen) 101: завершение проекта с устройством
 
@@ -43,7 +43,7 @@ ms.locfileid: "115200964"
 ### <a name="prerequisites"></a>Предварительные условия
 
 * Windows 10 пк, настроенный с [установленными инструментами](../../install-the-tools.md).
-* устройство HoloLens, [настроенное для разработки](../../platform-capabilities-and-apis/using-visual-studio.md#enabling-developer-mode).
+* устройство HoloLens, [настроенное для разработки](../../advanced-concepts/using-visual-studio.md#enabling-developer-mode).
 
 ### <a name="project-files"></a>Файлы проекта
 
@@ -68,7 +68,7 @@ ms.locfileid: "115200964"
 * Создайте голограмму.
 * Ознакомьтесь с созданной голограммой.
 
-### <a name="instructions"></a>Инструкции
+### <a name="instructions"></a>Instructions
 
 * Запустите Unity.
 * Выберите **Открыть**.
@@ -122,7 +122,7 @@ ms.locfileid: "115200964"
   * Оставьте для параметра **режим проверки подлинности** значение **универсальное**.
   * Нажмите кнопку **Выбрать**.
 
-* Щелкните **отладка > начать без отладки** или нажмите клавиши **CTRL + F5**. При первом развертывании на устройстве необходимо [связать его с Visual Studio](../../platform-capabilities-and-apis/using-visual-studio.md#pairing-your-device).
+* Щелкните **отладка > начать без отладки** или нажмите клавиши **CTRL + F5**. При первом развертывании на устройстве необходимо [связать его с Visual Studio](../../advanced-concepts/using-visual-studio.md#pairing-your-device).
 
 * теперь проект Origami будет строиться, развертываться в HoloLens, а затем выполнен.
 * помещайтесь на HoloLens и проведите поиск, чтобы увидеть новые голограммы.
@@ -137,7 +137,7 @@ ms.locfileid: "115200964"
 
 * Визуализируйте взгляд с помощью курсора, заблокированного по всему миру.
 
-### <a name="instructions"></a>Инструкции
+### <a name="instructions"></a>Instructions
 
 * вернитесь к проекту Unity и закройте окно Параметры сборки, если оно все еще открыто.
 * выберите папку **Голограммы** на **панели Project**.
@@ -213,7 +213,7 @@ public class WorldCursor : MonoBehaviour
 
 * Контролируйте голограммы с помощью жеста выбора.
 
-### <a name="instructions"></a>Инструкции
+### <a name="instructions"></a>Instructions
 
 Начнем с создания скрипта, который затем может обнаружить жест выбора.
 
@@ -325,7 +325,7 @@ public class SphereCommands : MonoBehaviour
 * Добавление речевых команд, которые всегда прослушиваются в фоновом режиме.
 * Создайте голограмму, которая реагирует на голосовую команду.
 
-### <a name="instructions"></a>Инструкции
+### <a name="instructions"></a>Instructions
 
 * В папке **Scripts** создайте скрипт с именем **спичманажер**.
 * Перетащите скрипт **спичманажер** на объект **оригамиколлектион** в иерархии
@@ -641,7 +641,7 @@ public class TapToPlaceParent : MonoBehaviour
 
 * Показать вход в неограниченный мир.
 
-### <a name="instructions"></a>Инструкции
+### <a name="instructions"></a>Instructions
 
 Теперь мы покажем, как открыть немалое время:
 

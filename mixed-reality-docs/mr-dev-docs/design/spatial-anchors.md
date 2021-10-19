@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 02/24/2019
 ms.topic: article
 keywords: система координат, геодоступная система координат, мировое масштабирование, мир, масштабирование, расположение, ориентация, привязка, пространственный якорь, блокировка мира, блокировка мира, сохранение, совместное использование, Универсальная гарнитура, головной компьютер Windows Mixed Reality, гарнитура виртуальной реальности, HoloLens
-ms.openlocfilehash: dc9b57d51f4202499d82abb8d210261d2ee36dc60bb90ed039a7554f82af79a0
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 9800dae7b82fab488027fcdf79f452fd9c40922d
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115193518"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130154869"
 ---
 # <a name="spatial-anchors"></a>Пространственные привязки
 
@@ -74,7 +74,7 @@ ms.locfileid: "115193518"
 ## <a name="see-also"></a>См. также раздел
 
 * [Системы координат](coordinate-systems.md)
-* [Общий доступ в смешанной реальности](../develop/platform-capabilities-and-apis/shared-experiences-in-mixed-reality.md)
+* [Общий доступ в смешанной реальности](shared-experiences-in-mixed-reality.md)
 * <a href="/azure/spatial-anchors" target="_blank">Пространственные привязки Azure</a>
 * [Сохраняемость в Unity](../develop/unity/persistence-in-unity.md)
 * [Coordinate systems in DirectX](../develop/native/coordinate-systems-in-directx.md#place-holograms-in-the-world-using-spatial-anchors) (Системы координат в DirectX)

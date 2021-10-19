@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 02/24/2019
 ms.topic: article
 keywords: Совместное использование, привязка, Ворлданчор, MR — совместное использование 250, Ворлданчортрансфербатч, Спатиалперцептион, Azure, пространственные привязки Azure, ASA, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: f7725c8282d1b5a93d555ac0f55ee936b910ff6c
-ms.sourcegitcommit: 6f3b3aa31cc3acefba5fa3ac3ba579d9868a4fe4
+ms.openlocfilehash: dcfa6a490e774680d363047c241fa1d5eda91c47
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "123244194"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130155184"
 ---
 # <a name="shared-experiences-in-unity"></a>Общий доступ в Unity
 
@@ -49,11 +49,11 @@ ms.locfileid: "123244194"
 Или сразу перейдите к развертыванию приложения на устройстве или эмуляторе:
 
 > [!div class="nextstepaction"]
-> [развертывание в HoloLens или Windows Mixed Reality впечатляющих головных телефонов](../platform-capabilities-and-apis/using-visual-studio.md)
+> [развертывание в HoloLens или Windows Mixed Reality впечатляющих головных телефонов](../advanced-concepts/using-visual-studio.md)
 
 Вы можете в любой момент вернуться к [этапам разработки для Unity](unity-development-overview.md#3-advanced-features).
 
 ## <a name="see-also"></a>См. также раздел
-* [Общий доступ в смешанной реальности](../platform-capabilities-and-apis/shared-experiences-in-mixed-reality.md)
+* [Общий доступ в смешанной реальности](../../design/shared-experiences-in-mixed-reality.md)
 * <a href="/azure/spatial-anchors" target="_blank">Пространственные привязки Azure</a>
 * <a href="/dotnet/api/Microsoft.Azure.SpatialAnchors" target="_blank">Пакет SDK для пространственных привязок Azure для Unity</a>

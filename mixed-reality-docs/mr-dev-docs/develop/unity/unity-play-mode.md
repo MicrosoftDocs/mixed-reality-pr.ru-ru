@@ -6,12 +6,12 @@ ms.author: v-vtieto
 ms.date: 07/26/2021
 ms.topic: article
 keywords: Unity, удаленное взаимодействие, holographic удаленное взаимодействие, удаленный плеер holographic, HoloLens, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности, режим воспроизведения unity
-ms.openlocfilehash: cd9dca9d1ddf17b78e8c317fa3a58093c9b5837de379510148c6e645b31120ca
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: b904b0f7cb41f4472c695e54f9ec1e2f0c7523a5
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115226236"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130155517"
 ---
 # <a name="preview-your-work-with-holographic-remoting"></a>Предварительный просмотр работы с помощью голографического удаленного взаимодействия
 
@@ -33,10 +33,10 @@ ms.locfileid: "115226236"
 
 [!INCLUDE[](includes/unity-play-mode.md)]
 
-Для удаленного взаимодействия с holographic требуется быстрый ПК и Wi-Fiное подключение. Дополнительные сведения можно найти в документации по [удаленному проигрывателю holographic](../platform-capabilities-and-apis/holographic-remoting-player.md) .
+Для удаленного взаимодействия с holographic требуется быстрый ПК и Wi-Fiное подключение. Дополнительные сведения можно найти в документации по [удаленному проигрывателю holographic](../advanced-concepts/holographic-remoting-player.md) .
 
 Для достижения лучших результатов убедитесь, что приложение правильно устанавливает [фокусную точку](focus-point-in-unity.md). Это помогает более удачному удаленному взаимодействию лучше адаптировать сцену к задержке беспроводного подключения.
 
 ## <a name="see-also"></a>См. также:
 
-* [Holographic Remoting Player](../platform-capabilities-and-apis/holographic-remoting-player.md)
+* [Holographic Remoting Player](../advanced-concepts/holographic-remoting-player.md)

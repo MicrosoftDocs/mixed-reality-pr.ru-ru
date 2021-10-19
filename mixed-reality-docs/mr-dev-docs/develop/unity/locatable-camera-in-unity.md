@@ -2,22 +2,22 @@
 title: Фото- и видеокамера в Unity
 description: Узнайте, как записать фотографию в файл или Texture2D, как записать фотографию и взаимодействовать с необработанными байтами, а также как записать видео.
 author: keveleigh
-ms.author: v-hferrone
+ms.author: v-vtieto
 ms.date: 03/21/2021
 ms.topic: article
 keywords: Фото, видео, hololens, Камера, Unity, размещаемые, PVC, видеокамера, гарнитура смешанной реальности, гарнитура Windows Mixed, гарнитура виртуальной реальности, веб-камера, запись фотографий, видеозапись
-ms.openlocfilehash: 4fdf895e6b2b7ed1fc051b45b07ce49052f8a95587178caddfc71a0cfd364eee
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: ac170e82591503df39169e4421078cc667d665c5
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115193508"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130155483"
 ---
 # <a name="photo-video-camera-in-unity"></a>Фото- и видеокамера в Unity
 
 ## <a name="enabling-the-capability-for-camera-access"></a>Включение возможности доступа к камере
 
-Для использования [камеры](../platform-capabilities-and-apis/locatable-camera.md)приложение должно быть объявлено как "веб-камера".
+Для использования [камеры](../advanced-concepts/locatable-camera-overview.md)приложение должно быть объявлено как "веб-камера".
 
 1. в редакторе Unity перейдите к параметрам проигрывателя, перейдя на страницу "изменение > Project Параметры > player".
 2. выберите вкладку "хранилище Windows".
@@ -189,7 +189,7 @@ if (photoCaptureFrame.hasLocationData)
 
 Чтобы взаимодействовать с необработанными байтами в кадре памяти, выполните те же действия по настройке, что и в предыдущем разделе, и *онфотомодестартед* , как при записи фотографии в Texture2D. Разница заключается в *онкаптуредфототомемори* , где можно получить необработанные байты и взаимодействовать с ними.
 
-В этом примере вы создадите *список <Color>* , который будет обрабатываться или применен к текстуре с помощью *сетпикселс ()* .
+В этом примере вы создадите *список* , который будет обрабатываться или применен к текстуре с помощью *сетпикселс ()* .
 
 ```cs
 void OnCapturedPhotoToMemory(PhotoCapture.PhotoCaptureResult result, PhotoCaptureFrame photoCaptureFrame)
@@ -342,10 +342,15 @@ void OnStoppedVideoCaptureMode(VideoCapture.VideoCaptureResult result)
 Или сразу перейдите к развертыванию приложения на устройстве или эмуляторе:
 
 > [!div class="nextstepaction"]
-> [развертывание в HoloLens или Windows Mixed Reality впечатляющих головных телефонов](../platform-capabilities-and-apis/using-visual-studio.md)
+> [развертывание в HoloLens или Windows Mixed Reality впечатляющих головных телефонов](../advanced-concepts/using-visual-studio.md)
 
 Вы можете в любой момент вернуться к [этапам разработки для Unity](unity-development-overview.md#3-advanced-features).
 
-## <a name="see-also"></a>См. также:
-
-* [Камера с определяемым местоположением](../platform-capabilities-and-apis/locatable-camera.md)
+## <a name="see-also"></a>См. также раздел
+* [Пример камеры размещаемые](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/HolographicFaceTracking)
+* [Обзор камеры размещаемые](../advanced-concepts/locatable-camera-overview.md)
+* [Размещаемые камера с примерами C++](../native/locatable-camera-cpp.md)
+* [Смешанный захват реальности](/hololens/holographic-photos-and-videos)
+* [Съемка смешанной реальности для разработчиков](../advanced-concepts/mixed-reality-capture-overview.md)
+* [Введение в запись носителя](/windows/uwp/audio-video-camera/)
+* [Пример отслеживания с "holographic лиц"](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/HolographicFaceTracking)

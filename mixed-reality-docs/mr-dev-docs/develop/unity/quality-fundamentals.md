@@ -6,12 +6,12 @@ ms.author: v-qianwen
 ms.date: 07/15/2021
 ms.topic: article
 keywords: основы качества, пример внедрения, проект, образец, мртк, смешанная реальность набор средств, Unity, примеры приложений, примеры приложений, открытый исходный код, Microsoft Store, HoloLens, гарнитура смешанной реальности, гарнитура windows Mixed reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 69c6a55b95937c0c6af4920f6ffe0929eebe76ee
-ms.sourcegitcommit: 82f7db75d8ecc7ac89c76b0db504126cbcb8f16d
+ms.openlocfilehash: faa5612d174b82594a49415c81b2c0440559c078
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "129647537"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130154961"
 ---
 # <a name="quality-fundamentals"></a>Quality Fundamentals
 
@@ -80,7 +80,7 @@ ms.locfileid: "129647537"
 
 ![Оптимизация числа треугольников](images\qf-triangle-count-optimization.png)
 
-Дополнительные сведения см. в разделе [Частота кадров](../platform-capabilities-and-apis/hologram-stability.md#frame-rate) в статье о [стабильности в голограммах](../platform-capabilities-and-apis/hologram-stability.md) .
+Дополнительные сведения см. в разделе [Частота кадров](../advanced-concepts/hologram-stability.md#frame-rate) в статье о [стабильности в голограммах](../advanced-concepts/hologram-stability.md) .
 
 ### <a name="late-stage-reprojection-lsr"></a>Перепроецирование с поздним этапом (ЛСР)
 
@@ -88,7 +88,7 @@ ms.locfileid: "129647537"
 
 ![Попробуйте изменить параметры РЕПРОЕКЦИИ, чтобы ознакомиться с этими различиями.](images\qf-lsr-modes.jpg)
 
-Дополнительные сведения см. в статье о [перепроецировании](../platform-capabilities-and-apis/hologram-stability.md#reprojection) в [голограмме о стабильности](../platform-capabilities-and-apis/hologram-stability.md) .
+Дополнительные сведения см. в статье о [перепроецировании](../advanced-concepts/hologram-stability.md#reprojection) в [голограмме о стабильности](../advanced-concepts/hologram-stability.md) .
 
 ### <a name="z-fighting"></a>Z-конфликт
 

@@ -8,12 +8,12 @@ ms.topic: article
 keywords: нереал, нереал. 4, UE4 HoloLens, HoloLens 2, смешанная реальность, развертывание на устройстве, пк, документация, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: d6df3f9af21a0759c98306c28696d21eac7687b92d3cb74a9cd9948122cbcbcc
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 097977391fc74fc7b01fd4088ebe4db914f98e61
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115226649"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130153440"
 ---
 # <a name="deploy-to-device-in-unreal"></a>Развертывание на устройстве в Unreal
 
@@ -21,7 +21,7 @@ ms.locfileid: "115226649"
 * Непосредственно из нереального редактора
 * Как пакет, отправленный через портал устройств
 
-для обоих вариантов требуется настроить HoloLens для использования [портала устройств](../platform-capabilities-and-apis/using-the-windows-device-portal.md) для разработки.
+для обоих вариантов требуется настроить HoloLens для использования [портала устройств](../advanced-concepts/using-the-windows-device-portal.md) для разработки.
 
 ## <a name="deploying-to-device-from-the-unreal-editor"></a>Развертывание на устройстве из нереального редактора
 

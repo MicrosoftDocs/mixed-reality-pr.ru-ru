@@ -6,12 +6,12 @@ ms.author: kurtie
 ms.date: 10/22/2019
 ms.topic: article
 keywords: холотулкит, микседреалититулкит, микседреалититулкит-unity, academy, руководство, пространственное сопоставление, реконструкция поверхности, сетка, HoloLens, academy, единая, unity, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности, Windows 10
-ms.openlocfilehash: 6806fd8c717d47ff4ea5340e6a2d70ba2c798960af8fe3103daa11d0a8e2bf74
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: ad83fbead58d3f524934d20f474e0c08bcf6cf54
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115208714"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130154690"
 ---
 # <a name="hololens-1st-gen-spatial-230-spatial-mapping"></a>HoloLens (1 общий) пространственный 230: пространственное сопоставление
 
@@ -45,7 +45,7 @@ ms.locfileid: "115208714"
 * Windows 10 пк, настроенный с [установленными инструментами](../../../develop/install-the-tools.md).
 * Некоторые основные возможности программирования на C#.
 * Вы должны были выполнить [Основные сведения о MR 101](../../../develop/unity/tutorials/holograms-101.md).
-* устройство HoloLens, [настроенное для разработки](../../../develop/platform-capabilities-and-apis/using-visual-studio.md#enabling-developer-mode).
+* устройство HoloLens, [настроенное для разработки](../../../develop/advanced-concepts/using-visual-studio.md#enabling-developer-mode).
 
 ### <a name="project-files"></a>Файлы проекта
 
@@ -148,7 +148,7 @@ ms.locfileid: "115208714"
 * Щелкните **Добавить профилировщик > GPU**.
 * Щелкните **активный профилировщик > <Enter IP>**.
 * Введите **IP-адрес** HoloLens.
-* Нажмите кнопку **Подключить**.
+* Нажмите кнопку **Соединить**.
 * Обратите внимание на число миллисекунд, необходимое для отображения кадра графическим процессором.
 * Останавливает выполнение приложения на устройстве.
 * вернитесь к Visual Studio и откройте **спатиалмаппингобсервер. cs**. он будет находиться в папке холотулкит\спатиалмаппинг проекта Assembly-CSharp (универсальный Windows).

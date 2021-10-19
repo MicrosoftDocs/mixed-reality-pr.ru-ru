@@ -6,12 +6,12 @@ ms.author: pinkb
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Windows Mixed Reality, проектирование, цвет, освещение, материалы, гарнитура смешанной реальности, гарнитура Windows mixed reality, гарнитура виртуальной реальности, HoloLens, мртк, смешанная реальность набор средств
-ms.openlocfilehash: 50789faa44e6786c0d9fd0b146daa84f459df451bedc52f06073e742ea8064a0
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: f35407d1473cfe0716d94b199a5b20de9949249c
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115219869"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130153989"
 ---
 # <a name="color-light-and-materials"></a>Цвет, свет и материалы
 
@@ -102,7 +102,7 @@ ms.locfileid: "115219869"
 
 ## <a name="see-also"></a>См. также раздел
 * [Проектирование содержимого для голографического дисплея](designing-content-for-holographic-display.md)
-* [Разделение цветов](../develop/platform-capabilities-and-apis/hologram-stability.md#color-separation)
+* [Разделение цветов](../develop/advanced-concepts/hologram-stability.md#color-separation)
 * [Голограммы](../discover/hologram.md)
 * [Язык Microsoft Design — Color](https://www.microsoft.com/design/color)
 * [цвет универсальная платформа Windows](/windows/uwp/style/color)

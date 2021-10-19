@@ -6,12 +6,12 @@ ms.author: kurtie
 ms.date: 10/22/2019
 ms.topic: article
 keywords: холотулкит, микседреалититулкит, микседреалититулкит-unity, совместное использование, работа в сети, academy, учебник, HoloLens, academy "смешанная реальность", unity, гарнитура смешанной реальности, гарнитура windows Mixed reality, гарнитура виртуальной реальности, Windows 10
-ms.openlocfilehash: 1714c9cf1b64953ff319eefb8633b1891568d5a50f2ed778e6e890d3149d3908
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 97dec324033b733944fe78eb0a5c268fe7d34928
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115208704"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130154666"
 ---
 # <a name="hololens-1st-gen-sharing-240-multiple-hololens-devices"></a>HoloLens (1-й общий) общий доступ 240: несколько HoloLensных устройств
 
@@ -42,7 +42,7 @@ ms.locfileid: "115208704"
 ### <a name="prerequisites"></a>Предварительные условия
 
 * Windows 10 пк, для которого настроены правильные [средства, установленные](../../../develop/install-the-tools.md) с доступом к интернету.
-* по крайней мере два HoloLens устройства, [настроенные для разработки](../../../develop/platform-capabilities-and-apis/using-visual-studio.md#enabling-developer-mode).
+* по крайней мере два HoloLens устройства, [настроенные для разработки](../../../develop/advanced-concepts/using-visual-studio.md#enabling-developer-mode).
 
 ### <a name="project-files"></a>Файлы проекта
 
@@ -66,7 +66,7 @@ ms.locfileid: "115208704"
 * Настройте Unity для разработки holographic приложений.
 * Ознакомьтесь с голограммой!
 
-### <a name="instructions"></a>Инструкции
+### <a name="instructions"></a>Instructions
 
 * Запустите Unity.
 * Выберите **Открыть**.
@@ -107,7 +107,7 @@ ms.locfileid: "115208704"
     * Укажите в качестве **адреса** имя или IP-адрес HoloLens. если вы не знакомы с IP-адресом устройства, найдите **Параметры > сеть & интернет > дополнительные параметры** или запросите Кортана **"эй Кортана, что такое мой IP-адрес?".**
     * Оставьте для параметра **режим проверки подлинности** значение **универсальное**.
     * Нажмите кнопку **Выбрать**.
-* Щелкните **отладка > начать без отладки** или нажмите клавиши **CTRL + F5**. При первом развертывании на устройстве необходимо [связать его с Visual Studio](../../../develop/platform-capabilities-and-apis/using-visual-studio.md#pairing-your-device).
+* Щелкните **отладка > начать без отладки** или нажмите клавиши **CTRL + F5**. При первом развертывании на устройстве необходимо [связать его с Visual Studio](../../../develop/advanced-concepts/using-visual-studio.md#pairing-your-device).
 * помещайтесь на HoloLens и находите голограмму енергихуб.
 
 ## <a name="chapter-2---interaction"></a>Глава 2 — взаимодействие
@@ -131,7 +131,7 @@ ms.locfileid: "115208704"
 * В папке **HoloToolkit-Sharing-240\Prefabs\Input** найдите ресурс **cursor** .
 * Перетащите в **иерархию** ресурс с **курсором** .
 
-**жесты**
+**Жест**
 
 * На **панели Иерархия** выберите объект **холограмколлектион** .
 * Щелкните **Добавить компонент** и введите **Диспетчер жестов** в поле поиска. Выберите результат поиска.
@@ -319,7 +319,7 @@ public class HologramPlacement : Singleton<HologramPlacement>
 * Выберите и поделитесь с вами аватаром игрока.
 * Вложите аватар игрока рядом с головами всех.
 
-### <a name="instructions"></a>Инструкции
+### <a name="instructions"></a>Instructions
 
 * на **панели Project** перейдите к папке **Голограммы** .
 * Перетащите **плайераватарсторе** в **иерархию**.
@@ -1019,7 +1019,7 @@ public class HologramPlacement : Singleton<HologramPlacement>
 
 * Совместное использование позволяет запустить достаточно снаряды на привязке, чтобы обнаружить секретный портал.
 
-### <a name="instructions"></a>Инструкции
+### <a name="instructions"></a>Instructions
 
 * на **панели Project** перейдите к папке **Голограммы** .
 * Перетащите **этот ресурс в качестве** **дочернего для холограмколлектион**.

@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 08/04/2020
 ms.topic: article
 keywords: DirectX, holographic-визуализация, собственное, собственное приложение, WinRT, приложение WinRT, API платформы, настраиваемое ядро, промежуточное по, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 056cb0c07002cb319e8acadf66e7f59650f5e00413440d6ad0103aa8ee936400
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 8aaa3bff7649311e7782411bba9c399d8c93f651
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115200181"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130155708"
 ---
 # <a name="native-development-overview"></a>Обзор разработки для собственной платформы
 
@@ -43,8 +43,8 @@ Windows Mixed Reality приложения используют следующи
 |  Компонент  |  Возможностями.  |
 | --- | --- |
 | [Взгляд](../../design/gaze-and-commit.md) | Предоставление пользователям возможности выбирать голограммы взглядом |
-| [жесты](../../design/gaze-and-commit.md#composite-gestures) | Добавление пространственных действий в приложения |
-| [Голографическая отрисовка](../platform-capabilities-and-apis/rendering.md) | Нарисуйте голограмму в точном месте вокруг пользователей |
+| [Жест](../../design/gaze-and-commit.md#composite-gestures) | Добавление пространственных действий в приложения |
+| [Голографическая отрисовка](../advanced-concepts/rendering-overview.md) | Нарисуйте голограмму в точном месте вокруг пользователей |
 | [Контроллер движения](../../design/motion-controllers.md) | Разрешить пользователям предпринимать действия в средах смешанной реальности |
 | [Пространственное сопоставление](../../design/spatial-mapping.md) | Сопоставление физического пространства с наложением виртуальной сетки для определения границ среды |
 | [Голосовая связь](../../design/voice-input.md) | Захват произнесенных слов, фраз и диктовка со стороны пользователей |
@@ -54,7 +54,7 @@ Windows Mixed Reality приложения используют следующи
 
 ### <a name="3-deploying-and-testing"></a>3. Развертывание и тестирование
 
-вы можете разрабатывать приложения на настольном компьютере, используя опенкср HoloLens 2 или Windows Mixed Reality иммерсивное гарнитуру.  если у вас нет доступа к гарнитуре, вы можете использовать [HoloLens 2 Emulator](../platform-capabilities-and-apis/using-the-hololens-emulator.md) или [симулятор Windows Mixed Reality](../platform-capabilities-and-apis/using-the-windows-mixed-reality-simulator.md) .
+вы можете разрабатывать приложения на настольном компьютере, используя опенкср HoloLens 2 или Windows Mixed Reality иммерсивное гарнитуру.  если у вас нет доступа к гарнитуре, вы можете использовать [HoloLens 2 Emulator](../advanced-concepts/using-the-hololens-emulator.md) или [симулятор Windows Mixed Reality](../advanced-concepts/using-the-windows-mixed-reality-simulator.md) .
 
 ## <a name="whats-next"></a>Дальнейшие действия
 
@@ -70,4 +70,4 @@ Windows Mixed Reality приложения используют следующи
 
 ## <a name="see-also"></a>См. также раздел
 * [Модель приложений](../../design/app-model.md)
-* [Представления приложений](../../design/app-views.md)
+* Проверка [представлений приложений](../../design/app-views.md)

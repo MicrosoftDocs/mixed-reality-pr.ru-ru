@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 2/28/2020
 ms.topic: article
 keywords: Опенкср, Кхронос, Басикксрапп, DirectX, Native, собственное приложение, настраиваемое ядро, по промежуточного слоя, рекомендации, производительность, качество, стабильность
-ms.openlocfilehash: 2cbd05417f62f7380b048f692295bbbe98ceba5bce69c4f1dae21aec812ec450
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 2d8574bef88c2119d81b2192e89c2162c2659b19
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115207852"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130153452"
 ---
 # <a name="openxr-app-best-practices"></a>Рекомендации по приложениям Опенкср
 
@@ -59,7 +59,7 @@ ms.locfileid: "115207852"
 
 ### <a name="support-mixed-reality-capture"></a>Поддержка записи смешанной реальности
 
-несмотря на то, что основной дисплей HoloLens 2 использует аддитивное смешение среды, когда пользователь запускает [смешанную запись в реальности](../platform-capabilities-and-apis/mixed-reality-capture-for-developers.md), содержимое отрисовки приложения будет иметь альфа-смешение с потоком видео среды.
+несмотря на то, что основной дисплей HoloLens 2 использует аддитивное смешение среды, когда пользователь запускает [смешанную запись в реальности](../advanced-concepts/mixed-reality-capture-overview.md), содержимое отрисовки приложения будет иметь альфа-смешение с потоком видео среды.
 Для достижения наилучшего визуального качества в видеороликах смешанной реальности лучше установить на `XR_COMPOSITION_LAYER_BLEND_TEXTURE_SOURCE_ALPHA_BIT` уровне проекции `layerFlags` .
 
 ## <a name="best-practices-for-performance-on-hololens-2"></a>Рекомендации по повышению производительности HoloLens 2

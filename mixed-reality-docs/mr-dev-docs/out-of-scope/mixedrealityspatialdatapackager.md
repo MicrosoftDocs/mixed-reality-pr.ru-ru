@@ -2,23 +2,23 @@
 title: Документация по диспетчеру пространственных данных в смешанной реальности
 description: Средство упаковщика пространственных данных Mixed Reality теперь устарело и больше не работает на какой-либо платформе. Вместо этого рекомендуется использовать Диспетчер карт.
 author: hferrone
-ms.author: v-hferrone
+ms.author: v-vtieto
 ms.date: 08/03/2020
 ms.topic: article
 keywords: лбе, MixedRealitySpatialDataPackager.exe, Микседреалитиспатиалдатапаккажер
-ms.openlocfilehash: 914e22c4e80385c93696ebd978000978e1e03f57706d466bdbb3cfcd5843f69e
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 47642198011da0c2d7cad4a7d42c1b51c1ce394c
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115213169"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130154865"
 ---
 # <a name="mixed-reality-spatial-data-packager-documentation"></a>Документация по диспетчеру пространственных данных в смешанной реальности
 
 >[!NOTE]
 > УСТАРЕЛО 
 > 
-> На 8/1/2020 это средство теперь устарело и больше не работает на какой-либо платформе. Вместо этого рекомендуется использовать средство [Map Manager](../develop/platform-capabilities-and-apis/using-the-windows-device-portal.md#map-manager) на портале устройства. 
+> На 8/1/2020 это средство теперь устарело и больше не работает на какой-либо платформе. Вместо этого рекомендуется использовать средство [Map Manager](../develop/advanced-concepts/using-the-windows-device-portal.md#map-manager) на портале устройства. 
 > 
 > Это средство и его операция предлагаются "как есть". оно может быть изменено без уведомления и не будет совместимо с будущими Windows или Windows Mixed Reality хмд выпусках. 
 
@@ -38,7 +38,7 @@ ms.locfileid: "115213169"
     <tr>
         <td><strong>Компонент</strong></td>
         <td><a href="/hololens/hololens1-hardware"><strong>HoloLens (1-го поколения)</strong></a></td>
-        <td><a href="https://docs.microsoft.com/hololens/hololens2-hardware"><strong>HoloLens 2</strong></td>
+        <td><a href="/hololens/hololens2-hardware"><strong>HoloLens 2</strong></td>
         <td><a href="../discover/immersive-headset-hardware-details.md"><strong>Иммерсивные гарнитуры</strong></a></td>
     </tr>
      <tr>
@@ -107,7 +107,7 @@ ms.locfileid: "115213169"
 
 ### <a name="powershell-script-example-usage-and-output"></a>Пример использования и выходные данные сценария PowerShell
 
-.\MRSpatialPackagerHelperScript.ps1-AppName холошелл-UserName (административный режим), Export-Мапкспас Д:\темп\-Локкмап 0
+. \MRSpatialPackagerHelperScript.ps1-AppName холошелл-UserName (административный режим), Export-Мапкспас Д:\темп\-Локкмап 0
 ```
 Package Family Name for holoshell: HoloShell_cw5n1h2txyewy
 User SID for Administrator: S-1-5-21-1279937937-3984375698-1043392598-499

@@ -6,12 +6,12 @@ ms.author: alexturn
 ms.date: 12/9/2020
 ms.topic: article
 keywords: порт, unity, нереал, по промежуточного слоя, подсистема, UWP, Win32, перенос, HoloLens 1-ом, гарнитура смешанной реальности, гарнитура windows mixed reality, миграция, Windows 10, сопоставление входных данных
-ms.openlocfilehash: c8f0ed76fc7288ed406e2044eb2f3edb8982865b5c956f460d2bc1b815e503df
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 4a1fdeab1e59b98eb295add8ef0851601e45dd23
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115213521"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130153275"
 ---
 # <a name="porting-vr-apps-to-windows-mixed-reality"></a>Перенос приложений VR в Windows Mixed Reality
 
@@ -58,7 +58,7 @@ Windows 10 включает поддержку для впечатляющих �
 
 ## <a name="see-also"></a>См. также раздел
 * [Windows Mixed Reality минимальные рекомендации по совместимости оборудования пк](/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines)
-* [Основные сведения о производительности смешанной реальности](../platform-capabilities-and-apis/understanding-performance-for-mixed-reality.md)
+* [Основные сведения о производительности смешанной реальности](../advanced-concepts/understanding-performance-for-mixed-reality.md)
 * [Рекомендации производительности для Unity](../unity/performance-recommendations-for-unity.md)
 * [Контроллеры движения](../../design/motion-controllers.md)
 * [Контроллеры движения в Unity](../unity/motion-controllers-in-unity.md)

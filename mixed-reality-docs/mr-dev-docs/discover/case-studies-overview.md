@@ -1,17 +1,17 @@
 ---
-title: Обзор примера внедрения
+title: Обзор примера
 description: Истории, материалы и опыт работы Группа "смешанная реальность" нашла и жоттед в направлении.
 author: grbury
 ms.author: grbury
 ms.date: 08/24/2019
 ms.topic: overview
 keywords: Windows Mixed Reality, HoloLens, пример внедрения, концепция, сценарии, примеры внедрения, гарнитура смешанной реальности, гарнитура Windows Mixed reality, гарнитура виртуальной реальности
-ms.openlocfilehash: a9a2cc3ed32d6a0f28a639fbbbb468930941e47afc5b8a0d35bb43b2c86144ff
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: ba50648e72500b6ec4851e91efa655f64345b330
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115209949"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130154703"
 ---
 # <a name="case-study-gallery"></a>Коллекция примеров использования
 
@@ -36,11 +36,6 @@ ms.locfileid: "115209949"
 :::row-end:::
 
 :::row:::
-    :::column:::
-       [ ![ Использование плоскости стабилизации для уменьшения holographic турбуленце](images/holotour-stabilization-plane-500px.jpg)](../develop/platform-capabilities-and-apis/case-study-using-the-stabilization-plane-to-reduce-holographic-turbulence.md) **[с помощью плоскости стабилизации, чтобы сократить турбуленце](../develop/platform-capabilities-and-apis/case-study-using-the-stabilization-plane-to-reduce-holographic-turbulence.md)**<br>
-        Работа с голограммами может быть непростой. Тот факт, что вы можете перемещаться вокруг своего пространства и видеть самые голограммы из всех разных углов, обеспечивает уровень погружения, который нельзя получить с помощью обычного экрана компьютера.<br>
-        *Апрель 2017 г.*
-    :::column-end:::
     :::column:::
        [ ![ расширение возможностей пространственного сопоставления HoloLens](images/away-from-camera-position-500px.png)](../out-of-scope/case-study-expanding-the-spatial-mapping-capabilities-of-hololens.md) **[расширение возможностей пространственного сопоставления HoloLens](../out-of-scope/case-study-expanding-the-spatial-mapping-capabilities-of-hololens.md)**<br>
         когда вы создаете наши первые приложения для Microsoft HoloLens, мы с самого начала смогли понять, насколько всего можно было бы передать границы пространственного сопоставления на устройстве.<br>
@@ -162,7 +157,7 @@ ms.locfileid: "115209949"
     :::column:::
        [ ![ Афтернов процесс — выработка, создание прототипов](../out-of-scope/images/whatisenvisioning-640px.png)](../out-of-scope/case-study-afternows-process-envisioning,-prototyping,-building.md) , **[формирование афтернов процессов, создание прототипов, разработка](../out-of-scope/case-study-afternows-process-envisioning,-prototyping,-building.md)**<br>
         В Афтернов мы работаем над тем, чтобы превратить свои идеи и стремлений в конкретные, полностью операционные продукты и готовую среду для рынка. Но прежде чем писать одну строку кода, мы создадим проект с помощью процесса, который называется представлением.<br>
-        *Апрель 2017 г.*
+        *Апрель 2017 г.*
     :::column-end:::
     :::column:::
     :::column-end:::

@@ -6,19 +6,19 @@ ms.author: alexturn
 ms.date: 03/21/2018
 ms.topic: article
 keywords: Unity, точка фокусировки, плоскость фокусировки, стабилизации плоскость, стабилизации точка, репроект, ЛСР, буфер глубины, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 91fba310cf86f145174512c4c1e23d69907d2f57f48f3fe1992b417eb283235f
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 5c8b64714862fa6d7a66f78d6b61ef4d7ee86c9c
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115203596"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130153258"
 ---
 # <a name="focus-point-in-unity"></a>Точка фокусировки в Unity
 
 **Пространство имен:** *UnityEngine. XR. WSA*<br>
 **Тип**: *холографиксеттингс*
 
-используйте [точку фокусировки](../platform-capabilities-and-apis/hologram-stability.md#reprojection) , чтобы предоставить HoloLens с указанием о том, как лучше стабилизировать отображаемые в данный момент голограммы.
+используйте [точку фокусировки](../advanced-concepts/hologram-stability.md#reprojection) , чтобы предоставить HoloLens с указанием о том, как лучше стабилизировать отображаемые в данный момент голограммы.
 
 Если вы хотите задать точку фокусировки в Unity, необходимо задать каждый кадр с помощью *холографиксеттингс. сетфокуспоинтфорфраме ()*. Если точка фокусировки не задана для рамки, используется плоскость стабилизации по умолчанию.
 
@@ -61,10 +61,10 @@ void Update()
 Или сразу перейдите к развертыванию приложения на устройстве или эмуляторе:
 
 > [!div class="nextstepaction"]
-> [развертывание в HoloLens или Windows Mixed Reality впечатляющих головных телефонов](../platform-capabilities-and-apis/using-visual-studio.md)
+> [развертывание в HoloLens или Windows Mixed Reality впечатляющих головных телефонов](../advanced-concepts/using-visual-studio.md)
 
 Вы можете в любой момент вернуться к [этапам разработки для Unity](unity-development-overview.md#3-advanced-features).
 
 ### <a name="see-also"></a>См. также раздел
 
-* [Плоскость стабилизации](../platform-capabilities-and-apis/hologram-stability.md#reprojection)
+* [Плоскость стабилизации](../advanced-concepts/hologram-stability.md#reprojection)

@@ -6,12 +6,12 @@ ms.author: kurtie
 ms.date: 10/22/2019
 ms.topic: article
 keywords: смешанная реальность, Windows Mixed Reality, голограмма, academy, учебник, эмулятор, HoloLens, academy смешанной реальности, unity, гарнитура смешанной реальности, гарнитура Windows Mixed reality, гарнитура виртуальной реальности, Windows 10, взгляните, жесты, речевой ввод, пространственный звук, пространственное сопоставление
-ms.openlocfilehash: 3cbd1fbba8d4dac4a1d3d0ac1b78a38ed7c8bfa5a7f0b5b3b8d61e9a87f924dd
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 12fd9277de36d5639f1f70090a4e679d24da91de
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115200844"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130153237"
 ---
 # <a name="hololens-1st-gen-basics-101e-complete-project-with-emulator"></a>основные сведения о HoloLens (1 gen) основы 101E: завершение проекта с помощью эмулятора
 
@@ -63,7 +63,7 @@ ms.locfileid: "115200844"
 * Создайте голограмму.
 * Ознакомьтесь с созданной голограммой.
 
-### <a name="instructions"></a>Инструкции
+### <a name="instructions"></a>Instructions
 
 * Запустите Unity.
 * Выберите **Открыть**.
@@ -116,7 +116,7 @@ ms.locfileid: "115200844"
 * с помощью верхней панели инструментов в Visual Studio измените целевой объект с отладка на **выпуск** и с ARM на **X86**.
   * щелкните стрелку рядом с кнопкой устройство и выберите **HoloLens Emulator**.
   * Щелкните **Отладка-> начать без отладки** или нажмите клавиши **CTRL + F5**.
-  * Через некоторое время эмулятор начнет работу с проектом Origami. При первом запуске [эмулятора](../../platform-capabilities-and-apis/using-the-hololens-emulator.md)для запуска эмулятора может потребоваться до 15 минут. После запуска не закрывайте его.
+  * Через некоторое время эмулятор начнет работу с проектом Origami. При первом запуске [эмулятора](../../advanced-concepts/using-the-hololens-emulator.md)для запуска эмулятора может потребоваться до 15 минут. После запуска не закрывайте его.
 
 ## <a name="chapter-2---gaze"></a>Глава 2. взгляд
 
@@ -128,7 +128,7 @@ ms.locfileid: "115200844"
 
 * Визуализируйте взгляд с помощью курсора, заблокированного по всему миру.
 
-### <a name="instructions"></a>Инструкции
+### <a name="instructions"></a>Instructions
 
 * вернитесь к проекту Unity и закройте окно Параметры сборки, если оно все еще открыто.
 * выберите папку **Голограммы** на **панели Project**.
@@ -204,7 +204,7 @@ public class WorldCursor : MonoBehaviour
 
 * Контролируйте голограммы с помощью жеста выбора.
 
-### <a name="instructions"></a>Инструкции
+### <a name="instructions"></a>Instructions
 
 Начнем с создания сценария, чем может обнаружить жест выбора.
 
@@ -548,7 +548,7 @@ public class SphereSounds : MonoBehaviour
 * Приведите реальный мир к виртуальному миру.
 * Размещайте голограммы, где это важно.
 
-### <a name="instructions"></a>Инструкции
+### <a name="instructions"></a>Instructions
 
 * щелкните папку **Голограммы** на панели Project.
 * Перетащите ресурс **пространственного сопоставления** в корень **иерархии**.

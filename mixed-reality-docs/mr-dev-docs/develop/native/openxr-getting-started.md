@@ -2,16 +2,16 @@
 title: Начало работы с OpenXR
 description: начните использовать портативный стандарт API опенкср на Windows Mixed Reality и HoloLens 2 гарнитурах.
 author: thetuvix
-ms.author: alexturn
-ms.date: 2/28/2020
+ms.author: v-vtieto
+ms.date: 10/14/2021
 ms.topic: article
 keywords: опенкср, кхронос, басикксрапп, Windows Mixed Reality, опенкср Средства для разработчиков, DirectX, native, собственное приложение, настраиваемое ядро, промежуточное по, начало работы, 101, расширения для предварительного просмотра, версия среды выполнения опенкср, состояние системы
-ms.openlocfilehash: 6d334b491d231ab5987dd1bc6a3eb43f5e0fe30a82c6525bca1935fbf1cd83bb
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: bec707e2a813dcbf6b0471d30c5de71b667b8aa8
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115189159"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130155292"
 ---
 # <a name="getting-started-with-openxr"></a>Начало работы с OpenXR
 
@@ -21,19 +21,19 @@ ms.locfileid: "115189159"
 
 Чтобы приступить к разработке приложений Опенкср для HoloLens 2:
 
-1. настройте HoloLens 2 или следуйте инструкциям по [установке последней версии эмулятора HoloLens 2](../platform-capabilities-and-apis/using-the-hololens-emulator.md). У вас уже должен быть готовый Опенкср 1,0, если вы используете последний образ эмулятора или устройство обновило свою ОС.
+1. настройте HoloLens 2 или следуйте инструкциям по [установке последней версии эмулятора HoloLens 2](../advanced-concepts/using-the-hololens-emulator.md). У вас уже должен быть готовый Опенкср 1,0, если вы используете последний образ эмулятора или устройство обновило свою ОС.
 2. Убедитесь, что у вас установлена последняя версия среды выполнения Опенкср со всеми [расширениями](openxr.md#roadmap) , запустив приложение **магазина** с устройства или эмулятора.
     * Откройте меню в правом верхнем углу, выберите **downloads and Updates (скачать и обновить**) и щелкните **Get Updates (получить обновления**).  
 
 > [!NOTE]
-> если вы используете эмулятор, образ эмулятора будет сброшен при каждом запуске, поэтому лучше всего убедиться, что у вас установлена [последняя версия образа эмулятора HoloLens 2](../platform-capabilities-and-apis/using-the-hololens-emulator.md).
+> если вы используете эмулятор, образ эмулятора будет сброшен при каждом запуске, поэтому лучше всего убедиться, что у вас установлена [последняя версия образа эмулятора HoloLens 2](../advanced-concepts/using-the-hololens-emulator.md).
 
 ## <a name="getting-started-with-openxr-for-windows-mixed-reality-headsets"></a>начало работы с опенкср для головных телефонов Windows Mixed Reality
 
 чтобы приступить к разработке опенкср приложений для Windows Mixed Realityных головных телефонов:
 
 1. убедитесь, что вы используете по крайней мере обновление Windows 10 за май 2019 г. (1903), что является минимальным требованием для Windows Mixed Reality конечным пользователям запускать приложения опенкср.  если вы используете более раннюю версию Windows 10, можно выполнить обновление с помощью <a href="https://www.microsoft.com/software-download/windows10" target="_blank">помощника по обновлению Windows 10</a>.
-2. настройте Windows Mixed Reality гарнитуру или следуйте инструкциям по [включению симулятора Windows Mixed Reality](../platform-capabilities-and-apis/using-the-windows-mixed-reality-simulator.md).
+2. настройте Windows Mixed Reality гарнитуру или следуйте инструкциям по [включению симулятора Windows Mixed Reality](../advanced-concepts/using-the-windows-mixed-reality-simulator.md).
 
 Вот и все!  Windows Mixed Reality среда выполнения опенкср устанавливается и автоматически становится активной для всех пользователей Windows Mixed Reality.  затем Microsoft Store поддерживает обновление среды выполнения.
 
@@ -43,11 +43,11 @@ ms.locfileid: "115189159"
 
 чтобы испытать Windows Mixed Reality среды выполнения опенкср, можно установить <a href="https://www.microsoft.com/store/productId/9n5cvvl23qbt" target="_blank">Средства для разработчиков опенкср для приложения Windows Mixed Reality</a>.  Это приложение предоставляет демонстрацию различных функций Опенкср, а также страницу состояния системы с основными сведениями об активной среде выполнения и текущей гарнитуре.
 
-при использовании эмулятора HoloLens 2 самый простой способ установить Средства для разработчиков опенкср для Windows Mixed Reality — через [портал устройств Windows](../platform-capabilities-and-apis/using-the-windows-device-portal.md). перейдите на страницу "опенкср" и нажмите кнопку "установить" в разделе "функции разработчика", которая также работает на физических HoloLens 2 устройствах.
+при использовании эмулятора HoloLens 2 самый простой способ установить Средства для разработчиков опенкср для Windows Mixed Reality — через [портал устройств Windows](../advanced-concepts/using-the-windows-device-portal.md). перейдите на страницу "опенкср" и нажмите кнопку "установить" в разделе "функции разработчика", которая также работает на физических HoloLens 2 устройствах.
 
 ![Средства для разработчиков опенкср для Windows Mixed Reality приложения](images/mixed-reality-openxr-developer-tools.png)
 
-## <a name="building-a-sample-openxr-app"></a>Создание примера приложения Опенкср
+## <a name="exploring-the-openxr-api-and-sample-app"></a>Изучение API Опенкср и примера приложения
 
 Не забудьте [установить средства](../install-the-tools.md) , необходимые для разработки опенкср, если это еще не сделано.
 
@@ -55,9 +55,11 @@ ms.locfileid: "115189159"
 
 Хотя файлы проекта Win32 и UWP являются отдельными из-за различий в упаковке и развертывании, код приложения внутри каждого проекта практически одинаков.
 
+## <a name="running-your-openxr-app"></a>Запуск приложения Опенкср
+
 После создания Опенкср .EXE Win32 Desktop можно использовать с гарнитурой VR на любой платформе Desktop VR, которая поддерживает Опенкср, независимо от типа гарнитуры.
 
-после создания пакета приложения UWP опенкср можно [развернуть этот пакет](../platform-capabilities-and-apis/using-visual-studio.md) на HoloLens 2 устройстве или HoloLens 2 Emulator.
+после создания пакета приложения UWP опенкср можно [развернуть этот пакет](../advanced-concepts/using-visual-studio.md) на HoloLens 2 устройстве или HoloLens 2 Emulator.
 
 ## <a name="learning-the-openxr-api"></a>Обучение API опенкср
 
@@ -65,7 +67,7 @@ ms.locfileid: "115189159"
 
 >[!VIDEO https://channel9.msdn.com/Shows/Docs-Mixed-Reality/OpenXR-Cross-platform-native-mixed-reality/player?format=ny]
 
-## <a name="integrate-the-openxr-loader-into-a-project"></a>Интеграция загрузчика Опенкср в проект
+## <a name="using-openxr-in-an-existing-project"></a>Использование Опенкср в существующем проекте
 
 Чтобы приступить к работе с Опенкср в существующем проекте, необходимо включить загрузчик Опенкср.  Загрузчик обнаруживает активную среду выполнения Опенкср на устройстве и предоставляет доступ к основным функциям и функциям расширения, которые она реализует.
 

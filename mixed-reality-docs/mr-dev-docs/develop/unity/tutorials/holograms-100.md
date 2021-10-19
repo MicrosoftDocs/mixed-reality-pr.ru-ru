@@ -6,12 +6,12 @@ ms.author: kurtie
 ms.date: 10/22/2019
 ms.topic: article
 keywords: смешанная реальность, Windows Mixed Reality, HoloLens, иммерсивное, vr, mr, начало работы, голограмма, academy, руководство, academy смешанная реальность, unity, "смешанная реальность", гарнитура Windows mixed reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 518be5642304b6307f0b26f30f37315eba4164448493d928f6effb3027f7d611
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 965f0aa473301b9ea0934ff195be06512b80fd2c
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115196513"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130153629"
 ---
 # <a name="hololens-1st-gen-basics-100-getting-started-with-unity"></a>основные сведения о HoloLens (1 gen) основы 100: начало работы с Unity
 
@@ -150,11 +150,11 @@ ms.locfileid: "115196513"
 
 ### <a name="for-hololens-use-unity-remoting"></a>для HoloLens использовать удаленное взаимодействие Unity
 
-1. на HoloLens установите и запустите [проигрыватель holographic remoting](../../platform-capabilities-and-apis/holographic-remoting-player.md), доступный в магазине Windows. Запустите приложение на устройстве, и оно перейдет в состояние ожидания и отобразит IP-адрес устройства. Запишите IP-адрес.
+1. на HoloLens установите и запустите [проигрыватель holographic remoting](../../advanced-concepts/holographic-remoting-player.md), доступный в магазине Windows. Запустите приложение на устройстве, и оно перейдет в состояние ожидания и отобразит IP-адрес устройства. Запишите IP-адрес.
 2. Откройте **окно > XR > с эмуляцией holographic**.
 3. Измените **режим эмуляции** с **нет** на **Удаленный с устройством**.
 4. в поле **удаленный компьютер** введите IP-адрес HoloLens, отмеченный ранее.
-5. Нажмите кнопку **Подключить**.
+5. Нажмите кнопку **Соединить**.
 6. Убедитесь, что **состояние подключения** изменено на зеленый **подключен**.
 7. Теперь можно нажать кнопку **воспроизвести** в редакторе Unity.
 
@@ -204,7 +204,7 @@ ms.locfileid: "115196513"
 2. введите IP-адрес устройства смешанной реальности и измените **режим проверки подлинности** на универсальный (незашифрованный протокол) для HoloLens и **Windows** для других устройств.
 3. Щелкните **отладка > начать без отладки**.
 
-**для HoloLens** при первом развертывании на устройстве необходимо выполнить связывание [с помощью Visual Studio](../../platform-capabilities-and-apis/using-visual-studio.md).
+**для HoloLens** при первом развертывании на устройстве необходимо выполнить связывание [с помощью Visual Studio](../../advanced-concepts/using-visual-studio.md).
 
 ### <a name="deploy-to-mixed-reality-device-over-usb"></a>Развертывание на устройстве смешанной реальности по USB
 
