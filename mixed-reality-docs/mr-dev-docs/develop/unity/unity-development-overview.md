@@ -7,12 +7,12 @@ ms.date: 12/9/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unity, смешанная реальность, разработка, начало работы, новый проект, перенос, возможность, камера, имитация, эмуляция, документация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, что такое виртуальная реальность, что такое дополненная реальность, MRTK, Mixed Reality Toolkit, пространственное сопоставление, речевой ввод, камера с определяемым местоположением, эмулятор, Azure, учебники
-ms.openlocfilehash: f47e37f56f203590a16ec804c4a36a6ac601ec61cb2f3b7dfb69987d411eef15
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 9810b0b61051c244f8702e827a0f1a6eb890d17f
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115202872"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130154931"
 ---
 # <a name="unity-development-for-hololens"></a>Разработка в Unity для HoloLens
 
@@ -77,9 +77,9 @@ Unity — одна из ведущих платформ разработки в
 
 После подготовки голографического проекта Unity к тестированию следующим шагом является экспорт и сборка решения Unity в Visual Studio. С помощью этого решения Visual Studio вы можете запустить приложение одним из трех способов, используя физическое или имитированное устройство. Изучив этот раздел, вы сможете развернуть приложение на любом устройстве или эмуляторе, соответствующем вашим потребностями в разработке.
 
-* [HoloLens или иммерсивная гарнитура Windows Mixed Reality](../platform-capabilities-and-apis/using-visual-studio.md)
-* [эмулятор HoloLens](../platform-capabilities-and-apis/using-the-hololens-emulator.md);
-* [Симулятор иммерсивной гарнитуры Windows Mixed Reality](../platform-capabilities-and-apis/using-the-windows-mixed-reality-simulator.md)
+* [HoloLens или иммерсивная гарнитура Windows Mixed Reality](../advanced-concepts/using-visual-studio.md)
+* [эмулятор HoloLens](../advanced-concepts/using-the-hololens-emulator.md);
+* [Симулятор иммерсивной гарнитуры Windows Mixed Reality](../advanced-concepts/using-the-windows-mixed-reality-simulator.md)
 
 ## <a name="5-adding-services"></a>5. Добавление служб
 
@@ -103,7 +103,7 @@ Unity — одна из ведущих платформ разработки в
 
 * [Перенос из HoloToolkit/MRTK в MRTK v2](../porting-apps/porting-hl1-hl2.md)
 * [Руководство по переносу для иммерсивных приложений](../porting-apps/porting-guides.md)
-* [Руководство по переносу логики ввода](../platform-capabilities-and-apis/using-the-windows-mixed-reality-simulator.md)
+* [Руководство по переносу логики ввода](../advanced-concepts/using-the-windows-mixed-reality-simulator.md)
 
 ### <a name="tutorials"></a>Учебники
 

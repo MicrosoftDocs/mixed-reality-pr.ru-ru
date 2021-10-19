@@ -2,17 +2,17 @@
 title: 1. Начало работы
 description: Часть 1 (из 6) серии руководств по созданию приложения для игры в шахматы с помощью Unreal Engine 4 и подключаемого модуля Mixed Reality UX Tools
 author: hferrone
-ms.author: v-hferrone
+ms.author: v-vtieto
 ms.date: 06/10/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, учебник, начало работы, MRTK, UXT, UX Tools, документация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 26493f48418e36c2441eada17a764dc18d73e90bf34e0c35b4412e7a38c9fe41
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 4e52a18a9bcdb7450a6ed5ae921fc59ca290106c
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115226691"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130155677"
 ---
 # <a name="1-getting-started"></a>1. Начало работы
 
@@ -33,7 +33,7 @@ ms.locfileid: "115226691"
 * Windows 10 1809 или более поздней версии.
 * Пакет SDK для Windows 10 версии 10.0.18362.0 и выше.
 * [Unreal Engine](https://www.unrealengine.com/en-US/get-now) 4.26 или более поздней версии
-* Устройство Microsoft HoloLens 2, [настроенное для разработки](../../platform-capabilities-and-apis/using-visual-studio.md#enabling-developer-mode), или [эмулятор](../../platform-capabilities-and-apis/using-the-hololens-emulator.md#hololens-2-emulator-overview).
+* Устройство Microsoft HoloLens 2, [настроенное для разработки](../../advanced-concepts/using-visual-studio.md#enabling-developer-mode), или [эмулятор](../../advanced-concepts/using-the-hololens-emulator.md#hololens-2-emulator-overview).
 * Visual Studio 2019 с указанными ниже рабочими нагрузками
 
 ### <a name="installing-visual-studio-2019"></a>Установка Visual Studio 2019

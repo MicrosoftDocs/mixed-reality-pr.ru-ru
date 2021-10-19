@@ -7,12 +7,12 @@ ms.date: 12/11/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unity, смешанная реальность, разработка, начало работы, новый проект, перенос, возможность, камера, имитация, эмуляция, документация, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, что такое виртуальная реальность, что такое дополненная реальность, MRTK, Mixed Reality Toolkit, голосовой ввод, камера с определяемым местоположением, эмулятор, Azure, руководства
-ms.openlocfilehash: 74ac1825d8b94ba65075ef96244759ec0c8dcf1891556e0a1f36f100b9615221
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 55ec786021a59ff4efd5132a3472bb1aef9e676f
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115211692"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130154610"
 ---
 # <a name="unity-development-for-vr-and-windows-mixed-reality"></a>Разработка в Unity для виртуальной реальности и Windows Mixed Reality
 
@@ -65,8 +65,8 @@ ms.locfileid: "115211692"
 
 После подготовки голографического проекта Unity к тестированию следующим шагом является экспорт и сборка решения Unity в Visual Studio. С помощью этого решения Visual Studio вы можете запустить приложение, используя физическое или имитированное устройство. Изучив этот раздел, вы сможете развернуть приложение на любом устройстве или эмуляторе, соответствующем вашим потребностями в разработке.
 
-* [Иммерсивная гарнитура Windows Mixed Reality](../platform-capabilities-and-apis/using-visual-studio.md)
-* [Симулятор иммерсивной гарнитуры Windows Mixed Reality](../platform-capabilities-and-apis/using-the-windows-mixed-reality-simulator.md)
+* [Иммерсивная гарнитура Windows Mixed Reality](../advanced-concepts/using-visual-studio.md)
+* [Симулятор иммерсивной гарнитуры Windows Mixed Reality](../advanced-concepts/using-the-windows-mixed-reality-simulator.md)
 
 ## <a name="whats-next"></a>Дальнейшие действия
 

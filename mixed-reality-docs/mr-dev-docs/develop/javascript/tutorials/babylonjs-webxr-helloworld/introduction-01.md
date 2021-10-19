@@ -1,18 +1,18 @@
 ---
 title: Руководства по началу работы с babylon.js и WebXR
 description: Пройдите этот курс, чтобы узнать, как использовать babylon.js и создавать базовое приложение смешанной реальности.
-author: bogenera
+author: vtieto
 ms.author: ayyonet
 ms.date: 03/05/2021
 ms.topic: article
 keywords: смешанная реальность, javascript, учебник, BabylonJS, hololens, mixed reality, UWP, Windows 10, WebXR, иммерсивное веб-приложение
 ms.localizationpriority: high
-ms.openlocfilehash: e2006e911ad9dae00252c929c7739ff2209f4bf7796f1c49e713cfaf53267cd2
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: c733cca2ed9cf60e8d0ea8bf8692fbb22ef72292
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115196828"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130155050"
 ---
 # <a name="tutorial-create-your-first-webxr-application-using-babylonjs"></a>Руководство. Создание первого приложения WebXR с помощью babylon.js
 
@@ -31,7 +31,7 @@ ms.locfileid: "115196828"
 * [Babylon.js](https://doc.babylonjs.com/divingDeeper/developWithBjs/frameworkVers) 4.2 или более поздней версии
 * [NodeJS](https://nodejs.org/)
 * Необязательно: [Windows 10 Creators Update](https://www.microsoft.com/software-download/windows10), если вы хотите использовать симулятор Windows Mixed Reality
-* Необязательно: [симулятор Windows Mixed Reality](../../../platform-capabilities-and-apis/using-the-windows-mixed-reality-simulator.md)
+* Необязательно: [симулятор Windows Mixed Reality](../../../advanced-concepts/using-the-windows-mixed-reality-simulator.md)
 
 ## <a name="getting-started"></a>Начало работы
 

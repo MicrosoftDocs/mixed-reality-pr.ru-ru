@@ -8,12 +8,12 @@ ms.topic: tutorial
 ms.date: 09/10/2021
 keywords: смешанная реальность, javascript, учебник, BabylonJS, hololens, mixed reality, UWP, Windows 10, WebXR, иммерсивное веб-приложение
 ms.localizationpriority: high
-ms.openlocfilehash: 8f995d618398fef56ce42d6c3e9863256627bf75
-ms.sourcegitcommit: 645608f33d2d02625484c29586f42d21c442aaa9
+ms.openlocfilehash: 3476a7abdef062f62b4fa92c268bd2d50bcafc2a
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "127932430"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130154105"
 ---
 # <a name="tutorial-play-the-3d-piano"></a>Учебник. Игра на трехмерном пианино
 
@@ -324,7 +324,7 @@ const createScene = async function(engine) {
 
 Теперь вы уже, наверное, поиграли на пианино с помощью мышки (или даже сенсорного экрана) после добавления интерактивных функций. В этом разделе мы перейдем к иммерсивному пространству виртуальной реальности.
 
-1. Чтобы открыть страницу в иммерсивной гарнитуре виртуальной реальности, сначала подключите гарнитуру к компьютеру разработки и обязательно [настройте ее для использования в приложении Windows Mixed Reality](/enthusiast-guide/set-up-windows-mixed-reality). Если вы используете симулятор Windows Mixed Reality, [обязательно включите его](../../../platform-capabilities-and-apis/using-the-windows-mixed-reality-simulator.md).
+1. Чтобы открыть страницу в иммерсивной гарнитуре виртуальной реальности, сначала подключите гарнитуру к компьютеру разработки и обязательно [настройте ее для использования в приложении Windows Mixed Reality](/enthusiast-guide/set-up-windows-mixed-reality). Если вы используете симулятор Windows Mixed Reality, [обязательно включите его](../../../advanced-concepts/using-the-windows-mixed-reality-simulator.md).
 
 1. Теперь вы увидите кнопку иммерсивной виртуальной реальности в правом нижнем углу веб-страницы. Щелкните ее, и вы сможете увидеть пианино на подключенном устройстве смешанной реальности.
 

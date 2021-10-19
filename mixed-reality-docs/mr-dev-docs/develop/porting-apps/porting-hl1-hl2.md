@@ -7,12 +7,12 @@ ms.date: 12/9/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Windows Mixed Reality, тестирование, MRTK, MRTK версии 2, HoloLens 2, Unity, перенос, 1-е поколение, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, миграция, рекомендации, ARM
-ms.openlocfilehash: f7a70a8bd5a6d11d6502b431b17bbd3391d24ce4e19f0a842503ccae834589fa
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 16f07eb6fb8fc07b9c1b20c2aecab05bf4915f75
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115219293"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130154650"
 ---
 # <a name="porting-hololens-1st-gen-apps-to-hololens-2"></a>Перенос приложений HoloLens (1-го поколения) в HoloLens 2
 
@@ -143,4 +143,4 @@ ms.locfileid: "115219293"
 * [MRTK: домашняя страница документации](/windows/mixed-reality/mrtk-unity)
 * [Перенос из HoloToolkit/MRTK в MRTK версии 2](/windows/mixed-reality/mrtk-unity/updates-deployment/htk-to-mrtk-porting-guide)
 * [Рекомендуемые параметры для Unity](../unity/recommended-settings-for-unity.md)
-* [Understanding performance for Mixed Reality](../platform-capabilities-and-apis/understanding-performance-for-mixed-reality.md) (Основные сведения о производительности для Смешанной реальности)
+* [Understanding performance for Mixed Reality](../advanced-concepts/understanding-performance-for-mixed-reality.md) (Основные сведения о производительности для Смешанной реальности)

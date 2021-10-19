@@ -7,12 +7,12 @@ ms.date: 12/9/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, разработка, функции, документация, руководства, голограммы, камера, фото-/видеокамера, MRC, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 14c93433909289503e890c25e3636c65525d18ab73f49b27eab50988472151ff
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 68b595b3d670f7cb56d3f4786ddc474d8fee52b6
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115207562"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130155933"
 ---
 # <a name="hololens-photovideo-camera-in-unreal"></a>Фото- и видеокамера HoloLens в Unreal
 
@@ -39,5 +39,5 @@ ms.locfileid: "115207562"
 
 ## <a name="see-also"></a>См. также статью
 
-* [Камера с определяемым местоположением](../platform-capabilities-and-apis/locatable-camera.md)
-* [Съемка смешанной реальности для разработчиков](../platform-capabilities-and-apis/mixed-reality-capture-for-developers.md)
+* [Камера с определяемым местоположением](../advanced-concepts/locatable-camera-overview.md)
+* [Съемка смешанной реальности для разработчиков](../advanced-concepts/mixed-reality-capture-overview.md)

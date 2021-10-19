@@ -7,12 +7,12 @@ ms.date: 6/7/2021
 ms.topic: article
 keywords: смешанная реальность, unity, руководство, hololens, обучение, примеры, mrtk, режим исследований, hololens 2, qr-коды, webrtc, запись смешанной реальности, удаленное взаимодействие, средства пользовательского интерфейса
 ms.localizationpriority: high
-ms.openlocfilehash: 1c713604f3a73620c4b7314afe7b70e0b2a59bef1c4e0ae0482c7f0143c38e71
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 8e635910c5d6692c3a5a350a0b4509e85f2bee4e
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115227676"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130154783"
 ---
 # <a name="samples-and-feature-apps"></a>Примеры приложений и возможностей
 
@@ -47,8 +47,8 @@ ms.locfileid: "115227676"
 
 | Справочная статья | Пример приложения |
 | --- | --- |
-| [Режим исследования](platform-capabilities-and-apis/research-mode.md) | [HoloLens (1-го поколения)](https://github.com/microsoft/HoloLensForCV/tree/master/Samples) |
-| [Режим исследования](platform-capabilities-and-apis/research-mode.md) | [HoloLens 2](https://github.com/microsoft/HoloLens2ForCV/tree/main/Samples) |
+| [Режим исследования](advanced-concepts/research-mode.md) | [HoloLens (1-го поколения)](https://github.com/microsoft/HoloLensForCV/tree/master/Samples) |
+| [Режим исследования](advanced-concepts/research-mode.md) | [HoloLens 2](https://github.com/microsoft/HoloLens2ForCV/tree/main/Samples) |
 
 ### <a name="qr-codes"></a>QR-коды
 
@@ -58,7 +58,7 @@ HoloLens 2 может обнаруживать QR-коды в среде вок�
 
 | Справочная статья | Образец |
 | --- | --- |
-| [QR-коды](platform-capabilities-and-apis/qr-code-tracking.md) | [Отслеживание QR-кодов в Unity](https://github.com/microsoft/MixedReality-QRCode-Sample) |
+| [QR-коды](advanced-concepts/qr-code-tracking-overview.md) | [Отслеживание QR-кодов в Unity](https://github.com/microsoft/MixedReality-QRCode-Sample) |
 
 ### <a name="scene-understanding"></a>Интерпретация сцены
 
@@ -88,7 +88,7 @@ HoloLens 2 может обнаруживать QR-коды в среде вок�
 
 | Справочная статья | Образец |
 | --- | --- |
-| [Съемка смешанной реальности](platform-capabilities-and-apis/mixed-reality-capture-for-developers.md) | [Примеры для приложения "Съемка смешанной реальности"](/samples/microsoft/windows-universal-samples/holographicmixedrealitycapture/) |
+| [Съемка смешанной реальности](advanced-concepts/mixed-reality-capture-overview.md) | [Примеры для приложения "Съемка смешанной реальности"](/samples/microsoft/windows-universal-samples/holographicmixedrealitycapture/) |
 
 ### <a name="holographic-remoting"></a>Голографическое удаленное взаимодействие
 
@@ -98,4 +98,4 @@ Holographic Remoting Player — это дополнительное прило�
 
 | Справочная статья | Образец |
 | --- | --- |
-| [Голографическое удаленное взаимодействие](platform-capabilities-and-apis/holographic-remoting-player.md) | [Примеры голографического удаленного взаимодействия](https://github.com/microsoft/MixedReality-HolographicRemoting-Samples) |
+| [Голографическое удаленное взаимодействие](advanced-concepts/holographic-remoting-player.md) | [Примеры голографического удаленного взаимодействия](https://github.com/microsoft/MixedReality-HolographicRemoting-Samples) |

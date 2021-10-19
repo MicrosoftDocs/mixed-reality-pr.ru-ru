@@ -10,27 +10,27 @@ keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанна
 appliesto:
 - HoloLens
 - HoloLens 2
-ms.openlocfilehash: 091f0876c37756fad47d2d78520adbd526aab24d
-ms.sourcegitcommit: 71c2a4884bd83599e35dd894771a5e43e951b574
+ms.openlocfilehash: 47246c63c99500dc45cf1e4b94cea03d9edeb20d
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "128184638"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130155267"
 ---
 # <a name="streaming-in-unreal"></a>Потоковая передача в Unreal
 
-Иногда "потоковая передача" называется "голографическим удаленным взаимодействием." Дополнительные сведения см. в статье [Обзор голографического удаленного взаимодействия](../platform-capabilities-and-apis/holographic-remoting-overview.md).
+Иногда "потоковая передача" называется "голографическим удаленным взаимодействием." Дополнительные сведения см. в статье [Обзор голографического удаленного взаимодействия](../advanced-concepts/holographic-remoting-overview.md).
 
 Потоковая передача с компьютера в HoloLens обеспечивает два основных преимущества: 
 * Ваше приложение смешанной реальности может использовать вычислительные мощности компьютера. 
 * Ускоренная итерация разработки. 
 
-Чтобы приступить к работе, скачайте [Holographic Remoting Player](../platform-capabilities-and-apis/holographic-remoting-player.md) на устройство HoloLens. Holographic Remoting Player позволит вашему приложению передавать данные в потоковом режиме непосредственно на проигрыватель удаленного взаимодействия на HoloLens из следующих источников:
+Чтобы приступить к работе, скачайте [Holographic Remoting Player](../advanced-concepts/holographic-remoting-player.md) на устройство HoloLens. Holographic Remoting Player позволит вашему приложению передавать данные в потоковом режиме непосредственно на проигрыватель удаленного взаимодействия на HoloLens из следующих источников:
 
 * редактор Unreal Engine;
 * упакованный исполняемый файл Windows. 
 
-При потоковой передаче вы получаете доступ практически ко всем возможностям HoloLens, которые можно использовать при запуске приложения на устройстве. К ним относятся [отслеживание суставов рук](unreal-hand-tracking.md), если вы используете HoloLens 2, [пространственное картирование](unreal-spatial-mapping.md) и [пространственные привязки](unreal-spatial-anchors.md). Но при этом недоступны функции из этого [списка](../platform-capabilities-and-apis/holographic-remoting-troubleshooting.md). 
+При потоковой передаче вы получаете доступ практически ко всем возможностям HoloLens, которые можно использовать при запуске приложения на устройстве. К ним относятся [отслеживание суставов рук](unreal-hand-tracking.md), если вы используете HoloLens 2, [пространственное картирование](unreal-spatial-mapping.md) и [пространственные привязки](unreal-spatial-anchors.md). Но при этом недоступны функции из этого [списка](../native/holographic-remoting-troubleshooting.md). 
 
 > [!NOTE]
 > * Качество потоковой передачи в значительной степени зависит от уровня сигнала вашей беспроводной сети.
@@ -55,7 +55,7 @@ Unreal 4.26 на OpenXR поддерживает потоковую переда
     <tr>
         <td><strong>Источник</strong></td>
         <td><a href="/hololens/hololens1-hardware"><strong>HoloLens первого поколения</strong></a></td>
-        <td><a href="https://www.microsoft.com/hololens/hardware"><strong>HoloLens 2</strong></a></td>
+        <td><a href="/hololens/hardware"><strong>HoloLens 2</strong></a></td>
         <td><strong>Иммерсивные гарнитуры</strong></td>
     </tr>
      <tr>
@@ -95,7 +95,7 @@ Unreal 4.26 на OpenXR поддерживает потоковую переда
 > Имя приложения в параметрах проекта должно быть автоматически использовано для создания пакета Windows. Если по какой-либо причине имена отличаются, используйте имя исполняемого файла Windows в командной строке.
 
 > [!NOTE]
-> Если отслеживание глаз не работает при потоковой передаче из упакованного исполняемого файла, отключите любые другие плагины с устройствами отслеживания глаз (например, Magic Leap), которые поддерживаются компьютером, или запустите приложение из командной строки с соответствующим аргументом отслеживания глаз (см. [параметры командной строки](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unreal/unreal-streaming?tabs=wmr#command-line-options)).
+> Если отслеживание глаз не работает при потоковой передаче из упакованного исполняемого файла, отключите любые другие плагины с устройствами отслеживания глаз (например, Magic Leap), которые поддерживаются компьютером, или запустите приложение из командной строки с соответствующим аргументом отслеживания глаз (см. [параметры командной строки](/mixed-reality/develop/unreal/unreal-streaming?tabs=wmr#command-line-options)).
 
 Нажмите клавишу ВВОД, и ваше приложение начнет потоковую передачу.
 
@@ -107,6 +107,6 @@ Unreal 4.26 на OpenXR поддерживает потоковую переда
 
 ## <a name="see-also"></a>См. также статью
 
-* [История версий голографического удаленного взаимодействия](../platform-capabilities-and-apis/holographic-remoting-version-history.md)
-* [Создание пользовательского проигрывателя для голографического удаленного взаимодействия](../platform-capabilities-and-apis/holographic-remoting-create-player.md)
-* [Установка безопасного подключения с использованием голографического удаленного взаимодействия](../platform-capabilities-and-apis/holographic-remoting-secure-connection.md)
+* [История версий голографического удаленного взаимодействия](../native/holographic-remoting-version-history.md)
+* [Создание пользовательского проигрывателя для голографического удаленного взаимодействия](../native/holographic-remoting-create-player.md)
+* [Установка безопасного подключения с использованием голографического удаленного взаимодействия](../native/holographic-remoting-secure-connection.md)

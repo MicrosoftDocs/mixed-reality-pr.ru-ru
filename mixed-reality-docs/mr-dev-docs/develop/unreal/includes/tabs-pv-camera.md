@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 45b171d3d5856dd17f9223d945a1d0fd46326600b3ed65bc4198c6da5fa524f9
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: b4c401459dadd2843e0bb212c268514699af3364
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115207589"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130155897"
 ---
 # <a name="426"></a>[4.26](#tab/426) 
 
@@ -185,14 +185,14 @@ void ACamCapture::Tick(float DeltaTime)
 
 Системные и пользовательские средства MRC выполняют съемку смешанной реальности, совмещая изображение с фотовидеокамеры и голограммы, которые отрисовываются приложением.
 
-По умолчанию для съемки смешанной реальности используется голографический вывод правого глаза. В иммерсивном приложении вместо этого можно выбрать [отрисовку с фотовидеокамеры](../../platform-capabilities-and-apis/mixed-reality-capture-for-developers.md#render-from-the-pv-camera-opt-in). Это улучшает соответствие между реальным миром и голограммами в видео MRC.
+По умолчанию для съемки смешанной реальности используется голографический вывод правого глаза. В иммерсивном приложении вместо этого можно выбрать [отрисовку с фотовидеокамеры](../../advanced-concepts/mixed-reality-capture-overview.md#render-from-the-pv-camera-opt-in). Это улучшает соответствие между реальным миром и голограммами в видео MRC.
 
 Чтобы включить отрисовку с фотовидеокамеры, сделайте следующее:
 
 1. Вызовите функции **SetEnabledMixedRealityCamera** и **ResizeMixedRealityCamera**.
     * Задайте размеры видеоизображения с помощью параметров **Size X** (Размер по X) и **Size Y** (Размер по Y).
 
-![Третья камера](../../platform-capabilities-and-apis/images/unreal-camera-3rd.PNG)
+![Третья камера](../images/unreal-camera-3rd.PNG)
 
 После этого Unreal будет обрабатывать запросы от MRC на отрисовку с точки зрения фото- и видеокамеры.
 

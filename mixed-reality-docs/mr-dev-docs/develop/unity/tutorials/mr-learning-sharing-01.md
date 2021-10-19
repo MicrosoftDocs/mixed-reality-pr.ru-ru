@@ -7,12 +7,12 @@ ms.date: 02/05/2021
 ms.topic: article
 keywords: смешанная реальность, Unity, учебник, HoloLens, многопользовательские возможности, Photon, MRTK, Mixed Reality Toolkit, UWP, Пространственные привязки Azure
 ms.localizationpriority: high
-ms.openlocfilehash: 3db488cc31d6ef7746aae67b3a84c42dc91985b586e907d2172346fe0952876f
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: ea9bbd01caa1676b45ea3f329f2c94a8a87eb6f2
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115197698"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130154944"
 ---
 # <a name="1-introduction-to-the-multi-user-capabilities-tutorials"></a>1. Введение в руководства по многопользовательским возможностям
 
@@ -36,7 +36,7 @@ ms.locfileid: "115197698"
 
 * Компьютер с Windows 10, настроенный с помощью требуемых [установленных инструментов](../../install-the-tools.md).
 * Пакет SDK для Windows 10 версии 10.0.18362.0 и выше.
-* Устройство HoloLens 2, [настроенное для разработки](../../platform-capabilities-and-apis/using-visual-studio.md#enabling-developer-mode).
+* Устройство HoloLens 2, [настроенное для разработки](../../advanced-concepts/using-visual-studio.md#enabling-developer-mode).
 * <a href="https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html" target="_blank">Unity Hub</a> с Unity 2020 LTS и модулем поддержки сборки универсальной платформы Windows.
 * Выполненные инструкции из раздела [Создание ресурса Пространственных привязок](/azure/spatial-anchors/quickstarts/get-started-unity-hololens#create-a-spatial-anchors-resource) статьи [Краткое руководство. Создание приложения Unity HoloLens, которое использует Пространственные привязки Azure](/azure/spatial-anchors/quickstarts/get-started-unity-hololens).
 * Знакомство с серией [руководств по началу работы](mr-learning-base-01.md) или базовый опыт работы с Unity и MRTK.

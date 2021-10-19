@@ -7,16 +7,16 @@ ms.date: 5/5/2020
 ms.topic: article
 ms.localizationpriority: high
 keywords: Unreal, Unreal Engine 4, UE4, HoloLens, HoloLens 2, смешанная реальность, производительность, оптимизация, параметры, документация
-ms.openlocfilehash: 83d3f5ba95f313f286d6d5266c846a7c2dd6d84ce8685bdb3783fa5109645eb5
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 547acda964aaab02d73e9586dde76931e3fa516d
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115216483"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130155880"
 ---
 # <a name="performance-recommendations-for-unreal"></a>Рекомендации по производительности для Unreal
 
-В Unreal Engine есть несколько функций, которые могут [повысить производительность приложений](../platform-capabilities-and-apis/understanding-performance-for-mixed-reality.md) для смешанной реальности. Прежде чем продолжать, рекомендуется прочесть о факторах, ограничивающих производительность приложения, анализе и профилировании приложений смешанной реальности, а также общих настройках, повышающих производительность.
+В Unreal Engine есть несколько функций, которые могут [повысить производительность приложений](../advanced-concepts/understanding-performance-for-mixed-reality.md) для смешанной реальности. Прежде чем продолжать, рекомендуется прочесть о факторах, ограничивающих производительность приложения, анализе и профилировании приложений смешанной реальности, а также общих настройках, повышающих производительность.
 
 ## <a name="recommended-unreal-project-settings"></a>Рекомендуемые параметры для проекта Unreal
 
