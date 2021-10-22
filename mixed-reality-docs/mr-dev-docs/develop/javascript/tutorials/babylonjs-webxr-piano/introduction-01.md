@@ -1,19 +1,19 @@
 ---
 title: Создание пианино в WebXR с помощью BabylonJS
 description: Изучите эту серию учебников, чтобы узнать, как создать работающую клавиатуру пианино с 88 клавишами в WebXR с помощью BabylonJS.
-author: JING1201
-ms.author: v-vtieto
+author: vtieto
+ms.author: ayyonet
 ms.prod: mixed-reality
 ms.topic: tutorial
 ms.date: 09/10/2021
 keywords: смешанная реальность, javascript, учебник, BabylonJS, hololens, mixed reality, UWP, Windows 10, WebXR, иммерсивное веб-приложение
 ms.localizationpriority: high
-ms.openlocfilehash: 93a3896b081e736bb62bceb6c8ae609685d7c5b5
-ms.sourcegitcommit: 645608f33d2d02625484c29586f42d21c442aaa9
+ms.openlocfilehash: 5b348eb1f646c0db2bd606c2e4808a773ba33f7c
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "127932498"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130155228"
 ---
 # <a name="tutorial-build-a-piano-in-webxr-using-babylonjs"></a>Учебник. Создание пианино в WebXR с помощью Babylon.js
 
@@ -36,7 +36,7 @@ ms.locfileid: "127932498"
 * [Учебник по Hello World на JavaScript в WebXR](../babylonjs-webxr-helloworld/introduction-01.md)
 * Браузер с поддержкой WebXR, например [Microsoft Edge](../../../../whats-new/new-microsoft-edge.md)
 * [Babylon.js](https://doc.babylonjs.com/divingDeeper/developWithBjs/frameworkVers) 4.2 или более поздней версии
-* Любая [гарнитура виртуальной реальности](../../../../discover/immersive-headset-hardware-details.md) или [симулятор Windows Mixed Reality](../../../platform-capabilities-and-apis/using-the-windows-mixed-reality-simulator.md).
+* Любая [гарнитура виртуальной реальности](../../../../discover/immersive-headset-hardware-details.md) или [симулятор Windows Mixed Reality](../../../advanced-concepts/using-the-windows-mixed-reality-simulator.md).
 * Необязательно: [Windows 10 Creators Update](https://www.microsoft.com/software-download/windows10), если вы хотите использовать симулятор Windows Mixed Reality
 
 ## <a name="getting-started"></a>Начало работы

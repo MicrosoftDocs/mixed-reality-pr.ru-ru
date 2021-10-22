@@ -1,18 +1,18 @@
 ---
 title: Обзор и цели учебника
-description: В рамках этого курса вы узнаете, как реализовать функцию распознавания лиц Azure в приложении смешанной реальности.
+description: Обзор курса, в рамках которого вы узнаете, как реализовать функцию распознавания лиц Azure в приложении смешанной реальности.
 author: jessemcculloch
 ms.author: jemccull
 ms.date: 02/26/2019
 ms.topic: article
 keywords: mixed reality, unity, tutorial, hololens
 ms.localizationpriority: high
-ms.openlocfilehash: 4d8afb841fa9f45befe01c0e5ea6f9128c0b5baa6171d1dab2f8daa8bd99cd0d
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: e641c851dfa113e51a6800d151485325d89ede29
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115195836"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130154396"
 ---
 # <a name="1-overview-and-objectives"></a>1. Общие сведения и цели
 
@@ -46,7 +46,7 @@ ms.locfileid: "115195836"
 * Компьютер с Windows 10, настроенный с помощью требуемых [установленных инструментов](../../install-the-tools.md).
 * Пакет SDK для Windows 10 версии 10.0.18362.0 и выше.
 * Базовые навыки программирования на C#.
-* Устройство HoloLens 2, [настроенное для разработки](../../platform-capabilities-and-apis/using-visual-studio.md#enabling-developer-mode).
+* Устройство HoloLens 2, [настроенное для разработки](../../advanced-concepts/using-visual-studio.md#enabling-developer-mode).
 * <a href="https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html" target="_blank">Unity Hub</a> с Unity 2019.2.X и модулем поддержки сборки универсальной платформы Windows.
 
 > [!IMPORTANT]

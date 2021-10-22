@@ -7,12 +7,12 @@ ms.date: 03/05/2021
 ms.topic: article
 keywords: смешанная реальность, javascript, учебник, BabylonJS, hololens, mixed reality, UWP, Windows 10, WebXR, иммерсивное веб-приложение
 ms.localizationpriority: high
-ms.openlocfilehash: 9aa044789c5d9d331677206dbc7ef7170bfa592075819ae73bd46aa14116122a
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 5d156f50125473ce2055bc0095842f89a3ce9853
+ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115196926"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130153389"
 ---
 # <a name="tutorial-interact-with-3d-object"></a>Руководство. Взаимодействие с трехмерным объектом
 
@@ -273,7 +273,7 @@ ms.locfileid: "115196926"
 
 ## <a name="run-on-a-windows-mixed-reality-simulator"></a>Запуск в симуляторе Windows Mixed Reality
 
-1. [Включите симулятор Windows Mixed Reality](../../../platform-capabilities-and-apis/using-the-windows-mixed-reality-simulator.md), если вы еще не сделали это в прошлом.
+1. [Включите симулятор Windows Mixed Reality](../../../advanced-concepts/using-the-windows-mixed-reality-simulator.md), если вы еще не сделали это в прошлом.
 
 1. Нажмите кнопку режима иммерсивной виртуальной реальности в правом нижнем углу: ![Immersive VR Button](../images/immersive-vr-button.png).
 
@@ -331,3 +331,5 @@ ms.locfileid: "115196926"
 > * Запуск и тестирование приложения в симуляторе Windows Mixed Reality
 
 Дополнительные сведения о разработке JavaScript в смешанной реальности см. в статье [Общие сведения о разработке JavaScript](/javascript-development-overview.md).
+
+Если вам нужен другой учебник по babylon.js, см. [серию учебников по созданию пианино](../babylonjs-webxr-piano/introduction-01.md), в которой описывается, как создать пианино в пространстве виртуальной реальности с помощью babylon.js.

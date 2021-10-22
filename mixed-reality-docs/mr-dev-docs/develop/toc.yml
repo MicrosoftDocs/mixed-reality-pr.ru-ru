@@ -1,27 +1,15 @@
-- name: Введение в разработку приложений смешанной реальности
+- name: Начало работы
   items:
-    - name: Начало работы
+    - name: Введение в разработку приложений смешанной реальности
       href: development.md
     - name: Установка инструментов
       href: install-the-tools.md
     - name: Выбор движка
       href: choosing-an-engine.md
-- name: Обзор облачных служб смешанной реальности Azure
-  href: mixed-reality-cloud-services.md
-- name: Примеры приложений и возможностей
-  href: features-and-samples.md
-- name: Перенос приложений
-  items:
-    - name: Общие сведения о переносе
-      href: porting-apps/porting-overview.md
-    - name: Перенос приложений HoloLens (1-го поколения) в HoloLens 2
-      href: porting-apps/porting-hl1-hl2.md
-    - name: Перенос приложений VR в Windows Mixed Reality
-      href: porting-apps/porting-guides.md
-    - name: Обновление приложений SteamVR для Windows Mixed Reality
-      href: porting-apps/updating-your-steamvr-application-for-windows-mixed-reality.md
-    - name: 'Обновление приложений UWP, работающих в двухмерном режиме, для Windows Mixed Reality'
-      href: porting-apps/building-2d-apps.md
+    - name: Обзор облачных служб смешанной реальности Azure
+      href: mixed-reality-cloud-services.md
+    - name: Примеры приложений и возможностей
+      href: features-and-samples.md
 - name: Unity
   items:
     - name: Разработка в Unity для HoloLens
@@ -134,6 +122,8 @@
           items:
             - name: Контроллеры движений
               href: unity/motion-controllers-in-unity.md
+            - name: "Контроллеры HP\_Reverb\_G2"
+              href: unity/unity-reverb-g2-controllers.md
             - name: Жесты
               href: unity/gestures-in-unity.md
             - name: Отслеживание рук и взгляда
@@ -144,22 +134,28 @@
               href: unity/voice-input-in-unity.md
         - name: Текст
           href: unity/text-in-unity.md
+        - name: Интерпретация сцены
+          href: unity/scene-understanding-sdk.md
         - name: пространственное сопоставление
           href: unity/spatial-mapping-in-unity.md
         - name: пространственный звук
           href: unity/spatial-sound-in-unity.md
-        - name: Интерпретация сцены
-          href: unity/scene-understanding-sdk.md
     - name: Дополнительные функции
       items:
         - name: Фото- и видеокамера
           href: unity/locatable-camera-in-unity.md
         - name: точка фокусировки;
           href: unity/focus-point-in-unity.md
+        - name: Смешанный захват реальности
+          href: unity/mixed-reality-capture-unity.md
         - name: потеря слежения;
           href: unity/tracking-loss-in-unity.md
         - name: Ввод с клавиатуры
           href: unity/keyboard-input-in-unity.md
+        - name: Стабильность голограммы
+          href: unity/hologram-stability-unity.md
+        - name: Справочные материалы по API отслеживания QR-кодов
+          href: unity/qr-code-tracking-unity.md
         - name: Пакеты UDP в приложениях UWP
           href: unity/udp-packets-in-unity.md
         - name: Использование пространства имен Windows с приложениями Unity для HoloLens
@@ -170,10 +166,6 @@
           href: unity/use-pc-resources.md
         - name: Использование Vuforia
           href: unity/vuforia-development-overview.md
-    - name: Иммерсивная виртуальная реальность
-      items:
-        - name: "Контроллеры HP\_Reverb\_G2"
-          href: unity/unity-reverb-g2-controllers.md
     - name: Примеры приложений
       items:
         - name: "HoloLens\_2"
@@ -276,6 +268,8 @@
       items:
         - name: Фото- и видеокамера HoloLens
           href: unreal/unreal-hololens-camera.md
+        - name: Смешанный захват реальности
+          href: unreal/mixed-reality-capture-unreal.md
         - name: QR-коды
           href: unreal/unreal-qr-codes.md
         - name: UMG и клавиатура
@@ -322,9 +316,9 @@
               href: javascript/tutorials/babylonjs-webxr-piano/keyboard-model-02.md
             - name: 3. Имитация игры на трехмерном пианино
               href: javascript/tutorials/babylonjs-webxr-piano/keyboard-interaction-03.md
-- name: Собственный движок
+- name: Нативные подсистемы
   items:
-    - name: Общие сведения о разработке собственного движка
+    - name: Обзор нативных подсистем
       href: native/directx-development-overview.md
     - name: OpenXR
       items:
@@ -340,7 +334,7 @@
           href: native/openxr-troubleshooting.md
     - name: WinRT (устаревшая версия)
       items:
-        - name: Начало работы
+        - name: Основные стандартные блоки
           items:
             - name: Создание собственного голографического проекта
               href: native/creating-a-holographic-directx-project.md
@@ -350,127 +344,133 @@
               href: native/rendering-in-directx.md
             - name: Системы координат
               href: native/coordinate-systems-in-directx.md
-        - name: Основные компоненты
-          items:
-            - name: Направление головы и взгляда
-              href: native/gaze-in-directx.md
-            - name: Руки и контроллеры движений
-              href: native/hands-and-motion-controllers-in-directx.md
-            - name: Голосовой ввод
-              href: native/voice-input-in-directx.md
+            - name: Взаимодействия
+              items:
+                - name: 'Ввод с помощью клавиатуры, мыши и контроллеров'
+                  href: native/keyboard-mouse-and-controller-input-cpp.md
+                - name: Направление головы и взгляда
+                  href: native/gaze-in-directx.md
+                - name: Руки и контроллеры движений
+                  href: native/hands-and-motion-controllers-in-directx.md
+                - name: Голосовой ввод
+                  href: native/voice-input-in-directx.md
             - name: пространственное сопоставление
               href: native/spatial-mapping-in-directx.md
-- name: Возможности и интерфейсы API платформы
-  items:
-    - name: Основные компоненты
+        - name: Представления приложения
+          items:
+            - name: Использование XAML с голографическими приложениями DirectX
+              href: native/using-xaml-with-holographic-directx-apps.md
+        - name: Камера и съемка
+          items:
+            - name: Камера с определяемым местоположением
+              href: native/locatable-camera-cpp.md
+            - name: Съемка смешанной реальности (DirectX)
+              href: native/mixed-reality-capture-directx.md
+        - name: Отслеживание QR-кода
+          items:
+            - name: Отслеживание QR-кода
+              href: native/qr-code-tracking-cs-cpp.md
+    - name: Отладка и производительность
       items:
-        - name: Общие пространственные привязки
-          href: platform-capabilities-and-apis/shared-spatial-anchors-in-directx.md
-        - name: 'Ввод с помощью клавиатуры, мыши и контроллера (с примерами на C++)'
-          href: platform-capabilities-and-apis/keyboard-mouse-and-controller-input-in-directx.md
-        - name: Использование XAML с голографическими приложениями DirectX
-          href: platform-capabilities-and-apis/using-xaml-with-holographic-directx-apps.md
-        - name: Отслеживание QR-кода (с примерами на C# и C++)
-          href: platform-capabilities-and-apis/qr-code-tracking.md
-    - name: Общие возможности в смешанной реальности
-      items:
-        - name: Общие возможности в смешанной реальности
-          href: platform-capabilities-and-apis/shared-experiences-in-mixed-reality.md
-        - name: Пространственные привязки Azure
-          href: /azure/spatial-anchors/
-        - name: Зрительское представление
-          href: platform-capabilities-and-apis/spectator-view.md
-        - name: 'WebRTC (C#, C++, Unity)'
-          href: 'https://github.com/microsoft/MixedReality-WebRTC'
-    - name: Камера и съемка
-      items:
-        - name: Камера с определяемым местоположением (с примерами на C++)
-          href: platform-capabilities-and-apis/locatable-camera.md
-        - name: Приложение "Съемка смешанной реальности" для разработчиков (с примерами на C# и C++)
-          href: platform-capabilities-and-apis/mixed-reality-capture-for-developers.md
-        - name: 'Студия съемки смешанной реальности: принцип работы'
-          href: platform-capabilities-and-apis/how-it-works-mixed-reality-capture-studios.md
-        - name: "Установка PIX для HoloLens\_2"
-          href: platform-capabilities-and-apis/installing-pix-hololens.md
+        - name: Объемная отрисовка
+          href: native/volume-rendering.md
+        - name: Настройка производительности и отладка
+          href: advanced-concepts/installing-pix-hololens.md
     - name: Голографическое удаленное взаимодействие
       items:
-        - name: Общие сведения
-          href: platform-capabilities-and-apis/holographic-remoting-overview.md
-        - name: Проигрыватель из Store
-          href: platform-capabilities-and-apis/holographic-remoting-player.md
-        - name: API OpenXR
+        - name: Создание приложения с голографическим удаленным взаимодействием
           items:
-            - name: Создание удаленного приложения (C++)
-              href: platform-capabilities-and-apis/holographic-remoting-create-remote-openxr.md
-            - name: Пользовательские каналы данных (C++)
-              href: platform-capabilities-and-apis/holographic-remoting-custom-data-channels-openxr.md
-            - name: Безопасное подключение (C++)
-              href: platform-capabilities-and-apis/holographic-remoting-secure-connection.md
-            - name: Синхронизация системы координат (C++)
-              items:
-                - name: Общие сведения
-                  href: platform-capabilities-and-apis/holographic-remoting-coordinate-system-synchronization.md
-                - name: Синхронизация системы координат API OpenXR
-                  href: platform-capabilities-and-apis/holographic-remoting-coordinate-system-synchronization-openxr.md
-        - name: API для Windows Mixed Reality
-          items:
-            - name: Создание удаленного приложения (C++)
-              href: platform-capabilities-and-apis/holographic-remoting-create-remote-wmr.md
-            - name: Создание пользовательского проигрывателя (C++)
-              href: platform-capabilities-and-apis/holographic-remoting-create-player.md
-            - name: Пользовательские каналы данных (C++)
-              href: platform-capabilities-and-apis/holographic-remoting-custom-data-channels.md
-            - name: Безопасное подключение (C++)
-              href: platform-capabilities-and-apis/holographic-remoting-secure-connection.md
-            - name: Синхронизация системы координат (C++)
-              items:
-                - name: Общие сведения
-                  href: platform-capabilities-and-apis/holographic-remoting-coordinate-system-synchronization.md
-                - name: Синхронизация системы координат с помощью API Windows Mixed Reality
-                  href: platform-capabilities-and-apis/holographic-remoting-coordinate-system-synchronization-wmr.md
-            - name: "Голографическое удаленное взаимодействие для HoloLens\_(1-го поколения)"
-              href: platform-capabilities-and-apis/add-holographic-remoting.md
+            - name: API HolographicSpace
+              href: native/holographic-remoting-create-remote-wmr.md
+            - name: API OpenXR
+              href: native/holographic-remoting-create-remote-openxr.md
+        - name: Создание пользовательского проигрывателя для голографического удаленного взаимодействия
+          href: native/holographic-remoting-create-player.md
+        - name: Пользовательские каналы данных с голографическим удаленным взаимодействием
+          href: native/holographic-remoting-custom-data-channels.md
+        - name: Безопасное подключение с использованием голографического удаленного взаимодействия
+          href: native/holographic-remoting-secure-connection.md
         - name: Устранение неполадок и ограничения
-          href: platform-capabilities-and-apis/holographic-remoting-troubleshooting.md
+          href: native/holographic-remoting-troubleshooting.md
         - name: Журнал версий
-          href: platform-capabilities-and-apis/holographic-remoting-version-history.md
-        - name: Условия лицензионного соглашения на использование программного обеспечения
+          href: native/holographic-remoting-version-history.md
+        - name: Условия лицензии на использование ПО для голографического удаленного взаимодействия
           href: /legal/mixed-reality/microsoft-holographic-remoting-software-license-terms
-    - name: Проверка качества и тестирование приложений
+        - name: "Голографическое удаленное взаимодействие для HoloLens\_(1-го поколения)"
+          href: native/add-holographic-remoting.md
+- name: Дополнительные сведения
+  items:
+    - name: Обзор
+      href: native/advanced-concepts-overview.md
+    - name: Камера и съемка
       items:
-        - name: Критерии качества приложения
-          href: platform-capabilities-and-apis/app-quality-criteria.md
-        - name: Голографическая отрисовка
-          href: platform-capabilities-and-apis/rendering.md
-        - name: Объемная отрисовка (с примерами на C++)
-          href: platform-capabilities-and-apis/volume-rendering.md
-        - name: Стабильность голограммы (с примерами на C#)
-          href: platform-capabilities-and-apis/hologram-stability.md
-        - name: Understanding performance for Mixed Reality (Основные сведения о производительности для Смешанной реальности)
-          href: platform-capabilities-and-apis/understanding-performance-for-mixed-reality.md
-        - name: Рекомендации по производительности для Unity
-          href: unity/performance-recommendations-for-unity.md
-        - name: Развертывание и отладка с помощью Visual Studio
-          href: platform-capabilities-and-apis/using-visual-studio.md
-        - name: Тестирование приложения на устройстве HoloLens
-          href: platform-capabilities-and-apis/testing-your-app-on-hololens.md
-        - name: Использование эмулятора HoloLens
-          href: platform-capabilities-and-apis/using-the-hololens-emulator.md
-        - name: Использование симулятора Windows Mixed Reality
-          href: platform-capabilities-and-apis/using-the-windows-mixed-reality-simulator.md
-        - name: Сложный ввод с помощью эмулятора HoloLens и симулятора Windows Mixed Reality
-          href: platform-capabilities-and-apis/advanced-hololens-emulator-and-mixed-reality-simulator-input.md
-        - name: Архив эмулятора HoloLens
-          href: platform-capabilities-and-apis/hololens-emulator-archive.md
-        - name: Моделирование восприятия (с примерами на C#)
-          href: platform-capabilities-and-apis/perception-simulation.md
+        - name: Камера с определяемым местоположением
+          href: advanced-concepts/locatable-camera-overview.md
+        - name: Съемка смешанной реальности
+          href: advanced-concepts/mixed-reality-capture-overview.md
+        - name: 'Студия съемки смешанной реальности: принцип работы'
+          href: advanced-concepts/how-it-works-mixed-reality-capture-studios.md
+    - name: Совместное использование и размещение голограмм
+      items:
+        - name: Совместное использование голограмм с помощью привязок
+          href: advanced-concepts/shared-spatial-anchors-in-directx.md
+        - name: Отслеживание QR-кода
+          href: advanced-concepts/qr-code-tracking-overview.md
+    - name: Передача аудио и видео в режиме реального времени
+      items:
+        - name: 'WebRTC (C#, C++, Unity)'
+          href: 'https://github.com/microsoft/MixedReality-WebRTC'
+    - name: Голографическое удаленное взаимодействие
+      items:
+        - name: Обзор удаленного голографического взаимодействия
+          href: advanced-concepts/holographic-remoting-overview.md
+        - name: Проигрыватель для голографического удаленного взаимодействия
+          href: advanced-concepts/holographic-remoting-player.md
+    - name: Перенос приложений
+      items:
+        - name: Общие сведения о переносе
+          href: porting-apps/porting-overview.md
+        - name: Перенос приложений HoloLens (1-го поколения) в HoloLens 2
+          href: porting-apps/porting-hl1-hl2.md
+        - name: Перенос приложений VR в Windows Mixed Reality
+          href: porting-apps/porting-guides.md
+        - name: Обновление приложений SteamVR для Windows Mixed Reality
+          href: porting-apps/updating-your-steamvr-application-for-windows-mixed-reality.md
+        - name: 'Обновление приложений UWP, работающих в двухмерном режиме, для Windows Mixed Reality'
+          href: porting-apps/building-2d-apps.md
     - name: Портал устройств
       items:
         - name: Использование портала устройств Windows
-          href: platform-capabilities-and-apis/using-the-windows-device-portal.md
+          href: advanced-concepts/using-the-windows-device-portal.md
         - name: Справочные материалы по API портала устройств (REST)
-          href: platform-capabilities-and-apis/device-portal-api-reference.md
+          href: advanced-concepts/device-portal-api-reference.md
     - name: Инструменты для исследования
       items:
         - name: Режим исследования в HoloLens
-          href: platform-capabilities-and-apis/research-mode.md
+          href: advanced-concepts/research-mode.md
+- name: Проверка качества и тестирование приложений
+  items:
+    - name: Критерии качества приложения
+      href: advanced-concepts/app-quality-criteria-overview.md
+    - name: Голографическая отрисовка
+      href: advanced-concepts/rendering-overview.md
+    - name: Объемная отрисовка
+      href: advanced-concepts/volume-rendering-overview.md
+    - name: Стабильность голограммы
+      href: advanced-concepts/hologram-stability.md
+    - name: Understanding performance for Mixed Reality (Основные сведения о производительности для Смешанной реальности)
+      href: advanced-concepts/understanding-performance-for-mixed-reality.md
+    - name: Развертывание и отладка с помощью Visual Studio
+      href: advanced-concepts/using-visual-studio.md
+    - name: Тестирование приложения на устройстве HoloLens
+      href: advanced-concepts/testing-your-app-on-hololens.md
+    - name: Использование эмулятора HoloLens
+      href: advanced-concepts/using-the-hololens-emulator.md
+    - name: Использование симулятора Windows Mixed Reality
+      href: advanced-concepts/using-the-windows-mixed-reality-simulator.md
+    - name: Сложный ввод с помощью эмулятора HoloLens и симулятора Windows Mixed Reality
+      href: advanced-concepts/advanced-hololens-emulator-and-mixed-reality-simulator-input.md
+    - name: Архив эмулятора HoloLens
+      href: advanced-concepts/hololens-emulator-archive.md
+    - name: Моделирование восприятия
+      href: advanced-concepts/perception-simulation-overview.md

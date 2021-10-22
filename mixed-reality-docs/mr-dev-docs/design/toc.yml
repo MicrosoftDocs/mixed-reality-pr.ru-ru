@@ -28,12 +28,16 @@
       href: spatial-sound.md
     - name: пространственное сопоставление
       href: spatial-mapping.md
+    - name: Зрительское представление
+      href: spectator-view.md
     - name: Системный жест
       href: system-gesture.md
     - name: Типы приложений смешанной реальности
       href: types-of-mixed-reality-apps.md
     - name: Проектирование содержимого для голографического дисплея
       href: designing-content-for-holographic-display.md
+    - name: Общие возможности в смешанной реальности
+      href: ../design/shared-experiences-in-mixed-reality.md
 - name: Модели взаимодействия
   items:
     - name: Инстинктивное взаимодействие
