@@ -149,7 +149,7 @@
     - name: Лаборатории проектирования смешанной реальности
       href: 'https://github.com/microsoft/MixedRealityDesignLabs_Unity'
     - name: Microsoft Maquette
-      href: 'https://www.maquette.ms/'
+      href: maquette.md
     - name: Процесс создания ресурсов
       href: asset-creation-process.md
     - name: Разработка собственных иммерсивных сред
