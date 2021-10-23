@@ -6,12 +6,12 @@ ms.author: vimusch
 ms.date: 09/07/2021
 ms.topic: article
 keywords: HoloLens, HoloLens 2, mixed reality, мртк, смешанная реальность набор средств, дополненная реальность, виртуальная реальность, телефоны смешанной реальности, обучение, учебник, начало работы, holographic удаленное взаимодействие
-ms.openlocfilehash: f516cd9a518db4b365eb2912fb87912f8feeff34
-ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
+ms.openlocfilehash: dde7805a5d39a01159c4a7ed3100d2813c6c63ce
+ms.sourcegitcommit: 4f847aba212e97b1639299ddbe2b1a7b27c60f4d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "130157884"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "130203935"
 ---
 # <a name="coordinate-system-synchronization-with-holographic-remoting-overview"></a>Общие сведения о синхронизации системы в holographic с помощью удаленного взаимодействия
 
@@ -33,5 +33,5 @@ ms.locfileid: "130157884"
 > Для синхронизации данных из нескольких систем координат можно преобразовать данные в систему координат пользователя.
     
 ## <a name="see-also"></a>См. также:
-* [Синхронизация системы координирования с помощью удаленного взаимодействия и API Опенкср](holographic-remoting-coordinate-system-synchronization-openxr.md)
-* [синхронизация системы координирования с помощью удаленного взаимодействия с holographic и Windows Mixed Reality API](holographic-remoting-coordinate-system-synchronization-wmr.md)
+* [Синхронизация системы координирования с помощью удаленного взаимодействия и API Опенкср](../native/holographic-remoting-coordinate-system-synchronization-openxr.md)
+* [синхронизация системы координирования с помощью удаленного взаимодействия с holographic и Windows Mixed Reality API](../native/holographic-remoting-coordinate-system-synchronization-wmr.md)

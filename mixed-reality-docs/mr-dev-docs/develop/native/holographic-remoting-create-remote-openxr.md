@@ -6,12 +6,12 @@ ms.author: v-vtieto
 ms.date: 9/3/2021
 ms.topic: article
 keywords: HoloLens, удаленное взаимодействие, удаленное взаимодействие, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности, NuGet
-ms.openlocfilehash: a324703a749128b9c4bac74632a696980baf5e26
-ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
+ms.openlocfilehash: b7642436888960d73eb59eea1e6f621865172016
+ms.sourcegitcommit: 4f847aba212e97b1639299ddbe2b1a7b27c60f4d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "130158188"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "130203969"
 ---
 # <a name="writing-a-holographic-remoting-remote-app-using-the-openxr-api"></a>Создание удаленного приложения holographic с удаленным взаимодействием с помощью API Опенкср
 
@@ -210,7 +210,7 @@ m_window->PresentSwapchain();
 
 ## <a name="optional-custom-data-channels"></a>Необязательно: пользовательские каналы данных
 
-Начиная с версии [2.5.0](holographic-remoting-version-history.md#v2.5.0), пользовательские каналы данных можно использовать с API опенкср для отправки пользовательских данных через уже установленное удаленное соединение. Дополнительные сведения см. [в разделе Пользовательские каналы данных с помощью API опенкср](../advanced-concepts/holographic-remoting-custom-data-channels-openxr.md).
+Начиная с версии [2.5.0](holographic-remoting-version-history.md#v2.5.0), пользовательские каналы данных можно использовать с API опенкср для отправки пользовательских данных через уже установленное удаленное соединение. Дополнительные сведения см. [в разделе Пользовательские каналы данных с помощью API опенкср](holographic-remoting-custom-data-channels-openxr.md).
 
 ## <a name="optional-speech"></a>Необязательно: речь
 

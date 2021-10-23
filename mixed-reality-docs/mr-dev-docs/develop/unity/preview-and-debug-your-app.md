@@ -1,17 +1,17 @@
 ---
-title: Предварительный просмотр и отладка приложения с помощью holographic, удаленного взаимодействия и режима воспроизведения
-description: Используйте holographic для удаленного взаимодействия и режима воспроизведения для предварительного просмотра и отладки приложения
+title: Предварительный просмотр и отладка приложения с помощью holographic для удаленного взаимодействия в режиме воспроизведения
+description: Использование удаленного взаимодействия holographic в режиме воспроизведения для предварительного просмотра и отладки приложения
 author: vtieto
 ms.author: v-vtieto
 ms.date: 08/12/2021
 ms.topic: article
 keywords: опенкср, unity, hololens, hololens 2, mixed reality, мртк, смешанная реальность набор средств, дополненная реальность, виртуальная реальность, гарнитуры смешанной реальности, обучение, учебник, начало работы, holographic удаленное взаимодействие, настольный, предварительный просмотр, отладка
-ms.openlocfilehash: f156eed6a578d8b500935964a6e1b8be68f5bb5f
-ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
+ms.openlocfilehash: 061f96828d6ac023d16d98fd6b0aa524a61ee622
+ms.sourcegitcommit: 4f847aba212e97b1639299ddbe2b1a7b27c60f4d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "130154130"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "130204190"
 ---
 # <a name="preview-and-debug-your-app-using-holographic-remoting-and-play-mode"></a>Предварительный просмотр и отладка приложения с использованием удаленного взаимодействия и режима воспроизведения holographic
 

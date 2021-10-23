@@ -1,19 +1,19 @@
 ---
-title: Использование ресурсов ПК для управления приложением с помощью удаленного взаимодействия с holographic
+title: Использование ресурсов ПК для управления приложением с помощью удаленного приложения holographic с удаленным взаимодействием
 description: используйте ресурсы пк, вместо того чтобы полагаться на встроенную вычислительную мощность HoloLens, чтобы включить приложение с помощью удаленного взаимодействия с holographic.
 author: vtieto
 ms.author: v-vtieto
 ms.date: 10/05/2021
 ms.topic: article
 keywords: опенкср, unity, hololens, hololens 2, mixed reality, мртк, смешанная реальность набор средств, дополненная реальность, виртуальная реальность, гарнитуры смешанной реальности, обучение, учебник, начало работы, holographic удаленное взаимодействие, настольный, предварительный просмотр, отладка
-ms.openlocfilehash: 0d665bed3291a045558939502d395fd8dd4a4e0e
-ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
+ms.openlocfilehash: 18d605b2de01df19fa61c2778b2dc2894a59ec6a
+ms.sourcegitcommit: 4f847aba212e97b1639299ddbe2b1a7b27c60f4d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "130153651"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "130204136"
 ---
-# <a name="use-pc-resources-to-power-your-app-with-holographic-remoting"></a>Использование ресурсов ПК для управления приложением с помощью удаленного взаимодействия с holographic
+# <a name="use-pc-resources-to-power-your-app-with-holographic-remoting-remote-app"></a>Использование ресурсов ПК для управления приложением с помощью удаленного приложения holographic с удаленным взаимодействием
 
 В этой статье описывается следующий вариант использования для удаленного взаимодействия с Holographic.
 
