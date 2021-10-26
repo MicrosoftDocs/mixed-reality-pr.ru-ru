@@ -120,14 +120,14 @@
           href: unity/shared-experiences-in-unity.md
         - name: Взаимодействия
           items:
+            - name: Отслеживание рук и взгляда
+              href: unity/hand-eye-in-unity.md
             - name: Контроллеры движений
               href: unity/motion-controllers-in-unity.md
             - name: "Контроллеры HP\_Reverb\_G2"
               href: unity/unity-reverb-g2-controllers.md
             - name: Жесты
               href: unity/gestures-in-unity.md
-            - name: Отслеживание рук и взгляда
-              href: unity/hand-eye-in-unity.md
             - name: Отслеживание направления головы
               href: unity/gaze-in-unity.md
             - name: Голосовой ввод
@@ -164,6 +164,7 @@
           href: unity/unity-xrdevice-advanced.md
         - name: Использование ресурсов ПК для работы приложения
           href: unity/use-pc-resources.md
+          displayname: Holographic Remoting
         - name: Использование Vuforia
           href: unity/vuforia-development-overview.md
     - name: Примеры приложений
@@ -196,6 +197,7 @@
           href: unity/recommended-settings-for-unity.md
         - name: Предварительный просмотр и отладка приложения с помощью голографического удаленного взаимодействия
           href: unity/preview-and-debug-your-app.md
+          displayname: Holographic Remoting
     - name: Решения Visual Studio
       items:
         - name: Экспорт и разработка решения Visual Studio для Unity
@@ -206,6 +208,7 @@
       items:
         - name: Подключаемый OpenXR для смешанной реальности
           href: unity/openxr-release-notes.md
+          displayname: release notes
 - name: Unreal
   items:
     - name: Обзор разработки для Unreal
@@ -376,32 +379,71 @@
           href: native/volume-rendering.md
         - name: Настройка производительности и отладка
           href: advanced-concepts/installing-pix-hololens.md
-    - name: Голографическое удаленное взаимодействие
+- name: Голографическое удаленное взаимодействие
+  items:
+    - name: Общие сведения
+      href: advanced-concepts/holographic-remoting-overview.md
+      displayname: Holographic Remoting
+    - name: Проигрыватель из Store
+      href: advanced-concepts/holographic-remoting-player.md
+      displayname: Holographic Remoting
+    - name: API OpenXR
       items:
-        - name: Создание приложения с голографическим удаленным взаимодействием
-          items:
-            - name: API HolographicSpace
-              href: native/holographic-remoting-create-remote-wmr.md
-            - name: API OpenXR
-              href: native/holographic-remoting-create-remote-openxr.md
-        - name: Создание пользовательского проигрывателя для голографического удаленного взаимодействия
-          href: native/holographic-remoting-create-player.md
-        - name: Пользовательские каналы данных с голографическим удаленным взаимодействием
-          href: native/holographic-remoting-custom-data-channels.md
-        - name: Безопасное подключение с использованием голографического удаленного взаимодействия
+        - name: Создание удаленного приложения (C++)
+          href: native/holographic-remoting-create-remote-openxr.md
+          displayname: Holographic Remoting
+        - name: Пользовательские каналы данных (C++)
+          href: native/holographic-remoting-custom-data-channels-openxr.md
+          displayname: Holographic Remoting
+        - name: Безопасное подключение (C++)
           href: native/holographic-remoting-secure-connection.md
-        - name: Устранение неполадок и ограничения
-          href: native/holographic-remoting-troubleshooting.md
-        - name: Журнал версий
-          href: native/holographic-remoting-version-history.md
-        - name: Условия лицензии на использование ПО для голографического удаленного взаимодействия
-          href: /legal/mixed-reality/microsoft-holographic-remoting-software-license-terms
+          displayname: Holographic Remoting
+        - name: Синхронизация системы координат (C++)
+          items:
+            - name: Обзор
+              href: advanced-concepts/holographic-remoting-coordinate-system-synchronization.md
+              displayname: Holographic Remoting
+            - name: Синхронизация системы координат с помощью API OpenXR
+              href: native/holographic-remoting-coordinate-system-synchronization-openxr.md
+              displayname: Holographic Remoting
+    - name: API для Windows Mixed Reality
+      items:
+        - name: Создание удаленного приложения (C++)
+          href: native/holographic-remoting-create-remote-wmr.md
+          displayname: Holographic Remoting
+        - name: Создание пользовательского проигрывателя (C++)
+          href: native/holographic-remoting-create-player.md
+          displayname: Holographic Remoting
+        - name: Пользовательские каналы данных (C++)
+          href: native/holographic-remoting-custom-data-channels.md
+          displayname: Holographic Remoting
+        - name: Безопасное подключение (C++)
+          href: native/holographic-remoting-secure-connection.md
+          displayname: Holographic Remoting
+        - name: Синхронизация системы координат (C++)
+          items:
+            - name: Обзор
+              href: advanced-concepts/holographic-remoting-coordinate-system-synchronization.md
+              displayname: Holographic Remoting
+            - name: Синхронизация системы координат с помощью API Windows Mixed Reality
+              href: native/holographic-remoting-coordinate-system-synchronization-wmr.md
+              displayname: Holographic Remoting
         - name: "Голографическое удаленное взаимодействие для HoloLens\_(1-го поколения)"
           href: native/add-holographic-remoting.md
+          displayname: Holographic Remoting
+    - name: Устранение неполадок и ограничения
+      href: native/holographic-remoting-troubleshooting.md
+      displayname: Holographic Remoting
+    - name: Журнал версий
+      href: native/holographic-remoting-version-history.md
+      displayname: Holographic Remoting
+    - name: Условия лицензионного соглашения на использование программного обеспечения
+      href: /legal/mixed-reality/microsoft-holographic-remoting-software-license-terms
+      displayname: Holographic Remoting
 - name: Дополнительные сведения
   items:
     - name: Обзор
-      href: native/advanced-concepts-overview.md
+      href: advanced-concepts/advanced-concepts-overview.md
     - name: Камера и съемка
       items:
         - name: Камера с определяемым местоположением
@@ -420,12 +462,6 @@
       items:
         - name: 'WebRTC (C#, C++, Unity)'
           href: 'https://github.com/microsoft/MixedReality-WebRTC'
-    - name: Голографическое удаленное взаимодействие
-      items:
-        - name: Обзор удаленного голографического взаимодействия
-          href: advanced-concepts/holographic-remoting-overview.md
-        - name: Проигрыватель для голографического удаленного взаимодействия
-          href: advanced-concepts/holographic-remoting-player.md
     - name: Перенос приложений
       items:
         - name: Общие сведения о переносе
