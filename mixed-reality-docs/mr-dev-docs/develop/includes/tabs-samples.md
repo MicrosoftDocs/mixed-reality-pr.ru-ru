@@ -1,16 +1,18 @@
 ---
-ms.openlocfilehash: 5cac1c1ab2fda0564f258611abe891b7706afb62eb2d65b68f234f333fa28a98
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 11596e3e39a7a8df336c448a769e84d42d5305fc
+ms.sourcegitcommit: 4f847aba212e97b1639299ddbe2b1a7b27c60f4d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115227679"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "130204067"
 ---
 # <a name="unity"></a>[Unity](#tab/unity)
 
-Наши команды создали примеры приложений с открытым кодом, чтобы вы могли из первых рук получить помощь в разработке приложений смешанной реальности. Мы предоставили проекты и полный исходный код как справочный мате для обучения.
+Наши команды создали примеры приложений с открытым кодом, чтобы вы могли из первых рук получить помощь в разработке приложений Смешанной реальности. Мы предоставили проекты и полный исходный код как справочный мате для обучения.
 
 ### <a name="hololens-2-open-source-sample-apps"></a>Примеры приложений с открытым кодом для HoloLens 2
+
+Эти примеры приложений создаются с помощью набора Mixed Reality Toolkit для Unity.
 
 :::row:::
     :::column:::
@@ -30,7 +32,7 @@ ms.locfileid: "115227679"
     :::column-end:::
 :::row-end:::
 
-### <a name="hololens-1st-gen-open-source-sample-apps"></a>Примеры приложений с открытым кодом для HoloLens (1-го поколения)
+### <a name="hololens-first-gen-open-source-sample-apps"></a>Примеры приложений с открытым кодом для HoloLens (1-го поколения)
 
 * [Periodic Table of the Elements 1.0](../unity/periodic-table-of-the-elements.md)
 * [Galaxy Explorer 1.0.](../unity/galaxy-explorer.md)
@@ -38,7 +40,7 @@ ms.locfileid: "115227679"
 
 # <a name="unreal"></a>[Unreal](#tab/unreal)
 
-Большинство примеров приложений с открытым кодом, созданных нашими специалистами, можно найти в репозитории [с примерами смешанной реальности для Unreal](https://github.com/microsoft/MixedReality-Unreal-Samples) на GitHub. Мы также предоставляем исходный код, чтобы разработчики могли изучать, анализировать и повторно использовать наши проекты.
+Большинство примеров приложений с открытым кодом для Unreal, созданных нашими специалистами, можно найти в этом [репозитории](https://github.com/microsoft/MixedReality-Unreal-Samples) в GitHub. Мы также предоставляем исходный код, чтобы разработчики могли изучать, анализировать и повторно использовать наши проекты.
 
 ### <a name="hololens-2-open-source-sample-apps"></a>Примеры приложений с открытым кодом для HoloLens 2
 
@@ -47,7 +49,7 @@ ms.locfileid: "115227679"
 
 ### <a name="made-with-the-mixed-reality-toolkit-for-unreal"></a>Создано с помощью Mixed Reality Toolkit для Unreal
 
-В части примеров используются интерактивные компоненты пользовательского интерфейса, такие как кнопки и ползунки, предоставляемые [подключаемым модулем UX Tools](https://aka.ms/uxt-unreal) в составе [набора Mixed Reality Toolkit для Unreal](https://aka.ms/mrtk-unreal).
+В части примеров используются интерактивные компоненты пользовательского интерфейса, такие как кнопки и ползунки, предоставляемые [подключаемым модулем UX Tools](https://aka.ms/uxt-unreal) в составе набора [Mixed Reality Toolkit для Unreal](https://aka.ms/mrtk-unreal).
 
 :::row:::
     :::column:::
