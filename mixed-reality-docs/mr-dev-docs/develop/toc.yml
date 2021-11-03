@@ -208,7 +208,7 @@
       items:
         - name: Подключаемый OpenXR для смешанной реальности
           href: unity/openxr-release-notes.md
-          displayname: release notes
+          displayname: 'release notes, Unity, OpenXR, plugin'
 - name: Unreal
   items:
     - name: Обзор разработки для Unreal
