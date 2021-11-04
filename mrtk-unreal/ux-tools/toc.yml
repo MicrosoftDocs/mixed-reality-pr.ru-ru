@@ -1,0 +1,8 @@
+- name: Знакомство с UX Tools
+  href: welcome.md
+- name: Руководство по установке
+  href: installation.md
+- name: Компоненты
+  href: features/toc.yml
+- name: Заметки о выпуске
+  href: release-notes.md

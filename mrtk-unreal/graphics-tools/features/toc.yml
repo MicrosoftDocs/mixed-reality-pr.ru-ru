@@ -1,0 +1,6 @@
+- name: Освещение
+  href: lighting.md
+- name: Индикаторы близости
+  href: proximity-lights.md
+- name: Эффекты
+  href: effects.md

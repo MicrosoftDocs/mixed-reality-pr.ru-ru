@@ -1,2 +1,9 @@
-- name: Индекс
+- name: Добро пожаловать в MRTK для Unreal
   href: index.md
+- name: UX Tools
+  href: ux-tools/toc.yml
+  expanded: true
+- name: Инструменты для графики
+  href: graphics-tools/toc.yml
+- name: Участие
+  href: CONTRIBUTING.md

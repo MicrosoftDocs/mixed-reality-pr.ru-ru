@@ -1,0 +1,32 @@
+- name: Имитация ввода
+  href: input-simulation.md
+- name: Ограничения для руки
+  href: hand-constraint-component.md
+- name: Взаимодействие с рукой
+  href: hand-interaction.md
+- name: Нажимаемая кнопка
+  href: pressable-button.md
+- name: Элементы пользовательского интерфейса
+  href: ui-elements.md
+- name: Манипулятор.
+  href: manipulator.md
+- name: Следящий компонент
+  href: follow-component.md
+- name: Ограничения для ладони
+  href: palm-up-constraint-component.md
+- name: Ползунок сжатия
+  href: pinch-slider.md
+- name: Луч большой дальности
+  href: far-beam.md
+- name: Элемент управления границами
+  href: bounds-control.md
+- name: Касание для размещения
+  href: tap-to-place-component.md
+- name: Притяжение к поверхности
+  href: surface-magnetism.md
+- name: Графика
+  href: graphics.md
+- name: Текст
+  href: text.md
+- name: Служебные программы
+  href: utilities.md
