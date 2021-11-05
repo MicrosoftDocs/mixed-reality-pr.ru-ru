@@ -6,17 +6,20 @@ ms.author: flbagar
 ms.date: 09/29/2021
 ms.topic: article
 keywords: HoloLens, удаленное взаимодействие, удаленное взаимодействие, журнал версий, гарнитура смешанной реальности, гарнитура windows mixed reality, гарнитура виртуальной реальности
-ms.openlocfilehash: 1629b00d0892513314de120e62519d10dd3f23fa
-ms.sourcegitcommit: bea83261bf9ce7a27a618e5bc54dc4d7711f5435
+ms.openlocfilehash: b28604025c025fe36faa6b7c14086b0d7cdfd388
+ms.sourcegitcommit: 4d0952db2f0730e7d74cb3a12cbadc10827b2029
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "130157804"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "131648053"
 ---
 # <a name="holographic-remoting-version-history"></a>Журнал версий службы удаленного взаимодействия с holographic
 
 > [!NOTE]
 > это руководство относится к удаленному взаимодействию с HoloLens 2 и Windows пк под управлением [Windows Mixed Reality](../../discover/navigating-the-windows-mixed-reality-home.md).
+
+## <a name="version-271-october-26-2021"></a>Версия 2.7.1 (26 октября, 2021) <a name="v2.7.1"></a>
+* Исправлены различные ошибки и улучшения стабильности.
 
 ## <a name="version-270-september-29-2021"></a>Версия 2.7.0 (29 сентября, 2021) <a name="v2.7.0"></a>
 * Добавлена поддержка расширения Опенкср XR_MSFT_spatial_anchor_persistence, которая позволяет сохранять и получать пространственные привязки между сеансами приложения на устройстве.
