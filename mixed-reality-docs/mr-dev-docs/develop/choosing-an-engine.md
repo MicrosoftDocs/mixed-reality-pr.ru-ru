@@ -1,17 +1,17 @@
 ---
 title: Выбор движка
 description: ознакомьтесь с вариантами подсистемы, доступными для разработки смешанной реальности для HoloLens и VR.
-author: hferrone
-ms.author: v-hferrone
-ms.date: 04/22/2021
+author: qianw211
+ms.author: v-qianwen
+ms.date: 11/10/2021
 ms.topic: article
 keywords: микседреалититулкит, микседреалититулкит-Unity, гарнитура смешанной реальности, гарнитура Windows Mixed Reality, гарнитура виртуальной реальности, Unity
-ms.openlocfilehash: 14235852f8c90e7ccc4f105f2938ce514ae2933973469db9a0e01bd03d2c1b6d
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 21260819e608531c73ea8217bcc9ed8092910723
+ms.sourcegitcommit: 197af41fe278ae0fb9b5375a866caed5a7d2ff5d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115227559"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "132250671"
 ---
 # <a name="choosing-your-engine"></a>Выбор движка
 
@@ -29,11 +29,6 @@ ms.locfileid: "115227559"
 * Разработчики **машинного кода** с опытом написания собственных трехмерных модулей подготовки отчетов могут создавать пользовательские подсистемы с помощью опенкср. OpenXR — это открытый бесплатный стандарт API от Khronos, который предоставляет возможности нативного доступа к широкому спектру устройств от поставщиков решений смешанной реальности. Вы можете разрабатывать приложения, используя OpenXR с HoloLens 2 или иммерсивную гарнитуру Windows Mixed Reality с компьютером.
 
 * **Веб-** разработчики, создающие привлекательные веб-интерфейсы AR/VR в разных браузерах, могут использовать **вебкср**.
-
-    > [!NOTE]
-    > в настоящее время выполняется **Babylon.js** для HoloLens разработки. Ознакомьтесь [с последними новостями и общайтесь с сообществом](https://doc.babylonjs.com/divingDeeper/webXR/introToWebXR)!
-
-<!-- Babylon is a Javascript-based, open source, 3D graphics engine capable of powering 3D scenes in a web browser. Babylon.js 4.2+ includes support for WebXR. With Babylon React Native, you can even build cross-platform native     applications for PC, mobile, and mixed reality devices. -->
 
 ## <a name="features-and-devices"></a>Функции и устройства
 
