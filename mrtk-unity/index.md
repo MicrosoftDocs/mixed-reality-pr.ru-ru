@@ -3,15 +3,15 @@ title: Документация по MRTK в Unity для разработчик
 description: Сведения о Mixed Reality Toolkit для Unity.
 author: polar-kev
 ms.author: kesemple
-ms.date: 03/03/2021
+ms.date: 11/10/2021
 ms.localizationpriority: high
 keywords: Unity, HoloLens, HoloLens 2, смешанная реальность, разработка, MRTK
-ms.openlocfilehash: ecd12cb6fbed305f1a2532f0b55a6d0441df43fa537c63d9919ae9bc91a675c0
-ms.sourcegitcommit: a1c086aa83d381129e62f9d8942f0fc889ffcab0
+ms.openlocfilehash: 1d205e8fa0bf57c109e1c700b60dd159b28ff1d8
+ms.sourcegitcommit: bb8074afb7e2073f32e8bf9314756b46de25df5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115204826"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "132364047"
 ---
 # <a name="what-is-the-mixed-reality-toolkit"></a>Что такое Mixed Reality Toolkit
 
@@ -48,6 +48,9 @@ MRTK-Unity — это проект, управляемый Майкрософт
 | отслеживание рук Ultraleap. | Leap Motion Controller (Ultraleap) |
 | Мобильные службы | iOS и Android |
 ::: moniker-end
+
+>[!Note]
+>Старайтесь не использовать Unity 2020.3.21f и 2020.3.22f, так как это приводит к миганию и мерцанию в HoloLens 2. Дополнительные сведения см. [здесь](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/10288). 
 
 ## <a name="getting-started-with-mrtk"></a>Начало работы с MRTK
 
