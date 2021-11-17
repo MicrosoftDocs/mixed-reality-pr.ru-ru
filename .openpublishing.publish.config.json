@@ -37,7 +37,7 @@
       "locale": "ru-ru",
       "monikers": [],
       "moniker_ranges": [
-        ">= mrtkunity-2021-01"
+        "\u003E= mrtkunity-2021-01"
       ],
       "xref_query_tags": [
         "/dotnet"
@@ -77,7 +77,7 @@
     {
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft.ru-ru",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {}
     },
     {
@@ -92,7 +92,7 @@
     {
       "path_to_root": "_themes.pdf",
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {}
     }
   ],
