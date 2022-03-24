@@ -29,21 +29,6 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
-    },
-    {
-      "docset_name": "mrtk-unity",
-      "build_source_folder": "mrtk-unity",
-      "build_output_subfolder": "mrtk-unity",
-      "locale": "ru-ru",
-      "monikers": [],
-      "moniker_ranges": [],
-      "xref_query_tags": [
-        "/dotnet"
-      ],
-      "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content"
-      }
     }
   ],
   "notification_subscribers": [],
@@ -55,7 +40,6 @@
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
-  "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -91,7 +75,6 @@
       "template_folder": "_themes.pdf"
     }
   },
-  "docs_build_engine": {
-    "name": "docfx_v3"
-  }
+  "docs_build_engine": {},
+  "contribution_branch_mappings": {}
 }
